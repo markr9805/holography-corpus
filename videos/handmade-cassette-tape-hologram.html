@@ -436,6 +436,65 @@ footer {
     .creator-header { flex-direction: column; }
     h1 { font-size: 1.5em; }
 }
+
+/* Forum styles */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+}
+.forum-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+}
+.forum-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.forum-table tr:hover {
+    background: var(--bg-secondary);
+}
+.forum-table a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.forum-table a:hover {
+    text-decoration: underline;
+}
+.forum-post {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85em;
+}
+.post-author {
+    font-weight: 600;
+    color: var(--accent);
+}
+.post-date {
+    color: var(--text-secondary);
+}
+.post-number {
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+.post-body {
+    padding: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
 </style>
 </head>
 <body>
@@ -445,6 +504,7 @@ footer {
 <nav>
 <a href="../index.html">Home</a>
 <a href="../creators/index.html">Creators</a>
+<a href="../forum/index.html">Forum</a>
 <a href="../search/index.html">Search</a>
 </nav>
 </div>
@@ -461,7 +521,12 @@ footer {
 <tr><td>Watch</td><td><a href="https://www.youtube.com/watch?v=075X-uM7aFo" target="_blank">https://www.youtube.com/watch?v=075X-uM7aFo</a></td></tr>
 </table>
 </div>
-<p><em>Transcript not yet available for this video.</em></p>
+<h2>Transcript</h2>
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer" data-transcript="../transcripts/handmade-cassette-tape-hologram.json" id="transcript-viewer">
+<div class="transcript-loading">Loading transcript…</div>
+<button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button>
+</div>
 </main>
 <footer>
 <div class="container">

@@ -436,6 +436,65 @@ footer {
     .creator-header { flex-direction: column; }
     h1 { font-size: 1.5em; }
 }
+
+/* Forum styles */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+}
+.forum-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+}
+.forum-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.forum-table tr:hover {
+    background: var(--bg-secondary);
+}
+.forum-table a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.forum-table a:hover {
+    text-decoration: underline;
+}
+.forum-post {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85em;
+}
+.post-author {
+    font-weight: 600;
+    color: var(--accent);
+}
+.post-date {
+    color: var(--text-secondary);
+}
+.post-number {
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+.post-body {
+    padding: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
 </style>
 </head>
 <body>
@@ -483,7 +542,7 @@ footer {
         <a href="../videos/holographic-studios-greeting.html" class="card" data-relevance="holography">
             <h3>Holographic Studios greeting</h3>
             <div class="card-meta">Unknown · 0m 10s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Hi, welcome to the Holographic Studios. We&#x27;re the world&#x27;s oldest gallery of holography and we&#x27;re going to show you all the secrets behind the magic of holograms.</div>
         </a>
 
         <a href="../videos/ghost-by-holographic-studios.html" class="card" data-relevance="holography">
@@ -495,73 +554,73 @@ footer {
         <a href="../videos/save-holographic-studios.html" class="card" data-relevance="holography">
             <h3>Save Holographic Studios</h3>
             <div class="card-meta">Unknown · 0m 42s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Hi, I&#x27;m Hannah. And I&#x27;m Sai. Welcome to the Holographic Studios. We are an iconic art institution that&#x27;s been here since the 1970s. Over the past 43 years, we have introduced over 10,000 people to…</div>
         </a>
 
         <a href="../videos/holographer-fan-page-holography-holograms-and-laser.html" class="card" data-relevance="holography">
             <h3>Holographer fan page - holography, holograms, and laser</h3>
             <div class="card-meta">Unknown · 1m 0s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Hi, I&#x27;m Dr. Laser. Welcome to our fan page. If you&#x27;re wondering why you might want to become a fan of our page, it&#x27;s pretty simple. If you&#x27;re interested in holograms, lasers, 3D, science, laser…</div>
         </a>
 
         <a href="../videos/holographic-studios-classes.html" class="card" data-relevance="holography">
             <h3>Holographic Studios - Classes</h3>
             <div class="card-meta">Unknown · 1m 1s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Hi, welcome to the Holographic Studios. We&#x27;ve been teaching holography classes for over 40 years, so if you&#x27;re interested in learning how to make a hologram, consider taking one of our classes. Our…</div>
         </a>
 
         <a href="../videos/the-interferometer.html" class="card" data-relevance="holography">
             <h3>the interferometer</h3>
             <div class="card-meta">Unknown · 1m 3s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Here, I&#x27;m going to record this again. Okay. Okay, and what is exactly an interferometer? Intra? Interferometer. Inter. Interfer. This is the classic Michelson interferometer. The beam is coming in in…</div>
         </a>
 
         <a href="../videos/holographic-studios-hologram-holography-and-lasers.html" class="card" data-relevance="holography">
             <h3>Holographic Studios - hologram, holography, and lasers.</h3>
             <div class="card-meta">Unknown · 1m 7s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Hi, I&#x27;m Dr. Laser. Welcome to our fan page. If you&#x27;re wondering why you might want to become a fan of our page, it&#x27;s pretty simple. If you&#x27;re interested in holograms, lasers, 3D, science, laser…</div>
         </a>
 
         <a href="../videos/laser-safety-101-deadly-lasers.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser Safety 101 - &quot;Deadly lasers&quot;</h3>
             <div class="card-meta">Unknown · 1m 27s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">The following is a public service announcement from the Holographic Studios Department of Laser Safety. Hi, I&#x27;m Dr. Laser. Welcome to Laser Safety 101. You&#x27;ve probably heard of a laser. Laser is the…</div>
         </a>
 
         <a href="../videos/laser-collection-laser-eye-danger.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser collection -  Laser Eye Danger</h3>
             <div class="card-meta">Unknown · 1m 31s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">The following is a public service announcement from the Holographic Studios Department of Laser Safety. Hi, I&#x27;m Dr. Laser. Today we&#x27;re going to talk about laser pointer safety. Laser pointers have…</div>
         </a>
 
         <a href="../videos/laser-safety-102-danger-electrical-shock.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser Safety 102 - Danger - Electrical Shock</h3>
             <div class="card-meta">Unknown · 1m 34s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">The following</div>
         </a>
 
         <a href="../videos/laser-works-videoavi.html" class="card" data-relevance="holography-adjacent">
             <h3>laser works video.AVI</h3>
             <div class="card-meta">Unknown · 2m 9s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Video now This is the argon laser We are now Tweaking it up. We&#x27;ve just got it to fire after messing with it. We&#x27;re now going to try to go for its blue line Which I&#x27;m hoping is in this it&#x27;s the other…</div>
         </a>
 
         <a href="../videos/julia-90-degrees.html" class="card" data-relevance="holography-adjacent">
             <h3>Julia 90 degrees</h3>
             <div class="card-meta">Unknown · 2m 29s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">you you you you you</div>
         </a>
 
         <a href="../videos/julia-corel-01.html" class="card" data-relevance="holography-adjacent">
             <h3>Julia Corel 01</h3>
             <div class="card-meta">Unknown · 2m 29s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Thank you.</div>
         </a>
 
         <a href="../videos/canceling-light-waves-with-an-interferometer.html" class="card" data-relevance="holography">
             <h3>canceling light waves with an interferometer</h3>
             <div class="card-meta">Unknown · 4m 7s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
+            <div class="card-excerpt">Say that again. The interferometer. And what are you doing? I am aligning the interferometer and making light waves cancel each other with any luck. And it&#x27;s just a simple, tedious alignment process,…</div>
         </a>
 </div>
 </main>
