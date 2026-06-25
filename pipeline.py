@@ -263,13 +263,15 @@ def run_parakeet(video_id):
         return False
 
     result = subprocess.run(
-        [PARAKEET_BIN, "--model", PARAKEET_MODEL, "--format", "srt", audio_file],
+        [PARAKEET_BIN, "--model", PARAKEET_MODEL, "--output-format", "srt", "--output-dir", TRANSCRIPTS_DIR, audio_file],
         capture_output=True, text=True, timeout=600
     )
-    if result.returncode == 0 and result.stdout.strip():
-        with open(out_file, "w") as f:
-            f.write(result.stdout.strip())
-        return True
+    if result.returncode == 0:
+        # Parakeet outputs as {video_id}.srt in output-dir
+        raw_out = os.path.join(TRANSCRIPTS_DIR, f"{video_id}.srt")
+        if os.path.exists(raw_out) and not os.path.exists(out_file):
+            os.rename(raw_out, out_file)
+        return os.path.exists(out_file)
     else:
         print(f"      Parakeet error: {result.stderr[:200]}")
         return False

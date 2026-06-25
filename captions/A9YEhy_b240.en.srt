@@ -1,0 +1,964 @@
+1
+00:00:00,900 --> 00:00:05,100
+hello and welcome to another week of
+
+2
+00:00:02,940 --> 00:00:06,359
+Holo talk this is Frank defrota so I
+
+3
+00:00:05,100 --> 00:00:08,940
+want to thank you for tuning in we're
+
+4
+00:00:06,359 --> 00:00:11,219
+coming off of a pretty successful week
+
+5
+00:00:08,940 --> 00:00:13,500
+last week you may remember that we had
+
+6
+00:00:11,219 --> 00:00:15,540
+as a guest Alan Rhodey from
+
+7
+00:00:13,500 --> 00:00:18,140
+from House of Ross books who brings us
+
+8
+00:00:15,540 --> 00:00:20,359
+the holography handbook and the
+
+9
+00:00:18,140 --> 00:00:23,340
+holography marketplace
+
+10
+00:00:20,359 --> 00:00:25,199
+Alan also filled Us in on something that
+
+11
+00:00:23,340 --> 00:00:27,779
+many people on the internet found
+
+12
+00:00:25,199 --> 00:00:30,060
+interesting and that was Sony's new
+
+13
+00:00:27,779 --> 00:00:31,859
+holographic camera where it creates a
+
+14
+00:00:30,060 --> 00:00:34,680
+stereograms it's sort of like a portable
+
+15
+00:00:31,859 --> 00:00:37,320
+Cameron Alan filled Us in on many of the
+
+16
+00:00:34,680 --> 00:00:39,540
+details of that last week after that
+
+17
+00:00:37,320 --> 00:00:42,120
+interview was finished before I put that
+
+18
+00:00:39,540 --> 00:00:44,820
+up to the web and for everyone to listen
+
+19
+00:00:42,120 --> 00:00:46,500
+to I went on to the news groups not only
+
+20
+00:00:44,820 --> 00:00:49,320
+the ones that are interested in
+
+21
+00:00:46,500 --> 00:00:52,200
+holography like physics and Optics and
+
+22
+00:00:49,320 --> 00:00:55,020
+Laser news groups but we also had the
+
+23
+00:00:52,200 --> 00:00:56,640
+opportunity to go on to the photography
+
+24
+00:00:55,020 --> 00:00:57,899
+news groups as well because this is
+
+25
+00:00:56,640 --> 00:01:00,000
+something certainly that would be of
+
+26
+00:00:57,899 --> 00:01:02,940
+interest to amateur and professional
+
+27
+00:01:00,000 --> 00:01:05,760
+photographers as well the fact that they
+
+28
+00:01:02,940 --> 00:01:07,500
+now have a portable device that could
+
+29
+00:01:05,760 --> 00:01:09,540
+just automatically do holographic
+
+30
+00:01:07,500 --> 00:01:11,820
+portraits for them so I posted that
+
+31
+00:01:09,540 --> 00:01:13,260
+information as well and Alan if you're
+
+32
+00:01:11,820 --> 00:01:16,200
+listening I just want to let you know
+
+33
+00:01:13,260 --> 00:01:18,000
+that you've had the best show so far the
+
+34
+00:01:16,200 --> 00:01:20,939
+number of visitors that came on that
+
+35
+00:01:18,000 --> 00:01:23,060
+Monday to hear your presentation on that
+
+36
+00:01:20,939 --> 00:01:27,060
+camera with
+
+37
+00:01:23,060 --> 00:01:29,759
+1133 which is uh photography and
+
+38
+00:01:27,060 --> 00:01:31,259
+something that's as Fringe as holography
+
+39
+00:01:29,759 --> 00:01:33,420
+is now that's that's a pretty good
+
+40
+00:01:31,259 --> 00:01:34,759
+number for one day to listen to this
+
+41
+00:01:33,420 --> 00:01:37,560
+hollow talk show
+
+42
+00:01:34,759 --> 00:01:44,460
+the previous record holder actually was
+
+43
+00:01:37,560 --> 00:01:46,640
+Dr Benton from MIT and we had 1114 so it
+
+44
+00:01:44,460 --> 00:01:49,619
+was a close race but Alan you took it
+
+45
+00:01:46,640 --> 00:01:52,799
+1133 and I believe the next day was 700
+
+46
+00:01:49,619 --> 00:01:54,659
+and some and 670 as the week went on it
+
+47
+00:01:52,799 --> 00:01:56,640
+got lower and lower
+
+48
+00:01:54,659 --> 00:01:58,979
+is a nice
+
+49
+00:01:56,640 --> 00:02:00,540
+nice turnout for last week's show
+
+50
+00:01:58,979 --> 00:02:03,240
+there's not a lot of information this
+
+51
+00:02:00,540 --> 00:02:04,680
+week and I just have a few things here
+
+52
+00:02:03,240 --> 00:02:06,000
+jotted down that I want to cover with
+
+53
+00:02:04,680 --> 00:02:08,880
+you if you remember a few weeks ago I
+
+54
+00:02:06,000 --> 00:02:10,739
+mentioned that if you live in the New
+
+55
+00:02:08,880 --> 00:02:13,860
+York Philadelphia Baltimore Washington
+
+56
+00:02:10,739 --> 00:02:15,780
+D.C Carter that there's going to be a
+
+57
+00:02:13,860 --> 00:02:17,520
+laser and holography traveling exhibit
+
+58
+00:02:15,780 --> 00:02:18,900
+that's coming into this area that if you
+
+59
+00:02:17,520 --> 00:02:21,780
+live in one of those geographical
+
+60
+00:02:18,900 --> 00:02:23,879
+locations or along that Corridor or a
+
+61
+00:02:21,780 --> 00:02:26,160
+little bit on either side of that that
+
+62
+00:02:23,879 --> 00:02:28,340
+Carter that it would be an easy trip for
+
+63
+00:02:26,160 --> 00:02:31,760
+you to come out and see the show
+
+64
+00:02:28,340 --> 00:02:33,900
+the latest news I have on that is that
+
+65
+00:02:31,760 --> 00:02:34,500
+still may need another week before we
+
+66
+00:02:33,900 --> 00:02:36,780
+can
+
+67
+00:02:34,500 --> 00:02:39,000
+information on that it's still con
+
+68
+00:02:36,780 --> 00:02:40,099
+contractual Arrangements have have not
+
+69
+00:02:39,000 --> 00:02:43,620
+been made
+
+70
+00:02:40,099 --> 00:02:46,500
+in blood yet for this show so I've been
+
+71
+00:02:43,620 --> 00:02:48,540
+asked not to give out any information on
+
+72
+00:02:46,500 --> 00:02:51,060
+it as of yet which is okay and as soon
+
+73
+00:02:48,540 --> 00:02:52,980
+as we know we'll let you know I can tell
+
+74
+00:02:51,060 --> 00:02:54,720
+you that it is slated if it does happen
+
+75
+00:02:52,980 --> 00:02:55,860
+and things don't fall through for this
+
+76
+00:02:54,720 --> 00:02:57,959
+summer
+
+77
+00:02:55,860 --> 00:03:00,599
+and it is a major
+
+78
+00:02:57,959 --> 00:03:03,060
+National traveling exhibit for lasers
+
+79
+00:03:00,599 --> 00:03:04,980
+and Holograms now the thing that the
+
+80
+00:03:03,060 --> 00:03:06,420
+part that I'm trying to play in this
+
+81
+00:03:04,980 --> 00:03:07,860
+actually there's a number of different
+
+82
+00:03:06,420 --> 00:03:09,959
+hats I'm wearing with this whole thing
+
+83
+00:03:07,860 --> 00:03:11,519
+but the the thing that will affect some
+
+84
+00:03:09,959 --> 00:03:16,140
+of the listeners is the fact that I'd
+
+85
+00:03:11,519 --> 00:03:19,620
+like very much to have an exhibit
+
+86
+00:03:16,140 --> 00:03:21,659
+of amateur holography to go along with
+
+87
+00:03:19,620 --> 00:03:23,099
+the exhibit that will be there of that
+
+88
+00:03:21,659 --> 00:03:26,400
+professional
+
+89
+00:03:23,099 --> 00:03:29,099
+holography so if you're an amateur or
+
+90
+00:03:26,400 --> 00:03:31,800
+hobbyist then of course you know by that
+
+91
+00:03:29,099 --> 00:03:33,480
+definition your main source of income is
+
+92
+00:03:31,800 --> 00:03:35,220
+not holography but you approach
+
+93
+00:03:33,480 --> 00:03:37,800
+holography the way people approach
+
+94
+00:03:35,220 --> 00:03:40,200
+photography as a hobby and this will
+
+95
+00:03:37,800 --> 00:03:43,560
+include people out in the workforce and
+
+96
+00:03:40,200 --> 00:03:46,140
+also students and teachers as well
+
+97
+00:03:43,560 --> 00:03:48,360
+if you've done a few Holograms
+
+98
+00:03:46,140 --> 00:03:51,840
+and you would be interested in having
+
+99
+00:03:48,360 --> 00:03:55,379
+one of those Holograms exhibited
+
+100
+00:03:51,840 --> 00:03:57,959
+in a national traveling Exhibit while
+
+101
+00:03:55,379 --> 00:03:59,340
+it's here the Holograms won't go on the
+
+102
+00:03:57,959 --> 00:04:02,640
+road with it once you said it's finished
+
+103
+00:03:59,340 --> 00:04:04,860
+but once it's here drop me an email and
+
+104
+00:04:02,640 --> 00:04:07,440
+let me know and I'll put your email into
+
+105
+00:04:04,860 --> 00:04:10,379
+a folder and when this goes through
+
+106
+00:04:07,440 --> 00:04:13,319
+within the next week or so I'll contact
+
+107
+00:04:10,379 --> 00:04:16,680
+you and we'll make arrangements to have
+
+108
+00:04:13,319 --> 00:04:18,780
+one of your amateur hobbyists Holograms
+
+109
+00:04:16,680 --> 00:04:20,280
+in this show as well because I feel it's
+
+110
+00:04:18,780 --> 00:04:23,280
+very important
+
+111
+00:04:20,280 --> 00:04:26,880
+that the amateur and hobbyist
+
+112
+00:04:23,280 --> 00:04:29,820
+holographer is represented in shows
+
+113
+00:04:26,880 --> 00:04:31,919
+okay to move on another thing I want to
+
+114
+00:04:29,820 --> 00:04:33,419
+follow up on is the light craft store if
+
+115
+00:04:31,919 --> 00:04:36,600
+you remember this may have gone back
+
+116
+00:04:33,419 --> 00:04:38,160
+about two months we had a story on here
+
+117
+00:04:36,600 --> 00:04:41,759
+that there's actually
+
+118
+00:04:38,160 --> 00:04:43,500
+um a device a laser device which is
+
+119
+00:04:41,759 --> 00:04:48,440
+being tested out of I believe White
+
+120
+00:04:43,500 --> 00:04:50,880
+Sands Missile Range which launches
+
+121
+00:04:48,440 --> 00:04:52,860
+vehicles in the space using laser light
+
+122
+00:04:50,880 --> 00:04:55,080
+and this is not science fiction this is
+
+123
+00:04:52,860 --> 00:04:56,759
+absolutely true this is a joint project
+
+124
+00:04:55,080 --> 00:05:00,720
+I believe between us and the government
+
+125
+00:04:56,759 --> 00:05:01,979
+and the Air Force and I contacted them
+
+126
+00:05:00,720 --> 00:05:03,419
+and asked them if they'd be interested
+
+127
+00:05:01,979 --> 00:05:04,979
+to be on the show and he did get back to
+
+128
+00:05:03,419 --> 00:05:06,060
+me and they said that they would and
+
+129
+00:05:04,979 --> 00:05:07,919
+that they were going to have an
+
+130
+00:05:06,060 --> 00:05:09,900
+announcement to make possibly by the end
+
+131
+00:05:07,919 --> 00:05:13,020
+of February and the beginning of March
+
+132
+00:05:09,900 --> 00:05:15,120
+which it is now so I'm going to let this
+
+133
+00:05:13,020 --> 00:05:17,220
+go for a few more days possibly a week
+
+134
+00:05:15,120 --> 00:05:18,660
+and if I don't hear from them I'll
+
+135
+00:05:17,220 --> 00:05:21,479
+contact them again and get them on the
+
+136
+00:05:18,660 --> 00:05:23,580
+show because from what I understand they
+
+137
+00:05:21,479 --> 00:05:24,600
+had certain height restrictions out at
+
+138
+00:05:23,580 --> 00:05:26,880
+the
+
+139
+00:05:24,600 --> 00:05:30,720
+the testing grounds for launching these
+
+140
+00:05:26,880 --> 00:05:33,180
+vehicles with the laser and those
+
+141
+00:05:30,720 --> 00:05:35,400
+restrictions may be lifted
+
+142
+00:05:33,180 --> 00:05:36,720
+we'll get more information in on that if
+
+143
+00:05:35,400 --> 00:05:38,280
+you want more information well it's just
+
+144
+00:05:36,720 --> 00:05:41,039
+an email and I'll send that along to you
+
+145
+00:05:38,280 --> 00:05:44,160
+let's see next week's guest
+
+146
+00:05:41,039 --> 00:05:47,699
+and we have a surprise mystery guest
+
+147
+00:05:44,160 --> 00:05:50,639
+next week and this gentleman is a very
+
+148
+00:05:47,699 --> 00:05:52,979
+serious and uh possibly one of the top
+
+149
+00:05:50,639 --> 00:05:55,680
+collectors in the United States for
+
+150
+00:05:52,979 --> 00:05:56,940
+holography and what we're doing we're
+
+151
+00:05:55,680 --> 00:05:58,380
+going to have him on the show and have
+
+152
+00:05:56,940 --> 00:06:00,539
+him talk about the collection that he
+
+153
+00:05:58,380 --> 00:06:03,539
+has in some of his unique pieces and his
+
+154
+00:06:00,539 --> 00:06:04,860
+uh his pride and joy pieces and I also
+
+155
+00:06:03,539 --> 00:06:06,600
+want to talk to him and get some
+
+156
+00:06:04,860 --> 00:06:09,120
+information and tips for the listeners
+
+157
+00:06:06,600 --> 00:06:11,340
+that if they were interested in starting
+
+158
+00:06:09,120 --> 00:06:14,340
+their own collection of holograms how
+
+159
+00:06:11,340 --> 00:06:15,660
+they can go about doing it now it's
+
+160
+00:06:14,340 --> 00:06:16,979
+tough to get started with a collection
+
+161
+00:06:15,660 --> 00:06:18,600
+of holograms if you're interested in
+
+162
+00:06:16,979 --> 00:06:20,340
+very serious work because you can pay
+
+163
+00:06:18,600 --> 00:06:21,720
+upwards of ten twenty thirty thousand
+
+164
+00:06:20,340 --> 00:06:24,360
+dollars I would imagine for some of the
+
+165
+00:06:21,720 --> 00:06:25,979
+better holographic pieces out there that
+
+166
+00:06:24,360 --> 00:06:27,900
+have been created by some of the more
+
+167
+00:06:25,979 --> 00:06:30,240
+famous holographic artists
+
+168
+00:06:27,900 --> 00:06:31,979
+at the opposite end of the spectrum we
+
+169
+00:06:30,240 --> 00:06:34,259
+have Holograms that you can collect for
+
+170
+00:06:31,979 --> 00:06:36,240
+virtually nothing you know that you find
+
+171
+00:06:34,259 --> 00:06:39,960
+out there in that packaging and
+
+172
+00:06:36,240 --> 00:06:42,600
+advertising and Publishing so we'll try
+
+173
+00:06:39,960 --> 00:06:45,120
+and bring those two ends together and
+
+174
+00:06:42,600 --> 00:06:47,039
+try and get the best of both worlds and
+
+175
+00:06:45,120 --> 00:06:48,600
+get across to the listeners that if
+
+176
+00:06:47,039 --> 00:06:51,240
+you're interested in getting a
+
+177
+00:06:48,600 --> 00:06:53,639
+holography collection started what's the
+
+178
+00:06:51,240 --> 00:06:55,139
+best way to go about doing it I
+
+179
+00:06:53,639 --> 00:06:58,319
+published a newsletter for many years
+
+180
+00:06:55,139 --> 00:07:01,919
+from 1983 called the Hologram and one of
+
+181
+00:06:58,319 --> 00:07:04,319
+those issues which was the top request
+
+182
+00:07:01,919 --> 00:07:06,660
+for back issues was an issue which was
+
+183
+00:07:04,319 --> 00:07:09,419
+called antiquarian holographica
+
+184
+00:07:06,660 --> 00:07:11,520
+and it sort of got into the issue of
+
+185
+00:07:09,419 --> 00:07:13,319
+collecting Holograms so maybe we'll go
+
+186
+00:07:11,520 --> 00:07:15,419
+back into one of those back issues and
+
+187
+00:07:13,319 --> 00:07:16,800
+bring up some of that information as
+
+188
+00:07:15,419 --> 00:07:19,199
+well
+
+189
+00:07:16,800 --> 00:07:20,819
+okay believe it or not there were no
+
+190
+00:07:19,199 --> 00:07:22,800
+emails and no telephone calls this week
+
+191
+00:07:20,819 --> 00:07:24,660
+I did get a number of emails concerning
+
+192
+00:07:22,800 --> 00:07:26,940
+the show last week Alan Rhody said
+
+193
+00:07:24,660 --> 00:07:27,900
+presentation on the Sony holographic
+
+194
+00:07:26,940 --> 00:07:29,340
+camera
+
+195
+00:07:27,900 --> 00:07:32,819
+folks I don't have any more information
+
+196
+00:07:29,340 --> 00:07:34,800
+on it when Alan gets back from Hawaii if
+
+197
+00:07:32,819 --> 00:07:36,240
+he's listening to the show what I'll try
+
+198
+00:07:34,800 --> 00:07:38,280
+to do is get in touch with him and find
+
+199
+00:07:36,240 --> 00:07:41,160
+out how the listeners can get more
+
+200
+00:07:38,280 --> 00:07:42,840
+information and next week I'll let you
+
+201
+00:07:41,160 --> 00:07:44,880
+know about how you can go about doing
+
+202
+00:07:42,840 --> 00:07:48,419
+that in the meantime
+
+203
+00:07:44,880 --> 00:07:51,360
+did get a listing from Dutch holographic
+
+204
+00:07:48,419 --> 00:07:52,979
+Labs that they wanted their link listed
+
+205
+00:07:51,360 --> 00:07:54,180
+on my link page and I went to their page
+
+206
+00:07:52,979 --> 00:07:55,919
+to check it out and I have a very
+
+207
+00:07:54,180 --> 00:07:58,500
+interesting page I would suggest that
+
+208
+00:07:55,919 --> 00:08:00,060
+you go over to the link page and click I
+
+209
+00:07:58,500 --> 00:08:01,440
+believe it may be the top one in there I
+
+210
+00:08:00,060 --> 00:08:04,259
+think that's the last link that I put up
+
+211
+00:08:01,440 --> 00:08:06,120
+click on Dutch holographic Laboratories
+
+212
+00:08:04,259 --> 00:08:08,759
+and they have something which may
+
+213
+00:08:06,120 --> 00:08:11,539
+actually be similar to what Sony is
+
+214
+00:08:08,759 --> 00:08:14,940
+doing from Alice Allen's description
+
+215
+00:08:11,539 --> 00:08:18,240
+last week it sounded as if the Sony
+
+216
+00:08:14,940 --> 00:08:20,340
+system was quite portable and from what
+
+217
+00:08:18,240 --> 00:08:23,759
+I had a chance to see the one at the
+
+218
+00:08:20,340 --> 00:08:26,819
+Dutch holographic Labs page I believe it
+
+219
+00:08:23,759 --> 00:08:28,199
+was actually a table mounted unit or
+
+220
+00:08:26,819 --> 00:08:30,060
+something like that which the Sony may
+
+221
+00:08:28,199 --> 00:08:31,740
+be as well but in case you're interested
+
+222
+00:08:30,060 --> 00:08:33,539
+in following up on this hollow camera
+
+223
+00:08:31,740 --> 00:08:37,200
+stuff I imagine we may get a few people
+
+224
+00:08:33,539 --> 00:08:39,260
+left over from last week who have never
+
+225
+00:08:37,200 --> 00:08:42,360
+logged on before
+
+226
+00:08:39,260 --> 00:08:44,339
+go to my link page and click on Dutch
+
+227
+00:08:42,360 --> 00:08:46,020
+holographic Laboratories and it may give
+
+228
+00:08:44,339 --> 00:08:47,760
+you some sort of indication as to what
+
+229
+00:08:46,020 --> 00:08:49,320
+this technology is all about because it
+
+230
+00:08:47,760 --> 00:08:50,220
+seemed like very similar technology to
+
+231
+00:08:49,320 --> 00:08:52,080
+me
+
+232
+00:08:50,220 --> 00:08:53,700
+in any case folks
+
+233
+00:08:52,080 --> 00:08:57,360
+that's it for the show I don't have
+
+234
+00:08:53,700 --> 00:08:59,339
+anything to cover next week we'll have a
+
+235
+00:08:57,360 --> 00:09:01,260
+guest on so you want to log on for the
+
+236
+00:08:59,339 --> 00:09:03,540
+guest talking about collecting Holograms
+
+237
+00:09:01,260 --> 00:09:04,920
+we do have guests lined up for the rest
+
+238
+00:09:03,540 --> 00:09:07,019
+of the year
+
+239
+00:09:04,920 --> 00:09:09,540
+uh so I want to thank you for logging on
+
+240
+00:09:07,019 --> 00:09:12,200
+this time and I'll see you next week
+
+241
+00:09:09,540 --> 00:09:12,200
+take care
+

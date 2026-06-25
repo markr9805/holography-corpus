@@ -1,0 +1,1144 @@
+1
+00:00:00,539 --> 00:00:04,860
+hello everyone this is Frank defreitis
+
+2
+00:00:02,820 --> 00:00:09,000
+and welcome to another week of Hall talk
+
+3
+00:00:04,860 --> 00:00:10,740
+for the week of January 16th 2000 a
+
+4
+00:00:09,000 --> 00:00:13,019
+special broadcast this week it's the
+
+5
+00:00:10,740 --> 00:00:15,179
+first time that holotalk is being
+
+6
+00:00:13,019 --> 00:00:19,080
+broadcast both in the real audio format
+
+7
+00:00:15,179 --> 00:00:21,240
+and also in npeg format which has a
+
+8
+00:00:19,080 --> 00:00:23,880
+number of advantages because now you
+
+9
+00:00:21,240 --> 00:00:25,560
+have the portable MPEG players that you
+
+10
+00:00:23,880 --> 00:00:28,080
+can pick up at the electronics stores
+
+11
+00:00:25,560 --> 00:00:31,500
+and the stereo stores and you can
+
+12
+00:00:28,080 --> 00:00:34,100
+download MPEG files onto the MPEG player
+
+13
+00:00:31,500 --> 00:00:37,020
+and then take them whenever and wherever
+
+14
+00:00:34,100 --> 00:00:38,940
+you go to listen to the programming
+
+15
+00:00:37,020 --> 00:00:40,920
+instead of being attached to your
+
+16
+00:00:38,940 --> 00:00:42,780
+computer and they sort of work a little
+
+17
+00:00:40,920 --> 00:00:44,399
+bit well actually the opposite of a
+
+18
+00:00:42,780 --> 00:00:46,440
+digital camera work with a digital
+
+19
+00:00:44,399 --> 00:00:49,020
+camera you take a picture and download
+
+20
+00:00:46,440 --> 00:00:51,899
+that picture onto your computer with the
+
+21
+00:00:49,020 --> 00:00:54,000
+MPEG player you take the MPEG audio file
+
+22
+00:00:51,899 --> 00:00:55,379
+and upload it to the player then you
+
+23
+00:00:54,000 --> 00:00:57,539
+disconnect the player put it in your
+
+24
+00:00:55,379 --> 00:00:58,980
+pocket and go wherever you want to go
+
+25
+00:00:57,539 --> 00:01:00,480
+and listen to the file whenever you want
+
+26
+00:00:58,980 --> 00:01:03,780
+to listen to it so it's a little bit of
+
+27
+00:01:00,480 --> 00:01:06,000
+option here for a whole talk listers and
+
+28
+00:01:03,780 --> 00:01:08,939
+looking forward to hearing your feedback
+
+29
+00:01:06,000 --> 00:01:12,180
+on the new MPEG format as an option as
+
+30
+00:01:08,939 --> 00:01:14,580
+well to download the MPEG file if you
+
+31
+00:01:12,180 --> 00:01:17,100
+have a PC what you want to do is right
+
+32
+00:01:14,580 --> 00:01:19,680
+click on the link and then save the file
+
+33
+00:01:17,100 --> 00:01:22,200
+and if you have a Mac you need to option
+
+34
+00:01:19,680 --> 00:01:24,060
+click and then save the file once it's
+
+35
+00:01:22,200 --> 00:01:26,479
+saved to your computer you can then open
+
+36
+00:01:24,060 --> 00:01:29,280
+it in your MPEG player or of course
+
+37
+00:01:26,479 --> 00:01:30,600
+upload it to your portable MPEG player
+
+38
+00:01:29,280 --> 00:01:32,640
+as well
+
+39
+00:01:30,600 --> 00:01:34,560
+this week we have a little bit of a
+
+40
+00:01:32,640 --> 00:01:37,680
+different type of broadcast very similar
+
+41
+00:01:34,560 --> 00:01:39,840
+to a broadcast that we did earlier in
+
+42
+00:01:37,680 --> 00:01:42,020
+the year of last year when we did a
+
+43
+00:01:39,840 --> 00:01:45,119
+special Holo talk broadcast in Spanish
+
+44
+00:01:42,020 --> 00:01:48,240
+this one's going to be in French and we
+
+45
+00:01:45,119 --> 00:01:50,100
+have a teacher in the region here Debbie
+
+46
+00:01:48,240 --> 00:01:52,500
+Swann who's kind enough to come into the
+
+47
+00:01:50,100 --> 00:01:54,360
+studio and do some translation on an
+
+48
+00:01:52,500 --> 00:01:57,780
+introduction to holography a very simple
+
+49
+00:01:54,360 --> 00:02:00,000
+introduction for people in France who
+
+50
+00:01:57,780 --> 00:02:02,460
+may not be aware of holography how it
+
+51
+00:02:00,000 --> 00:02:04,799
+works or what it's about just enough to
+
+52
+00:02:02,460 --> 00:02:07,079
+just wet the appetite and we will take
+
+53
+00:02:04,799 --> 00:02:09,780
+this audio file in just a short amount
+
+54
+00:02:07,079 --> 00:02:11,940
+of time and put a special French web
+
+55
+00:02:09,780 --> 00:02:14,220
+page up very similar to the Spanish web
+
+56
+00:02:11,940 --> 00:02:15,959
+page that I have there now the only
+
+57
+00:02:14,220 --> 00:02:18,239
+difference is is we are going to have
+
+58
+00:02:15,959 --> 00:02:20,760
+the French audio recording in both real
+
+59
+00:02:18,239 --> 00:02:23,760
+audio and MPEG format but also this time
+
+60
+00:02:20,760 --> 00:02:26,640
+I'd like to put up several links to
+
+61
+00:02:23,760 --> 00:02:28,560
+different holography sites in France so
+
+62
+00:02:26,640 --> 00:02:30,900
+if any of the whole talk listeners out
+
+63
+00:02:28,560 --> 00:02:34,739
+there know of any
+
+64
+00:02:30,900 --> 00:02:37,560
+links to holography resources in France
+
+65
+00:02:34,739 --> 00:02:41,040
+whether it be companies or a holographic
+
+66
+00:02:37,560 --> 00:02:42,840
+artists or even amateur holography in
+
+67
+00:02:41,040 --> 00:02:44,940
+France could you send those links to me
+
+68
+00:02:42,840 --> 00:02:48,660
+and I will make sure that they are put
+
+69
+00:02:44,940 --> 00:02:51,180
+on the French Hollow talk page so that
+
+70
+00:02:48,660 --> 00:02:53,580
+anyone who comes on to hollow hollow
+
+71
+00:02:51,180 --> 00:02:56,700
+World itself they will see that there is
+
+72
+00:02:53,580 --> 00:02:58,260
+a special page for them in French and
+
+73
+00:02:56,700 --> 00:03:00,900
+they can go to that page and listen to
+
+74
+00:02:58,260 --> 00:03:03,599
+the broadcast being translated by Debbie
+
+75
+00:03:00,900 --> 00:03:06,360
+Swann and then have the list of
+
+76
+00:03:03,599 --> 00:03:08,099
+resources to holography Links in their
+
+77
+00:03:06,360 --> 00:03:09,599
+country on that page so if you have any
+
+78
+00:03:08,099 --> 00:03:11,040
+links could you please send them along
+
+79
+00:03:09,599 --> 00:03:13,739
+and I'll make sure that they're added to
+
+80
+00:03:11,040 --> 00:03:15,360
+the page and also if you're a science
+
+81
+00:03:13,739 --> 00:03:17,239
+educator and I know there are a lot of
+
+82
+00:03:15,360 --> 00:03:19,739
+you out there that listen to the program
+
+83
+00:03:17,239 --> 00:03:22,260
+at a high school or Junior High School
+
+84
+00:03:19,739 --> 00:03:25,140
+where foreign languages are taught you
+
+85
+00:03:22,260 --> 00:03:28,280
+may also want to mention this to your
+
+86
+00:03:25,140 --> 00:03:30,540
+foreign language French teachers as well
+
+87
+00:03:28,280 --> 00:03:33,959
+they could have their students come on
+
+88
+00:03:30,540 --> 00:03:36,060
+and see the webpage in French listen to
+
+89
+00:03:33,959 --> 00:03:38,879
+the French Hollow talk and also visit a
+
+90
+00:03:36,060 --> 00:03:41,040
+couple laser and holography websites in
+
+91
+00:03:38,879 --> 00:03:43,560
+France which would be a nice supplement
+
+92
+00:03:41,040 --> 00:03:47,099
+supplement to their education everyday
+
+93
+00:03:43,560 --> 00:03:49,440
+education in the classroom as well
+
+94
+00:03:47,099 --> 00:03:52,260
+okay before we get to that I have a few
+
+95
+00:03:49,440 --> 00:03:54,299
+announcements uh number one uh
+
+96
+00:03:52,260 --> 00:03:55,860
+holography night well actually it's
+
+97
+00:03:54,299 --> 00:03:57,620
+going to be holography day but for the
+
+98
+00:03:55,860 --> 00:04:01,519
+general public it'll be holography night
+
+99
+00:03:57,620 --> 00:04:05,280
+at Lakewood New Jersey on Monday evening
+
+100
+00:04:01,519 --> 00:04:08,459
+January 24th 2000 that's uh this
+
+101
+00:04:05,280 --> 00:04:11,400
+upcoming Monday night at Georgian Court
+
+102
+00:04:08,459 --> 00:04:13,680
+College I will have Holograms and on
+
+103
+00:04:11,400 --> 00:04:15,599
+exhibits specifically Holograms that
+
+104
+00:04:13,680 --> 00:04:18,299
+have been created using the new diode
+
+105
+00:04:15,599 --> 00:04:20,400
+lasers I'll be giving demonstrations of
+
+106
+00:04:18,299 --> 00:04:23,639
+how Holograms are made including using
+
+107
+00:04:20,400 --> 00:04:25,500
+the little shoebox holography system and
+
+108
+00:04:23,639 --> 00:04:27,240
+I also have a number of different lasers
+
+109
+00:04:25,500 --> 00:04:29,400
+here we will compare the helium neon
+
+110
+00:04:27,240 --> 00:04:31,040
+laser to these small diab lasers now
+
+111
+00:04:29,400 --> 00:04:32,720
+have one of the DS
+
+112
+00:04:31,040 --> 00:04:36,240
+[Music]
+
+113
+00:04:32,720 --> 00:04:38,100
+658-25 diode laser systems there as well
+
+114
+00:04:36,240 --> 00:04:40,199
+so if you'd like to come out we'd love
+
+115
+00:04:38,100 --> 00:04:43,080
+to meet you that's Monday night January
+
+116
+00:04:40,199 --> 00:04:44,880
+24th at Georgian Court College if you'd
+
+117
+00:04:43,080 --> 00:04:47,040
+like more information send an email to
+
+118
+00:04:44,880 --> 00:04:49,680
+me I know it's exit 91 off to Garden
+
+119
+00:04:47,040 --> 00:04:51,840
+State Parkway so it's an easy drive from
+
+120
+00:04:49,680 --> 00:04:54,120
+South Jersey or the Metropolitan New
+
+121
+00:04:51,840 --> 00:04:56,100
+York area I will send you more
+
+122
+00:04:54,120 --> 00:04:57,360
+information like the specific time which
+
+123
+00:04:56,100 --> 00:04:58,620
+you think you would think I would have
+
+124
+00:04:57,360 --> 00:05:00,479
+them locked down but I don't have that
+
+125
+00:04:58,620 --> 00:05:02,040
+marked down I had to find that out at
+
+126
+00:05:00,479 --> 00:05:04,440
+what time the nighttime presentation
+
+127
+00:05:02,040 --> 00:05:06,240
+will begin send me an email I'll give
+
+128
+00:05:04,440 --> 00:05:09,780
+you more information love to see you out
+
+129
+00:05:06,240 --> 00:05:12,479
+there also on May 6th at the Smithsonian
+
+130
+00:05:09,780 --> 00:05:14,280
+Washington DC I will be there throughout
+
+131
+00:05:12,479 --> 00:05:16,919
+the day from about 11 in the morning
+
+132
+00:05:14,280 --> 00:05:18,720
+till three or four in the afternoon also
+
+133
+00:05:16,919 --> 00:05:20,940
+given demonstrations on lasers and
+
+134
+00:05:18,720 --> 00:05:24,600
+holography and also have a small gallery
+
+135
+00:05:20,940 --> 00:05:27,120
+of excuse me holograms on exhibit at the
+
+136
+00:05:24,600 --> 00:05:29,460
+hershaw Museum so that'll be May 6th in
+
+137
+00:05:27,120 --> 00:05:31,860
+Washington DC at the Smithsonian we're
+
+138
+00:05:29,460 --> 00:05:34,320
+at the hershon Museum throughout the day
+
+139
+00:05:31,860 --> 00:05:36,000
+fun for the whole family so if you're in
+
+140
+00:05:34,320 --> 00:05:38,220
+the Washington DC area why don't you
+
+141
+00:05:36,000 --> 00:05:39,720
+come in and say hello and bring the
+
+142
+00:05:38,220 --> 00:05:41,580
+family with you there's going to be some
+
+143
+00:05:39,720 --> 00:05:44,220
+great Holograms there for all of you to
+
+144
+00:05:41,580 --> 00:05:47,039
+take a look at and on both of those
+
+145
+00:05:44,220 --> 00:05:49,080
+dates that we will have one or two men
+
+146
+00:05:47,039 --> 00:05:51,600
+members of the freelance group for
+
+147
+00:05:49,080 --> 00:05:53,699
+career and Workforce Innovation who will
+
+148
+00:05:51,600 --> 00:05:56,280
+finish out the program by letting you
+
+149
+00:05:53,699 --> 00:05:59,580
+know both the Monday night this upcoming
+
+150
+00:05:56,280 --> 00:06:02,639
+January 24th and also on May 6th on how
+
+151
+00:05:59,580 --> 00:06:04,979
+you can pursue careers in lasers and
+
+152
+00:06:02,639 --> 00:06:07,380
+holography and the photonics industry so
+
+153
+00:06:04,979 --> 00:06:09,120
+that will be a nice supplement to the
+
+154
+00:06:07,380 --> 00:06:11,820
+program as well to get some information
+
+155
+00:06:09,120 --> 00:06:14,820
+on resources on especially if you're a
+
+156
+00:06:11,820 --> 00:06:17,460
+student how you can pursue careers in
+
+157
+00:06:14,820 --> 00:06:18,720
+these different fields so I'm looking
+
+158
+00:06:17,460 --> 00:06:20,280
+forward to see you there if you can make
+
+159
+00:06:18,720 --> 00:06:22,440
+it out come up and say Hello I'd love to
+
+160
+00:06:20,280 --> 00:06:25,500
+meet you okay let's move on to the
+
+161
+00:06:22,440 --> 00:06:28,259
+special broadcast of the whole talk in
+
+162
+00:06:25,500 --> 00:06:30,419
+French once again I'd like to say thank
+
+163
+00:06:28,259 --> 00:06:32,639
+you to Debbie Swann who is kind enough
+
+164
+00:06:30,419 --> 00:06:35,460
+to come over and do the translations for
+
+165
+00:06:32,639 --> 00:06:38,699
+me and we hope to be able to continue
+
+166
+00:06:35,460 --> 00:06:41,280
+this trend of providing whole talk in a
+
+167
+00:06:38,699 --> 00:06:42,660
+number of different Native languages so
+
+168
+00:06:41,280 --> 00:06:45,600
+that we can really get an international
+
+169
+00:06:42,660 --> 00:06:47,400
+Flair at whole world for the field of
+
+170
+00:06:45,600 --> 00:06:48,900
+lasers and holography I believe it runs
+
+171
+00:06:47,400 --> 00:06:51,120
+about five minutes or so I hope you
+
+172
+00:06:48,900 --> 00:06:53,699
+enjoy it coming up next week we're going
+
+173
+00:06:51,120 --> 00:06:56,240
+to begin a series of broadcasts which
+
+174
+00:06:53,699 --> 00:06:59,220
+will run every week on West Coast
+
+175
+00:06:56,240 --> 00:07:01,080
+holographers so you want to tune into
+
+176
+00:06:59,220 --> 00:07:05,160
+that as well that'll be beginning next
+
+177
+00:07:01,080 --> 00:07:06,479
+week which will be actually January 24th
+
+178
+00:07:05,160 --> 00:07:07,979
+which will be the night I'll be in New
+
+179
+00:07:06,479 --> 00:07:10,860
+Jersey but I'll make sure I have that up
+
+180
+00:07:07,979 --> 00:07:12,780
+early on Sunday so that you access that
+
+181
+00:07:10,860 --> 00:07:15,060
+as well and don't forget that we have
+
+182
+00:07:12,780 --> 00:07:18,000
+the questionnaire on the initial hello
+
+183
+00:07:15,060 --> 00:07:19,580
+world page well each week you can give
+
+184
+00:07:18,000 --> 00:07:22,560
+your opinions and
+
+185
+00:07:19,580 --> 00:07:24,900
+have those opinions tabulated and see
+
+186
+00:07:22,560 --> 00:07:25,919
+the results right at hello world I'm not
+
+187
+00:07:24,900 --> 00:07:28,139
+going to come back on after the
+
+188
+00:07:25,919 --> 00:07:30,240
+program's over so I'll say thank you for
+
+189
+00:07:28,139 --> 00:07:31,500
+tuning in and hope you tune in each and
+
+190
+00:07:30,240 --> 00:07:34,199
+every week throughout the winter into
+
+191
+00:07:31,500 --> 00:07:36,300
+the spring this whole talk my engineers
+
+192
+00:07:34,199 --> 00:07:38,699
+and information and guests on the field
+
+193
+00:07:36,300 --> 00:07:41,180
+of lasers and holography take care see
+
+194
+00:07:38,699 --> 00:07:41,180
+you next week
+
+195
+00:07:41,840 --> 00:07:46,740
+hello this is Frankie Freitas and
+
+196
+00:07:44,280 --> 00:07:48,919
+welcome to a special broadcast of hollow
+
+197
+00:07:46,740 --> 00:07:48,919
+talk
+
+198
+00:07:52,259 --> 00:07:57,500
+I'm in the studio with a translator
+
+199
+00:07:54,720 --> 00:07:59,539
+Debbie swan
+
+200
+00:07:57,500 --> 00:08:02,400
+Museum
+
+201
+00:07:59,539 --> 00:08:05,220
+this is the second broadcast in a series
+
+202
+00:08:02,400 --> 00:08:08,759
+of broadcasts in a Disney and collection
+
+203
+00:08:05,220 --> 00:08:10,620
+being secretly that will bring Hollow
+
+204
+00:08:08,759 --> 00:08:13,039
+talk to other countries in their native
+
+205
+00:08:10,620 --> 00:08:13,039
+languages
+
+206
+00:08:17,479 --> 00:08:24,319
+let's start off by asking the question
+
+207
+00:08:20,419 --> 00:08:24,319
+what is holography
+
+208
+00:08:27,060 --> 00:08:32,000
+holography is very similar to
+
+209
+00:08:29,340 --> 00:08:32,000
+photography
+
+210
+00:08:32,659 --> 00:08:39,560
+photography except that when you look at
+
+211
+00:08:35,099 --> 00:08:39,560
+a hologram you see three dimensions
+
+212
+00:08:42,260 --> 00:08:47,839
+with a photograph you only have two
+
+213
+00:08:45,300 --> 00:08:47,839
+dimensions
+
+214
+00:08:49,880 --> 00:08:56,839
+for instance if you had a photograph of
+
+215
+00:08:53,580 --> 00:08:56,839
+an apple behind a box
+
+216
+00:08:59,480 --> 00:09:06,560
+you would not be able to look around the
+
+217
+00:09:02,339 --> 00:09:06,560
+box and see the Apple behind it
+
+218
+00:09:08,240 --> 00:09:13,760
+because the photograph has height and
+
+219
+00:09:11,399 --> 00:09:13,760
+width
+
+220
+00:09:15,620 --> 00:09:22,800
+but does not have depth
+
+221
+00:09:19,640 --> 00:09:28,260
+with a hologram you would be able to
+
+222
+00:09:22,800 --> 00:09:28,260
+move and look around the Box what
+
+223
+00:09:30,180 --> 00:09:34,160
+and see the Apple behind it
+
+224
+00:09:34,220 --> 00:09:41,899
+because the Hologram contains hype width
+
+225
+00:09:38,640 --> 00:09:41,899
+and depth
+
+226
+00:09:44,000 --> 00:09:49,620
+yes
+
+227
+00:09:46,220 --> 00:09:52,820
+let's examine what holography is used
+
+228
+00:09:49,620 --> 00:09:52,820
+for example
+
+229
+00:09:54,140 --> 00:10:02,120
+in science and technology holography is
+
+230
+00:09:57,720 --> 00:10:02,120
+used to test automobile engines
+
+231
+00:10:08,360 --> 00:10:13,399
+and aircraft tires among other things
+
+232
+00:10:13,760 --> 00:10:19,920
+if you have a credit card
+
+233
+00:10:16,940 --> 00:10:21,120
+you may have a hologram on that credit
+
+234
+00:10:19,920 --> 00:10:24,120
+card
+
+235
+00:10:21,120 --> 00:10:26,820
+example as well another example Catholic
+
+236
+00:10:24,120 --> 00:10:30,320
+studies which stops other people from
+
+237
+00:10:26,820 --> 00:10:30,320
+manufacturing cards
+
+238
+00:10:32,820 --> 00:10:37,940
+you may actually have a hologram on a
+
+239
+00:10:35,160 --> 00:10:37,940
+pair of jeans
+
+240
+00:10:40,920 --> 00:10:44,700
+so you know that when you buy the genes
+
+241
+00:10:43,200 --> 00:10:48,140
+they are made
+
+242
+00:10:44,700 --> 00:10:48,140
+who think they are made from them
+
+243
+00:10:53,000 --> 00:11:00,440
+in medicine Holograms are used to show
+
+244
+00:10:57,180 --> 00:11:00,440
+internal organs
+
+245
+00:11:03,500 --> 00:11:09,660
+and doctors can actually go up inside
+
+246
+00:11:07,260 --> 00:11:12,240
+and take measurements as if the organ
+
+247
+00:11:09,660 --> 00:11:15,860
+were really there hey
+
+248
+00:11:12,240 --> 00:11:15,860
+they need examples
+
+249
+00:11:22,700 --> 00:11:28,880
+in fine art artists use holography to
+
+250
+00:11:25,980 --> 00:11:28,880
+express themselves
+
+251
+00:11:33,260 --> 00:11:41,540
+the way traditional artists have used
+
+252
+00:11:36,240 --> 00:11:41,540
+oil and Canvas OR Stone uh
+
+253
+00:11:41,760 --> 00:11:48,560
+for example
+
+254
+00:11:44,600 --> 00:11:51,600
+Tableau they they can see okay
+
+255
+00:11:48,560 --> 00:11:54,440
+in commercial holography you may find a
+
+256
+00:11:51,600 --> 00:11:57,620
+hologram inside of a magazine
+
+257
+00:11:54,440 --> 00:12:00,720
+to be today
+
+258
+00:11:57,620 --> 00:12:03,980
+magazine which shows a three-dimensional
+
+259
+00:12:00,720 --> 00:12:03,980
+picture of the product
+
+260
+00:12:04,200 --> 00:12:06,200
+um
+
+261
+00:12:08,640 --> 00:12:13,680
+in the future you may have your favorite
+
+262
+00:12:11,399 --> 00:12:16,399
+television show projected right into
+
+263
+00:12:13,680 --> 00:12:16,399
+your living room
+
+264
+00:12:26,180 --> 00:12:30,860
+Holograms are created using lasers
+
+265
+00:12:32,579 --> 00:12:39,260
+it is only one of many uses of the laser
+
+266
+00:12:37,640 --> 00:12:43,820
+functions
+
+267
+00:12:39,260 --> 00:12:43,820
+other uses include Communications
+
+268
+00:12:44,839 --> 00:12:49,560
+when you make a long-distance telephone
+
+269
+00:12:47,160 --> 00:12:50,190
+call your voice travels over a laser
+
+270
+00:12:49,560 --> 00:12:52,399
+beam
+
+271
+00:12:50,190 --> 00:12:55,639
+[Music]
+
+272
+00:12:52,399 --> 00:12:55,639
+for example
+
+273
+00:12:56,639 --> 00:13:00,600
+foreign
+
+274
+00:12:57,959 --> 00:13:03,440
+recently we've discovered new ways to
+
+275
+00:13:00,600 --> 00:13:03,440
+make Holograms
+
+276
+00:13:08,899 --> 00:13:15,019
+using very inexpensive diode lasers
+
+277
+00:13:16,579 --> 00:13:21,860
+if you would like more information about
+
+278
+00:13:19,019 --> 00:13:21,860
+holography
+
+279
+00:13:23,899 --> 00:13:30,079
+I invite you to explore the whole world
+
+280
+00:13:27,300 --> 00:13:30,079
+website
+
+281
+00:13:31,200 --> 00:13:35,880
+um
+
+282
+00:13:32,700 --> 00:13:37,639
+this is Frank de Freitas
+
+283
+00:13:35,880 --> 00:13:41,120
+and Debbie Swan
+
+284
+00:13:37,639 --> 00:13:44,100
+thank you very much for tuning in
+
+285
+00:13:41,120 --> 00:13:47,959
+and enjoy your journey in learning about
+
+286
+00:13:44,100 --> 00:13:47,959
+lasers and holography
+

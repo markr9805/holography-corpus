@@ -54,7 +54,8 @@ def transcribe_video(video_id):
     cmd = [
         PARAKEET_BIN,
         "--model", PARAKEET_MODEL,
-        "--format", "srt",
+        "--output-format", "srt",
+        "--output-dir", TRANSCRIPTS_DIR,
         audio_file
     ]
 
@@ -64,7 +65,20 @@ def transcribe_video(video_id):
         print(f"  ERROR: {result.stderr[:200]}", file=sys.stderr)
         return None
 
-    return result.stdout.strip()
+    # Parakeet outputs as {video_id}.srt in output-dir
+    raw_out = os.path.join(TRANSCRIPTS_DIR, f"{video_id}.srt")
+    if os.path.exists(raw_out):
+        if raw_out != out_file:
+            os.rename(raw_out, out_file)
+        return out_file
+    
+    # Fallback: check if output went to stdout
+    if result.stdout.strip():
+        with open(out_file, "w") as f:
+            f.write(result.stdout.strip())
+        return out_file
+    
+    return None
 
 
 def main():
