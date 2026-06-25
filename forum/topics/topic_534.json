@@ -1,0 +1,36 @@
+{
+  "topic_id": 534,
+  "title": "Angle Calculation",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=534",
+  "replies": 0,
+  "views": 2139,
+  "starter": "Ed Wesly",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:44:58.551197+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 4817,
+      "topic_id": 534,
+      "topic_title": "Angle Calculation",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Ed Wesly",
+      "author_id": 2186,
+      "post_date": "Tue May 01, 2012 12:50 pm",
+      "post_datetime": "2012-05-01T17:50:00+00:00",
+      "post_subject": "Angle Calculation",
+      "content_md": "I snagged this off the holo-chat at the bottom of the page.\n\n‪3Dholostudio ‪|X| - Wed Apr 11, 2012 2:15 pm\n\nHello, Is anybody aware of the software for the angles calculation for transmission and reflection holograms?\n\nMy reply would be that I don’t know of any software per se to do this stuff, assuming that the angles you are looking for are the so-called tip or alpha angle of the master hologram. I usually work them out with graph paper and a scientific calculator.\n\nWhere you can find these equations are in the seminal papers of Benton in the 1982 and 1985 Proceedings of the International Symposia on Display Holography, previously his classroom handouts were on-line, don’t know if they are still archived, and they have been compiled into a book, Holographic Imaging by Benton and Bove. It’s up to you to program them if you want to, using something like Mathematica, if you can afford it, which has a plug-in called Optica, which can also handle these calculations.\n\nAlso in the 1982 ISDH proceedings Steve McGrew gives a graphical compass and straightedge approach to the same problem.\n\nIf that’s what you are looking for. If you need help in 3-D rendering for Computer Generated Holography, I don’t even know where to begin!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=4817#p4817"
+    }
+  ]
+}

@@ -2,16 +2,19 @@
 """
 Holography Transcript Pipeline
 ===============================
-Full pipeline: Download → Whisper → Merge → Label → Correct
+Full pipeline: Download → Whisper Large-V3 → Parakeet TDT → Merge → Label → Correct → Diarize
 Processes in batches to manage disk space.
 
 Supports multi-creator catalog with YouTube and Vimeo sources.
 
+Default transcription: Whisper Large-V3 + Parakeet TDT (no Turbo).
+Three sources (Large-V3, Parakeet, YouTube captions) are merged for best accuracy.
+
 Usage:
-    python3 pipeline.py [--batch-size 20] [--start 0] [--model both]
+    python3 pipeline.py [--batch-size 15] [--start 0]
                          [--creator CREATOR_ID] [--skip-download] [--skip-whisper]
-                         [--skip-merge] [--skip-label] [--skip-correct]
-                         [--no-clean-audio]
+                         [--skip-parakeet] [--skip-merge] [--skip-label]
+                         [--skip-correct] [--skip-diarize] [--no-clean-audio]
 """
 
 import argparse
@@ -31,10 +34,10 @@ CHUNKS_DIR = os.path.join(PIPELINE_DIR, "chunks")
 TRANSCRIPTS_DIR = os.path.join(PIPELINE_DIR, "transcripts")
 VENV_PYTHON = os.path.join(PIPELINE_DIR, "whisper-env", "bin", "python3")
 
-MODELS = {
-    "turbo": "mlx-community/whisper-large-v3-turbo",
-    "largev3": "mlx-community/whisper-large-v3-mlx",
-}
+WHISPER_MODEL = "mlx-community/whisper-large-v3-mlx"
+PARAKEET_MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
+PARAKEET_BIN = os.path.expanduser("~/.local/bin/parakeet-mlx")
+DIARIZE_SCRIPT = os.path.join(PIPELINE_DIR, "06_diarize.py")
 
 CHUNK_SECS = 300
 CHUNK_OVERLAP_SECS = 10
@@ -61,7 +64,6 @@ def download_captions(video_ids, platform="youtube"):
 
         if platform == "vimeo":
             url = f"https://vimeo.com/{vid}"
-            # Try manual subs first, then auto
             result = subprocess.run(
                 ["yt-dlp", "--write-subs", "--sub-lang", "en",
                  "--sub-format", "srt", "--skip-download",
@@ -160,9 +162,9 @@ def chunk_audio(video_id):
     return chunks
 
 
-def run_whisper(video_id, model_key, model_repo):
-    """Run Whisper on chunked audio. Returns True on success."""
-    out_file = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-whisper-{model_key}.txt")
+def run_whisper(video_id):
+    """Run Whisper Large-V3 on chunked audio. Returns True on success."""
+    out_file = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-whisper-largev3.txt")
     if os.path.exists(out_file):
         return True
 
@@ -176,7 +178,7 @@ def run_whisper(video_id, model_key, model_repo):
 import mlx_whisper
 result = mlx_whisper.transcribe(
     '{chunk_file}',
-    path_or_hf_repo='{model_repo}',
+    path_or_hf_repo='{WHISPER_MODEL}',
     language='en',
     word_timestamps=False
 )
@@ -206,6 +208,34 @@ print(result['text'])
     return True
 
 
+def run_parakeet(video_id):
+    """Run Parakeet TDT on audio file. Returns True on success."""
+    out_file = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-parakeet.srt")
+    if os.path.exists(out_file):
+        return True
+
+    audio_file = None
+    for ext in [".wav", ".mp3", ".m4a", ".flac"]:
+        path = os.path.join(AUDIO_DIR, f"{video_id}{ext}")
+        if os.path.exists(path):
+            audio_file = path
+            break
+    if not audio_file:
+        return False
+
+    result = subprocess.run(
+        [PARAKEET_BIN, "--model", PARAKEET_MODEL, "--format", "srt", audio_file],
+        capture_output=True, text=True, timeout=600
+    )
+    if result.returncode == 0 and result.stdout.strip():
+        with open(out_file, "w") as f:
+            f.write(result.stdout.strip())
+        return True
+    else:
+        print(f"      Parakeet error: {result.stderr[:200]}")
+        return False
+
+
 def clean_audio(video_ids):
     """Delete audio files for given video IDs to free disk space."""
     freed = 0
@@ -229,28 +259,24 @@ def main():
     parser = argparse.ArgumentParser(description="Full holography transcript pipeline")
     parser.add_argument("--batch-size", type=int, default=15, help="Videos per batch")
     parser.add_argument("--start", type=int, default=0, help="Start from video index")
-    parser.add_argument("--model", choices=["turbo", "largev3", "both"], default="both")
     parser.add_argument("--creator", help="Only process videos from this creator")
     parser.add_argument("--skip-download", action="store_true")
     parser.add_argument("--skip-whisper", action="store_true")
+    parser.add_argument("--skip-parakeet", action="store_true")
     parser.add_argument("--skip-merge", action="store_true")
     parser.add_argument("--skip-label", action="store_true")
     parser.add_argument("--skip-correct", action="store_true")
-    parser.add_argument("--no-clean-audio", action="store_true", help="Keep audio after processing")
+    parser.add_argument("--skip-diarize", action="store_true")
+    parser.add_argument("--no-clean-audio", action="store_true", help="Keep audio after transcription (needed for diarization)")
     args = parser.parse_args()
 
-    clean_audio_flag = not args.no_clean_audio
+    # Keep audio if diarization is not skipped (diarization needs audio)
+    clean_audio_flag = args.skip_diarize and not args.no_clean_audio
 
     videos = load_catalog()
     if args.creator:
         videos = [v for v in videos if v.get("creator_id") == args.creator]
     videos = videos[args.start:]
-
-    models_to_run = []
-    if args.model in ("turbo", "both"):
-        models_to_run.append(("turbo", MODELS["turbo"]))
-    if args.model in ("largev3", "both"):
-        models_to_run.append(("largev3", MODELS["largev3"]))
 
     os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)
 
@@ -262,8 +288,9 @@ def main():
     print(f"{'='*60}")
     print(f"Videos: {total_videos} (starting from index {args.start})")
     print(f"Batch size: {args.batch_size}")
-    print(f"Models: {[m[0] for m in models_to_run]}")
-    print(f"Clean audio: {clean_audio_flag}")
+    print(f"Transcription: Whisper Large-V3 + Parakeet TDT")
+    print(f"Diarization: {'enabled' if not args.skip_diarize else 'skipped'}")
+    print(f"Clean audio after diarize: {clean_audio_flag}")
     print(f"Disk free: {get_disk_free():.1f} GB")
     print()
 
@@ -281,8 +308,7 @@ def main():
 
         # Step 1: Download
         if not args.skip_download:
-            print(f"\n  [1/5] Downloading captions + audio...")
-            # Group by platform for batch processing
+            print(f"\n  [1/7] Downloading captions + audio...")
             yt_videos = [v for v in batch if v.get("platform") == "youtube"]
             vimeo_videos = [v for v in batch if v.get("platform") == "vimeo"]
 
@@ -303,69 +329,68 @@ def main():
 
             print(f"  Captions: {cap_ok} ok, {cap_fail} fail | Audio: {aud_ok} ok, {aud_fail} fail")
 
-        # Step 2: Whisper
+        # Step 2: Whisper Large-V3
         if not args.skip_whisper:
-            for model_key, model_repo in models_to_run:
-                print(f"\n  [2/6] Running Whisper {model_key}...")
-                ok, fail = 0, 0
-                for v in batch:
-                    start = time.time()
-                    success = run_whisper(v["id"], model_key, model_repo)
-                    elapsed = time.time() - start
-                    if success:
-                        ok += 1
-                    else:
-                        fail += 1
-                        print(f"    ✗ {v['id']} {model_key} failed ({elapsed:.0f}s)")
-                print(f"  {model_key}: {ok} ok, {fail} fail")
+            print(f"\n  [2/7] Running Whisper Large-V3...")
+            ok, fail = 0, 0
+            for v in batch:
+                start = time.time()
+                success = run_whisper(v["id"])
+                elapsed = time.time() - start
+                if success:
+                    ok += 1
+                else:
+                    fail += 1
+                    print(f"    ✗ {v['id']} whisper failed ({elapsed:.0f}s)")
+            print(f"  Whisper Large-V3: {ok} ok, {fail} fail")
 
-        # Step 2b: Parakeet
-        if not args.skip_whisper:
-            print(f"\n  [2b/6] Running Parakeet TDT...")
-            parakeet_bin = os.path.expanduser("~/.local/bin/parakeet-mlx")
-            parakeet_model = "mlx-community/parakeet-tdt-0.6b-v3"
+        # Step 3: Parakeet TDT
+        if not args.skip_parakeet:
+            print(f"\n  [3/7] Running Parakeet TDT...")
             pk_ok, pk_fail = 0, 0
             for v in batch:
                 vid = v["id"]
-                pk_out = os.path.join(TRANSCRIPTS_DIR, f"{vid}-parakeet.srt")
-                if os.path.exists(pk_out):
-                    pk_ok += 1
-                    continue
-                audio_file = None
-                for ext in [".wav", ".mp3", ".m4a", ".flac"]:
-                    path = os.path.join(AUDIO_DIR, f"{vid}{ext}")
-                    if os.path.exists(path):
-                        audio_file = path
-                        break
-                if not audio_file:
-                    pk_fail += 1
-                    continue
                 start = time.time()
-                result = subprocess.run(
-                    [parakeet_bin, "--model", parakeet_model, "--format", "srt", audio_file],
-                    capture_output=True, text=True, timeout=600
-                )
+                success = run_parakeet(vid)
                 elapsed = time.time() - start
-                if result.returncode == 0 and result.stdout.strip():
-                    with open(pk_out, "w") as f:
-                        f.write(result.stdout.strip())
+                if success:
                     pk_ok += 1
                     print(f"    ✓ {vid} parakeet ({elapsed:.0f}s)")
                 else:
                     pk_fail += 1
-                    print(f"    ✗ {vid} parakeet failed ({elapsed:.0f}s)")
             print(f"  Parakeet: {pk_ok} ok, {pk_fail} fail")
 
-        # Clean up audio to free disk space
+        # Step 4: Diarize (needs audio, so run before cleaning)
+        if not args.skip_diarize:
+            print(f"\n  [4/7] Running speaker diarization...")
+            diarize_args = [sys.executable, DIARIZE_SCRIPT]
+            # Run per-video to match batch
+            for v in batch:
+                vid = v["id"]
+                if not find_audio(vid):
+                    continue
+                diar_out = os.path.join(TRANSCRIPTS_DIR, f"{vid}-diarization.json")
+                if os.path.exists(diar_out):
+                    continue
+                result = subprocess.run(
+                    [sys.executable, DIARIZE_SCRIPT, "--video", vid, "--device", "mps"],
+                    capture_output=True, text=True, timeout=600
+                )
+                if result.returncode == 0:
+                    print(f"    ✓ {vid} diarized")
+                else:
+                    print(f"    ✗ {vid} diarization failed: {result.stderr[:100]}")
+
+        # Clean up audio to free disk space (only after diarization)
         if clean_audio_flag:
             freed = clean_audio(batch_ids)
             print(f"\n  Cleaned audio: freed {freed:.2f} GB")
             print(f"  Disk free: {get_disk_free():.1f} GB")
 
-    # Step 3: Merge
+    # Step 5: Merge
     if not args.skip_merge:
         print(f"\n{'─'*60}")
-        print(f"  [3/6] Merging transcripts...")
+        print(f"  [5/7] Merging transcripts...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "03_merge.py"), "--all"],
             capture_output=True, text=True
@@ -374,10 +399,10 @@ def main():
         if result.returncode != 0:
             print(f"Merge errors: {result.stderr}")
 
-    # Step 4: Label flags
+    # Step 6: Label flags
     if not args.skip_label:
         print(f"\n{'─'*60}")
-        print(f"  [4/6] Labelling flags...")
+        print(f"  [6/7] Labelling flags...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "04_label.py"), "--all"],
             capture_output=True, text=True
@@ -386,10 +411,10 @@ def main():
         if result.returncode != 0:
             print(f"Label errors: {result.stderr}")
 
-    # Step 5: Apply corrections
+    # Step 7: Apply corrections
     if not args.skip_correct:
         print(f"\n{'─'*60}")
-        print(f"  [5/6] Applying corrections...")
+        print(f"  [7/7] Applying corrections...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "05_correct.py"), "--all"],
             capture_output=True, text=True
@@ -404,6 +429,15 @@ def main():
     print(f"Time: {total_elapsed/3600:.1f} hours")
     print(f"Disk free: {get_disk_free():.1f} GB")
     print(f"{'='*60}")
+
+
+def find_audio(video_id):
+    """Find audio file for a video ID."""
+    for ext in [".wav", ".mp3", ".m4a", ".flac"]:
+        path = os.path.join(AUDIO_DIR, f"{video_id}{ext}")
+        if os.path.exists(path):
+            return path
+    return None
 
 
 if __name__ == "__main__":

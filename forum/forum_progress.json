@@ -11,11 +11,11 @@
       "posts_scraped": 1568
     },
     "5": {
-      "last_topic_id": 765,
-      "topics_scraped": 265,
-      "posts_scraped": 2067
+      "last_topic_id": 341,
+      "topics_scraped": 366,
+      "posts_scraped": 3288
     }
   },
   "started": "2026-06-25T02:50:41.605562+00:00",
-  "last_run": "2026-06-25T03:42:32.875059+00:00"
+  "last_run": "2026-06-25T03:47:24.418397+00:00"
 }

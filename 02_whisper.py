@@ -139,7 +139,8 @@ def main():
     parser = argparse.ArgumentParser(description="Run Whisper transcription")
     parser.add_argument("--limit", type=int, help="Only process N videos")
     parser.add_argument("--creator", help="Only process videos from this creator")
-    parser.add_argument("--model", choices=["turbo", "largev3", "both"], default="both")
+    parser.add_argument("--model", choices=["largev3", "turbo", "both"], default="largev3",
+                        help="Whisper model (default: largev3 for best accuracy on holography terminology)")
     parser.add_argument("--resume", action="store_true", help="Skip existing transcripts")
     parser.add_argument("--chunk-secs", type=int, default=300, help="Chunk duration in seconds")
     args = parser.parse_args()

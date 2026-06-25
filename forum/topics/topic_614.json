@@ -1,0 +1,79 @@
+{
+  "topic_id": 614,
+  "title": "Dave's laser",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=614",
+  "replies": 2,
+  "views": 2535,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:44:02.440641+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 5567,
+      "topic_id": 614,
+      "topic_title": "Dave's laser",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Dinesh",
+      "author_id": null,
+      "post_date": "Tue Sep 25, 2012 5:50 pm",
+      "post_datetime": "2012-09-25T22:50:00+00:00",
+      "post_subject": "Dave's laser",
+      "content_md": "Just got a nice little greenie from Dave. It got very hot very quickly and shut down when we first set it up. However, with a little bit of customer support from Dave and some shopping around, we were able to set it up and mount it without it getting hot. Since I have a few ideas concerning colour holography and need some experimental verifiction for some theoretical ideas, I think I need to hit this colour holography thing on the head. To that end, I have my three colours (633, 532 and 457) and I just bought a box of PFG-03C plates. So, I'm going to be busy in the Batcave for a while and I hope to come out with good, bright colour holograms. Dave's laser is particularly nice because firing up the giant Argon is expensive, consumes 3 gallons of water every minute and it gives off too much power for silver halide. This greenie is compact, powered off a wall powerpoint and has just about the right amount of power for silver.\n\n[](https://holographyforum.org/forum/download/file.php?id=2242&mode=view)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2241",
+          "filename": "lab door.jpg",
+          "info": "lab door.jpg (29.17 KiB) Viewed 2535 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=5567#p5567"
+    },
+    {
+      "post_id": 5575,
+      "topic_id": 614,
+      "topic_title": "Dave's laser",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Wed Sep 26, 2012 9:21 am",
+      "post_datetime": "2012-09-26T14:21:00+00:00",
+      "post_subject": "Dave's laser",
+      "content_md": "Hi guys, glad it arrived safely and i see you got a good sized heat sink on the head now. Your setup is now complete for \"Full color\" ** and i cant wait to see what you guys produce ! \n\n** IMO",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=5575#p5575"
+    },
+    {
+      "post_id": 5582,
+      "topic_id": 614,
+      "topic_title": "Dave's laser",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "142laser",
+      "author_id": 2180,
+      "post_date": "Wed Sep 26, 2012 12:52 pm",
+      "post_datetime": "2012-09-26T17:52:00+00:00",
+      "post_subject": "Dave's laser",
+      "content_md": "That little greenie is a Coherent 315M...one of the best SLM green lasers ever made. I just listed a 150 mW model on the for sale page mounted on a nice large heatsink but sam and I also sell the more common 100 mW heads and lower power also. These are great lasers-enjoy.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=5582#p5582"
+    }
+  ]
+}
