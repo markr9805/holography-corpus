@@ -1,17 +1,12 @@
+# Pipeline and working files live in Foster's workspace
+*.py
 audio/
 chunks/
-.venv/
-diarize-env/
-whisper-env/
-__pycache__/
-*.pyc
-.env
-*.wav
-*.mp3
-*.m4a
-*.flac
-*.webm
-*.mp4
-.DS_Store
-analysis/transcripts/
-forum/raw/
+captions/
+transcripts/
+forum/
+analysis/
+catalog.json
+corrections.json
+creators.json
+diarize_singlemode.sh
