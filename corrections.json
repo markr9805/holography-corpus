@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "Correction dictionary for holography transcript pipeline. Grows with each batch of human-labelled flags.",
+  "entries": [],
+  "patterns": [
+    {
+      "pattern": "\\[Music\\]",
+      "replacement": "",
+      "note": "YouTube music marker, not speech"
+    },
+    {
+      "pattern": "\\[ __ \\]",
+      "replacement": "",
+      "note": "YouTube profanity censor — context determines actual word"
+    },
+    {
+      "pattern": "\\b__\\b",
+      "replacement": "",
+      "note": "YouTube profanity censor variant"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-24",
+    "total_entries": 0,
+    "total_patterns": 3,
+    "notes": "This dictionary will grow as human-labelled flags are added from each batch. Domain-specific corrections for holography terminology should be added here."
+  }
+}

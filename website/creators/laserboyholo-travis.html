@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaserboyHolo (Travis) — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px 0;
+    max-height: 600px;
+    overflow-y: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.85em;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">🔬 <span>Holography</span> Corpus</div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="index.html">Creators</a>
+<a href="../search/index.html">Search</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<div class="creator-header">
+<div class="creator-info">
+<h1><span class="status-dot status-active"></span>LaserboyHolo (Travis) <span class="tier-badge tier-1">Tier 1</span></h1>
+<p class="creator-description">Hologram making, handmade jewelry, experimental art blending science and holography. Behind-the-scenes creative process, glasswork, 3D printing, analog holography. Includes ISDH2024 reflection video.</p>
+<div class="stats-grid">
+<div class="stat-card"><div class="stat-value">49</div><div class="stat-label">Videos</div></div>
+<div class="stat-card"><div class="stat-value">3h 21m</div><div class="stat-label">Total Duration</div></div>
+<div class="stat-card"><div class="stat-value">Youtube</div><div class="stat-label">Platform</div></div>
+</div>
+<p>
+<a href="https://www.youtube.com/@laserboyholo" target="_blank">🔗 Channel</a>
+ · <a href="https://www.laserboyholo.com" target="_blank">🌐 Website</a>
+ · <a href="https://www.patreon.com/laserboyholo" target="_blank">💰 Patreon</a>
+</p>
+</div>
+</div>
+<h2>Videos</h2>
+<div class="card-grid">
+
+        <a href="../videos/i-made-this.html" class="card">
+            <h3>i made this</h3>
+            <div class="card-meta">Unknown · 0m 13s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/ejection-trading-card-teaser.html" class="card">
+            <h3>Ejection trading card teaser.</h3>
+            <div class="card-meta">Unknown · 0m 23s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/flash-back-to-two-years-ago.html" class="card">
+            <h3>flash back to two years ago.</h3>
+            <div class="card-meta">Unknown · 1m 49s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/how-it-do-that-hologram-artist-science.html" class="card">
+            <h3>how it do that? #hologram #artist #science</h3>
+            <div class="card-meta">Unknown · 3m 1s · Youtube</div>
+            <div class="card-excerpt">How do holograms work? If I said magic, would you believe me? Okay, fine. Holography is the practice of recording an interference pattern using coherent light um within a holographic substrate. Well,…</div>
+        </a>
+
+        <a href="../videos/quality-over-quantity.html" class="card">
+            <h3>quality over quantity</h3>
+            <div class="card-meta">Unknown · 3m 1s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/new-hologram-workshop-back-to-basement-mode.html" class="card">
+            <h3>New Hologram Workshop (back to basement mode)</h3>
+            <div class="card-meta">Unknown · 7m 10s · Youtube</div>
+            <div class="card-excerpt">I think it&#x27;s got to happen again, guys. I&#x27;m not really stoked about it, but I think we have to move Laser Boy Hollow again. Landlord has raised the rent. My lease is up in 2 months, and I&#x27;ve already…</div>
+        </a>
+
+        <a href="../videos/yall-getting-things-in-order-before-the-weekend-or-putting-that-off-til.html" class="card">
+            <h3>Y&#x27;all getting things in order before the weekend, or putting that off til Monday? #knolling</h3>
+            <div class="card-meta">Unknown · 0m 29s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-8-the-final-stretch.html" class="card">
+            <h3>Moving Vlog #8.  The Final Stretch</h3>
+            <div class="card-meta">Unknown · 7m 54s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-7-finally-hitting-the-road.html" class="card">
+            <h3>Moving Vlog #7 finally hitting the road</h3>
+            <div class="card-meta">Unknown · 7m 26s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-6-loading-the-truck-and-emotional-goodbyes.html" class="card">
+            <h3>Moving Vlog #6: Loading the Truck and Emotional Goodbyes</h3>
+            <div class="card-meta">Unknown · 6m 56s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-5-feeling-things-and-packing-stuff.html" class="card">
+            <h3>Moving Vlog #5 feeling things and packing stuff.</h3>
+            <div class="card-meta">Unknown · 4m 11s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-4-treasure-hunt-and-uhaul-debt.html" class="card">
+            <h3>Moving Vlog #4 treasure hunt and uhaul debt</h3>
+            <div class="card-meta">Unknown · 6m 26s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-3-bookending-last-years-cross-country-journey.html" class="card">
+            <h3>Moving Vlog #3 bookending last years cross country journey.</h3>
+            <div class="card-meta">Unknown · 5m 36s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/reflecting-on-isdh2024-international-symposium-on-display-holography.html" class="card">
+            <h3>Reflecting on ISDH2024 (international symposium on display holography)</h3>
+            <div class="card-meta">Unknown · 8m 57s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/exploring-translucent-objects-in-holography.html" class="card">
+            <h3>Exploring translucent objects in Holography</h3>
+            <div class="card-meta">Unknown · 1m 23s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/astro-jack-hologram-project-part2.html" class="card">
+            <h3>Astro Jack  hologram project 🎃 part2</h3>
+            <div class="card-meta">Unknown · 9m 2s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/astro-jellys-pumpkin-transformation-part1.html" class="card">
+            <h3>Astro Jelly&#x27;s Pumpkin Transformation 🎃 part1</h3>
+            <div class="card-meta">Unknown · 9m 19s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-2-decluttering-and-packing.html" class="card">
+            <h3>Moving Vlog #2 decluttering and  packing.</h3>
+            <div class="card-meta">Unknown · 6m 3s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/laserboys-monsters-halloween-content-attempt.html" class="card">
+            <h3>Laserboys monsters. Halloween content attempt.</h3>
+            <div class="card-meta">Unknown · 7m 10s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/patreon-announcement-big-changes-ahead.html" class="card">
+            <h3>Patreon announcement. Big changes ahead</h3>
+            <div class="card-meta">Unknown · 12m 37s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/j3-tests.html" class="card">
+            <h3>J￼3 tests</h3>
+            <div class="card-meta">Unknown · 1m 52s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/store-announcement-june-17.html" class="card">
+            <h3>Store announcement. June 17</h3>
+            <div class="card-meta">Unknown · 2m 2s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/moving-vlog-1-the-move-is-imminent.html" class="card">
+            <h3>Moving Vlog #1  The move is imminent</h3>
+            <div class="card-meta">Unknown · 4m 4s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/exciting-new-lab-family-adventures-vlog-update.html" class="card">
+            <h3>Exciting New Lab &amp; Family Adventures | Vlog Update</h3>
+            <div class="card-meta">Unknown · 6m 2s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/goku-inspired-hologram-in-the-sunlight.html" class="card">
+            <h3>Goku inspired hologram in the sunlight</h3>
+            <div class="card-meta">Unknown · 0m 43s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/assembling-the-xenomorph-handmade-hologram-and-stand.html" class="card">
+            <h3>Assembling the Xenomorph (handmade hologram and stand)</h3>
+            <div class="card-meta">Unknown · 1m 32s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/sticker-promo.html" class="card">
+            <h3>sticker Promo</h3>
+            <div class="card-meta">Unknown · 1m 9s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/holographic-pokemon-card-pt2.html" class="card">
+            <h3>Holographic Pokemon Card! pt2</h3>
+            <div class="card-meta">Unknown · 13m 27s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/jolteon-hologram-part-1.html" class="card">
+            <h3>Jolteon Hologram PART 1</h3>
+            <div class="card-meta">Unknown · 10m 1s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/data-shard-6.html" class="card">
+            <h3>Data shard #6</h3>
+            <div class="card-meta">Unknown · 0m 40s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/leaf-photonic-chip.html" class="card">
+            <h3>Leaf: photonic chip</h3>
+            <div class="card-meta">Unknown · 0m 17s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/the-last-unicorn-custom-dcg-hologram.html" class="card">
+            <h3>The Last unicorn custom dcg hologram</h3>
+            <div class="card-meta">Unknown · 0m 49s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/data-shard-4-cold-work-dichromate-hologram-jewelry.html" class="card">
+            <h3>Data shard #4.  Cold work dichromate hologram jewelry.</h3>
+            <div class="card-meta">Unknown · 0m 26s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/astro-jelly-dcg-holographic-coldwork-jewelry.html" class="card">
+            <h3>Astro Jelly (DCG Holographic coldwork jewelry)</h3>
+            <div class="card-meta">Unknown · 0m 41s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/g-waves-holo-jewelry-set-handmade-glass-dcg-holograms.html" class="card">
+            <h3>G-Waves holo Jewelry set. handmade glass DCG Holograms</h3>
+            <div class="card-meta">Unknown · 0m 21s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/goodie-box-from-culturehustle6733-excited-to-see-how-these-different-combos.html" class="card">
+            <h3>Goodie box from @culturehustle6733    Excited to see how these different combos can effect my Holos.</h3>
+            <div class="card-meta">Unknown · 2m 54s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/slitherholo-pendant-recap.html" class="card">
+            <h3>Slither.holo pendant recap</h3>
+            <div class="card-meta">Unknown · 2m 4s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/opening-some-zap-caps-vintage-hologram-pogs.html" class="card">
+            <h3>Opening some “zap caps”:  Vintage hologram pogs.</h3>
+            <div class="card-meta">Unknown · 2m 8s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/store-drop-announcement-for-1119.html" class="card">
+            <h3>Store drop announcement for 11/19</h3>
+            <div class="card-meta">Unknown · 3m 0s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/holographic-pokemon-card-project-kickoff-patreon-vote.html" class="card">
+            <h3>Holographic pokemon card project kickoff (Patreon Vote)</h3>
+            <div class="card-meta">Unknown · 6m 27s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/making-a-d20-hologram-pendant.html" class="card">
+            <h3>Making a d20 Hologram pendant.</h3>
+            <div class="card-meta">Unknown · 6m 13s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/stellar-guillotine-1-handmade-holographic-jewelry.html" class="card">
+            <h3>Stellar Guillotine #1     (Handmade Holographic Jewelry)</h3>
+            <div class="card-meta">Unknown · 1m 17s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/rick-hologram-rick-and-morty-fan-art.html" class="card">
+            <h3>Rick Hologram (Rick and Morty fan art)</h3>
+            <div class="card-meta">Unknown · 1m 0s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/the-making-of-the-dark-ritual-hologram.html" class="card">
+            <h3>The Making of The Dark ritual Hologram</h3>
+            <div class="card-meta">Unknown · 18m 28s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/dark-ritual-hologram-handmade-dcg-holography-magic-the-gathering-card.html" class="card">
+            <h3>Dark Ritual Hologram. (Handmade DCG Holography Magic The Gathering Card)</h3>
+            <div class="card-meta">Unknown · 1m 13s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/dark-ritual-prototype-holographic-trading-card.html" class="card">
+            <h3>Dark ritual prototype (Holographic Trading card)</h3>
+            <div class="card-meta">Unknown · 0m 59s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/find-time.html" class="card">
+            <h3>Find Time</h3>
+            <div class="card-meta">Unknown · 0m 17s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/handmade-skyrim-pendant-dcg-holography.html" class="card">
+            <h3>Handmade Skyrim pendant (DCG Holography)</h3>
+            <div class="card-meta">Unknown · 1m 1s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/handmade-cassette-tape-hologram.html" class="card">
+            <h3>Handmade Cassette tape hologram</h3>
+            <div class="card-meta">Unknown · 1m 18s · Youtube</div>
+            <div class="card-excerpt"></div>
+        </a>
+</div>
+</main>
+<footer>
+<div class="container">
+<p>LaserboyHolo (Travis) · 49 videos</p>
+</div>
+</footer>
+</body>
+</html>

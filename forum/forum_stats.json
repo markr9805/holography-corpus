@@ -1,0 +1,15 @@
+{
+  "total_topics": 2,
+  "total_posts": 13,
+  "total_requests": 6,
+  "total_errors": 0,
+  "forums": {
+    "9": {
+      "name": "AgX - Silver Halide Emulsions",
+      "topics_scraped": 2,
+      "posts_scraped": 13
+    }
+  },
+  "started": "2026-06-25T02:50:41.605721+00:00",
+  "last_run": "2026-06-25T02:50:50.135481+00:00"
+}

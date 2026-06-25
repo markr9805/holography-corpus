@@ -1,0 +1,17 @@
+audio/
+chunks/
+.venv/
+diarize-env/
+whisper-env/
+__pycache__/
+*.pyc
+.env
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.webm
+*.mp4
+.DS_Store
+analysis/transcripts/
+forum/raw/

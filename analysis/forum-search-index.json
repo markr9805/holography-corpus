@@ -1,0 +1,218 @@
+{
+  "generated": "2026-06-24T22:50:52.759910",
+  "source": "holographyforum.org",
+  "total_topics": 2,
+  "total_posts": 13,
+  "forum_counts": {
+    "AgX": 2
+  },
+  "forums": {
+    "30": {
+      "name": "General Holography (old)",
+      "short": "General-Old"
+    },
+    "7": {
+      "name": "DCG - Dichromated Gelatin",
+      "short": "DCG"
+    },
+    "5": {
+      "name": "Techniques",
+      "short": "Techniques"
+    },
+    "45": {
+      "name": "Beginning Holography",
+      "short": "Beginners"
+    },
+    "32": {
+      "name": "Gallery",
+      "short": "Gallery"
+    },
+    "9": {
+      "name": "AgX - Silver Halide Emulsions",
+      "short": "AgX"
+    },
+    "23": {
+      "name": "Optics",
+      "short": "Optics"
+    },
+    "6": {
+      "name": "Equipment",
+      "short": "Equipment"
+    },
+    "53": {
+      "name": "Events, announcements, and news",
+      "short": "Events"
+    },
+    "3": {
+      "name": "ISDH / Symposia",
+      "short": "ISDH"
+    },
+    "4": {
+      "name": "Announcements",
+      "short": "Announcements"
+    },
+    "8": {
+      "name": "General Holography (new)",
+      "short": "General-New"
+    },
+    "41": {
+      "name": "Network54 Archived Posts",
+      "short": "Network54"
+    },
+    "33": {
+      "name": "Links",
+      "short": "Links"
+    },
+    "39": {
+      "name": "For Sale or Trade",
+      "short": "ForSale"
+    },
+    "12": {
+      "name": "Off Topic",
+      "short": "OffTopic"
+    },
+    "34": {
+      "name": "Off Topic (old)",
+      "short": "OffTopic-Old"
+    },
+    "52": {
+      "name": "Holography Jobs",
+      "short": "Jobs"
+    },
+    "31": {
+      "name": "Administration",
+      "short": "Admin"
+    },
+    "54": {
+      "name": "The Dump",
+      "short": "Dump"
+    }
+  },
+  "categories": {
+    "techniques": [
+      "DCG",
+      "Techniques",
+      "AgX",
+      "Optics"
+    ],
+    "community": [
+      "General-Old",
+      "General-New",
+      "Beginners",
+      "Gallery",
+      "Announcements",
+      "ISDH",
+      "Events"
+    ],
+    "resources": [
+      "Equipment",
+      "Links",
+      "ForSale",
+      "Jobs"
+    ],
+    "archive": [
+      "Network54",
+      "OffTopic",
+      "OffTopic-Old",
+      "Admin",
+      "Dump"
+    ]
+  },
+  "author_index": {
+    "soda": {
+      "count": 1,
+      "topics": [
+        10003
+      ]
+    },
+    "Martin": {
+      "count": 1,
+      "topics": [
+        10003
+      ]
+    },
+    "Sergio": {
+      "count": 1,
+      "topics": [
+        10003
+      ]
+    },
+    "Grayham": {
+      "count": 1,
+      "topics": [
+        10003
+      ]
+    },
+    "dannybee": {
+      "count": 1,
+      "topics": [
+        10003
+      ]
+    },
+    "Manul": {
+      "count": 2,
+      "topics": [
+        10003,
+        11487
+      ]
+    },
+    "Ed Wesly": {
+      "count": 1,
+      "topics": [
+        11487
+      ]
+    }
+  },
+  "entries": [
+    {
+      "id": "forum-11487",
+      "type": "forum-thread",
+      "forum_id": 9,
+      "forum": "AgX",
+      "forum_full": "AgX - Silver Halide Emulsions",
+      "category": "techniques",
+      "topic_id": 11487,
+      "title": "Harman Technology Holo FX plates",
+      "authors": [
+        "Ed Wesly",
+        "Manul"
+      ],
+      "post_count": 2,
+      "views": 17697,
+      "date_start": "2026-03-31",
+      "date_end": "2026-04-11",
+      "excerpt": "I have tried to contact Harman Technology, https://www.harmantechnology.com/which produces photographic products, with the hope of attracting them to come to ISDH 2026, with no success. They had produced Holo FX holographic plates around 2012, and I received samples for evaluation, and they were much better than Slavich PFG-01 and VRP-M, and even the old Agfa Holotest line up, the proof being I could get great single beam reflection holograms on the Holo FX green emulsion which was impossible…",
+      "url": "https://holographyforum.org/forum/viewtopic.php?t=11487",
+      "has_attachments": true,
+      "is_sticky": null,
+      "is_locked": null
+    },
+    {
+      "id": "forum-10003",
+      "type": "forum-thread",
+      "forum_id": 9,
+      "forum": "AgX",
+      "forum_full": "AgX - Silver Halide Emulsions",
+      "category": "techniques",
+      "topic_id": 10003,
+      "title": "SilverX color holographic emulsion",
+      "authors": [
+        "soda",
+        "Martin",
+        "Sergio",
+        "Grayham",
+        "dannybee",
+        "Manul"
+      ],
+      "post_count": 11,
+      "views": 180307,
+      "date_start": "2018-12-29",
+      "date_end": "2025-10-04",
+      "excerpt": "Finally, I have to compile formula for preparation of ultra fine grain silver halide emulsion for color holography, based on Silver Cross project. Any comments, experiments and improvements are greatly welcomed and will be implemented in future revisions of the attached document. Despite of really good results, there is still room for improvement in sensitization, alternative ways of developement procedure and plate preparation. Have a fun... with stable fringes! And happy new year!",
+      "url": "https://holographyforum.org/forum/viewtopic.php?t=10003",
+      "has_attachments": true,
+      "is_sticky": null,
+      "is_locked": null
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>how it do that? #hologram #artist #science — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px 0;
+    max-height: 600px;
+    overflow-y: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.85em;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">🔬 <span>Holography</span> Corpus</div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../creators/index.html">Creators</a>
+<a href="../search/index.html">Search</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<h1>how it do that? #hologram #artist #science</h1>
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/-f8EbnqWo9Q" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+<div class="meta-table">
+<table>
+<tr><td>Creator</td><td><a href="../creators/laserboyholo-travis.html">LaserboyHolo (Travis)</a> <span class="tier-badge tier-1">Tier 1</span></td></tr>
+<tr><td>Date</td><td>Unknown</td></tr>
+<tr><td>Duration</td><td>3m 1s</td></tr>
+<tr><td>Platform</td><td>Youtube</td></tr>
+<tr><td>Watch</td><td><a href="https://www.youtube.com/watch?v=-f8EbnqWo9Q" target="_blank">https://www.youtube.com/watch?v=-f8EbnqWo9Q</a></td></tr>
+</table>
+</div>
+<h2>Transcript</h2>
+<div class="transcript">How do holograms work? If I said magic, would you believe me? Okay, fine. Holography is the practice of recording an interference pattern using coherent light um within a holographic substrate. Well, what does that mean? Number one, interference pattern. Think of the light waves like water waves, right? Waves be waving. Simple example. I throw two rocks into the water and what happens? We get ripples. Whoa. Those are waves, right? All right. So this thing you&#x27;re looking at here with the ripple ripples this is a wavefront. Okay. Now all these little points in which the waves are intersecting basically these coherent light waves are intersecting. It&#x27;s little tiny little points those are interference points. And you might be thinking Travis what do these two rocks have to do with anything? It&#x27;s just a good starting point. So now we understand wave interference right uh on a two-dimensional aquatic plane. Sure. Not the threedimensional photonic plane. So expand the two dimensional concept of the water waves into the threedimensional realm. I get kind of crazy. So let&#x27;s talk about how the light a single photon would act, right? We shoot a photon out of the laser beam. Um and it&#x27;s going to hit the holographic film first. This is a single beam method. There&#x27;s different ways to do this. Um but it hits the film first, hits the subject, right? the subject is not going to be perfectly smooth. So, it&#x27;s going to scatter that photon. So, we have like a cone of of light, right? And the cone is going to come back into the film. All right, that&#x27;s the that&#x27;s the other wave. We got the wave shooting in, we got the wave coming back out. And now, inside of that holographic film that&#x27;s in between that wave pattern, we&#x27;re going to basically record our interference pattern, our interference point. So we do that about a billion times across the entire surface of the film because that&#x27;s just how organic capturing of film works. And now you have a matrix of you know billions of interference points that are all reconstructing an image because of this interference points uh during the development process. Basically you have metallic uh particles that are going to align and become silvered so to speak or refractive and that&#x27;s how you get your holographic light effect. uh because the light is coming in, it&#x27;s going to reflect some back, but also focus it like a lens do, right? And that&#x27;s how we get our shape. So much like creating a a a sculpted toy and making a cast of it and making a mold, it&#x27;s kind of like making a holographic mold, but you don&#x27;t fill it with plastic or resin. You fill it with light and then it replays the original interference pattern. It was recorded. That&#x27;s just my That&#x27;s just off my dom here. I There&#x27;s a search engines. Yeah, you know what I&#x27;m talking about. You as you can read you can read about it.</div>
+</main>
+<footer>
+<div class="container">
+<p>how it do that? #hologram #artist #science · LaserboyHolo (Travis)</p>
+</div>
+</footer>
+</body>
+</html>

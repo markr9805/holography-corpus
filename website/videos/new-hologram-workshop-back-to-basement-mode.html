@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Hologram Workshop (back to basement mode) — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px 0;
+    max-height: 600px;
+    overflow-y: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.85em;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">🔬 <span>Holography</span> Corpus</div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../creators/index.html">Creators</a>
+<a href="../search/index.html">Search</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<h1>New Hologram Workshop (back to basement mode)</h1>
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/FI-kvMNyrMA" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+<div class="meta-table">
+<table>
+<tr><td>Creator</td><td><a href="../creators/laserboyholo-travis.html">LaserboyHolo (Travis)</a> <span class="tier-badge tier-1">Tier 1</span></td></tr>
+<tr><td>Date</td><td>Unknown</td></tr>
+<tr><td>Duration</td><td>7m 10s</td></tr>
+<tr><td>Platform</td><td>Youtube</td></tr>
+<tr><td>Watch</td><td><a href="https://www.youtube.com/watch?v=FI-kvMNyrMA" target="_blank">https://www.youtube.com/watch?v=FI-kvMNyrMA</a></td></tr>
+</table>
+</div>
+<h2>Transcript</h2>
+<div class="transcript">I think it&#x27;s got to happen again, guys. I&#x27;m not really stoked about it, but I think we have to move Laser Boy Hollow again. Landlord has raised the rent. My lease is up in 2 months, and I&#x27;ve already been struggling here for the past 3 months. Honestly, it&#x27;s been tricky. The social media game, the art game, it&#x27;s been really tricky. And now the economyy&#x27;s going all the way down. So, what are we doing? We got to problem solve. I don&#x27;t want to close shop. That&#x27;s the nightmare for me. We&#x27;ve been here before. I think the downwards flip has been mostly about me not paying attention to all of the media things you&#x27;re supposed to be paying attention to and how you&#x27;re supposed to adjust and how you&#x27;re supposed to do things. As well as me severely being adverse to things like the Tik Tok shop and other commerce platforms that try and get creators or influencers to sell stupid But luckily I do have a place to land. So, this is the third iteration of the laser boy hollow laser lab situation. I&#x27;ve been comfortable here for 2 years and now we&#x27;re on to the next the next one. Rebuild again. We got a lot of the stuff here. It should be quicker and easier. It doesn&#x27;t travel 2,000 mi across the country. We just got to travel about 3 mi in one direction and then we&#x27;ll be all right. So, where are we going to here? New basement. This is the basement of my lovely girlfriends and these are her kils. She&#x27;s a ceramic artist. She&#x27;s going to be setting up in this side. I&#x27;m going be on this side. We&#x27;re going to be kind of dueling it, right? That sounds kind of cool. I got to move stuff and do a lot of stuff. And I&#x27;m dancing around this pole. Not for money, but I do need money. Okay, it&#x27;s been about a week since I shot that first part of this video. And now I just have to get going cuz I feel like there&#x27;s specific things here that are stopping me from getting momentum and getting this place situated so that I can start working in it. Start making stuff for you and all that good stuff. Uh, I got to paint it. I don&#x27;t want to paint it. Got to paint it though. I think that I&#x27;m motivated enough to do it. Hope that I can keep momentum and let&#x27;s go. Let&#x27;s go. Let&#x27;s go. In the plan of no return with move here. We&#x27;re going to move that table and this whole thing. That means that the next batch of film that I make has to be the new spot. And I got a couple orders that I got to do. So, it means that I got to make the rest of this whole thing pretty swift. So, here we are. I think we&#x27;re in lab four. Boom. Here we are. Uh, maybe we should give you a wider view here. Looks kind of like this. Uh, yeah. I guess we could maybe zoom in a little bit. Um, I don&#x27;t know what I feel about this light yet. Maybe it&#x27;s okay. This is a new lab, so I clean this stuff up, but like I said, let&#x27;s get to work. It&#x27;s not going to be perfect. Uh, just better every day, right? So, come here. Here we are. Nice. So, this is just how the set&#x27;s going to work. We&#x27;re going to do the live content. We&#x27;re going to do recorded content. We&#x27;re going to do content, right? Content&#x27;s the name of the game and the art game today. But the idea here is that to be present. The world is very weird right now. And I think that artificial let&#x27;s say artificial creators do pose a threat to the creator economy in general. I think there is a way that we marry together this beautiful future. Uh but right now it seems like artists are being taken advantage of. AI is only built for tech boys who don&#x27;t want to pay creative. So I&#x27;m a mixture of a tech boy and a creative. So I use the technology. I&#x27;m up with the technology. I don&#x27;t really know how we navigate forward, but I do know that I need to be present as a human creator. And I think this is how we do it. I think like we&#x27;ll do this type of uh content, this type of like just open creativity, I think is the concept that I have in mind. I&#x27;ve got a lot of projects knocking around, floating around. Point being is that like I don&#x27;t think that in this world of AI generation and duping other people&#x27;s work, there&#x27;s any value in just posting a final image, right? A final piece of art, right? and showing the process is really what it&#x27;s all about. Like especially when you do with the work that I do, which is that it&#x27;s holography and it&#x27;s not necessarily widely known how it works or how it&#x27;s made. I think this just a way to get ahead of the curve, get as close to being undeniably here and human and creative as I can, which seems to be live streaming. This is what I learned to do on Tik Tok. Uh, Tik Tok was really cool because I got to like directly connect with people. Uh, doing the live streams. It was very nice having like a a community to tune into, people that cared, people that were interested, and I just want to keep growing that even if it&#x27;s not on Tik Tok. That&#x27;s why we&#x27;re here on YouTube. Um, we&#x27;re also going to be streaming on other platforms like Tik Tok, too, but I don&#x27;t think as much like I don&#x27;t think it&#x27;s going to be the primary place. trying to figure out right now I do have it set up so that I can stream horizontally like this to YouTube as well as Tik Tok vertically at the same time. So that&#x27;s really cool. I have a system in place where I can be in more places at once. Uh and we can expand that even more. I think that&#x27;s dependent on my upload speed, my my internet here. So look forward to more online content, live content that but it&#x27;s cool to have a platform where people can just step in and start asking me questions and I can speak directly to them. I think that talking to people is way to way to talk to them about art. So that&#x27;s why I always try when I can to have a call with my clients so we on the same page and uh and uh sometimes we get there, sometimes we don&#x27;t. Anyway, I&#x27;m just rambling now. Please tune in. We&#x27;re going to do these I don&#x27;t know what schedule&#x27;s going to be. Maybe Tuesdays and Thursdays we&#x27;re going to be doing some streaming. Maybe suggestions on when people are available. If you&#x27;re watching this video, you seem like an interesting party. Interested party. It&#x27;s intersection. Uh I&#x27;ll catch you later. I&#x27;m gonna go I&#x27;m going to be working on a pendant, a hologram pendant of a Luna moth. The model is almost done. So, this is what we&#x27;re doing here. This is what we&#x27;re doing. It&#x27;s going to be one of the kind of guillotine style pendants that I make. I don&#x27;t know why that&#x27;s the move. Um, but uh it is now a sultan like what I do here. If you I&#x27;m trying to get back on all the instas, right? Uh I think that it was really difficult to operate as me. I&#x27;ll just say me, right? It was difficult to operate as me the tail end of last year, right? I don&#x27;t think that I did well with the news cycle. I don&#x27;t think that I think that overall I am too sensitive for the news. I don&#x27;t know what to do about that other than to continue to translate my emotions into my work. So internal renaissance, right? I think that I&#x27;m just giving myself the authority to step back into the light. uh try to accept the idea that the things that I create are worth people&#x27;s time and they&#x27;re important. If you follow me on Instagram for a long time, if you found me on Tik Tok, if you found me on YouTube, I don&#x27;t care where you found me. I just really appreciate that that you&#x27;re here. And hopefully we&#x27;re going to turn this car around. We&#x27;re going to go uphill now. Thank you.</div>
+</main>
+<footer>
+<div class="container">
+<p>New Hologram Workshop (back to basement mode) · LaserboyHolo (Travis)</p>
+</div>
+</footer>
+</body>
+</html>
