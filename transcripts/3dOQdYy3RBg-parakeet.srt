@@ -1,0 +1,987 @@
+1
+00:00:02,720 --> 00:00:08,400
+The following is a production of Frank Defratis and the Internet Legend of Holography.
+
+2
+00:00:11,600 --> 00:00:17,760
+Hello, this is Frankie Freitas, and welcome to HoloTalk, the Internet Laser and Holography Talk Show.
+
+3
+00:00:17,760 --> 00:00:28,320
+Our toll-free number is 1-800-4583525, or you can send an email to Holotalk at HoloWorld.com.
+
+4
+00:00:28,320 --> 00:00:33,360
+We've got telephone calls, we've got emails, we've got special guests coming up.
+
+5
+00:00:33,360 --> 00:00:40,960
+So thank you for tuning in, and let's get this week's show on the road.
+
+6
+00:00:40,960 --> 00:00:44,480
+Hello, this is Frank Defradis, and welcome to another week of HoloTalk.
+
+7
+00:00:44,480 --> 00:00:50,960
+Our guest this week is Brian Monahan from Pennsylvania Pulp and Paper, located in Glenside, Pennsylvania.
+
+8
+00:00:50,960 --> 00:00:55,520
+They have a website at www.holoprism.com.
+
+9
+00:00:55,520 --> 00:01:01,520
+That's H O L O P R I S M of W dot Holoprism.com.
+
+10
+00:01:01,520 --> 00:01:04,800
+Now, as you're listening to the show, you can go over and visit their website.
+
+11
+00:01:04,800 --> 00:01:06,720
+We also have a link on the Holo Talk page.
+
+12
+00:01:06,720 --> 00:01:08,240
+You can just click on the link.
+
+13
+00:01:08,240 --> 00:01:13,520
+And the show will continue to play with the real audio player in the background as you visit the website.
+
+14
+00:01:13,520 --> 00:01:19,120
+Our musical guest this week is a band called Brazil 2000.
+
+15
+00:01:19,120 --> 00:01:21,920
+Now Brian has a very interesting company.
+
+16
+00:01:21,920 --> 00:01:27,280
+They're producing holograms using desktop computers and holographic printers.
+
+17
+00:01:27,280 --> 00:01:31,200
+Now they're not doing the traditional three-dimensional holograms.
+
+18
+00:01:31,200 --> 00:01:44,160
+They're doing what we refer to as 2D, 3D holograms, which means it has almost a spectral quality to it, and it does have some depth, but the depth is more in layers than anything else.
+
+19
+00:01:44,160 --> 00:01:53,360
+They use the desktop computers to both design the images themselves and also bring images in that are supplied to them on discs.
+
+20
+00:01:53,360 --> 00:01:58,560
+And also, as Brian tells us in the interview, uh more and more commonly through the internet.
+
+21
+00:01:58,560 --> 00:02:00,760
+So it's going to be a very interesting interview.
+
+22
+00:01:59,680 --> 00:02:04,360
+Before we get to that interview, I just want to point out one thing.
+
+23
+00:02:04,840 --> 00:02:11,480
+There's going to be a major laser and holography exhibit in this area.
+
+24
+00:02:11,480 --> 00:02:25,400
+Now if you live in the New York, Philadelphia, Baltimore, Washington, DC, Carrid or anywhere in that area all the way west to, say Harrisburg, this exhibit is going to be right in your area.
+
+25
+00:02:25,400 --> 00:02:36,680
+Now at this point in time there have not been any press releases sent out on this, so I cannot comment on when the exhibit's going to be or where it's going to be located.
+
+26
+00:02:36,680 --> 00:02:38,680
+But I will let you do this.
+
+27
+00:02:38,680 --> 00:02:40,760
+I'm going to give you an email address.
+
+28
+00:02:40,760 --> 00:02:47,480
+That email address is as follows Exhibit at HoloWorld.com.
+
+29
+00:02:47,480 --> 00:02:51,400
+That email address is exhibit at holoworld.com.
+
+30
+00:02:51,400 --> 00:03:08,760
+If you send an email to that address, I'm going to put up a special folder for you and I'm going to put all the emails into that folder and as soon as the information is released and I get the go-ahead on releasing some of that information, I will make sure that you are the first people to know about it.
+
+31
+00:03:08,760 --> 00:03:18,440
+And I'm also going to look into perhaps having HoloTalk listeners receive maybe a discount or something of that nature if you come out to see this show.
+
+32
+00:03:18,440 --> 00:03:28,840
+It's going to be approaching holography and lasers through science and technology so it's going to be something to see.
+
+33
+00:03:28,840 --> 00:03:30,880
+Now this isn't going to be a long show.
+
+34
+00:03:30,880 --> 00:03:32,400
+Uh I've moved the studio.
+
+35
+00:03:32,400 --> 00:03:38,200
+The studio equipment and everything we need to broadcast is now over at the Discovery Center of Science and Technology.
+
+36
+00:03:38,200 --> 00:03:45,040
+We're going to be doing this show live in front of people uh each weekend so we may have to change the date that it goes up.
+
+37
+00:03:44,840 --> 00:03:46,400
+We'll have to see about that.
+
+38
+00:03:46,640 --> 00:03:54,320
+But in any case, um we're going to make this a short show because some of the equipment hook is hooked up, other parts of the equipment is not hooked up.
+
+39
+00:03:54,320 --> 00:04:05,520
+So uh we're just going to go right into the Brian Monaghan interview and let's see what Brian has to say about his company Pennsylvania Pulp and Paper and what they're doing with desktop holography.
+
+40
+00:04:06,480 --> 00:04:07,520
+Good morning.
+
+41
+00:04:07,520 --> 00:04:08,800
+Hi Brian, how are you doing?
+
+42
+00:04:08,800 --> 00:04:10,320
+Not bad, not bad.
+
+43
+00:04:10,320 --> 00:04:16,240
+Um we're talking with Brian Monaghan from Pennsylvania Pulp and Paper.
+
+44
+00:04:16,240 --> 00:04:20,240
+And they're located in Glenside, Pennsylvania.
+
+45
+00:04:20,240 --> 00:04:21,520
+Brian, how are you doing today?
+
+46
+00:04:21,520 --> 00:04:22,720
+Not bad, Frank and you?
+
+47
+00:04:23,040 --> 00:04:23,760
+Okay.
+
+48
+00:04:23,760 --> 00:04:30,160
+Um to tell you the truth, when I I was looking through your materials last night and well we've known each other for a a while anyway.
+
+49
+00:04:30,480 --> 00:04:36,080
+But to be honest with you, uh we could probably do two shows on what it is that you guys are doing down there.
+
+50
+00:04:36,080 --> 00:04:40,080
+Could you tell us a little bit about uh some of the hotter things that are going on down there.
+
+51
+00:04:40,080 --> 00:04:40,640
+Yes.
+
+52
+00:04:40,640 --> 00:05:13,600
+Uh well w uh just recently as a matter of fact uh the past two days we have uh done some really amazing breakthroughs in the realm of photoresist holography um basically we are uh doing a new process which will enable us to uh make uh dot matrix type holograms at uh extremely extremely high speed in very large format and uh also in cylindrical format.
+
+53
+00:05:13,600 --> 00:05:28,760
+Oh interesting and the the big thing about that is our industry, which is uh in the embossed holo holography industry the same lines where shims meet up on an embossing cylinder are uh taboo.
+
+54
+00:05:28,760 --> 00:05:29,640
+Mm-hmm.
+
+55
+00:05:29,640 --> 00:05:33,320
+Especially with our cross grading, our rainbow cross grading.
+
+56
+00:05:33,320 --> 00:05:44,680
+So we've developed a technique to be able to uh write our holography directly into a cylinder and produce a fairly long lasting cylinder with absolutely no seam lines.
+
+57
+00:05:44,680 --> 00:05:45,640
+Well that's incredible.
+
+58
+00:05:45,640 --> 00:05:47,000
+Yeah, it it's pretty interesting.
+
+59
+00:05:47,000 --> 00:05:48,440
+Now what size can you go up to with this?
+
+60
+00:05:48,440 --> 00:05:49,640
+You said low large format.
+
+61
+00:05:49,640 --> 00:05:51,000
+What do you mean large format?
+
+62
+00:05:51,000 --> 00:05:55,000
+Well, right now we are set up to do thirty inches by forty inches.
+
+63
+00:05:55,000 --> 00:05:55,560
+Mm-hmm.
+
+64
+00:05:55,560 --> 00:05:57,240
+At extremely high speed.
+
+65
+00:05:57,240 --> 00:05:57,800
+Wow.
+
+66
+00:05:57,800 --> 00:06:04,760
+Uh we are in the works of uh the engineering a plan to do uh hundred and ten inch wide cylinders.
+
+67
+00:06:04,760 --> 00:06:05,560
+Wow.
+
+68
+00:06:05,560 --> 00:06:10,520
+Um mainly for some larger wide web embossers uh in the country.
+
+69
+00:06:10,520 --> 00:06:11,480
+Mm-hmm.
+
+70
+00:06:11,640 --> 00:06:26,280
+It it is absolutely fantastic and you know, it's the best thing is I look back at when I met you and we worked uh took your class with the the Heaney lasers and my biggest goal in life was to be able to get a ten milliwatt heaney.
+
+71
+00:06:27,000 --> 00:06:59,480
+And uh setting up uh endless hours of uh tables and carpets and and cement in my basement and uh coming out uh with uh what you might call a hologram on several occasions really spurred me and now I look back look back at that and look where we are now with uh you know, four we have four dot matrix labs, we have uh uh clean rooms for coating photoresist, uh electroforming, uh embossing and a lot of uh a lot of very high powered and fun lasers to play with.
+
+72
+00:06:59,480 --> 00:07:07,160
+Now the holography part of your business for Pennsylvania pulp and paper, that's running what percentage would you say that is of your business?
+
+73
+00:07:07,160 --> 00:07:09,560
+To date, uh about ninety-five percent.
+
+74
+00:07:09,560 --> 00:07:10,520
+Ninety-five percent.
+
+75
+00:07:10,520 --> 00:07:11,320
+That's incredible.
+
+76
+00:07:11,720 --> 00:07:15,000
+Now you do what they call desktop holography.
+
+77
+00:07:16,400 --> 00:07:18,160
+Would that be a correct term for it?
+
+78
+00:07:18,160 --> 00:07:22,400
+Uh if you're working on desktop computers and in the design stage?
+
+79
+00:07:22,400 --> 00:07:23,680
+Yeah that would be a good term.
+
+80
+00:07:23,680 --> 00:07:35,920
+Uh everything that we do is uh electronic um we do not use any masks or any uh anything like that with a conventional 2D, 3D holography or models.
+
+81
+00:07:35,920 --> 00:07:41,920
+So someone scans an image in to your computer or you receive that on a disk if they wanted something reproduced?
+
+82
+00:07:41,920 --> 00:07:46,160
+Yes, or most a lot right now is coming uh via the internet.
+
+83
+00:07:46,160 --> 00:07:47,120
+Oh no kidding.
+
+84
+00:07:47,120 --> 00:07:47,600
+Yeah.
+
+85
+00:07:47,600 --> 00:07:49,840
+As s uh JPEG images or whatever?
+
+86
+00:07:49,840 --> 00:07:50,800
+Uh bitmap.
+
+87
+00:07:50,800 --> 00:07:51,680
+Bitmaps.
+
+88
+00:07:52,160 --> 00:07:52,640
+Yeah.
+
+89
+00:07:52,640 --> 00:08:02,320
+And what we do is we have a our computer system will break down a bitmap image just as a BMP file may have two hundred and fifty six different colors.
+
+90
+00:08:02,320 --> 00:08:03,120
+Mm-hmm.
+
+91
+00:08:03,120 --> 00:08:10,160
+Uh our computer will interpret it and our machine will run at two hundred and fifty six different angles.
+
+92
+00:08:10,160 --> 00:08:10,800
+I see.
+
+93
+00:08:10,800 --> 00:08:17,040
+So as a picture has all the colors to make the picture, we shoot a hologram with all the angles to make the same picture.
+
+94
+00:08:17,040 --> 00:08:18,160
+Pixel by pixel.
+
+95
+00:08:18,320 --> 00:08:24,160
+Now you had a couple interesting projects and one of the ones that goes back a little way is Star Trek Generations.
+
+96
+00:08:24,480 --> 00:08:29,040
+And then you've got the men in black video covers uh video cassette cover as well.
+
+97
+00:08:29,360 --> 00:08:31,120
+Can you tell us a little bit about that?
+
+98
+00:08:32,080 --> 00:08:43,680
+That was that the men in the actually the Star Trek one was a good uh you know we won uh we won a few awards with the IHMA, the International Hologram Manufacturers Association for the Star Trek box.
+
+99
+00:08:43,680 --> 00:08:48,320
+Mm-hmm and it really in my opinion turned out turned out really pretty fantastic.
+
+100
+00:08:48,320 --> 00:08:50,480
+It achieved its goal.
+
+101
+00:08:50,440 --> 00:09:06,200
+Uh the that led into a lot of other projects, some smaller ones, uh, but then eventually into the Men in black, which uh last year, uh definitely, if not to date, was the largest holographic packaging job in the world.
+
+102
+00:09:06,200 --> 00:09:10,360
+I was looking through your materials last night, one thirty in the morning in bed.
+
+103
+00:09:10,360 --> 00:09:16,280
+Just to get ready for doing the show today, and I picked out this one piece here which is premium mirror board one.
+
+104
+00:09:16,280 --> 00:09:17,000
+Yeah.
+
+105
+00:09:17,000 --> 00:09:21,080
+And I thought to myself, I wonder if this could be used as a regular mirror.
+
+106
+00:09:21,080 --> 00:09:24,440
+So I went down into the lab 'cause I had my lab at my house.
+
+107
+00:09:24,440 --> 00:09:28,120
+And believe it or not it does a nice job reflecting laser light.
+
+108
+00:09:28,200 --> 00:09:32,280
+You can take a la you could cut this up and make front surface mirrors.
+
+109
+00:09:32,280 --> 00:09:40,280
+I I'm almost positive that the surface on this is so good that I could use it in a holographic setup and make a hologram with it.
+
+110
+00:09:40,280 --> 00:09:42,280
+Well we got a new end use now for it.
+
+111
+00:09:42,280 --> 00:09:43,320
+On cardboard.
+
+112
+00:09:43,560 --> 00:09:48,360
+You know what we had no idea what it would be used for when we introduced that product.
+
+113
+00:09:48,360 --> 00:10:01,080
+It took us about a year and a half to be able to design it that it would uh be printable and you could cut it into a box and fold it and glue it and but it still had to have that absolutely perfect mirror condition.
+
+114
+00:10:01,080 --> 00:10:09,080
+Mm-hmm and uh it took a while once we made it we really didn't have too much of an idea who would use it and how it would be used.
+
+115
+00:10:09,080 --> 00:10:10,760
+Sort of like the laser itself.
+
+116
+00:10:10,760 --> 00:10:11,720
+Yeah.
+
+117
+00:10:11,720 --> 00:10:19,800
+But uh it's amazing we have uh customers using it for things as crazy as mirrors for inmates in prison.
+
+118
+00:10:19,800 --> 00:10:22,600
+No kidding uh since they can't have anything sharp.
+
+119
+00:10:22,600 --> 00:10:29,400
+This they get a piece of this uh mirror board along with their toothbrushes and uh then they can shave in it.
+
+120
+00:10:29,400 --> 00:10:30,360
+Incredible.
+
+121
+00:10:30,360 --> 00:10:30,840
+Yeah.
+
+122
+00:10:31,000 --> 00:10:33,400
+That's an it's that's it's very interesting.
+
+123
+00:10:33,400 --> 00:10:35,720
+I think I'm gonna try working with it a little bit.
+
+124
+00:10:36,200 --> 00:10:45,920
+It it doesn't work too well on the spread beam, you know, once the beam's spread out, but to take the beam around the table, this works just as uh good as one of the little front surface mirrors.
+
+125
+00:10:46,000 --> 00:10:47,120
+You may have something there.
+
+126
+00:10:47,520 --> 00:10:56,880
+What are some of the other things you've done on a number of different labels for uh for uh breweries like uh Miller Dri Genuine Draft, right?
+
+127
+00:10:56,880 --> 00:10:58,720
+Well that one we weren't involved with.
+
+128
+00:10:58,720 --> 00:11:02,800
+That one was a good uh story to tell our customers.
+
+129
+00:11:02,800 --> 00:11:03,440
+Mm-hmm.
+
+130
+00:11:03,440 --> 00:11:05,760
+Uh that one was shot by Chromagen.
+
+131
+00:11:05,760 --> 00:11:07,520
+I see uh several years ago.
+
+132
+00:11:07,520 --> 00:11:10,960
+But the sales results from that were pretty amazing.
+
+133
+00:11:10,960 --> 00:11:14,800
+So we we we like to tout the uh sales results of that one.
+
+134
+00:11:14,800 --> 00:11:15,280
+Mm-hmm.
+
+135
+00:11:15,280 --> 00:11:18,000
+Uh but we we've been uh really pretty diverse.
+
+136
+00:11:18,000 --> 00:11:23,840
+It it's a really amazing where all the ends of our holography is going.
+
+137
+00:11:23,840 --> 00:11:29,520
+Uh from everything from again the the packaging arena, which is very hot right now.
+
+138
+00:11:29,520 --> 00:11:38,160
+We're trying to push more into the publishing area for uh book covers, annual report covers, uh things of that nature.
+
+139
+00:11:38,160 --> 00:11:52,240
+Our our large format uh holography, our large machine will, you know, when it produces the thirty by forty, works really very well with uh posters and point of purchase displays, things of that nature.
+
+140
+00:11:52,560 --> 00:11:56,560
+I you know, we're we're still a relatively small company.
+
+141
+00:11:56,560 --> 00:12:05,440
+Um and it's difficult when you try to get into this industry, uh, thinking that you can compete with the American bank notes over the world.
+
+142
+00:12:06,000 --> 00:12:10,880
+Uh where they're producing a billion little half inch holograms a year.
+
+143
+00:12:10,880 --> 00:12:11,520
+Yeah.
+
+144
+00:12:11,520 --> 00:12:16,880
+Uh so we've kind of took a different direction in the packaging in the large format.
+
+145
+00:12:17,120 --> 00:12:27,600
+We may not sell a billion of our holograms, but we sell a million sheets uh that are thirty by forty inches, that's a lot of square inches of holographic material.
+
+146
+00:12:27,600 --> 00:12:36,040
+Yeah, I s I see your your applications here on uh Christmas cards on uh comic book covers.
+
+147
+00:12:36,360 --> 00:12:38,520
+I mean it's it's just on everything.
+
+148
+00:12:39,560 --> 00:12:46,040
+It's been it it it has been actually the best part of it, it has been a lot of fun doing it.
+
+149
+00:12:46,040 --> 00:12:48,440
+Uh we work with a lot of good customers.
+
+150
+00:12:48,440 --> 00:12:51,720
+Uh M MM Mars is a project we got finished doing.
+
+151
+00:12:51,720 --> 00:13:13,720
+It took about six months where we mastered um I would say thirteen, fourteen different originations and combined that into a seamless background pattern to make uh a two foot by three foot hologram uh that would be embossed and then adhered to the side of a candy cart for retail distribution.
+
+152
+00:13:13,720 --> 00:13:14,200
+Mm-hmm.
+
+153
+00:13:14,200 --> 00:13:24,680
+And it took a long time and a uh to shoot that many originations and to get it just right but we had a great customer to work with and when we were all done you look at it and it's fantastic.
+
+154
+00:13:24,680 --> 00:13:27,720
+Is that the moment all the candy bar names on it.
+
+155
+00:13:27,720 --> 00:13:28,040
+Yeah.
+
+156
+00:13:28,040 --> 00:13:30,600
+Yeah I have that up I have that hanging in the center here.
+
+157
+00:13:30,600 --> 00:13:31,000
+Yeah.
+
+158
+00:13:31,000 --> 00:13:31,560
+Yeah.
+
+159
+00:13:31,960 --> 00:13:40,840
+It's really a fantastic piece and uh we're starting to see a lot more people willing to venture into new and unique things like that.
+
+160
+00:13:40,840 --> 00:13:43,640
+And it it really uh it it's really fun.
+
+161
+00:13:43,640 --> 00:13:56,600
+You know when somebody comes to us and says we want to do this or you want to do something unique uh we have a lot of fun in proofing it and uh and showing them what what capabilities that we have and you know what can be done out there.
+
+162
+00:13:56,600 --> 00:14:04,920
+I just want to let the listeners know that Pennsylvania pulpit paper has a website and let me give you the web address and there it's also a link right on the HoloTalk page.
+
+163
+00:14:04,920 --> 00:14:09,240
+It's www dot holoprism dot com.
+
+164
+00:14:09,240 --> 00:14:12,680
+Www.holism dot com.
+
+165
+00:14:12,680 --> 00:14:22,080
+And you can go to their website even as you're listening to this show because the real audio player will continue to play in the background as you surf the web.
+
+166
+00:14:22,080 --> 00:14:29,600
+So if you'd like to find out more about Pennsylvania Pulp and Paper, just you can go right now to their website and the show will continue.
+
+167
+00:14:29,600 --> 00:14:33,840
+You can still listen to the show while you're uh uh cruising around the web there.
+
+168
+00:14:34,160 --> 00:14:54,640
+I think uh I I will mention to you that uh for uh people who understand the internet well that the our website is antiquated and old uh and it's uh we're in the works of updating it and not making it so graphically intensive and more user friendly but for uh for two and a half years old it it it you know did its job.
+
+169
+00:14:54,640 --> 00:14:55,440
+Yeah I'm sure it did.
+
+170
+00:14:55,440 --> 00:14:58,560
+You have a nice C D ROM too an instructional CD ROM.
+
+171
+00:14:58,560 --> 00:14:59,040
+Yeah.
+
+172
+00:14:59,040 --> 00:15:25,200
+And that's a you know again that that's available to people uh who are interested in holography uh who want to know a little bit more very basics on how holograms are made at uh embossed holography and a little bit more about what our company does let me ask you this before we close out here do you ever get any comments from anybody that what you're doing is not holography.
+
+173
+00:15:25,200 --> 00:15:26,960
+Does anybody ever say that?
+
+174
+00:15:26,960 --> 00:15:28,800
+Yeah some some people do.
+
+175
+00:15:28,800 --> 00:15:32,240
+Some people uh what's your response to that?
+
+176
+00:15:32,240 --> 00:15:37,520
+Uh you well my response is that what we're doing is considered two dimensional holography.
+
+177
+00:15:37,520 --> 00:15:43,040
+We're we're interfering two beams of laser light to create a uh an interference pattern.
+
+178
+00:15:43,600 --> 00:15:49,240
+Um be it an interference pattern as complex as a three-dimensional image would be or two-dimensional image.
+
+179
+00:15:49,240 --> 00:15:50,960
+Uh it really doesn't matter.
+
+180
+00:15:50,960 --> 00:16:02,600
+Um some of the work that we've done in the past, we contract out to get a three-dimensional image uh or stereographic image and combine it and integrate it with our uh holographic.
+
+181
+00:16:02,600 --> 00:16:02,920
+Mm-hmm.
+
+182
+00:16:03,000 --> 00:16:05,400
+Uh our 2D prismatic.
+
+183
+00:16:05,400 --> 00:16:13,640
+And what the biggest thing that uh our target audience is is normally people that have products that are under in-store lighting conditions.
+
+184
+00:16:13,640 --> 00:16:14,200
+Mm-hmm.
+
+185
+00:16:14,200 --> 00:16:19,560
+Where ours works very well, especially the dot matrix, it shows a lot of color and a lot of movement.
+
+186
+00:16:19,560 --> 00:16:23,480
+And a three-dimensional hologram uh would be difficult to see.
+
+187
+00:16:23,480 --> 00:16:30,280
+Sometimes the combination of the two of them are dot matrix holography gets them in, three-dimensional holography wows them.
+
+188
+00:16:30,280 --> 00:16:30,680
+Yeah.
+
+189
+00:16:30,680 --> 00:16:37,400
+So there's a place for everything, and uh I think eventually we'll be getting into doing some uh three D origination, very simple.
+
+190
+00:16:39,640 --> 00:16:39,960
+Yeah.
+
+191
+00:16:40,200 --> 00:16:40,920
+Stuff like that.
+
+192
+00:16:40,920 --> 00:16:44,840
+We we've been uh working very hard on on protecting what we're doing.
+
+193
+00:16:44,840 --> 00:16:51,320
+We we just got issued a patent last week on uh registering lithography to holography.
+
+194
+00:16:51,320 --> 00:16:51,960
+Mm-hmm.
+
+195
+00:16:51,960 --> 00:16:54,440
+Umgratulations on that.
+
+196
+00:16:54,440 --> 00:16:58,200
+People say that that's not true holography.
+
+197
+00:16:58,200 --> 00:16:59,720
+Uh uh same thing.
+
+198
+00:16:59,720 --> 00:17:01,880
+It's a unique product in itself.
+
+199
+00:17:01,880 --> 00:17:04,360
+Yeah, I I see you moving in that direction.
+
+200
+00:17:04,360 --> 00:17:07,880
+Uh I'm gonna try and describe this to you so you know what I'm talking about.
+
+201
+00:17:07,880 --> 00:17:10,760
+There's a piece that was in your package with two angels on it.
+
+202
+00:17:11,400 --> 00:17:24,520
+And you're looking up towards the clouds, and I I I see you moving more towards uh the imaging, the actual imaging itself with this piece, because I think this piece grabbed my attention right away.
+
+203
+00:17:24,520 --> 00:17:40,920
+And then unfortunately you don't have the printed piece, but the true uh printing, the true lithography would be printed in register to that hologram to add some color and texture, so it's just not all uh silver and boss holog hologram.
+
+204
+00:17:40,920 --> 00:17:41,720
+Mm-hmm.
+
+205
+00:17:42,040 --> 00:17:51,360
+If you're listening to this show and you're finding it hard to imagine w exactly what it is we're talking about, you may want to go over to the uh Pennsylvania Pulp and Paper site.
+
+206
+00:17:51,680 --> 00:17:58,720
+But chances are you've already had a chance to see something that's been produced by Pennsylvania Pulp and Paper.
+
+207
+00:17:58,720 --> 00:18:03,440
+Next time you're over the video store, pick up the men in black video.
+
+208
+00:18:03,440 --> 00:18:05,760
+Oh, mine's reading written in French.
+
+209
+00:18:06,080 --> 00:18:07,440
+I just noticed that.
+
+210
+00:18:07,440 --> 00:18:12,240
+Yeah, we did uh so far about sixteen countries, including Russia and Saudi Arabia.
+
+211
+00:18:12,560 --> 00:18:13,200
+Okay.
+
+212
+00:18:13,200 --> 00:18:20,880
+Well pick up the men in black video cassette box and you'll see exactly what it is that they're doing over Pennsylvania Pulp and Paper.
+
+213
+00:18:20,880 --> 00:18:22,720
+So Brian, we're gonna head out.
+
+214
+00:18:22,720 --> 00:18:23,200
+Great.
+
+215
+00:18:23,200 --> 00:18:28,320
+Uh this is the first show that I've done live from the Discovery Center.
+
+216
+00:18:28,320 --> 00:18:32,560
+So you were sort of a guinea pig this week because this equipment just got hooked up.
+
+217
+00:18:32,560 --> 00:18:34,720
+But I think everything worked out okay.
+
+218
+00:18:34,720 --> 00:18:35,040
+Yep.
+
+219
+00:18:35,120 --> 00:18:37,840
+Uh if you don't try something new, you'll never get anywhere.
+
+220
+00:18:37,840 --> 00:18:40,880
+Now you need a little help getting that real audio player to work, right?
+
+221
+00:18:40,880 --> 00:18:41,200
+Yep.
+
+222
+00:18:41,280 --> 00:18:49,600
+I'm going to send an email to you to show you uh how you can do that easily with America Online because it's a little bit different than with a direct internet dial-up account.
+
+223
+00:18:49,600 --> 00:18:50,240
+Wonderful.
+
+224
+00:18:50,240 --> 00:18:50,640
+All right.
+
+225
+00:18:50,640 --> 00:18:51,520
+I appreciate it.
+
+226
+00:18:51,520 --> 00:18:52,960
+Brian, thanks for being a guest.
+
+227
+00:18:52,960 --> 00:18:53,680
+Thank you, Frank.
+
+228
+00:18:53,680 --> 00:18:54,080
+Take care.
+
+229
+00:18:54,080 --> 00:18:54,560
+Bye bye.
+
+230
+00:18:54,560 --> 00:18:55,760
+Bye bye.
+
+231
+00:18:57,760 --> 00:19:00,480
+Okay, folks, that was the Brian Monaghan interview.
+
+232
+00:19:00,480 --> 00:19:03,280
+Uh we're going to get the questions next week.
+
+233
+00:19:03,280 --> 00:19:05,280
+Uh we had a bunch of questions coming in.
+
+234
+00:19:05,280 --> 00:19:08,800
+In fact, uh we had the best week we ever had last week.
+
+235
+00:19:08,800 --> 00:19:27,120
+In fact, on Monday, uh when Steve Benton interview first started, we had one hundred no one thousand and one hundred and fourteen listeners on Monday, one thousand and forty-nine listeners on Tuesday, and I'm not quite sure the number on Wednesday, I forgot it actually, but it was over a thousand.
+
+236
+00:19:27,120 --> 00:19:32,280
+So within three days, we had three thousand listeners Monday, Tuesday, and Wednesday of the show.
+
+237
+00:19:32,280 --> 00:19:34,200
+We've got a bunch of questions that came through.
+
+238
+00:19:29,840 --> 00:19:35,800
+We're going to get to the questions next week.
+
+239
+00:19:35,880 --> 00:19:43,320
+You know, every other week we have a uh special guest and then we get to questions and other things on the excuse me, odd weeks.
+
+240
+00:19:43,320 --> 00:19:51,560
+So don't forget uh our toll-free number, one eight hundred-four five eight three five two five, or send an email to Holotalk at HoloWorld dot com.
+
+241
+00:19:51,560 --> 00:20:06,360
+If you want information about that holography exhibit that's coming to this area, New York, Philly, Baltimore, Washington, DC area, easy drive from any of those places, uh, send an email to exhibit at holoworld.com and I'll fill you in on that.
+
+242
+00:20:06,360 --> 00:20:08,680
+So uh thank you for tuning in to HoloTalk.
+
+243
+00:20:08,680 --> 00:20:12,920
+Uh, don't forget our special musical guest this week is a band called Brazil two thousand.
+
+244
+00:20:12,920 --> 00:20:14,680
+Uh here for your listening pleasure.
+
+245
+00:20:14,680 --> 00:20:16,200
+Don't forget to tune in for that.
+
+246
+00:20:16,200 --> 00:20:18,920
+And this is Frank DeFreyus, once again for HoloTalk.
+
+247
+00:20:18,920 --> 00:20:21,720
+Thank you for tuning in, and I'll see you next week.

@@ -1,0 +1,1451 @@
+1
+00:00:03,360 --> 00:00:13,840
+Hello everyone, this is Frank Defrates, and welcome to HoloTalk, the Internet's laser and holography talk show enjoyed in over 42 countries throughout the world.
+
+2
+00:00:13,840 --> 00:00:17,120
+And now here's this week's show.
+
+3
+00:00:21,360 --> 00:00:31,920
+Hello everyone, this is Frank Defratis, and welcome to the 2004 opening show of Holotalk, now going into its eighth year of broadcasting on the internet.
+
+4
+00:00:31,920 --> 00:00:41,120
+My special guest for this show is Graham Saxby, who will be joining us via satellite connection from the Holotalk studio to his home in England.
+
+5
+00:00:41,120 --> 00:00:56,880
+As you may or may not already be aware, Graham has just recently released the third edition of Practical Holography, which many people, myself included, consider the authoritative working manual for all things holographic.
+
+6
+00:00:56,880 --> 00:01:10,880
+I was contacted by his publisher several weeks ago asking if I would review the book and decided to up the ante by suggesting that we do a live program with Graham to broadcast in association with the book's release.
+
+7
+00:01:10,880 --> 00:01:19,680
+The book is already available in England, and Amazon.com has February 2004 posted as its release date here in the U.S.
+
+8
+00:01:20,240 --> 00:01:25,920
+For those listeners who would like to order a copy in the UK, along with those listeners in the U.S.
+
+9
+00:01:26,000 --> 00:01:33,520
+that would like to pre-order a copy, I've included links on the Holotalk page to Amazon.com in both the U.S.
+
+10
+00:01:33,840 --> 00:01:35,440
+and UK.
+
+11
+00:01:35,440 --> 00:01:44,560
+I'd like to welcome all of the Holotalk listeners who have tuned into the program and look forward to bringing additional programming throughout the upcoming year.
+
+12
+00:01:44,560 --> 00:01:48,240
+It's always a pleasure and an honor to be your host.
+
+13
+00:01:48,240 --> 00:01:54,000
+And now without further delay, here's Graham Saxby.
+
+14
+00:01:54,000 --> 00:01:58,480
+Hello everyone, this is Frank Defradas, and I have Graham Saxby on the line.
+
+15
+00:01:58,480 --> 00:02:00,040
+How are you today, Graham?
+
+16
+00:02:00,040 --> 00:02:01,400
+Oh, I'm fine, thank you.
+
+17
+00:02:01,400 --> 00:02:01,800
+Yeah.
+
+18
+00:02:01,800 --> 00:02:02,600
+Hello, Frank.
+
+19
+00:01:59,680 --> 00:02:05,080
+How are things on the other side of the pond?
+
+20
+00:02:05,400 --> 00:02:12,200
+Well, a bit dull today and not very warm, but uh it looks like being a reasonable sort of winter, I hope.
+
+21
+00:02:12,200 --> 00:02:13,240
+That's nice, that's nice.
+
+22
+00:02:13,240 --> 00:02:18,600
+We're getting ready to go into a very cold period here where we'd be down in single digits and below zero.
+
+23
+00:02:18,600 --> 00:02:19,320
+Oh, yes.
+
+24
+00:02:19,320 --> 00:02:26,280
+Within the next week, so and and to and the past few days we were out with t shirts on, so it's a quite a difference.
+
+25
+00:02:26,280 --> 00:02:26,920
+Yes.
+
+26
+00:02:26,920 --> 00:02:28,360
+How are you overall?
+
+27
+00:02:28,360 --> 00:02:32,680
+Well, we've we've been without t shirts for some time now, but it hasn't been really cold.
+
+28
+00:02:32,680 --> 00:02:34,440
+We we get a bit of frost.
+
+29
+00:02:34,440 --> 00:02:40,360
+But uh in this part of the world it's generally fairly warm because we're we're fairly near some big cities.
+
+30
+00:02:40,360 --> 00:02:41,160
+Yes, yes.
+
+31
+00:02:41,640 --> 00:02:44,840
+Well we have we have a very good connection.
+
+32
+00:02:44,840 --> 00:02:45,400
+Yes.
+
+33
+00:02:45,400 --> 00:02:47,320
+So we're thankful for that.
+
+34
+00:02:47,320 --> 00:03:03,560
+And I I thought we would start off the interview by uh jumping right into a few questions that I'm sure a lot of the listeners have out there, and that is when the first uh edition of practical holograp in nineteen eighty-eight.
+
+35
+00:03:03,560 --> 00:03:16,680
+Um it was well received and almost instantaneously went into what we would say could be the Bible of practical practice of holography.
+
+36
+00:03:16,680 --> 00:03:18,680
+With the new edition.
+
+37
+00:03:18,680 --> 00:03:20,360
+What's new?
+
+38
+00:03:20,440 --> 00:03:30,200
+Oh well, um with the first edition really, I was just sort of putting together everything that I knew about holography at the time.
+
+39
+00:03:30,200 --> 00:03:37,720
+And uh as time went on it became more and more obvious that there were bits missing and things had moved on a bit.
+
+40
+00:03:37,720 --> 00:03:44,160
+And uh I went into a second edition, and now of course things have moved on again.
+
+41
+00:03:44,160 --> 00:03:50,000
+And the most important thing of course being that um lasers have suddenly come down in price.
+
+42
+00:03:50,160 --> 00:03:53,440
+We've got diode lasers which are really very good.
+
+43
+00:03:53,840 --> 00:03:59,520
+And people can now pretty well literally make holograms on the kitchen table.
+
+44
+00:03:59,520 --> 00:04:00,080
+Yes.
+
+45
+00:04:00,080 --> 00:04:03,280
+So of course that was the first thing that had to be amended.
+
+46
+00:04:03,440 --> 00:04:05,840
+And I had to put in that sort of thing.
+
+47
+00:04:05,840 --> 00:04:20,000
+And some of us in the Royal Photographic Society's holography group have been doing quite a lot of work on doing little workshops showing people how they can make holograms with very simple lasers, the sort of thing you can buy in souvenir shops.
+
+48
+00:04:20,000 --> 00:04:20,480
+Yeah.
+
+49
+00:04:20,480 --> 00:04:29,120
+I actually bought one in Greece for under two pounds sterling and you couldn't even buy the batteries in this country for this sort of money.
+
+50
+00:04:29,120 --> 00:04:34,240
+And um really w we've been able to get quite good holograms.
+
+51
+00:04:34,240 --> 00:04:36,960
+I've done a lot of work with with Jeff Blythe.
+
+52
+00:04:37,600 --> 00:04:44,560
+He's a bit of an expert in the processing system and he's evolved some very good processing.
+
+53
+00:04:45,040 --> 00:04:51,600
+And the other thing of course is that I've had to bring some of the um applied holography up to date.
+
+54
+00:04:51,600 --> 00:04:52,400
+Yes.
+
+55
+00:04:52,400 --> 00:05:07,600
+I'm I've been keeping up with that because um I have a a company that uh supplies me with abstracts and I've got abstracts of every paper that's been written on holography or even mentioning holography for the last twenty five years.
+
+56
+00:05:08,320 --> 00:05:10,800
+So i it's fairly easy to keep up with that.
+
+57
+00:05:10,800 --> 00:05:17,200
+But it it's rather surprising going through the previous edition, um, how little has really been done.
+
+58
+00:05:17,200 --> 00:05:17,680
+Yes.
+
+59
+00:05:17,840 --> 00:05:25,360
+Um, as far as uh as far as display holography is concerned, really I think we reached the peak several years ago.
+
+60
+00:05:25,360 --> 00:05:25,760
+Mm-hmm.
+
+61
+00:05:26,000 --> 00:05:27,600
+Not very much more has happened.
+
+62
+00:05:27,600 --> 00:05:29,520
+People have just got better at it.
+
+63
+00:05:29,520 --> 00:05:30,000
+Yes.
+
+64
+00:05:30,200 --> 00:05:40,120
+But of course there have been big advances in data processing and that sort of thing, and um particularly in embossed holography and security and so forth.
+
+65
+00:05:40,120 --> 00:05:40,680
+Yes, that's gonna be.
+
+66
+00:05:44,920 --> 00:05:52,600
+I guess I guess the answer with electronic holography and the transmission of this information is going to come through uh compression.
+
+67
+00:05:52,600 --> 00:05:55,080
+Oh yes, yes, very much so.
+
+68
+00:05:55,080 --> 00:06:20,120
+And there's there's a lot of work really um to be done with um well, you can call it electro holography or or something of that sort, but really it's um using um using um electronic imaging to produce the objects for the holography rather than anything else.
+
+69
+00:06:20,120 --> 00:06:34,200
+The other thing is of course that with electronic imaging, we still haven't really got down to the sort of resolution that you need to make the traditional sort of holograms with off axis beams.
+
+70
+00:06:34,200 --> 00:06:34,600
+Yeah.
+
+71
+00:06:34,600 --> 00:06:47,560
+At the moment they can still really only make satisfactory holograms either with on axis beams like Garbo holograms or the slightly off axis ones that you have with Fourier transform holograms.
+
+72
+00:06:47,560 --> 00:06:55,640
+Uh, Fourier transform holograms are the the main sort of thing in data processing.
+
+73
+00:06:55,720 --> 00:06:56,120
+Right.
+
+74
+00:06:56,440 --> 00:07:09,160
+I remember back in the late seventies, perhaps early eighties, and I think the company was named Aerodyne, but they had a holographic printer that would write out a uh computer generated hologram pixel by pixel.
+
+75
+00:07:09,160 --> 00:07:15,600
+And I believe it took like twelve hours for a one centimeter square area to be written.
+
+76
+00:07:14,920 --> 00:07:16,640
+Yes, it would.
+
+77
+00:07:16,880 --> 00:07:23,360
+Um that was one of the troubles that um Steve Benton's team had when they were trying to produce holographic video.
+
+78
+00:07:23,360 --> 00:07:23,840
+Mm-hmm.
+
+79
+00:07:23,840 --> 00:07:32,480
+They they found that it would take twenty-five minutes to print out a the a single um television um picture.
+
+80
+00:07:32,480 --> 00:07:33,760
+Yeah.
+
+81
+00:07:33,760 --> 00:07:51,840
+And uh of course that really that was um how Benton's rainbow holograms came about, 'cause he was trying to reduce the amount of information by cutting out the vertical parallax and he finished up with a rainbow hologram rather I think to his surprise and everybody else's.
+
+82
+00:07:51,840 --> 00:07:52,480
+Yeah.
+
+83
+00:07:52,480 --> 00:07:57,760
+And of course that was the start of the whole business of commercial embossed holograms.
+
+84
+00:07:57,760 --> 00:08:09,040
+Yeah, that's amazing story with uh the uh development of the uh rainbow hologram, basically due to the fact that uh they were trying to decrease the amount of information that would have to be transmitted and written.
+
+85
+00:08:09,040 --> 00:08:09,600
+That's right.
+
+86
+00:08:09,760 --> 00:08:10,400
+Yeah.
+
+87
+00:08:10,400 --> 00:08:10,880
+Yes.
+
+88
+00:08:10,880 --> 00:08:14,160
+So we were all devastated when Steve died, of course.
+
+89
+00:08:14,160 --> 00:08:14,800
+Yes.
+
+90
+00:08:14,960 --> 00:08:16,560
+Very, very sad indeed.
+
+91
+00:08:16,560 --> 00:08:16,880
+Yeah.
+
+92
+00:08:22,320 --> 00:08:25,280
+And I was proud to call him a friend of mine.
+
+93
+00:08:25,280 --> 00:08:38,000
+Yeah, and we actually have an interview on the uh HoloTalk archive page with Steve, so if any of the listeners who are new to the show ha not had an opportunity to uh hear Steve Benton, there's uh there's a show on the page there.
+
+94
+00:08:38,000 --> 00:08:39,520
+Oh yeah as well.
+
+95
+00:08:39,520 --> 00:08:43,120
+And uh I want to thank you very much for uh coming on the show by the way.
+
+96
+00:08:43,840 --> 00:08:48,000
+And also for uh for having the publisher send that copy of the book.
+
+97
+00:08:48,560 --> 00:09:06,680
+And uh as usual it's an excellent book and uh so you so you're saying basically uh what you feel are are the the largest areas uh of of inclusion or or new areas of inclusion in the book would be uh the uh diode holography and also several new formulas that you have in the book as well.
+
+98
+00:09:06,920 --> 00:09:08,440
+Oh yes, very much so.
+
+99
+00:09:08,440 --> 00:09:23,240
+Um I I have to be very grateful to Jeff Blythe for that as well, because he spent a lot of time not only working out how to make red sensitive dichromate but um how to make your own holographic emulsion from scratch.
+
+100
+00:09:23,480 --> 00:09:23,880
+Yes.
+
+101
+00:09:24,120 --> 00:09:33,640
+He's working in Cambridge University at the moment, um not on holography as such, but um using holographic emulsions in diagnostic things.
+
+102
+00:09:33,640 --> 00:09:51,000
+W what what he did very roughly is to make a trivial hologram, that is a just a hologram of a mirror, and then he um subjects it to various sorts of things, you know, bacteria and so forth, and from the color changes it's possible to diagnose what's going on.
+
+103
+00:09:51,000 --> 00:09:51,480
+Mm-hmm.
+
+104
+00:09:51,480 --> 00:09:55,640
+So it it's quite an exciting thing, but it it's not direct holography as such.
+
+105
+00:09:55,640 --> 00:09:56,040
+Yeah.
+
+106
+00:09:56,040 --> 00:10:02,120
+On the other hand, he has to have reliable emulsions and so he had to work out how to make them himself.
+
+107
+00:10:02,120 --> 00:10:02,600
+Mm-hmm.
+
+108
+00:10:02,600 --> 00:10:06,920
+And that of course is something that I've been able to publish in this new edition.
+
+109
+00:10:06,920 --> 00:10:09,720
+Well that's wonderful that that's in the book and it's out there now.
+
+110
+00:10:09,720 --> 00:10:15,960
+The other thing of uh about it, of course, is that I I have rewritten the format completely.
+
+111
+00:10:15,960 --> 00:10:16,280
+Mm-hmm.
+
+112
+00:10:16,360 --> 00:10:26,600
+Then the old one it was a bit textbookish and um I've really taken a leaf out of the open university's book.
+
+113
+00:10:26,600 --> 00:10:35,560
+Um what they do, because they're a distance learning thing, their textbooks have to be pretty close to having a tutor breathing down your neck.
+
+114
+00:10:35,560 --> 00:10:36,040
+Mm-hmm.
+
+115
+00:10:36,040 --> 00:10:42,280
+And therefore they're they're all sort of first person and uh they know this is what I'm telling you kind of thing.
+
+116
+00:10:42,280 --> 00:10:42,920
+Yes.
+
+117
+00:10:42,920 --> 00:10:57,040
+And um they uh to keep the continuity, all the anecdotes and various little side bits are actually put in margins and the smaller diagrams go into margins as well.
+
+118
+00:10:57,040 --> 00:10:59,520
+And that gives a much better continuity.
+
+119
+00:10:59,520 --> 00:11:00,160
+Yes.
+
+120
+00:11:00,160 --> 00:11:06,720
+And I I tried this in the first place in the the last book which I did which wasn't altogether about holography.
+
+121
+00:11:06,720 --> 00:11:15,920
+It was called the science of imaging and uh that was where it was about photography and television and video and holography and everything else.
+
+122
+00:11:16,400 --> 00:11:23,760
+And it worked so well that I I thought I'd like to try the same format for practical holography when we came to rewrite it.
+
+123
+00:11:23,760 --> 00:11:27,440
+Yeah it it appears it's been through a number of different publishers.
+
+124
+00:11:27,440 --> 00:11:46,240
+It started off with Prentice Hall and apprentice hall um of course like all these other firms they tremendous lot of selling out to different companies goes on and they finished up with Pearson Education who found they hadn't really got room for a book of that type on their books.
+
+125
+00:11:46,240 --> 00:12:00,640
+And by very good fortune I'd got it in with the Institute of Physics publishing and I was doing some freelance editing for them and they thought it would be a very good idea to take this book under their wing as it were.
+
+126
+00:12:00,640 --> 00:12:03,280
+And they they really have been absolutely first class.
+
+127
+00:12:03,280 --> 00:12:05,680
+They've been tremendously helpful.
+
+128
+00:12:05,680 --> 00:12:17,440
+It does seem to appear that it's evolved into somewhat more of a uh beside the table work book where everything is broken down into step by step modules.
+
+129
+00:12:17,520 --> 00:12:19,000
+Exactly, yes, yes.
+
+130
+00:12:19,000 --> 00:12:21,840
+That was just what I wanted to do in the first place.
+
+131
+00:12:21,840 --> 00:12:43,240
+See when when I was actually working um partly uh at the Royal College of Art and partly at Wolverhampton University, and I had these students and of course I had to teach them as it were, breathing down their shoulders, and I thought the best thing I could do was to put that into words as best I could.
+
+132
+00:12:43,240 --> 00:12:44,200
+Mm-hmm.
+
+133
+00:12:44,200 --> 00:12:57,240
+Because uh I'm I mean I was getting older and I was already beyond my retiring age and they'd stopped paying me a salary and people were sort of breathing down my neck and saying, you know, we we need this place, we need more office space.
+
+134
+00:12:57,240 --> 00:13:00,280
+What are you doing working in here?
+
+135
+00:13:00,280 --> 00:13:02,200
+You should have been retired long ago.
+
+136
+00:13:02,840 --> 00:13:07,320
+I I I think it happens to a lot of people in academic life.
+
+137
+00:13:07,320 --> 00:13:12,840
+Do you of course as soon as they got rid of me they turned the whole place into offices and that was that.
+
+138
+00:13:12,840 --> 00:13:29,880
+I I was very lucky to be able to pick up the equipment round the back door for a fairly small sum but um unfortunately I wasn't able to build myself my own lab which I would have liked to do so I n I I sold off the the bits to various friends of mine in the profession.
+
+139
+00:13:31,160 --> 00:13:34,440
+And you're you're going around in you're going around in lecturing now?
+
+140
+00:13:34,760 --> 00:13:36,120
+Yes, yes.
+
+141
+00:13:36,120 --> 00:13:38,360
+Um not an awful lot.
+
+142
+00:13:38,360 --> 00:13:48,040
+I I li like to feel I have been able to retire a bit and look after the garden and I I I still do writing and editing of course.
+
+143
+00:13:48,040 --> 00:13:50,920
+How often do you make it to the States do you come over?
+
+144
+00:13:50,920 --> 00:13:57,640
+Um well I I used to come over regularly to uh Tungjiong's s symposia at Lake Forest.
+
+145
+00:13:57,640 --> 00:14:03,800
+Mm but I haven't been able to get hold of get over recently really for family reasons.
+
+146
+00:14:03,800 --> 00:14:04,320
+Mm-hmm.
+
+147
+00:14:04,320 --> 00:14:08,520
+So uh I I just have to wish them well.
+
+148
+00:14:08,840 --> 00:14:13,440
+I mean I I'd like to get over to the States again, but I just haven't been able to.
+
+149
+00:14:13,400 --> 00:14:18,960
+Wha what's the uh holography community like in um England right now?
+
+150
+00:14:18,960 --> 00:14:30,560
+Um well the uh artistic side is it's a bit weak in numbers but it's pretty strong in creativity.
+
+151
+00:14:30,560 --> 00:14:32,800
+We've still got Margaret Bunyan of course.
+
+152
+00:14:32,800 --> 00:14:33,200
+Yes.
+
+153
+00:14:33,200 --> 00:14:38,080
+And just received uh what is the award that she received from the Queen?
+
+154
+00:14:38,080 --> 00:14:43,520
+Oh she got the uh MBE that's um it's of a member of the British Empire.
+
+155
+00:14:44,320 --> 00:14:46,800
+It's a rather out of date sort of name.
+
+156
+00:14:46,800 --> 00:14:47,200
+Mm-hmm.
+
+157
+00:14:47,200 --> 00:14:50,400
+But it's um it's one of the senior honors.
+
+158
+00:14:50,560 --> 00:14:52,480
+Not quite as good as a knighthood.
+
+159
+00:14:52,480 --> 00:14:53,440
+Yeah.
+
+160
+00:14:53,440 --> 00:14:56,720
+But So she's not Sir Margaret Bunyan.
+
+161
+00:14:56,720 --> 00:14:57,120
+No.
+
+162
+00:14:57,120 --> 00:14:57,760
+No.
+
+163
+00:14:57,760 --> 00:15:00,080
+No, she is she's two notches below that.
+
+164
+00:15:00,080 --> 00:15:00,880
+Okay.
+
+165
+00:15:00,880 --> 00:15:16,080
+But um it's certainly uh re the f really I think the first royal recognition of holography although she knows Prince Charles he actually visited her w when she was working in Australia and asked her about holographic portraiture.
+
+166
+00:15:16,080 --> 00:15:19,040
+Well i in those days there weren't any pulse lasers.
+
+167
+00:15:19,040 --> 00:15:20,880
+Mm-hmm so that wasn't possible.
+
+168
+00:15:20,880 --> 00:15:22,960
+Well we still live in hopes.
+
+169
+00:15:22,960 --> 00:15:25,280
+Mm-hmm.
+
+170
+00:15:25,280 --> 00:15:28,560
+Uh is the program at RHC still intact?
+
+171
+00:15:28,560 --> 00:15:29,920
+No, it isn't.
+
+172
+00:15:30,000 --> 00:15:34,320
+I I get emails all the time asking me about um yes it would have been lovely.
+
+173
+00:15:34,320 --> 00:15:35,760
+It really was good.
+
+174
+00:15:35,760 --> 00:15:48,880
+I mean um I I had quite a hand in in starting the thing up because Michael Langford who was head of photography at at that time another chap who very sadly died an awful lot too early.
+
+175
+00:15:48,880 --> 00:16:11,320
+He um he and I put the idea together and we designed the the rooms and Nick Phillips um organized all the equipment and we put this thing together and altogether we um we taught uh of about thirty, thirty five students and they all became professional holographers.
+
+176
+00:16:11,560 --> 00:16:17,400
+But the real trouble was that the Royal College of Art will only take graduates.
+
+177
+00:16:17,880 --> 00:16:31,800
+See they only award master's degrees and doctor's degrees and the i it was drying up because all various universities were gradually giving up um holographic labs.
+
+178
+00:16:32,280 --> 00:16:50,760
+Mine was the last in fact um Liverpool Polytechnic was um um Rob Murray was the next before last and when Rob left that he actually took over the RCA and um then eventually when mine packed up there were no more graduates.
+
+179
+00:16:50,760 --> 00:16:53,160
+And so there were no more students.
+
+180
+00:16:53,160 --> 00:16:53,800
+Yeah.
+
+181
+00:16:53,800 --> 00:17:06,200
+And that was that and what once again the administrators marched in and said, Oh we need more office space and in any case the equipment was beginning to get a bit old and sort of studentized.
+
+182
+00:17:06,280 --> 00:17:17,880
+Those students that went on to uh obtain their graduate degree at uh Royal College of Art uh in holography um are are they finding employment?
+
+183
+00:17:17,880 --> 00:17:20,680
+Well most of them are still working free lance.
+
+184
+00:17:20,680 --> 00:17:23,880
+A a lot of them have got sort of daytime jobs.
+
+185
+00:17:23,880 --> 00:17:24,600
+Yes.
+
+186
+00:17:24,920 --> 00:17:39,720
+But they're there's still quite a few who are exhibiting regularly and um some of the others the original technician, uh Rob Munday, has has got his own um his own company down in Surrey.
+
+187
+00:17:39,760 --> 00:17:46,640
+And they're doing very well making large holograms and doing masters for uh embossing and that sort of thing.
+
+188
+00:17:46,640 --> 00:17:51,600
+That's probably similar to John Perry's company here, holographics north up in Burlington, Vermont, I know.
+
+189
+00:17:52,000 --> 00:17:54,800
+That's right, yes, yes, very much like that.
+
+190
+00:17:54,800 --> 00:18:03,200
+And a number of others have gone on to work for various companies and do their own thing in holography on the side.
+
+191
+00:18:03,200 --> 00:18:05,200
+Well you you started in photography, right?
+
+192
+00:18:05,200 --> 00:18:09,520
+I imagine w were you um uh doing imaging for the Air Force or something, right?
+
+193
+00:18:10,160 --> 00:18:11,520
+Yes, that's right.
+
+194
+00:18:11,520 --> 00:18:24,560
+Um in just after the war I was actually w working um in working in aircraft industry on wind tunnels and I absolutely hated the job and I wanted to be a photographer.
+
+195
+00:18:24,560 --> 00:18:31,760
+I was already doing quite a lot of freelance work and at that time we still had national service.
+
+196
+00:18:31,760 --> 00:18:38,800
+So when you were eighteen you you got called up, that is you you got drafted and you did two years in the army.
+
+197
+00:18:38,800 --> 00:18:39,360
+Mm-hmm.
+
+198
+00:18:39,360 --> 00:18:43,760
+And I was working in the air aircraft industry, so I was excused that.
+
+199
+00:18:43,760 --> 00:18:54,640
+But if I left the aircraft industry, of course, I would immediately be conscripted into the army and spend two years washing out latrines or whatever it is that national servicemen do.
+
+200
+00:18:54,640 --> 00:18:59,920
+The only way I could get out of that was to join the RAF as a photographer.
+
+201
+00:18:59,920 --> 00:19:04,640
+And of course I'm when I did that I got all all the proper training.
+
+202
+00:19:04,640 --> 00:19:10,480
+All the technical training and became well, I hope is qu quite a good technical photographer.
+
+203
+00:19:10,480 --> 00:19:12,240
+Was that aerial photography?
+
+204
+00:19:12,400 --> 00:19:15,040
+Um aerial photography comes into it a lot.
+
+205
+00:19:15,600 --> 00:19:20,400
+But uh I was lucky enough to get quite a a lot of jobs doing ground photography.
+
+206
+00:19:20,400 --> 00:19:20,640
+Okay.
+
+207
+00:19:20,800 --> 00:19:22,000
+Well, I I did everything.
+
+208
+00:19:22,080 --> 00:19:26,400
+I I spent a lot of time doing public relations in Germany.
+
+209
+00:19:26,400 --> 00:19:29,120
+I'm I met a lot of uh very exciting people.
+
+210
+00:19:29,120 --> 00:19:41,720
+I photographed almost all the royal family and the uh German people, Conrad Attenau and company and and there was one occasion when uh I had I photographed General Galland.
+
+211
+00:19:41,720 --> 00:19:53,320
+He was he was the red baron of the second world war and he was presented back with his iron cross by the chap who'd shot him down during the Battle of Britain.
+
+212
+00:19:53,320 --> 00:19:55,000
+It was all very exciting.
+
+213
+00:19:55,160 --> 00:19:57,800
+He he was most delightful man.
+
+214
+00:19:57,800 --> 00:20:10,040
+Um had all sorts of exciting s assignments like um also unfortunately uh had a few post mortems and and crashed aircraft and things like that, so you know, you you just had everything.
+
+215
+00:20:10,040 --> 00:20:11,000
+Yeah.
+
+216
+00:20:11,000 --> 00:20:16,120
+Um but the aerial reconnaissance photography of course was the big thing in those days.
+
+217
+00:20:16,120 --> 00:20:16,520
+Mm.
+
+218
+00:20:16,520 --> 00:20:19,160
+Um now there isn't very much of it.
+
+219
+00:20:19,160 --> 00:20:22,120
+What there is is mostly sort of low level stuff.
+
+220
+00:20:22,600 --> 00:20:27,640
+So ha having a look inside woods at very low level, but the high level stuff is all done by satellites.
+
+221
+00:20:27,640 --> 00:20:28,200
+Yeah, yeah.
+
+222
+00:20:28,200 --> 00:20:33,560
+I obviously your interest in this uh gravitated more towards the technical.
+
+223
+00:20:33,560 --> 00:20:34,280
+Yes.
+
+224
+00:20:34,280 --> 00:20:38,600
+But I I did an immense amount of portraiture and weddings and things like that.
+
+225
+00:20:38,840 --> 00:20:39,640
+Oh yeah.
+
+226
+00:20:39,640 --> 00:20:45,960
+So I I mean my my general interest is actually in in landscapes and architecture.
+
+227
+00:20:45,960 --> 00:20:46,360
+Mm-hmm.
+
+228
+00:20:46,440 --> 00:20:50,920
+I have uh huge file, about twenty thousand photographs.
+
+229
+00:20:50,920 --> 00:20:58,600
+I looking at them now it's uh it's stacked on the shelf about three meters high, three meters wide.
+
+230
+00:20:58,600 --> 00:21:01,480
+Um they're all negatives and transparencies.
+
+231
+00:21:01,480 --> 00:21:07,640
+Yeah, that that seems to be the final frontier with holography is just to be able to get affordable emulsions.
+
+232
+00:21:07,880 --> 00:21:10,600
+And that's where Jeff's worth uh comes in.
+
+233
+00:21:10,600 --> 00:21:11,160
+Yes.
+
+234
+00:21:11,160 --> 00:21:12,600
+That it is a difficulty.
+
+235
+00:21:12,600 --> 00:21:18,080
+I mean it was an awful blow when AGFA packed up making their emulsions.
+
+236
+00:21:18,080 --> 00:21:19,520
+Yeah, I loved Agva plates.
+
+237
+00:21:19,920 --> 00:21:25,920
+In in a way, of course, it was a good thing because the AGFA emulsions weren't really very good.
+
+238
+00:21:25,920 --> 00:21:26,560
+Mm-hmm.
+
+239
+00:21:26,560 --> 00:21:30,800
+They were nice to work with they they were very forgiving.
+
+240
+00:21:30,800 --> 00:21:31,920
+Oh yes.
+
+241
+00:21:31,920 --> 00:21:34,560
+Yes, they had a tremendous latitude.
+
+242
+00:21:34,560 --> 00:21:46,080
+I remember I was trying to demonstrate the effects of overexposure and underexposure and I actually had to underexpose by a factor of ten before it became visible.
+
+243
+00:21:46,320 --> 00:21:46,800
+Yes.
+
+244
+00:21:46,800 --> 00:21:49,680
+And overexposed by a factor of nearly fifty.
+
+245
+00:21:49,680 --> 00:21:52,560
+Yeah before you could see any deterioration in the image.
+
+246
+00:21:52,800 --> 00:21:57,760
+Yeah it was it was real nice to keep exposure time short because you could always make it up in the development.
+
+247
+00:21:57,760 --> 00:21:58,160
+Yes.
+
+248
+00:21:58,160 --> 00:21:58,640
+Yeah.
+
+249
+00:21:58,640 --> 00:22:09,520
+Yes that that was another thing that um Jeff and I evolved and Jeff got the idea of of using um a developer containing pyrogalol.
+
+250
+00:22:09,760 --> 00:22:14,560
+Pyrogalol is a developer that was used um by the very old photographers.
+
+251
+00:22:14,560 --> 00:22:16,240
+It was one of the first developing agents.
+
+252
+00:22:16,560 --> 00:22:19,040
+Still my favorite Pyro process.
+
+253
+00:22:19,040 --> 00:22:19,920
+Yes.
+
+254
+00:22:19,920 --> 00:22:40,160
+Well that w I mean we we sort of developed that process and um and I got onto it from process that we used to use in the RAF and when people came back from reconnaissance sorties with stuff that had been grossly underexposed.
+
+255
+00:22:40,160 --> 00:22:50,960
+And we used to use a developer that contained barragallol and metol and this would give an increase in exposure of anything up to three stops.
+
+256
+00:22:50,960 --> 00:22:51,440
+Yeah.
+
+257
+00:22:51,440 --> 00:22:55,640
+The quality was pretty awful, but at at least you had an image.
+
+258
+00:22:55,440 --> 00:22:56,040
+Mm-hmm.
+
+259
+00:22:55,600 --> 00:22:56,320
+Mm-hmm.
+
+260
+00:22:56,800 --> 00:23:13,560
+And um I I worked on this and eventually came up with the formula that's in my book with Pyro and Meat all, and that gave tremendous contrast and it held back some of the um some of the noise that was typical of Agra.
+
+261
+00:23:13,560 --> 00:23:19,560
+Mm-hmm and because of the yellow stain that it produced.
+
+262
+00:23:19,720 --> 00:23:24,360
+Only trouble was it it stained everything else, including your fingers and your clothes.
+
+263
+00:23:24,520 --> 00:23:41,800
+Well, you know, photography uh chemistry has a long history of uh toxicity just across the board but we've certainly come a long way away from the days of uh parabenzoquinone the PBQ and the mature chloride bleaches.
+
+264
+00:23:41,960 --> 00:23:43,000
+Oh the horrible stuff.
+
+265
+00:23:43,000 --> 00:23:45,480
+Yeah I I worked with both of those in the early days.
+
+266
+00:23:45,480 --> 00:23:46,680
+Yes so did I.
+
+267
+00:23:46,680 --> 00:23:48,200
+Yeah.
+
+268
+00:23:48,200 --> 00:23:54,760
+Um the book is uh available now in the UK I imagine someone can order that right now.
+
+269
+00:23:54,760 --> 00:23:55,160
+Yes.
+
+270
+00:23:55,480 --> 00:23:57,800
+Yes it costs fifty five pounds sterling.
+
+271
+00:23:57,800 --> 00:23:59,640
+You can get it through Amazon of course.
+
+272
+00:23:59,640 --> 00:24:00,120
+Yes.
+
+273
+00:24:00,280 --> 00:24:06,040
+If anybody is really stuck um if they get in touch with me I can sort something out for them.
+
+274
+00:24:06,040 --> 00:24:06,760
+Okay.
+
+275
+00:24:06,760 --> 00:24:12,040
+Um and Amazon dot com here in the US will actually have it available.
+
+276
+00:24:12,040 --> 00:24:18,760
+I think they're going to ship it in February two thousand and four so they're accepting pre-orders for the book now I believe I believe so yes.
+
+277
+00:24:18,760 --> 00:24:20,680
+I I haven't had a look at their website.
+
+278
+00:24:20,680 --> 00:24:24,680
+Yeah one one one hundred and fifteen US dollars.
+
+279
+00:24:24,680 --> 00:24:31,080
+Which just for the processing formulas and the um emulsion formulas itself could pay for itself.
+
+280
+00:24:31,080 --> 00:24:33,920
+Well it's only the cost of a couple of large plates, isn't it?
+
+281
+00:24:33,920 --> 00:24:34,400
+Yes.
+
+282
+00:24:34,400 --> 00:24:36,840
+Oh my goodness, I'll tell you, yeah.
+
+283
+00:24:37,320 --> 00:24:37,720
+Yeah.
+
+284
+00:24:37,720 --> 00:24:42,840
+Well yes, well in in this country, as I said, it's it's fifty five pounds sterling.
+
+285
+00:24:42,840 --> 00:24:53,120
+And so in in fact if you ordered it from this country and had it shipped out by um by uh surface it'd probably be cheaper than buying it in the USA.
+
+286
+00:24:53,120 --> 00:24:54,000
+Mm-hmm.
+
+287
+00:24:54,000 --> 00:24:58,960
+Had you considered doing a multimedia CD ROM at any point?
+
+288
+00:24:58,960 --> 00:24:59,600
+No.
+
+289
+00:24:59,600 --> 00:25:02,640
+No, to like be a supplement to the book?
+
+290
+00:25:02,640 --> 00:25:08,880
+Well um I I I sort of gave it some thoughts and then thought no.
+
+291
+00:25:08,880 --> 00:25:18,000
+It's um due to the production involved no I'm I'm not really terribly well up in in that particular bit of technology.
+
+292
+00:25:18,240 --> 00:25:26,880
+In in fact I only bought a computer when some of the stuff I was writing the the um publishers demanded it on on floppy disks.
+
+293
+00:25:26,880 --> 00:25:27,600
+Yes.
+
+294
+00:25:27,600 --> 00:25:35,280
+And so I I had to get a computer in order to produce it in the format they wanted and I'm I've been a sort of reluctant learner.
+
+295
+00:25:35,280 --> 00:25:39,040
+I I work on what the services used to call a need to know basis.
+
+296
+00:25:39,040 --> 00:25:39,520
+Mm-hmm.
+
+297
+00:25:39,920 --> 00:25:44,160
+As soon as I need to know something I I look it up and work out how to do it.
+
+298
+00:25:44,160 --> 00:25:49,280
+Do you get a chance to go out onto the internet to um see what's out there for holography.
+
+299
+00:25:49,280 --> 00:25:49,920
+Oh yes.
+
+300
+00:25:49,920 --> 00:25:59,920
+Yeah there's a wonderful forum network fifty four which um has has cropped up which is a uh very active community of uh holographers as well.
+
+301
+00:25:59,920 --> 00:26:00,400
+Yes.
+
+302
+00:26:00,400 --> 00:26:00,800
+Yeah.
+
+303
+00:26:00,800 --> 00:26:02,400
+Yes I've come across that.
+
+304
+00:26:02,400 --> 00:26:03,840
+Yeah.
+
+305
+00:26:03,840 --> 00:26:20,880
+And uh of course your interview will be up and uh I'm going to head out on the road after I finish this up and uh I'll make sure that before I leave today that the interview is up and that the notice goes out to all of the uh Holo Talk listeners, and I hope you tune in to listen to it as well.
+
+306
+00:26:20,880 --> 00:26:22,400
+Well, I certainly shall, yeah.
+
+307
+00:26:22,800 --> 00:26:25,640
+Is there anything probably make me curl up just listening to it?
+
+308
+00:26:25,800 --> 00:26:27,000
+No, no, no, no.
+
+309
+00:26:27,000 --> 00:26:35,240
+I is there anything that uh we didn't cover that you'd like to say to the listeners while we uh are on the tail end of the interview here?
+
+310
+00:26:35,240 --> 00:26:37,800
+I can't think of anything specific.
+
+311
+00:26:37,800 --> 00:26:43,320
+And I appreciate all that you've done for holography.
+
+312
+00:26:43,320 --> 00:26:58,680
+Oh well, yes, I I mean what I the only thing that I really did do, apart from stealing everybody else's ideas, i is to um you can holography on uh as I said, onto the kitchen table.
+
+313
+00:26:58,680 --> 00:26:59,080
+Mm-hmm.
+
+314
+00:26:59,160 --> 00:27:05,160
+You see th there was one particular aspect of holography that always bothered me, and that that was the beam splitter.
+
+315
+00:27:05,160 --> 00:27:05,560
+Mm-hmm.
+
+316
+00:27:05,560 --> 00:27:15,320
+And I felt that the beam splitter was a single object on the table that made holography difficult and made made bad holograms.
+
+317
+00:27:15,720 --> 00:27:21,640
+Because as soon as you started turning one beam of light one way and the other beam of light the other way.
+
+318
+00:27:21,640 --> 00:27:22,040
+Yeah.
+
+319
+00:27:22,040 --> 00:27:25,000
+You were turning them through different bits of air.
+
+320
+00:27:25,000 --> 00:27:25,800
+Yeah.
+
+321
+00:27:25,800 --> 00:27:33,720
+And we certainly found that the the major problem in m big table holography was air currents.
+
+322
+00:27:33,720 --> 00:27:34,040
+Yeah.
+
+323
+00:27:34,040 --> 00:27:40,440
+And defining big table by the size would be Well, uh anything above one by two meters.
+
+324
+00:27:40,440 --> 00:27:46,360
+Yeah, so you're talking about your typical in US measurements, your typical four by eight uh vibration t isolation table.
+
+325
+00:27:46,600 --> 00:27:47,400
+That's right, yes.
+
+326
+00:27:47,480 --> 00:27:48,040
+Yes.
+
+327
+00:27:48,040 --> 00:27:54,520
+Well, uh the main tables I used at Wolverhampton well was um one and a half by two and a half meters.
+
+328
+00:27:54,520 --> 00:28:01,480
+That's um about uh seven feet by twelve feet, something like that.
+
+329
+00:28:01,480 --> 00:28:03,800
+And uh That's a nice size.
+
+330
+00:28:03,800 --> 00:28:04,280
+Yes.
+
+331
+00:28:04,280 --> 00:28:04,760
+Yeah.
+
+332
+00:28:04,760 --> 00:28:05,720
+Yes, it was lovely.
+
+333
+00:28:05,760 --> 00:28:09,800
+And I I built a gantry on top of it and it made the whole thing very rigid indeed.
+
+334
+00:28:09,920 --> 00:28:13,720
+Yeah is that the th is that one of the is that one of the pictures that's in the book?
+
+335
+00:28:13,720 --> 00:28:14,120
+Yes.
+
+336
+00:28:14,120 --> 00:28:14,680
+Yeah, okay.
+
+337
+00:28:14,680 --> 00:28:15,680
+Yes, that's right.
+
+338
+00:28:14,840 --> 00:28:16,000
+Yeah.
+
+339
+00:28:16,240 --> 00:28:24,960
+And the the main thing that I f that I worked on was what I I had the coin and name for it.
+
+340
+00:28:24,960 --> 00:28:40,080
+I called it a bypass hologram and you didn't have to have a beam flitter at all because you just used the two halves of a spread beam and you reflected one um using a mirror into the other one.
+
+341
+00:28:40,080 --> 00:28:47,840
+So that um you uh you actually had a mirror alongside your object.
+
+342
+00:28:47,840 --> 00:28:53,680
+Yes and the mirror provided the reference beam and the reflection for the object provided the object beam.
+
+343
+00:28:54,080 --> 00:28:55,840
+You couldn't really get any simpler than that.
+
+344
+00:28:55,840 --> 00:29:00,880
+Yeah and the two beams were so close together that they were going through very much the same airspace.
+
+345
+00:29:00,880 --> 00:29:08,640
+Yeah I I I believe there's an example of that also at someone's website maybe I think in Norway or something like that they're using a technique very similar to that.
+
+346
+00:29:08,640 --> 00:29:10,480
+Very likely but it certainly worked.
+
+347
+00:29:10,480 --> 00:29:15,440
+It w it worked like a dream and I I never had a bad hologram using that system.
+
+348
+00:29:15,440 --> 00:29:21,600
+I I don't claim originality for the first thought it it was Hans Belkhagan who thought of it.
+
+349
+00:29:21,600 --> 00:29:28,080
+Yeah um he he had to make some holograms of things like milling machines on a factory floor.
+
+350
+00:29:28,080 --> 00:29:36,640
+Mm-hmm and so he had to build a little dark room round them and he used that method he actually taped a mirror to the machine itself.
+
+351
+00:29:36,640 --> 00:29:37,360
+Yeah.
+
+352
+00:29:37,360 --> 00:29:51,520
+I know you used the term that you s you had stolen other people's ideas but I don't I think that a better term for that would be that you've just taken other people's ideas and you've provided the service of actually compiling those ideas into one reference.
+
+353
+00:29:52,000 --> 00:29:53,640
+Well that's a nice way of putting it.
+
+354
+00:29:53,640 --> 00:29:56,240
+Yeah that's that's essentially what it what it is.
+
+355
+00:29:56,240 --> 00:30:05,960
+I mean we we both I I I was fortunate enough to be able to discover um how to make all the main types of holograms using this same basic setup.
+
+356
+00:30:05,960 --> 00:30:06,600
+Mm-hmm.
+
+357
+00:30:06,600 --> 00:30:08,600
+And that really was quite exciting.
+
+358
+00:30:08,600 --> 00:30:15,480
+Um I wrote a paper for for Tanjong's symposium about it and it went down very well in fact.
+
+359
+00:30:15,640 --> 00:30:20,600
+And with the with the higher diffraction efficiencies of the newer emulsions it's a wonderful thing too.
+
+360
+00:30:20,600 --> 00:30:23,960
+Oh yes it is it really is.
+
+361
+00:30:23,960 --> 00:30:53,960
+Well Graham I want to thank you very much for taking the time to uh come on the show and uh speak about the book and I want to remind the listeners one more time that there are there are links to both Amazon.com UK and Amazon.com here in the US where if you happen to be in England listening to this you can order the book and have it delivered now and the release date in the United States is February two thousand and four but you can pre-order that book and have that shipped to you as soon as it's available from Amazon.
+
+362
+00:30:53,960 --> 00:30:55,320
+Graham thank you so much.
+
+363
+00:30:55,320 --> 00:30:57,800
+If you just want to hold on the line for a second uh I'll get

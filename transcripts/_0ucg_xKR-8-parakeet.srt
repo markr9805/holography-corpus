@@ -1,0 +1,859 @@
+1
+00:00:00,320 --> 00:00:07,680
+Hello everyone, this is Frank Defratis, and welcome to another week of HoloTalk for the week of February 22nd, 1999.
+
+2
+00:00:07,680 --> 00:00:12,400
+And greetings from the cold and frozen northeast part of the country.
+
+3
+00:00:12,400 --> 00:00:20,320
+We're dipping down with wind chills to 20 to 30 degrees below zero this evening, so it's a cold one out there.
+
+4
+00:00:20,320 --> 00:00:30,240
+Our guest this week is Ron Olson from Laser Reflections, and his studio has been doing pulsed reflection holography of live subjects for a number of years.
+
+5
+00:00:30,240 --> 00:00:41,840
+They do absolutely gorgeous work, and Ron's going to come on to talk about uh his studio and some of the projects and also a book that he has coming up that he's uh writing on this topic.
+
+6
+00:00:41,840 --> 00:00:58,720
+Uh upcoming guests, uh we have Ron Kirk coming up in the next few weeks, and I've also received the holographic C D that has uh holographic uh music on it that we're going to get some samples from and uh talk about holographic sound as well.
+
+7
+00:00:58,720 --> 00:01:00,880
+That's another upcoming show.
+
+8
+00:01:00,880 --> 00:01:03,600
+Uh had a few strange workshops this week.
+
+9
+00:01:03,600 --> 00:01:29,920
+I had one gentleman come in for a workshop for laser pointer holography who is from one of the largest research corporations in the country, in fact, probably the world, and he had told his co-researchers about this guy in Allentown, Pennsylvania that was doing laser pointer holography, and they insisted that number one, I was nuts, that he was wasting his time, it wasn't possible.
+
+10
+00:01:29,920 --> 00:01:34,400
+And another researcher said yes theoretically it's just impossible to do it.
+
+11
+00:01:34,400 --> 00:01:42,000
+But uh he came in, made a beautiful reflection hologram, and he's going back to his labs on Monday to show them that.
+
+12
+00:01:42,000 --> 00:01:46,880
+Also, another uh young man who came in to take a workshop from New England.
+
+13
+00:01:46,880 --> 00:01:47,680
+He drove down.
+
+14
+00:01:47,680 --> 00:01:53,520
+It was a nine-hour drive, but he was doing it for his senior research project.
+
+15
+00:01:53,520 --> 00:02:05,000
+And uh I'll tell you something, his professor told him straight out that it was impossible to do holograms using a laser pointer or a laser diode, and uh they were pretty adamant about it.
+
+16
+00:02:05,320 --> 00:02:17,080
+And uh he was listening, he's been a listener to the Holo Talk Show for uh quite a long time, and he says, Frank, if you say that it can be done, I know it can be done, so I'm coming down to take a workshop.
+
+17
+00:02:17,080 --> 00:02:19,080
+Can I come down and make a hologram?
+
+18
+00:02:19,080 --> 00:02:20,520
+And he left today.
+
+19
+00:02:20,520 --> 00:02:28,360
+In fact, uh he left around 1 30, 2 o'clock this afternoon, and it's a little after 8 in the evening, so he's not even home yet.
+
+20
+00:02:28,360 --> 00:02:38,840
+He's got a long drive, and uh he's taking a really nice uh hologram back of a Lamborghini that he did using a laser pointer.
+
+21
+00:02:38,840 --> 00:02:47,240
+So there's a few people that are in for surprises on Monday when they find out that yes, it is possible to do holography using one of the laser pointers.
+
+22
+00:02:47,240 --> 00:02:50,920
+I got a few holograms in from Ronnie Andresen.
+
+23
+00:02:50,920 --> 00:03:01,080
+I think I'm pronouncing that name pretty close to being correct from Norway, and I want to tell you folks, his holograms are absolutely gorgeous.
+
+24
+00:03:01,080 --> 00:03:18,680
+Uh, I sent Ronnie a laser pointer very early on when we were just getting started, and I said to Ronnie, uh, look, I need a few people that can confirm that this works, and I need a few people that can uh say yes, you can do holograms using a laser pointer.
+
+25
+00:03:18,680 --> 00:03:24,920
+And he was just thrilled to find out that uh that the holograms that he was turning out looked as good as they did.
+
+26
+00:03:24,920 --> 00:03:29,400
+So he said, Frank, I'm gonna send you a few, and I was really looking forward to looking at them.
+
+27
+00:03:29,400 --> 00:03:30,520
+And I want to tell you something.
+
+28
+00:03:30,520 --> 00:03:35,880
+When I opened that box up and I put those holograms under the light, my jaw hit the table.
+
+29
+00:03:35,880 --> 00:03:45,600
+I could not believe how gorgeous, absolutely gorgeous these holograms were using the $7.90 the $7.99 laser pointer.
+
+30
+00:03:45,600 --> 00:03:47,040
+Just absolutely incredible.
+
+31
+00:03:44,840 --> 00:03:50,800
+And yes, that's the furnace that you hear in the background kicking on.
+
+32
+00:03:51,200 --> 00:03:56,320
+This this baby's been running around the clock and it only shuts down for a minute or two at a time.
+
+33
+00:03:56,560 --> 00:04:02,640
+Normally it shuts down for a long period, and I do the recording uh during the shutdown periods.
+
+34
+00:04:02,640 --> 00:04:07,440
+But we're just going to let that run tonight because it's so cold I don't even want to turn that off for a little bit.
+
+35
+00:04:07,440 --> 00:04:21,440
+Uh just a reminder I will be appearing at the 25th anniversary Mensa conference being held in central New Jersey at Tynham Falls uh Holiday and Conference Center on Saturday evening, March the 6th.
+
+36
+00:04:21,440 --> 00:04:23,840
+And it's a $10 admission to get in.
+
+37
+00:04:23,840 --> 00:04:25,920
+Uh we're going to bring some holograms.
+
+38
+00:04:25,920 --> 00:04:40,000
+I'm going to give the presentation on holography and laser pointer holography uh specifically, and also close it out with a little laser light show that was designed by a number of my students uh over the years to the music of the Boston Pops.
+
+39
+00:04:40,000 --> 00:04:44,800
+So it's going to be a really nice time on Saturday night, March 6th.
+
+40
+00:04:44,800 --> 00:04:48,320
+Okay, let's move on to our interview with Ron Olson.
+
+41
+00:04:48,320 --> 00:04:51,920
+And I also have a link to his website right on the Holo Talk page.
+
+42
+00:04:51,920 --> 00:05:01,440
+So you want to click on that link, uh, visit his website and see some of the beautiful work that they're doing with the uh pulsed holography out in the San Francisco uh area.
+
+43
+00:05:01,440 --> 00:05:17,360
+So I'm not going to come back on after the interview's over, so I will say thank you for tuning in and hope that you tune in each and every week for a new topic, new guest right here on the internet's laser and holography talk show, HoloTalk.
+
+44
+00:05:17,360 --> 00:05:18,800
+This is Frankie Freitas.
+
+45
+00:05:18,800 --> 00:05:20,720
+Have a great week.
+
+46
+00:05:21,520 --> 00:05:28,080
+Would you like to make your own one of a kind hologram and learn how you can start making holograms on your own at the same time?
+
+47
+00:05:28,080 --> 00:05:32,920
+You can do this and much more by attending one of Frankie Freitas' holography workshops.
+
+48
+00:05:32,920 --> 00:05:37,080
+From beginner to advance, Frank's got a workshop that's just right for you.
+
+49
+00:05:37,080 --> 00:05:43,960
+From single afternoon, evening, or weekend introductory workshops to Wednesday evening five-week complete courses.
+
+50
+00:05:43,960 --> 00:05:48,040
+And don't forget his newest workshop, Laser Pointer Holography.
+
+51
+00:05:48,040 --> 00:05:53,160
+Located just off the northeast extension of the Pennsylvania Turnpike and Interstate 78.
+
+52
+00:05:53,160 --> 00:05:59,560
+The studio is a quick non-stop drive from the New York, Philadelphia, and Baltimore, Washington, DC areas.
+
+53
+00:05:59,560 --> 00:06:09,640
+For more information, call the studio's toll-free hotline at 1-800-458-3525 and begin your own journey with holography today.
+
+54
+00:06:09,640 --> 00:06:14,120
+That's 1-800-458-3525.
+
+55
+00:06:14,120 --> 00:06:22,360
+For more information on attending Frankie Freitas holography workshop today.
+
+56
+00:06:23,320 --> 00:06:24,200
+How are you, Ron?
+
+57
+00:06:24,360 --> 00:06:25,160
+I'm fine.
+
+58
+00:06:27,400 --> 00:06:28,120
+No problem.
+
+59
+00:06:28,120 --> 00:06:28,840
+Okay.
+
+60
+00:06:29,080 --> 00:06:34,760
+We're speaking to Ron Olson, and I believe you're in partnership with uh Bernadette as well.
+
+61
+00:06:34,760 --> 00:06:35,880
+That's correct.
+
+62
+00:06:35,880 --> 00:06:42,040
+And um why don't you tell us a little bit about your studio and what it is that you're doing out there.
+
+63
+00:06:42,040 --> 00:06:51,720
+Well, uh laser reflections was started about uh, I guess it's almost seven years ago, Frank, uh, with the goal of kind of upgrading holography.
+
+64
+00:06:51,720 --> 00:06:56,120
+We uh my background was in custom laser design.
+
+65
+00:06:56,120 --> 00:07:11,080
+And uh laser reflections took the early position that uh for whatever reason uh holographers had kind of jointly progressed down uh a kind of a dead end with respect to Ruby lasers.
+
+66
+00:07:11,080 --> 00:07:11,720
+Mm-hmm.
+
+67
+00:07:11,720 --> 00:07:20,720
+And I having built four of the world's largest Ruby lasers uh knew uh all too well their inherent shortcomings.
+
+68
+00:07:21,120 --> 00:07:33,040
+Um notably that the spatial quality of a Ruby laser uh required uh the use of a spatial filter and this was to be avoided I felt at all costs.
+
+69
+00:07:33,040 --> 00:07:53,520
+But uh moreover and kind of uh something that couldn't be addressed technically uh the infrared wavelength at point seven microns was just wholly inappropriate except for doing things that were uh that the Ruby laser had been designed to do things like tires and guitar boxes and anything that didn't have water in it.
+
+70
+00:07:53,520 --> 00:07:53,920
+Mm-hmm.
+
+71
+00:07:53,920 --> 00:08:15,760
+Uh this is a a story I'm repeating because Giola tells it often now uh in my stead but uh if you put a flashlight in your mouth you of course glow uh the uh water in your skin absorbs all the long wavelengths and uh uh you don't get a very reflection if you if you tried that same color of light and hit subjects with it.
+
+72
+00:08:15,760 --> 00:08:21,360
+As a result I started asking myself, well, what have I ever seen a holographic portrait?
+
+73
+00:08:21,360 --> 00:08:25,360
+And the answer of course is only in holographic exhibitions.
+
+74
+00:08:25,360 --> 00:08:25,840
+Yeah.
+
+75
+00:08:25,840 --> 00:08:38,720
+So this was kind of our impetus to get going and I had uh again a custom laser design and I found that there was some uh government surplus hardware which I bought as a package and reconfigured it.
+
+76
+00:08:38,720 --> 00:08:41,280
+Lasers are very much like stereo systems.
+
+77
+00:08:41,280 --> 00:08:47,360
+Uh you start amplifying until you you know you keep amplifying until you run out of money or you fill the room.
+
+78
+00:08:47,360 --> 00:08:53,840
+And in our case what we were trying to fill uh was not a room with sound of course, but a a large plate with light.
+
+79
+00:08:53,840 --> 00:09:01,720
+And we figured that with the hardware uh kit that that I bought uh we could fill roughly uh one square meter plate.
+
+80
+00:09:02,440 --> 00:09:12,120
+So it turns out that uh that that really wasn't uh my uh my appetite was somewhat larger than was uh commercially uh fed.
+
+81
+00:09:12,120 --> 00:09:16,200
+Uh we can't get plates quite as big as one square meter.
+
+82
+00:09:16,200 --> 00:09:35,720
+But in fact as of uh this last Monday uh we did our first recording on our new large format size uh which is uh uh purchased w which we purchase and actually are a dealer for I had mentioned that to you Frank uh of Slavic materials and Slavic now has a sixty by eighty centimeter plate.
+
+83
+00:09:36,200 --> 00:09:40,600
+And we did our first transmission master with that size plate on Monday.
+
+84
+00:09:40,600 --> 00:09:47,880
+We're probably gonna hold off on doing reflection transfers of said same for at least a month or two.
+
+85
+00:09:47,880 --> 00:10:01,320
+The collimating or um converging mirror that we have in our H two setup, we do copies with this same uh Q Suite Demium Yag laser and the uh the the columnating mirror that we have is just a little bit too small.
+
+86
+00:10:01,320 --> 00:10:09,560
+We have a thirty inch diameter mirror and uh we're looking at purchasing a a thirty six inch mirror to do those larger transfers.
+
+87
+00:10:09,560 --> 00:10:19,240
+We could actually just get by with the mirror as it is, but uh it's a little small and uh I think before we start doing a regular basis we'd rather go with a larger optic.
+
+88
+00:10:19,400 --> 00:10:20,920
+That's an incredible scale.
+
+89
+00:10:21,240 --> 00:10:32,520
+It's really nice for us because we we do almost one to one images and a lot of what we do and I had mentioned this to you too a lot of what we sell right now is either boudoir portraiture or uh erotica.
+
+90
+00:10:32,520 --> 00:10:32,840
+Yes.
+
+91
+00:10:32,840 --> 00:10:41,440
+And as it turns out, most erotica that we do, of course, people would like to see uh more of a person in a plate rather than less.
+
+92
+00:10:41,400 --> 00:10:41,680
+Yes.
+
+93
+00:10:41,880 --> 00:10:50,400
+So for us with we have a capability of doing about twenty percent reductions and this allows us to do an adult woman seated in a plate.
+
+94
+00:10:50,400 --> 00:10:51,280
+Mm-hmm.
+
+95
+00:10:51,280 --> 00:10:53,360
+So you've already mentioned some of the projects.
+
+96
+00:10:53,360 --> 00:11:00,400
+In fact I have a number of your holograms in my collection and there are always people commenting on them that they're the brightest and clearest holograms they've ever seen.
+
+97
+00:11:00,400 --> 00:11:01,840
+I believe they were Well thank you Frank.
+
+98
+00:11:02,080 --> 00:11:06,960
+You shot the uh masters I believe and then maybe the masters went off to Hughes.
+
+99
+00:11:06,960 --> 00:11:15,680
+Um the photopolymer, the the story with us in Hughes was that uh when Hughes became aware of our work they decided that they might get into art publishing.
+
+100
+00:11:15,680 --> 00:11:21,840
+So they bought the rights to thirteen of our early image images which we had mastered uh when we were in Felton.
+
+101
+00:11:21,840 --> 00:11:27,360
+Uh the studio's in its third location now we went from Felton to San Jose and now we're in downtown San Francisco.
+
+102
+00:11:27,360 --> 00:11:40,080
+But Hughes had bought the the rights to thirteen of our images and in fact uh uh they were just learning how to make very good copies uh when they decided that this was not a profitable business for Hughes and they got out of it.
+
+103
+00:11:40,400 --> 00:11:41,360
+Which was a shame.
+
+104
+00:11:41,360 --> 00:12:02,080
+There's now uh uh a new concern uh a new uh new corporate entity uh in in New Hampshire called RGB holographics uh Paul Crusell and and Jeff Murray uh that are working together towards kind of r uh reestablishing the photopolymer in display holography.
+
+105
+00:12:02,080 --> 00:12:13,120
+Uh that's not to say that people aren't using photopolymer, it's just that most of them that are using it are using it for primarily uh shrink wrap telography as I tend to call or or security holography.
+
+106
+00:12:13,120 --> 00:12:26,240
+So uh it doesn't really lend it off uh uh neither one of uh uh crystal holographics in Utah isn't really concerned about making uh display quality holographics of the size that we need which is kind of twelve by sixteen.
+
+107
+00:12:26,240 --> 00:12:27,200
+Yeah, yeah.
+
+108
+00:12:27,200 --> 00:12:31,080
+Now you also mentioned in an email that you have a book coming out.
+
+109
+00:12:29,600 --> 00:12:45,720
+I'm writing a book on based on the studio and really what it's you know what what I tend to preach, Frank, uh ad nauseum probably, but uh I tend to to preach a lot that that holography should be looked at as something which really does cost a lot of money.
+
+110
+00:12:46,040 --> 00:12:51,880
+Uh good holography for for commercial holography to survive requires a fair investment of capital.
+
+111
+00:12:51,880 --> 00:12:56,920
+We have about three hundred thousand dollars into our imaging system here at Laser Reflections.
+
+112
+00:12:56,920 --> 00:13:03,080
+And uh that's that's with uh with a lot of uh kind of uh surplus government parts.
+
+113
+00:13:03,080 --> 00:13:12,760
+If I Bernadette and I are also partners in a laser company, Positive Light, which we started about the same time uh we started Laser Reflections, Positive Light makes high energy lasers.
+
+114
+00:13:12,760 --> 00:13:20,840
+But it costs me more to buy uh uh a laser today that with my own company uh than it did uh twenty years ago.
+
+115
+00:13:20,840 --> 00:13:28,520
+These uh high energy solid state lasers like ours, uh it's like buying a Ford Taurus if there were only fifty made a year.
+
+116
+00:13:28,520 --> 00:13:31,080
+Uh it's gonna cost you a a good sum of money.
+
+117
+00:13:31,640 --> 00:13:36,120
+Now there are things that are that are happening uh perhaps in almost real time.
+
+118
+00:13:36,120 --> 00:13:49,480
+Uh our friends in Geola in Lithuania are starting to market hardware uh to do holography and this is a a technically it looks like a a very good system uh just on paper.
+
+119
+00:13:49,480 --> 00:14:02,200
+I haven't worked with the system but I've seen the images and uh certainly uh these are are are comparable to to what we do and uh that system I think they will retail for something under a hundred thousand dollars.
+
+120
+00:14:02,200 --> 00:14:09,880
+I think between for the small laser it might be s somewhere closer to sixty and for the large one uh something around a hundred thousand dollars.
+
+121
+00:14:09,880 --> 00:14:16,000
+But this is the kind of investment that I tell people that they really need to think about making if they're serious about doing holography.
+
+122
+00:14:16,000 --> 00:14:20,240
+And when I say serious about doing holography, I mean real time commercial holography.
+
+123
+00:14:20,720 --> 00:14:35,600
+We have on a on a day, on a on a good day at Laser Reflections, we can do up to ten sixteen by twenty-four inch masters and up to half a dozen uh copies, one each of six different masters.
+
+124
+00:14:35,600 --> 00:14:39,920
+This is that for two people in in a studio, this is what Bernadette and I can do.
+
+125
+00:14:40,240 --> 00:14:48,960
+And I tell people that that if you if you can't do this uh in working with artists, if if the projects take too long, people will lose interest.
+
+126
+00:14:48,960 --> 00:14:55,520
+When we bring our directors in here we can shoot and we don't have to this is not white knuckle technology at this point.
+
+127
+00:14:55,520 --> 00:15:00,400
+This is did we get the right image, not did we get the uh you know did the laser fire.
+
+128
+00:15:00,800 --> 00:15:06,640
+Uh this kind of stuff is it has to go and and the book that I'm writing i is is basically going to tell that story.
+
+129
+00:15:06,640 --> 00:15:26,880
+That that holography has has progressed to a point now where with an investment you can be uh a a productive commercial holographer feeding markets in uh display advertising in wall art in decorative art and in retail displays and and this is a and and museum displays.
+
+130
+00:15:26,880 --> 00:15:35,840
+These are things that that that we're working on very hard at laser reflections and and we see the market for for high quality display holography as being really huge.
+
+131
+00:15:36,000 --> 00:15:56,560
+It's really amazing to me how few people um uh have have seen that the potential for holography but if you look at at a large format uh reflection or transformation hologram, uh there's not too too many people who would argue that it's visibly uh visually the the most impressive uh imaging technique going.
+
+132
+00:15:56,560 --> 00:15:57,720
+Mm-hmm exactly.
+
+133
+00:15:57,720 --> 00:16:01,080
+Now this book will be available once it's uh published on your website.
+
+134
+00:16:01,080 --> 00:16:02,280
+People will be able to order it?
+
+135
+00:16:02,280 --> 00:16:03,240
+It sure will be.
+
+136
+00:16:03,240 --> 00:16:03,640
+Okay.
+
+137
+00:16:03,640 --> 00:16:11,080
+And we will have a link, in fact there is a link if you're listening to the show right now, right on the Holo Talk page that will go to Laser Reflections homepage.
+
+138
+00:16:11,080 --> 00:16:14,280
+I would suggest you go over there and see some of the gorgeous work that you're doing.
+
+139
+00:16:14,280 --> 00:16:18,520
+Why don't we talk a little bit about this boudoir and the erotica issue images that you're doing.
+
+140
+00:16:18,520 --> 00:16:20,440
+How did that's that's a very big contract.
+
+141
+00:16:20,440 --> 00:16:21,640
+How did you land that?
+
+142
+00:16:21,640 --> 00:16:29,400
+Well no it's we started doing we it was one of those things, Frank, where w when we designed this laser we went backwards from skin and eyes.
+
+143
+00:16:29,400 --> 00:16:36,360
+And that's where we we saw the failing of people who were trying to image uh using infrared or or Ruby lasers.
+
+144
+00:16:36,360 --> 00:16:52,360
+Uh we just uh uh we went backwards and if we had the ideal uh imaging system it would be green light with uh X coherent for X is about two meters and uh and and uh short exposures so we wouldn't have to worry about vibration something on the order of 15 nanoseconds.
+
+145
+00:16:52,360 --> 00:17:04,040
+As it turns out that's that's really uh uh our combination of green light the AGFA or VRPM uh from Slavic emotions uh that that combination is great for doing skin and eyes.
+
+146
+00:17:04,040 --> 00:17:31,960
+So right away we started doing uh people and uh people kept telling us uh you know you should you should focus more on the on the nudes and on on the erotica because it's this is what's really gonna get attention and and they're right in that we did a lot of of large animal images that I'm extremely proud of and that Bernadette and I did uh over the last three or four years we did orangutans and chimpanzees and we did the entire collection of raptors from the Lindsay Museum, all their birds of prey.
+
+147
+00:17:31,960 --> 00:17:36,680
+We did a mountain line, we did a lynx, all from Life Subjects, all brought to our studio.
+
+148
+00:17:36,680 --> 00:17:37,080
+Wow.
+
+149
+00:17:37,080 --> 00:17:41,240
+They're beautiful, but uh very few people buy 'em.
+
+150
+00:17:41,240 --> 00:17:43,960
+And at the same time we can have that is.
+
+151
+00:17:43,960 --> 00:17:53,120
+I think it has to do with just the fact that uh uh what we'll need for the animal images to take off is to get uh sponsored shows.
+
+152
+00:17:53,120 --> 00:18:04,480
+I think they don't advertise well, they don't show well, and I think that if you're gonna buy something sight unseen, you probably won't buy an image of a cougar, but you're much more likely to buy the image of a woman's backside.
+
+153
+00:18:04,480 --> 00:18:12,320
+And I think it's it that's the the the long short of it is that the uh the erotica sells it it's like in in a lot of things.
+
+154
+00:18:12,320 --> 00:18:16,240
+Uh uh skin tends to sell uh m much before anything else.
+
+155
+00:18:16,240 --> 00:18:21,920
+And I think for the rest of the decorative art to catch on, uh the the erotica will catch on first.
+
+156
+00:18:21,920 --> 00:18:26,400
+That's it's just gonna be a a kind of a a natural uh sequence of events.
+
+157
+00:18:26,400 --> 00:18:28,160
+I think that the animals will sell 'em.
+
+158
+00:18:28,160 --> 00:18:29,680
+It's not like we're not shooting 'em.
+
+159
+00:18:29,680 --> 00:18:38,640
+We've got uh three monkeys, uh uh we have a friend who's a a wildlife trainer here in the Bay Area, and he can get us access to almost any animals we want.
+
+160
+00:18:38,640 --> 00:18:52,240
+We're right now designing a cage, uh a glass cage, so that we can safely image large cats and large canines like wolves, uh, and we expect to be doing uh those images at the end of nineteen ninety-nine.
+
+161
+00:18:52,240 --> 00:19:04,880
+We we had a Siberian tiger here, four hundred and seventy-two pound tiger, right to the door, but that we were having so much problem with ho can t controlling the cougar, the mountain line, that we said, uh let's let's put this off.
+
+162
+00:19:04,880 --> 00:19:06,800
+And we're now redesigning a cage.
+
+163
+00:19:06,800 --> 00:19:07,920
+But I think that's just natural.
+
+164
+00:19:07,920 --> 00:19:11,600
+I think once the work gets seen a lot of the animal images will sell.
+
+165
+00:19:11,600 --> 00:19:13,200
+We we continue to invest in 'em.
+
+166
+00:19:13,200 --> 00:19:17,440
+But the erotica is much easier and there are a lot more venues for us to sell the erotica.
+
+167
+00:19:17,440 --> 00:19:30,840
+We go to erotica art shows, we go to Las Vegas signage shows, uh, we we we do a lot of nightclub type shows and and nightclub environments, and bar owners are are very comfortable with our with our nudes and erotica.
+
+168
+00:19:31,080 --> 00:19:34,360
+And when you think about it, who's going to buy the the collections of animals?
+
+169
+00:19:44,120 --> 00:19:49,720
+The book's going to be uh instructional, but the book's going to be instructional in in it in our kind of way of holography.
+
+170
+00:19:49,720 --> 00:19:54,280
+How you really like subjects and and not how you make a hologram, so to speak.
+
+171
+00:19:54,280 --> 00:20:05,880
+You know, we're we're going to show our setup, but then we're going to explain the the the the this the kind of subtleties of the of the holographic technique as as we have learned it and and the darkroom technique.
+
+172
+00:20:06,120 --> 00:20:10,120
+This is going to assume that you have a hundred megawatt laser.
+
+173
+00:20:10,120 --> 00:20:18,360
+That's that's the initial assumption that we make is that you've got a laser fairly comparable to to ours and then you want to make images with it.
+
+174
+00:20:18,360 --> 00:20:20,840
+So we're not talking about laser pointer holography here.
+
+175
+00:20:20,840 --> 00:20:21,560
+You're right.
+
+176
+00:20:21,640 --> 00:20:33,560
+No, this is uh this is a big deal but we tell people and I I and I I'm not uh at all shy about it if you want to get into a uh photo developing a one hour photo developing shop you you have to invest in quite a bit of hardware.
+
+177
+00:20:33,560 --> 00:20:36,360
+You can still do things in the old fashioned way.
+
+178
+00:20:36,360 --> 00:20:45,000
+You know you can take trays and develop plates one at a time but if you're not careful uh you're going to look around you and you're not going to be competitive with people who have better hardware.
+
+179
+00:20:45,000 --> 00:21:00,120
+Yeah the the laser pointer holography remark brings up this question there's a lot of kids that listen to this show that really love holography and especially uh the time that this show's going to air which is in the next week or two because there's a lot of science projects going on.
+
+180
+00:21:00,120 --> 00:21:09,200
+And taking into account that you have a very successful business and you're uh a very astute business person, would you have any message for the kids?
+
+181
+00:21:09,200 --> 00:21:17,920
+Say that there you've got an eight year old, uh not an eight year old, but an eighth grader out there that loves holography and the top thing that they'd like to do is grow up and do holography.
+
+182
+00:21:17,920 --> 00:21:23,840
+What message would you have for uh a kid in eighth grade right now who would like to grow up and get into the field of holography?
+
+183
+00:21:23,840 --> 00:21:37,680
+Well the message I would have for a kid in the eighth grade is the same message that I I would give to college students when I'm asked to to kind of fill in here and there and that is that there's a fantastic opportunity for for i within the graphic arts uh industry.
+
+184
+00:21:37,680 --> 00:21:43,040
+Uh holography has been a classic underachiever, but its time is at hand.
+
+185
+00:21:43,040 --> 00:21:59,840
+And uh, you know, I just cite uh the the the coming uh change in the retail environment and and the museum environment, the the moves towards more interactive exhibitry, and the fact that what we're really showing uh is in fact high resolution imaging.
+
+186
+00:21:59,840 --> 00:22:12,080
+In a day when people talk so much about high resolution T V and this and that, we're talking about several orders of magnitude, higher resolution images than can be produced through any photographic technique.
+
+187
+00:22:12,240 --> 00:22:19,520
+And for me, uh this is really some of the excitement uh of holography and and for f uh careers in holography right now.
+
+188
+00:22:19,520 --> 00:22:30,720
+Couple this with the fact that laser technology like ours, which for years have been uh uh r very much uh uh kind of b almost black magic.
+
+189
+00:22:30,720 --> 00:22:40,160
+I think the reputation I had for for years, Frank, and why people were putting our studio down in terms of the concept was that oh, I was the only guy that could make this work.
+
+190
+00:22:40,160 --> 00:22:49,120
+You know, sure I'd played, you know, with lasers for twenty years, but if you're if you're not you know, if you don't want to play with lasers like like Ron does, uh you can't do it.
+
+191
+00:22:49,120 --> 00:22:50,720
+But this is not the case anymore.
+
+192
+00:22:50,720 --> 00:23:18,120
+And we're finding that that young people coming through various different programs uh in college, whether it be mechanical engineering, electrical engineering, uh physics, chemistry, uh medical uh training, uh the the medical sciences are are using high energy lasers now and we're finding that uh we see a lot of young people come out of college with a very good background in in high energy lasers.
+
+193
+00:23:18,120 --> 00:23:24,280
+Uh this is not just at Stanford and Harvard and you know, Penn State these days.
+
+194
+00:23:24,280 --> 00:23:31,240
+This is you can go in onto any college campus in this country and find high energy lasers at work.
+
+195
+00:23:31,240 --> 00:23:38,360
+And as they these kids get trained, they as they come out of school, they're they're very adept laser operators.
+
+196
+00:23:38,360 --> 00:23:53,880
+Now there's th the the other thing in conjunction with that is the fact that because the laser technology itself is evolving, we're finding that most of of the older hardware, and I remind people that our laser hardware and our system is circa nineteen seventy eight.
+
+197
+00:23:54,360 --> 00:23:56,520
+For holography it really hasn't changed.
+
+198
+00:23:56,840 --> 00:24:03,560
+The holography, the the the light requirements for doing single color holography like we do have not changed.
+
+199
+00:24:03,560 --> 00:24:05,880
+The hardware package is basically the same.
+
+200
+00:24:05,880 --> 00:24:12,360
+So as many sciences, obsolete lasers like ours, they become available in a secondary market.
+
+201
+00:24:12,600 --> 00:24:22,040
+So now you have the combination of skilled trained laser operators at the university level and second hand equipment coming available on the market for pennies on the dollar.
+
+202
+00:24:22,520 --> 00:24:26,440
+This then makes for for studios like ours to be a reality.
+
+203
+00:24:26,680 --> 00:24:39,240
+This is what we at Laser Reflections are going to look to do, is to build a number of studios around the country uh where we can hire trained laser operators who will then we hope have uh great careers in holography.
+
+204
+00:24:39,560 --> 00:24:45,600
+Well Ron, do you have any closing comments or any remarks you'd like to make to the listeners before we uh head out here?
+
+205
+00:24:44,360 --> 00:24:50,400
+No, just uh if you if and when they're in San Francisco uh to come and visit our studio.
+
+206
+00:24:50,400 --> 00:24:55,920
+We're right down we're a block from the uh Museum of Modern Art and two blocks from the Moscone Center.
+
+207
+00:24:55,920 --> 00:24:56,400
+Okay.
+
+208
+00:24:56,400 --> 00:24:58,560
+Ron, I want to thank you very much for taking the time.
+
+209
+00:24:58,560 --> 00:25:01,120
+I know you have to be very busy for uh coming on the show.
+
+210
+00:25:01,120 --> 00:25:02,560
+Well you're most welcome friend.
+
+211
+00:25:02,560 --> 00:25:04,640
+If you get a chance log on and listen to it.
+
+212
+00:25:04,640 --> 00:25:05,600
+We'll do for sure.
+
+213
+00:25:05,600 --> 00:25:05,920
+Okay.
+
+214
+00:25:05,920 --> 00:25:07,600
+All right thank you very much for welcome.
+
+215
+00:25:07,600 --> 00:25:08,480
+Right bye bye

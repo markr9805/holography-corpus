@@ -1,0 +1,643 @@
+1
+00:00:01,840 --> 00:00:10,400
+Okay, so you left San Francisco and you returned to Oak Ridge and once again you started your own studio, is that correct?
+
+2
+00:00:10,400 --> 00:00:11,040
+Yes.
+
+3
+00:00:11,040 --> 00:00:20,960
+Um this was uh Oak Ridge uh during the wartime, Oak Ridge was a fed city and and you had to have a pass to get into it.
+
+4
+00:00:20,960 --> 00:00:25,920
+And there were guard gates at at all four corners of the city.
+
+5
+00:00:25,920 --> 00:00:30,000
+And uh one of these was called uh Elza Gate.
+
+6
+00:00:30,000 --> 00:00:37,680
+Um this was out at the east end of Oak Ridge, and there was a little community there that um called Elsa.
+
+7
+00:00:37,680 --> 00:00:51,440
+And uh we found a uh my brother and I found a little low rent uh sort of uh I believe that one time it had been a motorcycle shop, had a concrete floor, it was a concrete block building.
+
+8
+00:00:51,440 --> 00:01:01,040
+And I said, Well, this will be a great place to start a holography studio because it's away from traffic and it's on a concrete floor, and we can live here, you know.
+
+9
+00:01:01,040 --> 00:01:08,400
+There was Tennessee there's not a lot of regulations about where you can live and whatever, so uh a lot of freedom here.
+
+10
+00:01:08,400 --> 00:01:10,880
+So still to this day.
+
+11
+00:01:11,360 --> 00:01:17,920
+Yeah, it's it's becoming less so, but but it's a very free environment where I live.
+
+12
+00:01:17,920 --> 00:01:22,640
+I I I was just in Knoxville two years ago almost to the day.
+
+13
+00:01:22,640 --> 00:01:23,440
+Oh yeah.
+
+14
+00:01:23,440 --> 00:01:24,080
+Yeah.
+
+15
+00:01:24,080 --> 00:01:25,520
+Okay.
+
+16
+00:01:25,520 --> 00:01:37,040
+Um well uh this this was the low rent section of Oak Ridge, so I named this studio Baltic uh after the property on the Monopoly board.
+
+17
+00:01:37,040 --> 00:01:40,960
+It's the equivalent low low rent property.
+
+18
+00:01:41,120 --> 00:01:46,480
+Hey, I've had a few times playing Monopoly where uh Baltic actually saved my rear end.
+
+19
+00:01:47,760 --> 00:02:16,440
+And along about that time I met uh a couple of guys, uh I met Ed Walski and uh Phil Krieger, who were both uh both designers, in like industrial designers, exhibit designers, and showed them some holograms, and they got just fascinated and and we started churning away with different ideas and things that we could do, and we decided that we would uh about this time uh the multiplex holograms were coming online.
+
+20
+00:02:16,440 --> 00:02:26,040
+And when I saw that first kiss hologram with Pam Brazier, I had yet another uh visual orgasm.
+
+21
+00:02:26,040 --> 00:02:35,480
+I just was I I mean, my whole body went rigid and and I just I can't describe the feeling I got from seeing that.
+
+22
+00:02:35,480 --> 00:02:41,800
+And I showed I think I had a copy of that and I showed that to them, and it had the exact same reaction with them.
+
+23
+00:02:41,800 --> 00:02:45,000
+We were just smitten with the whole idea.
+
+24
+00:02:45,000 --> 00:03:04,840
+So um at that time there was a museum, there still is a museum here in Oak Ridge about the atomic energy program, and we we decided we'd present these holograms uh to the museum and suggest an exhibit, and they were equally smitten with them, and so we worked uh for some time.
+
+25
+00:03:04,840 --> 00:03:31,400
+Unfortunately, the whole deal fell through uh largely because the multiplex company was unable to protect uh their they didn't had no distribution program, no channel program for uh for selling holograms, and it was just sort of a uh a free agent kind of thing, and so uh the the the deal for us fell apart.
+
+26
+00:03:31,400 --> 00:03:56,640
+But we were able to uh able to show a lot of holograms around and got the community kind of excited about that, and it and and it was gratifying to me because that initial demonstration that I'd seen way back in 1963, some of those same folks came to see the hologram Fit Baltic in in 1975 or 76, so it kind of came full circle.
+
+27
+00:03:56,640 --> 00:03:59,360
+And I that was gratifying.
+
+28
+00:03:59,360 --> 00:05:35,560
+But also at that time uh I had been working for a company that was involved in medical imaging using uh uh radionuclides and um this is uh this is a technique that's used even today to help uh physicians visualize problems in your body by giving what they do is they give you a um a radioactive isotope of a chemical that that your body normally would uptake anyway um for instance iodine iodine is taken up by your thyroid and they can give you a radioisotope of iodine and your thyroid will take that up and then they can form an image of the of that based on the gamma rays that are emitted by the radioisotope so I I had gotten fairly familiar with the with the physical principles of all this I'm certainly not a scientist or anything but but I had a good understanding of what was going on there and you know it was just a short step to say well gosh we could uh we could combine holography with this radioisotope imaging and then the physician, instead of seeing having to look at flat uh pieces of film, could see uh an actual 3D visualization of say your thyroid or or perhaps you had some kind of a brain tumor problem or something that that you could actually see it in 3D.
+
+29
+00:05:35,960 --> 00:05:43,480
+What exactly provided the exposure assuming there was an exposure onto like a silver halide material or something?
+
+30
+00:05:43,480 --> 00:06:01,240
+Well, um the way the way this works is that um they they used at that time, and this was was just before uh CAT scans and PET scans came on l online, they used what was called an anger scintillation camera.
+
+31
+00:06:01,240 --> 00:06:06,680
+And this camera had a great big crystal of s what amounts to salt.
+
+32
+00:06:06,680 --> 00:06:09,000
+Uh it was sodium iodide.
+
+33
+00:06:09,000 --> 00:06:14,200
+Well, sodium iodide is sensitive to gamma radiation.
+
+34
+00:06:14,200 --> 00:06:23,160
+If if a gamma ray strikes a sodium iodide crystal that's been properly treated, it gives off a photon.
+
+35
+00:06:23,160 --> 00:06:35,400
+And so essentially what you're doing is you're transforming from a gamma ray to a visible photon, and you can capture that on a on an oscilloscope or a display screen.
+
+36
+00:06:36,040 --> 00:06:57,480
+So what I did was I I went down and talked to the local hospital and the radiologist down there and talked to the uh talked to some other folks that had a had a uh what they call a phantom head or uh Alderson phantom it was called that that's a mock-up of a head that you can fill with radioisotope.
+
+37
+00:06:58,120 --> 00:07:14,280
+And I I went around and and this is something that I've done all my life at uh sort of skunk works type stuff and beg borrowed and assembled all this equipment and I set up an air flex camera on the oscilloscope.
+
+38
+00:07:14,280 --> 00:07:33,360
+So I manually rotated this phantom in front of the anger camera then recorded each image off the oscilloscope with the air flex and so I wound up with uh a hundred two hundred feet of film which I then sent uh I think it was double X film.
+
+39
+00:07:33,440 --> 00:07:42,560
+I sent that off to uh Gary Adams at the multiplex company and we created a hologram based on that.
+
+40
+00:07:42,560 --> 00:07:46,800
+And uh and it actually worked very well.
+
+41
+00:07:46,800 --> 00:07:59,040
+Uh you could you could see the head in three dimensions and it had two fake tumors in it and you could see the the the two fake tumors in three dimensions.
+
+42
+00:07:59,920 --> 00:08:15,360
+And uh so this was shown at the uh Society of Nuclear Medicine I think in nineteen seventy six and also shown at the International Cent the Center for Photography uh either in seventy six or seventy seven.
+
+43
+00:08:15,360 --> 00:08:21,040
+Yeah that was a big show in New York right it was and that was just that show was just unbelievable.
+
+44
+00:08:21,040 --> 00:08:29,520
+That that was another epiphany from Yeah some someone actually I I think it would be fair to say that that was a big kickoff for holography that show.
+
+45
+00:08:29,520 --> 00:08:56,720
+It was it was the you know for me personally I mean to be able and and I have to thank Posey Jackson for uh putting up with this hillbilly from uh Oak Ridge Tennessee and all my bitching and whining and complaining and all that, but she got me into that show, and then the show later on, uh, th those same holograms went to uh Sweden and I think toured Europe.
+
+46
+00:08:56,720 --> 00:09:04,760
+But uh when I got up there in the show, I was just I mean, it was astounding what I saw.
+
+47
+00:09:04,760 --> 00:09:17,000
+And, you know, uh Lloyd was up there, Steve Benton was up there, just a lot of the uh a lot of the big names and holography at that time attended and exhibited at that show.
+
+48
+00:09:17,000 --> 00:09:21,080
+And one thing, uh I hope you don't mind me just rambling on your button.
+
+49
+00:09:21,640 --> 00:09:31,640
+Um thing that I saw at that time was uh Steve Benton's reflection hologram uh of the train.
+
+50
+00:09:31,640 --> 00:09:33,960
+Oh, engine engine number nine.
+
+51
+00:09:33,960 --> 00:09:35,240
+Exactly.
+
+52
+00:09:35,240 --> 00:09:39,960
+And once again, I I just had that moment of epiphany.
+
+53
+00:09:39,960 --> 00:09:44,520
+I just stood in front of that thing for for 15 minutes.
+
+54
+00:09:44,520 --> 00:09:46,520
+I could not believe what I was seeing.
+
+55
+00:09:46,520 --> 00:09:52,360
+I had never seen uh, you know, I'd made reflection holograms, but I'd never seen one like that.
+
+56
+00:09:52,920 --> 00:10:06,520
+And I couldn't understand what he was doing that was so different than what I or any of the other folks that were doing reflection holograms, why he was getting such a high quality image out of that.
+
+57
+00:10:06,520 --> 00:10:12,760
+It was so bright and so clear and so noise-free, it was just unbelievable.
+
+58
+00:10:12,760 --> 00:10:26,200
+And uh so I I went and introduced myself to him and talked to him at length, and he explained this whole process um which just fascinated me.
+
+59
+00:10:26,200 --> 00:11:08,720
+The idea that instead of uh uh of fixing out the unexposed silver, that you actually via a solvent type developer, you dissolve it and it precipitates back onto the exposed silver so in effect you're amplifying the whole image well I that I went off on a on a five year trek of uh of making my own emulsions of making my own developers of experimenting with the developer that he had he had given me it was just a whole episode in holography for me.
+
+60
+00:11:08,720 --> 00:11:12,960
+Yeah some of those early uh some of those early chemical formulas weren't very good.
+
+61
+00:11:12,960 --> 00:11:16,160
+I remember working with the macured chloride bleach.
+
+62
+00:11:16,160 --> 00:11:22,000
+Oh yes parabenzoquinone P VQ those things were awful.
+
+63
+00:11:22,000 --> 00:11:23,120
+Bromine?
+
+64
+00:11:23,120 --> 00:11:31,920
+Yeah I had I had all that I had a big jar of bromine uh at my house and I had to I I finally had to put it in the backyard.
+
+65
+00:11:31,920 --> 00:11:35,440
+I dug a hole and put it in the back yard and that's where I kept it.
+
+66
+00:11:35,440 --> 00:11:37,120
+It was that stuff was awful.
+
+67
+00:11:37,120 --> 00:11:38,160
+Yeah.
+
+68
+00:11:38,160 --> 00:11:41,680
+I remember I worked with all those things in the early days too.
+
+69
+00:11:42,880 --> 00:12:05,520
+Um and in fact you know the uh the mercuric chloride uh is actually called Monkhoven's intensifier and that was uh actually uh Gabrielle Lippmann uh was originally used that um so it that has that goes back to eighteen ninety five you know for in terms of Littman type imaging.
+
+70
+00:12:05,840 --> 00:12:10,640
+Your medical hologram was on display at the Museum of Philography in Chicago for a number of years, wasn't it?
+
+71
+00:12:10,960 --> 00:12:14,080
+Yeah it was and uh and it disappeared.
+
+72
+00:12:14,080 --> 00:12:28,640
+Um I had uh I I had a trip business trip in two thousand and I stopped by and visited Lauren buildings up there and asked her I'd lent it to her, you know, many years before and asked her what had become of it because I'd like to get it back.
+
+73
+00:12:28,640 --> 00:12:37,240
+And uh she said that she didn't know what had happened to it and uh so it's I I have a feeling that it's out there somewhere.
+
+74
+00:12:37,320 --> 00:12:38,920
+Oh it's it's around, yeah.
+
+75
+00:12:38,920 --> 00:12:39,720
+It's somewhere.
+
+76
+00:12:39,960 --> 00:12:46,600
+It may be right appreciated if any of your listeners know where it is if they could uh steer me back to it.
+
+77
+00:12:46,600 --> 00:12:49,160
+It may be somewhere right in the museum they'll find it.
+
+78
+00:12:49,160 --> 00:12:49,720
+Yeah.
+
+79
+00:12:49,720 --> 00:13:00,840
+Of course I have the original footage and I also have some uh some duplicate holograms of it so uh I'm not completely without it but I would like to get the original bag.
+
+80
+00:13:00,840 --> 00:13:05,800
+You went to Chicago for another company right after uh Baltic, didn't you?
+
+81
+00:13:06,440 --> 00:13:11,960
+Uh that was uh holographic arts company that um that was a beautiful facility.
+
+82
+00:13:11,960 --> 00:13:13,480
+I saw a picture of that on your website.
+
+83
+00:13:13,480 --> 00:13:14,760
+That that was beautiful.
+
+84
+00:13:14,760 --> 00:13:16,200
+Oh it was fantastic.
+
+85
+00:13:16,200 --> 00:13:35,720
+It was um Lee Lacey and uh and a group of investors uh that were associated with the Chicago Mercantile exchange but Lee Lacey uh uh was really the guy that uh kind of pushed the whole idea forward and Lee is Lee's just a brilliant guy.
+
+86
+00:13:35,720 --> 00:14:14,320
+He he knew uh right from the moment that he saw his first multiplex hologram, he knew that this could be applied commercially and that uh that what needed to be done was to set up a facility that could produce uh masters and then replicate them in a volume and he had a great vision and and he had a lot of experience in the photography, commercial photography world, so he knew where to go to to assemble the the necessary equipment.
+
+87
+00:14:14,280 --> 00:14:24,080
+And of course he worked with uh he he contracted with Lloyd and uh Dave Schmidt, I believe, was involved in that, and Mike Kahn was involved.
+
+88
+00:14:24,640 --> 00:14:29,600
+Did they produce holograms at that facility or was that just uh did they just form them out?
+
+89
+00:14:29,600 --> 00:14:31,440
+Uh no, we produced them there.
+
+90
+00:14:31,440 --> 00:14:33,840
+We had we had a fabulous setup.
+
+91
+00:14:33,840 --> 00:14:51,760
+Um we had what what I'm calling the and you can see this on my website was uh the mark, I believe it was the Mark II or the Mark III multiplex camera that incorporated all of uh Lloyd's improvements to the original multiplex camera.
+
+92
+00:14:51,760 --> 00:15:08,400
+And uh thing was uh of course in typical Lloyd fashion was built out of uh particle board, which is ideal for holography because it's completely dead, you know, it's massive and it's dead, doesn't transmit vibration very well.
+
+93
+00:15:08,400 --> 00:15:20,320
+And uh we also had uh uh Lee uh contracted with Dave Schmidt to make the uh copying equipment.
+
+94
+00:15:20,320 --> 00:15:27,760
+So we had the ability to uh to to run off uh duplicates uh from the master hologram.
+
+95
+00:15:27,760 --> 00:15:32,720
+Um and it was a very nice setup that that David created for that.
+
+96
+00:15:32,720 --> 00:15:48,800
+Then he also contracted with the Krionite Corporation, which builds photographic processors and built a custom uh processor that I believe it was uh 24 inch wide uh uh actually it was wider than that.
+
+97
+00:15:48,800 --> 00:16:04,360
+It would take two strips simultaneously of ten inch holographic film and automatically process them and it would automatically replenish itself so that uh you know it kept maintained its chemical stability.
+
+98
+00:15:59,840 --> 00:16:05,000
+Yeah.
+
+99
+00:16:05,400 --> 00:16:27,880
+And uh he he bought a uh uh for master uh we had we had a turntable that I had built uh a little turntable and we could he he of course had uh motion picture equipment so we could we could shoot it, we could create the original master on the multiplex camera and then we could run off thousands of copies.
+
+100
+00:16:27,880 --> 00:16:41,080
+Well what what chemistry were they running on that uh s uh self-replenishing uh processor automated process it was it was D nineteen and uh and and stop bath and rapid fixer.
+
+101
+00:16:41,480 --> 00:17:02,360
+It it was just you know your very simple process and then it went through a bleach which I believe we were using uh um for that was potassium ferrocyanide and then it was uh you know of course that had problems because it was a little bit on the light sensitive side but but that's what we used I believe in that case.
+
+102
+00:17:02,360 --> 00:17:06,280
+I used to love potassium ferrocyanide bleach for uh transmission holograms.
+
+103
+00:17:06,280 --> 00:17:09,400
+Uh yeah well that's I believe that's what we were using there.
+
+104
+00:17:09,400 --> 00:17:11,400
+Uh no I take that back.
+
+105
+00:17:11,400 --> 00:17:13,160
+Um I I'm mistaken there.
+
+106
+00:17:13,160 --> 00:17:18,120
+We used an I uh an iodine based bleach.
+
+107
+00:17:18,440 --> 00:17:18,760
+Yeah.
+
+108
+00:17:19,240 --> 00:17:30,840
+And that had a that had the advantage of uh it was a lot more light stable and and actually I believe it produced uh more efficient holograms um at that time.
+
+109
+00:17:30,840 --> 00:17:34,640
+But now of course it's been a long time, so my memory's a little bit weak on that.
+
+110
+00:17:34,640 --> 00:17:37,880
+But but I believe we were using an Iodine leaks there.
+
+111
+00:17:37,880 --> 00:17:51,200
+And that of course caused problems with the processor uh in that we needed to have uh special tanks and rollers that could withstand that iodine bleach.
+
+112
+00:17:51,440 --> 00:17:53,360
+Okay.
+
+113
+00:17:53,360 --> 00:17:59,200
+For the masters though, I believe we were using uh fasting parasanide.
+
+114
+00:17:59,680 --> 00:18:02,240
+So then you wound up back in Knoxville.
+
+115
+00:18:02,800 --> 00:18:15,600
+Right, I worked there for a year and we got it all set up and everything was running fine and I left uh left Chicago which is a uh to your listeners, Chicago is just a wonderful, wonderful city.
+
+116
+00:18:15,600 --> 00:18:22,160
+I mean it has tremendous architecture and museums and food and uh just transportation.
+
+117
+00:18:22,480 --> 00:18:24,480
+The place is just a wonderful place.
+
+118
+00:18:24,480 --> 00:18:57,120
+And I came back uh to Knoxville and um just kind of I'd have to say I dabbled in holography for the next you know eight or ten years and played around uh with making my own emulsions and making various apparatus and one thing in particular I I I want to recount is that I noticed on your website you have a wonderful little uh section on making uh stereogram portraits.
+
+119
+00:18:57,120 --> 00:19:04,880
+Yeah and uh I I I looked through the whole thing and I enjoyed what you what you came up with there.
+
+120
+00:19:04,880 --> 00:19:41,320
+I had this idea that uh I ran across some lenticular lenses and I decided well what what I need to do is make a camera that has uh you know a couple of dozen lenses arranged linearly so that I can take one exposure and capture like uh two dozen images taken from uh you know displaced uh over a over about a foot and then convert that into a hologram so that I could uh essentially accomplish what you do with a multiplex hologram in one shot.
+
+121
+00:19:41,320 --> 00:19:56,120
+So I actually built the uh camera and took some exposures and uh and then it it just it became ever more complex to build the rig that would uh would transfer that to a reflection hologram.
+
+122
+00:19:56,520 --> 00:20:03,400
+So I kind of uh that that languaged in my garage for years and and finally I just tore the whole thing down.
+
+123
+00:20:03,400 --> 00:20:07,800
+But I I still have that camera which I'm kind of proud of that it actually works.
+
+124
+00:20:07,800 --> 00:20:14,200
+So but that's an idea that that any of your listeners could do.
+
+125
+00:20:14,200 --> 00:20:21,240
+Um you just find yourself an array of inexpensive lenses and build yourself a little simple camera.
+
+126
+00:20:21,240 --> 00:20:36,760
+You could you could do this, you could make a pinhole camera that had multiple pinholes stretched across for a foot or two feet and put a piece of film back in there and and you'll have to build some little baffles in there to separate the images.
+
+127
+00:20:36,760 --> 00:20:37,320
+Yeah.
+
+128
+00:20:37,320 --> 00:20:44,360
+But there's no reason why you couldn't take that and use that to generate a master and create a a multiplex hologram.
+
+129
+00:20:44,360 --> 00:20:45,720
+Isn't that something yeah?
+
+130
+00:20:45,720 --> 00:20:46,360
+Yeah.
+
+131
+00:20:46,360 --> 00:21:06,520
+So, you know, and and I also uh I want to give your listeners I realize I'm rambling on here, but I want to give your listeners another little thing was uh I did a lot of experiments based on what Steve Benton had steered me toward with this uh what he called intra-emulsion diffusion transfer.
+
+132
+00:21:06,520 --> 00:21:09,960
+And basically it's a solvent type developer.
+
+133
+00:21:09,960 --> 00:21:59,120
+Well, I came up with a formula which I believe would probably even work with those the new plates that are out there which uh uh if to make one liter it would be uh five grams of elon and then fifty grams of sodium sulfite one gram of potassium bromide thirty grams of sodium metaborate which serves as the buffer and then uh roughly uh a tenth of a gram of sodium thiostyanate which is the solvent and then add water to uh uh make one liter um and this would make a very simple uh gentle acting solvent developer which I think would probably work well with the plates that are even out there today.
+
+134
+00:21:59,120 --> 00:22:02,000
+And what what bleach would you match that with?
+
+135
+00:22:02,000 --> 00:22:55,520
+Well at that time I was kind of taken with that uh cupric well was it cupric bromine um it was one of those bleaches like that uh that was floating around out there that that worked pretty well um and then of course there was Steve's uh developer which also used the thiocyanate for the solvent but he added in ascorbic acid which uh which not only is a developer but also is a solvent type developer and as a little sideline I tried this out I went to the drugstore and bought some vitamin C and then I went to the grocery store and bought some red devil lye and mixed the two together in proportions and it actually worked worked out pretty well as a developer.
+
+136
+00:22:55,400 --> 00:22:56,400
+No kidding.
+
+137
+00:22:56,400 --> 00:22:57,040
+Yeah.
+
+138
+00:22:57,440 --> 00:23:09,240
+It uh you know you gotta be careful with that live but but it had the property of getting the pH way up and it and the ascorbic acid served as a uh as a developing agent.
+
+139
+00:23:09,240 --> 00:23:17,480
+It probably would work better if it had a had a buffer in it like uh the sodium metaborate but by itself it seemed to work okay.
+
+140
+00:23:17,480 --> 00:23:21,320
+Isn't that something there's some tips.
+
+141
+00:23:21,880 --> 00:23:25,720
+So tell us what you're doing now as as we get ready to close out.
+
+142
+00:23:25,720 --> 00:23:28,120
+We're coming up on twenty five minutes again.
+
+143
+00:23:28,120 --> 00:23:28,520
+Okay.
+
+144
+00:23:28,520 --> 00:23:52,760
+Well I'm I've uh I have a wide range of interest I draw paint uh I'm a photographer and I'm also involved heavily with the IPix Corporation and we make uh the three hundred and sixty degree immersive imaging that um you've seen a lot of that in the real estate business for home tours that where you can surf completely around the whole room.
+
+145
+00:23:52,760 --> 00:24:27,400
+Yeah but we've also applied this now to uh homeland security for video purposes we have uh three hundred and sixty degree video and uh and I've been involved with these folks for about five years now and and it's just uh terrific experience so uh um I've I continue with my long term interest in the imaging and after visiting your site Frank I can't help but say that I got to get my laser dive pointer I get to making holograms again because it's just terrific what you have up there.
+
+146
+00:24:27,400 --> 00:24:28,360
+Well thank you very much.
+
+147
+00:24:28,360 --> 00:24:31,880
+Once you're inoculated with holography I don't think it ever comes out of the bloodstream.
+
+148
+00:24:32,120 --> 00:24:33,200
+I don't think it is either.
+
+149
+00:24:33,200 --> 00:24:34,680
+No, it doesn't.
+
+150
+00:24:34,680 --> 00:24:38,280
+Well, John, I want to thank you very much for taking the time.
+
+151
+00:24:38,280 --> 00:24:49,280
+I know this was a long interview, but I think it was worth every second that the clock ticked by having you on the show, and I I very much appreciate you coming on and taking the time, and I'm sure the listeners do as well.
+
+152
+00:24:49,280 --> 00:24:54,640
+Well, I appreciate it to you, and I'd like to say hello to all your listeners, and thank you for inviting me on the show.
+
+153
+00:24:54,640 --> 00:25:04,640
+And and I think your Holo World side is just a great service to the whole graphic community, and I appreciate all the hard work that uh you put into it again.
+
+154
+00:25:04,640 --> 00:25:12,000
+And I'd encourage folks to get up there and listen to some of these interviews because they're as fresh today as when they were originally recorded.
+
+155
+00:25:12,000 --> 00:25:13,360
+Just terrific stuff.
+
+156
+00:25:13,360 --> 00:25:15,440
+So uh thank you.
+
+157
+00:25:15,440 --> 00:25:17,040
+Thank you so much, John.
+
+158
+00:25:17,040 --> 00:25:17,360
+All right.
+
+159
+00:25:17,600 --> 00:25:18,640
+Have a good night.
+
+160
+00:25:18,640 --> 00:25:18,960
+Bye.
+
+161
+00:25:19,280 --> 00:25:24,960
+See you.

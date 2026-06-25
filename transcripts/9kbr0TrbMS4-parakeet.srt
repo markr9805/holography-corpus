@@ -1,0 +1,495 @@
+1
+00:00:02,720 --> 00:00:08,320
+The following is a production of Frankie Freitas and the Internet Red Vene of Holography.
+
+2
+00:00:12,880 --> 00:00:19,440
+Hello everyone, this is Frankie Freitas, and welcome to another week of HoloTalk for the week of May 10th, 1998.
+
+3
+00:00:19,520 --> 00:00:22,960
+We're live on the World Wide Web with the webcam.
+
+4
+00:00:22,960 --> 00:00:26,000
+So if you're tuned in right now, hello, how are you?
+
+5
+00:00:26,000 --> 00:00:28,320
+And thank you for tuning in.
+
+6
+00:00:28,320 --> 00:00:30,960
+I'm going to be working on the webcam this week.
+
+7
+00:00:30,960 --> 00:00:32,160
+We're going to make a few changes.
+
+8
+00:00:32,160 --> 00:00:37,280
+And I I was wondering how long I would have this Connectix QuickCam before I would rip it apart.
+
+9
+00:00:37,280 --> 00:00:38,400
+So I'm going to take it apart.
+
+10
+00:00:38,400 --> 00:00:43,920
+I have some optics I want to add to it, which will give you a broader view of the studio.
+
+11
+00:00:43,920 --> 00:00:48,080
+And I'm also going to start sending a larger picture.
+
+12
+00:00:48,320 --> 00:01:00,720
+What I'm going to do is give you the option, starting this week, that when you click on the webcam page, you'll be able to open up the HoloTalk webcam show in a separate window.
+
+13
+00:01:00,720 --> 00:01:11,520
+So that you can take that window and take it down to the uh bottom corner of your screen and then go back to your main browser and continue on the world wide web because I know a lot of you have to sit there.
+
+14
+00:01:11,520 --> 00:01:18,000
+Uh a new picture goes up every 60 seconds, but it's it's kind of boring just to sit there and wait for the next picture to come up.
+
+15
+00:01:18,000 --> 00:01:26,320
+So now you can go back to whatever surfing you happen to enjoy doing, and the picture will still refresh its refresh itself every 60 seconds.
+
+16
+00:01:26,320 --> 00:01:32,320
+But it will do so in a separate window in the bottom of your screen.
+
+17
+00:01:32,320 --> 00:01:37,200
+We're going to be showing you a bare laser tube tonight, as promised, a helium neon laser tube.
+
+18
+00:01:37,200 --> 00:01:56,400
+Now I know a lot of you already know what a laser tube looks like when it's lit up, but keep in mind there are a lot of listeners who are students and teachers, amateurs and hobbyists, who have a small five milliwatt tubes that are in the cylindrical housings, and they do not ever get a chance to see what's going on inside the housing when that tube is lit up.
+
+19
+00:01:56,400 --> 00:02:07,880
+So what I'm going to do this week is uh light up one of the tubes for you and just a little bit and uh bring the webcam over and show you exactly what a helium neon laser tube looks like when it's lit up.
+
+20
+00:02:07,880 --> 00:02:11,800
+Last week we did a laser diode, and that was pretty cool too.
+
+21
+00:02:11,800 --> 00:02:18,760
+Next week, May 14th on the webcam, Thursday night, 11 o'clock.
+
+22
+00:02:18,760 --> 00:02:24,520
+I have an interesting project that I'm working on, making holograms.
+
+23
+00:02:24,680 --> 00:02:30,600
+I received a package from a gentleman named Jerry Robertson, and Jerry's an independent researcher into the John F.
+
+24
+00:02:30,600 --> 00:02:34,840
+Kennedy assassination, and he's he has a body of work which he sent to me.
+
+25
+00:02:34,840 --> 00:02:36,440
+It's called Denial.
+
+26
+00:02:36,440 --> 00:02:44,760
+The continuing cover up by the government with the help of the establishment press of the truth about the assassination of President Kennedy.
+
+27
+00:02:44,760 --> 00:02:46,680
+And here I'll hold the book up to the camera.
+
+28
+00:02:46,680 --> 00:02:50,680
+You can see uh the book that he's uh published.
+
+29
+00:02:50,680 --> 00:02:54,120
+Along with the book, he sent me a couple bullets.
+
+30
+00:02:54,120 --> 00:03:05,800
+And these bullets are the same type of bullet that was used in the gun of uh Lee Harvey Oswald, who allegedly acted alone shooting the president.
+
+31
+00:03:05,800 --> 00:03:08,280
+Um the two bullets are quite different.
+
+32
+00:03:08,280 --> 00:03:13,800
+One bullet looks as if it has not been ever shot from a gun in the first place.
+
+33
+00:03:13,800 --> 00:03:19,160
+And this is supposedly the way the magic bullet works in the single bullet theory.
+
+34
+00:03:19,160 --> 00:03:31,560
+And that theory goes that there was one bullet that was shot from the rifle of Lee Harvey Oswald, that entered the rear of President Kennedy's neck, and exited the front of his neck.
+
+35
+00:03:31,560 --> 00:03:38,840
+It then proceeded to go into the back of John Connolly, who was governor, who was sitting in front of John F.
+
+36
+00:03:38,840 --> 00:03:57,120
+Kennedy, traveling through his chest and puncturing one of his lungs, exiting the front of his chest, continuing on to go through his wrist and shatter the bones in the wrist, and eventually winding up embedded in his thigh.
+
+37
+00:03:57,120 --> 00:04:06,240
+Now at the hospital, Parkland Memorial Hospital, where Governor Connolly and President Kennedy were taken after the uh the shooting.
+
+38
+00:04:06,240 --> 00:04:13,680
+This bullet supposedly worked its way out of John Connolly's thigh and was found on the stretcher next to him.
+
+39
+00:04:13,680 --> 00:04:24,640
+And if you've ever seen any of the pictures from the Warren Commission report, you've seen that this bullet looks as if it had never been shot from a gun in the first place.
+
+40
+00:04:24,640 --> 00:04:45,040
+Now that would be all well and good, but the second bullet in this package is a bullet that was taken and shot from the same type of rifle that Lee Harvey Oswald used and using the same bullet, same type of bullet, and it was shot into the wrist of a cadaver.
+
+41
+00:04:45,040 --> 00:05:01,840
+This bullet is so distorted and so smashed up that it's almost impossible to believe that that other bullet did so much damage and still managed to look the way that it looked after it did all the damage.
+
+42
+00:05:01,840 --> 00:05:10,960
+So next week, if you log on, May 14th, Thursday night, 11 o'clock on the webcam page, I'm going to show you these bullets.
+
+43
+00:05:10,960 --> 00:05:18,240
+I'll show you the one that represents the pristine bullet, and I'll show you the bullet that was shot into the wrists of the cadaver.
+
+44
+00:05:18,240 --> 00:05:22,240
+And you decide for yourself.
+
+45
+00:05:22,240 --> 00:05:23,480
+Okay.
+
+46
+00:05:23,120 --> 00:05:24,920
+Internet resources.
+
+47
+00:05:25,560 --> 00:05:35,240
+I'm currently working on a new site, which is going to be a part of the Web VM site, but it's actually going to be a separate site unto itself.
+
+48
+00:05:35,240 --> 00:05:37,720
+And it's going to be for internet resources.
+
+49
+00:05:37,720 --> 00:05:47,400
+So if you're interested in lasers and holograms and holography and optics, I'm hoping that this is going to be a valuable resource for you.
+
+50
+00:05:47,400 --> 00:05:49,960
+Now you know I already have a link page.
+
+51
+00:05:49,960 --> 00:05:59,720
+And it's a fairly comprehensive, comprehensive listing of links on the world wide web that pertain to lasers and holograms.
+
+52
+00:05:59,720 --> 00:06:02,600
+This resource site is going to be a little different.
+
+53
+00:06:02,600 --> 00:06:05,240
+It's going to be an interactive resource site.
+
+54
+00:06:05,240 --> 00:06:09,960
+And what it's going to allow you to do, it's going to allow you to search for information.
+
+55
+00:06:09,960 --> 00:06:12,360
+But it does a little bit more than just a search engine.
+
+56
+00:06:12,360 --> 00:06:15,160
+It's going to be broken up into a number of different parts.
+
+57
+00:06:15,160 --> 00:06:19,560
+The first part is going to be a worldwide web search.
+
+58
+00:06:19,560 --> 00:06:26,120
+And it will be a pull-down window with up to 50 keywords that will be cross-referenced with holography.
+
+59
+00:06:26,120 --> 00:06:32,040
+And you can choose what keywords you want to search with under either lasers or holograms.
+
+60
+00:06:32,040 --> 00:06:43,800
+And it will go out and it will query all of the top search engines and then compile those results into one listing that it will send back to you.
+
+61
+00:06:43,800 --> 00:06:51,480
+A second part of the site will go out and check for Usenet or news group listings.
+
+62
+00:06:51,480 --> 00:07:00,120
+Two parts, one within the past 60 days, and the other part will be archives of Usenet postings going all the way back.
+
+63
+00:07:00,120 --> 00:07:03,480
+Anything to do with lasers and holograms.
+
+64
+00:07:03,520 --> 00:07:12,480
+A third section will work just about the same way as the other two, except for the fact that it will query up to 100 newspapers.
+
+65
+00:07:12,480 --> 00:07:25,280
+And it will find all the relative articles for lasers and holograms, cross-reference with the keywords that you select, compile that information, and send you the results back right on the page.
+
+66
+00:07:25,280 --> 00:07:33,120
+The final part will be a books and print, where you can go out and find out what books are currently published.
+
+67
+00:07:33,360 --> 00:07:38,560
+That can help you learn about the things that you need to learn about concerning lasers and holograms.
+
+68
+00:07:38,560 --> 00:07:45,600
+I'm hoping to have this finished shortly, but I will have it finished by June 1st.
+
+69
+00:07:45,600 --> 00:07:48,240
+So I'll keep you up to date on that.
+
+70
+00:07:48,240 --> 00:07:56,800
+And I hope it turns out to be a valuable resource for you when you're doing research for lasers and holograms on the World Wide Web.
+
+71
+00:07:56,800 --> 00:07:57,280
+Dr.
+
+72
+00:07:57,280 --> 00:08:08,240
+John Perry, who is scheduled to be a guest this week, our two schedules were so mixed up this week that I cannot interview him until Monday at 4.30.
+
+73
+00:08:08,240 --> 00:08:17,360
+Now, considering Monday is the day that this show is the hardest hit or the most listened to day of the week.
+
+74
+00:08:23,680 --> 00:08:28,480
+So what I'm going to do is we're just going to skip it this week.
+
+75
+00:08:28,480 --> 00:08:35,680
+And if you come back on May 17th, that will be the week for John Perry.
+
+76
+00:08:41,840 --> 00:08:44,080
+We always get to show up one way or the other.
+
+77
+00:08:44,080 --> 00:08:48,720
+John Perry is going to be up May 17th instead of this week.
+
+78
+00:08:48,720 --> 00:09:00,360
+If you're interested in knowing what our or who our upcoming guests are going to be, there's a link on the left-hand side of the page that says updates and guests, I believe it says that.
+
+79
+00:08:59,680 --> 00:09:06,920
+Just click on that and it'll tell you how you can get on the email list that will let you know what the upcoming guests are.
+
+80
+00:09:07,000 --> 00:09:10,840
+Now we're booked into the well into the fall of '98.
+
+81
+00:09:10,840 --> 00:09:14,520
+We've got a lot of exciting guests and topics coming up.
+
+82
+00:09:14,520 --> 00:09:18,120
+And the email list will let you know a number of different things.
+
+83
+00:09:18,360 --> 00:09:26,120
+As I book guests, which means they will be booked in the fall if they arrange to come on the show now.
+
+84
+00:09:26,120 --> 00:09:28,680
+I will let you know now as they're booked.
+
+85
+00:09:28,680 --> 00:09:34,680
+For instance, this week I just booked Melissa Crenshaw for late fall.
+
+86
+00:09:34,680 --> 00:09:41,400
+So you would know that Melissa Crenshaw will be coming up in the fall if you were on the email list.
+
+87
+00:09:41,880 --> 00:09:51,000
+We will also let you know what the topic of that week was, because the email list goes out to you on Fridays.
+
+88
+00:09:51,000 --> 00:10:00,760
+And by then we've already got the interviews finished, and I can give you a little bit of background information on what's coming up on Sunday and what you can expect to listen to with the guests that we have.
+
+89
+00:10:00,760 --> 00:10:04,760
+So that you already know before you even log on to listen to the site.
+
+90
+00:10:04,760 --> 00:10:06,200
+And so on and so forth.
+
+91
+00:10:06,200 --> 00:10:07,560
+It's a valuable resource.
+
+92
+00:10:07,560 --> 00:10:08,440
+So check it out.
+
+93
+00:10:08,440 --> 00:10:11,080
+And if you'd like to get on the email list, it tells you how to do it.
+
+94
+00:10:11,080 --> 00:10:13,960
+Summer workshop programs.
+
+95
+00:10:13,960 --> 00:10:19,400
+My summer workshop programs are just about getting ready to start up here in Allentown, Pennsylvania.
+
+96
+00:10:19,400 --> 00:10:24,040
+This is the 15th year, folks, that I've had the summer workshop programs here.
+
+97
+00:10:24,360 --> 00:10:29,880
+Evening workshops during the week, afternoon and evening workshops on the weekends.
+
+98
+00:10:29,880 --> 00:10:40,520
+You can come in and bring an object of your choice from home and make your own one-of-a-kind hologram right here in the lab and take it home with you at the end of the workshop.
+
+99
+00:10:40,760 --> 00:10:45,840
+It's a very popular program, so I'm going to have some information on the World Wide Web about that shortly.
+
+100
+00:10:44,600 --> 00:10:48,720
+You may want to come in and take one of the workshops.
+
+101
+00:10:48,960 --> 00:10:57,120
+Lasers and holograms coming to the Discovery Center of Science and Technology June 6th through September 13th from the Pacific Science Center.
+
+102
+00:10:57,120 --> 00:11:02,880
+If you live in Boston, New York, Philadelphia, Baltimore, Washington, D.C., Carter, it's a very easy drive, folks.
+
+103
+00:11:02,880 --> 00:11:08,480
+You can probably get right on the highway and more than likely drive without even a stoplight before you get to the Discovery Center.
+
+104
+00:11:08,480 --> 00:11:14,960
+I think the first stoplight you would hit from any of those cities once you're on the highway would be about three blocks from the center.
+
+105
+00:11:14,960 --> 00:11:16,320
+So it's a straight through drive.
+
+106
+00:11:16,320 --> 00:11:18,880
+It's going to be a very interesting show.
+
+107
+00:11:18,880 --> 00:11:20,960
+Okay, so that's going to wrap it up for this week.
+
+108
+00:11:20,960 --> 00:11:23,120
+We're going to keep it as a short show.
+
+109
+00:11:23,120 --> 00:11:27,120
+John Perry, next week, he's from Holographics North, by the way.
+
+110
+00:11:27,520 --> 00:11:30,960
+They produce very large format holograms.
+
+111
+00:11:30,960 --> 00:11:45,360
+And uh if you're the type of philographer that works with two and a half or four by five plates, or maybe even eight by tens, you may find it very interesting to find out exactly what goes into making these large holograms that are meters square.
+
+112
+00:11:45,360 --> 00:11:47,360
+I'm curious as to how they processed them.
+
+113
+00:11:47,360 --> 00:11:48,080
+What do they use?
+
+114
+00:11:48,080 --> 00:11:48,960
+Swimming pools?
+
+115
+00:11:48,960 --> 00:11:53,280
+I how would you process a hologram that's meters square?
+
+116
+00:11:53,280 --> 00:11:56,320
+So uh we'll find out all that information from uh Dr.
+
+117
+00:11:56,320 --> 00:11:56,800
+Perry.
+
+118
+00:11:56,800 --> 00:12:02,560
+I'll be interviewing him Monday at 4.30, and his show will go up on May 17th, so tune in then.
+
+119
+00:12:02,560 --> 00:12:06,960
+And don't forget this Thursday night, 11 o'clock Eastern time.
+
+120
+00:12:06,960 --> 00:12:12,480
+Tune in to the webcam, uh, live webcam, and see these John F.
+
+121
+00:12:12,480 --> 00:12:15,120
+Kennedy assassination test bullets.
+
+122
+00:12:15,120 --> 00:12:17,120
+I think you'll find it pretty interesting.
+
+123
+00:12:17,120 --> 00:12:19,760
+So this is Frankie Frades for HoloTalk.
+
+124
+00:12:19,760 --> 00:12:23,760
+Thank you for tuning in, and I'll see you next week.

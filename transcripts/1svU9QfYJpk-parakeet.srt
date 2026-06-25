@@ -1,0 +1,1371 @@
+1
+00:00:02,720 --> 00:00:08,400
+The following is a production of Frank Defratis and the Internet Red Vienna of Holography.
+
+2
+00:00:12,720 --> 00:00:18,960
+Hello, this is Frank Sefradis, and welcome to HoloTalk, the Internet Laser and Holography Talk Show.
+
+3
+00:00:18,960 --> 00:00:29,520
+Our toll-free number is 1-800-4583525, or you can send an email to Holotalk at HoloWorld.com.
+
+4
+00:00:29,520 --> 00:00:34,560
+We've got telephone calls, we've got emails, we've got special guests coming up.
+
+5
+00:00:34,560 --> 00:00:42,000
+So thank you for tuning in, and let's get this week's show on the road.
+
+6
+00:00:42,000 --> 00:00:43,120
+Okay, everyone.
+
+7
+00:00:43,120 --> 00:00:45,840
+Welcome once again to another week of HoloTalk.
+
+8
+00:00:45,840 --> 00:00:48,400
+This is Frankie Freitas, your host.
+
+9
+00:00:48,400 --> 00:00:51,360
+I am death on toast this week.
+
+10
+00:00:51,360 --> 00:00:59,040
+Um was fighting that flu bug that was going around for a couple weeks and everything seemed fine, and all of a sudden I got hit with bronchitis.
+
+11
+00:00:59,040 --> 00:01:04,480
+So I hope you bear with me so we get this show together and get it out to you.
+
+12
+00:01:04,480 --> 00:01:07,680
+Uh still running a fever, 102.
+
+13
+00:01:07,680 --> 00:01:10,560
+So bear with me, please.
+
+14
+00:01:10,560 --> 00:01:16,400
+I'd like to make a few announcements on our guests, which are coming up in the next few weeks.
+
+15
+00:01:16,400 --> 00:01:21,680
+Uh next week, which is going to be January eighteenth, our guest is going to be Dr.
+
+16
+00:01:21,680 --> 00:01:27,360
+Stephen Benton, who is the head of the spatial imaging group at the Media Lab at MIT.
+
+17
+00:01:27,360 --> 00:01:27,840
+Dr.
+
+18
+00:01:27,840 --> 00:01:34,560
+Benton's going to fill us in on what's going to be happening out at SPIE, the conference out on the West Coast.
+
+19
+00:01:34,560 --> 00:01:36,320
+And we'll also be talking with Dr.
+
+20
+00:01:36,320 --> 00:01:40,640
+Benton on general holographic issues as well.
+
+21
+00:01:40,640 --> 00:01:44,160
+On February first, we're seeing Brian Monahan.
+
+22
+00:01:44,160 --> 00:01:54,080
+Brian is from a company called Pennsylvania Pulp and Paper, and they are actually famous for doing the men in black video cassette cover.
+
+23
+00:01:54,080 --> 00:01:59,240
+So if you've seen the Men in Black video on the shelves, that is the company that created that.
+
+24
+00:01:58,960 --> 00:02:03,800
+And they're going to be featured in the Philadelphia Inquirer on Monday.
+
+25
+00:02:03,880 --> 00:02:13,160
+So if you're listening to this on Sunday or you're listening to it on Monday, check the Philadelphia Inquire and you're going to see an article on Pennsylvania Pulp and Paper.
+
+26
+00:02:13,160 --> 00:02:16,360
+The musical guest for these two weeks, the musical guest with Dr.
+
+27
+00:02:16,360 --> 00:02:19,160
+Stephen Benton will be Julie Moffat.
+
+28
+00:02:19,160 --> 00:02:26,280
+And the musical guest with Brian Monnihan will be Brazil 2000.
+
+29
+00:02:26,280 --> 00:02:47,240
+The lightcrafts, if you remember, we covered a topic called lightcraft technology a few weeks ago where the Air Force is working with a number of different organizations and producing this micro satellite launch system that uses pulses from a laser to put it into orbit.
+
+30
+00:02:47,240 --> 00:02:52,280
+This this vehicle actually rises on a pulsed laser beam.
+
+31
+00:02:52,280 --> 00:03:06,600
+I was contacted by the people of Lightcraft, the uh researchers themselves out at um I believe it was Edwards Air Force Base, and they said they'd like to do a special interview on Holotalk about lightcraft technology.
+
+32
+00:03:06,600 --> 00:03:11,960
+So I've returned their call, and I'll probably hear from them early next week and we'll set up a date.
+
+33
+00:03:11,960 --> 00:03:15,800
+Now, HoloTalk is booked until 1999.
+
+34
+00:03:15,800 --> 00:03:19,400
+I've I've closed off all bookings at the end of 98.
+
+35
+00:03:19,400 --> 00:03:21,320
+Um so we're booked totally for the year.
+
+36
+00:03:21,320 --> 00:03:27,800
+So what I'm going to do with the lightcraft people, because from what I understand, they have some very exciting tests that are coming up for them.
+
+37
+00:03:27,800 --> 00:03:33,160
+They're going to actually test a larger vehicle using this technology sometime late spring, early summer.
+
+38
+00:03:33,160 --> 00:03:34,520
+So I'd like to get them on.
+
+39
+00:03:34,600 --> 00:03:44,120
+I'm going to put them on one of the middle weeks like this week, where we don't have a scheduled guest, and we'll hear what they're doing with lightcraft technology.
+
+40
+00:03:44,120 --> 00:03:45,360
+This is very exciting.
+
+41
+00:03:44,840 --> 00:03:48,240
+I I find this almost science fiction come true.
+
+42
+00:03:48,320 --> 00:04:05,440
+You know, we all sit down and we hear about all these science fiction topics and all these things that are possible to do in science fiction, and rarely do we see something happen in our lifetime that uh can truly be considered a science fiction dream come true.
+
+43
+00:04:05,440 --> 00:04:11,600
+I've seen a few videos of this technology, and this craft actually just rises right up on the laser beam.
+
+44
+00:04:11,600 --> 00:04:12,560
+It's so cool.
+
+45
+00:04:12,560 --> 00:04:17,520
+So we'll have to make sure that we get um some of the streaming video up again also.
+
+46
+00:04:17,520 --> 00:04:22,080
+So we're going to arrange to have the lightcraft people come on as soon as possible.
+
+47
+00:04:22,080 --> 00:04:24,240
+Okay, we're going to move on to a couple questions.
+
+48
+00:04:24,240 --> 00:04:31,920
+Actually, we got quite a few questions in this week uh for HoloTalk, and I'm going to answer them in the order that they were received.
+
+49
+00:04:31,920 --> 00:04:33,920
+Some people signed them, some people didn't.
+
+50
+00:04:33,920 --> 00:04:36,160
+Um if you do sign them, I'll use your first name.
+
+51
+00:04:36,160 --> 00:04:40,720
+It was our policy when we started the show last year not to use anyone's name on the air.
+
+52
+00:04:40,720 --> 00:04:44,240
+But I guess it would be okay to use the first name, and we'll see how that works out.
+
+53
+00:04:44,240 --> 00:04:48,160
+If we get anyone that writes in and says, you know, you used my name, I wish you wouldn't do that.
+
+54
+00:04:48,160 --> 00:04:50,080
+We'll go back to not using the name again.
+
+55
+00:04:50,080 --> 00:04:51,440
+But we won't use the last name.
+
+56
+00:04:51,440 --> 00:04:55,280
+We'll just use the first name if someone signs the email.
+
+57
+00:04:55,280 --> 00:04:56,880
+We have an interview coming up.
+
+58
+00:04:56,880 --> 00:05:03,120
+Uh a friend of mine who goes to the, oh no, I'm uh see this medication's got me so that I can't think.
+
+59
+00:05:03,120 --> 00:05:10,240
+School of Visual Arts in New York City, and she's a uh studying photography and computer graphics there.
+
+60
+00:05:10,240 --> 00:05:20,880
+She came back home to uh the Lehigh Valley over the holiday, and she stopped in and we did an interview with her from a student's uh college student's perspective on holography.
+
+61
+00:05:20,880 --> 00:05:34,840
+And she's going to fill us in on some of the things that she feels about holography, and also a reaction that she got to several other students and faculty members when she suggested that they try to work holography in to the school.
+
+62
+00:05:34,840 --> 00:05:43,000
+Um I believe they already have a holography program at the Center for Visual Arts, Center of Visual Arts in New York.
+
+63
+00:05:43,000 --> 00:05:50,520
+Let's go on to the um to a couple questions and then we'll get with the interview of uh Lisa Goldfarb is her name.
+
+64
+00:05:50,520 --> 00:05:51,960
+Here's our first question.
+
+65
+00:05:51,960 --> 00:05:54,760
+My question is about the content of the show.
+
+66
+00:05:54,760 --> 00:06:02,360
+When you first started it, it was mostly about answering your listeners' email and going over some interesting facts about holography.
+
+67
+00:06:02,360 --> 00:06:04,680
+But lately I haven't heard any emails.
+
+68
+00:06:04,680 --> 00:06:12,840
+Don't get me wrong, some of the interviews you're doing are interesting, and I know you probably need the sponsoring, hmm, but it seems you've lost your original purpose.
+
+69
+00:06:12,840 --> 00:06:15,640
+And there's a question mark there, and this was sent in by Scott.
+
+70
+00:06:15,640 --> 00:06:20,680
+Well, Scott, um, there were a couple c uh shows where we didn't get as many emails in.
+
+71
+00:06:20,680 --> 00:06:32,600
+What we wanted to do was the weeks that we were doing the interview, we wanted to spend a little bit more time on the interviews and less on the emails, and then in the middle weeks go to the emails themselves.
+
+72
+00:06:32,600 --> 00:06:35,960
+Um you said you find the interviews interesting, and I thank you for that.
+
+73
+00:06:35,960 --> 00:06:37,640
+And you say you probably need the sponsoring.
+
+74
+00:06:37,640 --> 00:06:41,480
+Well, the people who come on the show for interviews do not sponsor this show.
+
+75
+00:06:41,480 --> 00:06:43,560
+The show is not sponsored by the guests.
+
+76
+00:06:43,560 --> 00:06:45,800
+I I sponsor the show, I pay for this.
+
+77
+00:06:45,800 --> 00:06:51,640
+When you hear someone being interviewed on this show, no matter where that phone call was made, I pay for that phone call.
+
+78
+00:06:51,640 --> 00:06:59,000
+So it's not like someone sponsors a specific show and then they get to come on the show as a guest.
+
+79
+00:06:59,000 --> 00:07:04,120
+But I I thank you for this, and uh hopefully you'll see the pattern that emerges from this.
+
+80
+00:07:04,120 --> 00:07:06,680
+Uh we will probably change shows from time to time.
+
+81
+00:07:06,680 --> 00:07:12,840
+I won't I do want to try and leave some room for change and experimentation with the different things that we do on the show.
+
+82
+00:07:12,840 --> 00:07:17,280
+But um I I hope that answers your question on that.
+
+83
+00:07:17,280 --> 00:07:27,200
+The next question was sent in by Julie, and uh she writes in what different effects does the power level of your laser have on the image you create.
+
+84
+00:07:27,200 --> 00:07:39,760
+Well, Julie, um has a certain sensitivity to it, and you have to hit that emulsion with a certain amount of energy per square centimeter in order to really nail that exposure.
+
+85
+00:07:39,760 --> 00:07:42,320
+So that leaves us with a number of different problems.
+
+86
+00:07:42,320 --> 00:07:53,440
+Number one, we have when you have a very low power laser, you can still accumulate that power, but it's over a longer period of time and you're out of that sensitivity curve of the emulsion.
+
+87
+00:07:53,440 --> 00:08:03,360
+The perfect exposure is when you can hit that emulsion with the exact energy over time that that emulsion requires.
+
+88
+00:08:03,360 --> 00:08:06,960
+And sometimes that calls for a very powerful laser.
+
+89
+00:08:06,960 --> 00:08:08,240
+A number of different things.
+
+90
+00:08:08,240 --> 00:08:22,960
+Also, with a higher power laser, your exposure times are short, and the reason that that's important is because it uh cuts down any chance of having any creep coming into the system, which will make your uh hologram dimmer.
+
+91
+00:08:22,960 --> 00:08:27,920
+Um you just get better results with the higher power lasers than you do a lower power laser.
+
+92
+00:08:27,920 --> 00:08:33,920
+But uh, you know, I've done some very nice holograms using five milliwatts laser, five milliwatt helium neon lasers.
+
+93
+00:08:33,920 --> 00:08:47,200
+I've done uh multiple color holograms using five milliwatt lasers using the triethanoling technique where you pre-sensitize and pre-swell the emulsion before each uh exposure.
+
+94
+00:08:47,200 --> 00:08:51,760
+These weren't large commercial type holograms that you'd find at a convention center.
+
+95
+00:08:51,760 --> 00:08:59,200
+I worked uh basically with four by five-inch uh glass plates, but they turned out very nice, and that's just using uh five milliwatts.
+
+96
+00:08:59,200 --> 00:09:16,840
+I think right now, if with the new emulsions that we're starting to see that require uh quite a bit more uh energy uh per exposure, that it's uh certainly to your advantage to have as much power as possible available to you to work with on the uh in your system.
+
+97
+00:09:16,840 --> 00:09:20,600
+Okay, uh our next email question.
+
+98
+00:09:20,760 --> 00:09:22,840
+Doesn't have a name.
+
+99
+00:09:22,840 --> 00:09:28,280
+I'm hearing rumors of a Super Bowl commercial using some type of hologram that may win the best of show award.
+
+100
+00:09:28,280 --> 00:09:29,240
+Have you heard anything?
+
+101
+00:09:29,240 --> 00:09:29,880
+Thanks.
+
+102
+00:09:29,880 --> 00:09:31,400
+No, I haven't heard anything at all.
+
+103
+00:09:31,400 --> 00:09:36,120
+Perhaps one of our listeners could could write in and tell us a little about this.
+
+104
+00:09:36,120 --> 00:09:42,600
+Uh this is someone who's writing in saying there's a Super Bowl commercial using some type of hologram.
+
+105
+00:09:42,760 --> 00:09:56,280
+Keep in mind that if they're using a hologram, it's just going to be a flat image on your screen because your screen's not capable of showing uh three-dimensional images, which a lot of people don't seem to understand, uh, especially with computers and things.
+
+106
+00:09:56,280 --> 00:10:05,560
+Uh, they expect that they can see a three-dimensional hologram on their computer monitors and things just because it happens to be a picture of a hologram, but the picture itself is actually two dimensional.
+
+107
+00:10:05,560 --> 00:10:08,040
+So, no, I haven't heard anything about this.
+
+108
+00:10:08,120 --> 00:10:11,320
+Very interesting, uh interested in seeing what this is.
+
+109
+00:10:11,320 --> 00:10:23,400
+So, if any of our listeners have any idea what company or what the story is behind a commercial that's going to be using holograms during the Super Bowl, please write to uh HoloWorld.
+
+110
+00:10:23,400 --> 00:10:31,800
+Uh, just want to let you know that you can send your questions in either by email or call them in, although email seems to be the uh the way of choice.
+
+111
+00:10:31,800 --> 00:10:34,200
+We're not getting any uh phone calls, so that that's fine.
+
+112
+00:10:34,200 --> 00:10:36,920
+I mean, it doesn't matter to me which way the questions come in.
+
+113
+00:10:36,920 --> 00:10:48,880
+Uh the email address is Holotalk at HoloWorld.com, and there's several links and even a form available right on the HoloTalk page where you can send your question.
+
+114
+00:10:49,120 --> 00:10:57,200
+Or you can call in and we'll use your voice on mail on the air, which is 1800 458 3525.
+
+115
+00:10:57,200 --> 00:11:01,360
+And once again, I apologize for being a little bit off this week.
+
+116
+00:11:01,360 --> 00:11:12,640
+Uh I am right at the peak of a uh um bronchitis infection, and uh between the antibiotics and the the codeine, I think it's really uh affecting my head.
+
+117
+00:11:12,640 --> 00:11:17,520
+Probably by the end of the week when I'm feeling better, I'll log on and listen to this and I'll just cringe.
+
+118
+00:11:17,520 --> 00:11:19,360
+But the show must go on.
+
+119
+00:11:19,360 --> 00:11:21,120
+All right, we have an interview coming up.
+
+120
+00:11:21,120 --> 00:11:29,760
+This uh young lady, her name is Lisa Goldfarb, and she attends the School of Visual Arts in New York, and she stopped in the studio.
+
+121
+00:11:29,760 --> 00:11:38,320
+She's interested in holography quite a bit uh as an art medium, uh using it uh for ways of expression and and being creative with it.
+
+122
+00:11:38,320 --> 00:11:40,480
+And uh, we just did a quick interview with her.
+
+123
+00:11:40,480 --> 00:11:43,840
+So we're going to go to the Lisa Goldfarb interview.
+
+124
+00:11:43,840 --> 00:11:46,480
+And I have not edited anything this week.
+
+125
+00:11:46,480 --> 00:11:49,120
+I am sending everything up as is.
+
+126
+00:11:49,120 --> 00:11:54,320
+Um I record this stuff in bits and pieces, and then I put them together.
+
+127
+00:11:54,320 --> 00:12:05,840
+And normally what I do is I go in and I edit it down nicely, but I am not doing that this week, so you're seeing you're s hearing everything the way that it was recorded, mistakes and everything this week.
+
+128
+00:12:05,840 --> 00:12:08,640
+Okay, they're coming into the studio now.
+
+129
+00:12:08,640 --> 00:12:10,880
+They have absolutely no idea they're going to be on the air.
+
+130
+00:12:10,880 --> 00:12:15,520
+So uh they should be coming around to the stairs in just a second.
+
+131
+00:12:15,520 --> 00:12:17,680
+Okay.
+
+132
+00:12:17,680 --> 00:12:20,000
+I see four feet.
+
+133
+00:12:20,720 --> 00:12:23,280
+Looks like she brought protection.
+
+134
+00:12:23,280 --> 00:12:28,240
+This is a rough neighborhood, folks, so you have to bring protection when you come to the studio here.
+
+135
+00:12:28,240 --> 00:12:29,800
+Hello, Lisa, how are you?
+
+136
+00:12:29,360 --> 00:12:33,720
+Why don't you pick up a chair and grab a seat at that microphone for a second?
+
+137
+00:12:33,880 --> 00:12:36,440
+Everyone's dying to hear what you have to say.
+
+138
+00:12:36,520 --> 00:12:39,240
+Oh no, she says.
+
+139
+00:12:50,200 --> 00:12:50,760
+Like this?
+
+140
+00:12:50,760 --> 00:12:52,920
+Yes, and people will be able to understand you.
+
+141
+00:12:52,920 --> 00:12:54,440
+That's how it works.
+
+142
+00:12:54,440 --> 00:12:57,880
+I don't know, people usually don't understand me anyway.
+
+143
+00:12:57,880 --> 00:13:02,360
+Lisa goes to school at the School for Visual Arts.
+
+144
+00:13:02,360 --> 00:13:03,560
+School of Visual Arts.
+
+145
+00:13:03,560 --> 00:13:07,400
+School of Visual Arts in the Big Apple.
+
+146
+00:13:07,400 --> 00:13:09,640
+AKA S V A.
+
+147
+00:13:09,720 --> 00:13:11,560
+S V A, okay.
+
+148
+00:13:11,560 --> 00:13:18,840
+What I'd like to have you say to the people that listen to the show, as an artist, well why don't you tell the people what it is you're studying?
+
+149
+00:13:18,840 --> 00:13:20,200
+Move up close to the mic now.
+
+150
+00:13:20,200 --> 00:13:23,080
+See every people get mic people get mic shy.
+
+151
+00:13:23,080 --> 00:13:26,200
+You know, people love to have their picture taken, they love videos.
+
+152
+00:13:26,200 --> 00:13:28,680
+But the minute they come up to a mic, they stall.
+
+153
+00:13:28,680 --> 00:13:31,720
+So go ahead, get up to the mic, tell people what you what it is you're studying.
+
+154
+00:13:31,880 --> 00:13:35,000
+I'm in school for uh photography and related media.
+
+155
+00:13:35,000 --> 00:13:38,360
+Okay, which means it's photography and related media.
+
+156
+00:13:38,360 --> 00:13:43,480
+Yeah, photography, video, mixed media, uh digital imaging.
+
+157
+00:13:43,480 --> 00:13:43,880
+Mm-hmm.
+
+158
+00:13:43,880 --> 00:13:46,440
+So you get a chance to work on the computers too.
+
+159
+00:13:46,440 --> 00:13:48,280
+You work a lot on computers.
+
+160
+00:13:48,280 --> 00:13:52,280
+Try to synthesize them all somehow into art.
+
+161
+00:13:52,360 --> 00:13:53,320
+Photoshop.
+
+162
+00:13:53,320 --> 00:13:55,240
+Photoshop, quirk.
+
+163
+00:13:55,240 --> 00:13:56,440
+Okay.
+
+164
+00:13:56,440 --> 00:13:57,560
+The internet.
+
+165
+00:13:57,640 --> 00:13:59,800
+The internet for for doing websites.
+
+166
+00:14:01,800 --> 00:14:05,400
+Now, we met about a year ago, right?
+
+167
+00:14:05,480 --> 00:14:06,200
+Yeah.
+
+168
+00:14:06,200 --> 00:14:06,680
+Yeah.
+
+169
+00:14:06,680 --> 00:14:07,240
+May.
+
+170
+00:14:07,240 --> 00:14:09,320
+And you're interested in holography.
+
+171
+00:14:09,640 --> 00:14:17,200
+In that year's time, why don't you tell the folks what you've uh found out about holography and some of your ideas on it.
+
+172
+00:14:17,200 --> 00:14:19,920
+Um You've seen a couple shows at the center, right?
+
+173
+00:14:19,920 --> 00:14:20,400
+Yeah.
+
+174
+00:14:20,400 --> 00:14:20,880
+Okay.
+
+175
+00:14:20,880 --> 00:14:24,720
+I think we had a show there that were r random holograms.
+
+176
+00:14:24,720 --> 00:14:33,280
+I think some of the holograms were the uh portraits from Richmond holographics in England, along with some work from Greg Cherry and things of the that type of a show.
+
+177
+00:14:33,280 --> 00:14:36,320
+And then we brought the show in from Ukraine.
+
+178
+00:14:36,320 --> 00:14:38,400
+I think you were there to see the Ukraine show.
+
+179
+00:14:38,400 --> 00:14:51,840
+And now you were there, which we have a lot of uh the h the show that we have at the center right now is uh holography in the real world, which is showing holograms, uh packaging, advertising, things of that nature.
+
+180
+00:14:51,840 --> 00:14:55,120
+What's what's your scoop on holography, where it's at right now?
+
+181
+00:14:55,120 --> 00:15:00,240
+As just your own personal opinion doesn't have to be anything that's been sent down from the clouds or anything like that.
+
+182
+00:15:00,240 --> 00:15:02,640
+Just uh what you think about it.
+
+183
+00:15:02,720 --> 00:15:09,840
+Well, so far all I've seen of holography is uh it hasn't been art yet.
+
+184
+00:15:10,160 --> 00:15:18,400
+I haven't seen I think I m may saw seen one uh holography art exhibit and that was quite a while ago.
+
+185
+00:15:18,400 --> 00:15:19,680
+Where was do you remember where that was?
+
+186
+00:15:21,120 --> 00:15:21,840
+Oh, okay.
+
+187
+00:15:21,840 --> 00:15:26,080
+We had uh that w that wasn't the one that was there like in the last two years or something, was it?
+
+188
+00:15:26,080 --> 00:15:26,400
+Yeah.
+
+189
+00:15:26,400 --> 00:15:26,960
+Oh, okay.
+
+190
+00:15:26,960 --> 00:15:30,000
+Yeah, that was a traveling uh exhibit that went in there.
+
+191
+00:15:30,000 --> 00:15:30,960
+Yeah, that was pretty interesting.
+
+192
+00:15:31,280 --> 00:15:32,320
+You thought that was pretty cool?
+
+193
+00:15:32,320 --> 00:15:37,520
+Yeah, I don't really I can't really talk about it right now, but you don't remember a lot from it.
+
+194
+00:15:37,520 --> 00:15:38,080
+No.
+
+195
+00:15:38,080 --> 00:15:41,200
+Well see that that's an indication of something too.
+
+196
+00:15:41,200 --> 00:15:42,080
+Right?
+
+197
+00:15:42,480 --> 00:15:44,480
+My rapid memory loss.
+
+198
+00:15:44,800 --> 00:15:48,800
+No, I mean as far as the content of the show.
+
+199
+00:15:48,800 --> 00:16:01,720
+Well, I mean see how can use uh holography other than just uh representing an object.
+
+200
+00:15:59,920 --> 00:16:02,280
+Mm-hmm.
+
+201
+00:16:03,000 --> 00:16:09,160
+Uh so in other words, instead of just building a sculpture of something and then doing a hologram of the sculpture.
+
+202
+00:16:09,160 --> 00:16:22,200
+You'd rather see holography used where it's a medium unto itself, where the ph feel of holography itself is actually used to uh express some form of creativity rather than just trying to copy already existing objects, right?
+
+203
+00:16:22,200 --> 00:16:24,280
+I mean photography is similar to that too.
+
+204
+00:16:24,280 --> 00:16:34,280
+I mean you can you know, just be a you know, just take someone's picture and there with a blue background behind it for the family.
+
+205
+00:16:34,280 --> 00:16:36,760
+Or you can make an exciting portrait.
+
+206
+00:16:36,760 --> 00:16:41,960
+Do you think the you think computers are expanding your creativity with photography?
+
+207
+00:16:41,960 --> 00:16:46,520
+Or are they just taking the place of traditional ways of doing things in the darkroom?
+
+208
+00:16:46,520 --> 00:16:48,680
+Yeah, so far they're just speeding up the process.
+
+209
+00:16:48,680 --> 00:16:50,120
+Just speeding up the process.
+
+210
+00:16:50,120 --> 00:17:00,840
+Do you yourself were know of any students that are in that course that are actually doing things that you would not be able to do in a dark room situation?
+
+211
+00:17:00,840 --> 00:17:02,120
+Not not yet.
+
+212
+00:17:02,120 --> 00:17:15,720
+So in other words, using computers for photography is similar to the same results that we're seeing with holography where it's just being an extension of already known things and ways of doing things rather than using it specifically for itself.
+
+213
+00:17:15,720 --> 00:17:22,600
+Yeah, except there are there are some effects that you could never get with traditional optics and things, right?
+
+214
+00:17:22,680 --> 00:17:24,040
+Not that I've seen.
+
+215
+00:17:24,040 --> 00:17:27,880
+Like like that image you have on your desktop.
+
+216
+00:17:28,120 --> 00:17:29,080
+Uh-huh.
+
+217
+00:17:29,080 --> 00:17:32,440
+That would be tough in tr with traditional photography to do that, right?
+
+218
+00:17:32,440 --> 00:17:33,000
+Yeah.
+
+219
+00:17:33,000 --> 00:17:33,560
+Yeah.
+
+220
+00:17:33,560 --> 00:17:37,240
+With that program that takes me about three minutes.
+
+221
+00:17:37,240 --> 00:17:37,880
+Yeah.
+
+222
+00:17:38,440 --> 00:17:38,840
+Yeah.
+
+223
+00:17:38,840 --> 00:17:40,200
+I mean the speed.
+
+224
+00:17:40,200 --> 00:17:48,640
+I mean a lot of things you can't do with traditional dark room methods because they take so long to do all the layering to use all those effects.
+
+225
+00:17:48,640 --> 00:17:50,160
+'Cause they take so long.
+
+226
+00:17:50,160 --> 00:17:51,120
+Mm-hmm.
+
+227
+00:17:51,120 --> 00:17:57,760
+Um computer you can do it and Oh, you mean as far as ca calculating what it is that it the computer needs to do, the calculation time.
+
+228
+00:17:57,760 --> 00:17:58,240
+Yeah.
+
+229
+00:17:58,240 --> 00:17:59,120
+Okay.
+
+230
+00:17:59,120 --> 00:18:05,360
+So that's that's more a uh make a lot of things uh quicker and uh faster realized.
+
+231
+00:18:05,360 --> 00:18:06,880
+So what about with holography?
+
+232
+00:18:06,880 --> 00:18:11,840
+What what would you like to see as an artist happen with holography?
+
+233
+00:18:11,840 --> 00:18:19,040
+What what would you like to see that you would be able to look at and say, you know, this is really a very creative use of this field.
+
+234
+00:18:19,440 --> 00:18:21,600
+Um I'm still working on that one.
+
+235
+00:18:21,600 --> 00:18:23,840
+You're still working I think everybody is.
+
+236
+00:18:46,320 --> 00:18:47,840
+You're bright.
+
+237
+00:18:47,840 --> 00:18:51,440
+And uh maybe we can get something out of you.
+
+238
+00:18:51,440 --> 00:18:53,280
+You know, it'd be wonderful.
+
+239
+00:18:53,280 --> 00:18:56,560
+Now they have a holography program at your school.
+
+240
+00:18:56,560 --> 00:19:03,360
+And I'm not quite sure if the same person's still running it, but it may be the program that's run by Doris Vila.
+
+241
+00:19:03,600 --> 00:19:07,440
+She's she's a very well known holographer and does beautiful work, you know.
+
+242
+00:19:07,440 --> 00:19:09,120
+So look her up when you go back too.
+
+243
+00:19:09,120 --> 00:19:11,280
+Instead of hanging around with a loser like me.
+
+244
+00:19:11,280 --> 00:19:13,520
+You know, you'll never get anywhere with me.
+
+245
+00:19:13,520 --> 00:19:24,920
+You're not a loser, Frank Well, every so often I like to bring somebody on the air so that, you know, people listen across the country and uh around the world actually.
+
+246
+00:19:24,920 --> 00:19:27,040
+They listen to this in China and everything.
+
+247
+00:19:27,360 --> 00:19:32,920
+And um just to get, you know, another perspective from someone I don't want to say off the street.
+
+248
+00:19:33,320 --> 00:19:45,000
+But you're not in like the field itself of holography because if I put a holographer in here you know, they could chew the fat for hours on how wonderful things are and you know, the deep meaning of all the things that they've done with holography.
+
+249
+00:19:45,000 --> 00:19:47,960
+But is the person on the street picking up on that or not?
+
+250
+00:19:47,960 --> 00:19:50,440
+You know, that's that's the whole thing I like to find out sometimes.
+
+251
+00:19:50,440 --> 00:19:57,560
+Yeah, I mean even when I I t I mention holography to some of the students at my program, they they kinda shrug it off.
+
+252
+00:19:57,560 --> 00:20:04,920
+I mean or they're they say, Oh, that that won't really fly with our chairman of of art, so he won't be really into that.
+
+253
+00:20:04,920 --> 00:20:06,120
+Isn't that something?
+
+254
+00:20:06,120 --> 00:20:11,160
+Do you think the reason for that is they don't consider it a viable medium for expression?
+
+255
+00:20:11,160 --> 00:20:13,000
+Because it's it's an art school.
+
+256
+00:20:16,360 --> 00:20:17,720
+They haven't seen it.
+
+257
+00:20:17,720 --> 00:20:17,960
+Yeah.
+
+258
+00:20:19,560 --> 00:20:20,920
+That's why I think that's exciting.
+
+259
+00:20:20,920 --> 00:20:21,800
+I mean that's new.
+
+260
+00:20:21,800 --> 00:20:22,520
+It's fresh.
+
+261
+00:20:22,520 --> 00:20:22,840
+Yeah.
+
+262
+00:20:22,840 --> 00:20:25,160
+And everything goes through that when it's new too.
+
+263
+00:20:25,160 --> 00:20:27,160
+You know, photography actually went through that.
+
+264
+00:20:27,160 --> 00:20:27,640
+Right.
+
+265
+00:20:27,640 --> 00:20:37,240
+You know, uh it may still be going through it, I don't know if they've ever Yeah, it's you know I don't think people consider photography art yet.
+
+266
+00:20:37,240 --> 00:20:37,800
+Mm-hmm.
+
+267
+00:20:37,800 --> 00:20:39,480
+Or they're just starting to.
+
+268
+00:20:39,480 --> 00:20:51,080
+Which is really crazy because I imagine But it's not always art, so traditional photography's gotta be pretty close to uh I wouldn't say being phased out but being replaced by other things.
+
+269
+00:20:51,080 --> 00:21:01,960
+So it's possible that holography may have gone through its entire history from conception to the point where it's ready to pass the torch to something else without really finding its place in art.
+
+270
+00:21:02,040 --> 00:21:04,360
+Kind of like the theremin.
+
+271
+00:21:05,680 --> 00:21:07,120
+That that was a musical instrument, right?
+
+272
+00:21:07,480 --> 00:21:08,440
+What was the theremin?
+
+273
+00:21:08,440 --> 00:21:08,920
+I remember that.
+
+274
+00:21:08,920 --> 00:21:11,480
+That was like from back in the s early seventies or something, wasn't it?
+
+275
+00:21:11,480 --> 00:21:11,720
+Yeah.
+
+276
+00:21:12,160 --> 00:21:14,080
+So was it a ribbon or something or what?
+
+277
+00:21:14,200 --> 00:21:18,960
+That was a s it was like the precursor to the uh synthesizer.
+
+278
+00:21:18,960 --> 00:21:19,680
+Okay.
+
+279
+00:21:19,680 --> 00:21:20,960
+I I think.
+
+280
+00:21:20,960 --> 00:21:35,680
+Um not exactly sure how how it worked, but um something to do with uh the waves, the moving over to something I've never different sounds.
+
+281
+00:21:35,680 --> 00:21:36,560
+I see.
+
+282
+00:21:36,560 --> 00:21:41,040
+And then technology and technology actually beat beat that thing's butt I guess, right?
+
+283
+00:21:41,040 --> 00:21:43,120
+'Cause technology's just took over too quickly.
+
+284
+00:21:44,320 --> 00:21:45,040
+Yeah.
+
+285
+00:21:45,040 --> 00:21:52,640
+All right, well I grabbed you right away just for the shock value of walking into something and walking into a a radio thing.
+
+286
+00:21:52,640 --> 00:21:56,960
+So um I want to thank you for at least you know not getting mad at me.
+
+287
+00:21:56,960 --> 00:21:58,960
+But who knows what happened when we turned the mic off.
+
+288
+00:21:59,280 --> 00:21:59,600
+Right.
+
+289
+00:22:00,080 --> 00:22:04,720
+Alright, so we'll get you guys some coffee or something and then we'll uh we'll talk shop and stuff.
+
+290
+00:22:04,720 --> 00:22:06,640
+So Lisa, thanks for being on.
+
+291
+00:22:06,960 --> 00:22:08,000
+Thanks for having me.
+
+292
+00:22:08,000 --> 00:22:08,240
+Okay.
+
+293
+00:22:09,920 --> 00:22:10,320
+Bye.
+
+294
+00:22:10,320 --> 00:22:10,720
+Okay.
+
+295
+00:22:10,720 --> 00:22:13,360
+We'll get back to the regular part of the show.
+
+296
+00:22:14,000 --> 00:22:16,320
+Okay, that's the Lisa Goldfarb interview.
+
+297
+00:22:16,320 --> 00:22:16,960
+Let's move on.
+
+298
+00:22:16,960 --> 00:22:19,920
+We're going to um I want to thank Lisa for coming in and doing that.
+
+299
+00:22:19,920 --> 00:22:30,960
+That was really off the cuff so uh it was nice of her to uh give us a little bit of a perspective a student college student perspective uh on holography.
+
+300
+00:22:30,960 --> 00:22:32,400
+Here we have another question.
+
+301
+00:22:32,400 --> 00:22:33,600
+Let me read the question.
+
+302
+00:22:33,600 --> 00:22:40,720
+I am just about to build the sand slab table described in the holography handbook.
+
+303
+00:22:40,720 --> 00:22:49,680
+And I remember reading to stay away from building tables with too many layers of crap.
+
+304
+00:22:49,680 --> 00:22:56,000
+Um vibration is not a problem as long as the optical components are all anchored securely and thus vibrate together.
+
+305
+00:22:56,000 --> 00:22:57,520
+What do you recommend?
+
+306
+00:22:57,520 --> 00:23:05,320
+Um I worked with the holography handbook's sand and slab table for many years, and you know it was a it's a great table.
+
+307
+00:23:05,800 --> 00:23:14,040
+It is true that it's not so much vibration that it is the fact that everything's vibrating together.
+
+308
+00:23:14,040 --> 00:23:19,160
+You could take that table and vibrate the living heck out of it.
+
+309
+00:23:19,160 --> 00:23:28,200
+And as long as everything on that table was vibrating uniformly in relationship to one another, you could still do a hologram.
+
+310
+00:23:28,200 --> 00:23:34,920
+It's when things vibrate out of phase on that table, that's when you have your problem.
+
+311
+00:23:34,920 --> 00:23:43,720
+And that's more of an issue of stiffness and rigidity than it is vibration isolation.
+
+312
+00:23:43,720 --> 00:23:47,400
+Now I've seen a few tables that were not very stiff.
+
+313
+00:23:47,400 --> 00:24:03,880
+And if you pressed on one of the ends, instead of the table moving uniformly, which means the other end coming up proportionally, with you putting the energy on the other end of the table pushing down, the table bends.
+
+314
+00:24:03,880 --> 00:24:06,280
+Now that's a problem.
+
+315
+00:24:06,280 --> 00:24:17,000
+Now, if you have a table where you can press on one end and the opposite end of the table comes up, and that table stays very rigid and stiff, then you're fine.
+
+316
+00:24:17,000 --> 00:24:18,760
+So this is true.
+
+317
+00:24:19,160 --> 00:24:28,840
+Sometimes vibration isn't actually the problem as much as it is how well that's that table is the stiffness of that table and the rigidity of the table.
+
+318
+00:24:29,240 --> 00:24:34,920
+The second part of the question here is uh what coherence length should I look for in a helium neon laser?
+
+319
+00:24:34,920 --> 00:24:36,760
+Uh this is an A B question.
+
+320
+00:24:36,760 --> 00:24:41,560
+And is it worth the extra money to buy one that is greater than 30 milliwatts?
+
+321
+00:24:41,560 --> 00:24:53,680
+Well, all helium neon lasers, I think up until the point where you get to the uh spectrophysics, I believe it's 125, has has a very long coherence length.
+
+322
+00:24:53,680 --> 00:25:01,120
+Uh I believe the 125 to get a long coherence length, you need to use an uh an addition called an etalon.
+
+323
+00:25:01,120 --> 00:25:10,240
+But um most helium neon lasers are going to give you the amount of coherence length that you're going to need to do your hologram.
+
+324
+00:25:10,240 --> 00:25:16,800
+Uh I believe it's true that the higher power, the higher you get in the power range, that the less coherence length is there.
+
+325
+00:25:16,800 --> 00:25:23,760
+But I think coherence length generally is uh proportional to the uh length of the tube.
+
+326
+00:25:23,760 --> 00:25:32,160
+So I don't think you're going to find a helium neon laser and it's going to give you uh such a short coherence length that you're not going to be able to do good holograms with it.
+
+327
+00:25:32,160 --> 00:25:43,680
+And remember, your coherent coherence length, excuse me, uh, is really only going to come into play when you're doing something like a laser transmission hologram anyway, which is capable of showing quite a bit of depth.
+
+328
+00:25:43,680 --> 00:25:49,120
+Uh your your transmission hologram your weight light transmission holograms also can show quite a bit of depth.
+
+329
+00:25:49,120 --> 00:26:00,400
+But if you're going to be doing reflection holograms, you're pretty much limited to how much depth away, either in front of or behind the uh uh the image plane itself, the plate itself, uh you can go.
+
+330
+00:26:00,400 --> 00:26:08,960
+So I think any helium neon laser that you choose is going to give you plenty of coherence length to do what type of holograms that you're interested in doing.
+
+331
+00:26:08,960 --> 00:26:12,400
+Okay, folks, that about wraps it up for another week.
+
+332
+00:26:12,400 --> 00:26:18,000
+Just as reminders, on January 18th, that's coming up next week.
+
+333
+00:26:18,000 --> 00:26:20,080
+Our special guest is going to be Dr.
+
+334
+00:26:20,080 --> 00:26:26,000
+Stephen Denton, head of the spatial imaging group of the Media Lab at MIT.
+
+335
+00:26:26,000 --> 00:26:36,920
+And February 1st, Brian Monahan from Pennsylvania Pulp and Paper, and they're the company that produced the Men in Black video cassette boxes.
+
+336
+00:26:37,240 --> 00:26:43,400
+And if you live in the Philadelphia area, the tri-state area down southeastern Pennsylvania.
+
+337
+00:26:43,400 --> 00:26:52,280
+You want to look into the Philadelphia Inquir on Monday because there's a special story about Pennsylvania Pulp and Paper in the paper that day.
+
+338
+00:26:52,280 --> 00:26:58,760
+Also, we're going to have a representative from Edwards Air Force Base come on the show and give us an interview about lightcraft technology.
+
+339
+00:26:58,760 --> 00:27:05,560
+I'll have more information on the exact date of that when we close something out on that and get some confirmation.
+
+340
+00:27:05,560 --> 00:27:08,040
+So this is Frank DeFratis.
+
+341
+00:27:08,040 --> 00:27:09,400
+I got through this show.
+
+342
+00:27:09,400 --> 00:27:15,640
+I want to thank you very much for tuning in, and my apologies again for not being quite up the snuff, as they say.
+
+343
+00:27:30,440 --> 00:27:32,280
+Take care.

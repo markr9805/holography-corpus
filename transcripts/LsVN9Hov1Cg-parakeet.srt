@@ -1,0 +1,1115 @@
+1
+00:00:03,440 --> 00:00:04,400
+Hello, everyone.
+
+2
+00:00:04,400 --> 00:00:13,840
+This is Frank Defratis, and welcome to HoloTalk, the Internet's laser and holography talk show enjoyed in over 42 countries throughout the world.
+
+3
+00:00:13,840 --> 00:00:21,600
+And now, here's this week's show.
+
+4
+00:00:21,600 --> 00:00:22,480
+Hello?
+
+5
+00:00:22,480 --> 00:00:23,760
+Hello, is this Martin?
+
+6
+00:00:23,760 --> 00:00:24,480
+Indeed it is.
+
+7
+00:00:24,480 --> 00:00:25,200
+How are you, Martin?
+
+8
+00:00:25,200 --> 00:00:26,320
+That's Frank Defrates.
+
+9
+00:00:26,480 --> 00:00:28,000
+Hey, Frank, I'm glad to hear from you.
+
+10
+00:00:28,080 --> 00:00:28,640
+Good.
+
+11
+00:00:28,640 --> 00:00:30,160
+How's everything going up there, okay?
+
+12
+00:00:30,480 --> 00:00:31,280
+Real good, real good.
+
+13
+00:00:31,280 --> 00:00:33,120
+I've been uh looking forward to our conversation.
+
+14
+00:00:33,120 --> 00:00:35,280
+I hope I have something interesting to convey.
+
+15
+00:00:35,360 --> 00:00:43,920
+Probably the best way to start all this out, having you talk a little bit about your work up there specifically, I imagine, is through Photon and Photon 2.
+
+16
+00:00:43,920 --> 00:00:49,600
+How long have you been involved with uh students teaching them about photonics and holography?
+
+17
+00:00:49,600 --> 00:00:50,080
+Okay.
+
+18
+00:00:50,080 --> 00:00:55,520
+First of all, let me say that Tantasqua regional high school where I teach is located in Sturbridge, Massachusetts.
+
+19
+00:00:55,520 --> 00:00:59,920
+Many of the listeners may be familiar roughly where that is, in central Massachusetts.
+
+20
+00:00:59,920 --> 00:01:05,520
+And the school serves five towns surrounding Sturbridge and has about twelve hundred students.
+
+21
+00:01:05,520 --> 00:01:08,480
+It has both an academic and a technical division.
+
+22
+00:01:08,480 --> 00:01:17,600
+And my program in photonics is officially vested in the technical division or what used to be called vocational division of many high schools.
+
+23
+00:01:17,600 --> 00:01:27,600
+And uh, however, is available also to academic students as a science elective in the school, and we'll talk a little bit more about what the classes and the courses are.
+
+24
+00:01:27,600 --> 00:01:50,520
+But broadly speaking, I got involved in this uh several years ago, about three years ago, when the director of Tantask was technical school and the head of the science department approached me while I was still in private industry and indicated that they had found some grant money and would I be willing to help them construct a high school level curriculum in photonics?
+
+25
+00:01:50,480 --> 00:01:51,000
+Mm-hmm.
+
+26
+00:01:51,160 --> 00:02:12,440
+Uh it turned out that I had already done a bit of that through my involvement with Project Photon, which some of the listeners may know as a national science Foundation sponsored effort through the New England Board of Higher Education to develop curricula for high school educators in subjects such as fiber optics and lasers and light in general.
+
+27
+00:02:12,600 --> 00:02:16,120
+Fiber fiber optics was actually your your main background at one time.
+
+28
+00:02:16,360 --> 00:02:17,320
+I mean it was, yes.
+
+29
+00:02:17,320 --> 00:02:27,560
+My uh my my my work over the last twenty-five years in industry has been in optical fibers, optical fiber materials, and the infrared uh optical materials.
+
+30
+00:02:27,560 --> 00:02:29,800
+Mm-hmm.
+
+31
+00:02:29,800 --> 00:02:36,040
+And this led to you going into the high schools when you were asked to run these programs.
+
+32
+00:02:36,040 --> 00:02:36,680
+That's correct.
+
+33
+00:02:36,680 --> 00:02:55,000
+I'm uh uh I can't say that I'm the uh youngest guy in the world, but this is one of these opportunities that comes along once in a lifetime to uh convey the uh experience and knowledge that you have to the next generation, if you will, and it's I must admit the uh best career move I probably have made.
+
+34
+00:02:55,000 --> 00:02:58,280
+Uh I wish I had done it fifteen years ago, to be honest.
+
+35
+00:02:58,280 --> 00:03:02,280
+Now holography entails a small portion of this this whole program.
+
+36
+00:03:02,280 --> 00:03:07,400
+I imagine there are a lot of other activities that you have going on centered around the field of photonics.
+
+37
+00:03:07,400 --> 00:03:11,240
+Are you preparing students for m for moving out into the workforce, for instance?
+
+38
+00:03:11,240 --> 00:03:22,040
+Uh they're indoctrinated into the realm of photonics through your high school and perhaps maybe move on to a four year college or even a technical college after they graduate from high school.
+
+39
+00:03:22,120 --> 00:03:25,240
+We do the program is aimed at doing all of those things.
+
+40
+00:03:25,240 --> 00:03:34,280
+First of all, we do train students for the world of work in the um traditional technical school sense.
+
+41
+00:03:34,280 --> 00:03:44,920
+Uh for example, I have students right now interning at some of the local fiber optic companies, and they use the training and the knowledge that they pick up in the photonics courses that they've taken through my program.
+
+42
+00:03:45,680 --> 00:04:14,080
+Simultaneously, since academic students can take this program on what we call the college preparatory or honors level, they can move on to a two or a four-year college program with uh at least sufficient knowledge so that they are familiar with broad photonic concepts with broad concepts in optics and optical physics and so that they at least know many of the buzz phrases and basic principles.
+
+43
+00:04:14,080 --> 00:04:23,280
+My intent has never been to try and graduate miniature electrical engineers from this program but to give students a a leg up whether they're going into the world of work or to college.
+
+44
+00:04:23,520 --> 00:04:38,640
+I know that the area that you're in is actually a hotbed for um photonics high tech education and at the four-year level, but uh how are things for uh high technologies, photonics uh in particular with your technical colleges?
+
+45
+00:04:38,640 --> 00:04:43,760
+Oh community college we have an extremely good program very close to us here.
+
+46
+00:04:43,920 --> 00:04:56,160
+I am uh uh not too far away about 45 minutes drive from Springfield uh Massachusetts and Springfield Technical Community College has an outstanding two year program in lasers and electro optic technology.
+
+47
+00:04:56,560 --> 00:05:20,880
+At the same time a lady named uh Professor Judy Donnelly teaches at uh Three Rivers Community College here in Connecticut about 45 minutes south and she teaches a similar program and indeed has done quite a bit of work uh retraining folks from um for example the electric boat division of general dynamics when there were large layoffs down there in the area of fiber optics and photonics.
+
+48
+00:05:21,680 --> 00:05:24,640
+What what's the interest like with the students?
+
+49
+00:05:24,720 --> 00:05:26,240
+Interest level is very high.
+
+50
+00:05:26,240 --> 00:05:41,400
+I guess it's I guess the honest answer is you uh get out of it what you put in, and thanks to um uh some of the uh things that you've had up on your website, the activities that you've conducted, holography, etc., uh we've been able to get the students uh fairly fired up.
+
+51
+00:05:41,400 --> 00:05:58,760
+I think uh you and I had communicated by email, and I mentioned to you the fact that uh my original plan in holography was to do it as a excuse me, uh, say one week activity or so, and it's turned into a two or three-week adventure uh because of the students' enthusiasm and interest.
+
+52
+00:05:58,760 --> 00:05:59,320
+That's wonderful.
+
+53
+00:05:59,320 --> 00:06:03,000
+Are are they following any uh particular path in high school?
+
+54
+00:06:03,000 --> 00:06:07,880
+Uh this isn't a technical high school, this is uh are these honor students?
+
+55
+00:06:07,880 --> 00:06:11,400
+The students that I have are both uh let me let me say this.
+
+56
+00:06:11,400 --> 00:06:14,040
+First of all, they are 10th, 11th, and 12th graders.
+
+57
+00:06:14,040 --> 00:06:14,520
+Okay.
+
+58
+00:06:14,520 --> 00:06:18,840
+They are generally on the college prep uh or honors level.
+
+59
+00:06:18,840 --> 00:06:21,960
+They are both technical and academic students.
+
+60
+00:06:21,960 --> 00:06:25,960
+And let me be clear so that the listeners understand what the nature of this program is.
+
+61
+00:06:26,280 --> 00:06:31,560
+The photonics technology program at Tantaspa consists of a series of courses.
+
+62
+00:06:31,560 --> 00:06:34,280
+They are one semester each, that is a half year.
+
+63
+00:06:34,280 --> 00:06:37,080
+They meet for 84 minutes each day.
+
+64
+00:06:37,080 --> 00:06:39,800
+So the kids get a lot of learning in that one semester.
+
+65
+00:06:40,280 --> 00:06:46,680
+The first course that they would take would be entitled Introduction to Light and Lasers, and that covers exactly what you think it does.
+
+66
+00:06:46,680 --> 00:06:51,560
+Basic photonics, what is light, what is lasers, how do they work, what are its applications?
+
+67
+00:06:51,560 --> 00:07:03,080
+And it is at that point that I introduce holography as a as a basic topic, and the students are taught how to make, process, create, and learn about reflection holography.
+
+68
+00:07:03,080 --> 00:07:03,880
+Yeah.
+
+69
+00:07:03,880 --> 00:07:09,000
+The second course that they take, the second semester is entitled Introduction to Fiber Optics.
+
+70
+00:07:09,000 --> 00:07:21,360
+And in that course, they learn about fiber optics, both telecommunications, fiber, and non-telecommunications applications of fibers, such as imaging, laser power transmission, sensors, etc.
+
+71
+00:07:21,760 --> 00:07:27,200
+And in that course, they gain both theoretical and practical knowledge.
+
+72
+00:07:27,200 --> 00:07:32,560
+They have to learn how to put connectors on fiber, they have to learn how to polish fiber, they have to learn how to measure fiber.
+
+73
+00:07:32,560 --> 00:07:37,600
+The third course in the series is entitled geometric and physical optics.
+
+74
+00:07:37,600 --> 00:07:41,920
+And in that course, we do more holography, transmission holography.
+
+75
+00:07:41,920 --> 00:07:48,160
+We also learn about optical instruments and the behavior of lenses and various optical elements.
+
+76
+00:07:48,720 --> 00:07:56,000
+Finally, we have some open courses in the sense that they uh teach students about principles of engineering.
+
+77
+00:07:56,000 --> 00:07:59,280
+We have a course entitled Exactly That Principles of Engineering.
+
+78
+00:07:59,280 --> 00:08:01,760
+So the um curriculum is quite varied.
+
+79
+00:08:01,760 --> 00:08:05,120
+That gives you a quick idea of the types of courses we have.
+
+80
+00:08:05,200 --> 00:08:09,280
+What are some of the actual experiments that they would conduct in the classroom environment?
+
+81
+00:08:09,280 --> 00:08:26,880
+Oh, well, for example, uh, they have to do everything from build and interpret uh a Michelson interferometer to understanding how a supermarket scanner works to learning uh how to do um optical time domain reflectometry measurements on fibers.
+
+82
+00:08:26,880 --> 00:08:29,680
+Uh they learn how to splice and cleave fibers.
+
+83
+00:08:29,680 --> 00:08:38,320
+I am blessed in the sense that local industry has been very kind to me with donations of equipment, and I have a very nice fusion splicer that the students can use.
+
+84
+00:08:38,320 --> 00:08:41,520
+Uh I have an OTDR that they can use.
+
+85
+00:08:41,520 --> 00:08:47,440
+They uh also get involved with uh building simple optical instruments, telescopes.
+
+86
+00:08:47,440 --> 00:08:53,120
+Uh, camera obscura is an exciting project that they did with uh some of the art departments in our school.
+
+87
+00:08:53,120 --> 00:08:54,800
+So there gives you a flavor.
+
+88
+00:08:54,800 --> 00:08:57,520
+That's an incredible preparatory course.
+
+89
+00:08:57,520 --> 00:09:13,000
+Well, uh, we want to keep expanding it as I as I mentioned a moment ago one of the the things that we're trying to do is tilt it even more into what you and I would consider a pre-engineering curriculum and tying together some of the other departments that we are fortunate enough to have in the high school.
+
+90
+00:09:13,000 --> 00:09:37,560
+For example, we have a very good CAD program at the school and I want to uh pull in some of that to give the students some experience in optical design for example I got a copy of um of Oslo and one of the uh the um uh Oslo uh optical design program and one of the board members on the Project Photon group uh has offered to come in and teach that to the students.
+
+91
+00:09:37,640 --> 00:09:40,360
+Has the perception to holography changed at all?
+
+92
+00:09:40,360 --> 00:09:46,600
+Have you noticed any change in perception of the students that you have more students coming in already knowing what a hologram is?
+
+93
+00:09:46,600 --> 00:09:47,880
+The answer the answer is no.
+
+94
+00:09:47,880 --> 00:09:49,720
+None of them know what uh know what it is.
+
+95
+00:09:49,720 --> 00:10:02,280
+They've heard the phrase and they associate it for example with um an image that they see on a credit card or one of those little sticky things that they may have gotten on a keychain but they don't understand it in the uh sophisticated sense.
+
+96
+00:10:02,280 --> 00:10:05,720
+Uh I might make an editorial comment at this point just to give you a little more background.
+
+97
+00:10:05,960 --> 00:10:22,360
+I was first introduced to this topic a long long time ago I think you and I may be parallel in age but back in the uh uh late uh sixties when I was getting my undergraduate degree in physics at Rochester Institute of Technology the uh professor that I had assigned me to uh the project of making a hologram.
+
+98
+00:10:22,360 --> 00:10:22,840
+Yeah.
+
+99
+00:10:22,840 --> 00:10:36,440
+And uh that was uh at the time just shortly after several years after the uh lease and Upatniks papers came out and I remember struggling very diligently to finally get uh a hologram out and was very proud of it and basically dropped it after that.
+
+100
+00:10:36,440 --> 00:10:41,880
+I continued my interest in optics but didn't have the opportunity to do it again until I came to this high school.
+
+101
+00:10:41,880 --> 00:10:42,400
+Yeah.
+
+102
+00:10:42,400 --> 00:10:42,800
+Yeah.
+
+103
+00:10:42,760 --> 00:10:51,440
+I also noticed that on the web when I did a search for any papers that you may have published, you had uh some articles in Scientific American over the years.
+
+104
+00:10:51,440 --> 00:10:56,000
+Would you like to uh tell the listeners a little bit about those articles on optical fibers?
+
+105
+00:10:56,000 --> 00:11:03,040
+Yes, uh one of my primary research areas uh over time had been in infrared glasses.
+
+106
+00:11:03,040 --> 00:11:23,760
+Again I was fortunate enough it's one of these situations where you're I guess in your career where you're in the right place at the right time after I took my physics degree, undergraduate degree, uh I wasn't exactly sure what to do and my advisor said, well um why don't you think about going to Catholic University in Washington DC because uh they're working on a new area a new fangled area that might have some potential.
+
+107
+00:11:23,760 --> 00:11:32,640
+I don't really know but I'm not sure he says it's called fiber optics and they're working on glasses and materials for low loss telecommunications optical fibers.
+
+108
+00:11:32,640 --> 00:11:35,440
+And since you have an interest in optics, why don't you go down there and look at the program?
+
+109
+00:11:35,440 --> 00:11:40,160
+Well I did and I signed up for uh a PhD program in in material science.
+
+110
+00:11:40,160 --> 00:11:40,640
+Okay.
+
+111
+00:11:40,640 --> 00:11:58,400
+And that in turn led me into uh research and development work on glasses, infrared materials, hermetic coatings on optical fibers, all kinds of um what at that time was very high tech stuff and turned out to be a very uh interesting and uh intellectually stimulating career.
+
+112
+00:11:58,400 --> 00:12:06,800
+And I've been fortunate enough to publish quite a large number of papers uh in the area of uh classes, optical materials and their applications.
+
+113
+00:12:06,800 --> 00:12:17,920
+Yeah there was another article that I uh had a chance to take a look at that was about a marine creature that uh it was sort of like off the beaten path for fiber optics, but they somehow tied it together.
+
+114
+00:12:17,920 --> 00:12:48,520
+Yeah, well, you know, it it's it's one of these things where we're uh where you be uh where you the only place my uh fifteen minutes of fame is never up is here at home with my wife and kids uh the uh uh I got a call one evening from a uh a reporter for Science magazine and he had heard that I supposedly knew something about fiber optics and did I have any comment on uh a new uh uh creature that had been discovered that had these naturally occurring fibers on them that guided light apparently to the internal structure of this animal.
+
+115
+00:12:48,920 --> 00:12:51,880
+And uh did I know anything about that and I had to admit I didn't.
+
+116
+00:12:51,880 --> 00:12:55,960
+My knowledge of uh biology is matched only by my knowledge of sport.
+
+117
+00:12:55,960 --> 00:13:05,880
+So uh uh the reporter and I talked a while and I wound up giving him sort of a a crash course in fiber optics which was really the only way I could help him and that's how the article came out.
+
+118
+00:13:05,880 --> 00:13:17,800
+Yeah am I correct correct in what I read that the efficiency of the transfer light through the spines or whatever it is of this creature was actually more efficient than what we were producing in the lab?
+
+119
+00:13:17,800 --> 00:13:20,600
+Uh I don't think I I don't recall that being true.
+
+120
+00:13:20,600 --> 00:13:36,920
+I think it was a a uh remember this was a uh very short section of fiber and uh or a very short filament that's on these animals and it's very difficult to make uh a measurement of an extremely low absorption coefficient over such a short distance uh in the in the animal.
+
+121
+00:13:36,920 --> 00:13:38,200
+I don't think that was true Frank.
+
+122
+00:13:38,200 --> 00:13:38,680
+No.
+
+123
+00:13:38,680 --> 00:13:39,080
+Okay.
+
+124
+00:13:39,080 --> 00:13:39,960
+All right.
+
+125
+00:13:39,960 --> 00:13:45,400
+Um where do you plan to go with your program and um where do you see it in the future?
+
+126
+00:13:45,400 --> 00:13:54,840
+Well boost clearly uh our enrollment within TAN Tesk where that's been uh uh a difficult task because some kids shy away from the program.
+
+127
+00:13:54,840 --> 00:14:01,080
+They feel it might be too complicated, too mathematical um too technical for them.
+
+128
+00:14:01,080 --> 00:14:12,040
+And to answer or assuage those uh concerns, we've gone out to actually other high schools in the area to attract new students, and we've also done a lot more publicity work inside the high school.
+
+129
+00:14:12,040 --> 00:14:20,640
+I do a couple of uh training or teaching days for all of our ninth grade students now, so that I'll hopefully get a new crop of tenth graders coming into the program.
+
+130
+00:14:20,800 --> 00:14:33,680
+Uh the other thing that we would like to do, I mentioned earlier in the conversation, and that's uh build the program up into uh to include more pre engineering type of activities.
+
+131
+00:14:33,680 --> 00:14:49,840
+We would like to create a engineering academy within Tantasqua High School that might have uh an admission exam and bring in a very high quality uh student that we could then uh train for uh admission to a four-year engineering school.
+
+132
+00:14:49,840 --> 00:14:51,200
+That would be fantastic.
+
+133
+00:14:51,200 --> 00:15:02,160
+The other thing, of course, to do is to keep on uh, and this is this is my little pitch here, is to keep on knocking on doors and hope that people will continue to be generous with their donations uh of equipment and uh parts.
+
+134
+00:15:02,160 --> 00:15:08,080
+Uh high schools aren't uh the first ones in line when industry thinks of giving stuff away, if you know what I mean.
+
+135
+00:15:08,080 --> 00:15:09,760
+Yeah, yeah, exactly.
+
+136
+00:15:09,760 --> 00:15:12,320
+What what would you say your gender breakdown is?
+
+137
+00:15:12,720 --> 00:15:19,280
+We have about I have about uh 25% girls in my class, depending on what the course is.
+
+138
+00:15:19,280 --> 00:15:22,320
+Uh to be honest, it varies between like 15 and 25 percent.
+
+139
+00:15:23,200 --> 00:15:34,080
+Uh young ladies, uh I encourage very much because I feel strongly that women uh absolutely need to be better represented in the engineering uh disciplines, the engineering professions.
+
+140
+00:15:34,080 --> 00:15:39,840
+We have had um again difficulty in attracting them because they feel it's gonna be too difficult.
+
+141
+00:15:39,840 --> 00:15:40,400
+Yeah.
+
+142
+00:15:40,400 --> 00:15:44,240
+Yeah, my my daughter's actually gone for a graduate degree in electrical engineering now.
+
+143
+00:15:44,240 --> 00:15:46,960
+She's working down at uh Lockheed Martin.
+
+144
+00:15:46,960 --> 00:15:51,200
+And she's uh pretty much alone as a female, you know, doing some of the work that she's doing.
+
+145
+00:15:51,200 --> 00:16:08,280
+I I noticed when I I ran some classes uh for approximately ten years at the Franklin Institute in Philadelphia, the lazy air and holography program, and I know when I started out in the mid eighties that I would have approximately maybe one female student per fifteen to twenty male students.
+
+146
+00:16:08,280 --> 00:16:16,520
+And by the time I was wrapping things up and moving on in the mid nineties, it it was pretty much what you're seeing now, maybe about twenty-five percent of the class.
+
+147
+00:16:16,520 --> 00:16:19,720
+Yeah, so I I I guess things have stayed that way for a while.
+
+148
+00:16:19,720 --> 00:16:28,360
+That's actually I guess a an improvement, but I guess uh fifty fifty would be the optimal what what you would be looking for, I guess.
+
+149
+00:16:28,360 --> 00:16:32,520
+Well I can give you the uh the opposite side of the coin to encourage uh both you and the listeners a little bit.
+
+150
+00:16:32,520 --> 00:16:39,800
+The other uh what we didn't talk about is the other to course that I teach at Tantasco is both college preparatory and honors physics.
+
+151
+00:16:39,880 --> 00:16:53,000
+And in those classes, I have honors physics at the moment, I have twenty-four students in there, and of them I'm doing a quick rough count in the top of my head here, uh at least eleven or twelve are female.
+
+152
+00:16:53,000 --> 00:16:53,720
+Okay.
+
+153
+00:16:53,720 --> 00:17:10,040
+And uh when I did a show of hands at the beginning of the semester here, uh of all those students, uh more than three quarters of them wish to pursue a good gro uh further education in what you and I would consider technology, be that medicine, uh biology, uh engineering disciplines, whatever.
+
+154
+00:17:10,040 --> 00:17:12,520
+Is Stirbridge an an urban area?
+
+155
+00:17:12,520 --> 00:17:14,920
+No, it is not, it's relatively uh rural.
+
+156
+00:17:14,920 --> 00:17:19,480
+We are about uh sixty-five miles west of uh Boston.
+
+157
+00:17:19,480 --> 00:17:19,720
+Okay.
+
+158
+00:17:22,360 --> 00:17:25,720
+It certainly couldn't be considered a um suburb of Boston anyway.
+
+159
+00:17:26,120 --> 00:17:27,480
+It's sixty-five miles, yeah.
+
+160
+00:17:27,480 --> 00:17:33,160
+There there are some very interesting programs that are happening in rural areas compared to urban right now.
+
+161
+00:17:33,560 --> 00:17:35,080
+Yeah, yeah.
+
+162
+00:17:35,080 --> 00:17:37,160
+What type of holograms have you been making?
+
+163
+00:17:37,160 --> 00:17:41,640
+Do you have a website that uh anyone can visit where they could see some of the students' work?
+
+164
+00:17:41,640 --> 00:17:42,680
+Shortly, shortly.
+
+165
+00:17:42,680 --> 00:17:52,640
+Uh we will be um putting up a new Tantasco website, and I have uh written and taken care of the whole uh set of pages for my program.
+
+166
+00:17:52,640 --> 00:18:02,960
+Uh at the moment, the best I can do for you is our um uh the little newsletter that I sent you that shows some pictures that we have taken and also has some photographs of my holographic setup.
+
+167
+00:18:03,360 --> 00:18:09,680
+That is located at the uh New England Board of Higher Education's website, and the listeners may be interested in going there.
+
+168
+00:18:09,680 --> 00:18:16,720
+It's uh WW uh NEBHE dot org.
+
+169
+00:18:17,200 --> 00:18:18,800
+New England Board of Higher Education.
+
+170
+00:18:19,040 --> 00:18:30,320
+I'll make sure that there's a link uh that goes directly to that area of the website uh for the listeners if they want to uh click on that and go over and visit after the uh after they're finished listening to the interview.
+
+171
+00:18:30,320 --> 00:18:33,360
+I should uh also I should also say you asked about what kind we've been making.
+
+172
+00:18:33,360 --> 00:18:46,640
+We have been making both reflection and transmission holograms, and uh as as you know, I've had uh exceptionally good success now with the small uh uh diode laser unit that you uh uh supply people with.
+
+173
+00:18:46,880 --> 00:18:48,640
+Worked out uh very well indeed.
+
+174
+00:18:48,640 --> 00:19:19,680
+Uh it's helped us out a great deal in the sense that uh we had been working prior to that with just low power uh HENAY gas lasers and had also uh tried some work with a higher power Argon laser without much success and the um accessibility to that diode laser setup and and I should add having the kids actually build the little power supply with it themselves uh was very satisfying, and then getting the hologram out of it was uh uh uh how how should we call it a double shot.
+
+175
+00:19:19,680 --> 00:19:20,560
+Oh, thank you very much.
+
+176
+00:19:20,560 --> 00:19:22,080
+I appreciate that.
+
+177
+00:19:22,080 --> 00:19:30,680
+Where do you see this technology going from an educator's viewpoint and the fact that you're involved with this industry as deeply as you're involved with it?
+
+178
+00:19:30,680 --> 00:19:40,440
+You know, there's always emails that are coming through about uh, you know, I want to uh project a hologram of an actor on a stage, and yeah, I'm sure you probably get tons of emails about that as well.
+
+179
+00:19:41,000 --> 00:19:41,480
+Yeah, exactly.
+
+180
+00:19:41,480 --> 00:19:46,360
+And and quite honestly, I don't uh as you say, you have much more experience in that area than I do.
+
+181
+00:19:46,360 --> 00:19:49,640
+And sometimes uh I don't know those uh the answers to those questions.
+
+182
+00:19:49,640 --> 00:20:05,480
+I do know that photonics is a good career area, but uh holography I should make clear to the listeners, I view it uh as an exciting and very interesting photonic educational tool that I use with the kids in the following sense.
+
+183
+00:20:05,480 --> 00:20:19,320
+They learn not only the theory and uh the principles of holography, why does it work, you can teach them through that portion of the course concepts of interference and diffraction and make it real to them.
+
+184
+00:20:19,720 --> 00:20:26,120
+But the holography also then allows them to do and develop practical optical skills.
+
+185
+00:20:26,120 --> 00:20:33,560
+After we do the theoretical part on the blackboard, I take them into our laboratory, give them an empty optical table.
+
+186
+00:20:33,560 --> 00:20:38,280
+Okay, now you have to set up all of your equipment in accordance with the instructions that we've had.
+
+187
+00:20:38,280 --> 00:20:42,760
+Go ahead and do it, shoot the holograms, make the plates.
+
+188
+00:20:42,760 --> 00:20:56,840
+We're fortunate that we have a nice dark room at Tantasqua afterwards, they have to develop the plates themselves so they develop uh photographic processing skills and they get very excited about being able to uh uh see things happen there and work in uh a dark room.
+
+189
+00:20:56,840 --> 00:21:04,040
+Um I can assure the listeners that it's sometimes tough to keep uh half dozen or ten people under control in a dark room, but it does happen.
+
+190
+00:21:04,560 --> 00:21:13,480
+And then finally having the uh finished product and and they get to take something home and show to their parents a nice uh uh white light uh reflection hologram of of exceptional quality.
+
+191
+00:21:13,480 --> 00:21:22,720
+Yeah, that it's a it's a very successful program with with disadvantaged youth as well because of the visual qualities of things that they bring in and make the holograms uh as well.
+
+192
+00:21:22,720 --> 00:21:25,920
+Well, we have you on the line and we have other educators listening.
+
+193
+00:21:25,920 --> 00:21:30,240
+Uh I'd I'd like to ask you a few questions about uh safety in the classroom.
+
+194
+00:21:30,480 --> 00:21:30,880
+Yes.
+
+195
+00:21:30,880 --> 00:21:34,560
+Uh precautions you take uh as far as goggles, chemicals.
+
+196
+00:21:34,560 --> 00:21:37,840
+What type of uh processing are you using with the holograms?
+
+197
+00:21:37,840 --> 00:21:48,640
+We are using the uh standard what I'll call um uh uh if I if I may be so bold, the integraph chemicals uh um JD2 developers uh and others.
+
+198
+00:21:48,640 --> 00:21:58,960
+Uh the kids do have to wear in the dark room um uh goggles, aprons, and uh if they so choose, uh rubber gloves.
+
+199
+00:21:58,960 --> 00:22:07,440
+I've found that uh the majority of them don't seem to uh to uh uh take too kindly to the um these very hot and uncomfortable latex gloves.
+
+200
+00:22:08,080 --> 00:22:17,920
+Uh in the classroom, in my photonics courses, the very first lesson that on day one is laser safety, and we spend um actually two days on that.
+
+201
+00:22:18,400 --> 00:22:27,280
+Uh learning about what uh a laser, not only what what a laser is, but what it can do to you, shock hazards as well as eye hazards.
+
+202
+00:22:27,280 --> 00:22:40,640
+They have to memorize and learn all of the um uh uh standards, the classes of lasers and which are important and which are perhaps not so important here in our classroom.
+
+203
+00:22:40,640 --> 00:22:47,880
+In the classroom and in the laboratory, they do wear uh safety glasses, especially of course when we bring out the higher power argon laser.
+
+204
+00:22:47,760 --> 00:22:48,440
+Hmm.
+
+205
+00:22:49,360 --> 00:22:58,000
+Isn't that something safety is a very critical thing in the and the uh uh the uh educators uh uh that are listening uh uh should be aware of that.
+
+206
+00:22:58,000 --> 00:23:09,480
+Indeed, on the New England Board of Higher Education website I posted uh our laser safety rules and a tote sheet uh if you will, or a one page description that the students in effect have to memorize.
+
+207
+00:23:09,480 --> 00:23:10,040
+Mm-hmm.
+
+208
+00:23:10,040 --> 00:23:13,800
+And I rigidly enforce uh a three strikes in your out rule.
+
+209
+00:23:13,800 --> 00:23:18,520
+If I see a laser beam traveling around the room the first time uh you get warned.
+
+210
+00:23:18,520 --> 00:23:23,880
+If it's above chest height, the second time you get worn more sternly, and the third time you're out for the day.
+
+211
+00:23:24,840 --> 00:23:26,440
+Hey, you know Hey, I know.
+
+212
+00:23:26,920 --> 00:23:37,800
+I know I've been in I've been in the classroom, so you wake up in the morning thinking that uh how things are going to go and then you have to throw that all out the window and start from scratch once you walk through the door of the classroom.
+
+213
+00:23:37,800 --> 00:23:38,200
+That's for sure.
+
+214
+00:23:38,440 --> 00:23:38,760
+That's right.
+
+215
+00:23:38,840 --> 00:23:43,640
+Having said all of that, the students uh are very cognizant, they are very respectful of the equipment.
+
+216
+00:23:43,640 --> 00:23:51,960
+They realize that they are uh uh that it's a privilege for them to be in this course because they have access to equipment that's tons more expensive than any other student in the school.
+
+217
+00:23:51,960 --> 00:23:52,840
+Yeah, exactly.
+
+218
+00:23:52,840 --> 00:24:03,640
+That's I I had an opportunity to see the equipment in your lab and uh it looks like Newport research tables and all of your magnetic mounts and posts and yeah, it's very nice stuff for students to be working with.
+
+219
+00:24:03,640 --> 00:24:05,720
+Yes, we uh uh we are very fortunate.
+
+220
+00:24:05,720 --> 00:24:22,280
+Uh uh uh OFS, which is the former Lucent Division here in Sturbridge, which manufactures uh telecom optical fiber, has donated quite a bit of uh material to us and indeed uh they are giving us right now a four by ten uh newport optical table.
+
+221
+00:24:22,280 --> 00:24:22,840
+Wow.
+
+222
+00:24:22,840 --> 00:24:32,360
+On with air flotation and uh I intend to set that up in my laboratory there and hopefully uh use that as uh a larger workspace for demos and holography, definitely.
+
+223
+00:24:32,360 --> 00:24:40,360
+Yeah, if you get a chance to go back to the Holo World website, I just opened up another area for doing those little mini holographic portraits that the students might be interested in too.
+
+224
+00:24:41,240 --> 00:24:51,760
+Yeah, it combines a thirty five millimeter photography with uh shooting a little eight slit uh laser transmission master and then doing your uh master to reflection copy transfer.
+
+225
+00:24:52,000 --> 00:24:55,680
+See that's exactly the kind of thing I need Frank for for my senior level guys.
+
+226
+00:24:55,680 --> 00:24:58,720
+That's the kind of thing that I that yes, I would definitely do that.
+
+227
+00:24:58,720 --> 00:25:22,480
+Yeah I had I had that up once before and it it got a little at the time there were a lot of other things going on and it got a little frustrated trying to keep up with uh all of the questions and everything so at the time I didn't really have a solution to it but this time around I said well I'm gonna put this back up and this time I'm going to make a very bold faced note that you should already have some experience working with holography.
+
+228
+00:25:22,640 --> 00:25:26,720
+You know this is not a project if if this is your first hologram this is what you should do.
+
+229
+00:25:27,040 --> 00:25:30,480
+So I think that possibly may eliminate things uh with that.
+
+230
+00:25:30,480 --> 00:25:34,400
+But check that out the students may be interested in doing uh little portraits as a project.
+
+231
+00:25:34,400 --> 00:25:38,640
+Maybe you get your school superintendent uh made into a hologram or something.
+
+232
+00:25:38,800 --> 00:25:41,760
+I know Bill Pugh did that down in Jacksonville, Florida.
+
+233
+00:25:41,760 --> 00:25:49,280
+Speaking of which, what is it like to be a teacher working in photonics and uh holography as well.
+
+234
+00:25:49,280 --> 00:25:54,960
+Do you network with other educators across the country or do you feel rather alone?
+
+235
+00:25:55,040 --> 00:26:01,200
+Through Project Photon uh I have excellent opportunity to network with people.
+
+236
+00:26:01,200 --> 00:26:08,800
+We have our own listserv and uh I will forward that address to you if you if you don't already have it.
+
+237
+00:26:08,800 --> 00:26:31,000
+And so Project Photon through Judy Donnelly at Three Rivers Community College and Nick Massa at STC C Springfield Technical Community College handle this for us, and we have in that pro project some sixty educators already who are implementing this photon curriculum throughout uh the Northeast and in some senses throughout the United States.
+
+238
+00:26:31,000 --> 00:26:31,800
+Okay.
+
+239
+00:26:31,800 --> 00:26:37,960
+You're you're somehow involved with the Electro Optics Center that's just outside of Pittsburgh, Pennsylvania as well.
+
+240
+00:26:37,960 --> 00:26:39,720
+I no, I am not.
+
+241
+00:26:39,720 --> 00:26:40,600
+No, I am not.
+
+242
+00:26:40,600 --> 00:26:43,560
+I'm I'm aware of it, but I uh have no involvement with it, no.
+
+243
+00:26:43,560 --> 00:26:52,600
+Yeah, I uh uh Wendy Gilpin, I believe, uh, who is one of the directors out at that center just north of Pittsburgh is on one of the advisory boards for photon.
+
+244
+00:26:52,600 --> 00:26:53,800
+So I thought maybe there was some.
+
+245
+00:26:54,120 --> 00:26:55,000
+Yes, thank you very much.
+
+246
+00:26:55,000 --> 00:26:55,800
+My my mistake.
+
+247
+00:26:55,800 --> 00:26:57,640
+Yes, I have met her, I recognize the name.
+
+248
+00:26:57,640 --> 00:26:58,840
+Absolutely, yes.
+
+249
+00:26:58,920 --> 00:26:59,480
+Yes.
+
+250
+00:26:59,480 --> 00:27:03,640
+But I've I've uh uh I have had no formal contact with them nor have I ever visited there.
+
+251
+00:27:03,800 --> 00:27:04,120
+Okay.
+
+252
+00:27:04,120 --> 00:27:05,320
+Yeah, it's a pretty nice place.
+
+253
+00:27:05,320 --> 00:27:07,560
+Well, Martin, we're closing in on our thirty minutes.
+
+254
+00:27:07,560 --> 00:27:14,040
+Is there anything that I should have asked you that I didn't ask you that you'd like to add to the interview before we close out?
+
+255
+00:27:14,040 --> 00:27:21,880
+Uh I'd certainly like to extend you and uh any of the listeners an open invitation to uh stop by if you're in the Sturbage, Massachusetts area.
+
+256
+00:27:22,040 --> 00:27:32,040
+I'm happy to show you uh what I have, what I do, and uh if the readers have uh uh listeners uh have any uh questions, uh they can easily contact me by email.
+
+257
+00:27:32,040 --> 00:27:35,240
+It's uh uh I think you'll probably put it up at your address.
+
+258
+00:27:35,240 --> 00:27:38,680
+It's uh Drexage uh M at Tantasqua.
+
+259
+00:27:38,760 --> 00:27:42,680
+That's T A N T A S Q U A dot org.
+
+260
+00:27:42,680 --> 00:27:43,880
+Tantasqua.
+
+261
+00:27:43,880 --> 00:27:44,920
+Tantasqua.
+
+262
+00:27:44,920 --> 00:27:45,720
+Yeah.
+
+263
+00:27:45,800 --> 00:27:46,520
+Great name.
+
+264
+00:27:46,520 --> 00:27:50,600
+Uh how far are you from uh Stewart, Connecticut, where University Yukon is.
+
+265
+00:27:50,840 --> 00:27:51,560
+About forty five minutes.
+
+266
+00:27:52,040 --> 00:27:52,680
+Oh really?
+
+267
+00:27:52,680 --> 00:27:53,560
+Yeah, very close by.
+
+268
+00:27:53,560 --> 00:27:57,800
+Oh, I wish I just dropped my daughter off there um over the weekend.
+
+269
+00:27:57,800 --> 00:28:00,600
+Well, yeah, it's it's uh as a matter of fact, it's right up eighty four.
+
+270
+00:28:00,600 --> 00:28:06,520
+We're at we're we are at the intersection, roughly speaking, of Route 84 and the Massachusetts Turnpike.
+
+271
+00:28:06,520 --> 00:28:07,400
+Okay.
+
+272
+00:28:07,400 --> 00:28:10,760
+Well, I'll contact you next time I have to run up to UConn.
+
+273
+00:28:10,760 --> 00:28:11,240
+Great.
+
+274
+00:28:11,240 --> 00:28:15,600
+And uh maybe we can get together and uh at least have a cup of coffee or something.
+
+275
+00:28:15,600 --> 00:28:16,240
+Let's do it.
+
+276
+00:28:16,240 --> 00:28:16,640
+Okay.
+
+277
+00:28:16,640 --> 00:28:17,040
+Okay.
+
+278
+00:28:14,840 --> 00:28:18,560
+Martin, I want to thank you very much.
+
+279
+00:28:18,800 --> 00:28:22,800
+If you want to hold on the line, I'll uh thank the listeners for tuning in and

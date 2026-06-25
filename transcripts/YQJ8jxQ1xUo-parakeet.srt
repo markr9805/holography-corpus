@@ -1,0 +1,1679 @@
+1
+00:00:02,720 --> 00:00:08,160
+The following is a production of Frankie Fratis and the Internet Museum of Holography.
+
+2
+00:00:12,720 --> 00:00:14,960
+Hello, this is Frankie Frederthan.
+
+3
+00:00:14,960 --> 00:00:18,960
+Welcome to HoloTalk, the Internet Laser and Holography Talk Show.
+
+4
+00:00:18,960 --> 00:00:29,520
+Our toll-free number is 1-800-4583525, or you can send an email to Holotalk at HoloWorld.com.
+
+5
+00:00:29,520 --> 00:00:34,560
+We've got telephone calls, we've got emails, we've got special guests coming up.
+
+6
+00:00:34,560 --> 00:00:42,960
+So thank you for tuning in, and let's get this week's show on the road.
+
+7
+00:00:42,960 --> 00:00:46,320
+Hello and welcome to another week of Holo Talk.
+
+8
+00:00:46,320 --> 00:00:47,760
+Deb, how are you this week?
+
+9
+00:00:47,760 --> 00:00:48,560
+I'm fine, Frank.
+
+10
+00:00:48,560 --> 00:00:49,120
+How are you?
+
+11
+00:00:49,120 --> 00:00:49,920
+I'm doing okay.
+
+12
+00:00:49,920 --> 00:00:53,920
+Do you know that we're live right now on the internet?
+
+13
+00:00:55,200 --> 00:00:56,000
+Sorry.
+
+14
+00:00:56,480 --> 00:00:58,240
+We're gonna start again.
+
+15
+00:00:58,240 --> 00:01:01,520
+Do you know that we're live right now on the internet?
+
+16
+00:01:01,520 --> 00:01:03,040
+Yes, I know that.
+
+17
+00:01:04,320 --> 00:01:05,840
+Uh people are logging along.
+
+18
+00:01:05,840 --> 00:01:13,120
+We have a webcam in the studio and we're uploading the image to our website and people are logging on and watching us right now.
+
+19
+00:01:13,120 --> 00:01:21,840
+Can't hear anything, you won't be able to hear anything until the show Sunday night when the show is uploaded in real audio format, which you're listening to right now, but they can see us.
+
+20
+00:01:21,840 --> 00:01:24,320
+Uh might as well wave and say hello to everybody.
+
+21
+00:01:24,560 --> 00:01:28,000
+Hi out there in Internet Land.
+
+22
+00:01:28,000 --> 00:01:31,760
+Last week's show was 48 minutes long.
+
+23
+00:01:31,760 --> 00:01:32,560
+That was long.
+
+24
+00:01:32,560 --> 00:01:33,120
+That was long.
+
+25
+00:01:33,120 --> 00:01:35,280
+I don't think we're going to do any more 48 minute shows.
+
+26
+00:01:35,280 --> 00:01:40,720
+We can't tell how long the show is, because we actually record this in bits and pieces.
+
+27
+00:01:40,720 --> 00:01:49,600
+Then we go into editing programs and edit things out, edit things in and put it all together, and we don't know until the show's over how long it is.
+
+28
+00:01:49,600 --> 00:01:54,000
+And uh we worked on that probably three or four hours last week, didn't we?
+
+29
+00:01:54,000 --> 00:01:55,120
+Yeah, I think it was about three.
+
+30
+00:01:55,120 --> 00:01:59,360
+Yeah, and when it was all finished, uh came out to 48 minutes, which is a pretty long time for a show.
+
+31
+00:01:59,360 --> 00:02:01,560
+I don't think we're gonna go forty-eight minutes anymore.
+
+32
+00:02:01,560 --> 00:02:03,160
+I'd like to keep it around a half an hour.
+
+33
+00:02:03,160 --> 00:02:04,600
+Half an hour's not a bad time, you think.
+
+34
+00:02:04,600 --> 00:02:05,640
+That's a good time, but what do you do?
+
+35
+00:02:05,640 --> 00:02:06,840
+Just like cut it off.
+
+36
+00:02:06,840 --> 00:02:08,440
+Yeah, we had a lot of questions last week.
+
+37
+00:02:08,440 --> 00:02:09,160
+We had to cover them.
+
+38
+00:02:09,240 --> 00:02:11,240
+And we've got a lot of questions this week.
+
+39
+00:02:11,240 --> 00:02:15,880
+Uh we probably won't get to all of them because we have our guest this week, which is Paul Graham.
+
+40
+00:02:15,880 --> 00:02:17,400
+He's from a company called Light Vision.
+
+41
+00:02:17,400 --> 00:02:19,240
+You're going to have Paul Graham on for an interview.
+
+42
+00:02:19,240 --> 00:02:20,520
+Uh you remember about Paul?
+
+43
+00:02:20,520 --> 00:02:21,000
+Yeah, I do.
+
+44
+00:02:21,000 --> 00:02:22,440
+He's the one with the lollipops.
+
+45
+00:02:22,440 --> 00:02:23,560
+The one with the lollipops.
+
+46
+00:02:23,560 --> 00:02:28,520
+They put holographic images on lollipops and other candies and edible items.
+
+47
+00:02:28,520 --> 00:02:33,080
+Uh musical guest this week is Emily Toy Box, and we're going to try something different.
+
+48
+00:02:33,080 --> 00:02:41,960
+Um, because this is just a voice broadcast, we s we send this out so that it's available over 14 4 modems, which is good for voice.
+
+49
+00:02:41,960 --> 00:02:48,200
+You have no problem with receiving a signal and hearing a a voice with fairly good quality at 14 4.
+
+50
+00:02:48,200 --> 00:02:51,800
+But once you get to the music, 14 4 sounds like.
+
+51
+00:02:51,800 --> 00:02:52,520
+Not good.
+
+52
+00:02:52,520 --> 00:02:53,480
+Do do.
+
+53
+00:02:53,880 --> 00:02:55,000
+Do do.
+
+54
+00:02:55,000 --> 00:02:57,560
+So what we're doing is I'm going to combine two files.
+
+55
+00:02:57,560 --> 00:03:00,680
+This first one that you're listening to is going to be coming at you at 14 4.
+
+56
+00:03:00,680 --> 00:03:02,440
+It keeps the file size small.
+
+57
+00:03:02,440 --> 00:03:07,560
+But as soon as Emily's toy box comes up, it's going to switch over to 28-8.
+
+58
+00:03:07,560 --> 00:03:13,320
+The thing I'm interested to see is some people have 14-4 modems, other people have twenty-eight eight.
+
+59
+00:03:13,320 --> 00:03:15,880
+The twenty-eight eight people should be able to get both.
+
+60
+00:03:15,880 --> 00:03:22,120
+And I'm hoping that the fourteen four people can get the first part of the show, but yet when the music comes up it may cut off for them.
+
+61
+00:03:22,120 --> 00:03:23,800
+So we'll have to see how that works out.
+
+62
+00:03:23,800 --> 00:03:30,280
+If you have a 14 4 modem and you're listening to this, let us know how it works out when it changes over to 288.
+
+63
+00:03:30,280 --> 00:03:35,560
+So possibility it may cut them off and they won't be able to receive that signal.
+
+64
+00:03:35,560 --> 00:03:36,920
+Okay.
+
+65
+00:03:36,920 --> 00:03:38,280
+What's up for tonight?
+
+66
+00:03:38,280 --> 00:03:44,360
+Why don't we go to an email question and then we'll get moving.
+
+67
+00:03:44,520 --> 00:03:45,680
+Okay.
+
+68
+00:03:45,680 --> 00:03:50,240
+I have a ten milliwatt laser and I was wondering how hot the laser head should get.
+
+69
+00:03:44,840 --> 00:03:51,680
+Mine is very hot to touch.
+
+70
+00:03:51,840 --> 00:03:52,960
+Is this normal?
+
+71
+00:03:54,240 --> 00:04:00,800
+If it's if it's uncomfortable to touch it with your hand, I'd have to say that it's hotter than it should be.
+
+72
+00:04:00,800 --> 00:04:08,080
+Um you should always let a laser head warm up before you do a hologram because you're allowing it to reach thermal stability.
+
+73
+00:04:08,080 --> 00:04:14,640
+But once that laser head warms up, it shouldn't be anywhere near where it was where it would feel very hot to the touch.
+
+74
+00:04:14,640 --> 00:04:21,440
+I picked up a thermometer at Radio Shack, and this is an indoor-outdoor thermometer.
+
+75
+00:04:21,440 --> 00:04:34,480
+And what I do is I have that thermometer on the wall next to the laser, and there's a probe, and you use this probe in normal circumstances by putting it out your window so that you can tell what the outside temperature is.
+
+76
+00:04:34,480 --> 00:04:40,800
+What I did is I took the probe and I got one of those metal collars that you can buy over at the hardware store.
+
+77
+00:04:41,040 --> 00:04:45,840
+Sort of like holds hoses, a hose clamp, I think is what it's called.
+
+78
+00:04:45,840 --> 00:04:49,680
+And you can s it has a s uh screw on it and you can make it tighter and tighter.
+
+79
+00:04:49,680 --> 00:04:51,600
+It makes the collar smaller and smaller.
+
+80
+00:04:51,600 --> 00:05:02,400
+Well, I slip that over the laser head, I put the little temperature probe underneath of it, and then I screw that down so that the temperature probe is touching the laser head itself.
+
+81
+00:05:02,400 --> 00:05:16,480
+This way I can tell number one how hot the laser head's getting, and I can watch the temperature and see when it finally reaches a point where it's not rising or dropping anymore, and that means of course that the laser has reached thermal stability.
+
+82
+00:05:16,480 --> 00:05:21,920
+The temperature that I usually see on there, I believe, is one hundred and one degrees.
+
+83
+00:05:21,920 --> 00:05:23,360
+Now that's not very hot.
+
+84
+00:05:23,360 --> 00:05:25,440
+That's tepid.
+
+85
+00:05:25,440 --> 00:05:26,960
+That's probably like bath water, right?
+
+86
+00:05:27,000 --> 00:05:27,160
+Right.
+
+87
+00:05:27,280 --> 00:05:27,760
+Yeah.
+
+88
+00:05:27,760 --> 00:05:34,280
+So if you're grabbing hold of that laser head, uh, more than likely, uh this is what's wrong.
+
+89
+00:05:34,280 --> 00:05:43,240
+If you have one of the brick power supplies, I would look on that power supply and you're going to see a little potentiometer which is on there.
+
+90
+00:05:43,240 --> 00:05:50,920
+It's actually something that you would need a it almost looks like a screwdriver adjustment, but it's a very, very tiny screwdriver adjustment.
+
+91
+00:05:51,000 --> 00:05:57,400
+You may have to use something like an exact an exacto blade or even a fingernail to uh turn that around.
+
+92
+00:05:57,400 --> 00:06:12,200
+And what you do is you try to get that adjusted so that you turn that in a counterclockwise position after the laser is warmed up in a counterclockwise position just until the laser starts to sputter, and you'll see it sputtering.
+
+93
+00:06:12,520 --> 00:06:15,080
+It happens very rapidly with the beam.
+
+94
+00:06:15,080 --> 00:06:24,680
+Once you see that laser head sputter, then you turn it with your finger or your X-acto blade or whatever you're using, just a little bit past that point.
+
+95
+00:06:24,680 --> 00:06:34,040
+My guess is you've got that turned up too much, or you've got one of the high power power supplies that's powering one of the lower laser heads and you're feeding too much voltage into it.
+
+96
+00:06:34,040 --> 00:06:38,120
+So you want to try and get that voltage down, that's going to drop down your temperature.
+
+97
+00:06:38,120 --> 00:06:45,480
+And you don't want to pump too much voltage into that laser head because it will kill your laser head before it's time for it to go.
+
+98
+00:06:45,480 --> 00:06:49,240
+You should get twenty thousand hours of working time out of that head.
+
+99
+00:06:49,240 --> 00:06:53,240
+We're going to move on to the interview segment.
+
+100
+00:06:53,240 --> 00:06:54,280
+You know why?
+
+101
+00:06:54,280 --> 00:06:55,480
+Why?
+
+102
+00:06:55,480 --> 00:07:03,240
+Do you ever see on TV that a special program's going to be on with someone that you really like and they tell you to tune in at 10 o'clock?
+
+103
+00:07:03,240 --> 00:07:03,800
+Right.
+
+104
+00:07:03,800 --> 00:07:10,040
+You tune in at 10 o'clock and you sit there for a half an hour, forty five minutes or more before the person comes on.
+
+105
+00:07:10,040 --> 00:07:10,360
+Right.
+
+106
+00:07:11,560 --> 00:07:12,040
+Two seconds.
+
+107
+00:07:12,280 --> 00:07:13,960
+We're not going to do that here.
+
+108
+00:07:13,960 --> 00:07:14,840
+We're not going to do that.
+
+109
+00:07:15,360 --> 00:07:22,960
+We hold you in such a high regard as an audience that we're not going to make you sit through a whole show in order to wait for the guests.
+
+110
+00:07:22,960 --> 00:07:29,200
+So what we're going to do on the weeks when we have a guest is we're going to get that guest on as soon as possible.
+
+111
+00:07:29,200 --> 00:07:30,560
+That's a good thing to do.
+
+112
+00:07:30,560 --> 00:07:36,160
+Because that's the way that we are so we're going to go ahead with the Paul Graham interview.
+
+113
+00:07:36,160 --> 00:07:38,800
+Paul's with a company called Light Vision.
+
+114
+00:07:38,800 --> 00:07:44,880
+And Light Vision is putting holographic images presently on Lollipops.
+
+115
+00:07:44,880 --> 00:07:51,840
+But from what I understand and what you'll hear in the interview they're also going to be putting it on other edible items as well.
+
+116
+00:07:51,840 --> 00:07:54,400
+Now Light Vision has a website.
+
+117
+00:07:54,400 --> 00:07:59,600
+That website is dub dub dub dot lightvision dot com.
+
+118
+00:07:59,600 --> 00:08:08,720
+And I just want to let you know that with the real audio player, and this is the reason why I chose real audio there's a number of different streaming audio techniques out there.
+
+119
+00:08:08,720 --> 00:08:14,240
+With the real audio player you don't have to stay right where you're at and listen to the show.
+
+120
+00:08:14,240 --> 00:08:35,840
+Just open your browser again, bring it to the forefront because the player is probably in the front now just click on your browser, bring it to the front, and put in dubdub dub dot lightvision dot com and the next thing you know you're over at Light Vision, but hey, the interview's still playing other systems if you go off the page it stops the audio.
+
+121
+00:08:35,840 --> 00:08:40,000
+But you can go anywhere you want to and enjoy holo talk while you're while you're out there.
+
+122
+00:08:40,000 --> 00:08:48,560
+So let's go to Paul Graham and the interview that we did what was it was in the beginning of the week probably around ten thirty at night right wow, it was late.
+
+123
+00:08:48,560 --> 00:08:48,920
+Okay.
+
+124
+00:08:48,920 --> 00:08:49,440
+Here we go.
+
+125
+00:08:49,440 --> 00:08:50,320
+Paul Graham.
+
+126
+00:08:51,280 --> 00:08:54,880
+Okay, we're speaking with Paul Graham of the company Light Vision.
+
+127
+00:08:54,880 --> 00:08:55,760
+Paul, how are you?
+
+128
+00:08:55,760 --> 00:08:56,440
+Good, good Frank.
+
+129
+00:08:56,440 --> 00:08:57,040
+How are you?
+
+130
+00:08:57,040 --> 00:08:58,720
+Okay, it's great to have you on the show.
+
+131
+00:08:58,720 --> 00:09:07,240
+I just want to let you know I have one of your pops already that I use in my uh demonstrations that I do at the center, and everyone just loves them when they see them.
+
+132
+00:09:07,240 --> 00:09:08,200
+Oh, that's fantastic.
+
+133
+00:09:08,200 --> 00:09:09,480
+Which which pop do you have?
+
+134
+00:09:09,480 --> 00:09:14,040
+Uh I have the one that was for the Nova television series on PBS.
+
+135
+00:09:14,040 --> 00:09:17,480
+Oh, Nova, that was one of the that was one of our first clients actually.
+
+136
+00:09:17,480 --> 00:09:19,240
+Oh, that's a that's a fabulous pop.
+
+137
+00:09:19,240 --> 00:09:23,800
+What are some of the other companies that you're doing these holographic pops for before we get into the actual pops themselves?
+
+138
+00:09:24,040 --> 00:09:30,120
+Yeah, we do we tend to specialize in some custom work at the moment because the company is only about a year old.
+
+139
+00:09:30,120 --> 00:09:35,960
+So we're slowly moving into retail, but some of the other companies we've worked with have been the New York Times.
+
+140
+00:09:36,200 --> 00:09:40,120
+We have the premium choice for New York Times at the moment, which is great for us.
+
+141
+00:09:40,120 --> 00:09:44,280
+Uh we're doing a pop for Disney featuring Mickey Mouse.
+
+142
+00:09:44,280 --> 00:09:52,200
+Uh doing some work for Universal, have done some work for KLM, uh, also for Butch and Lum as well, the IK company.
+
+143
+00:09:52,520 --> 00:09:57,480
+And a s a few smaller sort of technology, cutting edge technology companies that most people aren't aware of.
+
+144
+00:09:57,480 --> 00:09:59,320
+They're sort of more regionally based.
+
+145
+00:09:59,320 --> 00:10:04,920
+At the present time, where could they go to get one and where do you expect them to be able to go to get one in the future?
+
+146
+00:10:04,920 --> 00:10:09,800
+What we're doing is uh we've we've only just this week actually launched our retail items.
+
+147
+00:10:10,120 --> 00:10:18,600
+We've had a Star Trek collector's box in holography stores for about the last nine months, which is a uh four pack of Star Trek images.
+
+148
+00:10:18,600 --> 00:10:21,800
+We've just released our single pops this week.
+
+149
+00:10:21,800 --> 00:10:26,600
+Uh the best place I would suggest immediately would be to get it off our website.
+
+150
+00:10:26,600 --> 00:10:40,280
+We have ordering on our website, but eventually, most of the science centers and uh some of the science stores like I expect like um Kid McDougall and and and places like that and Toys R Us eventually.
+
+151
+00:10:40,280 --> 00:10:44,200
+It'll it'll turn very quickly and there'll be there are a few catalogs also.
+
+152
+00:10:44,200 --> 00:10:48,000
+Um we're actually in the Wilds catalog at the moment with the Star Trek item.
+
+153
+00:10:48,000 --> 00:10:59,440
+Uh the Johnson Smith Company and the things that you never knew existed were coming into their upcoming catalogue for January and I'm also going on home shopping channel very soon in the next like month.
+
+154
+00:10:59,760 --> 00:11:01,200
+We have to tune in to see that.
+
+155
+00:11:01,200 --> 00:11:03,120
+Yeah no definitely that should be pretty interesting.
+
+156
+00:11:03,120 --> 00:11:08,560
+I'm kind of nervous about it actually so that that one catalog that you mentioned about things that you never knew existed.
+
+157
+00:11:08,560 --> 00:11:14,720
+I just got one of those last week and normally catalogues hit the trash quickly in this house and I still have that one.
+
+158
+00:11:14,720 --> 00:11:16,000
+I still hold on to that catalog.
+
+159
+00:11:16,480 --> 00:11:18,480
+Yeah there's some interesting stuff in there.
+
+160
+00:11:18,480 --> 00:11:26,880
+We're also talking sharper image as well so I mean it's it's I think fairly quickly you're going to be able to see this product available 'cause most people are fascinated with it.
+
+161
+00:11:26,880 --> 00:11:28,720
+It's pretty fascinating product.
+
+162
+00:11:28,720 --> 00:11:31,600
+What's what's the retail on these pots in some of the shops?
+
+163
+00:11:31,600 --> 00:11:39,520
+Um our suggested retail ranges from about two ninety five to three fifty depending on uh the store.
+
+164
+00:11:39,520 --> 00:11:42,960
+Some stores tend to want a little bit more than other stores.
+
+165
+00:11:42,960 --> 00:11:48,080
+Um and it's uh but we're planning to bring the price down fairly quickly as well.
+
+166
+00:11:48,080 --> 00:11:51,120
+We're we're basically going for a little bit of technology curve at the moment.
+
+167
+00:11:51,120 --> 00:11:55,360
+So I expect them to be available for about a dollar fifty next year.
+
+168
+00:11:55,360 --> 00:11:57,840
+Now the Star Trek ones are actually in a pack of four?
+
+169
+00:11:57,840 --> 00:12:00,240
+Yeah the Star Trek it's a Star Trek collector's box.
+
+170
+00:12:00,240 --> 00:12:01,280
+It's a numbered box.
+
+171
+00:12:01,280 --> 00:12:09,440
+There's a limited edition of twenty five thousand it comes with four pops and a certificate or holographic certificate of authenticity.
+
+172
+00:12:09,440 --> 00:12:16,400
+And uh there's an image of Picard, Klingon, the Enterprise and the Star Trek logo.
+
+173
+00:12:16,400 --> 00:12:31,080
+Without giving any secrets out that you obviously have to hold on for your own protection of doing this and inventing this technology with you know your company um could you tell some of the listeners what goes into putting a holographic image on a lollipop?
+
+174
+00:12:31,080 --> 00:12:40,840
+Um yes I can um well basically the history of the hologram was that it was invented by a physicist at uh MIT.
+
+175
+00:12:40,840 --> 00:12:44,760
+His name's Eric Begleiter and Eric is actually a principal of our company.
+
+176
+00:12:44,760 --> 00:12:48,760
+Uh he actually still handles all the holography work for us.
+
+177
+00:12:48,760 --> 00:12:54,200
+Eric had discovered that he could impart images onto food products.
+
+178
+00:12:54,440 --> 00:13:03,560
+So basically what he devised was a system where he can cut little tiny grooves in the surface of the food.
+
+179
+00:13:04,120 --> 00:13:12,040
+What happens is the light comes in and reflects off these grooves and forms an image in your eye.
+
+180
+00:13:12,040 --> 00:13:15,240
+Just just the way things happen with sort of like an embossed hologram.
+
+181
+00:13:15,240 --> 00:13:17,800
+Basically it's a it's a very similar sort of process.
+
+182
+00:13:18,280 --> 00:13:25,800
+Yeah this th you you're able to do this with uh pops I believe because something to do with the sucrose or something being almost like a plastic?
+
+183
+00:13:25,800 --> 00:13:35,480
+Yeah basically I mean basically most food most food um like flour starches and sugars um are really a sort of natural form of plastic.
+
+184
+00:13:35,480 --> 00:13:49,400
+I mean they're not a stable form, but they effectively work like a plastic I mean glasses a as you know with embossed holograms the forming um glass is actually uh also sort of like a plastic type agent.
+
+185
+00:13:49,400 --> 00:14:00,680
+So Eric sort of postulated that he could use food similar to uh using metals or glass or anything else and um it tends to work.
+
+186
+00:14:00,680 --> 00:14:06,200
+When when I show the pops during my demo, I always get a question, can you eat them?
+
+187
+00:14:06,200 --> 00:14:08,280
+And it's of course you can eat them.
+
+188
+00:14:08,280 --> 00:14:12,720
+Um and then the next question is all well what's in them, you know, that makes the image there.
+
+189
+00:14:12,720 --> 00:14:14,240
+And there's nothing in them at all that makes the image.
+
+190
+00:14:14,400 --> 00:14:22,080
+Yeah, I mean that's the I think that's the most unique thing about the product is that um it is very there's nothing at it.
+
+191
+00:14:22,080 --> 00:14:25,360
+The all the color, all the colour comes from light.
+
+192
+00:14:25,600 --> 00:14:32,720
+But what you're seeing is you're seeing like a full 3D colour and in some cases some of the images actually move a little bit.
+
+193
+00:14:33,120 --> 00:14:36,720
+But it's just being illustrated by the light.
+
+194
+00:14:36,720 --> 00:14:44,560
+Uh some some common mistakes that people try and do they try and look through the hologram and this is very much light activated.
+
+195
+00:14:44,560 --> 00:14:50,080
+The brighter the light on the holographic pop the sharper the brighter the image is going to be.
+
+196
+00:14:50,080 --> 00:14:51,040
+But there is nothing at it.
+
+197
+00:14:51,040 --> 00:14:59,360
+It's just totally natural process and and that's something uh even being involved with light vision that I sometimes sort of sit sit back sit back and amazed at.
+
+198
+00:14:59,360 --> 00:15:03,280
+But this this process doesn't it doesn't involve any colorings or additives.
+
+199
+00:15:03,280 --> 00:15:05,360
+So it there's no FDA regulations.
+
+200
+00:15:05,360 --> 00:15:08,080
+It's a very safe and natural process.
+
+201
+00:15:08,080 --> 00:15:15,440
+Now if someone owned a company and they had a logo that they'd like to have on the pop, they can contact you and have that logo placed on the pop, right?
+
+202
+00:15:15,440 --> 00:15:15,840
+Totally.
+
+203
+00:15:15,840 --> 00:15:20,160
+That's that we are very uh we specialize in custom work.
+
+204
+00:15:20,160 --> 00:15:23,680
+We've had most of the people that have done work with us have reordered.
+
+205
+00:15:23,680 --> 00:15:25,520
+They've been very happy with the response.
+
+206
+00:15:25,520 --> 00:15:33,520
+The interesting thing about doing custom work is that most people have and you probably see from your classes rank, I mean most people have never seen this before.
+
+207
+00:15:33,760 --> 00:15:38,960
+And it's a little bit in regular holograms still people still haven't seen regular holograms that come through the center.
+
+208
+00:15:38,960 --> 00:15:48,960
+Oh well so um the fact that you can eat it uh most of the companies tend to use it for trade shows and things for cutting through the clutter and premiums.
+
+209
+00:15:48,960 --> 00:15:50,840
+And from that perspective, it's exciting.
+
+210
+00:15:50,840 --> 00:15:54,720
+But yes, we we definitely offer that service and it's very reasonably priced.
+
+211
+00:15:54,720 --> 00:16:20,920
+Um you know we're really in the business to try and get the usage of companies that take advantage of this, but I would imagine if there were someone who just had a recent birth in the family and they had a photo of their little girl or boy that was just born, they could have the baby's picture put on pops and uh have pops manufactured.
+
+212
+00:16:20,920 --> 00:16:23,160
+Oh yeah, and that's for the price, of course.
+
+213
+00:16:23,160 --> 00:16:24,200
+Yeah, for the price.
+
+214
+00:16:24,200 --> 00:16:28,520
+And we um we've done a few bar mitzvahs and we've done a wedding so far.
+
+215
+00:16:28,520 --> 00:16:32,520
+So that's very possible and it it's been a very, very unique thing.
+
+216
+00:16:32,520 --> 00:16:35,320
+And I think that that we'll probably do more of that in the future.
+
+217
+00:16:35,320 --> 00:16:40,120
+That's something that I think we're going to uh specialize in at some stage.
+
+218
+00:16:40,680 --> 00:16:58,120
+I I visited your website, which is very well done, and I'd recommend anyone to uh jump over there, especially after you finish listening to HoloTalk and you close out your uh real audio player, or even while you're listening to the interview itself, because from what I understand, the real audio player will play in the background as you continue to surf the web.
+
+219
+00:16:58,120 --> 00:17:03,480
+Uh tell uh our listeners a little bit about your website and what they can find when they go on to the site itself.
+
+220
+00:17:03,480 --> 00:17:08,120
+Basically what we've tried to do with the le uh the with the website is to educate people.
+
+221
+00:17:08,120 --> 00:17:14,120
+Um we have sections that feature some of our retail products, our new retail products, and then that's the Dr.
+
+222
+00:17:14,120 --> 00:17:15,800
+Hologram brand.
+
+223
+00:17:15,800 --> 00:17:20,840
+Um I should really we have just released this new brand and Dr.
+
+224
+00:17:20,840 --> 00:17:26,680
+Hologram is our flagship brand, and he is like this inventor that we've invented, and we're hoping to do some great things with him.
+
+225
+00:17:27,000 --> 00:17:34,840
+And I think he's probably going to be a cross between uh Indiana Jones and uh Doc Brown from Back to the Future.
+
+226
+00:17:34,840 --> 00:17:46,960
+People can also order these pops that we you know, the holidays are coming up, and uh what what better gift could you give someone or as a stocking stuffer than to take one of these holographic lollipops and put them in uh stockings for Christmas?
+
+227
+00:17:46,960 --> 00:17:50,000
+Yeah, we have a Christmas pop and and actually that's what a lot of people do.
+
+228
+00:17:50,000 --> 00:17:52,640
+I think for um it's a great stocking software.
+
+229
+00:17:53,440 --> 00:17:58,800
+Um we also have like a fair range of information about how the holograms work.
+
+230
+00:17:58,800 --> 00:18:01,760
+Uh we have a practical guide to holography.
+
+231
+00:18:01,760 --> 00:18:11,120
+Uh we also have a library which has like a fairly extensive sort of linking mechanism to most of the major holographic sites, and I think we have your site on that.
+
+232
+00:18:11,120 --> 00:18:12,720
+I have to confirm that.
+
+233
+00:18:14,400 --> 00:18:15,200
+Yeah.
+
+234
+00:18:15,200 --> 00:18:20,000
+Um I also want to mention that practical holography manual that you have on the site is excellent.
+
+235
+00:18:20,000 --> 00:18:23,600
+And I know there's a lot of uh it's science fair time across the country.
+
+236
+00:18:23,600 --> 00:18:33,120
+There's a lot of kids that are sending emails to me, and I'm sure other holographers that are listening that have sites are getting emails as well as far as how can I get more information about holography.
+
+237
+00:18:33,120 --> 00:18:44,080
+Well, if you're listening to this broadcast, go to www.lightvision.com and you will find a link there called practical holography, and it's a wonderful tutorial on uh holography itself.
+
+238
+00:18:44,080 --> 00:18:47,600
+Which is which is very nice for you to offer that to the public to come through and see that.
+
+239
+00:18:47,600 --> 00:18:55,040
+Well we I mean we obviously like to educate the the public on what we're doing and um this is something that Eric put together.
+
+240
+00:18:55,040 --> 00:19:01,760
+Are these holographic images 3D or are they the basically two D, three D type of uh creation that you see on some of the stickers?
+
+241
+00:19:02,080 --> 00:19:04,640
+The one they tend to be two D, three D.
+
+242
+00:19:04,640 --> 00:19:08,320
+They're more dot matrix than they are HOE laser.
+
+243
+00:19:08,320 --> 00:19:09,840
+We can do HOE.
+
+244
+00:19:09,840 --> 00:19:17,200
+The trouble is that what we've found for most of the clients that we're working with is you need to you need to get a glimmer of something.
+
+245
+00:19:17,200 --> 00:19:17,680
+Mm-hmm.
+
+246
+00:19:17,680 --> 00:19:29,120
+Um the H O E works very well, you can get a very three D, full depth image, but when we're doing trade show work, we want to get something that people actually see something straight away.
+
+247
+00:19:29,120 --> 00:19:37,800
+So they're not thinking that they uh the best way to do that is with the two D three D because most of your diffraction that's taking place is happening within the plane of the hologram itself.
+
+248
+00:19:37,800 --> 00:19:56,120
+You don't have to worry about any sort of smear, you know, with any depth like you have with a typical hologram if you were to pull it out on a convention floor, uh you'd find out that unless you were right under one of those sodium vapor lights or anything that were up on the convention ceiling, unless you were right under them you'd notice that you'd have either multiple images or you'd have smeared images.
+
+249
+00:19:56,120 --> 00:19:56,760
+Exactly.
+
+250
+00:19:56,760 --> 00:20:04,520
+It just would not work but with your technique it doesn't it pretty much doesn't matter where you would be standing, you're always going to get a nice effect from that hologram.
+
+251
+00:20:04,520 --> 00:20:06,840
+Yeah and that's and that's what we've but we are moving.
+
+252
+00:20:06,840 --> 00:20:11,160
+We are moving to work on some uh to get a lot more depth and a lot more motion.
+
+253
+00:20:11,160 --> 00:20:13,800
+We're also moving to put it on other foods.
+
+254
+00:20:13,800 --> 00:20:15,960
+We have um we have a chocolate.
+
+255
+00:20:15,960 --> 00:20:17,800
+We're working on chocolate right now.
+
+256
+00:20:17,800 --> 00:20:29,560
+Um I have put like images onto Pop Tarts but we also have a holographic dust that we can put onto cereals and cookies and and you can bake with which gives a a glitter effect.
+
+257
+00:20:29,560 --> 00:20:32,760
+And that's a fairly unique sort of item that we're being working on.
+
+258
+00:20:32,760 --> 00:20:38,120
+Is this this is a diffraction grading that's actually etched right into the uh dust itself.
+
+259
+00:20:38,120 --> 00:20:38,840
+Yes, yes.
+
+260
+00:20:38,840 --> 00:20:39,640
+That's exactly it.
+
+261
+00:20:39,640 --> 00:20:43,640
+And when it comes in a range of critical absolutely incredible.
+
+262
+00:20:43,640 --> 00:20:46,040
+Anything else you want to let our listeners know about?
+
+263
+00:20:46,040 --> 00:20:47,320
+Um no that's about it.
+
+264
+00:20:47,320 --> 00:20:52,840
+I you know, I wish everyone well for the holidays, upcoming holidays and uh looking forward to people dropping by our side.
+
+265
+00:20:52,840 --> 00:20:53,240
+Okay.
+
+266
+00:20:53,240 --> 00:20:56,840
+Well we wish you well and uh thank you for being a guest on HoloTalk.
+
+267
+00:20:56,840 --> 00:20:57,640
+We really appreciate it.
+
+268
+00:20:57,640 --> 00:21:02,600
+That's what keeps the show going and people coming back to hear what all the people in the field of philography are doing.
+
+269
+00:21:02,600 --> 00:21:07,000
+And uh good luck with the pops, and I'm looking forward to seeing them out on the store shelves.
+
+270
+00:21:07,000 --> 00:21:10,280
+I'm looking forward to walking around the w mall and seeing someone actually eating one.
+
+271
+00:21:10,280 --> 00:21:10,640
+There you go.
+
+272
+00:21:10,600 --> 00:21:11,280
+That's all my hands.
+
+273
+00:21:11,400 --> 00:21:12,760
+That'll make my that's there we go.
+
+274
+00:21:12,760 --> 00:21:13,880
+That'll make my day.
+
+275
+00:21:14,200 --> 00:21:14,800
+Okay, Paul.
+
+276
+00:21:14,800 --> 00:21:15,920
+Thanks for watching, Frank.
+
+277
+00:21:16,080 --> 00:21:17,040
+Bye-bye.
+
+278
+00:21:21,120 --> 00:21:23,280
+There we have the Paul Graham interview.
+
+279
+00:21:23,280 --> 00:21:24,560
+Uh what did you think of that, Deb?
+
+280
+00:21:24,720 --> 00:21:26,240
+I thought it was really interesting.
+
+281
+00:21:26,240 --> 00:21:28,480
+I think I'd really enjoy some of that chocolate.
+
+282
+00:21:28,480 --> 00:21:30,240
+Okay, I enjoy the chocolate too.
+
+283
+00:21:30,560 --> 00:21:31,760
+And the dust.
+
+284
+00:21:31,760 --> 00:21:34,960
+Now that sounds like it would make some interesting anything.
+
+285
+00:21:34,960 --> 00:21:38,080
+Cakes, cookies, anything for the holidays.
+
+286
+00:21:38,080 --> 00:21:42,480
+I think I'd like to have the holographic dust on all my birthday cakes from now on.
+
+287
+00:21:42,480 --> 00:21:43,760
+We'll see what we can do.
+
+288
+00:21:43,760 --> 00:21:44,240
+Okay.
+
+289
+00:21:44,240 --> 00:21:45,920
+Let's move on to a news item.
+
+290
+00:21:46,400 --> 00:21:50,640
+We'll grab one news item, one email, and then we're going to head out of here for this week.
+
+291
+00:21:50,640 --> 00:21:51,120
+Okay.
+
+292
+00:21:51,120 --> 00:21:51,440
+Okay.
+
+293
+00:21:51,440 --> 00:21:57,440
+And then we'll of course we have uh Emily's toy box coming up as our musical guest this week, so you want to hold on for that.
+
+294
+00:21:57,440 --> 00:22:01,760
+So let's go to our news item.
+
+295
+00:22:01,760 --> 00:22:02,640
+Okay.
+
+296
+00:22:05,520 --> 00:22:06,560
+You're on.
+
+297
+00:22:06,560 --> 00:22:07,520
+I'm on?
+
+298
+00:22:07,520 --> 00:22:09,280
+Okay.
+
+299
+00:22:09,280 --> 00:22:10,160
+For real?
+
+300
+00:22:10,160 --> 00:22:10,720
+Okay.
+
+301
+00:22:10,720 --> 00:22:20,640
+A group from SRI International in Menlo Park, California, has demonstrated an optical storage method for page formatted digital data based on time domain holography.
+
+302
+00:22:20,640 --> 00:22:26,400
+This is a technique that could allow high performance input and output of data to an optical storage system.
+
+303
+00:22:26,400 --> 00:22:37,440
+Digital data pages were generated by illuminating a spatial light modulator with 11.2 microsecond pulses from a ring dye laser operating at about 580 nanometers.
+
+304
+00:22:37,440 --> 00:22:47,200
+Each page was stored by wavelength division multiplexing in a distinct channel of about 500 kilohertz within a seven millimeter thick crystal.
+
+305
+00:22:47,200 --> 00:22:54,560
+After recording, data were retrieved at a peak rate of 300 megabits per second without the use of error correcting codes.
+
+306
+00:22:54,560 --> 00:23:05,480
+Using a detection scheme for the extraction of binary data, the system raw bit error rate was 10 to 7, meaning the 10 megabits of data could be stored without generating an error.
+
+307
+00:23:05,640 --> 00:23:10,360
+This was demonstrated by the team using a black and white photograph of Albert Einstein.
+
+308
+00:23:11,240 --> 00:23:16,440
+Okay, Deb, thank you very much for that very interesting and informative story.
+
+309
+00:23:16,440 --> 00:23:26,920
+That is the future of data storage people, holographic data storage storing information inside of photorefractive crystals using lasers.
+
+310
+00:23:26,920 --> 00:23:31,320
+Let's go to one more email question, then we're going to move on to Emily's toy box.
+
+311
+00:23:31,320 --> 00:23:31,880
+Okay.
+
+312
+00:23:31,880 --> 00:23:35,960
+The last one that we have here is do lasers come in different colors other than red?
+
+313
+00:23:35,960 --> 00:23:37,560
+Okay, let's not tell a fib.
+
+314
+00:23:37,560 --> 00:23:39,240
+Well, not the last one, the last one we're going to do.
+
+315
+00:23:39,240 --> 00:23:39,400
+Okay.
+
+316
+00:23:40,680 --> 00:23:41,160
+Yes.
+
+317
+00:23:41,160 --> 00:23:44,920
+As you know, every other week we have a guest.
+
+318
+00:23:44,920 --> 00:23:48,120
+And that guest show has less questions on it.
+
+319
+00:23:48,120 --> 00:23:57,560
+And then every other week falls in the middle of the other every other week, we do we catch up on the questions.
+
+320
+00:23:57,560 --> 00:23:58,040
+There we go.
+
+321
+00:23:58,040 --> 00:23:59,320
+Okay, so we're going to do the one more.
+
+322
+00:23:59,320 --> 00:24:00,680
+And that question is again.
+
+323
+00:24:00,680 --> 00:24:01,080
+Okay.
+
+324
+00:24:01,080 --> 00:24:03,800
+Do lasers come in different colors other than red Frank?
+
+325
+00:24:03,800 --> 00:24:04,920
+Okay.
+
+326
+00:24:04,920 --> 00:24:13,000
+That's a very simple question, but it's a very common question because most people only see helium neon lasers.
+
+327
+00:24:13,000 --> 00:24:15,720
+A lot of times kids in school they have helium neon laser there.
+
+328
+00:24:15,720 --> 00:24:19,160
+They want to know do lasers come in other colors as well.
+
+329
+00:24:19,160 --> 00:24:20,680
+Yes, they do.
+
+330
+00:24:20,680 --> 00:24:25,160
+And it all depends on the actual medium that's being lased.
+
+331
+00:24:25,720 --> 00:24:29,480
+For instance, a helium neon laser is a gas laser.
+
+332
+00:24:29,480 --> 00:24:35,640
+And it produces a red beam, or I should say a primarily a red beam.
+
+333
+00:24:35,640 --> 00:24:42,200
+You can also force other wavelengths out as well, such as green and yellow.
+
+334
+00:24:42,200 --> 00:24:58,880
+But if you have a 10 milliwatt red laser, that same 10 milliwatt red laser would probably only give you a one milliwatt green and yellow because they're a much less powerful line that that gas produces.
+
+335
+00:24:59,040 --> 00:25:00,640
+Line meaning wavelength.
+
+336
+00:25:00,640 --> 00:25:13,520
+Argon lasers, which has argon gas in it, produces blue-green beams, and you can pass that beam through a prism and actually extract those colors out of that beam.
+
+337
+00:25:13,520 --> 00:25:16,800
+And so on and so forth with the different gases that are in the laser.
+
+338
+00:25:16,800 --> 00:25:20,400
+So to answer your question, yes, lasers come in many different colors.
+
+339
+00:25:20,400 --> 00:25:24,560
+They also generate beams that are not part of the visible spectrum.
+
+340
+00:25:24,560 --> 00:25:31,440
+They can generate beams which are in the infrared part of the spectrum where you cannot see the beam with the human eye.
+
+341
+00:25:31,440 --> 00:25:41,680
+They also generate beams at the opposite end of the spectrum up into the ultraviolet and even on into the X-ray part of the spectrum, which once again cannot be detected with the eye.
+
+342
+00:25:41,680 --> 00:25:49,200
+So, yes, they do produce many different colors than red, and they also produce much more than that.
+
+343
+00:25:49,200 --> 00:25:51,680
+Well, Deb, that about wraps it up for a week.
+
+344
+00:25:51,680 --> 00:25:55,920
+I hope we're close to 30 minutes, but I think we're probably going to be over again.
+
+345
+00:25:55,920 --> 00:25:56,320
+Really?
+
+346
+00:25:56,320 --> 00:25:58,080
+I was thinking we may be be under.
+
+347
+00:25:58,080 --> 00:25:58,400
+Really?
+
+348
+00:25:58,400 --> 00:25:59,280
+We'll have to see.
+
+349
+00:25:59,280 --> 00:26:00,320
+Let's see next week.
+
+350
+00:26:00,320 --> 00:26:01,280
+We'll let you know.
+
+351
+00:26:01,280 --> 00:26:01,840
+Okay.
+
+352
+00:26:01,840 --> 00:26:03,200
+Were we over?
+
+353
+00:26:03,200 --> 00:26:04,480
+As I feel we are.
+
+354
+00:26:04,480 --> 00:26:05,440
+Or were we under?
+
+355
+00:26:05,440 --> 00:26:06,720
+As I feel we were.
+
+356
+00:26:06,720 --> 00:26:08,080
+Okay.
+
+357
+00:26:08,080 --> 00:26:09,360
+We're goofy tonight.
+
+358
+00:26:09,360 --> 00:26:21,920
+I'll tell you what, we have we were broadcasting live on the internet with a webcam, and I brought I have studio lights in here, which are probably about 2, two thousand watts total.
+
+359
+00:26:21,920 --> 00:26:26,400
+And I think the heat has to be up to at least 100 degrees in here.
+
+360
+00:26:26,400 --> 00:26:27,120
+Possibly.
+
+361
+00:26:27,120 --> 00:26:28,400
+Possibly a hundred degrees.
+
+362
+00:26:28,400 --> 00:26:31,400
+So let's go to our musical guest this week.
+
+363
+00:26:31,400 --> 00:26:33,320
+It's Emily's Toy Box.
+
+364
+00:26:33,320 --> 00:26:37,000
+And their CD is titled I Never Get My Way.
+
+365
+00:26:37,000 --> 00:26:38,360
+They have a website.
+
+366
+00:26:38,360 --> 00:26:42,680
+It's w dub dot Emily's Toybox.com.
+
+367
+00:26:42,680 --> 00:26:46,360
+And Emily is spelled E M I L Y S.
+
+368
+00:26:46,360 --> 00:26:48,440
+Emily's Toybox.com.
+
+369
+00:26:48,440 --> 00:26:50,920
+They're from Carlisle PA.
+
+370
+00:26:50,920 --> 00:26:52,680
+They're a really funny band.
+
+371
+00:26:52,680 --> 00:26:58,520
+They have crazy stage antics, which has created quite a following for them.
+
+372
+00:26:58,520 --> 00:27:02,840
+We're going to select two titles off of the C D.
+
+373
+00:27:02,840 --> 00:27:05,160
+Title number one will be Don't Say No.
+
+374
+00:27:05,160 --> 00:27:07,640
+And title number two will be Term Paper.
+
+375
+00:27:07,640 --> 00:27:10,680
+So we'll be hearing from Emily's Toy Box.
+
+376
+00:27:10,680 --> 00:27:13,960
+And before I go, hold on.
+
+377
+00:27:13,960 --> 00:27:15,480
+Where are my papers?
+
+378
+00:27:15,480 --> 00:27:19,480
+I should be prepared, but I'm not.
+
+379
+00:27:19,480 --> 00:27:22,920
+But I know it's here somewhere.
+
+380
+00:27:22,920 --> 00:27:25,960
+No, it's not.
+
+381
+00:27:25,960 --> 00:27:32,840
+Well, I'll tell you, I was going to go down the list of guests that we have coming up.
+
+382
+00:27:32,840 --> 00:27:38,920
+And I was born in 1956 in Philadelphia, Pennsylvania.
+
+383
+00:27:38,920 --> 00:27:41,480
+And I grew up.
+
+384
+00:27:41,480 --> 00:27:42,520
+I found it.
+
+385
+00:27:42,520 --> 00:27:44,920
+Okay.
+
+386
+00:27:44,920 --> 00:27:48,520
+Okay, so we're on November 23rd, which is Paul Graham from Light Vision.
+
+387
+00:27:48,520 --> 00:27:53,240
+December 7th, Wang Chun from Holographic Development Company in China.
+
+388
+00:27:53,240 --> 00:27:54,760
+Musical guest Janoon.
+
+389
+00:27:54,760 --> 00:27:57,240
+We won't go on with the musical guests, we'll just go down the list.
+
+390
+00:27:57,320 --> 00:28:01,400
+December 21st, Derek Gowan from the Royal Holographic Gallery.
+
+391
+00:28:01,400 --> 00:28:03,800
+January 4th, Alex Schemetz.
+
+392
+00:28:03,800 --> 00:28:05,320
+I hope I'm pronouncing that right, Alex.
+
+393
+00:28:05,320 --> 00:28:10,280
+We've sent an email back and forth quite a few times, but I've never found out how to correctly say your last name.
+
+394
+00:28:10,280 --> 00:28:13,320
+I hope I'm doing it right, but I'm sure I'll find out the night that you're on.
+
+395
+00:28:13,320 --> 00:28:25,440
+And he's with Three Deep Company, and what they do is they're importing the Russian emulsions for people who are doing holograms and are finding a hard time to get anything from AgFa because Agha has stopped production.
+
+396
+00:28:25,440 --> 00:28:27,280
+January 18th.
+
+397
+00:28:27,600 --> 00:28:28,160
+Excuse me.
+
+398
+00:28:28,160 --> 00:28:32,160
+Last week on the show, we said we couldn't mention who the guest was because we were still in negotiations with it.
+
+399
+00:28:32,160 --> 00:28:33,760
+That has been completed.
+
+400
+00:28:33,760 --> 00:28:35,200
+And our guest will be Dr.
+
+401
+00:28:35,200 --> 00:28:41,360
+Stephen Benton, and we will have him on for a rundown on what to expect at Photonics West 98.
+
+402
+00:28:41,360 --> 00:28:41,840
+That's Dr.
+
+403
+00:28:41,840 --> 00:28:45,520
+Stephen Benton, January 18th, 1998.
+
+404
+00:28:45,520 --> 00:28:49,840
+February 1st, Brian Monahan from Pennsylvania Pulp and Paper.
+
+405
+00:28:49,840 --> 00:28:52,960
+And they do desktop holography.
+
+406
+00:28:52,960 --> 00:28:55,360
+I guess it would be fair to call it desktop holography.
+
+407
+00:28:55,360 --> 00:29:01,600
+It's actually a much more complex setup than just a simple term like desktop holography.
+
+408
+00:29:01,600 --> 00:29:06,240
+But Brian will uh bring us up to date on what that's all about.
+
+409
+00:29:06,240 --> 00:29:13,600
+February 15th, Jimmy Wolford, and he has a company which does security holograms in Panama, the country Panama.
+
+410
+00:29:13,600 --> 00:29:19,200
+And I know we're booked up until April, but my list only goes to February 15th.
+
+411
+00:29:19,200 --> 00:29:23,200
+So what I'm going to do is probably put those names up on the website.
+
+412
+00:29:23,200 --> 00:29:25,680
+Okay, so thank you for tuning in.
+
+413
+00:29:25,680 --> 00:29:28,640
+As always, Deb, thank you for being here with us.
+
+414
+00:29:28,640 --> 00:29:29,360
+My pleasure.
+
+415
+00:29:29,360 --> 00:29:30,560
+Couldn't do it without you.
+
+416
+00:29:30,560 --> 00:29:32,960
+That's my sidekick, Deb.
+
+417
+00:29:32,960 --> 00:29:40,000
+Science has discovered the secret of the atom and it has found out the expanse of the universe.
+
+418
+00:29:40,000 --> 00:29:46,960
+But the mind has not yet been born that could comprehend the deepness of our love.
+
+419
+00:29:46,960 --> 00:29:48,240
+Thank you for tuning in.
+
+420
+00:29:48,240 --> 00:29:54,960
+Here comes Emily's Toy Box.

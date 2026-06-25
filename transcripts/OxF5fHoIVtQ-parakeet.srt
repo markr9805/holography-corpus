@@ -1,0 +1,1223 @@
+1
+00:00:00,240 --> 00:00:02,160
+Hello everybody, Frank Defratis here.
+
+2
+00:00:02,160 --> 00:00:04,080
+Welcome to another week of HoloTalk, the Dr.
+
+3
+00:00:04,080 --> 00:00:05,120
+Jaeong interview.
+
+4
+00:00:05,120 --> 00:00:06,880
+It's coming up in just a moment.
+
+5
+00:00:06,880 --> 00:00:08,240
+I just want to point one thing out.
+
+6
+00:00:08,240 --> 00:00:08,960
+I'm going to give Dr.
+
+7
+00:00:08,960 --> 00:00:10,240
+Jong a fair shake here.
+
+8
+00:00:10,240 --> 00:00:15,040
+He was in Venezuela and he just got back, so uh the show was not put up on Sunday.
+
+9
+00:00:15,040 --> 00:00:17,920
+It's going up on Tuesday, the thirty-first.
+
+10
+00:00:17,920 --> 00:00:22,480
+So what I'm going to do is the next Holo Talk show is not going to be this Sunday.
+
+11
+00:00:22,480 --> 00:00:28,080
+The next Holo Talk is going to be next Tuesday, April 7th.
+
+12
+00:00:28,080 --> 00:00:31,680
+And then we will go back to Sundays after that.
+
+13
+00:00:31,680 --> 00:00:40,640
+So uh tune in next week, Tuesday night, April 7th, for the new Holo Talk show, and then we'll get back on to Sundays beginning April 12th once again.
+
+14
+00:00:40,640 --> 00:00:41,280
+Uh Dr.
+
+15
+00:00:41,280 --> 00:00:44,640
+Jae On's interview ran over a little tw a little over twenty minutes long.
+
+16
+00:00:44,640 --> 00:00:45,520
+It's a nice interview.
+
+17
+00:00:45,520 --> 00:00:56,880
+He talks about his work with color holography, uh holography and education, a little bit about uh integraph, and even uh a few comments on the AGFA situation, so it's a very interesting interview.
+
+18
+00:00:56,880 --> 00:00:59,040
+So I want to thank you for tuning in.
+
+19
+00:00:59,040 --> 00:01:10,400
+And uh let's just get right into the interview, and I'm not going to come back on after it's over, so I'll say goodbye now and thank you very much for tuning into Hollow Talk and thanks for your patience this week uh for me getting it up a little bit late.
+
+20
+00:01:10,400 --> 00:01:11,280
+Here's the Dr.
+
+21
+00:01:11,280 --> 00:01:12,960
+Jeong interview.
+
+22
+00:01:12,960 --> 00:01:13,440
+Dr.
+
+23
+00:01:13,440 --> 00:01:14,800
+Jae On.
+
+24
+00:01:14,800 --> 00:01:16,240
+This is Frank Defradis.
+
+25
+00:01:16,240 --> 00:01:16,800
+How are you?
+
+26
+00:01:16,800 --> 00:01:18,000
+Oh good, good.
+
+27
+00:01:18,000 --> 00:01:19,600
+Very good to have you on the phone.
+
+28
+00:01:19,600 --> 00:01:20,720
+Do you have a few minutes?
+
+29
+00:01:20,720 --> 00:01:21,040
+Sure.
+
+30
+00:01:22,240 --> 00:01:24,960
+Yeah, you last week I was in no man's land.
+
+31
+00:01:25,440 --> 00:01:27,200
+You you took a little vacation.
+
+32
+00:01:27,200 --> 00:01:28,560
+Uh a big one, actually.
+
+33
+00:01:28,880 --> 00:01:29,200
+Yeah?
+
+34
+00:01:29,200 --> 00:01:30,560
+Did you have some fun?
+
+35
+00:01:30,560 --> 00:01:40,560
+Well, I took my two sons and I uh took a week-long clinic on high wind, uh ocean wind surfing.
+
+36
+00:01:40,560 --> 00:01:42,080
+That sounds pretty good to me.
+
+37
+00:01:42,080 --> 00:01:43,920
+Very challenging.
+
+38
+00:01:43,920 --> 00:01:46,160
+Well, we have summer-like weather here today.
+
+39
+00:01:47,360 --> 00:01:49,760
+Uh same temperature here as in Venezuela.
+
+40
+00:01:49,760 --> 00:01:53,840
+Yeah, Al Allentown PA today, we hit about eighty four, eighty-85 degrees today.
+
+41
+00:01:54,080 --> 00:01:56,560
+Well, I guess you didn't need to like take a vacation.
+
+42
+00:01:57,040 --> 00:01:58,120
+I could still you go back to the case.
+
+43
+00:01:58,080 --> 00:02:02,920
+Uh we're talking to Dr.
+
+44
+00:02:03,080 --> 00:02:06,440
+Jayong who is with Lake Forest College.
+
+45
+00:02:06,440 --> 00:02:07,320
+And Dr.
+
+46
+00:02:07,320 --> 00:02:17,400
+Jae Young also runs the holography workshop programs and the symposium, the uh international symposium for display holography.
+
+47
+00:02:17,400 --> 00:02:21,720
+What's new out there that you can tell us about that's uh hot off the uh grill?
+
+48
+00:02:21,720 --> 00:02:24,040
+Do you have anything that's absolutely possibly new?
+
+49
+00:02:24,360 --> 00:02:37,080
+The newest that we report and as uh CNN had interviewed us on, is uh we can now make holograms uh whose image, you know, has the same color as the object.
+
+50
+00:02:37,080 --> 00:02:37,560
+Mm-hmm.
+
+51
+00:02:37,560 --> 00:02:40,760
+It stays the same color no matter what angle you look at.
+
+52
+00:02:40,760 --> 00:02:48,120
+It has both vertical and horizontal parallax and does not fade away when you look at large angles.
+
+53
+00:02:48,120 --> 00:02:53,240
+So in other words, uh it's the same as having the real thing in that in a box.
+
+54
+00:02:53,240 --> 00:02:59,080
+So uh we think that's pretty new and uh making uh holographic optical elements.
+
+55
+00:02:59,080 --> 00:03:01,560
+Yeah like make a hologram of a mirror.
+
+56
+00:03:01,560 --> 00:03:09,400
+What's that mirror apparently in the ho inside the the glass uh actually reflects quite light.
+
+57
+00:03:09,400 --> 00:03:09,960
+Mm-hmm.
+
+58
+00:03:09,960 --> 00:03:15,560
+Incredible holographic optical elements in three colour, we think there are many uh applications.
+
+59
+00:03:15,560 --> 00:03:18,600
+Where where are you doing the full color holography at?
+
+60
+00:03:18,600 --> 00:03:22,680
+Is there a studio somewhere out in the uh we're doing it at Lake Forest college.
+
+61
+00:03:22,680 --> 00:03:23,880
+Oh, right at the college.
+
+62
+00:03:23,880 --> 00:03:24,120
+Right.
+
+63
+00:03:24,120 --> 00:03:26,120
+It's the center for photonic studies.
+
+64
+00:03:26,120 --> 00:03:28,440
+When when is the next symposium coming up?
+
+65
+00:03:28,440 --> 00:03:29,560
+When is that going to be?
+
+66
+00:03:29,560 --> 00:03:32,120
+Uh at the new millennium.
+
+67
+00:03:32,120 --> 00:03:32,680
+Oh really?
+
+68
+00:03:32,920 --> 00:03:36,920
+Every three years we have uh Okay, so two thousand positions.
+
+69
+00:03:36,920 --> 00:03:39,960
+So last year we just had the uh sixth one.
+
+70
+00:03:39,960 --> 00:03:40,600
+I see.
+
+71
+00:03:40,600 --> 00:03:43,400
+And we have twenty two countries uh team.
+
+72
+00:03:43,400 --> 00:03:45,200
+I have not been out there yet.
+
+73
+00:03:45,200 --> 00:03:48,640
+Well well is the next time.
+
+74
+00:03:44,680 --> 00:03:49,600
+I don't fly.
+
+75
+00:03:49,760 --> 00:03:52,400
+I've never been thirty two years old and I've never been in the colour.
+
+76
+00:03:53,200 --> 00:03:54,480
+It's not so far, you know.
+
+77
+00:03:54,480 --> 00:03:55,920
+Yeah, I guess I could drive.
+
+78
+00:03:55,920 --> 00:04:00,400
+You know what people do is uh uh make it part of a vacation.
+
+79
+00:04:00,400 --> 00:04:00,960
+Mm-hmm.
+
+80
+00:04:01,440 --> 00:04:07,280
+People from Europe, they just take their family and after the symposium or before they go see the Grand Canyon.
+
+81
+00:04:07,680 --> 00:04:09,120
+That's great.
+
+82
+00:04:09,120 --> 00:04:27,360
+Well what we can do in two thousand because two thousand is still pretty long way maybe I can come out with all the uh studio broadcasting equipment we can do some live broadcasting we can use some I'm sure by that time uh internet would be even more fantastic beyond imagination right now I think.
+
+83
+00:04:27,360 --> 00:04:30,160
+Now do you have your workshops every year or are they every two years?
+
+84
+00:04:32,400 --> 00:04:34,320
+Every year every year.
+
+85
+00:04:34,320 --> 00:04:39,520
+But for the first time I'm gonna take a sabbatical this summer.
+
+86
+00:04:39,520 --> 00:04:41,600
+Because I have never taken the summer off.
+
+87
+00:04:41,600 --> 00:04:42,480
+Mm-hmm.
+
+88
+00:04:43,120 --> 00:04:50,560
+Since seventy since seventy one and since this year I retired from teaching now emeritus.
+
+89
+00:04:50,560 --> 00:04:56,560
+So instead I do research only which allows me to have a completely free schedule.
+
+90
+00:04:56,560 --> 00:04:56,880
+Mm-hmm.
+
+91
+00:04:56,880 --> 00:05:06,640
+That's why I chose this parti last week to go in surfing because that's the high wind season with El Niño going on down in uh Margarita Island.
+
+92
+00:05:06,640 --> 00:05:07,120
+Mm-hmm.
+
+93
+00:05:07,120 --> 00:05:09,280
+We're certainly like resting huh?
+
+94
+00:05:09,280 --> 00:05:11,200
+Oh yeah, yeah.
+
+95
+00:05:11,200 --> 00:05:16,880
+So tell us a little bit about uh the research you're doing that the full color holography is very interesting.
+
+96
+00:05:16,960 --> 00:05:18,040
+How many lasers do you?
+
+97
+00:05:18,000 --> 00:05:31,800
+What we do it um we take a uh blue colour, green colour, and red colored lasers, three of them, using dichroic beam splitters, combined all the three beams into one.
+
+98
+00:05:31,800 --> 00:05:36,280
+So it's very fantastic to see a white laser beam.
+
+99
+00:05:36,360 --> 00:05:37,320
+Incredible.
+
+100
+00:05:37,320 --> 00:05:45,000
+And uh with that s one beam, we do denis you holograms exactly the way you do one colour.
+
+101
+00:05:45,480 --> 00:05:46,360
+So simple.
+
+102
+00:05:46,360 --> 00:05:53,080
+You put a full color object uh on the other side of the holographic plate and expose it once and develop it.
+
+103
+00:05:53,080 --> 00:05:59,320
+If someone wanted to see a full color hologram, where are some of the key places perhaps across the case?
+
+104
+00:05:59,480 --> 00:06:02,040
+Uh number one, visit my website.
+
+105
+00:06:02,040 --> 00:06:05,000
+We uh show quite a few of them.
+
+106
+00:06:05,000 --> 00:06:05,480
+Mm-hmm.
+
+107
+00:06:05,480 --> 00:06:12,040
+Uh so that's out we have a gallery here in Lake Forest College, of course, that's open to the public every day.
+
+108
+00:06:12,040 --> 00:06:12,600
+Mm-hmm.
+
+109
+00:06:12,600 --> 00:06:16,760
+We show some of the first ones uh we made here four years ago.
+
+110
+00:06:16,760 --> 00:06:22,920
+And uh but the CNN uh program uh uh you want me to give the address?
+
+111
+00:06:22,920 --> 00:06:37,160
+Um yes, you go ahead and give the address and let me remind the listeners that there's there will be a link right on the whole talk page right now as you're listening to this show, you can click on that link and go to the Lake Forest College uh webpage for Dr.
+
+112
+00:06:37,160 --> 00:06:39,160
+Jiang's lab.
+
+113
+00:06:39,160 --> 00:06:46,920
+And uh the real audio player will continue to play in the background while you can take a look at all the fantastic work that they're doing out there.
+
+114
+00:06:46,920 --> 00:06:49,720
+So why don't you go ahead and give them the uh web address in case they have to do it?
+
+115
+00:06:49,960 --> 00:07:12,280
+Right, the web address is uh H T T P colon slash slash W W W dot L F C dot E D U Slash physics slash holography Slash.
+
+116
+00:07:12,600 --> 00:07:12,960
+Okay.
+
+117
+00:07:13,000 --> 00:07:25,040
+We allow you to a lot of choices to visit our gallery to look at at the description of our work and uh detailed scientific reference.
+
+118
+00:07:25,040 --> 00:07:31,920
+Now you've been involved involved with education for probably since the beginning when you got involved with holography I know.
+
+119
+00:07:32,160 --> 00:07:40,880
+Since nineteen sixty six one of your focuses was not only on the uh college level education but on junior high school and high school education as well.
+
+120
+00:07:40,880 --> 00:07:46,560
+Um how do you feel that holography is being represented in the schools now?
+
+121
+00:07:46,560 --> 00:08:00,320
+Do you think it's grown or has it sort of from my judgment uh the educational application of holography is the area that will be constant because education is constant.
+
+122
+00:08:00,320 --> 00:08:04,880
+No matter what happens to the economy, no matter what happens to what's new, what's old.
+
+123
+00:08:04,880 --> 00:08:06,480
+Education is key.
+
+124
+00:08:06,800 --> 00:08:14,240
+And holography uh having involving itself with three direct Nobel Prizes in physics.
+
+125
+00:08:14,640 --> 00:08:32,880
+The Littmann Noble Nobel Prize in 1908, the uh Brock Nobel Prize in 1915, the Garborn Nobel Prize in 1971, uh makes holography a very basic subject, meaning it is not a trick, not a fad, it is good science.
+
+126
+00:08:32,880 --> 00:08:33,440
+Yes.
+
+127
+00:08:33,440 --> 00:08:39,680
+So I had always been interested in uh making it understandable.
+
+128
+00:08:39,680 --> 00:09:08,840
+So in uh about eleven years ago, the Thomas Edison Foundation uh funded a project in which I wrote a holography uh uh project book for children for twelve year old and in it we just teach them how to make seven kinds of holograms at home right now using a total budget of three hundred dollars meaning about the the money you need to buy a fair camera.
+
+129
+00:09:08,840 --> 00:09:09,320
+Yes.
+
+130
+00:09:09,320 --> 00:09:17,560
+But the three hundred dollars you buy your laser and all the optics, film plates, all everything you need to make those holograms.
+
+131
+00:09:17,560 --> 00:09:18,120
+Mm-hmm.
+
+132
+00:09:18,120 --> 00:09:26,360
+So uh I also made video so my project has been to well the uh some schools get those booklets.
+
+133
+00:09:26,360 --> 00:09:30,040
+This is a non profit basis, you know, it's a two dollar book.
+
+134
+00:09:30,040 --> 00:09:30,680
+Mm-hmm.
+
+135
+00:09:30,680 --> 00:09:37,320
+So the whole the philosophy is uh let children learn naturally meaning do it first.
+
+136
+00:09:37,320 --> 00:09:38,040
+Mm-hmm.
+
+137
+00:09:38,040 --> 00:09:42,200
+Then when they are interested they'll start wondering how does it work.
+
+138
+00:09:42,360 --> 00:09:48,280
+Then they have to l find out how rainbows work how soap bubbles give color.
+
+139
+00:09:48,280 --> 00:10:01,400
+All the basic the how seashells you know have uh i uh all those nice colors mhm and so forth and it all these ideas add together equal to a dentist hologram.
+
+140
+00:10:01,400 --> 00:10:13,880
+It's a wonderful opportunity to bring the uh science students together with the creative students as well because in schools usually these two as I in fact sell this program so to speak.
+
+141
+00:10:13,880 --> 00:10:16,840
+I don't think of this as science or art or whatever.
+
+142
+00:10:16,840 --> 00:10:17,560
+Mm-hmm.
+
+143
+00:10:17,560 --> 00:10:47,600
+It is just something to do and they some students would do it as art, some would do it as crap, some will do it as science, you know, they can decide yes what it is and uh so I uh been doing school programs all around the country and uh I'm doing s teacher projects, meaning on Saturdays every year, uh uh science students from junior high or high school always have a so called uh institute day.
+
+144
+00:10:47,760 --> 00:10:55,920
+During that day I would teach the science students how to make holograms so then they can of course teach students locally.
+
+145
+00:10:55,920 --> 00:11:07,600
+The the objective of the whole project is to make holography a basic part of the science curriculum curriculum in uh junior high schools.
+
+146
+00:11:07,600 --> 00:11:15,360
+In other words, everybody who have made a hologram when you have gone through junior high, so they know what the principles are involved.
+
+147
+00:11:15,360 --> 00:11:22,560
+At that time, that's the time before they uh kind of uh look at science in the wrong way.
+
+148
+00:11:23,280 --> 00:11:26,480
+They find out that hey, this you mean this is science.
+
+149
+00:11:26,480 --> 00:11:28,400
+I couldn't believe it, it's actually fun.
+
+150
+00:11:28,400 --> 00:11:28,880
+Mm-hmm.
+
+151
+00:11:28,880 --> 00:11:32,480
+My friends told me science cannot be fun, you know.
+
+152
+00:11:32,480 --> 00:11:44,480
+So uh so at age twelve is about when you should show them that science art everything, if you uh do it with a degree of uh dedication, they're all fun.
+
+153
+00:11:44,480 --> 00:11:47,280
+I get a lot of students that listen to this program.
+
+154
+00:11:47,920 --> 00:11:53,600
+And let's just imagine an eighth grade student out there and they're interested in holograms and holography.
+
+155
+00:11:53,600 --> 00:11:57,600
+Would you encourage them to follow through on that project?
+
+156
+00:11:59,040 --> 00:12:01,600
+You know, so that uh everything they need.
+
+157
+00:12:01,600 --> 00:12:03,200
+What about as a career choice?
+
+158
+00:12:03,200 --> 00:12:06,560
+They want to say they want to grow career.
+
+159
+00:12:06,800 --> 00:12:09,680
+I never tell a student to become a holographer.
+
+160
+00:12:09,680 --> 00:12:10,320
+Never.
+
+161
+00:12:10,320 --> 00:12:11,200
+Never.
+
+162
+00:12:11,200 --> 00:12:19,120
+And the reason for that is uh the reason is I telling them to do it the way they want to learn to play the violin.
+
+163
+00:12:19,120 --> 00:12:22,960
+You don't necessarily want to be a tons of violinist.
+
+164
+00:12:22,960 --> 00:12:25,200
+You are enriching your life.
+
+165
+00:12:25,200 --> 00:12:27,400
+A few people may end up doing it.
+
+166
+00:12:27,400 --> 00:12:28,040
+Mm-hmm.
+
+167
+00:12:28,040 --> 00:12:35,880
+Because you find it uh that you're so dedicated to it that you wouldn't mind living that life.
+
+168
+00:12:29,360 --> 00:12:47,560
+But uh I always advise students to broaden the horizon, do holography as a project, take the pace, also do some projects in art, do some projects in uh literature.
+
+169
+00:12:47,560 --> 00:12:48,120
+Yes.
+
+170
+00:12:48,120 --> 00:12:51,160
+Then you will know what you like.
+
+171
+00:12:51,160 --> 00:12:58,040
+In the next ten years, do you think holography would be a serious career choice for someone?
+
+172
+00:12:58,040 --> 00:13:00,520
+It certainly is a serious career choice right now.
+
+173
+00:13:00,520 --> 00:13:10,760
+Now here again I tell if they are interested in holography, I tell them to broaden their scientific base so that they can shift any time.
+
+174
+00:13:10,760 --> 00:13:11,320
+Mm-hmm.
+
+175
+00:13:11,320 --> 00:13:14,120
+Uh laterally, you know, into a a life.
+
+176
+00:13:14,120 --> 00:13:20,600
+For example, the big application in holography, uh in the next ten years is computer memory.
+
+177
+00:13:20,600 --> 00:13:21,160
+Yes.
+
+178
+00:13:21,160 --> 00:13:32,120
+Uh each uh holographic optical element to control light inside the computer chip, mm-hmm to distribute the information from one chip to another via light.
+
+179
+00:13:32,120 --> 00:13:34,520
+That's the important use.
+
+180
+00:13:34,520 --> 00:13:41,160
+Even now the most important uses of holography, uh you know, in my I I have a Tom Pine mat.
+
+181
+00:13:41,160 --> 00:13:45,640
+I always wear chip watches because I lose them when I'm winning.
+
+182
+00:13:45,640 --> 00:13:50,040
+But there's a hologram in in there that you're looking right through.
+
+183
+00:13:50,040 --> 00:13:50,840
+Really?
+
+184
+00:13:50,840 --> 00:14:01,320
+Uh used to when you push the button at night to look at what time it is, mm-hmm, there would be w one little bright s light on one corner and spread out to the other side and it fades out.
+
+185
+00:14:01,320 --> 00:14:07,800
+Right now there's a hologram uh layer in there that spreads the light evenly throughout the entire space of my watch.
+
+186
+00:14:07,840 --> 00:14:09,560
+There's a hologram, nobody knows about that.
+
+187
+00:14:09,800 --> 00:14:11,960
+I did not know about that on the Timex watch.
+
+188
+00:14:11,960 --> 00:14:21,440
+Yep, in the Motorola uh cell phone, mm-hmm, you turn it on at night, there's a hologram on the on under the glass.
+
+189
+00:14:21,440 --> 00:14:22,640
+Isn't that interesting?
+
+190
+00:14:22,640 --> 00:14:34,000
+In other words, there are in lots of places in a C D player there's a hologram inside to split the light, send the light to different places, you know, and grocery store.
+
+191
+00:14:34,080 --> 00:14:42,720
+In in other words, holograms are already in many places people don't know, and in the future it'll be many other places.
+
+192
+00:14:42,720 --> 00:14:43,760
+That's something.
+
+193
+00:14:43,760 --> 00:14:52,480
+And that's whole area, uh so I tell students they can have fun making holograms of pictures to to learn.
+
+194
+00:14:52,480 --> 00:14:54,240
+Maybe that's their profession.
+
+195
+00:14:54,240 --> 00:14:57,040
+Make art uh image, artistic images.
+
+196
+00:14:57,040 --> 00:15:00,800
+But by learning one thing, you automatically are learning a million things.
+
+197
+00:15:01,520 --> 00:15:11,840
+Relate, you know, one learning to another, how generic learnings are that one physical law apply to infinite number of things.
+
+198
+00:15:11,840 --> 00:15:16,720
+And then be able to be flexible when you see an application in H O E do that.
+
+199
+00:15:16,720 --> 00:15:18,560
+In interferometry, do that.
+
+200
+00:15:18,560 --> 00:15:19,600
+Mm-hmm.
+
+201
+00:15:19,600 --> 00:15:32,560
+So uh in that sense holography grows in in diverse fields as it is now kind of invisible doing s uh uh in front of your eye, literally.
+
+202
+00:15:32,880 --> 00:15:35,600
+That we don't we're not even aware of.
+
+203
+00:15:35,600 --> 00:15:42,960
+Do you think the um Agas situation is going to have any detrimental effect on holographic education in the United States?
+
+204
+00:15:42,960 --> 00:15:45,200
+Uh I think I'm an optimist.
+
+205
+00:15:45,200 --> 00:15:58,000
+I wrote an editorial for the proceedings of the volume being uh published just last month uh by the S P I E uh of the conference that we had last summer.
+
+206
+00:15:58,000 --> 00:15:58,480
+Mm-hmm.
+
+207
+00:15:58,480 --> 00:16:04,440
+And my the title of my my introduction was holography, a runos renaissance.
+
+208
+00:16:05,240 --> 00:16:13,240
+What I say is ACFA's withdrawal actually ignited a forest fire, which is a bad thing, right?
+
+209
+00:16:13,240 --> 00:16:16,920
+But after a forest fire, new growth takes place.
+
+210
+00:16:16,920 --> 00:16:17,480
+I see.
+
+211
+00:16:17,480 --> 00:16:20,280
+It clears down and that's exactly what's going on.
+
+212
+00:16:20,280 --> 00:16:28,040
+ACFA dominated the scene for twenty five years, so no one else will even get in and bother to make good film and plates.
+
+213
+00:16:28,040 --> 00:16:28,680
+Mm-hmm.
+
+214
+00:16:28,680 --> 00:16:33,080
+So we stage data scroll no colour holograms.
+
+215
+00:16:33,080 --> 00:16:35,320
+I mean two colour holograms.
+
+216
+00:16:35,320 --> 00:16:43,000
+But by their withdrawing now suddenly we find other sources from Germany, from Russia, from Japan and China.
+
+217
+00:16:43,000 --> 00:16:43,880
+Mm-hmm.
+
+218
+00:16:43,880 --> 00:16:47,080
+And they're better than ECFA.
+
+219
+00:16:47,080 --> 00:16:49,560
+In other words, uh that's a renaissance.
+
+220
+00:16:49,560 --> 00:16:50,280
+Yes.
+
+221
+00:16:50,280 --> 00:16:55,960
+And DuPont now is in the game of making photopolymer holograms in full color.
+
+222
+00:16:56,440 --> 00:17:03,880
+We do that by the way, we use DuPont full colour, uh photopolymer and make copies of a holograms.
+
+223
+00:17:03,880 --> 00:17:04,840
+Mm-hmm.
+
+224
+00:17:04,840 --> 00:17:06,520
+For your full colour holograms.
+
+225
+00:17:06,520 --> 00:17:08,200
+Right, right, to mass produce them.
+
+226
+00:17:08,200 --> 00:17:09,720
+Mm-hmm.
+
+227
+00:17:09,720 --> 00:17:16,760
+So in other words there's this gonna be a uh a new life, new millennium for holography.
+
+228
+00:17:16,760 --> 00:17:22,600
+Using new and better materials, uh with more w uh wide open applications.
+
+229
+00:17:22,600 --> 00:17:26,200
+Now you have a business which you have had for many years, Integraph.
+
+230
+00:17:26,520 --> 00:17:27,240
+Right.
+
+231
+00:17:29,400 --> 00:17:39,880
+This yes, uh early in my uh career when I stopped teaching uh especially children hologram, they always wanna find out where can I buy the film.
+
+232
+00:17:40,280 --> 00:17:47,040
+At that time, you know, only you can buy it only in bulk, a whole roll of this, a whole big box of that and so forth.
+
+233
+00:17:47,040 --> 00:17:54,160
+But a science fair project student is not going to have the money or the need for large quantities.
+
+234
+00:17:54,160 --> 00:17:54,640
+Mm-hmm.
+
+235
+00:17:54,640 --> 00:17:59,120
+So we decided uh at home, look, we'll sell you one square foot of film.
+
+236
+00:17:59,120 --> 00:18:00,640
+That's all you need.
+
+237
+00:18:00,640 --> 00:18:07,840
+Well it turned out it grows and grow and becomes a complete business and we Integraph now supply uh to the whole world.
+
+238
+00:18:07,840 --> 00:18:11,520
+Our biggest customer last year was Australia.
+
+239
+00:18:11,520 --> 00:18:12,560
+No kidding.
+
+240
+00:18:12,560 --> 00:18:13,680
+Right.
+
+241
+00:18:13,680 --> 00:18:20,560
+And so uh we also got a dealership from DuPont to sell their Omni Tech seven oh six.
+
+242
+00:18:20,880 --> 00:18:25,200
+They they only give two dealerships in the whole world at that time.
+
+243
+00:18:25,200 --> 00:18:27,840
+So um that's uh Intigraph.
+
+244
+00:18:27,840 --> 00:18:33,360
+So uh we now assemble a kit for learners of any age.
+
+245
+00:18:33,360 --> 00:18:42,720
+You want to spend minimum uh amount of money to start why waste money by buying all the new gadgets you don't even know what they are.
+
+246
+00:18:42,720 --> 00:18:49,600
+So using the simplest thing learn seven projects first, then you know what you need next to learn the next project.
+
+247
+00:18:49,600 --> 00:18:53,120
+So so uh we still are aim at education.
+
+248
+00:18:53,120 --> 00:19:08,560
+Our customer base is schools, universities and people want to learn holography so we make videos show you how to do it and uh other written material to what to do next after that little book clip you know.
+
+249
+00:19:08,640 --> 00:19:26,400
+Why don't you let everyone know your email address and maybe this is my name just T, my initial and then my last name J E O N G with no space, T J E O N G at A O L dot com.
+
+250
+00:19:26,360 --> 00:19:33,160
+And I do that we can give people complete catalogs and we even give advice when people have trouble.
+
+251
+00:19:33,400 --> 00:19:38,600
+They just ask me questions in the internet and I tell you, here's what you d I think you have done wrong, you know.
+
+252
+00:19:38,600 --> 00:19:39,960
+Mm-hmm.
+
+253
+00:19:39,960 --> 00:19:45,000
+I also uh include a link with your name on the Holo Talk page.
+
+254
+00:19:45,000 --> 00:19:50,360
+So if they click on your name, yeah, when they click on your name they'll get your email address.
+
+255
+00:19:50,360 --> 00:19:51,080
+How's that?
+
+256
+00:19:51,080 --> 00:19:54,200
+So that uh if anyone say that again I cannot hear you.
+
+257
+00:19:54,200 --> 00:19:58,040
+What I'll do is I'll create a link on the Holo Talk page.
+
+258
+00:19:58,040 --> 00:19:58,520
+Sure.
+
+259
+00:19:58,520 --> 00:20:07,160
+And where your name will be listed and if they click on your name they will get an email form that they can request information about your products with integration.
+
+260
+00:20:07,160 --> 00:20:07,960
+Right, that's great.
+
+261
+00:20:07,960 --> 00:20:08,440
+Okay.
+
+262
+00:20:08,440 --> 00:20:08,760
+Right.
+
+263
+00:20:08,760 --> 00:20:09,720
+I appreciate that.
+
+264
+00:20:09,720 --> 00:20:14,600
+Anything else you want to let the listeners know about, uh before we wrap this up.
+
+265
+00:20:14,600 --> 00:20:21,800
+Well, uh I I tell I I'm a professor in the liberal arts college for a reason.
+
+266
+00:20:21,800 --> 00:20:30,520
+I tell uh all young people to make sure you broaden your education and not start narrowing down too early.
+
+267
+00:20:30,520 --> 00:20:37,880
+Make sure you read history, read literature, do music, and make some holograms for fun.
+
+268
+00:20:37,880 --> 00:20:48,360
+And then when you have done a broad based education, then you choose which is the best that suits you.
+
+269
+00:20:48,360 --> 00:20:50,440
+So I don't sell holography at all.
+
+270
+00:20:50,840 --> 00:21:00,920
+I sell it that's part of the thing that I can do to help uh people to get into this particular area in addition to all the other areas.
+
+271
+00:21:00,920 --> 00:21:01,720
+That's very wise.
+
+272
+00:21:01,720 --> 00:21:03,880
+I hear you're quite the violinist as well.
+
+273
+00:21:03,880 --> 00:21:05,400
+I play in two orchestra.
+
+274
+00:21:05,400 --> 00:21:14,120
+I'm a concert master of the a college of chamber orchestra and I play first violin in a semi professional orchestra.
+
+275
+00:21:14,120 --> 00:21:17,280
+And I enjoy it enormously.
+
+276
+00:21:17,280 --> 00:21:21,040
+And I windsurf with my children.
+
+277
+00:21:21,040 --> 00:21:22,000
+I can keep up with them.
+
+278
+00:21:22,320 --> 00:21:23,840
+How old are you how old are your sons?
+
+279
+00:21:24,400 --> 00:21:28,480
+And uh so I that's my philosophy of life.
+
+280
+00:21:28,480 --> 00:21:30,080
+How old are your sons?
+
+281
+00:21:30,080 --> 00:21:34,720
+Uh they are uh thirty and thirty two and I'm sixty six.
+
+282
+00:21:34,720 --> 00:21:38,800
+I I have three daughters eighteen, seventeen and uh fifteen.
+
+283
+00:21:38,800 --> 00:21:39,600
+Wow.
+
+284
+00:21:41,680 --> 00:21:45,760
+Yeah the oldest one's away a college physics major so I hope she does wow.
+
+285
+00:21:45,760 --> 00:21:46,240
+Yes.
+
+286
+00:21:46,240 --> 00:21:46,800
+That's great.
+
+287
+00:21:46,800 --> 00:21:47,360
+What college?
+
+288
+00:21:47,440 --> 00:21:51,520
+Uh Georgian Court College which is a private women's college in New Jersey.
+
+289
+00:21:51,520 --> 00:21:54,960
+I'm for private uh uh liberal arts colleges.
+
+290
+00:21:54,960 --> 00:21:55,520
+Yes.
+
+291
+00:21:55,520 --> 00:21:59,040
+Because he there we pay attention to each individual.
+
+292
+00:21:59,040 --> 00:21:59,840
+Mm-hmm.
+
+293
+00:21:59,840 --> 00:22:07,840
+And uh my philosophy is go to a good small liberal arts college and then go to a big good graduate school.
+
+294
+00:22:07,920 --> 00:22:11,760
+That's that's the advice that she received as well and she's doing pretty good.
+
+295
+00:22:11,760 --> 00:22:13,520
+That I believe in that firm yes.
+
+296
+00:22:13,520 --> 00:22:16,400
+Well Dr Jalen it was a pleasure speaking with you.
+
+297
+00:22:16,400 --> 00:22:17,280
+Great pleasure.
+
+298
+00:22:17,280 --> 00:22:20,480
+And uh I hope you log on and hear the interview.
+
+299
+00:22:21,040 --> 00:22:23,760
+I'll have a Tuesday I'm starting a new life.
+
+300
+00:22:23,760 --> 00:22:25,920
+Well congratulations on your new life.
+
+301
+00:22:25,920 --> 00:22:38,080
+I can't wait till I can start my new life too I still have a few years to I think you've got a good a very interesting one and I certainly you're very devoted to what you're doing and that is a sign that you enjoy what you're doing.
+
+302
+00:22:38,080 --> 00:22:38,960
+Yeah I have a great time.
+
+303
+00:22:39,280 --> 00:22:39,840
+Right.
+
+304
+00:22:39,840 --> 00:22:41,040
+Thank you very much for being a guest.
+
+305
+00:22:41,360 --> 00:22:41,760
+Good night.
+
+306
+00:22:41,760 --> 00:22:43,520
+Okay good night bye

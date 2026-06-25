@@ -1,0 +1,2296 @@
+1
+00:00:02,179 --> 00:00:06,960
+the following is a production of Frankie
+
+2
+00:00:04,740 --> 00:00:08,640
+Freitas and the internet will exam of
+
+3
+00:00:06,960 --> 00:00:11,800
+holography
+
+4
+00:00:08,640 --> 00:00:11,800
+[Music]
+
+5
+00:00:12,660 --> 00:00:16,980
+hello everyone this is Frank de Freitas
+
+6
+00:00:14,880 --> 00:00:19,920
+and welcome to another week of holotalk
+
+7
+00:00:16,980 --> 00:00:22,260
+we actually have two guests this week we
+
+8
+00:00:19,920 --> 00:00:25,500
+have Rob Taylor from fourth dimension
+
+9
+00:00:22,260 --> 00:00:27,660
+holographics in Nashville Indiana and we
+
+10
+00:00:25,500 --> 00:00:29,160
+have Mikhail greaching I think that's
+
+11
+00:00:27,660 --> 00:00:31,260
+how you pronounce the last name my
+
+12
+00:00:29,160 --> 00:00:34,440
+apologies if it's pronounced incorrectly
+
+13
+00:00:31,260 --> 00:00:36,780
+it's spelled g-r-i-c-h-i-n-e and Mikhail
+
+14
+00:00:34,440 --> 00:00:39,120
+is the director of the giola lab in
+
+15
+00:00:36,780 --> 00:00:41,460
+Lithuania and both will be on to tell us
+
+16
+00:00:39,120 --> 00:00:43,559
+about the first totally automated
+
+17
+00:00:41,460 --> 00:00:46,079
+holographic pulse camera system from
+
+18
+00:00:43,559 --> 00:00:48,300
+giola that's being installed here in the
+
+19
+00:00:46,079 --> 00:00:51,180
+United States so we will have them on in
+
+20
+00:00:48,300 --> 00:00:53,640
+just a minute but first I have a few
+
+21
+00:00:51,180 --> 00:00:55,860
+announcements to make first of which
+
+22
+00:00:53,640 --> 00:00:58,440
+is happy birthday to my daughter who's
+
+23
+00:00:55,860 --> 00:01:00,780
+going to be 20 years old on November 2nd
+
+24
+00:00:58,440 --> 00:01:04,680
+and she is a physics and Mathematics
+
+25
+00:01:00,780 --> 00:01:07,020
+major whose Professor was in one of my
+
+26
+00:01:04,680 --> 00:01:09,000
+holography workshops back in the early
+
+27
+00:01:07,020 --> 00:01:13,260
+80s so I just want to say happy birthday
+
+28
+00:01:09,000 --> 00:01:15,420
+to you and uh it did the odds and
+
+29
+00:01:13,260 --> 00:01:17,000
+strange feeling to finally have a
+
+30
+00:01:15,420 --> 00:01:19,740
+daughter or child
+
+31
+00:01:17,000 --> 00:01:21,659
+that's in their 20s now so what does
+
+32
+00:01:19,740 --> 00:01:23,640
+that say about me she's the oldest of
+
+33
+00:01:21,659 --> 00:01:26,820
+three and happy birthday
+
+34
+00:01:23,640 --> 00:01:28,799
+got an email from TJ Dr Jay Ong from
+
+35
+00:01:26,820 --> 00:01:31,920
+Lake Forest College and he wanted to
+
+36
+00:01:28,799 --> 00:01:33,780
+inform me that he now has a holography
+
+37
+00:01:31,920 --> 00:01:36,720
+kit that he put together and is
+
+38
+00:01:33,780 --> 00:01:38,960
+available for sale at his integraff
+
+39
+00:01:36,720 --> 00:01:42,119
+website which is based around
+
+40
+00:01:38,960 --> 00:01:45,000
+laser pointer or laser diode holography
+
+41
+00:01:42,119 --> 00:01:47,400
+and it comes with the laser diode the
+
+42
+00:01:45,000 --> 00:01:49,560
+film the chemistry and I believe one or
+
+43
+00:01:47,400 --> 00:01:52,020
+two instruction manuals on how to do
+
+44
+00:01:49,560 --> 00:01:54,000
+experiments using the kit so if you have
+
+45
+00:01:52,020 --> 00:01:55,860
+an interest in purchasing the kit you
+
+46
+00:01:54,000 --> 00:01:58,100
+can go to the link page and the link
+
+47
+00:01:55,860 --> 00:02:00,299
+that you're looking for is integrath
+
+48
+00:01:58,100 --> 00:02:02,460
+click on that link and it will take you
+
+49
+00:02:00,299 --> 00:02:04,500
+to TJ's website and you can get more
+
+50
+00:02:02,460 --> 00:02:06,060
+information and ordering information on
+
+51
+00:02:04,500 --> 00:02:08,280
+this kit
+
+52
+00:02:06,060 --> 00:02:09,979
+also I'd like to remind everyone that
+
+53
+00:02:08,280 --> 00:02:13,560
+this Wednesday evening
+
+54
+00:02:09,979 --> 00:02:16,319
+is the open house here in the studio at
+
+55
+00:02:13,560 --> 00:02:19,140
+Allentown Pennsylvania and the topic
+
+56
+00:02:16,319 --> 00:02:22,200
+is post not actually pulse but the
+
+57
+00:02:19,140 --> 00:02:23,879
+holographic portraits and it ties in
+
+58
+00:02:22,200 --> 00:02:25,739
+very nicely with the show that we're
+
+59
+00:02:23,879 --> 00:02:28,020
+having this week and when you come into
+
+60
+00:02:25,739 --> 00:02:31,860
+the studio you'll be able to see
+
+61
+00:02:28,020 --> 00:02:33,900
+examples of pulse telegraphy and also a
+
+62
+00:02:31,860 --> 00:02:35,879
+few Holograms that were shot when myself
+
+63
+00:02:33,900 --> 00:02:39,000
+and my youngest daughter went to New
+
+64
+00:02:35,879 --> 00:02:40,920
+York to the Sony Center to have our
+
+65
+00:02:39,000 --> 00:02:43,379
+holographic portraits done on Sony's
+
+66
+00:02:40,920 --> 00:02:45,480
+instant stereographic holographic camera
+
+67
+00:02:43,379 --> 00:02:47,040
+as well so we'll have them here and to
+
+68
+00:02:45,480 --> 00:02:49,040
+close out the evening we'll be showing
+
+69
+00:02:47,040 --> 00:02:52,519
+you how you can do your own little
+
+70
+00:02:49,040 --> 00:02:54,720
+holographic portraits using your typical
+
+71
+00:02:52,519 --> 00:02:56,819
+equipment that you have in your studio
+
+72
+00:02:54,720 --> 00:03:00,140
+such as your sand table your continuous
+
+73
+00:02:56,819 --> 00:03:02,400
+wave helium these neon or
+
+74
+00:03:00,140 --> 00:03:03,720
+diode laser system but what's
+
+75
+00:03:02,400 --> 00:03:06,300
+interesting is you can shoot these
+
+76
+00:03:03,720 --> 00:03:08,459
+Holograms starting with your 35
+
+77
+00:03:06,300 --> 00:03:10,860
+millimeter camera in any standard 35
+
+78
+00:03:08,459 --> 00:03:12,360
+millimeter Cameron and proceed to make
+
+79
+00:03:10,860 --> 00:03:14,879
+your holographic portrait and we'll take
+
+80
+00:03:12,360 --> 00:03:17,280
+a look at both the holographic strip
+
+81
+00:03:14,879 --> 00:03:19,379
+Masters the laser transmission Masters
+
+82
+00:03:17,280 --> 00:03:21,659
+and also the transfers now of course
+
+83
+00:03:19,379 --> 00:03:24,599
+these Holograms are nothing compared to
+
+84
+00:03:21,659 --> 00:03:27,540
+the um laser systems that are out there
+
+85
+00:03:24,599 --> 00:03:29,640
+in some of the Laboratories but it makes
+
+86
+00:03:27,540 --> 00:03:31,379
+very nice little holographic portraits
+
+87
+00:03:29,640 --> 00:03:32,940
+that you could do on your own of your
+
+88
+00:03:31,379 --> 00:03:34,920
+friends and family and pets or whatever
+
+89
+00:03:32,940 --> 00:03:37,620
+and you might want to come out and check
+
+90
+00:03:34,920 --> 00:03:39,720
+that out it starts at 7 30 p.m promptly
+
+91
+00:03:37,620 --> 00:03:42,239
+London about an hour and a half to nine
+
+92
+00:03:39,720 --> 00:03:43,920
+o'clock it's free of charge but you do
+
+93
+00:03:42,239 --> 00:03:46,379
+need to send me an email or give me a
+
+94
+00:03:43,920 --> 00:03:48,060
+call on the phone to let me know to
+
+95
+00:03:46,379 --> 00:03:49,620
+expect you to be here there's
+
+96
+00:03:48,060 --> 00:03:52,440
+refreshment Surge and we all have a
+
+97
+00:03:49,620 --> 00:03:54,599
+pretty good time so let's move on to our
+
+98
+00:03:52,440 --> 00:03:56,220
+interview and I just want to thank you
+
+99
+00:03:54,599 --> 00:03:57,959
+for tuning in we're having a great
+
+100
+00:03:56,220 --> 00:04:00,060
+season this is the third season here
+
+101
+00:03:57,959 --> 00:04:02,060
+Hall of talk and we're getting a lot of
+
+102
+00:04:00,060 --> 00:04:05,400
+listeners this year
+
+103
+00:04:02,060 --> 00:04:07,620
+each week I like to think that I'm able
+
+104
+00:04:05,400 --> 00:04:09,659
+to bring you news and information
+
+105
+00:04:07,620 --> 00:04:12,720
+concerning the fields of lasers and
+
+106
+00:04:09,659 --> 00:04:14,340
+holography I hope you enjoy the show I
+
+107
+00:04:12,720 --> 00:04:16,199
+try to have guests each week but
+
+108
+00:04:14,340 --> 00:04:18,959
+occasionally I'll take a show on my own
+
+109
+00:04:16,199 --> 00:04:22,320
+in case you know sometimes someone can't
+
+110
+00:04:18,959 --> 00:04:23,220
+make it as scheduled or just that there
+
+111
+00:04:22,320 --> 00:04:25,680
+happens to be
+
+112
+00:04:23,220 --> 00:04:27,780
+I'd like to pass along to you such as a
+
+113
+00:04:25,680 --> 00:04:29,520
+special show that I have coming up on
+
+114
+00:04:27,780 --> 00:04:30,960
+the re-emergence of single beam
+
+115
+00:04:29,520 --> 00:04:32,580
+holography which should be very
+
+116
+00:04:30,960 --> 00:04:34,680
+interesting for a lot of amateurs and
+
+117
+00:04:32,580 --> 00:04:37,080
+hobbyists out there to hear how you can
+
+118
+00:04:34,680 --> 00:04:39,960
+do some very nice single beam Holograms
+
+119
+00:04:37,080 --> 00:04:41,220
+including image plane transfers and
+
+120
+00:04:39,960 --> 00:04:42,960
+things of that nature that'll be coming
+
+121
+00:04:41,220 --> 00:04:44,340
+up as well so I will say thank you for
+
+122
+00:04:42,960 --> 00:04:47,400
+tuning in I'm not going to come on after
+
+123
+00:04:44,340 --> 00:04:49,080
+the show's over and I hope you tune in
+
+124
+00:04:47,400 --> 00:04:51,360
+each and every week to hold a talk
+
+125
+00:04:49,080 --> 00:04:53,040
+throughout this season which will run to
+
+126
+00:04:51,360 --> 00:04:56,100
+Memorial Day
+
+127
+00:04:53,040 --> 00:04:59,120
+the year 2000 so thanks for tuning in
+
+128
+00:04:56,100 --> 00:05:02,100
+here's the show see you next week
+
+129
+00:04:59,120 --> 00:05:05,340
+Frank well hello how did you know it was
+
+130
+00:05:02,100 --> 00:05:07,560
+me oh yeah because uh this line doesn't
+
+131
+00:05:05,340 --> 00:05:10,139
+get much use now we just uh activated
+
+132
+00:05:07,560 --> 00:05:11,520
+this line for the studio oh I see well
+
+133
+00:05:10,139 --> 00:05:14,100
+you're getting to have a lot of fun out
+
+134
+00:05:11,520 --> 00:05:16,800
+there yeah we sure are I can't hardly
+
+135
+00:05:14,100 --> 00:05:19,380
+stand it I'm so excited around right now
+
+136
+00:05:16,800 --> 00:05:21,060
+why don't we start right off by you
+
+137
+00:05:19,380 --> 00:05:24,180
+telling everyone what it is that you're
+
+138
+00:05:21,060 --> 00:05:27,539
+doing out there well we have uh just
+
+139
+00:05:24,180 --> 00:05:31,440
+installed and uh completed the first
+
+140
+00:05:27,539 --> 00:05:33,539
+master and copying uh with the
+
+141
+00:05:31,440 --> 00:05:35,460
+I guess you could say it's this
+
+142
+00:05:33,539 --> 00:05:39,960
+hemisphere's first totally automated
+
+143
+00:05:35,460 --> 00:05:42,120
+holographic pulse camera system and we
+
+144
+00:05:39,960 --> 00:05:43,160
+have been installing it since last
+
+145
+00:05:42,120 --> 00:05:47,340
+Thursday
+
+146
+00:05:43,160 --> 00:05:50,639
+and today we just started doing the
+
+147
+00:05:47,340 --> 00:05:54,960
+calibration and testing with the test
+
+148
+00:05:50,639 --> 00:05:57,979
+slavich plates and we just just stuck
+
+149
+00:05:54,960 --> 00:06:01,560
+the 30 by 40 centimeter
+
+150
+00:05:57,979 --> 00:06:04,699
+H2 transfer reflection copy on the
+
+151
+00:06:01,560 --> 00:06:08,820
+drying rack about 10 minutes ago we did
+
+152
+00:06:04,699 --> 00:06:10,860
+my I just recorded my father who's 72
+
+153
+00:06:08,820 --> 00:06:13,199
+years old and he was my first test
+
+154
+00:06:10,860 --> 00:06:15,180
+subject well you know I've only said
+
+155
+00:06:13,199 --> 00:06:17,880
+that there are so many people in our
+
+156
+00:06:15,180 --> 00:06:21,600
+history right now that really need to be
+
+157
+00:06:17,880 --> 00:06:25,740
+recorded holographically yeah it's uh
+
+158
+00:06:21,600 --> 00:06:27,720
+especially I I see uh big applications
+
+159
+00:06:25,740 --> 00:06:31,500
+for the very young and the very old
+
+160
+00:06:27,720 --> 00:06:34,680
+because you can record Young
+
+161
+00:06:31,500 --> 00:06:36,720
+children at the precious you know moment
+
+162
+00:06:34,680 --> 00:06:39,660
+when they're you know at a certain age
+
+163
+00:06:36,720 --> 00:06:41,160
+and they are really uh you know you
+
+164
+00:06:39,660 --> 00:06:44,220
+always want to remember them a certain
+
+165
+00:06:41,160 --> 00:06:46,560
+age and then uh you know older people
+
+166
+00:06:44,220 --> 00:06:50,460
+that have developed you know have a lot
+
+167
+00:06:46,560 --> 00:06:52,319
+of wisdom and that type of thing for uh
+
+168
+00:06:50,460 --> 00:06:54,180
+you know in the in their later years
+
+169
+00:06:52,319 --> 00:06:56,460
+they have a lot of character built into
+
+170
+00:06:54,180 --> 00:06:58,500
+their face it's a perfect time to record
+
+171
+00:06:56,460 --> 00:07:01,919
+that person yeah very interesting
+
+172
+00:06:58,500 --> 00:07:03,900
+three-dimensional subjects yeah yeah and
+
+173
+00:07:01,919 --> 00:07:06,960
+it's amazing for kids who have had
+
+174
+00:07:03,900 --> 00:07:09,300
+holographic portraits done that after 5
+
+175
+00:07:06,960 --> 00:07:10,860
+10 15 years have gone by and they go
+
+176
+00:07:09,300 --> 00:07:13,740
+back and they look at themselves again
+
+177
+00:07:10,860 --> 00:07:15,780
+looking at themselves as kids
+
+178
+00:07:13,740 --> 00:07:17,580
+you know staring back at themselves and
+
+179
+00:07:15,780 --> 00:07:19,020
+that's that's an incredible feeling yeah
+
+180
+00:07:17,580 --> 00:07:20,280
+it would be interesting to do and I
+
+181
+00:07:19,020 --> 00:07:23,160
+don't know that anybody's ever done it
+
+182
+00:07:20,280 --> 00:07:25,860
+but it would be interesting to a child
+
+183
+00:07:23,160 --> 00:07:29,819
+um masters of a child through you know
+
+184
+00:07:25,860 --> 00:07:32,520
+certain phases or ages of their life and
+
+185
+00:07:29,819 --> 00:07:34,560
+then incorporate those Masters in what
+
+186
+00:07:32,520 --> 00:07:36,479
+to like say a three-channel reflection
+
+187
+00:07:34,560 --> 00:07:39,180
+hologram so that you could actually see
+
+188
+00:07:36,479 --> 00:07:40,979
+them from a young age and then a little
+
+189
+00:07:39,180 --> 00:07:42,599
+bit older like say four or five years
+
+190
+00:07:40,979 --> 00:07:45,780
+older and then say four or five years
+
+191
+00:07:42,599 --> 00:07:49,139
+older again that would be an interesting
+
+192
+00:07:45,780 --> 00:07:51,120
+uh hologram that's a great idea that's a
+
+193
+00:07:49,139 --> 00:07:54,419
+great idea would it be too early for me
+
+194
+00:07:51,120 --> 00:07:56,819
+to ask you the price of this service
+
+195
+00:07:54,419 --> 00:08:00,419
+um no I think that we are going to be
+
+196
+00:07:56,819 --> 00:08:04,259
+doing uh 30 by 40 centimeter glass
+
+197
+00:08:00,419 --> 00:08:06,479
+pillai reflection copies for 495 dollars
+
+198
+00:08:04,259 --> 00:08:09,300
+that's our targeted price and I don't
+
+199
+00:08:06,479 --> 00:08:10,800
+see any reason why through this uh just
+
+200
+00:08:09,300 --> 00:08:12,479
+uh initial testing that we just
+
+201
+00:08:10,800 --> 00:08:13,860
+completed that we can't stay on target
+
+202
+00:08:12,479 --> 00:08:16,380
+with that price
+
+203
+00:08:13,860 --> 00:08:18,560
+very reasonable yeah that's pretty much
+
+204
+00:08:16,380 --> 00:08:20,879
+a price breakthrough yeah yeah
+
+205
+00:08:18,560 --> 00:08:22,680
+now why don't you tell everybody where
+
+206
+00:08:20,879 --> 00:08:24,419
+your studio is located and you also have
+
+207
+00:08:22,680 --> 00:08:27,360
+a retail shop and everything there don't
+
+208
+00:08:24,419 --> 00:08:28,740
+you yeah we're in a little town uh in
+
+209
+00:08:27,360 --> 00:08:30,960
+Southern Indiana called Nashville
+
+210
+00:08:28,740 --> 00:08:34,500
+Indiana we're kind of in the heart of
+
+211
+00:08:30,960 --> 00:08:37,740
+the Hoosier National Forest uh very uh
+
+212
+00:08:34,500 --> 00:08:39,419
+picturesque and rustic area down here in
+
+213
+00:08:37,740 --> 00:08:40,020
+Southern Indiana
+
+214
+00:08:39,419 --> 00:08:42,839
+um
+
+215
+00:08:40,020 --> 00:08:44,779
+it's a kind of a tourist town with a lot
+
+216
+00:08:42,839 --> 00:08:47,940
+of crafts people that make their own
+
+217
+00:08:44,779 --> 00:08:50,040
+products and so we like to think of
+
+218
+00:08:47,940 --> 00:08:52,080
+ourselves as a crafts people here too
+
+219
+00:08:50,040 --> 00:08:53,640
+now that we're uh have this pulse
+
+220
+00:08:52,080 --> 00:08:55,740
+photography system and we can be doing
+
+221
+00:08:53,640 --> 00:08:58,080
+recording is that a yes that's a solid
+
+222
+00:08:55,740 --> 00:09:03,060
+state laser in that system right
+
+223
+00:08:58,080 --> 00:09:07,260
+um yes yeah it's uh neodymium Yelp glass
+
+224
+00:09:03,060 --> 00:09:11,000
+phosphate laser driven by a crystal I
+
+225
+00:09:07,260 --> 00:09:14,399
+see and Flash lamps actually we got the
+
+226
+00:09:11,000 --> 00:09:17,959
+unless the components last Thursday and
+
+227
+00:09:14,399 --> 00:09:21,360
+unfortunately through the shipping from
+
+228
+00:09:17,959 --> 00:09:24,120
+Lithuania we experienced one flash lamp
+
+229
+00:09:21,360 --> 00:09:27,120
+that had broken and in the main
+
+230
+00:09:24,120 --> 00:09:29,760
+amplifier so we have been waiting for
+
+231
+00:09:27,120 --> 00:09:32,279
+about two or three days to get that in
+
+232
+00:09:29,760 --> 00:09:34,320
+and we just got that in last night at
+
+233
+00:09:32,279 --> 00:09:37,500
+five o'clock so we installed that last
+
+234
+00:09:34,320 --> 00:09:39,890
+night and we're up and running this
+
+235
+00:09:37,500 --> 00:09:41,220
+morning what's the power requirements
+
+236
+00:09:39,890 --> 00:09:46,019
+[Applause]
+
+237
+00:09:41,220 --> 00:09:49,860
+um we're using 220 or 240 volts but uh
+
+238
+00:09:46,019 --> 00:09:52,500
+it's a single phase and you can you
+
+239
+00:09:49,860 --> 00:09:55,560
+could you can power this thing actually
+
+240
+00:09:52,500 --> 00:09:59,459
+over a standard 110 current no kidding
+
+241
+00:09:55,560 --> 00:10:01,080
+yes wow yeah it's a it's a pretty uh
+
+242
+00:09:59,459 --> 00:10:03,240
+exciting thing to be involved in I'm
+
+243
+00:10:01,080 --> 00:10:05,519
+very very excited and lucky to be able
+
+244
+00:10:03,240 --> 00:10:07,080
+to have this is that relatively new this
+
+245
+00:10:05,519 --> 00:10:08,480
+technology or has it been around for
+
+246
+00:10:07,080 --> 00:10:10,980
+many years
+
+247
+00:10:08,480 --> 00:10:13,380
+coralsely applied to the system
+
+248
+00:10:10,980 --> 00:10:16,680
+it's a it's a relatively new technology
+
+249
+00:10:13,380 --> 00:10:19,620
+I would think uh you know I um I I would
+
+250
+00:10:16,680 --> 00:10:21,720
+probably like to refer you to uh Mikhail
+
+251
+00:10:19,620 --> 00:10:23,220
+because he's actually the inventor of
+
+252
+00:10:21,720 --> 00:10:24,959
+the camera system or most of the
+
+253
+00:10:23,220 --> 00:10:26,240
+components within
+
+254
+00:10:24,959 --> 00:10:29,640
+um he
+
+255
+00:10:26,240 --> 00:10:31,560
+works with giola the company that
+
+256
+00:10:29,640 --> 00:10:35,540
+actually manufactures this camera system
+
+257
+00:10:31,560 --> 00:10:38,220
+in Lithuania we actually
+
+258
+00:10:35,540 --> 00:10:41,160
+formed a partnership to get this into
+
+259
+00:10:38,220 --> 00:10:44,040
+the United States and use components
+
+260
+00:10:41,160 --> 00:10:47,700
+both from the US and Lithuania and
+
+261
+00:10:44,040 --> 00:10:50,459
+russian-based technology so we kind of
+
+262
+00:10:47,700 --> 00:10:52,560
+formed a combination to actually get the
+
+263
+00:10:50,459 --> 00:10:55,019
+required Parts together and actually
+
+264
+00:10:52,560 --> 00:10:58,440
+assemble a camera system here
+
+265
+00:10:55,019 --> 00:11:00,120
+easy to get to your shop from any or
+
+266
+00:10:58,440 --> 00:11:01,680
+could you name some of the larger
+
+267
+00:11:00,120 --> 00:11:03,240
+metropolitan areas that are around you
+
+268
+00:11:01,680 --> 00:11:06,660
+yeah we're about
+
+269
+00:11:03,240 --> 00:11:09,560
+um uh hour South of Indianapolis which
+
+270
+00:11:06,660 --> 00:11:09,560
+is the capital of Indiana
+
+271
+00:11:09,800 --> 00:11:16,440
+Cincinnati
+
+272
+00:11:12,320 --> 00:11:18,420
+Columbus Chicago Louisville Kentucky all
+
+273
+00:11:16,440 --> 00:11:20,940
+those are within easily driving distance
+
+274
+00:11:18,420 --> 00:11:23,480
+of you know say one to two hours oh
+
+275
+00:11:20,940 --> 00:11:26,160
+really yeah we're we're kind of
+
+276
+00:11:23,480 --> 00:11:28,140
+centrally located in between those areas
+
+277
+00:11:26,160 --> 00:11:29,640
+and I would imagine for a pulse portrait
+
+278
+00:11:28,140 --> 00:11:31,740
+something that's special that it
+
+279
+00:11:29,640 --> 00:11:34,019
+wouldn't be Beyond anyone to make a day
+
+280
+00:11:31,740 --> 00:11:35,459
+trip an overnight trip out of it no no
+
+281
+00:11:34,019 --> 00:11:37,740
+stay somewhere and have that done during
+
+282
+00:11:35,459 --> 00:11:39,720
+the day sightsee and that's our feeling
+
+283
+00:11:37,740 --> 00:11:42,959
+because we we plan on making this a
+
+284
+00:11:39,720 --> 00:11:45,839
+same-day service even with this totally
+
+285
+00:11:42,959 --> 00:11:48,660
+being a totally automated system we've
+
+286
+00:11:45,839 --> 00:11:49,860
+uh we can go from mastering to copying
+
+287
+00:11:48,660 --> 00:11:50,640
+mode
+
+288
+00:11:49,860 --> 00:11:53,459
+um
+
+289
+00:11:50,640 --> 00:11:54,899
+well you know basically with the flick
+
+290
+00:11:53,459 --> 00:11:56,700
+of a switch in about less than 30
+
+291
+00:11:54,899 --> 00:12:00,480
+seconds oh my goodness
+
+292
+00:11:56,700 --> 00:12:03,120
+um we plan on you know doing sittings in
+
+293
+00:12:00,480 --> 00:12:06,600
+the morning and then people can shop
+
+294
+00:12:03,120 --> 00:12:08,700
+within the 200 plus little shops within
+
+295
+00:12:06,600 --> 00:12:10,200
+Nashville and have a nice meal or
+
+296
+00:12:08,700 --> 00:12:12,839
+something come back view their master
+
+297
+00:12:10,200 --> 00:12:15,000
+and then we'll process the copy out and
+
+298
+00:12:12,839 --> 00:12:18,300
+dry it and should have the reflection
+
+299
+00:12:15,000 --> 00:12:20,880
+copied by you know that evening
+
+300
+00:12:18,300 --> 00:12:23,399
+now you say you have my film okay
+
+301
+00:12:20,880 --> 00:12:25,860
+um yeah he's here and uh he can tell you
+
+302
+00:12:23,399 --> 00:12:27,720
+more about this uh camera system and the
+
+303
+00:12:25,860 --> 00:12:29,459
+technology behind it uh I'm going to
+
+304
+00:12:27,720 --> 00:12:31,620
+have a link up to your website for the
+
+305
+00:12:29,459 --> 00:12:34,320
+show and right so your phone number
+
+306
+00:12:31,620 --> 00:12:36,000
+great and um like I said I'm really
+
+307
+00:12:34,320 --> 00:12:38,279
+excited I'll let you talk to him I'm
+
+308
+00:12:36,000 --> 00:12:40,920
+going to go and see if my dad's plate is
+
+309
+00:12:38,279 --> 00:12:42,240
+driving reflection copy I know that
+
+310
+00:12:40,920 --> 00:12:46,279
+feeling hey it's nice talking to you
+
+311
+00:12:42,240 --> 00:12:46,279
+okay bye-bye hello hello
+
+312
+00:12:48,019 --> 00:12:54,600
+this is Frankie Freitas oh yeah we do a
+
+313
+00:12:51,720 --> 00:12:57,720
+radio show here called whole talk yeah
+
+314
+00:12:54,600 --> 00:12:59,760
+yeah I know yeah you know okay I have a
+
+315
+00:12:57,720 --> 00:13:01,920
+couple questions I'd like to ask you all
+
+316
+00:12:59,760 --> 00:13:03,899
+right and first off maybe we should uh
+
+317
+00:13:01,920 --> 00:13:05,639
+just take a few minutes to speak about
+
+318
+00:13:03,899 --> 00:13:08,700
+giola if you could tell us a little bit
+
+319
+00:13:05,639 --> 00:13:11,760
+about the company uh yeah
+
+320
+00:13:08,700 --> 00:13:11,760
+um 1994
+
+321
+00:13:14,820 --> 00:13:21,120
+as a sister company of Australian
+
+322
+00:13:17,459 --> 00:13:21,120
+Hardware graphics holography
+
+323
+00:13:28,200 --> 00:13:35,760
+it's located in Adelaide South Australia
+
+324
+00:13:32,639 --> 00:13:38,820
+and this company specialized in large
+
+325
+00:13:35,760 --> 00:13:42,320
+format display photography I see using
+
+326
+00:13:38,820 --> 00:13:42,320
+tradition traditional lasers
+
+327
+00:13:42,520 --> 00:13:46,100
+[Music]
+
+328
+00:13:44,300 --> 00:13:47,779
+yeah
+
+329
+00:13:46,100 --> 00:13:51,720
+for
+
+330
+00:13:47,779 --> 00:13:54,540
+Holograms were really exciting it was up
+
+331
+00:13:51,720 --> 00:13:57,839
+to one by three meters rainbow kilograms
+
+332
+00:13:54,540 --> 00:14:01,260
+and up to one by one meter reflection oh
+
+333
+00:13:57,839 --> 00:14:03,600
+that'd be pretty big yeah yeah yeah I
+
+334
+00:14:01,260 --> 00:14:05,160
+don't even think I've ever well maybe I
+
+335
+00:14:03,600 --> 00:14:07,019
+have did they ever have any work it was
+
+336
+00:14:05,160 --> 00:14:08,279
+in images and time and space or any of
+
+337
+00:14:07,019 --> 00:14:10,760
+those other exhibits that went around
+
+338
+00:14:08,279 --> 00:14:10,760
+you know
+
+339
+00:14:11,240 --> 00:14:16,200
+really I don't know exactly I know
+
+340
+00:14:13,860 --> 00:14:18,450
+there's a lot of
+
+341
+00:14:16,200 --> 00:14:21,529
+uh
+
+342
+00:14:18,450 --> 00:14:21,529
+[Music]
+
+343
+00:14:24,240 --> 00:14:27,830
+[Music]
+
+344
+00:14:43,320 --> 00:14:49,920
+you know growing of our company and
+
+345
+00:14:47,040 --> 00:14:53,880
+they'll tell about our product which is
+
+346
+00:14:49,920 --> 00:14:56,399
+which we have now okay I think so that
+
+347
+00:14:53,880 --> 00:15:00,320
+they can go to the website on the web
+
+348
+00:14:56,399 --> 00:15:03,779
+page yeah uh
+
+349
+00:15:00,320 --> 00:15:07,500
+it's a question about the result for our
+
+350
+00:15:03,779 --> 00:15:09,420
+website or yeah I'll put a link to your
+
+351
+00:15:07,500 --> 00:15:12,139
+website so people can go there and see
+
+352
+00:15:09,420 --> 00:15:12,139
+about giola
+
+353
+00:15:15,139 --> 00:15:20,279
+yeah.com
+
+354
+00:15:17,600 --> 00:15:21,720
+what about the holographic portrait
+
+355
+00:15:20,279 --> 00:15:24,660
+system can you tell us a little bit
+
+356
+00:15:21,720 --> 00:15:30,019
+about that in its operation about our
+
+357
+00:15:24,660 --> 00:15:32,820
+portrait camera yeah yeah yeah okay okay
+
+358
+00:15:30,019 --> 00:15:37,320
+I'll begin with a little from history
+
+359
+00:15:32,820 --> 00:15:40,019
+okay because this technique actually of
+
+360
+00:15:37,320 --> 00:15:44,339
+uh started and
+
+361
+00:15:40,019 --> 00:15:46,800
+in our company in 1996 in middle of 1996
+
+362
+00:15:44,339 --> 00:15:50,279
+and the geological about some research
+
+363
+00:15:46,800 --> 00:15:52,320
+work in order to record
+
+364
+00:15:50,279 --> 00:15:56,540
+final programs
+
+365
+00:15:52,320 --> 00:15:56,540
+I quote this was a solid state
+
+366
+00:15:56,579 --> 00:16:02,100
+and the first experiments were pretty
+
+367
+00:15:59,519 --> 00:16:04,880
+successful and the same time
+
+368
+00:16:02,100 --> 00:16:07,260
+due to the technology of
+
+369
+00:16:04,880 --> 00:16:09,720
+color control for reflection how
+
+370
+00:16:07,260 --> 00:16:14,360
+everyone was introduced and so those two
+
+371
+00:16:09,720 --> 00:16:16,279
+things actually were basis of our future
+
+372
+00:16:14,360 --> 00:16:18,839
+design
+
+373
+00:16:16,279 --> 00:16:21,120
+and then we exhibited high quality
+
+374
+00:16:18,839 --> 00:16:22,459
+reflection programs for 40 by 60
+
+375
+00:16:21,120 --> 00:16:25,860
+centimeters
+
+376
+00:16:22,459 --> 00:16:29,820
+printed with this technique a completely
+
+377
+00:16:25,860 --> 00:16:33,560
+powerful technique in laser 9700 in
+
+378
+00:16:29,820 --> 00:16:36,120
+Munich and then one month later we
+
+379
+00:16:33,560 --> 00:16:38,959
+exhibited them in the International
+
+380
+00:16:36,120 --> 00:16:44,579
+Symposium for display photography okay
+
+381
+00:16:38,959 --> 00:16:46,800
+in Lake Forest in the UC and stuff yet
+
+382
+00:16:44,579 --> 00:16:49,380
+after that angel actually become
+
+383
+00:16:46,800 --> 00:16:51,899
+separate from us from Australian
+
+384
+00:16:49,380 --> 00:16:52,920
+holographic and our company doing
+
+385
+00:16:51,899 --> 00:16:54,959
+business
+
+386
+00:16:52,920 --> 00:16:57,720
+is a
+
+387
+00:16:54,959 --> 00:17:00,500
+most advanced pulse Technology For This
+
+388
+00:16:57,720 --> 00:17:00,500
+by holography
+
+389
+00:17:02,839 --> 00:17:07,260
+regarding our
+
+390
+00:17:06,179 --> 00:17:11,579
+um
+
+391
+00:17:07,260 --> 00:17:11,579
+uh present product
+
+392
+00:17:11,600 --> 00:17:18,140
+our traditional field of activity is a
+
+393
+00:17:18,600 --> 00:17:25,220
+High large format holography and all
+
+394
+00:17:22,679 --> 00:17:25,220
+flavors
+
+395
+00:17:25,860 --> 00:17:32,580
+and the photo of a range of high energy
+
+396
+00:17:29,460 --> 00:17:34,440
+lasers based on medium yield and edema
+
+397
+00:17:32,580 --> 00:17:36,480
+and phospheric glass system
+
+398
+00:17:34,440 --> 00:17:39,179
+and recently we completed design of
+
+399
+00:17:36,480 --> 00:17:41,780
+range of laser for General scientific
+
+400
+00:17:39,179 --> 00:17:41,780
+applications
+
+401
+00:17:42,059 --> 00:17:47,280
+uh
+
+402
+00:17:43,799 --> 00:17:50,299
+of course we produce Holograms itself so
+
+403
+00:17:47,280 --> 00:17:53,580
+currently Factor one by one meter size
+
+404
+00:17:50,299 --> 00:17:55,260
+both reflection and rainbows what's the
+
+405
+00:17:53,580 --> 00:17:57,120
+largest size that the camera will
+
+406
+00:17:55,260 --> 00:18:01,860
+produce
+
+407
+00:17:57,120 --> 00:18:04,620
+um this camera can produce 60 by 40 and
+
+408
+00:18:01,860 --> 00:18:06,539
+that's with our standard size yeah
+
+409
+00:18:04,620 --> 00:18:09,620
+that's nice but there is no restriction
+
+410
+00:18:06,539 --> 00:18:14,600
+in laser energy
+
+411
+00:18:09,620 --> 00:18:18,000
+at least for say 60 by 80 centimeters
+
+412
+00:18:14,600 --> 00:18:22,320
+it's possible to to build such a camera
+
+413
+00:18:18,000 --> 00:18:24,600
+yeah and uh yeah is this the first unit
+
+414
+00:18:22,320 --> 00:18:27,120
+in the United States
+
+415
+00:18:24,600 --> 00:18:29,220
+yeah that's true and they have to say
+
+416
+00:18:27,120 --> 00:18:31,020
+that so first that's the first what
+
+417
+00:18:29,220 --> 00:18:34,260
+about the slavage recording materials
+
+418
+00:18:31,020 --> 00:18:37,580
+now you're a distributor for those right
+
+419
+00:18:34,260 --> 00:18:37,580
+or here
+
+420
+00:18:41,720 --> 00:18:47,580
+in photography community
+
+421
+00:18:44,760 --> 00:18:49,620
+and uh you know after accurate
+
+422
+00:18:47,580 --> 00:18:52,320
+discontinued production of holographic
+
+423
+00:18:49,620 --> 00:18:56,840
+materials uh this emotion from flourish
+
+424
+00:18:52,320 --> 00:18:56,840
+uh slowly but surely by this Market
+
+425
+00:19:13,520 --> 00:19:21,559
+and vipm
+
+426
+00:19:16,380 --> 00:19:23,940
+uh uh from grain material for
+
+427
+00:19:21,559 --> 00:19:29,280
+phd014 web
+
+428
+00:19:23,940 --> 00:19:31,620
+uh recording and the PM his green
+
+429
+00:19:29,280 --> 00:19:33,360
+sensitive material yeah and the other
+
+430
+00:19:31,620 --> 00:19:35,880
+one it works fine for reflection
+
+431
+00:19:33,360 --> 00:19:39,120
+holography as well doesn't it yeah both
+
+432
+00:19:35,880 --> 00:19:43,280
+both yeah and they're pretty similar to
+
+433
+00:19:39,120 --> 00:19:48,360
+access the respectively uh
+
+434
+00:19:43,280 --> 00:19:51,620
+he75 HD and he 56 HD yeah the year one
+
+435
+00:19:48,360 --> 00:19:54,440
+is not the O3 uh
+
+436
+00:19:51,620 --> 00:19:57,720
+zero one yeah
+
+437
+00:19:54,440 --> 00:20:00,720
+it's the next family
+
+438
+00:19:57,720 --> 00:20:00,720
+left
+
+439
+00:20:10,260 --> 00:20:15,600
+um
+
+440
+00:20:10,940 --> 00:20:17,340
+is what sensitive and phd060 is with a
+
+441
+00:20:15,600 --> 00:20:21,179
+pancromatic response
+
+442
+00:20:17,340 --> 00:20:24,480
+do both the zero one and the zero three
+
+443
+00:20:21,179 --> 00:20:25,799
+require late tensification in the
+
+444
+00:20:24,480 --> 00:20:28,140
+processor
+
+445
+00:20:25,799 --> 00:20:31,280
+um not really not really you know with
+
+446
+00:20:28,140 --> 00:20:34,140
+authentication I can explain actually um
+
+447
+00:20:31,280 --> 00:20:38,820
+both work required for intensification
+
+448
+00:20:34,140 --> 00:20:41,640
+if you know one records just with A
+
+449
+00:20:38,820 --> 00:20:44,220
+continuous program it's not necessary to
+
+450
+00:20:41,640 --> 00:20:46,140
+use identification at all okay
+
+451
+00:20:44,220 --> 00:20:48,840
+there's a lot of question about that
+
+452
+00:20:46,140 --> 00:20:50,940
+especially with people that are dealing
+
+453
+00:20:48,840 --> 00:20:52,380
+with the holography as a hobby yeah
+
+454
+00:20:50,940 --> 00:20:54,960
+there's a lot of questions about this
+
+455
+00:20:52,380 --> 00:20:57,679
+late tensification yeah usually of
+
+456
+00:20:54,960 --> 00:20:57,679
+course the years
+
+457
+00:20:58,460 --> 00:21:03,720
+some of these guys you know have these
+
+458
+00:21:01,020 --> 00:21:06,179
+labs in their house yeah with five
+
+459
+00:21:03,720 --> 00:21:07,919
+milliwatt 10 milliwatt-hini lasers and
+
+460
+00:21:06,179 --> 00:21:09,960
+they're shooting four by five inch
+
+461
+00:21:07,919 --> 00:21:11,280
+plates or film and they're wondering you
+
+462
+00:21:09,960 --> 00:21:14,600
+know do they have to do this late
+
+463
+00:21:11,280 --> 00:21:14,600
+tensification or
+
+464
+00:21:16,760 --> 00:21:24,260
+notification brings the sensitivity of
+
+465
+00:21:20,940 --> 00:21:24,260
+holographic plays
+
+466
+00:21:24,679 --> 00:21:30,000
+which is usually less maybe several
+
+467
+00:21:28,440 --> 00:21:30,559
+times less than
+
+468
+00:21:30,000 --> 00:21:33,179
+um
+
+469
+00:21:30,559 --> 00:21:37,820
+sensitivity for continuous wave
+
+470
+00:21:33,179 --> 00:21:40,980
+radiation so this process brings this
+
+471
+00:21:37,820 --> 00:21:44,760
+sensitivity approximately to the same
+
+472
+00:21:40,980 --> 00:21:49,320
+level yes at equalizer and that is like
+
+473
+00:21:44,760 --> 00:21:50,880
+really useful for uh pulse work any
+
+474
+00:21:49,320 --> 00:21:52,799
+other information you can give us about
+
+475
+00:21:50,880 --> 00:21:56,780
+the camera do you expect to have any
+
+476
+00:21:52,799 --> 00:21:56,780
+more installations here in the states
+
+477
+00:21:57,360 --> 00:22:04,799
+um no now we are building a camera for
+
+478
+00:22:00,900 --> 00:22:09,360
+Germany for some medical application I
+
+479
+00:22:04,799 --> 00:22:10,640
+don't know exactly from face surgery and
+
+480
+00:22:09,360 --> 00:22:15,600
+um and we have
+
+481
+00:22:10,640 --> 00:22:17,960
+several other possible uh contracts
+
+482
+00:22:15,600 --> 00:22:21,480
+not better
+
+483
+00:22:17,960 --> 00:22:24,600
+when it's still in progress and so I
+
+484
+00:22:21,480 --> 00:22:26,640
+cannot give more details about this
+
+485
+00:22:24,600 --> 00:22:28,740
+would it be okay if I asked you what the
+
+486
+00:22:26,640 --> 00:22:31,080
+price of one of these systems runs if
+
+487
+00:22:28,740 --> 00:22:32,820
+someone wanted to contact you to get one
+
+488
+00:22:31,080 --> 00:22:35,520
+of these systems what's the price of one
+
+489
+00:22:32,820 --> 00:22:39,919
+of these systems well actually depends
+
+490
+00:22:35,520 --> 00:22:45,059
+on uh you know on Final requirements
+
+491
+00:22:39,919 --> 00:22:46,440
+five and my textures from around a
+
+492
+00:22:45,059 --> 00:22:49,620
+hundred thousand hundred thousand
+
+493
+00:22:46,440 --> 00:22:53,100
+dollars so really serious technique and
+
+494
+00:22:49,620 --> 00:22:54,720
+quite complicated you know machine and
+
+495
+00:22:53,100 --> 00:22:58,200
+you know
+
+496
+00:22:54,720 --> 00:23:00,780
+cannot be too cheap yeah yeah
+
+497
+00:22:58,200 --> 00:23:03,360
+and what's what's the Lifetime on the uh
+
+498
+00:23:00,780 --> 00:23:05,159
+on the laser usually and as long as the
+
+499
+00:23:03,360 --> 00:23:07,140
+flash lamp lasts I would imagine I mean
+
+500
+00:23:05,159 --> 00:23:10,640
+just the rod Excel itself have to ever
+
+501
+00:23:07,140 --> 00:23:10,640
+be replaced or just the flashlight
+
+502
+00:23:16,039 --> 00:23:23,720
+requires replacement number once a year
+
+503
+00:23:18,900 --> 00:23:27,000
+and in the amplifier
+
+504
+00:23:23,720 --> 00:23:30,360
+we never replaced the first one to now
+
+505
+00:23:27,000 --> 00:23:34,380
+amplifiers I suppose
+
+506
+00:23:30,360 --> 00:23:38,039
+really lost for forever then it requires
+
+507
+00:23:34,380 --> 00:23:40,380
+some maintenance maybe once it two
+
+508
+00:23:38,039 --> 00:23:43,919
+months you know one can clean some
+
+509
+00:23:40,380 --> 00:23:46,320
+Optics inside and stuff like that
+
+510
+00:23:43,919 --> 00:23:49,100
+um it doesn't run off of batteries
+
+511
+00:23:46,320 --> 00:23:49,100
+either does it
+
+512
+00:23:49,740 --> 00:23:54,360
+um just a joke
+
+513
+00:23:52,280 --> 00:23:55,860
+we've been working with a lot of these
+
+514
+00:23:54,360 --> 00:23:57,659
+little diodes that we can use little
+
+515
+00:23:55,860 --> 00:24:00,559
+batteries on so this is a whole nother
+
+516
+00:23:57,659 --> 00:24:00,559
+ball game for everybody
+
+517
+00:24:01,520 --> 00:24:08,640
+I think it might even I don't know maybe
+
+518
+00:24:04,740 --> 00:24:11,940
+turning us down or similar to all of the
+
+519
+00:24:08,640 --> 00:24:15,919
+system you know they fit it in the size
+
+520
+00:24:11,940 --> 00:24:15,919
+of I don't know maybe a fax machine yeah
+
+521
+00:24:15,980 --> 00:24:20,580
+but it sounds like a wonderful system
+
+522
+00:24:18,179 --> 00:24:22,080
+just the way that it is right now it
+
+523
+00:24:20,580 --> 00:24:24,840
+sounds like a wonderful system I mean
+
+524
+00:24:22,080 --> 00:24:27,659
+it's it seems awful simple just to go
+
+525
+00:24:24,840 --> 00:24:29,350
+from an H1 to an H2 copy you know just
+
+526
+00:24:27,659 --> 00:24:32,520
+yeah yeah
+
+527
+00:24:29,350 --> 00:24:32,520
+[Music]
+
+528
+00:24:33,740 --> 00:24:38,820
+normally that would take quite a bit of
+
+529
+00:24:36,120 --> 00:24:41,220
+time to reset up a holography table to
+
+530
+00:24:38,820 --> 00:24:44,780
+make the transfer yeah of course of
+
+531
+00:24:41,220 --> 00:24:48,480
+course you know the major I think
+
+532
+00:24:44,780 --> 00:24:52,320
+features the system is uh
+
+533
+00:24:48,480 --> 00:24:53,780
+Malaysia for Mustang and for coping the
+
+534
+00:24:52,320 --> 00:24:57,419
+stuff that
+
+535
+00:24:53,780 --> 00:24:59,100
+it costs less yeah and second we have
+
+536
+00:24:57,419 --> 00:25:01,919
+the same wavelengths for recording then
+
+537
+00:24:59,100 --> 00:25:05,700
+for image planing
+
+538
+00:25:01,919 --> 00:25:11,419
+and the third that we use of laser for
+
+539
+00:25:05,700 --> 00:25:12,980
+both yeah and you imagine the vibration
+
+540
+00:25:11,419 --> 00:25:16,260
+isolation
+
+541
+00:25:12,980 --> 00:25:19,860
+requirements for especially for large
+
+542
+00:25:16,260 --> 00:25:23,820
+format holography that's really a
+
+543
+00:25:19,860 --> 00:25:26,340
+problem you know if you go for format
+
+544
+00:25:23,820 --> 00:25:28,520
+watches them at the most certain
+
+545
+00:25:26,340 --> 00:25:31,220
+Barefoot it becomes
+
+546
+00:25:28,520 --> 00:25:34,020
+really complicated so
+
+547
+00:25:31,220 --> 00:25:37,140
+this you know all those techniques they
+
+548
+00:25:34,020 --> 00:25:38,700
+actually work well anything else you'd
+
+549
+00:25:37,140 --> 00:25:40,740
+like to add to the show before we close
+
+550
+00:25:38,700 --> 00:25:43,740
+it out
+
+551
+00:25:40,740 --> 00:25:43,740
+if
+
+552
+00:25:52,080 --> 00:25:57,740
+a friend his photographer
+
+553
+00:25:54,200 --> 00:26:00,659
+from Moscow and basically this is his
+
+554
+00:25:57,740 --> 00:26:03,120
+invention I'm not really a legend but he
+
+555
+00:26:00,659 --> 00:26:07,679
+found this trick with a specification
+
+556
+00:26:03,120 --> 00:26:11,960
+for the material
+
+557
+00:26:07,679 --> 00:26:16,020
+um what else and maybe I would say
+
+558
+00:26:11,960 --> 00:26:18,120
+hello to a beautiful woman he's the
+
+559
+00:26:16,020 --> 00:26:21,659
+director of Micron plant
+
+560
+00:26:18,120 --> 00:26:24,000
+actually he's a producer of power effect
+
+561
+00:26:21,659 --> 00:26:26,580
+materials and he's good friend of mine
+
+562
+00:26:24,000 --> 00:26:28,919
+okay so yeah everybody can listen to
+
+563
+00:26:26,580 --> 00:26:30,299
+this show because it's on the internet
+
+564
+00:26:28,919 --> 00:26:32,159
+all right well thank you very much
+
+565
+00:26:30,299 --> 00:26:34,940
+Mikhail for uh coming on the show and
+
+566
+00:26:32,159 --> 00:26:37,500
+telling us about the new laser system
+
+567
+00:26:34,940 --> 00:26:39,600
+tell Rob I said thank you and good luck
+
+568
+00:26:37,500 --> 00:26:41,100
+with everything and thank you I'm sure
+
+569
+00:26:39,600 --> 00:26:43,679
+everybody will be interested in going to
+
+570
+00:26:41,100 --> 00:26:45,960
+your website for giola and also Rob's
+
+571
+00:26:43,679 --> 00:26:51,020
+website yeah thank you for your interest
+
+572
+00:26:45,960 --> 00:26:51,020
+okay take care thank you
+
+573
+00:26:51,120 --> 00:26:55,320
+thank you
+
+574
+00:26:52,320 --> 00:26:55,320
+foreign
+

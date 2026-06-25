@@ -1,0 +1,1155 @@
+1
+00:00:00,240 --> 00:00:04,320
+Okay, I'm speaking with Dan Schweitzer of New York holographic laboratories.
+
+2
+00:00:04,320 --> 00:00:05,280
+How are you doing, Dan?
+
+3
+00:00:05,280 --> 00:00:06,160
+I'm very fine, Frank.
+
+4
+00:00:06,160 --> 00:00:06,640
+How are you?
+
+5
+00:00:06,640 --> 00:00:07,760
+I'm doing good, thank you.
+
+6
+00:00:07,760 --> 00:00:11,280
+Uh I want to thank you very much for taking the time to come on the show.
+
+7
+00:00:11,280 --> 00:00:11,840
+Thank you.
+
+8
+00:00:12,000 --> 00:00:18,560
+Listen, first before we get started on anything, I want to I want to congratulate you for the great things that you've been doing here with this uh talk show.
+
+9
+00:00:18,560 --> 00:00:22,480
+I find it very compelling and I think it's been great for holography.
+
+10
+00:00:22,480 --> 00:00:29,040
+I love your spirit and uh just totally in uh in awe of uh all you've managed to accomplish in the past year or two.
+
+11
+00:00:29,040 --> 00:00:30,080
+It's been quite amazing.
+
+12
+00:00:30,080 --> 00:00:31,680
+Well, I'm a real nutcase.
+
+13
+00:00:31,680 --> 00:00:33,040
+You must be.
+
+14
+00:00:33,520 --> 00:00:35,120
+Welcome to the nutcase.
+
+15
+00:00:35,120 --> 00:00:35,680
+Yeah.
+
+16
+00:00:35,680 --> 00:00:38,320
+I know the listeners are going to be very happy to hear you on here.
+
+17
+00:00:38,320 --> 00:00:53,200
+And one one of the things that's nice about the show is the fact that there's probably so many people out there who have read about your work, have been able to see your work in galleries and different places, and also uh all the things that's been written about you in the different books out there, philography and here.
+
+18
+00:00:53,440 --> 00:00:53,760
+Yes.
+
+19
+00:00:55,040 --> 00:01:03,760
+And one of the things I guess that that just leads me into, the fact that you're I know I've I read about you probably when I was back in high school in books on holography.
+
+20
+00:01:03,760 --> 00:01:06,720
+We've all seen so many people come and go in this field.
+
+21
+00:01:06,720 --> 00:01:09,760
+What do you credit your longevity to?
+
+22
+00:01:12,640 --> 00:01:14,880
+Gee, what a list.
+
+23
+00:01:15,440 --> 00:01:18,320
+I think it's just the passion for holography, I think.
+
+24
+00:01:18,320 --> 00:01:19,920
+It just keeps me bowed up.
+
+25
+00:01:19,920 --> 00:01:20,480
+Mm-hmm.
+
+26
+00:01:20,480 --> 00:01:28,640
+Whenever I think I'm I'm losing it, I I think about what it is that we're doing here and I I get uh I get re inspired and I just keep pushing.
+
+27
+00:01:28,640 --> 00:01:33,920
+Because I believe in it so intensely and in so many of its different levels of of application.
+
+28
+00:01:33,920 --> 00:01:37,680
+Your lab was around, I would say early seventies or before.
+
+29
+00:01:37,680 --> 00:01:57,120
+Yeah, the uh it's it's uh uh not to belabor the the historical side of it, but um but m the lab that uh Sam Moray and I started uh in nineteen seventy six was really uh basically having taken over of the the New York School of Holography, which began in nineteen seventy two where I was a teacher and and learned myself.
+
+30
+00:01:57,440 --> 00:01:59,520
+Did Jody Burns was he involved with that or anything?
+
+31
+00:01:59,640 --> 00:02:00,360
+That's absolutely right.
+
+32
+00:02:00,360 --> 00:02:15,960
+Jody Burns uh in sp was uh was totally inspired at the time and and uh got the ball rolling for holography in New York and it's to him that I owe the greatest amount of gratitude for having gotten me started on my my background was in the theater and film and so yes, yes.
+
+33
+00:02:15,960 --> 00:02:21,240
+So uh for me it was really quite a it was quite a look in glass experience falling into it.
+
+34
+00:02:21,240 --> 00:02:29,560
+And we all probably feel the same way that the we're still doing it getting in on the ground floor of what we know to be uh an astounding medium.
+
+35
+00:02:29,560 --> 00:02:31,480
+What was the attraction?
+
+36
+00:02:31,480 --> 00:02:34,600
+I you know It was a different time back then.
+
+37
+00:02:34,600 --> 00:02:42,840
+Well it was a different time absolutely there was a i it was interesting that in the courses that I took very few of us knew really what was going on.
+
+38
+00:02:42,840 --> 00:02:47,560
+Uh I I learned from people who only had just recently learned themselves.
+
+39
+00:02:47,560 --> 00:02:52,280
+And so there was a lot of exploration, a lot of discovery going on in those days.
+
+40
+00:02:52,520 --> 00:02:58,520
+Every time you did something and it's still the same way, you feel like you were inventing it for the first time and that's what keeps it exciting and fresh.
+
+41
+00:02:58,520 --> 00:02:59,000
+Yeah.
+
+42
+00:02:59,000 --> 00:03:02,840
+You obviously chose to work with white light transmission holography.
+
+43
+00:03:02,840 --> 00:03:04,840
+Was there a reason behind that?
+
+44
+00:03:04,840 --> 00:03:26,520
+Pretty much so I think it if there were if there if you could attribute schools for holography, I would say that the New York uh for the most part the New York holographers were of that school of uh of white light transmission, perhaps because of uh Steve Benton's influence in the early days mm he uh conducted uh a course uh two courses actually in rainbow holography in the early days.
+
+45
+00:03:26,520 --> 00:03:27,880
+We were all very curious about it.
+
+46
+00:03:27,880 --> 00:03:41,400
+The the reason that it appealed most to me I think was that it was not so much documentation of I see reflection holography very often as being a a an incredible form for documenting existing uh subjects.
+
+47
+00:03:41,400 --> 00:03:42,120
+Mm-hmm.
+
+48
+00:03:42,120 --> 00:04:01,280
+And I think the appeal for the rainbow holography was that it doesn't actually document quite as well as it does allow for you a greater amount of volume to record viewable uh scene depth front to back and uh and it allowed for a different way of controlling color through the engineering of the camera as opposed to the chemistry and the reflection hologram.
+
+49
+00:04:01,280 --> 00:04:02,000
+Yes, yes.
+
+50
+00:04:02,000 --> 00:04:05,520
+And so it came it became much more like light sculpture for a lot of us.
+
+51
+00:04:05,520 --> 00:04:06,000
+Mm-hmm.
+
+52
+00:04:06,000 --> 00:04:25,840
+And and uh and the idea of sculpting energy was a was really an extraordinary uh uh uh idea from the start and and clearly that's what what what rainbow holography has sort of become although not to say that it can't be used to document it it it it excels when you wish to bend and interpret uh the light itself it's really quite interesting.
+
+53
+00:04:25,840 --> 00:04:29,840
+You've incorporated sculpture itself into some of your pieces, right?
+
+54
+00:04:29,840 --> 00:04:30,720
+Yes I have.
+
+55
+00:04:30,720 --> 00:04:47,760
+I started out by uh by m by doing small sculptures for the content of the holograms and um that the culmination of that sort of venture for me was the was a completion of a holographic triptych in which I did a a a a triptych hologram of a gallery of holograms.
+
+56
+00:04:47,760 --> 00:04:56,480
+Mm-hmm and in each panel there was there were holograms inside the hologram and in one case there was a hologram within a hologram within a hologram within a hologram of a photograph.
+
+57
+00:04:56,480 --> 00:04:56,800
+Yes.
+
+58
+00:04:56,800 --> 00:04:57,200
+Yes.
+
+59
+00:04:57,200 --> 00:05:01,920
+So it went several layers back trying to trying to increase the depth of the scene and so forth.
+
+60
+00:05:01,920 --> 00:05:09,920
+I think one of the early pieces that I remember of yours when I was younger was I believe it was a man sitting at a desk looking out a window.
+
+61
+00:05:10,000 --> 00:05:28,320
+Yes, yes that's a very early work it was called yes, it was a uh it was it was an early uh probably my first larger format rainbow hologram and uh it was called Fendera and it was a fairly pivotal piece for me and from there I began to incorporate those kinds of images inside.
+
+62
+00:05:28,320 --> 00:05:56,680
+And then subsequent to that I began to then when I began to understand what it was to sculpt the energy then I would work on projects that were involved with some kind of a special effect uh maybe an optical animation or something and then incorporate that into the scene with the s with the sculptural subjects and then the next step was to break through the film plane and then to begin sculpting in front of the plane with the light uh where the solid object now the finished sculpture interrelates to the light sculpture.
+
+63
+00:05:56,680 --> 00:06:03,320
+So now these b have become actual physical sculptures that use holograms as optical elements in the scene.
+
+64
+00:06:03,320 --> 00:06:09,880
+Do you ever feel stuck in holography like the technology or the technique hasn't evolved in the last twenty years?
+
+65
+00:06:09,880 --> 00:06:32,200
+You know, I I feel that in on a technical level, but but at the same time I think that there are always reasons for these things and and one of them I think is that um when you when you have limitations and you begin to focus on what those limitations are, you know where the borders and the barriers are.
+
+66
+00:06:32,200 --> 00:06:32,840
+Mm-hmm.
+
+67
+00:06:32,840 --> 00:06:35,160
+It just gives you a framework within to work.
+
+68
+00:06:35,160 --> 00:06:41,720
+And you stretch that and you push aside, you you push it where you want it to go as slowly as or as fast as you need to go.
+
+69
+00:06:41,720 --> 00:06:55,080
+And I I and I find that it it it offers whatever context you you have, the your context is usually in d uh controlled by what the technology will offer and that's the space you've got to work with so you you do it interestingly I think.
+
+70
+00:06:55,080 --> 00:07:04,760
+As far as your work, I know you could probably list exhibits that you've had your work in, but would you like to cover some of the exhibits that are a little bit more meaningful to you in your memory?
+
+71
+00:07:04,760 --> 00:07:16,720
+I I guess uh philography is unique in that it's uh it w has has always been so new and dynamic, um that it oftentimes broke down doors that one might not normally do w with other media.
+
+72
+00:07:16,720 --> 00:07:21,920
+For example, uh in the early days, um Jody Burns um et al.
+
+73
+00:07:22,240 --> 00:07:28,640
+Um other people's uh influences well managed to open up a a showing for us at the Museum of Modern Art.
+
+74
+00:07:28,640 --> 00:07:33,840
+And uh very early in the game to do that, but uh but at the same time a very exciting experience.
+
+75
+00:07:33,840 --> 00:07:37,840
+It gave us a chance to just sort of show show what we're doing.
+
+76
+00:07:37,840 --> 00:07:54,240
+And uh so that was uh for a beginner that was uh an extraordinary experience and then from there of course the many, many group shows that we've done, the Museum of Holography in New York, which unfortunately is no longer there for us, uh, uh was was always uh there as a as an outlet for reviewing my work.
+
+77
+00:07:54,240 --> 00:08:04,800
+And then later on in the travels uh one of the nice things about holography is it it allows you to travel some and uh and build yourself a nice little your own form of uh glamorous lifestyle, I think.
+
+78
+00:08:05,440 --> 00:08:08,160
+But I've had some great times in Europe and so forth.
+
+79
+00:08:08,160 --> 00:08:36,000
+I I think one of the shows that um that stands out in my mind is a show in Hamburg, uh Hamburg, uh Germany, uh, which was an extraordinary chance for us at the uh Hamburger Kunsthaler, which is a very reputable art museum and we we we uh we enjoyed very much the sense of continuity that we got from seeing the very old old um uh classic artworks uh sort of bleeding into the newer technology that was ours on the next floor up.
+
+80
+00:08:36,000 --> 00:08:44,640
+Um another extraordinary experience was uh was the uh an exhibition and a conference recently in Berlin, uh headed up by Dieter Jung.
+
+81
+00:08:44,720 --> 00:08:59,640
+There was a was an extraordinary lecture series for about a week where scientists, mathematicians, poets, um magicians, uh I I as I recall, I think there was even someone there involved with designing Mirages.
+
+82
+00:08:59,640 --> 00:09:01,800
+Uh it's an extraordinary event.
+
+83
+00:08:59,680 --> 00:09:09,480
+Uh it's it's these kinds of exciting things that deal with uh holography and and and all of its accessories that it gets very exciting.
+
+84
+00:09:09,480 --> 00:09:13,080
+So yeah I've had uh quite a few memorable travels.
+
+85
+00:09:13,080 --> 00:09:16,600
+Uh do you remember anything at all with Salvador Dali?
+
+86
+00:09:16,600 --> 00:09:21,640
+I do remember he's actually probably re probably more responsible for my having worked in the medium than anyone.
+
+87
+00:09:21,640 --> 00:09:30,600
+It was his work that I saw first that I enjoyed so much uh his uh laser transmission holograms, which I believe were done by Selwyn Lissack back in the early days.
+
+88
+00:09:30,600 --> 00:09:51,640
+And uh it was my having saved his one of his uh one of Selwyn's portraits of Salvador Dolly that they were working on at the time from uh being damaged in a flood that um I was rewarded for my valor for having uh saved the hologram by being given a course in holography and my first introduction happens through Salvador Dolly actually.
+
+89
+00:09:51,800 --> 00:10:00,760
+Why don't you tell everyone where your studio's located in New York our current studio here in Manhattan is on the it's at one seventy six East Third Street and we've been here about ten years.
+
+90
+00:10:00,760 --> 00:10:07,480
+The earlier uh location was the one that so many people knew about underneath the Quad Movie Theater on thirteenth Street in Manhattan.
+
+91
+00:10:07,800 --> 00:10:21,960
+Uh but now we're on the east side and we've got uh two studios here and um my partner Sam uh Moray of course is uh comes and goes in his various and sundry activities recently having finished uh uh residency in uh Cologne, Germany.
+
+92
+00:10:22,760 --> 00:10:32,520
+Um and uh the big the the great passion that I have now of course is that uh I've recently uh begun working with Anna Maria Nicholson at the uh Center for the holographic arts.
+
+93
+00:10:32,520 --> 00:10:32,840
+Yes.
+
+94
+00:10:32,840 --> 00:10:34,520
+That's in Brooklyn exciting venture.
+
+95
+00:10:34,520 --> 00:10:35,480
+In Brooklyn?
+
+96
+00:10:35,480 --> 00:10:36,720
+That's in Queens, actually.
+
+97
+00:10:36,960 --> 00:10:38,960
+Just across the river from from Manhattan.
+
+98
+00:10:38,960 --> 00:10:46,480
+Uh one stop on the train right near this uh the uh the new home of the the Museum of Modern Art actually in the not too distant.
+
+99
+00:10:46,480 --> 00:10:51,200
+It's going to be to have a temporary home near where we are, uh in Long Island City in Queens.
+
+100
+00:10:51,200 --> 00:10:58,080
+Um we're we're in a good spot and uh and uh we have our artist in residency program uh up and running.
+
+101
+00:10:58,080 --> 00:11:09,200
+We're in it into our second cycle and we're currently mounting an exhibition of the works that resulted from the first cycle of awardees for the uh this program that we have uh been running.
+
+102
+00:11:09,200 --> 00:11:11,440
+It's funded by the Shearwater Foundation.
+
+103
+00:11:11,440 --> 00:11:15,200
+Many thanks to them for making this equipment available to the holographic community.
+
+104
+00:11:15,520 --> 00:11:28,640
+We uh we want to make certain to uh that people who are listening and tuned in know that we our s our site at uh holocenter.com has guidelines for grant proposals for people who would like to work with uh pulse lasers.
+
+105
+00:11:28,640 --> 00:11:32,320
+So it's a great opportunity to get in there and and make some holograms.
+
+106
+00:11:32,480 --> 00:11:35,760
+I'll make sure there's a link on the HoloSolk page so people can visit that site too.
+
+107
+00:11:36,000 --> 00:11:36,720
+That would be great.
+
+108
+00:11:36,720 --> 00:11:39,120
+You know, to me Sam's almost like a mystery man.
+
+109
+00:11:39,120 --> 00:11:41,120
+Sam, yeah, well Sam is a mystery man.
+
+110
+00:11:41,120 --> 00:11:43,840
+You know, I I've always heard the term Dan Sam.
+
+111
+00:11:43,840 --> 00:11:44,240
+Yeah.
+
+112
+00:11:44,240 --> 00:11:45,680
+Well his work is extraordinary.
+
+113
+00:11:45,680 --> 00:11:49,920
+I I think he works uh I've seen some pieces of his that he combined with neon in different things.
+
+114
+00:11:50,160 --> 00:11:50,880
+Yeah, yes.
+
+115
+00:11:50,880 --> 00:12:02,480
+He he he did uh begin incorporating uh neon sculpture with uh with holograms and uh did some wonderful works during that period where he had glass plinths and uh he's a very brilliant artist.
+
+116
+00:12:02,480 --> 00:12:15,360
+Sam was a painter before he got involved with holography, and I I loved his painting very much and uh and he he very much in my mind um uh exemplifies uh the way a painter grows uh into a new medium.
+
+117
+00:12:15,360 --> 00:12:16,000
+Mm-hmm.
+
+118
+00:12:16,000 --> 00:12:22,640
+And his uh his new medium of holography has uh had an interesting way of interpreting his painting.
+
+119
+00:12:22,640 --> 00:12:24,800
+And he's still very active creating holograms, right?
+
+120
+00:12:24,960 --> 00:12:25,840
+Absolutely, yes, yes.
+
+121
+00:12:26,320 --> 00:12:38,200
+He uh he's currently uh he was actually one of the grant recipients for our first cycle at the center and uh which which um afforded him the opportunity of making a sculptural project which he's working on right now.
+
+122
+00:12:38,200 --> 00:12:38,680
+Mm-hmm.
+
+123
+00:12:38,680 --> 00:12:47,720
+So uh his piece will be in this uh first our first opening which will be at the center for two weeks uh starting April seventh.
+
+124
+00:12:47,720 --> 00:12:48,440
+Yes.
+
+125
+00:12:48,440 --> 00:12:55,640
+And uh from there it will travel to Sisogy Gallery in Fort Myers and then on to the Tucson Museum of uh contemporary art.
+
+126
+00:12:55,640 --> 00:12:56,200
+Wow.
+
+127
+00:12:56,200 --> 00:12:59,400
+So we're uh launching that show and uh should be a good one.
+
+128
+00:12:59,400 --> 00:13:00,920
+That's that's fantastic.
+
+129
+00:13:01,240 --> 00:13:05,160
+Now you offer workshop programs at your s New York studios as well, right?
+
+130
+00:13:05,160 --> 00:13:06,680
+Yes, I I have always taught.
+
+131
+00:13:06,680 --> 00:13:10,120
+Uh that's been uh something that I found the best way to learn is to teach.
+
+132
+00:13:10,120 --> 00:13:12,120
+And also at a college in New York as well?
+
+133
+00:13:12,120 --> 00:13:19,880
+Yes, I I I have a course that runs uh basic and advanced course that runs at the School of Visual Arts here on uh in in uh lower Manhattan.
+
+134
+00:13:19,880 --> 00:13:20,360
+Mm-hmm.
+
+135
+00:13:20,360 --> 00:13:25,000
+And uh this session we have ten great students that have been doing some really interesting work.
+
+136
+00:13:25,000 --> 00:13:27,800
+We're just moving now into uh rainbow holography.
+
+137
+00:13:27,800 --> 00:13:31,320
+Our first course deals with laser transmission and white light uh reflection.
+
+138
+00:13:31,320 --> 00:13:31,720
+Mm-hmm.
+
+139
+00:13:31,720 --> 00:13:32,920
+And they're advanced now.
+
+140
+00:13:32,920 --> 00:13:39,480
+We're dealing with uh rainbows and they're starting to uncover the great secrets of that wonderful little technology.
+
+141
+00:13:39,480 --> 00:13:41,080
+Do they have a lab there and everything right there?
+
+142
+00:13:41,320 --> 00:13:43,480
+We have a small lab at the at the S VA.
+
+143
+00:13:43,480 --> 00:13:49,240
+Um at times when class is this large I bring them over to my studio because we can uh we can get more work done there.
+
+144
+00:13:49,240 --> 00:13:53,720
+But uh but they do have a nice workable lab there, a small one, but uh but it works.
+
+145
+00:13:53,720 --> 00:13:56,360
+What do you think of the new uh work with the diodes?
+
+146
+00:13:56,920 --> 00:13:58,040
+I'm very excited by this.
+
+147
+00:13:58,040 --> 00:14:01,800
+I'm glad to see that you've really put your nose to the wheel on this one.
+
+148
+00:14:01,800 --> 00:14:04,840
+Uh I I'm very uh very happy with the results.
+
+149
+00:14:04,840 --> 00:14:09,560
+I I think I mentioned to you prior to this current conversation that I'd like to interview you sometime.
+
+150
+00:14:09,560 --> 00:14:10,120
+Oh really?
+
+151
+00:14:10,120 --> 00:14:14,800
+I'd like to find out uh I'd like to find out w your origins, etcetera.
+
+152
+00:14:14,800 --> 00:14:16,480
+But we'll deal with that issue later on.
+
+153
+00:14:14,440 --> 00:14:21,280
+In any case, yes the diode lasers are a terrific, terrific new contribution.
+
+154
+00:14:21,360 --> 00:14:23,920
+I really like what it's going to do for the beginner.
+
+155
+00:14:23,920 --> 00:14:34,240
+And uh I'm even hoping uh that soon I might uh begin to uncover the possibilities as a more advanced worker in the field to use some of these diodes to make holograms.
+
+156
+00:14:34,240 --> 00:14:35,440
+I really hope that can happen.
+
+157
+00:14:35,440 --> 00:14:40,800
+Yeah they have a few things you need to get used to working with them, but once you get used to them it's okay.
+
+158
+00:14:40,800 --> 00:14:42,320
+Well that's true of everything isn't it?
+
+159
+00:14:42,320 --> 00:14:43,440
+Yes it is true.
+
+160
+00:14:43,520 --> 00:14:43,920
+Yeah.
+
+161
+00:14:44,080 --> 00:14:44,640
+Yeah.
+
+162
+00:14:45,120 --> 00:14:47,440
+What's the latest work that you're working on now?
+
+163
+00:14:47,440 --> 00:14:56,240
+The uh the current what what I'm doing right now is uh I'm w working on uh uh uh uh the next in a series of works that I call the sleeper series.
+
+164
+00:14:56,240 --> 00:15:03,040
+Uh um I I have an odd way of working sometimes it work differently each time but I I do like to work with special effects.
+
+165
+00:15:03,040 --> 00:15:17,040
+Mm-hmm and uh and there there is a current work that I'm doing where I'm I'm dealing with an optical animation where uh where an image will appear to move in a situation of course in holography where you can't have anything moving of course.
+
+166
+00:15:17,040 --> 00:15:17,680
+Yes.
+
+167
+00:15:17,680 --> 00:15:33,200
+So I will take uh for example a uh an object that uh might look in in the case of the one that I'm thinking of it's not the current one but a prior one the one I'm thinking of which was the original subject was a kitchen dish drainer, you know the slats and horizontal lines.
+
+168
+00:15:33,200 --> 00:15:33,760
+Mm-hmm.
+
+169
+00:15:33,760 --> 00:15:41,840
+And I have this uh little thing I call my my time machine which is a uh a large parabolic mirror made of metal with a dent in it.
+
+170
+00:15:42,480 --> 00:15:44,480
+I'm giving away my secret here of course.
+
+171
+00:15:44,480 --> 00:15:45,280
+Okay.
+
+172
+00:15:45,280 --> 00:15:58,800
+But the uh the way that the dent reflects the the um the flat moving or the flat slats uh causes it to distort in such a way that it actually literally turns it into a spinning disk.
+
+173
+00:15:58,800 --> 00:15:59,600
+Oh really?
+
+174
+00:15:59,720 --> 00:16:04,280
+And it's an exquisite feeling the way the light moves as you move from left to right.
+
+175
+00:16:04,280 --> 00:16:13,480
+And what I've done is I've taken that little dent and then removed all of the context from it so that it just appears to be a swirling bit of light.
+
+176
+00:16:13,480 --> 00:16:16,200
+And it turns out to look very much like a flying saucer.
+
+177
+00:16:16,200 --> 00:16:35,560
+I have completed uh a large format one actually, um, at John uh John Perry studio where uh he was so helpful in helping me make this uh m spinning disc project about maybe seven feet into the room with a uh nice blue sky, white cloud background.
+
+178
+00:16:35,560 --> 00:16:36,280
+Mm-hmm.
+
+179
+00:16:36,280 --> 00:16:40,760
+And um I haven't quite I haven't quite figured out where I want to take it from there.
+
+180
+00:16:40,760 --> 00:16:43,000
+These things sometimes take time and study.
+
+181
+00:16:43,400 --> 00:16:48,680
+But uh very exciting idea to uh to be able to make projected images moving.
+
+182
+00:16:48,680 --> 00:16:58,920
+It really is what I consider to be sculpting uh sculpting energy and it's uh there's something away I I've always had a fascination with the way light behaves, of course, uh as I think a lot of us have.
+
+183
+00:16:58,920 --> 00:17:09,400
+And uh so I I do things like if you i if if you understand that a lens will flop an image in one direction and then perhaps in another um, you know, why you have to load your slides backwards.
+
+184
+00:17:09,400 --> 00:17:09,720
+Yeah.
+
+185
+00:17:09,720 --> 00:17:17,720
+I got very interested, for example, in that little m that little moment of time over which it travels from flopping in its horizontal and then vertical direction.
+
+186
+00:17:17,960 --> 00:17:25,320
+And I decided to image that using laser light w simply because it stays in focus to infinity in the way that I've set it up.
+
+187
+00:17:25,320 --> 00:17:31,560
+And so if I capture that moving image on a piece of frosted glass I discovered that I could make an animation of it.
+
+188
+00:17:31,560 --> 00:17:34,760
+And so uh in photography they call it the circle of confusion.
+
+189
+00:17:34,760 --> 00:17:36,520
+I think I might have mentioned that.
+
+190
+00:17:37,000 --> 00:17:43,200
+And uh as it turns out it's my own sort of rendering of the way uh light behaves.
+
+191
+00:17:43,200 --> 00:17:50,320
+And as you move from left to right in front of the hologram, the light will tumble and fall toward you through the film plane and then beyond your shoulder.
+
+192
+00:17:44,840 --> 00:17:51,120
+Oh my goodness.
+
+193
+00:17:51,360 --> 00:17:58,560
+So it's uh it's kind of what I want to do is involve the viewer in the activity of the hologram itself.
+
+194
+00:17:58,560 --> 00:18:02,160
+I've always seen holography as being a cinema thing in a way.
+
+195
+00:18:02,160 --> 00:18:06,720
+I guess that's why I use uh sort of narrative tableau and so forth.
+
+196
+00:18:06,720 --> 00:18:09,280
+I guess the background in theater has a lot to do with that.
+
+197
+00:18:09,280 --> 00:18:13,440
+Well these are the holograms that people should see rather than the coffee cups and the puppies.
+
+198
+00:18:13,840 --> 00:18:22,640
+Yeah well it's difficult to get them out there, you know it's uh it it it y i it's actually not difficult if one just takes the time to show this work in the proper way.
+
+199
+00:18:22,640 --> 00:18:26,480
+I'm so busy making work I'm really not terribly good at getting it out there visible.
+
+200
+00:18:26,880 --> 00:18:28,880
+I I need someone to help me with that.
+
+201
+00:18:28,880 --> 00:18:31,920
+So are you still working with Agha?
+
+202
+00:18:31,920 --> 00:18:34,720
+We are, you know I'm a little bit behind the times here.
+
+203
+00:18:34,720 --> 00:18:38,400
+We have not as yet moved into the new possibilities with the B B plates.
+
+204
+00:18:38,480 --> 00:18:53,840
+Um I'm looking forward to getting our assistance out at the uh the uh the Center for the holographic arts to uh begin testing and each time we we uh dedicate ourselves to that idea we get an a new AIR who comes in and takes our time and we have to go do this magic for them.
+
+205
+00:18:53,840 --> 00:18:56,320
+Well you must be stockpiled with Ag for stuff.
+
+206
+00:18:56,320 --> 00:19:06,160
+We have some we have some we have enough to get us through the uh the next uh s uh session I would say and then we're gonna have to search for new material and I look forward to testing the new stuff.
+
+207
+00:19:06,160 --> 00:19:08,960
+I've heard good things about uh a few different materials.
+
+208
+00:19:08,960 --> 00:19:14,720
+We just I I think these things you have to make your own and uh once we do that we'll be back in gear I think.
+
+209
+00:19:14,720 --> 00:19:15,200
+Yeah, yeah.
+
+210
+00:19:15,200 --> 00:19:17,200
+I have one eight by ten AG for plate left.
+
+211
+00:19:17,200 --> 00:19:18,200
+That's all I have of Ag.
+
+212
+00:19:18,360 --> 00:19:18,760
+Oh, really?
+
+213
+00:19:18,760 --> 00:19:22,400
+Well, we have no plates, but fortunately at the center, we do have a laminating machine.
+
+214
+00:19:22,400 --> 00:19:23,280
+Oh, I see.
+
+215
+00:19:23,280 --> 00:19:32,520
+So we um although it's never easy in holography, it may be the most exciting thing in the in the area, but it is never quite as easy as you'd like it to be.
+
+216
+00:19:32,520 --> 00:19:37,080
+So the laminations are often faulty and we have to go back and redo and redo and get it right.
+
+217
+00:19:37,080 --> 00:19:38,520
+But we're working on it.
+
+218
+00:19:38,520 --> 00:19:46,040
+When when you work with artists, do you s seem to get the feeling that they're frustrated when they find out what they can do and what they can't do with holography?
+
+219
+00:19:46,120 --> 00:19:50,760
+You know, I I uh very seldom have I had that happen.
+
+220
+00:19:50,760 --> 00:20:06,200
+But uh but I think I I have a way of sort of guiding people in the in the direction and affording them a context in general if I'm in charge of the situation, providing them with a context where they begin to understand what the possibilities are within the confines of the of the medium.
+
+221
+00:20:06,200 --> 00:20:40,440
+I think probably my one failure was with Robert Rauschenberg, unfortunately, who I think it was a little too much uh all at once when we tried to work with him back in the old days of the museum of holography, but uh but there have been so many who've who've who've taken to it, uh and in fact this uh project I was just speaking with uh Matthew Schreiber, who is our current artist in residence this week, and he was talking about the exciting uh ventures he had with so many very well known artists uh with this uh work that was done at the at the C project in in uh based in Florida.
+
+222
+00:20:40,440 --> 00:20:41,160
+Mm-hmm.
+
+223
+00:20:41,160 --> 00:20:44,200
+Uh it's uh it's just a little bit of translation, you know.
+
+224
+00:20:44,200 --> 00:20:52,280
+It's it's part of what you I think do and what I do is you try and make this data workable for the person who wishes to use it to express themselves.
+
+225
+00:20:52,280 --> 00:20:52,600
+Mm-hmm.
+
+226
+00:20:52,600 --> 00:21:02,120
+And you try and not editorialize their views as much as you can, but at the same time you have to guide them in what really is feasible given the amount of time one has to do it.
+
+227
+00:21:02,120 --> 00:21:08,200
+Do you think the argument about holography as a legitimate medium has diminished somewhat?
+
+228
+00:21:08,200 --> 00:21:08,520
+No.
+
+229
+00:21:09,400 --> 00:21:10,760
+No, no, I think it's just beginning.
+
+230
+00:21:10,760 --> 00:21:12,280
+You know, we're just close to it, Frank.
+
+231
+00:21:12,280 --> 00:21:16,400
+We don't understand, we're not looking at this thing from the proper perspective when we see it that way.
+
+232
+00:21:17,040 --> 00:21:19,360
+It's I think it's just beginning.
+
+233
+00:21:14,920 --> 00:21:20,480
+I think it's just beginning.
+
+234
+00:21:20,560 --> 00:21:28,320
+I think that that holography as an art form uh began on a little shaky footing and for for for obvious reasons.
+
+235
+00:21:28,640 --> 00:21:34,000
+In the early days the work that was being produced was not you know, it was experimental a lot of it.
+
+236
+00:21:34,000 --> 00:21:38,000
+And a lot of times it was shown without that information having been provided.
+
+237
+00:21:38,000 --> 00:21:47,280
+I'm thinking of the uh ICP show where I critic in the New York Times lamb based at it and rightfully so, but he didn't understand the context.
+
+238
+00:21:47,280 --> 00:21:48,400
+It was not an art show.
+
+239
+00:21:48,400 --> 00:21:51,920
+It was a a show of the technological possibilities.
+
+240
+00:21:51,920 --> 00:21:57,280
+And that set up a a sort of predisposition not to accept holography for a short period.
+
+241
+00:21:57,280 --> 00:22:09,520
+But as work begins to get more and more sophisticated in the hands of artists and as they begin to understand the vocabulary better and better, they begin to expand their view of what the hologram is and how it might fit into their artistic vision.
+
+242
+00:22:09,520 --> 00:22:16,160
+In other words incorporating it to perhaps a larger format, perhaps into uh installation ideas.
+
+243
+00:22:16,160 --> 00:22:27,680
+I I just recently got a postcard from uh a absolutely beautiful beautiful piece that I'm seeing here from Sally Webber for example called Matrix which is installed in uh in Los Angeles area.
+
+244
+00:22:27,680 --> 00:22:33,280
+I mean this is an application of holography that that that arrives at where it w at where it can be.
+
+245
+00:22:33,280 --> 00:22:41,840
+It is an extraordinarily colorful just a magnificent uh bath of uh of prismatic and wonderful light.
+
+246
+00:22:42,000 --> 00:22:59,280
+It's it's it's it's very tastefully done uh and and and incorporates um all sorts of um ritualistic and technological patterns and weaves and so forth uh so much can be done with this medium and and it's just now that artists are beginning to really gain control of it.
+
+247
+00:22:59,280 --> 00:23:05,800
+Do you think the uh artists are a little bit more embracing of technology now because of the digital revolution.
+
+248
+00:23:05,800 --> 00:23:07,800
+It would seem that it's faster, wouldn't it?
+
+249
+00:23:08,280 --> 00:23:16,600
+I I I feel that from my SVA students uh uh occasionally where where i it's it's a more instant gratification with the computer.
+
+250
+00:23:17,160 --> 00:23:22,840
+Um do you think that helps holography the fact that holography is also based on a technology.
+
+251
+00:23:22,840 --> 00:23:26,120
+Well it's very different isn't it you know holography is very analog.
+
+252
+00:23:26,120 --> 00:23:26,520
+Mm-hmm.
+
+253
+00:23:26,520 --> 00:23:37,160
+Yes it is yeah it's much more it's to my eyes it's much more elegant because it is there's just something about working with those waves that is so magical.
+
+254
+00:23:37,160 --> 00:23:37,560
+Yeah.
+
+255
+00:23:37,560 --> 00:23:40,840
+Um I think we're you do you do have it in your blood, don't you?
+
+256
+00:23:40,840 --> 00:23:41,480
+Well I do.
+
+257
+00:23:41,480 --> 00:23:48,600
+I do I think my my blood is composed mostly of light and and hot air as you've heard for the past twenty minutes.
+
+258
+00:23:48,600 --> 00:23:54,360
+Your blood is at sixty three twenty eight very good way of putting it very good way of putting it.
+
+259
+00:23:54,360 --> 00:23:55,960
+I don't live I laze.
+
+260
+00:23:59,000 --> 00:24:11,000
+Well Dan, I want to thank you very much for taking the time out of your schedule to come on the show and I'm sure people just happy as toast to be able to be come onto the site and listen to you uh talk about the work that you've done over the years.
+
+261
+00:24:11,000 --> 00:24:13,080
+Well I'm flattered that you chose to interview me.
+
+262
+00:24:13,080 --> 00:24:14,120
+I do appreciate it.
+
+263
+00:24:14,120 --> 00:24:18,600
+So let's just mention one more time that exhibit that you have coming up at your uh center in Queens.
+
+264
+00:24:18,600 --> 00:24:35,880
+Yes, it's the Center for the holographic arts at 45 Desk Ten Court Square in uh in Long Island City, New York just across the river from Manhattan opening on April seventh and uh we have uh four of our AIR uh recipients uh five actually, counting Margaret Bunyan from England.
+
+265
+00:24:35,880 --> 00:24:37,480
+It's a gonna be a wonderful show.
+
+266
+00:24:37,480 --> 00:24:42,360
+We'll be there for two weeks and I heard that Margaret Bunyan's going to be knighted by the Queen.
+
+267
+00:24:42,360 --> 00:25:08,080
+Oh absolutely yes I just entered that into uh we have a newsletter actually at the center site from you who it's it's primarily uh oriented toward what's going on in the arts and I do it's called Echo and uh not as sophisticated as what you've got cooking here but uh just uh I'm pleased as punched to be able to do it and uh one of the stories is about Margaret's uh receiving the her Majesty's award for her contribution to and her work in holography which is extraordinary.
+
+268
+00:25:08,080 --> 00:25:09,680
+You see Frank we have arrived.
+
+269
+00:25:09,680 --> 00:25:15,040
+Yes we have we've been ordained by Royalty I told you it's all very glamorous I think.
+
+270
+00:25:15,040 --> 00:25:15,840
+Yeah.
+
+271
+00:25:15,840 --> 00:25:21,200
+Uh why don't you take a minute to go down the list of uh participants in the show.
+
+272
+00:25:21,200 --> 00:25:28,240
+Uh B Yikuo Nakamura, Sam Moray, uh Margaret Benyon, Mary Harman and Dean Hetty.
+
+273
+00:25:28,240 --> 00:25:34,240
+What is it that you look for when you receive a proposal to make someone a successful candidate.
+
+274
+00:25:34,240 --> 00:25:39,120
+Well um you know our guidelines pretty much uh take care of all of that.
+
+275
+00:25:39,120 --> 00:25:59,200
+If one goes to our site you'll see what the uh what the guidelines are but really all we're asking for is a simple one page description of the idea and along with uh your um your C V your your resume uh and uh uh sim simple kind of stuff and then um support materials that might help us understand what it is that the artist wants to achieve.
+
+276
+00:25:59,200 --> 00:25:59,680
+Mm-hmm.
+
+277
+00:25:59,680 --> 00:26:11,280
+And then of course we should submit all of this to the uh the panelists and then they make their selections based upon uh the data that we receive from the artist so it's not it's not up to us but uh but that's sort of the direction that we're looking.
+
+278
+00:26:11,280 --> 00:26:12,560
+Keep it simple.
+
+279
+00:26:12,560 --> 00:26:16,160
+And uh you know if it's good I'm sure it will be get selected.
+
+280
+00:26:16,160 --> 00:26:23,760
+So we're we're very grateful to the Shearwater Foundation for making this and uh pretty much if they go to the site they'll see it at Holocenter dot com.
+
+281
+00:26:23,760 --> 00:26:24,480
+Okay.
+
+282
+00:26:24,480 --> 00:26:25,520
+Yeah.
+
+283
+00:26:25,520 --> 00:26:27,120
+Well Dan, thank you very much.
+
+284
+00:26:27,120 --> 00:26:28,080
+I thank you, Frank.
+
+285
+00:26:28,080 --> 00:26:28,400
+Okay.
+
+286
+00:26:28,400 --> 00:26:29,120
+I'll talk to you later.
+
+287
+00:26:29,120 --> 00:26:29,480
+All right.
+
+288
+00:26:29,800 --> 00:26:29,960
+Bye.
+
+289
+00:26:29,840 --> 00:26:31,320
+Take care.

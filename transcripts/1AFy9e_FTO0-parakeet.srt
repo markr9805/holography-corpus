@@ -1,0 +1,739 @@
+1
+00:00:03,360 --> 00:00:13,840
+Hello everyone, this is Frank Defratis, and welcome to HoloTalk, the Internet's laser and holography talk show, enjoyed in over 42 countries throughout the world.
+
+2
+00:00:13,840 --> 00:00:17,040
+And now, here's this week's show.
+
+3
+00:00:21,360 --> 00:00:29,440
+Hello everyone, this is Frank Defratis, and welcome to a brand new season of Holotalk for the 2000-2001 season.
+
+4
+00:00:29,440 --> 00:00:42,720
+This is the fourth season of the show, and I would like to welcome all of the regular listeners back and also welcome the new listeners who had gotten on the email list over the summer anticipating a new season of shows.
+
+5
+00:00:42,720 --> 00:00:44,880
+So welcome to Holotalk.
+
+6
+00:00:44,880 --> 00:00:53,920
+Our guest this week is Sean Lawley, and Sean is the science department head at Swickley Academy in Pittsburgh, Pennsylvania.
+
+7
+00:00:53,920 --> 00:01:02,960
+And I interviewed Sean when I was in Pittsburgh during one of my trips and got some of his thoughts on holography and education and working with kids.
+
+8
+00:01:02,960 --> 00:01:17,520
+And he'll come on and tell us a little bit about his program and a little bit about holography in the Pittsburgh area in general and also how they're going to start using the new shoebox holography system there at Squickley Academy.
+
+9
+00:01:17,520 --> 00:01:32,800
+Before I do, I'd like to let the listeners know, especially the new listeners, that there is an archive of Holotalk shows that you can access where all three years of programming is located for your listening enjoyment.
+
+10
+00:01:32,800 --> 00:01:43,600
+If you scroll down the HoloTalk page, you will find a link that will take you to the archive, and then you can just scroll down the archive page and pick out any show that happens to suit your interest.
+
+11
+00:01:43,600 --> 00:01:49,120
+Click on it and you'll be able to listen to that show just the way that you're listening to this one now.
+
+12
+00:01:49,120 --> 00:01:54,720
+And once again, there are three years of Holotalk programming there.
+
+13
+00:01:54,720 --> 00:01:55,920
+It's good to be back.
+
+14
+00:01:55,920 --> 00:02:00,280
+It wasn't a great summer, weather-wise anyway, here in the northeast part of the country.
+
+15
+00:01:59,840 --> 00:02:04,440
+It was uh very rainy, uh damp, chilly.
+
+16
+00:02:05,240 --> 00:02:08,280
+But uh overall it was good to have a break each year.
+
+17
+00:02:08,280 --> 00:02:44,120
+Uh our regular listeners know uh HoloTalk goes off the air at Memorial Day, and then we just stay um off the air for the entire summer, and actually activities around the lab also seem to uh settle down somewhat and there there are a few workshop programs and we did do a few shows over the summer as well, but for all practical purposes, it's basically just a shutdown for the summer to recharge and come back with uh anticipation of a uh brand new season of both uh working in the lab workshop programs and uh HoloTalk itself.
+
+18
+00:02:44,120 --> 00:02:57,000
+We have a lot of guests coming up uh this year, and um invite you to come back on, log on and listen to uh some of the exciting shows that we have coming up, speaking to people who are working with lasers and holography.
+
+19
+00:02:57,000 --> 00:03:11,720
+Uh, we're also going to have a um uh section for projects like I did with the uh laser diode holography back uh last year and a little bit of the year before, where you can log on and follow the project itself.
+
+20
+00:03:11,720 --> 00:03:22,440
+And we should have some pretty cool projects, not just for your amateur and hobbyist astrona uh uh uh holographers out there, but also uh for educators as well.
+
+21
+00:03:22,440 --> 00:03:25,560
+I'd like to take Holo Talk on the road a little bit more this year.
+
+22
+00:03:25,560 --> 00:03:32,760
+Most of the programs that are on the archive page have been with interviews that have been conducted over the phone.
+
+23
+00:03:32,760 --> 00:03:48,480
+And um last year was one of the first years that um I took HoloTalk out on the road and did some interviews uh with the equipment, and I'd like to continue to do that at different labs, studios, and events that are held throughout the season, so we can look forward to that.
+
+24
+00:03:48,720 --> 00:03:53,040
+Before we get to show on Lolly, I have a few announcements, general announcements to make.
+
+25
+00:04:19,040 --> 00:04:26,960
+Sometimes it's laser diode holograms, sometimes it's hologram portraits, sometimes it's uh multicolor holography, etc.
+
+26
+00:04:27,040 --> 00:04:27,520
+etc.
+
+27
+00:04:28,160 --> 00:04:32,720
+The first open house that I'm going to have is going to be October 4th.
+
+28
+00:04:32,720 --> 00:04:38,000
+That's Wednesday, October 4th at 7.30 here at the lab in Allentown.
+
+29
+00:04:38,000 --> 00:04:48,240
+And you're welcome to come out, have some refreshments, uh, see some holograms, uh, take a look at how holograms are done, and uh generally uh have a pretty good time.
+
+30
+00:04:48,240 --> 00:04:53,200
+So that's open house, the first one of the season, October 4th, 7.30.
+
+31
+00:04:53,200 --> 00:05:12,320
+So if uh you happen to be in the New York, Philadelphia, Baltimore, Washington, DC areas, and you get out of work at 4.30 or 5, uh usually two and a half hours is enough time to uh to get up here or over to here or down to here, whichever way you happen to be coming from to enjoy the open house.
+
+32
+00:05:12,320 --> 00:05:25,120
+And it usually runs about an hour and a half, so you're out of here at nine o'clock within enough time to get back to your home in time to get to bed and back up for another day on Thursday mornings.
+
+33
+00:05:25,280 --> 00:05:28,240
+New season of workshop programs are starting up.
+
+34
+00:05:28,240 --> 00:05:31,640
+If you go to the workshop page, you'll see the listing of workshops.
+
+35
+00:05:31,960 --> 00:05:40,840
+There's the introduction to holography workshop where you can come in, learn how to make a hologram, make one of your own holograms from start to finish to take home with you.
+
+36
+00:05:40,840 --> 00:05:48,440
+It's a one-of-a-kind hologram, and you also learn a little bit about making them in the process because you're doing it hands-on.
+
+37
+00:05:48,440 --> 00:05:57,720
+If you're an educator and you would like to start holography with your students at your school, there's no better way to do so than to come in here for an afternoon or evening workshop.
+
+38
+00:05:57,720 --> 00:06:07,400
+We'll take you through everything that you need to know to put a successful and exciting program together for your students to enjoy holography in the school.
+
+39
+00:06:07,400 --> 00:06:12,280
+So there's a teacher educator program as well.
+
+40
+00:06:12,520 --> 00:06:15,560
+New this season is speaking engagements.
+
+41
+00:06:15,560 --> 00:06:30,120
+If you happen to have a club or organization, I'd be more than happy to come out and speak about holography, bring a few holograms with me, bring a laser or two so that you can see how lasers work, especially the new diode lasers.
+
+42
+00:06:30,120 --> 00:06:34,920
+And if you'd like more information on that, you can find that on the workshop page as well.
+
+43
+00:06:34,920 --> 00:06:41,240
+And if you happen to be in the New York, Philadelphia, and I believe Baltimore area as well, let me know.
+
+44
+00:06:41,240 --> 00:06:43,320
+This is something I do as a public service.
+
+45
+00:06:43,320 --> 00:06:45,400
+It's not anything that I charge for.
+
+46
+00:06:45,400 --> 00:07:02,040
+So if you have a club organization, you're having a special education night or you want an interesting topic with lasers and holography, contact me either through email or through the telephone, and I'd be more than happy to come down if the date happens to be open and speak at your event.
+
+47
+00:07:02,040 --> 00:07:06,760
+Okay, let's move on to Sean Lawley from Swickley Academy.
+
+48
+00:07:06,720 --> 00:07:11,560
+Uh this is the uh first interview of the year, and I'd like to thank you for tuning in.
+
+49
+00:07:11,720 --> 00:07:22,640
+I hope that you tune in each and every week to enjoy a new HoloTalk program throughout this season which will run from tonight through Memorial Day of two thousand one.
+
+50
+00:07:22,640 --> 00:07:27,040
+I'm looking forward to a great season and it's good to be back.
+
+51
+00:07:27,040 --> 00:07:29,280
+Here's Sean Lawley.
+
+52
+00:07:30,800 --> 00:07:33,120
+Hello everyone this is Frank Defratus.
+
+53
+00:07:33,120 --> 00:07:34,720
+Welcome to another week of HoloTalk.
+
+54
+00:07:34,720 --> 00:07:47,760
+We're on the road in Pittsburgh this week and I have as a special guest actually here in the hotel room with me is uh Sean Lowley and Sean is from Swickley Swickley Academy that's right in Swickley, Pennsylvania just close to here.
+
+55
+00:07:47,760 --> 00:07:56,480
+Um why don't you take a minute to uh tell a little bit about the school is it K through twelve or uh you know a general background about the Academy itself.
+
+56
+00:07:56,480 --> 00:08:07,920
+Absolutely it's K through twelve uh actually pre-K through twelve uh college preparatory school and we are located in uh Swickley Pennsylvania which is probably about twenty minutes or so from here.
+
+57
+00:08:08,320 --> 00:08:12,720
+And it's uh again to college preparatory school um private school.
+
+58
+00:08:12,720 --> 00:08:13,200
+Yeah.
+
+59
+00:08:13,200 --> 00:08:24,400
+Now you've uh been working with holography for a number of years haven't you about uh almost twelve years now yeah uh pretty much exclusively in education yeah and how did you get started with it?
+
+60
+00:08:24,400 --> 00:08:26,960
+Uh pretty much by accident.
+
+61
+00:08:26,960 --> 00:08:27,760
+Mm-hmm.
+
+62
+00:08:27,760 --> 00:08:40,480
+The uh I had an opportunity a friend of mine wanted to do some teaching uh one summer with me at West Virginia University and they were interested in having a holography course but nobody in the physics department had had really had any luck with it.
+
+63
+00:08:40,480 --> 00:08:45,200
+Yeah so they gave it to us as a project to play with because we are the kind of people who like to play with that sort of thing.
+
+64
+00:08:45,680 --> 00:08:50,080
+And um sure enough we we eventually had some great success with it.
+
+65
+00:08:50,080 --> 00:08:57,360
+This is sort of as far as I can tell it's just before the big wave of uh of great interest in holography, especially in teaching physics.
+
+66
+00:08:57,360 --> 00:08:57,560
+Yeah.
+
+67
+00:08:57,680 --> 00:09:02,040
+I I do I teach high school physics and astronomy, so that's that is my background.
+
+68
+00:09:02,040 --> 00:09:12,440
+We started it then, we had some great success with it, and once plates and whatnot became much easier to get a hold of, uh I did it every single year after that.
+
+69
+00:09:12,440 --> 00:09:15,000
+Um with uh with my high school kids.
+
+70
+00:09:15,000 --> 00:09:22,840
+And but I've also done with kids as young as oh boy, we've done holograms with kids like five, six, seven years old in summer workshops.
+
+71
+00:09:22,840 --> 00:09:23,320
+Yeah.
+
+72
+00:09:23,320 --> 00:09:27,800
+And you've uh done holograms specifically with your students in your course now, right?
+
+73
+00:09:27,800 --> 00:09:29,960
+Definitely with a regular part of the physics curriculum.
+
+74
+00:09:29,960 --> 00:09:31,560
+Yeah, and you're chair of the science department.
+
+75
+00:09:31,560 --> 00:09:32,200
+That is correct.
+
+76
+00:09:32,200 --> 00:09:32,520
+Okay.
+
+77
+00:09:32,520 --> 00:09:35,000
+Just so that we let the whole truck talk listeners know that.
+
+78
+00:09:35,000 --> 00:09:35,480
+Sure.
+
+79
+00:09:35,480 --> 00:09:37,640
+Um you got interested in the shoebox.
+
+80
+00:09:37,640 --> 00:09:41,720
+Where do you see this falling in place now with uh holography?
+
+81
+00:09:41,720 --> 00:09:43,240
+You think it's a lot easier now?
+
+82
+00:09:43,240 --> 00:09:48,120
+Without a doubt, I haven't uh I haven't seen anything quite this simple ever before.
+
+83
+00:09:48,120 --> 00:09:52,600
+And when I see the results of these plates, they uh I I mean they just blow me away.
+
+84
+00:09:52,600 --> 00:09:53,720
+I think they're amazing.
+
+85
+00:09:53,720 --> 00:10:01,160
+They are better than some of they're better than the most of the work that I've done with uh with the simple uh healing neon lasers before.
+
+86
+00:10:01,160 --> 00:10:07,880
+I think they're uh it's amazingly um amazingly uh exciting in development.
+
+87
+00:10:07,880 --> 00:10:15,960
+And again it as you know, I I'd always heard that it just wasn't possible on physics listservs, it always came up as just something that could not be done.
+
+88
+00:10:15,960 --> 00:10:18,840
+And um I am dying to do this.
+
+89
+00:10:20,920 --> 00:10:28,680
+Um if you happen to hear a noise in the background, we have somebody with a weed whacker that's working out there, so we're sorry about that.
+
+90
+00:10:28,680 --> 00:10:34,840
+And if this turns out to be too inaudible, which I don't think it's going, I think I think maybe we can work with it.
+
+91
+00:10:34,840 --> 00:10:38,480
+But maybe I can give you a call on the phone, that'd be great or a phone interview or something like that.
+
+92
+00:10:39,000 --> 00:10:39,640
+I don't know.
+
+93
+00:10:39,640 --> 00:10:53,600
+Um now when you work with your kids and you go over things like lasers and holography and stuff like that, uh uh do they ever find out anything about that there's actually careers, you know, that they can move into?
+
+94
+00:10:53,600 --> 00:10:54,400
+Not really.
+
+95
+00:10:54,400 --> 00:10:59,680
+Yeah, that's uh I don't know much of the current career market myself.
+
+96
+00:10:59,680 --> 00:11:00,080
+Mm-hmm.
+
+97
+00:11:00,080 --> 00:11:02,320
+So I've been in education for twelve years.
+
+98
+00:11:02,720 --> 00:11:20,640
+Um I've had engineers come in to speak to them, but I think that something like uh photonics probably seems a bit uh bit so specialized that I know I never really realized that there was such a a great need in the market mm-hmm right now for uh for trained people.
+
+99
+00:11:20,640 --> 00:11:26,080
+Did you know that one of the largest photonics corridors in the nation is it just going to be a few miles from here?
+
+100
+00:11:26,080 --> 00:11:26,800
+That I did know.
+
+101
+00:11:26,800 --> 00:11:27,120
+Okay.
+
+102
+00:11:27,120 --> 00:11:32,480
+Yeah, I did know that, but I had no idea that we were talking about a great demand for uh for trained people.
+
+103
+00:11:32,480 --> 00:11:33,120
+Yeah.
+
+104
+00:11:33,120 --> 00:11:36,080
+Do you think it would be something we'd be valuable for kids to know about?
+
+105
+00:11:36,080 --> 00:11:36,320
+Sure.
+
+106
+00:11:36,960 --> 00:11:38,160
+What grades do you teach?
+
+107
+00:11:38,160 --> 00:11:41,200
+I teach uh 11th and 12th, probably in tenth also.
+
+108
+00:11:41,360 --> 00:11:48,000
+I guess that would probably be right around the age when they would start to make careers on what it I mean, decisions on what type of careers they would be making.
+
+109
+00:11:48,000 --> 00:11:48,400
+I don't know.
+
+110
+00:11:48,560 --> 00:11:49,120
+Without a doubt.
+
+111
+00:11:49,120 --> 00:11:56,400
+Um in the summers I I teach younger kids like um, you know, fourth grade, fifth grade, and that's when I've done some holography workshops with them as well.
+
+112
+00:11:56,720 --> 00:12:06,320
+Set up they're like yourself, just go at the drop of a hat anywhere I can get a dark room, just set it up and uh and do a set and do a bunch of exposures with kids.
+
+113
+00:12:06,320 --> 00:12:12,480
+Uh what percentage of kids go on to a uh four year degree program that come out of swiftly?
+
+114
+00:12:12,480 --> 00:12:14,160
+I imagine it's a fairly high percentage.
+
+115
+00:12:14,720 --> 00:12:17,200
+Yeah, I'd say it's almost a hundred if not a hundred.
+
+116
+00:12:17,360 --> 00:12:17,680
+Yeah.
+
+117
+00:12:17,680 --> 00:12:18,320
+Yeah, definitely.
+
+118
+00:12:18,320 --> 00:12:24,480
+That's I mean that's why they're there to to get into uh uh ideally the school of our choice.
+
+119
+00:12:24,480 --> 00:12:24,880
+Yeah.
+
+120
+00:12:24,880 --> 00:12:39,480
+It's it's a pretty it's a really rigorous program, but it's also uh fairly it it's very um it's very academic but it is also uh highly concentrated in the arts and humanities as well.
+
+121
+00:12:39,480 --> 00:12:44,760
+So there's an incredible music program and uh, you know, a really wonderful art program as well.
+
+122
+00:12:44,760 --> 00:12:45,080
+Mm-hmm.
+
+123
+00:12:45,080 --> 00:12:45,480
+It's great.
+
+124
+00:12:45,480 --> 00:12:50,920
+I like working there because all of the people that I work with practice for the most part what they do.
+
+125
+00:12:50,920 --> 00:12:55,640
+So you know the people in my science department have most of them have some kind of science research background.
+
+126
+00:12:55,960 --> 00:12:57,960
+The art program, they're artists.
+
+127
+00:13:00,680 --> 00:13:02,760
+The uh the English program, they're all writers.
+
+128
+00:13:03,080 --> 00:13:04,120
+It's a cool place to work.
+
+129
+00:13:04,120 --> 00:13:05,960
+Yeah, that is yeah.
+
+130
+00:13:05,960 --> 00:13:13,720
+Um and and they support my uh my activities in things like uh with with holography or astronomy.
+
+131
+00:13:13,720 --> 00:13:21,880
+If I have I mean when I look to hire somebody, I always look for somebody who has great outside interests so that you know, we can we can really tap that.
+
+132
+00:13:21,880 --> 00:13:22,760
+Yeah.
+
+133
+00:13:22,760 --> 00:13:25,560
+What about holography generally in the Pittsburgh area?
+
+134
+00:13:25,560 --> 00:13:30,280
+Is uh there have been a lot of activity over the years, a few people, a lot of people.
+
+135
+00:13:30,280 --> 00:13:33,800
+Um there I would say there has been a lot of activity from a few people.
+
+136
+00:13:33,800 --> 00:13:39,000
+Uh the uh the two names that always come to my mind when I think of holography are Dan and Kathy Malone.
+
+137
+00:13:39,000 --> 00:13:43,880
+Dan teaches at Fox Chapel High School, she's a public school in um Fox Chapel.
+
+138
+00:13:43,880 --> 00:13:48,360
+And uh Kathy teaches at Chadyside Academy, which is another uh college prep school.
+
+139
+00:13:48,360 --> 00:13:48,680
+Mm-hmm.
+
+140
+00:13:48,680 --> 00:13:53,720
+Um they're both great schools and uh I learned an awful lot about holography from them.
+
+141
+00:13:53,720 --> 00:14:05,240
+I think uh they probably started doing it in the early nineties and they started offering workshops around here for holography and they taught to train a lot of people mm how to do uh how to do simple holograms.
+
+142
+00:14:05,240 --> 00:14:08,920
+Although it's not nearly as simple as the shoebox technique, you know, without a doubt.
+
+143
+00:14:08,920 --> 00:14:12,360
+But um they have done a lot of great things for holography education in this area.
+
+144
+00:14:12,360 --> 00:14:16,800
+And not just in this area, I know they've done national workshops, regional workshops as well.
+
+145
+00:14:16,800 --> 00:14:25,040
+They're incredibly dedicated and uh and um and involved physics educators.
+
+146
+00:14:25,440 --> 00:14:31,200
+Do you have any holographic artists that continue with uh doing holography here after they've taken one of the workshops?
+
+147
+00:14:31,440 --> 00:14:33,280
+None that I've known oh teachers, yes.
+
+148
+00:14:33,280 --> 00:14:34,800
+Teachers, yes we've had people.
+
+149
+00:14:34,800 --> 00:14:38,720
+Do you have anyone that like Sam Jones down on twenty eighth street.
+
+150
+00:14:38,720 --> 00:14:40,720
+Does he have a lab in his basement or something?
+
+151
+00:14:40,720 --> 00:14:42,320
+Uh none that I've known of.
+
+152
+00:14:42,320 --> 00:14:46,560
+But I've had a lot of students who've done a good bit with it in our school.
+
+153
+00:14:46,560 --> 00:14:47,040
+Yeah.
+
+154
+00:14:47,040 --> 00:14:54,080
+So that's one of the nicest things that um holography has afforded and that's the opportunity to do great research projects.
+
+155
+00:14:54,080 --> 00:14:57,920
+We have a thing in Pennsylvania called you probably know the Pennsylvania Junior Academy of Science.
+
+156
+00:14:57,920 --> 00:14:58,400
+Mm-hmm.
+
+157
+00:14:58,400 --> 00:15:11,120
+And kids can do they do legitimate scientific research and they present it to their peers as well as college professors, high school teachers, engineers and uh it's a competition but it's more of a uh an exhibition.
+
+158
+00:15:11,120 --> 00:15:21,760
+So I've had students do research projects on pseudo color holography with with color with chemical preparation of plates beforehand uh three hundred and sixty degree holography with flexible film.
+
+159
+00:15:21,760 --> 00:15:36,240
+Yeah uh multi image holograms, it's all sorts of things and they've all almost always uh preparation of uh of dichromated gelatons is what we tried this year with pretty mixed results.
+
+160
+00:15:36,240 --> 00:15:36,880
+Yeah.
+
+161
+00:15:36,880 --> 00:15:48,080
+Um but all the projects always uh do very well because they are interesting and they're original projects and they're not just something as sort of mundane as you know which battery lasts the longest.
+
+162
+00:15:48,080 --> 00:15:49,040
+Yeah, yeah, yeah.
+
+163
+00:15:49,040 --> 00:15:49,800
+They're great project.
+
+164
+00:15:49,800 --> 00:15:53,040
+And we're not talking about something that's really cost prohibitive for schools.
+
+165
+00:15:53,040 --> 00:15:54,000
+That's why I liked it.
+
+166
+00:15:54,000 --> 00:15:58,800
+Before I taught at Swickley Academy, I taught at a uh a rural public school.
+
+167
+00:15:58,800 --> 00:16:01,720
+And the budget there was terrible.
+
+168
+00:16:01,720 --> 00:16:04,040
+You know, it just it just wasn't good at all.
+
+169
+00:16:04,040 --> 00:16:07,080
+But we could still do great work in holography.
+
+170
+00:16:07,080 --> 00:16:15,560
+I had a I got a grant from the local spectroscopy society of Pittsburgh to uh to buy a laser and the next thing I know and and some plates.
+
+171
+00:16:15,560 --> 00:16:18,360
+And that la that that lasted a long time.
+
+172
+00:16:18,680 --> 00:16:21,000
+And uh we got an awful lot out of that.
+
+173
+00:16:21,000 --> 00:16:32,440
+So it's I've never found especially now I mean holography is not a cost prohibitive uh endeavor and there's so much physics oh yeah that the kids learn from this process and they love it.
+
+174
+00:16:32,440 --> 00:16:33,240
+It's interesting.
+
+175
+00:16:33,240 --> 00:16:34,200
+Mm-hmm.
+
+176
+00:16:35,320 --> 00:16:37,080
+And it's a quiet lab.
+
+177
+00:16:37,080 --> 00:16:39,320
+Yeah it's it's a nice quiet way to work.
+
+178
+00:16:39,320 --> 00:16:40,200
+It's a quiet lab.
+
+179
+00:16:40,200 --> 00:16:41,880
+You get the kids to be quiet for a while.
+
+180
+00:16:41,880 --> 00:16:45,640
+I know exactly well I want to thank you very much for coming on the show.
+
+181
+00:16:45,640 --> 00:16:51,640
+Absolutely and I hope that we have an opportunity to uh move forward and work together maybe on a few projects.
+
+182
+00:16:51,640 --> 00:16:54,040
+I know you found the portraits fascinating.
+
+183
+00:16:54,280 --> 00:16:55,640
+Incredibly exciting.
+
+184
+00:16:55,640 --> 00:17:03,640
+Um yeah I would uh welcome the uh opportunity to work with you and be some but and also any other educators yeah in the in the air okay sure well thank you very much for being on the show.
+
+185
+00:17:03,640 --> 00:17:04,440
+Thanks a lot okay

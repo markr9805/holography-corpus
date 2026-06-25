@@ -1,0 +1,579 @@
+1
+00:00:00,560 --> 00:00:07,040
+Hello folks and welcome to Holotalk for the week of April 26, 1998.
+
+2
+00:00:07,040 --> 00:00:09,600
+This is Frank Defratis.
+
+3
+00:00:09,600 --> 00:00:14,960
+In an effort to try and keep HoloTalk as diverse as possible.
+
+4
+00:00:14,960 --> 00:00:20,320
+This week our show will take a look into the field of laser light shows.
+
+5
+00:00:20,320 --> 00:00:22,640
+And my guest is L.
+
+6
+00:00:22,640 --> 00:00:29,600
+Michael Roberts of Burlington, Canada, and Laser FX International.
+
+7
+00:00:29,600 --> 00:00:30,160
+Mr.
+
+8
+00:00:30,160 --> 00:00:40,720
+Roberts, if you are not already aware, has been designing, creating, and performing laser light shows since 1976.
+
+9
+00:00:40,720 --> 00:00:54,800
+And is the person who developed the original laser light show dance party concept back in 1978, which is now a standard at nightclubs and raids throughout the world.
+
+10
+00:00:54,800 --> 00:01:06,400
+He's performed laser light shows for major corporations, toured internationally with rock bands, and has done firework spectaculars and provided motion picture special effects.
+
+11
+00:01:06,400 --> 00:01:11,920
+He has even performed for Her Majesty Queen Elizabeth II.
+
+12
+00:01:11,920 --> 00:01:12,240
+L.
+
+13
+00:01:12,320 --> 00:01:22,320
+Michael Roberts is the author of Laser FX, which is considered by many to be the Bible of Laser Light Show manuals.
+
+14
+00:01:22,320 --> 00:01:31,280
+Along with a host of other items and activities, including a quarterly newsletter and an incredible website devoted to the industry.
+
+15
+00:01:31,280 --> 00:01:32,480
+We'll be talking with Mr.
+
+16
+00:01:32,480 --> 00:01:39,520
+Roberts in just a moment, who will attempt to give comprehensive answers to my obviously amateur questions concerning laser light shows.
+
+17
+00:01:39,520 --> 00:01:42,640
+But first, a few items.
+
+18
+00:01:42,640 --> 00:01:45,200
+The webcam.
+
+19
+00:01:45,240 --> 00:01:54,760
+I'm going to try and get this put together over the weekend and hope to have the first broadcast this Thursday night.
+
+20
+00:01:54,760 --> 00:01:59,080
+You'll be able to see into the studio as I put the show together.
+
+21
+00:01:59,080 --> 00:02:14,280
+Now you'll not be able to hear a live broadcast at the moment, as I cannot broadcast live audio yet, but you will be able to call into the studio on a toll-free number and get on the show.
+
+22
+00:02:14,280 --> 00:02:20,520
+You can call in with your holography questions and or just call in to say hello and that you listen to the show.
+
+23
+00:02:20,520 --> 00:02:27,320
+So come to the live webcam page Thursday night, April 30th at 11 p.m.
+
+24
+00:02:27,720 --> 00:02:29,800
+Eastern time.
+
+25
+00:02:29,800 --> 00:02:34,840
+You'll see the live webcam link on the left side of the HoloTalk page.
+
+26
+00:02:34,840 --> 00:02:37,240
+This will be every week from now on.
+
+27
+00:02:37,240 --> 00:02:41,560
+And I also have a studio link where you can see pictures from the studio now.
+
+28
+00:02:41,560 --> 00:02:47,240
+You'll notice that the Hollow Talk page has been redesigned with additional pages added.
+
+29
+00:02:47,240 --> 00:02:50,840
+So check out these new pages while you're here.
+
+30
+00:02:50,840 --> 00:02:53,320
+Okay, on to the interview with uh L.
+
+31
+00:02:53,320 --> 00:02:54,440
+Michael Roberts.
+
+32
+00:02:54,440 --> 00:02:57,320
+The interview runs approximately a half hour.
+
+33
+00:02:57,320 --> 00:03:00,040
+I'm not going to come back on after the interview.
+
+34
+00:03:00,200 --> 00:03:02,760
+So once again I will say thank you for tuning in.
+
+35
+00:03:02,760 --> 00:03:14,680
+And if you would like to get on the new Holo Talk Listener's Guide email list, click on the link for updates and guests, which you will also find on the left-hand side of the page.
+
+36
+00:03:14,680 --> 00:03:15,800
+Okay, on to L.
+
+37
+00:03:15,880 --> 00:03:16,600
+Michael Roberts.
+
+38
+00:03:16,600 --> 00:03:19,880
+See you next week and hopefully Thursday night with the live webcam.
+
+39
+00:03:19,880 --> 00:03:21,640
+Take care.
+
+40
+00:03:21,640 --> 00:03:22,600
+Hello, everyone.
+
+41
+00:03:22,600 --> 00:03:23,720
+I'm speaking with L.
+
+42
+00:03:23,720 --> 00:03:27,560
+Michael Roberts, who's with uh Laser FX International.
+
+43
+00:03:27,560 --> 00:03:29,160
+Michael, welcome to the show.
+
+44
+00:03:29,160 --> 00:03:30,440
+Well, thank you very much.
+
+45
+00:03:30,440 --> 00:03:36,200
+We're going to get some information from him on a uh convention that's coming up, among other things that we're going to speak about tonight.
+
+46
+00:03:36,200 --> 00:03:41,880
+But why don't we uh go right in with the Laser FX ninety-eight convention that's happening May 16th to 18th?
+
+47
+00:03:41,880 --> 00:03:43,000
+Can you tell us a little about it?
+
+48
+00:03:43,320 --> 00:03:43,640
+Sure.
+
+49
+00:03:43,640 --> 00:03:47,040
+This is our uh fourth annual uh Laser FX event.
+
+50
+00:03:44,920 --> 00:03:49,760
+Uh we hold them in Burlington, Ontario.
+
+51
+00:03:50,080 --> 00:03:59,200
+Uh part of the reason for that is that uh audience scanning, European style audience scanning laser shows are legal in Canada and audience scanning is not legal in the US.
+
+52
+00:03:59,200 --> 00:04:00,240
+Oh, I see.
+
+53
+00:04:00,240 --> 00:04:03,520
+The uh conference is a uh three-day event.
+
+54
+00:04:03,520 --> 00:04:07,920
+On uh Saturday we have uh a number of uh uh committee meetings.
+
+55
+00:04:07,920 --> 00:04:12,640
+The International Laser Display Association will be holding their technical committee meeting.
+
+56
+00:04:12,640 --> 00:04:14,400
+There'll be other groups meeting.
+
+57
+00:04:14,400 --> 00:04:21,040
+We have an open house on Saturday night, Sunday is a trade show most of the day, Sunday evening is the uh big event.
+
+58
+00:04:21,040 --> 00:04:24,080
+Uh it's uh the Brewster Awards banquet.
+
+59
+00:04:24,080 --> 00:04:30,800
+We have a sumptuous buffet dinner, and then everyone sits down to look at laser shows, which are played back from A.
+
+60
+00:04:31,040 --> 00:04:37,440
+Tape using a full color uh laser system with fiber optic remote uh beam heads.
+
+61
+00:04:37,440 --> 00:04:49,600
+And everyone who's in the room gets a ballot and gets to vote on what they consider to be the best laser show that they saw that evening, and the winner is awarded with fame and lovely lovely uh award to put on their shelf.
+
+62
+00:04:49,600 --> 00:04:51,440
+Are the winners awarded that night?
+
+63
+00:04:51,440 --> 00:04:59,760
+Uh well yes, we announce the winners immediately, but obviously we can't give out the awards immediately because we don't uh ability to engrave them in first thing.
+
+64
+00:05:00,000 --> 00:05:02,880
+With all those lasers, you can't do any laser engraving on the spot, huh?
+
+65
+00:05:03,600 --> 00:05:08,320
+No, the lasers are all visible, and typically for laser engraving you want to use CO2 lasers.
+
+66
+00:05:08,480 --> 00:05:09,360
+Yeah, infrared.
+
+67
+00:05:09,360 --> 00:05:16,080
+Then the Monday is the seminar day, and uh on that day we have a number of uh seminars on various topics.
+
+68
+00:05:16,080 --> 00:05:21,040
+Uh we have a business issues uh round table with a number of successful laserists.
+
+69
+00:05:21,040 --> 00:05:32,200
+We have uh what's new technical session in which people with new goods and equipment will discuss the technical workings of uh how they operate and what makes them better than other products.
+
+70
+00:05:29,440 --> 00:05:34,680
+Could you explain to the listeners and myself as well.
+
+71
+00:05:29,520 --> 00:05:37,400
+I'm not sure what audience scanning means.
+
+72
+00:05:37,400 --> 00:05:38,360
+What is that?
+
+73
+00:05:38,360 --> 00:05:44,600
+Uh audience scanning is where the laser beam is projected directly onto the people in the audience.
+
+74
+00:05:44,600 --> 00:05:47,960
+Oh sort of like a spread of light that goes up and down or sideways or something?
+
+75
+00:05:48,200 --> 00:05:48,600
+Correct.
+
+76
+00:05:48,600 --> 00:05:51,560
+Well there are many different forms of audience scanning effects.
+
+77
+00:05:51,560 --> 00:05:54,680
+There's sheets, there's waves, there's uh fans.
+
+78
+00:05:55,480 --> 00:06:01,880
+With fashion shows and things like uh the models walk down through the uh through tunnels of cones of light, yes.
+
+79
+00:06:01,880 --> 00:06:04,760
+Typically you see this mostly outside the USA.
+
+80
+00:06:04,760 --> 00:06:10,920
+It's not seen in the USA at all except perhaps it's some underground and illegal raves using low power lasers.
+
+81
+00:06:10,920 --> 00:06:22,840
+Yeah because it is illegal to scan onto the well it's not illegal, it's just technically extremely complex, requires a lot of safeguards and a lot of paperwork in order to scan onto the audience in the United States.
+
+82
+00:06:22,840 --> 00:06:29,640
+But in Europe there are companies that have laser systems as powerful as fifty seven watts that scan directly onto the audience.
+
+83
+00:06:29,960 --> 00:06:33,160
+Now obviously the audience is not standing a few feet away.
+
+84
+00:06:33,480 --> 00:06:37,640
+They're usually on the other side of a lake or uh in a large public area.
+
+85
+00:06:37,640 --> 00:06:40,520
+So the what we have to look at is energy density.
+
+86
+00:06:40,520 --> 00:07:00,520
+Now one of the things we're doing this year because there's been a certain amount of controversy about uh audience scanning is having a special audience scanning workshop at the uh uh sem on seminar day at Laser FX and that is uh to demonstrate to people what is the a good way and a bad way to do things.
+
+87
+00:07:00,520 --> 00:07:15,520
+For example, if you were projecting a square tunnel, you would want to be sure that the corners were not any brighter than any other part because that poses a hazard in terms of of the energy because there's more energy then in the corners than there is in the rest of the beam.
+
+88
+00:07:14,840 --> 00:07:17,600
+Sometimes you see actual dots in the corner.
+
+89
+00:07:17,600 --> 00:07:20,160
+That's because it's being scanned more than once in that area, is that correct?
+
+90
+00:07:20,320 --> 00:07:20,720
+That's right.
+
+91
+00:07:20,720 --> 00:07:31,280
+That's because usually there are a number of points in that corner that uh that are there designed to uh hold the squareness of the beam in place as it changes direction, often called anchor points.
+
+92
+00:07:31,680 --> 00:07:40,640
+From what I understand, uh there's a hot topic in Las Vegas right now with uh you well, actually between the laser light show people and the airport authorities.
+
+93
+00:07:40,640 --> 00:07:42,080
+Uh are you aware of this?
+
+94
+00:07:42,080 --> 00:07:49,520
+Oh yes, this has been a very hot issue in the industry and continues to be a hot issue in the industry, lasers in uh airspace.
+
+95
+00:07:49,520 --> 00:08:00,400
+How this came about is that uh a number of Las Vegas hotels installed very large uh laser shows to shoot beams of light into the sky as part of uh attracting people to their facilities.
+
+96
+00:08:01,360 --> 00:08:10,720
+And in part this used a uh new technology called the YAG laser, which is an infrared laser that's been frequency doubled to 532 nanometers.
+
+97
+00:08:11,200 --> 00:08:17,200
+The 532 spectral line is very, very close to the peak sensitivity of the human eye.
+
+98
+00:08:17,200 --> 00:08:24,640
+So for example, a 10 watt Jag laser would appear as bright to the human eye as a 30 or 35 watt argon laser.
+
+99
+00:08:25,200 --> 00:08:40,240
+So some of these places installed 30 and 40 watt and some even brighter than that and multiple uh of these lasers and shot them out into the uh night sky, and they did it all in compliance with existing regulations.
+
+100
+00:08:40,240 --> 00:08:49,120
+But a number of uh pilots got flashed as they were coming into land, and there's a perception amongst a lot of people that lasers are sort of like death rays.
+
+101
+00:08:49,120 --> 00:08:49,600
+Yes.
+
+102
+00:08:49,600 --> 00:08:56,320
+And that if you touch it, your face will melt like the guy in uh in uh Raiders of the Lost Arc.
+
+103
+00:08:56,320 --> 00:09:01,400
+But in actual fact, the real danger is that you get momentary flash blindness.
+
+104
+00:09:01,560 --> 00:09:12,440
+In other words, it's very similar to the effect of having your photograph taken at a dimly lit party where you sort of see that after image and you're a little startled, uh just the flash of light.
+
+105
+00:09:12,520 --> 00:09:13,960
+You see that floater.
+
+106
+00:09:13,960 --> 00:09:14,600
+Mm-hmm.
+
+107
+00:09:14,920 --> 00:09:24,280
+And so obviously, pilots who are in critical phases of flight, such as takeoff and landing, meet absolutely minimal distractions.
+
+108
+00:09:24,280 --> 00:09:37,960
+Uh and there have been some incidents where the pilots them s themselves, even when they're not in critical phases, have passed through or flown into a laser beam uh or been scanned by it momentarily and have reacted uh poorly.
+
+109
+00:09:37,960 --> 00:09:59,880
+In other words, far that'll say to the co-pilot, hey look over there, there's a laser, and they both look in that direction, and of course are momentarily flash blinded and disoriented, and there's been instances where pilots have rubbed their eyes uh very severely and then gone and claimed that they were damaged by the laser, and in actual fact there was more damage from rubbing their eyes than if they just left them alone.
+
+110
+00:09:59,880 --> 00:10:14,120
+So the uh International Laser Display Association in the States got together uh with uh the SAG G10 people who are uh technical group responsible for advising on rules and regulations and worked with the C D R H in the States.
+
+111
+00:10:14,120 --> 00:10:32,240
+There's a similar group of laserists here in Canada who are currently working with the uh Canadian government to uh improve the rules and the way things are done and to make these shows safer by doing things like having sparters, in some cases a couple of the hotels in Las Vegas installed radar systems.
+
+112
+00:10:32,400 --> 00:10:38,680
+So that if the uh be uh an aircraft should transit the beam, the beam could be turned off.
+
+113
+00:10:38,680 --> 00:10:47,200
+So these uh kinds of uh measures have been taken to increase the safety, but the biggest thing that's not being done so far is pilot education.
+
+114
+00:10:44,680 --> 00:10:57,520
+In other words, pilots have hundreds of hours of simulator training to handle every conceivable kind of emergency, but they're not trained how to deal with uh a bright flash of light.
+
+115
+00:10:57,520 --> 00:10:58,320
+Mm-hmm.
+
+116
+00:10:58,320 --> 00:11:14,160
+So that is that is the remaining area that needs to be worked on uh so far we've been very fortunate that there have been no serious incidents uh in this regard but the industry overall is very cognizant of uh of that kind of thing and is taking measures to prevent anything from happening.
+
+117
+00:11:14,160 --> 00:11:19,920
+Do you need a license to do any laser light show or does that license kick in the certain power?
+
+118
+00:11:19,920 --> 00:11:31,440
+Uh uh first of all it's country specific in other words this varies from country to country in certain South American countries the authorities go laser what's that.
+
+119
+00:11:31,440 --> 00:11:40,240
+In other countries such as the United States where your government is very fond of extreme bureaucracy and large piles of paperwork, that's indeed what you face.
+
+120
+00:11:40,640 --> 00:11:51,200
+To make a general rule for uh the United States uh anything under four point nine milliwatts is quite sa is considered safe and doesn't require any paperwork.
+
+121
+00:11:51,200 --> 00:12:02,720
+But as soon as you use a five milliwatt or greater laser in public, then you're required to have a variance for the equipment which is something you have to get from the C D R H division of the FDA.
+
+122
+00:12:02,720 --> 00:12:13,520
+Now if someone were to buy some laser equipment they buy a five milliwatt laser, they buy a little beam scan unit and they want to go out and they want to do different parties and things with that.
+
+123
+00:12:13,520 --> 00:12:24,840
+Do they need a license and and and to feel paperwork for each one of those jobs or just yes, you need you need a site variance for each place that you do a laser show, plus you need a variance for the equipment.
+
+124
+00:12:24,720 --> 00:12:25,160
+Mm-hmm.
+
+125
+00:12:26,160 --> 00:12:28,760
+What's happening with lasers in some of the other fields?
+
+126
+00:12:28,760 --> 00:12:34,680
+Well, actually, believe it or not, the hottest topic uh that that's on the horizon is laser pointers.
+
+127
+00:12:29,760 --> 00:12:40,920
+Uh the UK recently banned outright the sale of laser pointers over power.
+
+128
+00:12:41,240 --> 00:12:41,880
+Yes.
+
+129
+00:12:41,880 --> 00:12:47,080
+Uh France is apparently looking into doing the same thing, and there's been a lot of concern about this now.
+
+130
+00:12:47,080 --> 00:12:54,440
+Back in the old days when someone wanted to buy a laser, they would be looking at getting a helium neon laser which requires a power cord.
+
+131
+00:12:54,840 --> 00:13:03,480
+Uh it cost a hundred or two hundred dollars and you know, is a twelve or eighteen inch long device, and so therefore they weren't particularly portable.
+
+132
+00:13:03,480 --> 00:13:22,120
+But now we live in an age where we have these little laser diode pens that you can buy at Business Depot and Radio Shack, and uh they put out about five uh milliwatts of power and people are using them at hockey games and soccer games and concerts and so on, and they're becoming a downright annoyance.
+
+133
+00:13:22,120 --> 00:13:22,680
+Mm-hmm.
+
+134
+00:13:22,680 --> 00:13:38,840
+Now the the most sensitive part of the human body to the laser is the eye, and just as you can use a magnifying glass to focus the sun and burn something with it, the lens in the human eye also focuses a laser beam into a very fine point on the back of the eye.
+
+135
+00:13:38,840 --> 00:13:53,800
+So for example, one milliwatt going in based on the focusing effect of the eye could produce an energy density uh close to ten thousand milliwatts on the surface of the retina and could burn the retina.
+
+136
+00:13:53,800 --> 00:13:56,360
+Now there are a lot of factors that enter into this.
+
+137
+00:13:56,360 --> 00:14:03,160
+There's the blink aversion response, which means when a bright light hits your eye, you blink and you look away.
+
+138
+00:14:03,160 --> 00:14:06,760
+Uh the human eye doesn't actually ever stand still.
+
+139
+00:14:06,760 --> 00:14:08,040
+It sort of dizes.
+
+140
+00:14:08,040 --> 00:14:16,000
+Uh even when you're looking at something, it moves minutely up and down at all times to keep the image moving on the rods and cones at the back of the eye.
+
+141
+00:14:14,680 --> 00:14:29,600
+So in and of themselves the laser pointer is not likely to cause any eye damage, particularly when you've got a situation where there's a person holding it in their hand and another person several feet away, these are two human beings.
+
+142
+00:14:29,600 --> 00:14:33,280
+Human beings are not rigidly fixed in space like buildings.
+
+143
+00:14:33,280 --> 00:14:35,520
+But it's an annoyance.
+
+144
+00:14:35,520 --> 00:15:03,920
+Uh it's rude and it's very distracting and you can have uh uh situations where people get distracted at critical times or if you have uh say uh a sports event and there have been reports of this happening where there are fifty or sixty people in the crowd all pointing laser pointers at the same place, it becomes very annoying and difficult for whomever those pointers are being pointed at to get on with whatever they're supposed to be doing.
+
+145
+00:15:04,320 --> 00:15:19,680
+So I suspect that we will probably see more rigid enforcement in uh in North America of uh sales of laser pointers and I think that it behooves people who use them to be responsible in what they do and not point them in anyone's face.

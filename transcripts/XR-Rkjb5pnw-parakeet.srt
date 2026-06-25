@@ -1,0 +1,1091 @@
+1
+00:01:01,520 --> 00:01:02,400
+Hello.
+
+2
+00:01:02,400 --> 00:01:03,360
+Hello, Sam.
+
+3
+00:01:03,680 --> 00:01:04,160
+How are you?
+
+4
+00:01:04,160 --> 00:01:05,600
+This is Frank Defratis.
+
+5
+00:01:05,600 --> 00:01:06,160
+Oh, hi.
+
+6
+00:01:06,160 --> 00:01:07,600
+It's good to talk to you.
+
+7
+00:01:08,320 --> 00:01:32,320
+Um, why don't we start off I know there's a lot of information on the website about the holography FAQ or FAC, but maybe the listeners who aren't familiar with it, um, or who have just accessed it to get information and haven't read any history about it, maybe you could give us a rundown of the history, because I know it's been on the web for a long time.
+
+8
+00:01:44,000 --> 00:01:54,040
+Actually, boredom at uh company I worked for, which had taken over a startup at height, was involved in uh in uh initiating.
+
+9
+00:01:54,040 --> 00:01:58,840
+And when it becomes a big company, things just become ho hum.
+
+10
+00:01:53,760 --> 00:01:59,320
+Mm-hmm.
+
+11
+00:01:59,400 --> 00:02:04,360
+So out of boredom I started exploring the internet, which of course at that time was very, very new.
+
+12
+00:02:04,360 --> 00:02:08,520
+Oh absolutely in nineteen ninety four I don't even think it supported uh photos, did it?
+
+13
+00:02:08,520 --> 00:02:15,480
+Uh if I remember correctly, my probably was just about at the time that uh Mosaic Mosaic came around.
+
+14
+00:02:15,480 --> 00:02:16,200
+Yeah.
+
+15
+00:02:16,200 --> 00:02:18,840
+That was the first uh browser I used.
+
+16
+00:02:18,840 --> 00:02:19,400
+Mm-hmm.
+
+17
+00:02:19,400 --> 00:02:26,040
+There may even be some some references to it in the in the uh my website in various places that I haven't updated.
+
+18
+00:02:26,040 --> 00:02:53,720
+But that time I was mainly interested in electronics repair and uh started uh frequenting the USNET news groups and there uh there now you know tens of thousands of them at that time they were somewhat fewer but there was there were several involved in technology uh one in particular was called side.electronics dot repair that there were a uh several electronics groups mm-hmm.
+
+19
+00:02:53,720 --> 00:02:57,560
+Um alt lasers that's alt lasers is a fairly new group isn't it?
+
+20
+00:02:59,480 --> 00:03:04,840
+I don't know how new it is, it's newer than those are but it's still with Yeah, relatively speaking.
+
+21
+00:03:04,840 --> 00:03:07,800
+Relatively speaking, but it it's probably been there for ten years now.
+
+22
+00:03:07,800 --> 00:03:08,840
+Yeah.
+
+23
+00:03:08,840 --> 00:03:41,040
+Um so electronics repair I I was replying to to requests for help and repairing everything from C D players to lawn mowers and that's how the electronics repair fact site developed uh basically uh Philip whose last name I can't pronounce who ran a website in Pitts from Pittsburgh had some information on electronics, but when he saw the re replies I was uh providing he asked if I would be interested in in uh uploading them to his website.
+
+24
+00:03:41,040 --> 00:03:41,600
+Mm-hmm.
+
+25
+00:03:41,600 --> 00:03:48,720
+And uh so that that began the uh development of all the uh various uh repair manuals that are up there now.
+
+26
+00:03:48,720 --> 00:03:55,760
+Yeah basically I think it started out more for repair than it is uh than it was j uh uh a r a reference or a resource, right?
+
+27
+00:03:55,760 --> 00:03:57,520
+Well it was resource for repair.
+
+28
+00:03:57,520 --> 00:03:58,240
+For repair, yeah.
+
+29
+00:03:58,480 --> 00:04:01,280
+But not I mean la the lasers didn't happen until much later.
+
+30
+00:04:01,280 --> 00:04:01,920
+Yeah.
+
+31
+00:04:01,920 --> 00:04:12,240
+Um there's uh uh prior to that um a friend of mine uh now I should preface this that I've been aware of lasers since basically when they were invented.
+
+32
+00:04:12,240 --> 00:04:12,800
+Yeah.
+
+33
+00:04:12,800 --> 00:04:28,080
+But uh aside from using a helium neon laser probably an early Metrologic in uh in high school to to view this sci scientific American hologram centerfold at that time and uh various other little things with lasers, I really didn't do anything with them.
+
+34
+00:04:28,080 --> 00:04:41,680
+Around nineteen ninety a friend of mine uh asked me why I I didn't have any lasers so I couldn't exactly let that stand so I ordered a couple of helium neon lasers from uh a surplus uh supplier put them together.
+
+35
+00:04:41,680 --> 00:04:47,520
+I mean that was just basically wiring up power supply and laser tube and plugging it in and saying well okay.
+
+36
+00:04:47,520 --> 00:04:54,640
+As soon as my friend discovered they wouldn't burn anything he lost interest and I lost interest and I put them on the shelf for a while for several years.
+
+37
+00:04:54,640 --> 00:05:00,880
+Well we're seeing that all over again now with the uh the one million watt laser pointers that are modified.
+
+38
+00:05:00,880 --> 00:05:07,680
+The one million watt laser pointer when they you know they just when they say capital M instead of small M don't realize what they're doing.
+
+39
+00:05:07,680 --> 00:05:08,160
+Yeah.
+
+40
+00:05:09,600 --> 00:05:12,400
+Yeah terror.
+
+41
+00:05:12,400 --> 00:05:26,160
+Then uh a few years after starting the uh repair website uh it was became apparent that the ki there were occasional questions about lasers even on the electronics site electronics news groups and the responses from people were usually wrong.
+
+42
+00:05:26,160 --> 00:05:27,600
+Or at least very often wrong.
+
+43
+00:05:27,600 --> 00:05:27,920
+Yeah.
+
+44
+00:05:27,920 --> 00:05:28,840
+That hasn't changed either.
+
+45
+00:05:29,160 --> 00:05:30,000
+So that hasn't changed.
+
+46
+00:05:30,360 --> 00:05:42,120
+So so I started developing that and basically the the what the laser FAQ is today developed from an eighteen kilobyte file on how to safely power a laser diode from a C D player without blowing it up.
+
+47
+00:05:43,000 --> 00:05:47,560
+And I have that the that actual file is archived and linked from my w my site.
+
+48
+00:05:47,560 --> 00:05:53,720
+So anybody really really has absolutely positively nothing to do and they want to look at that they they can find.
+
+49
+00:05:53,720 --> 00:05:55,400
+What has that grown into today?
+
+50
+00:05:55,400 --> 00:06:11,000
+How many web pages do you have total do you happen to know offhand I have no no idea I know I've been lost in there sometimes at night oh I I think there are people lost in that to get lost in there for months and we're you're you're a deity on the web when it comes to lasers.
+
+51
+00:06:11,000 --> 00:06:13,640
+I mean people are just going to fall over when they hear you on the show.
+
+52
+00:06:13,640 --> 00:06:24,120
+I know it yeah they the uh Google apparently does a pretty good job also because if almost any search on lasers will turn up my link to my website uh in the top ten.
+
+53
+00:06:24,280 --> 00:06:26,200
+What's the latest news on uh lasers?
+
+54
+00:06:26,200 --> 00:06:28,840
+I guess the uh green's the hot item right now huh?
+
+55
+00:06:28,840 --> 00:06:58,920
+From from the point of view of holographers, I think you know what what has developed in the last couple of years is that I've come um put together a lot of information on two two ex excellent lasers for holography which are the coherent compass and the uh uh unifays microgreen mm hmm these are both single mode single frequency uh very long coherence length and generally readily available surplus for well under a thousand dollars if you know where to look.
+
+56
+00:06:58,920 --> 00:06:59,400
+Yeah.
+
+57
+00:06:59,400 --> 00:07:06,120
+Now that's more than a helium neon, but we're here we're talking about uh you know coherence l lengths of hundreds of meters.
+
+58
+00:07:06,120 --> 00:07:06,600
+Mm-hmm.
+
+59
+00:07:06,600 --> 00:07:19,760
+And the comment I had uh you know, I've heard the main comment I've heard about these is someone someone was baking holograms and was complaining that you know the the the junk on the back shelf in the studio is that sharp in the hologram.
+
+60
+00:07:19,760 --> 00:07:20,720
+Mm-hmm.
+
+61
+00:07:20,800 --> 00:07:25,920
+I've I've I've heard of that happening with a few regular uh laser pointers.
+
+62
+00:07:25,920 --> 00:07:29,520
+Yeah, but the the problem with laser pointers is you can't do it consistently.
+
+63
+00:07:29,520 --> 00:07:29,920
+Yeah.
+
+64
+00:07:29,920 --> 00:07:35,440
+You y there's no real known way to to select a laser diode or to stabilize it.
+
+65
+00:07:35,440 --> 00:07:40,000
+Um it's such to such an extent that you can guarantee that you'll have that.
+
+66
+00:07:40,000 --> 00:07:54,320
+The the particular type of laser diode, now it's manufactured, the impurities in it, the every so many so many things go into a laser diode that that change its characteristics compared to even a a diode some solid state laser.
+
+67
+00:07:54,320 --> 00:08:02,400
+And uh there the the main problem is that the diodes really do like to run multi-longitudinal mode.
+
+68
+00:08:02,640 --> 00:08:11,440
+I mean, uh so what you have to do is temperature tune it and output power tune it and very carefully find a point where it just happens to be running single mode and you're lucky if you can maintain that.
+
+69
+00:08:11,440 --> 00:08:22,640
+Um I mean as as you're aware that that people do do make uh very excellent holograms with with laser diodes, but they they probably you know cherish those laser diodes that work well like that.
+
+70
+00:08:22,640 --> 00:08:30,640
+Yeah, I I have one that's uh been functioning for me since I'd like to say nineteen ninety-nine or two thousand maybe.
+
+71
+00:08:30,880 --> 00:08:33,440
+I I don't think it's a matter of modern versus old.
+
+72
+00:08:33,440 --> 00:08:36,720
+I think it's just a matter of getting one that that happens to be well behaved.
+
+73
+00:08:36,720 --> 00:08:37,120
+Yeah.
+
+74
+00:08:37,120 --> 00:08:41,680
+And then and then temperature controlling it and keeping it keeping it happy.
+
+75
+00:08:42,080 --> 00:08:44,640
+Would you recommend uh some people going on to eBay?
+
+76
+00:08:44,640 --> 00:08:56,320
+Uh what what's I I haven't purchased any lasers off of eBay, but uh what's your experience and what would your recommendation be for people to buy a laser surplus on uh eBay or would you have a better recommendation somewhere?
+
+77
+00:08:56,720 --> 00:09:03,880
+I think it really it really depends on on knowing what you're what you're interested in, knowing what what you're buying and then then researching the seller.
+
+78
+00:09:04,120 --> 00:09:06,520
+I've gotten most of my junk lasers on eBay.
+
+79
+00:09:06,520 --> 00:09:18,360
+I mean I've I've probably bought uh you know, somewhere between fifty and a hundred uh lasers or laser items on eBay, and I've I've basically had very few bad experiences.
+
+80
+00:09:18,600 --> 00:09:19,000
+Yeah.
+
+81
+00:09:19,000 --> 00:09:28,840
+But that comes from knowing what I'm what what what's being offered, knowing what the what it actually is, not just going and picking the first laser that that seems like it might be what you want.
+
+82
+00:09:29,160 --> 00:09:31,720
+There are a lot of helium the end lasers on eBay.
+
+83
+00:09:31,720 --> 00:09:36,280
+There are a lot of green lasers on eBay now, but mo most of those are not suitable for holography.
+
+84
+00:09:36,280 --> 00:09:36,680
+Yeah.
+
+85
+00:09:36,680 --> 00:09:44,760
+They're multi mode, either multi-transverse mode or multiples tunal mode, and a lot of them are just ch in far east import junk.
+
+86
+00:09:44,760 --> 00:09:45,240
+Yeah.
+
+87
+00:09:45,240 --> 00:09:52,280
+And that that's becoming an issue now having uh to order overseas and having it shipped into the United States, isn't it?
+
+88
+00:09:52,280 --> 00:10:01,800
+Uh or is that just generally with the green pointers more so I think it's the green pointers right now because of the hystereo about the air air incidents with airplanes?
+
+89
+00:10:01,800 --> 00:10:02,360
+Yeah.
+
+90
+00:10:02,360 --> 00:10:06,280
+And uh I should comment that most of the is is total nefarious.
+
+91
+00:10:06,280 --> 00:10:11,960
+There's there's no way a green pointer, even a modified green pointer is going to blind a pilot at ten thousand.
+
+92
+00:10:11,960 --> 00:10:16,280
+Um these things they they they just have a legs, they just have a life of their own stories.
+
+93
+00:10:16,280 --> 00:10:24,920
+And unfortunately that may work to the detriment of of the s of the honest and uh you know serious laser community.
+
+94
+00:10:24,920 --> 00:10:26,840
+Yeah, over time I fear that myself.
+
+95
+00:10:26,840 --> 00:10:27,160
+Yeah.
+
+96
+00:10:27,160 --> 00:10:27,800
+Yeah.
+
+97
+00:10:27,800 --> 00:10:39,960
+The uh I mean that there's just so much wrong information, incomplete information information that that uh just has no basis in reality.
+
+98
+00:10:40,200 --> 00:10:43,400
+Do you feel that the authorities know the true answer?
+
+99
+00:10:44,200 --> 00:10:46,480
+Know the correct information or I doubt it.
+
+100
+00:10:46,480 --> 00:10:53,280
+I I think it just uh they're they don't have they haven't really gotten experts to to evaluate it.
+
+101
+00:10:53,360 --> 00:10:55,600
+Mm I don't think I don't think it's a conspiracy.
+
+102
+00:10:55,600 --> 00:10:56,880
+I don't think they're suppressing it.
+
+103
+00:10:56,880 --> 00:10:58,080
+Yeah, yeah.
+
+104
+00:10:58,080 --> 00:11:03,280
+Although it it's it's certainly it it's better for the error on the side of uh you know caution.
+
+105
+00:11:03,280 --> 00:11:03,680
+Mm-hmm.
+
+106
+00:11:03,680 --> 00:11:18,640
+But on the other hand, uh you know, to to say to suggest that someone you know, testing a green pointer, a normal five million green pointer and shining it up in the sky and uh is causing retinal damage on the pilot's eye.
+
+107
+00:11:18,640 --> 00:11:26,880
+I mean that'd be that's that's so far way out of left field in terms of probabilities that's just totally impossible.
+
+108
+00:11:26,880 --> 00:11:28,560
+I understand totally what you're saying.
+
+109
+00:11:28,560 --> 00:11:30,480
+And so do most of the listeners.
+
+110
+00:11:30,480 --> 00:11:44,560
+Well I had a guy that was out in Arizona that I had written emails back and forth to very early on when I was on the net and he had some high power uh YAG lasers and one of their hobbies was to bounce it bounce it off the retro reflectors on the moon.
+
+111
+00:11:45,200 --> 00:11:45,520
+Yeah.
+
+112
+00:11:45,520 --> 00:11:47,200
+Just as, you know, fun.
+
+113
+00:11:47,200 --> 00:11:50,960
+I guess that's totally over with, you know, you certainly don't want to get caught in the net now.
+
+114
+00:11:50,960 --> 00:11:57,840
+Well you know it it you need spotter, you're gonna have to have spotters to make sure there's no air traffic in the vicinity.
+
+115
+00:11:57,840 --> 00:12:05,040
+But you're not you know s you're not gonna s hurt anybody if it as long as you don't hit anything.
+
+116
+00:12:05,040 --> 00:12:05,600
+Yeah.
+
+117
+00:12:05,600 --> 00:12:08,160
+But uh even doing that is a very difficult problem.
+
+118
+00:12:08,160 --> 00:12:14,640
+People think oh you just hit the moon as a it's a parallel beam of light, you hit the you just aim it at the moon, you get a inflection back.
+
+119
+00:12:14,640 --> 00:12:19,200
+There's some information on my website somewhere about you know how how many photons actually make it back.
+
+120
+00:12:19,200 --> 00:12:19,680
+Yeah.
+
+121
+00:12:19,680 --> 00:12:21,760
+And it it's not it's not that it's not many.
+
+122
+00:12:21,760 --> 00:12:22,160
+Mm-hmm.
+
+123
+00:12:22,160 --> 00:12:30,440
+You know, there yeah, every so often you get it somebody emailing me or posting on all thought, you know, I I'd like to p uh put an advertisement on the moon.
+
+124
+00:12:30,920 --> 00:12:31,480
+I know.
+
+125
+00:12:31,480 --> 00:12:34,520
+Don't let's not get into the emails, I'll tell you, I know.
+
+126
+00:12:35,480 --> 00:12:40,760
+If you looked at all dot lasers there was some guy who wanted to cut cut flowers or plants or something with a laser.
+
+127
+00:12:41,160 --> 00:12:45,320
+And then he got got upset when people said that's just that's a kind of a dumb idea.
+
+128
+00:12:45,320 --> 00:12:45,880
+Yeah.
+
+129
+00:12:45,880 --> 00:12:46,600
+Yeah.
+
+130
+00:12:46,600 --> 00:13:01,000
+Or people there are always people asking can I cut lawn can I cut grass or can I can I cut wood or yeah there there are applications for lasers where you do that but but uh to suggest that it's going to be better than a hundred bucks years lawnmower to the laser that's true.
+
+131
+00:13:01,000 --> 00:13:01,880
+There you go.
+
+132
+00:13:01,960 --> 00:13:05,640
+You offer some equipment for sale or correct me if I'm wrong on your website.
+
+133
+00:13:05,960 --> 00:13:13,560
+Most most of it is surplus, uh some of it's from eBay, some of it's just stuff I collected or is this functional equipment, non functional?
+
+134
+00:13:13,560 --> 00:13:18,680
+Well it's it's uh certainly if it states it's functional it's it's going to be functional guaranteed.
+
+135
+00:13:18,680 --> 00:13:19,400
+Oh sure.
+
+136
+00:13:19,400 --> 00:13:21,880
+But I wasn't sure which way it was with what you were selling.
+
+137
+00:13:22,120 --> 00:13:22,360
+Yeah.
+
+138
+00:13:22,360 --> 00:13:32,280
+I mean most of it there's a lot of helium neon lasers and uh I don't have the green lasers because I've just you know not really gotten into buying those for resale.
+
+139
+00:13:32,520 --> 00:13:40,680
+But helium neon lasers I well pick up if they're cheap enough and and uh then they're they're available with sometimes with power supply.
+
+140
+00:13:48,680 --> 00:13:54,360
+Do you know of any schools or educational facilities that uh use your website on a regular basis for teaching?
+
+141
+00:13:54,840 --> 00:13:59,080
+One, there's this Stony Brook uh laser teaching center.
+
+142
+00:13:59,080 --> 00:14:00,920
+It's a on Long Island.
+
+143
+00:14:00,920 --> 00:14:01,560
+Mm-hmm.
+
+144
+00:14:01,560 --> 00:14:03,320
+They uh they use my website.
+
+145
+00:14:03,320 --> 00:14:04,800
+Uh there there's actually several.
+
+146
+00:14:04,840 --> 00:14:13,720
+I can't can't r think of the others, but you know, they they use they either they use the website or their students use my website, or in fact they bought equipment from me.
+
+147
+00:14:14,120 --> 00:14:27,040
+Because I have some you know, rather uh some some helium neon uh Brewster laser tubes that that are useful for teaching, you know, where you have an external mirror and a window instead of an internal mirror, as most lasers do now.
+
+148
+00:14:27,040 --> 00:14:31,200
+I have a Spectrophysics one twenty-four B stabilite that I need a tube for.
+
+149
+00:14:31,360 --> 00:14:32,000
+So do I.
+
+150
+00:14:32,000 --> 00:14:38,480
+Do you the problem is that everything's fine except the tube is uh a soft seal tube, so at least Yeah.
+
+151
+00:14:38,480 --> 00:14:38,960
+Yeah.
+
+152
+00:14:38,960 --> 00:14:40,640
+I mean there are there are lots of those out there.
+
+153
+00:14:40,640 --> 00:14:49,200
+There are lots of the uh the the really big one, the one twenty-five, which is a six foot long laser, a lot of those dead tubes.
+
+154
+00:14:49,200 --> 00:14:51,200
+They're uh that's a workhorse.
+
+155
+00:14:51,200 --> 00:14:58,880
+They're one twenty sevens, which are actually good lasers, and you can pick up half decent ones on eBay and elsewhere for a couple hundred bucks.
+
+156
+00:14:58,880 --> 00:14:59,280
+Yeah.
+
+157
+00:14:59,280 --> 00:15:03,440
+But not the one twenty seven so much as the tube in it and and you'd have a need a power supply.
+
+158
+00:15:03,920 --> 00:15:08,640
+But those are ten to some of them are in mint condition.
+
+159
+00:15:08,640 --> 00:15:11,840
+I have one I have a one twenty-seven laser that's in mint condition.
+
+160
+00:15:11,840 --> 00:15:12,240
+Oh really?
+
+161
+00:15:14,240 --> 00:15:15,040
+Wow.
+
+162
+00:15:15,040 --> 00:15:18,320
+Um that's hard sealed tubes in a one twenty-seven, right?
+
+163
+00:15:18,320 --> 00:15:20,480
+It's a sealed tu it's a it's a sealed tube.
+
+164
+00:15:20,480 --> 00:15:26,640
+Some of them apparently have either hard steel or optical contact seals or something that don't leak.
+
+165
+00:15:26,640 --> 00:15:29,840
+Um but a lot of them also a lot of them have had tubes that leak.
+
+166
+00:15:29,840 --> 00:15:32,480
+So y you can get stuck with something that might be weak.
+
+167
+00:15:32,480 --> 00:15:37,200
+You know, y typical ones on eBay I've found probably in the twenty milliwatt range.
+
+168
+00:15:37,200 --> 00:15:37,600
+Mm-hmm.
+
+169
+00:15:37,680 --> 00:15:38,560
+Which is still decent.
+
+170
+00:15:38,560 --> 00:15:44,960
+I mean you've still got the see reasonably high power and stability and everything, it's just the power it's not as high as it should be.
+
+171
+00:15:44,960 --> 00:15:45,440
+Mm-hmm.
+
+172
+00:15:45,440 --> 00:15:49,040
+But you have to be careful about those because you can get one that's just no good at all.
+
+173
+00:15:49,040 --> 00:15:49,760
+Yeah.
+
+174
+00:15:49,760 --> 00:15:59,000
+And uh but they they're available and and and they're obviously the they're they're the best helium neon holography laser you can reasonably get get at a reasonable price nowadays.
+
+175
+00:16:00,040 --> 00:16:01,080
+Yeah.
+
+176
+00:15:58,880 --> 00:16:03,240
+Uh what um let me ask you this.
+
+177
+00:16:03,320 --> 00:16:07,160
+I don't follow anything to do with any uh uh blue wavelengths.
+
+178
+00:16:07,160 --> 00:16:11,560
+Uh why don't you tell us a little bit about the blue, where it's at, where do you see it going.
+
+179
+00:16:11,560 --> 00:16:20,200
+I know Sony or a couple of the Japanese companies have their uh D V D players that's going to be coming out uh in the blue.
+
+180
+00:16:20,440 --> 00:16:26,440
+There they're uh well there are two ways of getting reasonable power blue right now that are popular.
+
+181
+00:16:26,440 --> 00:16:29,640
+One is the deep DPSF laser like the green.
+
+182
+00:16:29,640 --> 00:16:36,040
+Except that uh there's a different lasing line both for for YAG and for Vanadate, they're they're blue lines.
+
+183
+00:16:36,040 --> 00:16:38,680
+They're they're IR lines that will double to blue.
+
+184
+00:16:39,400 --> 00:16:48,120
+Um vanadate has nine forty-six, which doubles to four fifty-seven, which is a a very beautiful deep blue.
+
+185
+00:16:48,680 --> 00:16:55,160
+It's it's not it it's a beautiful blue, but it's so so close to the uh ultraviolet.
+
+186
+00:16:55,160 --> 00:17:02,040
+Ultraviolet that the visibility is is is several times lower than the HeNY visibility.
+
+187
+00:17:02,040 --> 00:17:08,440
+So that's they don't tend to use that a lot for laser shows, but I mean it would would be good for for holograms probably.
+
+188
+00:17:08,680 --> 00:17:19,000
+If there's a film, you know, film material that you then there's the the gag line doubles to four seventy three, that's that's more like a that's a blue, that's a decent blue.
+
+189
+00:17:19,000 --> 00:17:23,640
+And it's about the same visibility, maybe a little less than the E red.
+
+190
+00:17:23,640 --> 00:17:40,080
+But as far as diode systems that with the D F distributed feedback or grading or something to force single mode, yet you have the same problem you have with the red lasers.
+
+191
+00:17:40,280 --> 00:17:40,480
+Okay.
+
+192
+00:17:40,440 --> 00:17:41,200
+Combining it.
+
+193
+00:17:41,320 --> 00:17:50,480
+But but obviously with there are m there are blue diode lasers now, at least to four forty, maybe maybe even longer wavelengths.
+
+194
+00:17:50,480 --> 00:17:53,520
+Well decent power, tens of milliwatts, fifty milliwatts.
+
+195
+00:17:53,520 --> 00:17:56,880
+There's a ticky Nicky a galley nitri diode.
+
+196
+00:17:57,360 --> 00:18:04,320
+They have a whole range of diodes from from uh from near UV beyond four hundred to uh four forty or four fifty.
+
+197
+00:18:04,320 --> 00:18:04,560
+Yeah.
+
+198
+00:18:04,720 --> 00:18:06,800
+Of course you have to mortgage your house to buy one.
+
+199
+00:18:06,800 --> 00:18:07,760
+Oh my gosh.
+
+200
+00:18:07,760 --> 00:18:11,120
+I had to take out a loan for my spectrophysics when I got it from my lab.
+
+201
+00:18:11,120 --> 00:18:12,720
+That was thirty-six monthly payments.
+
+202
+00:18:12,720 --> 00:18:14,560
+It was almost like a car payment for me back then.
+
+203
+00:18:14,560 --> 00:18:20,160
+I had three three young kids and one twenty-four back then with plus what what was the cost?
+
+204
+00:18:21,520 --> 00:18:27,040
+Oh the one twenty four B, I'm thinking fifty-nine ninety-five.
+
+205
+00:18:27,040 --> 00:18:27,840
+Yeah, okay.
+
+206
+00:18:27,840 --> 00:18:29,120
+I'm thinking that.
+
+207
+00:18:29,120 --> 00:18:33,680
+Which was, believe it or not, to me back then, that was that was a fortune.
+
+208
+00:18:33,680 --> 00:18:34,400
+Well, sure.
+
+209
+00:18:34,400 --> 00:18:35,120
+You know.
+
+210
+00:18:36,080 --> 00:18:45,600
+But fortunately things are uh I've I've done some nice holograms that compare to the one twenty-four B with the um with a couple laser pointers now.
+
+211
+00:18:45,600 --> 00:18:46,000
+Yeah.
+
+212
+00:18:46,000 --> 00:18:48,000
+It's incredible.
+
+213
+00:18:48,000 --> 00:18:51,040
+Well, you know, we must be neighbors.
+
+214
+00:18:51,040 --> 00:18:57,200
+You don't have to say on the air where you're from, but we both have the same area code.
+
+215
+00:18:57,200 --> 00:19:00,000
+That's uh yeah, I'm in southeastern Pennsylvania.
+
+216
+00:19:00,320 --> 00:19:01,360
+Yeah, me too.
+
+217
+00:19:01,360 --> 00:19:03,840
+A little further up northwest of Philadelphia I am.
+
+218
+00:19:03,920 --> 00:19:05,680
+I I was born and raised in Philly.
+
+219
+00:19:05,680 --> 00:19:06,080
+Yeah.
+
+220
+00:19:06,080 --> 00:19:06,960
+Yeah.
+
+221
+00:19:07,680 --> 00:19:10,240
+Well, is there anything you want to add to the show?
+
+222
+00:19:10,240 --> 00:19:16,320
+I think everyone's gonna love to hear you on the show, and we of course we're doing the podcasting now, just got involved with iTunes.
+
+223
+00:19:16,800 --> 00:19:20,160
+Everyone's podcast uh the whole world's changing.
+
+224
+00:19:20,160 --> 00:19:20,480
+Yeah.
+
+225
+00:19:20,480 --> 00:19:22,640
+Eight eight years now for this broadcast.
+
+226
+00:19:22,640 --> 00:19:32,840
+So th this was uh it wasn't podcasting back then, but it was it was it was really early on, you know, to do a a talk show about holography on the net when it started eight years ago.
+
+227
+00:19:32,840 --> 00:19:41,880
+But uh iTunes now, you know, everybody can subscribe to it and have it automatically update onto their iPods and then go do what they want to do and listen to it.
+
+228
+00:19:41,880 --> 00:19:45,480
+So that's a whole new realm for uh you think it's a good thing.
+
+229
+00:19:45,480 --> 00:19:46,200
+I don't know.
+
+230
+00:19:46,200 --> 00:19:50,520
+I have I have mixed uh mixed feelings about it to tell you the truth.
+
+231
+00:19:50,520 --> 00:20:09,800
+And uh one of the things that concerns me about it is the fact that uh Apple's really not investing anything in the sp outside of the fact that they'll give you a listing, but uh for their millions of subscribers, anybody who wants to listen to the show, your your data transmission is is your own responsibility.
+
+232
+00:20:09,800 --> 00:20:15,720
+So, you know, that adds on to your bandwidth and the amount of data that you transfer, you know, to people from iTunes.
+
+233
+00:20:15,720 --> 00:20:21,800
+So for for no investment whatsoever, you know, they're getting all the uh free shows in there.
+
+234
+00:20:21,800 --> 00:20:30,520
+And plus um I don't know, I think if any just like with your website, I think anybody who's involved with this field or has an interest in it probably knows about this already.
+
+235
+00:20:30,520 --> 00:20:33,880
+So I don't know what type of uh genre I'm going to be pulling.
+
+236
+00:20:33,880 --> 00:20:35,080
+But we'll have to see.
+
+237
+00:20:44,760 --> 00:20:46,600
+If they're if they're making money off it, I'll go back to the money.
+
+238
+00:20:46,680 --> 00:20:47,160
+Oh, okay, yeah.
+
+239
+00:20:48,120 --> 00:20:49,720
+Oh, that would be fair to do, sure.
+
+240
+00:20:49,720 --> 00:20:50,520
+Go after them.
+
+241
+00:20:50,520 --> 00:20:54,360
+Yeah, you're not m you're not making any money directly off of it, that's for sure, right?
+
+242
+00:20:54,360 --> 00:20:56,680
+I twenty well, anything collect money.
+
+243
+00:20:56,680 --> 00:20:57,000
+Yeah.
+
+244
+00:20:57,000 --> 00:20:57,960
+Oh, absolutely, yeah.
+
+245
+00:20:57,960 --> 00:21:02,760
+I mean the only only money I make is off the chunk I sell on my for sale for sale page.
+
+246
+00:21:02,760 --> 00:21:04,760
+Same thing with me with the shows.
+
+247
+00:21:04,760 --> 00:21:05,480
+You know.
+
+248
+00:21:07,080 --> 00:21:08,040
+Yeah, I like to do it.
+
+249
+00:21:08,040 --> 00:21:08,760
+I started doing it.
+
+250
+00:21:08,760 --> 00:21:11,800
+I I would be doing this whether anybody was listening to it or not, eight years ago.
+
+251
+00:21:11,800 --> 00:21:15,920
+I just felt like talking about it, and there was nobody to talk to, so I put a microphone in front of my mouth.
+
+252
+00:21:16,320 --> 00:21:18,560
+And back then it wasn't as easy as it's now.
+
+253
+00:21:14,920 --> 00:21:19,760
+No, it it wasn't.
+
+254
+00:21:20,000 --> 00:21:23,440
+And uh it's been very it's been expensive on occasions, you know.
+
+255
+00:21:23,440 --> 00:21:29,040
+Whenever I do a show from England, before I got this new service, some of those shows cost over a hundred dollars.
+
+256
+00:21:29,040 --> 00:21:33,360
+I'd get the phone bill, my wife would open the phone bill up and she'd say, Have you seen this?
+
+257
+00:21:33,920 --> 00:21:34,880
+You know?
+
+258
+00:21:34,880 --> 00:21:36,800
+So but now I have a good service.
+
+259
+00:21:36,800 --> 00:21:41,040
+I think I get London now for like eleven cents a minute or something.
+
+260
+00:21:41,040 --> 00:21:43,680
+Well, Sam, I want to thank you very much for being on the show.
+
+261
+00:21:43,680 --> 00:21:48,880
+There's probably a lot of questions that uh other people would have asked you that I did not, so I apologize for that.
+
+262
+00:21:48,880 --> 00:21:49,680
+You can't get everything.
+
+263
+00:21:50,160 --> 00:21:52,480
+Feel free to contact me via the link on my webpage.
+
+264
+00:21:52,720 --> 00:21:57,360
+Yes, and I will make sure that there is a link directly to your webpage for all the uh for all the listeners.
+
+265
+00:21:57,360 --> 00:22:04,240
+And if you're listening through iTunes and you're you don't even know what website this is coming from, it's coming from HoloWorld dot com.
+
+266
+00:22:04,240 --> 00:22:06,880
+You'll see a link in the iTunes directory.
+
+267
+00:22:06,880 --> 00:22:13,840
+Go to the website, go to HoloTalk, and you'll see uh Sam's link and you can go right, you know, click on that and go right over to it.
+
+268
+00:22:13,840 --> 00:22:15,440
+Sam, have a good rest of the evening.
+
+269
+00:22:15,440 --> 00:22:16,800
+Thank you very much for coming on the show.
+
+270
+00:22:16,800 --> 00:22:17,920
+I know people are gonna love it.
+
+271
+00:22:17,920 --> 00:22:18,880
+Okay, thanks for having me.
+
+272
+00:22:18,880 --> 00:22:19,600
+Okay, take care.
+
+273
+00:22:20,000 --> 00:22:21,040
+Bye.

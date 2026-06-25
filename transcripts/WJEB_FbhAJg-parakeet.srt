@@ -1,0 +1,691 @@
+1
+00:00:02,400 --> 00:00:08,400
+The following is a production of Frankie Freitas and the Internet Web Exam of Holography.
+
+2
+00:00:12,240 --> 00:00:19,600
+Hello everyone, this is Frank Defratis, and welcome to another week of HoloTalk for the week of October 25th, 1999.
+
+3
+00:00:19,600 --> 00:00:22,080
+My guest this week is Bill Pugh.
+
+4
+00:00:22,080 --> 00:00:29,440
+And Bill was on the state committee that had the task of rewriting the state of Florida's communication technology standards.
+
+5
+00:00:29,440 --> 00:00:35,520
+Those standards, which will be followed by every high school in the state of Florida, now includes holography.
+
+6
+00:00:35,520 --> 00:00:43,360
+Bill's going to come on and fill us in on how it all got started, what were the selling points to get it passed, and where it's headed.
+
+7
+00:00:43,360 --> 00:00:45,200
+So let's move on to the interview with Bill.
+
+8
+00:00:45,200 --> 00:00:59,440
+I'm not going to come back on after the interview, so I will thank you now for tuning in, and I invite you to come back each and every week for another week of HoloTalk as we continue to have guests throughout this 1999-2000 HoloTalk season.
+
+9
+00:00:59,440 --> 00:01:03,600
+So here's the interview with Bill right after this message.
+
+10
+00:01:19,600 --> 00:01:26,880
+Along with year-round holography workshop programs, Frank is finding a way to bring the out of reach into the reach of everyone.
+
+11
+00:01:26,880 --> 00:01:39,680
+From September through May, you can attend one of his free Eden Lecture Series at the studio in Allentown, Pennsylvania, which is a quick non-stop drive from the New York, Philadelphia, Baltimore, and Washington, D.C.
+
+12
+00:01:39,760 --> 00:01:40,640
+areas.
+
+13
+00:01:40,640 --> 00:01:51,440
+Authored the first Wednesday of every month, Frank begins the evening at 7 30 with a talking holography, followed by a tour of the lab and a chance to view holograms in his personal collection.
+
+14
+00:01:51,440 --> 00:01:58,640
+There is no cost to attend a Wednesday evening lecture, but you must call in advance or send an email to make reservations.
+
+15
+00:01:58,640 --> 00:02:06,280
+To reach the studio for more information or to make reservations for the Wednesday evening lecture series, please call toll free.
+
+16
+00:02:06,280 --> 00:02:13,080
+1 800 458 3525 or send an email from the website.
+
+17
+00:02:13,080 --> 00:02:21,400
+That number again is 1 800 458 3525 to attend a Wednesday evening lecture at the studio.
+
+18
+00:02:21,400 --> 00:02:26,040
+Frank hopes to see you there.
+
+19
+00:02:33,000 --> 00:02:36,600
+Hey Frank How you doing Bill I've got you on the right line now.
+
+20
+00:02:37,160 --> 00:02:49,320
+I understand that uh you've got some big news that we're going to put on Hall of Talk show, especially for uh students and educators in the Florida area, but I imagine that this is something that uh could be looked at nationally as well.
+
+21
+00:02:49,320 --> 00:02:50,760
+Uh yes I do.
+
+22
+00:02:51,080 --> 00:03:13,640
+Uh I just came back from Orlando working with a group of approximately thirteen communications technology teachers and we rewrote the communications technology frameworks and starting next year in the state of Florida holography will become part of the Florida state standards and communications technology.
+
+23
+00:03:13,640 --> 00:03:18,040
+Now this will be something that will be practiced in all the schools then.
+
+24
+00:03:18,040 --> 00:03:24,040
+Yes it will it'll be offered in uh all the high schools uh through the state of Florida.
+
+25
+00:03:24,040 --> 00:03:29,640
+And you did this you came up to the lab for a workshop a while ago over the summer.
+
+26
+00:03:29,800 --> 00:03:30,840
+Is it over the summer?
+
+27
+00:03:30,840 --> 00:03:31,360
+Yes it was.
+
+28
+00:03:31,360 --> 00:03:33,920
+It was in I think it was in July I came up okay.
+
+29
+00:03:33,920 --> 00:03:34,480
+Yeah.
+
+30
+00:03:34,480 --> 00:03:38,440
+Came up there and um I was very impressed uh with the workshop.
+
+31
+00:03:38,440 --> 00:03:48,720
+I was I'm very impressed with the technology and not just the technical part of process but also the academic process.
+
+32
+00:03:49,200 --> 00:04:09,680
+The physics, the chemistry, the math and that's one of the things that sold the process with the director of technology in the state of Florida was that we weren't just wood butchering something that we were meeting with or or com or working with or folks in the academic areas and uh bringing in this new technology.
+
+33
+00:04:09,680 --> 00:04:17,280
+Now if I remember correctly your school district was basically very high technology oriented to begin with, right?
+
+34
+00:04:17,280 --> 00:04:26,880
+Right the school district is, but our particular school, Englewood High School in Jacksonville, uh we have probably one of the finest facilities in the state of Florida.
+
+35
+00:04:26,880 --> 00:04:40,000
+We have a technology studies lab, we have carrier and processing lab, we have the communications lab, and then we also have a drafting design lab with full CAD facilities and everything.
+
+36
+00:04:40,000 --> 00:04:41,040
+We're very lucky.
+
+37
+00:04:41,040 --> 00:04:45,680
+We have very good support from our administration at our particular school.
+
+38
+00:04:45,840 --> 00:04:51,680
+You do credit the administration for most of these advances in technology education in that school, I imagine right?
+
+39
+00:04:51,680 --> 00:04:57,040
+Yes I would I've been at the school since at this particular school since nineteen eighty seven.
+
+40
+00:04:57,040 --> 00:04:59,200
+Um I'm on my fifth principal.
+
+41
+00:04:59,200 --> 00:05:07,680
+I don't know if it it's because of me or uh if it's just a a stepping ground for them, but it seems like they get better as they go.
+
+42
+00:05:07,680 --> 00:05:13,280
+And also our technology department at Englewood High School, we're very professional.
+
+43
+00:05:13,760 --> 00:05:19,120
+We we don't consider ourselves as the typical shop teacher.
+
+44
+00:05:19,120 --> 00:05:29,920
+We you know, we put ourselves at the same level as the academic people and we believe that our courses are as important and the things that we teach, you know, is as important as what they teach.
+
+45
+00:05:30,280 --> 00:05:42,920
+Do you approach this in your school as sort of a career type of education where you're preparing students for to go out into the workforce and taking the responsibility of a career in these fields?
+
+46
+00:05:42,920 --> 00:05:45,240
+Uh no, it's more of an exploratory.
+
+47
+00:05:45,240 --> 00:05:45,800
+Mm-hmm.
+
+48
+00:05:45,800 --> 00:05:52,040
+Uh in the skill centers in the state of Florida, the vocational areas to the job preparation.
+
+49
+00:05:52,040 --> 00:06:12,280
+In the technology area, our main concern or our mission is to um to explore the kids, to create interest with them so that they go further on after they get out of high school if it's to a junior college or university or a technical school or apprenticeship program.
+
+50
+00:06:12,280 --> 00:06:17,080
+It's just to give them a chance to see what is available in our particular areas.
+
+51
+00:06:17,160 --> 00:06:23,400
+But that doesn't mean that some of our students don't come right out of high school and get some pretty good jobs.
+
+52
+00:06:23,400 --> 00:06:24,120
+Yeah.
+
+53
+00:06:24,360 --> 00:06:28,600
+What did you do that made you successful with this?
+
+54
+00:06:28,600 --> 00:06:30,520
+Well I I think a couple things.
+
+55
+00:06:30,520 --> 00:06:36,600
+I think that we at the school consider ourselves as professionals, like I said before.
+
+56
+00:06:36,600 --> 00:06:41,960
+Uh we we do the extra, we we do what we need to do with the kids.
+
+57
+00:06:41,960 --> 00:06:45,560
+We just don't come in at 7 30 and leave at at 230.
+
+58
+00:06:45,560 --> 00:07:00,360
+Uh besides that, it was a preparation of being able to show the other areas that we can integrate with that it wasn't just something that could be done in my particular lab that would help the students.
+
+59
+00:07:00,360 --> 00:07:05,800
+It wasn't just a silk screened shirt that they were printing and carrying home.
+
+60
+00:07:05,800 --> 00:07:13,720
+I showed them through your help and all the information you gave me and and and you are a major part of getting this in.
+
+61
+00:07:13,760 --> 00:07:28,560
+Uh I was able to show them how it how we brought in chemistry, how we brought in a variety of physics, how we brought in the math, how we bring in the teamwork concept, how all this can be integrated.
+
+62
+00:07:28,560 --> 00:07:36,080
+It's not just just my kids that will be working with this, but the science teachers that are my particular school right now want to bring their kids down.
+
+63
+00:07:36,080 --> 00:07:38,800
+They want to bring their physics kids down into my dark room.
+
+64
+00:07:38,800 --> 00:07:39,360
+Mm-hmm.
+
+65
+00:07:39,360 --> 00:07:44,720
+And to you know to work with the lasers and you know the different processes that that we'll be doing.
+
+66
+00:07:44,720 --> 00:07:46,880
+What are your future plans for the project?
+
+67
+00:07:46,880 --> 00:07:55,520
+Do you see this moving beyond the small shoebox holography type of setup that you're getting started with and moving on to larger labs and more advanced work.
+
+68
+00:07:55,520 --> 00:07:57,120
+I've already planned that.
+
+69
+00:07:57,280 --> 00:08:06,720
+I've already I'm already designing my sand tables and uh trying to finagle to get some bigger lasers in and my students have gone crazy.
+
+70
+00:08:06,720 --> 00:08:10,480
+I mean they are absolutely driving me mad.
+
+71
+00:08:10,480 --> 00:08:17,760
+I mean and and that's one of the things that's that's sold this with the other educators I was was this weekend.
+
+72
+00:08:17,760 --> 00:08:24,320
+Um I took down plates that my kids shot and I said, Look, look at this and they couldn't believe it.
+
+73
+00:08:24,720 --> 00:08:33,280
+It was just th they thought that this was just such a a on foreseen technology that could be done in a high school.
+
+74
+00:08:34,320 --> 00:08:36,000
+Yeah it's it's a wonderful program.
+
+75
+00:08:36,000 --> 00:08:54,640
+Holography has and not just because that's my thing, but holography really does have so much to offer to so many different peoples with with so many different backgrounds and interests that there's something for everyone a and especially in a team effort where you don't have one person doing everything.
+
+76
+00:08:54,640 --> 00:08:58,120
+You've got specific people doing specific tasks.
+
+77
+00:08:58,120 --> 00:09:05,960
+And you can really bring in a very wide spectrum of interests and abilities and have them all work together with holography.
+
+78
+00:09:05,960 --> 00:09:08,760
+Well th that's one of the processes I see at my school.
+
+79
+00:09:08,760 --> 00:09:25,240
+I can take the I guess a quote unquote honor student with the with the low performing academic student, put 'em in group two or three of 'em together, and they all have something that they can give the team.
+
+80
+00:09:25,240 --> 00:09:38,920
+The so called low performing academic student might not be able to figure out the math or the chemistry, but they gone it, he can get that lens and that laser lined up perfect to shoot that plate.
+
+81
+00:09:39,560 --> 00:09:45,720
+Whereas the other kids, the higher kids, you know, they can set you know, do the chemistry and mix the chemistry and things like that.
+
+82
+00:09:45,720 --> 00:09:58,760
+So it and the good part about it is the two different kids are mixing real well because all of a sudden this kid isn't a dummy or this kid isn't a nerd.
+
+83
+00:09:58,760 --> 00:09:59,240
+Yeah.
+
+84
+00:09:59,240 --> 00:10:02,840
+You know, and and it it's really beginning to help the kids that way.
+
+85
+00:10:02,840 --> 00:10:09,080
+And they're all going to wind up mixing with each other when they get out into the real world anyway, in real world work situations.
+
+86
+00:10:09,080 --> 00:10:09,640
+Exactly.
+
+87
+00:10:09,640 --> 00:10:10,120
+Yeah.
+
+88
+00:10:10,120 --> 00:10:10,760
+Exactly.
+
+89
+00:10:10,760 --> 00:10:18,600
+Now this this technology curriculum standards that was just rewritten and w when was it rewritten last?
+
+90
+00:10:18,600 --> 00:10:23,000
+Uh approximately I'm gonna say probably ten years ago.
+
+91
+00:10:23,000 --> 00:10:24,760
+Mm ten to twelve years ago.
+
+92
+00:10:24,760 --> 00:10:27,960
+And it will be ten to twelve years before it's written again.
+
+93
+00:10:27,960 --> 00:10:43,640
+So we had to uh you know, c uh cut a lot of the old or dilute some of the old to bring some of the new yeah to with and I would imagine we're going to see a lot more change in the next ten years than we did in the past ten years as well.
+
+94
+00:10:43,640 --> 00:10:44,720
+Oh definitely.
+
+95
+00:10:44,720 --> 00:10:47,760
+You know, things just move at such a rapid clip anymore.
+
+96
+00:10:44,440 --> 00:10:48,160
+Exactly.
+
+97
+00:10:48,480 --> 00:10:52,320
+Almost daily sometimes on the uh with electronic communication.
+
+98
+00:10:52,320 --> 00:10:52,880
+Mm-hmm.
+
+99
+00:10:52,880 --> 00:10:53,440
+Mm-hmm.
+
+100
+00:10:53,440 --> 00:11:02,800
+Yeah, we brought in, see, our frameworks had zero or very little on com even computers.
+
+101
+00:11:02,800 --> 00:11:08,000
+I mean, when it was written before computers weren't even used in the classroom ex it wasn't thought of.
+
+102
+00:11:08,000 --> 00:11:08,400
+Yeah.
+
+103
+00:11:08,400 --> 00:11:14,000
+So we had to bring in the full electronic generating type, you know, of imagery.
+
+104
+00:11:14,240 --> 00:11:24,400
+Well we're going to continue to work together and as you begin to advance with your lab down there, we can eventually bring your computers into the holographic process as well.
+
+105
+00:11:24,400 --> 00:11:26,880
+But that that's one of the things that I want to do also.
+
+106
+00:11:26,880 --> 00:11:27,280
+Yeah.
+
+107
+00:11:27,280 --> 00:11:27,520
+Right.
+
+108
+00:11:27,520 --> 00:11:30,240
+I mean I'm just I'm like a kid at Christmas time.
+
+109
+00:11:30,880 --> 00:11:36,080
+And a lot of the equals this weekend uh were basically the same.
+
+110
+00:11:36,080 --> 00:11:53,040
+I was talking to Doug Wagner, the director of technology education for the state of Florida and he had found out what I was doing in my high school and he basically said he says, you see that that gets into this framework because that's very important.
+
+111
+00:11:53,040 --> 00:12:03,360
+It's very interesting because someone whom I was speaking to about this had mentioned to me that whatever Florida does you will find Texas and California following right on the heels.
+
+112
+00:12:03,520 --> 00:12:16,720
+Usually that's the case or what they do you usually find us doing because of the I guess the ability to to get at that cutting edge.
+
+113
+00:12:16,720 --> 00:12:23,080
+W what is it about Florida, Texas and California that are in intermixed with each other with education?
+
+114
+00:12:23,080 --> 00:12:28,160
+I I think one of the things is is because of all the the type of industry that we have.
+
+115
+00:12:28,160 --> 00:12:28,720
+I see.
+
+116
+00:12:28,720 --> 00:12:32,440
+With NASA and a lot of the military bases and all.
+
+117
+00:12:32,440 --> 00:12:41,720
+Uh in central Florida in Orlando where we were of course Mickey Mouse has has created the school system down there that is just phenomenal.
+
+118
+00:12:41,720 --> 00:12:43,400
+I was in a lab just today.
+
+119
+00:12:43,400 --> 00:12:47,720
+I matter of fact I I called you when I walked in the door, I was so excited about this.
+
+120
+00:12:48,040 --> 00:12:56,920
+Um I was in a television production lab down in Doctor Phillips high school in Orlando, Florida.
+
+121
+00:12:56,920 --> 00:13:04,680
+And this is a a facility that any news broadcasting department would love to have.
+
+122
+00:13:04,680 --> 00:13:12,440
+I mean I it was just pute rooms, beautiful sets and it was all because of Universal Studios and all down there.
+
+123
+00:13:12,440 --> 00:13:17,000
+They they went out, they talked to 'em and you know, they're getting a lot of grants and things that way.
+
+124
+00:13:17,000 --> 00:13:17,640
+Mm-hmm.
+
+125
+00:13:17,640 --> 00:13:27,800
+So I I think that there's a lot of technology in these three states between the like I said, between NASA and the the military and all that you know that creates these things.
+
+126
+00:13:27,800 --> 00:13:35,880
+That's wonderful and it's a it's a nice it's a great day for holography as well and uh this is what we need to keep things moving forward.
+
+127
+00:13:35,880 --> 00:13:36,360
+Exactly.
+
+128
+00:13:36,680 --> 00:13:43,240
+And don't forget, I don't know if you got the last email but there is a um a new section on the website there on making your own plates.
+
+129
+00:13:43,240 --> 00:13:50,440
+Yeah yes I I saw that matter of fact I printed it up and I was discussing it with another teacher here at school.
+
+130
+00:13:50,440 --> 00:13:59,640
+Um are they going to break down the uh the the chemistry that is that's going in.
+
+131
+00:13:59,640 --> 00:14:03,320
+Are they going to give the mixture of the chemicals?
+
+132
+00:14:03,320 --> 00:14:13,240
+I don't know if it's telling it's telling the the what chemicals are being used but not what percentages of the Oh did you get the worksheet as well?
+
+133
+00:14:13,320 --> 00:14:18,080
+Yeah yes, but I didn't I didn't notice the um and maybe I just overlooked it.
+
+134
+00:14:14,760 --> 00:14:20,640
+I think I don't even think anything's mixed.
+
+135
+00:14:20,640 --> 00:14:22,880
+I think it's just individual beds.
+
+136
+00:14:22,880 --> 00:14:27,680
+But I'll have to double check and and relook at that and send Jeff an email and uh asking a question about that.
+
+137
+00:14:27,920 --> 00:14:28,160
+Okay.
+
+138
+00:14:28,160 --> 00:14:28,560
+Yeah.
+
+139
+00:14:28,560 --> 00:14:38,880
+Okay, because especially at the high school level if we can mix our own you know, make our own uh plates and all, I mean just the expense of it would you know really help us out.
+
+140
+00:14:38,880 --> 00:14:41,760
+Yeah, yeah it's it's getting to be very exciting once again.
+
+141
+00:14:41,760 --> 00:14:42,320
+Mm-hmm.
+
+142
+00:14:42,320 --> 00:14:42,720
+Yeah.
+
+143
+00:14:42,720 --> 00:14:45,760
+Well Bill, I want to thank you for I don't want to hold you up on the line here.
+
+144
+00:14:45,760 --> 00:15:01,680
+I I want to thank you very much for uh calling me with the information and we'll get this up uh for a um a program of whole talk and I'm sure educators across the country will be very interested in in keeping abreast of this development and how will they be able to keep abreast of this.
+
+145
+00:15:01,680 --> 00:15:21,200
+The frameworks that we um developed this weekend uh will be take the Tallahassee, the uh Doug Wagner, we'll place those on the internet where the educators of Florida will be able to and anyone else will be able to look at them and then um it will go into effect next year.
+
+146
+00:15:21,200 --> 00:15:21,600
+Yeah.
+
+147
+00:15:21,600 --> 00:15:22,960
+So it will be there.
+
+148
+00:15:22,960 --> 00:15:35,760
+Uh as far as the progression that goes on from my end here in Duval County and what I can find out throughout the state, I will definitely be emailing you about and calling you on that.
+
+149
+00:15:35,760 --> 00:15:36,160
+Great.
+
+150
+00:15:36,160 --> 00:15:44,000
+Yeah and we'll get together with your students over the internet as well for a question and answer session and and a number of other technology things too.
+
+151
+00:15:44,000 --> 00:15:44,880
+That'll be great.
+
+152
+00:15:44,880 --> 00:15:45,200
+Yeah.
+
+153
+00:15:45,200 --> 00:15:49,200
+And I want to do a little bit of videoing and uh send that to you too.
+
+154
+00:15:49,200 --> 00:15:49,600
+That's great.
+
+155
+00:15:49,760 --> 00:16:00,120
+So you can see the kids working but I want to once again I want to thank you again because if you hadn't prepared me with the information that I needed, I couldn't have made this sale job this weekend.
+
+156
+00:16:00,680 --> 00:16:02,840
+So it was um My pleasure.
+
+157
+00:16:02,840 --> 00:16:04,360
+You know, y you were the culprit.
+
+158
+00:15:59,920 --> 00:16:05,480
+I hope you enjoy your trip.
+
+159
+00:16:05,640 --> 00:16:07,800
+You you did you say that you drove straight through?
+
+160
+00:16:07,800 --> 00:16:10,760
+No, you didn't drive straight through up from Florida that day, did you?
+
+161
+00:16:10,760 --> 00:16:11,240
+You did.
+
+162
+00:16:11,240 --> 00:16:11,800
+Yes I did.
+
+163
+00:16:11,800 --> 00:16:13,640
+And you took the workshop as soon as you got here?
+
+164
+00:16:13,640 --> 00:16:17,560
+Uh something I spent the night and the next day I came in to the workshop.
+
+165
+00:16:17,560 --> 00:16:27,400
+And then that evening then I drove after I left uh your lab, then I drove down into about the middle of North Carolina and then uh came in.
+
+166
+00:16:27,400 --> 00:16:27,880
+Yeah.
+
+167
+00:16:27,880 --> 00:16:29,320
+That was a heck of a trip.
+
+168
+00:16:29,320 --> 00:16:32,360
+But uh it was very well worth it, believe me.
+
+169
+00:16:32,680 --> 00:16:33,000
+Okay.
+
+170
+00:16:33,560 --> 00:16:34,680
+Bill, thank you so much.
+
+171
+00:16:34,680 --> 00:16:35,960
+Okay.
+
+172
+00:16:36,920 --> 00:16:37,240
+Okay.
+
+173
+00:16:37,240 --> 00:16:39,720
+Bye bye thank you, bye.

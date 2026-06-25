@@ -1,0 +1,1115 @@
+1
+00:00:02,640 --> 00:00:08,480
+The following is a production of Frank Defratus and the Internet Museum of Holography.
+
+2
+00:00:12,240 --> 00:00:21,120
+Hello everyone, this is Frank Defratis, and welcome to another week of HoloTalk for the week of March 8th, 1999.
+
+3
+00:00:21,120 --> 00:00:39,440
+This week, we're going to listen to the keynote address at the 25th anniversary Mensa Conference, which was held Saturday evening at the Holiday Inn Hotel and Conference Center at Tinton Falls, New Jersey, with the Central New Jersey Mensa group.
+
+4
+00:00:39,440 --> 00:00:43,200
+Hello to you all again if you happen to be listening to the show.
+
+5
+00:00:43,200 --> 00:00:50,880
+First, before we get started with that, I would like to say congratulations to Brittany and Samantha.
+
+6
+00:00:50,880 --> 00:01:08,240
+They are two sixth grade students who just won first place in the science competition that they entered right outside of Metropolitan New York area, and they just won that first place award today using laser pointers to create holograms.
+
+7
+00:01:08,240 --> 00:01:26,560
+And you may remember this group as they were the first group to come into my lab to take a workshop to make laser pointer holograms, and one of the little boys who is in the group, Mike, his hologram is actually up as a picture on the uh laser pointer page.
+
+8
+00:01:26,560 --> 00:01:31,120
+So let's move on to the Mensa conference, and there's one thing I want to point out.
+
+9
+00:01:31,120 --> 00:01:35,520
+Right be right as I was introducing the laser light show.
+
+10
+00:01:35,520 --> 00:01:43,600
+I wanted to go over and turn the lights out so that I could pass the laser beam over everyone's heads in the ballroom.
+
+11
+00:01:43,600 --> 00:01:50,640
+Unfortunately, I didn't want to record the laser light show since it would just turn out to be music anyway.
+
+12
+00:01:50,640 --> 00:01:54,640
+So what I did is I turned the tape recorder off.
+
+13
+00:01:54,640 --> 00:02:01,240
+Of course, I forgot to turn the tape recorder back on again after the laser light show was over.
+
+14
+00:02:01,240 --> 00:02:08,360
+So the second part or the conclusion of the keynote address was not recorded.
+
+15
+00:02:08,360 --> 00:02:10,840
+So we're going to listen to it up until that point.
+
+16
+00:02:10,840 --> 00:02:19,800
+I'd like to thank Steve Michael, John Clare, Ronnie Anderson for sending in their holograms and Bert Myers.
+
+17
+00:02:19,800 --> 00:02:23,480
+I also had one of your medical holograms there as well.
+
+18
+00:02:23,480 --> 00:02:27,880
+And they were very, very well received.
+
+19
+00:02:28,040 --> 00:02:39,960
+It was a great conference, and everyone loved looking at the holograms, especially considering that they were created using an inexpensive laser pointer.
+
+20
+00:02:39,960 --> 00:02:41,160
+So let's move on to that.
+
+21
+00:02:41,160 --> 00:02:43,800
+I'm not going to come back on after the show's over.
+
+22
+00:02:43,800 --> 00:02:45,800
+So I will thank you now for tuning in.
+
+23
+00:02:45,800 --> 00:02:49,720
+We'll get back to our guests either next week or the week after.
+
+24
+00:02:49,720 --> 00:03:01,960
+And I hope you tune in each week to keep up with news and general information on the field of lasers and holograms right here at the Internet's Laser and Holography Radio Talk Show, HoloTalk.
+
+25
+00:03:01,960 --> 00:03:03,400
+This is Frank Dufratis.
+
+26
+00:03:03,400 --> 00:03:05,320
+See you next week.
+
+27
+00:03:06,360 --> 00:03:12,920
+Would you like to make your own one of a kind hologram and learn how you can start making holograms on your own at the same time?
+
+28
+00:03:12,920 --> 00:03:17,800
+You can do this and much more by attending one of Frankie Freitas' holographs.
+
+29
+00:03:17,800 --> 00:03:21,880
+From beginner to advance, Frank's got a workshop that's just right for you.
+
+30
+00:03:21,880 --> 00:03:28,840
+From single afternoon, evening, or weekend introductory workshops to Wednesday evening, five week complete courses.
+
+31
+00:03:28,840 --> 00:03:32,840
+And don't forget his newest workshop, Laser Pointer Holography.
+
+32
+00:03:32,840 --> 00:03:38,040
+Located just off the northeast extension of the Pennsylvania Turnpike and Interstate 78.
+
+33
+00:03:38,040 --> 00:03:43,520
+The studio is a quick non-stop drive from the New York, Philadelphia, and Baltimore, Washington, D.C.
+
+34
+00:03:43,640 --> 00:03:44,280
+areas.
+
+35
+00:03:44,400 --> 00:03:54,480
+For more information, call the studio's toll-free hotline at 1-800-458-3525 and begin your own journey with holography today.
+
+36
+00:03:54,480 --> 00:04:03,840
+That's 1-800-458-3525 for more information on attending a Plankton Freitas holography workshop today.
+
+37
+00:04:12,000 --> 00:04:13,920
+Thank you very much for the invite.
+
+38
+00:04:19,200 --> 00:04:25,760
+In fact, uh you will be the first group of people in the world to see what you're going to see tonight.
+
+39
+00:04:25,760 --> 00:04:29,760
+It's a whole new aspect of lasers and holography.
+
+40
+00:04:30,080 --> 00:04:36,000
+Several of you may actually say that it's not possible to do this, but it is possible.
+
+41
+00:04:36,000 --> 00:04:42,000
+We've been doing it uh for I'd say six or eight weeks now.
+
+42
+00:04:42,000 --> 00:04:48,720
+And I had a few other holographers from Norway send some work in that they confirmed that it's possible to do.
+
+43
+00:04:48,720 --> 00:04:50,640
+And the uh excuse me?
+
+44
+00:04:51,120 --> 00:04:52,000
+Cold fusion.
+
+45
+00:04:52,000 --> 00:04:58,160
+No, it's not anything that's wouldn't that be something.
+
+46
+00:04:58,160 --> 00:05:02,400
+Now maybe I shouldn't build it up too much after that.
+
+47
+00:05:02,400 --> 00:05:05,920
+But what I wanted to do is save it for you tonight to take a look at.
+
+48
+00:05:05,920 --> 00:05:07,760
+Um, and we'll get to that.
+
+49
+00:05:07,760 --> 00:05:12,160
+But first, what I want to do, we're recording this for an internet broadcast.
+
+50
+00:05:12,160 --> 00:05:13,760
+It's going to broadcast this week.
+
+51
+00:05:13,760 --> 00:05:18,480
+I have a show on the internet, and we're going to have this up for a week.
+
+52
+00:05:18,480 --> 00:05:24,640
+And what I'd like to do is have Peggy come up, if you don't mind, and give the folks who are listening, the Holo Talk listeners.
+
+53
+00:05:24,640 --> 00:05:29,120
+I want to say hello to them as well, because they're listening to me right now in their homes around the world.
+
+54
+00:05:29,120 --> 00:05:38,440
+We have about 42 countries that log on religiously to hear news about lasers and holography from an artistic and scientific standpoint each week.
+
+55
+00:05:38,440 --> 00:05:49,640
+So Peggy, if you don't mind taking a minute or two, you can let everyone out there who's listening right now, not live, but they will be listening as of tomorrow evening, a little bit about your organization.
+
+56
+00:05:49,640 --> 00:05:58,600
+I know you've been running this event, probably one of the longest ones in the country, so why don't you take a few minutes just to tell everyone what you're all about.
+
+57
+00:05:58,680 --> 00:05:59,640
+Okay.
+
+58
+00:05:59,640 --> 00:06:10,760
+Um we're present at an event called Snowball, which is a regional gathering of uh American Mensa sponsored by Central New Jersey Mensa.
+
+59
+00:06:10,760 --> 00:06:13,400
+Mensa is a high IQ society.
+
+60
+00:06:13,400 --> 00:06:20,920
+The qualifications for it are to test on a standardized test in the top two percent of the population.
+
+61
+00:06:20,920 --> 00:06:26,360
+Oh this event is sort of like an annual convention for our local group.
+
+62
+00:06:26,360 --> 00:06:35,560
+We have people here in attendance from California and Tennessee and New England and of course New Jersey and Pennsylvania and lots of sur other surrounding states.
+
+63
+00:06:35,560 --> 00:06:38,920
+Although I guess that's about all of them New York, New England, anyway.
+
+64
+00:06:40,840 --> 00:06:44,200
+Which and Virginia we mustn't forget Virginia.
+
+65
+00:06:44,520 --> 00:06:59,240
+We get together for the weekend and we listen to fascinating and interesting speakers and funny speakers and tell each other jokes and play games and uh party and hang out and and have a good time for three days and then we go back to the real world on Monday morning.
+
+66
+00:06:59,240 --> 00:07:04,960
+Um and this weekend our uh keynote speaker, as you know, is uh Mr.
+
+67
+00:07:04,920 --> 00:07:06,360
+Defratis.
+
+68
+00:07:06,360 --> 00:07:19,840
+Um he mentioned the fact that this is Snowball twenty five Central New Jersey Mensa has sponsored this particular convention, regional gathering, uh, for twenty-five years in a row.
+
+69
+00:07:19,840 --> 00:07:24,960
+We're the only single local group in the United States that has done that.
+
+70
+00:07:24,960 --> 00:07:36,240
+So we're very proud of that fact and we're glad that we had uh.
+
+71
+00:07:36,240 --> 00:07:40,800
+And we're happy to have had, I think it's uh how many?
+
+72
+00:07:41,520 --> 00:07:49,520
+Over two hundred and fifty people are uh here enjoying this weekend with us in lovely and scenic Tinton Falls, New Jersey.
+
+73
+00:07:50,080 --> 00:07:50,960
+Thank you.
+
+74
+00:07:51,760 --> 00:08:00,880
+Thanks, Peggy.
+
+75
+00:08:00,880 --> 00:08:15,120
+Here's what I'm going to do tonight, and I don't take a lot of time for a presentation, so I know it has on the sheet that it's 7 30 to 9 o'clock, but I can guarantee you you'll be dancing before 9 o'clock is here.
+
+76
+00:08:15,440 --> 00:08:27,120
+First what I want to do is just start out by giving a little background on what holography is, how lasers work, and how holography has changed within the last six to eight weeks.
+
+77
+00:08:27,120 --> 00:08:34,400
+I've also brought a number of holograms with me, as I've mentioned earlier, from my own lab, which is in Allentown, Pennsylvania.
+
+78
+00:08:34,400 --> 00:08:37,040
+Uh, from a lot a lot anyone in Allentown?
+
+79
+00:08:37,040 --> 00:08:38,240
+A couple of people in All Town.
+
+80
+00:08:38,240 --> 00:08:39,360
+Hello there.
+
+81
+00:08:39,360 --> 00:08:45,600
+Um, a lab in Norway and also a lab down in Virginia.
+
+82
+00:08:45,600 --> 00:08:54,160
+And I made a special hologram for all of you that are here today because I know you had a speaker here for the Kennedy assassination, which was very interesting.
+
+83
+00:08:54,160 --> 00:08:59,920
+I I had an opportunity to go in and listen off and on because I find it a little fascinating myself.
+
+84
+00:09:00,440 --> 00:09:14,680
+But there was a researcher uh named Jerry Robertson, and he sent me two bullets uh that were fired from the same type of rifle, which is a I don't know if I'm going to pronounce this rifle right, but it's a man liquor cartano or something like that.
+
+85
+00:09:14,680 --> 00:09:16,600
+Rifle that Oswald used.
+
+86
+00:09:16,600 --> 00:09:25,080
+Yeah, and they did an experiment by shooting one of the bullets into a wrist of a corpse.
+
+87
+00:09:25,080 --> 00:09:32,600
+Now I got these bullets from him and I made a hologram and brought the hologram in for you to take a look at uh this evening as well.
+
+88
+00:09:32,600 --> 00:09:47,160
+And it's just an indication in forensic science how holography gives us the opportunity or someday will give us the opportunity to take a look at evidence without having the evidence leave protective storage.
+
+89
+00:09:47,160 --> 00:09:58,440
+Uh for instance, there's a number of different crimes that are committed, and there's a uh murder weapon, that maybe there's a few maybe there's a few things that's very interesting about this murder weapon, something real strange about it.
+
+90
+00:09:58,440 --> 00:10:09,320
+And there's a couple different experts, maybe across the country or around the world, who could look at that and come to some sort of determination about what what it's all about.
+
+91
+00:10:09,320 --> 00:10:22,440
+Uh in the normal process, they would either either have to fly to an area to examine it, or under very protective conditions, if it's a high profile case, uh the object would be carried by detectives to them.
+
+92
+00:10:22,440 --> 00:10:38,120
+By making three-dimensional laser holograms, you'd have an opportunity of actually making many, many copies and say sending it to many people, uh both across the country and around the world, and they can look at the evidence and see it as if it's right in front of them.
+
+93
+00:10:38,120 --> 00:10:46,720
+Uh some of the holograms that you'll have an opportunity to see tonight, you're going to really think that w what's in front of you is there, but there's nothing there at all.
+
+94
+00:10:46,720 --> 00:10:49,440
+It's just a three-dimensional holographic image.
+
+95
+00:10:49,440 --> 00:10:58,560
+Uh, for medical holography, I bought a hologram that was made by a friend of mine at the Veterans Administration Hospital down in New Orleans.
+
+96
+00:10:58,560 --> 00:11:13,840
+And he's working on putting holograms into medical books for students so that when they go back to their dorms at night to study, they can open their textbooks up and have a three-dimensional holographic image float above the page, which they can interact with.
+
+97
+00:11:13,840 --> 00:11:24,800
+Uh I personally had one called the holographic heart, which you could take an instrument and go right up inside the different chambers in the heart and do measurements as it floated above the hologram.
+
+98
+00:11:24,800 --> 00:11:25,840
+I couldn't find it.
+
+99
+00:11:25,840 --> 00:11:45,840
+I think I have it at Lehigh in a box somewhere, but I bought a different one, which is a uh a fetus with spinafida, and it will allow you to see the uh uh curvature of the spine uh very clearly and from different angles, something that traditional photography would never be able to uh give you an opportunity to do.
+
+100
+00:11:45,840 --> 00:11:52,000
+So we've got a few holograms to take a look at, but what I want to start off is just to talk a little bit about where holography was.
+
+101
+00:11:52,000 --> 00:11:58,080
+Uh, for those of you who are not familiar with holography, it's a imaging technique that's been around for many, many years.
+
+102
+00:11:58,080 --> 00:12:02,560
+Uh the theories actually go back to 47, 1948 with Dr.
+
+103
+00:12:02,560 --> 00:12:12,240
+Dennis Gabor from the Imperial College of London, uh, who actually invented holography to increase the resolving power of the electron microscope.
+
+104
+00:12:12,640 --> 00:12:19,680
+He didn't have anything in mind when it came to putting holograms on frosted flakes or uh corn pops or anything like that at the time.
+
+105
+00:12:19,680 --> 00:12:24,240
+It was uh something a lot different than what it finally wound up to be.
+
+106
+00:12:24,240 --> 00:12:40,840
+Uh-oh, he received the Nobel Prize in Physics for holography from going back into the 60s, I I saw my first hologram in 68.
+
+107
+00:12:40,840 --> 00:13:01,000
+We've always heard about the promise of holography, that someday we'll be able to have entertainment in the middle of the room with lasers, watch the Super Bowl and have the players run around right in the middle of the room three-dimensionally, or watch uh ballet or uh or uh arts and uh different things like that on the shows.
+
+108
+00:13:01,000 --> 00:13:02,840
+Uh but nothing of that ever came.
+
+109
+00:13:02,840 --> 00:13:04,120
+I mean, where is holography?
+
+110
+00:13:04,120 --> 00:13:04,840
+Where do you see it?
+
+111
+00:13:04,840 --> 00:13:08,440
+How many people have seen a hologram today?
+
+112
+00:13:09,160 --> 00:13:15,000
+It's not an everyday experience for everyone like most of the media, like television, radio, and things like that.
+
+113
+00:13:15,000 --> 00:13:21,880
+Basically, due to the fact that what we need to do is we need to have technology catch up with holography.
+
+114
+00:13:21,880 --> 00:13:24,120
+Holography is ready to go.
+
+115
+00:13:24,120 --> 00:13:32,760
+Despite what some of the articles say about holography, that its time has passed and it had promise, but it no longer has promise.
+
+116
+00:13:39,400 --> 00:13:52,360
+Currently, with fiber optic technology, it would take 72 hours to transmit one thirtieth of a second of holographic information using fiber optics.
+
+117
+00:13:52,360 --> 00:13:59,800
+Now, if you know, if you're sitting down watching a television or a performance, you're looking at 30 frames per second.
+
+118
+00:13:59,800 --> 00:14:17,360
+So if it takes 72 hours to transmit one thirtieth of a second, you have to times that 72 hours by 30, and then what you would see would flash on the screen for one second, and you'd have to wait that same amount of time before the next second would flash on the screen.
+
+119
+00:14:17,360 --> 00:14:19,280
+That's where we are with technology.
+
+120
+00:14:19,280 --> 00:14:40,720
+But holography itself is ready to go, and they're doing a lot of very interesting work at MIT, Steve Benton at the Spatial Imaging Group, working with compression techniques, and compression is going to probably be the answer for us, and the internet is really helping us out with that because nowhere is compression needed more than trans transmission of data over our lines.
+
+121
+00:14:40,720 --> 00:14:44,400
+The holography was always created using traditional lasers.
+
+122
+00:14:44,400 --> 00:14:48,480
+And what I'd like to do is I have a couple laser tubes here.
+
+123
+00:14:48,480 --> 00:14:56,800
+And uh how about if I start one on one side of the room, and if it does make its way all the way back, you can just continue to pass it around.
+
+124
+00:14:56,800 --> 00:15:04,160
+And if you don't get an opportunity to see this and you're interested in seeing one of these tubes, I will have them up here after the presentation is over.
+
+125
+00:15:04,160 --> 00:15:07,840
+This is a typical laser tube, a helium neon laser.
+
+126
+00:15:08,320 --> 00:15:15,840
+Basically, the lasers are called the way that they're called because of, if they happen to be a gas laser, of the gas that's inside the actual laser.
+
+127
+00:15:15,840 --> 00:15:18,720
+Argon lasers have argon gas inside.
+
+128
+00:15:18,720 --> 00:15:21,440
+Krypton lasers have krypton gas.
+
+129
+00:15:21,440 --> 00:15:26,080
+This is one of the probably one of the most inexpensive lasers that you can purchase.
+
+130
+00:15:26,080 --> 00:15:32,960
+It's a helium-neon laser, and you can pick up a five milliwatt helium neon laser, which is very low power.
+
+131
+00:15:32,960 --> 00:15:36,640
+That's five thousandths of one watt.
+
+132
+00:15:36,640 --> 00:15:40,000
+So picture a one watt light bulb and how dim that is.
+
+133
+00:15:40,000 --> 00:15:43,600
+This is five thousandths of that.
+
+134
+00:15:43,600 --> 00:15:46,240
+Um you'll notice the outside's made out of glass.
+
+135
+00:15:46,240 --> 00:15:47,760
+It's a pretty sturdy tube.
+
+136
+00:15:47,760 --> 00:15:55,440
+You'll see a smaller glass tube running down the law, the larger glass tube, about the size of a drinking straw that you get with a soda.
+
+137
+00:15:55,440 --> 00:16:02,280
+And it's inside that smaller glass tube where the gas is contained inside of that tube, and the mixture of helium and neon.
+
+138
+00:16:02,280 --> 00:16:11,880
+And you'll notice, like the gentleman over there, that on the ends of the tube, we have these two little button type things, about this a little bit smaller than the size of MMs, and they're actually mirrors.
+
+139
+00:16:11,880 --> 00:16:23,640
+And what happens is when we apply power to this tube, that helium-neon tube inside begins to glow just like a neon pizza sign that you see when you go out at night.
+
+140
+00:16:23,640 --> 00:16:30,680
+And because we have the mirrors on the ends of the tube, what actually happens is the light begins to reflect back and forth between the two mirrors.
+
+141
+00:16:30,680 --> 00:16:38,920
+It actually bounces back and forth and it amplifies itself, just like when we take sound and we amplify it, or we take power and we amplify it.
+
+142
+00:16:38,920 --> 00:16:54,440
+And one of the mirrors is close to 100% reflective, or theoretically close enough for me to say 100% reflective, which means when the light comes down and strikes this mirror, 100% of it, or all of it, bounces back up or is reflected back up through the tube again.
+
+143
+00:16:54,440 --> 00:16:58,040
+Nothing exits out of this end of the tube at all.
+
+144
+00:16:58,040 --> 00:17:01,240
+The other mirror, on the other hand, is only partially reflective.
+
+145
+00:17:01,240 --> 00:17:13,000
+We're around 98% reflective, which means when the light bounces from this mirror down to this one, this mirror, excuse me, is only going to reflect 98% of the light back.
+
+146
+00:17:13,000 --> 00:17:17,880
+The other 2% is actually going to come through as the laser beam.
+
+147
+00:17:17,880 --> 00:17:29,320
+And in a nutshell, outside of the fact that these mirrors have to be placed at an exact multiple of whatever wavelength of light the laser produces, it's basically all there is to it.
+
+148
+00:17:29,320 --> 00:17:34,520
+There's not a lot to this, as you will see when it gets passed around.
+
+149
+00:17:34,520 --> 00:17:44,840
+And traditionally with holography, that's the way holograms have always been made with gas lasers or solid-state lasers like Ruby lasers, pulsed Ruby lasers.
+
+150
+00:17:45,040 --> 00:17:52,400
+If you've ever seen a holographic portrait of someone, chances are it was done using what's called a pulsed Ruby laser.
+
+151
+00:17:52,400 --> 00:18:08,640
+And this laser is actually a solid state laser, not solid state in the electronic sense, but a solid state that we used to call it because it has a solid ruby tube that runs down, a Ruby crystal rod that runs down the middle of the laser itself.
+
+152
+00:18:08,640 --> 00:18:18,960
+And around that Ruby crystal rod is a Xeon tube, very similar to the very high power flash tubes that you see photographers use.
+
+153
+00:18:18,960 --> 00:18:28,400
+And when they flash that Xeon tube, it actually makes the atoms in the Ruby laser throw off photons of light.
+
+154
+00:18:28,400 --> 00:18:42,000
+And the ends of the Ruby tubes are actually mirrored, just like the mirrors are attached to this one, only the actual Ruby uh rod itself, the ends are mirrored, and the light bounces back and forth and it comes out.
+
+155
+00:18:42,000 --> 00:18:52,800
+It's not a continuous wave laser, it's actually a pulsed laser, and the pulse is very quick, 20 nanoseconds, which is 20 billionths of one second.
+
+156
+00:18:52,800 --> 00:19:08,560
+And just to give you some sort of an idea how quick that is, if you were to take an F-14 fighter jet going full throttle through the sky, in 20 nanoseconds, that jet would only move forward a fraction of one of its atoms.
+
+157
+00:19:08,560 --> 00:19:10,800
+That's how fast this flash is.
+
+158
+00:19:15,080 --> 00:19:17,480
+You can only remember it.
+
+159
+00:19:17,480 --> 00:19:24,360
+Because by the time the signal goes from the eye to the brain, the flash is already over.
+
+160
+00:19:24,360 --> 00:19:28,120
+So what you're seeing is the memory of the flash.
+
+161
+00:19:28,120 --> 00:19:29,080
+It's already over.
+
+162
+00:19:29,080 --> 00:19:30,200
+That's how quick it is.
+
+163
+00:19:30,200 --> 00:19:34,040
+And essentially what it does is it freezes time.
+
+164
+00:19:34,040 --> 00:19:37,080
+It literally takes a slice and freezes time.
+
+165
+00:19:37,080 --> 00:19:41,960
+Because you cannot do live subjects in a hologram traditionally using lasers.
+
+166
+00:19:41,960 --> 00:19:51,080
+There are some other methods where we can use photographic film or motion picture film first and then transfer that onto what's called a stereogram.
+
+167
+00:19:51,080 --> 00:19:56,360
+But using lasers, you cannot have any vibration whatsoever in your system.
+
+168
+00:19:56,360 --> 00:20:05,400
+If anything on your system when you're making a hologram vibrates more than a fraction of a wavelength of light, you have no hologram whatsoever.
+
+169
+00:20:05,400 --> 00:20:28,680
+And it makes it for a very strange field because if you've ever been in a holography studio to do a hologram, you'll know that the lights go out, heating is turned off, air conditioning is turned off, all sounds, there are no sounds whatsoever, and you stand there and you become very still and quiet before you do the exposure.
+
+170
+00:20:28,680 --> 00:20:44,200
+It's almost a zen-like experience, because there any type of noise, even just someone talking quietly in the lab, if it's vibrating your eardrum, it's certainly going to vibrate that holographic plate.
+
+171
+00:20:44,920 --> 00:20:46,440
+Well, how should I put this?
+
+172
+00:20:46,440 --> 00:20:47,560
+I'll just come right out and say it.
+
+173
+00:20:47,560 --> 00:21:08,440
+A lot of times F the FBI and other agencies like that, when they want to find out what it is that you're talking about, they can take a laser which operates in the infrared part of the spectrum, which your eye is not sensitive to, and they can shine that beam on your window in your house, or wherever you happen to be.
+
+174
+00:21:08,440 --> 00:21:14,360
+And as you speak, and as I'm speaking in this room, everything in this room right now is vibrating.
+
+175
+00:21:14,360 --> 00:21:19,040
+The walls, the floor, the chandeliers, everything is vibrating.
+
+176
+00:21:19,200 --> 00:21:22,800
+And when you speak inside your house, your windows vibrate.
+
+177
+00:21:22,800 --> 00:21:33,440
+And what happens is when that infrared laser beam that you cannot even see is on your window and you speak, the window actually modulates the laser beam.
+
+178
+00:21:33,440 --> 00:21:39,440
+So what they do is they read that modulation that's being reflected off of your window.
+
+179
+00:21:39,440 --> 00:21:44,160
+They can amplify that and send it through an amp and hear what it is that you're saying.
+
+180
+00:21:44,160 --> 00:21:48,800
+Just like when I speak into the microphone, the diaphragm that's in the microphone is vibrating.
+
+181
+00:21:48,800 --> 00:21:50,480
+The exact same thing is happening.
+
+182
+00:21:50,480 --> 00:21:54,800
+That's what your window is functioning as a diaphragm.
+
+183
+00:21:54,800 --> 00:22:04,000
+A little while ago, I had a call from a friend of mine who was going to be a guest on the show named Steve Michael.
+
+184
+00:22:04,000 --> 00:22:12,560
+And Steve Michael lives in Virginia, and he's been involved with holography for many years, back going back to the 60s, actually.
+
+185
+00:22:12,560 --> 00:22:27,440
+And he said to me, I have a laser pointer, and I've set up a little test with that, and it looks to me as if I could make a hologram with this laser pointer.
+
+186
+00:22:27,440 --> 00:22:41,520
+Now, up until this point, it had always been thought that laser diodes or semiconductor lasers or whatever the term is that you're used to hearing, that you could not make holograms using these diodes.
+
+187
+00:22:41,520 --> 00:22:49,120
+Holograms have to be made with an instrument like a helium neon laser, which has what's called a long coherence length.
+
+188
+00:22:49,120 --> 00:22:54,560
+Your coherence length is how long or how deep you can make a hologram.
+
+189
+00:22:54,640 --> 00:22:59,440
+For instance, you can see a hologram may have six inches of depth or eight inches of depth.
+
+190
+00:22:59,440 --> 00:23:04,440
+That is due to the fact that the laser has a long coherence length.
+
+191
+00:23:04,440 --> 00:23:17,960
+With diode lasers, semiconductor lasers, which you find in your laser pointers, it's been always thought that the coherence length is about a millimeter, which is tiny.
+
+192
+00:23:17,960 --> 00:23:29,560
+If you tried to do a hologram of a coin using a laser diode, you'd find out that you'd be able to get the surface of the coin, but you would not get any depth whatsoever.
+
+193
+00:23:29,560 --> 00:23:36,440
+But according to Steve Michael's test, he set up something called an interferometer, which can allow you to measure coherence length.
+
+194
+00:23:36,440 --> 00:23:39,800
+He says, I think I can make a hologram with this.
+
+195
+00:23:39,800 --> 00:23:44,520
+He said, Let me put off coming on your show until I can test this out.
+
+196
+00:23:44,520 --> 00:23:51,320
+So he went into his lab and he started working, and he eventually made a hologram using a laser pointer.
+
+197
+00:23:51,320 --> 00:23:55,000
+I think he paid like $49 for the laser pointer.
+
+198
+00:23:55,080 --> 00:23:58,520
+He called me and he came on the show and talked about it.
+
+199
+00:23:58,520 --> 00:24:09,400
+And I went out down to Eckard's drugstore, which is a drugstore in my area, in Allentown area, and I bought a laser pointer for $7.99.
+
+200
+00:24:09,400 --> 00:24:21,560
+And I brought that into the laboratory and I set it up and I started to work with it, and we managed to get a hologram from the $7.99 laser pointer.
+
+201
+00:24:21,560 --> 00:24:24,840
+So right away we started to announce this.
+
+202
+00:24:24,840 --> 00:24:30,120
+And in the scientific community, it's always been thought you cannot do this.
+
+203
+00:24:30,120 --> 00:24:34,280
+I mean, it's it's what they call it, what did they call it, Sam?
+
+204
+00:24:34,280 --> 00:24:36,440
+Was it theoretically impossible?
+
+205
+00:24:37,240 --> 00:24:41,800
+Theoretically impossible to do this.
+
+206
+00:24:41,800 --> 00:24:44,120
+So what I did is I went out and I bought a bunch of them.
+
+207
+00:24:44,120 --> 00:24:46,480
+I started sending them around the world.
+
+208
+00:24:44,840 --> 00:24:50,800
+And I said, I want you people to start doing some holograms with these laser pointers.
+
+209
+00:24:51,040 --> 00:24:53,440
+And they started turning out beautifully.
+
+210
+00:24:53,440 --> 00:24:54,320
+Beautiful.
+
+211
+00:24:54,320 --> 00:24:55,840
+Uh I took one.
+
+212
+00:24:55,840 --> 00:25:02,240
+Now I did an eight by ten hologram, which is considered a relatively large hologram, eight by ten.
+
+213
+00:25:02,240 --> 00:25:05,520
+For holograms, uh, eight by ten you're getting up fairly large.
+
+214
+00:25:05,520 --> 00:25:10,720
+And you usually need a pretty powerful laser to expose an eight by ten hologram.
+
+215
+00:25:10,720 --> 00:25:18,080
+And I did a beautiful eight by ten hologram of a piece of coral which had about eight inches of depth going back into the hologram itself.
+
+216
+00:25:18,080 --> 00:25:20,560
+And it was beautifully bright.
+
+217
+00:25:20,560 --> 00:25:29,680
+So what's transpired over the last few weeks, six or eight weeks, is uh I told Steve, I'm gonna see how far we can take this.
+
+218
+00:25:29,680 --> 00:25:43,280
+So I started doing multiple color holography, and we started doing a lot of different types of holograms that uh most people wouldn't be able to accomplish with a helium and neon laser uh in a regular laboratory.
+
+219
+00:25:43,280 --> 00:25:45,920
+And what I want to do, I work a lot with kids.
+
+220
+00:25:45,920 --> 00:26:02,800
+I've been working with kids maybe about fifteen years or so, started out down at the Franklin Institute in Philadelphia, uh was at Liberty Science Center for a while, which is in North Jersey, and we s wanted to open a science center in the Lehigh Valley, and I got involved with them.
+
+221
+00:26:02,800 --> 00:26:10,320
+I left the Franklin Institute and Liberty Science Center go and I wanted to s concentrate on helping them get a jump start in the Lehigh Valley.
+
+222
+00:26:10,320 --> 00:26:18,000
+And I saw this as a wonderful opportunity to have kids get involved making holograms.
+
+223
+00:26:18,000 --> 00:26:30,280
+And uh in fact, my daughter's here tonight, and her physics professor is actually a student that I had in my class back in the early 80s.
+
+224
+00:26:29,840 --> 00:26:33,160
+And what I do is I don't bring a lot of theory in with the kids.
+
+225
+00:26:33,240 --> 00:26:38,920
+What I do is I allow them to come in and experience this thing as something fun to do.
+
+226
+00:26:38,920 --> 00:26:43,000
+We're going to see a little laser light show that they put together for you.
+
+227
+00:26:43,000 --> 00:26:50,520
+I told them I was coming here, and we worked on a Boston Pops piece where they designed all the little laser patterns and stuff for you.
+
+228
+00:26:50,520 --> 00:26:55,080
+So you'll be able to see that in a few moments as well.
+
+229
+00:26:55,080 --> 00:26:59,720
+There are still a lot of people that do not believe that it's possible to do this.
+
+230
+00:26:59,720 --> 00:27:20,200
+I had someone that just drove nine hours down to my studio because he was supposed to do a paper on lasers and holograms, and he decided to do his paper on what I've been doing with holography, and his professor would not accept it because his professor said that it's not possible to do this.
+
+231
+00:27:20,200 --> 00:27:23,240
+You can't do this in holography.
+
+232
+00:27:23,240 --> 00:27:30,440
+And what he did is this professor told him that if you can make one of these holograms, then I'll accept the paper.
+
+233
+00:27:30,440 --> 00:27:38,120
+And what he wanted to do first was set up his own studio, and I told him, you know, it might be better for you just to come down to the lab.
+
+234
+00:27:38,120 --> 00:27:40,600
+So he came down to the lab and made one.
+
+235
+00:27:40,600 --> 00:27:43,880
+I had a family come in from the New York area.
+
+236
+00:27:43,880 --> 00:27:50,520
+They brought their kids, ranged in age from maybe about fifth or sixth grade up into uh high school.
+
+237
+00:27:50,520 --> 00:27:52,200
+There were five or six kids.
+
+238
+00:27:52,200 --> 00:27:56,040
+They each made a hologram using this new technology.
+
+239
+00:27:56,760 --> 00:28:09,000
+And when they went back and they wanted to start doing it on their own, when they called someone to order the materials, the person asked them what is this going to be used for, and when they told him, he told them that you can't do that.
+
+240
+00:28:09,000 --> 00:28:16,720
+In fact, I have someone that's in the audience tonight that came to see me who's from a rather large research facility.
+
+241
+00:28:16,720 --> 00:28:18,720
+He's from Bell Labs.
+
+242
+00:28:18,720 --> 00:28:22,960
+And you saw you saw the work on the web, right?
+
+243
+00:28:22,960 --> 00:28:29,840
+And when you when you spoke about this to some of your fellow researchers, what did they say about it?
+
+244
+00:28:29,840 --> 00:28:31,520
+It was impossible.
+
+245
+00:28:33,040 --> 00:28:36,560
+So you came from Bell Labs and he came to my studio.
+
+246
+00:28:36,560 --> 00:28:38,640
+And what did you find out?
+
+247
+00:28:41,360 --> 00:28:42,160
+Yeah.
+
+248
+00:28:42,160 --> 00:28:45,120
+So this is this is a whole new field of holography now.
+
+249
+00:28:45,200 --> 00:28:48,560
+There's there's several things that this is going to allow us to do.
+
+250
+00:28:48,560 --> 00:28:54,400
+Number one, it's going to allow young students to get involved with holography.
+
+251
+00:28:54,400 --> 00:29:02,400
+The hologram that I show you of the Kennedy assassination bullets was made on a system, not just a laser, but a system.
+
+252
+00:29:02,400 --> 00:29:11,120
+The entire laser holography optical system cost thirty dollars.
+
+253
+00:29:11,120 --> 00:29:13,040
+Four by five inch, beautiful.
+
+254
+00:29:13,040 --> 00:29:16,720
+Now, these aren't making little holograms that you'd be ashamed to show someone.
+
+255
+00:29:16,720 --> 00:29:19,840
+These are exhibit quality holograms.
+
+256
+00:29:19,840 --> 00:29:26,560
+The entire optical system, including the laser, $30.
+
+257
+00:29:26,560 --> 00:29:30,800
+Also, for artists who want to get involved in the field.
+
+258
+00:29:30,800 --> 00:29:34,000
+They like to work, bless you, they like to work with bigger pieces.
+
+259
+00:29:34,000 --> 00:29:37,520
+They don't like small pieces, they like to create big holograms.
+
+260
+00:29:37,520 --> 00:29:51,600
+Sam and I are looking into working with very high power diodes where we can create large works that used to cost maybe about $10,000 to create for one of them.
+
+261
+00:29:52,800 --> 00:29:56,560
+We think we can get that price down quite a bit to do this type of work.
+
+262
+00:29:56,560 --> 00:29:57,920
+So it's going to open it up.
+
+263
+00:29:57,920 --> 00:30:00,840
+It's going to it's going to make a lot of changes in holography.
+
+264
+00:30:00,840 --> 00:30:07,080
+And I don't think that the laser manufacturers are probably going to be very happy about it.
+
+265
+00:30:07,320 --> 00:30:12,120
+For instance, I have a what's called a 10 milliwatt laser.
+
+266
+00:30:12,120 --> 00:30:25,640
+In a science catalog, which some of you may be familiar with, it costs $1,650 for a 10 milliwatt laser.
+
+267
+00:30:25,640 --> 00:30:29,880
+You can get a 10 milliwatt diode.
+
+268
+00:30:29,880 --> 00:30:31,480
+Pretty cheap, isn't it?
+
+269
+00:30:31,480 --> 00:30:35,880
+The actual diode itself you can probably pick up for about $35, right?
+
+270
+00:30:35,880 --> 00:30:40,760
+So you're comparing $1,650 down to $35.
+
+271
+00:30:40,760 --> 00:30:47,000
+When the laser discs first came out, they all had gas lasers inside of the laserdisc players.
+
+272
+00:30:47,000 --> 00:30:48,920
+Even some of the early CD players.
+
+273
+00:30:53,320 --> 00:31:02,440
+So if you've got a laser disc player or a CD player or a DVD, even some of the supermarket scanners where you go for your checkout lines, they're all diodes that are in there now.
+
+274
+00:31:02,440 --> 00:31:05,560
+There's not too many things that are using the uh tubes anymore.
+
+275
+00:31:05,560 --> 00:31:11,080
+So what I'd like to do is I'm going to turn some of the lights out and I'm going to show you a laser beam.
+
+276
+00:31:11,080 --> 00:31:16,120
+I'm going to pass it over your heads so that you can get a chance to see the beam itself.
+
+277
+00:31:16,120 --> 00:31:24,120
+And what I will do after that is uh introduce the little laser light show that the kids did, which runs for about four minutes.
+
+278
+00:31:24,120 --> 00:31:33,960
+And then after the four minutes are up with the laser light show, I will set up the three-dimensional holograms up here for you to take a look at so that you can come up and see uh the holograms themselves.
+
+279
+00:31:33,960 --> 00:31:45,000
+All of these holograms were made with a uh laser pointer.

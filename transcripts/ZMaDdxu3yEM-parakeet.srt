@@ -1,0 +1,795 @@
+1
+00:00:02,400 --> 00:00:08,400
+The following is a production of Frank Defratis and the Internet with Zeno Holography.
+
+2
+00:00:14,320 --> 00:00:22,240
+Hello everyone, this is Frank Defratis, and welcome to another week of HoloTalk for the week of October 11th, 1999.
+
+3
+00:00:22,240 --> 00:00:25,360
+A little bit of a different type of program this week.
+
+4
+00:00:25,360 --> 00:00:36,880
+We're going to take a look at a new process that was sent to me from Jeff Blythe in the UK, who was working with a number of different people on this project in creating your own holographic plates.
+
+5
+00:00:36,880 --> 00:00:39,280
+This is a very interesting process.
+
+6
+00:00:39,280 --> 00:00:53,280
+It uh could turn out to be a wonderful experiment for those already working with holography and seems to have uh hit a dead end or maybe looking for something uh interesting to do that's completely new and a new direction for them.
+
+7
+00:00:53,280 --> 00:00:55,600
+And the plates seem wonderful.
+
+8
+00:00:55,600 --> 00:01:20,080
+Um the uh the results compared to traditional commercially available materials and also the fact that they are panchromatic, which means that they can be exposed with several different wavelengths such as your uh your red lasers, your helium neon, your laser pointers, your laser diodes, and also into the green if you happen to have an argon laser handy or even want to begin experimenting with the green laser pointers as well.
+
+9
+00:01:20,080 --> 00:01:39,920
+So we're going to be taking a look at this entire process a little bit later on in the show, and I've also included information in the actual papers that have been published on this uh on the website, so you'll see links for those as well, and you might want to click on those links and print out that information and begin the process yourself.
+
+10
+00:01:39,920 --> 00:01:42,480
+I've had an opportunity to look over the materials.
+
+11
+00:01:42,560 --> 00:01:59,040
+I printed them out, and before I began the show, I started to uh to go over them, and it it looks like a relatively easy process, and it's it's something I'm going to look into and perhaps even begin to coat my own holographic plates.
+
+12
+00:01:59,040 --> 00:02:16,680
+Wouldn't that be wonderful to be able to make your own holographic plates inexpensively, uh especially the larger sizes, such as eight by tens or thirty by forty centimeter glass plates, make up your own emulsions and put them onto the plates and uh wind up having your own hologram.
+
+13
+00:02:16,680 --> 00:02:20,280
+Now that is an entire great process from start to finish.
+
+14
+00:02:20,280 --> 00:02:25,960
+Your own homemade holographic lab and your own holographic plates.
+
+15
+00:02:25,960 --> 00:02:33,000
+So uh this is a very exciting uh bit of information that's just come down the pike from Jeff, and we're going to take a look at that in just a moment.
+
+16
+00:02:33,000 --> 00:02:37,480
+I wanted to thank everyone who came to the open house last week.
+
+17
+00:02:37,480 --> 00:02:39,720
+Uh actually it was Wednesday evening.
+
+18
+00:02:39,720 --> 00:02:45,240
+We had about twelve or thirteen people that stopped by along with their children.
+
+19
+00:02:45,240 --> 00:02:47,320
+And we had a great time here in the lab.
+
+20
+00:02:47,320 --> 00:03:07,320
+I started that explaining a little bit about the new diode uh lasers, and we passed traditional laser tubes around and learned how traditional gas helium neon layer lasers worked, and then I passed the little diodes around and the circuits that go along with them, explained how the diodes work and how it's uh changing the face of holography.
+
+21
+00:03:07,320 --> 00:03:20,840
+And then we came down in the lab, and one of the things that everyone had an opportunity to see were uh nice laser transmission holograms, which people normally uh don't get an opportunity to see outside of a laboratory environment, so everyone was real happy to see those.
+
+22
+00:03:20,840 --> 00:03:23,080
+And they're they're wonderful holograms.
+
+23
+00:03:23,080 --> 00:03:25,720
+I love laser transmission holograms.
+
+24
+00:03:25,720 --> 00:03:27,080
+I always have and I always will.
+
+25
+00:03:27,080 --> 00:03:29,720
+They're they're the best holograms to me.
+
+26
+00:03:29,720 --> 00:03:44,120
+And always like to see people's reaction when they walk up to a laser transmission hologram and they take their hand and reach around and try and manipulate the different objects that are uh appearing behind the plate, and their hands just pass through air.
+
+27
+00:03:44,120 --> 00:03:53,600
+So I took some pictures um I uh not thinking I should have gotten the digital camera out and taking a few pictures with the digital camera, but I took it with the traditional film.
+
+28
+00:03:53,600 --> 00:04:06,240
+So I guess the film will sit in the camera until uh birthday comes along or something like that and uh I get the film developed, but I'd like to point out that the next open house will be Wednesday, November third at 730 PM.
+
+29
+00:04:06,240 --> 00:04:22,080
+And you're welcome to come out to the studio and enjoy some uh snacks and coffee and soda, hear a little bit about holography, and come down into the studio and see some uh pretty amazing holograms that I have here in my own personal collection that I've managed to collect over the years.
+
+30
+00:04:22,080 --> 00:04:28,560
+So let's take a quick break and I'll be right back and we're going to start talking about how to make your own holographic plates.
+
+31
+00:04:28,560 --> 00:04:30,800
+This is Frank Frace, I'll be right back.
+
+32
+00:04:31,120 --> 00:04:34,480
+Would you like to create your own three-dimensional holograms?
+
+33
+00:04:34,480 --> 00:04:38,240
+Well, you can begin today and Frankie Freitas can show you how.
+
+34
+00:05:15,160 --> 00:05:16,920
+In his personal collection.
+
+35
+00:05:16,920 --> 00:05:24,120
+There is no cause to attend a Wednesday evening lecture, but you must call in advance or send an email to make reservations.
+
+36
+00:05:24,120 --> 00:05:38,520
+To reach the studio for more information or to make reservations for the Wednesday evening lecture series, please call toll free, 1-800-458-3525, or send an email from the website.
+
+37
+00:05:38,520 --> 00:05:46,920
+That number again is 1-800-458-3525 to attend a Wednesday evening lecture at the studio.
+
+38
+00:05:46,920 --> 00:05:49,160
+Frank hopes to see you there.
+
+39
+00:05:59,720 --> 00:06:01,880
+Okay, let's jump right in.
+
+40
+00:06:01,880 --> 00:06:10,120
+The title of the paper is A Diffusion Method for Making Silver Bromide-based holographic recording material.
+
+41
+00:06:10,120 --> 00:06:13,560
+The authors, Jeff Blythe, Roger B.
+
+42
+00:06:13,560 --> 00:06:15,640
+Millington, Andrew G.
+
+43
+00:06:15,640 --> 00:06:18,280
+Mays, and Christopher R.
+
+44
+00:06:18,280 --> 00:06:27,000
+Lowe, Institute of Biotechnology, University of Cambridge, and I certainly hope I pronounced all of the names correctly.
+
+45
+00:06:27,000 --> 00:06:36,280
+The paper appeared in the Imaging Science Journal, Volume 47, pages 87 through 91, 1999.
+
+46
+00:06:36,280 --> 00:06:45,400
+And I am not absolutely certain if that is a past issue of this year, a current issue of this year, or will be a future issue of this year.
+
+47
+00:06:45,400 --> 00:06:56,760
+So those of you who are subscribers to the Imaging Science Journal will know that right off the bat, volume 47, if that is a past issue, current or future issue.
+
+48
+00:06:56,760 --> 00:07:02,600
+In any case, what I'd like to do is uh just cover the abstract and introduction here with you now.
+
+49
+00:07:02,600 --> 00:07:07,080
+And following that, I would also like to just go over the technique a little bit.
+
+50
+00:07:07,080 --> 00:07:11,720
+And once again, uh these papers are available on the website.
+
+51
+00:07:11,720 --> 00:07:15,280
+If you go onto the HOLO Talk page, you will see the links.
+
+52
+00:07:15,280 --> 00:07:17,600
+Click on those links and it will take you to the pages.
+
+53
+00:07:14,840 --> 00:07:18,960
+You can print them out.
+
+54
+00:07:20,080 --> 00:07:27,280
+One page is the abstract introduction and the actual article, and the second page is the technique.
+
+55
+00:07:28,240 --> 00:07:34,880
+So you'll have to come back to the Holotalk page to go from one page to another.
+
+56
+00:07:34,880 --> 00:07:38,000
+Let's start off with the abstract.
+
+57
+00:07:38,000 --> 00:07:50,720
+A simple diffusion method for the distribution of ultra-fine silver bromide grains in precoated gelatin and customized polymeric films for holographic recording has been developed.
+
+58
+00:07:50,720 --> 00:07:53,360
+The method involves two steps.
+
+59
+00:07:53,360 --> 00:08:04,960
+Immersion of the preformed film in a solution of a silver salt, followed by agitation of the film in a solution of a bromide salt containing sensitizing dye.
+
+60
+00:08:04,960 --> 00:08:15,760
+Repetition of the operation on the same film with different sensitizing dyes in the bromide bath enables the production of a film with panchromatic response.
+
+61
+00:08:15,760 --> 00:08:23,120
+Transmission electron microscopy reveals a grain structure very suitable for use in holography.
+
+62
+00:08:23,120 --> 00:08:38,160
+A reflection hologram made by this method has very similar brightness under the same exposure and processing conditions to one made from a proprietary hologram recording material currently available.
+
+63
+00:08:45,160 --> 00:09:05,640
+Wavelength the plate is sensitive to, or having it possibly sensitive to both wavelengths of both red and green, and having the final results very similar in quality to materials that you're paying for and possibly exceeding.
+
+64
+00:09:05,640 --> 00:09:07,000
+Let's not leave that out.
+
+65
+00:09:07,000 --> 00:09:15,000
+I'm sure as people begin working with this, they will find ways of actually taking it to another level as well.
+
+66
+00:09:15,000 --> 00:09:19,720
+Let's move on to the excuse me, uh, introduction.
+
+67
+00:09:19,720 --> 00:09:35,800
+The original method conceived by Gabriel Lippmann over a century ago to produce the first filterless color photographs used in the constructive interference of each wavelength in the white light when it was returned from a reflective surface in intimate contact with the emulsion.
+
+68
+00:09:36,040 --> 00:09:43,000
+The system gained a somewhat notorious reputation for making difficult demands on makers of silver halide emulsions.
+
+69
+00:09:43,000 --> 00:09:49,400
+The emulsions needed to be both exclusively of ultra-fine grain and panchromatic.
+
+70
+00:09:49,400 --> 00:10:00,120
+Such fine-grained emulsions have seen a renaissance in the last 30 years with the development of holography, since the grain sizes for both techniques are comparable.
+
+71
+00:10:00,120 --> 00:10:16,120
+However, commercially available silver halide emulsions materials intended for holography have been restricted to a relatively narrow band photosensitivity and have been generally unsuitable for the much more stringent demands of Lippmann's photographic method.
+
+72
+00:10:16,120 --> 00:10:23,400
+The long-held impression that the fabrication of do-it-yourself Lipman emulsions is not for the faint-hearted may still linger.
+
+73
+00:10:23,400 --> 00:10:29,800
+Consequently, there is a need for the introduction of a simple technique for making ultra-fine grain emulsions.
+
+74
+00:10:29,800 --> 00:10:42,920
+This paper describes a diffusion method for producing a holographic recording material which avoids the traditional laborist emulsion forming methods for producing silver bromide in gelatin films.
+
+75
+00:10:42,920 --> 00:10:54,000
+Light sensitive, ultra fine silver bromide grains can be introduced into thin films of a number of natural or synthetic polymers, even if they are somewhat hydrophobic.
+
+76
+00:10:54,000 --> 00:11:02,880
+These polymers may be preformed or polymerized in SUTU by UV irradiation on a suitable substrate.
+
+77
+00:11:02,880 --> 00:11:03,920
+Sorry about that, folks.
+
+78
+00:11:03,920 --> 00:11:06,000
+I had to flip the paper here.
+
+79
+00:11:06,000 --> 00:11:21,760
+It has recently been pointed out to us by Hans Belchagen that this diffusion method is a variation of one used in Germany some 85 years ago and claimed to give extraordinarily fine grain for the Lippmann photographic process.
+
+80
+00:11:21,760 --> 00:11:27,920
+Okay, then it goes on to the experimental section where it meant uh mentions the materials.
+
+81
+00:11:27,920 --> 00:11:29,200
+Hang along with me here.
+
+82
+00:11:29,200 --> 00:11:33,920
+Panchromatic sensitation.
+
+83
+00:11:33,920 --> 00:11:37,200
+Conclusions, blah, blah, blah, blah, blah blah.
+
+84
+00:11:37,360 --> 00:11:39,680
+Okay, captions, credits.
+
+85
+00:11:39,680 --> 00:11:42,960
+Let's move on to the actual technique.
+
+86
+00:11:42,960 --> 00:11:47,600
+Once again, all this material is available on the website.
+
+87
+00:11:47,600 --> 00:11:55,280
+Okay, this would be the one which is the second piece of information, the second link there.
+
+88
+00:11:55,280 --> 00:12:00,880
+And this is the preparation.
+
+89
+00:12:00,880 --> 00:12:06,320
+A simple way to make silver halite hologram recording plates by diffusion.
+
+90
+00:12:06,320 --> 00:12:15,360
+What follows is in the form of a worksheet based on the paper published in the Imaging Science Journal volume 47, page 87 to 91, 1999.
+
+91
+00:12:15,360 --> 00:12:18,640
+And this is the worksheet.html on the website.
+
+92
+00:12:18,640 --> 00:12:20,080
+Let's go through the materials.
+
+93
+00:12:20,080 --> 00:12:22,640
+Number one, pre-subbed glass plates.
+
+94
+00:12:22,640 --> 00:12:29,920
+And it mentions here you can use the old holographic plates with the gelatin removed with the aid of household bleach, which I've done on numerous occasions.
+
+95
+00:12:30,440 --> 00:12:41,800
+Just take your agfa or other plates, put them into a little bath, put some regular Clorox bleach in there, and you'll see that emulsion will just dissolve right into the Clorox bleach.
+
+96
+00:12:41,800 --> 00:12:48,520
+Take the plate out, rinse it underwater, and you've got a beautifully clean piece of flat glass.
+
+97
+00:12:48,520 --> 00:13:05,080
+And if you've got as many holograms sitting around that didn't work out as I do from all that experiment or all the experiments with the laser pointers and diodes, I've got plenty, plenty, plenty, plenty of uh old holographic plates that I can convert, believe me.
+
+98
+00:13:05,080 --> 00:13:08,280
+Number two, gelatin of bloom strength.
+
+99
+00:13:08,280 --> 00:13:11,320
+Now, bloom strength is in quotes, and I'm not quite sure what it is.
+
+100
+00:13:11,320 --> 00:13:13,320
+It's a learning process for me as well here.
+
+101
+00:13:13,320 --> 00:13:14,840
+This is brand new.
+
+102
+00:13:15,160 --> 00:13:19,640
+Bloom strength between 250 and 300.
+
+103
+00:13:19,640 --> 00:13:24,040
+And it gives a little bit more information on that there as well on the paper that you'll see on the website.
+
+104
+00:13:24,040 --> 00:13:29,480
+And in parentheses, it says you can use culinary gelatin without any sugar or flavorings.
+
+105
+00:13:29,480 --> 00:13:34,600
+Chemicals, let's go down the list of scorbic acid or vitamin C.
+
+106
+00:13:34,600 --> 00:13:58,920
+Silver nitrate, lithium bromide, chromium acetate, and you've got your sensitizing dyes here as well, different dyes for different wavelengths, sodium hydroxide, and a number nine here says in parentheses for new glass plates, and it's got a chemical there which I will not even attempt to try and pronounce the name here.
+
+107
+00:13:58,920 --> 00:14:00,120
+So let's move on.
+
+108
+00:14:00,120 --> 00:14:02,840
+You'll see it on the uh on the page.
+
+109
+00:14:02,840 --> 00:14:05,160
+I won't even give it an attempt.
+
+110
+00:14:05,160 --> 00:14:07,720
+Concentration of solutions.
+
+111
+00:14:07,720 --> 00:14:12,040
+Quantities will need to be judged by you to suit your requirements.
+
+112
+00:14:12,040 --> 00:14:17,440
+And then it goes on to uh how you mix all of these things together.
+
+113
+00:14:17,440 --> 00:14:19,120
+That's that whole section there.
+
+114
+00:14:19,120 --> 00:14:20,800
+Preparation of plates.
+
+115
+00:14:20,800 --> 00:14:26,080
+Glass plates usually need a pre-treatment step or the gelatin coating may peel off.
+
+116
+00:14:26,080 --> 00:14:32,480
+You can use old holographic plates by simply giving them a 10 minute soak in neat domestic bleach solution.
+
+117
+00:14:32,480 --> 00:14:35,920
+And then rub off the old gelatin layer under tap water.
+
+118
+00:14:35,920 --> 00:14:41,040
+After a final rinse and distilled water, no further subbing step is usually required.
+
+119
+00:14:41,040 --> 00:14:42,080
+Step.
+
+120
+00:14:42,080 --> 00:14:52,640
+However, with freshly cut glass plates, I leave them soaking overnight in a strong 10% caustic soda solution to both degrease them and activate the surface.
+
+121
+00:14:52,640 --> 00:14:55,840
+Don't do this without eye protection and thick rubber gloves.
+
+122
+00:14:55,840 --> 00:14:59,840
+As splashing this dangerous liquid is almost always unavoidable.
+
+123
+00:14:59,840 --> 00:15:02,480
+So that's another thing we need to keep in mind, folks.
+
+124
+00:15:04,480 --> 00:15:11,120
+As you look at this, and if you're a school, an educator or someone that's uh working in your home, uh etc.
+
+125
+00:15:11,200 --> 00:15:27,520
+etc., please keep in mind the uh requirements and safety requirements of working with all the materials that are stated in any of the uh any of the uh materials that you're going to find out for this and take the necessary precautions for your safety at all times.
+
+126
+00:15:27,520 --> 00:15:30,640
+They are then washed in distilled water and dried.
+
+127
+00:15:30,640 --> 00:15:35,120
+After the plates are dry, I rub them over with a 1% solution of three.
+
+128
+00:15:35,120 --> 00:15:36,480
+Oh, there's that chemical.
+
+129
+00:15:36,480 --> 00:15:37,440
+There's that chemical.
+
+130
+00:15:37,440 --> 00:15:42,800
+They're trying to get me to say this no matter how hard I try not to, and maybe I should just give it a shot.
+
+131
+00:15:42,800 --> 00:15:50,160
+Three amino propi propo triethoxiline.
+
+132
+00:15:50,160 --> 00:15:51,280
+Ooh.
+
+133
+00:15:51,280 --> 00:15:52,640
+Good lord.
+
+134
+00:15:52,640 --> 00:15:59,040
+In acetone on tissue until it has evaporated, and leave them in air to interact.
+
+135
+00:15:59,040 --> 00:16:01,800
+Now I'm getting stuck on the small words.
+
+136
+00:15:59,520 --> 00:16:07,400
+And leave them in air to interact with the saline for at least two hours before coating.
+
+137
+00:16:07,400 --> 00:16:11,800
+Preparation of coating solution for an 8 by 10 inch plate.
+
+138
+00:16:12,360 --> 00:16:13,640
+Excuse me.
+
+139
+00:16:13,960 --> 00:16:20,760
+Add 30 grams gelatin to 170 milliliters cold water and mark the liquid level on the beaker.
+
+140
+00:16:20,760 --> 00:16:27,640
+Place beaker in a water bath and heat while stirring constantly until gelatin solution is between 70 and 80 degrees Celsius.
+
+141
+00:16:27,640 --> 00:16:32,920
+Stir until all granules have cleared, top up level to the mark.
+
+142
+00:16:32,920 --> 00:16:41,640
+To remove skin and surface foam, pour through a fine mesh, nylon stockings work fine, into a preheated beaker.
+
+143
+00:16:41,640 --> 00:16:48,600
+Then immediately proceed to the next step, which is coating by the old Victorian curtain method.
+
+144
+00:16:48,600 --> 00:16:57,560
+Hold the beaker in your right hand and with your left hand incline the pre-subbed glass plate preheated to around 60 degrees Celsius.
+
+145
+00:16:57,560 --> 00:17:03,720
+At an angle of about 30 degrees to the vertical with its bottom edge in a clean tray.
+
+146
+00:17:03,720 --> 00:17:08,440
+Pour the gelatin in a line about one centimeter from the top of the plate.
+
+147
+00:17:08,440 --> 00:17:14,200
+The pouring rate must be continuous until the furthest edge of the plate is reached.
+
+148
+00:17:14,200 --> 00:17:23,640
+And in parentheses it says you may have to accept the tendency of the coating to not completely cover the lower part closest to the furthest edge.
+
+149
+00:17:23,640 --> 00:17:30,680
+Lean the plate against something for a few minutes while coating gels.
+
+150
+00:17:30,680 --> 00:17:36,440
+Run a knife along thick layer at the bottom to free plate rather than risk tearing the delicate coating.
+
+151
+00:17:36,440 --> 00:17:42,840
+I guess uh once you have that uh coated, it becomes thicker, and you don't want to just lift that plate up.
+
+152
+00:17:42,840 --> 00:17:49,680
+You want to take a little X-acto blade or razor blade or a sharp knife and go along that bottom edge to cut it free.
+
+153
+00:17:51,040 --> 00:17:57,680
+And in parentheses, since no hardener is involved yet, the gel can be readily scooped up and recoated if you are not satisfied.
+
+154
+00:17:57,680 --> 00:17:58,800
+Isn't this cool?
+
+155
+00:17:58,800 --> 00:17:59,680
+Isn't this cool?
+
+156
+00:17:59,680 --> 00:18:02,160
+I think there's a lot of people that are going to have success with this.
+
+157
+00:18:02,160 --> 00:18:04,880
+Boy, this is exciting stuff.
+
+158
+00:18:04,880 --> 00:18:05,840
+Wow.
+
+159
+00:18:05,840 --> 00:18:17,360
+Put plate in cold solution of chromium acetate for one minute, shake off drips, and then without washing away that salt, blow plate with a cold air until dry.
+
+160
+00:18:17,360 --> 00:18:27,200
+Once the layer is dry, leave the plate to complete the chrome hardening effect overnight in a warmer, preferably around 60 degrees Celsius for several hours.
+
+161
+00:18:27,200 --> 00:18:31,920
+Rinse the hardened plate in distilled water and dry in a warm airflow.
+
+162
+00:18:31,920 --> 00:18:46,480
+If you want to cut plate up for next step after scouring, scoring the glass on the back and cracking it, it is best not to pull sections apart before running a scapel blade along the gelatin side first so that it is cut and not torn apart.
+
+163
+00:18:46,480 --> 00:18:50,640
+Once again, similar to taking the plate out of that coating bath.
+
+164
+00:18:50,640 --> 00:18:55,440
+If you're going to score and cut the plates, just don't cut the glass side and then pull them apart.
+
+165
+00:18:55,440 --> 00:19:04,320
+You might want to score and cut the gel also and have a clean cut on the gelatin side as well, which I think that it's getting at.
+
+166
+00:19:04,320 --> 00:19:10,320
+Okay, the loading operation, silver bromide loading operation, and we're getting close to the end here.
+
+167
+00:19:10,640 --> 00:19:25,840
+For 4x5 inch plate, place approximately 3 milliliters 6% silver nitrite solution in the center, and at once squash it with a clean flat cover plate, preferably transparent plastic so that you can see air bubbles are squeezed out.
+
+168
+00:19:25,840 --> 00:19:27,600
+Leave for three minutes.
+
+169
+00:19:27,600 --> 00:19:32,200
+Safe lighting is not necessary here, but the lighting should be subdued.
+
+170
+00:19:29,600 --> 00:19:41,800
+Remove cover plate and immediately remove the excess silver solution on its surface by gently brushing over the plate with the edge of a piece of filter paper.
+
+171
+00:19:41,800 --> 00:19:44,600
+Blow dry plate with cool air.
+
+172
+00:19:44,600 --> 00:19:53,080
+And under safe light conditions, add 2.5 milliliter of dye solution per 100 milliliter of lithium bromide solution.
+
+173
+00:19:53,080 --> 00:20:02,440
+Add about 0.2 milliliter of 1% ascorbic acid solution, and this is the same solution as used in the final sensitizing bath.
+
+174
+00:20:03,000 --> 00:20:08,360
+Agitate the bath and plunge plate in while maintaining the agitation for about four minutes.
+
+175
+00:20:08,360 --> 00:20:13,240
+And number six is rinse well under running tap water.
+
+176
+00:20:13,240 --> 00:20:21,640
+And in parentheses, it says any bromide only on the surface can be removed by gently rubbing with ungloved finger.
+
+177
+00:20:21,640 --> 00:20:29,800
+Plates usually come out of this bath beautifully clear under the green safe light without any special surface deposit.
+
+178
+00:20:30,120 --> 00:20:33,000
+Final step, sensitizing bath step.
+
+179
+00:20:33,000 --> 00:20:44,040
+The plate can be immersed for one minute in 1% ascorbic acid solution adjusted to pH 5 using a little sodium carbonate or hydroxide.
+
+180
+00:20:44,040 --> 00:20:52,760
+Alternatively, the well-known triethanolamine pre-swelling technique can be used with the advantage of increasing brightness at a shorter wavelength.
+
+181
+00:20:52,760 --> 00:21:00,520
+And once again, in parentheses, prolonged settling period may then be necessary, however, to avoid creep while the exposure is being made.
+
+182
+00:21:00,520 --> 00:21:03,960
+After exposure, the plate is then treated conventionally.
+
+183
+00:21:03,960 --> 00:21:04,920
+How about that?
+
+184
+00:21:04,920 --> 00:21:06,200
+Isn't that fantastic?
+
+185
+00:21:06,200 --> 00:21:07,960
+This is wonderful stuff.
+
+186
+00:21:07,960 --> 00:21:09,800
+So that's going to be it for the show.
+
+187
+00:21:09,800 --> 00:21:11,400
+I'm not going to take it any further.
+
+188
+00:21:11,400 --> 00:21:12,680
+You've got your homework there.
+
+189
+00:21:12,680 --> 00:21:16,480
+You've got a lot of research and reading to do with the materials that are up on the website.
+
+190
+00:21:16,480 --> 00:21:19,200
+So if anyone gives it a shot, could you please send me an email?
+
+191
+00:21:19,200 --> 00:21:25,600
+I'd love to hear if even if you're only thinking about doing it and you've heard the show and you want to try it, send me an email and let me know.
+
+192
+00:21:25,600 --> 00:21:28,720
+And we'll keep in touch and find out how this turns out.
+
+193
+00:21:28,720 --> 00:21:33,040
+But wouldn't it wouldn't this be fantastic if all of us start making our own holographic plates?
+
+194
+00:21:33,040 --> 00:21:34,800
+This is great stuff.
+
+195
+00:21:34,800 --> 00:21:37,680
+Alright, folks, we've got guests coming up the next couple weeks.
+
+196
+00:21:37,680 --> 00:21:44,080
+In fact, I'm going to record a number of shows this upcoming week and just stack them together and use them week by week.
+
+197
+00:21:44,080 --> 00:21:47,760
+So don't forget to tune in each and every week for HoloTalk.
+
+198
+00:21:47,760 --> 00:21:49,520
+And this is Frank Defratis.
+
+199
+00:21:49,520 --> 00:21:52,560
+Take care, and I'll see you next week.

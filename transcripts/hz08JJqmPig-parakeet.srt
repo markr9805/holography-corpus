@@ -1,0 +1,783 @@
+1
+00:00:00,480 --> 00:00:02,640
+Hello everyone, this is Frank Defradis.
+
+2
+00:00:02,640 --> 00:00:07,920
+Welcome to another week of HoloTalk for the week of October 4th, I believe.
+
+3
+00:00:07,920 --> 00:00:10,240
+I don't have my calendar here, believe it or not.
+
+4
+00:00:10,240 --> 00:00:11,840
+I believe it's October 4th.
+
+5
+00:00:11,840 --> 00:00:14,640
+In any case, we have a new format this week.
+
+6
+00:00:14,960 --> 00:00:18,480
+Holo talk is being broken up into individual segments.
+
+7
+00:00:18,480 --> 00:00:27,120
+This gives you, the listener, an option of coming onto the HoloTalk page and choosing specifically what it is that you wish to listen to.
+
+8
+00:00:27,200 --> 00:00:32,880
+The three segments will be the welcome message and news of the week, which you're listening to right now.
+
+9
+00:00:32,880 --> 00:00:40,240
+The second segment each week will deal with listeners' emails and telephone calls that will answer their questions on the air.
+
+10
+00:00:40,240 --> 00:00:46,640
+And the third segment will be the main topic area and also the segment that will have all the special guests.
+
+11
+00:00:46,640 --> 00:00:57,040
+Now you may come on to the show each week, and you may not be interested in the listener's email questions or one of the other segments, and you just want to hear the interview.
+
+12
+00:00:57,040 --> 00:01:02,000
+You now have that ability to do so by just choosing segment three.
+
+13
+00:01:02,160 --> 00:01:13,840
+If you'd like to listen to the entire program, there will also be a separate link that will play the program from its entirety from start to finish without having to choose whatever it is that you want to listen to.
+
+14
+00:01:13,840 --> 00:01:17,040
+So there's a number of different options for you, and I hope you enjoy that.
+
+15
+00:01:17,040 --> 00:01:19,520
+Any feedback regarding this change is welcome.
+
+16
+00:01:19,520 --> 00:01:20,720
+Please send it to me.
+
+17
+00:01:20,720 --> 00:01:28,880
+I'm interested in hearing whether you think this is a good idea or a bad idea, whether you like it or you don't like it, so on and so forth.
+
+18
+00:01:29,040 --> 00:01:32,080
+This week's topic is going to be the holographic heart.
+
+19
+00:01:32,080 --> 00:01:48,400
+This was a special presentation that was made on World News Tonight last week by Peter Jennings, and it takes a look at a new device which allows surgeons to work in virtual reality with a human heart that floats in space.
+
+20
+00:01:48,400 --> 00:01:52,480
+And we're also going to take a look at the definition of hologram and holography.
+
+21
+00:01:52,480 --> 00:01:55,520
+What is a hologram and what isn't a hologram?
+
+22
+00:01:55,520 --> 00:01:59,320
+Is something just because it floats in space a hologram?
+
+23
+00:01:57,840 --> 00:02:03,960
+Or do we need to have a very specific definition of what a hologram is?
+
+24
+00:01:59,200 --> 00:02:15,080
+Or, as a third option, do we need to widen or broaden the scope of the definition of the word holography to accommodate the new technology?
+
+25
+00:02:15,080 --> 00:02:18,440
+So you'll find all of that in segment three.
+
+26
+00:02:18,440 --> 00:02:21,960
+We also have our first video presentation this week.
+
+27
+00:02:21,960 --> 00:02:29,000
+I digitized the World News Tonight presentation, and you can take a look at holographic heart as well.
+
+28
+00:02:29,000 --> 00:02:32,920
+You'll find that link right after the third segment.
+
+29
+00:02:32,920 --> 00:02:55,960
+Our news for this week, Laser Diagnostic Technologies has been awarded a small business innovation research grant from the National Institutes of Health to continue to evaluate an exciting new scanning laser technology that measures blood flow in the optic nerve and may help find the cause of glaucoma and other sight-threatening diseases that affect millions of Americans each year.
+
+30
+00:02:55,960 --> 00:03:01,880
+The new instrument uses the same Doppler principle as that employed in radar guns.
+
+31
+00:03:01,880 --> 00:03:14,680
+As a speeding car causes a shift in the frequency of radar waves that can be detected and its velocity or speed measured, the new instrument measures shift in the frequency of light caused by moving blood cells.
+
+32
+00:03:14,680 --> 00:03:26,600
+Laser Diagnostic Technologies Inc., a six-year-old venture-funded medical device company in San Diego, specializes in developing diagnostic products for the eye.
+
+33
+00:03:26,600 --> 00:03:47,520
+Coming in from Irvine, California, in a move to further strengthen its position as a leading provider of high precision manufacturing equipment for the fast-growing fiber optic communications marketplace, Newport Corporation, Tuesday announced that it has signed a definitive agreement to acquire Environmental Optic Sensors Inc.
+
+34
+00:03:44,840 --> 00:03:50,880
+of Boulder, Colorado, in a cash transaction.
+
+35
+00:03:51,120 --> 00:03:54,080
+Additional terms were not disclosed.
+
+36
+00:03:54,800 --> 00:04:02,560
+Completion of the acquisition is subject to certain terms and conditions, but is expected to occur within the next 30 days.
+
+37
+00:04:02,560 --> 00:04:05,600
+And this wire is from September 29th.
+
+38
+00:04:05,600 --> 00:04:16,800
+Environmental Optical Sensors, a privately held company founded in 1991, is a manufacturer of tunable external cavity diode laser systems.
+
+39
+00:04:16,800 --> 00:04:32,240
+Newport Corporation is a global leader in the design manufacture and marketing of high precision components, instruments, and integrated systems to the fiber optic communications, semiconductor equipment, computer peripherals, and scientific research markets.
+
+40
+00:04:32,240 --> 00:04:44,080
+The company's innovative products are designed to enhance productivity and capabilities of test and measurement and automated assembly for precision manufacturing, engineering, and research applications.
+
+41
+00:04:44,080 --> 00:04:47,120
+There are two news items that came through this week.
+
+42
+00:04:47,120 --> 00:04:53,440
+If you would like to continue on with HoloTalk, you can go to segment two where we're going to be answering listeners' questions.
+
+43
+00:04:53,440 --> 00:04:59,040
+And if you'd like to go right to the holographic heart, that's in segment three.
+
+44
+00:05:15,160 --> 00:05:17,960
+Paul and Paul says, I hope you don't mind this beginner's question.
+
+45
+00:05:17,960 --> 00:05:19,480
+No, Paul, that's what we're all about.
+
+46
+00:05:19,560 --> 00:05:29,880
+We're here to answer research and find out the information that you need and answer them right here on HoloTalk, no matter what the level is of your interest in lasers or holography.
+
+47
+00:05:29,880 --> 00:05:31,320
+Paul goes on to ask.
+
+48
+00:05:44,120 --> 00:05:52,600
+I'm assuming it's the same technology that has been used, for example, to digitize fragile artwork, and then people can view the art in 3D.
+
+49
+00:05:52,920 --> 00:06:02,360
+Paul, there's this is the perfect question for the show because we're actually dealing with this issue in segment three with the holographic heart.
+
+50
+00:06:02,360 --> 00:06:08,760
+But there's a lot of different ways to create three-dimensional images and information.
+
+51
+00:06:09,560 --> 00:06:16,680
+On television, you'll notice you've got 3D logos that spin around, but they're not holograms.
+
+52
+00:06:16,680 --> 00:06:29,160
+There's a lot of programs where such as QuickTime Virtual Reality where you can spin an art object in space on your computer monitor and see it 360 degrees, also top and bottom.
+
+53
+00:06:29,160 --> 00:06:31,400
+But that is not holography.
+
+54
+00:06:31,880 --> 00:06:37,320
+We're really at a point where we have to take a look and see what is a hologram and what isn't a hologram.
+
+55
+00:06:37,320 --> 00:07:10,360
+But traditional methods of creating holograms are going into a lab, having an optics table that contains lenses, mirrors, beam splitters, plate holders, and a laser, and taking that laser and illuminating the object and either doing a single beam or split beam, but creating through that method interference fringes in the recording media, which is a very high resolution for all practical purposes, photographic plate that's sensitive to the wavelength of the laser light that you're using.
+
+56
+00:07:10,360 --> 00:07:22,560
+Upon developing that plate or film and shining a light on it at the same angle that was used to create it, you see the object appear in front of you.
+
+57
+00:07:22,560 --> 00:07:27,200
+Again, that's the traditional method of creating a hologram.
+
+58
+00:07:27,280 --> 00:07:39,600
+Using a laser to scan someone and then digitize them and put that information into a computer would certainly give you a three-dimensional rotatable view of that person or object.
+
+59
+00:07:39,600 --> 00:07:43,200
+But whether it would be considered a hologram or not, it's pretty much up in the air.
+
+60
+00:07:43,200 --> 00:07:50,720
+And I would have to say for that particular technology, no, that is not a tech, that is not a hologram.
+
+61
+00:07:50,720 --> 00:07:55,040
+Carolyn wrote in and said, where can I purchase equipment for holographs?
+
+62
+00:07:55,040 --> 00:07:59,520
+Website, catalog ordering, local retailer in South Central Ohio.
+
+63
+00:07:59,840 --> 00:08:08,640
+I would recommend right on the HoloTalk page, you'll notice a link to Ross Books to purchase equipment to start doing your own hologram.
+
+64
+00:08:08,720 --> 00:08:25,440
+It would be worthwhile to pick up a copy of what's called the holography marketplace, which lists all of the distributors, all of the manufacturers, all of the places where you can order your lasers, your optics, your table if you decide to purchase one instead of build one.
+
+65
+00:08:25,440 --> 00:08:31,840
+Everything that you need and everything that you want to know about the holography industry is in that book.
+
+66
+00:08:31,840 --> 00:08:36,960
+Now keep in mind you're going to pay a lot of different money for the same items.
+
+67
+00:08:36,960 --> 00:08:43,840
+For instance, ordering a laser through a regular science supply house may run you quite a bit of money.
+
+68
+00:08:43,840 --> 00:08:56,320
+But there are also companies which buy lasers, manufacturers, overruns and things of that nature, which are able to offer lasers to you at quite a bit a discount and savings.
+
+69
+00:08:56,320 --> 00:09:01,400
+You will be able to find out about this in the holography marketplace.
+
+70
+00:08:59,920 --> 00:09:07,000
+So I would suggest you click on that link, go over there, take a look at the holography marketplace.
+
+71
+00:09:16,120 --> 00:09:24,120
+That book will definitely pay for itself many times over through the information that's in there to get you started to do your own holograms.
+
+72
+00:09:24,120 --> 00:09:27,000
+So it's not like you're going to be out the money, believe me.
+
+73
+00:09:27,000 --> 00:09:34,760
+You're going to save many times the cost of that book through the information that it will provide to you.
+
+74
+00:09:34,760 --> 00:09:36,680
+Karen has a question.
+
+75
+00:09:36,680 --> 00:09:41,560
+I have a question I was hoping you would be able to help me out or know someone who could.
+
+76
+00:09:41,560 --> 00:09:48,360
+When you look at a hologram, why can you only see it if you've got a light source shining on it from a certain angle?
+
+77
+00:09:48,360 --> 00:09:51,640
+If you could help me out, I would have greatly appreciated it.
+
+78
+00:09:51,640 --> 00:10:11,000
+When you reilluminate a hologram after it's completed, if it's a white light hologram, or even a laser hologram that needs laser light to illuminate it, you must make sure that you match the same incoming angle that was used to create the hologram.
+
+79
+00:10:11,000 --> 00:10:36,680
+For instance, you take your holographic plate and you put it in the plate holder, and you have a specific angle that that laser beam is coming into the plate, and you must make sure that when you process the plate, you mat it and you frame it and you put it on your wall, if it happens to be a reflection hologram, that your light is coming in at the same angle to view the hologram.
+
+80
+00:10:36,680 --> 00:10:41,000
+Next question is from Dean.
+
+81
+00:10:41,000 --> 00:10:43,720
+He says, I am a student who is very interested in holography.
+
+82
+00:10:43,720 --> 00:10:50,880
+I'm extremely extremely interested in projection of freestanding holograms, you know, like in the science fiction movies.
+
+83
+00:10:50,880 --> 00:10:55,680
+I know there is a way to produce them, and I am sure that someone probably already is.
+
+84
+00:10:55,680 --> 00:11:00,080
+However, I have found little information on the subject, and I am dying to learn more.
+
+85
+00:11:00,080 --> 00:11:03,760
+I would be very grateful to you if you could point me in the right direction.
+
+86
+00:11:03,760 --> 00:11:12,320
+Tell me where I could find information on the subject on the web or in books, videos, etc., or even tell me how I could get in touch with someone who could help me.
+
+87
+00:11:12,320 --> 00:11:14,960
+And that's from Dean.
+
+88
+00:11:15,120 --> 00:11:27,360
+Dean, the reason why that you're not finding a lot of information on the web about this is that most holograms need a recording media in order to work, whether it would be a holographic plate or holographic film.
+
+89
+00:11:27,360 --> 00:11:36,880
+Now, granted, it is possible to shoot a hologram where you have parts of the object actually projecting out in space toward the viewer.
+
+90
+00:11:36,880 --> 00:11:48,000
+And if a hologram is set up properly, you may even be able to shoot holograms where you have an object itself, which seemingly floats in space in front of that plate.
+
+91
+00:11:48,000 --> 00:12:02,400
+But the idea of creating an object that just hangs in space is something that's just not possible to do at this point through holography.
+
+92
+00:12:02,960 --> 00:12:09,920
+The laws of physics themselves state that any time that you're using light, something has to be there to stop it.
+
+93
+00:12:09,920 --> 00:12:22,560
+And to take a laser beam and send it through the air and somehow draw out whatever it is that you're uh looking to see three dimensionally doesn't work very well because there's nothing there to stop the beam.
+
+94
+00:12:22,560 --> 00:13:16,360
+Now, on some of the laser light shows, and I believe this is where some people get some of the misinformation, they'll use either some steam or what I've seen at several laser light shows they'll use a fine mist of falling water to pass that laser beam through and this happens to when the laser beam goes through it to draw whatever image it is it happens to light up that water or that steam but it's not a completely three dimensional image even though you see it rotating it's rotating because the computer program is telling it to appear to be turning but if you have a wall of water or steam that's showing you this image there's nothing in that image which is going to be closer to you or further away from you like in a hologram.
+
+95
+00:13:16,360 --> 00:14:00,200
+It's all going to be in the plane of the water and the steam even though the computer program is telling that object to rotate and is making the calculations to make it look like it's rotating and if you want to get some more information Dean on free floating objects and possibly three dimensional free floating objects using other technologies you may want to go on to segment three for the holographic heart go onto the video watch the video and there's also a link for the web page which is a new technology that was developed to show freestanding images in space.
+
+96
+00:14:00,200 --> 00:14:07,800
+And we also in that segment are asking the question, is this a hologram or isn't it a hologram?
+
+97
+00:14:07,800 --> 00:14:10,080
+So those are our questions for the week, folks.
+
+98
+00:14:10,080 --> 00:14:13,640
+If you have laser and holography questions, send them into HoloTalk.
+
+99
+00:14:13,640 --> 00:14:23,840
+The email address is Holotalk at HoloWorld.com or you can call in toll-free across the USA, 1-800-458-3525.
+
+100
+00:14:23,840 --> 00:14:25,840
+Leave your question on the voicemail.
+
+101
+00:14:25,840 --> 00:14:30,800
+I'll take the question off of the voicemail and use your voice on the show.
+
+102
+00:14:30,800 --> 00:14:32,880
+So thank you for tuning into this segment.
+
+103
+00:14:32,880 --> 00:14:36,320
+The next segment is segment three, which is the holographic heart.
+
+104
+00:14:36,320 --> 00:14:37,440
+I hope you enjoy it.
+
+105
+00:14:37,440 --> 00:14:41,920
+This is Frank Defradis for Listener's Questions on HoloTalk.
+
+106
+00:14:41,920 --> 00:14:43,120
+Hello everyone.
+
+107
+00:14:43,120 --> 00:14:48,240
+This is our third and final segment from the new format that we're using for HoloTalk.
+
+108
+00:14:48,320 --> 00:14:50,160
+It is the main part of the program.
+
+109
+00:14:50,160 --> 00:15:00,800
+And today we're going to be taking a look at something new from a company in New York City called Dimensional Media Associates, which is the holographic heart.
+
+110
+00:15:00,800 --> 00:15:07,040
+Along with this look that we're going to take at this, we're going to also try and answer a question, what is a hologram?
+
+111
+00:15:07,040 --> 00:15:14,560
+Now apparently this new holographic heart uses a different technology and a different technique from traditional holography.
+
+112
+00:15:14,560 --> 00:15:21,760
+We do not have holographers in the laboratory with lasers creating holograms on film or plates.
+
+113
+00:15:21,760 --> 00:15:25,360
+So we're also going to take a look and see what is a hologram.
+
+114
+00:15:25,600 --> 00:15:29,840
+What can we say is a hologram and what should we say isn't a hologram?
+
+115
+00:15:29,840 --> 00:15:40,320
+I don't know if we're going to be able to answer that question, to tell you the truth, because I've done a lot of looking into different things I'm going to share with you today, such as definitions and patents.
+
+116
+00:15:40,320 --> 00:15:43,040
+And it still may be up in the air.
+
+117
+00:15:45,400 --> 00:16:01,720
+First video with HoloTalk this week, and it was recorded with Peter Jennings on World News Tonight, and you'll find that link directly below this one so you can watch the video of holographic heart.
+
+118
+00:16:02,040 --> 00:16:10,440
+Peter Jennings himself, when he comes on the air, he says holograms are three-dimensional floating images.
+
+119
+00:16:10,440 --> 00:16:13,800
+They are light projected into space.
+
+120
+00:16:13,800 --> 00:16:19,560
+That is the definition that Peter Jennings gives on the introduction to the holographic heart.
+
+121
+00:16:19,560 --> 00:16:30,600
+However, the person who's being interviewed, one of the representatives that uses this technology and was working on developing it, never refers to the heart as a hologram.
+
+122
+00:16:30,840 --> 00:16:35,080
+Always refers to it as an image or a three-dimensional image.
+
+123
+00:16:35,080 --> 00:16:39,880
+Let's take a look at the press release found at the Dimensional Media Associates Inc.
+
+124
+00:16:40,040 --> 00:16:51,880
+website, which I also have a link to if you'd like to go there yourself, and see what they have to say about this technology, the holographic heart, and also the other things they are working on.
+
+125
+00:16:51,960 --> 00:17:05,400
+Dimensional Media Associates Inc., DMA, is a New York City-based technology company that designs, develops, manufactures, and distributes unique floating image 3D volumetric visualization systems.
+
+126
+00:17:05,400 --> 00:17:10,200
+Our clients are an advertising, entertainment, science, medicine, and education.
+
+127
+00:17:10,200 --> 00:17:21,800
+Founded in 1994 as a partnership and incorporated in June 1996, DMA has positioned itself as a market leader in 3D display technology.
+
+128
+00:17:21,800 --> 00:17:40,440
+At the heart of DMA's business is a patented breakthrough technology, which DMA developed for producing true 3D aerial images without using lasers and without requiring viewers to wear special eyeglasses or virtual reality headsets or sit in the dark.
+
+129
+00:17:40,440 --> 00:17:50,080
+The full color, full motion images, appear to float in space and can be seen from wide viewing angles under ambient lighting conditions.
+
+130
+00:17:50,080 --> 00:17:58,160
+3D visualization is the presentation of images in ways that bring out the three-dimensional nature of their content.
+
+131
+00:17:58,160 --> 00:18:09,280
+Drawings, paintings, and photographs that show perspectives are example of 3D visualization, as are images showing perspective in movies and on television.
+
+132
+00:18:09,280 --> 00:18:13,840
+Images produced by 3D computer graphics are also examples.
+
+133
+00:18:13,840 --> 00:18:21,680
+These are all representations of three-dimensional objects, but are themselves actually only two-dimensional.
+
+134
+00:18:21,680 --> 00:18:38,400
+Creation of the illusion that an image is itself three-dimensional can be accomplished with viewing appliances, such as the stereoscopes of previous generations, or the special goggles used to view 3D movies or the headsets used in the creation of virtual reality environments.
+
+135
+00:18:38,400 --> 00:18:47,120
+In general, those devices present slightly different images to the left and right eyes of viewers to achieve the simulation of depth.
+
+136
+00:18:47,120 --> 00:18:52,800
+Recently, however, a breakthrough technology was created by Dimensional Media Associates Inc.
+
+137
+00:18:53,040 --> 00:19:02,800
+that actually produces true, three-dimensional images without using lasers and without requiring viewers to wear special appliances.
+
+138
+00:19:02,800 --> 00:19:14,080
+Further, the full color, full motion images can be seen from wide viewing angles in sizes up to 10 feet and under ambient lighting conditions.
+
+139
+00:19:14,080 --> 00:19:34,040
+Called high definition volumetric display, HDVD for short, the technology makes use of input from a variety of image generation and storage sources, real-time process data, real objects, television, computer monitors, and flat panel displays.
+
+140
+00:19:34,280 --> 00:19:44,760
+The projected images appear to float in space and are so real that viewers feel that they can reach out and interact with them.
+
+141
+00:19:44,760 --> 00:20:01,400
+HDVD uses a complex array of precision optical components, such as parabolic mirrors and beam splitters to collect, focus, and then project light into space to form real volumetric images.
+
+142
+00:20:01,400 --> 00:20:15,720
+With this remarkable technology, DMA provides multi-purpose, volumetric, 3D visualization systems for use, for example, in science, medicine, education, entertainment, and advertising.
+
+143
+00:20:15,720 --> 00:20:29,640
+As an example of this work, DMA, under contract from DARPA, delivered a 3D real-time virtual reality surgical simulation system targeted for training military surgical units.
+
+144
+00:20:29,640 --> 00:20:44,680
+Not only will the system provide 3D floating images of human organs, it will also provide tactile and visual feedback to physicians and students as they interact with the images during the surgical simulations.
+
+145
+00:20:44,680 --> 00:20:52,200
+With these RD efforts, DMA aims to create a new generation of visual technology.
+
+146
+00:20:57,320 --> 00:21:04,680
+Do we want to have for the word hologram or holography, which is the process of creating holograms?
+
+147
+00:21:04,680 --> 00:21:11,240
+Can we say that any any image that is floating in space is a hologram?
+
+148
+00:21:11,240 --> 00:21:46,800
+Now I know myself, as many of you probably know who have worked with holography, and as many listeners who have never worked with holography at all may know, just from thinking, we get a lot of questions asking about floating images, holograms, and usually we try our best in the most polite way possible to explain that just because an image is floating in space does not necessarily make it a hologram, more than likely not a hologram, and it's another technology that's used to create it.
+
+149
+00:21:46,800 --> 00:21:54,160
+But do we have to reexamine this and broaden our scope of a hologram or holography?
+
+150
+00:21:54,160 --> 00:22:04,720
+I went to Graham Saxby's book Practical Holography, and I found the following somewhat definitions of this.
+
+151
+00:22:04,720 --> 00:22:23,760
+We found that the term hologram was coined in 1948 by Dennis Gabor, with the prefix holo coming from a Greek word meaning whole, and the syllable gram from another Greek word conventionally signifying a drawing or other visual representation.
+
+152
+00:22:23,760 --> 00:22:27,120
+The term holography was coined by G.
+
+153
+00:22:27,280 --> 00:22:27,600
+L.
+
+154
+00:22:27,600 --> 00:22:30,080
+Rogers, and I've tried to find some information on G.
+
+155
+00:22:30,080 --> 00:22:30,320
+L.
+
+156
+00:22:30,320 --> 00:22:36,880
+Rogers on the uh on the net, and I have not turned up anything, so I will continue to look into that.
+
+157
+00:22:36,880 --> 00:22:41,520
+It also goes on to say that a holograph is a document that is in the author's handwriting.
+
+158
+00:22:41,520 --> 00:22:49,040
+Although the Oxford English Dictionary does accept holograph as an alternative to hologram.
+
+159
+00:22:49,040 --> 00:23:04,120
+To the physicist, a hologram is a record of the interference of two beams of coherent light, which are mutually correlated in the form of a microscopic pattern of interference fringes.
+
+160
+00:23:04,120 --> 00:23:18,440
+To the informed layperson, it is a photographic film or plate which has been exposed to laser light and processed in such a way that when illuminated properly, it produces a three-dimensional image.
+
+161
+00:23:18,440 --> 00:23:26,920
+Less well informed people often seem to think of a hologram simply as some sort of three-dimensional photograph.
+
+162
+00:23:26,920 --> 00:23:49,400
+Now to summarize this, we go on to read a hologram is a complete record of the information, and when correctly illuminated, it will generate a replica of the object wavefront, enabling the viewer to see an image which in every respect replicates the object with full parallax.
+
+163
+00:23:49,400 --> 00:23:56,200
+I think one of the most important things through all this to keep in mind is this.
+
+164
+00:23:56,200 --> 00:24:08,760
+A hologram is a record of the interference of two beams of coherent light which are mutually co-related in the form of a microscopic pattern of interference fringes.
+
+165
+00:24:23,480 --> 00:24:28,040
+The one that I want to refer to here, actually I pulled three of them.
+
+166
+00:24:28,280 --> 00:24:32,920
+Patent 3506327 from 1970.
+
+167
+00:24:32,920 --> 00:24:36,920
+That was Emmett Leith, that's the Battel patent.
+
+168
+00:24:36,920 --> 00:24:43,080
+3838903 from 74, and 3838904 from 74 as well.
+
+169
+00:24:43,080 --> 00:24:50,560
+But I'd like to focus on the first, which was 3506327 from 1970.
+
+170
+00:24:50,800 --> 00:25:01,200
+This patent, excuse me, is titled Wavefront Reconstruction Using a Coherent Reference Beam.
+
+171
+00:25:01,200 --> 00:25:08,000
+The word hologram itself was used right in the first paragraph, first sentence in the abstract of disclosure.
+
+172
+00:25:08,000 --> 00:25:16,320
+If you've ever had a chance to see patents, there's a very short single paragraph description of what the patent is all about.
+
+173
+00:25:16,320 --> 00:25:26,160
+So the word hologram itself was used in this patent in the first paragraph, first sentence of the abstract of disclosure.
+
+174
+00:25:26,160 --> 00:25:49,680
+And it goes on to say the method of an apparatus for constructing and reconstructing holograms of the off-axis type, wherein coherent radiation is directed onto an object to provide an object-bearing beam in the path of which is positioned a detector sensitive to the coherent radiation.
+
+175
+00:25:49,680 --> 00:26:07,840
+And I would assume that although the word detector uh I believe was probably put in there to cover uh advances in technology at the time detector probably was referring to film or plates, light sensitive film or plates.
+
+176
+00:26:07,840 --> 00:26:16,960
+And uh the uh factor of advancement was built into that word as we go into more electronic holography.
+
+177
+00:26:16,960 --> 00:26:20,160
+Now here's the line that's important.
+
+178
+00:26:20,160 --> 00:26:28,480
+This invention relates to methods and apparatus for producing interference fringe patterns, i.e.
+
+179
+00:26:28,960 --> 00:26:36,680
+holograms, and reconstructing the interference fringe pattern to produce one or more images.
+
+180
+00:26:36,680 --> 00:26:44,600
+So, folks, we need to decide what it is that we need to do about this definition of holography.
+
+181
+00:26:44,600 --> 00:26:59,960
+Apparently, from some of the patents and from some of the books that deal specifically with holography, in order for something to be considered a hologram, it must be created with coherent light producing interference fringe patterns.
+
+182
+00:26:59,960 --> 00:27:01,960
+That is a hologram.
+
+183
+00:27:01,960 --> 00:27:20,120
+If whatever it is that you're looking at was not created with coherent light, used to produce interference patterns, and then those interference patterns going on to recreate the object, then it must not be a hologram.
+
+184
+00:27:20,120 --> 00:27:33,560
+But then we need to look at it and think that we've got new technologies that are doing just about the same thing, such as, quote, the holographic heart, should it be called a hologram?
+
+185
+00:27:33,560 --> 00:27:41,160
+Well, like I said when we started up this segment, we probably would not get any concrete answers to what is or what is not a hologram.
+
+186
+00:27:41,160 --> 00:27:51,240
+And I will throw the ball into your court, let you take a look at the video clip, and sit back and think for a while what is and what is not a hologram.
+
+187
+00:27:51,240 --> 00:28:02,920
+Do we need to broaden this definition to include different ways of producing three-dimensional images floating in space and continue to call them holograms?
+
+188
+00:28:02,920 --> 00:28:16,160
+Or do we say that a hologram has to have coherent light producing interference fringes, and those interference fringes reconstructing the actual image.
+
+189
+00:28:14,840 --> 00:28:21,760
+Okay, folks, the next step for you to do is to move on to the segment four, which is the video itself.
+
+190
+00:28:21,920 --> 00:28:22,800
+Watch it.
+
+191
+00:28:22,800 --> 00:28:24,560
+And I'm going to close out the show.
+
+192
+00:28:24,560 --> 00:28:28,720
+If you have any questions on lasers and holograms, feel free to send them in.
+
+193
+00:28:28,720 --> 00:28:31,440
+And we come back every week with a new show.
+
+194
+00:28:31,440 --> 00:28:35,600
+We've got lots of guests coming up, so I hope you continue to tune back into HoloTalk.
+
+195
+00:28:35,600 --> 00:28:37,040
+This is Frankie Freyas.
+
+196
+00:28:37,040 --> 00:28:40,160
+Thank you very much for tuning in, and I'll see you next week.

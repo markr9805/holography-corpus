@@ -1,0 +1,547 @@
+1
+00:00:00,480 --> 00:00:09,600
+Hello everyone, this is Frank Defratis, and welcome to a brand new season of HoloTalk for the 1999-2000 season.
+
+2
+00:00:09,600 --> 00:00:17,600
+This show is for the week of September 13th, 1999, and this is the third season of Holo Talk that we're going into.
+
+3
+00:00:17,600 --> 00:00:31,760
+I'd like to extend a welcome to my regular listeners who are coming back for another season, but I'd also like to send out a special welcome to our new listeners who are listening to HoloTalk for the first time.
+
+4
+00:00:31,760 --> 00:00:37,520
+So if you're a new listener, I'd like to welcome you aboard, and I hope you enjoy the upcoming season.
+
+5
+00:00:37,680 --> 00:00:41,280
+I'll tell you a little bit about what HoloTalk is about.
+
+6
+00:00:41,840 --> 00:00:58,080
+Holo Talk gives us an opportunity to chat with guests on a regular basis who work with lasers and holograms, and it also gives the listeners an opportunity to sit back and relax and keep in touch with what's happening in the field of lasers and holograms.
+
+7
+00:00:58,080 --> 00:01:13,280
+It's uh the field that we know and the field that we love, and it's nice to be able to have this opportunity to come into your schools, your homes, and your offices, and bring this information to you.
+
+8
+00:01:13,280 --> 00:01:18,960
+So I hope you come back and check out the shows that will be coming up during the season.
+
+9
+00:01:18,960 --> 00:01:24,560
+The season runs from Labor Day to Memorial Day, and then we're off for the summer.
+
+10
+00:01:24,560 --> 00:01:27,600
+And speaking of summers, I hope everyone had a great summer.
+
+11
+00:01:27,760 --> 00:01:28,880
+I had a pretty good summer.
+
+12
+00:01:28,960 --> 00:01:46,400
+We did a lot of exciting things around here in the lab that I'm going to get to in a few minutes, but one of the memories of this summer is the extreme, extreme heat that just blanketed the entire northeast part of the country and uh Pennsylvania in particular.
+
+13
+00:01:46,200 --> 00:01:58,640
+Uh this county that Allentown is located in, which is Lehigh County, is one of three counties in the state where the farmers had to declare 100% crop loss.
+
+14
+00:01:58,640 --> 00:02:04,440
+It was a very, very sad sight to be driving around and seeing uh the crops.
+
+15
+00:02:04,440 --> 00:02:11,160
+Um corn, for instance, only grew about to the height of someone's calf on your leg.
+
+16
+00:02:11,160 --> 00:02:13,960
+I don't even think it would even reach your knees.
+
+17
+00:02:13,960 --> 00:02:15,960
+Uh, that's if it grew at all.
+
+18
+00:02:16,200 --> 00:02:25,080
+As you would drive around on the different highways in the turnpike, you would see the uh cornfields and there were entire areas where the corn never even sprouted or came up.
+
+19
+00:02:25,080 --> 00:02:28,280
+It was just bald, baked earth.
+
+20
+00:02:28,280 --> 00:02:43,320
+And this went on for weeks and weeks and weeks, and the only thing that you could do would be just to sit back, stay in the shade and uh hope to survive, which unfortunately there were a number of people who didn't survive uh this extreme heat.
+
+21
+00:02:43,320 --> 00:02:46,360
+But that's all over now outside the Holo Talk studio.
+
+22
+00:02:46,360 --> 00:03:24,920
+It's a very calm, cool evening, and after I finish this show, I think I'm going to go out and sit out back and listen to what's left of the crickets for the season as the temperature continues to drop and we move into the fall once again and give up our summer activities for those activities in the fall and winter, which includes a lot of work indoors and hopefully for the Holo Talk listeners uh back into the lab to begin our experiments with uh the great field of holography.
+
+23
+00:03:24,920 --> 00:03:32,360
+I kept going back and forth on whether I should increase the quality of the broadcast of HoloTalk.
+
+24
+00:03:32,360 --> 00:03:38,360
+I certainly have the equipment here in the studio to do some very high quality broadcasting.
+
+25
+00:03:38,360 --> 00:03:53,600
+Of course, any time that you send out a show which is very high quality, you have to have people who have the capability of receiving that information, uh which means modems that are at least 288 or higher, 56K.
+
+26
+00:03:53,600 --> 00:04:10,720
+And I kept coming back to the picture of this little boy or little girl out somewhere in the middle of America or maybe south east, southwest that you know, money's a little tight in the house.
+
+27
+00:04:10,720 --> 00:04:12,800
+And the kid's got a uh computer.
+
+28
+00:04:12,800 --> 00:04:14,000
+It's not a great computer.
+
+29
+00:04:14,000 --> 00:04:33,200
+It may be a computer that maybe is uh his or her uncle gave them for a birthday present, a hand me down and it's got this fourteen four modem attached to it and there's certainly if there was going to be a purchase made in that household it would probably be for sneakers or clothes.
+
+30
+00:04:33,200 --> 00:05:06,800
+It certainly wouldn't be a new modem for the computer, so I see this kid sitting in the bedroom with the computer and they like holography, they like lasers and they enjoy listening to the HoloTalk show and I keep thinking thinking what a shame it would be that if I were to make this show where it would only be available to someone with a 288 or a 56k modem, even though that would increase the quality of the show and you would really hear some of the capabilities of the quality equipment here in the studio.
+
+31
+00:05:07,120 --> 00:05:19,000
+All of a sudden they would log on for the show and next thing you know it would say, you know, we're sorry you can't receive this information, your modem isn't fast enough and what a shame that would be.
+
+32
+00:05:19,000 --> 00:05:34,680
+So I decided to just keep it at the regular rate that I normally broadcast for the past two seasons, which is uh eight point five kilobits per second, which allows anyone with a 14 4 modem to uh pick up the show.
+
+33
+00:05:34,680 --> 00:05:50,280
+And if you're one of those people out there, my friend, my little friend, or friends, there's probably many of you, uh, this is for you, so that you can continue to listen to the show and follow the field of holography.
+
+34
+00:05:50,280 --> 00:05:55,880
+Maybe even start making some holograms on your own, and who knows where that will lead you.
+
+35
+00:05:55,880 --> 00:06:03,240
+So uh that's the reason why the show is still coming through at the same rate that it's been coming through for the past two seasons.
+
+36
+00:06:03,240 --> 00:06:21,560
+It's not uh anything to do with what we're capable of doing, it's more to do with the fact that uh we do have some little ones out there that listen to this show, and I think it's very important that if they do like this, that they're able to get the information.
+
+37
+00:06:21,560 --> 00:06:46,600
+Uh something that's new for all of you, if you happen to have real player plus, which is uh the 5.0 version or the 4.0 version, or even even a new G2 uh real player, you'll be able to put HoloTalk as one of your favorites, sort of like a bookmark or one of the uh presets that you have on a regular radio.
+
+38
+00:06:46,600 --> 00:06:50,680
+If you have the plus series of these players, you have the capability of doing that.
+
+39
+00:06:50,680 --> 00:07:00,680
+When you go to a website and you listen to a show, you're able to uh click on your favorites and that'll become a button right on your real player.
+
+40
+00:07:00,680 --> 00:07:06,280
+This gives you the advantage of not having to log on to the website to listen to the show each week.
+
+41
+00:07:06,280 --> 00:07:09,360
+Is say, for instance, you listen to the show on a Tuesday night.
+
+42
+00:07:09,360 --> 00:07:16,400
+Sit back with your cup of coffee or uh Darjelling tea and enjoy uh HoloTalk.
+
+43
+00:07:14,840 --> 00:07:21,760
+You don't need to log on to the website, go to the web page, click on the link and have Real Player launch.
+
+44
+00:07:21,920 --> 00:07:25,840
+Just uh get your real player up and click on the favorite button.
+
+45
+00:07:25,840 --> 00:07:33,360
+It should say HoloTalk right on the button if you choose it as a favorite, and each week's show will begin to play automatically for you.
+
+46
+00:07:33,360 --> 00:07:39,280
+So that's a little feature that we're going to do that we didn't have for the past two seasons.
+
+47
+00:07:39,280 --> 00:07:50,000
+So that sort of might make up for the fact that I didn't increase the quality of the show, but I increased the uh uh the little the quality of the delivery on how you can receive it.
+
+48
+00:07:50,000 --> 00:07:52,720
+So a little bit of a trade-off there.
+
+49
+00:07:52,720 --> 00:07:55,440
+Well, I've got a great lineup of guests this season.
+
+50
+00:07:55,440 --> 00:07:57,840
+I'm not going to get into who the guests are.
+
+51
+00:07:57,840 --> 00:08:16,480
+I know last season I sort of uh made a list of who was going to be on and when they were going to be on, but unfortunately, uh I mean this is this is a whole talk show, and uh most of the people who work in the field of philography uh have businesses and they travel and they do different things and different things come up at the last moment.
+
+52
+00:08:16,480 --> 00:08:21,280
+And uh, even though we did get most of the guests on, they certainly weren't on the same week.
+
+53
+00:08:21,280 --> 00:08:27,840
+I had to do a little bit of a scrambled eggs things there where I took one person, put them, changed them another week, and changed someone else around.
+
+54
+00:08:27,840 --> 00:08:36,000
+So I'm not going to go into uh what dates each of the guests and things are going to be on, but I would recommend that you get on the mailing list.
+
+55
+00:08:36,000 --> 00:08:37,760
+And I have the whole talk mailing list.
+
+56
+00:08:37,760 --> 00:08:42,400
+If you go to my email page, or maybe I'll even have a link right on the whole talk page for you.
+
+57
+00:08:42,400 --> 00:08:47,680
+Uh if you get on the mailing list each week, uh you'll receive one email, a short email.
+
+58
+00:08:47,680 --> 00:08:51,600
+It's nothing like uh jump mail that's coming into your email box every day.
+
+59
+00:08:51,600 --> 00:08:58,960
+Your email address never ever goes out for any other purpose except right on my machine for HoloTalk.
+
+60
+00:08:58,960 --> 00:09:10,120
+And I'll send you an email and let you know a reminder, because we all forget sometimes uh that uh you know Holotalk's coming up this week and this is the guests and this is what the topic's going to be so tune in.
+
+61
+00:09:10,120 --> 00:09:13,960
+I'll give you a little bit of a reminder to come back and listen to the show.
+
+62
+00:09:13,960 --> 00:09:18,840
+So get on the mailing list and uh see what the shows are going to be each week.
+
+63
+00:09:18,840 --> 00:09:26,120
+Uh you may not have an interest in some of the shows, but some of them uh might hit a nail right on the head for you as far as interest.
+
+64
+00:09:26,120 --> 00:09:30,680
+So you don't want to miss that.
+
+65
+00:09:30,680 --> 00:09:40,280
+Well as many of you know I take the summer off from Memorial Day until Labor Day um especially with the uh website and holography.
+
+66
+00:09:40,280 --> 00:09:43,480
+And by the way I will be updating the website on a regular basis.
+
+67
+00:09:43,480 --> 00:09:52,280
+I've got a number of different updates that are going to go on there so you want to keep coming back as the uh weeks go on and see uh some of the new things that go up.
+
+68
+00:09:52,280 --> 00:09:56,040
+Uh but there was still a lot of activity around the lab.
+
+69
+00:09:56,040 --> 00:10:15,320
+The biggest news is that you may remember at the end of last season we were really trying to get a 35 milliwatt diode together, you know, to run our own design which means our own driver power supply and uh with a purchase diode.
+
+70
+00:10:15,320 --> 00:10:39,240
+And you know we just worked and when I say we I'm talking uh Sam Savage is a friend of mine who's been uh coming in and uh working with this uh he's from New Jersey and uh we've been going back and forth and I'll tell you something we just ripped our hair out trying to improve the performance of some of these diodes and come up with a laser that really has incredible specifications.
+
+71
+00:10:39,240 --> 00:10:49,760
+Well, right before we got ready to do Holotalk, in fact, within the last week, I'd say going back maybe seven to ten days, we finally got it.
+
+72
+00:10:50,080 --> 00:10:52,400
+We built the entire system.
+
+73
+00:10:52,400 --> 00:10:56,880
+And let me tell you something, folks, this is an incredible laser.
+
+74
+00:10:56,880 --> 00:11:09,040
+And hopefully I'll have a link onto the site where you can go in and take a look at the laser and some of the things that we've done and we're going to have to get the power supply and the driver size down a little bit and things.
+
+75
+00:11:09,040 --> 00:11:42,880
+But we're basically going to make this into a self-contained laser where you would just sit on your holography table and have uh quite a bit of power to work with at a very affordable price and we'll also have plans uh that you can get on how to build your own if you're handy with a soldering gun and a circuit board uh there's a number of different components involved with it but it's nothing like uh building your own computer or anything with the boards and things and uh it's certainly within the uh realm of most hobbyists to be able to sit down and uh solder these things together.
+
+76
+00:11:43,600 --> 00:12:17,560
+Very very impressive uh work that did a beautiful hologram as the test shot and right now I'm working on setting up to do a nice eight by ten if we uh see good results which I am i expecting to see uh move up to 30 by 40 centimeter plates which are rather large holograms you're getting up into uh display size you know where you can show in a gallery or uh you know a a lobby or whatever you know but what's really nice uh the fringe stability this this is what we were really trying to work out.
+
+77
+00:12:17,560 --> 00:12:24,760
+You know, we put a couple of the different laser pointers and a couple of the different diodes on uh set up an interferometer and took a look at the fringes.
+
+78
+00:12:24,760 --> 00:12:30,920
+And I'll tell you what, once you have these diodes hooked up to an interferometer, they they're they're a little squirrely.
+
+79
+00:12:29,680 --> 00:12:32,840
+They're actually a little squirrely.
+
+80
+00:12:32,840 --> 00:12:41,000
+Uh so what we wanted to do is we wanted to uh come up with a laser that would have extreme stability.
+
+81
+00:12:41,000 --> 00:12:46,280
+And uh the way to do this actually was through the uh through the electronics.
+
+82
+00:12:46,280 --> 00:13:06,040
+So uh this is the area that uh sand shines in, and we tried a number of different things over the summer, and all of them failed, and you know, I'm like uh here depressed, like beyond depression, you know, because things we'd pop the diode or we'd never be able to get the fringes the way that we want them.
+
+83
+00:13:06,120 --> 00:13:11,400
+And you'd you know, get the circuit board back and we'd start working with different things and trying different chips.
+
+84
+00:13:11,640 --> 00:13:26,920
+You know, I'm not an electronics guy, so I'm not really capable of sitting here and telling you the electronic end of this, but uh we will have Sam come on and tell, you know, the story behind this, which is a pretty fascinating story on how this was done.
+
+85
+00:13:26,920 --> 00:13:30,600
+So I've had this uh running for about ten days, twenty-four hours a day.
+
+86
+00:13:30,600 --> 00:13:35,160
+I've got it hooked up to an interferometer on the table, and we're watching the fringes, and I want to tell you something.
+
+87
+00:13:35,160 --> 00:13:47,800
+I have never seen fringes so tight, very high contrast fringes that are so absolutely still, it looks like a fringe locker is uh in place on the table.
+
+88
+00:13:47,800 --> 00:13:52,440
+And I've never seen it any fringes that look this still with a gas laser.
+
+89
+00:13:52,440 --> 00:14:08,360
+And I've had some nice gas lasers here, like my Spectra Physics uh Stable Lite 124B, which was a very good laser in its time, but uh and also some other uh regular tube lasers, the cylindrical housing with the brick power supplies.
+
+90
+00:14:08,360 --> 00:14:28,400
+And you hook them up to an interferometer and you take a look at them, and and this fringes are relatively uh stable, but you do notice drift, and it's uh what I call float, and and float is even though the fringes are still uh there's some sort of float to them all the time with a gas laser.
+
+91
+00:14:28,400 --> 00:14:41,360
+It just has this feeling, even though the eyes can't detect it, I think the mind is still picking it up, or it's more of a feeling that uh just sort of a light float uh to the fringes over time.
+
+92
+00:14:41,360 --> 00:14:56,000
+But with this diode, these things, these fringes are so still that uh a number of times I just go over and tap on the table just to make sure that uh things are working okay because I've never seen fringes like this before.
+
+93
+00:14:56,000 --> 00:15:06,560
+I mean, these things are really locked in tight, and it's uh I think Sam designed some sort of a closed loop feedback or something so that the diode can monitor itself.
+
+94
+00:15:06,560 --> 00:15:18,640
+Uh the laser diode can monitor itself and it makes very quick micro changes in current and or voltage or something like that to to make absolutely certain that it remains stable.
+
+95
+00:15:18,640 --> 00:15:34,960
+And I for whatever this is worth, I don't know what this means, but for whatever it's worth, I went over a little earlier and I was uh just watching the uh voltage output uh to the diode and uh it was absolutely locked in down to a thousandth of a volt.
+
+96
+00:15:34,960 --> 00:15:36,960
+It didn't even change.
+
+97
+00:15:36,960 --> 00:15:42,960
+And I imagine the uh current is uh also uh locked in like that as well.
+
+98
+00:15:42,960 --> 00:15:48,640
+So that that's a very good indication of uh some very stable output.
+
+99
+00:15:48,640 --> 00:15:55,280
+What's really interesting about this all this is I wanted to get some sort of an idea of what the coherence length is.
+
+100
+00:15:55,280 --> 00:16:05,000
+And if you're a new listener or a new person to holography, the coherence length is some indication of how deep the image can be in your hologram.
+
+101
+00:16:05,400 --> 00:16:23,160
+If you exceed the coherence length of your laser, everything beyond that coherence length is not going to record high contrast fringes in your emulsion, your recording medium, your plates or your film, and it will not show up in the hologram.
+
+102
+00:16:23,160 --> 00:16:35,240
+What you normally get using a helium neon laser is you just watch the image as it dins out rather quickly and then becomes black from that area back.
+
+103
+00:16:35,240 --> 00:16:56,200
+I set up this interferometer and I stopped at 14 feet, which I believe works out to about 4.5 meters, but uh 14 feet was where I stopped on the coherence length and I did not notice any change in the fringe contrast at all.
+
+104
+00:16:56,440 --> 00:17:12,440
+I was using the science and mechanics photometer to take the probe into the light and dark areas of the fringes to compare those two readings and come up with a fringe contrast ratio.
+
+105
+00:17:12,440 --> 00:17:24,280
+And it's like well I'll tell you what I'm not going to spend any more time on this because if a holographer can get 14 feet of coherence length minimum.
+
+106
+00:17:24,280 --> 00:17:33,200
+This isn't maximum this isn't the end of the line at all it's the minimum amount of coherence length at fourteen feet.
+
+107
+00:17:33,920 --> 00:17:35,160
+What do you need anymore?
+
+108
+00:17:35,160 --> 00:18:29,840
+I mean to get that type of uh coherence length with any traditional lab laser you usually have to add a rather expensive etelon into the uh into the optical path uh to re to get that type of uh fringe contrast at that distance and as we continue to experiment we're going to go into uh we're actually getting twenty-five milliwatts of optical output power from this uh diode that's minimum and typical output is around twenty seven which is a measured exactly to what the measurements were for the power technologies unit that I have here the 35 milliwatt uh power technologies and I think uh one of the holographers in Norway, Ronnie Anderson uh also has the power technology unit and he also records uh 27 milliwatts of optical output power from the 35 milliwatt module.
+
+109
+00:18:29,840 --> 00:18:33,520
+So that's what we wanted to try and at least match.
+
+110
+00:18:33,520 --> 00:20:17,160
+So uh we guarantee the 25 milliwatts output but more than likely you're gonna get the 26.5 or 27 milliwatts after it passes through the optical system uh the collimating optics that's uh inside of the housing that we have so if everything goes as planned this is uh Saturday night right now that I'm recording this right around midnight and this will go up right around midnight on Sunday night so within the next twenty four hours if I have an opportunity I'm going to get that web page up for you and uh show you uh it's going to be very raw these are really just uh uh soldered circuit boards and things like that but you'll be able to take a look at the uh new laser system which is very exciting news uh for everyone in holography uh I don't need to tell you again after telling you so much uh last season how much you would pay to go out and buy a brand new twenty five millilit helium neon laser system and um this is going to give holographers an opportunity to move up in the power range and uh going along with that what happens is that you can do larger holograms and uh display them and be and start doing some very serious holographic work that you would not have had the opportunity to do before because of such a large cash outlay to go into this uh power range and for anyone who just wants to uh stay with the smaller holograms like the uh four by fives or so or even the eight by tens this uh translates into uh extremely quick exposure times uh our exposures on the four by fives that we were working with was just a fraction of a second so uh that helps as well.
+
+111
+00:20:17,160 --> 00:20:52,280
+So keep tuned to the website for updates on this information and uh hopefully when you log on uh Monday the thirteenth to hear this broadcast I'll have a little link there where you can go and check out uh pictures of the laser and I've got some shots of the beam and even a shot of uh Sam Savage himself at one of the instruments that he used to uh measure the quality of the electronic output from the uh driver and power supply and we're gonna have this set up so that it can be run either AC or DC.
+
+112
+00:20:52,280 --> 00:20:56,120
+You can either plug it in the wall and use it or you can battery operate and use it.
+
+113
+00:20:56,120 --> 00:21:12,440
+So uh it's a great uh it's gonna be a great little addition to the field of holography to get this up and running and I know uh we've been working on this for a very very long time and uh it's it's good to finally have it here and working and everything worked out with it.
+
+114
+00:21:12,440 --> 00:22:00,800
+It's a it's a big load off of uh both of our shoulders to uh have been able to do this and reach our objectives of having a very high quality uh very stable output that exceeds the best helium neon lasers out there in the power range for a fraction a fraction of the uh cost so uh that's the news here in the lab uh I can't think of anything offhand uh that's bigger news than that uh to follow up on but uh a number of smaller things that I'll uh fill you in on as time goes on and the season goes on and and next week we will start with our first guest and uh don't forget to log back on to enjoy next week's show.
+
+115
+00:22:00,800 --> 00:22:17,120
+Each week there's a new show and uh also I would just like to tell you that if you have any questions about lasers or holo holography and you'd like to have that question answered on the air on the Hall of Talk page you will see a telephone number that you can call.
+
+116
+00:22:17,120 --> 00:22:22,240
+When you call the telephone number you will have instructions on leaving your question.
+
+117
+00:22:22,240 --> 00:22:31,120
+And I will go into the voicemail box that I set up specifically for the holography questions and take your question out and I will answer it on the air.
+
+118
+00:22:31,120 --> 00:22:36,480
+So if you have any questions please call in it would be fun to hear yourself uh ask the question on the show.
+
+119
+00:22:36,480 --> 00:22:46,400
+You don't have to leave your name or where you're calling from although if you could leave just a first name like say hello this is this is Pete from Minnesota.
+
+120
+00:22:46,640 --> 00:22:56,360
+That's not going to give anyone too much information over the internet about Pete in Minnesota, so at least it will uh personalize your question a little bit without giving out too much information.
+
+121
+00:22:56,360 --> 00:22:58,480
+And then go ahead and ask your question.
+
+122
+00:22:58,480 --> 00:23:05,240
+I'll extract the questions from the voicemail and I'll set them up into the Holo Talk shows.
+
+123
+00:23:05,240 --> 00:23:07,240
+Well, that about wraps it up for this week.
+
+124
+00:23:07,400 --> 00:23:08,600
+Once again, welcome back.
+
+125
+00:23:08,600 --> 00:23:10,840
+Welcome to our new listeners.
+
+126
+00:23:10,840 --> 00:23:17,800
+And I'm really looking forward to giving you another great season of Holo Talk Shows.
+
+127
+00:23:17,800 --> 00:23:21,880
+I'm just assuming that the other seasons were great as well.
+
+128
+00:23:22,840 --> 00:23:25,960
+And I guess I'm just about going to wrap it up.
+
+129
+00:23:25,960 --> 00:23:28,040
+So thank you for tuning in.
+
+130
+00:23:28,040 --> 00:23:36,760
+The next show will go up around midnight on the 19th, which will be uh for the week of the 20th.
+
+131
+00:23:36,760 --> 00:23:42,840
+And uh I certainly hope you come back and log on and uh enjoy our first guest of the season.
+
+132
+00:23:42,840 --> 00:23:46,760
+And you will find out ahead of time who that guest is if you get on the mailing list.
+
+133
+00:23:46,760 --> 00:23:49,480
+There's no advertising in the mailing list or anything like that.
+
+134
+00:23:49,480 --> 00:23:55,160
+It's just a little notice that I send out on who's going to be on the show and what the topic's going to be.
+
+135
+00:23:55,160 --> 00:23:57,000
+So thank you very much for tuning in.
+
+136
+00:23:57,000 --> 00:24:01,160
+This is Frank Defradis, and I'll talk to you next week.
+
+137
+00:24:01,160 --> 00:24:10,760
+Good night.

@@ -1,0 +1,1804 @@
+1
+00:00:01,230 --> 00:00:06,060
+[Music]
+
+2
+00:00:03,140 --> 00:00:08,519
+hello everyone this is Frank D Freitas
+
+3
+00:00:06,060 --> 00:00:11,099
+and welcome to hellotalk the internet's
+
+4
+00:00:08,519 --> 00:00:13,200
+laser and holography talk show enjoyed
+
+5
+00:00:11,099 --> 00:00:17,960
+in over 42 countries throughout the
+
+6
+00:00:13,200 --> 00:00:17,960
+world and now here's this week's show
+
+7
+00:00:18,390 --> 00:00:23,100
+[Music]
+
+8
+00:00:21,119 --> 00:00:24,840
+hello everyone this is Frankie Freitas
+
+9
+00:00:23,100 --> 00:00:27,300
+and welcome to another week of holotalk
+
+10
+00:00:24,840 --> 00:00:29,760
+my guest this week is Brian Monahan of
+
+11
+00:00:27,300 --> 00:00:32,340
+international holographic paper located
+
+12
+00:00:29,760 --> 00:00:35,040
+in Chalfont Pennsylvania International
+
+13
+00:00:32,340 --> 00:00:37,920
+holographic paper produces a number of
+
+14
+00:00:35,040 --> 00:00:39,899
+different commercial Holograms and some
+
+15
+00:00:37,920 --> 00:00:42,480
+of their recent projects that you may
+
+16
+00:00:39,899 --> 00:00:45,120
+have had an opportunity to see would be
+
+17
+00:00:42,480 --> 00:00:47,460
+their video boxes for instance at your
+
+18
+00:00:45,120 --> 00:00:51,120
+local video store they were responsible
+
+19
+00:00:47,460 --> 00:00:52,980
+for the Star Trek generations Matrix and
+
+20
+00:00:51,120 --> 00:00:55,440
+Men In Black which actually was a
+
+21
+00:00:52,980 --> 00:00:57,960
+production run of 27 million
+
+22
+00:00:55,440 --> 00:01:00,000
+they're also involved with a system that
+
+23
+00:00:57,960 --> 00:01:02,100
+they developed called iscan which is a
+
+24
+00:01:00,000 --> 00:01:04,440
+new way of making dot matrix Holograms
+
+25
+00:01:02,100 --> 00:01:06,479
+through interferometric laser ablation
+
+26
+00:01:04,440 --> 00:01:07,860
+and Brian Monahan is going to be coming
+
+27
+00:01:06,479 --> 00:01:10,080
+on and telling us a little bit about
+
+28
+00:01:07,860 --> 00:01:11,880
+that technique so let's move on to the
+
+29
+00:01:10,080 --> 00:01:13,439
+show it was recorded on location in
+
+30
+00:01:11,880 --> 00:01:15,740
+shelf on Pennsylvania and let's hear
+
+31
+00:01:13,439 --> 00:01:18,420
+what Brian had to say
+
+32
+00:01:15,740 --> 00:01:19,979
+hello everyone this is Frank D Freitas
+
+33
+00:01:18,420 --> 00:01:21,840
+and welcome to another week of hollow
+
+34
+00:01:19,979 --> 00:01:24,020
+talk we're kicking off a brand new
+
+35
+00:01:21,840 --> 00:01:26,820
+season of hollow talk shows and I'm here
+
+36
+00:01:24,020 --> 00:01:29,820
+in Chalfont Pennsylvania with Brian
+
+37
+00:01:26,820 --> 00:01:32,580
+Monahan and Brian Monahan is owner of
+
+38
+00:01:29,820 --> 00:01:34,680
+international holographic paper and what
+
+39
+00:01:32,580 --> 00:01:37,320
+I'd like to do at this point is to let
+
+40
+00:01:34,680 --> 00:01:39,360
+Brian take a minute or two to let you
+
+41
+00:01:37,320 --> 00:01:41,880
+know what international holographic
+
+42
+00:01:39,360 --> 00:01:45,240
+papers is all about well
+
+43
+00:01:41,880 --> 00:01:47,000
+um our company started in 1971 and we
+
+44
+00:01:45,240 --> 00:01:49,200
+were basically in the paper business
+
+45
+00:01:47,000 --> 00:01:52,040
+selling commodity papers to Commercial
+
+46
+00:01:49,200 --> 00:01:55,200
+Printing industry about
+
+47
+00:01:52,040 --> 00:01:57,780
+1988 took a course in holography with
+
+48
+00:01:55,200 --> 00:01:59,759
+you down at the Franklin Institute got
+
+49
+00:01:57,780 --> 00:02:02,159
+hooked on it set up tables in the
+
+50
+00:01:59,759 --> 00:02:03,420
+basement and uh figured out that there's
+
+51
+00:02:02,159 --> 00:02:08,280
+got to be some way that we can make a
+
+52
+00:02:03,420 --> 00:02:10,800
+living in this around 1992 we purchased
+
+53
+00:02:08,280 --> 00:02:13,980
+our first dot matrix photoresist
+
+54
+00:02:10,800 --> 00:02:17,540
+hologram machine that would produce up
+
+55
+00:02:13,980 --> 00:02:20,220
+to 12 by 12 inch Images pixel by pixel
+
+56
+00:02:17,540 --> 00:02:23,580
+and really took off from there we
+
+57
+00:02:20,220 --> 00:02:25,819
+basically designed now we design all of
+
+58
+00:02:23,580 --> 00:02:29,040
+our own custom Holograms
+
+59
+00:02:25,819 --> 00:02:30,720
+electroform emboss and most of the
+
+60
+00:02:29,040 --> 00:02:33,000
+material that we now distribute is still
+
+61
+00:02:30,720 --> 00:02:34,620
+paper based just Holograms that are
+
+62
+00:02:33,000 --> 00:02:38,040
+embossed in the paper for Mass
+
+63
+00:02:34,620 --> 00:02:40,379
+replication for anything from cosmetic
+
+64
+00:02:38,040 --> 00:02:43,440
+packaging video boxes
+
+65
+00:02:40,379 --> 00:02:45,060
+on beer can labels bottle labels and now
+
+66
+00:02:43,440 --> 00:02:46,920
+a lot of point-of-purchase displays
+
+67
+00:02:45,060 --> 00:02:49,019
+we're sitting here in a conference room
+
+68
+00:02:46,920 --> 00:02:51,480
+where we are completely surrounded by
+
+69
+00:02:49,019 --> 00:02:53,819
+projects that you have worked on with
+
+70
+00:02:51,480 --> 00:02:55,620
+your company and I was wondering if you
+
+71
+00:02:53,819 --> 00:02:57,420
+could take a moment just to look around
+
+72
+00:02:55,620 --> 00:02:59,700
+the room and maybe pick out a few of the
+
+73
+00:02:57,420 --> 00:03:02,879
+ones that are perhaps some special
+
+74
+00:02:59,700 --> 00:03:04,440
+projects that you've worked on well it's
+
+75
+00:03:02,879 --> 00:03:06,360
+a lot of these things were very
+
+76
+00:03:04,440 --> 00:03:09,200
+interesting and fun somewhere a hell of
+
+77
+00:03:06,360 --> 00:03:12,120
+a lot more profitable than others but uh
+
+78
+00:03:09,200 --> 00:03:14,099
+intricate just real quickly a couple of
+
+79
+00:03:12,120 --> 00:03:16,440
+them that stand out in the video boxes
+
+80
+00:03:14,099 --> 00:03:19,560
+we won some awards for the Star Trek
+
+81
+00:03:16,440 --> 00:03:21,900
+generations video box and the Matrix
+
+82
+00:03:19,560 --> 00:03:24,420
+Video box there are custom Holograms and
+
+83
+00:03:21,900 --> 00:03:26,159
+mass-produced in large quantities uh
+
+84
+00:03:24,420 --> 00:03:30,300
+then simple ones like our Men In Black
+
+85
+00:03:26,159 --> 00:03:32,340
+video box the Men in Black was 27
+
+86
+00:03:30,300 --> 00:03:35,400
+million video boxes produced all around
+
+87
+00:03:32,340 --> 00:03:37,620
+the world uh and it was done with a
+
+88
+00:03:35,400 --> 00:03:39,239
+simple diffraction grading cross-grading
+
+89
+00:03:37,620 --> 00:03:40,819
+what we call Rainbow
+
+90
+00:03:39,239 --> 00:03:44,040
+some of the other ones that are more
+
+91
+00:03:40,819 --> 00:03:46,080
+intriguing is in the CD-ROM packaging we
+
+92
+00:03:44,040 --> 00:03:47,580
+have one called Skynet there that was
+
+93
+00:03:46,080 --> 00:03:49,799
+one of the largest Holograms ever
+
+94
+00:03:47,580 --> 00:03:52,440
+produced in its time about 14 by 20
+
+95
+00:03:49,799 --> 00:03:54,239
+inches and it had registered lithography
+
+96
+00:03:52,440 --> 00:03:57,480
+with it to really make it stand out and
+
+97
+00:03:54,239 --> 00:03:59,159
+be attractive to the consumers some of
+
+98
+00:03:57,480 --> 00:04:01,739
+the ones I think we're most proud of
+
+99
+00:03:59,159 --> 00:04:05,580
+them have fun with would be our latest
+
+100
+00:04:01,739 --> 00:04:09,360
+series of Pokemon the Pokemon craze uh
+
+101
+00:04:05,580 --> 00:04:10,860
+really did a lot with holography uh the
+
+102
+00:04:09,360 --> 00:04:12,959
+cards that we produced for the tops
+
+103
+00:04:10,860 --> 00:04:14,280
+company the last series was the
+
+104
+00:04:12,959 --> 00:04:17,220
+introduction of six new Pokemon
+
+105
+00:04:14,280 --> 00:04:22,500
+characters and it utilized a stereogram
+
+106
+00:04:17,220 --> 00:04:24,720
+2d 3D background image that had about 25
+
+107
+00:04:22,500 --> 00:04:27,360
+channels of movement in it in full color
+
+108
+00:04:24,720 --> 00:04:31,380
+as well as integrated dot matrix
+
+109
+00:04:27,360 --> 00:04:33,479
+hallography on the Forefront with
+
+110
+00:04:31,380 --> 00:04:35,100
+integrated holographic white so the
+
+111
+00:04:33,479 --> 00:04:37,259
+cards were completely finished and
+
+112
+00:04:35,100 --> 00:04:40,020
+didn't need to be printed on top of when
+
+113
+00:04:37,259 --> 00:04:41,580
+it was done then some of our latest
+
+114
+00:04:40,020 --> 00:04:43,440
+developments that we did that were
+
+115
+00:04:41,580 --> 00:04:45,600
+really a lot of fun were more on
+
+116
+00:04:43,440 --> 00:04:49,199
+prototyping ends we'd shot a large
+
+117
+00:04:45,600 --> 00:04:51,600
+Coca-Cola bottle about four feet high a
+
+118
+00:04:49,199 --> 00:04:54,660
+bottle cap of beer on a Friday afternoon
+
+119
+00:04:51,600 --> 00:04:57,600
+that we blew up to three by four feet
+
+120
+00:04:54,660 --> 00:04:59,400
+and the latest one was the Ferrari we
+
+121
+00:04:57,600 --> 00:05:02,460
+just got finished shooting there's a 40
+
+122
+00:04:59,400 --> 00:05:05,639
+by 90 inches it required three
+
+123
+00:05:02,460 --> 00:05:07,860
+holographic Masters on our part and a
+
+124
+00:05:05,639 --> 00:05:10,560
+very wide embossing machine 90 inches
+
+125
+00:05:07,860 --> 00:05:13,259
+wide to wrap it but it really stood out
+
+126
+00:05:10,560 --> 00:05:15,300
+and and it it really made us feel that
+
+127
+00:05:13,259 --> 00:05:17,699
+we really achieved something being able
+
+128
+00:05:15,300 --> 00:05:20,520
+to produce such a large image in under
+
+129
+00:05:17,699 --> 00:05:22,199
+10 hours and very economically and get
+
+130
+00:05:20,520 --> 00:05:24,300
+the results that we did
+
+131
+00:05:22,199 --> 00:05:27,060
+it's an incredible piece the equipment
+
+132
+00:05:24,300 --> 00:05:29,520
+that that was created on as far as the
+
+133
+00:05:27,060 --> 00:05:32,039
+actual equipment that exposed your photo
+
+134
+00:05:29,520 --> 00:05:34,380
+resist uh could you tell the listeners a
+
+135
+00:05:32,039 --> 00:05:36,500
+little bit about that technology
+
+136
+00:05:34,380 --> 00:05:39,479
+of what you can tell about it anyway
+
+137
+00:05:36,500 --> 00:05:42,300
+well basically we have three dot matrix
+
+138
+00:05:39,479 --> 00:05:45,840
+machines conventional dot matrix that
+
+139
+00:05:42,300 --> 00:05:48,900
+expose photoresist uh pixel by pixel
+
+140
+00:05:45,840 --> 00:05:50,940
+using a blue laser 442 nanometer
+
+141
+00:05:48,900 --> 00:05:53,039
+wavelength and it goes through each
+
+142
+00:05:50,940 --> 00:05:55,259
+pixel and rotates the diffraction
+
+143
+00:05:53,039 --> 00:05:57,660
+grading pixel by pixel corresponding to
+
+144
+00:05:55,259 --> 00:05:59,720
+a computer graphic we've developed a new
+
+145
+00:05:57,660 --> 00:06:02,160
+system on our own it's called iscan
+
+146
+00:05:59,720 --> 00:06:05,160
+there is a video up on the website of
+
+147
+00:06:02,160 --> 00:06:07,800
+iscan operating and basically it
+
+148
+00:06:05,160 --> 00:06:10,440
+produces holographic ratings size of
+
+149
+00:06:07,800 --> 00:06:12,900
+pixels about a thousand times a second
+
+150
+00:06:10,440 --> 00:06:14,820
+and instead of exposing it indirectly
+
+151
+00:06:12,900 --> 00:06:17,580
+into a photoresist that needs chemical
+
+152
+00:06:14,820 --> 00:06:18,900
+development afterwards this is basically
+
+153
+00:06:17,580 --> 00:06:21,300
+etching for lack of a better term
+
+154
+00:06:18,900 --> 00:06:23,880
+directly into a piece of plastic the
+
+155
+00:06:21,300 --> 00:06:27,139
+holographic Groove structures dot by dot
+
+156
+00:06:23,880 --> 00:06:30,360
+by dot it's basically called laser
+
+157
+00:06:27,139 --> 00:06:31,560
+ablation or interferometric laser
+
+158
+00:06:30,360 --> 00:06:33,720
+ablation
+
+159
+00:06:31,560 --> 00:06:36,660
+how many people do you employ here
+
+160
+00:06:33,720 --> 00:06:40,380
+right now there's 12 in our organization
+
+161
+00:06:36,660 --> 00:06:43,380
+uh eight people here and mainly
+
+162
+00:06:40,380 --> 00:06:45,900
+uh everybody we've one holographer and
+
+163
+00:06:43,380 --> 00:06:47,580
+everybody else is in support it requires
+
+164
+00:06:45,900 --> 00:06:50,160
+a tremendous amount of support in
+
+165
+00:06:47,580 --> 00:06:52,860
+commercial in the commercial end of the
+
+166
+00:06:50,160 --> 00:06:56,280
+business to show people to educate them
+
+167
+00:06:52,860 --> 00:06:57,720
+to show samples and to get them
+
+168
+00:06:56,280 --> 00:07:00,300
+understanding what they can do with
+
+169
+00:06:57,720 --> 00:07:03,300
+holography and what they can't and how
+
+170
+00:07:00,300 --> 00:07:04,979
+cost effective it can be when you put it
+
+171
+00:07:03,300 --> 00:07:06,960
+on a package it does cost more than
+
+172
+00:07:04,979 --> 00:07:08,819
+white paper but when it sells three
+
+173
+00:07:06,960 --> 00:07:12,259
+times as much or you gain market share
+
+174
+00:07:08,819 --> 00:07:14,639
+it that comes back a hundredfold exactly
+
+175
+00:07:12,259 --> 00:07:16,139
+if there were students out there who
+
+176
+00:07:14,639 --> 00:07:17,639
+were listening to this perhaps they're
+
+177
+00:07:16,139 --> 00:07:19,139
+in high school they've worked on a
+
+178
+00:07:17,639 --> 00:07:21,000
+holography project they're very
+
+179
+00:07:19,139 --> 00:07:23,639
+interested in holography
+
+180
+00:07:21,000 --> 00:07:25,740
+what sort of skill sets do you look for
+
+181
+00:07:23,639 --> 00:07:27,720
+what are the talents that are needed
+
+182
+00:07:25,740 --> 00:07:29,280
+what do people need to know if they were
+
+183
+00:07:27,720 --> 00:07:31,139
+to say for instance all of a sudden you
+
+184
+00:07:29,280 --> 00:07:33,960
+needed to hire four or more holographers
+
+185
+00:07:31,139 --> 00:07:36,780
+well that's a very good question in that
+
+186
+00:07:33,960 --> 00:07:40,139
+in today's Marketplace uh companies are
+
+187
+00:07:36,780 --> 00:07:43,520
+growing dramatically and there is a lack
+
+188
+00:07:40,139 --> 00:07:45,900
+of skilled labor throughout the world
+
+189
+00:07:43,520 --> 00:07:47,819
+holographers go from company to company
+
+190
+00:07:45,900 --> 00:07:50,220
+they're not born
+
+191
+00:07:47,819 --> 00:07:53,220
+I think people that are interested in
+
+192
+00:07:50,220 --> 00:07:55,319
+getting into holography uh are the type
+
+193
+00:07:53,220 --> 00:07:57,060
+of people number one that love it the
+
+194
+00:07:55,319 --> 00:07:59,580
+dude in their basement are amazed by it
+
+195
+00:07:57,060 --> 00:08:02,099
+and that's how I got involved into it
+
+196
+00:07:59,580 --> 00:08:04,340
+um if you love doing it there's a way to
+
+197
+00:08:02,099 --> 00:08:07,080
+find a way to make money at doing it
+
+198
+00:08:04,340 --> 00:08:09,720
+what we would require from people Tech
+
+199
+00:08:07,080 --> 00:08:11,759
+specifically what I would love to have
+
+200
+00:08:09,720 --> 00:08:15,840
+is a person who understands
+
+201
+00:08:11,759 --> 00:08:19,699
+um uh programming uh today's type of
+
+202
+00:08:15,840 --> 00:08:22,199
+laser systems uh stereographic 3D
+
+203
+00:08:19,699 --> 00:08:23,580
+pulse portrait a lot of different types
+
+204
+00:08:22,199 --> 00:08:26,220
+of systems are all computer generated
+
+205
+00:08:23,580 --> 00:08:27,960
+computer controlled so knowing the the
+
+206
+00:08:26,220 --> 00:08:30,180
+programming language is very important
+
+207
+00:08:27,960 --> 00:08:31,399
+and staying up to date on that computer
+
+208
+00:08:30,180 --> 00:08:33,839
+graphics
+
+209
+00:08:31,399 --> 00:08:36,959
+probably 75 percent of the commercial
+
+210
+00:08:33,839 --> 00:08:40,500
+hologram shot nowadays are computer
+
+211
+00:08:36,959 --> 00:08:44,520
+Graphics three-dimensional renderings uh
+
+212
+00:08:40,500 --> 00:08:46,200
+flat Photoshop Graphics not many models
+
+213
+00:08:44,520 --> 00:08:48,300
+being made nowadays for commercial
+
+214
+00:08:46,200 --> 00:08:50,459
+holography so understanding computer
+
+215
+00:08:48,300 --> 00:08:52,760
+Graphics is a strong point and then
+
+216
+00:08:50,459 --> 00:08:55,880
+basis of holography
+
+217
+00:08:52,760 --> 00:08:58,500
+understanding Optics optoelectronics
+
+218
+00:08:55,880 --> 00:09:01,560
+mechanical engineering things like that
+
+219
+00:08:58,500 --> 00:09:04,320
+are all important aspects of of how to
+
+220
+00:09:01,560 --> 00:09:06,120
+put together a setup how to operate a
+
+221
+00:09:04,320 --> 00:09:08,040
+laser and and what happens to
+
+222
+00:09:06,120 --> 00:09:09,300
+polarization and things like that when
+
+223
+00:09:08,040 --> 00:09:11,760
+you start bouncing off of different
+
+224
+00:09:09,300 --> 00:09:14,399
+mirrors and different Optics
+
+225
+00:09:11,760 --> 00:09:16,200
+um I don't know if that if you need to
+
+226
+00:09:14,399 --> 00:09:18,360
+walk in here and say I have a Physics
+
+227
+00:09:16,200 --> 00:09:20,459
+degree in this degree and that but a
+
+228
+00:09:18,360 --> 00:09:23,160
+very good understanding people who
+
+229
+00:09:20,459 --> 00:09:26,640
+understand uh computer computers
+
+230
+00:09:23,160 --> 00:09:29,940
+programming graphic arts and um uh
+
+231
+00:09:26,640 --> 00:09:32,760
+basics of holography with an emphasis
+
+232
+00:09:29,940 --> 00:09:35,279
+also on on optoelectronics they're the
+
+233
+00:09:32,760 --> 00:09:37,500
+kind of people that we would hire today
+
+234
+00:09:35,279 --> 00:09:39,420
+I find it interesting that you also
+
+235
+00:09:37,500 --> 00:09:40,740
+mentioned graphic skills along with that
+
+236
+00:09:39,420 --> 00:09:42,480
+because a lot of times when we think
+
+237
+00:09:40,740 --> 00:09:44,940
+about holography we think of it
+
+238
+00:09:42,480 --> 00:09:47,519
+basically in terms of physics Optics and
+
+239
+00:09:44,940 --> 00:09:50,700
+photonics but because the computer
+
+240
+00:09:47,519 --> 00:09:53,940
+itself has made its way into so many
+
+241
+00:09:50,700 --> 00:09:56,100
+areas of work today I rarely hear it
+
+242
+00:09:53,940 --> 00:09:57,660
+mention that computer skills would also
+
+243
+00:09:56,100 --> 00:09:59,580
+be needed so it was interesting that you
+
+244
+00:09:57,660 --> 00:10:01,920
+mentioned that as well it is important
+
+245
+00:09:59,580 --> 00:10:04,019
+and one one respect is
+
+246
+00:10:01,920 --> 00:10:06,420
+if you're a graphic designer you can be
+
+247
+00:10:04,019 --> 00:10:08,220
+exceptionally well at it if you're a
+
+248
+00:10:06,420 --> 00:10:11,580
+holographer you can be exceptionally
+
+249
+00:10:08,220 --> 00:10:13,620
+good holographer but one necessarily
+
+250
+00:10:11,580 --> 00:10:15,959
+can't work with the other a designer
+
+251
+00:10:13,620 --> 00:10:18,899
+doesn't know exactly how to design to
+
+252
+00:10:15,959 --> 00:10:22,019
+shoot a hologram and a helographer may
+
+253
+00:10:18,899 --> 00:10:23,339
+not know how to design to begin with so
+
+254
+00:10:22,019 --> 00:10:26,160
+you really need to have the best of both
+
+255
+00:10:23,339 --> 00:10:27,720
+skills to be able to design what you
+
+256
+00:10:26,160 --> 00:10:29,640
+want to get out of the finished hologram
+
+257
+00:10:27,720 --> 00:10:31,740
+that's also taking into account
+
+258
+00:10:29,640 --> 00:10:32,940
+different personality types as well
+
+259
+00:10:31,740 --> 00:10:35,100
+because you have someone who's
+
+260
+00:10:32,940 --> 00:10:36,720
+interested in physics and holography and
+
+261
+00:10:35,100 --> 00:10:38,339
+that's a certain personality type of
+
+262
+00:10:36,720 --> 00:10:40,200
+someone who's interested in science and
+
+263
+00:10:38,339 --> 00:10:41,760
+technology and then you have someone who
+
+264
+00:10:40,200 --> 00:10:43,200
+would be designing on one of your
+
+265
+00:10:41,760 --> 00:10:45,660
+workstations and that's more of a
+
+266
+00:10:43,200 --> 00:10:47,700
+creative type of personality so I can
+
+267
+00:10:45,660 --> 00:10:49,140
+see where these careers of the future
+
+268
+00:10:47,700 --> 00:10:51,180
+and this is definitely one of the
+
+269
+00:10:49,140 --> 00:10:53,519
+careers of the future where you need
+
+270
+00:10:51,180 --> 00:10:54,839
+quite a bit of a balance in an
+
+271
+00:10:53,519 --> 00:10:56,700
+individual when you're looking to employ
+
+272
+00:10:54,839 --> 00:10:59,040
+someone they need to be not only
+
+273
+00:10:56,700 --> 00:11:01,200
+creative but technically Savvy as well
+
+274
+00:10:59,040 --> 00:11:04,560
+do you see the field continuing to grow
+
+275
+00:11:01,200 --> 00:11:07,260
+very much so the projections that were
+
+276
+00:11:04,560 --> 00:11:09,000
+done in I believe 1997 estimated the
+
+277
+00:11:07,260 --> 00:11:12,540
+worldwide commercial industry for
+
+278
+00:11:09,000 --> 00:11:14,339
+holography at about one billion dollars
+
+279
+00:11:12,540 --> 00:11:17,940
+um that was reassured at our last
+
+280
+00:11:14,339 --> 00:11:19,940
+conference in 1999 in Florida at the
+
+281
+00:11:17,940 --> 00:11:23,399
+hollow pack conference
+
+282
+00:11:19,940 --> 00:11:25,800
+they do estimate I believe in 2002 or
+
+283
+00:11:23,399 --> 00:11:27,899
+2003 to for it to double to be a two
+
+284
+00:11:25,800 --> 00:11:30,839
+billion dollar industry when you're
+
+285
+00:11:27,899 --> 00:11:33,440
+getting to be that size worldwide uh and
+
+286
+00:11:30,839 --> 00:11:35,940
+that type of 30 to 35 growth every year
+
+287
+00:11:33,440 --> 00:11:38,300
+it is something that a lot of people are
+
+288
+00:11:35,940 --> 00:11:40,860
+paying more attention to
+
+289
+00:11:38,300 --> 00:11:43,399
+holography has proven itself as a
+
+290
+00:11:40,860 --> 00:11:46,740
+anti-theft device
+
+291
+00:11:43,399 --> 00:11:49,500
+holography has proven a self to capture
+
+292
+00:11:46,740 --> 00:11:52,079
+attention and just have a aesthetic
+
+293
+00:11:49,500 --> 00:11:54,540
+Beauty to it so uh it is worldwide
+
+294
+00:11:52,079 --> 00:11:57,000
+accepted and I do also see a lot of
+
+295
+00:11:54,540 --> 00:11:59,100
+different companies within the industry
+
+296
+00:11:57,000 --> 00:12:01,980
+spending a large amount of money on
+
+297
+00:11:59,100 --> 00:12:05,339
+Capital Equipment Capital Investments to
+
+298
+00:12:01,980 --> 00:12:07,860
+be the leader in the future or to
+
+299
+00:12:05,339 --> 00:12:09,480
+maintain staying leader in the future so
+
+300
+00:12:07,860 --> 00:12:11,899
+with all the money going into the
+
+301
+00:12:09,480 --> 00:12:15,480
+industry and all the feedback from the
+
+302
+00:12:11,899 --> 00:12:17,579
+consumers who utilize the Holograms I
+
+303
+00:12:15,480 --> 00:12:21,720
+expect at least for the next five ten
+
+304
+00:12:17,579 --> 00:12:23,579
+years to see this 30 growth with the
+
+305
+00:12:21,720 --> 00:12:25,380
+technology changing as fast as it's
+
+306
+00:12:23,579 --> 00:12:27,779
+changing now too how often do you see it
+
+307
+00:12:25,380 --> 00:12:29,640
+would be necessary to have one of your
+
+308
+00:12:27,779 --> 00:12:32,160
+employees that's doing the holography
+
+309
+00:12:29,640 --> 00:12:35,100
+learn new skills
+
+310
+00:12:32,160 --> 00:12:38,220
+well the toughest thing about this
+
+311
+00:12:35,100 --> 00:12:40,680
+business is being the best at it to
+
+312
+00:12:38,220 --> 00:12:43,079
+survive you need to be the best uh you
+
+313
+00:12:40,680 --> 00:12:45,300
+need to be new and you need to be unique
+
+314
+00:12:43,079 --> 00:12:47,760
+the people who do that and spend the
+
+315
+00:12:45,300 --> 00:12:49,560
+money on R D and development are the
+
+316
+00:12:47,760 --> 00:12:51,000
+people that will exceed and are the
+
+317
+00:12:49,560 --> 00:12:53,639
+people that have gained the reputation
+
+318
+00:12:51,000 --> 00:12:56,040
+as being innovators within the industry
+
+319
+00:12:53,639 --> 00:12:59,459
+as fast as holography in general or
+
+320
+00:12:56,040 --> 00:13:01,260
+lasers in general are changing which is
+
+321
+00:12:59,459 --> 00:13:04,500
+so rapid just from a few years ago
+
+322
+00:13:01,260 --> 00:13:06,660
+having to you know buy two heanies to
+
+323
+00:13:04,500 --> 00:13:09,260
+the diodes now the same thing is
+
+324
+00:13:06,660 --> 00:13:12,480
+happening within the hilography industry
+
+325
+00:13:09,260 --> 00:13:13,860
+so you really need to be at the
+
+326
+00:13:12,480 --> 00:13:16,019
+Forefront of it
+
+327
+00:13:13,860 --> 00:13:17,579
+things that you a Machinery that
+
+328
+00:13:16,019 --> 00:13:20,279
+normally would last in a printing
+
+329
+00:13:17,579 --> 00:13:22,500
+industry let's say for 10 20 30 years
+
+330
+00:13:20,279 --> 00:13:25,980
+can become obsolete in two to three
+
+331
+00:13:22,500 --> 00:13:28,139
+years within this industry so new
+
+332
+00:13:25,980 --> 00:13:30,240
+product development and things of the
+
+333
+00:13:28,139 --> 00:13:33,300
+along that line developing new
+
+334
+00:13:30,240 --> 00:13:36,420
+techniques uh in holography not only to
+
+335
+00:13:33,300 --> 00:13:39,839
+increase the efficiency lower the cost
+
+336
+00:13:36,420 --> 00:13:42,540
+but to create new visual effects is
+
+337
+00:13:39,839 --> 00:13:44,220
+something that's very very important and
+
+338
+00:13:42,540 --> 00:13:45,959
+you can say something new is coming out
+
+339
+00:13:44,220 --> 00:13:48,540
+every year at least
+
+340
+00:13:45,959 --> 00:13:50,579
+so essentially what you're saying is
+
+341
+00:13:48,540 --> 00:13:52,740
+that you're the one that's creating the
+
+342
+00:13:50,579 --> 00:13:54,360
+Innovative changes and it wouldn't be
+
+343
+00:13:52,740 --> 00:13:56,399
+that you would send someone out to learn
+
+344
+00:13:54,360 --> 00:13:57,660
+something new you're doing that here
+
+345
+00:13:56,399 --> 00:14:00,300
+yourself
+
+346
+00:13:57,660 --> 00:14:02,519
+yeah basically you have to take there's
+
+347
+00:14:00,300 --> 00:14:04,620
+no school to go to to learn the fastest
+
+348
+00:14:02,519 --> 00:14:06,720
+newest things in holography so you have
+
+349
+00:14:04,620 --> 00:14:09,420
+to teach yourself
+
+350
+00:14:06,720 --> 00:14:10,920
+um you have to come up with ideas you
+
+351
+00:14:09,420 --> 00:14:12,660
+have to spend the money and you have to
+
+352
+00:14:10,920 --> 00:14:14,459
+try to execute those ideas
+
+353
+00:14:12,660 --> 00:14:16,019
+some things that we've tried have really
+
+354
+00:14:14,459 --> 00:14:19,079
+paid off well our eye scan is
+
+355
+00:14:16,019 --> 00:14:21,959
+testimonial to that some things we've
+
+356
+00:14:19,079 --> 00:14:24,120
+we've tried were ridiculous and we spent
+
+357
+00:14:21,959 --> 00:14:26,160
+a lot of money and got nowhere but if we
+
+358
+00:14:24,120 --> 00:14:28,440
+didn't try we would have never known I
+
+359
+00:14:26,160 --> 00:14:31,019
+think a lot of people within the
+
+360
+00:14:28,440 --> 00:14:32,579
+industry are doing the same thing and
+
+361
+00:14:31,019 --> 00:14:34,019
+that goes back to the education end of
+
+362
+00:14:32,579 --> 00:14:36,000
+it you got to be smart enough and
+
+363
+00:14:34,019 --> 00:14:38,220
+well-rounded enough to be able to
+
+364
+00:14:36,000 --> 00:14:41,279
+program to be able to understand the
+
+365
+00:14:38,220 --> 00:14:44,100
+optoelectronics the physics and the
+
+366
+00:14:41,279 --> 00:14:45,899
+basis of holography knowing that you can
+
+367
+00:14:44,100 --> 00:14:48,240
+go off onto these tangents and come up
+
+368
+00:14:45,899 --> 00:14:49,620
+with ideas that may or may not work and
+
+369
+00:14:48,240 --> 00:14:52,920
+try it but that's the only way to
+
+370
+00:14:49,620 --> 00:14:54,480
+succeed is is to to be one step ahead of
+
+371
+00:14:52,920 --> 00:14:56,040
+everybody else and coming out with new
+
+372
+00:14:54,480 --> 00:14:58,320
+and new products
+
+373
+00:14:56,040 --> 00:14:59,699
+oh you know I'm an old-timer
+
+374
+00:14:58,320 --> 00:15:02,519
+and
+
+375
+00:14:59,699 --> 00:15:04,440
+when I look back successful holographers
+
+376
+00:15:02,519 --> 00:15:06,300
+were still in the basement and then I
+
+377
+00:15:04,440 --> 00:15:08,519
+drive up to International holographic
+
+378
+00:15:06,300 --> 00:15:11,100
+paper today and I see one of the most
+
+379
+00:15:08,519 --> 00:15:12,899
+beautiful complexes that I've ever seen
+
+380
+00:15:11,100 --> 00:15:14,579
+with holography anywhere this is
+
+381
+00:15:12,899 --> 00:15:17,339
+beautiful tell us a little about the
+
+382
+00:15:14,579 --> 00:15:18,899
+building here a square footage for your
+
+383
+00:15:17,339 --> 00:15:22,260
+Warehouse in different areas like that
+
+384
+00:15:18,899 --> 00:15:23,880
+well we came from a 8 000 square foot
+
+385
+00:15:22,260 --> 00:15:26,339
+broken up facility in Glenside
+
+386
+00:15:23,880 --> 00:15:29,579
+Pennsylvania we had this purpose built
+
+387
+00:15:26,339 --> 00:15:32,820
+for us about a year ago to this month as
+
+388
+00:15:29,579 --> 00:15:34,399
+a matter of fact and we designed it with
+
+389
+00:15:32,820 --> 00:15:36,959
+expansion in mind
+
+390
+00:15:34,399 --> 00:15:40,620
+we did a lot of separate special things
+
+391
+00:15:36,959 --> 00:15:42,300
+for hologography we have a 3D table in
+
+392
+00:15:40,620 --> 00:15:44,699
+there that you saw set up and that whole
+
+393
+00:15:42,300 --> 00:15:48,120
+room is free-floating that's on its own
+
+394
+00:15:44,699 --> 00:15:51,420
+slab it has isolation material around
+
+395
+00:15:48,120 --> 00:15:54,180
+the slab all the walls are floating off
+
+396
+00:15:51,420 --> 00:15:55,560
+of the slab on a separate piece little
+
+397
+00:15:54,180 --> 00:15:57,920
+things like that have really helped in
+
+398
+00:15:55,560 --> 00:16:01,320
+building this facility
+
+399
+00:15:57,920 --> 00:16:04,920
+basically we have uh 17 000 square feet
+
+400
+00:16:01,320 --> 00:16:07,620
+here now about 12 000 feet is production
+
+401
+00:16:04,920 --> 00:16:09,839
+and warehouse and we're seeing uh we're
+
+402
+00:16:07,620 --> 00:16:11,820
+running out of room very quickly as we
+
+403
+00:16:09,839 --> 00:16:14,100
+keep vertically integrating
+
+404
+00:16:11,820 --> 00:16:15,300
+again with the idea of reducing costs
+
+405
+00:16:14,100 --> 00:16:17,699
+giving better product and better
+
+406
+00:16:15,300 --> 00:16:20,339
+services to our clients we're running
+
+407
+00:16:17,699 --> 00:16:22,740
+out of space we do stock a tremendous
+
+408
+00:16:20,339 --> 00:16:24,959
+amount of holographic material uh
+
+409
+00:16:22,740 --> 00:16:26,540
+generic for the worldwide Commercial
+
+410
+00:16:24,959 --> 00:16:29,760
+Printing industry
+
+411
+00:16:26,540 --> 00:16:31,079
+and we do see that as you vertically
+
+412
+00:16:29,760 --> 00:16:33,740
+integrate you can we're going to need
+
+413
+00:16:31,079 --> 00:16:35,820
+another 10 000 square feet very quickly
+
+414
+00:16:33,740 --> 00:16:37,440
+especially when you get into some of the
+
+415
+00:16:35,820 --> 00:16:39,440
+large embossing and mass replicating
+
+416
+00:16:37,440 --> 00:16:41,880
+equipment the metalization
+
+417
+00:16:39,440 --> 00:16:43,500
+coding and priming things of that nature
+
+418
+00:16:41,880 --> 00:16:44,579
+before we close could you tell the
+
+419
+00:16:43,500 --> 00:16:45,959
+listeners a little bit about your
+
+420
+00:16:44,579 --> 00:16:47,100
+website and what they would find when
+
+421
+00:16:45,959 --> 00:16:53,120
+they go there
+
+422
+00:16:47,100 --> 00:16:56,120
+yeah uh our website is uh www it's ihp
+
+423
+00:16:53,120 --> 00:16:56,120
+hologram
+
+424
+00:16:56,660 --> 00:17:02,279
+h-o-l-o-g-r-a-m.com ihp hologram.com
+
+425
+00:16:59,839 --> 00:17:05,400
+basically uh we have a couple videos up
+
+426
+00:17:02,279 --> 00:17:08,100
+there explaining on how iscan works
+
+427
+00:17:05,400 --> 00:17:10,919
+also on how conventional dot matrix
+
+428
+00:17:08,100 --> 00:17:12,600
+holography works so you can have a
+
+429
+00:17:10,919 --> 00:17:14,939
+little bit of a comparison between the
+
+430
+00:17:12,600 --> 00:17:16,380
+old technology and the new and there's a
+
+431
+00:17:14,939 --> 00:17:17,880
+lot of neat photographs up on the
+
+432
+00:17:16,380 --> 00:17:19,799
+website showing a lot of our client
+
+433
+00:17:17,880 --> 00:17:23,579
+projects what we've been doing lately
+
+434
+00:17:19,799 --> 00:17:25,199
+it's also a e-files electronic
+
+435
+00:17:23,579 --> 00:17:27,900
+newsletter that we send out on a monthly
+
+436
+00:17:25,199 --> 00:17:29,160
+basis so if anybody would like to see
+
+437
+00:17:27,900 --> 00:17:31,380
+what's going on in the realm of
+
+438
+00:17:29,160 --> 00:17:33,299
+commercial holography they can sign up
+
+439
+00:17:31,380 --> 00:17:35,700
+and every month we send out something of
+
+440
+00:17:33,299 --> 00:17:37,440
+new new projects that we're doing that
+
+441
+00:17:35,700 --> 00:17:39,299
+they can see on their consumer shelves
+
+442
+00:17:37,440 --> 00:17:41,039
+okay I want to thank you very much for
+
+443
+00:17:39,299 --> 00:17:42,780
+being on the show and I'd like to let
+
+444
+00:17:41,039 --> 00:17:44,940
+the whole talk listeners know that there
+
+445
+00:17:42,780 --> 00:17:46,500
+is a link right on the holotalk page for
+
+446
+00:17:44,940 --> 00:17:49,620
+the international holographic Paper
+
+447
+00:17:46,500 --> 00:17:50,880
+website and I encourage you to click on
+
+448
+00:17:49,620 --> 00:17:52,980
+that go over and see what they're all
+
+449
+00:17:50,880 --> 00:17:54,960
+about and Brian thank you very much for
+
+450
+00:17:52,980 --> 00:17:57,200
+coming on the show thank you very much
+
+451
+00:17:54,960 --> 00:17:57,200
+Frank
+

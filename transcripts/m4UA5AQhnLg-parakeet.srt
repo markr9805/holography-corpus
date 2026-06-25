@@ -1,0 +1,1279 @@
+1
+00:00:00,560 --> 00:00:08,160
+Hello everyone and welcome to another week of HoloTalk for the week of February 15th, 1999.
+
+2
+00:00:08,160 --> 00:00:15,520
+And happy Valentine's Day to all the ladies who tune into the show from me to you.
+
+3
+00:00:15,520 --> 00:00:17,520
+This week, our guest is Dr.
+
+4
+00:00:17,520 --> 00:00:26,320
+Bert Myers, who for nearly 12 years worked with holographic medical imaging at the Veterans Administration Hospital in New Orleans, Louisiana.
+
+5
+00:00:26,320 --> 00:00:26,800
+Dr.
+
+6
+00:00:26,800 --> 00:00:36,240
+Myers worked to develop holography as a teaching tool, with the end result being three-dimensional holographic images in medical textbooks.
+
+7
+00:00:36,240 --> 00:00:36,960
+And Dr.
+
+8
+00:00:36,960 --> 00:00:42,160
+Myers will be on in just a minute to tell us about his research.
+
+9
+00:00:42,160 --> 00:00:52,240
+Upcoming guests and shows, we have Ron Olson coming up in two weeks, and you may have already seen Ron's Pulsed holography work with wildlife and portraits.
+
+10
+00:00:52,240 --> 00:00:57,920
+I'll be talking with him about that and also about his upcoming book to be published soon.
+
+11
+00:00:57,920 --> 00:01:18,560
+Other shows coming up will examine just how diverse a field holography is, with a show dedicated to holographic sound recordings, which will include a few incredible sound samples that you will be able to download and listen to, and also a show on how holography and holographic principles explain the world around us and the universe in which we live.
+
+12
+00:01:18,560 --> 00:01:24,800
+So we've got quite a few very exciting weeks coming up, and I hope you tune back in to enjoy them.
+
+13
+00:01:24,800 --> 00:01:31,760
+I had lunch with Steve Michael this past Saturday in a small town in Pennsylvania, which was midpoint traveling for both of us.
+
+14
+00:01:31,760 --> 00:01:33,920
+So hello to Steve if you're listening.
+
+15
+00:01:33,920 --> 00:01:41,360
+I had a chance to get a look at Steve's first split beam laser pointer hologram, and it was absolutely beautiful.
+
+16
+00:01:41,360 --> 00:01:54,480
+He did this using a $14.95 laser pointer, and the image quality was just as good as holograms he'd made using this 35 milliwatt spectrophysics he needed laser.
+
+17
+00:01:54,480 --> 00:02:04,440
+But more on that on a laser later show since we've taken quite a few shows lately devoted entirely to laser pointer holography, so keep tuned for updates on that.
+
+18
+00:01:59,520 --> 00:02:13,000
+Due to many requests, I now have all the past shows from this season as well as last season up on the web for your enjoyment.
+
+19
+00:02:13,000 --> 00:02:21,320
+And in the future, as each show moves down from one to another, I will post those shows and make them available to you right away.
+
+20
+00:02:21,320 --> 00:02:30,760
+I had planned on using reruns during the summer each week until each new fall season starts, but now you've got them all available to you in one shot.
+
+21
+00:02:30,760 --> 00:02:36,600
+So if you click on the link for past shows, you'll see them all posted there.
+
+22
+00:02:36,600 --> 00:02:42,600
+I've also received a few emails asking when I would be interviewed on HoloTalk.
+
+23
+00:02:42,600 --> 00:02:48,680
+Well, and while I appreciate the interest, I don't have any plans on being a guest anytime soon.
+
+24
+00:02:48,680 --> 00:02:50,760
+So maybe next season.
+
+25
+00:02:50,760 --> 00:03:01,320
+I will be appearing at the Tinton Falls, New Jersey Holiday Inn Conference Center as keynote speaker for the Central New Jersey Mensa conference on Saturday evening, March 6th.
+
+26
+00:03:01,320 --> 00:03:07,000
+If you'd like to come out to the presentation, send an email along and I'll return the details to you.
+
+27
+00:03:07,000 --> 00:03:08,760
+Okay, here's the interview with Dr.
+
+28
+00:03:08,760 --> 00:03:09,560
+Burt Myers.
+
+29
+00:03:09,560 --> 00:03:17,720
+I'm not coming back on after the interview, so I'll thank you for tuning in now and hope you continue to tune in each and every week for a new HoloTalk show.
+
+30
+00:03:17,720 --> 00:03:23,880
+But first, this quick message, and then right into the Burt Myers interview.
+
+31
+00:03:25,000 --> 00:03:31,560
+Would you like to make your own one-of-a-kind hologram and learn how you can start making holograms on your own at the same time?
+
+32
+00:03:31,560 --> 00:03:36,440
+You can do this and much more by attending one of Frank the Fratis's greatest holography workshops.
+
+33
+00:03:36,440 --> 00:03:40,600
+From beginner to advance, Frank's got a workshop that's just right for you.
+
+34
+00:03:40,600 --> 00:03:47,440
+From single afternoon, evening, or weekend introductory workshops to Wednesday evening five week complete courses.
+
+35
+00:03:44,840 --> 00:03:51,280
+And don't forget his newest workshop, laser pointer holography.
+
+36
+00:03:51,520 --> 00:04:03,040
+Located just off the northeast extension of the Pennsylvania Turn Hike and Interstate 78, the studio is a quick nonstop drive from the New York, Philadelphia and Baltimore, Washington DC areas.
+
+37
+00:04:03,040 --> 00:04:13,200
+For more information call the studio's toll-free hotline at one-eight hundred-four five eight three five two five and begin your own journey with holography today.
+
+38
+00:04:13,200 --> 00:04:25,120
+That's one eight hundred four five eight three five two five for more information on attending Frankie Freitas holography workshop today.
+
+39
+00:04:26,160 --> 00:04:27,120
+Hello Dr.
+
+40
+00:04:27,120 --> 00:04:27,840
+Myers.
+
+41
+00:04:27,840 --> 00:04:30,240
+Yes, this is Frankie Fratis, how are you?
+
+42
+00:04:30,240 --> 00:04:31,120
+Oh fine.
+
+43
+00:04:31,120 --> 00:04:32,560
+Do you have a few moments?
+
+44
+00:04:32,560 --> 00:04:33,600
+Yes I do.
+
+45
+00:04:33,600 --> 00:04:41,360
+I'd like to talk to you a little bit about the work that you did with the holography and the medical imaging uh for the HoloTalk show.
+
+46
+00:04:41,360 --> 00:04:49,360
+And uh I'd also like to ask you if you could tell the listeners a little bit about the X-ray photography that you did years ago.
+
+47
+00:04:49,360 --> 00:05:10,880
+Uh years ago I in my medical research studied um a surgeon wound healing how wounds heal and I was very interested in whether the rate of blood vessels grow into wounds would affect the healing and whether we could speed it up or slow it down.
+
+48
+00:05:10,880 --> 00:05:11,520
+Mm-hmm.
+
+49
+00:05:11,520 --> 00:05:21,280
+And uh workout techniques of taking X rays of the very tiny blood vessels, capillaries and what's called microcirculation.
+
+50
+00:05:21,280 --> 00:05:26,640
+And looking at those x-rays, some of them look like abstract art.
+
+51
+00:05:26,640 --> 00:05:29,880
+They were bizarre lines running all over the place.
+
+52
+00:05:29,680 --> 00:05:35,880
+I thought it might be interesting to pursue X rays and art form.
+
+53
+00:05:35,880 --> 00:05:43,400
+I started X raying shells and flowers and just about anything else caught my fancy.
+
+54
+00:05:43,400 --> 00:05:46,680
+Developed it into sort of an art form.
+
+55
+00:05:46,680 --> 00:05:50,280
+I wasn't the first to do it, although I didn't know it at the time.
+
+56
+00:05:50,280 --> 00:05:57,320
+There were already two other people in the United States doing it and since then two or three more have taken it up.
+
+57
+00:05:57,320 --> 00:05:58,280
+I see.
+
+58
+00:05:58,280 --> 00:06:01,480
+And you've recently begun working with that again, haven't you?
+
+59
+00:06:01,480 --> 00:06:06,840
+Yeah well, I got into holography much later.
+
+60
+00:06:06,840 --> 00:06:24,040
+I've always had a research lab and the my funding uh in other words I had no grant money to hire technicians and do the work but I had a very nice lab with the dark room as part of it.
+
+61
+00:06:24,040 --> 00:06:24,920
+Mm-hmm.
+
+62
+00:06:24,920 --> 00:06:35,000
+And I was looking for something new to do and I had the strong background in photography, having studied with Anthil Adams years ago.
+
+63
+00:06:35,000 --> 00:06:36,600
+Oh no kidding.
+
+64
+00:06:36,600 --> 00:06:39,240
+Yeah, back in nineteen seventy.
+
+65
+00:06:39,240 --> 00:06:40,520
+Wow.
+
+66
+00:06:40,520 --> 00:06:43,560
+Did you ever have any of your work in readers digest?
+
+67
+00:06:43,560 --> 00:06:44,280
+Yes I did.
+
+68
+00:06:44,280 --> 00:06:54,920
+No, the X ray Red Digest did a article on my X ray photography sometime in the eighties, I don't remember exactly when Yeah I remember seeing that.
+
+69
+00:06:54,920 --> 00:06:56,040
+Yeah.
+
+70
+00:06:56,040 --> 00:07:01,560
+I thought it went back a little further than the eighties, but maybe it was the eighties, considering it's almost two thousand now.
+
+71
+00:07:01,560 --> 00:07:04,040
+The eighties would be almost twenty years ago now.
+
+72
+00:07:04,040 --> 00:07:06,600
+What you were doing with holography is very interesting.
+
+73
+00:07:06,600 --> 00:07:11,600
+I I have a few of the holograms that you sent me and I still exhibit them.
+
+74
+00:07:11,640 --> 00:07:28,400
+Well my original intention was that three dimensional images would be better teaching devices than conventional ones and the feel had just started and they were just developing methods of mass producing the images.
+
+75
+00:07:28,400 --> 00:07:39,120
+Mm-hmm by uh well Polaroid had come out with its for the Palmer film and the forgot what you call 'em, the staffed images.
+
+76
+00:07:39,120 --> 00:07:40,320
+Oh the embossed hologram.
+
+77
+00:07:42,800 --> 00:07:51,920
+I thought there was no reason those couldn't be in textbooks and they would be better teaching devices than the usual ones.
+
+78
+00:07:51,920 --> 00:08:01,840
+So I set up a lab basically to make holograms for teaching purposes and spent about twelve years doing that.
+
+79
+00:08:01,840 --> 00:08:06,240
+Made holograms of bones and various tissue specimens.
+
+80
+00:08:06,240 --> 00:08:12,080
+Now you were using continuous wave Yeah, I I didn't have a pulse laser, although I wanted one.
+
+81
+00:08:12,080 --> 00:08:16,800
+I applied for several grants to buy a pulse laser but never.
+
+82
+00:08:16,800 --> 00:08:18,480
+It was never funded.
+
+83
+00:08:18,480 --> 00:08:22,080
+So I used a he need like everyone else at the time.
+
+84
+00:08:22,080 --> 00:08:22,560
+Yeah.
+
+85
+00:08:22,560 --> 00:08:30,000
+I remember ri you writing to me uh when you were in your lab, that was down at the Veterans Administration hospital in New Orleans, right?
+
+86
+00:08:30,000 --> 00:08:30,640
+Right.
+
+87
+00:08:30,640 --> 00:08:35,600
+And you said that you actually had an air conditioning unit that was right outside of your lab, right?
+
+88
+00:08:35,600 --> 00:08:47,680
+Well when I first star I had this lab for the wound work and it was a a beautiful it just happens one of the other investigators here won the Nobel Prize.
+
+89
+00:08:47,680 --> 00:08:56,080
+And Congress got all excited 'cause the first time a VA investigator had won the Nobel Prize, basically said, What do you want?
+
+90
+00:08:56,080 --> 00:08:58,800
+We want you to stay in the VA.
+
+91
+00:08:58,800 --> 00:09:01,480
+Well we'll indicate so I need space.
+
+92
+00:09:01,480 --> 00:09:08,280
+So they built him a beautiful building and all the other investigators like me got space in it.
+
+93
+00:09:08,280 --> 00:09:09,160
+Oh, I see.
+
+94
+00:09:09,160 --> 00:09:18,280
+So I had this brand new space with a dark room in it to do the X ray work, and I thought I'd just start doing hologram.
+
+95
+00:09:18,280 --> 00:09:21,000
+I took TJ's course, this Dr.
+
+96
+00:09:21,000 --> 00:09:26,520
+Jung in Lake Forest, who at the time was considered the best teacher.
+
+97
+00:09:26,520 --> 00:09:32,600
+And with my background photography I thought I'd have no trouble making images.
+
+98
+00:09:32,600 --> 00:09:44,200
+So I got back to New Orleans, I bought a laser, made a homemade table, and for one year got absolutely no images, just blank film.
+
+99
+00:09:44,200 --> 00:09:45,240
+No kidding.
+
+100
+00:09:45,240 --> 00:10:00,440
+And uh I was really stumped and finally realized the problem was immediately below the lab was the main air conditioning unit for the animal lab where they kept the dogs and the rabbits and the rats.
+
+101
+00:10:00,440 --> 00:10:06,280
+It was a hundred and twenty horsepower motor that basically was running continuously.
+
+102
+00:10:06,280 --> 00:10:09,000
+It was probably attached to the ceiling below you, right?
+
+103
+00:10:09,000 --> 00:10:13,640
+I don't know, but it was obviously shaking the room too m I wasn't aware of it.
+
+104
+00:10:13,640 --> 00:10:14,920
+I didn't feel the hear.
+
+105
+00:10:15,800 --> 00:10:17,640
+I got no holograms.
+
+106
+00:10:18,040 --> 00:10:18,760
+Jeez.
+
+107
+00:10:19,000 --> 00:10:23,240
+Finally I talked somebody in the swapping labs with me.
+
+108
+00:10:23,240 --> 00:10:30,840
+It was in the same building but it was at the other end, which it wasn't ideal, but at least I was able to get images.
+
+109
+00:10:30,840 --> 00:10:31,400
+Yeah.
+
+110
+00:10:31,400 --> 00:10:34,760
+And I kept that space for twelve years.
+
+111
+00:10:34,760 --> 00:10:50,320
+Yeah, there was a special process that had to be used for a lot of the items that you made a hologram of, such as uh Well because of the uh all living things contain water and as the water evaporates the cell shrink.
+
+112
+00:10:50,400 --> 00:10:53,680
+That includes both plants and animals.
+
+113
+00:10:53,680 --> 00:11:01,440
+And human tissue has to be kept in formaldehyde or something similar or in rocks.
+
+114
+00:11:01,440 --> 00:11:08,000
+And as long as it's submerged in the pre preservative it'll keep indefinitely.
+
+115
+00:11:08,000 --> 00:11:14,640
+But if you take it out like to put it on a hologram table it would dry out quickly and you'd have nothing.
+
+116
+00:11:14,640 --> 00:11:15,200
+Mm-hmm.
+
+117
+00:11:15,200 --> 00:11:41,840
+There is another way of preserving tissue discovered by a German pathologist in which he put the tissue in a very high vacuum and literally sucked all the water out of the cells, then replaced it with a resin or plastic so that the final product was essentially water free and fairly rigid.
+
+118
+00:11:41,840 --> 00:11:47,120
+It looked like the original specimen except some of the color was gone.
+
+119
+00:11:47,120 --> 00:11:51,680
+Mm-hmm and he claimed they would last in half forever.
+
+120
+00:11:51,680 --> 00:11:52,480
+No kidding.
+
+121
+00:11:52,480 --> 00:11:59,120
+He called the technique plastination and a lot of labs around the world do it.
+
+122
+00:11:59,360 --> 00:12:02,560
+United States there's one main one.
+
+123
+00:12:02,560 --> 00:12:06,400
+It's in Mercer University in Macon, Georgia.
+
+124
+00:12:06,400 --> 00:12:07,440
+Okay.
+
+125
+00:12:07,440 --> 00:12:17,280
+And I uh was able to get what happened was the man that did uh plastinate specimens used them for teach.
+
+126
+00:12:17,280 --> 00:12:21,520
+Well they they do last forever but they're not indestructible.
+
+127
+00:12:21,520 --> 00:12:25,440
+If you hand them out to medical students they would wear away.
+
+128
+00:12:25,440 --> 00:12:25,920
+Yeah.
+
+129
+00:12:25,920 --> 00:12:35,640
+So about twenty years before he had the idea of making holograms of the specimens and using the holograms as a teaching device.
+
+130
+00:12:36,040 --> 00:12:41,400
+He had applied for an NIH grant and was turned down and basically he forgot about it.
+
+131
+00:12:41,400 --> 00:13:07,960
+Meanwhile, years later one of my ex residents at LSU and World became chairman of the department of surgery at Mercer and mentioned there was someone in Owens doing medical holography and the other guy remembered and he got us together and so he started sending me his specimens which I would make the holograms on and send them back.
+
+132
+00:13:07,960 --> 00:13:16,680
+So I was able to get good holograms of human specimens, cancers and various things.
+
+133
+00:13:16,680 --> 00:13:17,480
+Yeah.
+
+134
+00:13:17,480 --> 00:13:25,160
+Had another funny story, I he retired and told me he w he didn't know if the school was gonna replace him.
+
+135
+00:13:25,160 --> 00:13:37,320
+So I was looking for another source of specimens and I got on the web and somebody from Montreal wrote back that he he did splastination too.
+
+136
+00:13:37,320 --> 00:13:41,240
+So I emailed him, would he lend me the specimens?
+
+137
+00:13:41,240 --> 00:13:48,280
+And he said, Yes, but only during the summer 'cause we do use 'em to teach to give to the students.
+
+138
+00:13:48,280 --> 00:13:48,600
+Mm.
+
+139
+00:13:48,680 --> 00:13:54,760
+So I so I said, Fine, mail me two or three next summer, I'll get 'em back for school opens.
+
+140
+00:13:54,840 --> 00:13:57,640
+He said, I'll do better, I'll bring 'em down.
+
+141
+00:13:58,040 --> 00:14:00,360
+I said, Well, you don't have to do that.
+
+142
+00:14:00,360 --> 00:14:03,800
+He said, Well, I'd like see New Orleans, that's a good excuse.
+
+143
+00:14:04,200 --> 00:14:07,400
+So he arrives and I got two shocks.
+
+144
+00:14:07,400 --> 00:14:09,480
+One, he didn't speak English.
+
+145
+00:14:10,200 --> 00:14:19,920
+He was a French, you know, one of the Quebecans that don't pride themselves, they don't I mean he knew English, but it was beneath him Yeah, yeah.
+
+146
+00:14:14,920 --> 00:14:20,480
+To speak.
+
+147
+00:14:20,560 --> 00:14:30,160
+Well course he did speak English and we we we were able to communicate but he gave me three specimens that I kept and were able to image.
+
+148
+00:14:30,160 --> 00:14:43,520
+Now if someone's out there listening to this show that does holography and they'd like to do some of these medical images, is it very expensive to order some of these uh I don't know I don't think any are sold.
+
+149
+00:14:43,520 --> 00:14:44,320
+Oh I see.
+
+150
+00:14:44,320 --> 00:15:01,280
+Uh I could give you this Mercer he could just I don't know if my friend who was supposed to retire has been replaced, but it's Department of Pathology, Mercer University School of Medicine, Making Georgia.
+
+151
+00:15:01,280 --> 00:15:01,840
+Mm-hmm.
+
+152
+00:15:01,840 --> 00:15:03,600
+That's enough address.
+
+153
+00:15:03,600 --> 00:15:07,520
+And if someone's doing it he may be glad to lend 'em to me.
+
+154
+00:15:07,520 --> 00:15:08,400
+Yeah.
+
+155
+00:15:08,400 --> 00:15:12,400
+So the images that you sent to me were very nice.
+
+156
+00:15:12,400 --> 00:15:16,080
+I think you sent uh the inside of a heart to me.
+
+157
+00:15:16,080 --> 00:15:20,320
+Well I made maybe a hundred in the twelve years and you know, it were good.
+
+158
+00:15:20,320 --> 00:15:23,600
+I had a lot of others that were you know, not so bright.
+
+159
+00:15:23,600 --> 00:15:26,400
+Why why do you think that there was never funding for this?
+
+160
+00:15:26,400 --> 00:15:30,240
+It seems like it would be like a very well interesting aspect.
+
+161
+00:15:30,240 --> 00:15:36,320
+Well uh my feeling I just truly could not get anybody else interested in it other than me.
+
+162
+00:15:36,320 --> 00:15:40,480
+I would I even gave some to my own medical school.
+
+163
+00:15:40,480 --> 00:15:48,720
+I gave 'em a framed hologram and uh track light with a hundred watt housing bulb in it to display it.
+
+164
+00:15:48,960 --> 00:15:51,280
+Free and they wouldn't even hang it up.
+
+165
+00:15:51,280 --> 00:15:55,120
+Like see that is just s I just can't even comprehend that.
+
+166
+00:15:55,120 --> 00:15:59,680
+Yeah, well that's you you're one of the few optimists in the field.
+
+167
+00:15:59,960 --> 00:16:03,640
+Most of the people I talked to had similar experiences to mine.
+
+168
+00:16:03,640 --> 00:16:09,640
+Nobody is it really interesting, you know, you go to a meeting and they say, gee that's pretty but that's the end of it.
+
+169
+00:16:09,880 --> 00:16:11,480
+Yeah, that's the end of it.
+
+170
+00:16:11,480 --> 00:16:17,080
+Yeah there was actually a company that was manufacturing a holographic viewer for medical uh images as well.
+
+171
+00:16:17,080 --> 00:16:18,040
+Yeah, X ray.
+
+172
+00:16:18,040 --> 00:16:19,800
+That was called Voxel.
+
+173
+00:16:19,800 --> 00:16:21,160
+Yeah, Vox L Yeah.
+
+174
+00:16:21,160 --> 00:16:22,680
+They had a great idea.
+
+175
+00:16:22,680 --> 00:16:33,240
+They could take any image on magnetic tape that CTs, MRs, phonograms, whatever.
+
+176
+00:16:33,240 --> 00:16:40,600
+And that was in slices, like all them are and put all the slices in the one hologram.
+
+177
+00:16:40,600 --> 00:16:47,720
+So you had one sheet of film which had a full three D image of the what the technique showed.
+
+178
+00:16:47,720 --> 00:16:49,080
+And they were beautiful.
+
+179
+00:16:49,080 --> 00:16:59,400
+Mm they had worked the technique a man named Stephen Hart, who was actually an astronomer from Australia, uh no, England I think.
+
+180
+00:17:00,920 --> 00:17:05,800
+And he he worked the technique out and got f he got funding.
+
+181
+00:17:05,800 --> 00:17:07,160
+He even went public.
+
+182
+00:17:07,160 --> 00:17:08,920
+They sold stock in it.
+
+183
+00:17:08,920 --> 00:17:09,880
+Yeah.
+
+184
+00:17:09,880 --> 00:17:12,760
+And for a while it looked like they were doing great.
+
+185
+00:17:12,760 --> 00:17:16,840
+At least the stock went up for a little while.
+
+186
+00:17:16,840 --> 00:17:24,680
+Then the problem they had, their idea was to sell hospitals the machines to make the hologram.
+
+187
+00:17:24,680 --> 00:17:36,920
+Now they had made some they had the hospital send them the magnetic tank, either by mail or if you had a fast data line, I think they call it ISDN line.
+
+188
+00:17:36,920 --> 00:17:37,400
+Yeah.
+
+189
+00:17:37,400 --> 00:17:48,240
+They would send the C T to the California thing and they would make the hologram in twenty four hours and send it back air express.
+
+190
+00:17:48,240 --> 00:17:52,240
+And doing that they were able to make beautiful images.
+
+191
+00:17:52,240 --> 00:18:00,960
+Then they would they were a stock company trying to make money and their idea was to sell a machine to do this on site.
+
+192
+00:18:00,960 --> 00:18:07,600
+And they spent five years and I don't know how many millions of dollars but never got the machine to work.
+
+193
+00:18:08,160 --> 00:18:10,480
+The usual problems I think motion.
+
+194
+00:18:10,480 --> 00:18:15,680
+They had not whoever made the machine for 'em had never made a holography.
+
+195
+00:18:15,680 --> 00:18:24,080
+They'd made photographic coping machines and they didn't realize how strict the vibration control had to be.
+
+196
+00:18:24,080 --> 00:18:26,960
+But uh that's my opinion, that's not what they told.
+
+197
+00:18:27,120 --> 00:18:28,320
+Yeah, yeah.
+
+198
+00:18:28,320 --> 00:18:32,160
+Since I sweat it with motion for twelve years.
+
+199
+00:18:32,400 --> 00:18:51,680
+But the uh sad thing is they're bankrupt now and I don't know w what if anything's going on, but they're in the Los Angeles area and I was there about a year ago, they were still open, but I heard that they're not now, but I can't swear to them.
+
+200
+00:18:51,680 --> 00:18:55,200
+Yeah, but things were all right for them as long as they were doing the imaging, right?
+
+201
+00:18:55,200 --> 00:18:58,560
+It's when they started to think about manufacturing machines.
+
+202
+00:18:58,560 --> 00:19:00,960
+Well that was their idea from the beginning.
+
+203
+00:19:00,960 --> 00:19:01,600
+Yeah.
+
+204
+00:19:01,760 --> 00:19:10,160
+Last time I talked to Steve, he said he realized he made a mistake they should have just kept with the images and not try to market a machine.
+
+205
+00:19:10,160 --> 00:19:15,280
+But it's too late for that thing, unless maybe they're starting over again.
+
+206
+00:19:15,280 --> 00:19:18,240
+What was your assistant's name that worked in your lab for a while?
+
+207
+00:19:18,240 --> 00:19:19,840
+I cannot remember her name.
+
+208
+00:19:19,840 --> 00:19:22,080
+The assistant holographer that you had there for a while.
+
+209
+00:19:22,080 --> 00:19:22,800
+She was an artist.
+
+210
+00:19:23,120 --> 00:19:27,480
+Well she really wanted to see there was a young girl named Madeline Faust.
+
+211
+00:19:27,480 --> 00:19:28,040
+Yes.
+
+212
+00:19:28,040 --> 00:19:30,000
+Who was really a a sculptor.
+
+213
+00:19:30,520 --> 00:19:40,600
+She wanted to learn holography as an art farm and she worked with me really as a helper and but doing her own images.
+
+214
+00:19:40,600 --> 00:19:47,400
+But she at the time was single and had to earn a living as an artist, which is virtually impossible.
+
+215
+00:19:48,520 --> 00:19:51,640
+Although I think she was a capable artist.
+
+216
+00:19:51,640 --> 00:20:01,160
+Anyway, after we each had maybe twenty good images, we had a show at the most prestigious art gallery in New Orleans.
+
+217
+00:20:06,760 --> 00:20:13,960
+And that discouraged her 'cause she was looking at it, you know, a a way to earn money and she kinda quit after that.
+
+218
+00:20:13,960 --> 00:20:14,520
+Yeah.
+
+219
+00:20:14,520 --> 00:20:19,560
+Although she was still interested, she just didn't make any more.
+
+220
+00:20:19,560 --> 00:20:24,840
+Did you say at one point that you were trying to do holograms using the diodes?
+
+221
+00:20:24,840 --> 00:20:30,920
+I had the idea of when the diodes first came out.
+
+222
+00:20:30,920 --> 00:20:44,680
+I since I had originally studied with TJ, I kinda kept in touch with him and we never had a question, I'd call him and I asked him, Can you make holograms with these new cheap diodes and he said no.
+
+223
+00:20:44,680 --> 00:20:47,240
+And that I didn't even pursue it any further.
+
+224
+00:20:47,240 --> 00:20:48,040
+Hm.
+
+225
+00:20:48,040 --> 00:20:57,080
+Uh he said you probably could if you had a power supply to keep to get a coherent beam out of a dial.
+
+226
+00:20:57,080 --> 00:21:00,440
+He thought you needed a very constant power supply.
+
+227
+00:21:00,440 --> 00:21:00,920
+Yeah.
+
+228
+00:21:00,920 --> 00:21:07,080
+And he estimated to build a power supply would cost more than the a helium meal.
+
+229
+00:21:07,080 --> 00:21:08,040
+I don't know if he was wrong.
+
+230
+00:21:08,040 --> 00:21:10,440
+Apparently he was wrong 'cause you did.
+
+231
+00:21:11,640 --> 00:21:16,320
+Yeah, we're we are we're actually all in shock over this to tell you the truth.
+
+232
+00:21:14,760 --> 00:21:24,640
+Well it's it's it's a real improvement for the average person to be able to make hologram with a ten dollar laser.
+
+233
+00:21:24,640 --> 00:21:35,840
+Yeah, Steve Michael just reported last week that he was able to uh make an H one and H two copy so now we know that we can even do split beam holography with the uh diodes.
+
+234
+00:21:35,840 --> 00:21:37,920
+But they're incredibly stable.
+
+235
+00:21:37,920 --> 00:21:39,440
+Very, very stable.
+
+236
+00:21:39,440 --> 00:21:48,160
+I shot a beautiful eight by ten reflection hologram using uh the little seven ninety nine laser pointer and it's beautiful.
+
+237
+00:21:48,240 --> 00:21:50,640
+Has about eight inches of depth to it.
+
+238
+00:21:50,640 --> 00:21:53,840
+Well, I'm glad, you know, you pursuing it.
+
+239
+00:21:53,840 --> 00:22:02,880
+I what finally happened to me uh I uh the space I had in the research building is really for people with grants.
+
+240
+00:22:02,880 --> 00:22:03,520
+Yeah.
+
+241
+00:22:03,520 --> 00:22:08,320
+And I applied for five different grants and was always turned down.
+
+242
+00:22:08,320 --> 00:22:14,320
+The administration said, Well, you can keep your space till somebody with a grant needs it.
+
+243
+00:22:14,320 --> 00:22:14,720
+Yeah.
+
+244
+00:22:14,720 --> 00:22:16,960
+Well that happened last year.
+
+245
+00:22:16,960 --> 00:22:23,280
+A guy had a really brilliant idea of doing gene manipulation in space.
+
+246
+00:22:23,280 --> 00:22:26,880
+Apparently in zero gravity, things work differently.
+
+247
+00:22:26,880 --> 00:22:30,640
+And he got a big grant from NASA, I think.
+
+248
+00:22:30,640 --> 00:22:30,960
+Yeah.
+
+249
+00:22:30,960 --> 00:22:34,640
+And he needed the space, so I got evicted.
+
+250
+00:22:34,640 --> 00:22:36,240
+Which I really couldn't complain.
+
+251
+00:22:36,240 --> 00:22:38,720
+I had eleven years of free rent.
+
+252
+00:22:38,720 --> 00:22:39,440
+Yeah.
+
+253
+00:22:39,440 --> 00:22:48,560
+But when you when you take into consideration the crazy things that grants are given out for Well, you never know what what will be worthwhile twenty years from now.
+
+254
+00:22:48,560 --> 00:22:50,240
+You know, that's absolutely incredible.
+
+255
+00:22:50,240 --> 00:22:58,240
+I'm really sorry that you had such a hard time trying to uh trying to get some support with the work that you've done because it's beautiful work.
+
+256
+00:22:58,240 --> 00:23:06,520
+Well, I gave all the lasers and tables to uh a local university so at least somebody's using it.
+
+257
+00:23:06,520 --> 00:23:06,920
+Yeah.
+
+258
+00:23:06,920 --> 00:23:08,200
+Well hopefully they're using it.
+
+259
+00:23:08,200 --> 00:23:09,320
+I don't think they're using it.
+
+260
+00:23:09,320 --> 00:23:19,000
+They it I gave it to the physics department and they were not interested in making, you know, images from viewing, they were interested in teaching students the principals of white.
+
+261
+00:23:19,000 --> 00:23:19,720
+Yeah.
+
+262
+00:23:19,720 --> 00:23:33,240
+And the once I visited to see what they were doing with they were making holograms of mirrors showing that the hologram had the property of the mirrors, you know, convex, concave and flat.
+
+263
+00:23:33,240 --> 00:23:43,320
+Which was kind of an interesting project I would never thought of doing, but do you think you were just ahead of your time and that you're going to see uh a lot of medical holography in the future?
+
+264
+00:23:43,320 --> 00:23:47,640
+No, uh there's a lot of interest in in three D imaging in medicine.
+
+265
+00:23:47,640 --> 00:23:51,800
+But it may not be it might be holography, it might be computers.
+
+266
+00:23:51,800 --> 00:24:00,680
+Mm-hmm stereograms, I don't know which way it's going but I think there will be some three D imaging.
+
+267
+00:24:00,680 --> 00:24:17,560
+Now although I can't say that the history of that so the first three D image in medicine remember the view master little round wheel with two man that invented that apparently got fairly wealthy on it.
+
+268
+00:24:17,560 --> 00:24:32,760
+Anyway, when he retired he offered his services to Stanford University in Palo Alto and they made I think like five thousand stereograms of medical specimens for teaching.
+
+269
+00:24:32,760 --> 00:24:34,520
+But they had the same problem.
+
+270
+00:24:34,520 --> 00:24:36,240
+Nobody was interested in it.
+
+271
+00:24:36,200 --> 00:24:36,640
+Hm.
+
+272
+00:24:37,160 --> 00:24:42,560
+They even they tried to sell 'em, they even put out on a C D ROM now.
+
+273
+00:24:42,560 --> 00:24:54,960
+You can buy the whole anatomy course in three D but they they and the people that run that are enthused, but except for them that's about it in all the field of medicine.
+
+274
+00:24:54,960 --> 00:24:55,840
+What are you doing now?
+
+275
+00:24:55,840 --> 00:24:57,600
+Are you back with your X ray photographer?
+
+276
+00:24:57,600 --> 00:25:06,720
+Well I'm thinking about retiring from medicine and doing X ray photography full time, but probably won't for a year or two.
+
+277
+00:25:06,960 --> 00:25:11,280
+My health is still good and I enjoy working and teaching.
+
+278
+00:25:11,280 --> 00:25:12,080
+Mm-hmm.
+
+279
+00:25:12,080 --> 00:25:14,320
+You worked with Jeff Murray, didn't you?
+
+280
+00:25:14,320 --> 00:25:22,080
+Uh yeah, uh w I well reason I went to Jeff when I got my first spatial filter, I couldn't get that to line up.
+
+281
+00:25:22,080 --> 00:25:27,600
+Hm I'd heard about Jeff he had a school in San Francisco well actually within Petaluma Yeah.
+
+282
+00:25:27,600 --> 00:25:28,080
+Yeah.
+
+283
+00:25:28,080 --> 00:25:37,760
+And over the phone he said, Well I think I can teach you in three days how to work that thing so I went out there and learned how to line up spatial film.
+
+284
+00:25:37,760 --> 00:25:39,520
+And I stayed friendly with Jeff.
+
+285
+00:25:39,520 --> 00:25:42,960
+He he had he's out of the field too I think.
+
+286
+00:25:42,960 --> 00:25:43,520
+Yeah.
+
+287
+00:25:43,520 --> 00:25:50,080
+Actually I just heard today that he may be or is partnering with someone in New England.
+
+288
+00:25:50,080 --> 00:25:56,960
+Uh for in Hawaii well I'm glad to hear 'cause he is the most practical person in Halloween.
+
+289
+00:25:56,960 --> 00:26:05,440
+TJ knows the theory, but how to make some uh I found uh Jeff much more y easy to talk to.
+
+290
+00:26:05,440 --> 00:26:06,080
+Yeah.
+
+291
+00:26:06,080 --> 00:26:06,960
+It's a great guy.
+
+292
+00:26:06,960 --> 00:26:07,760
+Jeff's a great guy.
+
+293
+00:26:07,760 --> 00:26:10,320
+I've got to get him on the show.
+
+294
+00:26:10,320 --> 00:26:12,800
+Well if you can find him let me know his address.
+
+295
+00:26:12,800 --> 00:26:14,480
+I'd like to keep in touch with him.
+
+296
+00:26:14,480 --> 00:26:15,840
+Okay, I will do that.
+
+297
+00:26:15,840 --> 00:26:16,480
+Well, Dr.
+
+298
+00:26:16,480 --> 00:26:18,720
+Myers, I want to thank you very much for being on the show.
+
+299
+00:26:18,720 --> 00:26:33,080
+It was very interesting to hear about your work and I'd like to let the HoloTalk listeners know that we not only have audio this week, but we've got video as well because Doctor Myers actually produced you did about three videos on medical holography, didn't you?
+
+300
+00:26:33,080 --> 00:26:35,000
+I think I have three separate videos of yours.
+
+301
+00:26:35,240 --> 00:26:37,400
+Yeah, well the last one was a best one.
+
+302
+00:26:37,400 --> 00:26:39,240
+I kept trying to improve it.
+
+303
+00:26:39,240 --> 00:26:39,560
+Yeah.
+
+304
+00:26:39,560 --> 00:26:44,120
+And it got shorter with each one, so the last one's about nine minutes, uh.
+
+305
+00:26:44,120 --> 00:26:46,920
+Yeah, so that that would be the one I'd show.
+
+306
+00:26:46,920 --> 00:26:53,240
+We're going to uh the first one had all the theory in it and I find most people were bored with that.
+
+307
+00:26:53,240 --> 00:26:56,520
+The last one just explains w what the uses of it.
+
+308
+00:26:56,520 --> 00:26:57,240
+Yeah.
+
+309
+00:26:57,240 --> 00:27:11,400
+That's going to be on the web as well and you'll see a link for that right on the HoloTalk page below the link where the uh HoloTalk show and you can watch uh Doctor Myers' uh video on medical holography.
+
+310
+00:27:11,400 --> 00:27:13,320
+Doctor Myers, thank you very much.
+
+311
+00:27:13,320 --> 00:27:14,520
+And uh good luck.
+
+312
+00:27:14,520 --> 00:27:26,440
+I'm glad you uh Frank, you're still in the field doing new things like the laser meeting diodes and uh 'cause I still think there's hope for the field.
+
+313
+00:27:26,760 --> 00:27:32,040
+Just hope somebody else gets interested in it, but like five or ten of us in the United States.
+
+314
+00:27:32,040 --> 00:27:32,520
+Yeah.
+
+315
+00:27:32,520 --> 00:27:34,120
+Well I'm having a great time with it.
+
+316
+00:27:34,120 --> 00:27:36,040
+I feel like a kid all over again.
+
+317
+00:27:36,040 --> 00:27:41,400
+It's like a a whole new age of discovery for me 'cause it's a whole new road ahead.
+
+318
+00:27:41,400 --> 00:27:42,360
+Take care.
+
+319
+00:27:42,360 --> 00:27:43,160
+Fine, thank you.
+
+320
+00:27:43,480 --> 00:27:44,520
+Bye bye.

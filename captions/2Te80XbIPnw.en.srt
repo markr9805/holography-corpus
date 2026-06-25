@@ -1,0 +1,2816 @@
+1
+00:00:01,290 --> 00:00:06,000
+[Music]
+
+2
+00:00:03,719 --> 00:00:08,599
+hello everyone this is Frank defus and
+
+3
+00:00:06,000 --> 00:00:11,400
+welcome to Hol talk the internet's laser
+
+4
+00:00:08,599 --> 00:00:14,200
+and holography talk show enjoyed in over
+
+5
+00:00:11,400 --> 00:00:17,559
+42 countries throughout the world and
+
+6
+00:00:14,200 --> 00:00:17,559
+now here's this week's
+
+7
+00:00:18,960 --> 00:00:23,920
+[Music]
+
+8
+00:00:20,720 --> 00:00:26,920
+show hello everyone this is Frank defus
+
+9
+00:00:23,920 --> 00:00:29,560
+and welcome to the 2004 opening show of
+
+10
+00:00:26,920 --> 00:00:32,239
+holot talk now going into its eighth
+
+11
+00:00:29,560 --> 00:00:34,520
+year of broadcasting on the internet my
+
+12
+00:00:32,239 --> 00:00:36,800
+special guest for this show is Graham
+
+13
+00:00:34,520 --> 00:00:38,719
+Saxby who will be joining us via
+
+14
+00:00:36,800 --> 00:00:41,800
+satellite connection from the holot talk
+
+15
+00:00:38,719 --> 00:00:44,920
+Studio to his home in England as you may
+
+16
+00:00:41,800 --> 00:00:47,440
+or may not already be aware Graham has
+
+17
+00:00:44,920 --> 00:00:50,079
+just recently release the Third Edition
+
+18
+00:00:47,440 --> 00:00:52,719
+of practical holography which many
+
+19
+00:00:50,079 --> 00:00:55,079
+people myself included consider the
+
+20
+00:00:52,719 --> 00:00:56,000
+authoritative working manual for all
+
+21
+00:00:55,079 --> 00:00:58,399
+things
+
+22
+00:00:56,000 --> 00:01:00,960
+holographic I was contacted by his
+
+23
+00:00:58,399 --> 00:01:03,399
+publisher several weeks ago asking if I
+
+24
+00:01:00,960 --> 00:01:05,760
+would review the book and decided to up
+
+25
+00:01:03,399 --> 00:01:08,080
+the ante by suggesting that we do a live
+
+26
+00:01:05,760 --> 00:01:11,200
+program with graham to broadcast an
+
+27
+00:01:08,080 --> 00:01:13,840
+association with the book's release the
+
+28
+00:01:11,200 --> 00:01:17,520
+book is already available in England and
+
+29
+00:01:13,840 --> 00:01:20,560
+amazon.com has February 2004 posted as
+
+30
+00:01:17,520 --> 00:01:22,159
+its release date here in the US for
+
+31
+00:01:20,560 --> 00:01:24,759
+those listeners who would like to order
+
+32
+00:01:22,159 --> 00:01:26,840
+a copy in the UK along with those
+
+33
+00:01:24,759 --> 00:01:29,720
+listeners in the US that would like to
+
+34
+00:01:26,840 --> 00:01:32,560
+pre-order a copy I've included links on
+
+35
+00:01:29,720 --> 00:01:34,759
+the the holot talk page to amazon.com in
+
+36
+00:01:32,560 --> 00:01:37,479
+both the US and
+
+37
+00:01:34,759 --> 00:01:39,399
+UK I'd like to welcome all of the holot
+
+38
+00:01:37,479 --> 00:01:41,640
+talk listeners who have tuned into the
+
+39
+00:01:39,399 --> 00:01:43,280
+program and look forward to Bringing
+
+40
+00:01:41,640 --> 00:01:46,040
+additional programming throughout the
+
+41
+00:01:43,280 --> 00:01:49,159
+upcoming year it's always a pleasure and
+
+42
+00:01:46,040 --> 00:01:53,320
+an honor to be your host and now without
+
+43
+00:01:49,159 --> 00:01:55,640
+further delay here's Graham
+
+44
+00:01:53,320 --> 00:01:58,439
+Saxby hello everyone this is Frankie
+
+45
+00:01:55,640 --> 00:02:00,880
+frus and I have Graham Saxby on the line
+
+46
+00:01:58,439 --> 00:02:03,119
+how are you today Graham oh I'm fine
+
+47
+00:02:00,880 --> 00:02:05,560
+thank you yeah hello Frank how are
+
+48
+00:02:03,119 --> 00:02:08,479
+things on the other side of the pond
+
+49
+00:02:05,560 --> 00:02:10,840
+well a bit dull today and not very warm
+
+50
+00:02:08,479 --> 00:02:13,000
+but uh it looks like being a reasonable
+
+51
+00:02:10,840 --> 00:02:14,440
+sort of winter I hope that's nice that's
+
+52
+00:02:13,000 --> 00:02:16,200
+nice we're getting ready to go into a
+
+53
+00:02:14,440 --> 00:02:19,000
+very cold period here where would be
+
+54
+00:02:16,200 --> 00:02:21,560
+down in single digits and below zero oh
+
+55
+00:02:19,000 --> 00:02:23,480
+yes within the next week so and and to
+
+56
+00:02:21,560 --> 00:02:26,640
+and the past few days we were out with
+
+57
+00:02:23,480 --> 00:02:29,080
+t-shirts on so it's a quite a difference
+
+58
+00:02:26,640 --> 00:02:31,200
+yes how are you overall well we we've
+
+59
+00:02:29,080 --> 00:02:33,120
+been without te shirts for some time now
+
+60
+00:02:31,200 --> 00:02:35,680
+but it hasn't been really cold we we get
+
+61
+00:02:33,120 --> 00:02:37,959
+a bit of frost but uh in this part of
+
+62
+00:02:35,680 --> 00:02:39,640
+the world it's generally fairly warm
+
+63
+00:02:37,959 --> 00:02:43,280
+because we're we're fairly near some big
+
+64
+00:02:39,640 --> 00:02:45,720
+cities yes yes well we have we have a
+
+65
+00:02:43,280 --> 00:02:48,360
+very good connection yes so we're
+
+66
+00:02:45,720 --> 00:02:50,879
+thankful for that and I I thought we
+
+67
+00:02:48,360 --> 00:02:53,120
+would start off the interview by uh
+
+68
+00:02:50,879 --> 00:02:55,159
+jumping right into a few questions that
+
+69
+00:02:53,120 --> 00:02:59,080
+I'm sure a lot of the listeners have out
+
+70
+00:02:55,159 --> 00:03:02,959
+there and that is when the first edition
+
+71
+00:02:59,080 --> 00:03:08,400
+of practical holography came out in
+
+72
+00:03:02,959 --> 00:03:10,720
+1988 um it was well received and almost
+
+73
+00:03:08,400 --> 00:03:15,000
+instantaneously went into what we would
+
+74
+00:03:10,720 --> 00:03:17,879
+say could be the Bible of practical
+
+75
+00:03:15,000 --> 00:03:22,159
+practice of holography with the new
+
+76
+00:03:17,879 --> 00:03:25,040
+edition what's new oh well
+
+77
+00:03:22,159 --> 00:03:27,159
+um with the first edition really I was
+
+78
+00:03:25,040 --> 00:03:30,280
+just sort of putting together everything
+
+79
+00:03:27,159 --> 00:03:33,280
+that I knew about holography at the time
+
+80
+00:03:30,280 --> 00:03:34,799
+and uh as time went on it became more
+
+81
+00:03:33,280 --> 00:03:37,799
+and more obvious that there were bits
+
+82
+00:03:34,799 --> 00:03:41,519
+missing and things had moved on a bit
+
+83
+00:03:37,799 --> 00:03:44,239
+and U I went into a second edition and
+
+84
+00:03:41,519 --> 00:03:45,959
+now of course things have moved on again
+
+85
+00:03:44,239 --> 00:03:49,239
+and the most important thing of course
+
+86
+00:03:45,959 --> 00:03:51,680
+being that um lasers have suddenly come
+
+87
+00:03:49,239 --> 00:03:55,280
+down in price we've got diode lasers
+
+88
+00:03:51,680 --> 00:03:57,720
+which are really very good and people
+
+89
+00:03:55,280 --> 00:04:00,280
+can now pretty well literally make
+
+90
+00:03:57,720 --> 00:04:02,000
+holograms on the kitchen table yeah so
+
+91
+00:04:00,280 --> 00:04:04,599
+of course that was the first thing that
+
+92
+00:04:02,000 --> 00:04:07,120
+had to be amended and I had to put in
+
+93
+00:04:04,599 --> 00:04:09,280
+that sort of thing and some of us in the
+
+94
+00:04:07,120 --> 00:04:10,920
+Royal photographic society's holography
+
+95
+00:04:09,280 --> 00:04:14,079
+group have been doing quite a lot of
+
+96
+00:04:10,920 --> 00:04:16,680
+work on doing little workshops showing
+
+97
+00:04:14,079 --> 00:04:18,519
+people how they can make Holograms with
+
+98
+00:04:16,680 --> 00:04:20,639
+very simple lasers the sort of thing you
+
+99
+00:04:18,519 --> 00:04:23,440
+can buy in souvenir shops yeah I
+
+100
+00:04:20,639 --> 00:04:25,440
+actually bought one in Greece for under
+
+101
+00:04:23,440 --> 00:04:27,320
+two pound sterling and you couldn't even
+
+102
+00:04:25,440 --> 00:04:31,800
+buy the batteries in this country for
+
+103
+00:04:27,320 --> 00:04:34,400
+that sort of money and and really we've
+
+104
+00:04:31,800 --> 00:04:36,680
+been able to get quite good Holograms
+
+105
+00:04:34,400 --> 00:04:39,600
+I've done a lot of work with with Jeff
+
+106
+00:04:36,680 --> 00:04:42,479
+BL is a bit of an expert in the
+
+107
+00:04:39,600 --> 00:04:44,240
+processing system and he's involved some
+
+108
+00:04:42,479 --> 00:04:46,639
+very good
+
+109
+00:04:44,240 --> 00:04:49,720
+processing and the other thing of course
+
+110
+00:04:46,639 --> 00:04:52,919
+is that I've had to bring some of the um
+
+111
+00:04:49,720 --> 00:04:55,520
+applied holography up to date yes and
+
+112
+00:04:52,919 --> 00:04:59,120
+I've been keeping up with that because
+
+113
+00:04:55,520 --> 00:05:01,840
+um I have a company that U supplies me
+
+114
+00:04:59,120 --> 00:05:03,560
+with AB racts and I've got abstracts of
+
+115
+00:05:01,840 --> 00:05:05,800
+every paper that's been written on
+
+116
+00:05:03,560 --> 00:05:09,600
+holography or even mentioning holography
+
+117
+00:05:05,800 --> 00:05:11,400
+for the last 25 years so it's fairly
+
+118
+00:05:09,600 --> 00:05:13,199
+easy to keep up with that but it it's
+
+119
+00:05:11,400 --> 00:05:15,759
+rather surprising going through the
+
+120
+00:05:13,199 --> 00:05:19,680
+previous Edition um how little has
+
+121
+00:05:15,759 --> 00:05:22,319
+really been done yes and as far as as
+
+122
+00:05:19,680 --> 00:05:24,199
+far as display holography is concerned
+
+123
+00:05:22,319 --> 00:05:26,720
+really I think we reached the peak
+
+124
+00:05:24,199 --> 00:05:28,479
+several years ago MH and not very much
+
+125
+00:05:26,720 --> 00:05:30,280
+more has happened people have just got
+
+126
+00:05:28,479 --> 00:05:31,960
+better at it yeah
+
+127
+00:05:30,280 --> 00:05:34,800
+but of course there have been big
+
+128
+00:05:31,960 --> 00:05:37,720
+advances in data processing and that
+
+129
+00:05:34,800 --> 00:05:39,919
+sort of thing and um particularly in
+
+130
+00:05:37,720 --> 00:05:42,000
+embossed holography and security and so
+
+131
+00:05:39,919 --> 00:05:44,000
+forth yes that's I had to completely
+
+132
+00:05:42,000 --> 00:05:46,160
+rewrite the chapter on security
+
+133
+00:05:44,000 --> 00:05:47,759
+holography I guess I guess the answer
+
+134
+00:05:46,160 --> 00:05:50,000
+with electronic holography and the
+
+135
+00:05:47,759 --> 00:05:53,039
+transmission of this information is
+
+136
+00:05:50,000 --> 00:05:56,240
+going to come through uh compression oh
+
+137
+00:05:53,039 --> 00:06:00,840
+yes yes very much so and there's there's
+
+138
+00:05:56,240 --> 00:06:03,479
+a lot of work really um to be done with
+
+139
+00:06:00,840 --> 00:06:05,639
+um well you can call it electr
+
+140
+00:06:03,479 --> 00:06:08,639
+holography or something of that sort but
+
+141
+00:06:05,639 --> 00:06:10,599
+really it's um
+
+142
+00:06:08,639 --> 00:06:15,919
+using
+
+143
+00:06:10,599 --> 00:06:19,000
+um using electronic Imaging to produce
+
+144
+00:06:15,919 --> 00:06:21,240
+the objects for the holography rather
+
+145
+00:06:19,000 --> 00:06:24,479
+than anything else the other thing is of
+
+146
+00:06:21,240 --> 00:06:27,080
+course that with electronic Imaging we
+
+147
+00:06:24,479 --> 00:06:30,800
+still haven't really got down to the
+
+148
+00:06:27,080 --> 00:06:33,000
+sort of resolution that you need to make
+
+149
+00:06:30,800 --> 00:06:35,360
+the traditional sort of holograms with
+
+150
+00:06:33,000 --> 00:06:37,759
+off axis beams yeah at the moment they
+
+151
+00:06:35,360 --> 00:06:40,919
+can still really only make satisfactory
+
+152
+00:06:37,759 --> 00:06:43,680
+Holograms either with on axis beams like
+
+153
+00:06:40,919 --> 00:06:45,800
+garbor Holograms or the slightly
+
+154
+00:06:43,680 --> 00:06:46,880
+off-axis ones that you have with foror
+
+155
+00:06:45,800 --> 00:06:50,599
+transform
+
+156
+00:06:46,880 --> 00:06:54,800
+holograms for transform Holograms are
+
+157
+00:06:50,599 --> 00:06:57,560
+the the main sort of thing in data
+
+158
+00:06:54,800 --> 00:07:01,199
+processing right I remember back in the
+
+159
+00:06:57,560 --> 00:07:03,000
+late '70s perhaps early 80s and I think
+
+160
+00:07:01,199 --> 00:07:05,039
+the company was named aerodine but they
+
+161
+00:07:03,000 --> 00:07:07,639
+had a holographic printer that would
+
+162
+00:07:05,039 --> 00:07:10,039
+write out a computer generated hologram
+
+163
+00:07:07,639 --> 00:07:14,479
+pixel by pixel and I believe it took
+
+164
+00:07:10,039 --> 00:07:18,080
+like 12 hours for a 1 cm square area to
+
+165
+00:07:14,479 --> 00:07:20,360
+be written yes it would um that was one
+
+166
+00:07:18,080 --> 00:07:21,759
+of the troubles that um Steve Benson's
+
+167
+00:07:20,360 --> 00:07:24,319
+team had when they were trying to
+
+168
+00:07:21,759 --> 00:07:27,039
+produce holographic video MH they they
+
+169
+00:07:24,319 --> 00:07:30,199
+found that it would take 25 minutes to
+
+170
+00:07:27,039 --> 00:07:35,759
+print out a single um
+
+171
+00:07:30,199 --> 00:07:39,800
+television um picture yeah and of course
+
+172
+00:07:35,759 --> 00:07:41,720
+that really that was um how Benson's
+
+173
+00:07:39,800 --> 00:07:43,400
+rainbow Holograms came about because he
+
+174
+00:07:41,720 --> 00:07:45,759
+was trying to reduce the amount of
+
+175
+00:07:43,400 --> 00:07:47,960
+information by cutting out the vertical
+
+176
+00:07:45,759 --> 00:07:50,080
+Parallax MH and he finished up with a
+
+177
+00:07:47,960 --> 00:07:52,759
+rainbow hologram rather I think to his
+
+178
+00:07:50,080 --> 00:07:54,400
+surprise than everybody else's yeah and
+
+179
+00:07:52,759 --> 00:07:56,919
+of course that was the start of the
+
+180
+00:07:54,400 --> 00:07:59,879
+whole business of commercial OST
+
+181
+00:07:56,919 --> 00:08:02,240
+Holograms yeah that's amazing story with
+
+182
+00:07:59,879 --> 00:08:04,840
+the uh development of the rainbow
+
+183
+00:08:02,240 --> 00:08:06,199
+hologram basically due to the fact that
+
+184
+00:08:04,840 --> 00:08:07,520
+uh they were trying to decrease the
+
+185
+00:08:06,199 --> 00:08:09,840
+amount of information it would have to
+
+186
+00:08:07,520 --> 00:08:12,680
+be transmitted and written that's right
+
+187
+00:08:09,840 --> 00:08:15,919
+yeah yeah so we were all devastated when
+
+188
+00:08:12,680 --> 00:08:18,360
+Steve died of course yes very very sad
+
+189
+00:08:15,919 --> 00:08:22,440
+indeed yeah one one of the great
+
+190
+00:08:18,360 --> 00:08:24,800
+pioneers and such a wonderful fellow too
+
+191
+00:08:22,440 --> 00:08:27,319
+and I was proud to call him a friend of
+
+192
+00:08:24,800 --> 00:08:29,720
+mine Yeah we actually have an interview
+
+193
+00:08:27,319 --> 00:08:31,599
+on The holot Talk archive page with
+
+194
+00:08:29,720 --> 00:08:33,440
+Steve so if any of the listeners who are
+
+195
+00:08:31,599 --> 00:08:35,880
+new to the show have not have an
+
+196
+00:08:33,440 --> 00:08:37,719
+opportunity to U hear Steve Benton
+
+197
+00:08:35,880 --> 00:08:40,440
+there's a there's a show on the page
+
+198
+00:08:37,719 --> 00:08:42,039
+there oh yeah as well and I want to
+
+199
+00:08:40,440 --> 00:08:45,760
+thank you very much for uh coming on the
+
+200
+00:08:42,039 --> 00:08:48,640
+show by the way and and also for having
+
+201
+00:08:45,760 --> 00:08:51,120
+the publisher send that copy of the book
+
+202
+00:08:48,640 --> 00:08:54,000
+and um as usual it's an excellent book
+
+203
+00:08:51,120 --> 00:08:57,320
+and uh so so you're saying basically uh
+
+204
+00:08:54,000 --> 00:09:00,240
+what you feel are the the largest areas
+
+205
+00:08:57,320 --> 00:09:02,760
+uh of of inclusion or or new areas of
+
+206
+00:09:00,240 --> 00:09:05,040
+inclusion in the book would be uh the uh
+
+207
+00:09:02,760 --> 00:09:06,560
+diode holography and also several new
+
+208
+00:09:05,040 --> 00:09:09,519
+formulas that you have in the book as
+
+209
+00:09:06,560 --> 00:09:11,560
+well oh yes very much so and I I have to
+
+210
+00:09:09,519 --> 00:09:14,839
+be very grateful to Jeff blly for that
+
+211
+00:09:11,560 --> 00:09:16,800
+as well because he spent a lot of time
+
+212
+00:09:14,839 --> 00:09:20,880
+not only working out how to make red
+
+213
+00:09:16,800 --> 00:09:22,839
+sensitive di chromate but um how to make
+
+214
+00:09:20,880 --> 00:09:25,440
+your own holographic Emulsion from
+
+215
+00:09:22,839 --> 00:09:27,920
+scratch yes he's working in Cambridge
+
+216
+00:09:25,440 --> 00:09:30,320
+University at the moment um not on
+
+217
+00:09:27,920 --> 00:09:33,200
+holography as such but um using
+
+218
+00:09:30,320 --> 00:09:36,360
+holographic emotions in diagnostic
+
+219
+00:09:33,200 --> 00:09:38,920
+things what what he did very roughly is
+
+220
+00:09:36,360 --> 00:09:42,279
+to make a trivial hologram that is a
+
+221
+00:09:38,920 --> 00:09:45,079
+just a hologram of a mirror and then he
+
+222
+00:09:42,279 --> 00:09:47,360
+um subjects it to various sorts of
+
+223
+00:09:45,079 --> 00:09:49,160
+things you know bacteria and so forth
+
+224
+00:09:47,360 --> 00:09:52,040
+and from the color changes it's possible
+
+225
+00:09:49,160 --> 00:09:54,040
+to diagnose what's going on MH so it's
+
+226
+00:09:52,040 --> 00:09:56,279
+quite an exciting thing but it's not
+
+227
+00:09:54,040 --> 00:09:58,320
+direct holography as such yeah on the
+
+228
+00:09:56,279 --> 00:10:00,880
+other hand he has to have reliable
+
+229
+00:09:58,320 --> 00:10:03,600
+emulsions and so he had to work out how
+
+230
+00:10:00,880 --> 00:10:05,120
+to make them himself mhm and that of
+
+231
+00:10:03,600 --> 00:10:07,000
+course is something that I've been able
+
+232
+00:10:05,120 --> 00:10:08,320
+to publish in this new edition well
+
+233
+00:10:07,000 --> 00:10:10,839
+that's wonderful that that's in the book
+
+234
+00:10:08,320 --> 00:10:13,800
+and it's out there now the other thing
+
+235
+00:10:10,839 --> 00:10:16,800
+about it of course is that I I have
+
+236
+00:10:13,800 --> 00:10:19,959
+Rewritten the format completely MH then
+
+237
+00:10:16,800 --> 00:10:23,680
+the old one it was a bit text bookish
+
+238
+00:10:19,959 --> 00:10:28,079
+and um I've really taken the leaf out of
+
+239
+00:10:23,680 --> 00:10:30,760
+the open University's book and what they
+
+240
+00:10:28,079 --> 00:10:33,200
+do because they distance learning thing
+
+241
+00:10:30,760 --> 00:10:35,120
+their textbooks have to be pretty close
+
+242
+00:10:33,200 --> 00:10:37,560
+to having a tutor breathing down your
+
+243
+00:10:35,120 --> 00:10:40,320
+neck MH and therefore they they're all
+
+244
+00:10:37,560 --> 00:10:41,880
+sort of first person and uh you know
+
+245
+00:10:40,320 --> 00:10:45,959
+this is what I'm telling you kind of
+
+246
+00:10:41,880 --> 00:10:49,519
+thing yes and U they to keep the
+
+247
+00:10:45,959 --> 00:10:53,120
+continuity all the anecdotes and various
+
+248
+00:10:49,519 --> 00:10:55,959
+little side bits are actually put in
+
+249
+00:10:53,120 --> 00:10:57,959
+margins and the smaller diagrams go into
+
+250
+00:10:55,959 --> 00:11:01,480
+margins as well and that gives a much
+
+251
+00:10:57,959 --> 00:11:03,560
+better continuity yes and I I tried this
+
+252
+00:11:01,480 --> 00:11:05,800
+in the first place in the last book
+
+253
+00:11:03,560 --> 00:11:07,279
+which I did which wasn't altogether
+
+254
+00:11:05,800 --> 00:11:10,800
+about holography it was called the
+
+255
+00:11:07,279 --> 00:11:12,800
+science of Imaging and uh that was it's
+
+256
+00:11:10,800 --> 00:11:15,639
+about photography and television and
+
+257
+00:11:12,800 --> 00:11:18,600
+video and holography and everything
+
+258
+00:11:15,639 --> 00:11:20,399
+else and it worked so well that I I
+
+259
+00:11:18,600 --> 00:11:22,760
+thought I'd like to try the same format
+
+260
+00:11:20,399 --> 00:11:25,160
+for practical holography when we came to
+
+261
+00:11:22,760 --> 00:11:27,480
+rewrite it yeah it appears it's been
+
+262
+00:11:25,160 --> 00:11:29,959
+through a number of different Publishers
+
+263
+00:11:27,480 --> 00:11:33,240
+it started off with Apprentice Hall M
+
+264
+00:11:29,959 --> 00:11:36,279
+and Apprentice Hall um of course like
+
+265
+00:11:33,240 --> 00:11:38,360
+all these other firms say tremendous lot
+
+266
+00:11:36,279 --> 00:11:39,839
+of selling out to different companies
+
+267
+00:11:38,360 --> 00:11:43,320
+goes on and they finished up with
+
+268
+00:11:39,839 --> 00:11:45,360
+Pearson Education who found they hadn't
+
+269
+00:11:43,320 --> 00:11:48,440
+really got room for a book of that type
+
+270
+00:11:45,360 --> 00:11:51,560
+on their books and by very good fortune
+
+271
+00:11:48,440 --> 00:11:53,360
+I got in with the Institute of physics
+
+272
+00:11:51,560 --> 00:11:55,680
+publishing and I was doing some
+
+273
+00:11:53,360 --> 00:11:57,800
+freelance editing for them and they
+
+274
+00:11:55,680 --> 00:11:59,880
+thought it would be a very good idea to
+
+275
+00:11:57,800 --> 00:12:02,040
+take this book under the their wing as
+
+276
+00:11:59,880 --> 00:12:03,639
+it were and they they really have been
+
+277
+00:12:02,040 --> 00:12:04,839
+absolutely first class they've been
+
+278
+00:12:03,639 --> 00:12:07,480
+tremendously
+
+279
+00:12:04,839 --> 00:12:11,560
+helpful it does seem to appear that it's
+
+280
+00:12:07,480 --> 00:12:13,680
+evolved into somewhat more of a uh
+
+281
+00:12:11,560 --> 00:12:15,600
+beside the table workbook where
+
+282
+00:12:13,680 --> 00:12:19,000
+everything is broken down into
+
+283
+00:12:15,600 --> 00:12:20,959
+step-by-step modules exactly yes yes
+
+284
+00:12:19,000 --> 00:12:23,199
+that was just what I wanted to do in the
+
+285
+00:12:20,959 --> 00:12:25,079
+first place see when when I was actually
+
+286
+00:12:23,199 --> 00:12:27,800
+working
+
+287
+00:12:25,079 --> 00:12:31,199
+and partly uh at the Royal College of
+
+288
+00:12:27,800 --> 00:12:34,480
+Art and partly at w Hampton University
+
+289
+00:12:31,199 --> 00:12:36,959
+and I had these students and of course I
+
+290
+00:12:34,480 --> 00:12:38,839
+had to teach them as it were breathing
+
+291
+00:12:36,959 --> 00:12:40,920
+down their shoulders and I thought the
+
+292
+00:12:38,839 --> 00:12:45,600
+best thing I could do was to put that
+
+293
+00:12:40,920 --> 00:12:47,560
+into words as best I could mhm because I
+
+294
+00:12:45,600 --> 00:12:49,480
+mean I was getting older and I was
+
+295
+00:12:47,560 --> 00:12:52,160
+already beyond my retiring age and
+
+296
+00:12:49,480 --> 00:12:54,040
+they'd stopped paying me a salary people
+
+297
+00:12:52,160 --> 00:12:55,959
+were sort of breathing down my neck and
+
+298
+00:12:54,040 --> 00:12:57,720
+saying you know we we need this place we
+
+299
+00:12:55,959 --> 00:13:00,839
+need more office space What are you
+
+300
+00:12:57,720 --> 00:13:04,399
+doing working in here you should have
+
+301
+00:13:00,839 --> 00:13:06,639
+been retired long ago I I think it
+
+302
+00:13:04,399 --> 00:13:08,760
+happens to a lot of people in academic
+
+303
+00:13:06,639 --> 00:13:10,120
+life do you of course as soon as they
+
+304
+00:13:08,760 --> 00:13:13,279
+got rid of me they turned the whole
+
+305
+00:13:10,120 --> 00:13:16,120
+place into offices and that was that I I
+
+306
+00:13:13,279 --> 00:13:17,720
+was very lucky to be able to pick up the
+
+307
+00:13:16,120 --> 00:13:20,839
+equipment around the back door for a
+
+308
+00:13:17,720 --> 00:13:23,480
+fairly small sum but I'm unfortunately I
+
+309
+00:13:20,839 --> 00:13:25,839
+wasn't able to build myself my own lab
+
+310
+00:13:23,480 --> 00:13:28,279
+which I would have liked to do so and I
+
+311
+00:13:25,839 --> 00:13:31,360
+I sold off the bits to various friends
+
+312
+00:13:28,279 --> 00:13:33,120
+of mine in the profession profession oh
+
+313
+00:13:31,360 --> 00:13:36,760
+you're you're going around you're going
+
+314
+00:13:33,120 --> 00:13:40,760
+around and lecturing now yes yes I'm not
+
+315
+00:13:36,760 --> 00:13:43,880
+an awful lot and I like to feel I have
+
+316
+00:13:40,760 --> 00:13:44,560
+been able to retire a bit and look after
+
+317
+00:13:43,880 --> 00:13:47,199
+the
+
+318
+00:13:44,560 --> 00:13:49,079
+garden I I still do writing and editing
+
+319
+00:13:47,199 --> 00:13:52,079
+of course how often do you make it to
+
+320
+00:13:49,079 --> 00:13:55,040
+the states do you come over um well I I
+
+321
+00:13:52,079 --> 00:13:58,720
+used to come over regularly to Tong
+
+322
+00:13:55,040 --> 00:14:01,480
+jong's symposia at Lake Forest M but I
+
+323
+00:13:58,720 --> 00:14:04,800
+haven't able to get hold of get over
+
+324
+00:14:01,480 --> 00:14:08,440
+recently really for family reasons MH so
+
+325
+00:14:04,800 --> 00:14:10,920
+uh I I just have to wish them
+
+326
+00:14:08,440 --> 00:14:12,519
+well I I'd like to get over to the
+
+327
+00:14:10,920 --> 00:14:15,240
+states again but I just haven't been
+
+328
+00:14:12,519 --> 00:14:19,199
+able to what what's the holography
+
+329
+00:14:15,240 --> 00:14:26,880
+community like in um England right now
+
+330
+00:14:19,199 --> 00:14:29,480
+um well the the uh autistic side is it's
+
+331
+00:14:26,880 --> 00:14:31,320
+a bit weak in numbers but it's pretty
+
+332
+00:14:29,480 --> 00:14:34,639
+strong in creativity we' still got
+
+333
+00:14:31,320 --> 00:14:36,440
+Margaret benan of course yes and just
+
+334
+00:14:34,639 --> 00:14:39,240
+received uh what is the award that she
+
+335
+00:14:36,440 --> 00:14:42,440
+received from the queen oh she got the
+
+336
+00:14:39,240 --> 00:14:43,519
+uh MBE that's it's s of a member of the
+
+337
+00:14:42,440 --> 00:14:46,160
+British
+
+338
+00:14:43,519 --> 00:14:49,199
+Empire it's rather out ofate sort of
+
+339
+00:14:46,160 --> 00:14:51,399
+name MH but it's um it's one of the
+
+340
+00:14:49,199 --> 00:14:53,320
+senior honors it's not quite as good as
+
+341
+00:14:51,399 --> 00:14:56,759
+a Knighthood
+
+342
+00:14:53,320 --> 00:14:59,759
+yeah so so she's not sir Margaret benan
+
+343
+00:14:56,759 --> 00:15:03,720
+no no no she's she's too not is below
+
+344
+00:14:59,759 --> 00:15:05,320
+that okay but um it's certainly the
+
+345
+00:15:03,720 --> 00:15:08,639
+really I think the first Royal
+
+346
+00:15:05,320 --> 00:15:10,880
+recognition of holography mhm although
+
+347
+00:15:08,639 --> 00:15:12,720
+she knows Prince Charles he actually
+
+348
+00:15:10,880 --> 00:15:14,880
+visited when she was working in
+
+349
+00:15:12,720 --> 00:15:16,959
+Australia wow and asked her about
+
+350
+00:15:14,880 --> 00:15:19,600
+holographic portraiture well in those
+
+351
+00:15:16,959 --> 00:15:21,560
+days there weren't any pulse lasers MH
+
+352
+00:15:19,600 --> 00:15:24,600
+so that wasn't possible but we still
+
+353
+00:15:21,560 --> 00:15:27,639
+live in hopes
+
+354
+00:15:24,600 --> 00:15:31,120
+mhm uh is the program at RAC still
+
+355
+00:15:27,639 --> 00:15:33,639
+intact no it is I I get emails all the
+
+356
+00:15:31,120 --> 00:15:35,959
+time asking me about um yes it would
+
+357
+00:15:33,639 --> 00:15:38,839
+have been lovely it really was good I
+
+358
+00:15:35,959 --> 00:15:41,160
+mean I had quite a hand in in starting
+
+359
+00:15:38,839 --> 00:15:44,279
+the thing up because Michael Langford
+
+360
+00:15:41,160 --> 00:15:47,040
+who was head of Photography at that time
+
+361
+00:15:44,279 --> 00:15:51,279
+another chap who very sadly died an
+
+362
+00:15:47,040 --> 00:15:53,600
+awful lot too early he um he and I put
+
+363
+00:15:51,279 --> 00:15:57,399
+the idea together and we designed the
+
+364
+00:15:53,600 --> 00:16:00,160
+rooms and Nick Phillips and organized
+
+365
+00:15:57,399 --> 00:16:05,720
+all the equipment and we put this thing
+
+366
+00:16:00,160 --> 00:16:09,040
+together and ALT together we um we Tau
+
+367
+00:16:05,720 --> 00:16:12,920
+about 30 35 students and they all became
+
+368
+00:16:09,040 --> 00:16:15,240
+professional biographers MH but the real
+
+369
+00:16:12,920 --> 00:16:18,279
+trouble was that the Royal College of
+
+370
+00:16:15,240 --> 00:16:20,639
+Art will only take graduates MH see they
+
+371
+00:16:18,279 --> 00:16:26,440
+only award master's degrees and doctor's
+
+372
+00:16:20,639 --> 00:16:28,440
+degrees and and they it was drying up
+
+373
+00:16:26,440 --> 00:16:32,040
+because all various universities were
+
+374
+00:16:28,440 --> 00:16:34,920
+gradually giving up um holographic Labs
+
+375
+00:16:32,040 --> 00:16:37,959
+yeah mine was the last in fact um
+
+376
+00:16:34,920 --> 00:16:40,639
+Liverpool poly Technic with um Rod
+
+377
+00:16:37,959 --> 00:16:44,160
+Murray was the next before last and when
+
+378
+00:16:40,639 --> 00:16:47,680
+Rod left that he actually took over the
+
+379
+00:16:44,160 --> 00:16:49,959
+RCA and um then eventually when mine
+
+380
+00:16:47,680 --> 00:16:52,399
+packed up there were no more
+
+381
+00:16:49,959 --> 00:16:55,440
+graduates and so there were no more
+
+382
+00:16:52,399 --> 00:16:57,440
+students yeah and that was that and once
+
+383
+00:16:55,440 --> 00:16:59,560
+again the administrators marched in and
+
+384
+00:16:57,440 --> 00:17:02,639
+said oh we need more office
+
+385
+00:16:59,560 --> 00:17:05,400
+base and in any case the equipment was
+
+386
+00:17:02,639 --> 00:17:07,520
+beginning to get a bit old and sort of
+
+387
+00:17:05,400 --> 00:17:11,360
+studentized those students that went on
+
+388
+00:17:07,520 --> 00:17:15,360
+to uh obtain their graduate degree at uh
+
+389
+00:17:11,360 --> 00:17:17,039
+Royal College of Art uh in holography um
+
+390
+00:17:15,360 --> 00:17:19,280
+are they finding
+
+391
+00:17:17,039 --> 00:17:22,199
+employment well most of them are still
+
+392
+00:17:19,280 --> 00:17:25,600
+working freelance a lot of them have got
+
+393
+00:17:22,199 --> 00:17:27,319
+sort of daytime jobs yes but there
+
+394
+00:17:25,600 --> 00:17:29,600
+there's still quite a few who are
+
+395
+00:17:27,319 --> 00:17:32,600
+exhibiting regularly
+
+396
+00:17:29,600 --> 00:17:35,600
+and um some of the others the original
+
+397
+00:17:32,600 --> 00:17:39,960
+technician Rob Munday has has got his
+
+398
+00:17:35,600 --> 00:17:41,919
+own um his own company down in Su and
+
+399
+00:17:39,960 --> 00:17:44,919
+they're doing very well making large
+
+400
+00:17:41,919 --> 00:17:46,960
+Holograms and doing Masters for
+
+401
+00:17:44,919 --> 00:17:48,799
+embossing and that sort of thing that's
+
+402
+00:17:46,960 --> 00:17:50,919
+probably similar to John Perry's company
+
+403
+00:17:48,799 --> 00:17:54,000
+here holographics North up in Burlington
+
+404
+00:17:50,919 --> 00:17:56,520
+Vermont would imagine yes very much like
+
+405
+00:17:54,000 --> 00:17:59,559
+that and a number of others have gone on
+
+406
+00:17:56,520 --> 00:18:02,360
+to work for various companies
+
+407
+00:17:59,559 --> 00:18:04,320
+and do their own thing in holography on
+
+408
+00:18:02,360 --> 00:18:07,480
+the side well you you started in
+
+409
+00:18:04,320 --> 00:18:09,000
+photography right I imagine were you um
+
+410
+00:18:07,480 --> 00:18:11,000
+doing Imaging for the Air Force or
+
+411
+00:18:09,000 --> 00:18:14,919
+something Royal Air Force yes that's
+
+412
+00:18:11,000 --> 00:18:18,880
+right um in just after the war I was
+
+413
+00:18:14,919 --> 00:18:20,720
+actually working um working in aircraft
+
+414
+00:18:18,880 --> 00:18:23,559
+industry on wind tunnels and I
+
+415
+00:18:20,720 --> 00:18:25,480
+absolutely hated the job and I wanted to
+
+416
+00:18:23,559 --> 00:18:28,280
+be a photographer I was already doing
+
+417
+00:18:25,480 --> 00:18:29,360
+quite a lot of freelance work and at
+
+418
+00:18:28,280 --> 00:18:32,360
+that time
+
+419
+00:18:29,360 --> 00:18:35,320
+we still had national service so when
+
+420
+00:18:32,360 --> 00:18:37,640
+you were 18 you you got called up that
+
+421
+00:18:35,320 --> 00:18:40,360
+is you you got drafted and you did two
+
+422
+00:18:37,640 --> 00:18:42,640
+years in the Army MH and I was working
+
+423
+00:18:40,360 --> 00:18:45,320
+in the air aircraft industry so I was
+
+424
+00:18:42,640 --> 00:18:47,320
+excused that but if I left the aircraft
+
+425
+00:18:45,320 --> 00:18:49,880
+industry of course I would immediately
+
+426
+00:18:47,320 --> 00:18:51,799
+be conscripted into the army and spend
+
+427
+00:18:49,880 --> 00:18:53,880
+two years washing out the trains or
+
+428
+00:18:51,799 --> 00:18:56,640
+whatever it is that National servicemen
+
+429
+00:18:53,880 --> 00:18:59,120
+do the only way I could get out of that
+
+430
+00:18:56,640 --> 00:19:01,840
+was to join the RAF as a foot
+
+431
+00:18:59,120 --> 00:19:04,880
+photographer and of course I when I did
+
+432
+00:19:01,840 --> 00:19:07,799
+that I got all all proper training all
+
+433
+00:19:04,880 --> 00:19:09,679
+the Technical Training and became well I
+
+434
+00:19:07,799 --> 00:19:12,600
+hope is quite a good technical
+
+435
+00:19:09,679 --> 00:19:14,520
+photographer was that aerial photography
+
+436
+00:19:12,600 --> 00:19:17,280
+um aerial photography comes into it a
+
+437
+00:19:14,520 --> 00:19:19,600
+lot yeah but I was lucky enough to get
+
+438
+00:19:17,280 --> 00:19:22,480
+quite a lot of jobs doing ground
+
+439
+00:19:19,600 --> 00:19:24,280
+photography okay where I did everything
+
+440
+00:19:22,480 --> 00:19:27,880
+I spent a lot of time doing public
+
+441
+00:19:24,280 --> 00:19:29,520
+relations in Germany and I met a lot of
+
+442
+00:19:27,880 --> 00:19:32,120
+uh very excit exting people I
+
+443
+00:19:29,520 --> 00:19:34,960
+photographed almost all the royal family
+
+444
+00:19:32,120 --> 00:19:37,760
+and the German people Conor had an our
+
+445
+00:19:34,960 --> 00:19:41,000
+own company and there was one occasion
+
+446
+00:19:37,760 --> 00:19:44,120
+when uh I had I photographed General
+
+447
+00:19:41,000 --> 00:19:47,280
+galland he was he was the Red Baron of
+
+448
+00:19:44,120 --> 00:19:49,720
+the second world war and he was
+
+449
+00:19:47,280 --> 00:19:51,799
+presented back with his Iron Cross by
+
+450
+00:19:49,720 --> 00:19:54,520
+the chap who had shot him down during
+
+451
+00:19:51,799 --> 00:19:58,400
+the Battle of Britain it was all very
+
+452
+00:19:54,520 --> 00:20:01,360
+exciting he was most delightful man and
+
+453
+00:19:58,400 --> 00:20:03,600
+had all sorts of exciting assignment and
+
+454
+00:20:01,360 --> 00:20:06,760
+also unfortunately had a few
+
+455
+00:20:03,600 --> 00:20:08,720
+post-mortems and and crashed aircraft
+
+456
+00:20:06,760 --> 00:20:12,280
+and things like that so you know you
+
+457
+00:20:08,720 --> 00:20:14,159
+just had everything yeah and but the
+
+458
+00:20:12,280 --> 00:20:16,679
+aerial reconnaissance photography of
+
+459
+00:20:14,159 --> 00:20:19,360
+course was the big thing in those days M
+
+460
+00:20:16,679 --> 00:20:21,799
+and now there isn't very much of it what
+
+461
+00:20:19,360 --> 00:20:24,520
+there is is mostly sort of lowlevel
+
+462
+00:20:21,799 --> 00:20:26,360
+stuff OB having a look inside Woods at
+
+463
+00:20:24,520 --> 00:20:28,200
+very low level the high level stuff is
+
+464
+00:20:26,360 --> 00:20:30,919
+all done by satellites yeah yeah
+
+465
+00:20:28,200 --> 00:20:32,760
+obviously your interest in this uh
+
+466
+00:20:30,919 --> 00:20:35,760
+gravitated more towards the
+
+467
+00:20:32,760 --> 00:20:38,120
+technical yes but I I did an immense
+
+468
+00:20:35,760 --> 00:20:41,440
+amount of piture and weddings and things
+
+469
+00:20:38,120 --> 00:20:44,000
+like that oh yeah so I mean my my
+
+470
+00:20:41,440 --> 00:20:45,679
+general interest is actually in in
+
+471
+00:20:44,000 --> 00:20:49,440
+Landscapes and
+
+472
+00:20:45,679 --> 00:20:53,039
+architecture I have huge file about
+
+473
+00:20:49,440 --> 00:20:55,240
+20,000 photographs looking at them now
+
+474
+00:20:53,039 --> 00:20:59,600
+that's stacked on the Shelf
+
+475
+00:20:55,240 --> 00:21:02,039
+about 3 m High 3 m wide and they're all
+
+476
+00:20:59,600 --> 00:21:03,840
+negatives and transparency yeah that
+
+477
+00:21:02,039 --> 00:21:05,720
+that seems to be the final frontier with
+
+478
+00:21:03,840 --> 00:21:08,440
+holography is just to be able to get
+
+479
+00:21:05,720 --> 00:21:12,279
+affordable emotions and that's where
+
+480
+00:21:08,440 --> 00:21:14,320
+Jeff's worth comes in yes that it is a
+
+481
+00:21:12,279 --> 00:21:18,080
+difficulty I mean it was an awful blow
+
+482
+00:21:14,320 --> 00:21:21,200
+when AGA packed up making their Emulsion
+
+483
+00:21:18,080 --> 00:21:23,200
+yeah I loved AGA plates in in a way of
+
+484
+00:21:21,200 --> 00:21:26,559
+course it was a good thing because the
+
+485
+00:21:23,200 --> 00:21:28,799
+ACT emotions weren't really very good
+
+486
+00:21:26,559 --> 00:21:29,919
+they're nice to work with they they they
+
+487
+00:21:28,799 --> 00:21:33,000
+were very
+
+488
+00:21:29,919 --> 00:21:36,559
+forgiving oh yes yes they had a
+
+489
+00:21:33,000 --> 00:21:38,400
+tremendous latitude I remember I was
+
+490
+00:21:36,559 --> 00:21:39,919
+trying to demonstrate the effects of
+
+491
+00:21:38,400 --> 00:21:42,279
+overexposure and
+
+492
+00:21:39,919 --> 00:21:45,320
+underexposure and I actually had to
+
+493
+00:21:42,279 --> 00:21:48,120
+underexpose by a factor of 10 before it
+
+494
+00:21:45,320 --> 00:21:50,520
+became visible yes and Overexposed by a
+
+495
+00:21:48,120 --> 00:21:52,840
+factor of nearly 50 yeah before you
+
+496
+00:21:50,520 --> 00:21:54,240
+could see any deterioration in the image
+
+497
+00:21:52,840 --> 00:21:55,960
+yeah it was it was real nice to keep
+
+498
+00:21:54,240 --> 00:21:58,279
+exposure time shorts because you could
+
+499
+00:21:55,960 --> 00:22:00,200
+always make it up in the development yes
+
+500
+00:21:58,279 --> 00:22:04,240
+yeah yes that that was another thing
+
+501
+00:22:00,200 --> 00:22:08,000
+that um Jeff and I evolved um Jeff got
+
+502
+00:22:04,240 --> 00:22:11,000
+the idea of using um a developer
+
+503
+00:22:08,000 --> 00:22:13,520
+containing pyro gallal pyro gallal is a
+
+504
+00:22:11,000 --> 00:22:15,039
+developer that was used and by the very
+
+505
+00:22:13,520 --> 00:22:16,880
+old photographers it was one of the
+
+506
+00:22:15,039 --> 00:22:21,120
+first developing agents still my
+
+507
+00:22:16,880 --> 00:22:24,760
+favorite pirate chome process yes well
+
+508
+00:22:21,120 --> 00:22:29,120
+that I we we sort of developed that
+
+509
+00:22:24,760 --> 00:22:32,559
+process and and and I got on to it
+
+510
+00:22:29,120 --> 00:22:35,279
+from process that we used to use in the
+
+511
+00:22:32,559 --> 00:22:37,679
+RAF and when people came back from
+
+512
+00:22:35,279 --> 00:22:39,320
+reconnaissance sorties with stuff that
+
+513
+00:22:37,679 --> 00:22:41,320
+have been grossly
+
+514
+00:22:39,320 --> 00:22:43,360
+underexposed and we used to use a
+
+515
+00:22:41,320 --> 00:22:47,440
+developer that contained paragallo and
+
+516
+00:22:43,360 --> 00:22:50,120
+metol M and this would give an increase
+
+517
+00:22:47,440 --> 00:22:53,799
+in exposure of anything up to three
+
+518
+00:22:50,120 --> 00:22:56,880
+stops yeah the quality was pretty awful
+
+519
+00:22:53,799 --> 00:22:59,480
+but at least you had an image mhm mhm
+
+520
+00:22:56,880 --> 00:23:01,559
+and and I I worked on this and
+
+521
+00:22:59,480 --> 00:23:04,679
+eventually came up with the formula
+
+522
+00:23:01,559 --> 00:23:07,679
+that's in my book with pyro and metol
+
+523
+00:23:04,679 --> 00:23:10,960
+and that gave tremendous contrast and it
+
+524
+00:23:07,679 --> 00:23:14,840
+held back some of the um some of the
+
+525
+00:23:10,960 --> 00:23:18,919
+noise that was typical of AGA MH um
+
+526
+00:23:14,840 --> 00:23:21,320
+because of the yellow stain that It
+
+527
+00:23:18,919 --> 00:23:22,919
+produced only trouble was it stained
+
+528
+00:23:21,320 --> 00:23:27,000
+everything else including your fingers
+
+529
+00:23:22,919 --> 00:23:30,520
+and clothes well you know photography uh
+
+530
+00:23:27,000 --> 00:23:34,000
+chemistry has a long history of uh
+
+531
+00:23:30,520 --> 00:23:37,080
+toxicity just across the board but we've
+
+532
+00:23:34,000 --> 00:23:40,320
+certainly come a long way away from the
+
+533
+00:23:37,080 --> 00:23:43,080
+days of U parabeno quinone the pbq and
+
+534
+00:23:40,320 --> 00:23:44,600
+the MCU chloride bleaches horrible stuff
+
+535
+00:23:43,080 --> 00:23:47,440
+yeah I I worked with both of those in
+
+536
+00:23:44,600 --> 00:23:51,880
+the early days yes so did I
+
+537
+00:23:47,440 --> 00:23:53,880
+yeah um the book is available now in the
+
+538
+00:23:51,880 --> 00:23:57,840
+UK I imagine someone can order that
+
+539
+00:23:53,880 --> 00:23:59,799
+right now yes yes it cost £55 Sterling
+
+540
+00:23:57,840 --> 00:24:03,000
+you can get it through Amazon of course
+
+541
+00:23:59,799 --> 00:24:04,559
+yes if anybody is really stuck then if
+
+542
+00:24:03,000 --> 00:24:07,840
+they get in touch with me I can sort
+
+543
+00:24:04,559 --> 00:24:10,600
+something out for them okay and and
+
+544
+00:24:07,840 --> 00:24:12,600
+amazon.com here in the US will actually
+
+545
+00:24:10,600 --> 00:24:15,159
+have it available I think they're going
+
+546
+00:24:12,600 --> 00:24:17,279
+to ship it in February 204 so they're
+
+547
+00:24:15,159 --> 00:24:19,559
+accepting pre-orders for the book now I
+
+548
+00:24:17,279 --> 00:24:22,159
+believe I believe so yes I haven't had a
+
+549
+00:24:19,559 --> 00:24:23,840
+look at their website
+
+550
+00:24:22,159 --> 00:24:26,279
+yeah5
+
+551
+00:24:23,840 --> 00:24:29,440
+us which just for the processing
+
+552
+00:24:26,279 --> 00:24:31,360
+formulas and the um emultion formulas
+
+553
+00:24:29,440 --> 00:24:32,840
+itself could pay for itself well it's
+
+554
+00:24:31,360 --> 00:24:35,480
+only the cost of a couple of large
+
+555
+00:24:32,840 --> 00:24:39,520
+plates isn't it yes oh my goodness I'll
+
+556
+00:24:35,480 --> 00:24:43,000
+tell you yeah yeah yes well in this
+
+557
+00:24:39,520 --> 00:24:45,720
+country as I said it's it's 55 Sterling
+
+558
+00:24:43,000 --> 00:24:48,399
+and so in in fact if you ordered it from
+
+559
+00:24:45,720 --> 00:24:51,480
+this country and had it shipped out by
+
+560
+00:24:48,399 --> 00:24:53,120
+um by uh surface it' probably be cheaper
+
+561
+00:24:51,480 --> 00:24:55,559
+than buying it in the
+
+562
+00:24:53,120 --> 00:24:59,120
+USA had you considered doing a
+
+563
+00:24:55,559 --> 00:25:01,760
+multimedia CD ROM at any point
+
+564
+00:24:59,120 --> 00:25:05,640
+no no to like be a supplement to the
+
+565
+00:25:01,760 --> 00:25:09,480
+book well um and I I sort of gave it
+
+566
+00:25:05,640 --> 00:25:12,120
+some thoughts and then thought no it's
+
+567
+00:25:09,480 --> 00:25:15,120
+um due to the production involved the
+
+568
+00:25:12,120 --> 00:25:17,399
+well no I'm I'm not really terribly well
+
+569
+00:25:15,120 --> 00:25:19,880
+up in in that particular bit of
+
+570
+00:25:17,399 --> 00:25:22,399
+technology in in fact I only bought a
+
+571
+00:25:19,880 --> 00:25:24,960
+computer when some of the stuff I was
+
+572
+00:25:22,399 --> 00:25:29,039
+writing the the Publishers demanded it
+
+573
+00:25:24,960 --> 00:25:30,919
+on on floppy discs yes and so I I had to
+
+574
+00:25:29,039 --> 00:25:33,440
+get a computer in order to produce it in
+
+575
+00:25:30,919 --> 00:25:35,679
+the format they wanted and I'm I've
+
+576
+00:25:33,440 --> 00:25:37,640
+being a sort of reluctant learner I I
+
+577
+00:25:35,679 --> 00:25:39,159
+work on what the services used to call a
+
+578
+00:25:37,640 --> 00:25:42,080
+need to know
+
+579
+00:25:39,159 --> 00:25:44,279
+basis soon as I need to know something I
+
+580
+00:25:42,080 --> 00:25:45,679
+I look it up and work out how to do it
+
+581
+00:25:44,279 --> 00:25:48,399
+do you get a chance to go out onto the
+
+582
+00:25:45,679 --> 00:25:50,440
+internet to uh see what's out there for
+
+583
+00:25:48,399 --> 00:25:54,440
+holography oh yes yeah there's a
+
+584
+00:25:50,440 --> 00:25:56,799
+wonderful Forum network 54 which um has
+
+585
+00:25:54,440 --> 00:26:00,559
+has cropped up which is a very active
+
+586
+00:25:56,799 --> 00:26:03,039
+community of uh holographs as well yes
+
+587
+00:26:00,559 --> 00:26:05,600
+yeah yes I've come across that
+
+588
+00:26:03,039 --> 00:26:08,880
+yeah and uh of course your interview
+
+589
+00:26:05,600 --> 00:26:11,600
+will be up and uh I'm going to head out
+
+590
+00:26:08,880 --> 00:26:13,080
+on the road after I finish this up and
+
+591
+00:26:11,600 --> 00:26:15,360
+uh I'll make sure that before I leave
+
+592
+00:26:13,080 --> 00:26:17,760
+today that the interview is up and that
+
+593
+00:26:15,360 --> 00:26:19,440
+the notice goes out to all of the holot
+
+594
+00:26:17,760 --> 00:26:21,760
+talk listeners and I hope you tune in to
+
+595
+00:26:19,440 --> 00:26:23,840
+listen to it as well well I certainly
+
+596
+00:26:21,760 --> 00:26:26,000
+shall yes is there anything probably
+
+597
+00:26:23,840 --> 00:26:28,679
+make me curl up just listening to it oh
+
+598
+00:26:26,000 --> 00:26:30,880
+no no no is is there anything that we
+
+599
+00:26:28,679 --> 00:26:33,520
+didn't cover that you'd like to say to
+
+600
+00:26:30,880 --> 00:26:35,679
+the listeners while we uh are on the
+
+601
+00:26:33,520 --> 00:26:39,320
+tail end of the interview here I can't
+
+602
+00:26:35,679 --> 00:26:41,640
+think of anything specific
+
+603
+00:26:39,320 --> 00:26:42,480
+and I appreciate all that you've done
+
+604
+00:26:41,640 --> 00:26:47,080
+for
+
+605
+00:26:42,480 --> 00:26:48,840
+holography oh well yes I I mean what I
+
+606
+00:26:47,080 --> 00:26:51,000
+the only thing that I really did do
+
+607
+00:26:48,840 --> 00:26:54,120
+apart from stealing everybody else's
+
+608
+00:26:51,000 --> 00:26:57,760
+ideas is to
+
+609
+00:26:54,120 --> 00:26:59,960
+um porography on as I said onto the
+
+610
+00:26:57,760 --> 00:27:02,200
+kitchenable table mhm you see there was
+
+611
+00:26:59,960 --> 00:27:04,159
+one particular aspect of holography that
+
+612
+00:27:02,200 --> 00:27:06,799
+always bothered me and that that was the
+
+613
+00:27:04,159 --> 00:27:09,240
+beam splitter and I felt the beam
+
+614
+00:27:06,799 --> 00:27:13,039
+splitter was a single object on the
+
+615
+00:27:09,240 --> 00:27:16,640
+table that made holography difficult and
+
+616
+00:27:13,039 --> 00:27:19,520
+made made bad Holograms because as soon
+
+617
+00:27:16,640 --> 00:27:21,120
+as you started turning one beam of light
+
+618
+00:27:19,520 --> 00:27:23,000
+one way and the other beam of light the
+
+619
+00:27:21,120 --> 00:27:26,320
+other way yeah you were turning them
+
+620
+00:27:23,000 --> 00:27:29,279
+through different bits of air yeah and
+
+621
+00:27:26,320 --> 00:27:33,080
+we certainly found that the the major
+
+622
+00:27:29,279 --> 00:27:36,320
+problem in big table holography was air
+
+623
+00:27:33,080 --> 00:27:39,480
+current yeah and defining big table by
+
+624
+00:27:36,320 --> 00:27:41,399
+the size would be well anything above 1
+
+625
+00:27:39,480 --> 00:27:43,240
+by two M yeah so you're talking about
+
+626
+00:27:41,399 --> 00:27:46,240
+your typical in US measurements your
+
+627
+00:27:43,240 --> 00:27:48,960
+typical 4x8 uh vibration T isolation
+
+628
+00:27:46,240 --> 00:27:52,720
+table that's right yes yes well the main
+
+629
+00:27:48,960 --> 00:27:57,120
+tables I used at wolver Hampton was um 1
+
+630
+00:27:52,720 --> 00:28:02,000
+and 1/2 by 2 and 1/2 M that's um about
+
+631
+00:27:57,120 --> 00:28:05,279
+uh 7 ft by 12 ft something like that and
+
+632
+00:28:02,000 --> 00:28:07,480
+uh that's a nice size yes yeah yes it
+
+633
+00:28:05,279 --> 00:28:08,960
+was lovely I I built a Gantry on top of
+
+634
+00:28:07,480 --> 00:28:11,480
+it and it made the whole thing very
+
+635
+00:28:08,960 --> 00:28:13,000
+rigid indeed is that the is that one of
+
+636
+00:28:11,480 --> 00:28:15,360
+the is that one of the pictures that's
+
+637
+00:28:13,000 --> 00:28:19,000
+in the book yes yeah okay yes that's
+
+638
+00:28:15,360 --> 00:28:23,559
+right yeah um the the main thing that
+
+639
+00:28:19,000 --> 00:28:25,440
+I've that I worked on um was what I I
+
+640
+00:28:23,559 --> 00:28:27,960
+had to co a name for it I called it a
+
+641
+00:28:25,440 --> 00:28:30,880
+bypass hologram and you didn't have to
+
+642
+00:28:27,960 --> 00:28:33,159
+have have a beam splitter at all because
+
+643
+00:28:30,880 --> 00:28:37,080
+you just used the two halves of a spread
+
+644
+00:28:33,159 --> 00:28:42,240
+beam and you reflected one um using a
+
+645
+00:28:37,080 --> 00:28:46,200
+mirror mhm into the other one so that um
+
+646
+00:28:42,240 --> 00:28:49,159
+you uh you actually had a mirror
+
+647
+00:28:46,200 --> 00:28:51,519
+alongside your object yes and the mirror
+
+648
+00:28:49,159 --> 00:28:53,120
+provided the reference beam and the
+
+649
+00:28:51,519 --> 00:28:54,919
+reflection for the object provided the
+
+650
+00:28:53,120 --> 00:28:57,000
+object beam you couldn't really get any
+
+651
+00:28:54,919 --> 00:28:59,039
+simpler than that and the two beams were
+
+652
+00:28:57,000 --> 00:29:01,279
+so close together that they were going
+
+653
+00:28:59,039 --> 00:29:02,919
+through very much the same a space yeah
+
+654
+00:29:01,279 --> 00:29:05,080
+I I believe there's an example of that
+
+655
+00:29:02,919 --> 00:29:06,519
+also at someone's website maybe I think
+
+656
+00:29:05,080 --> 00:29:08,640
+in Norway or something like that they're
+
+657
+00:29:06,519 --> 00:29:11,039
+using a technique very similar to that
+
+658
+00:29:08,640 --> 00:29:13,440
+very likely but it certainly worked it
+
+659
+00:29:11,039 --> 00:29:15,799
+it worked like a dream and I I never had
+
+660
+00:29:13,440 --> 00:29:18,000
+a bad hologram using that system I I
+
+661
+00:29:15,799 --> 00:29:21,000
+don't claim originality for the first
+
+662
+00:29:18,000 --> 00:29:24,279
+thought it was Hans bearen who thought
+
+663
+00:29:21,000 --> 00:29:26,200
+of it yeah um he had to make some
+
+664
+00:29:24,279 --> 00:29:28,880
+Holograms of things like Milling
+
+665
+00:29:26,200 --> 00:29:30,519
+machines on a factory floor mhm and so
+
+666
+00:29:28,880 --> 00:29:33,279
+he had to build a little dark room
+
+667
+00:29:30,519 --> 00:29:35,799
+around them and he used that method he
+
+668
+00:29:33,279 --> 00:29:38,640
+actually taped a mirror to the machine
+
+669
+00:29:35,799 --> 00:29:41,159
+itself yeah I know you Ed the term that
+
+670
+00:29:38,640 --> 00:29:43,080
+you you had stolen other people's ideas
+
+671
+00:29:41,159 --> 00:29:44,640
+but I don't I think that a better term
+
+672
+00:29:43,080 --> 00:29:47,200
+for that would be that you've just taken
+
+673
+00:29:44,640 --> 00:29:49,519
+other people's ideas and you've provided
+
+674
+00:29:47,200 --> 00:29:52,200
+the service of actually compiling those
+
+675
+00:29:49,519 --> 00:29:53,880
+ideas into one reference yeah well
+
+676
+00:29:52,200 --> 00:29:55,799
+that's a nice way of putting it yeah
+
+677
+00:29:53,880 --> 00:29:58,600
+that's that's essentially what it what
+
+678
+00:29:55,799 --> 00:30:01,440
+it is I mean we we both I was fortunate
+
+679
+00:29:58,600 --> 00:30:03,960
+enough to be able to discover um how to
+
+680
+00:30:01,440 --> 00:30:07,320
+make all the main types of holograms
+
+681
+00:30:03,960 --> 00:30:09,399
+using this same basic setup and that
+
+682
+00:30:07,320 --> 00:30:13,120
+really was quite exciting and I wrote a
+
+683
+00:30:09,399 --> 00:30:15,080
+paper for for Tong jong's Symposium
+
+684
+00:30:13,120 --> 00:30:16,720
+about it and it went down very well in
+
+685
+00:30:15,080 --> 00:30:18,519
+fact yeah and with the with the higher
+
+686
+00:30:16,720 --> 00:30:20,960
+defraction efficiencies of the newer
+
+687
+00:30:18,519 --> 00:30:24,159
+emulsions it's a wonderful thing too oh
+
+688
+00:30:20,960 --> 00:30:25,799
+yes it is yeah yes it really is well
+
+689
+00:30:24,159 --> 00:30:28,799
+Graham I want to thank you very much for
+
+690
+00:30:25,799 --> 00:30:30,760
+taking the time to uh come on the show
+
+691
+00:30:28,799 --> 00:30:32,399
+and uh speak about the book and I want
+
+692
+00:30:30,760 --> 00:30:35,080
+to remind the listeners one more time
+
+693
+00:30:32,399 --> 00:30:39,120
+that there there are links to both
+
+694
+00:30:35,080 --> 00:30:41,559
+amazon.com UK and amazon.com here in the
+
+695
+00:30:39,120 --> 00:30:43,240
+US where if you happen to be in England
+
+696
+00:30:41,559 --> 00:30:45,320
+listening to this you can order the book
+
+697
+00:30:43,240 --> 00:30:47,080
+and have it delivered now and the
+
+698
+00:30:45,320 --> 00:30:50,039
+release date in the United States is
+
+699
+00:30:47,080 --> 00:30:51,519
+February 2004 but you can pre-order that
+
+700
+00:30:50,039 --> 00:30:54,159
+book and have that shipped to you as
+
+701
+00:30:51,519 --> 00:30:55,600
+soon as it's available from Amazon
+
+702
+00:30:54,159 --> 00:30:57,440
+Graham thank you so much if you just
+
+703
+00:30:55,600 --> 00:30:59,919
+want to hold on the line for a second uh
+
+704
+00:30:57,440 --> 00:30:59,919
+I'll get
+

@@ -1,0 +1,1263 @@
+1
+00:00:02,720 --> 00:00:08,160
+The following is a production of Frank Defratis and the Internet Museum of Holography.
+
+2
+00:00:12,640 --> 00:00:17,280
+Ladies and gentlemen, at this stage, we introduce the subject himself.
+
+3
+00:00:17,280 --> 00:00:20,400
+He is, as you will perceive, fit and well noticed.
+
+4
+00:00:20,400 --> 00:00:23,760
+He comes fake from the night peep and a good breakfast.
+
+5
+00:00:23,760 --> 00:00:24,960
+I'm done.
+
+6
+00:00:24,960 --> 00:00:26,800
+I'm hypnotized.
+
+7
+00:00:26,800 --> 00:00:27,600
+Come on.
+
+8
+00:00:27,600 --> 00:00:30,880
+We send him out with confidence into the world again.
+
+9
+00:00:31,280 --> 00:00:37,360
+Hello, this is Frank Defratus, and welcome to Holotalk, the Internet Laser and Holography Talk Show.
+
+10
+00:00:37,360 --> 00:00:47,920
+Our toll-free number is 1-800-4583525, or you can send an email to Holotalk at HoloWorld.com.
+
+11
+00:00:47,920 --> 00:00:53,040
+We've got telephone calls, we've got emails, we've got special guests coming up.
+
+12
+00:00:53,040 --> 00:01:00,880
+So thank you for tuning in, and let's get this week's show on the road.
+
+13
+00:01:00,880 --> 00:01:03,840
+Hello, folks, and welcome to another week of Holotalk.
+
+14
+00:01:03,840 --> 00:01:05,120
+This is Frank Defradis.
+
+15
+00:01:05,120 --> 00:01:07,120
+I want to wish you a happy new year.
+
+16
+00:01:07,120 --> 00:01:16,880
+Our guest tonight is Alex Scheimitz from a company called Three Deep Company, and Alex is an importer of the new Russian emulsions.
+
+17
+00:01:17,040 --> 00:01:20,400
+We're going to be speaking with him about that a little bit later on.
+
+18
+00:01:20,640 --> 00:01:26,720
+I'm also going to be going over some of the technical information about these emulsions after we do that interview.
+
+19
+00:01:26,720 --> 00:01:32,160
+Our musical guest this week is a band called Cigar, and they're out of Eugene, Oregon.
+
+20
+00:01:32,160 --> 00:01:36,400
+So we'll be hearing from Cigar a little bit later on as well.
+
+21
+00:01:36,400 --> 00:01:38,640
+We got a few email questions this week.
+
+22
+00:01:38,640 --> 00:01:39,840
+Let's go to our first one.
+
+23
+00:01:39,840 --> 00:01:43,120
+This is from Allison, and Alison writes to Holotalk.
+
+24
+00:01:43,120 --> 00:01:48,400
+She says, I'd love to start doing holograms, but I live in a small apartment.
+
+25
+00:01:48,400 --> 00:01:50,880
+Could you tell me how much space I would need?
+
+26
+00:01:50,880 --> 00:01:53,520
+And do I need a dark room?
+
+27
+00:01:53,520 --> 00:01:55,040
+Okay, Allison.
+
+28
+00:01:55,040 --> 00:01:59,360
+Um space is not too much of a problem with holography.
+
+29
+00:01:59,360 --> 00:02:13,160
+I remember doing holograms in very small setups, and actually, if you're going to start out doing very simple holograms, you don't need one of the big isolation tables that you see in the labs across the country.
+
+30
+00:02:13,960 --> 00:02:22,760
+Remember, when you're doing a single beam reflection hologram, and that's what most holographers do when they start out doing holography, or just single beam holograms.
+
+31
+00:02:22,760 --> 00:02:28,760
+And I don't think a lot of people are aware of this, but you do not need to have the laser isolated.
+
+32
+00:02:28,760 --> 00:02:34,520
+The laser can be sitting on any tabletop or anything that you want to sit it on, just as is.
+
+33
+00:02:34,520 --> 00:02:42,520
+What you need to have isolated for a single beam reflection hologram is the plate holder and the object being recorded.
+
+34
+00:02:42,520 --> 00:02:54,760
+So considering the fact that you've got a five or ten milliwatt laser to start out, you're probably going to be working with plate sizes that are about two and a half by two and a half inches or four by five inches.
+
+35
+00:02:54,760 --> 00:03:05,160
+The only space requirements you would need to do that hologram would be enough space to have that plate holder, however you want to set that up, and the object isolated.
+
+36
+00:03:05,160 --> 00:03:08,200
+Now there's a few different ways that you can do this.
+
+37
+00:03:08,200 --> 00:03:19,480
+You can get a very small inner tube, not the type of inner tubes from a car, but the type of inner tube that comes from a forklift truck, and you can find them at any industrial supplier.
+
+38
+00:03:19,480 --> 00:03:26,440
+And they're tiny little tires, they're maybe about a foot or 18 inches in diameter.
+
+39
+00:03:26,440 --> 00:03:31,080
+And on top of that little tire, you can place a heavy object.
+
+40
+00:03:31,080 --> 00:03:33,160
+Now there's a couple different ways you can approach this.
+
+41
+00:03:33,160 --> 00:03:45,280
+You can get a piece of metal, uh metal surface that you can sit down on that that actually has a lot of weight itself, or you can choose something like a large patio block.
+
+42
+00:03:44,840 --> 00:03:51,360
+I think there's 24 by 24 inch patio blocks that you could sit down on top of that tire table.
+
+43
+00:03:51,440 --> 00:03:59,760
+This is going to give you your vibration isolation that you're going to need just for the plate holder and the object itself.
+
+44
+00:03:59,760 --> 00:04:07,360
+On top of that surface, you need to place whatever plate holder you've managed to make for yourself and the object itself.
+
+45
+00:04:07,360 --> 00:04:09,600
+Make sure that both of these things are stable.
+
+46
+00:04:09,600 --> 00:04:11,840
+That is, you need a nice stable object.
+
+47
+00:04:11,840 --> 00:04:20,160
+You can't pick something flimsy because even with the best holographic setup, if you've got a flimsy object, you're going to get poor results in the final hologram.
+
+48
+00:04:20,160 --> 00:04:23,040
+Make sure your object is very stable.
+
+49
+00:04:23,040 --> 00:04:25,760
+And just go ahead and do your exposure.
+
+50
+00:04:25,760 --> 00:04:34,240
+Your laser and your beam expanding lens itself does not have to be on that isolation part of the setup.
+
+51
+00:04:34,240 --> 00:04:36,800
+It can be sitting anywhere that you want it to sit.
+
+52
+00:04:36,800 --> 00:04:41,280
+In fact, if you want to, just do it right down on the floor.
+
+53
+00:04:43,600 --> 00:04:48,880
+I know a lot of people that use their bathrooms for dark rooms.
+
+54
+00:04:48,880 --> 00:04:52,080
+This has good and bad things to go along with it.
+
+55
+00:04:55,600 --> 00:05:02,640
+You don't have to go up or down a flight of steps, say, for instance, you're going to do your development down in the basement of the apartment building or something like that.
+
+56
+00:05:02,640 --> 00:05:05,440
+You don't have to do that because you have your bathroom right there.
+
+57
+00:05:05,440 --> 00:05:09,920
+The only thing I get concerned about sometimes is actually ventilation.
+
+58
+00:05:09,920 --> 00:05:13,040
+Now keep in mind this is not photography.
+
+59
+00:05:13,040 --> 00:05:14,640
+This is holography.
+
+60
+00:05:14,640 --> 00:05:21,200
+You're not going to be going into a dark room and making 36 or 72 prints.
+
+61
+00:05:21,200 --> 00:05:23,280
+You're just not going to do that with holograms.
+
+62
+00:05:23,280 --> 00:05:33,000
+Usually you'll set up and do one, two, maybe three holograms a night, and you've got time in between those two because you have to go back out of the dark room again to do your next setup.
+
+63
+00:05:33,480 --> 00:05:38,840
+Now I would suggest that if you have a small window, get a window fan.
+
+64
+00:05:38,840 --> 00:05:46,680
+And the way that you're going to get around having light come in is I want you to make a hood to go over the outside of that small window fan.
+
+65
+00:05:46,680 --> 00:05:50,120
+Now we don't need a big window fan, we just need a small one.
+
+66
+00:05:50,120 --> 00:05:56,360
+And make a hood so that it sort of caps that fan.
+
+67
+00:05:56,360 --> 00:06:03,720
+And the only way that the air can get out from the fan as an exhaust is through the bottom of that hood.
+
+68
+00:06:03,720 --> 00:06:08,520
+Now, if you have screens, I would suggest that you double up on the screens.
+
+69
+00:06:08,520 --> 00:06:14,680
+Take your screens, which are normally a silverish material, and spray paint them a flat black.
+
+70
+00:06:14,680 --> 00:06:18,120
+And you're going to spray paint two screens.
+
+71
+00:06:18,120 --> 00:06:22,280
+Put one of the screens in the window and then put the other screen in the window.
+
+72
+00:06:22,280 --> 00:06:33,160
+And if they're slightly offset, you're not going to see any light coming through because of the obvious small openings in the screen to begin with, along with the black paint and the hood that you have on your fan.
+
+73
+00:06:33,160 --> 00:06:46,760
+So this will give you a little bit of ventilation, but I don't think you have too much of a problem just being in there to develop a hologram, especially if you're using your traditional type of development chemicals like your D19s and things of that nature.
+
+74
+00:06:46,760 --> 00:06:51,240
+So, yes, you can do holograms in an apartment very easily.
+
+75
+00:06:51,240 --> 00:07:07,000
+And if you find that you want to make holograms that are a little bit more complex than your single beam holograms, you can move up to a few of the systems that you can buy that sit on the neoprene isolation balls that you can buy.
+
+76
+00:07:07,000 --> 00:07:09,080
+So there's all kinds of ways of doing it.
+
+77
+00:07:09,080 --> 00:07:15,520
+You don't have to not do holography just because you live in an apartment.
+
+78
+00:07:14,360 --> 00:07:21,440
+Our second email question comes from Chris, and Chris writes in, and this is a very interesting question.
+
+79
+00:07:21,600 --> 00:07:25,440
+I wonder how many holo talk listeners could answer this question.
+
+80
+00:07:25,440 --> 00:07:29,600
+What was the first hologram made of?
+
+81
+00:07:29,600 --> 00:07:39,760
+And I'm assuming, Chris, you mean made of as far as an image, the content of the hologram rather than the materials that the hologram was shot on.
+
+82
+00:07:40,240 --> 00:07:45,840
+The early holograms, even the first hologram was made without using a laser.
+
+83
+00:07:45,840 --> 00:07:49,440
+A sodium vapor lamp was used to make the first hologram.
+
+84
+00:07:49,440 --> 00:07:55,280
+Sodium vapor lamps are just like those lamps when you're driving down the street at night, they illuminate the street.
+
+85
+00:07:55,280 --> 00:08:09,360
+And these lights do not contain the entire range of the visible spectrum as far as wavelengths are concerned, and they can be through careful filtering filtered down to be a monochromatic light source.
+
+86
+00:08:09,360 --> 00:08:18,320
+However, the problem with using something like that for a hologram is there's another property that's needed to make a hologram, and that is called coherence length.
+
+87
+00:08:18,320 --> 00:08:25,680
+And it is the coherence length, this property that allows us to record the depth of a hologram.
+
+88
+00:08:25,680 --> 00:08:32,720
+Now, the coherence length of a sodium vapor lamp is very short, extremely short.
+
+89
+00:08:32,720 --> 00:08:38,400
+In fact, the first hologram could only record the depth of a postage stamp.
+
+90
+00:08:38,400 --> 00:08:47,680
+And that first hologram was actually something about the size of a postage stamp, and it had the names of several physicists on it.
+
+91
+00:08:47,680 --> 00:09:02,040
+So it wasn't actually a true three-dimensional image, although it contained the third dimension enough to show the depth of that piece of paper or postage stamp size material.
+
+92
+00:09:02,040 --> 00:09:07,000
+But it wasn't anything that you would walk into a museum and say, wow, this is really something.
+
+93
+00:09:07,000 --> 00:09:09,400
+So that's what the first hologram was.
+
+94
+00:09:09,400 --> 00:09:20,520
+It was made with the sodium vapor lamp and it was a postage size stamp which contained the names of very famous physicists.
+
+95
+00:09:20,520 --> 00:09:26,600
+Just as a reminder, you can send in your questions to HoloTalk two ways.
+
+96
+00:09:26,600 --> 00:09:29,080
+The first way is to send it in by telephone.
+
+97
+00:09:29,080 --> 00:09:37,720
+You can call a toll-free number, and that number is 1-800-458-3525, and we'll put your question on the air.
+
+98
+00:09:37,720 --> 00:09:43,000
+Or you can send an email to Holotalk at HoloWorld.com.
+
+99
+00:09:43,000 --> 00:09:46,680
+I'll read your question and answer it on the air.
+
+100
+00:09:46,680 --> 00:09:50,280
+So if you have any questions about lasers and holograms, send them through.
+
+101
+00:09:50,280 --> 00:09:51,320
+We'll get them on the air.
+
+102
+00:09:51,320 --> 00:09:56,760
+And I'm sure other people that are listening have the same question, so they'll appreciate hearing them.
+
+103
+00:10:06,040 --> 00:10:17,880
+And Scott wrote, I know that Ag for Films and Plates will not be available much longer, and I know that other companies are trying to pick up the slack, but what's really bothering me is the exposure time involved with this new film.
+
+104
+00:10:17,880 --> 00:10:27,160
+I was looking at buying a five milliwatt laser to get me started with holography, but it seems now that this may not be a suitable laser for this new film.
+
+105
+00:10:27,160 --> 00:10:31,560
+So my question is, what kind of laser would be best for the new film?
+
+106
+00:10:31,560 --> 00:10:34,680
+Well, Scott, we're going to go over this now with Alex.
+
+107
+00:10:34,840 --> 00:10:36,120
+We just finished the interview.
+
+108
+00:10:36,120 --> 00:10:38,120
+Actually, it's 11:30 on Saturday night.
+
+109
+00:10:38,120 --> 00:10:43,160
+The show goes up at 12:30, and I just finished talking with Alex at 10:30.
+
+110
+00:10:43,160 --> 00:10:46,480
+So we just got this in right under the gun.
+
+111
+00:10:46,480 --> 00:10:55,840
+Both of our schedules this week were nearly impossible with the New Year's Day holiday and everything tied in this week, but we still managed to pull it through for everybody.
+
+112
+00:10:55,840 --> 00:11:17,520
+And this is an important issue because, as everyone is probably aware of on Earth that's involved with holography, AgFA has discontinued making their materials, their holo test materials that we were so used to working with in our professional labs and in our amateur and hobbyist labs as well.
+
+113
+00:11:17,520 --> 00:11:21,520
+So we're looking for something to take the place of AgFA.
+
+114
+00:11:21,520 --> 00:11:25,280
+And we have some materials here that Alex is going to tell us about.
+
+115
+00:11:25,280 --> 00:11:28,320
+It's made at a plant in Slavich.
+
+116
+00:11:28,320 --> 00:11:31,120
+And they're looking very promising.
+
+117
+00:11:31,120 --> 00:11:34,880
+So we'll let Alex tell us a little bit about these materials.
+
+118
+00:11:35,280 --> 00:11:39,280
+Alex is a person who imports the materials.
+
+119
+00:11:41,440 --> 00:11:51,280
+After the interview is over, I'd like to go over some of the technical specifications of these emulsions with you, just so that you know how these emulsions compared with Agha.
+
+120
+00:11:51,280 --> 00:11:58,240
+I went through some of my materials here at the studio and found some of AGFA's specification sheets as well.
+
+121
+00:11:58,240 --> 00:12:04,880
+So I'll compare and do a one-to-one comparison from what I have on AGFA compared to the new Russian emulsions.
+
+122
+00:12:04,880 --> 00:12:23,280
+So let's move on to our interview with Alex.com.
+
+123
+00:12:23,280 --> 00:12:27,120
+That's www.thredeepco.com.
+
+124
+00:12:27,120 --> 00:12:33,640
+There's also a link on the uh main Holo Talk page where you can go over and take a look at this uh website.
+
+125
+00:12:34,200 --> 00:12:39,800
+I was over on the website and I have to tell you it's a wealth of information on the materials.
+
+126
+00:12:39,800 --> 00:12:44,920
+If you're confused about this, as many people are, including myself.
+
+127
+00:12:44,920 --> 00:12:58,600
+Um there's a forum that you can see where all the uh all the people have sent in their questions about these materials as far as getting better results, uh how to make really nice holograms with them.
+
+128
+00:12:58,600 --> 00:13:05,160
+And other holographers who have been working with these materials for a while, log on and they answer some of the questions.
+
+129
+00:13:05,160 --> 00:13:06,440
+It's a very nice feature.
+
+130
+00:13:06,440 --> 00:13:13,400
+So if you want to head over there, you can actually cruise that website while you're listening to the uh Holo Talk show itself.
+
+131
+00:13:13,400 --> 00:13:16,680
+So let's go over and uh talk with Alex.
+
+132
+00:13:16,680 --> 00:13:28,280
+I'm sending this through to you unedited and uncut because there is not enough time to uh work with it tonight, means that it's 11 30 already, and I really like to keep on schedule and have this up at midnight.
+
+133
+00:13:28,280 --> 00:13:31,560
+So uh let's go talk to Alex.
+
+134
+00:13:31,560 --> 00:13:33,880
+Okay, we're ready to go.
+
+135
+00:13:33,880 --> 00:13:38,360
+Okay, we're talking to Alex Scheimitz, who is with 3D Company.
+
+136
+00:13:38,360 --> 00:13:39,080
+That's correct, isn't it?
+
+137
+00:13:39,240 --> 00:13:40,760
+That's right, 3D Company.
+
+138
+00:13:40,760 --> 00:13:46,360
+And you're involved with basically bringing these emulsions into the United States now, is that correct?
+
+139
+00:13:46,360 --> 00:13:46,920
+That's true.
+
+140
+00:13:46,920 --> 00:13:53,320
+We've been working uh together with uh Slavic for about four years, a little bit over four years.
+
+141
+00:13:53,320 --> 00:14:12,520
+I remember a few years ago getting it was either something in the mail or even a phone call from you saying that you were working with these emulsions, and we were all aware of the high quality emulsions that were being produced in Russia, but of course nobody really paid any attention to it because you could just get a box of agit and go your merry way.
+
+142
+00:14:12,520 --> 00:14:19,520
+Now, that's no longer the case and I imagine you have quite a bit of interest in these emulsions right now.
+
+143
+00:14:14,840 --> 00:14:20,000
+That's right.
+
+144
+00:14:20,160 --> 00:14:30,720
+Uh we um when when I first started it was uh you know smuggling plates out of the country from a trip and uh talking colleagues and people such as yourself to get them tested.
+
+145
+00:14:31,120 --> 00:14:41,760
+But it was uh it was really uh hurry up and wait kind of a procedure because um this uh there's a lot of problems with changing from one emulsion to another and I know that holographers don't want to do it if they don't have to.
+
+146
+00:14:41,760 --> 00:14:42,320
+Mm-hmm.
+
+147
+00:14:42,320 --> 00:14:44,560
+And uh as of February they have to.
+
+148
+00:14:44,560 --> 00:14:46,720
+Yeah there's not much of a choice now.
+
+149
+00:14:46,720 --> 00:15:03,280
+I imagine anyone who's involved with mass production of plates and film already pretty much have an idea what's going on with these emulsions but the big question lies with the school groups, the amateurs that are out there doing holography as a hobby.
+
+150
+00:15:03,280 --> 00:15:11,520
+Now even though this is just people these are just people who could just go to call up and order a box of plates maybe every month or every two months or something like that.
+
+151
+00:15:11,520 --> 00:15:13,520
+Where are we with these people?
+
+152
+00:15:13,520 --> 00:15:24,560
+If they're in a school or they're in their basement doing holograms with maybe a five or a ten milliwatt laser will they be able to make some sort of holographic images with this with with this emulsion.
+
+153
+00:15:24,560 --> 00:15:34,960
+Well there's uh there's been some experience there was a there's a it was a kid out of I think it was Connecticut who who took some of our plates and at that time we had very little experience working with amateurs.
+
+154
+00:15:34,960 --> 00:15:48,320
+He had uh it was for one of his classes and he you he bought a couple boxes and he tried it out using chemicals from the uh formulary I can't think of the photographers formulary I believe I believe they're out in one of the states like Michigan or Wisconsin or something like that.
+
+155
+00:15:48,800 --> 00:15:53,120
+And he he was able to uh get a number of images.
+
+156
+00:15:53,120 --> 00:15:54,480
+Um it wasn't perfect.
+
+157
+00:15:54,480 --> 00:16:01,240
+I mean he was an amateur and I I'm not a holographer, I'm an importer, so there was little that I could offer him.
+
+158
+00:16:01,240 --> 00:16:23,080
+But uh it did get me to thinking that uh when we put together our website um that we should uh the people who are going to know the most about making holograms using the Slavage plates are the people who are using them and buying them from me not necessarily uh me or or even or Slavic because this is a a new chemical formulation that everybody's gonna be using.
+
+159
+00:16:23,080 --> 00:16:26,200
+They're not necessarily going to use the Russian chemical formulations.
+
+160
+00:16:26,200 --> 00:16:37,400
+So we put together a discussion forum so that amateurs and professionals could uh get out uh what's been working what's not been working and the experiences of some amateurs are on a discussion forum.
+
+161
+00:16:37,400 --> 00:16:39,000
+So that it's it has been working.
+
+162
+00:16:39,000 --> 00:16:46,520
+Uh it's not a straight D19 formulation that's been working the best, but uh um some adjustments and they put it on the site.
+
+163
+00:16:46,520 --> 00:16:50,280
+Can you buy pre-packaged chemistry to go with these plates?
+
+164
+00:16:50,280 --> 00:16:53,320
+Uh no not as if yeah we don't supply chemistry.
+
+165
+00:16:53,320 --> 00:16:53,880
+Okay.
+
+166
+00:16:53,880 --> 00:16:56,760
+Is it available anywhere that you could get it prepackaged?
+
+167
+00:16:56,760 --> 00:17:08,520
+Because every place that I've seen they give you the actual formulations for making your developer and things of that nature but I haven't seen anything where it just comes maybe as a powder where you just add water.
+
+168
+00:17:08,520 --> 00:17:31,000
+Yeah at this moment uh I'm investigating a a lab out of San Francisco called Bryant um there's also a company called Sigma um and several other companies as well uh Joden which is a an old Ag Fa distributor out of Michigan and Arbor, Michigan, uh they've had certain chemicals I don't know that they s stock all the chemicals used for the Slavic plates.
+
+169
+00:17:32,200 --> 00:17:39,080
+Right now there's different um formulations going around people are using and testing different formulations.
+
+170
+00:17:39,080 --> 00:17:49,680
+I would say that at this stage today, uh, for amateur holography, uh, if someone were to take some of these plates an amateur and try something out, he would be not necessarily breaking new ground.
+
+171
+00:17:49,680 --> 00:17:59,120
+I mean, there's this there's been work done and there's been things published on the site and elsewhere, but uh definitely would be increasing the overall knowledge safe.
+
+172
+00:17:59,120 --> 00:18:14,160
+I was out on your site, and it is a wealth of information as far as these new recording materials, and I think the forum is a very good idea because I spent quite a bit of time reading the different questions that were sent in, and then other holographers they'll log on and do responses to the questions.
+
+173
+00:18:14,160 --> 00:18:18,320
+The website address, I I know you have your own domain name now, is that correct?
+
+174
+00:18:18,320 --> 00:18:18,720
+That's right.
+
+175
+00:18:18,720 --> 00:18:30,000
+The uh the website address is uh uh www.3d ep co.com, or basically www.threedeepcode.com.
+
+176
+00:18:30,000 --> 00:18:31,520
+Okay, with the numerical three.
+
+177
+00:18:31,520 --> 00:18:33,360
+The numerical three.
+
+178
+00:18:33,360 --> 00:18:36,400
+We'll we'll also have a link directly to your site.
+
+179
+00:18:36,400 --> 00:18:42,720
+And if you're listening to the show right now, there's no need to just sit there and stare at the computer while it talks to you.
+
+180
+00:18:42,720 --> 00:18:48,160
+You can go back into your browser and go right to the site as you continue to listen to the show.
+
+181
+00:18:48,160 --> 00:18:53,840
+Um for my group of people, and I mostly get amateurs and educational services and things of that nature at the site.
+
+182
+00:18:53,840 --> 00:18:55,920
+That's the majority of people that come through the site.
+
+183
+00:18:55,920 --> 00:19:03,680
+But I imagine they would be interested in two types of the emulsions, the PFG-01 and the PFD-03M.
+
+184
+00:19:03,680 --> 00:19:06,800
+That's true, that's what I would guess with the helium neon users.
+
+185
+00:19:06,800 --> 00:19:07,200
+Yes.
+
+186
+00:19:07,200 --> 00:19:18,960
+Now I I received a package from Slavic this week, and it it does say PFG-01 is good for laser transmission and reflection holography.
+
+187
+00:19:18,960 --> 00:19:19,840
+Is that true?
+
+188
+00:19:19,840 --> 00:19:21,600
+Well, there's uh there's two O ones.
+
+189
+00:19:21,600 --> 00:19:31,560
+There's a PFG01, which is um, as I understood it to be transmission with pulse laser or helium neon, and then there's an O1M, which is a slight improvement.
+
+190
+00:19:31,560 --> 00:19:37,160
+Uh it doesn't have an anti halo um halation backing, and it's for transmission and reflection.
+
+191
+00:19:37,160 --> 00:19:37,640
+I see.
+
+192
+00:19:37,640 --> 00:19:41,800
+And it has a greater set uh it's actually a faster emulsion than the O three.
+
+193
+00:19:41,800 --> 00:19:43,480
+That's right, it is a faster emulsion.
+
+194
+00:19:43,640 --> 00:20:01,240
+Okay, because I've got some of uh AGSA's older information here from their A E seventy five HD emulsions, and um it appears to me that it may be possible to make reflection holograms with this uh dash zero one uh emulsion.
+
+195
+00:20:01,240 --> 00:20:08,840
+Yeah, the 01, the analog for the 01 would be the A D seventy five and the O one M, the analog would be an 8E75 H D.
+
+196
+00:20:09,400 --> 00:20:13,000
+Uh the O one Ms are not the uh we don't have them yet.
+
+197
+00:20:13,000 --> 00:20:15,720
+They won't arrive until mid-January.
+
+198
+00:20:15,720 --> 00:20:22,440
+Uh but at the moment we're we're reducing our buys of the O one that's straight for transmission.
+
+199
+00:20:22,440 --> 00:20:26,600
+Because it looks like the O1M is really going to su uh support just about everybody's needs.
+
+200
+00:20:26,600 --> 00:20:35,160
+If there's our if there are special needs requiring the older the older type emulsion, of course, we'd be happy to pick that up on the next uh restocking purchase.
+
+201
+00:20:35,160 --> 00:20:35,640
+Okay.
+
+202
+00:20:35,640 --> 00:20:42,760
+And from my understanding there's no bleaching involved at all with the O three emulsions for the reflection holograms, which I found that's very fascinating.
+
+203
+00:20:42,760 --> 00:20:45,400
+Uh you're getting into a technical level.
+
+204
+00:20:45,400 --> 00:20:46,440
+Okay.
+
+205
+00:20:46,440 --> 00:20:56,760
+Okay, well we'll c we'll probably cover this after the interview's over, because I have all the technical information here, and maybe we can do do a little tech talk after uh we say goodbye and I'll I'll go over all these numbers with everyone.
+
+206
+00:20:57,080 --> 00:20:57,400
+Okay.
+
+207
+00:20:57,400 --> 00:21:03,480
+But that's what I find absolutely fascinating because there was a time where you just could not do a reflection hologram without having a bleach process.
+
+208
+00:21:03,480 --> 00:21:07,400
+It's just what the emulsion itself just wasn't efficient enough to replay that image.
+
+209
+00:21:07,400 --> 00:21:10,360
+But with these new emulsions, there's no bleaching step at all.
+
+210
+00:21:10,360 --> 00:21:15,760
+Uh anything else you want to let the listeners know about your services and how they can contact you and order some of these?
+
+211
+00:21:16,080 --> 00:21:23,040
+I understand you may have a uh a little test package that you uh can send out to someone if they'd like to order that.
+
+212
+00:21:23,040 --> 00:21:23,760
+Is that true?
+
+213
+00:21:23,760 --> 00:21:30,240
+Well, it's actually uh the the all the packaging on this on these Slavic plates are are very amateur friendly.
+
+214
+00:21:30,240 --> 00:21:32,320
+They're um they're small, they're small boxes.
+
+215
+00:21:32,320 --> 00:21:38,160
+So if we if there was an interest in two and a half by two and a half inch plates, well they're packed six to a plate.
+
+216
+00:21:38,560 --> 00:21:42,480
+And the four by five plates are packed uh four to a plate.
+
+217
+00:21:42,480 --> 00:21:52,800
+Um we have a special going on now for first-time buyers, and uh for the f it's really the special is only for the four by five plates, but it's uh quite good.
+
+218
+00:21:52,800 --> 00:21:57,760
+For the PFGO3M plates, which is for the helium neon.
+
+219
+00:21:57,760 --> 00:21:59,520
+One of the sets for the helium neon.
+
+220
+00:21:59,520 --> 00:22:07,200
+We'll uh we offer uh four plates for uh it for US orders, uh twenty dollars plus five dollars shipping.
+
+221
+00:22:07,200 --> 00:22:11,040
+For Canadian or orders, it's uh twenty dollars plus uh eight dollars shipping.
+
+222
+00:22:11,120 --> 00:22:13,280
+The two and a half plates or four by five?
+
+223
+00:22:13,280 --> 00:22:14,320
+These are for four by five.
+
+224
+00:22:15,040 --> 00:22:18,480
+And it's only uh I mean it's only a little bit more than the two and a half by two and a half.
+
+225
+00:22:18,480 --> 00:22:18,800
+Mm-hmm.
+
+226
+00:22:18,800 --> 00:22:20,560
+And that's right where ACFA was.
+
+227
+00:22:20,560 --> 00:22:20,880
+Right.
+
+228
+00:22:20,880 --> 00:22:22,720
+Now that was what we were trying to do.
+
+229
+00:22:22,720 --> 00:22:32,320
+Uh right now pricing is all over the place, and and the Russians are learning their new cost structure too as as their prices rise and fall with the their changing economy.
+
+230
+00:22:32,320 --> 00:22:49,880
+So it's been it's been difficult, and I think one of the advantages that it it is for for for US, American, and I guess international holographers having three deep around is that we you know, we level, we balance out all of the the changing problems and demands and and situation in Russia by keeping inventory in the United States.
+
+231
+00:22:49,880 --> 00:22:50,440
+Mm-hmm.
+
+232
+00:22:50,440 --> 00:22:53,280
+And by keeping the prices steady.
+
+233
+00:22:53,280 --> 00:22:54,880
+Can they order chemistry through you?
+
+234
+00:22:54,880 --> 00:22:56,080
+I don't know if you said that or not.
+
+235
+00:22:56,080 --> 00:22:58,240
+No, at this stage, no, no, no chemistry.
+
+236
+00:22:58,240 --> 00:23:02,760
+Alright, so we'll looking to the chemical supplier for this also while we're doing the show tonight.
+
+237
+00:23:03,480 --> 00:23:05,480
+Okay, well, Alex, I know you have to run.
+
+238
+00:22:59,840 --> 00:23:06,360
+You're going out for dinner.
+
+239
+00:23:06,440 --> 00:23:07,800
+I hope you enjoy it.
+
+240
+00:23:07,800 --> 00:23:11,480
+And um I'm glad we were able to get in touch with one another.
+
+241
+00:23:11,480 --> 00:23:11,880
+Oh, yeah.
+
+242
+00:23:12,280 --> 00:23:15,320
+At the last moment, folks, it's it's ten thirty on Saturday night.
+
+243
+00:23:15,320 --> 00:23:18,680
+The show goes up at midnight, so I don't think we could get any closer than this.
+
+244
+00:23:19,000 --> 00:23:21,080
+Well, I mean it's uh I just wanted to say one more thing.
+
+245
+00:23:21,080 --> 00:23:24,520
+I mean, this is the whole thing since February has been very exciting.
+
+246
+00:23:24,520 --> 00:23:44,840
+And I not that I wanted the I mean I'm I'm happy that holographers have the the best plates out there and that they're using something that's familiar, but since AGFA has decided to pull out, there has been I mean for for for three deep there's been so many so many changes uh we put on the website, we took uh we got credit card acceptance, so we can we can take credit card orders.
+
+247
+00:23:44,840 --> 00:23:47,400
+Uh people from around the world are are looking to try it out.
+
+248
+00:23:47,400 --> 00:23:49,320
+So uh and they've been happy.
+
+249
+00:23:49,320 --> 00:23:53,240
+I mean we've gotten we've gotten uh not just the first order, but we're getting the second order.
+
+250
+00:23:53,240 --> 00:24:05,720
+So I think that the Slavic plates are gonna turn out to be um you know, not second ones, but I think opening up a whole new uh a whole new level of art and a whole new level of resolution, and it's gonna change the way holography works in the future.
+
+251
+00:24:06,040 --> 00:24:07,560
+Well, I want to wish you a lot of luck.
+
+252
+00:24:07,560 --> 00:24:08,520
+Thank you very much, Frank.
+
+253
+00:24:08,520 --> 00:24:09,080
+Thanks for calling.
+
+254
+00:24:09,320 --> 00:24:10,600
+And thanks for being on the show.
+
+255
+00:24:10,600 --> 00:24:11,000
+Great.
+
+256
+00:24:11,000 --> 00:24:11,880
+Alex, take care.
+
+257
+00:24:11,880 --> 00:24:12,760
+Okay, bye-bye.
+
+258
+00:24:12,760 --> 00:24:13,800
+Bye bye.
+
+259
+00:24:14,280 --> 00:24:16,040
+Okay, we're back in the studio.
+
+260
+00:24:16,040 --> 00:24:20,600
+Let me just get situated with all the papers that I have all over here.
+
+261
+00:24:20,600 --> 00:24:25,640
+And see if we can't go over some of the technical specifications here.
+
+262
+00:24:25,640 --> 00:24:27,640
+Uh what should I read?
+
+263
+00:24:27,640 --> 00:24:29,160
+Let's see.
+
+264
+00:24:29,160 --> 00:24:30,440
+Introduction.
+
+265
+00:24:30,440 --> 00:24:33,320
+Let's just read a quick introduction on the company itself.
+
+266
+00:24:33,320 --> 00:24:35,160
+The company Slavic J.
+
+267
+00:24:35,160 --> 00:24:35,560
+S.
+
+268
+00:24:35,560 --> 00:24:37,080
+Company.
+
+269
+00:24:37,080 --> 00:24:40,680
+Situated at oh, good luck.
+
+270
+00:24:40,680 --> 00:24:44,720
+Well, they are 130 kilometers from Moscow.
+
+271
+00:24:44,440 --> 00:24:46,080
+Let's just put it that way.
+
+272
+00:24:46,320 --> 00:24:57,840
+Is currently a leading manufacturer of photographic plates for the microelectronics industry, conventional photographic papers, and of audio and video tapes.
+
+273
+00:24:57,840 --> 00:25:06,320
+In addition to these products, Slavic has been producing for many years high-quality holographic materials.
+
+274
+00:25:06,320 --> 00:25:18,400
+The production of photographic plates and of the holographic materials is carried out in facilities located in the micron plant, a Slavic subsidiary enterprise.
+
+275
+00:25:18,400 --> 00:25:26,640
+The micron plant produces holographic materials on hard glass and flexible film bases.
+
+276
+00:25:26,640 --> 00:25:30,720
+A list and brief description of these materials are presented below in table one.
+
+277
+00:25:30,720 --> 00:25:31,600
+Okay.
+
+278
+00:25:31,600 --> 00:25:38,240
+So I have some material here which goes back to the ACFA materials.
+
+279
+00:25:38,400 --> 00:25:42,000
+Let's take a look at how these things line up with one another.
+
+280
+00:25:42,000 --> 00:25:48,000
+Now in the interview, Alex mentioned the PFG-01.
+
+281
+00:25:48,000 --> 00:25:58,800
+Now on my sheet here, it says it's a fine-grained red-sensitive holographic plate and film designed for transmission or reflection hologram recording.
+
+282
+00:25:58,800 --> 00:26:02,640
+Average grain size is 40 nanometers.
+
+283
+00:26:02,640 --> 00:26:07,520
+Resolving power more than 3,000 lines per millimeter.
+
+284
+00:26:07,520 --> 00:26:22,480
+And the spectral sensitivity range is from 600 to 680 nanometers, with the peaks at 633, which is our helium neon line, and 647.
+
+285
+00:26:22,480 --> 00:26:26,560
+Now let's move down to AGFA.
+
+286
+00:26:26,560 --> 00:26:37,640
+And I'm going to look here now at 8E 75HD, which was the recording material of choice for reflection holography with Agha materials.
+
+287
+00:26:37,640 --> 00:26:42,840
+Now this is just a chart, so there's no text with it.
+
+288
+00:26:42,840 --> 00:26:48,120
+So grain size 35 nanometers.
+
+289
+00:26:49,640 --> 00:26:55,080
+Now the grain size with the Slavic plates, 40 nanometers.
+
+290
+00:26:55,080 --> 00:26:57,080
+Not too much of a difference there.
+
+291
+00:26:57,080 --> 00:27:02,280
+35 for the Agha, 40 for the Slavic.
+
+292
+00:27:02,280 --> 00:27:11,560
+Resolving lines per millimeter, 5,000 lines per millimeter for AgFA.
+
+293
+00:27:11,560 --> 00:27:21,160
+For Slavic, revolving resolving power more than 3,000 lines per millimeter.
+
+294
+00:27:21,160 --> 00:27:24,760
+Now will it be possible to do reflection holograms with these plates?
+
+295
+00:27:24,760 --> 00:27:35,800
+Now Alex had mentioned a PFG-01M, which is going to be close to the sensitivity of the AGFA materials.
+
+296
+00:27:51,400 --> 00:27:55,560
+Average grain size is 8 to 12 nanometers.
+
+297
+00:27:55,560 --> 00:27:56,680
+That's small.
+
+298
+00:27:56,680 --> 00:28:01,560
+Resolving power more than 5,000 lines per millimeter.
+
+299
+00:28:01,560 --> 00:28:13,160
+And the spectral sensitivity range includes six hundred and thirty three nanometers six hundred and forty seven nanometers as well.
+
+300
+00:28:13,160 --> 00:28:30,320
+Now this is where we run into the sensitiv sensitivity issue and that is that the emulsion actually has to be exposed for quite a bit more time than with the AgFa plates.
+
+301
+00:28:30,320 --> 00:28:39,360
+So there let's go through here and see what we have here.
+
+302
+00:28:39,520 --> 00:28:52,880
+Okay we have the uh processing the diffraction efficiency for the PFG 03N is greater than 45%.
+
+303
+00:28:52,880 --> 00:28:54,640
+That's incredible.
+
+304
+00:28:54,640 --> 00:29:03,920
+So if these are done correctly you can expect to get very bright holograms from them very bright holograms.
+
+305
+00:29:03,920 --> 00:29:07,120
+So that's how they compare side to side comparison.
+
+306
+00:29:07,120 --> 00:29:37,440
+So the PFG 01 the uh the whole the holographic materials that they're saying can be used for both transmission and reflection hologram recording seem to be very close to where the AGFA 8E75 HD is that we're all familiar with it's the PFG-03M emulsion which is going to need quite a bit of a hit from the light source in order to get the good results.
+
+307
+00:29:37,440 --> 00:29:39,920
+So there we have it.
+
+308
+00:29:39,920 --> 00:29:42,960
+Okay so that just about wraps it up for another show.
+
+309
+00:29:42,960 --> 00:29:55,800
+I hope between the show and if you traveled over to the 3D company website, that you've had a few of your questions answered concerning these new recording materials that we have to work with.
+
+310
+00:29:55,800 --> 00:30:02,120
+Our entertainment this week, for your listening pleasure, is a band called Cigar out of Eugene, Oregon.
+
+311
+00:30:02,120 --> 00:30:07,800
+And if you go back to the HoloTalk page, you'll see the link to listen to them if you choose to listen to them.
+
+312
+00:30:07,800 --> 00:30:13,720
+They do come through at 28.8, so that's a 28-8 recording in Real Audio 5.0.
+
+313
+00:30:13,720 --> 00:30:18,760
+So if you do not have Real Audio 5.0, this show probably will not work for you.
+
+314
+00:30:18,760 --> 00:30:23,480
+So I want to thank you for tuning in and uh I hope you stop back next week.
+
+315
+00:30:23,480 --> 00:30:25,720
+This is Frank Defratis for HoloTalk.
+
+316
+00:30:25,720 --> 00:30:28,840
+Have a great week and happy new year.

@@ -1,0 +1,1099 @@
+1
+00:00:03,520 --> 00:00:13,920
+Hello everyone, this is Frank Defratis, and welcome to HoloTalk, the Internet's laser and holography talk show enjoyed in over forty-two countries throughout the world.
+
+2
+00:00:13,920 --> 00:00:20,400
+And now, here's this week's show.
+
+3
+00:00:21,440 --> 00:00:22,240
+Frank.
+
+4
+00:00:22,240 --> 00:00:23,520
+Hello, Howard, how are you?
+
+5
+00:00:23,760 --> 00:00:24,240
+I'm fine.
+
+6
+00:00:24,240 --> 00:00:25,440
+It was my caller ID.
+
+7
+00:00:25,680 --> 00:00:26,400
+Oh, that's good.
+
+8
+00:00:26,720 --> 00:00:27,920
+Glad to hear it's working.
+
+9
+00:00:28,480 --> 00:00:33,120
+Got your email a little bit earlier on saying you were available today, so I thought I'd give you a call.
+
+10
+00:00:33,120 --> 00:00:34,160
+Excellent, excellent.
+
+11
+00:00:34,880 --> 00:00:41,680
+So why don't we start off with having you tell the listeners a little bit about the Polaris Research Group.
+
+12
+00:00:41,680 --> 00:00:42,640
+Is this your company?
+
+13
+00:00:42,640 --> 00:00:43,440
+Yes, it is.
+
+14
+00:00:43,440 --> 00:00:46,720
+It's a very impressive website with the pictures of your lab there.
+
+15
+00:00:48,160 --> 00:01:01,920
+I I'm glad you it's a very nice thing of you to say because when we uh put the website up uh because uh we're not HTML people, we discovered that it depends on which viewer you bring it up in, it's to how good it looks.
+
+16
+00:01:02,160 --> 00:01:02,800
+Yeah.
+
+17
+00:01:02,800 --> 00:01:11,520
+But um uh I I appreciate the compliments, certainly, and uh we're for those people who've seen uh some discrepancies in the website, we're gonna be fixing that.
+
+18
+00:01:11,520 --> 00:01:16,720
+But uh yeah, we've uh we've got a really very nice lab facility.
+
+19
+00:01:16,720 --> 00:01:30,880
+And um the short story on Polaris is that uh I spent about fifteen years working for the Navy in uh underwater weapons systems and um uh laser and optical applications, uh things like fiber optic sensors.
+
+20
+00:01:30,880 --> 00:01:37,760
+But the big deal was uh optical non destructive testing and uh holographic interferometry.
+
+21
+00:01:37,760 --> 00:01:52,560
+Um flash ahead after 15 years of doing all sorts of things that were uh deeply classified, and uh when they declassified my work in nineteen ninety-three, uh, after about eighteen months of negotiation, I bought the entire laboratory.
+
+22
+00:01:52,560 --> 00:01:53,280
+Wow.
+
+23
+00:01:53,280 --> 00:02:04,920
+And um so we had this, you know, huge state of the art laboratory, and uh we have a very nice space in a commercial building where we've been for the last thirteen years now.
+
+24
+00:02:04,920 --> 00:02:10,680
+And we're one of the few labs actually offering uh holographic interferometry service.
+
+25
+00:02:10,680 --> 00:02:18,040
+Here in this country, it's very big in Europe and uh, you know, uh very uh very well used.
+
+26
+00:02:18,040 --> 00:02:24,360
+In fact, uh virtually every automotive company, aerospace manufacturer and uh aircraft manufacturer uses it regularly.
+
+27
+00:02:24,360 --> 00:02:30,920
+But it's still something of a uh of an odd application here in the US.
+
+28
+00:02:30,920 --> 00:02:33,880
+I'm not sure precisely why that is.
+
+29
+00:02:33,880 --> 00:02:40,680
+So I'm something of an evangelical about uh both holography in general and holographic interferometry specifically.
+
+30
+00:02:40,680 --> 00:02:49,320
+So um what are some of the current competing technologies with the holographic method for interferometry that's out on the market today?
+
+31
+00:02:49,320 --> 00:03:04,440
+Well, there aren't a lot, actually, because of course holography is full field, um and um with uh current technology that's out there uh you can do uh extremely sub-wavelength uh measurements.
+
+32
+00:03:04,440 --> 00:03:15,640
+So you've got something that's full field, real time, uh, and can also be set uh either synchronously or asynchronously to pulse along with um the motion of an object.
+
+33
+00:03:15,640 --> 00:03:23,880
+It's really just uh an extremely accurate measure measurement method, pardon me, for uh looking at displacement, uh either in plane or out of plane.
+
+34
+00:03:23,880 --> 00:03:39,080
+There are uh a number of different interferometric methods that uh use uh similar concepts, similar uh uh you know, optical physics to uh develop a interference map.
+
+35
+00:03:39,080 --> 00:03:47,840
+But the beauty of holography is that it shows you the uh displacement of the entire object and uh the topography of that motion.
+
+36
+00:03:47,840 --> 00:03:55,840
+So the real point to it is is that once you've stressed an object, however that stress has been applied, you can see what it's doing.
+
+37
+00:03:55,840 --> 00:03:58,080
+Uh there aren't a lot of other methods that do that.
+
+38
+00:03:58,080 --> 00:04:04,880
+Now, there are certainly point measurement methods, even some optical ones like uh vibrometry and that kind of thing.
+
+39
+00:04:04,880 --> 00:04:15,280
+There are certainly other ways to measure stress and strain, which usually require applying some kind of a strain gauge or something of that nature.
+
+40
+00:04:15,280 --> 00:04:22,880
+And uh there are other methods of looking at either defects uh or um uh you know, surface motion.
+
+41
+00:04:22,880 --> 00:04:31,040
+That can include uh mm sonography, uh C scanning, that kind of thing, and uh many other methods.
+
+42
+00:04:31,040 --> 00:04:39,040
+But holography is unique in that it is entirely non contact as far as the observation method goes.
+
+43
+00:04:39,040 --> 00:04:46,560
+And the uh nicest advantage of it is is that you see what is the truth rather than what is a model.
+
+44
+00:04:46,560 --> 00:04:54,880
+And that's the important thing because the holographic maps are what's really going on in the real world as a result of whatever the applied stress is.
+
+45
+00:04:56,320 --> 00:05:15,840
+I know uh Newport Research at one time had a catalog that was actually just a uh it featured uh different uh techniques that could be done with their uh laser and holography system that they put out and they had a very simple experiment for holographic interferometry in there where they used, I believe a Coca-Cola can or something like that.
+
+46
+00:05:16,080 --> 00:05:17,760
+That's correct, with a rubber band around it.
+
+47
+00:05:18,080 --> 00:05:20,480
+That goes yeah, that goes back many, many years.
+
+48
+00:05:20,480 --> 00:05:22,000
+I still have that catalog.
+
+49
+00:05:22,000 --> 00:05:25,120
+I was one of their uh one of their first customers in nineteen eighty.
+
+50
+00:05:25,120 --> 00:05:25,680
+Oh.
+
+51
+00:05:25,840 --> 00:05:30,000
+That that was two guys that started out uh in in the kitchen or something, wasn't it?
+
+52
+00:05:30,040 --> 00:05:30,280
+Right.
+
+53
+00:05:30,280 --> 00:05:30,520
+Dr.
+
+54
+00:05:30,520 --> 00:05:36,040
+Milton Chang was uh eventually the uh the president and CEO.
+
+55
+00:05:36,040 --> 00:05:48,200
+And um uh once the company, you know, was going, of course, uh Milton, who is uh you know very well known in the optical community, of course, he writes every month in Laser Focus World.
+
+56
+00:05:48,200 --> 00:05:54,760
+Um just a brilliant entrepreneur of uh you know stellar uh ability.
+
+57
+00:05:54,760 --> 00:05:59,480
+And um, of course, uh when he left Newport Research, here I'm talking about Dr.
+
+58
+00:05:59,480 --> 00:06:17,000
+Chang, but he went on to to uh found with another friend uh New Focus, which of course became very yeah very well known and uh and then successfully went on, and I I know that he's also with uh a uh research and uh entrepreneurial incubation firm uh now.
+
+59
+00:06:17,000 --> 00:06:17,800
+So uh Dr.
+
+60
+00:06:17,800 --> 00:06:57,480
+Chang did tremendous, tremendous things early on as a champion of holography, and um uh we got to know each other quite well quite a long time ago, and um as a result of that when I was purchasing large amounts of equipment from Newport Research, and uh though not trying to to uh promulgate one company as a supplier over the other, uh certainly at that time Newport was uh you know, the only game in town for the best in the world, and they had their holographic camera, which was a brilliant device developed by Honeywell.
+
+61
+00:06:57,480 --> 00:07:06,440
+Uh it's still an extremely useful device, though the the uh company stopped supporting it at least a decade ago.
+
+62
+00:07:06,440 --> 00:07:09,080
+Uh I still use the camera every day in my lab.
+
+63
+00:07:09,080 --> 00:07:10,200
+It's twenty five years old.
+
+64
+00:07:10,200 --> 00:07:11,080
+I have several of them.
+
+65
+00:07:11,080 --> 00:07:16,320
+They use a photothermoplastic plate, which means you can make a uh hologram in under forty five seconds.
+
+66
+00:07:16,640 --> 00:07:18,320
+Is it still possible to get those plates?
+
+67
+00:07:18,320 --> 00:07:21,680
+I got an email not too long ago from someone looking for those plates.
+
+68
+00:07:21,680 --> 00:07:24,720
+Um there's probably a lot of us out there looking for those plates.
+
+69
+00:07:25,040 --> 00:07:33,040
+I recently found a uh a surplus company that had a supply of those plates, and I bought them all.
+
+70
+00:07:33,040 --> 00:07:34,080
+Oh, okay.
+
+71
+00:07:34,080 --> 00:07:46,320
+And um uh when they pop up, sometimes on eBay, sometimes other places, uh, those of us who see it generally uh compete with each other right away to get them.
+
+72
+00:07:46,320 --> 00:07:46,800
+Yeah.
+
+73
+00:07:46,800 --> 00:07:52,400
+Um because that camera is still uh the one that's most used in the world.
+
+74
+00:07:52,400 --> 00:08:06,800
+There have been other devices out there and uh one or two that were actually quite promising, but uh unfortunately they weren't able to be uh supplied in any real uh quality based quantity uh in this country.
+
+75
+00:08:06,800 --> 00:08:16,000
+So I still use that system every day, and when it does get to the point where those plates uh run out, fortunately I still have a decent supply.
+
+76
+00:08:16,000 --> 00:08:18,240
+Um we're gonna have to go to some other method.
+
+77
+00:08:18,240 --> 00:08:38,240
+And of course now there are uh other holographic methods, including some that are photorefractive crystal based, and those are showing very great promise, and there's some OEMs out there that are uh supplying equipment that are uh based on photorefractives and other uh optical techniques to do the very same thing.
+
+78
+00:08:38,240 --> 00:08:38,800
+Yeah.
+
+79
+00:08:38,800 --> 00:08:50,160
+This was actually a research uh student at the University of Connecticut, so maybe if I get another request in the future I can just uh send them over to you, and if the price is right, maybe you can part with one of them.
+
+80
+00:08:50,160 --> 00:08:59,520
+I think that uh it's certainly possible, but I wouldn't hold up any promise that uh I really the you know, it's kind of the price greater than rubies.
+
+81
+00:08:59,520 --> 00:09:00,000
+I see.
+
+82
+00:09:00,040 --> 00:09:04,920
+For those of us who use it every day, it's it's right now the only tool uh for that sort of thing.
+
+83
+00:09:04,920 --> 00:09:14,040
+Because in order to make holographic interferometry an essentially uh uh affordable thing, you have to be able to do it quickly.
+
+84
+00:09:14,040 --> 00:09:21,160
+And um that's that's one of the important aspects of it, and something that made it economical to do.
+
+85
+00:09:21,160 --> 00:09:27,000
+Because back in the 70s when we were doing it, we were doing what uh holographers do in general.
+
+86
+00:09:27,000 --> 00:09:30,360
+A film plate, uh or film or a plate, rather.
+
+87
+00:09:30,360 --> 00:09:35,800
+Uh of course you set it up, make your exposure, develop, bleach, all that stuff.
+
+88
+00:09:35,800 --> 00:09:39,400
+And then come back a little while later to find out if your hologram was good.
+
+89
+00:09:39,400 --> 00:09:43,160
+You could spend a whole day just to find out you had a bad interferogram.
+
+90
+00:09:43,160 --> 00:09:43,800
+Yeah.
+
+91
+00:09:43,800 --> 00:09:48,120
+So uh having an instant uh system was a real godsend.
+
+92
+00:09:48,120 --> 00:09:56,200
+So back in nineteen eighty, uh, we did that and we married that to back then very simple video system, and we're able to look at things real time.
+
+93
+00:09:56,200 --> 00:10:16,280
+Now, of course, with you know digital imaging, uh we've got some pretty sophisticated stuff going on and so we we do an awful lot of work for large corporations and looking at everything from vibration of turbine rotors to uh tiny little components like uh disc drive components to larger structures of all sorts.
+
+94
+00:10:16,360 --> 00:10:38,760
+I'm working with a teacher to get their students involved with holographic interferometry, and we're looking at building balsa wood bridges and then doing holograms of them and placing fishing tackle weights on them to notice the stress and see which one of the bridge designs handles the stress best.
+
+95
+00:10:38,760 --> 00:10:39,720
+Oh, yeah, sure.
+
+96
+00:10:39,720 --> 00:10:41,560
+So terrific application.
+
+97
+00:10:41,560 --> 00:10:50,000
+I mean, as far as a career would go or something, uh how many companies out there are actively doing holographic interferometry now in the United States?
+
+98
+00:10:50,080 --> 00:10:56,320
+Only a very small handful, and the companies that are doing it are generally doing it internally.
+
+99
+00:11:08,400 --> 00:11:18,880
+But even they go to outside consultants at times, but there aren't uh a lot of companies where you can just go and be a holographer.
+
+100
+00:11:19,200 --> 00:11:21,920
+Um Polaris, and we're a very small company.
+
+101
+00:11:21,920 --> 00:11:24,080
+There's uh we're sole proprietorship.
+
+102
+00:11:24,080 --> 00:11:26,240
+Uh I'm the one that's in the lab most of the time.
+
+103
+00:11:26,240 --> 00:11:30,640
+There are really only five of us, and each of us has a uh different specialty.
+
+104
+00:11:30,640 --> 00:11:34,320
+But uh I'm pretty much the holographer.
+
+105
+00:11:34,320 --> 00:11:52,720
+The other guys are uh computer guys, um engineers, physicists, and uh, you know, we all work together and depending on the project, but uh for the most part I'm the one that actually does the uh optically related work in the laboratory, and there are not a lot of other places in the US doing that.
+
+106
+00:11:52,720 --> 00:12:05,760
+I suspect there are a few that uh still actually offer the service, um, but um I believe that it's uh it's a pretty hard thing to find in this country.
+
+107
+00:12:05,760 --> 00:12:14,160
+Uh there are equipment manufacturers, OEMs, uh in Europe that not only uh supply equipment but offer the services as well.
+
+108
+00:12:14,160 --> 00:12:15,520
+It's it's very different over there.
+
+109
+00:12:15,520 --> 00:12:17,280
+It's very, very, very strange.
+
+110
+00:12:17,680 --> 00:12:19,760
+What lasers do you have there?
+
+111
+00:12:19,760 --> 00:12:21,440
+Well, uh a number.
+
+112
+00:12:21,440 --> 00:12:30,680
+Uh I have uh one of the old Lexel Model 95 Argon lasers, and it's uh you know, set up for single frequency single mode operation.
+
+113
+00:12:29,920 --> 00:12:34,280
+Uh it's a five watt laser, so we get a lot of a lot of power out of that.
+
+114
+00:12:34,520 --> 00:12:41,240
+Uh one of the old Spectra Physics uh SP 125 50 millimeter Heaneys.
+
+115
+00:12:41,480 --> 00:12:42,120
+Classic.
+
+116
+00:12:42,120 --> 00:12:48,280
+Yeah, it is, and it's it's actually an incredibly good laser when it's set up with an Edelon and everything for what it is.
+
+117
+00:12:48,280 --> 00:13:03,320
+Um a number of uh smaller solid state red ones, which oddly enough nowadays are set up correctly and thermally controlled correctly, can make adequate holograms with uh depending on the coherence length you need.
+
+118
+00:13:03,320 --> 00:13:07,640
+But my primary laser right now is uh one of the coherent compass lasers.
+
+119
+00:13:07,640 --> 00:13:08,120
+Okay.
+
+120
+00:13:08,760 --> 00:13:09,480
+Great unit.
+
+121
+00:13:09,480 --> 00:13:09,960
+Pardon?
+
+122
+00:13:09,960 --> 00:13:11,400
+Yeah, it's a great unit as well.
+
+123
+00:13:11,400 --> 00:13:12,040
+Oh, it really is.
+
+124
+00:13:12,040 --> 00:13:14,520
+You know, at 532 it's dead stable.
+
+125
+00:13:14,520 --> 00:13:21,160
+Um we're using a hundred milliwatt unit, and uh it's really uh a wonderful system.
+
+126
+00:13:21,160 --> 00:13:24,040
+Uh just about the size of a package of cigarettes, plugs into the wall.
+
+127
+00:13:24,040 --> 00:13:33,400
+If you heat sync it correctly, then you've got something that you know has uh beautiful lifetime and runs stable forever and makes great holograms.
+
+128
+00:13:33,400 --> 00:13:36,360
+I just acquired a Lexel 88.
+
+129
+00:13:36,360 --> 00:13:36,920
+Oh.
+
+130
+00:13:36,920 --> 00:13:37,560
+Mm-hmm.
+
+131
+00:13:37,560 --> 00:13:41,720
+The only difficulty is that there were two configurations of the power supply.
+
+132
+00:13:41,720 --> 00:13:52,600
+One was your standard desktop type of power supply for lack of a better term, and the other one was the medical-based power supply, where the laser head was actually contained within the cabinet.
+
+133
+00:13:52,600 --> 00:13:53,160
+Oh, yeah.
+
+134
+00:13:53,160 --> 00:14:03,720
+So I'm having a difficult time trying to figure out this uh this medical setup because the the the cabinet, the power supply cabinet that runs is about the size of a small uh filing cabinet.
+
+135
+00:14:03,720 --> 00:14:04,280
+Uh huh.
+
+136
+00:14:04,280 --> 00:14:07,960
+And uh I had to get a truck to pick it up because I couldn't even fit it in the car.
+
+137
+00:14:07,960 --> 00:14:12,680
+So I've got to figure out how to get that all set up, but I think Oh that Lexel eighty eight's a nice laser, too.
+
+138
+00:14:12,680 --> 00:14:13,720
+Oh, yeah, definitely.
+
+139
+00:14:13,720 --> 00:14:14,360
+Yeah.
+
+140
+00:14:14,360 --> 00:14:16,080
+I see you're in Cleveland, Ohio.
+
+141
+00:14:16,080 --> 00:14:18,000
+We should let the uh listeners know that.
+
+142
+00:14:18,000 --> 00:14:18,800
+Yeah.
+
+143
+00:14:14,680 --> 00:14:21,280
+Do you ever open your doors to visitors?
+
+144
+00:14:21,280 --> 00:14:22,000
+Absolutely.
+
+145
+00:14:22,000 --> 00:14:23,200
+We do any time.
+
+146
+00:14:23,200 --> 00:14:38,480
+Uh when we receive calls, uh one of the things that happens very regularly uh before anybody uh works with us is we'll generally have a meeting and uh uh give them a quick tour of the facilities.
+
+147
+00:14:38,480 --> 00:14:42,000
+The laboratory itself is the optics lab, as you could see on the website.
+
+148
+00:14:42,000 --> 00:14:48,720
+It's about a five hundred square foot facility, a very nice uh laboratory environment, very well suited to optics.
+
+149
+00:14:48,720 --> 00:14:59,280
+And uh of course we're in a uh large industrial building and it's actually owned by General Electric here in uh Cleveland, and uh it's a terrific facility.
+
+150
+00:14:59,280 --> 00:15:07,520
+So we have uh the advantage of being able to, you know, as part of our uh rent and overhead, use all of the conference facilities and um even their cafeteria.
+
+151
+00:15:07,520 --> 00:15:09,120
+So it's really pretty nice for us.
+
+152
+00:15:09,120 --> 00:15:17,200
+So we've got a a great facility when we bring people in to visit, and then we can uh spend some time standing in the dark looking at colored lights later on.
+
+153
+00:15:17,200 --> 00:15:19,760
+It sounds like one of the uh incubator units.
+
+154
+00:15:19,760 --> 00:15:23,040
+Is is that what it is uh that's provided through General Electric?
+
+155
+00:15:23,280 --> 00:15:24,480
+No, it's it's really not.
+
+156
+00:15:24,480 --> 00:15:35,120
+Uh the plant we're in here is the plant where General Electric has its quartz melt facility where they make the uh quartz for virtually all of their worldwide operations.
+
+157
+00:15:35,120 --> 00:15:46,320
+So they have these uh huge kilns that are running uh you know, 247, 365, making bulls of quartz uh roughly three feet thick and six feet across.
+
+158
+00:15:47,360 --> 00:15:50,400
+And um, you know, for all the different applications.
+
+159
+00:15:50,400 --> 00:16:59,400
+So but this is where we do holography of all sorts, and uh, you know, of course, also do our work with uh uh you know, distributing ultimate for the rest of the world so what brought that on to uh distribute ultimate emulsions yeah this is actually you know one of the most exciting things for us uh right now um as most hologers will probably know and if they don't they should they should know right now um Yves Jean Tet in France over the last twenty years uh has been one of the most brilliant holographers uh anywhere in the world his results have been nothing short of miraculous and I've always been incredibly impressed with the things he produced and uh he was supplying uh a very innovative set of emulsions that he developed um in his own laboratories uh over the last twenty years those emulsions were available only in Europe they were not available here in the US for a myriad of reasons including the fact that when they were shipped uh via standard uh shipping methods like container shipping uh the breakage was horrendous on the plates so it was very uneconomical.
+
+160
+00:16:59,400 --> 00:17:13,240
+Of course uh the reason for doing that is when they trans shipped uh by air virtually everything was X-rayed regardless of what the packaging would say so it was kind of not a good thing to have photographic materials being x-rayed.
+
+161
+00:17:13,240 --> 00:17:13,800
+Yeah.
+
+162
+00:17:13,800 --> 00:17:37,280
+In any case make long story very short when uh uh international manufacturing was uh developed in Canada which is now where uh one of the major manufacturing facilities for ultimate emulsions is uh was moved to North America uh the manufacturer and uh Mr.
+
+163
+00:17:37,480 --> 00:17:42,960
+Jean Pet uh went looking for a distributor here in the United States.
+
+164
+00:17:42,960 --> 00:17:54,560
+And uh our reputation uh was such that they spoke with us, and we were very pleased and very excited to be able to become the U.S.
+
+165
+00:17:54,640 --> 00:17:59,680
+distributor for these emulsions and uh and work with them.
+
+166
+00:17:59,680 --> 00:18:17,040
+So uh what we do, of course, is uh whether it's on our website or direct communication, we will take orders, we will have the emulsions custom manufactured from date of order to date of delivery, is usually no more than four weeks.
+
+167
+00:18:17,040 --> 00:18:30,560
+Um every now and then we do have something in stock as well, but the nature of the emulsion is that our customers can specify exactly what they want, uh, including you know, pre-swells and wavelength shifts and things like that.
+
+168
+00:18:30,560 --> 00:18:33,920
+And uh the emulsion itself is spectacular.
+
+169
+00:18:33,920 --> 00:18:38,080
+It is without a doubt the finest holographic emulsion in the world.
+
+170
+00:18:38,080 --> 00:19:02,720
+It is the highest resolution, the highest sensitivity, and uh if one is to take a look at some of the corroborative data on the website, where it's just a simple comparison between the normal operating specs, uh it's not a it's it's not a negative comment on other emulsions out there because many of them have worked just fine over the years, but um, it's like anything.
+
+171
+00:19:02,720 --> 00:19:13,840
+If you have uh you know a hand built hand-tuned sports car that uh is compared to you know uh a general pickup truck, there's gonna be a performance difference.
+
+172
+00:19:13,840 --> 00:19:22,720
+And we are incredibly pleased to be able to uh offer this to holographers at a very reasonable price, and uh make no bones about it.
+
+173
+00:19:22,720 --> 00:19:24,400
+It costs a little more.
+
+174
+00:19:24,400 --> 00:19:53,960
+But in terms of consistency and exactly what to do, and coupled with the fact that uh Yves Jean Tet also developed a very unique set of chemistries for the plates, um, it's a two-part developing system with a developer and a bleach, uh, very different than anything that that has been used before, and uh my own experience with this over the years, and of course, once I started working with it regularly, there's just nothing like it in the world.
+
+175
+00:19:53,960 --> 00:19:56,120
+The results are spectacular.
+
+176
+00:19:56,120 --> 00:20:12,840
+And when we're talking about looking at the holograms that are virtually without halation, without fog, without any fuzz or noise, you really can make holograms, even in a student environment, that are indistinguishable from the real object.
+
+177
+00:20:12,840 --> 00:20:17,720
+So I I take it the formulations of the developer is not a lot of toxicity to it.
+
+178
+00:20:17,720 --> 00:20:18,520
+That's correct.
+
+179
+00:20:18,520 --> 00:20:26,280
+They are extremely low toxicity, they are vastly different than commercial developers' bleaches and um uh and fixers.
+
+180
+00:20:26,280 --> 00:20:49,880
+And in fact, whereas in a normal photographic process, that's exactly what you have is a developer and then a wash and then a bleach and then a wash and then a uh a uh fixer, uh this is only a two-part system, and it only takes a few minutes, and it's extremely well defined, and uh the the plates themselves have uh a remarkable sensitivity and resolution to them.
+
+181
+00:20:49,880 --> 00:21:03,880
+So, yeah, it's uh a very low toxicity thing, and in fact, when we uh did all of the necessary paperwork for the uh registration and you know, verification of the uh the chemistry with our friends, the U.S.
+
+182
+00:21:03,880 --> 00:21:12,520
+government and ocean, all of that, um, we've got a a very nice nice uh set of ratings which uh allow us to ship the stuff.
+
+183
+00:21:12,520 --> 00:21:16,400
+So which one of the emulsions do you have in stock the most?
+
+184
+00:21:17,280 --> 00:21:26,160
+Well uh if someone were to go to your web page and order to you today are there specific emulsions within this range that you have in stock that you can ship right away.
+
+185
+00:21:26,160 --> 00:21:33,120
+Um yeah generally the the no wavelengths ship reds and greens and it depends on the size of the plate.
+
+186
+00:21:33,120 --> 00:21:59,520
+Um usually the four by fives are what most people buy and they're the easiest and quickest to acquire and in fact we even offer little what we call test kits where we supply uh five four by five plates uh in the wavelength of your choice plus the necessary developer and bleach and uh uh a very nice little kit for uh I think it's a hundred and twenty nine dollars.
+
+187
+00:21:59,760 --> 00:22:01,840
+Yeah I'm actually going to order one of those from you.
+
+188
+00:22:01,840 --> 00:22:02,400
+Oh terrific.
+
+189
+00:22:02,400 --> 00:22:02,720
+Yeah.
+
+190
+00:22:02,720 --> 00:22:03,920
+Order right on the website.
+
+191
+00:22:03,920 --> 00:22:21,520
+Uh we do have secure shopping cart uh and uh one can make a credit card order right there and you know secure socket layering and all of that so uh it's extremely high and uh or you can just give me a call and we can work that out and uh if you'd like to do that uh I recommend it anyway for all our customers.
+
+192
+00:22:21,520 --> 00:22:43,760
+And uh this is the plug for all of you out there who are making holograms using um regular photographic media uh including many of the currently available emulsions uh do give this a try it will be worth your time it will be worth your money and uh you will find that it's something that gives you results like you have never seen before.
+
+193
+00:22:43,760 --> 00:23:01,880
+Um so there's the uh shameless plug for the material because it really is remarkable and the reason that Polaris is distributing it and that we are not only standing behind it but recommending it is that I've been an active holographer for thirty years and you don't even sound thirty years old.
+
+194
+00:23:02,840 --> 00:23:04,360
+I appreciate that.
+
+195
+00:23:04,360 --> 00:23:08,360
+Uh I made my first hologram in nineteen sixty eight on the floor of a bedroom.
+
+196
+00:23:08,360 --> 00:23:09,480
+Oh come on.
+
+197
+00:23:09,480 --> 00:23:10,040
+Really?
+
+198
+00:23:10,040 --> 00:23:11,080
+I was in high school.
+
+199
+00:23:11,080 --> 00:23:11,560
+Yeah.
+
+200
+00:23:11,560 --> 00:23:11,800
+Yeah.
+
+201
+00:23:12,280 --> 00:23:15,320
+I saw my first hologram in sixty eight, but I was in junior high.
+
+202
+00:23:15,320 --> 00:23:17,480
+So we're pretty probably pretty close in age.
+
+203
+00:23:17,480 --> 00:23:18,520
+I'm fifty-five.
+
+204
+00:23:18,520 --> 00:23:19,640
+Fifty here.
+
+205
+00:23:19,640 --> 00:23:20,280
+Yeah.
+
+206
+00:23:20,280 --> 00:23:22,120
+So of the same generation.
+
+207
+00:23:22,120 --> 00:23:22,520
+Yeah.
+
+208
+00:23:22,520 --> 00:23:30,360
+I I noticed on your webpage that uh for on the ordering page you do have the eight nanometer.
+
+209
+00:23:30,360 --> 00:23:32,920
+They're listed, but I don't see the fifteen nanometer.
+
+210
+00:23:33,000 --> 00:23:34,600
+We've discontinued the fifteen.
+
+211
+00:23:34,600 --> 00:23:35,400
+Oh really?
+
+212
+00:23:35,400 --> 00:23:35,880
+Yeah.
+
+213
+00:23:35,880 --> 00:23:39,480
+Uh because it was really very simple.
+
+214
+00:23:39,480 --> 00:23:48,120
+Eight nanometer emulsion of course was high resolution, uh almost the same sensitivity within a very close percentage.
+
+215
+00:23:48,120 --> 00:23:59,000
+Um and there was no reason to offer something that was virtually the same sensitivity within twenty percent and half the resolution.
+
+216
+00:23:59,000 --> 00:23:59,720
+Okay.
+
+217
+00:23:59,720 --> 00:24:09,560
+So we just went to manufacturing the eight nanometer for all wavelengths and we are working on even finer grain right now.
+
+218
+00:24:09,560 --> 00:24:12,600
+And um the uh the results are very promising.
+
+219
+00:24:12,600 --> 00:24:19,720
+But right now an eight nanometer emulsion is certainly the finest grain by far in the industry.
+
+220
+00:24:19,720 --> 00:24:41,840
+And with the sensitivities that we are we are uh demonstrating uh it's again uh utterly remarkable results uh from my point of view you know, I I can't say enough that uh the uh development process uh that Eve went through to put these emulsions together.
+
+221
+00:24:41,840 --> 00:24:48,480
+Uh from my point of view as a holographer, rather than just a supplier of this material, we're nothing short of genius.
+
+222
+00:24:48,800 --> 00:24:51,120
+Uh I've never seen anything like this anywhere.
+
+223
+00:24:51,120 --> 00:24:57,040
+Well, I I've seen pictures and photos of his color work, which is uh just astounding.
+
+224
+00:24:57,040 --> 00:24:59,600
+Yeah, the uh I would love to see one in person.
+
+225
+00:24:59,600 --> 00:25:06,480
+The uh the photographs, even on the website, uh just cannot possibly do it justice.
+
+226
+00:25:06,480 --> 00:25:21,200
+Uh seeing these holograms in person, whether they're the you know, the holograms of butterflies or the pharaoh or any of the other things that we've done, including the work we've done in our own labs, uh, both in Canada and uh here in Cleveland.
+
+227
+00:25:21,200 --> 00:25:34,240
+Um making a hologram i is so simple, and in fact uh we work with people, especially students who buy it, because it's so easy to make a Dennisuk hologram.
+
+228
+00:25:34,800 --> 00:25:45,040
+And uh it's it's the quickest way to uh to get really good holographic results, you know, to to make somebody see exactly how holography works.
+
+229
+00:25:45,040 --> 00:25:55,840
+And then when you set up a regular off axis system and you know, do all of the uh necessary uh beam balancing and adjusting and all of that, you can uh get some in incredible results as well.
+
+230
+00:25:55,840 --> 00:26:17,280
+But uh the uh the work that we've done in our own laboratories are really, really astonishing and uh we're just incredibly happy about having this material to supply and uh hope of course that people everywhere uh will start using it because uh it's only this year that it's become available uh in the United States.
+
+231
+00:26:17,280 --> 00:26:24,560
+We are supplying it to a number of uh regular clients, uh both industrial and private at this point.
+
+232
+00:26:24,560 --> 00:26:27,600
+And we, as they say, welcome inquiries.
+
+233
+00:26:27,600 --> 00:26:29,040
+We'd love to work with more.
+
+234
+00:26:29,040 --> 00:26:33,880
+Uh we can make make the material and supply it in large quantities.
+
+235
+00:26:29,280 --> 00:26:38,440
+And of course, we can also make it in very large plates for the display holography uh company.
+
+236
+00:26:38,440 --> 00:26:50,360
+And in fact, we are doing that very successfully, supplying our uh largest plates to uh a couple of the well-known uh display holography uh companies out there.
+
+237
+00:26:50,360 --> 00:26:58,360
+Well, I'll certainly have a uh a link to your website on the HoloTalk page along with a contact email address where people can contact you.
+
+238
+00:26:58,360 --> 00:26:59,320
+Excellent, that's the one.
+
+239
+00:26:59,320 --> 00:27:05,800
+And since we're running up on 30 minutes, do you happen to have anything you'd like to add that we haven't spoken about yet?
+
+240
+00:27:05,880 --> 00:27:24,840
+I well, I think that uh the best thing to say is that holography itself has become such a curiosity over the years and remains such a curiosity over the years, there are a huge number of uses that are ubiquitous in our everyday life, as the laser has become.
+
+241
+00:27:24,840 --> 00:27:36,760
+So I would like to say that uh Polaris here in uh Cleveland is very happy to work with anybody uh from the student level to the professional level.
+
+242
+00:27:36,760 --> 00:28:02,280
+We're uh rather extremely experienced over the last 30 years or so, and uh always welcome new challenges and we very much want to continue be being evangelical about both the technical and uh uh descriptive uses of holography and the display uses of holography, and we're particularly interested in ensuring that the uh holographers have the best and most consistent emulsions out there, and that's what we're supplying.
+
+243
+00:28:02,280 --> 00:28:03,080
+That's great.
+
+244
+00:28:03,080 --> 00:28:04,200
+I'll have to come visit you.
+
+245
+00:28:04,200 --> 00:28:07,640
+I get out to Columbus, Ohio every spring.
+
+246
+00:28:08,120 --> 00:28:09,640
+Well, we're two hours north.
+
+247
+00:28:09,640 --> 00:28:13,480
+Yeah, so I'll have to uh this spring when I head out to Columbus.
+
+248
+00:28:13,480 --> 00:28:17,360
+I I head to that, I don't know if you're aware of it or not, that Arnold Classic.
+
+249
+00:28:14,840 --> 00:28:18,320
+Oh yeah, sure.
+
+250
+00:28:18,320 --> 00:28:26,320
+Yeah, I head to the Arnold Classic every year and uh maybe I can take a drive up and spend an extra day and just uh drive up and and visit Polaris.
+
+251
+00:28:26,320 --> 00:28:26,960
+Oh I'd love it.
+
+252
+00:28:26,960 --> 00:28:28,400
+That would be absolutely terrific.
+
+253
+00:28:28,400 --> 00:28:30,400
+We could do another show live from the floor.
+
+254
+00:28:30,400 --> 00:28:31,600
+Oh, that would be excellent.
+
+255
+00:28:32,000 --> 00:28:58,080
+And I I do have to say also that uh, you know, because uh holography is is what it is, that uh everything you've been doing over the years, uh with Holotalk and instructions and all of the things you've supplied over the years, has been such a major boon to uh both the technology of holography and the the hobby of holography and the technical development of people who decide to go into holography.
+
+256
+00:28:58,080 --> 00:29:07,040
+Uh and I I think that's terrific because uh even though I say I'm an evangelical about it, uh you are too in your own way, and that's uh a really wonderful thing.
+
+257
+00:29:07,040 --> 00:29:12,240
+So I'm really happy to have the opportunity to uh talk on the show here since I've been listening to it for years.
+
+258
+00:29:12,240 --> 00:29:12,800
+Well, thank you.
+
+259
+00:29:12,800 --> 00:29:14,080
+That's very kind to say.
+
+260
+00:29:14,080 --> 00:29:16,560
+What I do is I just bring the experts on the show.
+
+261
+00:29:16,560 --> 00:29:22,480
+I'm not an expert myself, so well, expert enough to make it accessible, and that's really important.
+
+262
+00:29:22,480 --> 00:29:22,960
+All right.
+
+263
+00:29:22,960 --> 00:29:26,800
+Well, Howard, we should probably close up so that we can keep our file size.
+
+264
+00:29:27,760 --> 00:29:29,440
+And it was very good talking to you.
+
+265
+00:29:29,600 --> 00:29:32,320
+If you don't hear from me today, you'll probably hear from me tomorrow.
+
+266
+00:29:32,320 --> 00:29:39,760
+Because I have to do a little running around after I get this finished, and uh I'll probably sit down with a cup of tea tonight and do some editing and get the announcement out.
+
+267
+00:29:39,760 --> 00:29:40,640
+Okay, terrific.
+
+268
+00:29:40,640 --> 00:29:41,280
+All right.
+
+269
+00:29:41,280 --> 00:29:42,240
+That is great.
+
+270
+00:29:42,240 --> 00:29:44,720
+Thank you very much for being on the show and taking the time.
+
+271
+00:29:44,720 --> 00:29:46,800
+I really appreciate your taking the time to talk with me.
+
+272
+00:29:46,800 --> 00:29:47,520
+It's my pleasure.
+
+273
+00:29:47,840 --> 00:29:48,640
+Take care, Howard.
+
+274
+00:29:48,640 --> 00:29:49,200
+Bye bye.
+
+275
+00:29:49,160 --> 00:29:50,400
+Thank you.

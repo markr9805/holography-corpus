@@ -1,0 +1,615 @@
+1
+00:00:00,480 --> 00:00:06,480
+Hello everyone, this is Frankie Freitas, and welcome to another week of HoloTalk for the week of July 2nd, 2000.
+
+2
+00:00:06,480 --> 00:00:12,480
+Our special guest this week is Gloria Putnam from Women in Optics with SPIE.
+
+3
+00:00:12,480 --> 00:00:17,440
+And she's going to be coming on telling us a little bit about that organization and their objectives.
+
+4
+00:00:17,440 --> 00:00:29,120
+And also give us a look into the optics industry itself and where it is right now and where it's headed in the future if we don't wind up getting more students interested in pursuing this field as a career.
+
+5
+00:00:29,120 --> 00:00:42,080
+I also want to call your attention if you happen to be an educator to a download that I have on the page, and that will download a Microsoft Word document to your computer, which you can review, and that is for the Optics Educator Network.
+
+6
+00:00:42,080 --> 00:00:50,560
+And if you would be interested in getting your students involved with optics in the classroom, they have a number of different benefits available to you for doing that.
+
+7
+00:00:50,560 --> 00:00:53,920
+And it's uh free membership as well to become part of that network.
+
+8
+00:00:53,920 --> 00:01:01,200
+So if you're an educator, take a look at that, download that, and uh contact Gloria as to whether you'd be interested in that further or not.
+
+9
+00:01:01,280 --> 00:01:06,720
+Before we get started with Gloria, I have an announcement to make that was sent to me from Dan Schweitzer.
+
+10
+00:01:06,720 --> 00:01:16,400
+And Dan wanted everyone to know that the Center for the Holographic Arts is extending their deadline for their artists in residency program until August 15th of 2000.
+
+11
+00:01:16,400 --> 00:01:29,040
+If you happen to be a holographer or even a non-holographer, uh if you're an artist and you'd like to go into the lab and do some work, you're invited to submit a proposal, and you now have until August 15th, 2000 to do so.
+
+12
+00:01:29,040 --> 00:01:30,880
+It's a great program, it's a great facility.
+
+13
+00:01:30,880 --> 00:01:39,760
+Michelle Roy and I visited there and we have a number of programs from the Center for the Holographic Arts on the archive page for Holotalk.
+
+14
+00:01:39,760 --> 00:01:41,360
+And it's a wonderful facility.
+
+15
+00:01:41,360 --> 00:01:46,960
+It's a great opportunity for anyone who would want to work in the field of holography and produce some holographic work.
+
+16
+00:01:46,960 --> 00:01:57,360
+So even if you've applied before, uh you might want to resubmit your proposal once again, and once again you all you have until August 15th uh to do that.
+
+17
+00:01:57,360 --> 00:01:59,440
+Okay, here's the interview with Gloria.
+
+18
+00:01:59,440 --> 00:02:04,920
+First, I would like to point out that I also have a link to the Women in Optics website.
+
+19
+00:01:59,680 --> 00:02:10,280
+Uh I encourage you to click on that link and go visit and see what they're about directly from the website.
+
+20
+00:02:10,280 --> 00:02:20,440
+And I also have an email link for Gloria, which we'll send her uh an email if you happen to would if you would like to have uh additional information about the group itself.
+
+21
+00:02:20,440 --> 00:02:26,280
+And she's also located on the Women in Optics um website itself with her email address.
+
+22
+00:02:26,280 --> 00:02:31,000
+And once again, if you happen to be an educator, don't forget about the download for the Educator Network.
+
+23
+00:02:31,000 --> 00:02:34,040
+Uh download it and review it and see what you think.
+
+24
+00:02:34,040 --> 00:02:36,280
+All right, so I'm going to say thank you for tuning in.
+
+25
+00:02:36,280 --> 00:02:41,720
+I'm not going to come back on after the program's over, and uh I'd like to invite you to tune in.
+
+26
+00:02:41,720 --> 00:02:43,400
+It won't be each week during the summer.
+
+27
+00:02:43,400 --> 00:02:52,280
+As you know, usually I would go off the air during the summer for the past three years I've done that, but I received a number of emails saying that uh listeners would like to have shows over the summer.
+
+28
+00:02:52,280 --> 00:03:04,440
+So occasionally we're going to be coming on with uh new topics and new guests throughout the summer, and then we'll be going into our fourth season, uh Labor Day, which we will be back on the air every week with a new guest and a new topic.
+
+29
+00:03:04,440 --> 00:03:07,960
+So thank you very much for tuning in and uh talk to you next time.
+
+30
+00:03:07,960 --> 00:03:09,480
+Here's Gloria.
+
+31
+00:03:10,360 --> 00:03:12,360
+Hello everyone, this is Frankie Freitas.
+
+32
+00:03:12,360 --> 00:03:17,400
+Welcome to another week of HoloTalk, and we have a special guest this week, Gloria Putnam.
+
+33
+00:03:17,400 --> 00:03:22,520
+And you're on to talk about the uh working group, which is women in optics.
+
+34
+00:03:22,520 --> 00:03:25,640
+And I know we've just spent about 45 minutes on the phone.
+
+35
+00:03:25,640 --> 00:03:28,120
+I'm going to have to ha ask you to go over a few things again.
+
+36
+00:03:28,120 --> 00:03:34,440
+But why don't you just start off by letting the listeners know a little bit about the group and what the focus of the group is.
+
+37
+00:03:34,520 --> 00:03:35,080
+Sure.
+
+38
+00:03:35,080 --> 00:03:40,840
+Um women in Optics is is like you say a working group that was formed within F P I E.
+
+39
+00:03:40,840 --> 00:03:46,000
+But certainly membership in the group is open to anyone, whether they're an S P I E member or not.
+
+40
+00:03:46,240 --> 00:03:57,520
+And the group has existed for a couple of years now and the main the main goals of the group are to raise the visibility of women working in the field because our numbers are very low.
+
+41
+00:03:57,520 --> 00:04:22,880
+And the reason that we want to do that of course is is to give to provide role models for for younger engineers who may be considering careers in optics who are women or for younger students who um maybe wouldn't think of themselves in this type of career unless they see um someone else doing someone else doing it who looks like someone that they could be.
+
+42
+00:04:22,880 --> 00:04:23,600
+Mm-hmm.
+
+43
+00:04:23,600 --> 00:04:32,080
+Um and we a lot of our efforts are also directed at providing kind of a unique networking atmosphere for women in the field.
+
+44
+00:04:32,080 --> 00:04:46,720
+So you take a cross section of the field that's all women and you end up with women from all types of sectors of the photonics industry and so networking within the group is really interesting because you get to learn about things that all different types of people are doing.
+
+45
+00:04:47,280 --> 00:04:49,280
+We have uh meetings twice a year.
+
+46
+00:04:49,280 --> 00:04:55,680
+We meet at Photonics West and at um the annual meeting these are both SPIE meetings.
+
+47
+00:04:55,680 --> 00:05:02,560
+And at those meetings we have speakers and uh we've got a meeting coming up actually if I can give you the information.
+
+48
+00:05:02,560 --> 00:05:03,200
+Sure.
+
+49
+00:05:03,200 --> 00:05:15,040
+Um at the SPIE annual meeting in San Diego on August third we're having a meeting it's from 5 30 to 7 30 p.m in the the main conference hotel which I believe is the Marriott down there.
+
+50
+00:05:15,520 --> 00:05:21,040
+And we're gonna kinda do an update of what's going on with the working group and we have a really great speaker planned.
+
+51
+00:05:21,040 --> 00:05:21,680
+It's Dr.
+
+52
+00:05:21,680 --> 00:05:28,920
+Gabriela Levessou, and I'm not sure I'm saying her name correctly, but she's from Lucent Technologies Optical Networking.
+
+53
+00:05:28,920 --> 00:05:38,760
+And she's gonna talk a little bit about optical networking enablers, give us an overview of that field and talk a little bit about her work in that hot and booming area.
+
+54
+00:05:38,760 --> 00:05:40,520
+So it's not gonna be fun.
+
+55
+00:05:40,520 --> 00:05:54,920
+And we always have dinners following all of our meetings and also at at meetings where we don't have real women in optics meetings, we usually try to organize dinners, informal dinners for members, and that's also part of what we do.
+
+56
+00:05:54,920 --> 00:06:10,280
+Now you mentioned about hot and booming field, and during our earlier conversation you spoke a little bit about a conference that you attended where you received some actual figures about what this field is like, how many people are moving into it and what a shortage there's going to be.
+
+57
+00:06:10,280 --> 00:06:12,360
+Could you share that with the listeners?
+
+58
+00:06:12,440 --> 00:06:18,520
+Yeah, yeah, it's it's almost a national emergency for for the optics industry and really for the whole country.
+
+59
+00:06:18,520 --> 00:06:30,520
+It it looks like um there are sectors of of the optics and photonics industry that are currently their growth is limited by the lack of human resources or the shortage of human resources.
+
+60
+00:06:30,520 --> 00:06:46,120
+And at this conference there were representatives from the human resources departments of of coherent and e tech talking about how difficult it is for them to find both technicians and and engineers and researchers and the efforts that they go to to steal workers from each other.
+
+61
+00:06:46,520 --> 00:06:55,960
+And this is, you know, raising wages and salaries and uh in the end will make the United States uncompetitive in these critical sectors of technology.
+
+62
+00:06:55,960 --> 00:06:56,440
+Yeah.
+
+63
+00:06:56,600 --> 00:06:59,080
+Um so we need to provide the people.
+
+64
+00:06:59,080 --> 00:07:32,240
+And there was an interesting study done, it was a there was a White House report released in April where they took the makeup of the current not really the engineering workforce, but they looked at uh degrees awarded in engineering and science and how many of them go to women, how many go to men, and then how many go to men in all these different um ethnicity categories and women in all those categories and they they said, let's see what would happen if these categories, if people continued to participate in the same percentages that they do now.
+
+65
+00:07:32,240 --> 00:07:32,720
+Mm-hmm.
+
+66
+00:07:32,720 --> 00:07:41,200
+And now we go fifty years in the future and we use what we know about what the population, the makeup of the United States population is gonna look like in fifty years.
+
+67
+00:07:41,200 --> 00:07:41,520
+Yes.
+
+68
+00:07:41,520 --> 00:07:59,600
+And we can volve those data sets and what they found was that if the makeup of these um degree granting programs doesn't change, that we're actually gonna be graduating t uh nine percent less people in science and engineering in the year twenty fifty than we are now.
+
+69
+00:07:59,600 --> 00:08:04,480
+Now this is obviously a problem because we're probably gonna need t to be graduating twice as many people, right?
+
+70
+00:08:07,200 --> 00:08:21,520
+So the main conclusion of the report is that we really need to um we really need to address the problem of people who are underrepresented in engineering and increasing their participation because that's the only way we're gonna be able to meet the needs of industry.
+
+71
+00:08:21,680 --> 00:08:35,440
+I imagine there's a problem now and I would imagine that the employers are actually bringing people in from overseas to fill a lot of these positions that our own students right here in the United States could be filling.
+
+72
+00:08:35,520 --> 00:08:48,480
+Well, current we are bringing a lot of people in from overseas, and there's a program called the H one B Visa program, which allowed allows skilled workers to come over and work for a period of six years.
+
+73
+00:08:48,480 --> 00:09:07,800
+Um currently we're not worried about them taking jobs that our kids are are our uh our engineers and scientists could have because the need is still so much greater than the number of people that are coming in on these H one D visas that it's not it's not limiting the job market for our graduates.
+
+74
+00:09:07,800 --> 00:09:20,200
+And actually the the industry is pushing really hard every year to increase the number of these visas that are allowed and then there's also a huge program to try and convert those visas into green cards or something more permanent so that we can keep these people here.
+
+75
+00:09:20,200 --> 00:09:26,120
+Mm-hmm because we need to keep them working for those kind those companies.
+
+76
+00:09:26,520 --> 00:09:38,040
+I was just on the women in optics website a little earlier and it's it's expanded considerably since uh the last time I visited maybe you would want to tell the listeners a little bit about uh what the website is about and what you have on there.
+
+77
+00:09:38,040 --> 00:09:47,960
+Yeah sure on the website um there's information about membership and there's actually two things that you can do if you're interested one is become a member.
+
+78
+00:09:47,960 --> 00:09:54,280
+But one thing which I believe costs fifteen dollars if you're an S P I E member I believe it's free if you're a student.
+
+79
+00:09:54,280 --> 00:10:00,520
+Mm-hmm and um I think we might have a similar deal for OSA members, the same as for S P I E members.
+
+80
+00:10:00,520 --> 00:10:06,040
+And if you're not a member of anything then it's I think thirty dollars to join any technical or working group in S P I E.
+
+81
+00:10:06,360 --> 00:10:14,760
+But there's also a listserv and if you go under I think maybe it's under programs, you can anybody can sign up for free for our listserv.
+
+82
+00:10:14,760 --> 00:10:17,560
+Um and don't worry you won't get a hundred messages a day.
+
+83
+00:10:17,560 --> 00:10:18,760
+It's not that kind of listserv.
+
+84
+00:10:18,760 --> 00:10:25,320
+It's just where we um disseminate information about our meetings and let you know what things are going on so that you can participate.
+
+85
+00:10:25,320 --> 00:10:27,400
+So anybody can sign up for that.
+
+86
+00:10:27,400 --> 00:10:37,040
+And we have a list on also on the website of all of our programs, all the women in optics programs, some of which are programs that we support, other people's programs.
+
+87
+00:10:37,040 --> 00:10:45,000
+A great example of that is MentorNet, which is an electronic mentoring program that's comes out of San Diego State University.
+
+88
+00:10:45,840 --> 00:10:58,480
+And they connect women in um undergraduate and graduate programs in science and technology to industries in um to mentors in industry.
+
+89
+00:10:58,960 --> 00:10:59,760
+Excuse me.
+
+90
+00:11:00,400 --> 00:11:05,200
+And uh they do an email mentorship thing that lasts lasts one academic year.
+
+91
+00:11:05,200 --> 00:11:26,560
+And we're a financial women in optics is a financial supporter of that and also we have a membership drive or a mentor drive every year at the annual meeting to get SPIE meeting attendees to sign up to be mentors in the program and all of our student chapters participate so young women in our student chapters can get mentors through this program.
+
+92
+00:11:26,560 --> 00:11:28,320
+And it's a fabulous program.
+
+93
+00:11:28,320 --> 00:11:33,840
+So there's information about that and a variety of other programs that we're involved with right now.
+
+94
+00:11:34,080 --> 00:11:42,160
+There's a grant program for women who wish to return to the workforce as well right this is a new women in optics program.
+
+95
+00:11:43,520 --> 00:12:02,560
+We were we have been approached since since we now have this web presence and people are poking around and finding things we've been approached by women who are in a situation where they have taken some time off to raise children or or other similar types of things and now they want to get back in to the workforce.
+
+96
+00:12:02,560 --> 00:12:03,840
+And they're trained.
+
+97
+00:12:03,840 --> 00:12:25,760
+I mean they're every company's dream right like everybody's looking so hard for people and here's this person who's who's trained they've probably worked in the field for a number of years before taking the time off and they're just not sure quite how to get back in networking wise and they're not sure where the technology has gone in the last five years or whatever since they worked.
+
+98
+00:12:25,760 --> 00:12:30,120
+So what our grant does is it um sponsors them to come to an SPIE meeting.
+
+99
+00:12:30,120 --> 00:12:49,640
+We hook 'em up with a with a mentor through Women in Optics who helps um introduce them to people who work in the fields that they know stuff about, help them prepare their resume and all that stuff and they they get to attend a short course and they get a travel stipend and pre-registration at the meeting and all that stuff to help them get reconnected.
+
+100
+00:12:49,720 --> 00:12:56,920
+What's the breakdown of the optics field now compared to male female ratio of people working, do you know?
+
+101
+00:12:57,240 --> 00:13:03,320
+We're not sure, but we can say that S PIE membership is about eight percent women.
+
+102
+00:13:03,320 --> 00:13:04,200
+Mm-hmm.
+
+103
+00:13:04,200 --> 00:13:10,680
+Um statistics that I've seen for engineering as a whole in the United States is about ten percent.
+
+104
+00:13:10,680 --> 00:13:11,400
+Mm-hmm.
+
+105
+00:13:11,400 --> 00:13:16,200
+So I would say we're pretty close to kind of the overall engineering numbers.
+
+106
+00:13:16,200 --> 00:13:19,640
+Of course we're half of the population, so you can see where the problem is.
+
+107
+00:13:19,640 --> 00:13:20,040
+Yeah.
+
+108
+00:13:20,040 --> 00:13:25,720
+We're definitely underutilized as as a potential workforce sector.
+
+109
+00:13:25,720 --> 00:13:37,560
+I had Doris Vila on a few weeks ago who was a who is a holographical artist working out of New York and she had mentioned that the field of philography is pretty close to fifty fifty male female split.
+
+110
+00:13:37,560 --> 00:13:38,280
+That's incredible.
+
+111
+00:13:38,520 --> 00:13:39,080
+Isn't that interesting?
+
+112
+00:13:40,280 --> 00:13:42,440
+Uh history that goes along with that.
+
+113
+00:13:42,440 --> 00:13:43,080
+Yeah.
+
+114
+00:13:43,080 --> 00:13:45,480
+There's a similar thing in spectroscopy.
+
+115
+00:13:45,480 --> 00:13:46,280
+Hmm.
+
+116
+00:13:46,280 --> 00:13:58,680
+I um spoke with someone recently who is involved with with their professional society, the name of which I can't remember, but they've got something like thirty percent female membership in their society.
+
+117
+00:13:58,680 --> 00:14:09,560
+And of course there's there's a history of women being trained long ago, you know, as as spectroscopists um reading the looking at the pictures and identifying things.
+
+118
+00:14:09,800 --> 00:14:10,600
+Yes.
+
+119
+00:14:10,600 --> 00:14:15,040
+I imagine that that there's a historical reason, you know, that their numbers are larger there.
+
+120
+00:14:15,040 --> 00:14:17,920
+So we've got some catching up to do in engineering for sure.
+
+121
+00:14:14,920 --> 00:14:18,560
+Yeah.
+
+122
+00:14:18,960 --> 00:14:32,240
+Now if there were students who are logged on right now listening to this and we get a ton of them, um what advice would you give to them if they wanted to pursue careers in optics or lasers or photonics.
+
+123
+00:14:32,240 --> 00:14:45,200
+Any uh special things that they should be uh focusing on with their school work or uh the the process in which they would choose a school to go to Yeah, well I'm sure they've heard it all before.
+
+124
+00:14:45,200 --> 00:14:47,520
+Be sure you study your math and science, right?
+
+125
+00:14:48,320 --> 00:14:56,400
+Um actually as an undergraduate I did a degree in mathematics as well as a degree in physics and that has served me very well in optics.
+
+126
+00:14:56,400 --> 00:15:01,040
+Mm-hmm because there is a lot of fun math stuff you can do if you like that.
+
+127
+00:15:01,040 --> 00:15:08,240
+Um there are programs all over the United States where you can get training that will help you for a career in optics.
+
+128
+00:15:08,240 --> 00:15:10,880
+Not all of them are called optics programs.
+
+129
+00:15:10,880 --> 00:15:20,240
+There are programs that actually grant degrees in optical engineering at places like the University of Arizona and the University of Rochester and a variety of other places.
+
+130
+00:15:20,240 --> 00:15:25,760
+But there's also um there are other paths you can take a physics degree is where I started out.
+
+131
+00:15:25,760 --> 00:15:30,800
+Um and that has served me very well and a lot of people enter the field with degrees in electrical engineering.
+
+132
+00:15:30,800 --> 00:15:33,600
+Hm um so those are all choices.
+
+133
+00:15:33,600 --> 00:15:35,200
+Yeah.
+
+134
+00:15:35,200 --> 00:15:49,440
+Now I'm going to include a link to the women in optics website so if you're listening to the show right now you'll find that link right on the Holo Talk page and if you click on that and if if your listeners go to contacts also they can find information there how to contact me if they have any questions.
+
+135
+00:15:49,680 --> 00:15:55,280
+Okay, and I'm going to I can also put a direct email link right to you on the Hollow Talk page.
+
+136
+00:15:55,280 --> 00:16:01,480
+Now um I believe we'll have some materials to uh have people download.
+
+137
+00:16:01,480 --> 00:16:04,040
+I think it's an educator network or something that you started up.
+
+138
+00:16:04,040 --> 00:16:08,840
+Yeah, there's a new program that's not necessarily a women in optics program.
+
+139
+00:16:08,840 --> 00:16:11,880
+It's more an SPIE program in general.
+
+140
+00:16:11,880 --> 00:16:19,480
+But it's it's a program that whose aim is to create a network of K-12 educators who are interested in teaching optics in their classroom.
+
+141
+00:16:19,800 --> 00:16:32,440
+And it'll be kind of an electronic community where they can share lesson plans and things and SPIE can provide information to them about the resources that we offer for educators.
+
+142
+00:16:32,440 --> 00:16:38,360
+And on the SPIE website, there's actually a section called called resources for educators.
+
+143
+00:16:38,360 --> 00:16:47,000
+And um there are a variety of programs that SPIE is involved in to provide materials and lesson plans and all kinds of things for educators.
+
+144
+00:16:47,000 --> 00:16:50,600
+So we hope to connect with educators through this network.
+
+145
+00:16:50,600 --> 00:17:07,720
+And uh it's free, you know, it's free to sign up, and then you're just on our listserv and we can get you all together and share information and try and hook up those teachers with people in their local communities who are SPI members from industry who could come in and do classroom visits or arrange tours of local labs.
+
+146
+00:17:08,040 --> 00:17:15,720
+So we're looking to kind of encourage that kind of uh uh grassroots collaboration between the teachers and the the local industry.
+
+147
+00:17:15,800 --> 00:17:16,920
+That's great.
+
+148
+00:17:16,920 --> 00:17:18,600
+It's terrific.
+
+149
+00:17:18,600 --> 00:17:22,120
+Anything else you want to add before we uh close out the interview?
+
+150
+00:17:22,120 --> 00:17:23,640
+No, just thank you for inviting me.
+
+151
+00:17:23,640 --> 00:17:24,360
+It's been a pleasure.
+
+152
+00:17:24,360 --> 00:17:25,720
+Oh sure.
+
+153
+00:17:25,720 --> 00:17:30,040
+And uh hang on the line and I'll pick up the phone after we're finished here.
+
+154
+00:17:30,040 --> 00:17:41,000
+And I want to thank the uh Holo Talk listeners for tuning in and uh we'll get back to our programming.

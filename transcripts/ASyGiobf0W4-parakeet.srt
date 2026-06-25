@@ -1,0 +1,1407 @@
+1
+00:00:03,440 --> 00:00:13,840
+Hello everyone, this is Frank Defratis, and welcome to HoloTalk, the Internet's laser and holography talk show enjoyed in over forty-two countries throughout the world.
+
+2
+00:00:13,840 --> 00:00:21,840
+And now, here's this week's show.
+
+3
+00:00:21,840 --> 00:00:22,640
+Hello.
+
+4
+00:00:22,640 --> 00:00:23,200
+Good morning.
+
+5
+00:00:23,200 --> 00:00:24,000
+Is this Dave?
+
+6
+00:00:24,000 --> 00:00:24,720
+Yes, it is.
+
+7
+00:00:24,720 --> 00:00:25,440
+How are you, Dave?
+
+8
+00:00:25,440 --> 00:00:26,720
+It's Frank Defrates.
+
+9
+00:00:26,720 --> 00:00:27,280
+Hello, Frank.
+
+10
+00:00:27,280 --> 00:00:27,840
+How are you?
+
+11
+00:00:27,840 --> 00:00:28,800
+Doing good.
+
+12
+00:00:28,880 --> 00:00:30,720
+Nice to finally connect with you.
+
+13
+00:00:30,720 --> 00:00:31,840
+Yeah, it's real nice.
+
+14
+00:00:31,840 --> 00:00:34,800
+We're on a global scale, we're practically neighbors.
+
+15
+00:00:34,800 --> 00:00:35,520
+Right.
+
+16
+00:00:35,520 --> 00:00:37,280
+How are you today this morning?
+
+17
+00:00:37,280 --> 00:00:37,920
+Pretty good.
+
+18
+00:00:37,920 --> 00:00:38,640
+Pretty good.
+
+19
+00:00:38,640 --> 00:00:40,960
+Are you up for doing a uh show?
+
+20
+00:00:40,960 --> 00:00:41,600
+Sure.
+
+21
+00:00:41,600 --> 00:00:46,720
+And I'm sure everyone's interested in learning about this dichromate holography that you do.
+
+22
+00:00:46,720 --> 00:00:47,200
+Sure.
+
+23
+00:00:47,200 --> 00:00:49,280
+Which I had mentioned in one of the emails.
+
+24
+00:00:49,280 --> 00:00:52,880
+Uh these people that work with dichromate are like wizards.
+
+25
+00:00:52,880 --> 00:00:57,440
+Yeah, you have to be uh uh a person that likes to tinker a lot, that's for sure.
+
+26
+00:00:57,440 --> 00:00:58,000
+Yeah.
+
+27
+00:00:58,000 --> 00:00:59,920
+Well let me ask you this.
+
+28
+00:00:59,920 --> 00:01:09,920
+W with it being so easy to just pick up the phone and have a box of silver halide plates delivered to uh our doors and pop them in a plate holder and do an exposure.
+
+29
+00:01:09,920 --> 00:01:12,720
+What's the attraction to dichromate for you?
+
+30
+00:01:12,720 --> 00:01:23,920
+Um the overall brightness you can really achieve, uh and um uh the ability that I don't have to buy any uh any film basically we can make our own.
+
+31
+00:01:23,920 --> 00:01:27,280
+And that has a real advantage as long as the film works good.
+
+32
+00:01:27,280 --> 00:01:36,880
+You know, you have to get you know, you gotta get your your coating down and you gotta get you know your exposure's all really uh for every batch, you really have to adjust.
+
+33
+00:01:36,880 --> 00:01:46,320
+And um, you know, once you can get past those hurdles, then it's uh, you know, you kind of say to yourself, Well, why do I have to go get film?
+
+34
+00:01:46,320 --> 00:01:48,720
+Well, there's a certainly a big difference between the films.
+
+35
+00:01:48,680 --> 00:01:51,920
+Uh silver hairlight's much more, you know, sensitive.
+
+36
+00:01:51,920 --> 00:01:55,280
+Um and you end up with with a lot less noise.
+
+37
+00:01:55,280 --> 00:01:58,640
+What la what laser are you using for this dichromate there?
+
+38
+00:01:58,640 --> 00:02:07,000
+Uh well I have I have uh I got a couple lasers, but the one I'm particularly uh fond of these days is is the Coherent 315.
+
+39
+00:02:07,000 --> 00:02:17,000
+It's a hundred and hundred uh milliwatts with uh you know five thirty two nanometer output and the thing has got, I don't know, meters and meters of coherence to it.
+
+40
+00:02:17,000 --> 00:02:26,680
+So you know, it it really uh you know, you throw away your string when you start playing around with this thing, and you have to measure out you know uh beam paths and distances and stuff like that.
+
+41
+00:02:26,680 --> 00:02:30,200
+It really I don't know to me it's like the Cadillac, you know.
+
+42
+00:02:30,200 --> 00:02:36,040
+Yeah, that's that's the laser that folks were talking about that's available from one of the shops online, right?
+
+43
+00:02:36,040 --> 00:02:36,360
+Correct.
+
+44
+00:02:36,360 --> 00:02:36,840
+Yeah, Mr.
+
+45
+00:02:36,840 --> 00:02:39,880
+Gizmo or uh uh Gizmo's dot com.
+
+46
+00:02:39,880 --> 00:02:44,040
+He's he uh I believe has got a few of 'em left, you know.
+
+47
+00:02:44,120 --> 00:02:47,880
+And that that runs pretty much out of the box after you receive it.
+
+48
+00:02:47,880 --> 00:02:56,840
+Yeah, all I uh had to do was get a I guess I I'm kind of going through my memory, but I think it was a twenty-four uh volt power supply, DC pl power supply.
+
+49
+00:02:57,080 --> 00:02:57,800
+I see.
+
+50
+00:02:57,800 --> 00:03:01,400
+And uh yeah, you just plug that little sucker in and off it goes.
+
+51
+00:03:01,400 --> 00:03:17,480
+Uh I had to remove the unit out of a I don't know, uh a box, uh a light box that it came in with a couple other uh servos and a uh wave plate and um uh I provided a little bit of a uh cooling fan on it.
+
+52
+00:03:17,480 --> 00:03:22,040
+Um because it does it does get a little hot, so they recommend you keep it cool.
+
+53
+00:03:22,040 --> 00:03:25,720
+You know, it's been running uh I've had it what almost two years now.
+
+54
+00:03:25,720 --> 00:03:26,440
+Wow.
+
+55
+00:03:26,440 --> 00:03:28,680
+And uh things running great.
+
+56
+00:03:28,680 --> 00:03:31,480
+It's got it's running right now in the basement, as a matter of fact.
+
+57
+00:03:31,480 --> 00:03:35,400
+So you're exposing this dichromate that you put together with green.
+
+58
+00:03:35,400 --> 00:03:36,440
+Am I correct?
+
+59
+00:03:36,440 --> 00:03:36,920
+Correct.
+
+60
+00:03:36,920 --> 00:03:37,400
+Yeah.
+
+61
+00:03:37,400 --> 00:03:52,080
+Yeah, Jeff uh Blythe has uh and and uh uh John Pacquiao have uh well they proposed a a newer, more sensitive recipe which uh I did some trials with it and it seemed to work out real well.
+
+62
+00:03:52,080 --> 00:04:23,200
+I had I kind of have to revamp everything in order to to uh get it to work consistently but um you know that's what it's all about especially with dichrame dichromate is you really have to take you know your little baby steps as I call them when you're making a change because you make one change and five different things seem to to look different you know so you have to know where you've been many years ago there was a holography studio in Philadelphia down by the Delaware River and uh it was Douglas Miller holographic design.
+
+63
+00:04:23,200 --> 00:04:26,320
+And I believe they used a hecat laser down there.
+
+64
+00:04:26,320 --> 00:04:38,320
+They had a coating room where they would coat the plates and they would pass it through a little hole in the wall and the person would take the hologram and expose it and then the person would coat another plate pass it through the hole in the wall.
+
+65
+00:04:38,320 --> 00:04:44,160
+It seemed like a a a a very slow process but they got wonderful results.
+
+66
+00:04:44,160 --> 00:04:49,920
+I think most of the sizes they did were I think up to maybe about four by five inch but beautiful holograms.
+
+67
+00:04:49,920 --> 00:05:30,120
+Yeah it seems to be if you really start to get larger than four by five maybe five by seven then you really got you know other other factors uh that start coming into play and and uh at least with my hundred my hundred milliwatt uh laser you know probably if I had a an argon a couple of watt argon or something like that it would it would certainly behave a little bit differently but it's uh you know for the hobbyist it's a great laser to use and and um it uh um you know, it's always a challenge is with with this thing I don't know if you've seen Sally uh Weber's holograms and she recently had a a nice display at uh the Holo Center in New York and she had some, you know, really good size holograms.
+
+68
+00:05:30,120 --> 00:05:36,920
+I'm I I'm not sure, but they were you know probably sixty by thirty or sixty by forty centimeters.
+
+69
+00:05:36,920 --> 00:05:45,000
+And apparently she was shooting her H twos in her basement with the same same coherent laser three just being so I see it's quite versatile, you know.
+
+70
+00:05:45,000 --> 00:05:45,960
+Yeah.
+
+71
+00:05:45,960 --> 00:05:59,640
+But uh yeah, getting back to the d dichromate, it's uh you know, it's kind of th one of those hobbies I don't recommend it for anybody, but once you master it, if you will, uh it really's uh satisfying hobby, you know.
+
+72
+00:05:59,800 --> 00:06:07,800
+On a scale of one to ten compared to someone just doing what I would say traditional holography, where would you say the difficulty level is?
+
+73
+00:06:07,800 --> 00:06:14,760
+I imagine it's with the with the formulations and the coding, but I imagine humidity and everything plays a role in it, doesn't it?
+
+74
+00:06:14,760 --> 00:06:15,160
+Absolutely.
+
+75
+00:06:15,160 --> 00:06:22,360
+It all it all comes to play and you know uh you know, probably the coating 'cause that's where it initially starts off.
+
+76
+00:06:22,360 --> 00:06:29,320
+The formulas you you have a lot too you can kind of refer to in books and and you know, articles online, so et cetera.
+
+77
+00:06:29,320 --> 00:06:40,280
+So you can kinda keep trying, but yeah, you you know, you'll you'll have everything going along really good one day, uh then you go downstairs the next day and you shoot something and and it's nothing's working, so you gotta say, let's see, was it the weather?
+
+78
+00:06:40,280 --> 00:06:45,640
+Uh you know, let's see and was there rust in the bathwater, uh who knows what it is.
+
+79
+00:06:45,640 --> 00:06:51,640
+So you know, then y you have to be able to say, okay, well where where did things go wrong and start back from scratch again.
+
+80
+00:06:51,640 --> 00:06:55,960
+So if you lose your way it ca it can be difficult to come back and very frustrating, you know.
+
+81
+00:06:55,960 --> 00:07:10,840
+So you really I mean my coating when I first got my the three fifteen laser I spent six months or eight months in my kitchen coating pieces of glass with just gelatin to try and get the the proper the proper procedure.
+
+82
+00:07:10,840 --> 00:07:11,640
+Yeah.
+
+83
+00:07:11,640 --> 00:07:17,600
+And um finally was able to, you know, get to a point where I'm satisfied with my coating.
+
+84
+00:07:17,600 --> 00:07:20,240
+Is it a relatively safe process?
+
+85
+00:07:14,040 --> 00:07:29,920
+Well, you know, the ammonium dichromate uh i is is a is a toxic uh chemical for sure and then uh you it's is it similar to potassium dichromate.
+
+86
+00:07:29,920 --> 00:07:30,160
+Yeah.
+
+87
+00:07:30,160 --> 00:07:30,480
+Yeah.
+
+88
+00:07:30,480 --> 00:07:35,600
+Potassium ammonium dichromate, any of the dichromates uh you know heavy metal.
+
+89
+00:07:35,600 --> 00:07:35,920
+Yeah.
+
+90
+00:07:36,320 --> 00:07:42,400
+So, you know, you you want to neutralize anything before you uh you know put it down the sink, which I don't recommend really anybody doing.
+
+91
+00:07:42,400 --> 00:07:45,600
+I do my best not to put anything in the groundwater.
+
+92
+00:07:45,600 --> 00:08:00,320
+And then um you know you also have hot alcohol bath uh some some guys have multiple hot o alcohol baths that's never a really fun thing to have you know without ventilation and you know the possibility of a fire always exists so you have to be careful with that.
+
+93
+00:08:00,320 --> 00:08:03,360
+But you know, past all those hurdles it's a great hobby, you know.
+
+94
+00:08:03,360 --> 00:08:06,240
+As long as you don't burn down the your house you're okay.
+
+95
+00:08:06,240 --> 00:08:08,640
+How long have you been doing this with dichromate?
+
+96
+00:08:08,640 --> 00:08:09,200
+I'm sorry?
+
+97
+00:08:09,200 --> 00:08:11,280
+How long have you been doing this with dichromate?
+
+98
+00:08:11,280 --> 00:08:54,160
+Uh well you know it's funny my my inspiration many years back fifteen years back is uh I uh had the chance to go work with Lee Lacy who's a really good holographer and an excellent you know extremely excellent dichromate holographer and um uh worked for just a couple of days with him and he was just enough to inspire me that you know if I could ever get my hands on a blue laser well in those days it was a blue laser yeah I would you know I would uh take the plunge and then you know lo and behold twifteen twenty years later, the these green lasers are popping up on on on you know the surplus market for well they were going for a thousand or twelve, now they're up I think a little bit higher.
+
+99
+00:08:54,160 --> 00:08:55,120
+Yeah.
+
+100
+00:08:55,120 --> 00:08:59,280
+So um I have I have a couple what are gone here.
+
+101
+00:08:59,280 --> 00:09:01,880
+I have a Lex L eighty eight just sitting here.
+
+102
+00:09:02,120 --> 00:09:02,920
+Yeah.
+
+103
+00:09:02,920 --> 00:09:07,080
+So I imagine I'd be in pretty good shape if I ever wanted to give it a shot.
+
+104
+00:09:07,080 --> 00:09:08,120
+Oh absolutely.
+
+105
+00:09:08,120 --> 00:09:14,840
+Yeah, if you know, if you want to give it a shot, I could send you some plates out and you could see if you can uh you know, see what you can you can produce.
+
+106
+00:09:14,840 --> 00:09:16,280
+Yeah, I don't even have it hooked up yet.
+
+107
+00:09:16,280 --> 00:09:20,120
+It's got a like two twenty triple phase and so many gallons of water a minute.
+
+108
+00:09:20,120 --> 00:09:24,520
+Yeah, that's what's that's what's so amazing about the uh I mean the key cads are good too.
+
+109
+00:09:24,520 --> 00:09:27,000
+Except uh yeah, I you never see them anywhere.
+
+110
+00:09:27,000 --> 00:09:33,080
+Uh yeah, I have one downstairs and I think it has like a coherence length of like two centimeters or something, so it's kind of difficult.
+
+111
+00:09:33,080 --> 00:09:48,600
+You know, if you're gonna do contact copies or or proximity copies, um that would probably be the way to go because it'll go a lot quicker, but um you really need something that's got some coherence length if you're gonna do any kind of imaging um you know holography.
+
+112
+00:09:48,600 --> 00:09:59,320
+Um but uh so I guess you I guess you rar you saw my my third place dichromate uh contest.
+
+113
+00:09:59,320 --> 00:10:01,240
+Yeah, it was a real screamer.
+
+114
+00:10:01,240 --> 00:10:02,120
+Yeah.
+
+115
+00:10:02,120 --> 00:10:23,400
+It's a funny story because I you know we were getting down to the wire and you know, I had the I had the uh the lettering said and and that master shot and then I shot the dog and now it's all set, but I didn't have a background and I'm looking around and suddenly my my wife shows up from the supermarket, she says, Oh honey, look at this nice diffraction grating I got on the on the tissue box.
+
+116
+00:10:23,720 --> 00:10:24,360
+Oh no.
+
+117
+00:10:24,360 --> 00:10:38,040
+I said, give me that and I cut that thing right out and stuck it in the back, and it's amazing because if I ran my hologram as a wide band, which means you know it it it it uh will take many different wavelengths and reflect them back.
+
+118
+00:10:38,040 --> 00:10:39,640
+That's why you have a white dog.
+
+119
+00:10:39,640 --> 00:10:40,280
+Yeah.
+
+120
+00:10:40,280 --> 00:10:48,560
+Uh I found that if I tuned it, if I made the hologram so the dog was green, then the diffraction grading in the background was green also.
+
+121
+00:10:48,880 --> 00:10:55,280
+But if I made it white, the dog white where it would be wideband, then I got a full rainbow out of the diffraction grading in the back.
+
+122
+00:10:55,600 --> 00:11:08,880
+Oh of course yeah because all the all the wavelengths to go through so I said okay that's the one and I'll put that in sh you know and here we are today but you know thanks for the uh the holotalk uh MP3 uh disc.
+
+123
+00:11:08,880 --> 00:11:10,560
+Yeah well it's great.
+
+124
+00:11:10,560 --> 00:11:14,000
+I could that's I I love to plug it in and refer back to stuff you know.
+
+125
+00:11:14,000 --> 00:11:14,480
+Yeah.
+
+126
+00:11:14,480 --> 00:11:16,800
+And uh well you'll be part of that now.
+
+127
+00:11:16,800 --> 00:11:18,160
+Yeah I guess so great.
+
+128
+00:11:18,160 --> 00:11:23,840
+Yeah people uh years from now we'll be listening to you talk about uh dichromate holography.
+
+129
+00:11:23,840 --> 00:11:46,000
+Well you know I I uh last year once I I got a handle on things I put um a posting up on uh the holography forum and uh that shows you know my my simplified coding method I've I've uh evolved since then but you know for anybody who's starting off it's a good it's a good starting place to see what's going on.
+
+130
+00:11:46,000 --> 00:11:54,000
+And um you know I've had a every once in a while I get to people from you know far and wide call me and thank me or get you know send me an email and thanks for for for putting it up there.
+
+131
+00:11:54,000 --> 00:11:55,040
+So it is still used.
+
+132
+00:11:55,040 --> 00:11:55,760
+Yeah.
+
+133
+00:11:55,760 --> 00:11:58,880
+And uh do you run any workshops for people?
+
+134
+00:11:58,880 --> 00:12:00,320
+Uh I really have it.
+
+135
+00:12:00,320 --> 00:12:03,680
+You know I mean I'm not set up to do that but I suppose I could.
+
+136
+00:12:03,680 --> 00:12:07,920
+You know I know uh y you had a friend Ellie uh you sent me her number.
+
+137
+00:12:07,920 --> 00:12:19,680
+I'll give her a call and we'll see what we can see what we can do because it's just something I haven't really gotten into mainly because especially if it was dichromate, I didn't feel I had had enough experience under my belt.
+
+138
+00:12:19,680 --> 00:12:24,320
+Well now I think I do, but you know, a year ago, uh I I couldn't say that.
+
+139
+00:12:24,320 --> 00:13:04,440
+Um recently uh I I I let's see, I think you had an interview with uh Dinesh uh uh uh a Pattiar and um he had a a hologram he made and he always intrigued me of two colored skulls you know just the the the one was a green I think one was a red and I asked him about it and didn't really respond too much because it was probably his proprietary you know formula he didn't want to you know s tell the world about but I think he softened up a little bit and I he has a uh he has a website the h uh holography let me make sure I get it right it's the holographers gallery dot org.
+
+140
+00:13:04,440 --> 00:13:23,000
+Oh and um he finally uh uh you know after I asked him uh you know about this multicolor hologram if you know if he could share how it was done and sure enough he wrote down the formula and um basically I took it picked up the ball and started running with it like like crazy and uh that's what I was doing last week.
+
+141
+00:13:23,000 --> 00:13:27,800
+I know we had talked about possibly getting together but I really wanted to get this under my belt.
+
+142
+00:13:27,800 --> 00:13:47,880
+Yeah and um you can see the results uh there as well as you know at the holographers gallery dot org or at uh uh the holography forum uh dot org under multicolored dichromate and uh you know I could post you a picture if you want to see it but it's just incredible the colors I'm getting out of this thing now.
+
+143
+00:13:47,880 --> 00:13:51,400
+Yeah if if you send a picture to me I'll put it right on the Holo Talk page too.
+
+144
+00:13:51,400 --> 00:13:51,960
+Okay.
+
+145
+00:13:51,960 --> 00:13:52,360
+Sure.
+
+146
+00:13:52,600 --> 00:14:00,520
+Yeah because uh you know it was one of those instances where all of a sudden the hair was standing up in the back of my head and I'm so excited that it actually worked.
+
+147
+00:14:00,520 --> 00:14:09,480
+For forever I was trying to make it multicolor uh dichromate holograms and uh lo and behold Dinesh had it.
+
+148
+00:14:09,560 --> 00:14:14,440
+Well if you had the hair standing up on the back of your neck you're definitely a holographer.
+
+149
+00:14:14,440 --> 00:14:14,760
+Yes.
+
+150
+00:14:15,120 --> 00:14:16,960
+How long have you been involved with holography?
+
+151
+00:14:16,960 --> 00:14:18,160
+How did you get started?
+
+152
+00:14:18,400 --> 00:14:31,360
+Well it's the good old museum of holography you know back in the day in my in in my early high school days I think I was probably the f maybe the first or second year that it was open I was a member.
+
+153
+00:14:31,360 --> 00:14:35,920
+And then just ever since then I was uh been bitten by the bitten by the bee.
+
+154
+00:14:35,920 --> 00:14:49,360
+I I I had a uh an Aero Tech like three milliwatt laser I think I think between the power supply and the tube the the the OEM tube I think it cost me four hundred bucks I believe it yeah.
+
+155
+00:14:49,360 --> 00:14:52,880
+I had I had the AeroTec five milliwatt so I know what you're talking about.
+
+156
+00:14:52,880 --> 00:15:06,720
+Yeah and uh you know in those days you know it was it was it was pretty much on on your own I guess there were probably classes and stuff but I was pretty much uh self taught so that's that's that was my my inspiration.
+
+157
+00:15:06,720 --> 00:15:16,080
+Yeah so it's just been there you know in the back of my in the back of my head uh you know holography's always been part of my life I guess that was a lot of money for those lasers back then.
+
+158
+00:15:16,080 --> 00:15:17,680
+It sure was oh my goodness.
+
+159
+00:15:17,680 --> 00:15:22,880
+It sure was my mom you know because I said education she said I'll go buy you one.
+
+160
+00:15:22,880 --> 00:15:32,160
+You know that was my little five milliwatt AeroTec actually had the power supply built right into the cylindrical housing.
+
+161
+00:15:32,160 --> 00:15:32,640
+Wow.
+
+162
+00:15:32,640 --> 00:15:36,560
+So it was just a a s a cylinder, you know your typical cylinder laser head.
+
+163
+00:15:36,560 --> 00:15:36,880
+Right.
+
+164
+00:15:36,880 --> 00:15:44,960
+But at the one end it was where the power supply was located right in the cylindrical head and it just had a key switch built right into the laser head.
+
+165
+00:15:44,960 --> 00:15:51,360
+And it was nice, but I think I may have paid I don't know, six ninety five or more for that five milliwatt.
+
+166
+00:15:51,360 --> 00:15:54,800
+Wow, yes, uh crazy and that wasn't that was a lot of money.
+
+167
+00:15:54,800 --> 00:16:11,400
+I mean, had three daughters, you know, I just moved into a house and uh to turn around and say six hundred and ninety five dollars for a laser, which not even many people didn't even know what the heck a laser was outside of science fiction back then.
+
+168
+00:16:11,400 --> 00:16:13,640
+It was uh it was it was something.
+
+169
+00:16:13,640 --> 00:16:17,800
+And then I got the Spectrophysics uh one twenty four B.
+
+170
+00:16:17,800 --> 00:16:18,600
+Mm-hmm.
+
+171
+00:16:18,600 --> 00:16:24,680
+And uh that I actually had to take a bank loan out and I had like thirty-six monthly payments on it.
+
+172
+00:16:24,680 --> 00:16:25,800
+Sure, sure.
+
+173
+00:16:25,800 --> 00:16:27,960
+For fifteen milliwatts.
+
+174
+00:16:27,960 --> 00:16:33,320
+I'll tell you now, you know, uh the online auctions and you know, we know the big E.
+
+175
+00:16:33,320 --> 00:16:37,880
+Uh I'm telling you, uh it's like I'm a kid in the candy store.
+
+176
+00:16:37,880 --> 00:16:40,040
+I mean, there's so many good things that come by it.
+
+177
+00:16:40,280 --> 00:16:48,600
+Apparently, you know, ever all the labs must be upgrading or getting government funding, so all this other surplus optic stuff is hitting hitting the shelves, if you will.
+
+178
+00:16:48,840 --> 00:16:52,040
+And uh I I'm having a heyday here, you know what I mean.
+
+179
+00:16:52,040 --> 00:16:56,040
+Um I bought a uh I bought I have a laminar flow already.
+
+180
+00:16:56,040 --> 00:16:59,240
+I bought another one here locally from a guy for eighty dollars.
+
+181
+00:16:59,880 --> 00:17:04,600
+Four by eight laminar flow, like you know it's just amazing.
+
+182
+00:17:04,600 --> 00:17:09,880
+You know what was one of the m one of my oh, my Jodon electronic shutter?
+
+183
+00:17:09,880 --> 00:17:10,520
+Okay.
+
+184
+00:17:10,520 --> 00:17:38,280
+You know, you you uh you have a site about Jodon stuff and uh I'll tell you this is it it's a it's a uh an analog type shutter, you know, you have to turn the knob and go to the next but it's it has a vernier gauge and it's really great, especially when I'm doing multiple exposures because you get a real feel for adjustments because you're d doing it with a dial rather than you know saying, okay, well I gotta take twenty five seconds off of this second exposure to make this one.
+
+185
+00:17:38,280 --> 00:17:40,440
+But by using the dial it really helps out.
+
+186
+00:17:40,440 --> 00:17:41,560
+Yeah, analog.
+
+187
+00:17:41,560 --> 00:17:43,280
+Yeah, it's a good old analog.
+
+188
+00:17:43,440 --> 00:17:46,640
+The nineteen fifties black and white science mov movie or something.
+
+189
+00:17:43,160 --> 00:17:46,880
+Yeah.
+
+190
+00:17:46,960 --> 00:17:54,960
+Well it's it's funny because this shutter is a really great shutter and it also has a detector head and um it didn't come with I remember that, yeah.
+
+191
+00:17:54,960 --> 00:17:57,120
+It didn't come with a detector head, but I would love to buy one.
+
+192
+00:17:57,120 --> 00:18:10,240
+So I said, well maybe I could you know put one together from another one and I called up, you know uh you know, over at uh um Jodon and um they have no record they didn't keep any of the electronics.
+
+193
+00:18:10,240 --> 00:18:14,880
+And I guess now it's it's it's uh Don Don Glesby's son is the one taking care.
+
+194
+00:18:14,880 --> 00:18:16,400
+I think he's the president of the company.
+
+195
+00:18:16,800 --> 00:18:18,240
+They're in Michigan or something, aren't they?
+
+196
+00:18:18,240 --> 00:18:39,840
+Or yeah and uh he didn't I guess they didn't uh hold on to any of that information so I'm kind of I mean the the gr it it's a nice unit the way it is but uh yeah I remember years ago going over to visit Don with one of my second lasers and going into his basement and he just had the thing was jam packed with laser tubes everywhere underneath the stairs everywhere.
+
+197
+00:18:39,840 --> 00:18:40,320
+Yeah.
+
+198
+00:18:40,320 --> 00:19:04,320
+So it was quite an operation he had too yeah I I remember I was up at this um center for advanced visual studies up at MIT back in I believe nineteen eighty five for the summer program and that was back in the day when I was making payments on this on this laser and struggling to uh be able to write it you know write a check every month so that I could keep a laser going.
+
+199
+00:19:04,880 --> 00:19:25,920
+And I walked in there and they had one section of the building and it was just stacked about as high as you could get stacked with uh Spectrophysics one twenty five's and Argon lasers and Krypton lasers and power supplies and all they were doing all they were was just stored in this room that that were donated to the center.
+
+200
+00:19:25,920 --> 00:19:26,320
+Wow.
+
+201
+00:19:26,320 --> 00:19:29,200
+And I looked at that and I thought, uh this is just unbelievable.
+
+202
+00:19:29,200 --> 00:19:36,120
+You know, I mean trying to make a payment on a fifteen milliwatt heaney every month and here's a whole room full of 'em that no one's even touching.
+
+203
+00:19:36,120 --> 00:19:36,840
+Yeah, I know.
+
+204
+00:19:36,840 --> 00:19:41,320
+I I and I'm I'm sure it's go there's plenty of places like that throughout the throughout the country.
+
+205
+00:19:41,320 --> 00:19:41,880
+Yeah.
+
+206
+00:19:41,880 --> 00:19:52,920
+But yeah, once in a while you see a heat cat show up on on eBay or one of you know one of the one of the s the uh electronic sales guys and um nine times out of ten because I've bought a couple of them.
+
+207
+00:19:52,920 --> 00:19:53,640
+Oh really?
+
+208
+00:19:53,640 --> 00:19:59,960
+They either arrive broken or uh they've lost all the cadmium has all been been dissipated.
+
+209
+00:19:59,960 --> 00:20:03,640
+It doesn't really dissipate out but it you know becomes hard and it goes onto the walls.
+
+210
+00:20:03,640 --> 00:20:04,280
+Yeah.
+
+211
+00:20:04,280 --> 00:20:08,200
+So but I got lucky and I got one that uh works pretty well.
+
+212
+00:20:08,760 --> 00:20:09,720
+What's it putting out?
+
+213
+00:20:09,880 --> 00:20:11,640
+They're not they weren't very powerful lasers.
+
+214
+00:20:11,880 --> 00:20:14,520
+I think probably I'm thinking it may put out fifteen watts.
+
+215
+00:20:14,520 --> 00:20:16,840
+I don't really have a a a proper procedure to test it.
+
+216
+00:20:16,840 --> 00:20:21,240
+I'm fifteen milliwatts fifteen watts would be nice.
+
+217
+00:20:21,240 --> 00:20:46,520
+No yeah fifteen mills I'd have to uh you know take a loan out for the electricity to run it on but uh yeah it's nice to have a plug and play laser compared to you know years ago actually where I I did some some of my early dichromate work was with uh uh Mort Siegel, his son uh Mark Siegel spatial images spatial images international I believe they have it's over here in Long Island and Yeah, those names are familiar.
+
+218
+00:20:46,520 --> 00:20:50,120
+Yeah I think I think Mort Siegel was or Morton Siegel.
+
+219
+00:20:50,120 --> 00:20:53,480
+He was probably at the first symposium on display holography I think.
+
+220
+00:20:53,480 --> 00:20:54,040
+Okay.
+
+221
+00:20:54,040 --> 00:20:57,000
+And um Do you sell any of your work?
+
+222
+00:20:57,000 --> 00:21:03,560
+No well I not really I I uh I've sold just a couple of pieces more like artwork than just you know stamp it out.
+
+223
+00:21:03,720 --> 00:21:08,680
+That's really that's where my love of holography is is in the art application.
+
+224
+00:21:09,400 --> 00:21:17,280
+Certainly non destructive and and smart holograms and there's plenty of it.
+
+225
+00:21:12,920 --> 00:21:34,320
+You know, you know, when you looked at the big you know, the the big transmission uh rainbow transmission holograms, which actually I was gearing up to do, and then I ran into this multicolored dichromate formula, and I'm back to square one, you know, trying to get get a handle on this.
+
+226
+00:21:34,320 --> 00:21:39,120
+So once I get this uh under my belt again, I'll probably go back over to to switching over the silver.
+
+227
+00:21:39,120 --> 00:21:41,200
+I keep saying that, but yeah.
+
+228
+00:21:41,200 --> 00:21:45,120
+Well, I just got a box of those uh ultimate plates in with the chemistry, yeah.
+
+229
+00:21:45,120 --> 00:21:49,280
+So it's not open yet, but I'm getting set up to do a couple test shots with the material.
+
+230
+00:21:49,760 --> 00:21:54,800
+Uh yeah, I still have uh you know, I still have like a box and a half of of Fuji film left.
+
+231
+00:21:55,040 --> 00:22:02,640
+Oh since I've had this laser, I've and I've shot hundreds of holograms, but I've yet to use a piece of film of purchase film to make it all.
+
+232
+00:22:02,640 --> 00:22:12,000
+Sooner or later I'm gonna you know dim down the lights and go back into the dark ages, if you will, and and start shooting some red again, red and uh uh green, you know, silver highlights.
+
+233
+00:22:12,160 --> 00:22:18,720
+Hey, this is the this is the perfect time of the year to experiment with red if you only have red and green, you don't have the blue.
+
+234
+00:22:18,960 --> 00:22:24,080
+This is the perfect time of year because you can find all these little red and green figurines for Christmas.
+
+235
+00:22:24,080 --> 00:22:24,560
+Right.
+
+236
+00:22:24,560 --> 00:22:30,000
+And uh I did a shot the other night with a red and green onto the Fuji film.
+
+237
+00:22:30,000 --> 00:22:30,480
+Okay.
+
+238
+00:22:30,480 --> 00:22:45,600
+And uh I don't know if I'm doing something wrong, I'm gonna have to revisit it, but uh if I if I to it it's the the the two images are g in complete registration, they don't go out r out of registration, but if I have it at one angle, it's it's reddish.
+
+239
+00:22:45,600 --> 00:22:50,160
+And if I turn it and illuminate it at another angle, it's sort of green.
+
+240
+00:22:50,400 --> 00:22:54,400
+And if I put it in the middle, it's almost white, like an open aperture hologram.
+
+241
+00:22:54,400 --> 00:22:56,400
+So I've I've got to figure out what I'm doing here.
+
+242
+00:22:56,400 --> 00:22:57,840
+I'm trying to get the two colors.
+
+243
+00:22:57,920 --> 00:23:01,400
+Looks beautiful, illuminated with the two lasers.
+
+244
+00:22:59,360 --> 00:23:06,040
+Maybe uh okay, so you use the two lasers to to uh illuminate from different angles.
+
+245
+00:22:59,920 --> 00:23:06,840
+No, same angle.
+
+246
+00:23:07,320 --> 00:23:11,160
+I'm I'm combining the beam into one beam, sending it through the spatial filter.
+
+247
+00:23:11,160 --> 00:23:14,040
+And it comes out, I only have red and green, I don't have blue.
+
+248
+00:23:14,040 --> 00:23:14,360
+Right.
+
+249
+00:23:14,360 --> 00:23:16,120
+So it comes out as like a yellow.
+
+250
+00:23:16,120 --> 00:23:16,600
+Right.
+
+251
+00:23:16,600 --> 00:23:17,320
+You know.
+
+252
+00:23:17,320 --> 00:23:21,720
+And the figurines look gorgeous, you know, with the two colors.
+
+253
+00:23:21,720 --> 00:23:27,000
+It's like Santa Claus sitting in a chair with an elf, so the elf's got the green costume, Santa's got the red.
+
+254
+00:23:27,320 --> 00:23:41,000
+And even the uh even the skin tones on the little figurines, you know, uh sort of goes to a yellow, and uh but I just um I just can't seem to get it to show up color in the uh single beam reflection hologram.
+
+255
+00:23:41,000 --> 00:23:42,040
+I just don't understand it.
+
+256
+00:23:42,040 --> 00:23:59,080
+The color balancing is as I'm finding, especially with this latest dichromate, uh you can't really see it in the picture I'll send you, but just by doing two exposures, and I I I altered the mask in between the two, between the red and the green, because this was like a this is almost like the like a where you do a TEA bath.
+
+257
+00:23:59,400 --> 00:24:07,400
+Okay uh in in uh silver halide, it's kind of the same theoretical operation, I guess the way it said it.
+
+258
+00:24:07,400 --> 00:24:12,280
+And uh by uh overlapping the red and the green, I get a really nice gold.
+
+259
+00:24:12,520 --> 00:24:12,760
+Uh huh.
+
+260
+00:24:12,920 --> 00:24:16,360
+But what I noticed is my I have two figures, and you'll see it side by side.
+
+261
+00:24:16,360 --> 00:24:19,880
+The one figure on the right was just I didn't paint them white at the same time.
+
+262
+00:24:19,880 --> 00:24:22,440
+So one of the whites was just slightly less than the other one.
+
+263
+00:24:22,840 --> 00:24:26,520
+And the colors on the other one, rather than being red, is kind of orange.
+
+264
+00:24:26,520 --> 00:24:28,760
+And then the green on the other one is a light green.
+
+265
+00:24:28,760 --> 00:24:40,280
+So really just by shading or a slight variation in in exposure, we'll change that shade anywhere as I guess from if it's we're using a red and green laser, it'll be from gold to orange.
+
+266
+00:24:40,280 --> 00:24:43,240
+So it's kind of uh tricky.
+
+267
+00:24:43,240 --> 00:24:45,920
+Yeah, there's a lot of stuff you can do with just the two colors.
+
+268
+00:24:45,920 --> 00:24:46,240
+Yeah.
+
+269
+00:24:46,240 --> 00:24:46,800
+Yeah.
+
+270
+00:24:44,680 --> 00:24:57,280
+Yeah, actually I posted up on uh the holographers gallery uh a question uh today was you know, how did I get all these colors out of only two exposures?
+
+271
+00:24:57,280 --> 00:25:01,120
+And I know Dinesh knows it, but I just thought maybe somebody else would answer in.
+
+272
+00:25:01,120 --> 00:25:02,960
+But I'll send you that picture and you can post that.
+
+273
+00:25:02,960 --> 00:25:03,360
+Yeah.
+
+274
+00:25:03,360 --> 00:25:15,040
+And you can also, if you ever have a friend that used to do something called color separation, where you would take a uh color photograph for printing and and uh separate it out the Siam magenta yellow and black.
+
+275
+00:25:15,040 --> 00:25:15,440
+Sure.
+
+276
+00:25:15,440 --> 00:25:21,440
+They'll be they'd be able to explain very easily to you how you get all those you know, millions of colors just uh you know from a few.
+
+277
+00:25:21,840 --> 00:25:24,560
+I I think photo uh Photoshop's got that, I'm sure.
+
+278
+00:25:24,560 --> 00:25:25,600
+Yeah.
+
+279
+00:25:26,560 --> 00:25:29,040
+Well you have a group one is it called Skype?
+
+280
+00:25:29,040 --> 00:25:30,320
+Is that how you pronounce that?
+
+281
+00:25:30,560 --> 00:25:39,440
+We have Skype, and it's funny because there's always been controversies about it, but when I do the test call and it's an automatic, they c they call it Skype, so that's what I'm calling it as Skype.
+
+282
+00:25:39,440 --> 00:25:41,280
+Okay, I've I've never worked with it.
+
+283
+00:25:41,280 --> 00:25:45,520
+I I've always been on Macintosh computers and I don't think they have it available for Mac.
+
+284
+00:25:45,520 --> 00:25:48,960
+I would think that they they they would have or should have it soon, but it's great.
+
+285
+00:25:48,960 --> 00:26:06,640
+It's you know, you you talk just right through the computer, you you know, you spend you go to Radio Shaka, the low local electronics, spend thirty bucks and buy a a microphone uh uh headset plug in and and well currently the way we're set up, we can I think we can have five five people online at once.
+
+286
+00:26:06,640 --> 00:26:08,320
+Wow, that that's decent.
+
+287
+00:26:08,320 --> 00:26:10,480
+And um, yeah, you know, it's it's great.
+
+288
+00:26:10,480 --> 00:26:23,040
+If if any, you know, of your listeners or if you want to join us sometime, as a matter of fact, we we uh at ten thirty Eastern standard time, ten thirty AM Saturdays, we talk.
+
+289
+00:26:23,040 --> 00:26:30,440
+So right, you know, right after we're done talking, I'll I'll we'll sign on, and I don't know, maybe there'll be four or five guys, but you can't call in with a regular phone though, right?
+
+290
+00:26:30,440 --> 00:26:30,840
+No.
+
+291
+00:26:29,920 --> 00:26:31,320
+Or can you?
+
+292
+00:26:31,640 --> 00:26:32,520
+No, I don't think so.
+
+293
+00:26:32,520 --> 00:26:42,200
+You probably what you could do, I mean you can propose a question um to Skype, like you don't have to have you know, you can it's almost like an instant messaging.
+
+294
+00:26:42,520 --> 00:26:43,160
+Oh, I see.
+
+295
+00:26:43,160 --> 00:26:43,640
+Yeah.
+
+296
+00:26:43,640 --> 00:26:53,000
+So if somebody wanted to, you know, ask us a question while we're all on, that would work too, or just ask a question during the week and we can answer it, you know, something like that.
+
+297
+00:26:53,000 --> 00:26:57,640
+Well, let the listeners know, because this will be this'll go as part of the archives.
+
+298
+00:26:57,960 --> 00:27:02,600
+So somebody may be listening to this, you know, next summer, next fall.
+
+299
+00:27:02,600 --> 00:27:08,680
+If someone wanted to become part of this uh it's it's specifically for dichromate holography.
+
+300
+00:27:08,680 --> 00:27:16,280
+Well, yeah, currently it's been dichrom dichromate holography, but I think it probably will eventually we'll we'll will become, you know, any anything holography.
+
+301
+00:27:16,280 --> 00:27:17,240
+But yeah.
+
+302
+00:27:17,240 --> 00:27:30,120
+Uh my Skype address is Dave Bat1, D A V E B A T T one, which uh I guess that's the s the Skype address, if you will.
+
+303
+00:27:30,120 --> 00:27:30,520
+Okay.
+
+304
+00:27:30,520 --> 00:27:40,760
+And then there's always my uh, you know, just regular my um email address is HoloArt H O L O A R T at A O L dot com.
+
+305
+00:27:40,760 --> 00:27:41,400
+Okay.
+
+306
+00:27:41,400 --> 00:27:57,400
+And um that, you know, if somebody wanted to uh get in the Skype group, then what they could do is uh just uh contact me through my email address and then um you know I'll put them on the calling list and then what happens is it's an automatic calling list.
+
+307
+00:27:57,400 --> 00:28:00,200
+So I just hit the button and it starts calling everybody.
+
+308
+00:28:00,200 --> 00:28:00,400
+Okay.
+
+309
+00:28:00,640 --> 00:28:03,320
+And puts them on one at a time as a conference call.
+
+310
+00:28:03,320 --> 00:28:08,520
+So you know, uh if anybody wants to join, they could certainly get involved that way.
+
+311
+00:28:08,520 --> 00:28:09,080
+Terrific.
+
+312
+00:28:09,080 --> 00:28:10,440
+Well we're forward to it.
+
+313
+00:28:10,440 --> 00:28:12,360
+We're coming up on thirty minutes.
+
+314
+00:28:12,360 --> 00:28:17,440
+So is is there anything that you wanted to add that I didn't ask about that you can think of?
+
+315
+00:28:18,000 --> 00:28:29,600
+I'm just thankful for guys like you know, you and and and Colin uh Kaminsky, uh, you know, to have you know the Holo Talk Show, the holography forum, you know, the Holo World.
+
+316
+00:28:29,600 --> 00:28:30,240
+Yeah.
+
+317
+00:28:30,240 --> 00:28:39,040
+Uh it it was uh it was good that it was there at a time when I was said, Well, maybe I'd like to get back into holography 'cause I really put it down for ten years, you know, fifteen years.
+
+318
+00:28:39,280 --> 00:28:39,840
+Yeah.
+
+319
+00:28:39,840 --> 00:28:43,920
+And it was sites like yours that inspired it, and I think that's what we have to you know, keep going.
+
+320
+00:28:43,920 --> 00:28:45,360
+And hopefully that's what we're doing now.
+
+321
+00:28:45,360 --> 00:28:46,880
+You know, inspiring others.
+
+322
+00:28:46,880 --> 00:28:52,400
+Well, thank you for that, and uh you're certainly inspiring me to give this dichromate holography a try.
+
+323
+00:28:52,400 --> 00:28:53,120
+Well great.
+
+324
+00:28:53,120 --> 00:28:54,560
+After all these years.
+
+325
+00:28:54,560 --> 00:28:55,600
+Yeah.
+
+326
+00:28:55,600 --> 00:28:58,480
+It's uh it's coming of age finally.
+
+327
+00:28:58,480 --> 00:29:00,080
+How many years has it been, right?
+
+328
+00:29:00,080 --> 00:29:01,760
+Oh my goodness, yeah.
+
+329
+00:29:01,760 --> 00:29:02,320
+Okay.
+
+330
+00:29:02,320 --> 00:29:02,720
+All right.
+
+331
+00:29:02,720 --> 00:29:07,680
+Well, Dave, thank you so much for taking the time to come on to the uh show this early in the morning.
+
+332
+00:29:07,680 --> 00:29:08,240
+Sure.
+
+333
+00:29:08,240 --> 00:29:21,680
+And it was a late night for me last night and a lot of driving from the Meadowlands back and uh was over there for the um Devil's Penguins game hockey and uh Yeah, it's a long trick for you to get back.
+
+334
+00:29:22,080 --> 00:29:22,960
+Yeah, yeah.
+
+335
+00:29:22,960 --> 00:29:27,840
+It was it was a little over t well, actually it took almost an hour to get out of the uh the sports complex.
+
+336
+00:29:29,200 --> 00:29:31,440
+And then about two hours to uh get home.
+
+337
+00:29:31,840 --> 00:29:35,200
+And then you lay in then you lay in bed and you're still going eighty miles an hour.
+
+338
+00:29:35,200 --> 00:29:41,200
+Well, I shouldn't say that on the uh you know, s sixty five miles an hour on the uh while you're laying in bed.
+
+339
+00:29:41,200 --> 00:29:45,200
+Yeah, it takes a little while for adrenaline to to run out of your body, I guess.
+
+340
+00:29:45,200 --> 00:29:47,840
+Well you have a great day, a great weekend, and thank you so much.
+
+341
+00:29:47,840 --> 00:29:51,280
+And uh I have Michael Harrison later this morning at eleven o'clock.
+
+342
+00:29:51,920 --> 00:29:57,360
+He's actually going to go up for this week because he's got his new sh his his new store that he just opened online.
+
+343
+00:29:57,360 --> 00:30:01,880
+And I thought it would be a good opportunity to get him on there since it's the season.
+
+344
+00:30:02,200 --> 00:30:05,960
+And uh then I'll have you on right after uh Michael's show.
+
+345
+00:30:05,960 --> 00:30:06,520
+Okay, great.
+
+346
+00:30:06,520 --> 00:30:13,800
+And what I'll do is I'll I'll send you out a couple uh of uh lists of uh of the pictures, etc., and then you can put them up wherever you want.
+
+347
+00:30:13,800 --> 00:30:14,120
+All right.
+
+348
+00:30:14,120 --> 00:30:15,400
+Well thank you so much, Dave.
+
+349
+00:30:15,400 --> 00:30:17,000
+Hope to meet in person sometime.
+
+350
+00:30:17,000 --> 00:30:18,040
+I'm sure we will, Frank.
+
+351
+00:30:18,040 --> 00:30:19,000
+All right, take care.
+
+352
+00:30:19,240 --> 00:30:26,440
+Bye.

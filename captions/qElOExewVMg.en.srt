@@ -1,0 +1,2944 @@
+1
+00:00:00,179 --> 00:00:06,180
+hi Mike how are you it's Frankie Freitas
+
+2
+00:00:03,959 --> 00:00:09,120
+how are you doing tonight yes fine and
+
+3
+00:00:06,180 --> 00:00:10,980
+yourself doing good doing good okay
+
+4
+00:00:09,120 --> 00:00:13,019
+why don't we start off by having you
+
+5
+00:00:10,980 --> 00:00:15,179
+tell people what this project that
+
+6
+00:00:13,019 --> 00:00:16,920
+you're interested in is about and how
+
+7
+00:00:15,179 --> 00:00:19,859
+you got interested in these holographic
+
+8
+00:00:16,920 --> 00:00:24,420
+Optical elements well
+
+9
+00:00:19,859 --> 00:00:27,060
+um this started in a strange way which
+
+10
+00:00:24,420 --> 00:00:27,960
+is really not so strange considering
+
+11
+00:00:27,060 --> 00:00:30,599
+that
+
+12
+00:00:27,960 --> 00:00:32,780
+it's understood that most of the
+
+13
+00:00:30,599 --> 00:00:36,000
+advancements of any particular field
+
+14
+00:00:32,780 --> 00:00:37,680
+come 95 percent of the as they say of
+
+15
+00:00:36,000 --> 00:00:41,160
+the advancements of any field come from
+
+16
+00:00:37,680 --> 00:00:43,680
+people outside of the field and that was
+
+17
+00:00:41,160 --> 00:00:45,840
+sort of my experience
+
+18
+00:00:43,680 --> 00:00:48,420
+what happened was
+
+19
+00:00:45,840 --> 00:00:50,460
+I was in the Solar field
+
+20
+00:00:48,420 --> 00:00:53,340
+and
+
+21
+00:00:50,460 --> 00:00:56,560
+I I was in Hawaii
+
+22
+00:00:53,340 --> 00:00:56,820
+and acting as a
+
+23
+00:00:56,560 --> 00:00:57,899
+[Music]
+
+24
+00:00:56,820 --> 00:01:00,480
+um
+
+25
+00:00:57,899 --> 00:01:03,120
+for PRI Pacific resources International
+
+26
+00:01:00,480 --> 00:01:04,739
+their commercial energy sales Division I
+
+27
+00:01:03,120 --> 00:01:08,000
+was considered to be an energy
+
+28
+00:01:04,739 --> 00:01:08,000
+management specialist
+
+29
+00:01:09,720 --> 00:01:17,700
+doe was having one of their last
+
+30
+00:01:12,720 --> 00:01:20,580
+uh evaluation and think tanks on these
+
+31
+00:01:17,700 --> 00:01:23,880
+large 30-foot diameter parabolic
+
+32
+00:01:20,580 --> 00:01:26,280
+dishes okay for a solar electric
+
+33
+00:01:23,880 --> 00:01:28,439
+generators constant they're sort of like
+
+34
+00:01:26,280 --> 00:01:31,020
+concentrators right yeah mostly front
+
+35
+00:01:28,439 --> 00:01:32,880
+surface mirrored systems yeah
+
+36
+00:01:31,020 --> 00:01:38,880
+um and
+
+37
+00:01:32,880 --> 00:01:40,619
+uh I was that was a very fascinating
+
+38
+00:01:38,880 --> 00:01:43,560
+um effort for me that was my first Think
+
+39
+00:01:40,619 --> 00:01:46,740
+Tank and I was really learning a lot I
+
+40
+00:01:43,560 --> 00:01:49,140
+was I was really awestruck by all of the
+
+41
+00:01:46,740 --> 00:01:51,000
+work done by groups mostly throughout
+
+42
+00:01:49,140 --> 00:01:51,720
+the U.S
+
+43
+00:01:51,000 --> 00:01:55,860
+um
+
+44
+00:01:51,720 --> 00:01:58,619
+and I I learned at some of these
+
+45
+00:01:55,860 --> 00:02:00,299
+meetings that well it's not my uh
+
+46
+00:01:58,619 --> 00:02:02,340
+position just to say oh wow these are
+
+47
+00:02:00,299 --> 00:02:04,380
+great but rather I'm supposed to look
+
+48
+00:02:02,340 --> 00:02:07,880
+for bugs
+
+49
+00:02:04,380 --> 00:02:11,099
+um the the objective was to try to find
+
+50
+00:02:07,880 --> 00:02:13,620
+what systems would work best in
+
+51
+00:02:11,099 --> 00:02:15,660
+different conditions and of course in
+
+52
+00:02:13,620 --> 00:02:18,720
+Hawaii
+
+53
+00:02:15,660 --> 00:02:20,400
+um the um the weather there is is
+
+54
+00:02:18,720 --> 00:02:24,000
+different than
+
+55
+00:02:20,400 --> 00:02:25,800
+um most other places in that
+
+56
+00:02:24,000 --> 00:02:28,800
+about every 20 minutes these high
+
+57
+00:02:25,800 --> 00:02:30,720
+vertical tropical clouds would go by and
+
+58
+00:02:28,800 --> 00:02:33,180
+it would disturb the performance of
+
+59
+00:02:30,720 --> 00:02:36,560
+these front surface mirrored parabolic
+
+60
+00:02:33,180 --> 00:02:39,239
+dishes that were used to concentrate
+
+61
+00:02:36,560 --> 00:02:41,819
+sunlight on a point
+
+62
+00:02:39,239 --> 00:02:44,879
+because the
+
+63
+00:02:41,819 --> 00:02:47,459
+clouds would cover up the mirror and
+
+64
+00:02:44,879 --> 00:02:49,319
+there would be a bright Cloud maybe over
+
+65
+00:02:47,459 --> 00:02:52,200
+to the right or the left yeah it would
+
+66
+00:02:49,319 --> 00:02:55,080
+it would basically diffuse the sunlight
+
+67
+00:02:52,200 --> 00:02:57,780
+yeah actually because they were
+
+68
+00:02:55,080 --> 00:03:01,860
+extremely high vertical tropical clouds
+
+69
+00:02:57,780 --> 00:03:05,160
+they would act as mirrors so the the sun
+
+70
+00:03:01,860 --> 00:03:07,260
+would be blocked out and the the uh the
+
+71
+00:03:05,160 --> 00:03:09,239
+disc of the parabolic disc would think
+
+72
+00:03:07,260 --> 00:03:10,860
+that the sun would be able to lighter or
+
+73
+00:03:09,239 --> 00:03:13,140
+the left and it would jockey over One
+
+74
+00:03:10,860 --> 00:03:15,420
+Direction or the other oh okay and uh
+
+75
+00:03:13,140 --> 00:03:17,519
+sometimes a a shadow would fall on the
+
+76
+00:03:15,420 --> 00:03:18,900
+dish and it would it would go into the
+
+77
+00:03:17,519 --> 00:03:20,819
+stove position thinking that it was
+
+78
+00:03:18,900 --> 00:03:22,739
+going to rain or something so these
+
+79
+00:03:20,819 --> 00:03:24,720
+dishes would work great out in the
+
+80
+00:03:22,739 --> 00:03:27,239
+desert in areas where there's not a lot
+
+81
+00:03:24,720 --> 00:03:29,700
+of clouds but they wouldn't pair very
+
+82
+00:03:27,239 --> 00:03:32,099
+well where the majority of the inhabited
+
+83
+00:03:29,700 --> 00:03:35,159
+population of the Earth were but anyway
+
+84
+00:03:32,099 --> 00:03:36,540
+um I realized that those systems would
+
+85
+00:03:35,159 --> 00:03:39,720
+work great in the desert but they
+
+86
+00:03:36,540 --> 00:03:41,640
+wouldn't find much use in areas where
+
+87
+00:03:39,720 --> 00:03:43,459
+the majority of the world's population
+
+88
+00:03:41,640 --> 00:03:48,599
+lives
+
+89
+00:03:43,459 --> 00:03:52,680
+now solar scientists have realized
+
+90
+00:03:48,599 --> 00:03:55,140
+um years prior to that that in most of
+
+91
+00:03:52,680 --> 00:03:56,879
+the inhabited areas that the majority of
+
+92
+00:03:55,140 --> 00:03:59,879
+the available energy
+
+93
+00:03:56,879 --> 00:03:59,879
+that
+
+94
+00:04:00,000 --> 00:04:06,120
+coming at these areas is in the diffuse
+
+95
+00:04:04,560 --> 00:04:10,019
+form
+
+96
+00:04:06,120 --> 00:04:12,500
+in the summertime there's a
+
+97
+00:04:10,019 --> 00:04:15,060
+a lot of direct
+
+98
+00:04:12,500 --> 00:04:17,519
+radiation but in the winter time it's
+
+99
+00:04:15,060 --> 00:04:20,400
+it's mostly cloudy
+
+100
+00:04:17,519 --> 00:04:22,560
+so most of these panels would work fine
+
+101
+00:04:20,400 --> 00:04:26,460
+in the summer but not so good in the
+
+102
+00:04:22,560 --> 00:04:29,340
+winter when you needed it okay so um I
+
+103
+00:04:26,460 --> 00:04:30,419
+uh I just asked the proverbial question
+
+104
+00:04:29,340 --> 00:04:31,979
+what if
+
+105
+00:04:30,419 --> 00:04:34,380
+what if we had some type of a
+
+106
+00:04:31,979 --> 00:04:36,360
+concentrator system that could gather
+
+107
+00:04:34,380 --> 00:04:38,460
+both the direct and the diffuse
+
+108
+00:04:36,360 --> 00:04:43,020
+components
+
+109
+00:04:38,460 --> 00:04:46,620
+and realizing that on an annual basis in
+
+110
+00:04:43,020 --> 00:04:51,300
+a lot of the populated area you can see
+
+111
+00:04:46,620 --> 00:04:53,100
+that the diffuse content is half or more
+
+112
+00:04:51,300 --> 00:04:54,419
+just over half in a lot of places
+
+113
+00:04:53,100 --> 00:04:57,000
+[Music]
+
+114
+00:04:54,419 --> 00:04:59,220
+so if you could come up with an optical
+
+115
+00:04:57,000 --> 00:05:01,620
+concentrator or a new magnifying glass
+
+116
+00:04:59,220 --> 00:05:04,139
+that could collect both then you really
+
+117
+00:05:01,620 --> 00:05:07,259
+essentially double the performance
+
+118
+00:05:04,139 --> 00:05:09,360
+of these collector apparatuses and and
+
+119
+00:05:07,259 --> 00:05:12,419
+hence you turned to uh holographic
+
+120
+00:05:09,360 --> 00:05:14,759
+Optical elements hoes well first um I
+
+121
+00:05:12,419 --> 00:05:16,919
+didn't know about hoes
+
+122
+00:05:14,759 --> 00:05:18,360
+um so I just did a
+
+123
+00:05:16,919 --> 00:05:24,120
+um
+
+124
+00:05:18,360 --> 00:05:25,560
+a rectilinear a geometrical Ray tracing
+
+125
+00:05:24,120 --> 00:05:29,039
+um
+
+126
+00:05:25,560 --> 00:05:30,240
+search if you uh to see if if it could
+
+127
+00:05:29,039 --> 00:05:33,139
+be done
+
+128
+00:05:30,240 --> 00:05:36,780
+and I just worked with a little 20 TI
+
+129
+00:05:33,139 --> 00:05:38,880
+scientific calculator and a pencil and a
+
+130
+00:05:36,780 --> 00:05:41,699
+ruler and a protractor and
+
+131
+00:05:38,880 --> 00:05:43,080
+um in a couple of weeks I came up with a
+
+132
+00:05:41,699 --> 00:05:46,259
+design and one of the guys on the think
+
+133
+00:05:43,080 --> 00:05:47,820
+tank was teaching Optical physics at the
+
+134
+00:05:46,259 --> 00:05:49,460
+University of Hawaii
+
+135
+00:05:47,820 --> 00:05:51,800
+um
+
+136
+00:05:49,460 --> 00:05:55,080
+I believe it's called
+
+137
+00:05:51,800 --> 00:05:57,539
+Manoa campus it just just up the hill
+
+138
+00:05:55,080 --> 00:05:59,460
+from Waikiki I think Steve Michael did
+
+139
+00:05:57,539 --> 00:06:02,639
+some holography work out in the out in
+
+140
+00:05:59,460 --> 00:06:05,759
+Hawaii as well but go ahead so
+
+141
+00:06:02,639 --> 00:06:08,759
+um I I asked him uh if he would check my
+
+142
+00:06:05,759 --> 00:06:11,699
+work to see if I was doing this right I
+
+143
+00:06:08,759 --> 00:06:16,080
+was just using smells law uh to do this
+
+144
+00:06:11,699 --> 00:06:16,979
+Ray tracing and he looked at it and he'd
+
+145
+00:06:16,080 --> 00:06:18,419
+uh
+
+146
+00:06:16,979 --> 00:06:21,479
+yeah
+
+147
+00:06:18,419 --> 00:06:24,120
+he just dropped his jaw and he he just
+
+148
+00:06:21,479 --> 00:06:26,580
+thought my goodness he thought this this
+
+149
+00:06:24,120 --> 00:06:27,800
+thing is so simple why why didn't we do
+
+150
+00:06:26,580 --> 00:06:31,020
+this before
+
+151
+00:06:27,800 --> 00:06:33,660
+and he we were in his office he had this
+
+152
+00:06:31,020 --> 00:06:35,280
+little uh not much more than a cubicle a
+
+153
+00:06:33,660 --> 00:06:37,860
+little little office at the University
+
+154
+00:06:35,280 --> 00:06:40,620
+there and he was just seemingly prancing
+
+155
+00:06:37,860 --> 00:06:42,479
+around saying gee he says I can see this
+
+156
+00:06:40,620 --> 00:06:45,180
+has laser application
+
+157
+00:06:42,479 --> 00:06:46,919
+and I looked at him dumbfoundedly and he
+
+158
+00:06:45,180 --> 00:06:48,900
+says this has fiber optic applications
+
+159
+00:06:46,919 --> 00:06:51,300
+and I said well I really don't know much
+
+160
+00:06:48,900 --> 00:06:53,039
+about that and he said he says well this
+
+161
+00:06:51,300 --> 00:06:56,039
+has applications and all transmitters
+
+162
+00:06:53,039 --> 00:06:57,539
+and receivers and I pull him well I
+
+163
+00:06:56,039 --> 00:06:59,220
+really don't know much about that I was
+
+164
+00:06:57,539 --> 00:07:00,900
+just trying to make a new magnifying
+
+165
+00:06:59,220 --> 00:07:02,520
+glass that could catch the diffuse
+
+166
+00:07:00,900 --> 00:07:04,620
+component
+
+167
+00:07:02,520 --> 00:07:07,319
+so he says well he said you showed me a
+
+168
+00:07:04,620 --> 00:07:09,539
+2d he says can you do it in 3D and I I
+
+169
+00:07:07,319 --> 00:07:11,520
+was showing him some of my work the
+
+170
+00:07:09,539 --> 00:07:13,199
+progression of my work and I flipped a
+
+171
+00:07:11,520 --> 00:07:14,460
+few more pages and I said well yeah it's
+
+172
+00:07:13,199 --> 00:07:15,900
+going to look something like this and he
+
+173
+00:07:14,460 --> 00:07:18,720
+said that's it
+
+174
+00:07:15,900 --> 00:07:21,180
+so I told him I said well let me finish
+
+175
+00:07:18,720 --> 00:07:22,680
+this drawing and I'll bring it back to
+
+176
+00:07:21,180 --> 00:07:25,199
+you and I'll show you
+
+177
+00:07:22,680 --> 00:07:27,479
+uh so I called him in a week or two and
+
+178
+00:07:25,199 --> 00:07:29,400
+I said well do you have time to see me
+
+179
+00:07:27,479 --> 00:07:31,199
+to take a look at this and he says oh
+
+180
+00:07:29,400 --> 00:07:33,240
+man he said do you have finances I've
+
+181
+00:07:31,199 --> 00:07:35,460
+been talking to my friends do they want
+
+182
+00:07:33,240 --> 00:07:37,319
+to talk to you and he says I took the
+
+183
+00:07:35,460 --> 00:07:39,900
+liberty to call doe and everybody's
+
+184
+00:07:37,319 --> 00:07:41,400
+excited and so forth so I went to see
+
+185
+00:07:39,900 --> 00:07:44,340
+him and um
+
+186
+00:07:41,400 --> 00:07:46,800
+he says well look he says they want you
+
+187
+00:07:44,340 --> 00:07:48,539
+to go back to the mainland
+
+188
+00:07:46,800 --> 00:07:50,759
+um so I did and I could be back to
+
+189
+00:07:48,539 --> 00:07:52,740
+Denver and I met with a fella Howard
+
+190
+00:07:50,759 --> 00:07:53,840
+Coleman that was head of the doe solar
+
+191
+00:07:52,740 --> 00:07:57,240
+thermals
+
+192
+00:07:53,840 --> 00:07:58,800
+solar thermal program and uh Howard said
+
+193
+00:07:57,240 --> 00:08:02,699
+look Mike he says we've got to look at
+
+194
+00:07:58,800 --> 00:08:04,680
+this and we realized what you've got he
+
+195
+00:08:02,699 --> 00:08:07,440
+said I want to introduce you to Larry
+
+196
+00:08:04,680 --> 00:08:09,960
+Shannon who was head of uh Carey and he
+
+197
+00:08:07,440 --> 00:08:13,199
+says Larry will walk you through this
+
+198
+00:08:09,960 --> 00:08:14,599
+and we really want to help you develop
+
+199
+00:08:13,199 --> 00:08:17,520
+this
+
+200
+00:08:14,599 --> 00:08:18,840
+but to make long story short what
+
+201
+00:08:17,520 --> 00:08:20,400
+happened was they found other
+
+202
+00:08:18,840 --> 00:08:24,180
+applications
+
+203
+00:08:20,400 --> 00:08:25,680
+and I was
+
+204
+00:08:24,180 --> 00:08:27,599
+um well they asked me to sign these
+
+205
+00:08:25,680 --> 00:08:30,120
+non-disclosure statements
+
+206
+00:08:27,599 --> 00:08:34,200
+and they gave you kind of a rough time
+
+207
+00:08:30,120 --> 00:08:37,320
+and what it was with people from DOD oh
+
+208
+00:08:34,200 --> 00:08:38,399
+I see so anyway at that time this was
+
+209
+00:08:37,320 --> 00:08:42,440
+the
+
+210
+00:08:38,399 --> 00:08:45,180
+days of FBI and Reagan Star Wars and and
+
+211
+00:08:42,440 --> 00:08:49,140
+so many things with with the name Optics
+
+212
+00:08:45,180 --> 00:08:50,760
+tag to it was Kept Secret for a while
+
+213
+00:08:49,140 --> 00:08:53,040
+until they could figure out what to do
+
+214
+00:08:50,760 --> 00:08:54,899
+with it I'm surprised the aliens didn't
+
+215
+00:08:53,040 --> 00:08:56,600
+have this technology already in their
+
+216
+00:08:54,899 --> 00:08:59,820
+spacecraft that they have
+
+217
+00:08:56,600 --> 00:09:00,420
+I'm just kidding go ahead
+
+218
+00:08:59,820 --> 00:09:04,200
+um
+
+219
+00:09:00,420 --> 00:09:06,779
+so anyway I uh I went on to other things
+
+220
+00:09:04,200 --> 00:09:08,640
+I I really wanted to know what they
+
+221
+00:09:06,779 --> 00:09:10,620
+meant about these other applications so
+
+222
+00:09:08,640 --> 00:09:13,800
+that encouraged me to I went out to
+
+223
+00:09:10,620 --> 00:09:15,779
+Pasadena City College and there's a
+
+224
+00:09:13,800 --> 00:09:17,640
+two-year program out there with Wayman
+
+225
+00:09:15,779 --> 00:09:19,920
+Lou well they used to have a laser
+
+226
+00:09:17,640 --> 00:09:21,779
+Electro Optics program and that's where
+
+227
+00:09:19,920 --> 00:09:24,180
+I took
+
+228
+00:09:21,779 --> 00:09:26,760
+um a couple of holography classes to
+
+229
+00:09:24,180 --> 00:09:30,600
+learn about hoes and and to realize that
+
+230
+00:09:26,760 --> 00:09:31,910
+this could be done by diffraction as
+
+231
+00:09:30,600 --> 00:09:34,680
+well as refractions
+
+232
+00:09:31,910 --> 00:09:36,360
+[Music]
+
+233
+00:09:34,680 --> 00:09:38,040
+um so
+
+234
+00:09:36,360 --> 00:09:40,399
+I
+
+235
+00:09:38,040 --> 00:09:43,320
+I did it the hard way if you will I I
+
+236
+00:09:40,399 --> 00:09:44,100
+spent it was like working on a puzzle I
+
+237
+00:09:43,320 --> 00:09:47,700
+spent
+
+238
+00:09:44,100 --> 00:09:51,180
+several hours each night to work with
+
+239
+00:09:47,700 --> 00:09:53,880
+lens design to to realize that Jesus
+
+240
+00:09:51,180 --> 00:09:55,740
+could be done by refraction and so like
+
+241
+00:09:53,880 --> 00:09:57,899
+thinking it all the way through it
+
+242
+00:09:55,740 --> 00:10:01,320
+helped me realize
+
+243
+00:09:57,899 --> 00:10:02,700
+in a rectilinear a geometrical way
+
+244
+00:10:01,320 --> 00:10:06,300
+um
+
+245
+00:10:02,700 --> 00:10:08,820
+uh the needed character or design of
+
+246
+00:10:06,300 --> 00:10:10,500
+optical systems
+
+247
+00:10:08,820 --> 00:10:12,899
+um which I guess is a little bit
+
+248
+00:10:10,500 --> 00:10:13,680
+different approach than
+
+249
+00:10:12,899 --> 00:10:16,740
+um
+
+250
+00:10:13,680 --> 00:10:17,760
+what a lot of folks in the field of
+
+251
+00:10:16,740 --> 00:10:20,459
+Optics
+
+252
+00:10:17,760 --> 00:10:22,620
+take what were some of the applications
+
+253
+00:10:20,459 --> 00:10:24,540
+that came out of this the Practical
+
+254
+00:10:22,620 --> 00:10:26,519
+applications in use
+
+255
+00:10:24,540 --> 00:10:28,580
+well
+
+256
+00:10:26,519 --> 00:10:28,580
+um
+
+257
+00:10:29,100 --> 00:10:32,100
+but of course
+
+258
+00:10:30,779 --> 00:10:36,660
+um
+
+259
+00:10:32,100 --> 00:10:37,980
+it's far as a multiplexer
+
+260
+00:10:36,660 --> 00:10:40,080
+and
+
+261
+00:10:37,980 --> 00:10:42,779
+um that would be for fiber optic
+
+262
+00:10:40,080 --> 00:10:45,240
+communication right yeah
+
+263
+00:10:42,779 --> 00:10:46,440
+well I guess it's it's you know I I
+
+264
+00:10:45,240 --> 00:10:49,740
+really couldn't name all the
+
+265
+00:10:46,440 --> 00:10:52,920
+applications my focus was on mostly
+
+266
+00:10:49,740 --> 00:10:54,980
+um solar and
+
+267
+00:10:52,920 --> 00:10:54,980
+um
+
+268
+00:10:55,019 --> 00:10:59,519
+I
+
+269
+00:10:57,300 --> 00:11:01,800
+I looked at a lot of domestic
+
+270
+00:10:59,519 --> 00:11:04,320
+applications now I remember reading
+
+271
+00:11:01,800 --> 00:11:05,399
+quite a while ago and I believe this
+
+272
+00:11:04,320 --> 00:11:07,560
+might have been through the University
+
+273
+00:11:05,399 --> 00:11:08,940
+of Pennsylvania
+
+274
+00:11:07,560 --> 00:11:11,899
+where they did some Greenhouse
+
+275
+00:11:08,940 --> 00:11:14,100
+experiment with hoe panels and
+
+276
+00:11:11,899 --> 00:11:15,959
+apparently if you were to stand in the
+
+277
+00:11:14,100 --> 00:11:18,660
+greenhouse even though the sun would be
+
+278
+00:11:15,959 --> 00:11:20,579
+transversing the sky
+
+279
+00:11:18,660 --> 00:11:22,380
+according to the plants and from the
+
+280
+00:11:20,579 --> 00:11:24,600
+plants perspective the sun always
+
+281
+00:11:22,380 --> 00:11:28,700
+remained overhead is is that fairly
+
+282
+00:11:24,600 --> 00:11:32,459
+accurate yeah that was a a Dr White
+
+283
+00:11:28,700 --> 00:11:35,760
+who set up three greenhouses one with
+
+284
+00:11:32,459 --> 00:11:38,160
+clear glass next one with a regular
+
+285
+00:11:35,760 --> 00:11:39,680
+frothy glass and the third with a
+
+286
+00:11:38,160 --> 00:11:43,620
+holographic
+
+287
+00:11:39,680 --> 00:11:45,480
+or hoe covered glasses and what they
+
+288
+00:11:43,620 --> 00:11:48,000
+realized was the plants with the clear
+
+289
+00:11:45,480 --> 00:11:50,760
+glass they do they grew tall and skinny
+
+290
+00:11:48,000 --> 00:11:53,240
+and the ones with the Cloudy glasses
+
+291
+00:11:50,760 --> 00:11:56,880
+they grew significantly better
+
+292
+00:11:53,240 --> 00:11:58,620
+they were more robust and not at all and
+
+293
+00:11:56,880 --> 00:11:59,940
+much more plant weight and all the good
+
+294
+00:11:58,620 --> 00:12:01,560
+things that you would like to see with
+
+295
+00:11:59,940 --> 00:12:03,899
+plants yeah they were more faux I
+
+296
+00:12:01,560 --> 00:12:07,380
+believe yes and they could be Harvest
+
+297
+00:12:03,899 --> 00:12:09,899
+more easily and the and the the ones
+
+298
+00:12:07,380 --> 00:12:11,940
+with the hose were even better than just
+
+299
+00:12:09,899 --> 00:12:13,620
+the Cloudy glass yeah they I think they
+
+300
+00:12:11,940 --> 00:12:15,120
+exhibited the qualities of both they
+
+301
+00:12:13,620 --> 00:12:20,220
+were they were they grew very tall but
+
+302
+00:12:15,120 --> 00:12:21,480
+they also grew very full yeah so
+
+303
+00:12:20,220 --> 00:12:23,100
+um
+
+304
+00:12:21,480 --> 00:12:26,220
+all right
+
+305
+00:12:23,100 --> 00:12:28,760
+what my objective with is with all of
+
+306
+00:12:26,220 --> 00:12:31,200
+this is to try to find
+
+307
+00:12:28,760 --> 00:12:33,480
+folks in the field of holography that
+
+308
+00:12:31,200 --> 00:12:35,700
+would be interested in
+
+309
+00:12:33,480 --> 00:12:38,180
+um kicking this back off again I just
+
+310
+00:12:35,700 --> 00:12:41,040
+let it lay for about 10 years
+
+311
+00:12:38,180 --> 00:12:42,600
+and I'm interested in I've done a little
+
+312
+00:12:41,040 --> 00:12:44,279
+project going right now the first of
+
+313
+00:12:42,600 --> 00:12:45,899
+this year I met
+
+314
+00:12:44,279 --> 00:12:49,220
+um
+
+315
+00:12:45,899 --> 00:12:53,700
+a well over the phone I met uh
+
+316
+00:12:49,220 --> 00:12:57,300
+Jack ludman and John Caulfield who were
+
+317
+00:12:53,700 --> 00:12:58,860
+working in a related area they
+
+318
+00:12:57,300 --> 00:13:00,300
+um attempted I don't know how far they
+
+319
+00:12:58,860 --> 00:13:03,180
+got but they attempted to start a
+
+320
+00:13:00,300 --> 00:13:05,820
+company called daylight savings which
+
+321
+00:13:03,180 --> 00:13:08,420
+uses the same uh principle I think John
+
+322
+00:13:05,820 --> 00:13:11,339
+ludman aced me to actually develop those
+
+323
+00:13:08,420 --> 00:13:14,459
+hoes for the greenhouse for uh Dr White
+
+324
+00:13:11,339 --> 00:13:16,860
+over at Penn State but uh what that's a
+
+325
+00:13:14,459 --> 00:13:20,600
+great company name daylight savings yeah
+
+326
+00:13:16,860 --> 00:13:23,760
+they think that there's going to be
+
+327
+00:13:20,600 --> 00:13:26,160
+lots of money involved with providing
+
+328
+00:13:23,760 --> 00:13:28,500
+appropriate daylighting in buildings
+
+329
+00:13:26,160 --> 00:13:30,240
+yeah there I I believe they're already
+
+330
+00:13:28,500 --> 00:13:34,680
+in use in architecture in different
+
+331
+00:13:30,240 --> 00:13:35,279
+areas uh yeah but it's not really
+
+332
+00:13:34,680 --> 00:13:38,339
+um
+
+333
+00:13:35,279 --> 00:13:40,740
+fully taken advantage of it's not a real
+
+334
+00:13:38,339 --> 00:13:42,600
+big effort these these guys are are
+
+335
+00:13:40,740 --> 00:13:44,339
+they've got some money backing or
+
+336
+00:13:42,600 --> 00:13:46,920
+they're supposed to anyway and and
+
+337
+00:13:44,339 --> 00:13:48,240
+they're hoping to start a big marketing
+
+338
+00:13:46,920 --> 00:13:50,459
+effort and
+
+339
+00:13:48,240 --> 00:13:53,279
+um provide I think they actually got a
+
+340
+00:13:50,459 --> 00:13:55,920
+contract with a university down in Waco
+
+341
+00:13:53,279 --> 00:13:57,660
+Texas to to put on
+
+342
+00:13:55,920 --> 00:14:00,839
+um maybe even hundreds of thousands of
+
+343
+00:13:57,660 --> 00:14:03,000
+square feet of these hoes to direct the
+
+344
+00:14:00,839 --> 00:14:05,399
+light in the appropriate Direction but
+
+345
+00:14:03,000 --> 00:14:08,779
+the problem is is that
+
+346
+00:14:05,399 --> 00:14:11,700
+um with a hookup path of solar or or
+
+347
+00:14:08,779 --> 00:14:14,700
+Windows in even on the east and west
+
+348
+00:14:11,700 --> 00:14:17,100
+side the light
+
+349
+00:14:14,700 --> 00:14:19,440
+um from the sun gets to be kind of
+
+350
+00:14:17,100 --> 00:14:22,139
+aggravating if people throw up curtains
+
+351
+00:14:19,440 --> 00:14:25,560
+now it would pass the solar what happens
+
+352
+00:14:22,139 --> 00:14:27,180
+is the it's sort of like driving West in
+
+353
+00:14:25,560 --> 00:14:29,760
+the afternoon and the sun is in your
+
+354
+00:14:27,180 --> 00:14:32,220
+eyes and it really uh throws a lot of
+
+355
+00:14:29,760 --> 00:14:34,260
+glare and it's it's it's not very
+
+356
+00:14:32,220 --> 00:14:36,660
+appealing it's not good for as they say
+
+357
+00:14:34,260 --> 00:14:39,300
+visual Acuity it's it's it's literally
+
+358
+00:14:36,660 --> 00:14:40,380
+harming your eyes you know consequently
+
+359
+00:14:39,300 --> 00:14:41,699
+people
+
+360
+00:14:40,380 --> 00:14:42,800
+um
+
+361
+00:14:41,699 --> 00:14:45,720
+um haven't
+
+362
+00:14:42,800 --> 00:14:47,519
+been really fully utilizing passive
+
+363
+00:14:45,720 --> 00:14:50,760
+solar
+
+364
+00:14:47,519 --> 00:14:52,740
+because of that so could you envision
+
+365
+00:14:50,760 --> 00:14:55,740
+this being placed within a car
+
+366
+00:14:52,740 --> 00:14:57,060
+windshield that would divert that direct
+
+367
+00:14:55,740 --> 00:15:00,240
+sunlight
+
+368
+00:14:57,060 --> 00:15:01,260
+uh yeah I I think not only
+
+369
+00:15:00,240 --> 00:15:04,920
+um
+
+370
+00:15:01,260 --> 00:15:07,860
+uh directing the light
+
+371
+00:15:04,920 --> 00:15:10,040
+um through the window but also uh
+
+372
+00:15:07,860 --> 00:15:13,320
+out of line of sight maybe
+
+373
+00:15:10,040 --> 00:15:15,839
+yeah and also maybe directing life
+
+374
+00:15:13,320 --> 00:15:16,940
+within the window
+
+375
+00:15:15,839 --> 00:15:20,540
+um
+
+376
+00:15:16,940 --> 00:15:23,160
+John Caulfield got a patent on
+
+377
+00:15:20,540 --> 00:15:25,079
+edge lighting for
+
+378
+00:15:23,160 --> 00:15:28,199
+um for Holograms
+
+379
+00:15:25,079 --> 00:15:30,180
+and um there's this law of reversibility
+
+380
+00:15:28,199 --> 00:15:32,519
+if you look at
+
+381
+00:15:30,180 --> 00:15:34,500
+um a as we see an optical train with
+
+382
+00:15:32,519 --> 00:15:37,500
+some lens system
+
+383
+00:15:34,500 --> 00:15:40,079
+um it it the input side
+
+384
+00:15:37,500 --> 00:15:43,560
+um the light will Traverse throughout
+
+385
+00:15:40,079 --> 00:15:45,360
+this this uh track of lenses and so
+
+386
+00:15:43,560 --> 00:15:47,820
+forth and come out at the output side
+
+387
+00:15:45,360 --> 00:15:50,399
+and if you throw it in light in the
+
+388
+00:15:47,820 --> 00:15:53,060
+exact opposite direction it will it will
+
+389
+00:15:50,399 --> 00:15:56,339
+end up where the input
+
+390
+00:15:53,060 --> 00:16:01,260
+or the infinite array um
+
+391
+00:15:56,339 --> 00:16:04,440
+was introduced this law reversibility so
+
+392
+00:16:01,260 --> 00:16:06,360
+um when John Caulfield came up with this
+
+393
+00:16:04,440 --> 00:16:09,300
+idea of these Edge lit or at least he
+
+394
+00:16:06,360 --> 00:16:11,399
+got the patent on the edge lit Holograms
+
+395
+00:16:09,300 --> 00:16:14,220
+um I realized right away we'll see this
+
+396
+00:16:11,399 --> 00:16:17,160
+could be used for solar hose to fiber
+
+397
+00:16:14,220 --> 00:16:18,959
+couple to bring the light down to
+
+398
+00:16:17,160 --> 00:16:21,660
+um wherever at the storage or immediate
+
+399
+00:16:18,959 --> 00:16:24,060
+use yeah this Edge lit technology was
+
+400
+00:16:21,660 --> 00:16:25,440
+that originally developed to illuminate
+
+401
+00:16:24,060 --> 00:16:28,139
+holographic
+
+402
+00:16:25,440 --> 00:16:30,959
+images those types of holograms or was
+
+403
+00:16:28,139 --> 00:16:33,600
+this more of a panel where you could
+
+404
+00:16:30,959 --> 00:16:35,880
+introduce the light source at the edge
+
+405
+00:16:33,600 --> 00:16:38,699
+and then have the panel actually radiate
+
+406
+00:16:35,880 --> 00:16:40,800
+that light outward well I think it was
+
+407
+00:16:38,699 --> 00:16:42,779
+used mostly for a holographic display
+
+408
+00:16:40,800 --> 00:16:46,160
+okay okay
+
+409
+00:16:42,779 --> 00:16:46,160
+yeah hmm
+
+410
+00:16:47,000 --> 00:16:53,399
+so I um I just realized that it could
+
+411
+00:16:49,800 --> 00:16:55,800
+also be used for for solar Holograms and
+
+412
+00:16:53,399 --> 00:16:58,199
+and uh transmitting the light down to
+
+413
+00:16:55,800 --> 00:17:00,000
+where you need it
+
+414
+00:16:58,199 --> 00:17:03,300
+now you're getting a lab set up to do
+
+415
+00:17:00,000 --> 00:17:05,280
+this if someone had a lab say uh amateur
+
+416
+00:17:03,300 --> 00:17:07,500
+hobbyist telegrapher they may have a
+
+417
+00:17:05,280 --> 00:17:09,240
+four by eight foot sand table you know
+
+418
+00:17:07,500 --> 00:17:12,140
+in their home or wherever it happens to
+
+419
+00:17:09,240 --> 00:17:15,240
+be how could they make a simple
+
+420
+00:17:12,140 --> 00:17:18,240
+holographic Optical element with a
+
+421
+00:17:15,240 --> 00:17:20,040
+helium neon laser in a simple setup for
+
+422
+00:17:18,240 --> 00:17:21,959
+demonstration purposes or just for
+
+423
+00:17:20,040 --> 00:17:22,699
+learning well
+
+424
+00:17:21,959 --> 00:17:26,900
+um
+
+425
+00:17:22,699 --> 00:17:30,660
+I the way I look at it is is
+
+426
+00:17:26,900 --> 00:17:33,780
+the direction that you want this lens or
+
+427
+00:17:30,660 --> 00:17:36,419
+this this hode to throw the light
+
+428
+00:17:33,780 --> 00:17:38,610
+is the direction at which you provide
+
+429
+00:17:36,419 --> 00:17:41,100
+lighting to expose the hologram
+
+430
+00:17:38,610 --> 00:17:43,020
+[Music]
+
+431
+00:17:41,100 --> 00:17:45,919
+so we need to be
+
+432
+00:17:43,020 --> 00:17:45,919
+being the reference beam and
+
+433
+00:17:46,679 --> 00:17:51,059
+an object beam and I imagine both of
+
+434
+00:17:48,960 --> 00:17:53,039
+those are sent to the holographic plate
+
+435
+00:17:51,059 --> 00:17:56,400
+and then the
+
+436
+00:17:53,039 --> 00:17:58,860
+degrading is created and is that then
+
+437
+00:17:56,400 --> 00:18:00,780
+used as the holographic Optical element
+
+438
+00:17:58,860 --> 00:18:02,820
+can you use that with white light or
+
+439
+00:18:00,780 --> 00:18:05,520
+does it have to be monochromatic laser
+
+440
+00:18:02,820 --> 00:18:08,460
+light as well in order for it to work uh
+
+441
+00:18:05,520 --> 00:18:10,919
+you mean to expose the Hologram Yeah
+
+442
+00:18:08,460 --> 00:18:14,039
+well yeah you need monochromatic to
+
+443
+00:18:10,919 --> 00:18:15,900
+expose it but once it's exposed
+
+444
+00:18:14,039 --> 00:18:17,400
+um is it is a laser transmission
+
+445
+00:18:15,900 --> 00:18:18,960
+hologram white light transmission
+
+446
+00:18:17,400 --> 00:18:21,600
+hologram you now happen to know what
+
+447
+00:18:18,960 --> 00:18:24,900
+steps would need to be taken well it's a
+
+448
+00:18:21,600 --> 00:18:27,600
+it's a transmission hologram yeah
+
+449
+00:18:24,900 --> 00:18:30,179
+um and um
+
+450
+00:18:27,600 --> 00:18:33,360
+you know I'm not really familiar with
+
+451
+00:18:30,179 --> 00:18:34,260
+the way John ludman set up his for Penn
+
+452
+00:18:33,360 --> 00:18:39,840
+State
+
+453
+00:18:34,260 --> 00:18:42,240
+but um I um I I believe that it it
+
+454
+00:18:39,840 --> 00:18:43,980
+should be done just as a um a regular
+
+455
+00:18:42,240 --> 00:18:45,539
+setup for transmission autograph yeah
+
+456
+00:18:43,980 --> 00:18:47,340
+just a regular split beam hologram but
+
+457
+00:18:45,539 --> 00:18:47,930
+instead of Illuminating an object to use
+
+458
+00:18:47,340 --> 00:18:49,020
+the object
+
+459
+00:18:47,930 --> 00:18:50,700
+[Music]
+
+460
+00:18:49,020 --> 00:18:52,020
+object of the holographic plate along
+
+461
+00:18:50,700 --> 00:18:55,020
+with the reference beam I would imagine
+
+462
+00:18:52,020 --> 00:18:55,020
+yeah
+
+463
+00:18:55,620 --> 00:18:58,860
+so what are your plans with this what
+
+464
+00:18:57,480 --> 00:19:00,780
+are you going to do with it well I've
+
+465
+00:18:58,860 --> 00:19:03,780
+got an application right now I'm putting
+
+466
+00:19:00,780 --> 00:19:09,720
+together a building with a passive solar
+
+467
+00:19:03,780 --> 00:19:11,760
+windows and um I I'm going to
+
+468
+00:19:09,720 --> 00:19:13,679
+cover the windows with these diffraction
+
+469
+00:19:11,760 --> 00:19:16,340
+gratings to throw the light up against
+
+470
+00:19:13,679 --> 00:19:16,340
+the ceiling
+
+471
+00:19:16,440 --> 00:19:20,940
+and do you have a website by the way uh
+
+472
+00:19:18,900 --> 00:19:23,100
+no I don't I I'm actually I'm I'm
+
+473
+00:19:20,940 --> 00:19:25,860
+putting together information
+
+474
+00:19:23,100 --> 00:19:27,960
+um and I I will shortly create a website
+
+475
+00:19:25,860 --> 00:19:29,100
+I do have an email address yeah I'm
+
+476
+00:19:27,960 --> 00:19:30,539
+going to make sure that I'm going to
+
+477
+00:19:29,100 --> 00:19:32,760
+make sure that your email address is on
+
+478
+00:19:30,539 --> 00:19:34,740
+the website so people listen to this if
+
+479
+00:19:32,760 --> 00:19:36,539
+they want to contact you they can send
+
+480
+00:19:34,740 --> 00:19:39,059
+you an email it's an interesting about
+
+481
+00:19:36,539 --> 00:19:42,120
+mac.com are you on a Mac yes I am
+
+482
+00:19:39,059 --> 00:19:46,500
+interesting yeah go ahead it's my name
+
+483
+00:19:42,120 --> 00:19:50,340
+it's Mike Engel it's uh h-i-n-g-l-e
+
+484
+00:19:46,500 --> 00:19:54,480
+mac.com okay now now if you look at this
+
+485
+00:19:50,340 --> 00:19:57,179
+this field of energy or solar energy
+
+486
+00:19:54,480 --> 00:20:00,179
+um uh what I used to teach these solar
+
+487
+00:19:57,179 --> 00:20:04,620
+classes down at Pasadena City College in
+
+488
+00:20:00,179 --> 00:20:07,799
+Tucson for three years and 90 91 and 92.
+
+489
+00:20:04,620 --> 00:20:11,100
+and also some energy classes for doe and
+
+490
+00:20:07,799 --> 00:20:14,780
+HUD a residential energy auditing and uh
+
+491
+00:20:11,100 --> 00:20:18,360
+what we used to talk about uh was the
+
+492
+00:20:14,780 --> 00:20:19,220
+magnitude of the problem if you look at
+
+493
+00:20:18,360 --> 00:20:22,740
+um
+
+494
+00:20:19,220 --> 00:20:25,140
+the energy our energy problem in the
+
+495
+00:20:22,740 --> 00:20:28,980
+world we realize that
+
+496
+00:20:25,140 --> 00:20:32,160
+um all the money that the world makes or
+
+497
+00:20:28,980 --> 00:20:34,980
+all your effort uh for sustaining life
+
+498
+00:20:32,160 --> 00:20:39,000
+if you will that 60 to 70 percent of
+
+499
+00:20:34,980 --> 00:20:40,440
+your cost of living goes to the energy
+
+500
+00:20:39,000 --> 00:20:42,660
+business
+
+501
+00:20:40,440 --> 00:20:46,919
+most people think well it's just my
+
+502
+00:20:42,660 --> 00:20:49,559
+electric bill and my gasoline bill but
+
+503
+00:20:46,919 --> 00:20:52,020
+um there's a hidden energy tax
+
+504
+00:20:49,559 --> 00:20:55,919
+in everything that we do and there's a
+
+505
+00:20:52,020 --> 00:20:58,440
+good example is say a cotton t-shirt
+
+506
+00:20:55,919 --> 00:21:01,080
+um if you look at the energy involved in
+
+507
+00:20:58,440 --> 00:21:03,120
+production producing that t-shirt you
+
+508
+00:21:01,080 --> 00:21:05,400
+have to plant the seed that takes energy
+
+509
+00:21:03,120 --> 00:21:07,200
+at the plow the field that takes energy
+
+510
+00:21:05,400 --> 00:21:09,600
+you have to
+
+511
+00:21:07,200 --> 00:21:11,220
+um yeah you have to fertilize and the
+
+512
+00:21:09,600 --> 00:21:12,130
+fertilizer has to be manufactured
+
+513
+00:21:11,220 --> 00:21:14,360
+through energy
+
+514
+00:21:12,130 --> 00:21:17,220
+[Music]
+
+515
+00:21:14,360 --> 00:21:19,500
+that's all mostly petroleum-based and it
+
+516
+00:21:17,220 --> 00:21:21,360
+takes energy to spread it you have to
+
+517
+00:21:19,500 --> 00:21:23,940
+irrigate that takes the energy you you
+
+518
+00:21:21,360 --> 00:21:27,120
+have to harvest the field and refine The
+
+519
+00:21:23,940 --> 00:21:29,039
+Cutting and transport it and uh then the
+
+520
+00:21:27,120 --> 00:21:30,480
+refined material you have to sew it
+
+521
+00:21:29,039 --> 00:21:32,220
+together and make clothes make the
+
+522
+00:21:30,480 --> 00:21:34,679
+T-shirt out of it and then the workers
+
+523
+00:21:32,220 --> 00:21:36,480
+drive back and forth and they put it in
+
+524
+00:21:34,679 --> 00:21:38,520
+a warehouse usually air conditioned and
+
+525
+00:21:36,480 --> 00:21:40,980
+then it goes into a store and people
+
+526
+00:21:38,520 --> 00:21:42,840
+drive to the store to pick it up and so
+
+527
+00:21:40,980 --> 00:21:45,419
+you can see that the majority of the
+
+528
+00:21:42,840 --> 00:21:48,539
+cost of that t-shirt is energy the the
+
+529
+00:21:45,419 --> 00:21:50,340
+cotton is just a little bit of seed
+
+530
+00:21:48,539 --> 00:21:52,080
+um that's very interesting yeah and that
+
+531
+00:21:50,340 --> 00:21:54,120
+goes with all goods and services
+
+532
+00:21:52,080 --> 00:21:56,940
+everything that you can that you look
+
+533
+00:21:54,120 --> 00:22:00,000
+around your room you see the majority
+
+534
+00:21:56,940 --> 00:22:01,500
+the cost as they say 60 to 70 percent of
+
+535
+00:22:00,000 --> 00:22:02,940
+everybody's cost of living the first
+
+536
+00:22:01,500 --> 00:22:06,659
+second and third world countries is
+
+537
+00:22:02,940 --> 00:22:08,820
+energy so it's a hidden tax it's energy
+
+538
+00:22:06,659 --> 00:22:10,200
+tax that's the world's biggest in
+
+539
+00:22:08,820 --> 00:22:12,240
+slavery if you will and that's why
+
+540
+00:22:10,200 --> 00:22:15,240
+there's so much
+
+541
+00:22:12,240 --> 00:22:16,919
+um tension if you will over uh petroleum
+
+542
+00:22:15,240 --> 00:22:19,500
+resources because
+
+543
+00:22:16,919 --> 00:22:21,780
+um the the world's economy is wrapped up
+
+544
+00:22:19,500 --> 00:22:23,520
+in energy yeah I did a hologram one time
+
+545
+00:22:21,780 --> 00:22:25,740
+with the solar panel
+
+546
+00:22:23,520 --> 00:22:28,080
+put it outside of the lab window here
+
+547
+00:22:25,740 --> 00:22:29,940
+and just fed it into one of the laser
+
+548
+00:22:28,080 --> 00:22:31,140
+diodes around the laser diode in the
+
+549
+00:22:29,940 --> 00:22:32,760
+middle of the day when the sun was
+
+550
+00:22:31,140 --> 00:22:35,340
+hitting the solar panel it just got free
+
+551
+00:22:32,760 --> 00:22:36,720
+energy to run the diode
+
+552
+00:22:35,340 --> 00:22:39,240
+I felt pretty neat about it that was
+
+553
+00:22:36,720 --> 00:22:41,340
+neat I like that well I think that we
+
+554
+00:22:39,240 --> 00:22:43,980
+can take it a lot further I I believe
+
+555
+00:22:41,340 --> 00:22:46,200
+that um you know if if you look at your
+
+556
+00:22:43,980 --> 00:22:49,140
+your end uses for energy it doesn't
+
+557
+00:22:46,200 --> 00:22:51,000
+matter if it's oil or gasoline or
+
+558
+00:22:49,140 --> 00:22:53,700
+natural gas or coal or nuclear or
+
+559
+00:22:51,000 --> 00:22:55,740
+whatever or so or you we we use it
+
+560
+00:22:53,700 --> 00:22:59,640
+really for we could say only three
+
+561
+00:22:55,740 --> 00:23:01,500
+purposes and um really four but you you
+
+562
+00:22:59,640 --> 00:23:03,780
+need light
+
+563
+00:23:01,500 --> 00:23:06,720
+you need heat or is it the opposite of
+
+564
+00:23:03,780 --> 00:23:08,460
+that is cool and you need shaft power
+
+565
+00:23:06,720 --> 00:23:10,620
+you know you're turning a mix or a
+
+566
+00:23:08,460 --> 00:23:11,820
+blender or maybe your uh your the wheels
+
+567
+00:23:10,620 --> 00:23:13,559
+in your car or something if you need
+
+568
+00:23:11,820 --> 00:23:16,200
+light heat and shaft power and then of
+
+569
+00:23:13,559 --> 00:23:18,900
+course there's communication
+
+570
+00:23:16,200 --> 00:23:20,880
+um and so uh the question is well can we
+
+571
+00:23:18,900 --> 00:23:24,960
+do this with photonics instead of
+
+572
+00:23:20,880 --> 00:23:26,120
+electronics and the answer is yes yeah
+
+573
+00:23:24,960 --> 00:23:29,220
+um
+
+574
+00:23:26,120 --> 00:23:32,100
+what's his name of Lauren the guy that
+
+575
+00:23:29,220 --> 00:23:35,340
+started the photonics Spectra back in
+
+576
+00:23:32,100 --> 00:23:38,400
+1954. oh not sure of the name
+
+577
+00:23:35,340 --> 00:23:42,360
+um Teddy Lauren I believe okay
+
+578
+00:23:38,400 --> 00:23:46,980
+um he wrote a neat statement and
+
+579
+00:23:42,360 --> 00:23:48,360
+sometime in the late 90s saying that the
+
+580
+00:23:46,980 --> 00:23:52,559
+um
+
+581
+00:23:48,360 --> 00:23:54,600
+the Workhorse that propelled us in the
+
+582
+00:23:52,559 --> 00:23:57,120
+20th century to this High
+
+583
+00:23:54,600 --> 00:24:00,140
+industrialization and uh
+
+584
+00:23:57,120 --> 00:24:02,760
+and Information Society was the electron
+
+585
+00:24:00,140 --> 00:24:04,559
+and in the decade and 90s we found that
+
+586
+00:24:02,760 --> 00:24:06,419
+virtually everything that we did with
+
+587
+00:24:04,559 --> 00:24:08,159
+the electron could be done better and
+
+588
+00:24:06,419 --> 00:24:09,720
+smaller and faster and much safer and
+
+589
+00:24:08,159 --> 00:24:11,340
+without interference or whatever with
+
+590
+00:24:09,720 --> 00:24:14,220
+the photons
+
+591
+00:24:11,340 --> 00:24:17,280
+and so they see that the 21st century
+
+592
+00:24:14,220 --> 00:24:19,940
+will be driven by photonics instead of
+
+593
+00:24:17,280 --> 00:24:22,320
+electronics
+
+594
+00:24:19,940 --> 00:24:24,360
+photons photons traveling through the
+
+595
+00:24:22,320 --> 00:24:27,960
+computer circuits instead of actual
+
+596
+00:24:24,360 --> 00:24:30,780
+electrons right Bell labs and IBM and I
+
+597
+00:24:27,960 --> 00:24:33,179
+I forgot who all but back and even I
+
+598
+00:24:30,780 --> 00:24:36,299
+think maybe the mid 80s was the first
+
+599
+00:24:33,179 --> 00:24:38,940
+Total photonics computers that this lab
+
+600
+00:24:36,299 --> 00:24:42,600
+models to to see if it would work
+
+601
+00:24:38,940 --> 00:24:44,580
+and um what's his name Schwarzkopf the
+
+602
+00:24:42,600 --> 00:24:45,919
+guy that headed up the Persian Gulf War
+
+603
+00:24:44,580 --> 00:24:50,520
+One
+
+604
+00:24:45,919 --> 00:24:52,799
+uh just days a couple of days after the
+
+605
+00:24:50,520 --> 00:24:54,780
+war was over he was in Congress saying
+
+606
+00:24:52,799 --> 00:24:57,900
+see what we did with this photonics
+
+607
+00:24:54,780 --> 00:24:59,340
+technology yeah so now we need more
+
+608
+00:24:57,900 --> 00:25:01,080
+money because we want to have a total
+
+609
+00:24:59,340 --> 00:25:02,960
+cotonics fighting force by the year
+
+610
+00:25:01,080 --> 00:25:06,659
+2000.
+
+611
+00:25:02,960 --> 00:25:08,940
+so you know hence there was a lot of uh
+
+612
+00:25:06,659 --> 00:25:10,740
+interest for military applications and
+
+613
+00:25:08,940 --> 00:25:12,179
+so a lot of the domestic applications
+
+614
+00:25:10,740 --> 00:25:14,340
+were hidden
+
+615
+00:25:12,179 --> 00:25:15,360
+but if you really think about it and
+
+616
+00:25:14,340 --> 00:25:17,940
+that's what I'm trying to encourage
+
+617
+00:25:15,360 --> 00:25:20,100
+people in this holography appeal to do
+
+618
+00:25:17,940 --> 00:25:22,140
+is to think about it is you can realize
+
+619
+00:25:20,100 --> 00:25:23,280
+that virtually everything we do for
+
+620
+00:25:22,140 --> 00:25:25,679
+lighting
+
+621
+00:25:23,280 --> 00:25:28,740
+for heating for cooking for
+
+622
+00:25:25,679 --> 00:25:31,620
+refrigeration for shaft power everything
+
+623
+00:25:28,740 --> 00:25:33,900
+we do with electronics we really can do
+
+624
+00:25:31,620 --> 00:25:36,179
+and even I believe simpler with
+
+625
+00:25:33,900 --> 00:25:38,580
+photonics I believe there are some
+
+626
+00:25:36,179 --> 00:25:40,919
+photonic stoves now am I correct with
+
+627
+00:25:38,580 --> 00:25:43,860
+that but I think they're based on
+
+628
+00:25:40,919 --> 00:25:45,600
+halogen technology but that's using
+
+629
+00:25:43,860 --> 00:25:48,179
+light to cook on
+
+630
+00:25:45,600 --> 00:25:49,559
+I'm not familiar with that I do know
+
+631
+00:25:48,179 --> 00:25:51,539
+that they're pretty they're fairly
+
+632
+00:25:49,559 --> 00:25:53,760
+pricey but I think they're out there
+
+633
+00:25:51,539 --> 00:25:54,740
+well what happens now with the cooking
+
+634
+00:25:53,760 --> 00:25:57,299
+for instance
+
+635
+00:25:54,740 --> 00:25:59,279
+you put a pot on the stove it's either
+
+636
+00:25:57,299 --> 00:26:03,059
+electric burner a gas burner typically
+
+637
+00:25:59,279 --> 00:26:04,559
+and um you cook some meal in it and
+
+638
+00:26:03,059 --> 00:26:07,559
+typically
+
+639
+00:26:04,559 --> 00:26:09,539
+um 95 of the heat of that cooking job
+
+640
+00:26:07,559 --> 00:26:11,220
+just goes out into the room yeah only
+
+641
+00:26:09,539 --> 00:26:14,580
+five percent actually gets put into the
+
+642
+00:26:11,220 --> 00:26:15,419
+food and so if you use
+
+643
+00:26:14,580 --> 00:26:19,559
+um
+
+644
+00:26:15,419 --> 00:26:23,820
+uh maybe a vacuum jacket and
+
+645
+00:26:19,559 --> 00:26:26,460
+um I use a on the the inside of this
+
+646
+00:26:23,820 --> 00:26:29,400
+vacuum if you use totally reflective and
+
+647
+00:26:26,460 --> 00:26:31,260
+and totally absorbing surfaces
+
+648
+00:26:29,400 --> 00:26:33,299
+uh then you might they would have like a
+
+649
+00:26:31,260 --> 00:26:35,340
+diode or a one-way mirror system so that
+
+650
+00:26:33,299 --> 00:26:36,980
+we can make sure that 95 of the heat
+
+651
+00:26:35,340 --> 00:26:39,360
+stays in the pot
+
+652
+00:26:36,980 --> 00:26:41,820
+and so this is actually being done
+
+653
+00:26:39,360 --> 00:26:43,500
+there's a group out of uh England
+
+654
+00:26:41,820 --> 00:26:46,080
+someplace that had one of these
+
+655
+00:26:43,500 --> 00:26:48,120
+30-minute TV commercials that showed
+
+656
+00:26:46,080 --> 00:26:50,580
+this uh looks like a pressure cooker
+
+657
+00:26:48,120 --> 00:26:53,880
+that what they do is it had some valve
+
+658
+00:26:50,580 --> 00:26:56,279
+on the top with an indicator that they
+
+659
+00:26:53,880 --> 00:26:58,140
+put um you know how they do they put
+
+660
+00:26:56,279 --> 00:27:00,299
+these meals maybe a roast with some
+
+661
+00:26:58,140 --> 00:27:01,740
+potatoes in there some greens and
+
+662
+00:27:00,299 --> 00:27:04,620
+whatever else they throw a whole bunch
+
+663
+00:27:01,740 --> 00:27:06,179
+of stuff in the pot and they brought the
+
+664
+00:27:04,620 --> 00:27:08,400
+in just a couple of minutes they brought
+
+665
+00:27:06,179 --> 00:27:12,860
+the pot up to some working temperature
+
+666
+00:27:08,400 --> 00:27:15,960
+and when some some indicator
+
+667
+00:27:12,860 --> 00:27:17,880
+showed that it was it was at the desired
+
+668
+00:27:15,960 --> 00:27:20,400
+temperature then they picked up the pot
+
+669
+00:27:17,880 --> 00:27:22,500
+with their bare hands
+
+670
+00:27:20,400 --> 00:27:25,159
+because it was vacuum jacketed and it
+
+671
+00:27:22,500 --> 00:27:28,919
+had these mirrored systems
+
+672
+00:27:25,159 --> 00:27:31,740
+and they put it in the The Ice Box okay
+
+673
+00:27:28,919 --> 00:27:33,900
+freezer and a couple of hours later they
+
+674
+00:27:31,740 --> 00:27:35,279
+pulled it out and everything was done to
+
+675
+00:27:33,900 --> 00:27:37,620
+perfection you know how they stir that
+
+676
+00:27:35,279 --> 00:27:39,659
+on TV yes yes okay so what that did was
+
+677
+00:27:37,620 --> 00:27:41,100
+they didn't show what it was but I knew
+
+678
+00:27:39,659 --> 00:27:42,720
+what it was because I had already been
+
+679
+00:27:41,100 --> 00:27:45,179
+doing some design of those type of
+
+680
+00:27:42,720 --> 00:27:47,400
+systems domestic systems showing that
+
+681
+00:27:45,179 --> 00:27:48,980
+yes we can do that what we've learned in
+
+682
+00:27:47,400 --> 00:27:50,940
+the field of Optics
+
+683
+00:27:48,980 --> 00:27:52,860
+especially in a lot of these critical
+
+684
+00:27:50,940 --> 00:27:54,480
+Navy space applications for a
+
+685
+00:27:52,860 --> 00:27:57,299
+cryogenically cooled sensors or whatever
+
+686
+00:27:54,480 --> 00:27:58,820
+that you need to employ that degree of
+
+687
+00:27:57,299 --> 00:28:01,140
+sophistication for
+
+688
+00:27:58,820 --> 00:28:04,200
+systems well anytime you increase
+
+689
+00:28:01,140 --> 00:28:05,279
+efficiency you also increase savings do
+
+690
+00:28:04,200 --> 00:28:06,600
+you think there's some sort of a
+
+691
+00:28:05,279 --> 00:28:08,220
+conspiracy going on that we're not
+
+692
+00:28:06,600 --> 00:28:10,860
+seeing these Technologies move more
+
+693
+00:28:08,220 --> 00:28:12,779
+rapidly well we need it for defense so
+
+694
+00:28:10,860 --> 00:28:14,580
+that we can beat the putting out of
+
+695
+00:28:12,779 --> 00:28:15,980
+these other countries for the remain in
+
+696
+00:28:14,580 --> 00:28:19,260
+oil
+
+697
+00:28:15,980 --> 00:28:21,120
+I see maybe that's where the other
+
+698
+00:28:19,260 --> 00:28:21,779
+things to be
+
+699
+00:28:21,120 --> 00:28:25,580
+um
+
+700
+00:28:21,779 --> 00:28:29,460
+of the situation but you know I think
+
+701
+00:28:25,580 --> 00:28:30,779
+that uh what we need to do is uh
+
+702
+00:28:29,460 --> 00:28:31,860
+um I think we're just too darn
+
+703
+00:28:30,779 --> 00:28:34,020
+comfortable and we don't have enough
+
+704
+00:28:31,860 --> 00:28:36,559
+people thinking in this direction
+
+705
+00:28:34,020 --> 00:28:40,799
+that the technology is there
+
+706
+00:28:36,559 --> 00:28:43,440
+and uh if we if we work together on this
+
+707
+00:28:40,799 --> 00:28:45,480
+we could really change the world we you
+
+708
+00:28:43,440 --> 00:28:48,000
+know I've seen the light I think we can
+
+709
+00:28:45,480 --> 00:28:50,340
+bring this out and uh change everything
+
+710
+00:28:48,000 --> 00:28:53,340
+for the better I've seen the light
+
+711
+00:28:50,340 --> 00:28:54,960
+that's that's a great way Mike we've run
+
+712
+00:28:53,340 --> 00:28:57,000
+up to 30 minutes I want to try and keep
+
+713
+00:28:54,960 --> 00:28:59,460
+it at 30 minutes so is there anything
+
+714
+00:28:57,000 --> 00:29:01,440
+you'd like to close things out with well
+
+715
+00:28:59,460 --> 00:29:03,299
+I would just like to see a team effort
+
+716
+00:29:01,440 --> 00:29:05,279
+and I would like to see
+
+717
+00:29:03,299 --> 00:29:07,980
+um talented people in this field come
+
+718
+00:29:05,279 --> 00:29:08,640
+together and to
+
+719
+00:29:07,980 --> 00:29:11,700
+um
+
+720
+00:29:08,640 --> 00:29:13,640
+set up a goal a project with a goal and
+
+721
+00:29:11,700 --> 00:29:16,020
+and to start develop
+
+722
+00:29:13,640 --> 00:29:18,659
+this technology domestic use of
+
+723
+00:29:16,020 --> 00:29:20,159
+photonics Technology okay
+
+724
+00:29:18,659 --> 00:29:22,559
+I want to thank you very much for coming
+
+725
+00:29:20,159 --> 00:29:24,960
+on the show boy thank you I'll have this
+
+726
+00:29:22,559 --> 00:29:27,000
+up probably over the holiday weekend and
+
+727
+00:29:24,960 --> 00:29:29,100
+send an announcement out and I'll make
+
+728
+00:29:27,000 --> 00:29:30,779
+sure that your downloadable documents
+
+729
+00:29:29,100 --> 00:29:32,460
+are there and also your email address
+
+730
+00:29:30,779 --> 00:29:35,520
+and anyone who would like to contact you
+
+731
+00:29:32,460 --> 00:29:36,840
+can do so great all right thank you Mike
+
+732
+00:29:35,520 --> 00:29:38,220
+I want to thank you very much for taking
+
+733
+00:29:36,840 --> 00:29:39,380
+the time to be on the show and I'll talk
+
+734
+00:29:38,220 --> 00:29:41,760
+to you soon okay
+
+735
+00:29:39,380 --> 00:29:44,760
+same to you bye
+
+736
+00:29:41,760 --> 00:29:44,760
+foreign
+

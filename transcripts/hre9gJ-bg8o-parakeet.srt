@@ -1,0 +1,735 @@
+1
+00:00:02,720 --> 00:00:08,400
+The following is a production of Frank De Freitas and the Internet Mebuseum of Holography.
+
+2
+00:00:12,560 --> 00:00:19,280
+Hello everyone, this is Frank Defradus, and welcome to another week of Holo Talk for the week of September 27th, 1998.
+
+3
+00:00:19,280 --> 00:00:25,840
+This is an open forum week, which means that the topic will center around lasers and holography, but we won't have a guest this week.
+
+4
+00:00:25,840 --> 00:00:32,640
+And I thought it would be a nice idea to take a show and look back to see where holography was at at a specific period in time.
+
+5
+00:00:32,640 --> 00:00:39,840
+So I thought, let's take a look ten years ago and see what was happening in the field of holography back in the fall of nineteen eighty-eight.
+
+6
+00:00:39,840 --> 00:00:41,760
+So that's what we're going to do on this show.
+
+7
+00:00:41,760 --> 00:00:43,680
+But first I have a few announcements to make.
+
+8
+00:00:43,680 --> 00:00:54,000
+If you're a new Holo Talk listener, I'd like to welcome you to the show, and I hope you come back each week to hear more news and information and special guests with lasers and holograms.
+
+9
+00:00:54,000 --> 00:01:01,680
+And also if you're a regular listener, you'll notice something new on the Holo Talk page, and that is a complete menu of shows from the last season.
+
+10
+00:01:01,680 --> 00:01:06,720
+So if you scroll down the page itself, you'll see uh a brief description of each one of the shows.
+
+11
+00:01:06,720 --> 00:01:12,480
+And if you find something that interests you, just click on the link and that show will page uh will play for you, excuse me.
+
+12
+00:01:12,480 --> 00:01:20,320
+Uh it will also download if you'd like to start a collection of holo talk shows on your own computer or floppy disks or whatever or zip disks.
+
+13
+00:01:20,320 --> 00:01:27,760
+Uh just download it to whatever uh hard drive you have and you can play it from your own hard drive anytime you feel like listening to it.
+
+14
+00:01:27,760 --> 00:01:31,600
+Also, back in the multimedia theater I have a new video presentation.
+
+15
+00:01:31,600 --> 00:01:39,360
+This video was sent to me a number of years ago by a friend of mine in New York and also a friend of who's in the video, and his name is Bardus Allen.
+
+16
+00:01:39,360 --> 00:01:52,560
+The video is of Patrick Boyd when he was doing his pulsed portrait holography at the Royal College of Art in London, and it shows what the uh models go through to get ready for the pulse portrait and the different outfits that they're wearing and things like that.
+
+17
+00:01:52,560 --> 00:01:59,520
+It's an eight-minute show, and if you have Real Player 5.0, which you should be to be listening to this show, it will also play video for you.
+
+18
+00:01:59,520 --> 00:02:04,440
+So you might want to stop back in the multimedia theater and watch that as well.
+
+19
+00:02:04,440 --> 00:02:09,960
+On occasional shows, I'll take a show to answer listeners' questions about lasers and holography.
+
+20
+00:02:09,960 --> 00:02:12,760
+And there's two ways that you can get on the HoloTalk show.
+
+21
+00:02:12,760 --> 00:02:20,760
+Number one is you can call the toll-free number, which is toll-free across the United States, and that number is 1-800-458-3525.
+
+22
+00:02:20,760 --> 00:02:26,360
+You'll also see the number listed right in the real audio window as you're listening down at the third line there.
+
+23
+00:02:26,360 --> 00:02:29,960
+Or you can send an email to HoloTalk at HoloWorld.com.
+
+24
+00:02:29,960 --> 00:02:33,240
+If you happen to call in, I won't use your real name on the air.
+
+25
+00:02:33,240 --> 00:02:37,560
+I will take your question and your voice and put it into the show and answer your question.
+
+26
+00:02:37,560 --> 00:02:42,680
+Or if you want to just send an email, I'll read your question on the air and answer it there as well.
+
+27
+00:02:42,680 --> 00:02:50,520
+If you have news and information that we would like to have included on an upcoming broadcast, please send it along and I'll see that it gets on the show.
+
+28
+00:02:50,520 --> 00:02:52,040
+Okay, so let's move on.
+
+29
+00:02:52,040 --> 00:02:59,000
+I have a filing cabinet that is just packed with information about holography that actually goes back into the 40s.
+
+30
+00:02:59,000 --> 00:03:01,880
+I have information on patents and uh publications.
+
+31
+00:03:01,880 --> 00:03:05,080
+I have all the uh magazines and newsletters that were published.
+
+32
+00:03:05,080 --> 00:03:10,920
+And I went in there to see what I could find from ten years ago from 1988, and I came up with four.
+
+33
+00:03:10,920 --> 00:03:25,320
+Uh holographics international, laser news, the hologram newsletter, which is a newsletter that I published from 1983 to I believe 1991 or 93, and Holosphere, which was a publication of the Museum of Holography in New York.
+
+34
+00:03:25,320 --> 00:03:34,760
+So I dusted these babies off and I figured let's page through here and see what we have inside these magazines and see what was happening in the field of philography ten years ago.
+
+35
+00:03:34,760 --> 00:03:37,360
+Uh let's start off with holographics international.
+
+36
+00:03:37,360 --> 00:03:44,440
+And just uh if you'll go along with me here, what I'm going to do is you so I I did thumb through these already, so I have a pretty good idea what I'm going to mention.
+
+37
+00:03:44,440 --> 00:03:47,840
+So just stick with me here as I go through page by page.
+
+38
+00:03:44,680 --> 00:03:55,040
+This is a publication that was uh uh done out of uh Great Britain, uh England, and the editor publisher was Sonny Baines.
+
+39
+00:03:55,040 --> 00:04:04,800
+Now on the inside cover, there was a beautiful um embossed hologram of a saxophone player, and it was done with a device called a hologe.
+
+40
+00:04:04,800 --> 00:04:08,480
+Uh it said the sim simplest system for professional holography.
+
+41
+00:04:08,480 --> 00:04:14,320
+You record the picture, and basically the hologe is a photographic camera traveling along a guide rail.
+
+42
+00:04:14,320 --> 00:04:40,720
+And they this company then initialize and duplicate your stereograms, and it was produced by hologram industries in France, which I imagine is sort of the predecessor to this new Sony camera, which has a camera that travels along the rail, only it has a desktop size uh holographic printer as well that contains a little laser diode and a uh film transport mechanism that actually does the development and everything and gives you your finished hologram right there.
+
+43
+00:04:40,720 --> 00:04:44,000
+So this uh this was actually happening ten years ago.
+
+44
+00:04:44,000 --> 00:04:49,680
+Uh one of the stories in here was True Color, uh a story called True Color, Oxford Blue.
+
+45
+00:04:49,680 --> 00:04:53,120
+Let me just read the first paragraph here just to fill you in on what was happening with this.
+
+46
+00:04:53,200 --> 00:04:54,560
+I found this very interesting.
+
+47
+00:04:54,560 --> 00:05:02,240
+Work done at Oxford University's Department of Engineering Science has produced the truest, more most lifelike color hologram to date.
+
+48
+00:05:02,240 --> 00:05:11,280
+The hologram shown of a mug full of color pencils betters the holograms which preceded it because of the laser beam wavelengths used to expose it.
+
+49
+00:05:11,280 --> 00:05:22,320
+The wavelengths chosen by the Oxford researchers combined to create a larger number of colors than ever before, making the finished hologram more realistic than had previously been possible.
+
+50
+00:05:22,320 --> 00:05:32,360
+And it shows uh two very nice color pictures of the hologram itself, holograms called pencils, natural color hologram by Paul Hubel, H-U-B-E-L.
+
+51
+00:05:32,360 --> 00:05:37,400
+And this is interesting because I get a lot of emails asking me are there true color holograms?
+
+52
+00:05:37,400 --> 00:05:51,720
+And yes, you know, I wouldn't say they're common right now, but uh there's been quite a bit of re quite a bit of research into full-color holography uh in the 90s, and it's uh something to see that it also goes back into the 80s.
+
+53
+00:05:51,720 --> 00:05:55,640
+Now other stories that were in here, we have a an event calendar.
+
+54
+00:05:55,640 --> 00:05:59,720
+Let's take a look and see what events were happening back in 1980.
+
+55
+00:05:59,960 --> 00:06:06,680
+28th of July to 30th of November, exhibition of multicolored holograms by John Kaufman, and that was in Los Angeles.
+
+56
+00:06:06,680 --> 00:06:15,320
+15th of August to 30th of September 1988, exhibition of holograms at the Space Coast Science Center in Melbourne, Florida.
+
+57
+00:06:15,320 --> 00:06:22,680
+October 14th to February 5th, images in time and space at the Vivilion, San Jose, California.
+
+58
+00:06:22,680 --> 00:06:27,160
+I bet you that brings some uh memories back for some people.
+
+59
+00:06:27,160 --> 00:06:41,320
+Other items in this uh issue is integrating pulse with other holographic work, which was the lab notes section, stereography and the art of direct viewing, which was an article by David Piznelli, I believe.
+
+60
+00:06:41,400 --> 00:06:43,240
+I hope I pronounced that right, David.
+
+61
+00:06:43,240 --> 00:06:46,840
+I'm sorry if I didn't.
+
+62
+00:06:46,840 --> 00:06:56,440
+Oh, and the center spray was actually a color spread on the uh third International Symposium on Display Holography at Lake Forest College.
+
+63
+00:06:56,440 --> 00:07:01,400
+Uh some of the pictures on here we have Setsuko Ishi with Canadian artist Sidney Dinsmore.
+
+64
+00:07:01,400 --> 00:07:13,480
+That's one of the photos, another photo of Australian artist Paula Dawson, and uh also a stereophotograph of one of her laser transmission holograms, which I guess was on display there.
+
+65
+00:07:13,560 --> 00:07:20,800
+A nice photo of Paula and Doris Vila resting in the shade during the symposium during one of the breaks.
+
+66
+00:07:21,120 --> 00:07:26,320
+Photo of Ed Dietrich and a photo of TJ outside as well.
+
+67
+00:07:26,320 --> 00:07:34,880
+And we also have what's up here in the upper left-hand corner, Mike Totel, which I believe this Mike was from the Media Lab up at MIT with Dr.
+
+68
+00:07:34,880 --> 00:07:35,920
+Benton.
+
+69
+00:07:35,920 --> 00:07:47,280
+His piece entitled Murray's Fourth Birthday won the award for the best artistic work for the Duran Art Institute exhibition at the symposium 1988.
+
+70
+00:07:47,280 --> 00:07:52,000
+Other articles about the holographic endoscope.
+
+71
+00:07:52,400 --> 00:08:01,840
+Claudette Abrams Personal Effects, some very nice large format white light transmission holograms are in the magazine as well.
+
+72
+00:08:01,840 --> 00:08:07,520
+Another article with a very large headline, T shirt market, up for grabs.
+
+73
+00:08:07,520 --> 00:08:24,080
+And that's basically what we had in this issue a nice uh six inch by six inch embossed hologram on the back of this magazine from global images depicting uh different things under the sea, seashells, starfish, things of that nature.
+
+74
+00:08:24,080 --> 00:08:25,600
+Very nice.
+
+75
+00:08:25,600 --> 00:08:37,840
+Next up, fall 1988 edition of Laser News, Volume 8, number three, cover story, Roberta Booth, The Magic of Light and Shape and Form, which was written by Patty Pink, who was the editor at the time.
+
+76
+00:08:37,840 --> 00:08:39,520
+Inside Story was by Dr.
+
+77
+00:08:39,520 --> 00:08:40,800
+Bert Myers.
+
+78
+00:08:40,800 --> 00:08:45,120
+I just got an email from Bert yesterday, and he's going to be a guest on the show.
+
+79
+00:08:45,760 --> 00:08:55,760
+He was actually researching holographic uh development of showing uh internal organs at the Veterans Administration Hospital in New Orleans, Louisiana.
+
+80
+00:08:55,760 --> 00:09:15,800
+And he's going to come on the show and talk about some of his research, but before he was involved in holography, he was actually involved in X-ray photography, not of bones and things of that nature, but an artistic uh type of uh X-ray photography where he would take uh common things like mushrooms and different plants and things of that nature and do X ray photography of them.
+
+81
+00:09:15,800 --> 00:09:24,520
+It's very beautiful work, and I believe his work has been shown in many galleries and also many publications across uh the United States and probably around the world.
+
+82
+00:09:24,520 --> 00:09:30,360
+His article on this issue of laser news was from X ray art techniques to holography.
+
+83
+00:09:30,360 --> 00:09:31,160
+Very nice.
+
+84
+00:09:31,160 --> 00:09:37,240
+Also an article on Post Ruby laser portraits in Paris.
+
+85
+00:09:38,200 --> 00:09:41,960
+Excuse me.
+
+86
+00:09:41,960 --> 00:09:42,840
+Interesting.
+
+87
+00:09:42,840 --> 00:09:45,000
+Oh, here in the back we have some publications.
+
+88
+00:09:45,000 --> 00:09:49,640
+Let's see all the publications that were available back in nineteen eighty-eight for holography.
+
+89
+00:09:49,640 --> 00:10:03,320
+We had crosstalk from the Interference Hologram Gallery, holographics international, which we just uh had on here from BCM holographics, holography news, which was published in Washington DC, and I think they may be out of Denver now, I'm not quite sure.
+
+90
+00:10:03,320 --> 00:10:07,560
+Hologere by the Museum of Holography, the hologram, which was my newsletter.
+
+91
+00:10:07,560 --> 00:10:15,160
+Uh Laser and Optronics, Leonardo, real image newsletter, S P I E Proceedings, and Young Artists Using Science and Technology.
+
+92
+00:10:15,160 --> 00:10:19,720
+All different publications that were dealing with lasers and holograms at the time.
+
+93
+00:10:31,160 --> 00:10:41,080
+And I believe this was uh actually about holography and holographic principles making inroads into the collective consciousness of mass culture in the US and abroad.
+
+94
+00:10:41,080 --> 00:10:47,680
+Uh it deals with uh holographic perception, also holographic memory and things of that nature.
+
+95
+00:10:44,520 --> 00:10:53,440
+Inside, the uh holography institute had a little article about holography in Petaluma, California.
+
+96
+00:10:53,680 --> 00:10:59,520
+Of course, we all know they uh left Petaluma and actually went to San Francisco.
+
+97
+00:10:59,520 --> 00:11:01,600
+A lot of little news snippets here.
+
+98
+00:11:01,600 --> 00:11:09,760
+The book review for fall 1988 was The Magic of Holography by Philip Heckman, Athenian Press.
+
+99
+00:11:09,760 --> 00:11:11,120
+1995.
+
+100
+00:11:11,120 --> 00:11:12,000
+Not a bad price.
+
+101
+00:11:12,000 --> 00:11:16,240
+I don't think you'd find a book like that today for 1995.
+
+102
+00:11:16,240 --> 00:11:21,040
+And another interesting thing, the story of holographic music uh was in this issue as well.
+
+103
+00:11:21,040 --> 00:11:26,640
+And I'm going to have a special show coming up where we're going to have a chance to listen to some holographic music.
+
+104
+00:11:26,640 --> 00:11:31,280
+Now you know with stereo music, you have separation in the right channel and left channel.
+
+105
+00:11:31,280 --> 00:11:36,400
+And with some of the uh home entertainment systems, you'll have your surround sound and things like that.
+
+106
+00:11:36,400 --> 00:11:49,120
+This uh show that I'm going to do is going to be completely on holographic music and sound, and it gives a three-dimensional field of listening, not only left and right and front and back, but also hype.
+
+107
+00:11:49,120 --> 00:11:57,840
+Uh I will have a couple of sound snippets that you'll be able to download, and because all of this is actually encoded right into the sound itself, it will work on your own computer.
+
+108
+00:11:57,840 --> 00:12:10,000
+If you have a pair of headphones, plug your headphones in, you'll be able to sit down uh sit back and listen to a very interesting uh field of sound, not only left, right, back and forth, but uh going up and down as well.
+
+109
+00:12:10,000 --> 00:12:18,720
+One of the selections is of a fireworks display where you can hear the fireworks being launched going up into the sky and exploding up in the sky.
+
+110
+00:12:18,720 --> 00:12:23,840
+I've heard this, and it sounds like they're actually exploding up in the sky, so it's going to be very interesting.
+
+111
+00:12:23,840 --> 00:12:25,600
+I'm waiting for that C D to come in.
+
+112
+00:12:25,600 --> 00:12:32,280
+I just ordered that not too long ago, so that should be here shortly, and that show should be up maybe within the next week, uh next few weeks.
+
+113
+00:12:29,600 --> 00:12:34,360
+So let's look for that in October.
+
+114
+00:12:34,680 --> 00:12:39,720
+This issue of Holosphere, fall 1988, volume 15, number five.
+
+115
+00:12:39,720 --> 00:12:43,400
+Let's take a look and see who was working on Holosphere ten years ago.
+
+116
+00:12:43,400 --> 00:12:46,840
+This was a publication of the Museum of Philography in New York.
+
+117
+00:12:46,840 --> 00:12:49,960
+Uh, acting managing editor was Janine W.
+
+118
+00:12:49,960 --> 00:12:51,560
+McKenna.
+
+119
+00:12:51,560 --> 00:13:06,760
+Issue editor was Kent Alexander, arts editor was Sidney Dinsmore, business editor with Sashana Goldberg, education editor was Andrew Pepper, technology editor was Ed Wesley, and circulation manager Mary Duffy.
+
+120
+00:13:06,760 --> 00:13:21,480
+And once again we have uh a few articles that are in here about the symposium that was uh right about the same time, and also a large article about holographic bifocal contact lenses by Suzanne St.
+
+121
+00:13:21,640 --> 00:13:23,000
+Cyr, C Y R.
+
+122
+00:13:23,000 --> 00:13:24,920
+I hope I pronounced that right, Suzanne.
+
+123
+00:13:24,920 --> 00:13:31,160
+And if I didn't, it's not my fault because I've always heard your name pronounced by Martin Zober down in Rockford, Maryland.
+
+124
+00:13:31,160 --> 00:13:35,080
+So he's the one that made me realize that that's how you pronounce your name.
+
+125
+00:13:35,080 --> 00:13:36,760
+So Suzanne St.
+
+126
+00:13:36,920 --> 00:13:37,320
+Cyr.
+
+127
+00:13:37,400 --> 00:13:42,760
+Well, this is a very large article in here as well.
+
+128
+00:13:42,760 --> 00:13:51,160
+Graham Saxby with his uh usual column for Holosphere, Johnnings from the UK and also Department of Partly Baked Ideas.
+
+129
+00:13:51,160 --> 00:13:54,520
+There's a blast from the past, and always a pleasure to read those.
+
+130
+00:13:54,520 --> 00:13:58,920
+And an article uh naming a new Museum of Philography director, Martha Tomkill.
+
+131
+00:13:58,920 --> 00:14:13,880
+I had the pleasure of meeting Martha and working with her a few times, and unfortunately she uh lost a battle uh to cancer several years after she was appointed to this position at the Museum of Philography, and that was a very sad day for everyone.
+
+132
+00:14:13,880 --> 00:14:18,240
+Um the first annual award ceremony for achievement in holography.
+
+133
+00:14:18,240 --> 00:14:21,600
+So I'm going to go down here and I'm going to be very sorry if I miss anyone.
+
+134
+00:14:21,600 --> 00:14:24,720
+This is a lot of type and very small type.
+
+135
+00:14:24,720 --> 00:14:29,920
+So I'm going to just browse through this quickly and read as I scan this.
+
+136
+00:14:29,920 --> 00:14:30,560
+Uh Dr.
+
+137
+00:14:30,560 --> 00:14:38,320
+Stephen Benton presented Rudy Burkhout, the 1987 Award for Achievement in Art Holography, citing his landscape series.
+
+138
+00:14:38,320 --> 00:14:40,080
+It was particularly fitting that Dr.
+
+139
+00:14:40,080 --> 00:14:48,000
+Benton, as the inventor of rainbow or white light transmission holography, Burkhout's preferred mode of expression, made the presentation.
+
+140
+00:14:48,000 --> 00:14:54,960
+It was evident from their remarks that Benton and Burkhout not only share mutual admiration, but also friendship.
+
+141
+00:14:55,200 --> 00:15:10,560
+The next presentation, the 1987 Award for Innovation and Commercial Use of Display Holography, was made by Dan Schweitzer, to Light Fantastic, and Richard Seymour for the holography illustrated fantasy book, The Mirror Stone.
+
+142
+00:15:10,560 --> 00:15:11,360
+And Dr.
+
+143
+00:15:11,360 --> 00:15:24,720
+Alan Cohen, who spent ten years trying to convince lens producers of the viability of his product, was sincerely touched and honored to receive the award for his invention of holographic bifocal lenses.
+
+144
+00:15:24,720 --> 00:15:25,920
+Very interesting stuff.
+
+145
+00:15:33,360 --> 00:15:44,240
+Officially commencing in the fall, Susan Cows has been hired as the new MOH Director of Educational Services in light of the fact that she was hired by departing director Ian Lancaster, Mrs.
+
+146
+00:15:44,240 --> 00:15:45,120
+Cows, Ms.
+
+147
+00:15:45,120 --> 00:15:45,600
+Kit Ms.
+
+148
+00:15:45,600 --> 00:15:53,600
+Cows, I'm sorry, has agreed to a six-month contract enabling a new director to review and approve an extension of her employment agreement.
+
+149
+00:15:53,600 --> 00:15:58,080
+So that what was that's what was happening at the Museum of Philography.
+
+150
+00:15:58,080 --> 00:16:05,160
+Oh, and we have a photo here from the first annual award ceremony of our happy campers.
+
+151
+00:16:05,160 --> 00:16:12,280
+Philographers from left to right, Rudy Burkhott, Steve Weinstock, Jody Burns, Steve Benton, and Dieter Jung.
+
+152
+00:16:12,280 --> 00:16:16,200
+Share a laugh before the party.
+
+153
+00:16:16,200 --> 00:16:17,400
+Pretty nice stuff.
+
+154
+00:16:17,400 --> 00:16:29,640
+What's interesting going back and uh and taking a look to see what was happening with holography ten years ago through these publications.
+
+155
+00:16:29,640 --> 00:16:37,400
+I have a news item I'd like to read before we close out the show, and I will get into that right away.
+
+156
+00:16:37,400 --> 00:16:48,760
+Nominations for the 1998 Excellence in Holography Awards may be submitted to the International Hologram Manufacturers Association, the IHMA, through October 9th, 1998.
+
+157
+00:16:48,760 --> 00:16:56,600
+Winners will be announced at the 9th annual Holopack Holoprint Awards dinner on November 11th, 1998 in Rome, Italy.
+
+158
+00:16:56,600 --> 00:17:09,800
+Each year, IHMA, the Worldwide Association of the Holography Industry, and Reconnaissance International publisher of holography news combine to recognize the outstanding commercial uses of holography from the previous year.
+
+159
+00:17:09,800 --> 00:17:25,400
+Any organization involved in the production of the holographic project may apply for an award in one of the following categories new hologram product, authentication product, most novel use of holograms, and purposed designed holograms.
+
+160
+00:17:25,400 --> 00:17:32,200
+Nomination forms may be obtained from IHMA's Denver, Colorado, or London, England offices.
+
+161
+00:17:32,200 --> 00:17:40,440
+And if you have a pencil and paper already, I will give you the ways to contact this uh organization in just a few minutes.
+
+162
+00:17:40,440 --> 00:17:51,360
+Last year's winners included the New York Times and Light Vision Confections for their holographic lollipop, which received best of year, used as a premium to launch the New Times Color Edition.
+
+163
+00:17:51,600 --> 00:18:01,120
+Campbell Soup and Van Lear Metalized Products won most novel use for their collectible spaghetti o labels with holographic scenes from Johnny Quest.
+
+164
+00:18:01,120 --> 00:18:09,440
+Hologram Industries Holo C I S project took honors as an excellent new vehicle identification system used in France.
+
+165
+00:18:09,440 --> 00:18:20,080
+And American Express and OPSEC were commended for their use of special holograms, and in parentheses it has Excelgrams to stop counterfeiting of travelers' checks.
+
+166
+00:18:20,080 --> 00:18:27,840
+The IHMA has already received a number of innovative submissions and encourages any company working with holograms to apply.
+
+167
+00:18:27,840 --> 00:18:36,320
+Nominees must sign a statement vouching that they have complied with the IHMA's code of conduct, including respecting the copyrights of all parties.
+
+168
+00:18:36,320 --> 00:18:38,160
+There is no cost to apply.
+
+169
+00:18:38,160 --> 00:18:49,440
+The winning submissions will be on display at the Holopac Holoprint Conference at the Cavallari Hilton in Rome, Italy, and will be shown at several trade shows through 1999.
+
+170
+00:18:49,440 --> 00:18:57,360
+The IHMA is an association of more than 60 of the world's leading hologram producers working together to advance the interests of the industry.
+
+171
+00:18:57,360 --> 00:19:05,120
+One of its foremost achievements is the hologram image register, a hologram registry that protects security holograms from being copied.
+
+172
+00:19:05,120 --> 00:19:07,920
+For more information, and here you go, here's your information, folks.
+
+173
+00:19:07,920 --> 00:19:09,760
+Email Recon USA.
+
+174
+00:19:09,760 --> 00:19:10,720
+I'll spell that for you.
+
+175
+00:19:10,720 --> 00:19:15,520
+It's R-E-C-O-N-N-U-S A at Aol.com.
+
+176
+00:19:15,520 --> 00:19:18,800
+Or in Europe to ENNM Lancaster.
+
+177
+00:19:18,800 --> 00:19:27,200
+That's I A N M L A N C A S T E R, like Lancaster, Pennsylvania, at CompuServe.com.
+
+178
+00:19:27,200 --> 00:19:32,600
+Or visit their website at www.ihma.org.
+
+179
+00:19:29,680 --> 00:19:37,800
+The website address again is www.ihma.org.
+
+180
+00:19:37,800 --> 00:19:40,200
+And that's our news item for the week.
+
+181
+00:19:40,200 --> 00:19:42,120
+Thank you very much, folks, for tuning in.
+
+182
+00:19:42,120 --> 00:19:50,520
+I hope you enjoy the show, and I hope you tune in each and every week for more news and information and special guests in the field of lasers and holography here on HoloTalk.
+
+183
+00:19:50,520 --> 00:19:51,960
+This is Frankie Freitas.
+
+184
+00:19:51,960 --> 00:19:53,400
+See you next week.

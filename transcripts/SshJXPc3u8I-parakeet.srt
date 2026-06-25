@@ -1,0 +1,503 @@
+1
+00:00:00,480 --> 00:00:09,280
+Hello everyone, this is Frankie Freitas, and welcome to another week of Holo Talk for the week of May 2nd, 1998.
+
+2
+00:00:09,280 --> 00:00:10,800
+I'd like to uh thank L.
+
+3
+00:00:10,800 --> 00:00:22,560
+Michael Roberts, who was our guest last week, for coming on the show and talking about the uh laser light show convention coming up in Canada and also giving us some tips and explaining to us how laser light shows are put together.
+
+4
+00:00:22,560 --> 00:00:27,600
+I just walked in the door about uh half hour ago and we were down in Atlantic City.
+
+5
+00:00:27,600 --> 00:00:52,800
+And if you happen to travel to Atlantic City and go down by the way of the Atlantic City Expressway, you will notice in the daytime that just as you come in where Trump Plaza is located, right in the center of that area, there happens to be a tall, maybe five-story structure that was just built, sort of an artist's rendering of a lighthouse.
+
+6
+00:00:52,800 --> 00:00:55,120
+And we were wondering what this was all about.
+
+7
+00:00:55,120 --> 00:00:58,320
+It's uh it's quite a sight in the daytime.
+
+8
+00:00:58,320 --> 00:01:18,080
+But as we were leaving Atlantic City, this is an amazing light sculpture uh which not only uh contains a traditional light show with uh just regular uh floods of colored lights and music, but uh a great multicolor laser light show as well.
+
+9
+00:01:18,080 --> 00:01:30,400
+So if you happen to be in the Atlantic City area and you're driving home at night uh to get on the Atlantic City Expressway down where Trump Plaza is and drive past this structure, and you'll see the laser light show that goes on there.
+
+10
+00:01:30,640 --> 00:01:31,360
+It's pretty neat.
+
+11
+00:01:31,360 --> 00:01:33,760
+We stopped and sat there for about 20 minutes.
+
+12
+00:01:33,760 --> 00:01:35,360
+Uh it's still under construction.
+
+13
+00:01:35,360 --> 00:01:38,480
+There were guys walking around with walkie-talkies.
+
+14
+00:01:38,480 --> 00:01:44,800
+Uh two of the laser modules which project the laser images onto the structure were functioning.
+
+15
+00:01:44,800 --> 00:01:50,160
+Uh, two of the other ones actually had cranes outside of them and they were uh still being installed.
+
+16
+00:01:50,160 --> 00:01:53,360
+So once this is finished, it should be something.
+
+17
+00:01:53,360 --> 00:02:06,600
+Just a reminder before we get on to the show, uh the exhibit Lasers and Holograms, which is coming to the Discovery Center of Science and Technology, a traveling exhibit by Pacific Science Center, is going to run June 6th through September 13th.
+
+18
+00:02:06,680 --> 00:02:08,840
+It's located in Bethlehem, Pennsylvania.
+
+19
+00:02:08,840 --> 00:02:21,800
+So if you happen to be in the area or close by, such as New York, Philly, Baltimore, Washington, D.C., Harrisburg, Scranton, the Discovery Center is located right off of Route 22 and Route 78.
+
+20
+00:02:22,360 --> 00:02:25,800
+Any from any of those locations, it's just a straight drive-through.
+
+21
+00:02:25,800 --> 00:02:29,640
+There's no red lights or anything like that until you're just about two or three blocks from the center.
+
+22
+00:02:29,640 --> 00:02:33,640
+So if you get a chance to come in, stop in and see us.
+
+23
+00:02:33,640 --> 00:02:45,720
+I'm going to be doing some broadcasting there on June 6th for a few hours and then heading down to Philly to complete the HoloTalk show that night in Philadelphia at a benefit down there for the Hunger Project.
+
+24
+00:02:45,720 --> 00:02:48,680
+Our guest next week on HoloTalk is going to be Dr.
+
+25
+00:02:48,680 --> 00:02:53,160
+John Perry from Holographics North, and the topic is going to be large format holography.
+
+26
+00:02:53,160 --> 00:03:00,120
+So if you're one of the people that writes questions about how large can you make a hologram, this is the show to tune into because Dr.
+
+27
+00:03:00,120 --> 00:03:04,200
+Perry is probably the king of large format holograms.
+
+28
+00:03:04,200 --> 00:03:13,080
+And he'll be telling us all about what it's like to work in a laboratory where you make a hologram that's several feet square.
+
+29
+00:03:13,080 --> 00:03:22,920
+On Thursday nights, why don't you stop by the HoloTalk page and click on the live cam link and see the show being worked on in the studio live?
+
+30
+00:03:23,400 --> 00:03:29,560
+There's a toll-free number that you can also call right on the live cam page where you can just say hello.
+
+31
+00:03:29,800 --> 00:03:31,560
+I'll be here taking your call.
+
+32
+00:03:31,560 --> 00:03:33,560
+So we did this last Thursday night.
+
+33
+00:03:33,560 --> 00:03:43,880
+I want to thank uh first names Linda and Bill for giving a call on Thursday night, and they were on the web page watching uh the show being put together.
+
+34
+00:03:43,880 --> 00:04:03,440
+Uh what I was working on was what's coming up next, which is an interview with a gentleman whose name is FLIP Bivom Baum from Hamburg, Germany, and there's a major holography exhibit, which is going to be in Hamburg, running beginning May 18th and running for six weeks at the Electrum Museum.
+
+35
+00:04:03,440 --> 00:04:06,960
+And then this exhibit will begin to tour different countries.
+
+36
+00:04:06,960 --> 00:04:09,520
+And he'd like to bring it to the United States as well.
+
+37
+00:04:09,520 --> 00:04:17,280
+So I spoke with FLIP uh last week and uh got some information from him, and it's a very interesting show.
+
+38
+00:04:17,280 --> 00:04:22,320
+He's uh an artist working with holograms the way a painter works with paint.
+
+39
+00:04:22,320 --> 00:04:37,600
+And a lot of people always say that holographic artists work with light the way that people work with paint, but Flype is actually working with the completed holograms and incorporating them into uh his artwork and the different uh exhibits that he's doing.
+
+40
+00:04:37,600 --> 00:04:40,320
+And uh well, I'll let FLIP explain it to you.
+
+41
+00:04:40,320 --> 00:04:42,720
+So uh let's go to the interview with FLIP.
+
+42
+00:04:42,720 --> 00:04:43,920
+It's not a very long interview.
+
+43
+00:04:43,920 --> 00:04:50,800
+Uh we were on for maybe about eight minutes or so, but it's very interesting what he has to say about the way that he's using the holograms and about the exhibit.
+
+44
+00:04:50,800 --> 00:04:58,000
+And I want to say hello to our friends in Germany because they are the third largest audience for HoloTalk behind the United States and Canada.
+
+45
+00:04:58,000 --> 00:05:00,560
+So if you're listening from Germany, hello.
+
+46
+00:05:00,560 --> 00:05:09,840
+And don't forget to stop and see the exhibit in Hamburg, Germany, which is coming up soon, May 18th, that's when it opens.
+
+47
+00:05:09,840 --> 00:05:11,360
+So let's move on to FLIP.
+
+48
+00:05:11,360 --> 00:05:14,960
+I'm not going to come back after the interview's over, so I'll thank you for tuning in now.
+
+49
+00:05:14,960 --> 00:05:16,720
+And don't forget to tune in next week.
+
+50
+00:05:16,720 --> 00:05:23,120
+And if you get a chance, stop by the Holo Talk page on Thursday night and uh check out the live webcam, okay?
+
+51
+00:05:23,120 --> 00:05:24,960
+Okay, thanks for listening to Hall of Talk.
+
+52
+00:05:24,960 --> 00:05:28,320
+Here's the interview with FLIP Biv Bomb Baumbaum.
+
+53
+00:05:28,480 --> 00:05:34,520
+Flype, you're putting a um a program together for holograms, a hologram exhibit over there, right?
+
+54
+00:05:34,520 --> 00:05:34,920
+Right.
+
+55
+00:05:29,600 --> 00:05:42,600
+It's the first and uh biggest exhibition ever made in Hamburg in Germany by one person only.
+
+56
+00:05:42,600 --> 00:05:49,320
+Well it's not just uh normal hologram exhibition like uh showing holograms.
+
+57
+00:05:49,320 --> 00:05:55,400
+It's some kind of arts exhibition like uh painter uses paint.
+
+58
+00:05:55,400 --> 00:06:03,080
+Um I decided to use holograms to work with holograms uh like uh painter uses paint.
+
+59
+00:06:03,080 --> 00:06:10,040
+So holograms and laser techniques are the basis um of everything which is put together.
+
+60
+00:06:10,040 --> 00:06:17,640
+And we have twelve different subjects and each uh each of the subjects have a meaning by itself.
+
+61
+00:06:17,640 --> 00:06:54,040
+Like one subject is dedicated to the T Bed and Hopi, like the Indian tribe, the hoopies and the Buddhist tribes, the hoopies and so the basics are holograms, um like um you have some kind of embossed holograms put together and these embossed holograms you um have it on the computer, you have digitalized it and then you have uh work we work with Canon and um uh have it in color then.
+
+62
+00:06:54,040 --> 00:07:37,520
+So it's it's beautiful to see the different colors out of the embossed holograms and then um we use different paint techniques on it and uh uh well these pictures are then enlarged and then there is um they are cut and and then um you have uh um well it's two meters by two meters by two meters and then you have inside of that uh you have a laser program and um caleidoscopes and uh some other things to look at and to play with and then we have some parts which is um are multiplex holograms um some multiplex holograms which I work with Peter Claudius in San Francisco.
+
+63
+00:07:37,520 --> 00:07:38,400
+Yes.
+
+64
+00:07:38,400 --> 00:08:02,400
+And he um is working on that and like we produce some on the basic is art like um in Berlin three years ago um they had this um well the Nazis used to live and to work the Reichstag w which will be a parliament in a couple of years.
+
+65
+00:08:02,400 --> 00:08:12,320
+Um Christo did uh un uh pack this thing and so we use a helicopter drove around three times and we're making a holographic lamp out of it.
+
+66
+00:08:12,320 --> 00:08:37,760
+So we have a couple of these works in it and then we have one thing is dedicated to musicians like Jerry Garcia, John Cipollino, Jean Clark of the Birds and others and then you click you can click these pictures with a laser pin on and then you have a computer and a um C D player in the back and then you can hear it with the e phones um a couple of the songs.
+
+67
+00:08:37,760 --> 00:08:53,840
+And um well yes and then we have holograms, holographic pieces of art like four thousand eyes looking out uh of you uh it's a two meters by one meter seventy picture, um like a chess board.
+
+68
+00:08:53,840 --> 00:09:10,280
+But when you look at it it's kind of pinographic and then we have a part piece it's three meter fifty fifty by two m well two meter sixty on three different levels and there are about eight thousand five hundred different holograms worked in to it.
+
+69
+00:09:10,280 --> 00:09:11,960
+It's really fantastic.
+
+70
+00:09:11,960 --> 00:09:17,800
+I mean we did a lot of work and then I I think it's it's it's fun it's really good to see that.
+
+71
+00:09:18,360 --> 00:09:22,040
+Where is the exhibit going to be held and uh when is it going to be held?
+
+72
+00:09:22,040 --> 00:09:59,960
+Well it will start on the eighteenth of May in Hamburg at the Electrum Museum uh which is the museum of the HEW uh HEW sorry uh which is an energy um company in Hamburg and uh yes and we will take this exhibition it would take about six weeks and after that it will go to other cities in Germany and I'm working on um different kind of work pieces of work for Tokyo on Kyo Kyoto um beginning of next year.
+
+73
+00:09:59,960 --> 00:10:06,520
+I hope to bring it over to the States as soon as possible because I'm gonna ask you that if you had any plans on bringing it to the States.
+
+74
+00:10:06,520 --> 00:10:26,280
+Yeah, I would like to and I'm working with a c one or two of my managers to find uh yeah to s some um companies and some partners who are trusty and w whom I can work with because it's uh it's a lot of work and it's it's a big thing.
+
+75
+00:10:26,280 --> 00:10:31,640
+I mean big exhibition so um the pieces one should take care of it and so you know.
+
+76
+00:10:31,640 --> 00:10:32,600
+Yeah.
+
+77
+00:10:32,920 --> 00:10:34,960
+How is holography used in Germany?
+
+78
+00:10:34,960 --> 00:10:39,320
+If uh if someone were in Germany walking around, where would they see holograms?
+
+79
+00:10:39,320 --> 00:10:52,080
+Well, the thing is, I started h over here about twenty years ago and I tell you about till then there was uh about sixty companies in Germany and fifty nine got bankrupt.
+
+80
+00:10:52,560 --> 00:10:55,360
+And you have this in the security business.
+
+81
+00:10:55,360 --> 00:11:08,720
+Um I did work for English companies like um Delarue and AHL and we did get some orders for video protection, counterfeiting.
+
+82
+00:11:08,720 --> 00:11:09,200
+Oh, I see.
+
+83
+00:11:09,520 --> 00:11:11,360
+This is a really good market.
+
+84
+00:11:11,360 --> 00:11:20,240
+But I mean I started um I I have about fourteen patents on my name and we started a fashion, holographic fashion.
+
+85
+00:11:20,240 --> 00:11:21,200
+I see.
+
+86
+00:11:21,200 --> 00:11:26,160
+And um making holograms of the uh models who are involved with the uh fashion?
+
+87
+00:11:26,160 --> 00:11:31,680
+No, it's like you have this um like m s you have this embossed foil.
+
+88
+00:11:31,680 --> 00:11:32,160
+Yes.
+
+89
+00:11:32,160 --> 00:11:34,480
+And then yes.
+
+90
+00:11:34,480 --> 00:11:43,440
+And you have this on um uh on a h special hot melt and this is on uh uh on on on clothing.
+
+91
+00:11:43,680 --> 00:11:50,080
+And then you have this on and meters and meters and then you design it and then you have special designs.
+
+92
+00:11:50,080 --> 00:11:52,320
+I also did made hello?
+
+93
+00:11:52,320 --> 00:11:52,880
+Yes.
+
+94
+00:11:52,880 --> 00:11:56,480
+I did make a couple of um leather designs.
+
+95
+00:11:56,480 --> 00:12:04,240
+W uh well you will see this on the I hope on the home page side or the C D ROM because the fashion thing is really nice.
+
+96
+00:12:04,240 --> 00:12:16,840
+We did make about forty fifty pieces and I hope to bring this over next year then we have f forty f you know fifty nice good pieces and then it's really grand.
+
+97
+00:12:16,840 --> 00:12:31,640
+And yes w there were a couple of galleries over here and but most of them got bankrupt because it's very tough to uh make people understand that holograms are not that cheap I mean to buy.
+
+98
+00:12:29,920 --> 00:12:33,800
+But it got better in the last years.
+
+99
+00:12:33,960 --> 00:12:47,960
+In the last two years everything got better, people making money out of um holograms in um well like selling watches or um novel the novel novelties.
+
+100
+00:12:47,960 --> 00:12:57,960
+But the main part and the main thing is still where you really can make money, which really is uh reasonable to counter fighting.
+
+101
+00:12:58,520 --> 00:13:05,640
+And like car parts, like um aeroplane parts, like um well, that's a hard thing.
+
+102
+00:13:05,640 --> 00:13:11,320
+We're trying to get a deal for about ten years now for C D f for C D protection.
+
+103
+00:13:11,320 --> 00:13:11,960
+I see.
+
+104
+00:13:11,960 --> 00:13:15,000
+But um that's not easy.
+
+105
+00:13:15,000 --> 00:13:17,320
+Um how many holograms do you have in this exhibit?
+
+106
+00:13:17,320 --> 00:13:19,400
+Have you had a chance to uh count them?
+
+107
+00:13:19,400 --> 00:13:27,400
+Well, uh there are ten different subjectives and that will be about forty uh pieces of work.
+
+108
+00:13:27,400 --> 00:13:28,040
+Wow, that's nice.
+
+109
+00:13:28,280 --> 00:13:35,080
+But you can see in the in the C D Rom um there will be about hundred, hundred twenty pieces.
+
+110
+00:13:35,080 --> 00:13:35,720
+I see.
+
+111
+00:13:35,720 --> 00:13:36,520
+Okay.
+
+112
+00:13:36,520 --> 00:13:41,800
+Um anything else you want to let the HoloTalk listeners know about the show before we uh close out.
+
+113
+00:13:41,800 --> 00:13:58,520
+Yes, I would like to get in contact with a couple of you people over there and uh maybe I have an intern I mean I have a homepage called F L Y P one at A O L dot com.
+
+114
+00:13:58,520 --> 00:13:59,240
+Okay.
+
+115
+00:13:59,240 --> 00:14:02,760
+All right, well thanks for being a guest and Okay, thank you very much.
+
+116
+00:14:02,760 --> 00:14:07,080
+This this exhibit's coming up in Hamburg, Germany in May 8th, did you say it was?
+
+117
+00:14:07,080 --> 00:14:07,720
+Eighteenth?
+
+118
+00:14:07,720 --> 00:14:20,880
+Eighteenth, May eighteenth at Hamburg, Germany, and they will have a web page up and we will make sure that we have a link to that webpage for you as soon as I hear from FLIP as far as um w what the address of the webpage is.
+
+119
+00:14:20,960 --> 00:14:23,280
+So FLIP, thank you very much for being a guest.
+
+120
+00:14:23,280 --> 00:14:24,400
+Okay, thank you very much.
+
+121
+00:14:24,400 --> 00:14:26,480
+And good luck with your exhibit in Hamburg, Germany.
+
+122
+00:14:26,640 --> 00:14:28,400
+And we get in contact, okay?
+
+123
+00:14:28,400 --> 00:14:28,880
+Okay.
+
+124
+00:14:28,880 --> 00:14:29,280
+Thank you.
+
+125
+00:14:29,280 --> 00:14:29,760
+Bye.
+
+126
+00:14:29,760 --> 00:14:30,880
+Bye bye.

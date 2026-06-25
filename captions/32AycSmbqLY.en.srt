@@ -1,0 +1,1604 @@
+1
+00:00:00,240 --> 00:00:05,580
+hello everyone this is Frank defreitis
+
+2
+00:00:02,520 --> 00:00:08,519
+welcome to a new season of holotalk to
+
+3
+00:00:05,580 --> 00:00:12,179
+start this season off I am in Montreal
+
+4
+00:00:08,519 --> 00:00:13,799
+Canada and I am at the holography studio
+
+5
+00:00:12,179 --> 00:00:17,760
+of hollow storm we're going to be
+
+6
+00:00:13,799 --> 00:00:19,140
+speaking with Bruno Lavina today who
+
+7
+00:00:17,760 --> 00:00:20,160
+runs the lab here and he's going to be
+
+8
+00:00:19,140 --> 00:00:22,020
+able to tell you a little bit more
+
+9
+00:00:20,160 --> 00:00:23,160
+specifically about what he does here and
+
+10
+00:00:22,020 --> 00:00:25,859
+what they're doing here with Hollister
+
+11
+00:00:23,160 --> 00:00:28,260
+how you doing Bruno fine this is a great
+
+12
+00:00:25,859 --> 00:00:30,480
+town I have to tell you I've been doing
+
+13
+00:00:28,260 --> 00:00:32,099
+a lot of traveling lately and there are
+
+14
+00:00:30,480 --> 00:00:35,100
+some other towns that you know I like a
+
+15
+00:00:32,099 --> 00:00:37,260
+lot but Montreal just uh it's it's
+
+16
+00:00:35,100 --> 00:00:39,000
+vibrant there's a lot going on it has a
+
+17
+00:00:37,260 --> 00:00:41,460
+lot of snap to it which a lot of cities
+
+18
+00:00:39,000 --> 00:00:43,980
+do but the difference with Montreal is
+
+19
+00:00:41,460 --> 00:00:45,360
+the fact that at the same time there's
+
+20
+00:00:43,980 --> 00:00:47,579
+something that's just very laid back
+
+21
+00:00:45,360 --> 00:00:48,780
+about it you know it's it's a it's a
+
+22
+00:00:47,579 --> 00:00:50,640
+nice feeling because usually you have
+
+23
+00:00:48,780 --> 00:00:52,140
+one or the other you're in a town where
+
+24
+00:00:50,640 --> 00:00:55,140
+it's so boring that you're falling
+
+25
+00:00:52,140 --> 00:00:56,940
+asleep or a town where it's so hectic
+
+26
+00:00:55,140 --> 00:00:58,500
+that you just feel like your nerves are
+
+27
+00:00:56,940 --> 00:01:00,120
+on edge but uh
+
+28
+00:00:58,500 --> 00:01:03,059
+this sort of like has this beautiful
+
+29
+00:01:00,120 --> 00:01:04,860
+balance here and I had a chance to go up
+
+30
+00:01:03,059 --> 00:01:08,220
+into your Mountain Area up at Mom
+
+31
+00:01:04,860 --> 00:01:10,260
+treblanc and staying in love all and
+
+32
+00:01:08,220 --> 00:01:13,080
+back down here in Montreal today so it's
+
+33
+00:01:10,260 --> 00:01:14,280
+good to have you on the show and uh why
+
+34
+00:01:13,080 --> 00:01:16,920
+don't you start off by telling us a
+
+35
+00:01:14,280 --> 00:01:18,000
+little bit about the whole star uh I
+
+36
+00:01:16,920 --> 00:01:19,740
+understand it was probably here before
+
+37
+00:01:18,000 --> 00:01:21,119
+you got here so if you know any early
+
+38
+00:01:19,740 --> 00:01:24,840
+history about it maybe we could start
+
+39
+00:01:21,119 --> 00:01:28,200
+out with that uh um well olustar was uh
+
+40
+00:01:24,840 --> 00:01:33,140
+was a project uh of Eric Moscow at the
+
+41
+00:01:28,200 --> 00:01:38,700
+time uh our first year was in 1988
+
+42
+00:01:33,140 --> 00:01:41,939
+and and uh student here wanted to build
+
+43
+00:01:38,700 --> 00:01:45,900
+a lab a nonography lab so everything we
+
+44
+00:01:41,939 --> 00:01:48,659
+got here uh it's because of them so
+
+45
+00:01:45,900 --> 00:01:50,220
+we're really grateful of them
+
+46
+00:01:48,659 --> 00:01:53,939
+and
+
+47
+00:01:50,220 --> 00:01:57,060
+uh years years after years that they
+
+48
+00:01:53,939 --> 00:01:59,640
+have been putting some equipment in the
+
+49
+00:01:57,060 --> 00:02:02,700
+lab so right now we're we're pretty
+
+50
+00:01:59,640 --> 00:02:05,640
+pretty well equipped and um
+
+51
+00:02:02,700 --> 00:02:10,380
+you know about is there is about history
+
+52
+00:02:05,640 --> 00:02:14,280
+it's about that uh olustar is first of
+
+53
+00:02:10,380 --> 00:02:17,160
+all a student lab uh build by student
+
+54
+00:02:14,280 --> 00:02:20,280
+for students so we keep we keep the
+
+55
+00:02:17,160 --> 00:02:23,160
+prices low and everything is that with
+
+56
+00:02:20,280 --> 00:02:24,480
+some student I won't even attempt the
+
+57
+00:02:23,160 --> 00:02:26,099
+name of the college maybe you could tell
+
+58
+00:02:24,480 --> 00:02:27,300
+everyone the name of the college I'm
+
+59
+00:02:26,099 --> 00:02:28,920
+having a hard enough time at the street
+
+60
+00:02:27,300 --> 00:02:30,000
+signs it's a beautiful language but I
+
+61
+00:02:28,920 --> 00:02:31,680
+just you know coming from Philadelphia
+
+62
+00:02:30,000 --> 00:02:34,739
+in the way I talk you know just forget
+
+63
+00:02:31,680 --> 00:02:37,200
+about it yeah it's a college
+
+64
+00:02:34,739 --> 00:02:38,459
+College the Mason off
+
+65
+00:02:37,200 --> 00:02:41,220
+well we're going to have a couple
+
+66
+00:02:38,459 --> 00:02:43,500
+pictures of the lab on the website and
+
+67
+00:02:41,220 --> 00:02:46,200
+there will also be a link to go back to
+
+68
+00:02:43,500 --> 00:02:48,480
+the holostar website so that when you're
+
+69
+00:02:46,200 --> 00:02:50,340
+listening to hollow talk if you call the
+
+70
+00:02:48,480 --> 00:02:52,440
+holotalk webpage back up you'll see that
+
+71
+00:02:50,340 --> 00:02:54,239
+link there click on the link and it'll
+
+72
+00:02:52,440 --> 00:02:55,560
+take you over to holostar so instead of
+
+73
+00:02:54,239 --> 00:02:56,760
+just you know sitting there listening to
+
+74
+00:02:55,560 --> 00:02:58,459
+the interview you can actually do a
+
+75
+00:02:56,760 --> 00:03:01,080
+little bit of a tour
+
+76
+00:02:58,459 --> 00:03:02,580
+so this is a learning that what is it
+
+77
+00:03:01,080 --> 00:03:04,379
+that students are learning here do you
+
+78
+00:03:02,580 --> 00:03:06,480
+approach holography from an artistic
+
+79
+00:03:04,379 --> 00:03:08,160
+standpoint or do you approach it from a
+
+80
+00:03:06,480 --> 00:03:10,800
+scientific technical standpoint here at
+
+81
+00:03:08,160 --> 00:03:13,920
+the college first of all when we have a
+
+82
+00:03:10,800 --> 00:03:16,019
+student here they have to to get their
+
+83
+00:03:13,920 --> 00:03:20,519
+inscription done
+
+84
+00:03:16,019 --> 00:03:24,120
+after that we we do both sides we start
+
+85
+00:03:20,519 --> 00:03:27,840
+with a narcissistic approach and when we
+
+86
+00:03:24,120 --> 00:03:31,560
+have students that are interested in the
+
+87
+00:03:27,840 --> 00:03:34,459
+optical side and scientific side you
+
+88
+00:03:31,560 --> 00:03:34,459
+know we we just
+
+89
+00:03:34,760 --> 00:03:40,260
+to learn more and more now do they get
+
+90
+00:03:38,280 --> 00:03:42,840
+credits college credits for taking this
+
+91
+00:03:40,260 --> 00:03:44,099
+course nope not at all this is just
+
+92
+00:03:42,840 --> 00:03:45,659
+totally elective that they would come in
+
+93
+00:03:44,099 --> 00:03:48,000
+and work with it exactly
+
+94
+00:03:45,659 --> 00:03:50,040
+exactly how is this tied into the
+
+95
+00:03:48,000 --> 00:03:52,920
+college is this is this a business is
+
+96
+00:03:50,040 --> 00:03:55,980
+this what is this uh we have a status
+
+97
+00:03:52,920 --> 00:03:59,459
+that is a bit weird because at the same
+
+98
+00:03:55,980 --> 00:04:03,180
+time we are there for the student as an
+
+99
+00:03:59,459 --> 00:04:06,620
+uh Workshop as a workshop uh like uh
+
+100
+00:04:03,180 --> 00:04:10,799
+other Workshop in in the
+
+101
+00:04:06,620 --> 00:04:14,159
+uh like photography and music or
+
+102
+00:04:10,799 --> 00:04:18,440
+everything like that but at the same
+
+103
+00:04:14,159 --> 00:04:21,919
+time we're a resource for our uh
+
+104
+00:04:18,440 --> 00:04:25,020
+artists in Montreal and in Canada
+
+105
+00:04:21,919 --> 00:04:28,560
+because there's no there there's not
+
+106
+00:04:25,020 --> 00:04:31,620
+really much labs in Canada
+
+107
+00:04:28,560 --> 00:04:33,979
+there used to be uh other labs in
+
+108
+00:04:31,620 --> 00:04:36,960
+Montreal but they're gone now
+
+109
+00:04:33,979 --> 00:04:40,620
+uh what what happened in Montreal the
+
+110
+00:04:36,960 --> 00:04:43,440
+holography I was here 15 years ago the
+
+111
+00:04:40,620 --> 00:04:45,060
+Old Port for uh images and time and
+
+112
+00:04:43,440 --> 00:04:47,120
+space
+
+113
+00:04:45,060 --> 00:04:50,060
+it seemed like it was a very active
+
+114
+00:04:47,120 --> 00:04:54,240
+holography Community here at the time
+
+115
+00:04:50,060 --> 00:04:57,300
+what happened uh I don't really know but
+
+116
+00:04:54,240 --> 00:04:59,520
+I I wasn't there at the time so I'm
+
+117
+00:04:57,300 --> 00:05:01,800
+still young again
+
+118
+00:04:59,520 --> 00:05:03,360
+uh now uh starting you're trying to
+
+119
+00:05:01,800 --> 00:05:08,160
+start a holography community up again
+
+120
+00:05:03,360 --> 00:05:11,580
+right yeah we're we're trying to build a
+
+121
+00:05:08,160 --> 00:05:14,639
+new community here uh so it's uh it's
+
+122
+00:05:11,580 --> 00:05:18,720
+it's what I do with uh Nadia here which
+
+123
+00:05:14,639 --> 00:05:21,120
+is an artist in uh a visual artist and
+
+124
+00:05:18,720 --> 00:05:23,940
+installation and everything so we're
+
+125
+00:05:21,120 --> 00:05:26,539
+we're trying to build back the the
+
+126
+00:05:23,940 --> 00:05:29,940
+Montreal commune Community
+
+127
+00:05:26,539 --> 00:05:32,880
+but right now the fundings are really
+
+128
+00:05:29,940 --> 00:05:35,880
+low so we're trying to to to find some
+
+129
+00:05:32,880 --> 00:05:38,940
+and we have a lot of difficulty but I'm
+
+130
+00:05:35,880 --> 00:05:41,820
+pretty sure and in a couple of years uh
+
+131
+00:05:38,940 --> 00:05:44,580
+there will be uh there'll be some new
+
+132
+00:05:41,820 --> 00:05:45,900
+excitement in holography in Montreal is
+
+133
+00:05:44,580 --> 00:05:47,940
+there anyone that you can think of now
+
+134
+00:05:45,900 --> 00:05:50,340
+who's actively doing holography in the
+
+135
+00:05:47,940 --> 00:05:52,639
+Montreal area at all uh they're still
+
+136
+00:05:50,340 --> 00:05:56,699
+maybe you know him
+
+137
+00:05:52,639 --> 00:06:01,680
+uh yeah which we do contract here within
+
+138
+00:05:56,699 --> 00:06:05,220
+uh pretty often uh and uh well uh
+
+139
+00:06:01,680 --> 00:06:05,220
+Americans so
+
+140
+00:06:07,440 --> 00:06:11,060
+all very familiar names going back many
+
+141
+00:06:09,479 --> 00:06:15,479
+many years yeah
+
+142
+00:06:11,060 --> 00:06:18,479
+so those uh those members are still
+
+143
+00:06:15,479 --> 00:06:22,259
+active still active but in the last
+
+144
+00:06:18,479 --> 00:06:26,400
+years uh things were pretty low but
+
+145
+00:06:22,259 --> 00:06:28,800
+we're hoping to to to build it back
+
+146
+00:06:26,400 --> 00:06:31,860
+now can someone come down here and learn
+
+147
+00:06:28,800 --> 00:06:34,500
+about lasers as far as technology and
+
+148
+00:06:31,860 --> 00:06:35,880
+maybe take that learning and go to a
+
+149
+00:06:34,500 --> 00:06:37,740
+community college somewhere to maybe
+
+150
+00:06:35,880 --> 00:06:39,020
+become laser technician or something of
+
+151
+00:06:37,740 --> 00:06:42,740
+that nature
+
+152
+00:06:39,020 --> 00:06:47,520
+uh well I don't really know uh
+
+153
+00:06:42,740 --> 00:06:52,139
+who almost a good part of our student
+
+154
+00:06:47,520 --> 00:06:56,039
+here goes to uh engineering after coming
+
+155
+00:06:52,139 --> 00:06:57,800
+getting here uh
+
+156
+00:06:56,039 --> 00:06:59,660
+I I don't know
+
+157
+00:06:57,800 --> 00:07:03,180
+uh
+
+158
+00:06:59,660 --> 00:07:06,120
+a program of laser technician or
+
+159
+00:07:03,180 --> 00:07:09,180
+something like that when you want to
+
+160
+00:07:06,120 --> 00:07:13,020
+work with Optics and lasers and
+
+161
+00:07:09,180 --> 00:07:16,280
+everything that's around it uh right
+
+162
+00:07:13,020 --> 00:07:20,880
+here you have to to have an engineering
+
+163
+00:07:16,280 --> 00:07:22,639
+uh diploma yeah I believe in the states
+
+164
+00:07:20,880 --> 00:07:24,720
+they have like a
+
+165
+00:07:22,639 --> 00:07:26,580
+12-month certificate you can get because
+
+166
+00:07:24,720 --> 00:07:29,460
+every hospital that's here in Montreal
+
+167
+00:07:26,580 --> 00:07:31,440
+has lasers inside the hospital and
+
+168
+00:07:29,460 --> 00:07:34,319
+someone has to maintain the lasers so
+
+169
+00:07:31,440 --> 00:07:36,300
+you go to a small community college get
+
+170
+00:07:34,319 --> 00:07:37,860
+a laser technician certificate and
+
+171
+00:07:36,300 --> 00:07:39,720
+you're the person that the laser
+
+172
+00:07:37,860 --> 00:07:41,819
+companies hire to go
+
+173
+00:07:39,720 --> 00:07:43,979
+and maintain the equipment but that's
+
+174
+00:07:41,819 --> 00:07:46,259
+that's off the side of holography but
+
+175
+00:07:43,979 --> 00:07:48,120
+since you have a laser here it could be
+
+176
+00:07:46,259 --> 00:07:52,740
+something that could be offered anyway
+
+177
+00:07:48,120 --> 00:07:54,080
+yeah yeah sure yeah
+
+178
+00:07:52,740 --> 00:07:55,919
+um why don't you tell us a little about
+
+179
+00:07:54,080 --> 00:07:57,539
+projects that you've been working on
+
+180
+00:07:55,919 --> 00:07:59,819
+recently as far as some of the work that
+
+181
+00:07:57,539 --> 00:08:04,380
+you've been doing uh right now we're
+
+182
+00:07:59,819 --> 00:08:06,020
+doing work uh in the shadowgram with uh
+
+183
+00:08:04,380 --> 00:08:09,360
+Jose
+
+184
+00:08:06,020 --> 00:08:14,940
+and we're still doing contracts every
+
+185
+00:08:09,360 --> 00:08:17,759
+summer uh when when the the classes are
+
+186
+00:08:14,940 --> 00:08:20,300
+open for the students it's during the
+
+187
+00:08:17,759 --> 00:08:25,080
+semesters and
+
+188
+00:08:20,300 --> 00:08:27,960
+we we pretty much uh give the labs to
+
+189
+00:08:25,080 --> 00:08:30,479
+them during the semesters but in the
+
+190
+00:08:27,960 --> 00:08:32,399
+summer it's time to to get money so we
+
+191
+00:08:30,479 --> 00:08:35,399
+have to do contract analography and
+
+192
+00:08:32,399 --> 00:08:38,459
+everything uh
+
+193
+00:08:35,399 --> 00:08:41,599
+for for the past years where we were
+
+194
+00:08:38,459 --> 00:08:44,339
+working about like that and
+
+195
+00:08:41,599 --> 00:08:48,060
+from years to years
+
+196
+00:08:44,339 --> 00:08:52,440
+worked the Summers and stood with the
+
+197
+00:08:48,060 --> 00:08:55,440
+students in the semesters we had we have
+
+198
+00:08:52,440 --> 00:08:59,220
+a lot of projects like the holographic
+
+199
+00:08:55,440 --> 00:09:01,740
+kit and that we do that the holography
+
+200
+00:08:59,220 --> 00:09:04,080
+that kid that we borrowed to the to to
+
+201
+00:09:01,740 --> 00:09:05,220
+everyone that wants to do oligraphy tell
+
+202
+00:09:04,080 --> 00:09:07,019
+us a little about that that goes after
+
+203
+00:09:05,220 --> 00:09:08,640
+schools Educators and students as well
+
+204
+00:09:07,019 --> 00:09:10,920
+right there's like four kids that go out
+
+205
+00:09:08,640 --> 00:09:14,519
+the kids can make Holograms right yep
+
+206
+00:09:10,920 --> 00:09:17,399
+with this kit we we can do uh
+
+207
+00:09:14,519 --> 00:09:21,180
+one beam reflection and one being
+
+208
+00:09:17,399 --> 00:09:24,899
+transmission work uh it's not really big
+
+209
+00:09:21,180 --> 00:09:27,000
+but uh it's it's it's really nice
+
+210
+00:09:24,899 --> 00:09:30,420
+equipment to start with
+
+211
+00:09:27,000 --> 00:09:32,820
+for for students that sometimes are 12
+
+212
+00:09:30,420 --> 00:09:34,800
+years old they don't have access to that
+
+213
+00:09:32,820 --> 00:09:37,440
+kind of equipment so they're really
+
+214
+00:09:34,800 --> 00:09:40,800
+grateful to to to to be able to
+
+215
+00:09:37,440 --> 00:09:42,420
+milligrams in their basement have you
+
+216
+00:09:40,800 --> 00:09:44,640
+had an opportunity to see work of other
+
+217
+00:09:42,420 --> 00:09:47,220
+artists around the world and and if you
+
+218
+00:09:44,640 --> 00:09:48,779
+have do you feel that artists that have
+
+219
+00:09:47,220 --> 00:09:50,700
+worked in the field of holography in
+
+220
+00:09:48,779 --> 00:09:52,200
+Montreal do they have a specific style
+
+221
+00:09:50,700 --> 00:09:54,120
+that you feel is a little different from
+
+222
+00:09:52,200 --> 00:09:57,300
+what you see in other areas
+
+223
+00:09:54,120 --> 00:10:00,779
+I've been traveling a bit but
+
+224
+00:09:57,300 --> 00:10:03,120
+um never got the chance because of my
+
+225
+00:10:00,779 --> 00:10:06,480
+study I never got the chance to get out
+
+226
+00:10:03,120 --> 00:10:09,000
+of Montreal really so this summer I'm
+
+227
+00:10:06,480 --> 00:10:11,399
+planning to visit oral Center in New
+
+228
+00:10:09,000 --> 00:10:13,320
+York and maybe holographic Arts with
+
+229
+00:10:11,399 --> 00:10:16,800
+John Perry
+
+230
+00:10:13,320 --> 00:10:19,980
+uh well I'm hoping that I can try to
+
+231
+00:10:16,800 --> 00:10:22,860
+find the fundings to go there uh being a
+
+232
+00:10:19,980 --> 00:10:27,720
+student is not uh not always easy to
+
+233
+00:10:22,860 --> 00:10:29,360
+find the money but uh I have a lot of
+
+234
+00:10:27,720 --> 00:10:32,880
+Hope on that side
+
+235
+00:10:29,360 --> 00:10:34,380
+for the question about uh Montreal
+
+236
+00:10:32,880 --> 00:10:36,380
+artists
+
+237
+00:10:34,380 --> 00:10:36,380
+um
+
+238
+00:10:36,420 --> 00:10:42,540
+well I I don't feel that there's
+
+239
+00:10:39,420 --> 00:10:46,320
+anything really different from that
+
+240
+00:10:42,540 --> 00:10:49,620
+they're doing uh different from the
+
+241
+00:10:46,320 --> 00:10:52,800
+other parts of the world uh I know that
+
+242
+00:10:49,620 --> 00:10:56,220
+me and Nadia where
+
+243
+00:10:52,800 --> 00:10:59,579
+we're starting we hope to start a new
+
+244
+00:10:56,220 --> 00:11:02,040
+feeling about telegraphy uh well to to
+
+245
+00:10:59,579 --> 00:11:03,680
+do some something different but yeah
+
+246
+00:11:02,040 --> 00:11:06,540
+that's that's future
+
+247
+00:11:03,680 --> 00:11:08,279
+I've I've been combining holography with
+
+248
+00:11:06,540 --> 00:11:10,920
+some digital photography and Photoshop
+
+249
+00:11:08,279 --> 00:11:14,100
+work and uh doing what's I guess
+
+250
+00:11:10,920 --> 00:11:16,019
+considered 2D 3D type of work as well so
+
+251
+00:11:14,100 --> 00:11:18,600
+I guess with the computer coming in do
+
+252
+00:11:16,019 --> 00:11:20,399
+you find yourself doing any uh computer
+
+253
+00:11:18,600 --> 00:11:23,700
+manipulation of images or are you
+
+254
+00:11:20,399 --> 00:11:27,779
+working more from objects still uh we
+
+255
+00:11:23,700 --> 00:11:31,200
+still work more from objects but we have
+
+256
+00:11:27,779 --> 00:11:35,579
+we have linked with uh Montreal company
+
+257
+00:11:31,200 --> 00:11:39,060
+which will have a pretty integration of
+
+258
+00:11:35,579 --> 00:11:41,820
+digital work with holography
+
+259
+00:11:39,060 --> 00:11:46,620
+right now I can't I can't talk about it
+
+260
+00:11:41,820 --> 00:11:49,860
+but because I'm under NDA but there's
+
+261
+00:11:46,620 --> 00:11:53,640
+pretty much excitement coming uh in the
+
+262
+00:11:49,860 --> 00:11:56,820
+in next year now how about workshops
+
+263
+00:11:53,640 --> 00:11:58,800
+were just a general public if someone
+
+264
+00:11:56,820 --> 00:12:00,120
+John Smith or whatever his name would be
+
+265
+00:11:58,800 --> 00:12:02,640
+would want to come in and do some
+
+266
+00:12:00,120 --> 00:12:06,240
+Holograms can the public take workshops
+
+267
+00:12:02,640 --> 00:12:09,300
+here sure uh we just uh integrate them
+
+268
+00:12:06,240 --> 00:12:10,160
+with the the students it's it's that
+
+269
+00:12:09,300 --> 00:12:13,440
+easy
+
+270
+00:12:10,160 --> 00:12:19,620
+as long as your course run uh it's it's
+
+271
+00:12:13,440 --> 00:12:23,700
+a 12 uh 12 weeks after each semester and
+
+272
+00:12:19,620 --> 00:12:25,399
+we we do a lot of work with the students
+
+273
+00:12:23,700 --> 00:12:31,100
+shadowgram
+
+274
+00:12:25,399 --> 00:12:31,100
+some uh how do you put it in English
+
+275
+00:12:32,180 --> 00:12:38,940
+cup transmission copies okay yeah H1 H2
+
+276
+00:12:36,180 --> 00:12:40,800
+everything everything like that so they
+
+277
+00:12:38,940 --> 00:12:44,579
+they pretty much can choose what they
+
+278
+00:12:40,800 --> 00:12:46,380
+want to do and we do it with them
+
+279
+00:12:44,579 --> 00:12:48,180
+okay well Bruno is there anything you'd
+
+280
+00:12:46,380 --> 00:12:49,500
+like to add what can you tell us a
+
+281
+00:12:48,180 --> 00:12:50,820
+little I think you did tell us a little
+
+282
+00:12:49,500 --> 00:12:53,700
+about naughty is there anything you'd
+
+283
+00:12:50,820 --> 00:12:55,740
+like to add I know she is out of town
+
+284
+00:12:53,700 --> 00:12:57,000
+you know today and unfortunately we
+
+285
+00:12:55,740 --> 00:12:58,680
+didn't get a chance to get her in on a
+
+286
+00:12:57,000 --> 00:13:01,079
+show but maybe we could get her in over
+
+287
+00:12:58,680 --> 00:13:03,300
+the phone at another time to talk about
+
+288
+00:13:01,079 --> 00:13:05,220
+her creative work I imagine you approach
+
+289
+00:13:03,300 --> 00:13:08,160
+it more from the technical aspect uh
+
+290
+00:13:05,220 --> 00:13:11,880
+what about Nadia Let's uh uh well Nadia
+
+291
+00:13:08,160 --> 00:13:15,420
+uh begin here uh about one year ago uh
+
+292
+00:13:11,880 --> 00:13:16,920
+when she was at the University and all
+
+293
+00:13:15,420 --> 00:13:20,579
+right
+
+294
+00:13:16,920 --> 00:13:24,260
+um uh first of all when when she saw the
+
+295
+00:13:20,579 --> 00:13:24,260
+yellowgram she just
+
+296
+00:13:26,000 --> 00:13:34,139
+yeah so she came by and asked me a lot
+
+297
+00:13:30,839 --> 00:13:36,300
+of uh about holography and at the time I
+
+298
+00:13:34,139 --> 00:13:38,160
+was thinking of leaving here to to
+
+299
+00:13:36,300 --> 00:13:39,540
+finish my study
+
+300
+00:13:38,160 --> 00:13:43,320
+and
+
+301
+00:13:39,540 --> 00:13:47,579
+and right now I'm forming her to to to
+
+302
+00:13:43,320 --> 00:13:50,880
+replace me so right now we do for the
+
+303
+00:13:47,579 --> 00:13:53,940
+for the next year we do a semester each
+
+304
+00:13:50,880 --> 00:13:58,920
+of work with the students and I'm hoping
+
+305
+00:13:53,940 --> 00:14:01,440
+that in the future she'll get uh
+
+306
+00:13:58,920 --> 00:14:04,920
+she'll take just run with it yep she she
+
+307
+00:14:01,440 --> 00:14:07,139
+that she'll run the lab uh I'm not
+
+308
+00:14:04,920 --> 00:14:09,899
+teaching thinking of leaving everything
+
+309
+00:14:07,139 --> 00:14:11,700
+here I still want that touch I still
+
+310
+00:14:09,899 --> 00:14:16,079
+want to have touch with the students and
+
+311
+00:14:11,700 --> 00:14:19,800
+and the equipment here but uh for five
+
+312
+00:14:16,079 --> 00:14:23,660
+years I I left my study at University
+
+313
+00:14:19,800 --> 00:14:26,959
+for this yeah for this for this exactly
+
+314
+00:14:23,660 --> 00:14:31,620
+so I know what to talk about
+
+315
+00:14:26,959 --> 00:14:34,560
+so I I I need to finish this uh you need
+
+316
+00:14:31,620 --> 00:14:36,180
+to get on with your life
+
+317
+00:14:34,560 --> 00:14:37,440
+yeah that feeling comes over a lot of us
+
+318
+00:14:36,180 --> 00:14:38,880
+that have been working in holography
+
+319
+00:14:37,440 --> 00:14:40,260
+from time to time why don't you tell us
+
+320
+00:14:38,880 --> 00:14:41,940
+a little bit about the equipment up here
+
+321
+00:14:40,260 --> 00:14:43,139
+I see you've got the monster 125 up
+
+322
+00:14:41,940 --> 00:14:45,560
+there maybe tell us a little bit about
+
+323
+00:14:43,139 --> 00:14:47,180
+that and the other lasers which
+
+324
+00:14:45,560 --> 00:14:51,720
+sorry
+
+325
+00:14:47,180 --> 00:14:55,339
+uh the monster one uh it's an old laser
+
+326
+00:14:51,720 --> 00:14:59,639
+uh really modified the to fit our needs
+
+327
+00:14:55,339 --> 00:15:03,060
+uh we're still offering it
+
+328
+00:14:59,639 --> 00:15:07,019
+we still do a lot of work with it but
+
+329
+00:15:03,060 --> 00:15:09,300
+where I have a lot of work of Hope on
+
+330
+00:15:07,019 --> 00:15:11,760
+your driver for you Alzheimer's out
+
+331
+00:15:09,300 --> 00:15:13,440
+there it's a specter physics 125 which I
+
+332
+00:15:11,760 --> 00:15:16,320
+imagine some of the younger people in
+
+333
+00:15:13,440 --> 00:15:17,940
+holography wouldn't recognize because uh
+
+334
+00:15:16,320 --> 00:15:19,320
+definitely takes two people to lift that
+
+335
+00:15:17,940 --> 00:15:23,940
+baby up off the floor from what I
+
+336
+00:15:19,320 --> 00:15:26,459
+remember yeah and well our other laser
+
+337
+00:15:23,940 --> 00:15:28,320
+uh which we don't use anymore because
+
+338
+00:15:26,459 --> 00:15:32,100
+it's too dangerous
+
+339
+00:15:28,320 --> 00:15:36,540
+is another spectrophysic uh argon uh
+
+340
+00:15:32,100 --> 00:15:39,060
+laser uh which is 5 watts and for the
+
+341
+00:15:36,540 --> 00:15:41,279
+student it doesn't really fit our needs
+
+342
+00:15:39,060 --> 00:15:44,639
+it's just too dangerous does it still
+
+343
+00:15:41,279 --> 00:15:48,980
+work uh yeah it's a it still work but uh
+
+344
+00:15:44,639 --> 00:15:52,199
+I hate touching that kind of laser uh
+
+345
+00:15:48,980 --> 00:15:53,699
+but well do you burn it from time to
+
+346
+00:15:52,199 --> 00:15:57,779
+time just to burn it
+
+347
+00:15:53,699 --> 00:16:00,779
+uh not really uh I'm well I don't really
+
+348
+00:15:57,779 --> 00:16:03,000
+like it anyway for alligraphy it's not a
+
+349
+00:16:00,779 --> 00:16:05,220
+really good laser not good car events
+
+350
+00:16:03,000 --> 00:16:06,320
+and everything so I just leave it there
+
+351
+00:16:05,220 --> 00:16:10,680
+for now
+
+352
+00:16:06,320 --> 00:16:13,620
+uh maybe in the future we'll we'll use
+
+353
+00:16:10,680 --> 00:16:16,680
+it to do some really large copies but
+
+354
+00:16:13,620 --> 00:16:19,620
+for now we don't we don't want to use
+
+355
+00:16:16,680 --> 00:16:24,240
+that kind of stuff uh and or other laser
+
+356
+00:16:19,620 --> 00:16:28,139
+which is really nice is uh yag uh 100
+
+357
+00:16:24,240 --> 00:16:32,459
+and 50 milliwatts from Crystal laser and
+
+358
+00:16:28,139 --> 00:16:37,079
+this this one is the one I I use the
+
+359
+00:16:32,459 --> 00:16:39,300
+most for now but I as I said I have a
+
+360
+00:16:37,079 --> 00:16:40,680
+lot of Hope in your driver yeah thank
+
+361
+00:16:39,300 --> 00:16:42,480
+you very much what do you plan on using
+
+362
+00:16:40,680 --> 00:16:43,920
+for your workshops and things or taking
+
+363
+00:16:42,480 --> 00:16:45,060
+because you can run it off of batteries
+
+364
+00:16:43,920 --> 00:16:48,120
+yeah
+
+365
+00:16:45,060 --> 00:16:52,399
+um for now I I I we just want to replace
+
+366
+00:16:48,120 --> 00:16:55,639
+uh the 125 yeah the 125
+
+367
+00:16:52,399 --> 00:17:01,259
+we would need
+
+368
+00:16:55,639 --> 00:17:03,959
+a lot of work to uh get the 125 really
+
+369
+00:17:01,259 --> 00:17:07,919
+working well and we don't have that kind
+
+370
+00:17:03,959 --> 00:17:10,919
+of times armor so where we're planning
+
+371
+00:17:07,919 --> 00:17:12,900
+to replace replace it with the the diode
+
+372
+00:17:10,919 --> 00:17:14,939
+and now if you pop a diode is 35 bucks
+
+373
+00:17:12,900 --> 00:17:17,640
+and you're got another one exactly yeah
+
+374
+00:17:14,939 --> 00:17:20,480
+so yeah it'll kick the pants off that
+
+375
+00:17:17,640 --> 00:17:20,480
+125 too
+
+376
+00:17:21,120 --> 00:17:27,839
+now that I'm really excited to to to try
+
+377
+00:17:24,059 --> 00:17:31,320
+your driver and if if things Works uh
+
+378
+00:17:27,839 --> 00:17:35,100
+I'm well planning to to to get a couple
+
+379
+00:17:31,320 --> 00:17:37,500
+of more okay let me know so I make sure
+
+380
+00:17:35,100 --> 00:17:39,059
+I have them I don't even have one I
+
+381
+00:17:37,500 --> 00:17:41,520
+think the one I gave you was maybe one I
+
+382
+00:17:39,059 --> 00:17:43,200
+had yeah so it's like that uh you know
+
+383
+00:17:41,520 --> 00:17:44,880
+the Shoemaker that has holes in his
+
+384
+00:17:43,200 --> 00:17:46,620
+shoes you know because he's so busy with
+
+385
+00:17:44,880 --> 00:17:47,520
+everyone else's shoes okay well Bruno I
+
+386
+00:17:46,620 --> 00:17:49,380
+want to thank you very much for taking
+
+387
+00:17:47,520 --> 00:17:50,820
+the time to come on the show there's a
+
+388
+00:17:49,380 --> 00:17:53,280
+lot of people out there that have been
+
+389
+00:17:50,820 --> 00:17:55,679
+listening to this uh once again this is
+
+390
+00:17:53,280 --> 00:17:57,360
+in Montreal so there's a link on the
+
+391
+00:17:55,679 --> 00:17:59,039
+whole talk page click on that it'll take
+
+392
+00:17:57,360 --> 00:18:00,600
+you over to the whole store website and
+
+393
+00:17:59,039 --> 00:18:02,460
+if you want to drop Bruno an email tell
+
+394
+00:18:00,600 --> 00:18:04,440
+them hi or contact them if you happen to
+
+395
+00:18:02,460 --> 00:18:07,320
+be in the Montreal area and would like
+
+396
+00:18:04,440 --> 00:18:09,720
+to learn about holography yeah I don't
+
+397
+00:18:07,320 --> 00:18:11,160
+know if you can just stop in but you can
+
+398
+00:18:09,720 --> 00:18:14,039
+contact him and maybe he can give you
+
+399
+00:18:11,160 --> 00:18:15,660
+information about workshops to come in
+
+400
+00:18:14,039 --> 00:18:18,740
+and make a few Holograms of your own so
+
+401
+00:18:15,660 --> 00:18:18,740
+Bruno thank you very much
+

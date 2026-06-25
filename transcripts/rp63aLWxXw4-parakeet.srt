@@ -1,0 +1,1299 @@
+1
+00:00:32,880 --> 00:00:43,280
+Hello everyone, this is Frank Defratis, and welcome to HoloTalk, the Internet's laser and holography talk show enjoyed in over forty-two countries throughout the world.
+
+2
+00:00:43,280 --> 00:00:46,560
+And now, here's this week's show.
+
+3
+00:00:53,280 --> 00:00:55,760
+Hello, is this Holo M?
+
+4
+00:00:55,760 --> 00:00:57,200
+Yes, this is Makias.
+
+5
+00:00:57,440 --> 00:00:58,240
+How are you?
+
+6
+00:00:58,640 --> 00:00:59,360
+This is Frank.
+
+7
+00:00:59,360 --> 00:01:00,400
+How are you?
+
+8
+00:01:00,400 --> 00:01:01,920
+Oh, uh, I'm fine, thank you.
+
+9
+00:01:01,920 --> 00:01:02,720
+How are you?
+
+10
+00:01:02,720 --> 00:01:03,440
+Okay.
+
+11
+00:01:09,280 --> 00:01:11,200
+Okay, yes, you're right here.
+
+12
+00:01:12,400 --> 00:01:13,760
+How are you?
+
+13
+00:01:14,080 --> 00:01:15,440
+Um, I'm fine.
+
+14
+00:01:15,440 --> 00:01:26,080
+Um, I'm it's uh it's a fine day today in in Germany and um we already have a little bit of snow here.
+
+15
+00:01:26,080 --> 00:01:29,680
+Yeah, we got a little bit of snow this week too.
+
+16
+00:01:29,680 --> 00:01:36,560
+Why don't uh we start off by you telling everyone, I don't know if you want to use your real name, but I guess you gave your real name already.
+
+17
+00:01:36,560 --> 00:01:41,200
+I know you're holo M on the holography forum.
+
+18
+00:01:46,800 --> 00:01:51,680
+Yes, um m uh I got involved with holography uh in nineteen ninety-six.
+
+19
+00:01:51,680 --> 00:02:59,320
+There um I had to write a paper in my school in my physics course, and um the teacher uh didn't wanted me to take the holography as a subject of this paper and I'm I saw a f a few times a hologram in uh in a museum uh before and I I wanted to do this and um he always said no it's not possible and um this turned me on and um I I thought it's it is possible and to do that at home and then he said no um it's too dangerous with lasers and so on and finally um I got him so that he said okay then try it and um yeah so then I had a a year time to do this and um I started with a few denitycks and this uh they came out very well at the first time um it was uh no no big problem there because um I think the the material there was Axa and uh it was a little bit easier than today to get good results.
+
+20
+00:02:59,320 --> 00:03:00,280
+Mm-hmm.
+
+21
+00:03:00,280 --> 00:03:04,600
+You say it's a little bit easier then than it is today to get good results.
+
+22
+00:03:04,600 --> 00:03:05,560
+Yes I think.
+
+23
+00:03:05,560 --> 00:03:08,600
+And and the reason for that would be what?
+
+24
+00:03:08,600 --> 00:03:10,600
+Um I don't know.
+
+25
+00:03:10,600 --> 00:03:29,480
+Um I think the the books are um are more on on the actual material based and so um times calculations and those things um are more more on the extra material than the uh materials are um today.
+
+26
+00:03:29,560 --> 00:03:42,680
+Oh I understand, yes, it's it's having problems uh taking the exposure times and the energy levels for agha materials and and changing that over to the uh current modern materials.
+
+27
+00:03:42,680 --> 00:03:43,240
+Yes.
+
+28
+00:03:43,240 --> 00:03:44,120
+Yeah.
+
+29
+00:03:44,120 --> 00:03:54,240
+Yes, uh so I I had no had no long time to try EXFA so um I then uh uh had to search for another material.
+
+30
+00:03:54,240 --> 00:03:54,800
+Mm-hmm.
+
+31
+00:03:54,800 --> 00:03:55,920
+Mm-hmm.
+
+32
+00:03:55,920 --> 00:04:00,720
+And this was a a problem in Germany to get um other material.
+
+33
+00:04:00,720 --> 00:04:01,360
+Yeah.
+
+34
+00:04:01,760 --> 00:04:10,000
+Um but now um yes I'm I'm long in the in the hobby now and uh I know where I can get it now.
+
+35
+00:04:10,000 --> 00:04:10,800
+Yeah.
+
+36
+00:04:10,800 --> 00:04:13,840
+You use the word hobby and I have a question for you.
+
+37
+00:04:13,840 --> 00:04:23,040
+How common is it for someone to have holography as a hobby in Germany.
+
+38
+00:04:23,120 --> 00:04:29,360
+So um I think I'm perhaps one of ten in Germany or one out of twenty.
+
+39
+00:04:29,360 --> 00:04:30,000
+Mm-hmm.
+
+40
+00:04:30,240 --> 00:04:34,080
+Very few which are dealing with this uh with this object.
+
+41
+00:04:34,080 --> 00:04:42,400
+Of the ten are most are any of those professional holographers or are they hobby holographers?
+
+42
+00:04:42,400 --> 00:04:45,200
+I think there are about ten hobby holographers.
+
+43
+00:04:45,200 --> 00:04:55,520
+Okay um there are a few more which are in the uh in the commercial now your background is in electrical engineering.
+
+44
+00:04:55,520 --> 00:04:56,080
+Yes.
+
+45
+00:04:56,080 --> 00:04:59,280
+How has that helped you with holography?
+
+46
+00:04:59,360 --> 00:05:17,840
+Um so I studied uh electrical engineering in the in the last five years or six years and so this was um good to understand the the light uh waves and so such things.
+
+47
+00:05:17,840 --> 00:05:18,480
+Yes.
+
+48
+00:05:18,640 --> 00:05:23,040
+Um but it wasn't not essential I would say for for the hobby.
+
+49
+00:05:23,040 --> 00:05:23,920
+Mm-hmm.
+
+50
+00:05:23,640 --> 00:05:24,440
+Mm-hmm.
+
+51
+00:05:24,440 --> 00:05:30,000
+So I I started with with the holograms in in school and uh there I hadn't this background.
+
+52
+00:05:30,600 --> 00:05:35,000
+When you say in school are you saying college or high school?
+
+53
+00:05:35,000 --> 00:05:38,440
+Uh I mean in German it's called gymnasium.
+
+54
+00:05:38,440 --> 00:05:40,680
+This I think is uh equal to high school.
+
+55
+00:05:40,680 --> 00:05:41,080
+Okay.
+
+56
+00:05:41,080 --> 00:05:45,080
+What what did the other students think about your holograms?
+
+57
+00:05:45,080 --> 00:05:47,160
+Did they get a chance to see them?
+
+58
+00:05:47,160 --> 00:06:16,360
+Yes, um uh I I showed them in uh in a f in uh in a lesson and um told something about about my work and um yes they said no it's a little bit of small, a b little bit of dark um and I had a hologram which I bought in a shop with me and from this they were impressed this of course but the my own results um yes they weren't so good I would say.
+
+59
+00:06:16,360 --> 00:06:22,840
+They probably thought you came from outer space or something with that.
+
+60
+00:06:22,840 --> 00:06:36,840
+It's it's still the same here in the States when I go into meet students in our schools it's the first time that they've ever had a chance to see a hologram too, even today in two thousand five.
+
+61
+00:06:36,840 --> 00:06:37,960
+Yes.
+
+62
+00:06:37,960 --> 00:06:41,080
+Uh I see this uh here in Germany too.
+
+63
+00:06:41,080 --> 00:06:49,000
+Also my uh my colleagues at work and uh friends and so they didn't know from uh of holograms.
+
+64
+00:06:49,000 --> 00:06:50,600
+Mm-hmm mm.
+
+65
+00:06:50,600 --> 00:06:53,800
+Now you started doing some of the stereograms.
+
+66
+00:06:53,800 --> 00:06:54,360
+Yes.
+
+67
+00:06:54,360 --> 00:06:55,720
+I saw your video.
+
+68
+00:06:55,720 --> 00:06:56,280
+Yes.
+
+69
+00:06:56,280 --> 00:07:02,920
+Thank you for sending me the email and uh I thought you did a very nice job with that.
+
+70
+00:07:03,000 --> 00:07:13,240
+Yes, this was the first try in uh stereography and um so um I had many problems at the beginning.
+
+71
+00:07:13,800 --> 00:07:15,120
+That always happens.
+
+72
+00:07:15,120 --> 00:07:16,480
+Yes.
+
+73
+00:07:16,480 --> 00:07:23,680
+The but the biggest problem I think is the um the L C D panel uh which I used.
+
+74
+00:07:23,680 --> 00:07:24,400
+Mm-hmm.
+
+75
+00:07:24,400 --> 00:07:32,640
+So uh building a slit mover was not so a big problem and uh also the electronics was no problem uh for me.
+
+76
+00:07:32,640 --> 00:07:40,160
+Uh but the to find a a panel which would uh function properly for this was a problem.
+
+77
+00:07:40,240 --> 00:07:43,680
+What panel did you eventually wind up with?
+
+78
+00:07:43,680 --> 00:07:49,360
+Um I started with uh with a panel from um laptop computer.
+
+79
+00:07:49,360 --> 00:07:50,160
+Okay.
+
+80
+00:07:50,160 --> 00:07:53,440
+Um which is uh black and white panel.
+
+81
+00:07:53,440 --> 00:08:01,840
+Um and I disassembled this computer and um removed the backlight of the panel.
+
+82
+00:08:01,840 --> 00:08:09,840
+And uh made a longer cable between a laptop and the the panel and put the panel on the on the table.
+
+83
+00:08:09,840 --> 00:08:10,720
+Mm-hmm.
+
+84
+00:08:10,720 --> 00:08:20,880
+Um this computer was uh yes, I think it was a three hundred uh eighty sixty-eight uh machine, which is uh slightly slow.
+
+85
+00:08:21,680 --> 00:08:31,440
+And um so I hadn't a chance to to uh install my own software so I had to take another uh another one.
+
+86
+00:08:31,440 --> 00:08:36,320
+This was uh was uh the second uh laptop then I had disembled.
+
+87
+00:08:36,320 --> 00:08:40,880
+Um and this worked uh very well then, uh I think.
+
+88
+00:08:40,880 --> 00:08:47,040
+It's uh newer one with uh TFT panel.
+
+89
+00:08:47,040 --> 00:08:55,840
+And I did the same uh I reas uh I removed the backlight and uh take the laser through the panel.
+
+90
+00:08:55,840 --> 00:08:56,720
+I see.
+
+91
+00:09:00,120 --> 00:09:17,160
+Yes, um I have tried a few uh setups and um I think the the best at the moment is um to go with the lens direct on the panel and put uh piece of ground glass directly behind the panel.
+
+92
+00:09:17,160 --> 00:09:23,560
+So that there is no no much space between the panel and the uh ground glass plate.
+
+93
+00:09:23,560 --> 00:09:25,480
+Yes.
+
+94
+00:09:25,480 --> 00:09:32,520
+If I use it uh other way around so first lens, then the ground glass and then the panel.
+
+95
+00:09:32,520 --> 00:09:40,360
+Um it was a problem or a bigger problem with the uh viewing angle of the picture.
+
+96
+00:09:40,440 --> 00:09:41,640
+That's very interesting.
+
+97
+00:09:41,640 --> 00:09:51,880
+So you're using the ground glass to actually project what the L C D panel has on it and you're projecting that onto the ground glass.
+
+98
+00:09:51,880 --> 00:09:53,080
+Yes, yes.
+
+99
+00:09:53,080 --> 00:09:54,920
+That's very interesting.
+
+100
+00:09:54,920 --> 00:09:58,360
+I didn't get very good results doing it that way.
+
+101
+00:09:58,360 --> 00:10:09,080
+My best results was having the lens, spatial filter, then the ground glass to rear illuminate the L C D panel.
+
+102
+00:10:09,080 --> 00:10:10,280
+That's very interesting.
+
+103
+00:10:10,280 --> 00:10:10,680
+Yes.
+
+104
+00:10:11,000 --> 00:10:14,680
+And it may yeah, maybe due to your polarization maybe.
+
+105
+00:10:14,680 --> 00:10:15,720
+Maybe yes.
+
+106
+00:10:15,720 --> 00:10:16,440
+Yeah.
+
+107
+00:10:20,600 --> 00:10:24,600
+It's just that you're you're uh decreasing your viewing angle.
+
+108
+00:10:24,600 --> 00:10:25,720
+Is that correct?
+
+109
+00:10:25,720 --> 00:10:27,640
+Yes, th that is correct.
+
+110
+00:10:27,640 --> 00:10:38,840
+So the problem on the results hologram was um when I did it your way, um that I couldn't see the image if I look on the hologram from the sides.
+
+111
+00:10:38,840 --> 00:10:39,800
+Mm-hmm.
+
+112
+00:10:39,800 --> 00:10:45,000
+So the the brightness of the panel goes down in uh in a very uh sharp way.
+
+113
+00:10:45,920 --> 00:10:50,800
+So that I f I only it went a few degrees out of the middle of the hologram.
+
+114
+00:10:50,800 --> 00:10:52,960
+Uh I couldn't see any image.
+
+115
+00:10:52,960 --> 00:10:54,000
+Yes.
+
+116
+00:10:54,000 --> 00:10:59,200
+That would make sense by taking the ground glass and then placing it on the other side.
+
+117
+00:10:59,200 --> 00:10:59,840
+Yes.
+
+118
+00:10:59,840 --> 00:11:10,640
+Now I just got an email from Steve Michael last night with an update on him and his family and what he's been doing, and he's actually been working on the st uh stereograms as well.
+
+119
+00:11:10,640 --> 00:11:17,440
+And he s he put something in the email, which I'll have to include on the website, and I thank him very much for doing that.
+
+120
+00:11:17,440 --> 00:11:22,880
+But there's actually a material that's available that's called TransLum.
+
+121
+00:11:22,880 --> 00:11:25,520
+T-R-A-N-S-L-U-M.
+
+122
+00:11:25,520 --> 00:11:26,560
+Translam.
+
+123
+00:11:26,560 --> 00:11:26,960
+Yes.
+
+124
+00:11:26,960 --> 00:11:38,960
+And he said when you use this material to make your stereograms, it creates a much sharper image with better contrast compared to ground glass.
+
+125
+00:11:38,960 --> 00:11:39,600
+Yeah.
+
+126
+00:11:39,600 --> 00:11:51,280
+And there's a supplier in New York, if anyone here in the States is familiar w familiar with it, it's a B and H photo supply in New York City that sells this.
+
+127
+00:11:51,280 --> 00:11:55,760
+And he sent me a link, but I haven't had a chance to go on to uh the website yet.
+
+128
+00:11:55,760 --> 00:12:05,280
+But it's a replacement for the ground glass and it gives a much sharper image and also uh more contrast compared to using ground glass.
+
+129
+00:12:05,280 --> 00:12:06,000
+Yes.
+
+130
+00:12:06,000 --> 00:12:08,960
+So you might want to look into that as well, a p a piece of that.
+
+131
+00:12:08,960 --> 00:12:18,720
+And I imagine it's a very thin piece of film because he says he takes that film and places it between two pieces of glass.
+
+132
+00:12:18,720 --> 00:12:27,840
+So I imagine it must be a very thin sheet of film and it's used uh the same thing which is in the uh laptop panels, I think.
+
+133
+00:12:27,840 --> 00:12:38,200
+Um by uh disap assembling this uh laptop uh L C D there is also a very thin film um which is diffusing the light.
+
+134
+00:12:38,200 --> 00:12:40,040
+I see, that may be it.
+
+135
+00:12:40,040 --> 00:12:51,640
+And um I also tried this and this works also good as the ground glass, but um I had problems with uh stability there.
+
+136
+00:12:51,640 --> 00:12:52,680
+I see.
+
+137
+00:12:52,680 --> 00:12:57,400
+Because uh of the thinness it's um moving in the in the air.
+
+138
+00:12:57,400 --> 00:13:00,280
+Did you try placing it between two pieces of glass?
+
+139
+00:13:00,280 --> 00:13:01,160
+No not yet.
+
+140
+00:13:01,160 --> 00:13:02,040
+Yeah.
+
+141
+00:13:02,040 --> 00:13:05,000
+Perhaps it's uh this would be a try worth, yeah.
+
+142
+00:13:05,000 --> 00:13:05,320
+Yeah.
+
+143
+00:13:05,320 --> 00:13:07,240
+But it looks pretty good, huh?
+
+144
+00:13:07,240 --> 00:13:08,200
+Yes, yes.
+
+145
+00:13:08,200 --> 00:13:09,880
+Yeah.
+
+146
+00:13:09,880 --> 00:13:14,120
+Did you make any uh copies from your H1s to any H two copies yet?
+
+147
+00:13:14,120 --> 00:13:15,960
+I think you made a rainbow copy, didn't you?
+
+148
+00:13:15,960 --> 00:13:20,440
+Yes, I made uh one rainbow copy uh until now.
+
+149
+00:13:20,440 --> 00:13:31,720
+Um for a try because um I wanted to see if this is possible and uh how it looks um but I didn't have uh made any more since then.
+
+150
+00:13:31,720 --> 00:13:32,280
+Yeah.
+
+151
+00:13:32,280 --> 00:13:35,400
+And it uh came out very very well.
+
+152
+00:13:35,400 --> 00:13:41,400
+Um but it's um also the the problem with the viewing from the sides.
+
+153
+00:13:42,360 --> 00:13:44,920
+Um the master has had this problem.
+
+154
+00:13:44,920 --> 00:13:46,120
+Yeah.
+
+155
+00:13:46,280 --> 00:13:50,280
+How many exposures, how many slits are you using per image?
+
+156
+00:13:50,600 --> 00:13:53,160
+Um I used uh thirty-five slits.
+
+157
+00:13:53,160 --> 00:13:56,440
+Okay, is there any reason for that particular number?
+
+158
+00:13:56,920 --> 00:13:59,000
+Um yes.
+
+159
+00:13:59,000 --> 00:13:59,320
+Okay.
+
+160
+00:14:04,200 --> 00:14:05,000
+I see.
+
+161
+00:14:05,000 --> 00:14:09,480
+And was was there a reason is there a reason for nine millimeters of the slit?
+
+162
+00:14:09,560 --> 00:14:10,920
+No, there was no reason.
+
+163
+00:14:10,920 --> 00:14:13,000
+It was only uh the first try.
+
+164
+00:14:13,000 --> 00:14:14,040
+Okay, okay.
+
+165
+00:14:14,040 --> 00:14:21,120
+And the uh the film is about thirty centimeters if you cut them in uh in the one way.
+
+166
+00:14:21,120 --> 00:14:21,760
+Mm-hmm.
+
+167
+00:14:21,760 --> 00:14:26,160
+And so you came up up uh with about uh thirty five slits.
+
+168
+00:14:26,160 --> 00:14:27,120
+Okay, that sounds good.
+
+169
+00:14:29,120 --> 00:14:34,640
+Let me ask you this uh there's been quite a few people who are getting started with this now.
+
+170
+00:14:34,640 --> 00:14:40,240
+And most of the people are actually doing computer generated images.
+
+171
+00:14:40,240 --> 00:14:51,680
+Is there a reason why you're not doing or you didn't try doing people um do you plan on do you plan on doing any people?
+
+172
+00:14:51,680 --> 00:15:02,480
+Yes I I will try this, um but I thought it would be easier to take uh a computer gener generated picture for the first uh try.
+
+173
+00:15:02,480 --> 00:15:03,680
+Mm-hmm.
+
+174
+00:15:03,680 --> 00:15:12,640
+So um I had the problem I didn't not really know um how to take the pictures with the distances.
+
+175
+00:15:12,640 --> 00:15:14,880
+I think we we emailed about this.
+
+176
+00:15:14,880 --> 00:15:15,760
+Mm-hmm.
+
+177
+00:15:15,760 --> 00:15:23,520
+Um and so I thought it's it would be easier for the first time to do this with a computer generated uh picture.
+
+178
+00:15:23,520 --> 00:15:24,960
+Yeah.
+
+179
+00:15:24,960 --> 00:15:26,000
+Yeah.
+
+180
+00:15:26,000 --> 00:15:26,720
+Hm.
+
+181
+00:15:26,720 --> 00:15:29,200
+Where do you plan on going with this in the future?
+
+182
+00:15:29,200 --> 00:15:36,640
+Is it something that you plan on staying with or is it just a uh uh moving on point to something else?
+
+183
+00:15:36,960 --> 00:15:48,080
+No, I I think I in the future I will move back to normal uh display holography um with normal mastering and normal H one, H two copies.
+
+184
+00:15:48,080 --> 00:15:48,800
+Mm-hmm.
+
+185
+00:15:48,800 --> 00:15:51,560
+Um it it's only a try I would say.
+
+186
+00:15:51,560 --> 00:15:59,440
+Um it was interesting and uh is interesting still uh but I think it's not the holography I want to do in the next years.
+
+187
+00:15:59,440 --> 00:15:59,960
+Yeah.
+
+188
+00:15:59,680 --> 00:16:03,000
+You know you can do out outdoor photography too.
+
+189
+00:16:03,720 --> 00:16:04,440
+Pardon?
+
+190
+00:16:04,440 --> 00:16:09,320
+You can do uh outdoor photography and turn those into holograms too.
+
+191
+00:16:09,320 --> 00:16:09,960
+Yeah.
+
+192
+00:16:09,960 --> 00:16:12,200
+I mean it's almost limitless.
+
+193
+00:16:12,440 --> 00:16:14,040
+It would be interesting, yes.
+
+194
+00:16:14,280 --> 00:16:15,320
+That's right.
+
+195
+00:16:15,320 --> 00:16:17,560
+What are your personal plans with holography?
+
+196
+00:16:17,560 --> 00:16:26,760
+Is it something that you'd like to pursue and do more of almost as a professional or is it something that you would just like to keep as a hobby?
+
+197
+00:16:26,760 --> 00:16:29,080
+No, I I want to keep it as a hobby.
+
+198
+00:16:29,080 --> 00:16:42,120
+Um I'm very interested in holog holography and I like to uh view holograms and uh to go to museums and so on and to collect holograms but um I don't want to do this as professional.
+
+199
+00:16:42,120 --> 00:16:42,840
+Yeah.
+
+200
+00:16:42,840 --> 00:16:43,640
+Why is that?
+
+201
+00:16:43,640 --> 00:16:46,280
+Why why is that?
+
+202
+00:16:46,280 --> 00:16:50,600
+Um I I can't can't say that.
+
+203
+00:16:50,600 --> 00:16:56,920
+Um I I'm in a good job and this is okay for me.
+
+204
+00:16:56,920 --> 00:16:58,040
+Oh okay.
+
+205
+00:16:58,040 --> 00:17:01,160
+And it's very interesting for me.
+
+206
+00:17:01,160 --> 00:17:12,760
+And so holography wouldn't wouldn't uh be the yes the the goal to to go professional.
+
+207
+00:17:12,760 --> 00:17:25,400
+Let me ask you this if the situation were different and you were able to make just as much money doing holography as you are in your current job would would that change your mind?
+
+208
+00:17:25,400 --> 00:17:29,560
+Would you do holography for the same money that you're getting now?
+
+209
+00:17:30,920 --> 00:17:32,280
+Maybe, perhaps, yes.
+
+210
+00:17:32,280 --> 00:17:32,640
+Maybe.
+
+211
+00:17:32,640 --> 00:17:33,040
+Okay.
+
+212
+00:17:33,040 --> 00:17:45,120
+So it it's it's more of a career choice because of the fact that you can't support yourself the same way with holography as you could with the job that you now have.
+
+213
+00:17:45,120 --> 00:17:50,640
+That's that's more the reason rather than the fact that you wouldn't want to do holography all the time.
+
+214
+00:17:44,920 --> 00:17:52,400
+Yes, yes, maybe yes.
+
+215
+00:17:52,720 --> 00:17:57,200
+But as time goes on there may be more and more opportunities.
+
+216
+00:17:57,200 --> 00:18:00,480
+You could also design logos for companies too.
+
+217
+00:18:00,480 --> 00:18:01,200
+Yes.
+
+218
+00:18:01,200 --> 00:18:02,080
+You know?
+
+219
+00:18:02,080 --> 00:18:03,440
+There's a lot of different things.
+
+220
+00:18:03,440 --> 00:18:07,040
+Do you do any workshops uh to your area in Germany?
+
+221
+00:18:07,040 --> 00:18:08,320
+Um not yet.
+
+222
+00:18:08,320 --> 00:18:14,480
+Um next year um I plan to do a course as my uh at my university.
+
+223
+00:18:14,480 --> 00:18:15,040
+Okay.
+
+224
+00:18:15,040 --> 00:18:17,600
+I work at university.
+
+225
+00:18:17,600 --> 00:18:24,640
+And um perhaps in the next year there is a chance to a small uh introducing for students to holography.
+
+226
+00:18:24,640 --> 00:18:25,520
+Mm-hmm.
+
+227
+00:18:29,120 --> 00:18:30,240
+Yes, I have.
+
+228
+00:18:30,240 --> 00:18:33,520
+Did you say like a hundred or a h over a hundred holograms?
+
+229
+00:18:33,520 --> 00:18:41,920
+Yes, I don't know the the correct number, but I think they would be about one hundred, two hundred, I think in this uh region, yes.
+
+230
+00:18:41,920 --> 00:18:43,760
+Where do you buy these holograms?
+
+231
+00:18:43,760 --> 00:18:53,520
+Because I have to tell you, if I wanted to buy a hologram right now, I don't even know where I would go, outside of online of course, but I don't even know where I would go to buy one.
+
+232
+00:18:54,240 --> 00:19:02,640
+Yes, um some holograms um I bought in in online shops, um which are there in the internet.
+
+233
+00:19:02,640 --> 00:19:21,680
+And uh some I bought one from local uh yes uh shops in the in the city um where holograms are on display yes, in in uh normal warehouses, I think.
+
+234
+00:19:21,680 --> 00:19:23,600
+I see.
+
+235
+00:19:23,600 --> 00:19:28,080
+Um so you you have shops there that sell holograms throughout w the city.
+
+236
+00:19:28,320 --> 00:19:28,960
+Some some.
+
+237
+00:19:28,960 --> 00:19:32,600
+But they are uh getting more fewer in the last years.
+
+238
+00:19:32,600 --> 00:19:35,400
+So a few years ago there were more.
+
+239
+00:19:35,400 --> 00:19:36,440
+Mm-hmm.
+
+240
+00:19:36,440 --> 00:19:40,600
+And um another supply is is eBay.
+
+241
+00:19:40,600 --> 00:19:41,400
+Yes.
+
+242
+00:19:41,400 --> 00:19:42,520
+Yes.
+
+243
+00:19:45,800 --> 00:19:51,400
+Yeah, pick a couple holograms and tell me about your favorite ones that you have in your collection.
+
+244
+00:19:51,400 --> 00:19:52,760
+What are they?
+
+245
+00:19:52,760 --> 00:20:03,880
+Okay, um I think one is um is uh stereogram a multiplex stereogram from uh Lloyd Cross I think it is.
+
+246
+00:20:03,880 --> 00:20:05,080
+Oh really?
+
+247
+00:20:05,080 --> 00:20:09,160
+It's it's uh a girl on under a shower.
+
+248
+00:20:09,160 --> 00:20:10,120
+Mm-hmm.
+
+249
+00:20:10,120 --> 00:20:15,080
+So uh when you went by the um the image moves uh the film.
+
+250
+00:20:15,080 --> 00:20:19,080
+It's uh for from the format it's like the uh the KISS hologram.
+
+251
+00:20:19,080 --> 00:20:21,160
+It's uh it's a half around cylinder.
+
+252
+00:20:21,160 --> 00:20:22,040
+Yes.
+
+253
+00:20:22,040 --> 00:20:29,560
+And uh with a couple of images and when you went by the uh girl smiles out of the shower and uh it's very nice.
+
+254
+00:20:29,560 --> 00:20:39,080
+Um but this hologram has a has uh mark on the upper right side where it uh went wet I think.
+
+255
+00:20:39,080 --> 00:20:39,960
+I see.
+
+256
+00:20:39,960 --> 00:20:43,560
+So the the images on on one place it's distorted.
+
+257
+00:20:43,560 --> 00:20:45,960
+I see, I see.
+
+258
+00:20:45,960 --> 00:20:46,680
+Yes.
+
+259
+00:20:46,680 --> 00:20:50,120
+This is this is one of my favorites I would say.
+
+260
+00:20:50,120 --> 00:20:59,080
+And um then is there for example um it's the more common one, the Stonehenge.
+
+261
+00:20:59,080 --> 00:21:01,240
+I don't know if you know it.
+
+262
+00:21:01,240 --> 00:21:05,000
+There is uh it's I think for MLAS a holograms.
+
+263
+00:21:05,000 --> 00:21:11,320
+Um it's a um normal image from the which you could buy in in in in mass production I think.
+
+264
+00:21:11,320 --> 00:21:12,600
+Yeah, it's a film.
+
+265
+00:21:12,600 --> 00:21:14,600
+It yes yes it's film.
+
+266
+00:21:14,600 --> 00:21:17,520
+Um it's Stonehenge um motive.
+
+267
+00:21:17,520 --> 00:21:20,320
+This is uh really nice hologram I think.
+
+268
+00:21:20,320 --> 00:21:21,680
+Mm-hmm.
+
+269
+00:21:21,680 --> 00:21:24,480
+Where do you keep your holograms?
+
+270
+00:21:24,480 --> 00:21:26,480
+Do you have them in storage somewhere?
+
+271
+00:21:26,480 --> 00:21:29,360
+You don't keep them just right in your apartment, do you?
+
+272
+00:21:29,360 --> 00:21:31,600
+Yes I I have them in the in my apartment.
+
+273
+00:21:31,600 --> 00:21:46,160
+I I have a room where um where I have them uh in some cartons and uh some uh yes all all in my apartment improv.
+
+274
+00:21:46,240 --> 00:21:50,480
+Do you ever do any exhibits you could take those holograms and put shows together.
+
+275
+00:21:50,480 --> 00:21:55,440
+I'm sure there would be places that would be very happy to have an exhibit in your area.
+
+276
+00:21:55,440 --> 00:21:58,720
+Yes not yet but um uh I'm thinking of this yes.
+
+277
+00:21:58,720 --> 00:22:00,400
+Yeah, yeah.
+
+278
+00:22:00,640 --> 00:22:02,720
+We're coming up on twenty five minutes again.
+
+279
+00:22:02,720 --> 00:22:10,880
+I like to keep this close to a half hour, especially for you know folks overseas that have to download these big files anymore.
+
+280
+00:22:10,880 --> 00:22:11,520
+Yes.
+
+281
+00:22:11,520 --> 00:22:17,280
+Uh is there anything that you'd like to talk about that I haven't asked about yet?
+
+282
+00:22:17,360 --> 00:22:27,040
+Ooh no I'm I'm no I have no idea of this how has the holography forum helped you?
+
+283
+00:22:27,040 --> 00:22:50,120
+Oh yes the holography forum is a very very good thing guys uh thing I think um they they have helped me in in various things um and it's good to discuss problems uh which other have too and um perhaps they had it's a p a few times uh earlier and so have already solutions for this thing.
+
+284
+00:22:50,120 --> 00:23:05,640
+But um I think most of the people in the holography forum um are either beginners or they are going with D Z G and uh so it's in some things not not very helpful.
+
+285
+00:23:05,640 --> 00:23:08,920
+Does DCG interest you at all?
+
+286
+00:23:08,920 --> 00:23:10,680
+Um no, no not at all.
+
+287
+00:23:10,680 --> 00:23:13,720
+I've never gotten involved with DCG at all.
+
+288
+00:23:13,720 --> 00:23:20,360
+No I'm I'm not too so I only use uh sil silver halide.
+
+289
+00:23:20,360 --> 00:23:23,800
+Are you using a uh helium neon laser?
+
+290
+00:23:23,800 --> 00:23:24,280
+Yes.
+
+291
+00:23:24,280 --> 00:23:26,280
+Yes, and what power are you using?
+
+292
+00:23:26,280 --> 00:23:28,200
+Uh it's uh thirty five millibet.
+
+293
+00:23:28,360 --> 00:23:29,080
+That's very nice.
+
+294
+00:23:29,080 --> 00:23:30,520
+What model is that?
+
+295
+00:23:30,520 --> 00:23:36,360
+It's uh uniface um I think it's uh eleven forty five.
+
+296
+00:23:36,440 --> 00:23:37,160
+I see.
+
+297
+00:23:37,160 --> 00:23:41,160
+Did you purchase that off of uh one of the online places like eBay?
+
+298
+00:23:41,160 --> 00:23:41,720
+Yes.
+
+299
+00:23:41,720 --> 00:23:43,000
+Yeah.
+
+300
+00:23:43,000 --> 00:23:44,360
+That's very nice.
+
+301
+00:23:44,360 --> 00:23:46,200
+That's a nice power range.
+
+302
+00:23:46,200 --> 00:23:48,520
+Yes, it's okay for for for work.
+
+303
+00:23:51,320 --> 00:23:51,800
+Mm-hmm.
+
+304
+00:23:51,800 --> 00:23:52,360
+Mm-hmm.
+
+305
+00:23:52,360 --> 00:23:52,920
+Yes.
+
+306
+00:23:52,920 --> 00:23:58,600
+Yeah, I was it was very expensive to buy a five milliwatt laser when I got started.
+
+307
+00:23:58,600 --> 00:23:59,960
+Very expensive.
+
+308
+00:23:59,960 --> 00:24:02,200
+Just f just for five milliwatts.
+
+309
+00:24:02,200 --> 00:24:05,000
+Well I want to thank you very much for being on the show.
+
+310
+00:24:05,000 --> 00:24:05,560
+Okay.
+
+311
+00:24:05,560 --> 00:24:07,800
+Do you have a website of your own?
+
+312
+00:24:07,800 --> 00:24:09,160
+Yes I have a website.
+
+313
+00:24:09,160 --> 00:24:12,760
+Why don't you send me the address Yes I can do that.
+
+314
+00:24:12,760 --> 00:24:16,920
+Uh if you haven't already sent it to me, send it to me again anyway and I'll get that up.
+
+315
+00:24:17,320 --> 00:24:18,520
+I can do that, yes.
+
+316
+00:24:18,520 --> 00:24:23,880
+And I'll put that up on the show and I may be losing you.
+
+317
+00:24:23,880 --> 00:24:25,160
+Are you still there?
+
+318
+00:24:25,160 --> 00:24:31,880
+Yes I'm I'm here I uh I think it was my mobile which was lying in the Okay.
+
+319
+00:24:31,880 --> 00:24:34,600
+I've never heard anything like that before.
+
+320
+00:24:34,600 --> 00:24:42,600
+Um, I'll put your I'll put the link to your website up on the uh Hollow Talk page and people can visit your website while they're uh listening to the show.
+
+321
+00:24:42,600 --> 00:24:43,800
+Okay, yes do that.
+
+322
+00:24:43,800 --> 00:24:44,200
+Alright.
+
+323
+00:24:44,200 --> 00:24:50,800
+And if you're ever in the States, please give me a call and come by for a visit and we'll have lunch or dinner.
+
+324
+00:24:50,800 --> 00:24:51,760
+How's that?
+
+325
+00:24:51,760 --> 00:24:52,160
+Okay.

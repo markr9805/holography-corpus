@@ -1,0 +1,263 @@
+1
+00:00:00,400 --> 00:00:02,720
+Hello everyone, this is Frank Defratis.
+
+2
+00:00:02,800 --> 00:00:08,560
+Welcome to another week of HoloTalk for the week of April 26th, 1999.
+
+3
+00:00:08,560 --> 00:00:11,520
+And this is a special week here on HoloTalk.
+
+4
+00:00:11,520 --> 00:00:25,920
+And just for the HoloTalk listeners, I will be giving a web page so that you can go to the page itself and see the results of the tests using the 35 milliwatt laser diode module.
+
+5
+00:00:25,920 --> 00:00:31,680
+And folks, I just want to announce right now that it worked way beyond my expectations.
+
+6
+00:00:31,680 --> 00:00:42,240
+I didn't have a lot of time to work on it this week, so the shot that I did, I actually combined a few different elements in order to get a few different results into one shot.
+
+7
+00:00:42,240 --> 00:00:50,080
+In fact, the laser itself looked so good that uh I just felt comfortable going ahead and doing it.
+
+8
+00:00:50,080 --> 00:00:55,600
+And what I did is I shot a piece of uh 4x5 inch film.
+
+9
+00:00:55,600 --> 00:01:09,600
+But the reason why this test was so important was because you could do some pretty large format holograms using a 35 milliwatt light source, uh helium neon continuous wave light source.
+
+10
+00:01:09,600 --> 00:01:19,440
+And I was hoping that this module would uh show some promise in allowing us to do the same thing inexpensively.
+
+11
+00:01:19,440 --> 00:01:31,440
+Um as far as I can tell, the cheapest I could find this the diode itself was $33 on the web for this 35 milliwatt diode, and it's at 658 nanometers.
+
+12
+00:01:31,440 --> 00:01:41,920
+And uh when you take into consideration that the uh driver is going to cost you another 30, the collimating lens is going to cost you another 20 or 30, and the barrel another 20.
+
+13
+00:01:41,920 --> 00:01:58,400
+You're looking at just over a little over 100 to put this 35 milliwatt diode module together compared to many thousands of dollars for purchasing a new 35 milliwatt helium neon laser and getting the same performance.
+
+14
+00:01:58,400 --> 00:02:04,920
+So it's a it was an incredible test that I was hoping with all my heart would work.
+
+15
+00:02:05,400 --> 00:02:12,360
+And when I got the the module finally set up and we powered this baby up, it looks so so beautiful.
+
+16
+00:02:12,360 --> 00:02:27,000
+Now I had a few options put into it, such as anamorphic prisms to circularize the beam, and I don't think that's absolutely necessary, but I wanted to experiment with that a little bit.
+
+17
+00:02:27,000 --> 00:02:31,400
+And you'll see the photos of all this and the results.
+
+18
+00:02:31,400 --> 00:02:33,640
+So once again I shot the piece of Carl.
+
+19
+00:02:33,640 --> 00:02:43,880
+I don't know if you're getting sick of the piece of carl all the time, every time you log on to the page, but I shoot this piece of carl because I can compare it to the other shots that have been made with all the different diodes.
+
+20
+00:02:43,880 --> 00:02:53,800
+So once again I shot the carl, but the difference this time was that I spread the light out so that it would cover a 30 by 40 inch plate.
+
+21
+00:02:53,800 --> 00:02:59,560
+So in other words, the holographic setup was set up to shoot a 30 by 40 centimeter.
+
+22
+00:02:59,560 --> 00:03:05,480
+I'm sorry, I think I may have said inches, and I'm not going to edit this at all because it's almost eight o'clock now, and I've got to get this up.
+
+23
+00:03:05,480 --> 00:03:11,480
+So I meant 30 by 40 centimeter plate, which is about 12 by 16 inches, I believe.
+
+24
+00:03:11,480 --> 00:03:14,680
+That's what the system was set up to shoot.
+
+25
+00:03:14,680 --> 00:03:24,920
+And then into that system, I put the 4x5 inch piece of film to shoot the carl, and I explained that process on the page as well.
+
+26
+00:03:24,920 --> 00:03:31,000
+And you can go to the web page, here's the address, and uh the addresses.
+
+27
+00:03:31,000 --> 00:03:50,080
+Well, if you open your browser up, get your browser back in the front in front of the uh real audio player, you'll see that the actual page that you're on right now for HoloTalk is www.holanworld.com slash holo slash holo talk.html.
+
+28
+00:03:50,320 --> 00:04:01,360
+The only thing you need to change is the holotalk.html, and you want to change that to diode 14.html.
+
+29
+00:04:01,360 --> 00:04:11,520
+That's diode14 D I O D E 14.html, and it will take you to the page that has the report and all the photos.
+
+30
+00:04:11,520 --> 00:04:29,440
+And uh later on in the week, I haven't had any time this weekend to do this, but later on in the week I will be doing some higher quality uh shots and a little bit further on down the road actually doing a 30 by 40 centimeter uh glass plate hologram using this diode.
+
+31
+00:04:29,760 --> 00:04:37,840
+I don't have any 30 by 40 uh centimeter plates in here, but I do have one eight by ten left, and I will probably use that eight by ten as well.
+
+32
+00:04:37,840 --> 00:04:42,480
+So it it was well beyond my expectations.
+
+33
+00:04:42,480 --> 00:04:44,320
+I didn't really know what to think.
+
+34
+00:04:44,320 --> 00:04:45,120
+Would it work?
+
+35
+00:04:45,120 --> 00:04:46,000
+Would it not work?
+
+36
+00:04:46,000 --> 00:04:47,520
+It was a long shot.
+
+37
+00:04:47,520 --> 00:04:58,560
+Anyone who would say that you could get 35 milliwatts of power and get a nice hologram out of something that's only going to cost you 100 and some dollars uh would be crazy just a few months ago.
+
+38
+00:04:58,560 --> 00:05:03,040
+But here we are today, and it's uh it is now a reality.
+
+39
+00:05:03,040 --> 00:05:12,160
+So large format, and and when you get up into around 30 by 40 centimeter plates, that's considered the I would imagine the lower end of large format.
+
+40
+00:05:12,160 --> 00:05:16,160
+Large format holography is now within the reach of uh so many people.
+
+41
+00:05:16,160 --> 00:05:29,960
+In fact, for 100 and some dollars, I know there's a couple catalogs with used five milliwatt laser heads plus the power supplies that are going to cost you over a hundred dollars, and this is thirty-five milliwatts.
+
+42
+00:05:29,680 --> 00:05:31,400
+And the beam is beautiful.
+
+43
+00:05:31,480 --> 00:05:39,160
+Um probably due to the prisms, you know, the beam profile itself, but it was so beautifully spatial filtered onto the white light.
+
+44
+00:05:39,160 --> 00:05:41,560
+Oh, it was it's it's hypnotic.
+
+45
+00:05:41,960 --> 00:05:47,560
+Six hundred and fifty eight nanometers is a beautiful, beautiful um wavelength to work with.
+
+46
+00:05:47,560 --> 00:05:49,720
+It's uh it's intoxicating.
+
+47
+00:05:49,720 --> 00:05:50,440
+It really is.
+
+48
+00:05:50,440 --> 00:05:51,560
+It's beautiful.
+
+49
+00:05:51,560 --> 00:05:57,880
+Um and it didn't have that the wavelength did not have that much of an adverse effect on the final hologram.
+
+50
+00:05:57,880 --> 00:06:05,880
+Uh you would think you you're that far away from 633 that uh you know you wouldn't get very nice results from it but that is absolutely not true at all.
+
+51
+00:06:05,880 --> 00:06:09,160
+I did not treat the film with any triethanolamine or anything like that.
+
+52
+00:06:09,160 --> 00:06:15,880
+I just I'm telling you I just took that film sandwiched it between two pieces of p uh glass, no index matching fluid, nothing.
+
+53
+00:06:15,880 --> 00:06:20,840
+I just wanted to see if it would work and that's uh the shot that I have up there for you.
+
+54
+00:06:20,840 --> 00:06:37,560
+So uh if that's how good it gets um working that quickly and without that much care, imagine what it would do uh once we sit down and we start to improve the quality and actually do some very beautiful work.
+
+55
+00:06:37,560 --> 00:06:39,640
+So it's a short show this week.
+
+56
+00:06:39,640 --> 00:06:55,000
+Uh I have to uh actually take this I'm not gonna edit it but I still have to uh compress it with real audio and then get it up to the web upload it and uh want to thank you very much for tuning in and this was special just for Holo Talk listeners.
+
+57
+00:06:55,000 --> 00:07:03,280
+I do not have any links to this page uh for anyone else except for Holo Talk listeners uh for this week.
+
+58
+00:07:03,280 --> 00:07:07,760
+And then next week I will uh make that page available to everyone.
+
+59
+00:07:07,760 --> 00:07:13,760
+But I wanted Holo Talk listeners to be the first ones to be able to see this and read the report.
+
+60
+00:07:13,760 --> 00:07:40,000
+And hopefully, I really do hope that a few of you decide to give this a try because you know it even if you're working with a 20-watt argon or higher, this is just so addicting to be able to take one of these little tiny diode modules and have that much intensity and that much light come out of it that you can just spread that beam out and and uh do large holograms with it.
+
+61
+00:07:40,000 --> 00:07:43,120
+It's just and then have the holograms turn out very, very nice.
+
+62
+00:07:43,120 --> 00:07:45,360
+It's uh it's just a wonderful thing.
+
+63
+00:07:45,360 --> 00:07:47,280
+So thank you very much for tuning in.
+
+64
+00:07:47,280 --> 00:07:51,440
+I'm gonna head out and uh enjoy the report.
+
+65
+00:07:51,440 --> 00:07:56,640
+Send me an email if you want to chat about it a little bit, and uh I'll talk to you next week.
+
+66
+00:07:56,640 --> 00:08:02,960
+Take care.
