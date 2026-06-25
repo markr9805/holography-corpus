@@ -131,6 +131,31 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
 
 .card-excerpt {
     color: var(--text-secondary);
@@ -329,144 +354,145 @@ footer {
 </p>
 </div>
 </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (16)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (7)</button></div>
 <h2>Videos</h2>
-<div class="card-grid">
+<div class="card-grid" id="video-grid">
 
-        <a href="../videos/psychedelic-stepwell-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/psychedelic-stepwell-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Psychedelic Stepwell - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 20s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 20s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/how-much-is-that-zebra-in-the-window-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/how-much-is-that-zebra-in-the-window-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>How much is that zebra in the window? - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 23s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 23s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/redeemer-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/redeemer-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Redeemer - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 24s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 24s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/making-a-point-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/making-a-point-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Making a point - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 24s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 24s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/spike-pit-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/spike-pit-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Spike pit - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/spacewalk-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/spacewalk-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Spacewalk - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/collision-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/collision-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Collision - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/eschers-cubic-sphere-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/eschers-cubic-sphere-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Eschers Cubic Sphere - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 26s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 26s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/mayan-rains-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/mayan-rains-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Mayan Rains - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 26s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 26s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/serenity-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/serenity-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Serenity - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 28s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 28s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/spike-basket-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/spike-basket-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Spike Basket - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 32s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 32s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-portal-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/holographic-portal-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Holographic Portal - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 34s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 34s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/spherical-point-hologram-by-joshua-dellay.html" class="card">
+        <a href="../videos/spherical-point-hologram-by-joshua-dellay.html" class="card" data-relevance="holography">
             <h3>Spherical point - Hologram by Joshua Dellay</h3>
-            <div class="card-meta">Unknown · 0m 36s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 36s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/geola-g2j-pulse-laser-seeing-green.html" class="card">
+        <a href="../videos/geola-g2j-pulse-laser-seeing-green.html" class="card" data-relevance="holography">
             <h3>Geola G2J pulse laser seeing green?!?</h3>
-            <div class="card-meta">Unknown · 1m 4s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 4s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/master-oscillator-q-switched-pulses-a-step-closer-to-resurrection.html" class="card">
+        <a href="../videos/master-oscillator-q-switched-pulses-a-step-closer-to-resurrection.html" class="card" data-relevance="holography-adjacent">
             <h3>Master Oscillator Q-Switched Pulses - A step closer to  resurrection</h3>
-            <div class="card-meta">Unknown · 2m 18s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 18s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/vevor-faceting-machine-cam-profiler-v1-prototype.html" class="card">
+        <a href="../videos/vevor-faceting-machine-cam-profiler-v1-prototype.html" class="card" data-relevance="holography-adjacent">
             <h3>Vevor Faceting Machine - Cam Profiler v1 Prototype </h3>
-            <div class="card-meta">Unknown · 2m 26s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 26s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/vevor-faceting-machine-height-adjustable-mast-ham-v1-prototype.html" class="card">
+        <a href="../videos/vevor-faceting-machine-height-adjustable-mast-ham-v1-prototype.html" class="card" data-relevance="holography-adjacent">
             <h3>Vevor Faceting Machine - Height Adjustable Mast (HAM) V1 Prototype </h3>
-            <div class="card-meta">Unknown · 2m 48s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 48s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/vevor-faceting-machine-height-adjustment-mast-quick-start-install.html" class="card">
+        <a href="../videos/vevor-faceting-machine-height-adjustment-mast-quick-start-install.html" class="card" data-relevance="holography-adjacent">
             <h3>Vevor Faceting Machine - Height Adjustment Mast Quick Start Install</h3>
-            <div class="card-meta">Unknown · 3m 4s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 4s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/progress-on-the-geola-g2j-amplifier-supply.html" class="card">
+        <a href="../videos/progress-on-the-geola-g2j-amplifier-supply.html" class="card" data-relevance="holography-adjacent">
             <h3>Progress on the Geola G2J Amplifier Supply</h3>
-            <div class="card-meta">Unknown · 3m 12s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 12s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/vevor-faceting-machine-mods.html" class="card">
+        <a href="../videos/vevor-faceting-machine-mods.html" class="card" data-relevance="holography-adjacent">
             <h3>Vevor Faceting Machine - Mods</h3>
-            <div class="card-meta">Unknown · 3m 14s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 14s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/pulse-laser-cavity-alignment-process.html" class="card">
+        <a href="../videos/pulse-laser-cavity-alignment-process.html" class="card" data-relevance="holography">
             <h3>Pulse laser cavity alignment process</h3>
-            <div class="card-meta">Unknown · 4m 37s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 37s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/amplifier-supply-updates-bad-mosfets.html" class="card">
+        <a href="../videos/amplifier-supply-updates-bad-mosfets.html" class="card" data-relevance="holography-adjacent">
             <h3>Amplifier supply updates, bad MOSFETs</h3>
-            <div class="card-meta">Unknown · 8m 11s · Youtube</div>
+            <div class="card-meta">Unknown · 8m 11s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/isdh-2024-tour-of-tung-h-jeong-holography-gallery-lake-forest-college.html" class="card">
+        <a href="../videos/isdh-2024-tour-of-tung-h-jeong-holography-gallery-lake-forest-college.html" class="card" data-relevance="holography">
             <h3>ISDH 2024 Tour of Tung H. Jeong Holography Gallery - Lake Forest College @ Lillard Science Center</h3>
-            <div class="card-meta">Unknown · 30m 30s · Youtube</div>
+            <div class="card-meta">Unknown · 30m 30s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 </div>
@@ -476,5 +502,17 @@ footer {
 <p>Josh Dellay · 23 videos</p>
 </div>
 </footer>
+<script>
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    document.querySelectorAll("#video-grid .card").forEach(card => {
+      card.style.display = (filter === "all" || card.dataset.relevance === filter) ? "" : "none";
+    });
+  });
+});
+</script>
 </body>
 </html>

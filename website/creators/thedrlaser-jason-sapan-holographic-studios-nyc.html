@@ -131,6 +131,31 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
 
 .card-excerpt {
     color: var(--text-secondary);
@@ -329,102 +354,103 @@ footer {
 </p>
 </div>
 </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (9)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (6)</button><button class="filter-btn" data-filter="off-topic">📎 Off-topic (1)</button></div>
 <h2>Videos</h2>
-<div class="card-grid">
+<div class="card-grid" id="video-grid">
 
-        <a href="../videos/holographic-movie-of-woman.html" class="card">
+        <a href="../videos/holographic-movie-of-woman.html" class="card" data-relevance="holography">
             <h3>Holographic movie of woman</h3>
-            <div class="card-meta">Unknown · 0m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 7s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-studios-greeting.html" class="card">
+        <a href="../videos/holographic-studios-greeting.html" class="card" data-relevance="holography">
             <h3>Holographic Studios greeting</h3>
-            <div class="card-meta">Unknown · 0m 10s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 10s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/ghost-by-holographic-studios.html" class="card">
+        <a href="../videos/ghost-by-holographic-studios.html" class="card" data-relevance="holography">
             <h3>Ghost by Holographic Studios</h3>
-            <div class="card-meta">Unknown · 0m 28s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 28s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/save-holographic-studios.html" class="card">
+        <a href="../videos/save-holographic-studios.html" class="card" data-relevance="holography">
             <h3>Save Holographic Studios</h3>
-            <div class="card-meta">Unknown · 0m 42s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 42s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographer-fan-page-holography-holograms-and-laser.html" class="card">
+        <a href="../videos/holographer-fan-page-holography-holograms-and-laser.html" class="card" data-relevance="holography">
             <h3>Holographer fan page - holography, holograms, and laser</h3>
-            <div class="card-meta">Unknown · 1m 0s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 0s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-studios-classes.html" class="card">
+        <a href="../videos/holographic-studios-classes.html" class="card" data-relevance="holography">
             <h3>Holographic Studios - Classes</h3>
-            <div class="card-meta">Unknown · 1m 1s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 1s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-interferometer.html" class="card">
+        <a href="../videos/the-interferometer.html" class="card" data-relevance="holography">
             <h3>the interferometer</h3>
-            <div class="card-meta">Unknown · 1m 3s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 3s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-studios-hologram-holography-and-lasers.html" class="card">
+        <a href="../videos/holographic-studios-hologram-holography-and-lasers.html" class="card" data-relevance="holography">
             <h3>Holographic Studios - hologram, holography, and lasers.</h3>
-            <div class="card-meta">Unknown · 1m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 7s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/laser-safety-101-deadly-lasers.html" class="card">
+        <a href="../videos/laser-safety-101-deadly-lasers.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser Safety 101 - &quot;Deadly lasers&quot;</h3>
-            <div class="card-meta">Unknown · 1m 27s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 27s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/laser-collection-laser-eye-danger.html" class="card">
+        <a href="../videos/laser-collection-laser-eye-danger.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser collection -  Laser Eye Danger</h3>
-            <div class="card-meta">Unknown · 1m 31s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 31s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/laser-safety-102-danger-electrical-shock.html" class="card">
+        <a href="../videos/laser-safety-102-danger-electrical-shock.html" class="card" data-relevance="holography-adjacent">
             <h3>Laser Safety 102 - Danger - Electrical Shock</h3>
-            <div class="card-meta">Unknown · 1m 34s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 34s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/laser-works-videoavi.html" class="card">
+        <a href="../videos/laser-works-videoavi.html" class="card" data-relevance="holography-adjacent">
             <h3>laser works video.AVI</h3>
-            <div class="card-meta">Unknown · 2m 9s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 9s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/julia-90-degrees.html" class="card">
+        <a href="../videos/julia-90-degrees.html" class="card" data-relevance="holography-adjacent">
             <h3>Julia 90 degrees</h3>
-            <div class="card-meta">Unknown · 2m 29s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 29s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/julia-corel-01.html" class="card">
+        <a href="../videos/julia-corel-01.html" class="card" data-relevance="holography-adjacent">
             <h3>Julia Corel 01</h3>
-            <div class="card-meta">Unknown · 2m 29s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 29s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/canadian-radio-am680-cjob-don-cook-news-anchor.html" class="card">
+        <a href="../videos/canadian-radio-am680-cjob-don-cook-news-anchor.html" class="card" data-relevance="off-topic">
             <h3>Canadian Radio AM680 CJOB  Don Cook, News Anchor</h3>
-            <div class="card-meta">Unknown · 3m 33s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 33s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/canceling-light-waves-with-an-interferometer.html" class="card">
+        <a href="../videos/canceling-light-waves-with-an-interferometer.html" class="card" data-relevance="holography">
             <h3>canceling light waves with an interferometer</h3>
-            <div class="card-meta">Unknown · 4m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 7s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 </div>
@@ -434,5 +460,17 @@ footer {
 <p>TheDrlaser (Jason Sapan / Holographic Studios NYC) · 16 videos</p>
 </div>
 </footer>
+<script>
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    document.querySelectorAll("#video-grid .card").forEach(card => {
+      card.style.display = (filter === "all" || card.dataset.relevance === filter) ? "" : "none";
+    });
+  });
+});
+</script>
 </body>
 </html>

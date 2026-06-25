@@ -1,0 +1,3632 @@
+1
+00:00:01,400 --> 00:00:06,000
+[Music]
+
+2
+00:00:03,719 --> 00:00:08,240
+hello everyone this is Frank defus and
+
+3
+00:00:06,000 --> 00:00:10,840
+welcome to holot talk the internet's
+
+4
+00:00:08,240 --> 00:00:13,000
+laser and holography talk show enjoyed
+
+5
+00:00:10,840 --> 00:00:17,519
+in over 42 countries throughout the
+
+6
+00:00:13,000 --> 00:00:17,519
+world and now here's this week's
+
+7
+00:00:17,680 --> 00:00:23,039
+[Music]
+
+8
+00:00:20,080 --> 00:00:24,920
+show Larry how are you it's Frank defus
+
+9
+00:00:23,039 --> 00:00:26,880
+hi Frank good to hear from you early
+
+10
+00:00:24,920 --> 00:00:28,599
+morning there for you huh yeah it is
+
+11
+00:00:26,880 --> 00:00:30,679
+just a little before 7:00 a.m. and just
+
+12
+00:00:28,599 --> 00:00:32,559
+having my morning coffee and
+
+13
+00:00:30,679 --> 00:00:35,280
+try to get woken up a little bit here
+
+14
+00:00:32,559 --> 00:00:37,399
+yeah I want to thank you first for uh
+
+15
+00:00:35,280 --> 00:00:39,160
+sending me the email it's always
+
+16
+00:00:37,399 --> 00:00:40,600
+interesting to see people doing the work
+
+17
+00:00:39,160 --> 00:00:42,280
+it takes a lot of work to get all that
+
+18
+00:00:40,600 --> 00:00:43,680
+information compiled and placed on the
+
+19
+00:00:42,280 --> 00:00:46,520
+web so it's good to see that people
+
+20
+00:00:43,680 --> 00:00:49,079
+actually access it and use it right I've
+
+21
+00:00:46,520 --> 00:00:51,520
+made good use of your website actually
+
+22
+00:00:49,079 --> 00:00:53,039
+usually with a show I have someone start
+
+23
+00:00:51,520 --> 00:00:54,600
+off by telling a little bit of their
+
+24
+00:00:53,039 --> 00:00:56,359
+history and holography I understand that
+
+25
+00:00:54,600 --> 00:00:59,280
+you've been involved for about 2 years
+
+26
+00:00:56,359 --> 00:01:01,239
+so relatively speaking uh for the time
+
+27
+00:00:59,280 --> 00:01:03,039
+frame of a itself you're a relative
+
+28
+00:01:01,239 --> 00:01:04,119
+newcomer but what got you started with
+
+29
+00:01:03,039 --> 00:01:07,560
+the
+
+30
+00:01:04,119 --> 00:01:10,880
+holography uh through some research that
+
+31
+00:01:07,560 --> 00:01:15,439
+I was doing I I'm a software uh engineer
+
+32
+00:01:10,880 --> 00:01:19,200
+uh by trade and I have an interest in uh
+
+33
+00:01:15,439 --> 00:01:21,759
+neural networks and uh and artificial
+
+34
+00:01:19,200 --> 00:01:24,720
+intelligence this kind of stuff okay and
+
+35
+00:01:21,759 --> 00:01:26,560
+uh I was looking for a way to implement
+
+36
+00:01:24,720 --> 00:01:28,079
+a neural network initially I was just
+
+37
+00:01:26,560 --> 00:01:30,880
+thinking with the
+
+38
+00:01:28,079 --> 00:01:32,439
+electronics uh and and uh did some
+
+39
+00:01:30,880 --> 00:01:34,399
+research and stumbled across a paper
+
+40
+00:01:32,439 --> 00:01:37,600
+that was talking about using uh
+
+41
+00:01:34,399 --> 00:01:40,640
+holography for uh doing interconnection
+
+42
+00:01:37,600 --> 00:01:43,600
+of Weights in a neural network okay and
+
+43
+00:01:40,640 --> 00:01:46,439
+uh the paper was relatively
+
+44
+00:01:43,600 --> 00:01:47,759
+understandable for me so uh I decided
+
+45
+00:01:46,439 --> 00:01:50,119
+Well maybe I could try something like
+
+46
+00:01:47,759 --> 00:01:52,880
+that and started looking around on the
+
+47
+00:01:50,119 --> 00:01:55,719
+uh internet and came across your website
+
+48
+00:01:52,880 --> 00:01:58,840
+uh and you were talking about doing a
+
+49
+00:01:55,719 --> 00:02:00,560
+laser pointer based holography okay and
+
+50
+00:01:58,840 --> 00:02:02,240
+I had just recently got it really cheap
+
+51
+00:02:00,560 --> 00:02:07,640
+laser pointer so I thought you know this
+
+52
+00:02:02,240 --> 00:02:10,599
+might almost be doable uh and then I uh
+
+53
+00:02:07,640 --> 00:02:13,920
+did more research uh try to try to find
+
+54
+00:02:10,599 --> 00:02:17,200
+uh a kit or something like that yeah and
+
+55
+00:02:13,920 --> 00:02:19,120
+came across the uh intergraph website uh
+
+56
+00:02:17,200 --> 00:02:21,400
+you may have even had a link to it there
+
+57
+00:02:19,120 --> 00:02:24,120
+and uh purchased one of their kits and
+
+58
+00:02:21,400 --> 00:02:26,720
+just started playing around with it and
+
+59
+00:02:24,120 --> 00:02:29,080
+uh something that I found with that kit
+
+60
+00:02:26,720 --> 00:02:30,400
+was that the first very first one I made
+
+61
+00:02:29,080 --> 00:02:31,879
+and in talking to other people they
+
+62
+00:02:30,400 --> 00:02:33,599
+often had the same experience that they
+
+63
+00:02:31,879 --> 00:02:36,879
+the first one you're you're able to make
+
+64
+00:02:33,599 --> 00:02:38,879
+it uh and actually get something usually
+
+65
+00:02:36,879 --> 00:02:41,080
+just because uh you don't really know
+
+66
+00:02:38,879 --> 00:02:43,840
+what you're doing at all and the
+
+67
+00:02:41,080 --> 00:02:45,879
+instructions in the kit are uh pretty
+
+68
+00:02:43,840 --> 00:02:48,080
+clear and if you just follow exactly
+
+69
+00:02:45,879 --> 00:02:50,120
+what they're saying uh then you
+
+70
+00:02:48,080 --> 00:02:51,680
+typically can get something uh then
+
+71
+00:02:50,120 --> 00:02:53,200
+being an engineer though then I thought
+
+72
+00:02:51,680 --> 00:02:55,680
+then you start playing around yes
+
+73
+00:02:53,200 --> 00:02:58,239
+exactly uh which was not so good in the
+
+74
+00:02:55,680 --> 00:03:00,400
+beginning the first kid I bought was uh
+
+75
+00:02:58,239 --> 00:03:02,800
+32 I think they're 2 and half by 2 and
+
+76
+00:03:00,400 --> 00:03:04,720
+1/2 inch plates and uh like I said the
+
+77
+00:03:02,800 --> 00:03:07,200
+first one came out and then the next 28
+
+78
+00:03:04,720 --> 00:03:10,080
+did not come out wow uh yeah I was
+
+79
+00:03:07,200 --> 00:03:11,840
+messing around with the the vibration
+
+80
+00:03:10,080 --> 00:03:14,040
+aspect of it and just different ways to
+
+81
+00:03:11,840 --> 00:03:16,000
+hold the plate and when I first started
+
+82
+00:03:14,040 --> 00:03:19,400
+doing it I had basically just a little
+
+83
+00:03:16,000 --> 00:03:21,159
+1ot by one foot piece of plywood and uh
+
+84
+00:03:19,400 --> 00:03:23,480
+glued the laser on a stick pretty much
+
+85
+00:03:21,159 --> 00:03:27,159
+following uh you know illustrations i'
+
+86
+00:03:23,480 --> 00:03:28,519
+seen around and uh and shot my first
+
+87
+00:03:27,159 --> 00:03:30,439
+hologram like that stuck the stick in a
+
+88
+00:03:28,519 --> 00:03:33,080
+little cup of sand that works so I
+
+89
+00:03:30,439 --> 00:03:34,720
+figured okay now I want to do more and I
+
+90
+00:03:33,080 --> 00:03:39,200
+need more space and everything you start
+
+91
+00:03:34,720 --> 00:03:41,560
+to grow from there uh and not realizing
+
+92
+00:03:39,200 --> 00:03:43,720
+all of the details you you do a little
+
+93
+00:03:41,560 --> 00:03:45,360
+trial and error there unfortunately in
+
+94
+00:03:43,720 --> 00:03:48,239
+my case there was a long trial and error
+
+95
+00:03:45,360 --> 00:03:50,720
+there but uh more error than success but
+
+96
+00:03:48,239 --> 00:03:54,519
+eventually then I uh you know I learned
+
+97
+00:03:50,720 --> 00:03:57,480
+to just modify one aspect at a time
+
+98
+00:03:54,519 --> 00:04:00,280
+exactly and uh the scientific process at
+
+99
+00:03:57,480 --> 00:04:03,560
+work yes and it's uh
+
+100
+00:04:00,280 --> 00:04:05,599
+it works if you do that uh you can
+
+101
+00:04:03,560 --> 00:04:08,400
+through process of elimination you can
+
+102
+00:04:05,599 --> 00:04:10,400
+find problems and uh and move ahead
+
+103
+00:04:08,400 --> 00:04:12,720
+start out with as few variables as
+
+104
+00:04:10,400 --> 00:04:15,400
+possible and then just add one at a time
+
+105
+00:04:12,720 --> 00:04:18,000
+yes yeah right what got you involved
+
+106
+00:04:15,400 --> 00:04:20,359
+with the multiplex that was quite a jump
+
+107
+00:04:18,000 --> 00:04:21,680
+yes that was and uh what did that was I
+
+108
+00:04:20,359 --> 00:04:24,199
+had been shooting some single beam
+
+109
+00:04:21,680 --> 00:04:26,160
+dentics and uh actually I tried pretty
+
+110
+00:04:24,199 --> 00:04:29,400
+much all of the experiments in uh Tong
+
+111
+00:04:26,160 --> 00:04:33,639
+jong's book that he provides uh in that
+
+112
+00:04:29,400 --> 00:04:36,000
+inter gra kit and uh was having fun with
+
+113
+00:04:33,639 --> 00:04:37,360
+that and still do have fun with that uh
+
+114
+00:04:36,000 --> 00:04:39,479
+just wanted to try different types of
+
+115
+00:04:37,360 --> 00:04:42,520
+things and realized I want to be able to
+
+116
+00:04:39,479 --> 00:04:46,000
+uh take output from my computer somehow
+
+117
+00:04:42,520 --> 00:04:47,720
+and uh and get that on a hologram so
+
+118
+00:04:46,000 --> 00:04:51,280
+again I turned to your website because I
+
+119
+00:04:47,720 --> 00:04:54,360
+had saw a couple of uh of holograms that
+
+120
+00:04:51,280 --> 00:04:56,840
+you did I think one was like a a grid
+
+121
+00:04:54,360 --> 00:04:58,680
+with a floating triangle oh okay yeah
+
+122
+00:04:56,840 --> 00:05:00,560
+and uh you had mentioned that you had
+
+123
+00:04:58,680 --> 00:05:02,320
+that output with a line of ronic and I
+
+124
+00:05:00,560 --> 00:05:03,639
+had earlier in my career I had been
+
+125
+00:05:02,320 --> 00:05:06,840
+doing book publishing and I knew what
+
+126
+00:05:03,639 --> 00:05:09,680
+align okay yeah the old 300s y exactly
+
+127
+00:05:06,840 --> 00:05:11,680
+so uh I figure okay again that's
+
+128
+00:05:09,680 --> 00:05:13,600
+something that's within the realm of me
+
+129
+00:05:11,680 --> 00:05:15,919
+actually doing because some of these
+
+130
+00:05:13,600 --> 00:05:18,680
+research papers are just so uh
+
+131
+00:05:15,919 --> 00:05:20,080
+theoretical that it's hard to put into
+
+132
+00:05:18,680 --> 00:05:22,560
+perspective what they're talking about
+
+133
+00:05:20,080 --> 00:05:26,160
+and get you know the real world uh what
+
+134
+00:05:22,560 --> 00:05:28,720
+that really means yeah uh so that's why
+
+135
+00:05:26,160 --> 00:05:31,360
+I enjoyed reading your articles because
+
+136
+00:05:28,720 --> 00:05:33,880
+you cross that line and you you showed
+
+137
+00:05:31,360 --> 00:05:35,919
+examples which is very important as I
+
+138
+00:05:33,880 --> 00:05:37,319
+was starting to get into this I found
+
+139
+00:05:35,919 --> 00:05:40,759
+that those descriptions just were
+
+140
+00:05:37,319 --> 00:05:42,680
+lacking for example just developing uh
+
+141
+00:05:40,759 --> 00:05:44,080
+one of the terms they use in there is uh
+
+142
+00:05:42,680 --> 00:05:46,680
+you put the plate in the bath and then
+
+143
+00:05:44,080 --> 00:05:51,000
+you agitate uh didn't really know what
+
+144
+00:05:46,680 --> 00:05:53,520
+agitate meant so uh anyway it helps to
+
+145
+00:05:51,000 --> 00:05:55,440
+to uh get in touch with somebody and
+
+146
+00:05:53,520 --> 00:05:56,639
+actually discuss what they're doing
+
+147
+00:05:55,440 --> 00:05:59,800
+somebody that has done it and that's
+
+148
+00:05:56,639 --> 00:06:04,000
+where the tography for has been uh uh
+
+149
+00:05:59,800 --> 00:06:06,960
+big uh source of information for me yes
+
+150
+00:06:04,000 --> 00:06:09,000
+people uh readily discuss uh what
+
+151
+00:06:06,960 --> 00:06:11,240
+they're doing and there's a whole bunch
+
+152
+00:06:09,000 --> 00:06:13,319
+of people on there doing many things all
+
+153
+00:06:11,240 --> 00:06:16,240
+the way from making their own film and
+
+154
+00:06:13,319 --> 00:06:17,400
+people just getting on board and uh lots
+
+155
+00:06:16,240 --> 00:06:19,520
+of information and lots of people
+
+156
+00:06:17,400 --> 00:06:20,960
+they're willing to talk about it yeah
+
+157
+00:06:19,520 --> 00:06:24,199
+once I got my mind around what the
+
+158
+00:06:20,960 --> 00:06:26,840
+multiplex Holograms were uh and not
+
+159
+00:06:24,199 --> 00:06:29,639
+having actually seen one in front of me
+
+160
+00:06:26,840 --> 00:06:31,880
+uh I thought it was easier than than
+
+161
+00:06:29,639 --> 00:06:34,800
+what it turned out to be each by
+
+162
+00:06:31,880 --> 00:06:36,639
+breaking down each piece into uh you
+
+163
+00:06:34,800 --> 00:06:40,880
+know of the of the entire task into
+
+164
+00:06:36,639 --> 00:06:43,599
+little pieces uh I could see uh that it
+
+165
+00:06:40,880 --> 00:06:45,840
+was doable M and started thinking about
+
+166
+00:06:43,599 --> 00:06:47,800
+a lot and and ended up oversimplifying
+
+167
+00:06:45,840 --> 00:06:49,960
+what was going on yeah and in fact when
+
+168
+00:06:47,800 --> 00:06:51,520
+I after I accomplished that task of
+
+169
+00:06:49,960 --> 00:06:53,560
+making My First multiplex hologram I
+
+170
+00:06:51,520 --> 00:06:55,080
+looked at my table and S and thought to
+
+171
+00:06:53,560 --> 00:06:56,479
+myself boy that looks awful simple
+
+172
+00:06:55,080 --> 00:06:58,319
+there's there's really not a whole lot
+
+173
+00:06:56,479 --> 00:07:00,680
+there but then after having gone through
+
+174
+00:06:58,319 --> 00:07:03,039
+month after month of of failures and
+
+175
+00:07:00,680 --> 00:07:06,919
+just moving things around and trying
+
+176
+00:07:03,039 --> 00:07:08,879
+different things out uh it it is easy to
+
+177
+00:07:06,919 --> 00:07:10,199
+just go crazy with it and over
+
+178
+00:07:08,879 --> 00:07:12,720
+complicate each
+
+179
+00:07:10,199 --> 00:07:14,759
+piece I just realized this weekend that
+
+180
+00:07:12,720 --> 00:07:16,479
+after being able to do this I almost
+
+181
+00:07:14,759 --> 00:07:18,599
+feel a little bit of a loss because I
+
+182
+00:07:16,479 --> 00:07:20,479
+enjoyed standing next to the table
+
+183
+00:07:18,599 --> 00:07:23,199
+previously I always used just a card
+
+184
+00:07:20,479 --> 00:07:25,479
+shutter and uh manually shutter for all
+
+185
+00:07:23,199 --> 00:07:26,800
+my exposures too the exposures are
+
+186
+00:07:25,479 --> 00:07:28,440
+within the realm of me being able to do
+
+187
+00:07:26,800 --> 00:07:30,400
+that when I got a more powerful laser
+
+188
+00:07:28,440 --> 00:07:31,720
+though my exposure time would drop and I
+
+189
+00:07:30,400 --> 00:07:33,199
+actually had to end up attenuating the
+
+190
+00:07:31,720 --> 00:07:36,520
+beam because I couldn't get like less
+
+191
+00:07:33,199 --> 00:07:38,160
+than a second accurate timing with that
+
+192
+00:07:36,520 --> 00:07:41,840
+uh but then moving to the multiplex
+
+193
+00:07:38,160 --> 00:07:43,680
+system and automating everything uh I I
+
+194
+00:07:41,840 --> 00:07:46,720
+found that my biggest Joy was actually
+
+195
+00:07:43,680 --> 00:07:49,680
+in implementing it all MH uh when it
+
+196
+00:07:46,720 --> 00:07:51,479
+comes down to it uh now I put a plate in
+
+197
+00:07:49,680 --> 00:07:53,039
+my plate holder and basically push a
+
+198
+00:07:51,479 --> 00:07:54,759
+button say go and leave the room and
+
+199
+00:07:53,039 --> 00:07:56,520
+come back and end up developing it and
+
+200
+00:07:54,759 --> 00:07:58,560
+I've kind of taken away from myself all
+
+201
+00:07:56,520 --> 00:08:00,800
+the joy that I had in in making it
+
+202
+00:07:58,560 --> 00:08:03,599
+itself yeah exactly yeah it's it's very
+
+203
+00:08:00,800 --> 00:08:06,120
+similar to I guess a cabinet maker or
+
+204
+00:08:03,599 --> 00:08:08,639
+any type of crafts person the part of
+
+205
+00:08:06,120 --> 00:08:11,759
+the website that I have up there for the
+
+206
+00:08:08,639 --> 00:08:15,400
+little holographic portraits takes into
+
+207
+00:08:11,759 --> 00:08:17,120
+consideration uh that people like to be
+
+208
+00:08:15,400 --> 00:08:19,879
+very Hands-On and it's it's very
+
+209
+00:08:17,120 --> 00:08:23,199
+Hands-On intensive takes a lot of time
+
+210
+00:08:19,879 --> 00:08:27,120
+to do one of those yes it does and uh
+
+211
+00:08:23,199 --> 00:08:28,599
+when I I I I initially read that uh
+
+212
+00:08:27,120 --> 00:08:30,639
+description that you had to try to do
+
+213
+00:08:28,599 --> 00:08:34,640
+that and was taking that path uh that
+
+214
+00:08:30,639 --> 00:08:36,120
+being using an LCD panel mhm uh and I
+
+215
+00:08:34,640 --> 00:08:38,159
+was having some issues because I had a
+
+216
+00:08:36,120 --> 00:08:41,279
+very weak laser I only had a 7M
+
+217
+00:08:38,159 --> 00:08:44,399
+unpolarized Heeney and as you know the
+
+218
+00:08:41,279 --> 00:08:45,920
+panel is polarized so uh initially I was
+
+219
+00:08:44,399 --> 00:08:48,040
+just trying to Pro Force it through the
+
+220
+00:08:45,920 --> 00:08:49,680
+panel and let whatever light was aligned
+
+221
+00:08:48,040 --> 00:08:52,120
+with the crystals come through and I was
+
+222
+00:08:49,680 --> 00:08:54,000
+just going to take what I got yeah but
+
+223
+00:08:52,120 --> 00:08:56,440
+unfortunately the exposures were just
+
+224
+00:08:54,000 --> 00:08:58,640
+way too long so yeah it didn't work out
+
+225
+00:08:56,440 --> 00:09:00,720
+for me so I moved to this uh DLP
+
+226
+00:08:58,640 --> 00:09:03,800
+projector I had found found a article
+
+227
+00:09:00,720 --> 00:09:06,440
+from uh some people at MIT about how to
+
+228
+00:09:03,800 --> 00:09:10,200
+utilize an off-the-shelf uh DLP
+
+229
+00:09:06,440 --> 00:09:11,399
+projector M uh as the image source and
+
+230
+00:09:10,200 --> 00:09:13,680
+that turned out to be a lot better for
+
+231
+00:09:11,399 --> 00:09:18,200
+me because that's based on mirrors yeah
+
+232
+00:09:13,680 --> 00:09:19,240
+and uh it was a self-contained projector
+
+233
+00:09:18,200 --> 00:09:21,440
+uh you know like the kind you would have
+
+234
+00:09:19,240 --> 00:09:23,959
+in an office or something like that mhm
+
+235
+00:09:21,440 --> 00:09:28,959
+and my table's really small it's uh 2T
+
+236
+00:09:23,959 --> 00:09:31,040
+by 3 ft uh by about 2 in thick M and uh
+
+237
+00:09:28,959 --> 00:09:33,560
+so it's kind of tough to get all the
+
+238
+00:09:31,040 --> 00:09:35,519
+pieces that I need and in fact I still
+
+239
+00:09:33,560 --> 00:09:37,200
+I'm not able to do a very large image I
+
+240
+00:09:35,519 --> 00:09:41,440
+can get about a 2 and 1 half by 2 and a
+
+241
+00:09:37,200 --> 00:09:43,040
+half image yeah uh inch image but uh and
+
+242
+00:09:41,440 --> 00:09:45,720
+obviously they're more dramatic the
+
+243
+00:09:43,040 --> 00:09:47,640
+bigger they are but this gives me a good
+
+244
+00:09:45,720 --> 00:09:50,360
+Proving Ground BEC uh as I was saying
+
+245
+00:09:47,640 --> 00:09:53,399
+before I've kind of not so involved
+
+246
+00:09:50,360 --> 00:09:55,320
+right now on on modifying my table and
+
+247
+00:09:53,399 --> 00:09:57,640
+getting things happening there because I
+
+248
+00:09:55,320 --> 00:09:59,920
+can get images off of it now I'm having
+
+249
+00:09:57,640 --> 00:10:04,200
+to look more at the creative of it and
+
+250
+00:09:59,920 --> 00:10:05,880
+the image the images themselves and um
+
+251
+00:10:04,200 --> 00:10:07,760
+having something uh worth looking at the
+
+252
+00:10:05,880 --> 00:10:10,440
+first couple of things I did actually
+
+253
+00:10:07,760 --> 00:10:13,519
+turned out to be almost what I would
+
+254
+00:10:10,440 --> 00:10:15,880
+have done with solid objects like a uh
+
+255
+00:10:13,519 --> 00:10:17,399
+key things but you know like a skull and
+
+256
+00:10:15,880 --> 00:10:19,959
+different things like this but having
+
+257
+00:10:17,399 --> 00:10:23,920
+access to uh rendering software that can
+
+258
+00:10:19,959 --> 00:10:26,839
+render these images uh for me and
+
+259
+00:10:23,920 --> 00:10:29,920
+utilizing uh effects kind of like uh
+
+260
+00:10:26,839 --> 00:10:31,760
+transparency and taking into count the
+
+261
+00:10:29,920 --> 00:10:34,600
+refractive index of glass if you were
+
+262
+00:10:31,760 --> 00:10:37,000
+rendering images like that uh I
+
+263
+00:10:34,600 --> 00:10:38,639
+anticipate being able to just do all
+
+264
+00:10:37,000 --> 00:10:41,000
+kinds of things that basically whatever
+
+265
+00:10:38,639 --> 00:10:42,959
+my mind can imagine yeah you render
+
+266
+00:10:41,000 --> 00:10:44,800
+objects that don't actually exist
+
+267
+00:10:42,959 --> 00:10:46,519
+exactly and things that would be nearly
+
+268
+00:10:44,800 --> 00:10:48,120
+impossible you could have tubes of light
+
+269
+00:10:46,519 --> 00:10:49,680
+bending out across the image plane and
+
+270
+00:10:48,120 --> 00:10:51,279
+stuff like that that would be rather
+
+271
+00:10:49,680 --> 00:10:53,360
+tough to do if you were doing it with
+
+272
+00:10:51,279 --> 00:10:55,000
+objects although there are some uh
+
+273
+00:10:53,360 --> 00:10:57,360
+artists from the 80s that have done
+
+274
+00:10:55,000 --> 00:10:58,920
+spectacular work uh that amazes me that
+
+275
+00:10:57,360 --> 00:11:02,399
+they're able to do that basically with
+
+276
+00:10:58,920 --> 00:11:04,160
+mirrors in glass still yeah but uh I
+
+277
+00:11:02,399 --> 00:11:08,079
+don't do that I can utilize the computer
+
+278
+00:11:04,160 --> 00:11:09,040
+to do that and uh it's uh very flexible
+
+279
+00:11:08,079 --> 00:11:10,079
+so it sounds to me like you're
+
+280
+00:11:09,040 --> 00:11:11,639
+approaching this more from an
+
+281
+00:11:10,079 --> 00:11:13,680
+engineering standpoint than it is a
+
+282
+00:11:11,639 --> 00:11:15,639
+creative well I guess maybe a marriage
+
+283
+00:11:13,680 --> 00:11:19,000
+of both really yes and and actually that
+
+284
+00:11:15,639 --> 00:11:21,760
+is what it is I I I feel uh motivated on
+
+285
+00:11:19,000 --> 00:11:23,279
+both sides U and as I mentioned before I
+
+286
+00:11:21,760 --> 00:11:25,639
+feel a little cheated now that I have
+
+287
+00:11:23,279 --> 00:11:27,240
+the thing built uh mechanically uh
+
+288
+00:11:25,639 --> 00:11:29,480
+enough to where I can generate the
+
+289
+00:11:27,240 --> 00:11:32,160
+Holograms and and having to spend more
+
+290
+00:11:29,480 --> 00:11:34,760
+time on the on the images themselves but
+
+291
+00:11:32,160 --> 00:11:37,079
+uh excuse me that doesn't mean that I
+
+292
+00:11:34,760 --> 00:11:38,399
+won't uh tear down the table and and go
+
+293
+00:11:37,079 --> 00:11:41,480
+back to shooting some single Bean
+
+294
+00:11:38,399 --> 00:11:44,079
+dynastics again oh yeah yeah do you have
+
+295
+00:11:41,480 --> 00:11:45,720
+any interest in doing uh people Yes
+
+296
+00:11:44,079 --> 00:11:47,120
+actually and that originally was what I
+
+297
+00:11:45,720 --> 00:11:49,240
+was interested in in looking at your
+
+298
+00:11:47,120 --> 00:11:52,240
+website and looking at the portraits in
+
+299
+00:11:49,240 --> 00:11:54,399
+fact early on I wasn't aware of of using
+
+300
+00:11:52,240 --> 00:11:56,240
+uh the multiplex technique for doing
+
+301
+00:11:54,399 --> 00:11:58,720
+people or other other objects that you
+
+302
+00:11:56,240 --> 00:12:01,240
+can capture on film and had purchased a
+
+303
+00:11:58,720 --> 00:12:04,639
+uh one of these military Rangefinder uh
+
+304
+00:12:01,240 --> 00:12:06,200
+Ruby pulse lasers and uh was going
+
+305
+00:12:04,639 --> 00:12:07,720
+through the process of trying to get
+
+306
+00:12:06,200 --> 00:12:09,880
+there with that however I found a couple
+
+307
+00:12:07,720 --> 00:12:12,279
+of of stumbling blocks along the way the
+
+308
+00:12:09,880 --> 00:12:15,760
+Ruby uh it's hard to find film that I
+
+309
+00:12:12,279 --> 00:12:17,920
+think it's 694 now wavelength and film
+
+310
+00:12:15,760 --> 00:12:19,360
+is not so sensitive there uh I think
+
+311
+00:12:17,920 --> 00:12:22,680
+some of the color film out there might
+
+312
+00:12:19,360 --> 00:12:24,480
+be sensitive uh to that wavelength uh
+
+313
+00:12:22,680 --> 00:12:27,120
+but then also this thing only has a one
+
+314
+00:12:24,480 --> 00:12:29,199
+pulse per second rep rate and so you
+
+315
+00:12:27,120 --> 00:12:31,000
+don't really see there's no beam to see
+
+316
+00:12:29,199 --> 00:12:33,000
+mhm and so I started becoming concerned
+
+317
+00:12:31,000 --> 00:12:34,880
+about the safety aspect of it and uh you
+
+318
+00:12:33,000 --> 00:12:37,320
+know how do I align this
+
+319
+00:12:34,880 --> 00:12:40,160
+thing I would have to do a split beam to
+
+320
+00:12:37,320 --> 00:12:43,360
+do people all of those it just looked
+
+321
+00:12:40,160 --> 00:12:46,000
+like too big of a task uh so at this
+
+322
+00:12:43,360 --> 00:12:48,320
+stage of the game anyway yeah I know
+
+323
+00:12:46,000 --> 00:12:49,519
+there are people out there doing it uh
+
+324
+00:12:48,320 --> 00:12:52,040
+professionals I don't know how many
+
+325
+00:12:49,519 --> 00:12:53,639
+people are not I came across somebody at
+
+326
+00:12:52,040 --> 00:12:56,480
+a university I think in Washington
+
+327
+00:12:53,639 --> 00:12:59,399
+that's doing interferometry with a uh a
+
+328
+00:12:56,480 --> 00:13:02,519
+ruby pulse laser and he's using uh PFG
+
+329
+00:12:59,399 --> 00:13:05,399
+from slav and he's able to do his work
+
+330
+00:13:02,519 --> 00:13:07,040
+with that but he has a lot of power that
+
+331
+00:13:05,399 --> 00:13:09,000
+he's ding on the plate yeah and he's
+
+332
+00:13:07,040 --> 00:13:10,720
+he's not expecting display holography
+
+333
+00:13:09,000 --> 00:13:12,800
+results from those experiments either
+
+334
+00:13:10,720 --> 00:13:14,680
+that's right yeah so have you thought
+
+335
+00:13:12,800 --> 00:13:17,240
+about doing film at all or would you
+
+336
+00:13:14,680 --> 00:13:18,800
+rather just keep everything electronic I
+
+337
+00:13:17,240 --> 00:13:21,040
+have thought about doing film and in
+
+338
+00:13:18,800 --> 00:13:24,079
+fact probably will and the reason is
+
+339
+00:13:21,040 --> 00:13:25,720
+that the uh contrast from this DLP
+
+340
+00:13:24,079 --> 00:13:28,360
+projector
+
+341
+00:13:25,720 --> 00:13:30,360
+uh it doesn't seem so great that the
+
+342
+00:13:28,360 --> 00:13:34,320
+difference between black and white the
+
+343
+00:13:30,360 --> 00:13:35,839
+black is not so black I see uh but it's
+
+344
+00:13:34,320 --> 00:13:38,199
+discernable and I'm sure that if I did
+
+345
+00:13:35,839 --> 00:13:40,079
+some uh some tweaking to the image
+
+346
+00:13:38,199 --> 00:13:42,079
+before I projected it to enhance the
+
+347
+00:13:40,079 --> 00:13:44,040
+contrast yes exactly that that would go
+
+348
+00:13:42,079 --> 00:13:45,560
+a long way uh I I don't have a lot of
+
+349
+00:13:44,040 --> 00:13:47,120
+experience though shooting like you
+
+350
+00:13:45,560 --> 00:13:50,920
+project the image from the projector
+
+351
+00:13:47,120 --> 00:13:52,399
+onto a a diffused screen of some sort uh
+
+352
+00:13:50,920 --> 00:13:53,560
+ground glass or something yes and I
+
+353
+00:13:52,399 --> 00:13:55,120
+don't have a lot of experience doing
+
+354
+00:13:53,560 --> 00:13:56,519
+that so when I look at the glass to me
+
+355
+00:13:55,120 --> 00:13:58,639
+it looks like it's just glowing
+
+356
+00:13:56,519 --> 00:13:59,920
+ridiculous uh you know uh after making
+
+357
+00:13:58,639 --> 00:14:01,279
+the hologram I see that it doesn't
+
+358
+00:13:59,920 --> 00:14:03,120
+affect it that much I get more of the
+
+359
+00:14:01,279 --> 00:14:06,160
+image than this glow that I see around
+
+360
+00:14:03,120 --> 00:14:07,560
+there uh and I'm sure that that is true
+
+361
+00:14:06,160 --> 00:14:09,279
+whether or not you're using film or a
+
+362
+00:14:07,560 --> 00:14:11,800
+DLP projector but I know with film you
+
+363
+00:14:09,279 --> 00:14:13,279
+can get extremely Crisp Images again
+
+364
+00:14:11,800 --> 00:14:14,880
+when I was first starting out I was
+
+365
+00:14:13,279 --> 00:14:19,519
+looking at your website and you had one
+
+366
+00:14:14,880 --> 00:14:21,399
+particular a little uh apparatus there I
+
+367
+00:14:19,519 --> 00:14:22,440
+sorry I'm going from memory but several
+
+368
+00:14:21,399 --> 00:14:23,519
+several month I'll have to go from
+
+369
+00:14:22,440 --> 00:14:24,600
+memory too because I haven't been on
+
+370
+00:14:23,519 --> 00:14:26,639
+there in a while either you had some
+
+371
+00:14:24,600 --> 00:14:29,279
+kind of a cage thing uh I think that's
+
+372
+00:14:26,639 --> 00:14:31,680
+the term you used a cage basically uh it
+
+373
+00:14:29,279 --> 00:14:35,399
+was a uh a frame of some sort that you
+
+374
+00:14:31,680 --> 00:14:37,440
+slid in a plate and a piece of uh film
+
+375
+00:14:35,399 --> 00:14:39,000
+holder and a piece of diffused glass uh
+
+376
+00:14:37,440 --> 00:14:41,040
+actually I think that was set up to do
+
+377
+00:14:39,000 --> 00:14:42,959
+holographic logos corporate logos and
+
+378
+00:14:41,040 --> 00:14:45,120
+things of that nature exactly so I made
+
+379
+00:14:42,959 --> 00:14:47,880
+a mini version of that out of a picture
+
+380
+00:14:45,120 --> 00:14:49,560
+frame that was about 5 by seven in and
+
+381
+00:14:47,880 --> 00:14:52,199
+it had multiple slots in it so you could
+
+382
+00:14:49,560 --> 00:14:55,000
+put multiple panes it was made for uh
+
+383
+00:14:52,199 --> 00:14:56,519
+simulating like a 3d effect with photos
+
+384
+00:14:55,000 --> 00:14:58,279
+and so I used one of those slots for the
+
+385
+00:14:56,519 --> 00:15:00,680
+diffused glass and one for holding the
+
+386
+00:14:58,279 --> 00:15:02,040
+Hologram and one for holding a a film
+
+387
+00:15:00,680 --> 00:15:03,720
+holder with a piece of film that I had
+
+388
+00:15:02,040 --> 00:15:05,480
+placed in there yeah and then you had
+
+389
+00:15:03,720 --> 00:15:07,079
+two mirrors off to the sides one at
+
+390
+00:15:05,480 --> 00:15:08,920
+Brewster's angle and one directing light
+
+391
+00:15:07,079 --> 00:15:10,880
+directly in and I did this on that
+
+392
+00:15:08,920 --> 00:15:12,800
+little one foot by one foot board that I
+
+393
+00:15:10,880 --> 00:15:15,480
+had just glued everything down onto that
+
+394
+00:15:12,800 --> 00:15:17,120
+board yeah uh and then with a diode I
+
+395
+00:15:15,480 --> 00:15:18,839
+was using the diode that came with the
+
+396
+00:15:17,120 --> 00:15:20,560
+intergraph kit and just took the lens
+
+397
+00:15:18,839 --> 00:15:22,759
+off and expanded the beam so that the
+
+398
+00:15:20,560 --> 00:15:24,680
+single beam uh in your setup was
+
+399
+00:15:22,759 --> 00:15:28,079
+creating object beam and reference beam
+
+400
+00:15:24,680 --> 00:15:30,240
+yeah and uh that was the first time uh
+
+401
+00:15:28,079 --> 00:15:32,120
+and and then got the beautiful hologram
+
+402
+00:15:30,240 --> 00:15:34,040
+from that film great extremely crisp
+
+403
+00:15:32,120 --> 00:15:35,240
+there were there were many fine lines on
+
+404
+00:15:34,040 --> 00:15:37,480
+this particular piece of film and
+
+405
+00:15:35,240 --> 00:15:39,480
+everything came out fantastic I'm happy
+
+406
+00:15:37,480 --> 00:15:42,199
+to hear that I I really am happy to hear
+
+407
+00:15:39,480 --> 00:15:43,680
+that great yeah you're you do have value
+
+408
+00:15:42,199 --> 00:15:45,360
+there Frank yeah that's good because you
+
+409
+00:15:43,680 --> 00:15:46,560
+never know what's going on I mean unless
+
+410
+00:15:45,360 --> 00:15:47,759
+someone sends you an email I mean
+
+411
+00:15:46,560 --> 00:15:49,600
+there's so many people that visit the
+
+412
+00:15:47,759 --> 00:15:50,839
+website but unless someone sends you an
+
+413
+00:15:49,600 --> 00:15:52,440
+email you never know what's going on
+
+414
+00:15:50,839 --> 00:15:54,120
+with anyone right that's true and in
+
+415
+00:15:52,440 --> 00:15:55,920
+fact even with this uh Multiplex stuff
+
+416
+00:15:54,120 --> 00:15:59,079
+when I first posted the uh my first
+
+417
+00:15:55,920 --> 00:16:00,560
+results on The Forum uh I thought boy uh
+
+418
+00:15:59,079 --> 00:16:01,880
+probably nobody's working on this and
+
+419
+00:16:00,560 --> 00:16:03,360
+now I've gone back and looked at the
+
+420
+00:16:01,880 --> 00:16:05,920
+Forum and there's at least four or five
+
+421
+00:16:03,360 --> 00:16:07,920
+other people who have uh uh gone about
+
+422
+00:16:05,920 --> 00:16:10,680
+as far as I have on there yeah every so
+
+423
+00:16:07,920 --> 00:16:12,279
+often I'll pick an email up that uh you
+
+424
+00:16:10,680 --> 00:16:14,440
+know someone has visited there and they
+
+425
+00:16:12,279 --> 00:16:15,839
+they've started to uh but there there's
+
+426
+00:16:14,440 --> 00:16:17,480
+a there's a number of different
+
+427
+00:16:15,839 --> 00:16:20,360
+documents you know I mean this goes back
+
+428
+00:16:17,480 --> 00:16:21,639
+a long time this uh Multiplex holography
+
+429
+00:16:20,360 --> 00:16:24,560
+yeah so there's a number of different
+
+430
+00:16:21,639 --> 00:16:27,120
+documents out there uh basically I I
+
+431
+00:16:24,560 --> 00:16:29,360
+mean some of them actually require
+
+432
+00:16:27,120 --> 00:16:32,079
+specialized equipment that it's well
+
+433
+00:16:29,360 --> 00:16:35,399
+beyond either the realm of building it
+
+434
+00:16:32,079 --> 00:16:37,600
+yourself or obtaining it financially so
+
+435
+00:16:35,399 --> 00:16:40,399
+what I tried to do was come up with a a
+
+436
+00:16:37,600 --> 00:16:43,240
+very simple way of of doing it on a on a
+
+437
+00:16:40,399 --> 00:16:45,480
+tabletop the whole part of the uh way
+
+438
+00:16:43,240 --> 00:16:48,959
+that I have the table geometry set up is
+
+439
+00:16:45,480 --> 00:16:51,240
+so that the slits aren't parallel with
+
+440
+00:16:48,959 --> 00:16:53,199
+the person looking at the Hologram
+
+441
+00:16:51,240 --> 00:16:55,440
+basically what the slits wind up doing
+
+442
+00:16:53,199 --> 00:16:58,120
+is when you're walking past the Hologram
+
+443
+00:16:55,440 --> 00:17:00,519
+and you look at the Hologram the slits
+
+444
+00:16:58,120 --> 00:17:02,600
+are actually about 9 or 10 in out in
+
+445
+00:17:00,519 --> 00:17:03,920
+front of the plate but not only that
+
+446
+00:17:02,600 --> 00:17:07,799
+you're not looking directly through them
+
+447
+00:17:03,920 --> 00:17:10,240
+they're at a 45° angle right so the the
+
+448
+00:17:07,799 --> 00:17:12,480
+bottom part of the slits would be about
+
+449
+00:17:10,240 --> 00:17:15,199
+9 or 10 Ines out from the plate and then
+
+450
+00:17:12,480 --> 00:17:17,559
+the slits themselves travel to 45° angle
+
+451
+00:17:15,199 --> 00:17:21,240
+and continue to go further out and the
+
+452
+00:17:17,559 --> 00:17:23,199
+further out you get the more any type of
+
+453
+00:17:21,240 --> 00:17:25,559
+irregularity that would be in the
+
+454
+00:17:23,199 --> 00:17:27,880
+Hologram would become blurred and you
+
+455
+00:17:25,559 --> 00:17:29,840
+wouldn't notice it right now on my table
+
+456
+00:17:27,880 --> 00:17:31,840
+I have uh such a limited space I can
+
+457
+00:17:29,840 --> 00:17:33,600
+only the the diffuse screen is only
+
+458
+00:17:31,840 --> 00:17:35,160
+actually 5 in away from the SL yeah
+
+459
+00:17:33,600 --> 00:17:37,880
+that's not too bad either though no that
+
+460
+00:17:35,160 --> 00:17:40,640
+is a doable thing and I now I have I
+
+461
+00:17:37,880 --> 00:17:42,720
+have not uh shot an H1 yet on this table
+
+462
+00:17:40,640 --> 00:17:44,320
+that is bright enough to make an H2 uh
+
+463
+00:17:42,720 --> 00:17:45,960
+so I can view it in white light yeah I
+
+464
+00:17:44,320 --> 00:17:48,360
+saw your email on that you said one time
+
+465
+00:17:45,960 --> 00:17:50,559
+you did a single shot that was bright
+
+466
+00:17:48,360 --> 00:17:51,960
+right and then you did a multiplex that
+
+467
+00:17:50,559 --> 00:17:54,720
+was not bright now let me ask you this
+
+468
+00:17:51,960 --> 00:17:57,360
+were you using the uh were you using the
+
+469
+00:17:54,720 --> 00:17:59,760
+DLP for for both of those shots yes I
+
+470
+00:17:57,360 --> 00:18:03,080
+was and in fact that was an error uh in
+
+471
+00:17:59,760 --> 00:18:04,559
+my stepper motor uh circuit uh I just
+
+472
+00:18:03,080 --> 00:18:06,520
+stumbled across this happen to have my
+
+473
+00:18:04,559 --> 00:18:08,080
+hand setting on the table while I was
+
+474
+00:18:06,520 --> 00:18:09,240
+telling the system to go through a run
+
+475
+00:18:08,080 --> 00:18:10,559
+through so I could watch what was going
+
+476
+00:18:09,240 --> 00:18:12,559
+on and try to figure out what was going
+
+477
+00:18:10,559 --> 00:18:14,640
+on and in fact every time my shutter
+
+478
+00:18:12,559 --> 00:18:16,200
+open my shutter is based on it's
+
+479
+00:18:14,640 --> 00:18:19,880
+homemade and it's based on a rotary
+
+480
+00:18:16,200 --> 00:18:23,600
+solenoid okay uh and uh with like a
+
+481
+00:18:19,880 --> 00:18:27,280
+little uh airplane uh propeller type
+
+482
+00:18:23,600 --> 00:18:29,360
+thing for the shutter itself and uh
+
+483
+00:18:27,280 --> 00:18:30,919
+every time it would activate
+
+484
+00:18:29,360 --> 00:18:32,640
+uh uh there was like a large current
+
+485
+00:18:30,919 --> 00:18:34,640
+Spike or a voltage Spike that got onto
+
+486
+00:18:32,640 --> 00:18:36,960
+my board uh that is driving the stepper
+
+487
+00:18:34,640 --> 00:18:39,280
+motor which told it to take a step one
+
+488
+00:18:36,960 --> 00:18:41,960
+tiny little step right when the shutter
+
+489
+00:18:39,280 --> 00:18:43,799
+opened unfortunately so that is what
+
+490
+00:18:41,960 --> 00:18:47,240
+I've traced it to being and it happened
+
+491
+00:18:43,799 --> 00:18:50,240
+for every slit I see uh and that'll do
+
+492
+00:18:47,240 --> 00:18:52,559
+it yeah that will do it and uh I'm sure
+
+493
+00:18:50,240 --> 00:18:54,679
+I have some other issues with uh
+
+494
+00:18:52,559 --> 00:18:56,760
+vibration on my table because the other
+
+495
+00:18:54,679 --> 00:18:58,400
+since I fixed that problem uh I've shot
+
+496
+00:18:56,760 --> 00:19:01,840
+a couple of more Holograms since then
+
+497
+00:18:58,400 --> 00:19:04,320
+and each slit is not exactly or even
+
+498
+00:19:01,840 --> 00:19:07,360
+necessarily close to the same density in
+
+499
+00:19:04,320 --> 00:19:10,360
+exposure uh mostly noticeable after it's
+
+500
+00:19:07,360 --> 00:19:11,760
+been bleached I can see uh the light
+
+501
+00:19:10,360 --> 00:19:15,440
+coming through it that there's some that
+
+502
+00:19:11,760 --> 00:19:18,440
+are better looking than others huh
+
+503
+00:19:15,440 --> 00:19:20,520
+uh uh what else did I want to talk yeah
+
+504
+00:19:18,440 --> 00:19:22,840
+I've I've noticed that many times to
+
+505
+00:19:20,520 --> 00:19:25,600
+some degree not an extreme degree by
+
+506
+00:19:22,840 --> 00:19:27,919
+doing them by hand uhhuh but I'm curious
+
+507
+00:19:25,600 --> 00:19:30,280
+as to what would be the uh the culprit
+
+508
+00:19:27,919 --> 00:19:32,679
+there if I'm still thinking uh that
+
+509
+00:19:30,280 --> 00:19:34,799
+there's a possibility that my slit the
+
+510
+00:19:32,679 --> 00:19:36,799
+slit itself is moving a little bit now
+
+511
+00:19:34,799 --> 00:19:39,799
+when when you put the slit uh up to the
+
+512
+00:19:36,799 --> 00:19:44,000
+plate is it in uh physically contacting
+
+513
+00:19:39,799 --> 00:19:47,840
+the plate yes I have the slits on fairly
+
+514
+00:19:44,000 --> 00:19:49,760
+thin uh construction board uhhuh okay I
+
+515
+00:19:47,840 --> 00:19:53,159
+put that by hand into the plate holder
+
+516
+00:19:49,760 --> 00:19:58,240
+is one unit the plate holder uh contains
+
+517
+00:19:53,159 --> 00:20:00,280
+the slit and the like yeah I see uh so I
+
+518
+00:19:58,240 --> 00:20:02,240
+have my slit It's mounted uh it's
+
+519
+00:20:00,280 --> 00:20:04,360
+controlled with a stepper motor how far
+
+520
+00:20:02,240 --> 00:20:06,039
+away from your plate is the slit uh I
+
+521
+00:20:04,360 --> 00:20:07,840
+tried to get it either right on top or
+
+522
+00:20:06,039 --> 00:20:10,200
+within a millimeter or so okay that's
+
+523
+00:20:07,840 --> 00:20:12,799
+that's pretty darn close yeah I've tried
+
+524
+00:20:10,200 --> 00:20:14,120
+uh I've tried to keep it both on and off
+
+525
+00:20:12,799 --> 00:20:15,799
+if you keep it too far away from the
+
+526
+00:20:14,120 --> 00:20:17,520
+plate then it starts to cast The Shadow
+
+527
+00:20:15,799 --> 00:20:20,159
+mhm your slits should actually be
+
+528
+00:20:17,520 --> 00:20:22,919
+running horizontal to the uh to the
+
+529
+00:20:20,159 --> 00:20:24,120
+surface of the table right yes yes so if
+
+530
+00:20:22,919 --> 00:20:25,520
+you're coming in at an angle I'm
+
+531
+00:20:24,120 --> 00:20:27,200
+assuming you're not using an overhead
+
+532
+00:20:25,520 --> 00:20:29,000
+reference beam correct that's right so
+
+533
+00:20:27,200 --> 00:20:31,880
+if you're coming in at an angle the only
+
+534
+00:20:29,000 --> 00:20:35,400
+shadow that you would cast would be the
+
+535
+00:20:31,880 --> 00:20:37,440
+top part of the slit the longer parallel
+
+536
+00:20:35,400 --> 00:20:39,880
+uh edges of the slit would not cast
+
+537
+00:20:37,440 --> 00:20:42,960
+Shadows right now uh one thing I've
+
+538
+00:20:39,880 --> 00:20:44,640
+learned recently is that you can uh now
+
+539
+00:20:42,960 --> 00:20:46,480
+in my case I'm moving the slit so the
+
+540
+00:20:44,640 --> 00:20:49,280
+plate is in the plate holder fixed the
+
+541
+00:20:46,480 --> 00:20:51,240
+slit moves from top to bottom if you're
+
+542
+00:20:49,280 --> 00:20:53,679
+looking at my table uh only because
+
+543
+00:20:51,240 --> 00:20:55,919
+there's some uh I forget the term they
+
+544
+00:20:53,679 --> 00:20:57,440
+use but it's kind of sloppy the
+
+545
+00:20:55,919 --> 00:20:58,880
+mechanical movement with the motor and
+
+546
+00:20:57,440 --> 00:21:00,159
+this and this little slide that I'm
+
+547
+00:20:58,880 --> 00:21:02,280
+using to move the stage is a little
+
+548
+00:21:00,159 --> 00:21:05,080
+sloppy so I'm utilizing gravity there
+
+549
+00:21:02,280 --> 00:21:06,840
+absolutely tugging down on the thing yes
+
+550
+00:21:05,080 --> 00:21:08,919
+don't go against gravity use it to your
+
+551
+00:21:06,840 --> 00:21:10,440
+advantage right basically what you're
+
+552
+00:21:08,919 --> 00:21:12,400
+saying is when you finish with this you
+
+553
+00:21:10,440 --> 00:21:15,159
+find out that you have higher density in
+
+554
+00:21:12,400 --> 00:21:16,840
+some exposures compared to others yes
+
+555
+00:21:15,159 --> 00:21:19,159
+and I've seen that on all of them even
+
+556
+00:21:16,840 --> 00:21:20,400
+after I uh fixed this problem with the
+
+557
+00:21:19,159 --> 00:21:22,679
+motor moving right when the shutter
+
+558
+00:21:20,400 --> 00:21:25,159
+opened would you say that every third
+
+559
+00:21:22,679 --> 00:21:26,919
+slit it's doing it on every hologram you
+
+560
+00:21:25,159 --> 00:21:28,840
+do you notice any patterns there's any
+
+561
+00:21:26,919 --> 00:21:31,080
+patterns at all whatsoever there isn't
+
+562
+00:21:28,840 --> 00:21:33,880
+uh uh actually the first one I shot
+
+563
+00:21:31,080 --> 00:21:35,360
+there was a basically a dead slit in the
+
+564
+00:21:33,880 --> 00:21:37,360
+same place each time and it turned out
+
+565
+00:21:35,360 --> 00:21:40,440
+that the the uh program that I wrote to
+
+566
+00:21:37,360 --> 00:21:42,880
+display the images had a bug in it and
+
+567
+00:21:40,440 --> 00:21:44,440
+this particular image that I was loading
+
+568
+00:21:42,880 --> 00:21:46,400
+it didn't scale right it just displayed
+
+569
+00:21:44,440 --> 00:21:48,320
+black so that one I was able to tell
+
+570
+00:21:46,400 --> 00:21:50,640
+because I shot two Holograms in a row
+
+571
+00:21:48,320 --> 00:21:52,919
+and the same slit on both of them was
+
+572
+00:21:50,640 --> 00:21:55,400
+was empty okay
+
+573
+00:21:52,919 --> 00:21:57,400
+uh what I tend to do I consider myself a
+
+574
+00:21:55,400 --> 00:21:59,440
+good troubleshooter so I basically look
+
+575
+00:21:57,400 --> 00:22:02,600
+at the entire
+
+576
+00:21:59,440 --> 00:22:04,600
+uh uh job and basically throw everything
+
+577
+00:22:02,600 --> 00:22:06,120
+at it uh knowing that I had to move the
+
+578
+00:22:04,600 --> 00:22:08,559
+slit that I had to have the projector I
+
+579
+00:22:06,120 --> 00:22:11,600
+had to split the beam Etc uh put
+
+580
+00:22:08,559 --> 00:22:13,960
+everything on the table and uh and just
+
+581
+00:22:11,600 --> 00:22:16,039
+go for it and then look at the results
+
+582
+00:22:13,960 --> 00:22:18,320
+yeah uh and try to work backwards from
+
+583
+00:22:16,039 --> 00:22:21,159
+then again learning early on that you
+
+584
+00:22:18,320 --> 00:22:22,799
+have to just modify one thing at a time
+
+585
+00:22:21,159 --> 00:22:24,360
+uh and I usually pretty quickly can find
+
+586
+00:22:22,799 --> 00:22:26,320
+out what the thing you know whatever the
+
+587
+00:22:24,360 --> 00:22:28,360
+issue is uh I haven't shot enough I only
+
+588
+00:22:26,320 --> 00:22:30,640
+shoot about maybe two or three a week
+
+589
+00:22:28,360 --> 00:22:32,640
+wow wow that's a lot and uh two or three
+
+590
+00:22:30,640 --> 00:22:34,200
+Holograms a week I think it would be
+
+591
+00:22:32,640 --> 00:22:35,720
+with something well of course your's an
+
+592
+00:22:34,200 --> 00:22:37,320
+automated how long does it take for the
+
+593
+00:22:35,720 --> 00:22:39,279
+automation to go through its entire
+
+594
+00:22:37,320 --> 00:22:41,600
+process uh it depends on how much settle
+
+595
+00:22:39,279 --> 00:22:44,279
+time usually uh lately because I've been
+
+596
+00:22:41,600 --> 00:22:46,360
+seeing these uh variations in density
+
+597
+00:22:44,279 --> 00:22:48,400
+I've been having like 3 minutes of
+
+598
+00:22:46,360 --> 00:22:50,960
+settle time so I expose for about 15
+
+599
+00:22:48,400 --> 00:22:53,520
+seconds and then settle for uh 3 minutes
+
+600
+00:22:50,960 --> 00:22:57,799
+and then I'm shooting between 25 and 30
+
+601
+00:22:53,520 --> 00:22:58,960
+exposur exposures so uh it could take a
+
+602
+00:22:57,799 --> 00:23:00,480
+couple hours
+
+603
+00:22:58,960 --> 00:23:02,080
+and uh I was just thinking the other
+
+604
+00:23:00,480 --> 00:23:04,000
+night in fact I may add a feature to my
+
+605
+00:23:02,080 --> 00:23:06,200
+software that I can just program in a
+
+606
+00:23:04,000 --> 00:23:08,320
+specific actual time and just tell it
+
+607
+00:23:06,200 --> 00:23:11,360
+like a 2:00 in the morning start running
+
+608
+00:23:08,320 --> 00:23:12,720
+MH uh up until now I put the plate in
+
+609
+00:23:11,360 --> 00:23:14,640
+until Tell It Go and then I leave the
+
+610
+00:23:12,720 --> 00:23:16,760
+room when does your stepper motor kick
+
+611
+00:23:14,640 --> 00:23:19,039
+in right as the other exposure is
+
+612
+00:23:16,760 --> 00:23:21,039
+completed or right before the exposure
+
+613
+00:23:19,039 --> 00:23:23,120
+begins at the end of the exposure so at
+
+614
+00:23:21,039 --> 00:23:26,120
+the end of so it's already in place and
+
+615
+00:23:23,120 --> 00:23:28,720
+and is settling has settled for that uh
+
+616
+00:23:26,120 --> 00:23:31,400
+period of time yeah yeah that's good and
+
+617
+00:23:28,720 --> 00:23:33,880
+uh although I may not uh you know
+
+618
+00:23:31,400 --> 00:23:36,320
+there's delays you have to put in in
+
+619
+00:23:33,880 --> 00:23:38,720
+cating it in the software you have to
+
+620
+00:23:36,320 --> 00:23:40,159
+you have to emulate in a way how you do
+
+621
+00:23:38,720 --> 00:23:43,840
+it manually that's the approach that
+
+622
+00:23:40,159 --> 00:23:46,039
+I've been taking and uh so I may not
+
+623
+00:23:43,840 --> 00:23:47,760
+have a long enough Delay from the time I
+
+624
+00:23:46,039 --> 00:23:49,679
+close the shutter till the time I start
+
+625
+00:23:47,760 --> 00:23:50,559
+moving I know it just the light just has
+
+626
+00:23:49,679 --> 00:23:53,120
+to be
+
+627
+00:23:50,559 --> 00:23:56,480
+gone and uh no light H in the plate then
+
+628
+00:23:53,120 --> 00:23:57,799
+it's safe to move uh but I haven't I
+
+629
+00:23:56,480 --> 00:23:59,159
+could put you know even a second or two
+
+630
+00:23:57,799 --> 00:24:01,520
+it doesn't really really matter if you
+
+631
+00:23:59,159 --> 00:24:03,400
+have uh that kind of timing going on in
+
+632
+00:24:01,520 --> 00:24:05,400
+it well that's incredible little machine
+
+633
+00:24:03,400 --> 00:24:08,200
+that you've put together thank you that
+
+634
+00:24:05,400 --> 00:24:10,760
+would cost several $100,000 I think if
+
+635
+00:24:08,200 --> 00:24:13,000
+uh to purchase something has been amazed
+
+636
+00:24:10,760 --> 00:24:14,760
+uh amazing to me is that I looked around
+
+637
+00:24:13,000 --> 00:24:19,159
+I've seen systems that go from like
+
+638
+00:24:14,760 --> 00:24:23,840
+20,000 to 200,000 yeah and uh I am less
+
+639
+00:24:19,159 --> 00:24:25,919
+than $1,000 on this table and I bought
+
+640
+00:24:23,840 --> 00:24:28,640
+uh the more expensive pieces I have
+
+641
+00:24:25,919 --> 00:24:31,159
+purchased through eBay like uh I have
+
+642
+00:24:28,640 --> 00:24:33,919
+the table itself is a Newport
+
+643
+00:24:31,159 --> 00:24:36,760
+workstation uh so it's very sturdy it's
+
+644
+00:24:33,919 --> 00:24:38,159
+made for doing stuff like this ESS
+
+645
+00:24:36,760 --> 00:24:40,720
+except it's not very thick I still end
+
+646
+00:24:38,159 --> 00:24:42,559
+up floating this on in tube and okay uh
+
+647
+00:24:40,720 --> 00:24:44,600
+for vibration isolation but it's great
+
+648
+00:24:42,559 --> 00:24:46,760
+it's like rock solid as far as the
+
+649
+00:24:44,600 --> 00:24:48,480
+surface goes AB it's got a steel surface
+
+650
+00:24:46,760 --> 00:24:51,080
+on it so I can use magnets I found these
+
+651
+00:24:48,480 --> 00:24:52,799
+round uh magnets that you might put on a
+
+652
+00:24:51,080 --> 00:24:54,480
+cupboard or something and and to hold
+
+653
+00:24:52,799 --> 00:24:58,159
+keys or something like that they they
+
+654
+00:24:54,480 --> 00:24:59,240
+have about a 25 lb holding force and so
+
+655
+00:24:58,159 --> 00:25:01,360
+uh
+
+656
+00:24:59,240 --> 00:25:04,799
+all of my optic stands are based on
+
+657
+00:25:01,360 --> 00:25:06,760
+basically uh these magnets I did get
+
+658
+00:25:04,799 --> 00:25:08,120
+some uh post holders so I can keep
+
+659
+00:25:06,760 --> 00:25:12,240
+everything at approximately the same
+
+660
+00:25:08,120 --> 00:25:14,559
+height mhm uh and then I did spend some
+
+661
+00:25:12,240 --> 00:25:18,520
+money on a spatial filter and on my
+
+662
+00:25:14,559 --> 00:25:19,760
+laser I have a 20 M Heeney right now mhm
+
+663
+00:25:18,520 --> 00:25:21,880
+uh but everything pretty much I just
+
+664
+00:25:19,760 --> 00:25:23,559
+tried to to make by hand and and bought
+
+665
+00:25:21,880 --> 00:25:26,960
+the components off of eBay the stepper
+
+666
+00:25:23,559 --> 00:25:29,640
+motor came with a lead screw on it uh
+
+667
+00:25:26,960 --> 00:25:32,080
+and that was about $35 off of eBay the
+
+668
+00:25:29,640 --> 00:25:34,880
+projector itself I only paid $50 for no
+
+669
+00:25:32,080 --> 00:25:36,960
+kidding and that right when I got it
+
+670
+00:25:34,880 --> 00:25:38,559
+they were used ones without a bulb were
+
+671
+00:25:36,960 --> 00:25:40,279
+going for about $50 on eBay now they're
+
+672
+00:25:38,559 --> 00:25:42,000
+going for about1 150 because people
+
+673
+00:25:40,279 --> 00:25:44,640
+realize they can use them for home uh
+
+674
+00:25:42,000 --> 00:25:46,360
+theaters oh and they are wonderful for
+
+675
+00:25:44,640 --> 00:25:48,440
+that in fact I felt a little bad about
+
+676
+00:25:46,360 --> 00:25:50,279
+tearing this one apart because I was uh
+
+677
+00:25:48,440 --> 00:25:52,200
+shining a laser or not a laser a light
+
+678
+00:25:50,279 --> 00:25:54,440
+just a white light source through it had
+
+679
+00:25:52,200 --> 00:25:56,640
+a beautiful image on the on the wall
+
+680
+00:25:54,440 --> 00:25:58,760
+there but uh this one has an internal
+
+681
+00:25:56,640 --> 00:26:02,200
+frame Grabber in it so you can hook up
+
+682
+00:25:58,760 --> 00:26:03,600
+uh even a vcr and uh grab frames from it
+
+683
+00:26:02,200 --> 00:26:06,720
+and it'll it'll hold them perfectly
+
+684
+00:26:03,600 --> 00:26:09,279
+still and there's no uh no artifacts
+
+685
+00:26:06,720 --> 00:26:12,399
+from the tape that you can see MH uh or
+
+686
+00:26:09,279 --> 00:26:15,640
+you can plug a a s video camera or VGA
+
+687
+00:26:12,399 --> 00:26:18,080
+and I'm just using the uh VGA side of it
+
+688
+00:26:15,640 --> 00:26:19,919
+yeah you could possibly work things out
+
+689
+00:26:18,080 --> 00:26:24,120
+where you could do live images if you
+
+690
+00:26:19,919 --> 00:26:26,440
+can use a camera yeah grab grab those
+
+691
+00:26:24,120 --> 00:26:28,360
+images of someone sitting in a chair and
+
+692
+00:26:26,440 --> 00:26:31,600
+have the Hologram made as the camera
+
+693
+00:26:28,360 --> 00:26:34,520
+moves yes yeah uh uh that's one thing
+
+694
+00:26:31,600 --> 00:26:36,200
+that's great about it being uh connected
+
+695
+00:26:34,520 --> 00:26:37,760
+to the computer and essentially in real
+
+696
+00:26:36,200 --> 00:26:39,039
+time you're you're projecting the image
+
+697
+00:26:37,760 --> 00:26:40,840
+whatever's coming into the projector
+
+698
+00:26:39,039 --> 00:26:42,320
+gets projected in real time yeah I
+
+699
+00:26:40,840 --> 00:26:43,919
+noticed you started out with a lot of
+
+700
+00:26:42,320 --> 00:26:46,279
+exposures and then in your email you had
+
+701
+00:26:43,919 --> 00:26:48,480
+said you're going to try four or eight
+
+702
+00:26:46,279 --> 00:26:50,120
+right I wanted to go uh early on before
+
+703
+00:26:48,480 --> 00:26:52,559
+I knew that the stepper motor was moving
+
+704
+00:26:50,120 --> 00:26:54,120
+during the exposure I wanted to see if
+
+705
+00:26:52,559 --> 00:26:56,440
+there was some issue with having a small
+
+706
+00:26:54,120 --> 00:26:59,640
+slit the first ones that I shot the slit
+
+707
+00:26:56,440 --> 00:27:01,799
+was about 2 to 3 millim mhm and how many
+
+708
+00:26:59,640 --> 00:27:04,799
+exposures were you doing I was doing uh
+
+709
+00:27:01,799 --> 00:27:09,919
+between 27 and 30 uhhuh uh I'm shooting
+
+710
+00:27:04,799 --> 00:27:12,080
+on a 4x5 plate okay and uh my my uh
+
+711
+00:27:09,919 --> 00:27:15,120
+plate holder basically only holds the
+
+712
+00:27:12,080 --> 00:27:18,120
+plate on one Edge uh there's two screws
+
+713
+00:27:15,120 --> 00:27:21,039
+that push it up against a metal bar and
+
+714
+00:27:18,120 --> 00:27:25,080
+it's plenty stable uh that that is on a
+
+715
+00:27:21,039 --> 00:27:27,760
+post uh regular Optics post holder uh
+
+716
+00:27:25,080 --> 00:27:31,399
+and then with a magnet onto the table
+
+717
+00:27:27,760 --> 00:27:32,919
+and uh uh I was thinking that maybe uh
+
+718
+00:27:31,399 --> 00:27:34,840
+you know the slit was too thin and I was
+
+719
+00:27:32,919 --> 00:27:36,360
+casting mostly Shadow across there or
+
+720
+00:27:34,840 --> 00:27:40,399
+something like that so that's why I was
+
+721
+00:27:36,360 --> 00:27:43,480
+I decided to go to to uh fewer frames
+
+722
+00:27:40,399 --> 00:27:45,720
+fewer yeah and uh in fact uh I had shot
+
+723
+00:27:43,480 --> 00:27:47,360
+one with uh it ended up being seven
+
+724
+00:27:45,720 --> 00:27:50,000
+frames because I didn't calculate and
+
+725
+00:27:47,360 --> 00:27:52,159
+take into effect that the the uh plate
+
+726
+00:27:50,000 --> 00:27:53,840
+holder has is masking some of the plate
+
+727
+00:27:52,159 --> 00:27:57,600
+there while it's was holding it m so I
+
+728
+00:27:53,840 --> 00:27:59,840
+ended up with seven uh but uh there
+
+729
+00:27:57,600 --> 00:28:02,880
+still is there I want to see what they
+
+730
+00:27:59,840 --> 00:28:05,399
+look like in white light though uh yeah
+
+731
+00:28:02,880 --> 00:28:09,039
+in the room that I shoot this in it's a
+
+732
+00:28:05,399 --> 00:28:11,080
+really small little washroom and so uh
+
+733
+00:28:09,039 --> 00:28:13,320
+when I project the real image or I'm
+
+734
+00:28:11,080 --> 00:28:15,120
+looking at the virtual image of one of
+
+735
+00:28:13,320 --> 00:28:17,360
+the multiplexes I just shot I have to
+
+736
+00:28:15,120 --> 00:28:19,640
+kind of crane my neck and stick my head
+
+737
+00:28:17,360 --> 00:28:20,679
+in between a small space and then on top
+
+738
+00:28:19,640 --> 00:28:22,960
+of that I'm looking at it laser
+
+739
+00:28:20,679 --> 00:28:25,840
+illuminated and my eyes not so sensitive
+
+740
+00:28:22,960 --> 00:28:28,799
+at that uh wavelength I'd much rather uh
+
+741
+00:28:25,840 --> 00:28:30,559
+look at it green or something if if
+
+742
+00:28:28,799 --> 00:28:32,159
+they're done properly they are very
+
+743
+00:28:30,559 --> 00:28:34,840
+impressive as laser transmission
+
+744
+00:28:32,159 --> 00:28:38,840
+Holograms yes the ones that uh when I
+
+745
+00:28:34,840 --> 00:28:40,480
+when I look into it uh The Parallax that
+
+746
+00:28:38,840 --> 00:28:43,200
+I see there is incredible the fact that
+
+747
+00:28:40,480 --> 00:28:45,039
+you don't have to cross your eyes and I
+
+748
+00:28:43,200 --> 00:28:47,880
+mean when there's more than eight uh
+
+749
+00:28:45,039 --> 00:28:51,960
+like the first ones that I shot were 27
+
+750
+00:28:47,880 --> 00:28:55,120
+uh uh frames there uh you can go from
+
+751
+00:28:51,960 --> 00:28:57,880
+side to side and you would swear that
+
+752
+00:28:55,120 --> 00:29:00,880
+there's a 3D object there absolutely it
+
+753
+00:28:57,880 --> 00:29:02,760
+it it that just I I'm really happy that
+
+754
+00:29:00,880 --> 00:29:05,360
+I I went through the entire process and
+
+755
+00:29:02,760 --> 00:29:07,200
+and actually got to see the thing uh
+
+756
+00:29:05,360 --> 00:29:09,640
+right in front of my eyes to realize how
+
+757
+00:29:07,200 --> 00:29:11,760
+good it actually is uh there's lots of
+
+758
+00:29:09,640 --> 00:29:13,159
+drawings and and things in these papers
+
+759
+00:29:11,760 --> 00:29:16,360
+that are out there on the web but to
+
+760
+00:29:13,159 --> 00:29:17,600
+actually see it uh is amazing now I have
+
+761
+00:29:16,360 --> 00:29:19,120
+when do you see it I don't know if you
+
+762
+00:29:17,600 --> 00:29:20,960
+you'll ever do one of these or not but
+
+763
+00:29:19,120 --> 00:29:23,519
+wait until you see somebody that you
+
+764
+00:29:20,960 --> 00:29:25,600
+know right that's what I was and I'll
+
+765
+00:29:23,519 --> 00:29:27,600
+tell you what the hair will stand up on
+
+766
+00:29:25,600 --> 00:29:28,960
+your arms and your neck when you seen
+
+767
+00:29:27,600 --> 00:29:31,760
+people get that reaction when I show
+
+768
+00:29:28,960 --> 00:29:33,080
+them this little face that I've done uh
+
+769
+00:29:31,760 --> 00:29:34,279
+and then I tell them just imagine if
+
+770
+00:29:33,080 --> 00:29:36,159
+that was your face in there and they
+
+771
+00:29:34,279 --> 00:29:38,600
+give me the strangest look they they get
+
+772
+00:29:36,159 --> 00:29:41,080
+what I'm saying there uh that it's a
+
+773
+00:29:38,600 --> 00:29:42,679
+very strange uh sensation and I agree
+
+774
+00:29:41,080 --> 00:29:45,440
+with some uh statements you made on your
+
+775
+00:29:42,679 --> 00:29:47,440
+website there about about a motive for
+
+776
+00:29:45,440 --> 00:29:50,559
+people that may want to have uh have
+
+777
+00:29:47,440 --> 00:29:53,279
+these things yeah is is seeing somebody
+
+778
+00:29:50,559 --> 00:29:55,880
+that you know or uh you know that's my
+
+779
+00:29:53,279 --> 00:29:58,279
+boat that's my house things that you
+
+780
+00:29:55,880 --> 00:29:59,559
+know and recognize seeing them in and a
+
+781
+00:29:58,279 --> 00:30:02,159
+three dimension like that right there in
+
+782
+00:29:59,559 --> 00:30:03,679
+your hand is just uh powerful basically
+
+783
+00:30:02,159 --> 00:30:05,559
+it's the technique that you really have
+
+784
+00:30:03,679 --> 00:30:07,679
+to get down and uh everything else
+
+785
+00:30:05,559 --> 00:30:09,320
+pretty much falls into place you sent me
+
+786
+00:30:07,679 --> 00:30:11,200
+a link to a web page that was on the
+
+787
+00:30:09,320 --> 00:30:13,440
+holography form and I went there and I
+
+788
+00:30:11,200 --> 00:30:16,440
+took a look and saw a few of your photos
+
+789
+00:30:13,440 --> 00:30:18,279
+and it this is great this this guy is
+
+790
+00:30:16,440 --> 00:30:20,919
+really doing this with with his own
+
+791
+00:30:18,279 --> 00:30:22,679
+homemade equipment yes and uh my poor
+
+792
+00:30:20,919 --> 00:30:25,399
+daughter when I started she was 14 now
+
+793
+00:30:22,679 --> 00:30:28,320
+she's 16 and all she's heard from me is
+
+794
+00:30:25,399 --> 00:30:30,519
+is interference and defraction all these
+
+795
+00:30:28,320 --> 00:30:32,039
+crazy terms and and look quick come over
+
+796
+00:30:30,519 --> 00:30:34,840
+here and look at this look at
+
+797
+00:30:32,039 --> 00:30:37,039
+this she's had to put it put up with it
+
+798
+00:30:34,840 --> 00:30:38,760
+for a while but uh and in fact she's
+
+799
+00:30:37,039 --> 00:30:41,200
+made a couple herself but I don't know
+
+800
+00:30:38,760 --> 00:30:43,640
+she just doesn't H have a a spark in her
+
+801
+00:30:41,200 --> 00:30:45,679
+that says oh I want to do that it's it's
+
+802
+00:30:43,640 --> 00:30:47,240
+it's uh very satisfying to me and it's
+
+803
+00:30:45,679 --> 00:30:50,200
+just a bunch of gobble a to her right
+
+804
+00:30:47,240 --> 00:30:52,320
+now yeah yeah well you know that's that
+
+805
+00:30:50,200 --> 00:30:54,760
+age is she looking forward to a career
+
+806
+00:30:52,320 --> 00:30:57,399
+in science and technology I don't know
+
+807
+00:30:54,760 --> 00:30:59,200
+she is Artistic okay uh and in fact she
+
+808
+00:30:57,399 --> 00:31:01,240
+likes working with Photoshop so I told
+
+809
+00:30:59,200 --> 00:31:04,360
+her you know we can work uh together and
+
+810
+00:31:01,240 --> 00:31:06,320
+you can do some uh some artistic things
+
+811
+00:31:04,360 --> 00:31:08,960
+in Photoshop and I can incorporate them
+
+812
+00:31:06,320 --> 00:31:11,000
+into the holography that I'm doing so uh
+
+813
+00:31:08,960 --> 00:31:12,799
+that's a way to get her uh into it even
+
+814
+00:31:11,000 --> 00:31:15,000
+though she's not uh interested in the
+
+815
+00:31:12,799 --> 00:31:18,200
+technical aspect uh definitely the
+
+816
+00:31:15,000 --> 00:31:22,159
+artistic aspect uh is there technology
+
+817
+00:31:18,200 --> 00:31:24,240
+and uh creativity artistic talents all
+
+818
+00:31:22,159 --> 00:31:26,480
+rolled into one what are your plans for
+
+819
+00:31:24,240 --> 00:31:29,159
+the future now with all this I'm going
+
+820
+00:31:26,480 --> 00:31:30,559
+to continue to uh
+
+821
+00:31:29,159 --> 00:31:32,960
+work with the table and try to get
+
+822
+00:31:30,559 --> 00:31:35,200
+things uh more solid one of the
+
+823
+00:31:32,960 --> 00:31:36,200
+directions I want to go is to try a full
+
+824
+00:31:35,200 --> 00:31:39,480
+Parallax
+
+825
+00:31:36,200 --> 00:31:41,000
+hologram uh which would essentially be
+
+826
+00:31:39,480 --> 00:31:43,159
+an array instead of having vertical
+
+827
+00:31:41,000 --> 00:31:45,919
+slits you have an array of rectangles in
+
+828
+00:31:43,159 --> 00:31:47,240
+essence that's interesting uh so that's
+
+829
+00:31:45,919 --> 00:31:50,840
+one thing that I was thinking about
+
+830
+00:31:47,240 --> 00:31:53,240
+trying uh I also uh still have an
+
+831
+00:31:50,840 --> 00:31:56,080
+interest in the other scientific uh
+
+832
+00:31:53,240 --> 00:31:57,240
+neural network stuff uh but again that's
+
+833
+00:31:56,080 --> 00:31:59,360
+going to be something way down the road
+
+834
+00:31:57,240 --> 00:32:01,880
+but I at least I'll have a platform to
+
+835
+00:31:59,360 --> 00:32:03,360
+learn more about light uh and what the
+
+836
+00:32:01,880 --> 00:32:06,399
+limits are like I said you read some of
+
+837
+00:32:03,360 --> 00:32:08,240
+these papers and they're just hugely
+
+838
+00:32:06,399 --> 00:32:09,840
+complex and then you realize all you
+
+839
+00:32:08,240 --> 00:32:13,279
+need is a piece of glass and a laser to
+
+840
+00:32:09,840 --> 00:32:14,679
+do something yeah so uh now I know you
+
+841
+00:32:13,279 --> 00:32:18,279
+know I need to still find out what the
+
+842
+00:32:14,679 --> 00:32:20,880
+limits are and what I can afford uh in
+
+843
+00:32:18,279 --> 00:32:24,159
+my budget what I can't afford uh and
+
+844
+00:32:20,880 --> 00:32:26,320
+just kind of keep moving towards uh
+
+845
+00:32:24,159 --> 00:32:28,519
+understanding the whole thing is I treat
+
+846
+00:32:26,320 --> 00:32:31,799
+it just as a learning experience
+
+847
+00:32:28,519 --> 00:32:34,000
+and uh just keep learning
+
+848
+00:32:31,799 --> 00:32:37,639
+yeah all right Larry is there anything
+
+849
+00:32:34,000 --> 00:32:40,080
+you want to add that we didn't cover uh
+
+850
+00:32:37,639 --> 00:32:41,519
+no I don't think so um I'm pretty much
+
+851
+00:32:40,080 --> 00:32:42,919
+covered I appreciate you having me on
+
+852
+00:32:41,519 --> 00:32:44,639
+you'll keep you'll keep in touch and let
+
+853
+00:32:42,919 --> 00:32:46,279
+me know how your experiments continue to
+
+854
+00:32:44,639 --> 00:32:49,000
+go too absolutely and I'll be posting
+
+855
+00:32:46,279 --> 00:32:50,399
+more uh on the Forum as I uh get a
+
+856
+00:32:49,000 --> 00:32:52,639
+little bit better I want to have cleaner
+
+857
+00:32:50,399 --> 00:32:54,200
+looking images and uh I do want to
+
+858
+00:32:52,639 --> 00:32:55,480
+mention if you don't mind me dropping a
+
+859
+00:32:54,200 --> 00:32:58,080
+couple names some people have helped me
+
+860
+00:32:55,480 --> 00:33:00,360
+and I just mentioned Desh uh also Al
+
+861
+00:32:58,080 --> 00:33:02,279
+yourself many of your documents on that
+
+862
+00:33:00,360 --> 00:33:03,639
+website have been a great value I print
+
+863
+00:33:02,279 --> 00:33:05,279
+them out and then I've read them over
+
+864
+00:33:03,639 --> 00:33:07,600
+and over again so I want to thank you
+
+865
+00:33:05,279 --> 00:33:10,000
+for that also uh Steve McGrew has been a
+
+866
+00:33:07,600 --> 00:33:13,440
+big help to me okay uh he's been willing
+
+867
+00:33:10,000 --> 00:33:16,880
+to uh give me little hints and just talk
+
+868
+00:33:13,440 --> 00:33:18,639
+it over and also Jason sapan in uh New
+
+869
+00:33:16,880 --> 00:33:21,399
+York does that as a living he actually
+
+870
+00:33:18,639 --> 00:33:22,960
+is using film and uh he had some
+
+871
+00:33:21,399 --> 00:33:25,440
+valuable insights as well so I try to
+
+872
+00:33:22,960 --> 00:33:26,760
+make use of uh of the talent that's out
+
+873
+00:33:25,440 --> 00:33:28,720
+there and there are some people who
+
+874
+00:33:26,760 --> 00:33:30,200
+willing to talk to you and some who
+
+875
+00:33:28,720 --> 00:33:32,120
+would rather not and I understand that
+
+876
+00:33:30,200 --> 00:33:34,679
+because that's their business and uh you
+
+877
+00:33:32,120 --> 00:33:36,279
+know you don't want to compete or have
+
+878
+00:33:34,679 --> 00:33:37,720
+be seen as a competitor unless you are a
+
+879
+00:33:36,279 --> 00:33:39,559
+competitor and then you know you have to
+
+880
+00:33:37,720 --> 00:33:43,919
+be uh honest about what you're doing
+
+881
+00:33:39,559 --> 00:33:46,320
+yeah so uh yeah great wish everybody
+
+882
+00:33:43,919 --> 00:33:48,760
+good luck on what they're doing and uh
+
+883
+00:33:46,320 --> 00:33:52,279
+just keep up making the Holograms all
+
+884
+00:33:48,760 --> 00:33:53,760
+right all right FK Larry Dario you have
+
+885
+00:33:52,279 --> 00:33:54,720
+a good rest of the week all right thank
+
+886
+00:33:53,760 --> 00:33:56,720
+you all right thanks for being on the
+
+887
+00:33:54,720 --> 00:33:59,720
+show talk to you later
+
+888
+00:33:56,720 --> 00:33:59,720
+bye
+
+889
+00:34:26,720 --> 00:34:29,720
+e
+
+890
+00:34:56,640 --> 00:34:59,640
+e
+
+891
+00:35:26,640 --> 00:35:29,640
+e
+
+892
+00:35:56,640 --> 00:35:59,640
+e
+
+893
+00:36:26,560 --> 00:36:29,560
+e
+
+894
+00:36:56,520 --> 00:36:59,520
+e
+
+895
+00:37:26,520 --> 00:37:29,520
+e
+
+896
+00:37:56,440 --> 00:37:59,440
+e
+
+897
+00:38:26,440 --> 00:38:29,440
+e
+
+898
+00:38:56,440 --> 00:38:59,440
+e
+
+899
+00:39:26,359 --> 00:39:29,359
+e
+
+900
+00:39:56,319 --> 00:39:59,319
+e
+
+901
+00:40:26,319 --> 00:40:29,319
+e
+
+902
+00:40:56,240 --> 00:40:59,240
+e
+
+903
+00:41:26,240 --> 00:41:29,240
+e
+
+904
+00:41:56,240 --> 00:41:59,240
+e
+
+905
+00:42:26,119 --> 00:42:29,119
+e
+
+906
+00:42:56,119 --> 00:42:59,119
+e
+
+907
+00:43:26,119 --> 00:43:29,119
+e
+
+908
+00:43:47,960 --> 00:43:50,960
+for
+

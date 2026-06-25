@@ -131,6 +131,31 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
 
 .card-excerpt {
     color: var(--text-secondary);
@@ -329,570 +354,571 @@ footer {
 </p>
 </div>
 </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (47)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (44)</button><button class="filter-btn" data-filter="off-topic">📎 Off-topic (3)</button></div>
 <h2>Videos</h2>
-<div class="card-grid">
+<div class="card-grid" id="video-grid">
 
-        <a href="../videos/fortune-teller-180-degree-hologram-by-sharon-mccormack-1979-2d-video-by-al.html" class="card">
+        <a href="../videos/fortune-teller-180-degree-hologram-by-sharon-mccormack-1979-2d-video-by-al.html" class="card" data-relevance="holography">
             <h3>&#x27;Fortune Teller&#x27; - 180 degree hologram by Sharon McCormack 1979  - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 12s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 12s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/aqua-blue-3d-wallpaper-razutis.html" class="card">
+        <a href="../videos/aqua-blue-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Aqua blue - 3D wallpaper (Razutis)</h3>
-            <div class="card-meta">Unknown · 0m 13s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 13s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-embrace-hologram-by-sharon-mccormack-3d-video-anaglyph.html" class="card">
+        <a href="../videos/the-embrace-hologram-by-sharon-mccormack-3d-video-anaglyph.html" class="card" data-relevance="holography">
             <h3>The Embrace hologram by Sharon McCormack - 3D video anaglyph</h3>
-            <div class="card-meta">Unknown · 0m 13s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 13s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-embrace-multiplex-hologram-by-sharon-mccormack-with-narration-in.html" class="card">
+        <a href="../videos/the-embrace-multiplex-hologram-by-sharon-mccormack-with-narration-in.html" class="card" data-relevance="holography">
             <h3>&#x27;The Embrace&#x27; multiplex hologram by Sharon McCormack with narration  - in anaglyph 3D by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 13s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 13s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/aqua-yellow-red-3d-wallpaper-razutis.html" class="card">
+        <a href="../videos/aqua-yellow-red-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Aqua yellow-red - 3D wallpaper (Razutis)</h3>
-            <div class="card-meta">Unknown · 0m 14s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 14s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card">
+        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card" data-relevance="holography-adjacent">
             <h3>Simone Forti, Lloyd Cross,  &quot;Striding Crawling Sitting + Big Jump on Back&quot;, ca. 1976, video by XAR3D</h3>
-            <div class="card-meta">Unknown · 0m 21s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 21s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card">
+        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card" data-relevance="holography-adjacent">
             <h3>Simone Forti, Lloyd Cross,  Striding Crawling Sitting + &quot;Big Jump on Back&quot;, ca. 1976, video by XAR3D</h3>
-            <div class="card-meta">Unknown · 0m 21s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 21s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/aqua-fuchsia-3d-wallpaper-razutis.html" class="card">
+        <a href="../videos/aqua-fuchsia-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Aqua fuchsia - 3D wallpaper (Razutis)</h3>
-            <div class="card-meta">Unknown · 0m 21s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 21s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/time-man-360-degree-hologram-by-sharon-mccormack-1982-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/time-man-360-degree-hologram-by-sharon-mccormack-1982-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>&#x27;Time Man&#x27; - 360 degree hologram by Sharon McCormack 1982  - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 23s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 23s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/first-cylindric-chromo-hologram-portrait-of-alice-coopers-brain-by-salvador.html" class="card">
+        <a href="../videos/first-cylindric-chromo-hologram-portrait-of-alice-coopers-brain-by-salvador.html" class="card" data-relevance="holography">
             <h3>&#x27;First Cylindric Chromo-Hologram Portrait of Alice Cooper&#x27;s Brain&#x27; by Salvador Dali video by XAR3D</h3>
-            <div class="card-meta">Unknown · 0m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/michael-jordan-by-sharon-mccormack-360-degree-hologram-2d-by-al-razutis.html" class="card">
+        <a href="../videos/michael-jordan-by-sharon-mccormack-360-degree-hologram-2d-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>&#x27;Michael Jordan&#x27; by Sharon McCormack - 360 degree hologram - 2D by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/diamonds-and-pearls-album-cover-prince-1080p.html" class="card">
+        <a href="../videos/diamonds-and-pearls-album-cover-prince-1080p.html" class="card" data-relevance="off-topic">
             <h3>Diamonds and Pearls album cover PRINCE 1080P</h3>
-            <div class="card-meta">Unknown · 0m 30s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 30s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/simone-forti-lloyd-cross-big-jump-on-back-c-1976-holographic-film-120-deg.html" class="card">
+        <a href="../videos/simone-forti-lloyd-cross-big-jump-on-back-c-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
             <h3>Simone Forti, Lloyd Cross,  Big Jump on Back, c. 1976, holographic film, 120 deg.</h3>
-            <div class="card-meta">Unknown · 0m 38s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 38s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Virtual Flesh 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 39s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 39s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/simone-forti-lloyd-cross-harmonics-ca-1976-holographic-film-120-deg.html" class="card">
+        <a href="../videos/simone-forti-lloyd-cross-harmonics-ca-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
             <h3>Simone Forti, Lloyd Cross,  Harmonics, ca. 1976, holographic film, 120 deg.</h3>
-            <div class="card-meta">Unknown · 0m 40s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 40s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Virtual Flesh  3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 40s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 40s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/ether-vane-conjugate-images-by-al-razutis-anaglyph-video.html" class="card">
+        <a href="../videos/ether-vane-conjugate-images-by-al-razutis-anaglyph-video.html" class="card" data-relevance="holography-adjacent">
             <h3>&#x27;Ether Vane&#x27; - Conjugate Images by Al Razutis -- Anaglyph video</h3>
-            <div class="card-meta">Unknown · 0m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 41s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/france-1997-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/france-1997-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>France  1997 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 43s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 43s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/nagual-pt-2-treading-lightly-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/nagual-pt-2-treading-lightly-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Nagual (pt. 2)  &#x27;Treading Lightly&#x27; - 3D Video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 45s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 45s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/shadows-of-love-lomas-biely-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/shadows-of-love-lomas-biely-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Shadows of Love (Lomas &amp; Biely) - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 47s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 47s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/aqua-green-3d-wallpaper-razutis.html" class="card">
+        <a href="../videos/aqua-green-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Aqua green - 3D wallpaper (Razutis)</h3>
-            <div class="card-meta">Unknown · 0m 50s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 50s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/simone-forti-lloyd-cross-huddle-ca-1976-holographic-film-120-deg.html" class="card">
+        <a href="../videos/simone-forti-lloyd-cross-huddle-ca-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
             <h3>Simone Forti, Lloyd Cross,  Huddle, ca. 1976, holographic film, 120 deg.</h3>
-            <div class="card-meta">Unknown · 0m 54s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 54s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/tribal-holograms-by-sharon-mccormack-anaglyph-3d-video-1-min.html" class="card">
+        <a href="../videos/tribal-holograms-by-sharon-mccormack-anaglyph-3d-video-1-min.html" class="card" data-relevance="holography">
             <h3>Tribal Holograms by Sharon McCormack - Anaglyph 3D video - 1 min.</h3>
-            <div class="card-meta">Unknown · 0m 56s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 56s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/studio-visitor-multiplex-holograms-3d-1-min-al-razutis.html" class="card">
+        <a href="../videos/studio-visitor-multiplex-holograms-3d-1-min-al-razutis.html" class="card" data-relevance="holography">
             <h3>Studio Visitor   Multiplex holograms   3D 1 min  Al Razutis</h3>
-            <div class="card-meta">Unknown · 0m 57s · Youtube</div>
+            <div class="card-meta">Unknown · 0m 57s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-fortune-teller-multiplex-hologram-video-by-xar3d-2020.html" class="card">
+        <a href="../videos/the-fortune-teller-multiplex-hologram-video-by-xar3d-2020.html" class="card" data-relevance="holography">
             <h3>The Fortune Teller  - multiplex hologram - video by XAR3D 2020</h3>
-            <div class="card-meta">Unknown · 1m 0s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 0s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/walking-on-air-dean-fogal-performance-excerpt.html" class="card">
+        <a href="../videos/walking-on-air-dean-fogal-performance-excerpt.html" class="card" data-relevance="off-topic">
             <h3>Walking on Air - Dean Fogal performance excerpt</h3>
-            <div class="card-meta">Unknown · 1m 11s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 11s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/earth-360-degree-multiplex-hologram-by-sharon-mccormack-anaglyph-3d-video-by.html" class="card">
+        <a href="../videos/earth-360-degree-multiplex-hologram-by-sharon-mccormack-anaglyph-3d-video-by.html" class="card" data-relevance="holography">
             <h3>&#x27;Earth&#x27;  - 360 degree multiplex hologram by Sharon McCormack   - Anaglyph 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 12s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 12s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-roberta-booth-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-roberta-booth-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Roberta Booth - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 13s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 13s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/striding-crawling-by-simon-forti-1977-multiplex-hologram-by-lloyd-cross.html" class="card">
+        <a href="../videos/striding-crawling-by-simon-forti-1977-multiplex-hologram-by-lloyd-cross.html" class="card" data-relevance="holography">
             <h3>Striding Crawling by Simon Forti 1977  multiplex hologram by Lloyd Cross - video by XAR3D</h3>
-            <div class="card-meta">Unknown · 1m 17s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 17s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/apsaras-masters-1-min-2d-film-by-al-razutis-silent.html" class="card">
+        <a href="../videos/apsaras-masters-1-min-2d-film-by-al-razutis-silent.html" class="card" data-relevance="holography-adjacent">
             <h3>&#x27;Apsaras Masters&#x27; - 1 min. 2D film by Al Razutis - silent</h3>
-            <div class="card-meta">Unknown · 1m 17s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 17s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/france-1997-3d-video-by-al-razutis-i-saw-your-videos-at-the-louvre-1-min-17-sec.html" class="card">
+        <a href="../videos/france-1997-3d-video-by-al-razutis-i-saw-your-videos-at-the-louvre-1-min-17-sec.html" class="card" data-relevance="holography-adjacent">
             <h3>France  1997 3D video by Al Razutis - &quot;I saw your videos at the Louvre&quot; - 1 min. 17 sec.</h3>
-            <div class="card-meta">Unknown · 1m 17s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 17s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Virtual Flesh 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 19s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 19s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-jim-feroe-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-jim-feroe-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Jim Feroe - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 24s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 24s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/earth-and-michael-jordan-multiplex-holograms-by-sharon-mccormack-video-by-al.html" class="card">
+        <a href="../videos/earth-and-michael-jordan-multiplex-holograms-by-sharon-mccormack-video-by-al.html" class="card" data-relevance="holography">
             <h3>&#x27;Earth&#x27; and &#x27;Michael Jordan&#x27; - multiplex holograms by Sharon McCormack   - video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-mary-harman-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-mary-harman-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Mary Harman - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 25s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 25s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holography-by-becky-deem-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holography-by-becky-deem-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holography by Becky Deem - 3D Video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 29s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 29s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/basic-transmission-hologram-set-up-by-chuck-paxton-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/basic-transmission-hologram-set-up-by-chuck-paxton-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Basic Transmission Hologram Set Up by Chuck Paxton - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 29s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 29s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/quasimodos-poem-al-razutis-vrml-1996-90-sec-with-sound-standard-viewing.html" class="card">
+        <a href="../videos/quasimodos-poem-al-razutis-vrml-1996-90-sec-with-sound-standard-viewing.html" class="card" data-relevance="holography-adjacent">
             <h3>Quasimodo&#x27;s Poem - Al Razutis -  VRML 1996 - 90 sec. with sound, standard viewing</h3>
-            <div class="card-meta">Unknown · 1m 30s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 30s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/diamonds-and-pearls-by-prince-cover-hologram-art-by-sharon-mccormack-1080p.html" class="card">
+        <a href="../videos/diamonds-and-pearls-by-prince-cover-hologram-art-by-sharon-mccormack-1080p.html" class="card" data-relevance="holography">
             <h3>&#x27;Diamonds and Pearls&#x27; by Prince   cover hologram art by Sharon McCormack 1080P by Al Razutis XAR3D</h3>
-            <div class="card-meta">Unknown · 1m 32s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 32s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/anait-dancing-with-light-waves-360-multiplex-holograms-by-anait-stephens.html" class="card">
+        <a href="../videos/anait-dancing-with-light-waves-360-multiplex-holograms-by-anait-stephens.html" class="card" data-relevance="holography">
             <h3>&#x27;Anait - Dancing with Light Waves&#x27; - 360 multiplex holograms by Anait Stephens</h3>
-            <div class="card-meta">Unknown · 1m 34s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 34s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-gary-cullen-holocrafts-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-gary-cullen-holocrafts-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Gary Cullen - Holocrafts - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 37s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 37s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/portraits-of-sharon-by-lloyd-cross-multiplex-holograms-video-by-xar3d-2020.html" class="card">
+        <a href="../videos/portraits-of-sharon-by-lloyd-cross-multiplex-holograms-video-by-xar3d-2020.html" class="card" data-relevance="holography">
             <h3>Portraits of Sharon by Lloyd Cross - multiplex holograms - video by XAR3D 2020</h3>
-            <div class="card-meta">Unknown · 1m 38s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 38s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/fred-unterseher-visual-zombies-video-by-xar3d-razutis.html" class="card">
+        <a href="../videos/fred-unterseher-visual-zombies-video-by-xar3d-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Fred Unterseher - &quot;Visual Zombies&quot; - video by XAR3D (Razutis)</h3>
-            <div class="card-meta">Unknown · 1m 39s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 39s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/pearls-before-swine-al-razutis-richard-martin-2023.html" class="card">
+        <a href="../videos/pearls-before-swine-al-razutis-richard-martin-2023.html" class="card" data-relevance="holography-adjacent">
             <h3>PEARLS BEFORE SWINE - Al Razutis &amp; Richard Martin 2023</h3>
-            <div class="card-meta">Unknown · 1m 42s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 42s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/dali-painting-gala-multiplex-hologram-hd-video-by-al-razutis.html" class="card">
+        <a href="../videos/dali-painting-gala-multiplex-hologram-hd-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>&#x27;Dali Painting Gala&#x27; multiplex hologram - HD video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 51s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 51s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/place-of-the-first-time-vr-world-reading-by-al-razutis.html" class="card">
+        <a href="../videos/place-of-the-first-time-vr-world-reading-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Place of the First Time - VR world, reading by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 52s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 52s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/lloyd-cross-kiss-2-multiplex-holograms-by-video-by-xar3d-2020.html" class="card">
+        <a href="../videos/lloyd-cross-kiss-2-multiplex-holograms-by-video-by-xar3d-2020.html" class="card" data-relevance="holography">
             <h3>Lloyd Cross &amp; Kiss 2 - multiplex holograms by - video by  XAR3D 2020</h3>
-            <div class="card-meta">Unknown · 1m 55s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 55s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/apsaras-china-projected-720p-anaglyph-3d-2-min.html" class="card">
+        <a href="../videos/apsaras-china-projected-720p-anaglyph-3d-2-min.html" class="card" data-relevance="holography-adjacent">
             <h3>APSARAS CHINA PROJECTED 720P ANAGLYPH 3D - 2 MIN.</h3>
-            <div class="card-meta">Unknown · 1m 55s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 55s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-virtual-body-excerpts-by-xar3d-2021.html" class="card">
+        <a href="../videos/the-virtual-body-excerpts-by-xar3d-2021.html" class="card" data-relevance="holography-adjacent">
             <h3>The Virtual Body  - excerpts by XAR3D 2021</h3>
-            <div class="card-meta">Unknown · 1m 56s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 56s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/fortune-teller-and-the-rose-multiplex-holograms-by-sharon-mccormack-by-al.html" class="card">
+        <a href="../videos/fortune-teller-and-the-rose-multiplex-holograms-by-sharon-mccormack-by-al.html" class="card" data-relevance="holography">
             <h3>&#x27;Fortune Teller&#x27; and  &#x27;The Rose&#x27;  -  multiplex holograms by Sharon McCormack -  by Al Razutis</h3>
-            <div class="card-meta">Unknown · 1m 59s · Youtube</div>
+            <div class="card-meta">Unknown · 1m 59s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Fred Unterseher - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 0s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 0s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/michael-jordan-holograms-by-sharon-mccormack-720p-video-by-xar3d-al-razutis.html" class="card">
+        <a href="../videos/michael-jordan-holograms-by-sharon-mccormack-720p-video-by-xar3d-al-razutis.html" class="card" data-relevance="holography">
             <h3>Michael Jordan - Holograms by Sharon McCormack 720p - video by XAR3D Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 3s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 3s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/1-let-brother-al-tell-it-visual-essay-2021-by-xar3d.html" class="card">
+        <a href="../videos/1-let-brother-al-tell-it-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
             <h3>#1 Let Brother Al Tell it  (Visual Essay 2021) by XAR3D</h3>
-            <div class="card-meta">Unknown · 2m 8s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 8s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-melissa-crenshaw-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-melissa-crenshaw-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Melissa Crenshaw  - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 11s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 11s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/gary-cullen-stereo-photography-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/gary-cullen-stereo-photography-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Gary Cullen - Stereo Photography - 3D Video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 13s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 13s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/michael-jordan-sports-illustrated-1991-orig-35mm-film-by-sharon-mccormack-720p.html" class="card">
+        <a href="../videos/michael-jordan-sports-illustrated-1991-orig-35mm-film-by-sharon-mccormack-720p.html" class="card" data-relevance="holography-adjacent">
             <h3>Michael Jordan Sports Illustrated 1991 orig.  35mm film by Sharon McCormack  720p</h3>
-            <div class="card-meta">Unknown · 2m 24s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 24s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-steve-weinstock-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-steve-weinstock-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Steve Weinstock - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 29s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 29s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-chuck-paxton-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-chuck-paxton-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Chuck Paxton - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 36s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 36s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/virtual-flesh-anaglyph-3d-video-by-al-razutis-3-min-excerpt-from-1996-film.html" class="card">
+        <a href="../videos/virtual-flesh-anaglyph-3d-video-by-al-razutis-3-min-excerpt-from-1996-film.html" class="card" data-relevance="holography-adjacent">
             <h3>Virtual Flesh - anaglyph 3D video by Al Razutis - 3 min. excerpt from 1996 film</h3>
-            <div class="card-meta">Unknown · 2m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 41s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/pulsed-ruby-laser-holography-by-fred-unterseher-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/pulsed-ruby-laser-holography-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Pulsed ruby laser holography by Fred Unterseher - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 41s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-sharon-mccormack-3d-video-3-min-extract-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-sharon-mccormack-3d-video-3-min-extract-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Sharon McCormack - 3D video (3 min. extract) by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 43s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 43s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-melissa-crenshaw-and-sidney-dinsmore-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-melissa-crenshaw-and-sidney-dinsmore-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Melissa Crenshaw and Sidney Dinsmore - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 44s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 44s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-john-kaufman-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-john-kaufman-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by John Kaufman - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 48s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 48s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-embrace-by-sharon-mccormack-1980-multiplex-hologram-video-by-xar3d-2021.html" class="card">
+        <a href="../videos/the-embrace-by-sharon-mccormack-1980-multiplex-hologram-video-by-xar3d-2021.html" class="card" data-relevance="holography">
             <h3>&#x27;The Embrace&#x27; by Sharon McCormack, 1980 - multiplex hologram - video by XAR3D 2021</h3>
-            <div class="card-meta">Unknown · 2m 50s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 50s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-playa-at-night-a-voyeurs-delight-3d-al-razutis.html" class="card">
+        <a href="../videos/the-playa-at-night-a-voyeurs-delight-3d-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>The Playa at Night a voyeur&#x27;s delight 3D Al Razutis</h3>
-            <div class="card-meta">Unknown · 2m 51s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 51s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/apsara-series-anaglyph-3d-video-3-min-silent.html" class="card">
+        <a href="../videos/apsara-series-anaglyph-3d-video-3-min-silent.html" class="card" data-relevance="holography-adjacent">
             <h3>Apsara Series - Anaglyph 3D video - 3 min. silent</h3>
-            <div class="card-meta">Unknown · 2m 53s · Youtube</div>
+            <div class="card-meta">Unknown · 2m 53s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-anait-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-anait-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Anait - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 3m 3s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 3s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-playa-in-white-in-sand-wind-and-light-al-razutis-burning-man-2015-3-min.html" class="card">
+        <a href="../videos/the-playa-in-white-in-sand-wind-and-light-al-razutis-burning-man-2015-3-min.html" class="card" data-relevance="holography-adjacent">
             <h3>The Playa in White (in sand wind and light)   Al Razutis  Burning Man 2015  3 min</h3>
-            <div class="card-meta">Unknown · 3m 6s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 6s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/fred-unterseher-a-lecture-on-light-and-holography-by-xar3d-razutis.html" class="card">
+        <a href="../videos/fred-unterseher-a-lecture-on-light-and-holography-by-xar3d-razutis.html" class="card" data-relevance="holography">
             <h3>Fred Unterseher --  &#x27;a lecture on light and holography&#x27; by XAR3D (Razutis)</h3>
-            <div class="card-meta">Unknown · 3m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 7s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/michael-jordan-360-deg-motion-picture-hologram-by-sharon-mccormack-original.html" class="card">
+        <a href="../videos/michael-jordan-360-deg-motion-picture-hologram-by-sharon-mccormack-original.html" class="card" data-relevance="holography">
             <h3>Michael Jordan 360 deg. motion-picture  hologram by Sharon McCormack original 35mm film  720p</h3>
-            <div class="card-meta">Unknown · 3m 18s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 18s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-al-razutis-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-al-razutis-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Al Razutis - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 3m 18s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 18s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/the-holography-of-fred-unterseher-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/the-holography-of-fred-unterseher-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>The Holography of Fred Unterseher - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 3m 21s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 21s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/waveforms-and-synapses-excerpts-from-1970s-videos-by-al-razutis-4-min.html" class="card">
+        <a href="../videos/waveforms-and-synapses-excerpts-from-1970s-videos-by-al-razutis-4-min.html" class="card" data-relevance="holography-adjacent">
             <h3>&#x27;Waveforms and Synapses&#x27; - excerpts from 1970&#x27;s videos by Al Razutis - 4 min.</h3>
-            <div class="card-meta">Unknown · 3m 59s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 59s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/vortex-by-al-razutis-1972-two-excerpts-4-min.html" class="card">
+        <a href="../videos/vortex-by-al-razutis-1972-two-excerpts-4-min.html" class="card" data-relevance="holography-adjacent">
             <h3>Vortex - by Al Razutis 1972 - two excerpts - 4 min.</h3>
-            <div class="card-meta">Unknown · 3m 59s · Youtube</div>
+            <div class="card-meta">Unknown · 3m 59s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/galiano-suite-no-1-al-razutis-2019-4-min-normal-viewing-sound.html" class="card">
+        <a href="../videos/galiano-suite-no-1-al-razutis-2019-4-min-normal-viewing-sound.html" class="card" data-relevance="holography-adjacent">
             <h3>Galiano Suite - No. 1 - Al Razutis 2019 - 4 min. - normal viewing - sound</h3>
-            <div class="card-meta">Unknown · 4m 9s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 9s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/pulsed-holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/pulsed-holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Pulsed holographic art by Fred Unterseher - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 4m 9s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 9s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/michael-jackson-moonwalk-by-xar3d-al-razutis-2023.html" class="card">
+        <a href="../videos/michael-jackson-moonwalk-by-xar3d-al-razutis-2023.html" class="card" data-relevance="holography-adjacent">
             <h3>Michael Jackson Moonwalk by XAR3D Al Razutis 2023</h3>
-            <div class="card-meta">Unknown · 4m 16s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 16s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/holographic-art-by-dan-schweitzer-2d-video-by-al-razutis.html" class="card">
+        <a href="../videos/holographic-art-by-dan-schweitzer-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>Holographic art by Dan Schweitzer - 2D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 4m 40s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 40s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/galiano-shorebreak-5-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card">
+        <a href="../videos/galiano-shorebreak-5-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
             <h3>Galiano Shorebreak - 5 min. anaglyph 3D video by Al Razutis 2019</h3>
-            <div class="card-meta">Unknown · 4m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 4m 41s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/chain-of-events-bm-2015-by-al-razutis-5min-720p.html" class="card">
+        <a href="../videos/chain-of-events-bm-2015-by-al-razutis-5min-720p.html" class="card" data-relevance="holography-adjacent">
             <h3>Chain of Events BM  2015 by Al Razutis 5min 720p</h3>
-            <div class="card-meta">Unknown · 5m 3s · Youtube</div>
+            <div class="card-meta">Unknown · 5m 3s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/night-scenes-burning-man-2015-by-al-razutis-5-min-720p.html" class="card">
+        <a href="../videos/night-scenes-burning-man-2015-by-al-razutis-5-min-720p.html" class="card" data-relevance="holography-adjacent">
             <h3>Night Scenes Burning Man 2015  by Al Razutis  5 min 720P</h3>
-            <div class="card-meta">Unknown · 5m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 5m 7s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/virtual-space-virtual-imaging-3d-video-by-al-razutis.html" class="card">
+        <a href="../videos/virtual-space-virtual-imaging-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
             <h3>Virtual Space (Virtual Imaging) - 3D video by Al Razutis</h3>
-            <div class="card-meta">Unknown · 5m 20s · Youtube</div>
+            <div class="card-meta">Unknown · 5m 20s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/sharon-mccormack-holography-c-1991.html" class="card">
+        <a href="../videos/sharon-mccormack-holography-c-1991.html" class="card" data-relevance="holography">
             <h3>Sharon McCormack &#x27;Holography&#x27; c  1991</h3>
-            <div class="card-meta">Unknown · 5m 51s · Youtube</div>
+            <div class="card-meta">Unknown · 5m 51s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/ensalada-deja-vu-para-llevar-6-min-anaglyph-3d-by-al-razutis-2019.html" class="card">
+        <a href="../videos/ensalada-deja-vu-para-llevar-6-min-anaglyph-3d-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
             <h3>Ensalada Deja Vu -  &#x27;para llevar&#x27; 6 min.  - anaglyph 3D  by Al Razutis 2019</h3>
-            <div class="card-meta">Unknown · 6m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 6m 7s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/4-another-world-visual-essay-2021-by-xar3d.html" class="card">
+        <a href="../videos/4-another-world-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
             <h3>#4  &#x27;Another World&quot;   (Visual Essay 2021) by XAR3D</h3>
-            <div class="card-meta">Unknown · 6m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 6m 41s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/sharon-mccormack-holography-c-1983.html" class="card">
+        <a href="../videos/sharon-mccormack-holography-c-1983.html" class="card" data-relevance="holography">
             <h3>Sharon McCormack Holography  c. 1983</h3>
-            <div class="card-meta">Unknown · 6m 54s · Youtube</div>
+            <div class="card-meta">Unknown · 6m 54s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/2-temple-of-impossible-visual-essay-2021-by-xar3d.html" class="card">
+        <a href="../videos/2-temple-of-impossible-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
             <h3>#2 &quot;Temple of impossible&quot; (Visual Essay 2021) by XAR3D</h3>
-            <div class="card-meta">Unknown · 6m 59s · Youtube</div>
+            <div class="card-meta">Unknown · 6m 59s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/5-visual-essay-a-hologram-of-field-by-xar3d-al-razutis-2021.html" class="card">
+        <a href="../videos/5-visual-essay-a-hologram-of-field-by-xar3d-al-razutis-2021.html" class="card" data-relevance="holography">
             <h3>#5 Visual Essay  -- &#x27;A hologram of field&#x27; - by XAR3D (Al Razutis) 2021</h3>
-            <div class="card-meta">Unknown · 8m 33s · Youtube</div>
+            <div class="card-meta">Unknown · 8m 33s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/3-the-wall-of-juris-upatnieks-visual-essay-2021-by-xar3d.html" class="card">
+        <a href="../videos/3-the-wall-of-juris-upatnieks-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
             <h3>#3 &#x27;&quot;The Wall of Juris Upatnieks&quot; (Visual Essay 2021)  --  by XAR3D</h3>
-            <div class="card-meta">Unknown · 9m 20s · Youtube</div>
+            <div class="card-meta">Unknown · 9m 20s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/galiano-shorebreak-11-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card">
+        <a href="../videos/galiano-shorebreak-11-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
             <h3>Galiano Shorebreak - 11 min. anaglyph 3D video by Al Razutis 2019</h3>
-            <div class="card-meta">Unknown · 11m 7s · Youtube</div>
+            <div class="card-meta">Unknown · 11m 7s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/galiano-suite-2-rhythms-al-razutis-2d3d-2019-14-min.html" class="card">
+        <a href="../videos/galiano-suite-2-rhythms-al-razutis-2d3d-2019-14-min.html" class="card" data-relevance="holography-adjacent">
             <h3>Galiano Suite 2  -  Rhythms -  Al Razutis   2D/3D  2019 14 min.</h3>
-            <div class="card-meta">Unknown · 13m 51s · Youtube</div>
+            <div class="card-meta">Unknown · 13m 51s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/rob-taylor-interviewed-by-al-razutis-2013-anaglyph-3d.html" class="card">
+        <a href="../videos/rob-taylor-interviewed-by-al-razutis-2013-anaglyph-3d.html" class="card" data-relevance="holography-adjacent">
             <h3>Rob Taylor interviewed by Al Razutis 2013 - anaglyph 3D</h3>
-            <div class="card-meta">Unknown · 15m 41s · Youtube</div>
+            <div class="card-meta">Unknown · 15m 41s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/ensalada-deja-vu-para-aqui-19-min-anaglyph-3d-by-al-razutis-2019.html" class="card">
+        <a href="../videos/ensalada-deja-vu-para-aqui-19-min-anaglyph-3d-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
             <h3>Ensalada Deja Vu - &#x27;para aqui&#x27;  19 min.- anaglyph 3D  by Al Razutis 2019</h3>
-            <div class="card-meta">Unknown · 19m 35s · Youtube</div>
+            <div class="card-meta">Unknown · 19m 35s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/anait-dancing-with-light-waves.html" class="card">
+        <a href="../videos/anait-dancing-with-light-waves.html" class="card" data-relevance="off-topic">
             <h3>ANAIT - Dancing with Light Waves</h3>
-            <div class="card-meta">Unknown · 43m 19s · Youtube</div>
+            <div class="card-meta">Unknown · 43m 19s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 </div>
@@ -902,5 +928,17 @@ footer {
 <p>Al Razutis — XAR3D · 94 videos</p>
 </div>
 </footer>
+<script>
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    document.querySelectorAll("#video-grid .card").forEach(card => {
+      card.style.display = (filter === "all" || card.dataset.relevance === filter) ? "" : "none";
+    });
+  });
+});
+</script>
 </body>
 </html>

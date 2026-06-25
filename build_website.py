@@ -236,6 +236,31 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
 
 .card-excerpt {
     color: var(--text-secondary);
@@ -660,9 +685,23 @@ def build_creator_page(creator, catalog):
 
     html_parts.extend(['</p>', '</div>', '</div>'])
 
+    # Relevance filter buttons
+    from collections import Counter
+    relevance_counts = Counter(v.get('relevance', 'other') for v in creator_videos)
+    filter_html = '<div class="relevance-filter">'
+    filter_html += '<button class="filter-btn active" data-filter="all">All</button>'
+    if 'holography' in relevance_counts:
+        filter_html += f'<button class="filter-btn" data-filter="holography">🔬 Holography ({relevance_counts["holography"]})</button>'
+    if 'holography-adjacent' in relevance_counts:
+        filter_html += f'<button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent ({relevance_counts["holography-adjacent"]})</button>'
+    if 'off-topic' in relevance_counts:
+        filter_html += f'<button class="filter-btn" data-filter="off-topic">📎 Off-topic ({relevance_counts["off-topic"]})</button>'
+    filter_html += '</div>'
+    html_parts.append(filter_html)
+
     # Videos list
     html_parts.append('<h2>Videos</h2>')
-    html_parts.append('<div class="card-grid">')
+    html_parts.append('<div class="card-grid" id="video-grid">')
 
     for v in creator_videos:
         vid = v['id']
@@ -673,10 +712,13 @@ def build_creator_page(creator, catalog):
         platform = v.get('platform', 'youtube')
         excerpt = get_excerpt(get_transcript_text(vid), 200)
 
+        relevance = v.get('relevance', 'other')
+        relevance_label = {'holography': '🔬 Holography', 'holography-adjacent': '🔗 Adjacent', 'off-topic': '📎 Off-topic'}.get(relevance, '')
+
         html_parts.append(f'''
-        <a href="../videos/{video_slug}.html" class="card">
+        <a href="../videos/{video_slug}.html" class="card" data-relevance="{relevance}">
             <h3>{html.escape(title)}</h3>
-            <div class="card-meta">{date} · {dur} · {platform.title()}</div>
+            <div class="card-meta">{date} · {dur} · {platform.title()} {relevance_label}</div>
             <div class="card-excerpt">{html.escape(excerpt)}</div>
         </a>''')
 
@@ -688,6 +730,18 @@ def build_creator_page(creator, catalog):
         f'<p>{html.escape(creator["name"])} · {len(creator_videos)} videos</p>',
         '</div>',
         '</footer>',
+        '<script>',
+        'document.querySelectorAll(".filter-btn").forEach(btn => {',
+        '  btn.addEventListener("click", () => {',
+        '    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));',
+        '    btn.classList.add("active");',
+        '    const filter = btn.dataset.filter;',
+        '    document.querySelectorAll("#video-grid .card").forEach(card => {',
+        '      card.style.display = (filter === "all" || card.dataset.relevance === filter) ? "" : "none";',
+        '    });',
+        '  });',
+        '});',
+        '</script>',
         '</body>',
         '</html>',
     ])
