@@ -1,0 +1,79 @@
+{
+  "topic_id": 11239,
+  "title": "fresh air intake for lab",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11239",
+  "replies": 2,
+  "views": 38297,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:35:20.764490+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 72707,
+      "topic_id": 11239,
+      "topic_title": "fresh air intake for lab",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Tue May 24, 2022 12:54 pm",
+      "post_datetime": "2022-05-24T17:54:32+00:00",
+      "post_subject": "fresh air intake for lab",
+      "content_md": "After testing this for a while, I wanted to share this new air intake system for my lab, which is working well, in case anyone else is interested.\n\n![P5240073.JPG](https://holographyforum.org/forum/download/file.php?id=7740)\n\nA 6-inch hole was drilled through the wall to the outside, and ductwork went to the filter box:\n\n[https://www.ebay.com/itm/333951840201](https://www.ebay.com/itm/333951840201) \n\nAt the end was placed a heated duct fan called a \"Hotpod.\"\n\n[https://www.amazon.com/dp/B00AOGTIOE?ps ... ct_details](https://www.amazon.com/dp/B00AOGTIOE?psc=1&ref=ppx_yo2ov_dt_b_product_details) \n\nThe Hotpod includes a thermostat. It raises the cold air (during some parts of the year) quite a bit. (Or the fan can be run without heat.) It will take some time to install this system. It needs to be wired to a dedicated 15-amp breaker, plus the thermostat needs to be placed and wired. But it has been well worth it.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7740",
+          "filename": "P5240073.JPG",
+          "info": "P5240073.JPG (687.42 KiB) Viewed 38297 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72707#p72707"
+    },
+    {
+      "post_id": 72742,
+      "topic_id": 11239,
+      "topic_title": "fresh air intake for lab",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Loic74",
+      "author_id": 6324,
+      "post_date": "Sun Oct 02, 2022 2:29 pm",
+      "post_datetime": "2022-10-02T19:29:57+00:00",
+      "post_subject": "fresh air intake for lab",
+      "content_md": "Thank you for sharing.\n\nSo you have air intake and \"outtake\" in your lab? From what I understand this blows new and warmed air into your lab, and I suppose you have an air extraction somewhere?\n\nThank you\n\nLoic",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72742#p72742"
+    },
+    {
+      "post_id": 72744,
+      "topic_id": 11239,
+      "topic_title": "fresh air intake for lab",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Mon Oct 03, 2022 7:28 am",
+      "post_datetime": "2022-10-03T12:28:54+00:00",
+      "post_subject": "fresh air intake for lab",
+      "content_md": "Thanks. Yes, I already had an output duct with two duct-fans in tandem, which removed air from the lab, directly to the outside. In a colder area such as mine, this involved a lot of heat loss, which was expensive due to my electric baseboard heaters. I think a simple opening to the outside would work about the same, which would allow the incoming air to exit the lab easily. How air-tight the lab is would make a difference. If air can escape fairly easily, and I assume it can in most labs, then it might not be necessary to add an output duct.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72744#p72744"
+    }
+  ]
+}

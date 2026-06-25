@@ -1,0 +1,612 @@
+{
+  "topic_id": 9006,
+  "title": "Improvement on my project",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=9006",
+  "replies": 22,
+  "views": 308868,
+  "starter": "Zeta",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:26:58.887929+00:00",
+  "post_count": 23,
+  "posts": [
+    {
+      "post_id": 68915,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Wed Apr 25, 2018 1:45 am",
+      "post_datetime": "2018-04-25T06:45:12+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Hello, my hologram is visible but still some problem.\n\nI am using Lasos 50 mW lasers with 5 MHz linewidth \n\nThis is my setup\n\n![56degree](https://holographyforum.org/forum/download/file.php?id=6989)\n\n![Area](https://holographyforum.org/forum/download/file.php?id=6992)\n\nSize 7\"x 9\" Exposure time is 90 minute, 10 minute in Dark, 3 minute Fixer, 5 minute water, 2 minute 59%ipp, 2 minute 84% ipp, 3 minute 99% ipp \n\nI can see diffraction after put the plate in 84% for 2 minute and full plate in 99% for 10 sec but after I dry the plate the top part disappear but the emulsion still there.\n\n![S__25878552.jpg](https://holographyforum.org/forum/download/file.php?id=6991)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6989",
+          "filename": "56degree",
+          "info": "56degree"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6992",
+          "filename": "Area",
+          "info": "Area"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6991",
+          "filename": "S__25878552.jpg",
+          "info": "S__25878552.jpg (217.76 KiB) Viewed 101650 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68915#p68915"
+    },
+    {
+      "post_id": 68916,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Wed Apr 25, 2018 1:58 am",
+      "post_datetime": "2018-04-25T06:58:37+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "As you can see the right part has no image on it\n\n![Is this call burn in effect cause of over exposed?](https://holographyforum.org/forum/download/file.php?id=6993)\n\n![6C647765-8E2A-4664-AC31-47895941AF51.jpeg](https://holographyforum.org/forum/download/file.php?id=6994)\n\n![This one is fade on the left](https://holographyforum.org/forum/download/file.php?id=6995)\n\nIs my exposure time too long? 51mw size5”x7”in 7x9plate\n\nMy image still blure is it because they have some movement occur while exposing?\n\nAlso my image has limited view cannot see from the side.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6993",
+          "filename": "Is this call burn in effect cause of over exposed?",
+          "info": "Is this call burn in effect cause of over exposed?"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6994",
+          "filename": "6C647765-8E2A-4664-AC31-47895941AF51.jpeg",
+          "info": "6C647765-8E2A-4664-AC31-47895941AF51.jpeg (158.84 KiB) Viewed 101647 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6995",
+          "filename": "This one is fade on the left",
+          "info": "This one is fade on the left"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68916#p68916"
+    },
+    {
+      "post_id": 68942,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Wed Apr 25, 2018 9:09 pm",
+      "post_datetime": "2018-04-26T02:09:14+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Please post links to videos, it's hard to diagnose a picture of a hologram. I recommend making smaller holograms as well.\n\nBut if you want to calculate the exposure for 5\" x 7\" inch (17.78cm x 12.7cm) hologram:\n\n17.78cm * 12.7cm = ~225cm^2\n\n50mW / 225cm^2 = Each cm^2 gets 0.222mW per second, or 0.222mJ\n\nDCG sensitivity @ 532nm is 200mJ/cm^2\n\n200mJ/cm^2 / 0.222mJ = ~900 seconds = 15 minutes\n\nTo compensate for light losses, add 25%, so say 20 minutes.\n\nI think I did the math correctly?\n\nLog all your developing steps (amount of time, temperature, concentration, etc.)\n\nMaking sure your subject doesn't move for such a long amount of time is difficult. Start small and work your way up.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68942#p68942"
+    },
+    {
+      "post_id": 68973,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Thu May 03, 2018 1:23 pm",
+      "post_datetime": "2018-05-03T18:23:44+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Hello\n\nLast time is not going well.So I go back to basic the Coin, I start with 30min but it not that good\n\n[https://www.youtube.com/watch?v=jC6fdj_2hM8](https://www.youtube.com/watch?v=jC6fdj_2hM8)\n\n![S__26042381.jpg](https://holographyforum.org/forum/download/file.php?id=6996)\n\nToday I decide to do a test strip 20 30 50 70 90 100 min \n\n[https://www.youtube.com/watch?v=NeoPNOh8QN0](https://www.youtube.com/watch?v=NeoPNOh8QN0)\n\n![I choose 60min to be my next exp time.](https://holographyforum.org/forum/download/file.php?id=6997)\n\nbut the out come is not very impress, compare to the small one. brighter and sharper\n\n[https://www.youtube.com/watch?v=x8As5vZkGeU](https://www.youtube.com/watch?v=x8As5vZkGeU)\n\n![S__26042382.jpg](https://holographyforum.org/forum/download/file.php?id=6998)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6996",
+          "filename": "S__26042381.jpg",
+          "info": "S__26042381.jpg (779.56 KiB) Viewed 101599 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6997",
+          "filename": "I choose 60min to be my next exp time.",
+          "info": "I choose 60min to be my next exp time."
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6998",
+          "filename": "S__26042382.jpg",
+          "info": "S__26042382.jpg (827.83 KiB) Viewed 101599 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68973#p68973"
+    },
+    {
+      "post_id": 68974,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Thu May 03, 2018 1:29 pm",
+      "post_datetime": "2018-05-03T18:29:18+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "This Is my set up\n\n![S__26042376.jpg](https://holographyforum.org/forum/download/file.php?id=7000)\n\nMy object\n\n![S__26042375.jpg](https://holographyforum.org/forum/download/file.php?id=6999)\n\nMy out come 60min\n\nSuper dim and only top of the lens is visible\n\n![S__26042378.jpg](https://holographyforum.org/forum/download/file.php?id=7001)\n\nDoes the subject material affect exposure time?",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7000",
+          "filename": "S__26042376.jpg",
+          "info": "S__26042376.jpg (1.1 MiB) Viewed 101599 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6999",
+          "filename": "S__26042375.jpg",
+          "info": "S__26042375.jpg (803.13 KiB) Viewed 101599 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7001",
+          "filename": "S__26042378.jpg",
+          "info": "S__26042378.jpg (841.58 KiB) Viewed 101599 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68974#p68974"
+    },
+    {
+      "post_id": 69210,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "lobaz",
+      "author_id": 2217,
+      "post_date": "Fri May 04, 2018 5:19 am",
+      "post_datetime": "2018-05-04T10:19:12+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "My first guess is poor stability of the setup. If anything slightly wobbles when you touch the setup, then forget 60 minutes exposures. Avoid plastics. The wooden board looks too thin. Avoid tall legs freely standing on a surface. Try to put the glass on four rather than three pins and fix it somehow. To avoid air currents, put the whole stack made of the object and the glass into a box with wide enough window that lets laser light in.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69210#p69210"
+    },
+    {
+      "post_id": 69211,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Steven",
+      "author_id": 2329,
+      "post_date": "Fri May 04, 2018 1:03 pm",
+      "post_datetime": "2018-05-04T18:03:20+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Some points:\n\nYour reference beam is \"dirty\" as indicated by light and dark banding.\n\nI assume that your beam steering mirror is first surface coated and not just a normal mirror???\n\nOtherwise the banding may be caused by inter surface reflection in your lens beam expander.\n\nYou may be better off replacing the lens beam expander with a small first surface coated concave mirror.\n\nOne other advantage of using a concave mirror, is that you will have less light loss, but you will have to find the sweet spot for a clean beam.\n\nI assume that you have done some basic checks on your laser using a simple interferometer setup, to find out how long it takes to warm up?\n\nSettling time:\n\nYou must give enough time for both the plate and object to get to a stable state before making an exposure.\n\nFor the long exposures needed for DCG, temperature is going to have the biggest influence on stability, assuming the laser is stable.\n\nMechanical stability is relatively easy and inexpensive to achieve.\n\nI usually set up the objects 24 hours before making an exposure.\n\nThis is to allow enough time for any heat that has been transferred from my hand to the object to dissipate into the environment.\n\nIt also helps to have the objects stored in the same room that the exposure takes place, several days in advance.\n\nWearing a pair of lint free gloves, or using tweezers to place objects helps to reduce heat transfer.\n\nI also wear the gloves when placing the plate on the setup. I normally allow a couple of hours for the plate's temperature to normalize before\n\nexposure. Oh, and as lobaz said above, avoid using plastic objects. They are not stable enough for the long exposures used for DCG.\n\nI assume that the \"setup\" - object stand and plate mount are stable?\n\nI guess that the \"wooden board\" is made of aluminium or steel and just looks like wood due to the light and dark banding.\n\nIt's on the thin side, but it should work, mine is made of 8mm thick Aluminium.\n\nIt would be better if you could isolate it from any vibrations if you can, but much depends on the noise environment.\n\nThe advantage of using a thicker base plate, apart from its better mechanical stability, is that it takes longer to contract and expand with changing air temperature.\n\nMy setup is sitting on a large 11mm thick steel plate that is isolated from the coffee table that it sits on, with a couple of partially inflated bicycle inner tubes. I guess that the steel plate weighs 25Kg or more. You could do something similar, but on a smaller scale.\n\n\"Does the subject material affect exposure time?\"\n\nYes. I normally aim for about 150mJ or so total exposure (ref+obj beams).\n\nI don't over worry about this though, but if I'm shooting a bunch of bright coins, I can reduce the exposure time.\n\nHTH,\n\nSteven.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69211#p69211"
+    },
+    {
+      "post_id": 69214,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Sun May 06, 2018 11:49 pm",
+      "post_datetime": "2018-05-07T04:49:03+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Update \n\nThis time 20 min\n\n[https://youtu.be/zvC81IgO_QA](https://youtu.be/zvC81IgO_QA)\n\n![E0BEE023-A08E-402A-9555-518672C6A435.jpeg](https://holographyforum.org/forum/download/file.php?id=7006)\n\n60min is dimmer\n\n![E7CC1671-65A7-49C6-80DC-8B29AFF8D0F9.jpeg](https://holographyforum.org/forum/download/file.php?id=7007)\n\nI have change the mirror and the banding pattern is change rotate mirror banding is also change 90 is like a wave ~~~~ 45 //// 0 |||| \n\n![8217BC5D-EA40-400A-B3E3-75084EA00BE4.jpeg](https://holographyforum.org/forum/download/file.php?id=7005)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7006",
+          "filename": "E0BEE023-A08E-402A-9555-518672C6A435.jpeg",
+          "info": "E0BEE023-A08E-402A-9555-518672C6A435.jpeg (1.2 MiB) Viewed 101553 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7007",
+          "filename": "E7CC1671-65A7-49C6-80DC-8B29AFF8D0F9.jpeg",
+          "info": "E7CC1671-65A7-49C6-80DC-8B29AFF8D0F9.jpeg (1.15 MiB) Viewed 101553 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7005",
+          "filename": "8217BC5D-EA40-400A-B3E3-75084EA00BE4.jpeg",
+          "info": "8217BC5D-EA40-400A-B3E3-75084EA00BE4.jpeg (1.66 MiB) Viewed 101553 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69214#p69214"
+    },
+    {
+      "post_id": 69215,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Sun May 06, 2018 11:51 pm",
+      "post_datetime": "2018-05-07T04:51:38+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Before mirror \n\n![7A5547D1-A3D8-4EE1-947B-ACA8E159F301.jpeg](https://holographyforum.org/forum/download/file.php?id=7008)\n\nAfter mirror\n\n![32A96BD1-BCFE-4667-8187-01C0E441293A.jpeg](https://holographyforum.org/forum/download/file.php?id=7009)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7008",
+          "filename": "7A5547D1-A3D8-4EE1-947B-ACA8E159F301.jpeg",
+          "info": "7A5547D1-A3D8-4EE1-947B-ACA8E159F301.jpeg (1.84 MiB) Viewed 101553 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7009",
+          "filename": "32A96BD1-BCFE-4667-8187-01C0E441293A.jpeg",
+          "info": "32A96BD1-BCFE-4667-8187-01C0E441293A.jpeg (148.91 KiB) Viewed 101553 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69215#p69215"
+    },
+    {
+      "post_id": 69216,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Mon May 07, 2018 1:13 am",
+      "post_datetime": "2018-05-07T06:13:42+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "By the looks of it, you're not using a first surface mirror. There should be no gap between your fingernail and the reflection.\n\nI'm not 100% sure what the consequences of not using first surface mirrors is, but it can't be good!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69216#p69216"
+    },
+    {
+      "post_id": 69217,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Mon May 07, 2018 2:15 am",
+      "post_datetime": "2018-05-07T07:15:17+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Is first surface mirror and one way mirror the same?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69217#p69217"
+    },
+    {
+      "post_id": 69218,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Mon May 07, 2018 1:45 pm",
+      "post_datetime": "2018-05-07T18:45:11+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "> **Zeta:** Is first surface mirror and one way mirror the same?\n\nNot sure about that.\n\nEdmund Optics tends to have first surface mirrors for quite cheap:\n\n[https://www.edmundoptics.com/optics/opt ... e-mirrors/](https://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/150mm-experimental-grade-first-surface-mirrors/)\n\nTake a look at their clearance items as well. Ebay might be a better option if you're not in Canada or USA. Only bad thing is the shipping and duties when ordering from outside USA.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69218#p69218"
+    },
+    {
+      "post_id": 69219,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "lobaz",
+      "author_id": 2217,
+      "post_date": "Mon May 07, 2018 5:47 pm",
+      "post_datetime": "2018-05-07T22:47:38+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "> **Zeta:** Is first surface mirror and one way mirror the same?\n\nNo. A common mirror (such as the one from a bathroom) is a piece of glass that has silver coating on its back side. If you are looking to the mirror and scratch the surface, you actually scratch a glass, not the silver layer. If you put a finger close to the mirror, you see its strong reflection from the silver back side and a weak reflection from the front glass surface.\n\nA first surface mirror is coated on the front surface. It can be easily damaged, it is better not to touch it at all. But for optics, it is much better than a common mirror. Here is the reason.\n\nIf you illuminate a front surface mirror with a laser, you get a perfect reflection.\n\nIf you illuminate a common mirror with a laser, you get two reflections, one from the back silver surface and one (weak) wrom the first one. These reflections interfere and create a banded structure. These bands are very disturbing in dispay holography.\n\nI got a nice (and large) front surface mirror from suppliers for DYI projectors. You can also fined ones in old overhead projectors, scanners and maybe other electro-optical devices. You can also use platters from an old hard disk. In short: anything perfectly flat with one reflecting surface.\n\n---\n\nA one way mirror is something completely different. It is a piece of glass coated with a thin layer that is partially transparent and partially reflects light, e.g. in ratio 50:50. If you look at such glass and there is darkness behind it, you see a perfect mirror reflection. If, on the other hand, the environment behind the glass is much brighter than the environment in front of it, you can see throuh. It is just a matter of fact if transmitted light is stronger or weaker than reflected light. A common architectural application is a one-way mirror between a well illuminated stage and a dim control room. Those inside the control room can see the stage, but not vice versa.\n\nIn fact, a one way mirror is called a beam splitter by opticians. However, common one way mirrors can be far from quality required by precision beam splitters.\n\nHope this helps.\n\nPetr",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69219#p69219"
+    },
+    {
+      "post_id": 69220,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Tue May 08, 2018 10:34 am",
+      "post_datetime": "2018-05-08T15:34:37+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Update new problem\n\nNothing on the plate\n\nJust shiny yellow and red and little purple\n\n![64F76397-4CB9-4230-ABA4-D19E8A70E32F.jpeg](https://holographyforum.org/forum/download/file.php?id=7010)\n\nNo more mirror \n\n![AABE3FA2-7B96-4FF5-B889-3C8A9E660924.jpeg](https://holographyforum.org/forum/download/file.php?id=7012)\n\nStill no\n\n![I overdry and burn the middle of the plate](https://holographyforum.org/forum/download/file.php?id=7011)\n\nMore visible in video\n\n[https://youtu.be/YxbP0xf2Mck](https://youtu.be/YxbP0xf2Mck)\n\nI feel like my improvement is going backwards",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7010",
+          "filename": "64F76397-4CB9-4230-ABA4-D19E8A70E32F.jpeg",
+          "info": "64F76397-4CB9-4230-ABA4-D19E8A70E32F.jpeg (107.79 KiB) Viewed 116805 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7012",
+          "filename": "AABE3FA2-7B96-4FF5-B889-3C8A9E660924.jpeg",
+          "info": "AABE3FA2-7B96-4FF5-B889-3C8A9E660924.jpeg (432.69 KiB) Viewed 116805 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7011",
+          "filename": "I overdry and burn the middle of the plate",
+          "info": "I overdry and burn the middle of the plate"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69220#p69220"
+    },
+    {
+      "post_id": 69221,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "lobaz",
+      "author_id": 2217,
+      "post_date": "Tue May 08, 2018 1:20 pm",
+      "post_datetime": "2018-05-08T18:20:05+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "> **Zeta:** Nothing on the plate\n\nThe most likely reason is bad stability. I would proceed in following steps:\n\n1. Repeat some setup that was OK. Probably small plate, simple object (coins) in contact with the plate, short exposure time.\n\nIf you succeed, proceed step by step:\n\n2. Small plate, short exposure time, simple object (coins) that is not in direct contact with the plate.\n\n3. Small plate, short exposure time, \"advanced object\" that is not in direct contact with the plate.\n\n4. Small plate, long exposure time, \"advanced object\" that is not in direct contact with the plate.\n\nYou can move the laser farther from the hologram to make the exposure time longer, use a ND filter or so.\n\n5. Large plate, long exposure time, \"advanced object\" that is not in direct contact with the plate.\n\nDebugging what went wrong is a painful process. Start with something that works and proceed slowly.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69221#p69221"
+    },
+    {
+      "post_id": 69246,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Thu May 10, 2018 2:34 am",
+      "post_datetime": "2018-05-10T07:34:16+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "It is my plate holder that not stable, so now I just put the plate on top of the object \n\nThis one using front surface mirror \n\nNo strip line on my plate\n\nBut not really bright and sharp but can see a detail in deeper part\n\n1hr 30min exp 30 min dark\n\n[https://youtu.be/VoHISvw2W_s](https://youtu.be/VoHISvw2W_s)\n\nThin one use normall mirror \n\nSharper but only part that close to the plate deeper part is super dim\n\n1hr 30min exp 17hr dark \n\n[https://youtu.be/UbPd8euEoPo](https://youtu.be/UbPd8euEoPo)\n\n![AD2FDABB-AF87-4CB1-8F94-2BA9021EAA50.jpeg](https://holographyforum.org/forum/download/file.php?id=7015)\n\nObject is nikonos\n\n![96038AD6-E09D-49EB-8016-1783435AEF0E.jpeg](https://holographyforum.org/forum/download/file.php?id=7016)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7015",
+          "filename": "AD2FDABB-AF87-4CB1-8F94-2BA9021EAA50.jpeg",
+          "info": "AD2FDABB-AF87-4CB1-8F94-2BA9021EAA50.jpeg (179.84 KiB) Viewed 116784 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7016",
+          "filename": "96038AD6-E09D-49EB-8016-1783435AEF0E.jpeg",
+          "info": "96038AD6-E09D-49EB-8016-1783435AEF0E.jpeg (24.83 KiB) Viewed 116784 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69246#p69246"
+    },
+    {
+      "post_id": 69247,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Thu May 10, 2018 7:46 pm",
+      "post_datetime": "2018-05-11T00:46:34+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "90 minute exposure without vibration is going to be tough... you can see how the lens part is clearer because it's in good contact with the glass, and thus more stable.\n\nDefinitely keep going with the first surface mirror. I still recommend making smaller holograms... early on you want to create as many holograms as possible (while taking notes) and get a good feel for how different variables affect the result.\n\nI'm maybe 100 exposures in, and I'm finally now starting to get a hang of it... but I'm probably a slow learner",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69247#p69247"
+    },
+    {
+      "post_id": 69250,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Fri May 11, 2018 11:43 am",
+      "post_datetime": "2018-05-11T16:43:17+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "I still using normal mirror because I have to make a set of work and I have done 5 good plate with normal mirror if I change now my prof. will question me about the different in this set of work.\n\nThis one is sharp but still dim\n\nIt is a black plastic camera\n\n2hr. Exp 17hr. Dark\n\n![8F6708FB-E49D-401D-AAEB-AF137F3F2565.jpeg](https://holographyforum.org/forum/download/file.php?id=7017)\n\n[https://youtu.be/M9_vLsugmfE](https://youtu.be/M9_vLsugmfE)\n\nThe problem of my last camera is everything is black and not shiny (black metal and black leather) so it doesn’t reflect laser back to the plate but the little shiny thing on left and right is bright and sharp",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7017",
+          "filename": "8F6708FB-E49D-401D-AAEB-AF137F3F2565.jpeg",
+          "info": "8F6708FB-E49D-401D-AAEB-AF137F3F2565.jpeg (1.88 MiB) Viewed 116718 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69250#p69250"
+    },
+    {
+      "post_id": 69251,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Fri May 11, 2018 5:02 pm",
+      "post_datetime": "2018-05-11T22:02:20+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "The black plastic isn't ideal for holograms. A silver/metal camera would probably show up a lot better.\n\nAlso you'll always have those lines unless you use a first-surface mirror. Not sure why your professor would mind you using better equipment, but I highly recommend it. Having two reflections from your mirror could be causing other issues as well, as I imagine they would form a secondary interference pattern?\n\nPlay with the exposure time as well, look at this graph of exposure vs diffraction efficiency:\n\n![Image](http://holowiki.org/w/images/thumb/2/2b/DCGdiffeff.jpg/400px-DCGdiffeff.jpg)\n\nThe diffraction efficiency does go back up when you expose 3-4 times longer than required, but you start getting burn-in. I believe DCG is intentionally exposed at these sorts of lengths to produce HOEs, but it's not ideal for display holography.\n\nWhat is the area of your expanded beam? And what is the power of your laser?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69251#p69251"
+    },
+    {
+      "post_id": 69252,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Sat May 12, 2018 2:11 am",
+      "post_datetime": "2018-05-12T07:11:52+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "My expanded beam diameter is around 14” a size of A4 paper, laser is 50mw\n\nSmaller test but same setup \n\nmy casio watch \n\n30min exp 30min dark \n\nI did not put the tape around the edge \n\n![0557867F-D2CE-4403-B22A-3CB2B6357970.jpeg](https://holographyforum.org/forum/download/file.php?id=7018)\n\n[https://youtu.be/souMItpUjZM](https://youtu.be/souMItpUjZM)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7018",
+          "filename": "0557867F-D2CE-4403-B22A-3CB2B6357970.jpeg",
+          "info": "0557867F-D2CE-4403-B22A-3CB2B6357970.jpeg (1.8 MiB) Viewed 116683 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69252#p69252"
+    },
+    {
+      "post_id": 69268,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Fri May 25, 2018 5:33 am",
+      "post_datetime": "2018-05-25T10:33:53+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Finally done\n\n![S__26419227.jpg](https://holographyforum.org/forum/download/file.php?id=7019)\n\n[https://youtu.be/_PnP9Djp7dA](https://youtu.be/_PnP9Djp7dA)\n\n![S__26419228.jpg](https://holographyforum.org/forum/download/file.php?id=7020)\n\n[https://youtu.be/AKsnOW2Bh7c](https://youtu.be/AKsnOW2Bh7c)\n\n![S__26419229.jpg](https://holographyforum.org/forum/download/file.php?id=7021)\n\n[https://youtu.be/Ruwqx3yNf90](https://youtu.be/Ruwqx3yNf90)\n\nand\n\n[https://youtu.be/0sgQQLgujas](https://youtu.be/0sgQQLgujas)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7019",
+          "filename": "S__26419227.jpg",
+          "info": "S__26419227.jpg (1.14 MiB) Viewed 90387 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7020",
+          "filename": "S__26419228.jpg",
+          "info": "S__26419228.jpg (926.96 KiB) Viewed 90387 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7021",
+          "filename": "S__26419229.jpg",
+          "info": "S__26419229.jpg (745.63 KiB) Viewed 90387 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69268#p69268"
+    },
+    {
+      "post_id": 69274,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Fri May 25, 2018 1:15 pm",
+      "post_datetime": "2018-05-25T18:15:10+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "Nice work, what were your final steps for sealing the hologram?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69274#p69274"
+    },
+    {
+      "post_id": 69275,
+      "topic_id": 9006,
+      "topic_title": "Improvement on my project",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Zeta",
+      "author_id": 5121,
+      "post_date": "Fri May 25, 2018 11:34 pm",
+      "post_datetime": "2018-05-26T04:34:28+00:00",
+      "post_subject": "Improvement on my project",
+      "content_md": "I use clear epoxy for sealing my hologram.\n\nI use this one 3$. It has extra working time 20min but not very clear and have super small bubbles in it and little yellow.\n\n![1pack can seal 2 and a half 7x9 plate](https://holographyforum.org/forum/download/file.php?id=7022)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7022",
+          "filename": "1pack can seal 2 and a half  7x9 plate",
+          "info": "1pack can seal 2 and a half  7x9 plate"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69275#p69275"
+    }
+  ]
+}

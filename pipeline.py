@@ -306,7 +306,7 @@ def main():
         # Step 2: Whisper
         if not args.skip_whisper:
             for model_key, model_repo in models_to_run:
-                print(f"\n  [2/5] Running Whisper {model_key}...")
+                print(f"\n  [2/6] Running Whisper {model_key}...")
                 ok, fail = 0, 0
                 for v in batch:
                     start = time.time()
@@ -319,6 +319,43 @@ def main():
                         print(f"    ✗ {v['id']} {model_key} failed ({elapsed:.0f}s)")
                 print(f"  {model_key}: {ok} ok, {fail} fail")
 
+        # Step 2b: Parakeet
+        if not args.skip_whisper:
+            print(f"\n  [2b/6] Running Parakeet TDT...")
+            parakeet_bin = os.path.expanduser("~/.local/bin/parakeet-mlx")
+            parakeet_model = "mlx-community/parakeet-tdt-0.6b-v3"
+            pk_ok, pk_fail = 0, 0
+            for v in batch:
+                vid = v["id"]
+                pk_out = os.path.join(TRANSCRIPTS_DIR, f"{vid}-parakeet.srt")
+                if os.path.exists(pk_out):
+                    pk_ok += 1
+                    continue
+                audio_file = None
+                for ext in [".wav", ".mp3", ".m4a", ".flac"]:
+                    path = os.path.join(AUDIO_DIR, f"{vid}{ext}")
+                    if os.path.exists(path):
+                        audio_file = path
+                        break
+                if not audio_file:
+                    pk_fail += 1
+                    continue
+                start = time.time()
+                result = subprocess.run(
+                    [parakeet_bin, "--model", parakeet_model, "--format", "srt", audio_file],
+                    capture_output=True, text=True, timeout=600
+                )
+                elapsed = time.time() - start
+                if result.returncode == 0 and result.stdout.strip():
+                    with open(pk_out, "w") as f:
+                        f.write(result.stdout.strip())
+                    pk_ok += 1
+                    print(f"    ✓ {vid} parakeet ({elapsed:.0f}s)")
+                else:
+                    pk_fail += 1
+                    print(f"    ✗ {vid} parakeet failed ({elapsed:.0f}s)")
+            print(f"  Parakeet: {pk_ok} ok, {pk_fail} fail")
+
         # Clean up audio to free disk space
         if clean_audio_flag:
             freed = clean_audio(batch_ids)
@@ -328,7 +365,7 @@ def main():
     # Step 3: Merge
     if not args.skip_merge:
         print(f"\n{'─'*60}")
-        print(f"  [3/5] Merging transcripts...")
+        print(f"  [3/6] Merging transcripts...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "03_merge.py"), "--all"],
             capture_output=True, text=True
@@ -340,7 +377,7 @@ def main():
     # Step 4: Label flags
     if not args.skip_label:
         print(f"\n{'─'*60}")
-        print(f"  [4/5] Labelling flags...")
+        print(f"  [4/6] Labelling flags...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "04_label.py"), "--all"],
             capture_output=True, text=True
@@ -352,7 +389,7 @@ def main():
     # Step 5: Apply corrections
     if not args.skip_correct:
         print(f"\n{'─'*60}")
-        print(f"  [5/5] Applying corrections...")
+        print(f"  [5/6] Applying corrections...")
         result = subprocess.run(
             [sys.executable, os.path.join(PIPELINE_DIR, "05_correct.py"), "--all"],
             capture_output=True, text=True

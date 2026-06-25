@@ -1,0 +1,36 @@
+{
+  "topic_id": 11268,
+  "title": "this may sound crazy",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11268",
+  "replies": 0,
+  "views": 98272,
+  "starter": "dannybee",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:35:05.986365+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 72758,
+      "topic_id": 11268,
+      "topic_title": "this may sound crazy",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Sat Oct 22, 2022 7:30 pm",
+      "post_datetime": "2022-10-23T00:30:58+00:00",
+      "post_subject": "this may sound crazy",
+      "content_md": "as anyone tried to load dichromate into an inkjet printer and print on transparency film with a gelatin layer?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72758#p72758"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "topic_id": 11490,
+  "title": "Restoration",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11490",
+  "replies": 1,
+  "views": 16478,
+  "starter": "PRSWHITLEY",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:32:50.343395+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 73845,
+      "topic_id": 11490,
+      "topic_title": "Restoration",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "PRSWHITLEY",
+      "author_id": 11979,
+      "post_date": "Thu Apr 16, 2026 7:50 am",
+      "post_datetime": "2026-04-16T12:50:23+00:00",
+      "post_subject": "Restoration",
+      "content_md": "Hello, I need advice restoring a cinema promotional hologram from 2005 for Batman Begins. It's been wall mounted and under tube lighting for nearly 20 years. Very faded. Professional restoration appears expensive.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=8040",
+          "filename": "Close up",
+          "info": "Close up"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73845#p73845"
+    },
+    {
+      "post_id": 73850,
+      "topic_id": 11490,
+      "topic_title": "Restoration",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Tue Apr 21, 2026 6:48 am",
+      "post_datetime": "2026-04-21T11:48:07+00:00",
+      "post_subject": "Restoration",
+      "content_md": "Light it proper and reshoot if you want a good evaluation",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73850#p73850"
+    }
+  ]
+}

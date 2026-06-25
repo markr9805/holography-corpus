@@ -1,0 +1,232 @@
+{
+  "topic_id": 9648,
+  "title": "coating help needed",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=9648",
+  "replies": 9,
+  "views": 308137,
+  "starter": "ahgu",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:26:52.300725+00:00",
+  "post_count": 10,
+  "posts": [
+    {
+      "post_id": 69631,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "ahgu",
+      "author_id": 4426,
+      "post_date": "Wed Jul 11, 2018 2:11 pm",
+      "post_datetime": "2018-07-11T19:11:42+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "I don't know how Rallisson did his pin coating. I cannot get uniform coating with DCG. See picture below. \n\nsolution about 5-25-120. Temp 40-50C. veil coat it first then spin at 80RPM Under regular light, it is very obvious it is not even. \n\n![coating2.jpg](https://holographyforum.org/forum/download/file.php?id=7047)\n\nI also tried mold coating. Looks good until developing, Get those circular flow pattern left after developing. Shim is about 50um. Final dried thickness about 7-8um thick. \n\n![coating3.jpg](https://holographyforum.org/forum/download/file.php?id=7048)\n\nAlso tried Meyer bar, first try left thread mark, heat it up, no more thread mark, but uneven. \n\nDCG solution is pretty thick even at 50C, it is very resistant to flow. I wonder how you guys get it to flow uniformly.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7047",
+          "filename": "coating2.jpg",
+          "info": "coating2.jpg (155.87 KiB) Viewed 308137 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7048",
+          "filename": "coating3.jpg",
+          "info": "coating3.jpg (160.34 KiB) Viewed 308137 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69631#p69631"
+    },
+    {
+      "post_id": 69632,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "ahgu",
+      "author_id": 4426,
+      "post_date": "Wed Jul 11, 2018 2:17 pm",
+      "post_datetime": "2018-07-11T19:17:15+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "The white is another issue. I suspect the cause was \n\n1. the solution was not overnighted. \n\n2. Did not wash out all the D after fixer. \n\nI suspect 1 might be main cause. The gelatin needs time to form better bonds. Correct me if wrong.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69632#p69632"
+    },
+    {
+      "post_id": 69637,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Thu Jul 12, 2018 7:00 am",
+      "post_datetime": "2018-07-12T12:00:08+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "When mold coating do not force dry it at all, otherwise \n\nYou may be sealing in moisture, don’t heat plates prior\n\nTo coating more than “just warm”, what thickness \n\nShim are u using , possibly films to thick to harden through out causing milky....",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69637#p69637"
+    },
+    {
+      "post_id": 69641,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "ahgu",
+      "author_id": 4426,
+      "post_date": "Thu Jul 12, 2018 11:22 am",
+      "post_datetime": "2018-07-12T16:22:59+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "Shim is about 50um. Final dried thickness about 7-8um thick. \n\nWhat is the cause of the whiteness after developing? I don't get this with high bloom GEL , but get it with this type of 214 , 29.6mp viscosity, 5.3ph gelatin.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69641#p69641"
+    },
+    {
+      "post_id": 69658,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "ahgu",
+      "author_id": 4426,
+      "post_date": "Sun Jul 15, 2018 10:10 am",
+      "post_datetime": "2018-07-15T15:10:36+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "[http://www.holographyforum.org/data/pdf ... tation.pdf](http://www.holographyforum.org/data/pdf/aa-Collection_a_k/aa-HOE/Stojanoff%20presentation.pdf)\n\nAnyone how the idea behind this coater?\n\n![coat.PNG](https://holographyforum.org/forum/download/file.php?id=7053)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7053",
+          "filename": "coat.PNG",
+          "info": "coat.PNG (671.69 KiB) Viewed 308092 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69658#p69658"
+    },
+    {
+      "post_id": 69666,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Steven",
+      "author_id": 2329,
+      "post_date": "Mon Jul 16, 2018 9:53 pm",
+      "post_datetime": "2018-07-17T02:53:12+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "> **ahguwrote:↑Sun Jul 15, 2018 10:10 am:** Anyone how the idea behind this coater?coat.PNG\n\nHi ahgu, I suspect that it is using a Doctor Blade. Something like this:\n\n[https://www.youtube.com/watch?v=f0OfjqKQwXg](https://www.youtube.com/watch?v=f0OfjqKQwXg)\n\nSteven.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69666#p69666"
+    },
+    {
+      "post_id": 69669,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Martin",
+      "author_id": 2364,
+      "post_date": "Tue Jul 17, 2018 3:24 am",
+      "post_datetime": "2018-07-17T08:24:04+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "> **Stevenwrote:↑Mon Jul 16, 2018 9:53 pm:** ahguwrote:↑Sun Jul 15, 2018 10:10 amAnyone how the idea behind this coater?coat.PNGHi ahgu, I suspect that it is using a Doctor Blade. Something like this:https://www.youtube.com/watch?v=f0OfjqKQwXgSteven.\n\nI think it's based on some kind of curtain coating ([http://holotec.de/Produkte_und_Dienstle ... index2.htm](http://holotec.de/Produkte_und_Dienstleistungen/Beschichtungsanlagen/index2.htm)).",
+      "signature": "",
+      "attachments": [],
+      "quotes": [
+        {
+          "author": "ahguwrote:↑Sun Jul 15, 2018 10:10 am",
+          "excerpt": "Anyone how the idea behind this coater?coat.PNGHi ahgu, I suspect that it is using a Doctor Blade. Something like this:https://www.youtube.com/watch?v=f0OfjqKQwXgSteven."
+        }
+      ],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69669#p69669"
+    },
+    {
+      "post_id": 69671,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Steven",
+      "author_id": 2329,
+      "post_date": "Tue Jul 17, 2018 7:01 am",
+      "post_datetime": "2018-07-17T12:01:11+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "> I think it's based on some kind of curtain coating (http://holotec.de/Produkte_und_Dienstle ... index2.htm).\n\nI think you must be right. Film thickness is dependant on coating speed.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69671#p69671"
+    },
+    {
+      "post_id": 69692,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "ahgu",
+      "author_id": 4426,
+      "post_date": "Sun Jul 22, 2018 11:06 am",
+      "post_datetime": "2018-07-22T16:06:08+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "> **Martinwrote:↑Tue Jul 17, 2018 3:24 am:** Stevenwrote:↑Mon Jul 16, 2018 9:53 pmahguwrote:↑Sun Jul 15, 2018 10:10 amAnyone how the idea behind this coater?coat.PNGHi ahgu, I suspect that it is using a Doctor Blade. Something like this:https://www.youtube.com/watch?v=f0OfjqKQwXgSteven.I think it's based on some kind of curtain coating (http://holotec.de/Produkte_und_Dienstle ... index2.htm).\n\nCurtain coating requires gravity. This equipment is on a flat glass bed. I suspect it is some sort of blade.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [
+        {
+          "author": "Stevenwrote:↑Mon Jul 16, 2018 9:53 pm",
+          "excerpt": "ahguwrote:↑Sun Jul 15, 2018 10:10 amAnyone how the idea behind this coater?coat.PNGHi ahgu, I suspect that it is using a Doctor Blade. Something like this:https://www.youtube.com/watch?v=f0OfjqKQwXgSt"
+        },
+        {
+          "author": "ahguwrote:↑Sun Jul 15, 2018 10:10 am",
+          "excerpt": "Anyone how the idea behind this coater?coat.PNGHi ahgu, I suspect that it is using a Doctor Blade. Something like this:https://www.youtube.com/watch?v=f0OfjqKQwXgSteven."
+        }
+      ],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69692#p69692"
+    },
+    {
+      "post_id": 70045,
+      "topic_id": 9648,
+      "topic_title": "coating help needed",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Wed Oct 10, 2018 6:18 am",
+      "post_datetime": "2018-10-10T11:18:53+00:00",
+      "post_subject": "coating help needed",
+      "content_md": "Spin coating needs a larger plate than you are using , 80rpm is not enough, either spin larger plates or spin the tiny plate faster !",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=70045#p70045"
+    }
+  ]
+}

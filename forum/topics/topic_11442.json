@@ -1,0 +1,154 @@
+{
+  "topic_id": 11442,
+  "title": "Multiplex holography viewing analysis?",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11442",
+  "replies": 5,
+  "views": 10651,
+  "starter": "jrburns47",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:33:10.235254+00:00",
+  "post_count": 6,
+  "posts": [
+    {
+      "post_id": 73610,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "jrburns47",
+      "author_id": 4407,
+      "post_date": "Sun Sep 21, 2025 7:53 pm",
+      "post_datetime": "2025-09-22T00:53:57+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "Hello,\n\nI’m wondering if anyone knows of any existing papers that have rigorously analyzed the relationship between “inter pupillary distance” (IPD), viewing distance from surface of the Multiplex cylinder, and the number of frames that a viewer is looking though, in one step Lloyd Cross style, white light Multiplex holograms?\n\nI’m not talking about two step H1/H2 integral holograms which are different. As I recollect, there was a “rule of thumb” estimation of about 18-25 frames being looked through simultaneously. Does anyone know specifiacally how many “frame/slit” exposures, per inch (or mm), were on Lloyd’s production Multiplex system in the mid 1970s?\n\nAlthough of course “time smearing” is a related topic, it’s not the main concern here. \n\nMaybe Lloyd Huff and his research partner in Dayton OH may have done some such analysis but I haven’t been able to locate any papers of theirs discussing this and they’re not around to ask.\n\nThere are a number of interesting topics associated with such an analysis. For example, the brain/eye focuses on the image in the center of the cylinder which creates the eye convergence “focus vertex locus”. This affects which frame/slit exposures, on the film on the surface of the cylinder, each eye is looking through, at the image, which is also affected by viewing distance. \n\nAnother factor is pupil width, at time of viewing, which is affected by ambient brightness of the viewing environment, and thus can potentially affect how many adjacent frames each eye is looking through at once.\n\nIf anyone can direct me towards any such analysis, whether published or unpublished, it will be greatly appreciated. In addition, if anyone here has thought about this topic but not actually written it up, please feel free to contact me if you’re interested in discussing this.\n\nThanks.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73610#p73610"
+    },
+    {
+      "post_id": 73613,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Mon Sep 22, 2025 12:31 pm",
+      "post_datetime": "2025-09-22T17:31:33+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "Jody, first thoughts:\n\nI'm creating a model where two succesive slits are a stereoscopic pair. In order for a stereoscopic pair to \"fuse\", you need to image them both on either side of the fovea. From the (somewhat crude) diagram below, if you take a line through two succesive slits, to the fovea of each eye (yes, I know it can't be on the fovea itself, so this is a \"back-of-an-envelope\" calculation), take the radius of the cylinder and the distance to the viewer, as follows:\n\ns = angular slit distance\n\nf = angular separation of the fovea of each eye\n\nr = radius of cylinder\n\nd = distance to mid-point of eyes on the observer,\n\nThen, we have:\n\nf/s = d/r.\n\n<Edit: Having got s, the interslit distance, the number of slits, n, is, of course, n = 2πr/s>\n\nI can think further on this, or anyone else can contribute further. I have several books with references and all the SPIE Proceedings from about 1999, so I may well be able to find a reference or an actual paper.\n\nBy the way, I gave a lecture for Osher on Methods of 3D Vision, and I have the Powerpoint slides, if you want to see them and if I can find a way to cut out the relevant section\n\n![stereoscopic_s.jpg](https://holographyforum.org/forum/download/file.php?id=7989)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7989",
+          "filename": "stereoscopic_s.jpg",
+          "info": "stereoscopic_s.jpg (24.25 KiB) Viewed 10633 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73613#p73613"
+    },
+    {
+      "post_id": 73615,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Tue Sep 23, 2025 12:14 pm",
+      "post_datetime": "2025-09-23T17:14:27+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "> **jrburns47wrote:↑Sun Sep 21, 2025 7:53 pm:** \\Maybe Lloyd Huff and his research partner in Dayton OH may have done some such analysis but I haven’t been able to locate any papers of theirs discussing this and they’re not around to ask.\n\nHere you go.\n\nSorry the abstract got cut off, but the book is a collection of papers put together and edited by Hans ( [https://books.google.com/books/about/Se ... JRAAAAMAAJ](https://books.google.com/books/about/Selected_Papers_on_Fundamental_Technique.html?id=beJRAAAAMAAJ) ). The book is quite thick, so it's difficult to put on the bed of my scanner. But, it's from \"Optical Engineering\", vol 20, 1981. It seems it's also in the SPIE proceedings of 1981.\n\n![Huff_holostereo_s.jpg](https://holographyforum.org/forum/download/file.php?id=7990)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7990",
+          "filename": "Huff_holostereo_s.jpg",
+          "info": "Huff_holostereo_s.jpg (77.21 KiB) Viewed 10596 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73615#p73615"
+    },
+    {
+      "post_id": 73663,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "jrburns47",
+      "author_id": 4407,
+      "post_date": "Wed Oct 15, 2025 12:48 pm",
+      "post_datetime": "2025-10-15T17:48:02+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "Hi Dinesh,\n\nThank you for your replies including your analysis and the link to the Huff/Fusek article. Luckily, I have that 2001 book with their 1981 article and will read it and a couple of others there which may have related info.\n\nYes, I would be interested in taking a look at your PowerPoint when you have time.\n\nJody",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73663#p73663"
+    },
+    {
+      "post_id": 73672,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Sun Oct 26, 2025 4:27 pm",
+      "post_datetime": "2025-10-26T21:27:47+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "Hi Jody,\n\nI found my papers, or rather, Joy found them. At any rate, I couldn't find any papers relating to eye position and slit sizes.\n\nBut I did find a couple that may be of inrterest to you\n\n![double_paper.jpg](https://holographyforum.org/forum/download/file.php?id=8001)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=8001",
+          "filename": "double_paper.jpg",
+          "info": "double_paper.jpg (60.56 KiB) Viewed 9906 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73672#p73672"
+    },
+    {
+      "post_id": 73673,
+      "topic_id": 11442,
+      "topic_title": "Multiplex holography viewing analysis?",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Sun Oct 26, 2025 4:32 pm",
+      "post_datetime": "2025-10-26T21:32:38+00:00",
+      "post_subject": "Multiplex holography viewing analysis?",
+      "content_md": "Also, an odd one. I remember being in the audience when this was presented. He created an algorithm that arragned the pits on a CD-R to display a holographic image.\n\n![Scan2025-10-26_142127.jpg](https://holographyforum.org/forum/download/file.php?id=8002)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=8002",
+          "filename": "Scan2025-10-26_142127.jpg",
+          "info": "Scan2025-10-26_142127.jpg (25.73 KiB) Viewed 9904 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73673#p73673"
+    }
+  ]
+}

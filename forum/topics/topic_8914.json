@@ -1,0 +1,36 @@
+{
+  "topic_id": 8914,
+  "title": "DCG emulsion formulation for 488nm?",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8914",
+  "replies": 0,
+  "views": 11803,
+  "starter": "pluto",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:27:21.892256+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 68691,
+      "topic_id": 8914,
+      "topic_title": "DCG emulsion formulation for 488nm?",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "pluto",
+      "author_id": 4457,
+      "post_date": "Wed Dec 13, 2017 12:43 am",
+      "post_datetime": "2017-12-13T05:43:38+00:00",
+      "post_subject": "DCG emulsion formulation for 488nm?",
+      "content_md": "Hi all,\n\nSorry if this has been covered on the forums, but I couldn't find any info about the best DCG formulation to use for 488nm light.\n\nI did find this:\n\n> **Joe Farina:** When exposing at 457nm, I had good luck with 3-30-200, especially after it aged for several weeks in the refrigerator.\n\nWould this be applicable to 488nm as well? DCG is about 8 times less sensitive to 532nm than 457nm, but the amount of dichromate is only halved (assuming 532nm formula of 6-30-200).\n\nWould extrapolating from this be a valid approach?\n\n457nm DCG sensitivity = 25mJ/cm^2 - 3-30-200\n\n488nm DCG sensitivity = 60mJ/cm^2 - ?-30-200\n\n532nm DCG sensitivity = 200mJ/cm^2 - 6-30-200\n\n175mJ/cm^2 / 3 grams of dichromate = 0.017 grams of dichromate per mJ/cm^2 of sensitivity decrease.\n\n0.017g dichromate per mJ/cm^2 * (60mJ/cm^2 - 25mJ/cm^2) = 0.595 grams of dichromate\n\nMaybe 3.6-30-200 would be a sensible formulation for 488nm?\n\nI'd love to hear what people are actually using for their 488nm lasers. In the meantime I'll go ahead with 3.6-30-200 and see what happens.\n\nThanks!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68691#p68691"
+    }
+  ]
+}

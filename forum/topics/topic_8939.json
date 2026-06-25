@@ -1,0 +1,36 @@
+{
+  "topic_id": 8939,
+  "title": "simulation of holographic data storage system",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8939",
+  "replies": 0,
+  "views": 5758,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:38:05.340145+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 68756,
+      "topic_id": 8939,
+      "topic_title": "simulation of holographic data storage system",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "RUWA",
+      "author_id": null,
+      "post_date": "Wed Jan 31, 2018 11:42 am",
+      "post_datetime": "2018-01-31T16:42:33+00:00",
+      "post_subject": "simulation of holographic data storage system",
+      "content_md": "Hello, can someone please help me with the code of holographic data storage. I have been trying to simulate the paper called ' correlation based multiplexing of complex amplitude data pages of holographic data storage using digital holographic techniques. i have gone through a paper called ' simulation of holographic data storage for the optical collinear system' as for the simulation part but cudnt get the expected result. if anybody has the code of any of the above papers please please please post it. very much in need of it.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68756#p68756"
+    }
+  ]
+}

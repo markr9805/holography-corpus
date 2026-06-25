@@ -1,0 +1,43 @@
+{
+  "topic_id": 9955,
+  "title": "a quickie optic mount",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=9955",
+  "replies": 0,
+  "views": 11092,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:37:41.654978+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 70175,
+      "topic_id": 9955,
+      "topic_title": "a quickie optic mount",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Fri Dec 07, 2018 10:20 am",
+      "post_datetime": "2018-12-07T15:20:59+00:00",
+      "post_subject": "a quickie optic mount",
+      "content_md": "Here's a quick way to mount an optic, a ball-shaped rare earth magnet with washers on either side:\n\n![PC060001.JPG](https://holographyforum.org/forum/download/file.php?id=7194)\n\nThe magnet was from Apex Magnets, and the adhesive for the mirror was shellac.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7194",
+          "filename": "PC060001.JPG",
+          "info": "PC060001.JPG (31.44 KiB) Viewed 11089 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=70175#p70175"
+    }
+  ]
+}

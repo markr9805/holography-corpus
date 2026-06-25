@@ -72,7 +72,9 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
     # Load all available sources
     yt_srt = os.path.join(CAPTIONS_DIR, f"{video_id}.en.srt")
     wh_turbo = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-whisper-turbo.txt")
+    wh_turbo_srt = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-whisper-turbo.srt")
     wh_lv3 = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-whisper-largev3.txt")
+    parakeet_srt = os.path.join(TRANSCRIPTS_DIR, f"{video_id}-parakeet.srt")
 
     sources = {}
     if os.path.exists(yt_srt):
@@ -81,9 +83,15 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
     if os.path.exists(wh_turbo):
         with open(wh_turbo) as f:
             sources["turbo"] = f.read().strip()
+    if os.path.exists(wh_turbo_srt):
+        with open(wh_turbo_srt) as f:
+            sources["turbo_srt"] = srt_to_segments(f.read())
     if os.path.exists(wh_lv3):
         with open(wh_lv3) as f:
             sources["lv3"] = f.read().strip()
+    if os.path.exists(parakeet_srt):
+        with open(parakeet_srt) as f:
+            sources["parakeet"] = srt_to_segments(f.read())
 
     if not sources:
         return None, []
@@ -91,7 +99,9 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
     # Use Whisper Turbo as the base (best punctuation + profanity handling)
     base_text = sources.get("turbo", sources.get("lv3", ""))
     if not base_text:
-        if "youtube" in sources:
+        if "parakeet" in sources:
+            base_text = " ".join(s["text"] for s in sources["parakeet"])
+        elif "youtube" in sources:
             base_text = " ".join(s["text"] for s in sources["youtube"])
         else:
             return None, []
@@ -102,15 +112,18 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
     base_words = plain_to_words(base_text)
     flags = []
 
-    if "turbo" in sources and "lv3" in sources:
-        turbo_words = plain_to_words(sources["turbo"])
-        lv3_words = plain_to_words(sources["lv3"])
+    # Build word lists from all available sources
+    turbo_words = plain_to_words(sources["turbo"]) if "turbo" in sources else []
+    lv3_words = plain_to_words(sources["lv3"]) if "lv3" in sources else []
+    parakeet_words = plain_to_words(" ".join(s["text"] for s in sources["parakeet"])) if "parakeet" in sources else []
 
-        yt_words_list = []
-        if "youtube" in sources and yt_segments:
-            yt_text = " ".join(s["text"] for s in yt_segments).lower()
-            yt_words_list = plain_to_words(yt_text)
+    yt_words_list = []
+    if "youtube" in sources and yt_segments:
+        yt_text = " ".join(s["text"] for s in yt_segments).lower()
+        yt_words_list = plain_to_words(yt_text)
 
+    # Compare Turbo vs Large-V3 (if both available)
+    if turbo_words and lv3_words:
         sm = difflib.SequenceMatcher(None, turbo_words, lv3_words, autojunk=False)
         window = 5
 
@@ -136,6 +149,13 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
                             yt_pos = min(yt_pos, len(yt_words_list) - 1)
                             yt_word = yt_words_list[yt_pos]
 
+                        # Also check Parakeet for this position
+                        parakeet_word = None
+                        if parakeet_words:
+                            pk_pos = int(ti / len(turbo_words) * len(parakeet_words))
+                            pk_pos = min(pk_pos, len(parakeet_words) - 1)
+                            parakeet_word = parakeet_words[pk_pos]
+
                         # Build URL based on platform
                         video_url = f"https://www.youtube.com/watch?v={video_id}"
                         if approx_time:
@@ -150,13 +170,21 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
                             "word_turbo": turbo_words[ti],
                             "word_lv3": lv3_words[li],
                             "word_youtube": yt_word,
+                            "word_parakeet": parakeet_word,
                             "confidence": "low",
                             "decision": None,
                         }
 
+                        # If any two sources agree, medium confidence
+                        words = [turbo_words[ti], lv3_words[li]]
                         if yt_word:
-                            if yt_word == turbo_words[ti] or yt_word == lv3_words[li]:
-                                flag["confidence"] = "medium"
+                            words.append(yt_word)
+                        if parakeet_word:
+                            words.append(parakeet_word)
+                        from collections import Counter
+                        counts = Counter(words)
+                        if counts.most_common(1)[0][1] >= 2:
+                            flag["confidence"] = "medium"
 
                         flags.append(flag)
 
@@ -186,6 +214,7 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
                             "word_turbo": " ".join(extra_turbo),
                             "word_lv3": " ".join(extra_lv3),
                             "word_youtube": None,
+                            "word_parakeet": None,
                             "confidence": "low",
                             "decision": None,
                             "type": "length_mismatch",
@@ -209,6 +238,13 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
                 present_in = "turbo" if tag == 'delete' else "lv3"
                 present_words = turbo_words[i1:i2] if tag == 'delete' else lv3_words[j1:j2]
 
+                # Check Parakeet for this position
+                parakeet_word = None
+                if parakeet_words:
+                    pk_pos = int(i1 / len(turbo_words) * len(parakeet_words))
+                    pk_pos = min(pk_pos, len(parakeet_words) - 1)
+                    parakeet_word = parakeet_words[pk_pos]
+
                 flag = {
                     "position": i1,
                     "timestamp": approx_time,
@@ -218,6 +254,7 @@ def merge_transcripts(video_id, video_title, platform="youtube", confidence_thre
                     "word_turbo": " ".join(turbo_words[i1:i2]) if tag == 'delete' else None,
                     "word_lv3": " ".join(lv3_words[j1:j2]) if tag == 'insert' else None,
                     "word_youtube": None,
+                    "word_parakeet": parakeet_word,
                     "confidence": "low",
                     "decision": None,
                     "type": f"{tag}_only_in_{present_in}",

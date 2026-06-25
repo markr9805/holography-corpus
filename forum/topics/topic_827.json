@@ -1,0 +1,81 @@
+{
+  "topic_id": 827,
+  "title": "temperature dependence",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=827",
+  "replies": 2,
+  "views": 4207,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:28:50.292122+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 7554,
+      "topic_id": 827,
+      "topic_title": "temperature dependence",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Dinesh",
+      "author_id": null,
+      "post_date": "Sun Mar 23, 2014 1:40 pm",
+      "post_datetime": "2014-03-23T18:40:00+00:00",
+      "post_subject": "temperature dependence",
+      "content_md": "> **Joe Farina:** This thread is really about silver halide processing, and recently more about Ed Wesly's suggestion of using cooler water as a pre-soak. I'm glad he specified what he meant exactly by \"cold.\" This should prevent any further guesswork.I am not interested in silver. Maybe a new thread should be started with regards to DCG and cold water? If I do start a new thread, I promise not to assume a magisterial tone, drop names, or hint at how great I am.Many of the thermoelectric coolers I mentioned have digital controls which enable the temperature to be set anywhere between ambient and ~20 degrees below ambient.\n\nI'm not sure how real the silver halide phenomenon is, since all we have is anecdotal evidence and hearsay with a little historical contingency; there seems to be no theoretical basis or hard experimental data. However, in terms of dcg, also speculation, the function of the water is to both amplify the latent image as well as create a bandwidth (the reason that dcg is so bright). If the absorption rate is temperature dependent, then is this not a mechanism to control bandwidth, and hence to control replay colour? As I say, just speculation.\n\n> **Joe Farina:** I promise not to ... drop names\n\nYou can drop mine, if you like. However, the spring constant associated with my name is not very large, so you may not get as much \"bounce for the buck\" as it were!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7554#p7554"
+    },
+    {
+      "post_id": 7555,
+      "topic_id": 827,
+      "topic_title": "temperature dependence",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Sun Mar 23, 2014 3:36 pm",
+      "post_datetime": "2014-03-23T20:36:00+00:00",
+      "post_subject": "temperature dependence",
+      "content_md": "> **Dinesh:** You can drop mine, if you like. However, the spring constant associated with my name is not very large, so you may not get as much \"bounce for the buck\" as it were!\n\nSo are you saying it would be more like laying an egg than dropping a ball?\n\nJust kidding, Dinesh, you have plenty of bounce \n\n> **Dinesh:** I'm not sure how real the silver halide phenomenon is, since all we have is anecdotal evidence and hearsay with a little historical contingency; there seems to be no theoretical basis or hard experimental data.\n\nI would tend to agree (and with Martin also). I'm interested in doing some tests with DCG in cold water (during the fixing or \"chemical development\" bath immediately after exposure). I doubt if this has been properly looked into. With 25-micron DCG the emulsion seems to be very prone to getting pushed out of shape during processing. Also, I need narrow bandwidth to get decent color rendition (for 2-color holos). Colder water might help, but of course tests are needed.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7555#p7555"
+    },
+    {
+      "post_id": 7576,
+      "topic_id": 827,
+      "topic_title": "temperature dependence",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Wed Mar 26, 2014 8:58 am",
+      "post_datetime": "2014-03-26T13:58:00+00:00",
+      "post_subject": "temperature dependence",
+      "content_md": "> **Joe Farina:** Dinesh wrote:You can drop mine, if you like. However, the spring constant associated with my name is not very large, so you may not get as much \"bounce for the buck\" as it were!So are you saying it would be more like laying an egg than dropping a ball?Just kidding, Dinesh, you have plenty of bounceDinesh wrote:I'm not sure how real the silver halide phenomenon is, since all we have is anecdotal evidence and hearsay with a little historical contingency; there seems to be no theoretical basis or hard experimental data.I would tend to agree (and with Martin also). I'm interested in doing some tests with DCG in cold water (during the fixing or \"chemical development\" bath immediately after exposure). I doubt if this has been properly looked into. With 25-micron DCG the emulsion seems to be very prone to getting pushed out of shape during processing. Also, I need narrow bandwidth to get decent color rendition (for 2-color holos). Colder water might help, but of course tests are needed.\n\nwith cold water it was easy to get narrow blue or green masters",
+      "signature": "",
+      "attachments": [],
+      "quotes": [
+        {
+          "author": "Dinesh",
+          "excerpt": "You can drop mine, if you like. However, the spring constant associated with my name is not very large, so you may not get as much \"bounce for the buck\" as it were!So are you saying it would be more l"
+        },
+        {
+          "author": "Dinesh",
+          "excerpt": "I'm not sure how real the silver halide phenomenon is, since all we have is anecdotal evidence and hearsay with a little historical contingency; there seems to be no theoretical basis or hard experime"
+        }
+      ],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7576#p7576"
+    }
+  ]
+}

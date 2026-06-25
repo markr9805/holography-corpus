@@ -1,0 +1,104 @@
+{
+  "topic_id": 11063,
+  "title": "Mounting Photopolymer Film",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11063",
+  "replies": 3,
+  "views": 6935,
+  "starter": "BobH",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:36:07.139387+00:00",
+  "post_count": 4,
+  "posts": [
+    {
+      "post_id": 72260,
+      "topic_id": 11063,
+      "topic_title": "Mounting Photopolymer Film",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "BobH",
+      "author_id": 2166,
+      "post_date": "Tue Jan 19, 2021 9:52 am",
+      "post_datetime": "2021-01-19T14:52:17+00:00",
+      "post_subject": "Mounting Photopolymer Film",
+      "content_md": "An easy way to mount photopolymer film to glass plates is to use a pouch laminator. The one I've used since the mid-1990s is the Ibico GL-9, often still available on Ebay. They were made first in Mexico, then in Korea. Be certain to get one made in Korea (it is mentioned on the label on the bottom), as the modification is easier. I modify it by removing the cover and cutting it back with a hacksaw as shown below. I then remove the heater elements that come off with two screws and simply unplugging the connector. That's it.\n\nTo use, I tape a piece of photopolymer (cover sheet side down) to a thin backer sheet (1.5mm or less) that can tolerate the tip of a blade. I've used a piece of drafting table mat, and also thin cutting board material from Amazon. A piece of cardboard works fine, but may be dustier. I then place cleaned glass plates (large microscope slides from Ted Pella) under the film flap, pull the cover sheet off (cellophane tape on the corner), and run the laminator while holding the film up as it feeds in.\n\nTo prevent particle bubbles, I first blow everything off with nitrogen (or compressed dry air) using an ionizing air gun.\n\nAfter mounting, I cut the plates out by first using an Exacto knife (for easy plunging to start the cuts), then trim around the edges with a single edged razor blade. I tilt the blade significantly to bevel the film on the cut edges, to help prevent lift-off when my fingers touch the sides. \n\nWorks well, but the bond is weak. A cover glass can be glued on to protect the hologram.\n\n![BP Setup E.jpg](https://holographyforum.org/forum/download/file.php?id=7633)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7633",
+          "filename": "BP Setup E.jpg",
+          "info": "BP Setup E.jpg (153.93 KiB) Viewed 6935 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72260#p72260"
+    },
+    {
+      "post_id": 72261,
+      "topic_id": 11063,
+      "topic_title": "Mounting Photopolymer Film",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "BobH",
+      "author_id": 2166,
+      "post_date": "Tue Jan 19, 2021 10:07 am",
+      "post_datetime": "2021-01-19T15:07:39+00:00",
+      "post_subject": "Mounting Photopolymer Film",
+      "content_md": "Here's a sample, on 50x75mm glass. It's a recent HOE, with a palindrome number.\n\n![Palindrome Hologram.jpg](https://holographyforum.org/forum/download/file.php?id=7634)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7634",
+          "filename": "Palindrome Hologram.jpg",
+          "info": "Palindrome Hologram.jpg (423.15 KiB) Viewed 6923 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72261#p72261"
+    },
+    {
+      "post_id": 72262,
+      "topic_id": 11063,
+      "topic_title": "Mounting Photopolymer Film",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Tue Jan 19, 2021 8:39 pm",
+      "post_datetime": "2021-01-20T01:39:17+00:00",
+      "post_subject": "Mounting Photopolymer Film",
+      "content_md": "Wait till you read what Rico uses!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72262#p72262"
+    },
+    {
+      "post_id": 72268,
+      "topic_id": 11063,
+      "topic_title": "Mounting Photopolymer Film",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Martin",
+      "author_id": 2364,
+      "post_date": "Wed Jan 20, 2021 3:53 am",
+      "post_datetime": "2021-01-20T08:53:19+00:00",
+      "post_subject": "Mounting Photopolymer Film",
+      "content_md": "With our own material back then (DAROL photopolymer that is) one could easily \"index match\" the photopolymer side of the polyester film to a glass plate with water, glycerol, glycols etc. (if I'm not mislead it also worked with white spirit). One could even laminate it with a warm gelatin solution. Perhaps it also works with the Bayer/Covestro material.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72268#p72268"
+    }
+  ]
+}

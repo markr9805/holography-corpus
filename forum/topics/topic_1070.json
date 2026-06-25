@@ -1,0 +1,197 @@
+{
+  "topic_id": 1070,
+  "title": "trying color holography again",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=1070",
+  "replies": 7,
+  "views": 6764,
+  "starter": "dannybee",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:39:08.771677+00:00",
+  "post_count": 8,
+  "posts": [
+    {
+      "post_id": 8881,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Sat Jul 11, 2015 9:30 pm",
+      "post_datetime": "2015-07-12T02:30:16+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "Hi holographers having a second try at color, my first attempted was to use a fiber lens as a mixer for the rgb beams to get a even illumination. This worked but the hologram where very even in color but always dim compared to without the fiber lens. I could view them nice with a led but too dim to photograph. The mixing was good but still a problem. After doing research and testing I found that the fiber lens was partially destroying the polarization by 30% so that probably why my hologram where not as bright as they could be. So its back to straight beam expansion and mixing. One problem I've always had with mixing is getting the same size and mixing them so the light was nice and even. And doing it with out spending a boat load of money. But after looking at some of the color holograms online it seem that I'm a bit too picky about having the light evenly mixed. So I rethink-ed my setup and used a 2x lens and a CCD prism (that you find in most video cameras) to mix the beams. This time not worrying as much on the evenness of the mix across the lens, but expanding each beam so that the beam is fully expanded to the aperture of the 2x lens. Then making sure that all the polarization of the laser where in the same direction.. got a fairly even mix of all the 457+532+630 beams.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2754",
+          "filename": "setup.jpg",
+          "info": "setup.jpg (71.21 KiB) Viewed 6764 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8881#p8881"
+    },
+    {
+      "post_id": 8882,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Sat Jul 11, 2015 9:54 pm",
+      "post_datetime": "2015-07-12T02:54:46+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "color looks balanced",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2755",
+          "filename": "DSCF4604.jpg",
+          "info": "DSCF4604.jpg (240.16 KiB) Viewed 6762 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8882#p8882"
+    },
+    {
+      "post_id": 8883,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Sat Jul 11, 2015 9:55 pm",
+      "post_datetime": "2015-07-12T02:55:55+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "Here's the table layout",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2756",
+          "filename": "DSCF4612.jpg",
+          "info": "DSCF4612.jpg (223.56 KiB) Viewed 6762 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8883#p8883"
+    },
+    {
+      "post_id": 8890,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Mon Jul 13, 2015 12:11 pm",
+      "post_datetime": "2015-07-13T17:11:57+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "Danny, in order to judge how well the colours are balanced, it's necessary to look at the original object.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8890#p8890"
+    },
+    {
+      "post_id": 8895,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Mon Jul 13, 2015 10:07 pm",
+      "post_datetime": "2015-07-14T03:07:49+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "heres the holo... a bit hard to photograph the blue haze drives my camera crazy",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2757",
+          "filename": "new-holo.jpg",
+          "info": "new-holo.jpg (189.75 KiB) Viewed 6730 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8895#p8895"
+    },
+    {
+      "post_id": 8896,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Tue Jul 14, 2015 10:31 am",
+      "post_datetime": "2015-07-14T15:31:48+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "this is the object",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2758",
+          "filename": "doll.jpg",
+          "info": "doll.jpg (170.65 KiB) Viewed 6718 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8896#p8896"
+    },
+    {
+      "post_id": 8926,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "dannybee",
+      "author_id": 2167,
+      "post_date": "Thu Jul 23, 2015 9:48 am",
+      "post_datetime": "2015-07-23T14:48:58+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "did a slight modification of this setup , wasn't getting a good mix of blue and green in the cube so i used a 50/50 beam splitter to combine the blue and green and got a better mix. and then combine in the cube with the red",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8926#p8926"
+    },
+    {
+      "post_id": 67557,
+      "topic_id": 1070,
+      "topic_title": "trying color holography again",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Wackhaus",
+      "author_id": 4458,
+      "post_date": "Mon Feb 15, 2016 9:11 am",
+      "post_datetime": "2016-02-15T14:11:16+00:00",
+      "post_subject": "trying color holography again",
+      "content_md": "Wow looks great",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=67557#p67557"
+    }
+  ]
+}

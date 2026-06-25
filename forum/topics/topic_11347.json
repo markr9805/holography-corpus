@@ -1,0 +1,36 @@
+{
+  "topic_id": 11347,
+  "title": "SPIE West Holography Program",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11347",
+  "replies": 0,
+  "views": 92703,
+  "starter": "Din",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:34:49.446177+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 72992,
+      "topic_id": 11347,
+      "topic_title": "SPIE West Holography Program",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Sat Jan 06, 2024 2:56 pm",
+      "post_datetime": "2024-01-06T19:56:57+00:00",
+      "post_subject": "SPIE West Holography Program",
+      "content_md": "This is the program for the holographic part of SPIE West later this month in San Francisco. I'm particularly interested in the IR sensitive Bayfol to be given by the Covestro people. I was once asked to develop an IR sensitive holographic medium for eye tracking because of the interest in eye tracking for heads up and wearable holographic display, and Covestro has apparently made it's film IR sensitive for eye tracking applications:\n\n**A standardized NIR sensitized Bayfol® HX film**\n\nAnyway, here's the list of presentations:\n\n[https://spie.org/PW24O/conferencedetail ... e=true#_=_](https://spie.org/PW24O/conferencedetails/practical-holography?enableBackToBrowse=true#_=_)",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72992#p72992"
+    }
+  ]
+}

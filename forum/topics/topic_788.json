@@ -1,0 +1,43 @@
+{
+  "topic_id": 788,
+  "title": "broad/narrow DCG and LEDs (photos)",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=788",
+  "replies": 0,
+  "views": 3946,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:28:58.614357+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 7198,
+      "topic_id": 788,
+      "topic_title": "broad/narrow DCG and LEDs (photos)",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Sun Dec 22, 2013 3:13 pm",
+      "post_datetime": "2013-12-22T20:13:00+00:00",
+      "post_subject": "broad/narrow DCG and LEDs (photos)",
+      "content_md": "The first photo shows a broadband DCG hologram by August Muth. The illumination source was combination of two LEDs, a green one (~520nm) and a red one (~630nm), cemented together (second photo). Both emitters (combined) only have a total size of ~4mm, so this is more than enough \"spatial coherence\" to illuminate holograms, even at close range. I wanted to post this photo because it shows very clearly the blurring effect of broadband DCG holograms. Areas near the film plane are sharp (note the fellow's right hand -- it's not blurry). By contrast, the fellow further back (looks like a mummy with horns) has two clear images, a green one and a red one. Note the horns -- just below the green ones are some fainter red ones. This is an image-planed hologram, and the rim of the bowl sticks out in front of the film plane quite a bit -- notice the second red \"rim.\" With a white light reconstruction source, this would normally appear as a smooth blur as the various wavelengths are diffracted. But here, with only green and red, the effect is very easy to see.\n\nThe last photo shows a narrowband DCG hologram illuminated with green only. It's quite sharp, all the way back. My hologram has a lot of defects though. The first hologram would also have been sharp, if only red or green was used (but less bright compared to white illumination).",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2461",
+          "filename": "PC220002.JPG",
+          "info": "PC220002.JPG (42.46 KiB) Viewed 3946 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7198#p7198"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topic_id": 836,
+  "title": "Good enough",
+  "forum_id": 5,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=836",
+  "replies": 0,
+  "views": 2371,
+  "starter": "John Klayer",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:41:41.299497+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 7713,
+      "topic_id": 836,
+      "topic_title": "Good enough",
+      "forum_id": 5,
+      "forum_name": "General Holography",
+      "author": "John Klayer",
+      "author_id": 2193,
+      "post_date": "Thu Apr 17, 2014 10:06 pm",
+      "post_datetime": "2014-04-18T03:06:00+00:00",
+      "post_subject": "Good enough",
+      "content_md": "Some times I can't get the output from a space filter any better than a central Airy disk and some rings. I just use the central Airy and block the rings - good enough.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7713#p7713"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topic_id": 8486,
+  "title": "short paper on DCG",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8486",
+  "replies": 1,
+  "views": 3906,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:27:56.883171+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 67376,
+      "topic_id": 8486,
+      "topic_title": "short paper on DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Wed Oct 28, 2015 8:22 am",
+      "post_datetime": "2015-10-28T13:22:40+00:00",
+      "post_subject": "short paper on DCG",
+      "content_md": "a short but interesting paper",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "file",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6740",
+          "filename": "bahuguna539.pdf",
+          "info": "(245.29 KiB) Downloaded 563 times"
+        },
+        {
+          "type": "file",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6740",
+          "filename": "bahuguna539.pdf",
+          "info": "(245.29 KiB) Downloaded 563 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=67376#p67376"
+    },
+    {
+      "post_id": 67377,
+      "topic_id": 8486,
+      "topic_title": "short paper on DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Ed Wesly",
+      "author_id": 2186,
+      "post_date": "Thu Oct 29, 2015 6:45 am",
+      "post_datetime": "2015-10-29T11:45:33+00:00",
+      "post_subject": "short paper on DCG",
+      "content_md": "Short but full of information! They don't state how large their holograms are, I am guessing that they must have been about 50 to 70 mm, as they are spinning them at 1000 rpm, and can't see doing that with a 30 by 40 cm! the trick with laminating is priceless!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=67377#p67377"
+    }
+  ]
+}
