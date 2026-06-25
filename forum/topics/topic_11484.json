@@ -1,0 +1,104 @@
+{
+  "topic_id": 11484,
+  "title": "My first DCG in (15 years)",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11484",
+  "replies": 3,
+  "views": 3545,
+  "starter": "holomaker",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:25:39.634548+00:00",
+  "post_count": 4,
+  "posts": [
+    {
+      "post_id": 73813,
+      "topic_id": 11484,
+      "topic_title": "My first DCG in (15 years)",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Sun Mar 22, 2026 8:30 am",
+      "post_datetime": "2026-03-22T13:30:22+00:00",
+      "post_subject": "My first DCG in (15 years)",
+      "content_md": "Had to give this a try, photopolymer master w a DCG proximity copy ….. 488nm 75mw 2.5 mins exposure \n\n![DCG copy](https://holographyforum.org/forum/download/file.php?id=8032)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=8032",
+          "filename": "DCG copy",
+          "info": "DCG copy"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73813#p73813"
+    },
+    {
+      "post_id": 73814,
+      "topic_id": 11484,
+      "topic_title": "My first DCG in (15 years)",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Sun Mar 22, 2026 11:09 am",
+      "post_datetime": "2026-03-22T16:09:34+00:00",
+      "post_subject": "My first DCG in (15 years)",
+      "content_md": "Looks very very bright, especially after picking up after a 15 year hiatus \n\nI've never done a proximity copy, how do you like them?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73814#p73814"
+    },
+    {
+      "post_id": 73815,
+      "topic_id": 11484,
+      "topic_title": "My first DCG in (15 years)",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Mon Mar 23, 2026 8:01 am",
+      "post_datetime": "2026-03-23T13:01:31+00:00",
+      "post_subject": "My first DCG in (15 years)",
+      "content_md": "After trying it out it is definitely the best way to shoot DCG ..\n\nNo need to “tune” your master anymore, just shoot your master in Photopolymer ….. even if your just doing contact copies .",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73815#p73815"
+    },
+    {
+      "post_id": 73817,
+      "topic_id": 11484,
+      "topic_title": "My first DCG in (15 years)",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Tue Mar 24, 2026 8:59 pm",
+      "post_datetime": "2026-03-25T01:59:54+00:00",
+      "post_subject": "My first DCG in (15 years)",
+      "content_md": "Bright and consistent results !\n\n![Copies](https://holographyforum.org/forum/download/file.php?id=8034)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=8034",
+          "filename": "Copies",
+          "info": "Copies"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73817#p73817"
+    }
+  ]
+}

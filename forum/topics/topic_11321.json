@@ -1,0 +1,79 @@
+{
+  "topic_id": 11321,
+  "title": "Bacteria?",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11321",
+  "replies": 2,
+  "views": 57565,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:26:02.700406+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 72888,
+      "topic_id": 11321,
+      "topic_title": "Bacteria?",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Tue Aug 01, 2023 8:51 am",
+      "post_datetime": "2023-08-01T13:51:34+00:00",
+      "post_subject": "Bacteria?",
+      "content_md": "This morning's DCG has some blank (empty) spots which I haven't seen before.\n\n![P1010050.JPG](https://holographyforum.org/forum/download/file.php?id=7819)\n\nOn the right side of the image, there is a multitude of tiny <1mm spots which group together at the far right, then spread out more as they go to the left. They're also visible at the bottom. When coating the plate yesterday, the gelatin did smell a bit rancid, and my emulsion storage temp was a bit high (perhaps), about 44F. The coated plate was stored for a day at room temp, 68F, and 60%RH.\n\nI was wondering if those spots were due to bacteria.\n\nThanks.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7819",
+          "filename": "P1010050.JPG",
+          "info": "P1010050.JPG (42.19 KiB) Viewed 57565 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72888#p72888"
+    },
+    {
+      "post_id": 72889,
+      "topic_id": 11321,
+      "topic_title": "Bacteria?",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Wed Aug 02, 2023 11:11 am",
+      "post_datetime": "2023-08-02T16:11:25+00:00",
+      "post_subject": "Bacteria?",
+      "content_md": "It sounds unlikely to be bacteria. Bacteria attacks organic molecules such as gelatin, so it's possible your gelatin got contaminated if left open. But, on heating and stirring the gelatin the bacteria would probably get dispersed, and is unlikely to clump the way you show. It could have attacked the coated gelatin if there was a high concentration of bacteria in your working environment, but, for me, it seems unlikely to have grown so much in only a day (unless the environment were REALLY contaminated !). We left our coated plates in a room temperature environment of San Diego - roughly 70 deg F and about 50% humidity - over a weekend and we saw no such effects. We kept our gelatin in closed - but not airtight - containers at room temperature for years and saw no effects.\n\nI have seen something similar when people blow dried their plates with a hair dryer after development. Whatever dust/dirt etc was on the hair dryer formed in clumps on the plates. If you blow dried the plates from left to right ( as a right handed person would probably do) then the majority of such dust/dirt would deposit itself on the left of the plate. \n\nIf you have a microscope, I'd suggest cutting away part of the emulsion, so as to see the profile of the emulsion near the damaged areas. If whatever this is is in the bulk of the emulsion, ie throughout the depth of the emulsion, it may have formed before coating; if it's on the surface, then something fell, or was blown onto, the emulsion.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72889#p72889"
+    },
+    {
+      "post_id": 72890,
+      "topic_id": 11321,
+      "topic_title": "Bacteria?",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Wed Aug 02, 2023 12:13 pm",
+      "post_datetime": "2023-08-02T17:13:37+00:00",
+      "post_subject": "Bacteria?",
+      "content_md": "Thanks Din. That's an interesting thought about the hair dryer, I used a new one with a ceramic heating element. Maybe the ceramic was shedding dust. If the problem persists, I'll get out the microscope.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72890#p72890"
+    }
+  ]
+}

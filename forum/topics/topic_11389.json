@@ -1,0 +1,122 @@
+{
+  "topic_id": 11389,
+  "title": "beam ratios for Denisyuk DCG",
+  "forum_id": 7,
+  "forum_name": "DCG",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11389",
+  "replies": 4,
+  "views": 122491,
+  "starter": "Joe Farina",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:25:49.534591+00:00",
+  "post_count": 5,
+  "posts": [
+    {
+      "post_id": 73186,
+      "topic_id": 11389,
+      "topic_title": "beam ratios for Denisyuk DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Fri Nov 15, 2024 2:25 pm",
+      "post_datetime": "2024-11-15T19:25:32+00:00",
+      "post_subject": "beam ratios for Denisyuk DCG",
+      "content_md": "I was reading an old post by a forum member who said his rule of thumb exposure ratio for Denisyuk DCG was 4:1 (ref./obj.). He said that lower ratios (i.e., more object light) result in excess noise (for display holograms). Actually, this does make sense to me, since intermodulation noise can be pretty high for an extended object in DCG. At least it seems so to me. (DCG is also very forgiving in terms of high ratios.) Do any other DCG'ers out there think this rule of thumb makes sense? Thanks.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73186#p73186"
+    },
+    {
+      "post_id": 73189,
+      "topic_id": 11389,
+      "topic_title": "beam ratios for Denisyuk DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Sat Nov 16, 2024 10:15 am",
+      "post_datetime": "2024-11-16T15:15:06+00:00",
+      "post_subject": "beam ratios for Denisyuk DCG",
+      "content_md": "I've never used 4:1, I've always tried to get to 1:1 or close to it. The maths shows you get the highest modulation with 1:1. However, intermod is an issue, for an extended object, relative to the plate dimensions. To get around that, I sometimes would modulate the object lighting, ie light the edges less than the centre. As you say, DCG has a very high dynamic range. For what it's worth, Kaveh's PhD thesis recommends using polarisation to offset intermod noise, by changing the polarisation of the light on the edges of the object, though he doesn't say how to do this.\n\nThe 4:1 figure often quoted is a bit of an historical accident. On the H-D plot of the old Agfa (the plot of density (darkness) vs exposure), the slope of the plot is known as the 'gamma' of the film - in terms of silver halide, the larger the gamma, the more fine grained is the film. The actual curve has a curved part, then a straight line part, then a curved part. The early workers in holography, using Kodak but the principal is the same, determined the exposure by using the centre of the straight line part of the H-D curve. Then, taking a page from amplifier theory, they determined that they would get \"linear response\" - minimum noise - if the range of the object light was +/- the centre of the HD keeping to the straight line part of the gamma, ie you'd take the range of exposures from the left and the right of the centre of the straight line part. In the diagram (below) taken from Hans Bjelkhagen's book* on silver halide, this range, the linear range, is from what he calls the 'toe' to what he calls the 'knee'. In Agfa 10E75 and 8E75, as well as Kodak as far as I know - never used Kodak - the range from toe to knee gave you a 4:1 object light range, so all the early papers tended towards this 4:1 figure. If you exposed beyond this range, you'd get 'non-linearities' - noise. However, note that the H-D curve does not apply if you bleach the plate, ie convert the amplitude hologram to a phase hologram because then there is no relation between the darkness of the (developed) plate and the exposure. So, if you intend to make a phase hologram, this 4:1 doesn't apply.\n\n* \"Silver-Halide Recording Materials for Holography and Their Processing\", H I Bjelkhagen,2nd edition\n\n![HD Curve.jpg](https://holographyforum.org/forum/download/file.php?id=7875)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7875",
+          "filename": "HD Curve.jpg",
+          "info": "HD Curve.jpg (13.04 KiB) Viewed 122479 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73189#p73189"
+    },
+    {
+      "post_id": 73190,
+      "topic_id": 11389,
+      "topic_title": "beam ratios for Denisyuk DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Sat Nov 16, 2024 1:52 pm",
+      "post_datetime": "2024-11-16T18:52:45+00:00",
+      "post_subject": "beam ratios for Denisyuk DCG",
+      "content_md": "> **Dinwrote:↑Sat Nov 16, 2024 10:15 am:** I've never used 4:1, I've always tried to get to 1:1 or close to it. The maths shows you get the highest modulation with 1:1.\n\nThanks. I've also tried for 1:1, but thought there might be something unusual about DCG due to the wide dynamic range when combined with something like a 4:1 ratio. I guess it would simply lower modulation and intermodulation noise together, which doesn't seem to be worthwhile. As I do more DCG, the differences between DCG and silver (and even polymer) become more apparent. Especially the wide dynamic range. Thanks for the feedback provided some time ago regarding the importance of baffling to reduce noise in DCG. I recently bought a 1W laser (which is more power than I'm used to) and after it goes through the spatial filter, it seems like the whole lab is brightly lit up. I'm building a black foamboard box around the plateholder/object with faux black suede on the inside. (I found this to be almost as good as black velvet, and the edges of the stuff, when cut with scissors, don't shred into tiny black \"hairs\" which go everywhere.) Hopefully this will work to reduce stray light reaching the plate.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73190#p73190"
+    },
+    {
+      "post_id": 73196,
+      "topic_id": 11389,
+      "topic_title": "beam ratios for Denisyuk DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Sat Nov 16, 2024 4:03 pm",
+      "post_datetime": "2024-11-16T21:03:20+00:00",
+      "post_subject": "beam ratios for Denisyuk DCG",
+      "content_md": "We used black construction paper and poster board from art supply stores; small magnets at the base to keep the baffles from falling. Some baffles were accordion-folded. Another option is cinefoil - black anodised aluminium for wrapping around posts. \n\n![lab0882lab.jpg](https://holographyforum.org/forum/download/file.php?id=7880)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7880",
+          "filename": "lab0882lab.jpg",
+          "info": "lab0882lab.jpg (9.85 KiB) Viewed 122465 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73196#p73196"
+    },
+    {
+      "post_id": 73197,
+      "topic_id": 11389,
+      "topic_title": "beam ratios for Denisyuk DCG",
+      "forum_id": 7,
+      "forum_name": "DCG",
+      "author": "Joe Farina",
+      "author_id": 2184,
+      "post_date": "Sat Nov 16, 2024 4:06 pm",
+      "post_datetime": "2024-11-16T21:06:01+00:00",
+      "post_subject": "beam ratios for Denisyuk DCG",
+      "content_md": "Nice, thanks for sharing. I'm impressed at how much care you took with baffling. A lesson for me",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73197#p73197"
+    }
+  ]
+}
