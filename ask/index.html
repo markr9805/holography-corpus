@@ -19,6 +19,7 @@
     --success: #3fb950;
     --warning: #d29922;
     --danger: #f85149;
+    --purple: #d2a8ff;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -71,19 +72,40 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
 .ask-input:focus { outline: none; border-color: var(--accent); }
 .ask-input::placeholder { color: var(--text-muted); }
 
-.ask-btn {
-    background: var(--accent);
-    color: #000;
+.btn-group { display: flex; flex-direction: column; gap: 8px; }
+.btn {
+    padding: 12px 20px;
     border: none;
     border-radius: 8px;
-    padding: 12px 24px;
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.2s;
     white-space: nowrap;
 }
-.ask-btn:hover { background: var(--accent-hover); }
-.ask-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-search { background: var(--accent); color: #fff; }
+.btn-search:hover { background: #4090e0; }
+.btn-ai { background: var(--purple); color: #fff; }
+.btn-ai:hover { background: #b090e0; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+.suggestion-btn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.suggestion-btn:hover { border-color: var(--accent); color: var(--accent); }
 
 .config-section {
     background: var(--bg-secondary);
@@ -106,7 +128,7 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
 .config-row label {
     color: var(--text-muted);
     font-size: 0.9em;
-    min-width: 80px;
+    min-width: 60px;
 }
 .config-row select, .config-row input {
     background: var(--bg-tertiary);
@@ -121,49 +143,44 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
     border-color: var(--accent);
 }
 
-.suggestions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 12px;
-}
-.suggestion-btn {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 6px 14px;
-    color: var(--text-secondary);
-    font-size: 0.85em;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-.suggestion-btn:hover { border-color: var(--accent); color: var(--accent); }
-
-.answer-area { margin-top: 24px; }
-.answer-box {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
+.ai-answer {
+    background: linear-gradient(135deg, #1a1030 0%, #161b22 100%);
+    border: 1px solid var(--purple);
     border-radius: 12px;
     padding: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
+    display: none;
 }
-.answer-text {
-    color: var(--text-primary);
-    line-height: 1.7;
-}
-.answer-text p { margin-bottom: 12px; }
-.answer-text code {
+.ai-answer.visible { display: block; }
+.ai-answer h3 { color: var(--purple); margin-bottom: 12px; font-size: 1.1em; }
+.ai-answer .answer-text { color: var(--text-primary); line-height: 1.7; }
+.ai-answer .answer-text p { margin-bottom: 12px; }
+.ai-answer .answer-text code {
     background: var(--bg-tertiary);
     padding: 2px 6px;
     border-radius: 4px;
     font-size: 0.9em;
 }
+.ai-answer .sources { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+.ai-answer .sources h4 { color: var(--text-muted); font-size: 0.85em; margin-bottom: 8px; }
 
-.status-msg {
+.passage-area { margin-top: 16px; }
+.passage-card {
+    background: var(--bg-tertiary);
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border-radius: 0 8px 8px 0;
+}
+.passage-header {
+    font-size: 0.85em;
     color: var(--text-muted);
-    font-style: italic;
-    padding: 20px;
-    text-align: center;
+    margin-bottom: 4px;
+}
+.passage-text {
+    color: var(--text-secondary);
+    font-size: 0.95em;
+    line-height: 1.5;
 }
 
 .spinner {
@@ -187,23 +204,9 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
     color: var(--danger);
 }
 
-.passage-area { margin-top: 16px; }
-.passage-card {
-    background: var(--bg-tertiary);
-    border-left: 3px solid var(--accent);
-    padding: 12px 16px;
-    margin-bottom: 8px;
-    border-radius: 0 8px 8px 0;
-}
-.passage-header {
-    font-size: 0.85em;
-    color: var(--text-muted);
-    margin-bottom: 4px;
-}
-.passage-text {
-    color: var(--text-secondary);
-    font-size: 0.95em;
-    line-height: 1.5;
+@media (max-width: 600px) {
+    .ask-input-row { flex-direction: column; }
+    .btn-group { flex-direction: row; }
 }
 </style>
 </head>
@@ -215,7 +218,7 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
             <a href="../creators/index.html">Creators</a>
             <a href="../forum/index.html">Forum</a>
             <a href="../search/index.html">Search</a>
-            <a href="index.html" style="color:var(--accent)">Ask</a>
+            <a href="index.html" style="color:var(--purple)">Ask</a>
         </div>
     </div>
 </nav>
@@ -226,7 +229,10 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
     <div class="ask-box">
         <div class="ask-input-row">
             <input type="text" id="ask-input" class="ask-input" placeholder="Ask anything about holography..." autofocus>
-            <button id="ask-btn" class="ask-btn" onclick="askQuestion()">Ask</button>
+            <div class="btn-group">
+                <button class="btn btn-search" id="btn-search" onclick="doSearch()">🔍 Search</button>
+                <button class="btn btn-ai" id="btn-ai" onclick="doAsk()">✨ Ask AI</button>
+            </div>
         </div>
         <div class="suggestions">
             <button class="suggestion-btn" onclick="askSuggestion(this)">How does dichromated gelatin (DCG) work?</button>
@@ -238,33 +244,32 @@ h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
     </div>
 
     <details class="config-section">
-        <summary>⚙️ LLM Settings</summary>
-        <div class="config-row">
-            <label>Provider:</label>
-            <select id="llm-provider">
-                <option value="none">Search only (no LLM)</option>
-                <option value="ollama">Ollama (local)</option>
-                <option value="openai">OpenAI-compatible API</option>
-            </select>
-        </div>
+        <summary>⚙️ AI Model</summary>
         <div class="config-row">
             <label>Model:</label>
-            <input type="text" id="llm-model" value="gemma3:27b" placeholder="e.g., gemma3:27b, llama3.1:8b">
-        </div>
-        <div class="config-row">
-            <label>API URL:</label>
-            <input type="text" id="llm-url" value="http://localhost:11434" placeholder="http://localhost:11434" style="flex:1">
-        </div>
-        <div class="config-row">
-            <label>Passages:</label>
-            <input type="number" id="num-passages" value="8" min="3" max="20" style="width:60px">
+            <select id="ai-model">
+                <option value="google/gemini-2.5-flash">Gemini 2.5 Flash (fast, cheap)</option>
+                <option value="anthropic/claude-sonnet-4">Claude Sonnet 4 (thorough)</option>
+                <option value="openai/gpt-4o-mini">GPT-4o Mini (fast)</option>
+            </select>
         </div>
     </details>
 
-    <div id="answer-area" class="answer-area" style="display:none"></div>
+    <div class="ai-answer" id="ai-answer">
+        <h3>✨ AI Answer</h3>
+        <div class="answer-text" id="ai-answer-text"></div>
+    </div>
+
+    <div id="results-area" style="display:none">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <h2 id="results-title" style="margin:0">📚 Relevant Sources</h2>
+            <span id="results-count" style="color:var(--text-muted);font-size:0.9em"></span>
+        </div>
+        <div id="results"></div>
+    </div>
 </main>
 <footer style="padding:24px 0;border-top:1px solid var(--border);margin-top:48px">
-    <div class="container"><p style="color:var(--text-muted);font-size:0.85em">Holography Corpus · AI-powered search across video transcripts and forum discussions</p></div>
+    <div class="container"><p style="color:var(--text-muted);font-size:0.85em">Holography Corpus · AI-powered search across video transcripts and forum discussions · Powered by OpenRouter</p></div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
@@ -309,13 +314,13 @@ async function init() {
     const q = params.get('q');
     if (q) {
         document.getElementById('ask-input').value = q;
-        askQuestion();
+        doSearch();
     }
 }
 
 function askSuggestion(btn) {
     document.getElementById('ask-input').value = btn.textContent;
-    askQuestion();
+    doSearch();
 }
 
 async function retrievePassages(query, numPassages) {
@@ -382,130 +387,123 @@ async function retrievePassages(query, numPassages) {
     }).slice(0, numPassages);
 }
 
-async function askQuestion() {
+function doSearch() {
+    const query = document.getElementById('ask-input').value.trim();
+    if (!query) return;
+    retrievePassages(query, 12).then(passages => {
+        renderResults(passages, query);
+    });
+}
+
+function renderResults(passages, query) {
+    const area = document.getElementById('results-area');
+    const container = document.getElementById('results');
+    area.style.display = 'block';
+    document.getElementById('results-title').textContent = '📚 Relevant Sources';
+    document.getElementById('results-count').textContent = passages.length + ' results';
+
+    container.innerHTML = passages.map(p => {
+        const icon = p.type === 'video' ? '📹' : '💬';
+        const meta = p.type === 'video'
+            ? p.creator + ' · ' + p.date
+            : p.forum + ' · ' + p.authors.join(', ') + ' · ' + p.date;
+        return '<div class="passage-card">' +
+            '<div class="passage-header">' + icon + ' <a href="' + p.url + '">' + escHtml(p.title) + '</a> · ' + escHtml(meta) + '</div>' +
+            '<div class="passage-text">' + escHtml(p.excerpt.substring(0, 400)) + (p.excerpt.length > 400 ? '…' : '') + '</div>' +
+        '</div>';
+    }).join('');
+}
+
+async function doAsk() {
     const query = document.getElementById('ask-input').value.trim();
     if (!query) return;
 
-    const btn = document.getElementById('ask-btn');
-    const area = document.getElementById('answer-area');
-    const numPassages = parseInt(document.getElementById('num-passages').value) || 8;
-    const provider = document.getElementById('llm-provider').value;
-    const model = document.getElementById('llm-model').value;
-    const apiUrl = document.getElementById('llm-url').value;
+    const btnAi = document.getElementById('btn-ai');
+    const btnSearch = document.getElementById('btn-search');
+    const answerDiv = document.getElementById('ai-answer');
+    const answerText = document.getElementById('ai-answer-text');
+    const model = document.getElementById('ai-model').value;
+    const workerUrl = 'https://ask-holography-corpus.markr9805.workers.dev';
 
-    btn.disabled = true;
-    btn.textContent = 'Searching...';
-    area.style.display = 'block';
-    area.innerHTML = '<div class="status-msg"><span class="spinner"></span>Searching the corpus for relevant passages...</div>';
+    btnAi.disabled = true;
+    btnSearch.disabled = true;
+
+    // First do search to get context
+    const passages = await retrievePassages(query, 8);
+    renderResults(passages, query);
+
+    if (passages.length === 0) {
+        answerDiv.classList.add('visible');
+        answerText.innerHTML = '<div class="error-box">No relevant passages found. Try different keywords.</div>';
+        btnAi.disabled = false;
+        btnSearch.disabled = false;
+        return;
+    }
+
+    // Show loading
+    answerDiv.classList.add('visible');
+    answerText.innerHTML = '<div style="color:var(--purple);font-style:italic"><span class="spinner"></span>Synthesizing answer with ' + escHtml(model.split('/').pop()) + '...</div>';
+
+    // Build context
+    const context = passages.map((p, i) => {
+        const meta = p.type === 'video'
+            ? '[Video: "' + p.title + '" by ' + p.creator + ', ' + p.date + ']'
+            : '[Forum: "' + p.title + '" in ' + p.forum + ', by ' + p.authors.join(', ') + ', ' + p.date + ']';
+        return 'Source ' + (i+1) + ': ' + meta + '\n' + p.excerpt;
+    }).join('\n\n');
+
+    const systemPrompt = 'You are a holography expert assistant. Answer the user\'s question based ONLY on the provided sources from the Holography Corpus — a collection of video transcripts and forum discussions about display holography, holographic techniques, and holographic art. Cite your sources using [Source N] notation. If the sources don\'t contain enough information, say so and suggest what might help. Be specific and technical where the sources support it. Cover topics like: DCG processing, reflection holograms, transmission holograms, laser types and setups, recording materials (silver halide, DCG, photopolymer), display techniques, holographic art, and the holography community.';
+
+    const userPrompt = 'Question: ' + query + '\n\nSources:\n' + context + '\n\nAnswer with citations:';
 
     try {
-        const passages = await retrievePassages(query, numPassages);
+        const resp = await fetch(workerUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                model: model,
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userPrompt }
+                ]
+            })
+        });
 
-        if (passages.length === 0) {
-            area.innerHTML = '<div class="error-box">No relevant passages found. Try different keywords.</div>';
-            btn.disabled = false;
-            btn.textContent = 'Ask';
-            return;
+        if (!resp.ok) {
+            const err = await resp.json().catch(() => ({}));
+            throw new Error(err.error || 'API error: ' + resp.status);
         }
 
-        let passagesHtml = '<h2>📚 Relevant Sources</h2><div class="passage-area">';
-        for (const p of passages) {
-            const icon = p.type === 'video' ? '📹' : '💬';
-            const meta = p.type === 'video'
-                ? p.creator + ' · ' + p.date
-                : p.forum + ' · ' + p.authors.join(', ') + ' · ' + p.date;
-            passagesHtml += '<div class="passage-card">' +
-                '<div class="passage-header">' + icon + ' <a href="' + p.url + '">' + escHtml(p.title) + '</a> · ' + escHtml(meta) + '</div>' +
-                '<div class="passage-text">' + escHtml(p.excerpt.substring(0, 500)) + (p.excerpt.length > 500 ? '…' : '') + '</div>' +
-            '</div>';
-        }
-        passagesHtml += '</div>';
-
-        if (provider === 'none') {
-            area.innerHTML = passagesHtml;
-            btn.disabled = false;
-            btn.textContent = 'Ask';
-            return;
-        }
-
-        area.innerHTML = passagesHtml + '<div class="status-msg"><span class="spinner"></span>Synthesizing answer with ' + escHtml(model) + '...</div>';
-
-        const context = passages.map((p, i) => {
-            const meta = p.type === 'video'
-                ? '[Video: "' + p.title + '" by ' + p.creator + ', ' + p.date + ']'
-                : '[Forum: "' + p.title + '" in ' + p.forum + ', by ' + p.authors.join(', ') + ', ' + p.date + ']';
-            return 'Source ' + (i+1) + ': ' + meta + '
-' + p.excerpt;
-        }).join('
-
-');
-
-        const prompt = 'You are a holography expert assistant. Answer the following question based ONLY on the provided sources. Cite your sources using [Source N] notation. If the sources do not contain enough information, say so. Be specific and technical where the sources support it.
-
-Question: ' + query + '
-
-Sources:
-' + context + '
-
-Answer with citations:';
-
-        let answer = '';
-        if (provider === 'ollama') {
-            const resp = await fetch(apiUrl + '/api/generate', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    model: model,
-                    prompt: prompt,
-                    stream: false,
-                    options: { temperature: 0.3, num_predict: 2048 }
-                })
-            });
-            if (!resp.ok) throw new Error('Ollama API error: ' + resp.status + ' ' + await resp.text());
-            const data = await resp.json();
-            answer = data.response || '';
-        } else if (provider === 'openai') {
-            const resp = await fetch(apiUrl + '/v1/chat/completions', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    model: model,
-                    messages: [
-                        { role: 'system', content: 'You are a holography expert assistant. Answer based only on provided sources. Cite sources as [Source N].' },
-                        { role: 'user', content: prompt }
-                    ],
-                    temperature: 0.3,
-                    max_tokens: 2048
-                })
-            });
-            if (!resp.ok) throw new Error('API error: ' + resp.status + ' ' + await resp.text());
-            const data = await resp.json();
-            answer = data.choices && data.choices[0] && data.choices[0].message ? data.choices[0].message.content : '';
-        }
+        const data = await resp.json();
+        const answer = data.choices && data.choices[0] && data.choices[0].message ? data.choices[0].message.content : '';
 
         if (answer) {
             let formattedAnswer = escHtml(answer);
             formattedAnswer = formattedAnswer.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            // Source citations to links
             passages.forEach((p, i) => {
-                const re = new RegExp('\[Source ' + (i+1) + '\]', 'g');
-                formattedAnswer = formattedAnswer.replace(re, '<a href="' + p.url + '" title="' + escHtml(p.title) + '">[Source ' + (i+1) + ']</a>');
+                const re = new RegExp('\\[Source ' + (i+1) + '\\]', 'g');
+                formattedAnswer = formattedAnswer.replace(re, '<a href="' + p.url + '" title="' + escHtml(p.title) + '" style="color:var(--purple);text-decoration:none;font-weight:bold;">[Source ' + (i+1) + ']</a>');
             });
-            formattedAnswer = formattedAnswer.replace(/
-
-/g, '</p><p>');
+            formattedAnswer = formattedAnswer.replace(/\n\n/g, '</p><p>');
+            formattedAnswer = formattedAnswer.replace(/\n/g, '<br>');
             formattedAnswer = '<p>' + formattedAnswer + '</p>';
 
-            area.innerHTML = '<div class="answer-box"><h2>💡 Answer</h2><div class="answer-text">' + formattedAnswer + '</div></div>' + passagesHtml;
-        } else {
-            area.innerHTML = passagesHtml + '<div class="error-box">LLM returned an empty response. Try a different model or check your settings.</div>';
-        }
+            const sourcesHtml = passages.slice(0, 6).map((p, i) =>
+                '<div style="margin:4px 0"><span style="color:var(--purple);font-weight:bold;">[' + (i+1) + ']</span> <a href="' + p.url + '" style="color:var(--accent);text-decoration:none;">' + escHtml(p.title) + '</a> <span style="color:var(--text-muted);">' + escHtml(p.type === 'video' ? p.creator + ' · ' + p.date : p.forum + ' · ' + p.date) + '</span></div>'
+            ).join('');
 
+            answerText.innerHTML = '<div class="answer-text">' + formattedAnswer + '</div>' +
+                '<div class="sources"><h4>Sources from the corpus:</h4>' + sourcesHtml + '</div>';
+        } else {
+            answerText.innerHTML = '<div class="error-box">LLM returned an empty response. Try a different model.</div>';
+        }
     } catch(e) {
-        area.innerHTML = '<div class="error-box">Error: ' + escHtml(e.message) + '</div>';
+        answerText.innerHTML = '<div class="error-box">Error: ' + escHtml(e.message) + '</div>';
     }
 
-    btn.disabled = false;
-    btn.textContent = 'Ask';
+    btnAi.disabled = false;
+    btnSearch.disabled = false;
 }
 
 function escHtml(str) {
@@ -515,7 +513,7 @@ function escHtml(str) {
 }
 
 document.getElementById('ask-input').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') askQuestion();
+    if (e.key === 'Enter') doSearch();
 });
 
 init();
