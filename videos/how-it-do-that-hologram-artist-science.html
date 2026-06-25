@@ -258,6 +258,12 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     padding: 1rem;
     position: relative;
 }
+.transcript-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
 .transcript-panel {
     display: none;
 }
@@ -457,52 +463,16 @@ footer {
 </div>
 <h2>Transcript</h2>
 <div class="transcript-tabs"><button class="transcript-tab active" data-tab="merged">Merged</button></div>
-<div class="transcript-viewer"><div class="transcript-panel active" id="panel-merged"><div class="transcript-plain">How do holograms work? If I said magic, would you believe me? Okay, fine. Holography is the practice of recording an interference pattern using coherent light um within a holographic substrate. Well, what does that mean? Number one, interference pattern. Think of the light waves like water waves, right? Waves be waving. Simple example. I throw two rocks into the water and what happens? We get ripples. Whoa. Those are waves, right? All right. So this thing you&#x27;re looking at here with the ripple ripples this is a wavefront. Okay. Now all these little points in which the waves are intersecting basically these coherent light waves are intersecting. It&#x27;s little tiny little points those are interference points. And you might be thinking Travis what do these two rocks have to do with anything? It&#x27;s just a good starting point. So now we understand wave interference right uh on a two-dimensional aquatic plane. Sure. Not the threedimensional photonic plane. So expand the two dimensional concept of the water waves into the threedimensional realm. I get kind of crazy. So let&#x27;s talk about how the light a single photon would act, right? We shoot a photon out of the laser beam. Um and it&#x27;s going to hit the holographic film first. This is a single beam method. There&#x27;s different ways to do this. Um but it hits the film first, hits the subject, right? the subject is not going to be perfectly smooth. So, it&#x27;s going to scatter that photon. So, we have like a cone of of light, right? And the cone is going to come back into the film. All right, that&#x27;s the that&#x27;s the other wave. We got the wave shooting in, we got the wave coming back out. And now, inside of that holographic film that&#x27;s in between that wave pattern, we&#x27;re going to basically record our interference pattern, our interference point. So we do that about a billion times across the entire surface of the film because that&#x27;s just how organic capturing of film works. And now you have a matrix of you know billions of interference points that are all reconstructing an image because of this interference points uh during the development process. Basically you have metallic uh particles that are going to align and become silvered so to speak or refractive and that&#x27;s how you get your holographic light effect. uh because the light is coming in, it&#x27;s going to reflect some back, but also focus it like a lens do, right? And that&#x27;s how we get our shape. So much like creating a a a sculpted toy and making a cast of it and making a mold, it&#x27;s kind of like making a holographic mold, but you don&#x27;t fill it with plastic or resin. You fill it with light and then it replays the original interference pattern. It was recorded. That&#x27;s just my That&#x27;s just off my dom here. I There&#x27;s a search engines. Yeah, you know what I&#x27;m talking about. You as you can read you can read about it.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
+<div class="transcript-viewer" data-transcript="transcripts/how-it-do-that-hologram-artist-science.json" id="transcript-viewer">
+<div class="transcript-loading">Loading transcript…</div>
+<button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button>
+</div>
 </main>
 <footer>
 <div class="container">
 <p>how it do that? #hologram #artist #science · LaserboyHolo (Travis)</p>
 </div>
 </footer>
-<script>
-function switchTab(tabName) {
-  document.querySelectorAll(".transcript-tab").forEach(t => t.classList.remove("active"));
-  document.querySelectorAll(".transcript-panel").forEach(p => p.classList.remove("active"));
-  document.querySelector(`.transcript-tab[data-tab="${tabName}"]`).classList.add("active");
-  document.getElementById(`panel-${tabName}`).classList.add("active");
-}
-document.querySelectorAll(".transcript-tab").forEach(tab => {
-  tab.addEventListener("click", () => switchTab(tab.dataset.tab));
-});
-function toggleTranscriptFullscreen() {
-  const viewer = document.querySelector(".transcript-viewer");
-  const btn = document.querySelector(".expand-btn");
-  if (viewer.classList.contains("fullscreen")) {
-    viewer.classList.remove("fullscreen");
-    btn.textContent = "⤢ Expand";
-  } else {
-    viewer.classList.add("fullscreen");
-    btn.textContent = "⤓ Collapse";
-  }
-}
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    const viewer = document.querySelector(".transcript-viewer");
-    if (viewer && viewer.classList.contains("fullscreen")) toggleTranscriptFullscreen();
-  }
-});
-document.querySelectorAll(".timestamp").forEach(ts => {
-  ts.addEventListener("click", () => {
-    const time = ts.dataset.time;
-    const iframe = document.querySelector("iframe");
-    if (iframe) {
-      const [h,m,s] = time.split(":").map(Number);
-      const seconds = (h||0)*3600 + (m||0)*60 + (s||0);
-      const src = iframe.src.split("?")[0] + "?autoplay=1&start=" + seconds;
-      iframe.src = src;
-    }
-  });
-});
-</script>
+<script src="../static/transcript-viewer.js"></script>
 </body>
 </html>

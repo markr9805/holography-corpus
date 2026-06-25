@@ -258,6 +258,12 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     padding: 1rem;
     position: relative;
 }
+.transcript-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
 .transcript-panel {
     display: none;
 }
@@ -462,45 +468,6 @@ footer {
 <p>Eschers Cubic Sphere - Hologram by Joshua Dellay · Josh Dellay</p>
 </div>
 </footer>
-<script>
-function switchTab(tabName) {
-  document.querySelectorAll(".transcript-tab").forEach(t => t.classList.remove("active"));
-  document.querySelectorAll(".transcript-panel").forEach(p => p.classList.remove("active"));
-  document.querySelector(`.transcript-tab[data-tab="${tabName}"]`).classList.add("active");
-  document.getElementById(`panel-${tabName}`).classList.add("active");
-}
-document.querySelectorAll(".transcript-tab").forEach(tab => {
-  tab.addEventListener("click", () => switchTab(tab.dataset.tab));
-});
-function toggleTranscriptFullscreen() {
-  const viewer = document.querySelector(".transcript-viewer");
-  const btn = document.querySelector(".expand-btn");
-  if (viewer.classList.contains("fullscreen")) {
-    viewer.classList.remove("fullscreen");
-    btn.textContent = "⤢ Expand";
-  } else {
-    viewer.classList.add("fullscreen");
-    btn.textContent = "⤓ Collapse";
-  }
-}
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    const viewer = document.querySelector(".transcript-viewer");
-    if (viewer && viewer.classList.contains("fullscreen")) toggleTranscriptFullscreen();
-  }
-});
-document.querySelectorAll(".timestamp").forEach(ts => {
-  ts.addEventListener("click", () => {
-    const time = ts.dataset.time;
-    const iframe = document.querySelector("iframe");
-    if (iframe) {
-      const [h,m,s] = time.split(":").map(Number);
-      const seconds = (h||0)*3600 + (m||0)*60 + (s||0);
-      const src = iframe.src.split("?")[0] + "?autoplay=1&start=" + seconds;
-      iframe.src = src;
-    }
-  });
-});
-</script>
+<script src="../static/transcript-viewer.js"></script>
 </body>
 </html>
