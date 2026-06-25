@@ -1,0 +1,61 @@
+{
+  "topic_id": 11101,
+  "title": "Hello and I have a transport not sure if it’s Motion or 70mm. Still",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11101",
+  "replies": 1,
+  "views": 51548,
+  "starter": "Thack",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:17:42.483599+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 72322,
+      "topic_id": 11101,
+      "topic_title": "Hello and I have a transport not sure if it’s Motion or 70mm. Still",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "Thack",
+      "author_id": 8570,
+      "post_date": "Sun Feb 28, 2021 2:53 am",
+      "post_datetime": "2021-02-28T07:53:39+00:00",
+      "post_subject": "Hello and I have a transport not sure if it’s Motion or 70mm. Still",
+      "content_md": "Hello I am Thack of Veraphim and ThaxTrax,\n\nI purchased a 70mm. Film Transport. Does this mean I can only watch a film through it? It has Blue Film Rolled inside. Is this for single photos? I don’t know. I mean to use holographic means to document a solid state drive unit, it’s progress, and later planned missions using that in vehicular designs. [img] [/img]",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7648",
+          "filename": "Hope this helps",
+          "info": "Hope this helps"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72322#p72322"
+    },
+    {
+      "post_id": 72326,
+      "topic_id": 11101,
+      "topic_title": "Hello and I have a transport not sure if it’s Motion or 70mm. Still",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "BobH",
+      "author_id": 2166,
+      "post_date": "Tue Mar 02, 2021 10:03 am",
+      "post_datetime": "2021-03-02T15:03:50+00:00",
+      "post_subject": "Hello and I have a transport not sure if it’s Motion or 70mm. Still",
+      "content_md": "It's a vintage film transport from the 1970s used to make holograms in an industrial environment. Quite obsolete. Film for it not made in decades. I'd be interested if you ever want to sell it, for display with similar old holography and laser equipment. There are much easier and cheaper ways to do similar technical holography using modern cameras. This is a wonderful relic of days long past.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=72326#p72326"
+    }
+  ]
+}

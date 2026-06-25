@@ -1,0 +1,36 @@
+{
+  "topic_id": 7516,
+  "title": "Finding your maximum recording depth for single beams",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7516",
+  "replies": 0,
+  "views": 1401,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:40:26.479366+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 59681,
+      "topic_id": 7516,
+      "topic_title": "Finding your maximum recording depth for single beams",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Mon Sep 08, 2008 1:12 pm",
+      "post_datetime": "2008-09-08T18:12:00+00:00",
+      "post_subject": "Finding your maximum recording depth for single beams",
+      "content_md": "Hello Everyone,\n\nI never like the method of using an interferometer to check the recording possibilities of a laser. Too many other things going on. \n\nHere is my favorite way. I lay a yardstick down on the table. The high numbers of the stick are towards the laser. Put a plate at the start of the stick, tilt it forward at whatever you like for a ref angle. Take a spatial filter and light up the stick and the plate. The beam will be skating across the table where the yardstick is but also filling the plate to be the ref. A single beam transmission.\n\nNow just play back the hologram and where ever the stick disappears.....thats your real max recording distance. It helps to put some nuts or something every few inches to help read the results.\n\nJeffrey Weil\n\nNorthBeach Holography Inc.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=59681#p59681"
+    }
+  ]
+}

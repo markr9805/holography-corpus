@@ -1,0 +1,36 @@
+{
+  "topic_id": 5348,
+  "title": "Sharp QA-1200 pin outs",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5348",
+  "replies": 0,
+  "views": 729,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:17:10.829161+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 43537,
+      "topic_id": 5348,
+      "topic_title": "Sharp QA-1200 pin outs",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Fri Jan 27, 2006 10:21 pm",
+      "post_datetime": "2006-01-28T03:21:00+00:00",
+      "post_subject": "Sharp QA-1200 pin outs",
+      "content_md": "Well, I have had this Sharp QA-1200 LCD tranmission screen for a year now and it never worked right. It always rolled horizontally. I Always thought it was the unit. Well the recent discussions fired me up to try it again. I noticed the adapter conneting the cable to a standard VGS input had apple on it. So I did some research and found the pin outs for the unit and a VGA monitor cable. I bought the connector for about $2 and soldered a cable I cut from an old monitor to the connectors one by one (a task considering I don't have experience soldering small stuff like that). Anyway the unit works great. I am very excited. Here I thought I was taken on this e-bay purchase a year ago. So.......\n\nIf anyone needs the pinouts for a QA-1200 to make a cable drop me an e-mail and I can send them to you.\n\nPeace, \n\nJohn",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=43537#p43537"
+    }
+  ]
+}

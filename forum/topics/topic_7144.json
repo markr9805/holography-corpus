@@ -1,0 +1,61 @@
+{
+  "topic_id": 7144,
+  "title": "using glass as a variable beamsplitter",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7144",
+  "replies": 1,
+  "views": 946,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:47:34.861132+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 56342,
+      "topic_id": 7144,
+      "topic_title": "using glass as a variable beamsplitter",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Joe Farina",
+      "author_id": null,
+      "post_date": "Fri Feb 08, 2008 12:22 pm",
+      "post_datetime": "2008-02-08T17:22:00+00:00",
+      "post_subject": "using glass as a variable beamsplitter",
+      "content_md": "This is a graph from a book by C. Breck Hitz called *Understanding Laser Technology*(an excellent book by the way). It made me realize that an ordinary piece of glass might make an excellent variable beamsplitter (or variable attenuator). The only requirement is that the laser be polarized, and that the position of the reflected beam gets shuffled around a bit (the angle of the glass would be changed to get different transmission/reflection ratios). I don't see this as a big issue, though, since the reflected beam could serve as the object beam, and a relay mirror could be used to get the beam where it's supposed to go.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6042",
+          "filename": "Hitz.gif",
+          "info": "Hitz.gif (10.26 KiB) Viewed 860 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56342#p56342"
+    },
+    {
+      "post_id": 56359,
+      "topic_id": 7144,
+      "topic_title": "using glass as a variable beamsplitter",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Mon Feb 11, 2008 3:18 pm",
+      "post_datetime": "2008-02-11T20:18:00+00:00",
+      "post_subject": "using glass as a variable beamsplitter",
+      "content_md": "Joe, you may have good sucess with using the glass in this manner for an attenuator, but to use it as a beam splitter would be less advantageous as you stated, the reflected beam path would change when the angle needed to be changed. A better alternative, one I have been using for years with split beams because I have been too cheap to buy a cube and wave plate, is to buy a few small beam splitters from edmunds and use glass for the 90:10.\n\n[http://scientificsonline.com/product.as ... m+splitter](http://scientificsonline.com/product.asp?pn=3043359&cmss=beam+splitter)\n\nBut anyway, they are large enough (aobut 2\" square) that you can cut each in half and get two sets for the price of one. Then mount them on a gimbal side by side. Below, look at second optic from the right. Mine are a piece of glass for 90:10 and two beam splitters 70:30 and 50:50.\n\n[http://www.holograms3d.com/Surplus/IMG_3625.JPG](http://www.holograms3d.com/Surplus/IMG_3625.JPG)\n\nThen I can simply move the mount just a little bit and change the ratio. Because the BS's are on a gimbal, it is very easy to reallign the reflected beam to where it was previously. Not a great solution but one that is definitely workable. If I need to fine tune the object beam intensity, I move the spatial filter back or forward to expand or contract the beam thus getting a little less or more light.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56359#p56359"
+    }
+  ]
+}

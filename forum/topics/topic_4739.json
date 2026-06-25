@@ -1,0 +1,36 @@
+{
+  "topic_id": 4739,
+  "title": "Hairspray",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=4739",
+  "replies": 0,
+  "views": 1600,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:28:32.862864+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 38884,
+      "topic_id": 4739,
+      "topic_title": "Hairspray",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Kris Meerlo",
+      "author_id": null,
+      "post_date": "Mon Apr 11, 2005 7:18 am",
+      "post_datetime": "2005-04-11T12:18:00+00:00",
+      "post_subject": "Hairspray",
+      "content_md": "When you are afraid of movements of some parts of the object ( hair or something else ) spray it with hairspray.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=38884#p38884"
+    }
+  ]
+}

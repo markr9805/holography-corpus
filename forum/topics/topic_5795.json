@@ -1,0 +1,36 @@
+{
+  "topic_id": 5795,
+  "title": "Coating Machine Building Instructions",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5795",
+  "replies": 0,
+  "views": 1050,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:06:17.180950+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 46828,
+      "topic_id": 5795,
+      "topic_title": "Coating Machine Building Instructions",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Hans",
+      "author_id": null,
+      "post_date": "Fri Sep 22, 2006 8:02 am",
+      "post_datetime": "2006-09-22T13:02:00+00:00",
+      "post_subject": "Coating Machine Building Instructions",
+      "content_md": "As promised, here are the construction plans for the simple coating machine I made in one afternoon. With a proper coating rod it is possible to make good coatings with this setup.\n\n![Image](http://www.hologramhans.com/pictures/BaseBoard.jpg)\n\nThis is the base board. It sits on three adjustable table legs for leveling the whole stup. On the right-hand side is the electric motor. I used a 300RPM geared hobby motor for extra power. The motor turns a threaded M8 rod. When turned at 300RPM, this rod can pull the Drawdown Board at a feed rate of 0.5cm per second.\n\nThe draw down board slides from left to right on the two (red) drawer rails.\n\nOn the left side are two rod posts that hold the assembly for the coating rod.\n\n![Image](http://www.hologramhans.com/pictures/MotorAssembly.jpg)\n\nHere is the assembly that holds the 300RPM geared electric motor. An L shaped aluminum profile is screwed to the base board and holds the motor. The threaded rod is fitted to the motor with a piece of high pressure air hose. Because of the flexibility of the air hose, precise alignment of the motor with the M8 threaded rod is not necessary, and construction is simpler. A snug fit is made with a small hose clamp.\n\n![Image](http://www.hologramhans.com/pictures/DrawDownBoard.jpg)\n\nThe Drawdown Board holds the glass plate. It pulls the glass plate under the coating rod. This board has the other two halves of the drawer rails. I stuck a piece of Delrin with a M8 hole tapped into it on the bottom of the Drawdown Board. Through this Delrin block goes the M8 threaded rod that is connected to the 300RPM geared electric motor. The glass plate can be taped onto the three aluminum blocks on top of the Drawdown Board.\n\n![Image](http://www.hologramhans.com/pictures/RodPost.jpg)\n\nA simple assembly for the construction that holds the coating rod. Here only one is drawn. On the left-hand side of the base board there are two of these. Each can hold a horizontal round aluminum rod that can hinge in two directions. The coating rod must be fitted to these horizontal rods.\n\nI will post a photo later. I built this machine quickly and dirtily, just to see if it could be done. One improvement that should be made is that instead of on top of the three aluminum blocks on the Drawdown board, a tray should be fitted on top of which the glass plate should rest. That way the dirty chemicals can leak into that tray for easy cleaning. Because I did not do this, the wood in my machine has absorbed dirty MBDCG chemicals. I am now afraid to use it for fear of contaminating the world outside my garage.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=46828#p46828"
+    }
+  ]
+}

@@ -32,7 +32,18 @@ CAPTIONS_DIR = os.path.join(PIPELINE_DIR, "captions")
 AUDIO_DIR = os.path.join(PIPELINE_DIR, "audio")
 CHUNKS_DIR = os.path.join(PIPELINE_DIR, "chunks")
 TRANSCRIPTS_DIR = os.path.join(PIPELINE_DIR, "transcripts")
-VENV_PYTHON = os.path.join(PIPELINE_DIR, "whisper-env", "bin", "python3")
+
+# Use Darante's whisper-env if ours doesn't exist, otherwise fall back to mlx_whisper CLI
+DARANTE_VENV = os.path.expanduser("~/.openclaw/workspace/foster/darante-transcript-pilot/whisper-env/bin/python3")
+LOCAL_VENV = os.path.join(PIPELINE_DIR, "whisper-env", "bin", "python3")
+MLX_WHISPER_BIN = os.path.expanduser("~/.local/bin/mlx_whisper")
+
+if os.path.exists(LOCAL_VENV):
+    VENV_PYTHON = LOCAL_VENV
+elif os.path.exists(DARANTE_VENV):
+    VENV_PYTHON = DARANTE_VENV
+else:
+    VENV_PYTHON = None  # Will use mlx_whisper CLI instead
 
 WHISPER_MODEL = "mlx-community/whisper-large-v3-mlx"
 PARAKEET_MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
@@ -168,13 +179,27 @@ def run_whisper(video_id):
     if os.path.exists(out_file):
         return True
 
-    chunks = chunk_audio(video_id)
-    if not chunks:
+    # Find audio file
+    audio_file = None
+    for ext in [".wav", ".mp3", ".m4a", ".flac"]:
+        path = os.path.join(AUDIO_DIR, f"{video_id}{ext}")
+        if os.path.exists(path):
+            audio_file = path
+            break
+    if not audio_file:
+        print(f"  No audio found for {video_id}")
         return False
 
-    texts = []
-    for chunk_file in chunks:
-        script = f"""
+    # Use venv python if available, otherwise use mlx_whisper CLI
+    if VENV_PYTHON and os.path.exists(VENV_PYTHON):
+        # Chunked approach using venv
+        chunks = chunk_audio(video_id)
+        if not chunks:
+            return False
+
+        texts = []
+        for chunk_file in chunks:
+            script = f"""
 import mlx_whisper
 result = mlx_whisper.transcribe(
     '{chunk_file}',
@@ -184,28 +209,42 @@ result = mlx_whisper.transcribe(
 )
 print(result['text'])
 """
-        result = subprocess.run(
-            [VENV_PYTHON, "-c", script],
-            capture_output=True, text=True, timeout=600
-        )
+            result = subprocess.run(
+                [VENV_PYTHON, "-c", script],
+                capture_output=True, text=True, timeout=600
+            )
+            if result.returncode != 0:
+                print(f"      ERROR on chunk: {result.stderr[:200]}")
+                for cf in chunks:
+                    if os.path.exists(cf):
+                        os.remove(cf)
+                return False
+            texts.append(result.stdout.strip())
+
+        combined = "\n\n".join(texts)
+        os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)
+        with open(out_file, "w") as f:
+            f.write(combined)
+
+        for cf in chunks:
+            if os.path.exists(cf):
+                os.remove(cf)
+
+        return True
+    else:
+        # Use mlx_whisper CLI directly on full audio file
+        cmd = [MLX_WHISPER_BIN, "--model", WHISPER_MODEL, "--output-format", "txt", "--output-dir", TRANSCRIPTS_DIR, audio_file]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=3600)
         if result.returncode != 0:
-            print(f"      ERROR on chunk: {result.stderr[:200]}")
-            for cf in chunks:
-                if os.path.exists(cf):
-                    os.remove(cf)
+            print(f"      ERROR: {result.stderr[:200]}")
             return False
-        texts.append(result.stdout.strip())
 
-    combined = "\n\n".join(texts)
-    os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)
-    with open(out_file, "w") as f:
-        f.write(combined)
+        # mlx_whisper outputs as {video_id}.txt, rename to expected format
+        raw_out = os.path.join(TRANSCRIPTS_DIR, f"{video_id}.txt")
+        if os.path.exists(raw_out) and not os.path.exists(out_file):
+            os.rename(raw_out, out_file)
 
-    for cf in chunks:
-        if os.path.exists(cf):
-            os.remove(cf)
-
-    return True
+        return os.path.exists(out_file)
 
 
 def run_parakeet(video_id):

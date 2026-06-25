@@ -1,0 +1,79 @@
+{
+  "topic_id": 8808,
+  "title": "will these lasers work for color holography?",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8808",
+  "replies": 2,
+  "views": 5663,
+  "starter": "pascal jardin",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:19:16.421888+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 68397,
+      "topic_id": 8808,
+      "topic_title": "will these lasers work for color holography?",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "pascal jardin",
+      "author_id": 4880,
+      "post_date": "Sun Apr 30, 2017 8:50 pm",
+      "post_datetime": "2017-05-01T01:50:38+00:00",
+      "post_subject": "will these lasers work for color holography?",
+      "content_md": "I'm really new to this, I ordered green, red, and purple lasers on sale\n\nhere are the specs:\n\n Technical Parameter:Fixed focus, dot facula,\n\n continuous output\n\n Green laser Output Wavelength: 532 nm\n\n Red laser Output Wave length: 650 nm\n\n Purple laser Output Wave length: 405 nm\n\n Output Power:5mw\n\n Working Voltage:DC=3.0V\n\n Trigger Voltage:DC=2.8V\n\nand I am ordering this holographic plate: [http://shop.ultimate-holography.com/ind ... aser-color](http://shop.ultimate-holography.com/index.php?id_product=69&controller=product#/72-kit_for_laser-color)\n\nplease tell me these lasers will work to create a color hologram! \n\nand if they do, how long should I have the lasers on the plate? \n\nthanks,\n\n Pascal\n\np.s\n\nI bought a cube prism to merge the lasers and a concave mirror to have it cover the entire hologram",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68397#p68397"
+    },
+    {
+      "post_id": 68399,
+      "topic_id": 8808,
+      "topic_title": "will these lasers work for color holography?",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Mon May 01, 2017 10:01 am",
+      "post_datetime": "2017-05-01T15:01:16+00:00",
+      "post_subject": "will these lasers work for color holography?",
+      "content_md": "The red and green are OK. The blue/purple may be too low.\n\nIn order to record and reconstruct colour holograms, you need to familiarise yourself with the CIE colour chart (below). \n\n![CIE 1931.jpg](https://holographyforum.org/forum/download/file.php?id=6900)\n\n Notice that the figure has a set of colours around the perimeter. All the colours that will reconstruct can be determined by a triangle connecting the three laser wavelengths you intend to use. That is, all the colours within the triangle will be recorded and can be reconstructed (all these colours are called the \"gamut\" of the hologram, by the way). You'll notice that if you draw a triangle connecting 405 (extreme lower left corner) to 650 (pretty much extreme right corner) to 532 (almost to the top of the diagram), you'll miss most of the greens. Also, 405 is barely visible (I can't see it!). The human eye sees comfortably between 450 and 680, after that, the colours get very dim.\n\nThere is much argument about the \"ideal gamut\" for colour holography, but I prefer either 488 or 457 for the blue. You'll notice that the 488 pretty much misses out the deep blues and purples. But, my arguemnt for using 488 is that natural colours rarely include such deep colours. At any rate, with the help of the CIE chart, you'll be able to determine the best gamut for your object.\n\nI think 5 mW may be on the low side. By the time the beams hits the plate and the object, you'll have precious little light left, and the exposures will be long. The bane of holographers is motion, any motion of less than the width of a human hair will destroy the hologram. The longer the exposure, the more prone to motion.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6900",
+          "filename": "CIE 1931.jpg",
+          "info": "CIE 1931.jpg (45.5 KiB) Viewed 5648 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68399#p68399"
+    },
+    {
+      "post_id": 68411,
+      "topic_id": 8808,
+      "topic_title": "will these lasers work for color holography?",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "lobaz",
+      "author_id": 2217,
+      "post_date": "Wed May 03, 2017 11:39 am",
+      "post_datetime": "2017-05-03T16:39:57+00:00",
+      "post_subject": "will these lasers work for color holography?",
+      "content_md": "Welcome to the forum, Pascal!\n\nI am afraid that the lasers will not work. I assume they are general lasers, e.g., pointers not designed for interferometry/holography. For holography, the most important parameter is called coherence length or bandwidth. It tells you how deep scene you can capture. Most general lasers allow you to record holograms a few micrometers deep. \n\nSurprisingly, many red low power lasers have quite good coherence properties. So, I guess your red one might work. I am very sceptical with your green and violet ones.\n\nMoreover, your link states that you have ordered plates U08-R-70 that are sensitive to red light only.\n\nIf you are a beginner, start making single color (red) holograms. I expect your 5 mW laser will require about 10 s exposure. If you succeed, try the green laser, but I expect you will need other plates such as U08C-P-VICOL.\n\nPetr",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=68411#p68411"
+    }
+  ]
+}

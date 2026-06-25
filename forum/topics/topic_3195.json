@@ -1,0 +1,36 @@
+{
+  "topic_id": 3195,
+  "title": "Everyday Items",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=3195",
+  "replies": 0,
+  "views": 1482,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:32:09.600346+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 25736,
+      "topic_id": 3195,
+      "topic_title": "Everyday Items",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Tue Mar 08, 2005 1:00 pm",
+      "post_datetime": "2005-03-08T18:00:00+00:00",
+      "post_subject": "Everyday Items",
+      "content_md": "I put together a collection of everyday items that can be used in holography. They are by no means soley my ideas, just a collection of things I could think of. Here are a couple.\n\nPolarizers can be found in polarizing sun glasses. These can be used\n\nto slightly modify the intensity of throughput laser light by inserting\n\nit into the beam path and rotating. They can also be used to compare\n\nthe polarization of light at different locations in an optical set-up.\n\nA thick piece of glass, 1/4\" or thicker, can be used as a beam splitter.\n\nUsing the thick piece of glass allows a small piece of electric tape to be\n\nplaced over the glass to block the secondary reflection off the back.\n\nHere is the link\n\n[http://www.holographer.org/articles/hg0 ... 00014.html](http://www.holographer.org/articles/hg00014/hg00014.html)\n\n.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=25736#p25736"
+    }
+  ]
+}

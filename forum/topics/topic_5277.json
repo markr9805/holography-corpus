@@ -1,0 +1,36 @@
+{
+  "topic_id": 5277,
+  "title": "DCG Thoughts.",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5277",
+  "replies": 0,
+  "views": 973,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:18:17.279399+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 43084,
+      "topic_id": 5277,
+      "topic_title": "DCG Thoughts.",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "andyl",
+      "author_id": null,
+      "post_date": "Tue Dec 20, 2005 11:13 pm",
+      "post_datetime": "2005-12-21T04:13:00+00:00",
+      "post_subject": "DCG Thoughts.",
+      "content_md": "Havent posted in a little bit, got a nasty case of the flu last week... \n\nI did manage to get a few holos shot while being sick... (just had to scratch that dcg itch..)\n\nI will hopefully post some pictures in the next day or so when I get my camera back from a comercial shoot. here's a description and some results, also some some probably mostly incorrect theories ideas about dcg... (mind wonders when cold medicine/nyquill collide... )\n\nPlates 10-30-250 (HomeMadeDCG)\n\nAge: 7 days\n\nExposure: 100mw/cm2 @ 532nm w/C315M @ 100mw\n\n•\tWait 4min\n\n•\tFix/Harden in Kodak rapid fix (mixed 700ml water – 100ml fixer – 10ml hardner) until bluish tint in dcg (~1min)\n\n•\tSoak in water 4min @ 23deg/c\n\n•\tSoak in 50% ISO 1min @ 23deg/c\n\n•\tSoak in 100% ISO until image appears bright (1-3min) @ 23deg/c (also at 50deg/c) which produced a brighter image (more broadband)\n\n•\tDry w/heat gun until image is nice and bright\n\n•\tSeal w/epoxy and another glass layer\n\nResults: extremely bright images, clear plate, cooler iso yielded a green/blue holo and \t \thotter iso resulted in a orange/red wider bandwidth holo.\n\n\t(I could see detail in the flat black table the object was laying on) \n\nobservations/theories/NyQuill induced hallucinations…ect..\n\n1.\tfinal bandwidth related more closely to initial gelatin hardness, less hardness would mean greater crosslinking thru depth of gelatin, this would be also closely related to emulsion thickness, thicker coating more depth to crosslink?? higher initial hardness of gelatin would yield less depth crosslinking decreasing bandwidth of final dcg hologram?\n\n2.\tPost exposure hardness related to gelatin yield, the harder the gelatin in post exposure the more resistant it is to hotter water and ISO temps for processing to a greater bandwidth. (Before dcg becomes milky.)\n\n3.\tholographic clarity related proportionally to dcg bandwidth and depth, also edge distortion is related to depth, ex, narrowband dcg yields greater depth, and broadband yields less depth yet brighter image. \n\n4.\tUsing the spring anology from ([http://cabd0.tripod.com/holograms/id4.html](http://cabd0.tripod.com/holograms/id4.html)) it would appear that water temp is the stretching force on the gelatin (spring), and temp of the ISO is how quickly one releases the spring force. In a frustrating game of tug of war. (using multible iso baths freezes the \"spring\" slower, thus allowing it to slowly retract yeilding narrower bandwidth, and going straight 100 hot iso would instantly lock in the spring at it's furthest extent??) \n\n5.\tItems near the plane of the gelatin don’t suffer from depth distortion issues, I believe because of this property a broadband H2 dcg hologram would create sharp images regardless of depth if the H1 is originated as a sterogram, because all slices would lie within the plane of the gelatin of the H2 and the precieved depth would be a function of each eye seeing different images of the multiplex.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=43084#p43084"
+    }
+  ]
+}

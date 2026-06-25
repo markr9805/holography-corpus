@@ -1,0 +1,110 @@
+{
+  "topic_id": 9911,
+  "title": "Improve depth & viewing angle on reflection holograms",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=9911",
+  "replies": 3,
+  "views": 8018,
+  "starter": "thycore",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:18:44.449944+00:00",
+  "post_count": 4,
+  "posts": [
+    {
+      "post_id": 69977,
+      "topic_id": 9911,
+      "topic_title": "Improve depth & viewing angle on reflection holograms",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "thycore",
+      "author_id": 4794,
+      "post_date": "Thu Sep 20, 2018 9:16 am",
+      "post_datetime": "2018-09-20T14:16:55+00:00",
+      "post_subject": "Improve depth & viewing angle on reflection holograms",
+      "content_md": "Hi there !\n\nI'd like to improve my Denisyuk set up from this :\n\n![Fig_07.jpg](https://holographyforum.org/forum/download/file.php?id=7062)\n\nfig1\n\nTo something like this :\n\n![Fig_06.jpg](https://holographyforum.org/forum/download/file.php?id=7061)\n\nfig2\n\nMy belief is the 2nd set-up here would allow deeper scenes to be recorded without the hazzle of going through a master H1 then H1/H2 process.\n\n(at least my readings on this page [http://www.optique-ingenieur.org/en/cou ... ntenu.html](http://www.optique-ingenieur.org/en/courses/OPI_ang_M02_C10/co/Contenu.html) seems to let me think of this)\n\nQuestions for the gurus :\n\n- Is a collimating mirror really necessary (does it have any other benefit than avoiding light getting lost off the set-up ? does it deal with final viewable-angle of the hologram ?)\n\n- Why exactly would a set-up like fig2 allow deeper scene ? (is this related to the object reflected beam which can be controlled to be of a higher intensity than reference beam ? \n\nAlso, at which point -exactly- does the spatial filter become mandatory ? I understand this helps saving some resolution and keep unnecessary interferences out of the interferences we want on the plate, so, this would become necessary only if my object requires a very high definition ? does it play anything with possible depth of the scene ?)\n\nAgain, thanks for your help !",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7062",
+          "filename": "Fig_07.jpg",
+          "info": "Fig_07.jpg (39.4 KiB) Viewed 8018 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7061",
+          "filename": "Fig_06.jpg",
+          "info": "Fig_06.jpg (44.21 KiB) Viewed 8018 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69977#p69977"
+    },
+    {
+      "post_id": 69978,
+      "topic_id": 9911,
+      "topic_title": "Improve depth & viewing angle on reflection holograms",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Thu Sep 20, 2018 1:55 pm",
+      "post_datetime": "2018-09-20T18:55:49+00:00",
+      "post_subject": "Improve depth & viewing angle on reflection holograms",
+      "content_md": "As long as laser has enough coherence life you can get away with that , I took your picture and added a couple of kicker mirrors to it, which will allow you see deeper into the scene and around the object, you need to be careful to not let the mirror reflect back to the plate directly but by using frosted mirrors , concave mirrors a one to one ratio can Achieved!",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7063",
+          "filename": "3BB4BF81-FB5A-4008-8863-477297E57209.jpeg",
+          "info": "3BB4BF81-FB5A-4008-8863-477297E57209.jpeg (57.3 KiB) Viewed 8014 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69978#p69978"
+    },
+    {
+      "post_id": 69979,
+      "topic_id": 9911,
+      "topic_title": "Improve depth & viewing angle on reflection holograms",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "thycore",
+      "author_id": 4794,
+      "post_date": "Thu Sep 20, 2018 3:14 pm",
+      "post_datetime": "2018-09-20T20:14:37+00:00",
+      "post_subject": "Improve depth & viewing angle on reflection holograms",
+      "content_md": "Basically any white background and surrounding neige ngs stuff would do ?\n\nWhat’s the mechanic ? We increase object beam intensity for lateral parts of it ?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69979#p69979"
+    },
+    {
+      "post_id": 69980,
+      "topic_id": 9911,
+      "topic_title": "Improve depth & viewing angle on reflection holograms",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Thu Sep 20, 2018 4:03 pm",
+      "post_datetime": "2018-09-20T21:03:33+00:00",
+      "post_subject": "Improve depth & viewing angle on reflection holograms",
+      "content_md": "<t>If let’s say this was a flat surface and four kicker mirrors arround the flat subject each mirror would add to the overall brightness of the object, a good kicker is tinfoil glued to glass and placed strategically ...</t>\n\n[https://youtu.be/cAX8uSc8Fnk](https://youtu.be/cAX8uSc8Fnk)\n\nIf you look closely you’ll see the frosted kickers at the skulls base",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=69980#p69980"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topic_id": 8192,
+  "title": "DCG Lines",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8192",
+  "replies": 1,
+  "views": 3036,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:31:15.772037+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 65232,
+      "topic_id": 8192,
+      "topic_title": "DCG Lines",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Dutchelm05",
+      "author_id": null,
+      "post_date": "Sun Feb 21, 2010 5:55 pm",
+      "post_datetime": "2010-02-21T22:55:00+00:00",
+      "post_subject": "DCG Lines",
+      "content_md": "Not all the time but somethings I get DCG holograms with lot of horizontal lines. Like a mm or so a part.\n\nCan anyone tell me where the come from?\n\nIs it a good thing?\n\nSorry the photos cannot see then clearly.\n\nI have a hologram from Dave (friends forever) which also has them.\n\nIt can only be seen in certain angles.\n\nThanks all wise ones!\n\nTony",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6613",
+          "filename": "Shell lines.jpg",
+          "info": "Shell lines.jpg (31.18 KiB) Viewed 3036 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6612",
+          "filename": "Shell 1.jpg",
+          "info": "Shell 1.jpg (30.16 KiB) Viewed 3036 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=65232#p65232"
+    },
+    {
+      "post_id": 65234,
+      "topic_id": 8192,
+      "topic_title": "DCG Lines",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "dave battin",
+      "author_id": null,
+      "post_date": "Sun Feb 21, 2010 7:07 pm",
+      "post_datetime": "2010-02-22T00:07:00+00:00",
+      "post_subject": "DCG Lines",
+      "content_md": "Tony i think its a polarization issue or a reflected interference between the front and rear surfaces of the film (mold coated), for my hologram, the polarizing could have been out as the plate was located 20 feet from the 1/2 wave rotator (long throw holography) ................ and im becoming quite blind as i age!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=65234#p65234"
+    }
+  ]
+}

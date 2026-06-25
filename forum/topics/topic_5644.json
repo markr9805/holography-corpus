@@ -1,0 +1,36 @@
+{
+  "topic_id": 5644,
+  "title": "Optics Summer School (incl. Fourier optics)",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5644",
+  "replies": 0,
+  "views": 799,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:09:51.478262+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 45627,
+      "topic_id": 5644,
+      "topic_title": "Optics Summer School (incl. Fourier optics)",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "favalora",
+      "author_id": null,
+      "post_date": "Fri Jun 23, 2006 1:39 pm",
+      "post_datetime": "2006-06-23T18:39:00+00:00",
+      "post_subject": "Optics Summer School (incl. Fourier optics)",
+      "content_md": "I just returned from an intensive session at the Univ. of Rochester's Institute of Optics Summer School & wanted to share the pointer and some impressions.\n\nI work in an optics-related field, but my degrees are related to electrical engineering. Basically, other than the stuff (of dubious quality and worth) taught in college physics classes, everything I've learned has been from experience or reading texts like Hecht and O'Shea. So, this winter, I wistfully searched for optics summer schools - and found some.\n\nUp in NY, near Niagra Falls, the University of Rochester offers many half-day courses and evening lab sessions. Groups of these courses are bundled into themes, such as: lasers and optronics, biomedical optics, and modern optical engineering.\n\nI took the \"fundamentals of optics\" theme:\n\n**Fundamentals of Optics**\n\n- Hands-On Geometrical Optics\n\nOptical Design\n\nFourier Optics\n\nPolarization and Birefringence\n\nRadiometry and Detection\n\nZooming in, the geometrical optics morning course covered a whirlwind tour of: \"Paraxial optics raytracing, cardinal points and conjugate relations, Lagrange invariant, stops and pupils, vignetting, common optical systems (corrected and uncorrected eye, simple magnifiers, cameras, telescopes, microscopes, relay systems and illumination systems).\" [Unfortunately I missed the first day of the theme, so I walked in beginning with the Fourier optics course.]\n\nAttendees of certain course tracks are eligible to take four labs (two per night). They were of high quality and staffed by some of the country's best grad students. I took labs that covered an optical image processor (the \"4F processor\") and white-light / rainbow holography.\n\nWe received thick course notebooks for each half-day session and a huge notebook with all of the lab notes.\n\nObviously, the depth of coverage is very limited when a professor does a whole semester in a 3-hour session. Although it would be difficult to practice many of the techniques taught from the class alone, I thought it was a very useful complement to the texts that I'm sure you've all read already: Optics (Hecht), Elements of Modern Optical Design (O'Shea), Hariharan's holography, etc. With some variation, the professors were excellent instructors.\n\nI found the labs to be of equally high value as the courses. Although I've read about optical image processing, it was admittedly darned cool to see contrast reversal / edge detection happen before your eyes on the lab bench. And yes, we made a nice, bright, 4x6 rainbow hologram using a Slavich plate (though, oddly, with vertical parallax, not horizontal...)\n\nThe administrators of the progra are friendly, fast, and very approachable. They strive to improve the courses through our written feedback.\n\nHey, it's worth a look. Here's the website for the [U of R optics summer school.](http://www.optics.rochester.edu/external_programs/summer_school/coursedescription.html)\n\n-Gregg Favalora\n\n[homepage](http://www.greggandjenny.com/gregg)\n\nps While we're on the topic of books, I am very impressed by this text that I found in a used book store: [Engineering Optics, Keigo Iizuka (Springer Series in Optical Sciences)](http://www.amazon.com/gp/product/0387117938).",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=45627#p45627"
+    }
+  ]
+}

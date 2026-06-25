@@ -1,0 +1,36 @@
+{
+  "topic_id": 7957,
+  "title": "Laser shutter using a hard disk drive voice-coil actuator",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7957",
+  "replies": 0,
+  "views": 1503,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:34:41.487838+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 63511,
+      "topic_id": 7957,
+      "topic_title": "Laser shutter using a hard disk drive voice-coil actuator",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Tom B.",
+      "author_id": null,
+      "post_date": "Sat Aug 29, 2009 3:08 am",
+      "post_datetime": "2009-08-29T08:08:00+00:00",
+      "post_subject": "Laser shutter using a hard disk drive voice-coil actuator",
+      "content_md": "Here (the pdfs are freely accessible) :\n\n[http://optics.ph.unimelb.edu.au/atomopt ... utter.html](http://optics.ph.unimelb.edu.au/atomopt/shutter/shutter.html)\n\nWhat they describe is massive overkill for display holographers but it's neat. My shutter consists of a hard drive actuator (one of the rare ones that don't depend on the case for bearing support), a 1.5V AA battery and holder, a DPDT center-off switch wired to supply +1.5, 0V (center) and -1.5V to the shutter, and a 47 ohm resistor in series to reduce the acceleration a bit and keep it from clunking against the stops so hard. It really doesn't take much power to move these things. Oh, and I also have a black balsa wood flag glued to the arm to block the beam.\n\nFor me, the critical innovation is the realization that hard drive actuators that depend on the case for bearing support CAN be used by cutting away the rest of the case, leaving a compact assembly with convenient mounting holes and access to the arm for mounting a beam blocker. Now why didn't I think of that?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=63511#p63511"
+    }
+  ]
+}

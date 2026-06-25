@@ -26,11 +26,21 @@ CHUNKS_DIR = os.path.join(OUTPUT_DIR, "chunks")
 TRANSCRIPTS_DIR = os.path.join(OUTPUT_DIR, "transcripts")
 
 MODELS = {
-    "turbo": "mlx-community/whisper-large-v3-turbo",
     "largev3": "mlx-community/whisper-large-v3-mlx",
+    "turbo": "mlx-community/whisper-large-v3-turbo",
 }
 
-VENV_PYTHON = os.path.join(OUTPUT_DIR, "whisper-env", "bin", "python3")
+# Use Darante's whisper-env if ours doesn't exist, otherwise fall back to mlx_whisper CLI
+DARANTE_VENV = os.path.expanduser("~/.openclaw/workspace/foster/darante-transcript-pilot/whisper-env/bin/python3")
+LOCAL_VENV = os.path.join(OUTPUT_DIR, "whisper-env", "bin", "python3")
+MLX_WHISPER_BIN = os.path.expanduser("~/.local/bin/mlx_whisper")
+
+if os.path.exists(LOCAL_VENV):
+    VENV_PYTHON = LOCAL_VENV
+elif os.path.exists(DARANTE_VENV):
+    VENV_PYTHON = DARANTE_VENV
+else:
+    VENV_PYTHON = None
 
 
 def get_videos(creator_id=None):

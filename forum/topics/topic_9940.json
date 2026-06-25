@@ -1,0 +1,86 @@
+{
+  "topic_id": 9940,
+  "title": "So... diode or hene lasers for holography ?",
+  "forum_id": 23,
+  "forum_name": "Optics",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=9940",
+  "replies": 2,
+  "views": 70982,
+  "starter": "thycore",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:15:30.671404+00:00",
+  "post_count": 3,
+  "posts": [
+    {
+      "post_id": 70123,
+      "topic_id": 9940,
+      "topic_title": "So... diode or hene lasers for holography ?",
+      "forum_id": 23,
+      "forum_name": "Optics",
+      "author": "thycore",
+      "author_id": 4794,
+      "post_date": "Tue Nov 13, 2018 5:17 pm",
+      "post_datetime": "2018-11-13T22:17:59+00:00",
+      "post_subject": "So... diode or hene lasers for holography ?",
+      "content_md": "As any young holographer I struggle to get my hands on a decent set of laser tubes/heads/power supplies..\n\nIt all cost a lot, is heavy and takes a lot of space.\n\nHow is the diode stuff going on ? Any chance that diode lasers would finally match performances of hene in terms of stability, cohérence length and pricing ?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=70123#p70123"
+    },
+    {
+      "post_id": 70125,
+      "topic_id": 9940,
+      "topic_title": "So... diode or hene lasers for holography ?",
+      "forum_id": 23,
+      "forum_name": "Optics",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Wed Nov 14, 2018 6:05 am",
+      "post_datetime": "2018-11-14T11:05:25+00:00",
+      "post_subject": "So... diode or hene lasers for holography ?",
+      "content_md": "These red 650 nM diodes seem to work very well when \n\nCompared to a hene, 25mw free running !",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7169",
+          "filename": "F53865A8-65E5-4166-9532-F4E3312A0FC0.jpeg",
+          "info": "F53865A8-65E5-4166-9532-F4E3312A0FC0.jpeg (1.77 MiB) Viewed 70967 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=70125#p70125"
+    },
+    {
+      "post_id": 70126,
+      "topic_id": 9940,
+      "topic_title": "So... diode or hene lasers for holography ?",
+      "forum_id": 23,
+      "forum_name": "Optics",
+      "author": "holomaker",
+      "author_id": 2175,
+      "post_date": "Wed Nov 14, 2018 6:41 am",
+      "post_datetime": "2018-11-14T11:41:18+00:00",
+      "post_subject": "So... diode or hene lasers for holography ?",
+      "content_md": "And another...",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7173",
+          "filename": "DA830D66-833C-4B3A-9A32-F7189FB8E0B6.jpeg",
+          "info": "DA830D66-833C-4B3A-9A32-F7189FB8E0B6.jpeg (1.75 MiB) Viewed 70965 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=70126#p70126"
+    }
+  ]
+}

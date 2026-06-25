@@ -1,0 +1,36 @@
+{
+  "topic_id": 7610,
+  "title": "Is it common to go through power supplies for DPSS?",
+  "forum_id": 45,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7610",
+  "replies": 0,
+  "views": 1689,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T03:56:44.739071+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 60544,
+      "topic_id": 7610,
+      "topic_title": "Is it common to go through power supplies for DPSS?",
+      "forum_id": 45,
+      "forum_name": "Beginning Holography",
+      "author": "Justin W",
+      "author_id": null,
+      "post_date": "Thu Nov 20, 2008 4:24 pm",
+      "post_datetime": "2008-11-20T21:24:00+00:00",
+      "post_subject": "Is it common to go through power supplies for DPSS?",
+      "content_md": "Howdy all\n\nI'm just curious whether anyone else finds themselves feeding their ravenous DPSS greenie more seemingly-operational power supplies than seems reasonable?\n\nI'm running a JDS Uniphase microgreen SLM 10mW DPSS. The original power supply that was sent along with the laser fired it reliably and consistently for a month or so, then just... gave up the fight. A second red LED on the laser controller developed a habit of coming on at startup and it refused to lase.\n\nNow, admittedly it's a thirsty laser - at startup it drinks down 10A (at 5VDC), then after a short delay switches to \"constant current mode\" and begins to lase...\n\nThe original power supply was a very capable-looking block of components encased in a businesslike perforated metal box with screw terminal outputs but, upon further examination, confesses to be worthy of only the required ten amps and nothing more... So, sure, maybe my laser sucked the life out of it...\n\nBut two subsequent PC power supplies as well?!\n\nHave I a nasty case of the Gremlins?\n\nI have a killer power supply due here at more door hopefully any moment now that promises 100 Watts of power, but I think I'm worried that this beefy hog I'll be wiring up soon here will turn out to be only a stop-gap measure. If my microgreen leeches the life from this power supply too, can I be pretty well assured that I have a problem?\n\nOr are laser power supplies always this much of a hassle?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=60544#p60544"
+    }
+  ]
+}

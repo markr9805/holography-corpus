@@ -1,0 +1,36 @@
+{
+  "topic_id": 5269,
+  "title": "The Model",
+  "forum_id": 32,
+  "forum_name": "Gallery",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5269",
+  "replies": 0,
+  "views": 2291,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:08:35.831464+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 42997,
+      "topic_id": 5269,
+      "topic_title": "The Model",
+      "forum_id": 32,
+      "forum_name": "Gallery",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Fri Dec 16, 2005 6:52 pm",
+      "post_datetime": "2005-12-16T23:52:00+00:00",
+      "post_subject": "The Model",
+      "content_md": "457 (20mw) and 514 (300mw) lines in DCG\n\nAbout 45 second exposure for each.\n\nProcessed for narrow band and red shift (blue to green, green to orange)\n\n![Image](http://www.holograms3d.com/PhotoGal/Model/Model.JPG)",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=42997#p42997"
+    }
+  ]
+}

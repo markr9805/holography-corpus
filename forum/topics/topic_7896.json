@@ -1,0 +1,36 @@
+{
+  "topic_id": 7896,
+  "title": "LSD",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7896",
+  "replies": 0,
+  "views": 987,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:35:31.264881+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 63117,
+      "topic_id": 7896,
+      "topic_title": "LSD",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "John Klayer",
+      "author_id": null,
+      "post_date": "Wed Jul 08, 2009 2:10 am",
+      "post_datetime": "2009-07-08T07:10:00+00:00",
+      "post_subject": "LSD",
+      "content_md": "I've mentioned these Light Shaping Difusers before. I use them for object illumination. I found that they can be used with a laser pointer to reconstruct a transmission hologram with little enough speckle to still get Oohs and Aahs.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=63117#p63117"
+    }
+  ]
+}

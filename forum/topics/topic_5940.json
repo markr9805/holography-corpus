@@ -1,0 +1,36 @@
+{
+  "topic_id": 5940,
+  "title": "dichroic filter tests",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=5940",
+  "replies": 0,
+  "views": 704,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:02:54.210514+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 47916,
+      "topic_id": 5940,
+      "topic_title": "dichroic filter tests",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Joe Farina",
+      "author_id": null,
+      "post_date": "Fri Dec 22, 2006 9:21 pm",
+      "post_datetime": "2006-12-23T02:21:00+00:00",
+      "post_subject": "dichroic filter tests",
+      "content_md": "I did some testing of two Edmund optics, green and red dichroic filters, one of which I plan to use for combining 532 and 633. The Edmund part numbers are 47268 and 47266. I wanted to know what filter would produce the highest power for the 633 component of the combined beam.\n\nA typical result for the green filter, with the HeNe beam going through it (the transmitted beam was the beam of interest) was (in milliwatts):\n\nInput beam: 37.7\n\nTransmitted: 36.1\n\nReflected (off two interfaces, combined): 0.8\n\nA typical result for the red filter, with the HeNe reflected off it at 45 degrees (the reflected beam was the beam of interest) was:\n\nInput beam: 37.9\n\nReflected: 37.3\n\nTransmitted: 0.1\n\nSo, an arrangement using the the red filter will result in slightly better performace as far as the HeNe is concerned. I was impressed by these dichoics, and the price of $45 each wasn't bad (they were 25mm in diameter).\n\nThe laser was a Spectra-Physics 127, and the meter was a Coherent Lasercheck.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=47916#p47916"
+    }
+  ]
+}

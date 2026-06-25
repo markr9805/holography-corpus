@@ -1,0 +1,71 @@
+{
+  "topic_id": 2660,
+  "title": "Converging H2 reference beams",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=2660",
+  "replies": 1,
+  "views": 1558,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:43:58.298555+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 21758,
+      "topic_id": 2660,
+      "topic_title": "Converging H2 reference beams",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "MichaelH",
+      "author_id": null,
+      "post_date": "Mon Aug 09, 2004 9:10 am",
+      "post_datetime": "2004-08-09T14:10:00+00:00",
+      "post_subject": "Converging H2 reference beams",
+      "content_md": "Let's see if I can get all the comments together...\n\n> **BobH:** I think The whole \"reference beam at Brewster's angle\" is waay overplayed as well. It's academically true, but it presumes collimated reference beams. This is OK for the master, but the reference beam for an \"H2\" transfer should be convergent.Nobody will ever reconstruct the transfer with collimated light, and the distortions caused by improper reconstruction is NOT acceptable (contrary to popular belief), unless the composition is done to accomodate the effect. Although the optics to converge the reference beam for an \"H2\" are a hassle to procure (or make), they are necessary to make images that look real. This is one of the reasons Dennisyuk recordings look so much more \"real\" than image-planed holograms. Subtle, but significant.\n\n> **Colin Kaminski:** BobH wrote:You'll get better holograms if you use s-polarized light, though, but you need to do something else to prevent the \"wood grain\" effect.What would you suggest?BobH wrote:Although the optics to converge the reference beam for an \"H2\" are a hassle to procure (or make), they are necessary to make images that look real. This is one of the reasons Dennisyuk recordings look so much more \"real\" than image-planed holograms. Subtle, but significant.I agree completely! In order to converge a reference beam for a 8x10\" hologram I would need a very large mirror. Are there other options that are less expensive?\n\n> **Dinesh:** Abso-o-l-u-tely agree about the Brestwer's angle thing!This is OK for the master, but the reference beam for an \"H2\" transfer should be convergent.Even for a master, there's a feeling that you've \"got to have a collimated reference\". Not true, all you need is the conjugate of the original H1 reference. The only reason a collimated ref is used is because you don't need to create a conjugate when you flip the plate. The conjugate of a collimated beam is also a collimated beam. In fact, you can use this to create a ref for H2 by bleeding off the H1 recon. If you make a divergent H1 ref, you need to converge the H1 recon. You can bleed off a little of this, since the H2 is smaller than the H1 anyway, and divert it for the H2 ref. Assuming, of course, you have the coherence.What would you suggest?Index matching. I hate the stuff!\n\n> **Kaveh:** BobH wrote:Nobody will ever reconstruct the transfer with collimated light, and the distortions caused by improper reconstruction is NOT acceptable (contrary to popular belief), unless the composition is done to accomodate the effect. Although the optics to converge the reference beam for an \"H2\" are a hassle to procure (or make), they are necessary to make images that look real. This is one of the reasons Dennisyuk recordings look so much more \"real\" than image-planed holograms. Subtle, but significant.It has an effect, but not nearly as much as the H1. It's the H1 that has to be absolutely spot on. The size distortions and aberrations in an image are in general proportional to the distance of image points from the hologram plane. In an H1, the distance is large. In the H2, the points are usually much less. So changing the reconstruction beam from a diverging to converging or vice versa will not have a huge effect. In the case of very shallow image-planed images, you will see no difference.\n\n> **BobH:** So changing the reconstruction beam from a diverging to converging or vice versa will not have a huge effect. In the case of very shallow image-planed images, you will see no difference.This is where we differ. I think the practice of squeezing the depth of image possible with holography out is partly to blame for the demise of pictorial holography thus far. It's taken to the extreme by the embossed holography industry, and \"dot-matrix\" imagery essentially threw the baby out with the bath water. The true magic of the technique is full parallax, \"window with a memory\", ultra-realism. It's unfortunate, but white light point sources (and even tri-chromatic point sources) are still way too expensive for pictorial holography to fulfill the promise in the real world. All the compromises; including the image-planing technique, monochromatic exposure, horizontal parallax only, aberrated imagery and reconstruction by extended sources, while bringing holography into the public eye (mostly in the '80s) have whittled the magic away. Sigh! Sorry for taking this thread so far off topic.\n\n> **Kaveh:** BobH wrote:So changing the reconstruction beam from a diverging to converging or vice versa will not have a huge effect. In the case of very shallow image-planed images, you will see no difference.This is where we differ. I think the practice of squeezing the depth of image possible with holography out is partly to blame for the demise of pictorial holography thus far. It's taken to the extreme by the embossed holography industry, and \"dot-matrix\" imagery essentially threw the baby out with the bath water. The true magic of the technique is full parallax, \"window with a memory\", ultra-realism. It's unfortunate, but white light point sources (and even tri-chromatic point sources) are still way too expensive for pictorial holography to fulfill the promise in the real world. All the compromises; including the image-planing technique, monochromatic exposure, horizontal parallax only, aberrated imagery and reconstruction by extended sources, while bringing holography into the public eye (mostly in the '80s) have whittled the magic away. Sigh! Sorry for taking this thread so far off topic.Hey, I couldn't agree more. I think that holograms exhibited to the public should be of the best quality, else people assume that is all holography can do. And I am absolutely in agreement about keeping aberrations, swing, etc to a minimum, and also not getting the deepest image at the expense of quality.What I am saying is that the most important factor in getting the realistic and undistorted image is using correct conjugate beams on the H1. Not using the correct divergence to reconstruct H2 has a much smaller effect, as the image points are so close to the hologram plane. For image points *in* the plane, you can use any light you like, and you won't get distortion.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [
+        {
+          "author": "BobH",
+          "excerpt": "You'll get better holograms if you use s-polarized light, though, but you need to do something else to prevent the \"wood grain\" effect.What would you suggest?BobH wrote:Although the optics to converge"
+        },
+        {
+          "author": "BobH",
+          "excerpt": "Although the optics to converge the reference beam for an \"H2\" are a hassle to procure (or make), they are necessary to make images that look real. This is one of the reasons Dennisyuk recordings look"
+        },
+        {
+          "author": "BobH",
+          "excerpt": "Nobody will ever reconstruct the transfer with collimated light, and the distortions caused by improper reconstruction is NOT acceptable (contrary to popular belief), unless the composition is done to"
+        },
+        {
+          "author": "BobH",
+          "excerpt": "So changing the reconstruction beam from a diverging to converging or vice versa will not have a huge effect. In the case of very shallow image-planed images, you will see no difference.This is where "
+        }
+      ],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=21758#p21758"
+    },
+    {
+      "post_id": 21777,
+      "topic_id": 2660,
+      "topic_title": "Converging H2 reference beams",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Kaveh",
+      "author_id": null,
+      "post_date": "Tue Aug 10, 2004 7:16 am",
+      "post_datetime": "2004-08-10T12:16:00+00:00",
+      "post_subject": "Converging H2 reference beams",
+      "content_md": "I don't have a particular point to make, Michael, but you did such a good job of distilling out the information for this thread, it deserves at least *one* post.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=21777#p21777"
+    }
+  ]
+}

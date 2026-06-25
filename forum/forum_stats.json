@@ -1,13 +1,13 @@
 {
-  "total_topics": 522,
-  "total_posts": 4869,
-  "total_requests": 802,
+  "total_topics": 3355,
+  "total_posts": 32013,
+  "total_requests": 5162,
   "total_errors": 0,
   "forums": {
     "9": {
       "name": "AgX - Silver Halide Emulsions",
-      "topics_scraped": 2,
-      "posts_scraped": 13
+      "topics_scraped": 65,
+      "posts_scraped": 575
     },
     "7": {
       "name": "DCG - Dichromated Gelatin",
@@ -16,10 +16,45 @@
     },
     "5": {
       "name": "Techniques",
-      "topics_scraped": 366,
-      "posts_scraped": 3288
+      "topics_scraped": 428,
+      "posts_scraped": 4241
+    },
+    "45": {
+      "name": "Beginning Holography",
+      "topics_scraped": 234,
+      "posts_scraped": 2462
+    },
+    "32": {
+      "name": "Gallery",
+      "topics_scraped": 299,
+      "posts_scraped": 2243
+    },
+    "23": {
+      "name": "Optics",
+      "topics_scraped": 36,
+      "posts_scraped": 288
+    },
+    "6": {
+      "name": "Equipment",
+      "topics_scraped": 186,
+      "posts_scraped": 1844
+    },
+    "30": {
+      "name": "General Holography (old)",
+      "topics_scraped": 1921,
+      "posts_scraped": 18624
+    },
+    "53": {
+      "name": "Events, announcements, and news",
+      "topics_scraped": 27,
+      "posts_scraped": 92
+    },
+    "8": {
+      "name": "General Holography (new)",
+      "topics_scraped": 5,
+      "posts_scraped": 76
     }
   },
   "started": "2026-06-25T02:50:41.605721+00:00",
-  "last_run": "2026-06-25T03:47:24.418565+00:00"
+  "last_run": "2026-06-25T05:48:00.289280+00:00"
 }

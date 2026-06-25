@@ -1,0 +1,36 @@
+{
+  "topic_id": 10909,
+  "title": "GSI 000-3008538 Laser Scanning Drivers?",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=10909",
+  "replies": 0,
+  "views": 27703,
+  "starter": "jrburns47",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:18:02.392198+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 71874,
+      "topic_id": 10909,
+      "topic_title": "GSI 000-3008538 Laser Scanning Drivers?",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "jrburns47",
+      "author_id": 4407,
+      "post_date": "Sun Aug 02, 2020 2:05 pm",
+      "post_datetime": "2020-08-02T19:05:25+00:00",
+      "post_subject": "GSI 000-3008538 Laser Scanning Drivers?",
+      "content_md": "Anyone in the forum know how to easily use a GSI 000-3008538 Laser Scanner galvanometer or have the electronics to drive and control one?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=71874#p71874"
+    }
+  ]
+}

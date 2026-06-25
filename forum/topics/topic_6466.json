@@ -1,0 +1,36 @@
+{
+  "topic_id": 6466,
+  "title": "Fresnel rhombs",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=6466",
+  "replies": 0,
+  "views": 878,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:52:48.250806+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 51863,
+      "topic_id": 6466,
+      "topic_title": "Fresnel rhombs",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "DJ Mathson",
+      "author_id": null,
+      "post_date": "Fri Sep 28, 2007 3:05 pm",
+      "post_datetime": "2007-09-28T20:05:00+00:00",
+      "post_subject": "Fresnel rhombs",
+      "content_md": "I found this seller on internet, Knight Optical, that sells 1/2 wave fresnel rhombs for £120 before VAT. I believe this is quite cheap. Though I do not know if they are antireflection coated or mounted.\n\n[http://www.knightoptical.co.uk/acatalog ... arders.htm](http://www.knightoptical.co.uk/acatalog/RetardersAchromaticretarders.htm)\n\nHalf wave fresnel rhombs, as well as half-wave plates, change the direction of a laser beams polarisation and can therefore together with a polarising cube beamsplitter be used as a variable beamsplitter. The special thing with fresnel rhombs is that they are broadband and therefore very useful in colour holography. Wave plates are usually wavelength dependent.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=51863#p51863"
+    }
+  ]
+}

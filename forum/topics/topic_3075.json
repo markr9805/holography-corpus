@@ -1,0 +1,36 @@
+{
+  "topic_id": 3075,
+  "title": "Argon Ion Laser",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=3075",
+  "replies": 0,
+  "views": 1071,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:35:42.478670+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 24780,
+      "topic_id": 3075,
+      "topic_title": "Argon Ion Laser",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "JohnFP",
+      "author_id": null,
+      "post_date": "Wed Jan 26, 2005 12:47 pm",
+      "post_datetime": "2005-01-26T17:47:00+00:00",
+      "post_subject": "Argon Ion Laser",
+      "content_md": "I am very pleased I took the time to do some maintenance on my Ion laser. I cleaned the mirrors, the prism, the Brewster’s, set the front mirror so that it was perpendicular to the bore, aligned the rear mirror, and gave the baby 7 shots of fill gas. I have more then doubled the output power. The Brewster’s and prism has never been cleaned since I have owned this laser, about 1 1/2 years now. I was not able to clean the beam splitter outside the resonator that feeds the light meter but figured since it is outside the resonator there would be minimal loss compared to intra-resonator optics. I'm getting about 20-25mw - 457, 280mw - 488 and 200mw - 514 at 30 amps with the etalon in and tuned at about 1/4 turn past flash. The fringes were very stable in all wavelengths without touching the etalon, just varying the wavelength selector and tweaking the other axis of the mirror for max power.\n\nIn reading the Spectra Physics manual I recently acquired there are many different concave front mirrors available which are tuned to specific wavelengths. I believe mine is tuned for 488 as that line is stronger then the 514 line, even at 35 amps. \n\nI may be interested in some mirrors that work with the SP 165, front or rear, specifically the 457 wavelength front. I can give part number if needed. If anyone has some, e-mail me.\n\nI also redesigned the layout such that I am using a 5x objective slightly further away. (More power Lenny!). I know my 457 exposures are going to be long thus the extra care in getting the most power for the buck.\n\nI want to test using a 10x or 20x with a 14 inch square Fresnel lens just after the spatial filter to allow a converging reference beam for the Single beam reflection holograms. Hummm, why didn’t I think of this sooner? Has anyone used a Fresnel lens in their reference beam? I did some tests on the Fresnel lens, which came out of an overhead projector and is very rigid. I used the lens to image an object on a white piece of paper and the optical quality seems very good. I think I am going to mount the lens.\n\nMan I love playing with this stuff even if I am not making a hologram directly. Wish I could do it for a living – 60 hours a week.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=24780#p24780"
+    }
+  ]
+}

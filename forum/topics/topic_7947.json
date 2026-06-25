@@ -1,0 +1,36 @@
+{
+  "topic_id": 7947,
+  "title": "DICOM IMAGES IN HOLOGRAPHIC SHEET",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7947",
+  "replies": 0,
+  "views": 1208,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:34:54.662981+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 63478,
+      "topic_id": 7947,
+      "topic_title": "DICOM IMAGES IN HOLOGRAPHIC SHEET",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "deepak.jha82",
+      "author_id": null,
+      "post_date": "Tue Aug 25, 2009 7:51 am",
+      "post_datetime": "2009-08-25T12:51:00+00:00",
+      "post_subject": "DICOM IMAGES IN HOLOGRAPHIC SHEET",
+      "content_md": "Hi Everyone,\n\nI am Deepak from India. Currently I am working on Digital Imaging and Communication in Medicine (DICOM) image processing. I understand that scanned images (X-Ray, CT, MR etc) are filmed on a X-Ray sheets as a hardcopy. For this purpose DICOM Printers are available. \n\nI want to filmed these scaneed images on a holograhic sheet (rather X-Ray Sheets) such that each image is placed one after the other at a particular visual depth (z-axis) on the sheet (like Flip-Flop Hologram). The benefit of this would be that more than one image can be accomodated on a single sheet which could be viewed at different angle and depth.\n\nIs it possible by using any existing Holographic Printer and if so then is there any technical tool developed yet to view these images on the sheet .\n\nAwaiting for your valuable comments.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=63478#p63478"
+    }
+  ]
+}

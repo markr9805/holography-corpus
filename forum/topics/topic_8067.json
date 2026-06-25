@@ -1,0 +1,103 @@
+{
+  "topic_id": 8067,
+  "title": "progress report",
+  "forum_id": 45,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=8067",
+  "replies": 3,
+  "views": 3893,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T03:53:36.478282+00:00",
+  "post_count": 4,
+  "posts": [
+    {
+      "post_id": 64349,
+      "topic_id": 8067,
+      "topic_title": "progress report",
+      "forum_id": 45,
+      "forum_name": "Beginning Holography",
+      "author": "rzeheb",
+      "author_id": null,
+      "post_date": "Sun Nov 08, 2009 4:06 pm",
+      "post_datetime": "2009-11-08T21:06:00+00:00",
+      "post_subject": "progress report",
+      "content_md": "I have been getting a lot of help from Dave (thank you!) and he suggested that I might want to post some photos of my latest efforts. It's all still a work-in-progress but over the past two weekends I successfully made my first rainbow hologram and I significantly improved on my H2 image planes. The subject matter was a bunch of jacks, a pingpong ball and some plastic stars which were all mounted at different heights above a black background. The rainbow is a bit grainy (and you can see a reflection of me taking the photo :doh: ) but all in all I feel pretty good about them.\n\n![Stars Rainbow r.jpg](https://holographyforum.org/forum/download/file.php?id=6508)\n\n![Stars H2 r.jpg](https://holographyforum.org/forum/download/file.php?id=6507)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6508",
+          "filename": "Stars Rainbow r.jpg",
+          "info": "Stars Rainbow r.jpg (81.89 KiB) Viewed 3893 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6507",
+          "filename": "Stars H2 r.jpg",
+          "info": "Stars H2 r.jpg (85.02 KiB) Viewed 3893 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=64349#p64349"
+    },
+    {
+      "post_id": 64350,
+      "topic_id": 8067,
+      "topic_title": "progress report",
+      "forum_id": 45,
+      "forum_name": "Beginning Holography",
+      "author": "DJ Mathson",
+      "author_id": null,
+      "post_date": "Sun Nov 08, 2009 4:20 pm",
+      "post_datetime": "2009-11-08T21:20:00+00:00",
+      "post_subject": "progress report",
+      "content_md": "Nice! What´s the size of the holograms?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=64350#p64350"
+    },
+    {
+      "post_id": 64352,
+      "topic_id": 8067,
+      "topic_title": "progress report",
+      "forum_id": 45,
+      "forum_name": "Beginning Holography",
+      "author": "John Klayer",
+      "author_id": null,
+      "post_date": "Sun Nov 08, 2009 5:27 pm",
+      "post_datetime": "2009-11-08T22:27:00+00:00",
+      "post_subject": "progress report",
+      "content_md": "Keep up the good work rzeheb!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=64352#p64352"
+    },
+    {
+      "post_id": 64353,
+      "topic_id": 8067,
+      "topic_title": "progress report",
+      "forum_id": 45,
+      "forum_name": "Beginning Holography",
+      "author": "rzeheb",
+      "author_id": null,
+      "post_date": "Mon Nov 09, 2009 1:39 am",
+      "post_datetime": "2009-11-09T06:39:00+00:00",
+      "post_subject": "progress report",
+      "content_md": "Thanks for the words of encouragement. The hologram is small, only 6.3 by 6.3 cm. My next effort will be to increase the size of my holograms as well as the viewable angle. BTW, you can't tell from the conventional photograph but the jack in the lower left-hand side of the H2 reconstructs about an inch and a half above the plane of the holographic plate...... it's a start. Ron",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=64353#p64353"
+    }
+  ]
+}

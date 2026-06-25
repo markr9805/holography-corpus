@@ -1,0 +1,36 @@
+{
+  "topic_id": 6623,
+  "title": "Fractal (Hand drawn)",
+  "forum_id": 32,
+  "forum_name": "Gallery",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=6623",
+  "replies": 0,
+  "views": 3406,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T04:04:35.956110+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 53214,
+      "topic_id": 6623,
+      "topic_title": "Fractal (Hand drawn)",
+      "forum_id": 32,
+      "forum_name": "Gallery",
+      "author": "RaulBSP",
+      "author_id": null,
+      "post_date": "Mon Dec 31, 2007 9:36 pm",
+      "post_datetime": "2008-01-01T02:36:00+00:00",
+      "post_subject": "Fractal (Hand drawn)",
+      "content_md": "A kind of fractal that evolves when shifting viewpoint from left to right",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=53214#p53214"
+    }
+  ]
+}

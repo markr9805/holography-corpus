@@ -1,0 +1,85 @@
+{
+  "topic_id": 866,
+  "title": "Table Design improvements needed",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=866",
+  "replies": 1,
+  "views": 4527,
+  "starter": "Holomark",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:20:39.910987+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 7943,
+      "topic_id": 866,
+      "topic_title": "Table Design improvements needed",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "Holomark",
+      "author_id": 2189,
+      "post_date": "Fri May 23, 2014 5:15 pm",
+      "post_datetime": "2014-05-23T22:15:00+00:00",
+      "post_subject": "Table Design improvements needed",
+      "content_md": "While at PCG4 there were discussions about table design and stability. I mentioned that I use two breadbards (each 18/60) on top of several layers of other material including\n\n5 legs cynder blocks\n\nthen thin layer of foam (1/8 inch)\n\n1 inch plywood (36 x 66 inches)\n\nracquet balls (cut in half) \n\n1 inch plywood (36 x 66 inches) \n\n1 inch cynder pavers (completely covering plywood)\n\nFelt - (covering pavers and attached to bottom of 1st plywood - loose wrap)\n\nBreadboards\n\nI have been getting fairly consistent results when working on only 1 of the breadboards, but when some mirrors are on both breadboards the results are inconsistent - possibly because the two bradboards are not secured together or secured to layer below breadboard)\n\npresent configuration is with two breadboards parallel to eachother (with 6 inch offset), but they are not secured to eachother \n\nLooking to make this more stable for use with split beam configurations. On suggestion was to make an offset T, and another was to make two separate tables. Plenty of materials o do either or something different.\n\nAny suggestions on 1. increasing stability between the two breadboards; 2. Configuration of breadboards (table) for split beam (transmission and reflection) holograms.\n\nA couple of pictures. You can see while I was away for the weekend there was some encroachment in my space.\n\n![photo 6.JPG](https://holographyforum.org/forum/download/file.php?id=2639)\n\n![photo 3.JPG](https://holographyforum.org/forum/download/file.php?id=2638)\n\n![photo 2.JPG](https://holographyforum.org/forum/download/file.php?id=2637)\n\n![photo 1.JPG](https://holographyforum.org/forum/download/file.php?id=2636)\n\n![photo 7.JPG](https://holographyforum.org/forum/download/file.php?id=2635)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2639",
+          "filename": "photo 6.JPG",
+          "info": "photo 6.JPG (33.31 KiB) Viewed 4527 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2638",
+          "filename": "photo 3.JPG",
+          "info": "photo 3.JPG (39.44 KiB) Viewed 4527 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2637",
+          "filename": "photo 2.JPG",
+          "info": "photo 2.JPG (37.05 KiB) Viewed 4527 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2636",
+          "filename": "photo 1.JPG",
+          "info": "photo 1.JPG (35.17 KiB) Viewed 4527 times"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=2635",
+          "filename": "photo 7.JPG",
+          "info": "photo 7.JPG (31.6 KiB) Viewed 4527 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=7943#p7943"
+    },
+    {
+      "post_id": 8131,
+      "topic_id": 866,
+      "topic_title": "Table Design improvements needed",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "Holomark",
+      "author_id": 2189,
+      "post_date": "Fri Jun 27, 2014 10:03 am",
+      "post_datetime": "2014-06-27T15:03:00+00:00",
+      "post_subject": "Table Design improvements needed",
+      "content_md": "I welded (JB Weld) the two breadboards together to make one larger breadboard 60 x 36 in. While not perfectly flat (the boards are slightly different thickness) the weld appears to have added some stability to my table top. Made a nice multi color split beam reflection hologram with the new setup. I then made an image planed version with the same setup. - IT WORKS!!!\n\nTwo lasers are off the table. \n\nAdded 18 different optical components (including a couple of new items from Bruce Wegman - thanks) for my multi color split beam configuration.\n\nOptics were used to 1. combine beams (Red and green), then 2 split the combine beam twice. This resulted in 1 combined beam (reference beam) and four object beams - 2 red and 2 green, then 3 remaining optics were to expand and steer the beams to object and plate.\n\nNow I need to figure out how to add spatial filter to setup (when objectives and pinholes arrive)\n\nWill post pictures of resulting hologram tomorrow!\n\nMark",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=8131#p8131"
+    }
+  ]
+}

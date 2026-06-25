@@ -1,0 +1,36 @@
+{
+  "topic_id": 3189,
+  "title": "Make use of the forum search facility",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=3189",
+  "replies": 0,
+  "views": 1560,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:32:16.182136+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 25718,
+      "topic_id": 3189,
+      "topic_title": "Make use of the forum search facility",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "MichaelH",
+      "author_id": null,
+      "post_date": "Mon Mar 07, 2005 9:22 pm",
+      "post_datetime": "2005-03-08T02:22:00+00:00",
+      "post_subject": "Make use of the forum search facility",
+      "content_md": "While not a chemical, film or laser tip, using the search facility will save you a lot of time.\n\nLoads of useful information has been discussed, argued and finally archived here and by doing just a few searches you may find that the information you need is ready and waiting in an older post.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=25718#p25718"
+    }
+  ]
+}

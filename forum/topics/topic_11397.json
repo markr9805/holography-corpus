@@ -1,0 +1,61 @@
+{
+  "topic_id": 11397,
+  "title": "Green safelights",
+  "forum_id": 6,
+  "forum_name": "Beginning Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11397",
+  "replies": 1,
+  "views": 30808,
+  "starter": "hearbob50",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:17:14.020457+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 73314,
+      "topic_id": 11397,
+      "topic_title": "Green safelights",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "hearbob50",
+      "author_id": 11910,
+      "post_date": "Mon Dec 09, 2024 9:21 am",
+      "post_datetime": "2024-12-09T14:21:22+00:00",
+      "post_subject": "Green safelights",
+      "content_md": "Hi, I will be exposing onto PFG-1. I am intending to use Kodak #7B Green safelight filters on Kodak scoop safelights, 15w. Any issues with fogging?",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73314#p73314"
+    },
+    {
+      "post_id": 73315,
+      "topic_id": 11397,
+      "topic_title": "Green safelights",
+      "forum_id": 6,
+      "forum_name": "Beginning Holography",
+      "author": "Din",
+      "author_id": 2357,
+      "post_date": "Tue Dec 10, 2024 9:36 am",
+      "post_datetime": "2024-12-10T14:36:35+00:00",
+      "post_subject": "Green safelights",
+      "content_md": "The peak of sensitivity of the PFG-01 and the transmission range of the Kodak filter are about 100nm apart, so it should be OK. Note, however, there is some overlap - light that PFG-01 is sensitive to does get transmitted through the filter. So, it's necessary to keep the lighting behind the filter low.\n\nIn the diagram, the white triangle in the blue background is the range of transmission of the filter centred at 532 nm, and the curve is the sensitivity of PFG-01, peaking at 633nm.\n\n![filter.jpg](https://holographyforum.org/forum/download/file.php?id=7914)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7914",
+          "filename": "filter.jpg",
+          "info": "filter.jpg (22.64 KiB) Viewed 30476 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73315#p73315"
+    }
+  ]
+}

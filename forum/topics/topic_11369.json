@@ -1,0 +1,68 @@
+{
+  "topic_id": 11369,
+  "title": "XVRWiki",
+  "forum_id": 53,
+  "forum_name": "Events, announcements, and news",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=11369",
+  "replies": 1,
+  "views": 67264,
+  "starter": "Acro",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T05:47:02.464226+00:00",
+  "post_count": 2,
+  "posts": [
+    {
+      "post_id": 73088,
+      "topic_id": 11369,
+      "topic_title": "XVRWiki",
+      "forum_id": 53,
+      "forum_name": "Events, announcements, and news",
+      "author": "Acro",
+      "author_id": 11892,
+      "post_date": "Sun Sep 08, 2024 8:21 pm",
+      "post_datetime": "2024-09-09T01:21:42+00:00",
+      "post_subject": "XVRWiki",
+      "content_md": "Introducing XVRWiki to the Holography forum.\n\nXVRWiki is a wiki on 3D computing, which has overlap with holography, including dynamic holographic displays.\n\nXVRWiki covers world-fixed displays like theoretical holographic computer monitors, and it covers near-eye holographic displays like what VividQ is doing.\n\nPlease come visit XVRWiki: [http://xvrwiki.org](http://xvrwiki.org)\n\nA screenshot of the home page is attached to this post.\n\n![XVRWiki screenshot for Holography forum.png](https://holographyforum.org/forum/download/file.php?id=7859)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7859",
+          "filename": "XVRWiki screenshot for Holography forum.png",
+          "info": "XVRWiki screenshot for Holography forum.png (153.35 KiB) Viewed 67264 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73088#p73088"
+    },
+    {
+      "post_id": 73090,
+      "topic_id": 11369,
+      "topic_title": "XVRWiki",
+      "forum_id": 53,
+      "forum_name": "Events, announcements, and news",
+      "author": "jrburns47",
+      "author_id": 4407,
+      "post_date": "Mon Sep 09, 2024 9:20 am",
+      "post_datetime": "2024-09-09T14:20:01+00:00",
+      "post_subject": "XVRWiki",
+      "content_md": "Won’t allow access from iPhone running iOS 17.\n\n![IMG_9305.jpeg](https://holographyforum.org/forum/download/file.php?id=7861)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=7861",
+          "filename": "IMG_9305.jpeg",
+          "info": "IMG_9305.jpeg (37.81 KiB) Viewed 67252 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=73090#p73090"
+    }
+  ]
+}

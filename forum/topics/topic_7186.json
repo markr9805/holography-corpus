@@ -1,0 +1,128 @@
+{
+  "topic_id": 7186,
+  "title": "Pockel Cells as q switches",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=7186",
+  "replies": 4,
+  "views": 1557,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": true,
+  "scraped_at": "2026-06-25T04:46:49.578214+00:00",
+  "post_count": 5,
+  "posts": [
+    {
+      "post_id": 56625,
+      "topic_id": 7186,
+      "topic_title": "Pockel Cells as q switches",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Ron Michael",
+      "author_id": null,
+      "post_date": "Tue Mar 04, 2008 5:05 pm",
+      "post_datetime": "2008-03-04T22:05:00+00:00",
+      "post_subject": "Pockel Cells as q switches",
+      "content_md": "This topic is about using Pockel cells as q switches. There is plenty of information on how to align the c axis of the cell with the laser resonator and to have the fast/slow axis at 45 degree angle to the polarizaton for quarter wave and full wave switching.\n\nBut, some may not realize some of the issues with these setups. And of course no discussion would be complete without reminding everyone that these cells involve lethal energy if you come in contact with them. So be forwarned. \n\nWith regard to ruby lasers, you will need this procedure:\n\nAlign the c-axis of the ruby rod. In a mopa, all the c-axis must be properly aligned in the same direction for best amplifications.\n\nHowever, for the q switching this is just as important as well. Basic procedure is to setup a polarizer (camera type is fine) oriented with a reference. Aim a light downward toward a mirror using the brewster angle of 56 degrees from normal. This reflection will be S polarized or horizontal. Align the camera polarizer for the darkest transmission. This will orient this polarizer vertical. Now rotate the axis of the ruby rod until you get the deepest red (purple like red). To fine tune this place another crossed polarizer in front of the rod. The configuration is polarizer, ruby rod, polarizer. Now rotate the rod until the darkest viewing is achived when looking thru the polarizers and rod. Now the c-axis is parallel or vertical. This means that the laser will output a S polarized or horizontal output. If you want vertical then use another cross polarizer with that first polarizer and replace the first with the new oriented second polarizer. For q switching you will need the laser's polarizer crossed for half wave and parallel for quarter wave configurations with the laser's emitted polarization.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56625#p56625"
+    },
+    {
+      "post_id": 56647,
+      "topic_id": 7186,
+      "topic_title": "Pockel Cells as q switches",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Ron Michael",
+      "author_id": null,
+      "post_date": "Wed Mar 05, 2008 1:37 am",
+      "post_datetime": "2008-03-05T06:37:00+00:00",
+      "post_subject": "Pockel Cells as q switches",
+      "content_md": "![pctest.jpg](https://holographyforum.org/forum/download/file.php?id=6075)\n\nHere is an example of a quick test setup to verify the operation and voltage of a pockel cell. Since this setup uses crossed polarizers you can also use them as mentioned previously to find the c-axis of ruby rods if needed. A low power HENE is used to analyze the operation with a white card just off to the right of the picture. A hipot tester that has a 100 mega-ohm HV resistor on the output provides a safer voltage during the voltage test. At a max of 6kv, the output max would be 60 microamps. The specific pockel cell, Inrad kd*p FC-43, has a capacitance of less than 10pfd and even counting the cables, their isn't enough to be a major shock hazard, but I still wouldn't test it. This model showed that the half-wave voltage was 3.6kv for 633nm. So for 694nm the voltage would need to be 4kv, and for 1064nm, the voltage would need to be 6kv. \n\nNote: Inside the Hipot tester is a red high voltage 100 to 1 voltage divider probe to a digital voltmeter that was used to verify the panel meter's values.",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6075",
+          "filename": "pctest.jpg",
+          "info": "pctest.jpg (84.65 KiB) Viewed 1380 times"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56647#p56647"
+    },
+    {
+      "post_id": 56649,
+      "topic_id": 7186,
+      "topic_title": "Pockel Cells as q switches",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Ron Michael",
+      "author_id": null,
+      "post_date": "Wed Mar 05, 2008 4:30 am",
+      "post_datetime": "2008-03-05T09:30:00+00:00",
+      "post_subject": "Pockel Cells as q switches",
+      "content_md": "> Aim a light downward toward a mirror\n Correction, I meant to say glass window. The first polarizer should be rotated to transmit the minimum reflected S polarized light from the glass surface at the brewster angle.",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56649#p56649"
+    },
+    {
+      "post_id": 56657,
+      "topic_id": 7186,
+      "topic_title": "Pockel Cells as q switches",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "dave battin",
+      "author_id": null,
+      "post_date": "Wed Mar 05, 2008 1:49 pm",
+      "post_datetime": "2008-03-05T18:49:00+00:00",
+      "post_subject": "Pockel Cells as q switches",
+      "content_md": "Hey Ron thanks for the alignment tips. I have the benefit the laser was already set up. Ill be checking and aligning soon. The manual explains the procedure just as you have stated. thanks!",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56657#p56657"
+    },
+    {
+      "post_id": 56740,
+      "topic_id": 7186,
+      "topic_title": "Pockel Cells as q switches",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Ron Michael",
+      "author_id": null,
+      "post_date": "Wed Mar 12, 2008 9:08 pm",
+      "post_datetime": "2008-03-13T02:08:00+00:00",
+      "post_subject": "Pockel Cells as q switches",
+      "content_md": "I've had a passion for the passive saturable absorber q switches because they are great mode selectors due to their slow opening. However for Ruby, liquid dye cells are a pain to maintain, so I will use a pockels cell. I'm getting ready to test this design I just finished. Its key features are a relatively safe powersupply and a slow 1 microsec rise time to open the half wave q switch to allow better mode selection of 200 transits of a 65cm resonator if the laser gain is correctly adjusted for the 1 microsec open. Hopefully with other mode selectors like resonant reflectors, the laser should have few longitudinal modes. ( 1 want only 1 if possible). We'll see how the circuit and laser performs. Here is the circuit and spice simulation. The drive outputs 4kv pulse even though the simulation shows 400v. The top red line is the 1usec pulse from the 555 timer.\n\n![spice sim of pc driver](https://holographyforum.org/forum/download/file.php?id=6077)\n\n![pockels driver](https://holographyforum.org/forum/download/file.php?id=6076)",
+      "signature": "",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6077",
+          "filename": "spice sim of pc driver",
+          "info": "spice sim of pc driver"
+        },
+        {
+          "type": "image",
+          "url": "https://holographyforum.org/forum/download/file.php?id=6076",
+          "filename": "pockels driver",
+          "info": "pockels driver"
+        }
+      ],
+      "quotes": [],
+      "is_first_post": false,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=56740#p56740"
+    }
+  ]
+}

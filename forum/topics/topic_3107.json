@@ -1,0 +1,36 @@
+{
+  "topic_id": 3107,
+  "title": "Help me get my laser figured out.",
+  "forum_id": 30,
+  "forum_name": "General Holography",
+  "url": "https://holographyforum.org/forum/viewtopic.php?t=3107",
+  "replies": 0,
+  "views": 1072,
+  "starter": "",
+  "is_sticky": null,
+  "is_locked": null,
+  "is_announcement": null,
+  "has_attachments": false,
+  "scraped_at": "2026-06-25T05:34:50.672142+00:00",
+  "post_count": 1,
+  "posts": [
+    {
+      "post_id": 24991,
+      "topic_id": 3107,
+      "topic_title": "Help me get my laser figured out.",
+      "forum_id": 30,
+      "forum_name": "General Holography",
+      "author": "Jim McPherson",
+      "author_id": null,
+      "post_date": "Sun Feb 06, 2005 9:45 pm",
+      "post_datetime": "2005-02-07T02:45:00+00:00",
+      "post_subject": "Help me get my laser figured out.",
+      "content_md": "I got into holography a couple years ago but got out of the \"habit\". I'm now trying to get up and running again. I have an unknown laser diode and driver that I bought from Roithner when I started. For the life of me I can't remember what the configuration of the diode/photodiode is (eg. CCA, CAC, CCC). Fortunatly the driver and diode are soldered and working so I can take measurements to figure out what kind of configuration the diode is. \n\nThe trouble is that I can't get my brain around how to measure it. When the diode is running I get a positive voltage from pin 2 to pin 1, and also have a positive voltage from pin 2 to pin 3. Any idea on what kind of diode I have, or how I can better measure it?\n\n-Jim",
+      "signature": "",
+      "attachments": [],
+      "quotes": [],
+      "is_first_post": true,
+      "url": "https://holographyforum.org/forum/viewtopic.php?p=24991#p24991"
+    }
+  ]
+}
