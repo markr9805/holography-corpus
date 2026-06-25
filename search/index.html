@@ -504,17 +504,24 @@ footer {
 <nav>
 <a href="../index.html">Home</a>
 <a href="../creators/index.html">Creators</a>
+<a href="../forum/index.html">Forum</a>
 <a href="index.html">Search</a>
 </nav>
 </div>
 </header>
 <main class="container">
 <h1>Search the Corpus</h1>
-<p>Search across all transcripts and video metadata.</p>
+<p>Search across video transcripts, creator metadata, and forum discussions.</p>
 
 <div class="search-box">
-<input type="text" id="search-input" placeholder="Search transcripts, creators, topics..." autofocus>
+<input type="text" id="search-input" placeholder="Search transcripts, creators, forum topics..." autofocus>
 <button onclick="doSearch()">Search</button>
+</div>
+
+<div class="search-filters" id="search-filters" style="display:none; margin: 1rem 0;">
+<button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
+<button class="filter-btn" data-filter="video" onclick="setFilter('video')">📹 Videos</button>
+<button class="filter-btn" data-filter="forum-thread" onclick="setFilter('forum-thread')">💬 Forum</button>
 </div>
 
 <div id="search-results" class="search-results"></div>
@@ -525,10 +532,37 @@ footer {
 </div>
 </footer>
 
+<style>
+.search-filters { margin: 1rem 0; }
+.filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 0.9em;
+}
+.filter-btn:hover { background: var(--accent); color: #000; }
+.filter-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+.result-type {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-right: 6px;
+    font-weight: 600;
+}
+.result-type.video { background: #2563eb22; color: #60a5fa; }
+.result-type.forum-thread { background: #10b98122; color: #34d399; }
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
 <script>
 let searchIndex;
 let documents = [];
+let currentFilter = 'all';
 
 fetch('../analysis/search-index.json')
   .then(r => r.json())
@@ -539,7 +573,8 @@ fetch('../analysis/search-index.json')
       this.field('title', { boost: 10 });
       this.field('creator_name', { boost: 5 });
       this.field('excerpt');
-      this.field('platform');
+      this.field('forum', { boost: 3 });
+      this.field('authors', { boost: 3 });
 
       data.entries.forEach(doc => {
         this.add(doc);
@@ -555,12 +590,22 @@ fetch('../analysis/search-index.json')
     }
   });
 
+function setFilter(filter) {
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+    doSearch();
+}
+
 function doSearch() {
   const query = document.getElementById('search-input').value.trim();
   const resultsDiv = document.getElementById('search-results');
+  const filtersDiv = document.getElementById('search-filters');
 
   if (!query) {
     resultsDiv.innerHTML = '<p>Enter a search term.</p>';
+    filtersDiv.style.display = 'none';
     return;
   }
 
@@ -569,24 +614,60 @@ function doSearch() {
     return;
   }
 
+  // Show filters
+  filtersDiv.style.display = 'block';
+
   try {
-    const results = searchIndex.search(query);
+    let results = searchIndex.search(query);
+    // Filter by type
+    if (currentFilter !== 'all') {
+        results = results.filter(r => {
+            const doc = documents.find(d => d.id === r.ref);
+            return doc && doc.type === currentFilter;
+        });
+    }
+
     if (results.length === 0) {
       resultsDiv.innerHTML = '<p>No results found for "' + query + '"</p>';
       return;
     }
 
-    resultsDiv.innerHTML = '<p>Found ' + results.length + ' results:</p>';
+    // Count by type
+    const videoCount = results.filter(r => {
+        const doc = documents.find(d => d.id === r.ref);
+        return doc && doc.type === 'video';
+    }).length;
+    const forumCount = results.length - videoCount;
+
+    let summary = 'Found ' + results.length + ' results';
+    if (currentFilter === 'all') {
+        summary += ' (' + videoCount + ' videos, ' + forumCount + ' forum topics)';
+    }
+    resultsDiv.innerHTML = '<p>' + summary + ':</p>';
 
     results.forEach(result => {
       const doc = documents.find(d => d.id === result.ref);
       if (!doc) return;
 
+      const typeLabel = doc.type === 'video' ? '📹 Video' : '💬 Forum';
+      const typeClass = doc.type || 'video';
+
+      let link, meta, excerpt;
+      if (doc.type === 'forum-thread') {
+          link = '../forum/' + doc.topic_id + '.html';
+          meta = doc.forum_full + ' · ' + (doc.date_start || '').substring(0,10) + ' · ' + doc.post_count + ' posts';
+          excerpt = (doc.excerpt || '').substring(0, 200);
+      } else {
+          link = '../videos/' + doc.slug + '.html';
+          meta = (doc.creator_name || '') + ' · ' + (doc.date || '') + ' · ' + (doc.duration || '');
+          excerpt = (doc.excerpt || '').substring(0, 200);
+      }
+
       const div = document.createElement('div');
       div.className = 'search-result';
-      div.innerHTML = '<h3><a href="../videos/' + doc.slug + '.html">' + doc.title + '</a></h3>' +
-        '<p>' + doc.creator_name + ' · ' + doc.date + ' · ' + doc.duration + '</p>' +
-        '<p>' + doc.excerpt.substring(0, 200) + '</p>';
+      div.innerHTML = '<h3><span class="result-type ' + typeClass + '">' + typeLabel + '</span><a href="' + link + '">' + (doc.title || 'Untitled') + '</a></h3>' +
+        '<p>' + meta + '</p>' +
+        '<p>' + excerpt + '</p>';
       resultsDiv.appendChild(div);
     });
   } catch(e) {
