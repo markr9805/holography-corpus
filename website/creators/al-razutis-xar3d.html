@@ -131,6 +131,18 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
 .relevance-filter {
     display: flex;
     gap: 0.5rem;
@@ -344,8 +356,8 @@ footer {
 <h1><span class="status-dot status-semi-active"></span>Al Razutis — XAR3D <span class="tier-badge tier-2">Tier 2</span></h1>
 <p class="creator-description">Stereoscopic 3D video, holography and holographic art documentation. Playlists include &#x27;Holographics 3D&#x27;, &#x27;West-Coast Artists - Holographic Art - 2D&#x27;. Features holography of Fred Unterseher, Sharon McCormack, John Kaufman, and others.</p>
 <div class="stats-grid">
-<div class="stat-card"><div class="stat-value">94</div><div class="stat-label">Videos</div></div>
-<div class="stat-card"><div class="stat-value">5h 11m</div><div class="stat-label">Total Duration</div></div>
+<div class="stat-card"><div class="stat-value">91</div><div class="stat-label">Videos</div></div>
+<div class="stat-card"><div class="stat-value">4h 26m</div><div class="stat-label">Total Duration</div></div>
 <div class="stat-card"><div class="stat-value">Youtube</div><div class="stat-label">Platform</div></div>
 </div>
 <p>
@@ -354,7 +366,12 @@ footer {
 </p>
 </div>
 </div>
-<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (47)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (44)</button><button class="filter-btn" data-filter="off-topic">📎 Off-topic (3)</button></div>
+
+        <div class="off-topic-note">
+            <p>📌 This creator has 3 additional videos outside the scope of this corpus (film, animation, personal content, etc.).
+             <a href="https://www.youtube.com/@XAR3D" target="_blank">View full channel on YouTube →</a></p>
+        </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (47)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (44)</button></div>
 <h2>Videos</h2>
 <div class="card-grid" id="video-grid">
 
@@ -421,12 +438,6 @@ footer {
         <a href="../videos/michael-jordan-by-sharon-mccormack-360-degree-hologram-2d-by-al-razutis.html" class="card" data-relevance="holography">
             <h3>&#x27;Michael Jordan&#x27; by Sharon McCormack - 360 degree hologram - 2D by Al Razutis</h3>
             <div class="card-meta">Unknown · 0m 25s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/diamonds-and-pearls-album-cover-prince-1080p.html" class="card" data-relevance="off-topic">
-            <h3>Diamonds and Pearls album cover PRINCE 1080P</h3>
-            <div class="card-meta">Unknown · 0m 30s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -505,12 +516,6 @@ footer {
         <a href="../videos/the-fortune-teller-multiplex-hologram-video-by-xar3d-2020.html" class="card" data-relevance="holography">
             <h3>The Fortune Teller  - multiplex hologram - video by XAR3D 2020</h3>
             <div class="card-meta">Unknown · 1m 0s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/walking-on-air-dean-fogal-performance-excerpt.html" class="card" data-relevance="off-topic">
-            <h3>Walking on Air - Dean Fogal performance excerpt</h3>
-            <div class="card-meta">Unknown · 1m 11s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -915,17 +920,11 @@ footer {
             <div class="card-meta">Unknown · 19m 35s · Youtube 🔗 Adjacent</div>
             <div class="card-excerpt"></div>
         </a>
-
-        <a href="../videos/anait-dancing-with-light-waves.html" class="card" data-relevance="off-topic">
-            <h3>ANAIT - Dancing with Light Waves</h3>
-            <div class="card-meta">Unknown · 43m 19s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
 </div>
 </main>
 <footer>
 <div class="container">
-<p>Al Razutis — XAR3D · 94 videos</p>
+<p>Al Razutis — XAR3D · 91 videos</p>
 </div>
 </footer>
 <script>

@@ -131,6 +131,18 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
 .relevance-filter {
     display: flex;
     gap: 0.5rem;
@@ -344,8 +356,8 @@ footer {
 <h1><span class="status-dot status-inactive"></span>TheDrlaser (Jason Sapan / Holographic Studios NYC) <span class="tier-badge tier-2">Tier 2</span></h1>
 <p class="creator-description">Holographic Studios NYC content, hologram portraits, classes, &#x27;Save Holographic Studios&#x27; campaign. Features Julia holograms and Canadian radio interview.</p>
 <div class="stats-grid">
-<div class="stat-card"><div class="stat-value">16</div><div class="stat-label">Videos</div></div>
-<div class="stat-card"><div class="stat-value">24m 57s</div><div class="stat-label">Total Duration</div></div>
+<div class="stat-card"><div class="stat-value">15</div><div class="stat-label">Videos</div></div>
+<div class="stat-card"><div class="stat-value">21m 24s</div><div class="stat-label">Total Duration</div></div>
 <div class="stat-card"><div class="stat-value">Youtube</div><div class="stat-label">Platform</div></div>
 </div>
 <p>
@@ -354,7 +366,12 @@ footer {
 </p>
 </div>
 </div>
-<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (9)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (6)</button><button class="filter-btn" data-filter="off-topic">📎 Off-topic (1)</button></div>
+
+        <div class="off-topic-note">
+            <p>📌 This creator has 1 additional video outside the scope of this corpus (film, animation, personal content, etc.).
+             <a href="https://www.youtube.com/@TheDrlaser" target="_blank">View full channel on YouTube →</a></p>
+        </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (9)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (6)</button></div>
 <h2>Videos</h2>
 <div class="card-grid" id="video-grid">
 
@@ -442,12 +459,6 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/canadian-radio-am680-cjob-don-cook-news-anchor.html" class="card" data-relevance="off-topic">
-            <h3>Canadian Radio AM680 CJOB  Don Cook, News Anchor</h3>
-            <div class="card-meta">Unknown · 3m 33s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/canceling-light-waves-with-an-interferometer.html" class="card" data-relevance="holography">
             <h3>canceling light waves with an interferometer</h3>
             <div class="card-meta">Unknown · 4m 7s · Youtube 🔬 Holography</div>
@@ -457,7 +468,7 @@ footer {
 </main>
 <footer>
 <div class="container">
-<p>TheDrlaser (Jason Sapan / Holographic Studios NYC) · 16 videos</p>
+<p>TheDrlaser (Jason Sapan / Holographic Studios NYC) · 15 videos</p>
 </div>
 </footer>
 <script>

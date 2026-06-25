@@ -131,6 +131,18 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
 .relevance-filter {
     display: flex;
     gap: 0.5rem;
@@ -344,8 +356,8 @@ footer {
 <h1><span class="status-dot status-active"></span>LaserboyHolo (Travis) <span class="tier-badge tier-1">Tier 1</span></h1>
 <p class="creator-description">Hologram making, handmade jewelry, experimental art blending science and holography. Behind-the-scenes creative process, glasswork, 3D printing, analog holography. Includes ISDH2024 reflection video.</p>
 <div class="stats-grid">
-<div class="stat-card"><div class="stat-value">49</div><div class="stat-label">Videos</div></div>
-<div class="stat-card"><div class="stat-value">3h 21m</div><div class="stat-label">Total Duration</div></div>
+<div class="stat-card"><div class="stat-value">28</div><div class="stat-label">Videos</div></div>
+<div class="stat-card"><div class="stat-value">1h 52m</div><div class="stat-label">Total Duration</div></div>
 <div class="stat-card"><div class="stat-value">Youtube</div><div class="stat-label">Platform</div></div>
 </div>
 <p>
@@ -355,25 +367,18 @@ footer {
 </p>
 </div>
 </div>
-<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (23)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (5)</button><button class="filter-btn" data-filter="off-topic">📎 Off-topic (21)</button></div>
+
+        <div class="off-topic-note">
+            <p>📌 This creator has 21 additional videos outside the scope of this corpus (film, animation, personal content, etc.).
+             <a href="https://www.youtube.com/@laserboyholo" target="_blank">View full channel on YouTube →</a></p>
+        </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (23)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (5)</button></div>
 <h2>Videos</h2>
 <div class="card-grid" id="video-grid">
-
-        <a href="../videos/i-made-this.html" class="card" data-relevance="off-topic">
-            <h3>i made this</h3>
-            <div class="card-meta">Unknown · 0m 13s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
 
         <a href="../videos/leaf-photonic-chip.html" class="card" data-relevance="holography-adjacent">
             <h3>Leaf: photonic chip</h3>
             <div class="card-meta">Unknown · 0m 17s · Youtube 🔗 Adjacent</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/find-time.html" class="card" data-relevance="off-topic">
-            <h3>Find Time</h3>
-            <div class="card-meta">Unknown · 0m 17s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -383,27 +388,9 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/ejection-trading-card-teaser.html" class="card" data-relevance="off-topic">
-            <h3>Ejection trading card teaser.</h3>
-            <div class="card-meta">Unknown · 0m 23s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/data-shard-4-cold-work-dichromate-hologram-jewelry.html" class="card" data-relevance="holography">
             <h3>Data shard #4.  Cold work dichromate hologram jewelry.</h3>
             <div class="card-meta">Unknown · 0m 26s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/yall-getting-things-in-order-before-the-weekend-or-putting-that-off-til.html" class="card" data-relevance="off-topic">
-            <h3>Y&#x27;all getting things in order before the weekend, or putting that off til Monday? #knolling</h3>
-            <div class="card-meta">Unknown · 0m 29s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/data-shard-6.html" class="card" data-relevance="off-topic">
-            <h3>Data shard #6</h3>
-            <div class="card-meta">Unknown · 0m 40s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -443,12 +430,6 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/sticker-promo.html" class="card" data-relevance="off-topic">
-            <h3>sticker Promo</h3>
-            <div class="card-meta">Unknown · 1m 9s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/dark-ritual-hologram-handmade-dcg-holography-magic-the-gathering-card.html" class="card" data-relevance="holography">
             <h3>Dark Ritual Hologram. (Handmade DCG Holography Magic The Gathering Card)</h3>
             <div class="card-meta">Unknown · 1m 13s · Youtube 🔬 Holography</div>
@@ -479,18 +460,6 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/flash-back-to-two-years-ago.html" class="card" data-relevance="off-topic">
-            <h3>flash back to two years ago.</h3>
-            <div class="card-meta">Unknown · 1m 49s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/j3-tests.html" class="card" data-relevance="off-topic">
-            <h3>J￼3 tests</h3>
-            <div class="card-meta">Unknown · 1m 52s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/store-announcement-june-17.html" class="card" data-relevance="holography-adjacent">
             <h3>Store announcement. June 17</h3>
             <div class="card-meta">Unknown · 2m 2s · Youtube 🔗 Adjacent</div>
@@ -509,12 +478,6 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/goodie-box-from-culturehustle6733-excited-to-see-how-these-different-combos.html" class="card" data-relevance="off-topic">
-            <h3>Goodie box from @culturehustle6733    Excited to see how these different combos can effect my Holos.</h3>
-            <div class="card-meta">Unknown · 2m 54s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/store-drop-announcement-for-1119.html" class="card" data-relevance="holography-adjacent">
             <h3>Store drop announcement for 11/19</h3>
             <div class="card-meta">Unknown · 3m 0s · Youtube 🔗 Adjacent</div>
@@ -527,63 +490,15 @@ footer {
             <div class="card-excerpt">How do holograms work? If I said magic, would you believe me? Okay, fine. Holography is the practice of recording an interference pattern using coherent light um within a holographic substrate. Well,…</div>
         </a>
 
-        <a href="../videos/quality-over-quantity.html" class="card" data-relevance="off-topic">
-            <h3>quality over quantity</h3>
-            <div class="card-meta">Unknown · 3m 1s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-1-the-move-is-imminent.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #1  The move is imminent</h3>
-            <div class="card-meta">Unknown · 4m 4s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-5-feeling-things-and-packing-stuff.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #5 feeling things and packing stuff.</h3>
-            <div class="card-meta">Unknown · 4m 11s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-3-bookending-last-years-cross-country-journey.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #3 bookending last years cross country journey.</h3>
-            <div class="card-meta">Unknown · 5m 36s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/exciting-new-lab-family-adventures-vlog-update.html" class="card" data-relevance="off-topic">
-            <h3>Exciting New Lab &amp; Family Adventures | Vlog Update</h3>
-            <div class="card-meta">Unknown · 6m 2s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-2-decluttering-and-packing.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #2 decluttering and  packing.</h3>
-            <div class="card-meta">Unknown · 6m 3s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/making-a-d20-hologram-pendant.html" class="card" data-relevance="holography">
             <h3>Making a d20 Hologram pendant.</h3>
             <div class="card-meta">Unknown · 6m 13s · Youtube 🔬 Holography</div>
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/moving-vlog-4-treasure-hunt-and-uhaul-debt.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #4 treasure hunt and uhaul debt</h3>
-            <div class="card-meta">Unknown · 6m 26s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/holographic-pokemon-card-project-kickoff-patreon-vote.html" class="card" data-relevance="holography">
             <h3>Holographic pokemon card project kickoff (Patreon Vote)</h3>
             <div class="card-meta">Unknown · 6m 27s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-6-loading-the-truck-and-emotional-goodbyes.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #6: Loading the Truck and Emotional Goodbyes</h3>
-            <div class="card-meta">Unknown · 6m 56s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -599,18 +514,6 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/moving-vlog-7-finally-hitting-the-road.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #7 finally hitting the road</h3>
-            <div class="card-meta">Unknown · 7m 26s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/moving-vlog-8-the-final-stretch.html" class="card" data-relevance="off-topic">
-            <h3>Moving Vlog #8.  The Final Stretch</h3>
-            <div class="card-meta">Unknown · 7m 54s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/reflecting-on-isdh2024-international-symposium-on-display-holography.html" class="card" data-relevance="holography">
             <h3>Reflecting on ISDH2024 (international symposium on display holography)</h3>
             <div class="card-meta">Unknown · 8m 57s · Youtube 🔬 Holography</div>
@@ -623,21 +526,9 @@ footer {
             <div class="card-excerpt"></div>
         </a>
 
-        <a href="../videos/astro-jellys-pumpkin-transformation-part1.html" class="card" data-relevance="off-topic">
-            <h3>Astro Jelly&#x27;s Pumpkin Transformation 🎃 part1</h3>
-            <div class="card-meta">Unknown · 9m 19s · Youtube 📎 Off-topic</div>
-            <div class="card-excerpt"></div>
-        </a>
-
         <a href="../videos/jolteon-hologram-part-1.html" class="card" data-relevance="holography">
             <h3>Jolteon Hologram PART 1</h3>
             <div class="card-meta">Unknown · 10m 1s · Youtube 🔬 Holography</div>
-            <div class="card-excerpt"></div>
-        </a>
-
-        <a href="../videos/patreon-announcement-big-changes-ahead.html" class="card" data-relevance="off-topic">
-            <h3>Patreon announcement. Big changes ahead</h3>
-            <div class="card-meta">Unknown · 12m 37s · Youtube 📎 Off-topic</div>
             <div class="card-excerpt"></div>
         </a>
 
@@ -656,7 +547,7 @@ footer {
 </main>
 <footer>
 <div class="container">
-<p>LaserboyHolo (Travis) · 49 videos</p>
+<p>LaserboyHolo (Travis) · 28 videos</p>
 </div>
 </footer>
 <script>

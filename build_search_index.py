@@ -70,6 +70,9 @@ def main():
     with open(CREATORS_PATH) as f:
         creators = json.load(f)
 
+    # Filter to only holography and holography-adjacent content
+    catalog = [v for v in catalog if v.get('relevance') in ('holography', 'holography-adjacent')]
+
     creators_by_id = {c['id']: c for c in creators}
 
     # Build search entries

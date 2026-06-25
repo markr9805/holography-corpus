@@ -236,6 +236,18 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     font-size: 0.8em;
     margin-bottom: 8px;
 }
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
 .relevance-filter {
     display: flex;
     gap: 0.5rem;
@@ -633,7 +645,7 @@ def build_creators_page(catalog, creators):
     return '\n'.join(html_parts)
 
 
-def build_creator_page(creator, catalog):
+def build_creator_page(creator, catalog, off_topic_count=0):
     """Build a single creator page."""
     creator_videos = sorted(
         [v for v in catalog if v.get('creator_id') == creator['id']],
@@ -684,6 +696,15 @@ def build_creator_page(creator, catalog):
         html_parts.append(f' · <a href="{html.escape(creator["patreon"])}" target="_blank">💰 Patreon</a>')
 
     html_parts.extend(['</p>', '</div>', '</div>'])
+
+    # Off-topic content note
+    if off_topic_count > 0:
+        channel_url = creator.get('channel_url', '')
+        html_parts.append(f'''
+        <div class="off-topic-note">
+            <p>📌 This creator has {off_topic_count} additional video{'s' if off_topic_count > 1 else ''} outside the scope of this corpus (film, animation, personal content, etc.).
+            {' <a href="' + html.escape(channel_url) + '" target="_blank">View full channel on YouTube →</a>' if channel_url else ''}</p>
+        </div>''')
 
     # Relevance filter buttons
     from collections import Counter
@@ -943,9 +964,21 @@ document.getElementById('search-input').addEventListener('keydown', function(e) 
 def main():
     print("Loading catalog and creators...")
     with open(CATALOG_PATH) as f:
-        catalog = json.load(f)
+        full_catalog = json.load(f)
     with open(CREATORS_PATH) as f:
         creators = json.load(f)
+
+    # Filter to only holography and holography-adjacent content
+    catalog = [v for v in full_catalog if v.get('relevance') in ('holography', 'holography-adjacent')]
+    removed = len(full_catalog) - len(catalog)
+    print(f"Filtered catalog: {len(catalog)} videos (removed {removed} off-topic)")
+
+    # Count off-topic per creator for notes
+    from collections import Counter
+    off_topic_counts = Counter()
+    for v in full_catalog:
+        if v.get('relevance') == 'off-topic':
+            off_topic_counts[v.get('creator_id')] += 1
 
     creators_by_id = {c['id']: c for c in creators}
 
@@ -985,7 +1018,8 @@ def main():
     print("Building creator pages...")
     for creator in creators:
         slug = slugify(creator['name'])
-        page_html = build_creator_page(creator, catalog)
+        off_topic = off_topic_counts.get(creator['id'], 0)
+        page_html = build_creator_page(creator, catalog, off_topic_count=off_topic)
         with open(OUTPUT_DIR / "creators" / f"{slug}.html", 'w') as f:
             f.write(page_html)
 
@@ -1015,7 +1049,7 @@ def main():
         shutil.copy2(SEARCH_INDEX_PATH, OUTPUT_DIR / "analysis" / "search-index.json")
 
     print(f"\n✅ Website built at {OUTPUT_DIR}")
-    print(f"   {len(catalog)} video pages")
+    print(f"   {len(catalog)} video pages (holography + adjacent only)")
     print(f"   {len(creators)} creator pages")
     print(f"   Home, creators index, and search pages")
     print(f"\nTo serve locally: cd {OUTPUT_DIR} && python3 -m http.server 8000")
