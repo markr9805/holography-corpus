@@ -424,11 +424,12 @@ def build_home_page(catalog, creators, search_index):
     dated = [v for v in catalog if v.get('upload_date')]
     recent = sorted(dated, key=lambda x: x.get('upload_date', ''), reverse=True)[:10]
 
-    # Active creators
+    # Creators with content (sorted by video count, show top 12)
     active_creators = sorted(
-        [c for c in creators if c.get('status') == 'active'],
-        key=lambda x: x.get('name', '')
-    )[:6]
+        [c for c in creators if sum(1 for v in catalog if v.get('creator_id') == c['id']) > 0],
+        key=lambda x: sum(1 for v in catalog if v.get('creator_id') == x['id']),
+        reverse=True
+    )[:12]
 
     html_parts = [
         '<!DOCTYPE html>',
