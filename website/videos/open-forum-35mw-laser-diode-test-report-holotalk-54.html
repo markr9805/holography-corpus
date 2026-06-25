@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,74 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello everyone, this is Frank DeFreitas. Welcome to another week of Holotalk for the week of April 26th, 1999.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Hello everyone, this is Frank Defratis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">Welcome to another week of HoloTalk for the week of April 26th, 1999.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:08">0:08</span><span class="transcript-text">And this is a special week here on HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:11">0:11</span><span class="transcript-text">And just for the HoloTalk listeners, I will be giving a web page so that you can go to the page itself and see the results of the tests using the 35 milliwatt laser diode module.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:25">0:25</span><span class="transcript-text">And folks, I just want to announce right now that it worked way beyond my expectations.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:31">0:31</span><span class="transcript-text">I didn&#x27;t have a lot of time to work on it this week, so the shot that I did, I actually combined a few different elements in order to get a few different results into one shot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:42">0:42</span><span class="transcript-text">In fact, the laser itself looked so good that uh I just felt comfortable going ahead and doing it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:50">0:50</span><span class="transcript-text">And what I did is I shot a piece of uh 4x5 inch film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:55">0:55</span><span class="transcript-text">But the reason why this test was so important was because you could do some pretty large format holograms using a 35 milliwatt light source, uh helium neon continuous wave light source.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:09">1:09</span><span class="transcript-text">And I was hoping that this module would uh show some promise in allowing us to do the same thing inexpensively.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Um as far as I can tell, the cheapest I could find this the diode itself was $33 on the web for this 35 milliwatt diode, and it&#x27;s at 658 nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">And uh when you take into consideration that the uh driver is going to cost you another 30, the collimating lens is going to cost you another 20 or 30, and the barrel another 20.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:41">1:41</span><span class="transcript-text">You&#x27;re looking at just over a little over 100 to put this 35 milliwatt diode module together compared to many thousands of dollars for purchasing a new 35 milliwatt helium neon laser and getting the same performance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:58">1:58</span><span class="transcript-text">So it&#x27;s a it was an incredible test that I was hoping with all my heart would work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:05">2:05</span><span class="transcript-text">And when I got the the module finally set up and we powered this baby up, it looks so so beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:12">2:12</span><span class="transcript-text">Now I had a few options put into it, such as anamorphic prisms to circularize the beam, and I don&#x27;t think that&#x27;s absolutely necessary, but I wanted to experiment with that a little bit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:27">2:27</span><span class="transcript-text">And you&#x27;ll see the photos of all this and the results.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:31">2:31</span><span class="transcript-text">So once again I shot the piece of Carl.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:33">2:33</span><span class="transcript-text">I don&#x27;t know if you&#x27;re getting sick of the piece of carl all the time, every time you log on to the page, but I shoot this piece of carl because I can compare it to the other shots that have been made with all the different diodes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:43">2:43</span><span class="transcript-text">So once again I shot the carl, but the difference this time was that I spread the light out so that it would cover a 30 by 40 inch plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">So in other words, the holographic setup was set up to shoot a 30 by 40 centimeter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:59">2:59</span><span class="transcript-text">I&#x27;m sorry, I think I may have said inches, and I&#x27;m not going to edit this at all because it&#x27;s almost eight o&#x27;clock now, and I&#x27;ve got to get this up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:05">3:05</span><span class="transcript-text">So I meant 30 by 40 centimeter plate, which is about 12 by 16 inches, I believe.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:11">3:11</span><span class="transcript-text">That&#x27;s what the system was set up to shoot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:14">3:14</span><span class="transcript-text">And then into that system, I put the 4x5 inch piece of film to shoot the carl, and I explained that process on the page as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:24">3:24</span><span class="transcript-text">And you can go to the web page, here&#x27;s the address, and uh the addresses.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:31">3:31</span><span class="transcript-text">Well, if you open your browser up, get your browser back in the front in front of the uh real audio player, you&#x27;ll see that the actual page that you&#x27;re on right now for HoloTalk is www.holanworld.com slash holo slash holo talk.html.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:50">3:50</span><span class="transcript-text">The only thing you need to change is the holotalk.html, and you want to change that to diode 14.html.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:01">4:01</span><span class="transcript-text">That&#x27;s diode14 D I O D E 14.html, and it will take you to the page that has the report and all the photos.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:11">4:11</span><span class="transcript-text">And uh later on in the week, I haven&#x27;t had any time this weekend to do this, but later on in the week I will be doing some higher quality uh shots and a little bit further on down the road actually doing a 30 by 40 centimeter uh glass plate hologram using this diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:29">4:29</span><span class="transcript-text">I don&#x27;t have any 30 by 40 uh centimeter plates in here, but I do have one eight by ten left, and I will probably use that eight by ten as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:37">4:37</span><span class="transcript-text">So it it was well beyond my expectations.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:42">4:42</span><span class="transcript-text">I didn&#x27;t really know what to think.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:44">4:44</span><span class="transcript-text">Would it work?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:45">4:45</span><span class="transcript-text">Would it not work?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:46">4:46</span><span class="transcript-text">It was a long shot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:47">4:47</span><span class="transcript-text">Anyone who would say that you could get 35 milliwatts of power and get a nice hologram out of something that&#x27;s only going to cost you 100 and some dollars uh would be crazy just a few months ago.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:58">4:58</span><span class="transcript-text">But here we are today, and it&#x27;s uh it is now a reality.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:03">5:03</span><span class="transcript-text">So large format, and and when you get up into around 30 by 40 centimeter plates, that&#x27;s considered the I would imagine the lower end of large format.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:12">5:12</span><span class="transcript-text">Large format holography is now within the reach of uh so many people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:16">5:16</span><span class="transcript-text">In fact, for 100 and some dollars, I know there&#x27;s a couple catalogs with used five milliwatt laser heads plus the power supplies that are going to cost you over a hundred dollars, and this is thirty-five milliwatts.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">And the beam is beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:31">5:31</span><span class="transcript-text">Um probably due to the prisms, you know, the beam profile itself, but it was so beautifully spatial filtered onto the white light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:39">5:39</span><span class="transcript-text">Oh, it was it&#x27;s it&#x27;s hypnotic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:41">5:41</span><span class="transcript-text">Six hundred and fifty eight nanometers is a beautiful, beautiful um wavelength to work with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:47">5:47</span><span class="transcript-text">It&#x27;s uh it&#x27;s intoxicating.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:49">5:49</span><span class="transcript-text">It really is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:50">5:50</span><span class="transcript-text">It&#x27;s beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:51">5:51</span><span class="transcript-text">Um and it didn&#x27;t have that the wavelength did not have that much of an adverse effect on the final hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:57">5:57</span><span class="transcript-text">Uh you would think you you&#x27;re that far away from 633 that uh you know you wouldn&#x27;t get very nice results from it but that is absolutely not true at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">I did not treat the film with any triethanolamine or anything like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:09">6:09</span><span class="transcript-text">I just I&#x27;m telling you I just took that film sandwiched it between two pieces of p uh glass, no index matching fluid, nothing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:15">6:15</span><span class="transcript-text">I just wanted to see if it would work and that&#x27;s uh the shot that I have up there for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:20">6:20</span><span class="transcript-text">So uh if that&#x27;s how good it gets um working that quickly and without that much care, imagine what it would do uh once we sit down and we start to improve the quality and actually do some very beautiful work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:37">6:37</span><span class="transcript-text">So it&#x27;s a short show this week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">Uh I have to uh actually take this I&#x27;m not gonna edit it but I still have to uh compress it with real audio and then get it up to the web upload it and uh want to thank you very much for tuning in and this was special just for Holo Talk listeners.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:55">6:55</span><span class="transcript-text">I do not have any links to this page uh for anyone else except for Holo Talk listeners uh for this week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">And then next week I will uh make that page available to everyone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:07">7:07</span><span class="transcript-text">But I wanted Holo Talk listeners to be the first ones to be able to see this and read the report.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">And hopefully, I really do hope that a few of you decide to give this a try because you know it even if you&#x27;re working with a 20-watt argon or higher, this is just so addicting to be able to take one of these little tiny diode modules and have that much intensity and that much light come out of it that you can just spread that beam out and and uh do large holograms with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:40">7:40</span><span class="transcript-text">It&#x27;s just and then have the holograms turn out very, very nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:43">7:43</span><span class="transcript-text">It&#x27;s uh it&#x27;s just a wonderful thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">So thank you very much for tuning in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:47">7:47</span><span class="transcript-text">I&#x27;m gonna head out and uh enjoy the report.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:51">7:51</span><span class="transcript-text">Send me an email if you want to chat about it a little bit, and uh I&#x27;ll talk to you next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:56">7:56</span><span class="transcript-text">Take care.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello everyone, this is Frank DeFreitas. Welcome to another week of Holotalk for the week of April 26th, 1999.
 And this is a special week here on Holotalk.
 And just for the Holotalk listeners, I will be giving a webpage so that you can go to the page itself
 and see the results of the tests using the 35 milliwatt laser diode module.
@@ -757,8 +917,7 @@ And I&#x27;m going to be doing this for the next five years.
 And I&#x27;m going to be doing this for the next five years.
 And I&#x27;m going to be doing this for the next five years.
 And I&#x27;m going to be doing this for the next five years.
-And I&#x27;m going to be doing this for the next five years.
-</div>
+And I&#x27;m going to be doing this for the next five years.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

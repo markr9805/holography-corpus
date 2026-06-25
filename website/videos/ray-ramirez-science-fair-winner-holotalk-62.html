@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,13 +456,246 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frankie Freitas and the Internet Web Museum of Holography. Hello everyone, this is Frankie Freitas and welcome to another week of Holography for the week of October 4th, 1999. It&#x27;s getting pretty close to the time where I have to upload this to the web. In fact, it&#x27;s 8 o&#x27;clock on Sunday night. I&#x27;d like to have this up at least 9 or 10 o&#x27;clock. So we&#x27;re going to be doing this live tonight. Our guest this week is Ray Ramirez and he&#x27;s going to be with us in just a minute. In fact, I&#x27;m going to be dialing his number live here from the studio and getting him on. Before we do, I just want to give you a few reminders. The first reminder is this Wednesday, October 4th, 1999. And I put that date in there just in case someone&#x27;s listening to this two years in the future in the archives and they&#x27;re thinking that it&#x27;s this week in 2000. No, this is 1999, October 4th, this Wednesday. Open house, the first one of the season here at the studio. The topic&#x27;s going to be laser transmission holograms. We&#x27;re going to have a little talk about laser transmission holograms and then go into the lab and see some of the laser transmission holograms. These are really interesting holograms because normally people do not have an opportunity to see these outside of a laboratory environment because they normally, or usually all the time, require lasers in order to allow them to see. And they&#x27;re not going to illuminate them. And therefore, usually when you go to a gallery or you&#x27;re in a holography shop, you see holograms on the walls or holograms on pedestals being illuminated with white light sources. But on occasion, you&#x27;ll see a laser transmission hologram sometimes in a more scientific exhibit. But this will give you an opportunity to see quite a few of these. And it&#x27;s going to be a pretty interesting night. So that&#x27;s this Wednesday evening, October 4th. Is that right? October 6th. I&#x27;m sorry. Here I am giving you the wrong information. This Wednesday, October 6th at 7.30 p.m. here at the studio in Allentown. Send me an e-mail if you&#x27;d like more information or you can call the studio&#x27;s number at area code 610-770-0341. That&#x27;s 610-770-0341. Lots of upcoming guests coming on. I&#x27;m not going to say who they are because sometimes we have to switch schedules around and things of that nature. So we&#x27;ll just play it by ear. And if you get on the Holotalk e-mail list, you&#x27;ll be able to. Find out which guest is coming on for which week. John Clayer, who has been a guest on the show and was one of the very early players with the laser pointer holography, has made a nice diode hologram using fiber optics. And I&#x27;m going to get more information from John. This is very exciting, especially for school projects. So another aspect to laser pointer diode holography that we can put on in the books. And it&#x27;s a nice hologram. And using fiber optics. And we&#x27;re going to get more information from John in the near future. If you have not upgraded your real audio player, excuse me, to the new G2 player, and it&#x27;s a free upgrade. I would suggest that if you&#x27;re going to do that, please do that this week. I have a brand new type of presentation that we&#x27;re going to be adding to Holotalk, which is the synchronized multimedia integrated language, or SMILE, which allows you to use your phone. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. Yes, just a minute. Sorry to keep everybody... Hello, Ray. Hi. How are you? Pretty good. I&#x27;d like to welcome Ray Ramirez to HoloTalk. It&#x27;s nice to finally be able to get you on the show after all the great work that you&#x27;ve done with lasers and holograms, with your science fair projects. Before we get started, I was wondering if you could tell the listeners a little bit about yourself, what your age is, what grade you are, what school you&#x27;re in. Okay. I&#x27;m 13 years old. I&#x27;m in the eighth grade, and I go to Terrace Hills Middle School in Grand Terrace, California. And I understand you started out last year working...
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frankie Fratis and the Internet Legend of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:11">0:11</span><span class="transcript-text">Hello everyone, this is Frankie Freitas, and welcome to another week of HoloTalk for the week of October 4th, 1999.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:18">0:18</span><span class="transcript-text">It&#x27;s getting pretty close to the time where I have to upload this to the web.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:21">0:21</span><span class="transcript-text">In fact, it&#x27;s 8 o&#x27;clock on Sunday night.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">I&#x27;d like to have this up at least 9 or 10 o&#x27;clock.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">So we&#x27;re going to be doing this live tonight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">Our guest this week is Ray Ramirez, and he&#x27;s going to be with us in just a minute.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:32">0:32</span><span class="transcript-text">In fact, I&#x27;m going to be dialing his number live here from the studio and getting him on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:36">0:36</span><span class="transcript-text">Uh before we do, I just want to give you a few reminders.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:40">0:40</span><span class="transcript-text">The first reminder is this Wednesday, October 4th, 1999, and I put that date in there just in case someone&#x27;s listening to this two years and you know, two years in the future in the archives, and they&#x27;re thinking that it&#x27;s uh this week uh in two thousand two.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:56">0:56</span><span class="transcript-text">No, this is nineteen ninety-nine, October fourth, this Wednesday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:59">0:59</span><span class="transcript-text">Open house, the first one of the season here at the studio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:02">1:02</span><span class="transcript-text">The topic&#x27;s going to be laser transmission holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:06">1:06</span><span class="transcript-text">Uh we&#x27;re going to have a little talk about laser transmission holograms and then go into the lab and see some of the laser transmission holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:13">1:13</span><span class="transcript-text">And these are really interesting holograms because normally people do not have an opportunity to see these outside of a laboratory environment because they normally or usually all the time require lasers in order to illuminate them, and therefore usually when you go to a gallery or you&#x27;re in a holography shop, you see holograms on the walls or holograms on pedestals uh being illuminated with white light sources.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:36">1:36</span><span class="transcript-text">But on occasion you&#x27;ll see a laser transmission hologram sometimes in a uh more scientific exhibit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:42">1:42</span><span class="transcript-text">But this will give you an opportunity to see quite a few of these, and it&#x27;s uh going to be a pretty interesting night.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:47">1:47</span><span class="transcript-text">So that&#x27;s this Wednesday evening, October fourth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:51">1:51</span><span class="transcript-text">Sorry, October 6th.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:53">1:53</span><span class="transcript-text">I&#x27;m sorry, here I am, giving you the wrong information.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:55">1:55</span><span class="transcript-text">This Wednesday, October 6th, at 7 30 p.m.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:59">1:59</span><span class="transcript-text">here at the studio in Allentown.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:01">2:01</span><span class="transcript-text">Send me an email if you&#x27;d like more information, or you can call the studio&#x27;s number at area code 610-770-0341.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:10">2:10</span><span class="transcript-text">That&#x27;s 610-770-0341.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:14">2:14</span><span class="transcript-text">Uh lots of upcoming guests uh coming on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:17">2:17</span><span class="transcript-text">I&#x27;m not going to say who they are because sometimes we have to switch schedules around and things of that nature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:21">2:21</span><span class="transcript-text">So uh we&#x27;ll just play it by ear, and if you get on the Holo Talk email list, you&#x27;ll be able to find out which guest is coming on for which week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:29">2:29</span><span class="transcript-text">Uh John Clayer, who has been a guest on the show and was one of the earl very early players with the uh laser pointer uh holography uh has made a nice diode hologram uh using fiber optics and I&#x27;m going to get more information from John.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:45">2:45</span><span class="transcript-text">This is very exciting, especially for uh school projects.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:49">2:49</span><span class="transcript-text">So another aspect to laser pointer diode holography that you that we can put on in the books, and he says it&#x27;s a nice hologram and uh using fiber optics, so we&#x27;re gonna get more information from John in the uh near future.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:04">3:04</span><span class="transcript-text">If you have not upgraded your real audio player, excuse me, to the new G2 player, and it&#x27;s a free upgrade.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:12">3:12</span><span class="transcript-text">Um I would suggest that if you&#x27;re going to do that, please do that this week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:16">3:16</span><span class="transcript-text">I have a brand new type of presentation that we&#x27;re going to be adding to HoloTalk, which is the synchronized multimedia integrated language or SMILE, which allows the combination of audio, video, um, graphics, pictures, animation, all through the G2 player.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:33">3:33</span><span class="transcript-text">You do not need any special hardware, you do not need any special software.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:37">3:37</span><span class="transcript-text">You just need to upgrade your regular real audio player to the new real player G2, and that&#x27;s a free upgrade uh at the real site so you can go there and download that and uh take advantage of some of these new programs that I&#x27;m going to be putting together for HoloTalk that you would not be able to take advantage of if you just have the regular real player because it does not support smile language.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:00">4:00</span><span class="transcript-text">Okay, it&#x27;s getting getting about that time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:02">4:02</span><span class="transcript-text">I&#x27;m seeing seven fifty seven on on the uh clock here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:05">4:05</span><span class="transcript-text">I told Ray I&#x27;d give him a call at five uh five o&#x27;clock his time out in California which is eight o&#x27;clock uh our time here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">So I&#x27;m going to put this on po uh pose geez.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:15">4:15</span><span class="transcript-text">Boy I wish I could edit this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:17">4:17</span><span class="transcript-text">I&#x27;m gonna put this on pause and uh give Ray a call and get him on the line so we&#x27;ll be right back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:24">4:24</span><span class="transcript-text">Hello, is Ray there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:25">4:25</span><span class="transcript-text">Um yeah three minutes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:31">4:31</span><span class="transcript-text">Sorry to keep every hello Ray.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:33">4:33</span><span class="transcript-text">Hi.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:33">4:33</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:34">4:34</span><span class="transcript-text">Pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:35">4:35</span><span class="transcript-text">I&#x27;d like to welcome Ray Ramirez to HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:38">4:38</span><span class="transcript-text">It&#x27;s uh nice to finally be able to get you on the show after all the great work that you&#x27;ve done uh with lasers and holograms with your Science Fair projects before we get started.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:48">4:48</span><span class="transcript-text">I was wondering if you could tell the listeners a little bit about yourself, uh what your age is, what grade you are, what s school you&#x27;re in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:56">4:56</span><span class="transcript-text">Okay, um I&#x27;m thirteen years old.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:59">4:59</span><span class="transcript-text">Um I&#x27;m in the eighth grade and I go to Terrafilles Middle School in Grand Terrace, California.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:05">5:05</span><span class="transcript-text">And I understand you started out last year working um with lasers and holography as a science fair project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:15">5:15</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:16">5:16</span><span class="transcript-text">How did you get started with something like that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:18">5:18</span><span class="transcript-text">Were you interested in science at the time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:21">5:21</span><span class="transcript-text">Uh no, I I really didn&#x27;t like science.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:23">5:23</span><span class="transcript-text">It was it was really boring and um I was looking for a science fair project and we had two weeks to do this project and uh went you soon &#x27;cause I&#x27;m a big procrastinator and I wanted to dig over with so um that day I I found uh how a di how a hologram is made in a book and it was a little diagram and I thought it&#x27;d be pretty easy, but um i it hasn&#x27;t been that easy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:49">5:49</span><span class="transcript-text">But I decided to do it and I asked my teacher and he said that sounds like a pretty good project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:54">5:54</span><span class="transcript-text">And it kinda opened up doors to electronics and all the stuff, but you really didn&#x27;t like.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:00">6:00</span><span class="transcript-text">So before you got started you didn&#x27;t really like science and then after you worked with it for a while you found out that it was pretty cool.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:07">6:07</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:08">6:08</span><span class="transcript-text">You were one of the first people to order my shoebox holography system back when it was just a couple Xerox sheets of eight and a half by eleven paper before it was into the booklet form.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:21">6:21</span><span class="transcript-text">Did you find that that helped you out a little bit?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:23">6:23</span><span class="transcript-text">Uh, yeah, it did.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:25">6:25</span><span class="transcript-text">Just um knowing that it&#x27;s not that hard and you don&#x27;t need a big expensive heating to make all your own, it&#x27;s um it helped me out a lot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:34">6:34</span><span class="transcript-text">Now you&#x27;re the California State Science Fair winner, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:37">6:37</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">What does that feel like?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">I mean, science fairs are so competitive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:42">6:42</span><span class="transcript-text">I mean it&#x27;s you play baseball, which you know how competitive baseball is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:47">6:47</span><span class="transcript-text">Uhhuh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:48">6:48</span><span class="transcript-text">I mean, winning the California State Science Fair is like the World Series, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:52">6:52</span><span class="transcript-text">I yeah, I remember sitting at home and um I went to the California State Center uh website and I was I was just reading how all these people have done pretty good projects and and uh when the listing came out of everyone&#x27;s project I sat there and circled the ones that might be a problem in it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">And um and I remember I was I was looking at the website a few months before the State Science Fair and hoping I might have a chance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:20">7:20</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:22">7:22</span><span class="transcript-text">So you had a plan of action.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:24">7:24</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:25">7:25</span><span class="transcript-text">And you went in there you actually took a number of science fairs getting there, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:29">7:29</span><span class="transcript-text">Uh yeah, there were three before the State Science Fair, so four total.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:33">7:33</span><span class="transcript-text">Wow, that must be an incredible feeling.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:35">7:35</span><span class="transcript-text">I never won a science fair.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:38">7:38</span><span class="transcript-text">I should have tried holography back when I was in school.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:41">7:41</span><span class="transcript-text">Of course I would have paid like ten thousand dollars for a heaney.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">Back then.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:46">7:46</span><span class="transcript-text">Do you think that the uh the reason that you found this so easy was the fact that um the cost was so low as well?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:54">7:54</span><span class="transcript-text">Well, no, really when I first started I didn&#x27;t know anything about the diodes and I really I didn&#x27;t know you when I first started out and um and I was going to the PCC and viewing my holograms there, I made a few holograms there and I wanted to do it on my own at my house.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:15">8:15</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:15">8:15</span><span class="transcript-text">And then when you found out what was involved, what problems did you find with it that had to be overcome?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:23">8:23</span><span class="transcript-text">Having someone like Fred there just he knew what he was doing, but when I was doing it by myself it&#x27;s um it&#x27;s pretty hard to get a room totally dark and and just buying things cheaper have its advantages but they&#x27;re all there&#x27;s a reason why they&#x27;re cheaper sometimes, they&#x27;re not as good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:47">8:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:47">8:47</span><span class="transcript-text">There were other kids that were listening to this that were thinking about doing lasers and holography for a science fair project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:54">8:54</span><span class="transcript-text">Do you have any tips or suggestions that you would give to them?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:58">8:58</span><span class="transcript-text">Um, one of the big things that that people tell me I&#x27;ve done and and I think I&#x27;ve done a little bit it&#x27;d be very motivated.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:06">9:06</span><span class="transcript-text">Um it doesn&#x27;t really matter how you get your motivation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:10">9:10</span><span class="transcript-text">It it&#x27;d be very nice to to be self-motivated to want to do it yourself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:15">9:15</span><span class="transcript-text">But you have to look for some reason why you want to do this and if like for example, if you don&#x27;t like playing the piano, you&#x27;re not gonna be a very good pianist if you don&#x27;t practice and you don&#x27;t want to do it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">So you have to want to want it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:28">9:28</span><span class="transcript-text">What&#x27;s your motivation?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:30">9:30</span><span class="transcript-text">Uh I just I don&#x27;t know, it&#x27;s Is it the wealth that all of us holographers have?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:38">9:38</span><span class="transcript-text">It&#x27;s kind of the final the final product, what it actually looks like when it&#x27;s done.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:43">9:43</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:44">9:44</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:46">9:46</span><span class="transcript-text">Not too much from anywhere else, like it was kind of I could do it if I wanted to it wasn&#x27;t there was no pressure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:53">9:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:54">9:54</span><span class="transcript-text">What um what are some of your future plans for holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:58">9:58</span><span class="transcript-text">Do you plan on continuing with it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:00">10:00</span><span class="transcript-text">Um, yeah, I I wanna I&#x27;m building a bigger lab at my grandparents&#x27; house right now and um kind of collecting stuff when I see it and hopefully I&#x27;m I wanna build a a post laser and uh maybe a YAG and I want to do some post laser holography and and some stereogram things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:20">10:20</span><span class="transcript-text">Now you told you told me you may be getting one of the um green pointers in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:25">10:25</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:27">10:27</span><span class="transcript-text">Yeah, a company has really close to giving me a green laser pointer and uh hopefully gonna do some experiments with that and and hopefully get some luck and make a few holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:38">10:38</span><span class="transcript-text">Do you have plans for a website in the future?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:40">10:40</span><span class="transcript-text">Yeah, I I wanna start a website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:42">10:42</span><span class="transcript-text">I&#x27;m I&#x27;m working on it a little bit and um I just wanna have some of the experiments that I&#x27;ve done and things like that on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:49">10:49</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:50">10:50</span><span class="transcript-text">Oh that would be good for people to look up and get information on the uh experiments themselves.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:55">10:55</span><span class="transcript-text">Uhhuh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:56">10:56</span><span class="transcript-text">Then you&#x27;ll have to start answering all the email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:59">10:59</span><span class="transcript-text">What do you think about that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:01">11:01</span><span class="transcript-text">Uh it&#x27;s fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:02">11:02</span><span class="transcript-text">I like to help people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:03">11:03</span><span class="transcript-text">It&#x27;s it&#x27;s fun seeing people start off where I started off and and they&#x27;re having some of the same problems that I had or still having it&#x27;s kinda fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:13">11:13</span><span class="transcript-text">Now are you are you interested in art?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:14">11:14</span><span class="transcript-text">Are you going to pursue holographies and artistic means of expression?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:18">11:18</span><span class="transcript-text">Um no, I I know a few people who like the art part of it, but I really like the science part of it and like why it works and do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:27">11:27</span><span class="transcript-text">Um the art part of it is I don&#x27;t understand all the art part of it and it&#x27;s I like the science part but Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:36">11:36</span><span class="transcript-text">Well it it definitely takes a person who has the abilities in both uh the creative thought process and also the scientific thought process as well to ex to excel at holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:46">11:46</span><span class="transcript-text">Yeah it&#x27;s I think it&#x27;d be great to have an artist start making holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:53">11:53</span><span class="transcript-text">There&#x27;s a lot they can do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:54">11:54</span><span class="transcript-text">Would you like to exhibit your work someday?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:56">11:56</span><span class="transcript-text">Uh yeah, that&#x27;d be that&#x27;d be really fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:00">12:00</span><span class="transcript-text">Just to see people looking at my hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:03">12:03</span><span class="transcript-text">Why don&#x27;t you send me one of your holograms and I&#x27;ll put it up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">I&#x27;ll put it up over at the uh Discovery Center, it&#x27;s a new science museum over by Lehigh University.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:11">12:11</span><span class="transcript-text">Right now I&#x27;m I&#x27;m within the next few weeks I&#x27;m gonna try to do a uh shadow gram with uh with a laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:19">12:19</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:20">12:20</span><span class="transcript-text">And uh that PC C and but so far it looks pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:25">12:25</span><span class="transcript-text">Gonna shoot it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:26">12:26</span><span class="transcript-text">I&#x27;m not sure if it&#x27;s gonna be on lava or agra.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">But &#x27;cause that turns out I&#x27;ll thank you one of those.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:33">12:33</span><span class="transcript-text">Now what are the different materials that you&#x27;ve worked with?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:36">12:36</span><span class="transcript-text">Well I started off when I first started off I had a box of V plate with the fourth Apple pack.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:41">12:41</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:42">12:42</span><span class="transcript-text">And I blew all of those I got almost a hologram in one of them, but uh the other three I blew.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:49">12:49</span><span class="transcript-text">And I&#x27;ve used some ACRA and um Russian Russian film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:56">12:56</span><span class="transcript-text">And you find all of them to be fairly easy to work with?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:59">12:59</span><span class="transcript-text">I hate the um the PFG O three M.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:04">13:04</span><span class="transcript-text">And it&#x27;s really hard to work with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:06">13:06</span><span class="transcript-text">But the run Yeah, at at low powers like that, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:09">13:09</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:10">13:10</span><span class="transcript-text">I was doing thirty second exposures and I actually got a little bit but not in the not in the O three M.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:16">13:16</span><span class="transcript-text">Mm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:16">13:16</span><span class="transcript-text">And it&#x27;s it&#x27;s it&#x27;s a weird processing how you process it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">But I like the PSG O one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:23">13:23</span><span class="transcript-text">Now when you work with that, do you expose that film to any white light?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:27">13:27</span><span class="transcript-text">No.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:27">13:27</span><span class="transcript-text">Late sensification?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:29">13:29</span><span class="transcript-text">No, I think you do I haven&#x27;t done it but I think you do it with the O three M, but uh Oh just the O three.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:34">13:34</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:35">13:35</span><span class="transcript-text">I I haven&#x27;t done it with the O one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:37">13:37</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:37">13:37</span><span class="transcript-text">Any comments you wanna make to anyone before we close the show out?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:41">13:41</span><span class="transcript-text">Um I&#x27;m just listening to people run up and down the steps.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">I don&#x27;t know what&#x27;s going on upstairs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:45">13:45</span><span class="transcript-text">I do this down in the studio and everybody&#x27;s running up and down the steps.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:48">13:48</span><span class="transcript-text">I don&#x27;t know what the heck&#x27;s going on, so that&#x27;s why there was a little bit of a blank space there for a minute.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:52">13:52</span><span class="transcript-text">Oh yeah I&#x27;m kinda I think I&#x27;m gonna go eat dinner right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">You&#x27;re gonna go eat dinner?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:57">13:57</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:58">13:58</span><span class="transcript-text">That&#x27;s right, it&#x27;s like five forty seven out there, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:01">14:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:01">14:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">Well I&#x27;m gonna have this show up probably within the next hour so uh when you log on maybe you&#x27;ll be able to get on and see it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">Or listen to it rather, not see it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:12">14:12</span><span class="transcript-text">Do you have real player G two?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:14">14:14</span><span class="transcript-text">Um or just real player?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:16">14:16</span><span class="transcript-text">Real player.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:17">14:17</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:18">14:18</span><span class="transcript-text">&#x27;Cause I&#x27;m gonna be doing some pretty neat stuff with the G tube uh system.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:21">14:21</span><span class="transcript-text">Is that a free download?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:22">14:22</span><span class="transcript-text">Yeah, it&#x27;s a free la it&#x27;s actually a uh upgrade just from the five point oh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:26">14:26</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:26">14:26</span><span class="transcript-text">And it&#x27;s free.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:29">14:29</span><span class="transcript-text">It combines a lot of different multimedia things and graphics and text and things into one unit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:35">14:35</span><span class="transcript-text">Synchronized.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:36">14:36</span><span class="transcript-text">Did you do a um actual picture broadcast?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:40">14:40</span><span class="transcript-text">I&#x27;m going to start doing that with the G2, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">Uh huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">You have to start your own radio show so I can log on and listen to you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:47">14:47</span><span class="transcript-text">I&#x27;m the only person in holography that can&#x27;t log on and enjoy a show every week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:52">14:52</span><span class="transcript-text">I&#x27;d lo I&#x27;d like to be able to just sit back you know with a cup of tea and uh listen to somebody do a show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:57">14:57</span><span class="transcript-text">Yeah that&#x27;d be that&#x27;d be pretty neat.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:00">15:00</span><span class="transcript-text">So why don&#x27;t you send me one of your holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:02">15:02</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:02">15:02</span><span class="transcript-text">And I&#x27;ll get it up and displayed, put information up about you as well &#x27;cause I know you sent an information packet as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:09">15:09</span><span class="transcript-text">And I&#x27;ll make sure that information gets up there with it and uh get some people to uh see your hologram, maybe you get some email from them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:17">15:17</span><span class="transcript-text">Get some fan mail.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:19">15:19</span><span class="transcript-text">And congratulations on all your achievements.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:21">15:21</span><span class="transcript-text">Thanks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:22">15:22</span><span class="transcript-text">And you&#x27;re pretty certain you&#x27;re going to stick with holography, huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:25">15:25</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:26">15:26</span><span class="transcript-text">So um someone to keep an eye on folks in the next few years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:30">15:30</span><span class="transcript-text">Ray Ramirez from California.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:33">15:33</span><span class="transcript-text">What city?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:34">15:34</span><span class="transcript-text">Riverside.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:34">15:34</span><span class="transcript-text">Riverside California, it&#x27;s just outside of Los Angeles?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:37">15:37</span><span class="transcript-text">Uh uh an hour to an hour and a half drive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:40">15:40</span><span class="transcript-text">Oh okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:41">15:41</span><span class="transcript-text">North or is uh Los Angeles north or south of you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:44">15:44</span><span class="transcript-text">Um Southwest or maybe.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:46">15:46</span><span class="transcript-text">Southwest.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:48">15:48</span><span class="transcript-text">Okay, so you&#x27;re f you&#x27;re up further north.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">You&#x27;re up on the way towards um San Francisco?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:53">15:53</span><span class="transcript-text">No, down by San Rodino.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:55">15:55</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:56">15:56</span><span class="transcript-text">I don&#x27;t know too much about California.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">Yeah, closer to San Diego.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:00">16:00</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:01">16:01</span><span class="transcript-text">All right, Ray.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:02">16:02</span><span class="transcript-text">Well thanks for being on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:03">16:03</span><span class="transcript-text">All right, thanks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">And I want to wish you a lot of luck and a lot of success.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:08">16:08</span><span class="transcript-text">And I&#x27;m looking forward to uh following your future pursuits and successes in the field of philography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">I&#x27;ll see you later.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:17">16:17</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:18">16:18</span><span class="transcript-text">Bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:18">16:18</span><span class="transcript-text">Bye.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frankie Freitas and the Internet Web Museum of Holography. Hello everyone, this is Frankie Freitas and welcome to another week of Holography for the week of October 4th, 1999. It&#x27;s getting pretty close to the time where I have to upload this to the web. In fact, it&#x27;s 8 o&#x27;clock on Sunday night. I&#x27;d like to have this up at least 9 or 10 o&#x27;clock. So we&#x27;re going to be doing this live tonight. Our guest this week is Ray Ramirez and he&#x27;s going to be with us in just a minute. In fact, I&#x27;m going to be dialing his number live here from the studio and getting him on. Before we do, I just want to give you a few reminders. The first reminder is this Wednesday, October 4th, 1999. And I put that date in there just in case someone&#x27;s listening to this two years in the future in the archives and they&#x27;re thinking that it&#x27;s this week in 2000. No, this is 1999, October 4th, this Wednesday. Open house, the first one of the season here at the studio. The topic&#x27;s going to be laser transmission holograms. We&#x27;re going to have a little talk about laser transmission holograms and then go into the lab and see some of the laser transmission holograms. These are really interesting holograms because normally people do not have an opportunity to see these outside of a laboratory environment because they normally, or usually all the time, require lasers in order to allow them to see. And they&#x27;re not going to illuminate them. And therefore, usually when you go to a gallery or you&#x27;re in a holography shop, you see holograms on the walls or holograms on pedestals being illuminated with white light sources. But on occasion, you&#x27;ll see a laser transmission hologram sometimes in a more scientific exhibit. But this will give you an opportunity to see quite a few of these. And it&#x27;s going to be a pretty interesting night. So that&#x27;s this Wednesday evening, October 4th. Is that right? October 6th. I&#x27;m sorry. Here I am giving you the wrong information. This Wednesday, October 6th at 7.30 p.m. here at the studio in Allentown. Send me an e-mail if you&#x27;d like more information or you can call the studio&#x27;s number at area code 610-770-0341. That&#x27;s 610-770-0341. Lots of upcoming guests coming on. I&#x27;m not going to say who they are because sometimes we have to switch schedules around and things of that nature. So we&#x27;ll just play it by ear. And if you get on the Holotalk e-mail list, you&#x27;ll be able to. Find out which guest is coming on for which week. John Clayer, who has been a guest on the show and was one of the very early players with the laser pointer holography, has made a nice diode hologram using fiber optics. And I&#x27;m going to get more information from John. This is very exciting, especially for school projects. So another aspect to laser pointer diode holography that we can put on in the books. And it&#x27;s a nice hologram. And using fiber optics. And we&#x27;re going to get more information from John in the near future. If you have not upgraded your real audio player, excuse me, to the new G2 player, and it&#x27;s a free upgrade. I would suggest that if you&#x27;re going to do that, please do that this week. I have a brand new type of presentation that we&#x27;re going to be adding to Holotalk, which is the synchronized multimedia integrated language, or SMILE, which allows you to use your phone. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. And it&#x27;s a great tool. Yes, just a minute. Sorry to keep everybody... Hello, Ray. Hi. How are you? Pretty good. I&#x27;d like to welcome Ray Ramirez to HoloTalk. It&#x27;s nice to finally be able to get you on the show after all the great work that you&#x27;ve done with lasers and holograms, with your science fair projects. Before we get started, I was wondering if you could tell the listeners a little bit about yourself, what your age is, what grade you are, what school you&#x27;re in. Okay. I&#x27;m 13 years old. I&#x27;m in the eighth grade, and I go to Terrace Hills Middle School in Grand Terrace, California. And I understand you started out last year working...
 
 I go to Terrace Hills Middle School in Grand Terrace, California. And I understand you started out last year working with lasers and holography as a science fair project. Yes. How did you get started with something like that? Were you interested in science at the time? No, I really didn&#x27;t like science. It was really boring. I was looking for a science fair project and we had two weeks to do this project. And I wanted to do it soon because I&#x27;m a big procrastinator and I wanted to get over with it. So that day I found how a hologram is made in a book. And it was a little diagram. And I thought it would be pretty easy, but it hasn&#x27;t been that easy. But I decided to do it. And I asked my teacher and he said, that sounds like a pretty good project. And it kind of opened up doors to electronics and all the stuff I really didn&#x27;t like. So before you got started you didn&#x27;t really like science. And then after you worked with it for a while you found out that it was pretty cool. Yeah. You were one of the first people to order my shoebox holography system back when it was just a couple Xerox sheets of 8.5 by 11 paper before it was into the booklet form. Did you find that that helped you out a little bit? Yeah, it did. Just knowing that it&#x27;s not that hard. You don&#x27;t need a book. It&#x27;s not that hard. You don&#x27;t need a big expensive heating to make holograms. It helped me out a lot. Now you&#x27;re the California State Science Fair winner, right? Yeah. What does that feel like? I mean, science fairs are so competitive. I mean, you play baseball, which you know how competitive baseball is. I mean, winning the California State Science Fair is like the World Series, right? Yeah. I remember sitting at home. I went to the California State Science Fair website and I was just reading how all these people are doing pretty good projects. When the listing came out of everyone&#x27;s project, I sat there and cycled the ones that might be a problem. I remember I was looking at the website a few months before the state science fair and hoping I might have a chance. So you had a plan of action? Yeah. You actually took a number of science fairs getting there, right? Yeah. There were three before the state science fair, so four total. Wow. That must be an incredible feeling. I never won a science fair. I should have tried holography back when I was in school. Of course, I would have paid like $10,000 for a Heaney back then. Do you think that the reason that you found this so easy was the fact that the cost was so low as well? Well, no. Really, when I first started, I didn&#x27;t know anything about the diodes. I didn&#x27;t know you when I first started out. I was going to the PCC and doing my holograms there. I made a few holograms there. I wanted to do it on my own at my house. Yeah. Then when you found out what was involved, what problems did you find with it that had to be overcome? Having someone like Fred there, he knew what he was doing. When I was doing it by myself, it&#x27;s pretty hard to get a room totally dark. Just buying things cheaper has its advantages, but there&#x27;s a reason why they&#x27;re cheaper sometimes. They&#x27;re not as good. Things like that, like the safelines, aren&#x27;t all the way green. Yeah. There were other kids that were listening to this that were thinking about doing laser science. They were thinking about doing laser science. Yeah. They were thinking about doing laser sonography for a science fair project. Do you have any tips or suggestions that you would give to them? One of the big things that people tell me I&#x27;ve done, and I think I&#x27;ve done a little bit, is be very motivated. It doesn&#x27;t really matter how you get your motivation. It&#x27;d be very nice to be self-motivated, to want to do it yourself, but you have to look for some reason why you want to do this. For example, if you don&#x27;t like playing the piano, you don&#x27;t want to do it. Yeah. So you have to want ... you have to want ... What&#x27;s your motivation? I don&#x27;t know ... Is it the wealth that all of us holographers have? Kind of the final product ... what it actually looks like when it&#x27;s done ... not too much from anywhere else ... it was kind of ... I could do it if I wanted to ... Not too much from anywhere else. Like, it was kind of, I could do it if I wanted to. It wasn&#x27;t, there was no pressure. What are some of your future plans for holography? Do you plan on continuing with it? Yeah, I&#x27;m building a bigger lab at my grandparents&#x27; house right now. And I&#x27;m kind of collecting stuff when I see it. And hopefully...
 
 I&#x27;m building a bigger lab at my grandparents&#x27; house right now. I&#x27;m kind of collecting stuff when I see it. Hopefully, I want to build a pulse laser and maybe a YAG. I want to do some pulse laser holography and some stereograms and things like that. You told me you may be getting one of the green pointers in. Yes. You plan on working with those as well. Yes, a company is really close to giving me a green laser pointer. Hopefully, I&#x27;m going to do some experiments with that and hopefully get some work and make a few holograms. Do you have plans for a website in the future? Yes, I want to start a website. I&#x27;m working on it a little bit. I just want to have some of the experiments that I&#x27;ve done and things like that on there. That would be good for people to look up and get information on the experiments themselves. Then you&#x27;ll have to start a new lab. You&#x27;ll have to start answering on the email. What do you think about that? It&#x27;s fun. I like to help people. It&#x27;s fun seeing people start off where I started off and they&#x27;re having some of the same problems that I had or am still having. It&#x27;s kind of fun. Are you interested in art? Are you going to pursue holography as an artistic means of expression? No. I know a few people who like the art part of it, but I really like the science part of it. I like why it works and things like that. The art part of it is, I don&#x27;t understand all the art part of it. I like the science part of it. It definitely takes a person who has the abilities in both the creative thought process and also the scientific thought process as well to excel at holography. I think it would be great to have an artist start making holograms. There&#x27;s a lot they can do. Would you like to exhibit your work someday? Yeah, that would be really fun. Just to see people looking at my hologram. Why don&#x27;t you send me one of your holograms and I&#x27;ll put it up. Okay. I&#x27;ll put it up over at the Discovery Center, the new science museum over by Lehigh University. Right now, within the next few weeks, I&#x27;m going to try to do a shattergram with a little laser pointer and that piece you see. So far, it looks pretty good. I&#x27;m not sure if it&#x27;s going to be on lavish film or AGFA. But if that turns out, I&#x27;ll send you one of those. What are the different materials that you&#x27;ve worked with? Well, I started off, when I first started off, I had a box of V plates, the forced apple pack. And I blew all of those. I got almost a hologram in one of them, but the other three I blew. And I&#x27;ve used some AGFA and Russian film. And you find all of them to be fairly easy to work with? I hate the PST03M. Right. It&#x27;s really hard to work with. Yeah, at low powers like that, right? Yeah. I was doing 30-second exposures, and I actually got a little bit, but not in the 03M. And it&#x27;s weird processing, how you process it. But I like the PST01. Now, when you work with that, do you expose that film to any white light? No. Late intensification? No. I think you do. I haven&#x27;t done it, but I think you do it with the 03M. Oh, just the 03? Yeah. I haven&#x27;t done it with the 01. Any comments you want to make to anyone before we close the show out? I&#x27;m just listening to people run up and down the steps. I don&#x27;t know what&#x27;s going on upstairs. I do this down in the studio, and everybody&#x27;s running up and down the steps. I don&#x27;t know what the heck&#x27;s going on. So that&#x27;s why there was a little bit of a blank space there for a minute. Oh. Yeah. I&#x27;m kind of... I think I&#x27;m going to go eat dinner right now. You&#x27;re going to go eat dinner? Yeah. That&#x27;s right. It&#x27;s like 547 out there, right? Yeah. Yeah. Well, I&#x27;m going to have this show up probably, I don&#x27;t know, about 10 minutes. I&#x27;m going to have to go eat dinner. I think I&#x27;m going to go eat dinner right now. You&#x27;re going to go eat dinner? Yeah. That&#x27;s right. It&#x27;s like 547 out there, right? Yeah. Yeah. Well, I&#x27;m going to have this show up probably within the next hour or so. When you log on, maybe you&#x27;ll be able to get on and see it. Okay. Or listen to it, rather, not see it. Do you have real player G2? I don&#x27;t know. Or did you say real player? Real player. Okay. Because I&#x27;m going to be doing some pretty neat stuff with the G2 system. Is that a free download? Yeah. It&#x27;s a free download. It&#x27;s actually a free download. It&#x27;s a free download. It&#x27;s a free download. It&#x27;s a free download. It&#x27;s actually a upgrade just from the 5.0. Okay. That&#x27;s free. I&#x27;m going to go get that. It combines a lot of different multimedia things and graphics and text and things into one unit synchronized. I remember sometimes. Did you do an actual picture broadcast? I&#x27;m going to start doing that with the G2, yeah. You have to start your own radio show so I can log on and listen to you. I&#x27;m the only person who has a radio show. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m a radio host. I&#x27;m the only person in holography that can&#x27;t log on and enjoy a show every week. I&#x27;d like to be able to just sit back, you know, with a cup of tea, and listen to somebody do a show. Yeah, that would be pretty neat. So, why don&#x27;t you send me one of your holograms, and I&#x27;ll get it up and displayed, put information up about you as well, because I know you send an information packet as well, and I&#x27;ll make send an information packet as well. I want to make sure that if...
 
-So why don&#x27;t you send me one of your holograms, and I&#x27;ll get it up and displayed. Put information up about you as well, because I know you sent an information packet as well. I&#x27;ll make sure that information gets up there with it. Get some people to see your hologram. Maybe get some email from them. Get some fan mail. And congratulations on all your achievements. Thanks. And you&#x27;re pretty certain you&#x27;re going to stick with holography, huh? Yeah. So someone to keep an eye on, folks, in the next few years. Ray Ramirez from California. What city? Riverside. Riverside, California. It&#x27;s just outside of Los Angeles? An hour or two and a half drive. Oh, okay. Los Angeles north or south of you? Southwest, I think. Southwest. Okay, so you&#x27;re up further north. You&#x27;re up on the way towards San Francisco? No, down by San Bernardino. Oh, okay. I don&#x27;t know too much about California. Okay. And closer to San Diego. Oh, okay. All right, Ray. Well, thanks for being on the show. All right, thanks. And I want to wish you a lot of luck and a lot of success. And I&#x27;m looking forward to following your future pursuits and successes in the field of holography. I&#x27;ll see you later. Okay. Bye. Bye.!</div>
+So why don&#x27;t you send me one of your holograms, and I&#x27;ll get it up and displayed. Put information up about you as well, because I know you sent an information packet as well. I&#x27;ll make sure that information gets up there with it. Get some people to see your hologram. Maybe get some email from them. Get some fan mail. And congratulations on all your achievements. Thanks. And you&#x27;re pretty certain you&#x27;re going to stick with holography, huh? Yeah. So someone to keep an eye on, folks, in the next few years. Ray Ramirez from California. What city? Riverside. Riverside, California. It&#x27;s just outside of Los Angeles? An hour or two and a half drive. Oh, okay. Los Angeles north or south of you? Southwest, I think. Southwest. Okay, so you&#x27;re up further north. You&#x27;re up on the way towards San Francisco? No, down by San Bernardino. Oh, okay. I don&#x27;t know too much about California. Okay. And closer to San Diego. Oh, okay. All right, Ray. Well, thanks for being on the show. All right, thanks. And I want to wish you a lot of luck and a lot of success. And I&#x27;m looking forward to following your future pursuits and successes in the field of holography. I&#x27;ll see you later. Okay. Bye. Bye.!</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

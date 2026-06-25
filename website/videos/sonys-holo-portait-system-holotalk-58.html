@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,11 +456,108 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frank DeFreitas and the Internet Web Museum of Holography. Hello everyone, this is Frank DeFreitas and welcome to another week of Holotalk for the week of May 24th, 1999. Welcome to the show. This is a special show in two respects. Number one, this is the last show of the season. Holotalk goes off each year, Memorial Day has the summer off, and then comes back Labor Day with a brand new season of shows. But we have the reruns for you to enjoy all summer long until we come back. The second special thing is the fact that this is not only being broadcast in audio, but it&#x27;s being broadcast in video as well. So if you have RealPlayer, which supports video, just look on the Holotalk page to see the link that says watch the show, click on it, and you&#x27;ll be able to see into the Holotalk studios. Now the reason why I&#x27;m doing this right now is what I&#x27;d like to eventually do with this camera is to take it out on the road to maybe different holography events, or if a holographer happens to be in town or someone&#x27;s in the studio, we can do a Holotalk show in both audio and video. So you can have a choice of either just listening to the show or tuning in and seeing the show as well. So that&#x27;s going to be something we&#x27;re going to be doing next year, well actually this year, but next season, which starts up Labor Day. I believe September 13th this year. I&#x27;d also like to mention about the email list. Now if you&#x27;re on the email list, which gets updates, usually on a weekly basis, you&#x27;ll know that this week&#x27;s email told you that the email list was going to be deleted. And that&#x27;s true. I do that at the end of each season. I completely clear out the email list. What you need to do if you&#x27;d like to stay on the list is either respond to that email or on the Holotalk, you&#x27;ll see the button which you can click on that says updates. And this will put you back on the list again. And we have a lot of things coming up this summer. And even though there won&#x27;t be any brand new Holotalk shows, although we may sneak a special one in now and then, there&#x27;s a lot of exciting things that are coming up, especially in the next few weeks. Sam Savage is working with a 35 milliwatt diode and getting the power supply together for that. And what we&#x27;re going to do in the next couple of weeks, is you&#x27;re going to have an opportunity to come back onto the website and see how you can build your own 35 milliwatt laser diode to do holograms with. And we&#x27;re thinking the price is going to be around $75 in order for you to do that. Everything that you need that will take the place of a standard 35 milliwatt laser, helium neon laser. So that&#x27;s very exciting. We&#x27;re going to have that entire report up at the site. If you&#x27;re not on the email list, you will not get an email telling you that this is up there. So I suggest that you respond to that email, get back on the email list if you wish to get information on that. A lot of exciting stuff coming up over the summer, even though we&#x27;re not going to have any brand new shows. Now, the whole point of this show this week is the instant holographic portrait printing system from Sony. I had the opportunity to go into New York City this week. And visit with Akira Shirakura, who is in the United States right now at the Sony building at 56th and Madison Avenue in downtown Manhattan, or midtown Manhattan actually. And if you have an opportunity to stop by there, they&#x27;re open every day of the week except for Monday. And I think Sunday&#x27;s hours are actually noon to 4. But you can have your own holographic portrait done for $5. It&#x27;s a small holographic portrait. It&#x27;s about the size of a postage stamp. I had one done. I took my daughter in. And my daughter had one done. And it comes out. Let me see if I can grab this here. Of course, this isn&#x27;t allowing me to pick it up. My daughter had one done as well. They put it on a little card. I&#x27;m holding it up to the camera now. You probably won&#x27;t be able to see the image because the image is rather small. I want to see if I can get it a little bit closer up there. But that&#x27;s the card that it comes on. And let me just read the first paragraph of the ad. It says, The system consists of a capturing camera, a high-speed image processing device, and a desktop one-step holographic stereogram printer. It takes less than three minutes to obtain a horizontal parallax 3D image, 78 millimeter by 59 millimeter, on DuPont photopolymer film. And that also includes capturing images and images of the image. And that&#x27;s the first paragraph. It includes capturing and the image processing time. So from the time you sit down and have that camera, it&#x27;s actually a camera on a rail that passes by you, it takes seven seconds, and I believe 295 individual pictures are processed in that time. But it only takes three minutes for that hologram to be created.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frankie Freitas and the Internet Museum of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">Hello everyone, this is Frank Defradis, and welcome to another week of HoloTalk for the week of May 24th, 1999.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:20">0:20</span><span class="transcript-text">Welcome to the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:21">0:21</span><span class="transcript-text">This is a special show in two respects.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">Number one, this is the last show of the season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">Holo Talk goes off each year, Memorial Day, has the summer off, and then comes back Labor Day with a brand new season of shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:34">0:34</span><span class="transcript-text">But we have the reruns for you to enjoy all summer long until we come back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:38">0:38</span><span class="transcript-text">The second special thing is the fact that this is not only being broadcast in audio, but it&#x27;s being broadcast in video as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:45">0:45</span><span class="transcript-text">So if you have real player which supports video, just look on the HoloTalk page to see the link that says watch the show, click on it, and you&#x27;ll be able to see into the HoloTalk studios.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:55">0:55</span><span class="transcript-text">Now the reason why I&#x27;m doing this right now is what I&#x27;d like to eventually do with this camera is to take it out on the road to maybe different holography events, or if a holographer happens to be in town or someone&#x27;s in the studio, we can do a holo talk show in both audio and audio and video.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:12">1:12</span><span class="transcript-text">So you can have a choice of either just listening to the show or tuning in and seeing the show as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:18">1:18</span><span class="transcript-text">So that&#x27;s going to be something we&#x27;re going to be doing next year, uh well actually this year, but next season, which starts up at Labor Day, which is uh I believe September thirteenth this year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:29">1:29</span><span class="transcript-text">I&#x27;d also like to mention about the email list.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:32">1:32</span><span class="transcript-text">Now if you&#x27;re on the email list which gets updates, uh usually on a weekly basis, you&#x27;ll know that this week&#x27;s email told you that the email list was going to be deleted, and that&#x27;s true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:43">1:43</span><span class="transcript-text">I do that at the end of each season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:44">1:44</span><span class="transcript-text">I completely clear out the email list.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:48">1:48</span><span class="transcript-text">What you need to do if you&#x27;d like to stay on the list is either respond to that email or on the HoloTalk page you&#x27;ll see the button which uh you can click on that says updates and this will put you back on the list again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:03">2:03</span><span class="transcript-text">And we have a lot of things coming up this summer and uh even though there won&#x27;t be any brand new HoloTalk shows, although we may sneak a special one in now and then there&#x27;s a lot of exciting things that are coming up, especially in the next few weeks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:17">2:17</span><span class="transcript-text">Sam Savage is uh working with a 35 milliwatt diode and getting the power supply together for that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:23">2:23</span><span class="transcript-text">And what we&#x27;re going to do in the next couple weeks is you&#x27;re going to have an opportunity to come back onto the website and see how you can build your own 35 milliwatt laser diode to do holograms with and we&#x27;re thinking the price is going to be about $75 in order for you to do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:42">2:42</span><span class="transcript-text">Everything that you need that will take the place of a standard 35 milliwatt laser uh helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:50">2:50</span><span class="transcript-text">So that&#x27;s very exciting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:51">2:51</span><span class="transcript-text">We&#x27;re going to have that entire report up at the site.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:54">2:54</span><span class="transcript-text">If you&#x27;re not on the email list anymore you will not get an email telling you that this is up there so I suggest that you uh respond to that email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:02">3:02</span><span class="transcript-text">Get back on the email list if you wish to get information on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:07">3:07</span><span class="transcript-text">A lot of exciting stuff coming up over the summer even though we&#x27;re not going to have any uh brand new shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:14">3:14</span><span class="transcript-text">Now the whole point of this show this week is the uh instant holographic portrait printing system from Sony.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:21">3:21</span><span class="transcript-text">I would have the opportunity to go into New York City this week and visit with a Kyra Shirakura who is in the United States right now at the Sony building at 56th and Madison Avenue in downtown Manhattan or midtown Manhattan actually.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:37">3:37</span><span class="transcript-text">And if you have an opportunity to stop by there, they&#x27;re open every day of the week except for Monday, and I think Sunday&#x27;s hours are actually noon to four.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:45">3:45</span><span class="transcript-text">But you can have your own holographic portrait done for $5.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">It&#x27;s a small holographic portrait.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:51">3:51</span><span class="transcript-text">It&#x27;s about the size of a postage stamp.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:54">3:54</span><span class="transcript-text">I had one done.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:55">3:55</span><span class="transcript-text">I took my daughter in, and my daughter had one done.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:58">3:58</span><span class="transcript-text">And it comes out, let me see if I can grab this here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:00">4:00</span><span class="transcript-text">Of course, this isn&#x27;t allowing me to pick it up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:04">4:04</span><span class="transcript-text">My daughter had one uh done as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">They put it on a little card.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:07">4:07</span><span class="transcript-text">I&#x27;m holding it up to the camera now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:09">4:09</span><span class="transcript-text">You probably won&#x27;t be able to see the image because the image is rather small, and let&#x27;s see if I can get it a little bit closer up there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:15">4:15</span><span class="transcript-text">But that&#x27;s the card that it comes on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:18">4:18</span><span class="transcript-text">And let me just read the uh first paragraph of the abstract here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:23">4:23</span><span class="transcript-text">It says the system consists of a capturing camera, a high-speed image processing device, and a desktop one-step holographic stereogram printer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:35">4:35</span><span class="transcript-text">It takes less than three minutes to obtain a horizontal parallax 3D image, 78 millimeter by 59 millimeter, on DuPont Photopolymer film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:48">4:48</span><span class="transcript-text">And that also includes uh includes capturing and the image processing time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:53">4:53</span><span class="transcript-text">So from the time you sit down and have that camera, it&#x27;s actually a camera on a rail that passes by you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:59">4:59</span><span class="transcript-text">It takes seven seconds, and I believe 295 individual pictures are processed in that time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">But it only takes three minutes for that hologram to be created entirely automatically.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:12">5:12</span><span class="transcript-text">Now, since the holographic stereogram printer is designed for easy operation under non-laboratory conditions, an anti-vibration table or a dark room is not necessary.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:22">5:22</span><span class="transcript-text">And folks, let me tell you, this camera is absolutely incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:26">5:26</span><span class="transcript-text">The uh the technology that&#x27;s built into this, and they did a wonderful job.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">And if you look on the HoloTalk page, you will see a link going to the Sony page that I put up, which will contain uh a few diagrams from this abstract that I have, along with a few photographs that I was able to take of the unit itself during my trip to New York.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:47">5:47</span><span class="transcript-text">And you&#x27;ll be able to get some information on how this works.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:51">5:51</span><span class="transcript-text">And how wonderful it is to have something like this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:53">5:53</span><span class="transcript-text">Isn&#x27;t it incredible?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:54">5:54</span><span class="transcript-text">Now, if you&#x27;re an amateur or hobbyist, now this is a prototype unit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:58">5:58</span><span class="transcript-text">Sony at this point in time is not making any plans to make an announcement that this unit&#x27;s going to be available for purchase or anything like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:06">6:06</span><span class="transcript-text">It&#x27;s completely a prototype unit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:09">6:09</span><span class="transcript-text">And if you are an amateur or hobbyist holographer, and you would like to do your own holographic portraits, there&#x27;s also a link on the HoloTalk page, and I&#x27;ll have it on the Sony page as well, where I&#x27;m putting my manual together right now, and it&#x27;s just about finished.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:24">6:24</span><span class="transcript-text">I&#x27;m going to have it finished for June, where you can learn how to do your own holographic portraits using your 35 millimeter camera and either your helium neon laser or your laser diode, whichever one you choose.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">And they&#x27;re very nice holographic portraits, and it&#x27;s uh portraits is a wonderful thing for holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:45">6:45</span><span class="transcript-text">I mean, you can see holograms of all these different objects and all the different things that you see in a hologram shop.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:51">6:51</span><span class="transcript-text">But when you start to make hologram portraits, you are really personalizing holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:58">6:58</span><span class="transcript-text">It becomes very meaningful to someone when you do a holographic portrait.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">You could do a holographic portrait of someone&#x27;s grandparents so that they could have a 3D hologram of their grandparents.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">How about the newborn in the family?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">Or with this process, it doesn&#x27;t necessarily have to be a person.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:17">7:17</span><span class="transcript-text">You can take your 35 millimeter camera outdoors and do something inside of a museum or maybe out in a park or something like that and bring that film back in and turn it into a three-dimensional hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">It doesn&#x27;t necessarily have to be a portrait of a person.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:35">7:35</span><span class="transcript-text">So I&#x27;m going to have this manual finished by June.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:43">7:43</span><span class="transcript-text">So I want to make sure everything&#x27;s right with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">And also I would suggest you check that out as well when you&#x27;re also checking out the Sony page as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">So that about wraps it up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">I don&#x27;t want to make this show too long because this is not only audio, but it&#x27;s video, and I have no idea how big this file is going to be, but I imagine it&#x27;s going to be pretty huge.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:01">8:01</span><span class="transcript-text">So if you had an opportunity to watch it, would you do me a favor?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:04">8:04</span><span class="transcript-text">Would you send me an email and let me know that you watched the show?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:07">8:07</span><span class="transcript-text">It would mean a lot to me to see how many people have chosen to either listen to the show or have chosen to watch it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:14">8:14</span><span class="transcript-text">And that feedback that you send to me is very valuable because it will let me know just what the listeners and viewers want with holography and uh information presented to them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:26">8:26</span><span class="transcript-text">So, folks, I want to thank you very, very much for tuning into this show the last season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:32">8:32</span><span class="transcript-text">It&#x27;s uh the end of the second season now, the season coming up, the 1999-2000 season, will be the third season of HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:41">8:41</span><span class="transcript-text">I&#x27;ve got a lot of interesting ideas I want to work out and a lot of interesting shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:46">8:46</span><span class="transcript-text">We will still have a few things on the website over the summer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:49">8:49</span><span class="transcript-text">Get yourself back on the email list.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">But I want to thank you very much for tuning in and making me feel welcome to come into your homes, your offices, and your schools with laser and holography information each week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:59">8:59</span><span class="transcript-text">And it&#x27;s certainly been an honor to do this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:04">9:04</span><span class="transcript-text">And God willing, I&#x27;m looking forward to coming back in the fall and starting it all over again and always, always, always making better making it better than it was the last time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:15">9:15</span><span class="transcript-text">So thank you very much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:16">9:16</span><span class="transcript-text">Have a very safe and happy summer and God willing I will see you in the fall when HoloTalk starts up on its third season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:25">9:25</span><span class="transcript-text">This is Frank Defratis signing off for the summer of nineteen ninety nine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:32">9:32</span><span class="transcript-text">Would you like to make your own one of a kind hologram and learn how you can start making holograms on your own at the same time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:39">9:39</span><span class="transcript-text">You can do this and much more by attending one of Frank Defradas&#x27;s holography workshops.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:44">9:44</span><span class="transcript-text">From beginner to advanced, Frank&#x27;s got a workshop that&#x27;s just right for you from single afternoon, evening or weekend introductory workshops to Wednesday evening five-week complete courses.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:55">9:55</span><span class="transcript-text">And don&#x27;t forget his newest workshop, Laser Pointer Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:59">9:59</span><span class="transcript-text">Located just off the Northeast extension of the Pennsylvania Turnpike and Interstate 78, the studio is a quick nonstop drive from the New York, Philadelphia and Baltimore, Washington DC areas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:11">10:11</span><span class="transcript-text">For more information call the studio&#x27;s toll-free hotline at one-eight hundred four five eight three five two five and begin your own journey with holography today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:21">10:21</span><span class="transcript-text">That&#x27;s one eight hundred four five eight three five two five for more information on attending a Frank Defradus holography workshop today</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frank DeFreitas and the Internet Web Museum of Holography. Hello everyone, this is Frank DeFreitas and welcome to another week of Holotalk for the week of May 24th, 1999. Welcome to the show. This is a special show in two respects. Number one, this is the last show of the season. Holotalk goes off each year, Memorial Day has the summer off, and then comes back Labor Day with a brand new season of shows. But we have the reruns for you to enjoy all summer long until we come back. The second special thing is the fact that this is not only being broadcast in audio, but it&#x27;s being broadcast in video as well. So if you have RealPlayer, which supports video, just look on the Holotalk page to see the link that says watch the show, click on it, and you&#x27;ll be able to see into the Holotalk studios. Now the reason why I&#x27;m doing this right now is what I&#x27;d like to eventually do with this camera is to take it out on the road to maybe different holography events, or if a holographer happens to be in town or someone&#x27;s in the studio, we can do a Holotalk show in both audio and video. So you can have a choice of either just listening to the show or tuning in and seeing the show as well. So that&#x27;s going to be something we&#x27;re going to be doing next year, well actually this year, but next season, which starts up Labor Day. I believe September 13th this year. I&#x27;d also like to mention about the email list. Now if you&#x27;re on the email list, which gets updates, usually on a weekly basis, you&#x27;ll know that this week&#x27;s email told you that the email list was going to be deleted. And that&#x27;s true. I do that at the end of each season. I completely clear out the email list. What you need to do if you&#x27;d like to stay on the list is either respond to that email or on the Holotalk, you&#x27;ll see the button which you can click on that says updates. And this will put you back on the list again. And we have a lot of things coming up this summer. And even though there won&#x27;t be any brand new Holotalk shows, although we may sneak a special one in now and then, there&#x27;s a lot of exciting things that are coming up, especially in the next few weeks. Sam Savage is working with a 35 milliwatt diode and getting the power supply together for that. And what we&#x27;re going to do in the next couple of weeks, is you&#x27;re going to have an opportunity to come back onto the website and see how you can build your own 35 milliwatt laser diode to do holograms with. And we&#x27;re thinking the price is going to be around $75 in order for you to do that. Everything that you need that will take the place of a standard 35 milliwatt laser, helium neon laser. So that&#x27;s very exciting. We&#x27;re going to have that entire report up at the site. If you&#x27;re not on the email list, you will not get an email telling you that this is up there. So I suggest that you respond to that email, get back on the email list if you wish to get information on that. A lot of exciting stuff coming up over the summer, even though we&#x27;re not going to have any brand new shows. Now, the whole point of this show this week is the instant holographic portrait printing system from Sony. I had the opportunity to go into New York City this week. And visit with Akira Shirakura, who is in the United States right now at the Sony building at 56th and Madison Avenue in downtown Manhattan, or midtown Manhattan actually. And if you have an opportunity to stop by there, they&#x27;re open every day of the week except for Monday. And I think Sunday&#x27;s hours are actually noon to 4. But you can have your own holographic portrait done for $5. It&#x27;s a small holographic portrait. It&#x27;s about the size of a postage stamp. I had one done. I took my daughter in. And my daughter had one done. And it comes out. Let me see if I can grab this here. Of course, this isn&#x27;t allowing me to pick it up. My daughter had one done as well. They put it on a little card. I&#x27;m holding it up to the camera now. You probably won&#x27;t be able to see the image because the image is rather small. I want to see if I can get it a little bit closer up there. But that&#x27;s the card that it comes on. And let me just read the first paragraph of the ad. It says, The system consists of a capturing camera, a high-speed image processing device, and a desktop one-step holographic stereogram printer. It takes less than three minutes to obtain a horizontal parallax 3D image, 78 millimeter by 59 millimeter, on DuPont photopolymer film. And that also includes capturing images and images of the image. And that&#x27;s the first paragraph. It includes capturing and the image processing time. So from the time you sit down and have that camera, it&#x27;s actually a camera on a rail that passes by you, it takes seven seconds, and I believe 295 individual pictures are processed in that time. But it only takes three minutes for that hologram to be created.
 
 seconds and I believe 295 individual pictures are processed in that time but it only takes three minutes for that hologram to be created entirely automatically now since the holographic stereogram printer is designed for easy operation under non laboratory conditions an anti-vibration table or a dark room is not necessary and folks let me tell you this camera is absolutely incredible the the technology that&#x27;s built into this and they did a wonderful job and if you look on the whole talk page you will see a link going to the Sony page that I put up which will contain a few diagrams from this abstract that I have along with a few photographs that I was able to take of the unit itself during my trip to New York and you&#x27;ll be able to get some information on how this works and how wonderful it is to have something like this isn&#x27;t it incredible now if you&#x27;re an amateur or hobbyist now this is a prototype unit there&#x27;s so Sony at this point in time is not making any plans to make an announcement that this unit is going to be available for purchase or anything like that it&#x27;s completely a prototype unit and if you are an amateur or hobbyist holography and you would like to do your own holographic portraits there&#x27;s also a link on the whole talk page and I&#x27;ll have it on the Sony page as well where I&#x27;m putting my manual together right now it&#x27;s just about finished I&#x27;m going to have it finished for June where you can learn how to do your own holographic portraits. using your 35 millimeter camera and either your helium neon laser or your laser diode whichever one you choose and they&#x27;re very nice holographic portraits and it&#x27;s portraits is a wonderful thing for holography I mean you can see holograms of all these different objects and all the different things you see in a hologram shop but when you start to make hologram portraits you are really personalizing holography it becomes a holographic portrait. It becomes very meaningful to someone when you do a holographic portrait you could do a holographic portrait of someone&#x27;s grandparents so that they could have a 3d hologram of their grandparents how about the newborn in the family or with this process it doesn&#x27;t necessarily have to be a person you can take your 35 millimeter camera outdoors and do something inside of a museum or maybe out in a park or something like that and bring that film back in and turn it into a three-dimensional hologram it doesn&#x27;t necessarily have to be a portrait of a person so I&#x27;m going to have this manual finished by June it&#x27;s quite a bit of work putting this together it&#x27;s a very simple process but it has to be done accurately so I want to make sure everything&#x27;s right with it and also I would suggest you check that out as well when you&#x27;re also checking out the Sony page as well so that about wraps it up I don&#x27;t want to make this show too long because this is not only audio but it&#x27;s video and I have no idea how big this photo is. I&#x27;m not sure how big this video is going to be but I imagine it&#x27;s going to be pretty huge so if you had an opportunity to watch it would you do me a favor would you send me an email and let me know that you watched the show it would mean a lot to me to see how many people have chosen to either listen to the show or have chosen to watch it and that feedback that you sent to me is very valuable because it will let me know just what the listeners and viewers want with holography and information presented to them so folks I want to thank you very much for watching this video and I hope you enjoyed it. very very much for tuning into this show the last season it&#x27;s the end of its second season now the season coming up in 1999 2000 season will be the third season of holotalk I&#x27;ve got a lot of interesting ideas I want to work out and a lot of interesting shows we will still have a few things on the website over the summer get yourself back on the email list but I want to thank you very much for tuning in and making me feel welcome to come into your homes your offices and your schools and your community and I hope to see you in the next season. with laser and holography information each week, and it&#x27;s certainly been an honor to do this. And God willing, I&#x27;m looking forward to coming back in the fall and starting it all over again, and always, always, always making it better than it was the last time. So thank you very much. Have a very safe and happy summer, and God willing, I will see you in the fall when HoloTalk starts up on its third season. This is Frank DeFreitas signing off for the summer of 1999. Would you like to make your own one-of-a-kind hologram and learn how you can start making holograms on your own at the same time? You can do this and much more by attending one of Frank DeFreitas&#x27; holography workshops. From beginner to advanced, Frank&#x27;s got a workshop that&#x27;s just right for you. From single afternoon, evening, or weekend introductory workshops to Wednesday evening, five-week complete courses. And don&#x27;t forget his newest workshop, Laser Pointer Holography. Located just off the northeast extension of the Pennsylvania Turnpike and Interstate 78, the studio is a quick, nonstop drive from the New York, Philadelphia, and Baltimore, Washington, D.C.
 
-Just off the northeast extension of the Pennsylvania Turnpike and Interstate 78, the studio is a quick, nonstop drive from the New York, Philadelphia, and Baltimore, Washington, D.C. areas. For more information, call the studio&#x27;s toll-free hotline at 1-800-458-3525 and begin your own journey with holography today. That&#x27;s 1-800-458-3525 for more information on attending a Frank DeFredis Holography Workshop today. Thank you.</div>
+Just off the northeast extension of the Pennsylvania Turnpike and Interstate 78, the studio is a quick, nonstop drive from the New York, Philadelphia, and Baltimore, Washington, D.C. areas. For more information, call the studio&#x27;s toll-free hotline at 1-800-458-3525 and begin your own journey with holography today. That&#x27;s 1-800-458-3525 for more information on attending a Frank DeFredis Holography Workshop today. Thank you.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

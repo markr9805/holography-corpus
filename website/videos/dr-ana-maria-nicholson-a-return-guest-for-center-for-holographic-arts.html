@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,325 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Profiles in Holography is brought to you through the generous support of the International Holography Fund. For more information, visit their website at holographyfund.org. Hello everyone, this is Frank DeFreitas, and I would like to welcome you to the 2008-2009 season opener for the Holotalk Show, the internet radio broadcast for lasers and holography here at holoworld.com. Now in its 12th year, I believe, or 13, I do not remember any longer how long it&#x27;s been. My guest this week for this opening show is Anna Maria Nicholson, who is the founding director of the Center for Holographic Arts in Long Island City, New York. And Anna is going to tell us amazing stories about her beginnings in holography, back when they were next-door neighbors. To Lloyd Cross and the early days, and moving on up to the founding of the Center. Before we get started with Anna Maria, I would like to also welcome you to stop by a new section of my own website, which is called Antiquarian Holographica. Now let me tell you briefly what that means. About 20 years ago, 20 years ago exactly, I wrote an article entitled Antiquarian Holographica, and it was an article about... collecting holographic memorabilia, or what they term printed ephemera. And ephemera is materials that have a very short lifetime. For instance, if you get a postcard in the mail that says that so-and-so is having an exhibit that&#x27;s running from August such to November such, that is considered ephemera because you look at that and you don&#x27;t save it, you throw it away. Well, I saved everything. And because this is the 20th anniversary of that article, I thought, you know what, it&#x27;s time to crack open the archives. And that&#x27;s exactly what I did this past summer. And I found thousands, thousands of pieces of holographic history in my filing cabinets that is currently being archived and entered into a searchable database. So that&#x27;s a new section of the website. Every Monday, Wednesday, and Friday, I put up a new piece of holographic history. And I&#x27;m going to be doing a little bit of a story behind each one of the pieces because I didn&#x27;t buy them on eBay. I actually got them in real time and they go back over 32 years. So I&#x27;ve been collecting these pieces for 32 years. So hopefully one day, when I pass on, I&#x27;m going to have it designated that this collection be turned over to an appraiser. Or to an appropriate institution or organization that will take care of it for people in the future to be able to see this work. Now, some of the pieces have holograms, but the majority of the pieces do not. And that&#x27;s what&#x27;s important because a lot of times, people saved the pieces that had holograms on them, but they threw away the pieces that did not have holograms. And my collection was heavily focused on holograms. And I was very focused on printed ephemera, whether it had a hologram or not. So I&#x27;m imagining that some of the pieces, some of them, may be the only existing pieces left in the world of these particular pieces of paper. And thousands of them. So, Antiquarian Holographica. If you go to holoworld.com, you&#x27;ll see a link that will take you over. And every Monday and Wednesday, Friday, you&#x27;ll see a new piece put up and a little bit of a story behind the pieces. And you&#x27;ll be able to take a look at the collection. So, without further ado, let&#x27;s move on to my interview with Anna Maria Nicholson. And I&#x27;d also like to point out there&#x27;s a little bit of a hum that got picked up by the recording. I&#x27;m trying to find out what that hum is. I cannot find it. It&#x27;s not here now, but it was there during the recording. It just goes to show. But anyway, I don&#x27;t think it&#x27;s that obtrusive that it&#x27;s going to take away your pleasure of listening to the fascinating piece. It&#x27;s just the fascinating stories that she&#x27;s going to tell you tonight on HoloTalk. So, this is Frank DeFreitas. Thank you for listening. And I look forward to having you come back for further HoloTalk shows over the winter months if you happen to be in the Northern Hemisphere. And the lucky ones, the summer months if you&#x27;re in the Southern Hemisphere. All right, take care. Hello, Martina. How are you? It&#x27;s Frank DeFreitas. Hey, Frank. How are you? Doing good. Excellent. Now, you&#x27;re calling to speak to Anna Maria? Yes, I am. She&#x27;s just here. I&#x27;ll pass you over. Thank you so much. Hi. Hello. How are you? I&#x27;m good. I&#x27;m good. Finally. Good. Are you ready to do our little interview? I&#x27;m ready to do our little interview. Well, I&#x27;m sure that there&#x27;s a lot of people out there who are interested in this.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Profiles in holography is brought to you through the generous support of the International Holography Fund.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:07">0:07</span><span class="transcript-text">For more information, visit their website at holographyfund.org.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:13">0:13</span><span class="transcript-text">Hello everyone, this is Frank Defratis, and I would like to welcome you to the 2008-2009 season opener for the Holotalk Show, the internet radio broadcast for lasers and holography here at HoloWorld.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">Now in its twelfth year, I believe, or thirteen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:33">0:33</span><span class="transcript-text">I do not remember any longer how long it&#x27;s been.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:37">0:37</span><span class="transcript-text">My guest this week for this opening show is Anna Maria Nicholson, who is the founding director of the Center for Holographic Arts in Long Island City, New York.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:50">0:50</span><span class="transcript-text">And Anna&#x27;s going to tell us amazing stories about her beginnings in holography, back when they were next door neighbors to Lloyd Cross and the early days and moving on up to the founding of the center.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:04">1:04</span><span class="transcript-text">Before we get started with Anna Maria, I would like to also welcome you to stop by a new section of my own website which is called Antiquarian Holographica.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:16">1:16</span><span class="transcript-text">Now let me tell you briefly what that means.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:18">1:18</span><span class="transcript-text">About twenty years ago, twenty years ago exactly, I wrote an article entitled Antiquarian Holographica, and it was an article about collecting holographic memorabilia or what they term printed ephemera.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:34">1:34</span><span class="transcript-text">An ephemera is materials that have a very short lifetime.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:39">1:39</span><span class="transcript-text">For instance, if you get a postcard in the mail that says that so and so is having an exhibit that&#x27;s running from August such to November such.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">That is considered ephemera because you look at that and you don&#x27;t save it, you throw it away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:53">1:53</span><span class="transcript-text">Well, I saved everything.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:55">1:55</span><span class="transcript-text">And because this is the twentieth anniversary of that article, I thought, well, you know what, it&#x27;s time to crack open the archives, and that&#x27;s exactly what I did this past summer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:04">2:04</span><span class="transcript-text">And I found thousands, thousands of pieces of holographic history in my filing cabinets that is currently being archived and entered into a searchable database.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:21">2:21</span><span class="transcript-text">So that&#x27;s a new section of the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:23">2:23</span><span class="transcript-text">Every Monday, Wednesday, and Friday, I put up a new piece of holographic ephemera for you to take a look at, and to even hear a little bit of a story behind each one of the pieces because I didn&#x27;t buy them on eBay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:37">2:37</span><span class="transcript-text">I actually got them in real time, and they go back over 32 years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:43">2:43</span><span class="transcript-text">So I&#x27;ve been collecting these pieces for 32 years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:48">2:48</span><span class="transcript-text">So hopefully one day when I pass on, I&#x27;m going to have it designated that this collection be turned over to an appropriate institution or organization that will take care of it for people in the future to be able to see this work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:06">3:06</span><span class="transcript-text">Now some of the pieces have holograms, but the majority of the pieces do not.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:11">3:11</span><span class="transcript-text">And that&#x27;s what&#x27;s important because a lot of times people saved the pieces that had holograms on them, but they threw away the pieces that did not have holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:23">3:23</span><span class="transcript-text">And my collection was heavily focused on printed ephemera, whether it had a hologram or not.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:31">3:31</span><span class="transcript-text">So I&#x27;m imagining that some of the pieces, some of them, may be the only existing pieces left in the world of these particular pieces of paper, and thousands of them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:43">3:43</span><span class="transcript-text">So Antiquarian Holographica, uh if you go to HoloWorld dot com you&#x27;ll see a link that&#x27;ll take you over and every Monday and Wednesday, Friday you&#x27;ll see a uh a new piece put up and a little bit of a story behind the piece and uh you&#x27;d be able to take a look at the collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:59">3:59</span><span class="transcript-text">So without further ado, let&#x27;s move on to my interview with Anna Maria Nicholson.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">And I&#x27;d also like to point out there&#x27;s a little bit of a hum that&#x27;s uh that got picked up by the recording.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">I&#x27;m trying to find out what that hum is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:14">4:14</span><span class="transcript-text">I cannot find it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:15">4:15</span><span class="transcript-text">It&#x27;s not here now but it was there doing the recording.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:19">4:19</span><span class="transcript-text">Just goes to show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:20">4:20</span><span class="transcript-text">But anyway I don&#x27;t think it&#x27;s uh that obtrusive that it&#x27;s going to take away your pleasure of listening to the fascinating stories that she&#x27;s going to tell you tonight on HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:29">4:29</span><span class="transcript-text">So this is Frank Defratis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:31">4:31</span><span class="transcript-text">Thank you for listening and I look forward to having you come back for further Holo Talk shows over the winter months if you happen to be in the Northern hemisphere and the lucky ones the summer months if you&#x27;re in the Southern hemisphere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:43">4:43</span><span class="transcript-text">Alright take care than holograph Martina speaking hello Martina how are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:50">4:50</span><span class="transcript-text">It&#x27;s Frank Defratus.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:51">4:51</span><span class="transcript-text">Hey Frank how are you doing good now you&#x27;re calling to Anamoria?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:56">4:56</span><span class="transcript-text">Yes I am thank you so much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:00">5:00</span><span class="transcript-text">Hi.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:01">5:01</span><span class="transcript-text">Hello how are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:02">5:02</span><span class="transcript-text">I&#x27;m good I&#x27;m good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:05">5:05</span><span class="transcript-text">Are you uh ready to do our little interview?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:07">5:07</span><span class="transcript-text">I&#x27;m ready to do a little interview well I&#x27;m sure that the world&#x27;s ready to hear from you too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:11">5:11</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:12">5:12</span><span class="transcript-text">I don&#x27;t know about that but oh I I&#x27;m sure the people are going to love to hear everything about what you&#x27;ve done in holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:18">5:18</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:19">5:19</span><span class="transcript-text">What an impressive life and career you&#x27;ve had.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:21">5:21</span><span class="transcript-text">Well, thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:22">5:22</span><span class="transcript-text">And it&#x27;s still such in such the early days, too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:25">5:25</span><span class="transcript-text">Well, either that or well, yes, let&#x27;s let&#x27;s be positive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:30">5:30</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:31">5:31</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:31">5:31</span><span class="transcript-text">Well, let&#x27;s let&#x27;s start off the interview by having you tell a little bit about your early history in holography and the work that you and your husband were working on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:42">5:42</span><span class="transcript-text">Uh huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:42">5:42</span><span class="transcript-text">And then we&#x27;ll just take it step by step, finally leading up to the Center for Holographic Arts in Long Island City, New York.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:49">5:49</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:50">5:50</span><span class="transcript-text">So first off, what brought you to holography in the first place?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:55">5:55</span><span class="transcript-text">Okay, what happened was that uh by chan we m Peter and I had were became quite interested in holography, uh just the idea of it, you know, it was everywhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:07">6:07</span><span class="transcript-text">Remember the Life magazine article and all of that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:10">6:10</span><span class="transcript-text">Yes, yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:11">6:11</span><span class="transcript-text">And by chance, uh Lloyd Cross rented for the s uh for the summer the Lost Behind us on Prince Street.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:19">6:19</span><span class="transcript-text">Oh no kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:20">6:20</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:21">6:21</span><span class="transcript-text">And we met, you know, on the street.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:22">6:22</span><span class="transcript-text">He helped us uh unload the car one day, and he had all of these holograms that he had done uh at the university of where he was.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:31">6:31</span><span class="transcript-text">Uh and he now was presenting them to the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:34">6:34</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:35">6:35</span><span class="transcript-text">And he that&#x27;s where he started doing the laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">You remember the laser um laser light shows?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:41">6:41</span><span class="transcript-text">Yes, the laser light shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:42">6:42</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:43">6:43</span><span class="transcript-text">The very early laser light shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">Very early.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:49">6:49</span><span class="transcript-text">Oh, no kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:50">6:50</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:50">6:50</span><span class="transcript-text">And what were you doing at the time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:52">6:52</span><span class="transcript-text">I was a mom and doing photography and I you know, and I was uh we always dabbled, but uh when I then I saw a hologram uh or several of the holograms that Lloyd had, and it was just absolute love at first sight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:06">7:06</span><span class="transcript-text">Well what type of holograms did he have?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:08">7:08</span><span class="transcript-text">W were they were they the multiplex holograms yet or just no no no no just very simple uh reflection or laser transfer?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:17">7:17</span><span class="transcript-text">It was laser illuminated uh transmission.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:22">7:22</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:22">7:22</span><span class="transcript-text">But they you know y you remember when you see that your first hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:26">7:26</span><span class="transcript-text">Oh absolutely with my life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">And so isn&#x27;t that something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:33">7:33</span><span class="transcript-text">Yes I so many people tell the same thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:36">7:36</span><span class="transcript-text">I wonder what happened.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:38">7:38</span><span class="transcript-text">You know the i esoterically they say that we all come from uh we all came from Atlantis where we were all involved in holography better than coming from Philadelphia where I came from.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">So then um w uh Lloyd Cross and and and Peter and I uh and our families we went to Arizona to uh a school called Verde Valley School where a friend of mine was teaching and they started a holography program for for it was a high school.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:12">8:12</span><span class="transcript-text">Oh and um so that&#x27;s where uh Lloyd Cross inve uh invented uh the multiplex.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:19">8:19</span><span class="transcript-text">No kidding yes what a wonderful fascinating story this is and uh so after after that um we all went to San Francisco where uh s he started the school and uh we kind of split from there Peter and and Lloyd had a big disagreement on on what the future of holography was going to be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:42">8:42</span><span class="transcript-text">Oh and Peter thought that we should concentrate on pulse holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:48">8:48</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:48">8:48</span><span class="transcript-text">And and Lloyd was saying continuous wave I would imagine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">Well multiple multiplex holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:54">8:54</span><span class="transcript-text">And so which p uh and I agreed and we all both felt that it wasn&#x27;t the real holography, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:01">9:01</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:02">9:02</span><span class="transcript-text">And then uh after that um we came back to New York and uh we uh Peter got a grant from the the Kaplan Fund to uh l to organize an exhibition of holography for the um biennial or bicentennial or one of those uh uh celebrations.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:25">9:25</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">And he went around the country and he realized by that time that a lot of the um uh th the facilities were closing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:36">9:36</span><span class="transcript-text">Already huh you remember that that that period?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:39">9:39</span><span class="transcript-text">Well you&#x27;re talking about around seventy six I would imagine right yes yeah yes when when uh you know all that easy money that people dreamed of didn&#x27;t materialize so he convinced uh McDonnell Douglas to donate uh some of his equipment or he w we we he went to the Smithsonian and and convinced them to start the holography uh program and um and the Kaplan&#x27;s funded it and the there was equipment from uh McDonnell Douglas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:11">10:11</span><span class="transcript-text">Was that at the Cooper Hewitt Museum that program?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:14">10:14</span><span class="transcript-text">It was it was the Cooper Hewitt was part of the Smithsonian.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:17">10:17</span><span class="transcript-text">Okay, yeah yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:18">10:18</span><span class="transcript-text">And then um we found space at Brookhaven National Laboratory.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:23">10:23</span><span class="transcript-text">Those were the days when an artist could just walk in uh and so we had the program there for three years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:32">10:32</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:33">10:33</span><span class="transcript-text">And it was the cent uh center for experimental holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:38">10:38</span><span class="transcript-text">And at at the end of that period we the University of Hawaii was very interested in in starting new non polluting uh um s uh y technologies.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:55">10:55</span><span class="transcript-text">So um we went to University of Hawaii with the center for uh experimental holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:02">11:02</span><span class="transcript-text">And that&#x27;s where we did the portrait of uh Arnold Schwezneger which I have which we just transferred to them uh and it looks great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:12">11:12</span><span class="transcript-text">So and then after that um the f the funding stopped so we ha we formed a commercial company called holographics.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:21">11:21</span><span class="transcript-text">Okay, where was that located?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:23">11:23</span><span class="transcript-text">Uh it was it started in Hawaii but we came then back to New York.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:27">11:27</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:27">11:27</span><span class="transcript-text">And it was in and then the sh basically the the most of of the energy of the company was for non destructive testing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:37">11:37</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:37">11:37</span><span class="transcript-text">And that&#x27;s when uh Peter designed the small laser uh a portable pulse laser uh and I then uh took over the whole portraiture and and my own art holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:51">11:51</span><span class="transcript-text">And uh eventually we had I had this the portrait studio at the Museum of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:56">11:56</span><span class="transcript-text">Yeah you also had a show at the Museum of holography right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:58">11:58</span><span class="transcript-text">Yes, I had a show at the Museum of holographic and then uh when the museum closed um there was you know nothing nothing in New York as you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:09">12:09</span><span class="transcript-text">And um in nineteen uh I started working with Dan Schweitzer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:15">12:15</span><span class="transcript-text">He he came uh to help me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:17">12:17</span><span class="transcript-text">I had a show then at the Fishback Gallery on fifty seventh street.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:22">12:22</span><span class="transcript-text">Not familiar with that, but it was a it&#x27;s a good it was a good gallery.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:25">12:25</span><span class="transcript-text">It now isn&#x27;t in Chelsea.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:28">12:28</span><span class="transcript-text">But then it was in on fifty seventh street and um I needed help and Dan came to help me uh to put together the exhibition.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:37">12:37</span><span class="transcript-text">And um we met uh OC Jackson and uh the the uh um she thought that the uh to have a a new center for holography was a very good idea and that Dan and I were we got along so well if and you know how wonderful Dan was.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:59">12:59</span><span class="transcript-text">Oh yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:01">13:01</span><span class="transcript-text">Um and then so uh we got funding from the at that time was the Shearwater Foundation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:08">13:08</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:09">13:09</span><span class="transcript-text">And they very, very uh generously funded us uh the first uh three years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:15">13:15</span><span class="transcript-text">And you&#x27;re celebrating your tenth anniversary.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:18">13:18</span><span class="transcript-text">We are celebrating our tenth anniversary.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">As of August.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:21">13:21</span><span class="transcript-text">Um is that correct?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:23">13:23</span><span class="transcript-text">Uh uh no this August is going to be the eleventh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:26">13:26</span><span class="transcript-text">August well this past August.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:29">13:29</span><span class="transcript-text">Yes, was the tenth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:31">13:31</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:31">13:31</span><span class="transcript-text">And um the equipment um I the holographics, the the company I was working for um uh was bought by uh some German company and they weren&#x27;t interested in in the whole portraiture or or holography as i i and so I they owed me quite a bit of back pay, so instead uh they gave me all the the the pulse laser and all the movements.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:58">13:58</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:59">13:59</span><span class="transcript-text">That&#x27;s a nice deal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:00">14:00</span><span class="transcript-text">It&#x27;s it was a very nice deal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">But you know it&#x27;s uh it some ti what sometimes happens when these companies uh change.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:08">14:08</span><span class="transcript-text">They just throw things out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:10">14:10</span><span class="transcript-text">Oh absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:12">14:12</span><span class="transcript-text">I&#x27;m finding that out with a lot of materials.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:14">14:14</span><span class="transcript-text">Did you hear what happened at Polaroid?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:14">14:14</span><span class="transcript-text">I mean it was horrible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:18">14:18</span><span class="transcript-text">No, what happened at Polar Well they from what I understand they just even uh plates, ACFA plates, anything they just it was they were on uh uh uh on the on d dumpsters.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:32">14:32</span><span class="transcript-text">That&#x27;s horrible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:33">14:33</span><span class="transcript-text">I know, I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:34">14:34</span><span class="transcript-text">But so anyway I was very we were very lucky.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:38">14:38</span><span class="transcript-text">And we started the the Center for the holographic art.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">Now I&#x27;ve I&#x27;ve seen your portraiture for years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:44">14:44</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:46">14:46</span><span class="transcript-text">And when I was up at the center visiting last time I wanted to try and figure out um exactly what it was about your work that made it so different to me viewing it that uh and I think the word that I was looking for I couldn&#x27;t find the word at the time but I think the word is that everyone looks more human in your work than in other post work that I&#x27;ve seen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">Uh-huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:09">15:09</span><span class="transcript-text">Well you know portraiture uh is an art form and a very ancient art form when it comes to that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:17">15:17</span><span class="transcript-text">Um so it&#x27;s not that just anyone can take a good port I mean anyone can take a portrait, but to take a really good portrait takes uh a little bit of finesse, you know and and art artistic uh do you have a lighting technique that you would say is distinctly the lighting is is um it&#x27;s standard for what pulsed work would be right or yes because i it when we were at the museum we only had one light um for for the portrait.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:49">15:49</span><span class="transcript-text">When we came to the center we decided to that we needed to be more flexible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:54">15:54</span><span class="transcript-text">So we now have two lights uh for the the uh lights from both sides of the f uh of the face um but that&#x27;s not where it you know why they look so different I think that is because you need to establish a relationship with a a rapport a rapport with a client and uh and see where they are and and who they are.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:18">16:18</span><span class="transcript-text">Also don&#x27;t forget that they are it&#x27;s a very intimate situation because you&#x27;re in the dark you&#x27;re there they don&#x27;t know they&#x27;ve never been uh through this experience yes it&#x27;s a laser that&#x27;s going to flash on them they don&#x27;t know what&#x27;s going to happen to them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">Exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:33">16:33</span><span class="transcript-text">So I think that they&#x27;re more vulnerable and more open.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:35">16:35</span><span class="transcript-text">And they then is that that&#x27;s gives you the opportunity to establish this rapport with with your client.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:43">16:43</span><span class="transcript-text">And why don&#x27;t you tell the listeners some of the people who you have created holographic portraits for yes um well Schwarzenegger um let&#x27;s see if I can remember everyone um Walter Cronkite um David Byrne of the uh Talking heads uh uh help me here Gloria Steinem Gloria Steinem uh Keith Herring Keith Harring Philip Johnson uh and so on and so on Diane Dixon the Olympic athlete yes I did I ha I did a a series uh of the Olympians it was called oh and I did um Diane Dixon and uh Bill Willie Banks was uh another one and uh several others um now the center for holographic arts is both a holographic portrait studio and also a center of learning and an exhibit gallery all rolled up into one isn&#x27;t it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:45">17:45</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:46">17:46</span><span class="transcript-text">Well um before we finish with the portraits I I should say that I&#x27;m having uh this exhibition of portraiture at the uh Butler Museum um in in Ohio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:56">17:56</span><span class="transcript-text">And what are the dates for that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:58">17:58</span><span class="transcript-text">It&#x27;s November twenty third is the opening.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:01">18:01</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:02">18:02</span><span class="transcript-text">And so it&#x27;ll be it would be very it&#x27;s they&#x27;re a wonderful news uh institution so it&#x27;s that&#x27;s not Thanksgiving Day is it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:09">18:09</span><span class="transcript-text">Oh gosh I don&#x27;t know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:10">18:10</span><span class="transcript-text">Oh I don&#x27;t know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:11">18:11</span><span class="transcript-text">I have to check.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:12">18:12</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:13">18:13</span><span class="transcript-text">I doubt it it would be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:15">18:15</span><span class="transcript-text">Yeah me too but that&#x27;s that&#x27;s the date that we could anyway well it would be Thanksgiving uh over the in Ohio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:25">18:25</span><span class="transcript-text">That&#x27;s something to do after you have dinner.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:27">18:27</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:28">18:28</span><span class="transcript-text">Go over and see the uh holographic portrait exhibit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:31">18:31</span><span class="transcript-text">Actually it&#x27;s it&#x27;s on a on a Sunday I is it on a Sunday is the Sunday or Saturday or Sunday, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:37">18:37</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:38">18:38</span><span class="transcript-text">So the the center basically uh was established for two purposes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:44">18:44</span><span class="transcript-text">One is to promote the art of holography and so uh uh uh to have exhibitions of of uh arts uh that has been produ that have been produced here art pieces.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:55">18:55</span><span class="transcript-text">The second is the artist in residency program where we offer artists not only not just holographers but artists uh of any media uh to come and work w uh in ho uh explore holography as a possible art medium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:12">19:12</span><span class="transcript-text">That&#x27;s wonderful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:13">19:13</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:13">19:13</span><span class="transcript-text">And we&#x27;ve had um close to fifty artists now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:17">19:17</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:18">19:18</span><span class="transcript-text">Um and uh a lot producing many, many, many pieces that have been shown all over the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:25">19:25</span><span class="transcript-text">Are you in running any of these programs in conjunction with any of the colleges in New York at all?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:31">19:31</span><span class="transcript-text">Art schools or anything?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:31">19:31</span><span class="transcript-text">It&#x27;s all independent SBA um uh Sam Mora who who uh of course is is uh an integral part of of the center um he has a a a a course uh uh SBA course on on holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:46">19:46</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:46">19:46</span><span class="transcript-text">And they come to the center.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:48">19:48</span><span class="transcript-text">Wonderful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:49">19:49</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:50">19:50</span><span class="transcript-text">And you have a great labor we have uh we have um other uh um classes who will come and and visit and so on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:59">19:59</span><span class="transcript-text">And you have a wonderful lab there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:01">20:01</span><span class="transcript-text">We have a wonderful lab.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:03">20:03</span><span class="transcript-text">We have uh a very sweet pulse laser and we have a good transfer uh table and we have uh Martina Grovius who&#x27;s uh helping us here and um bringing in the youth and energy that we used to have.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:22">20:22</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:23">20:23</span><span class="transcript-text">I still have it I want to let the world know I still have it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:29">20:29</span><span class="transcript-text">Sometimes in the middle of the night you say Oh my God I know I know but uh it&#x27;s a magical, magical, magical medium absolutely once you&#x27;re involved with it that&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:40">20:40</span><span class="transcript-text">You&#x27;re stuck.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:40">20:40</span><span class="transcript-text">Exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:41">20:41</span><span class="transcript-text">I think for most people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:42">20:42</span><span class="transcript-text">Although the more I go through my historical records and materials here and archive them, the more our names come up that I don&#x27;t hear anything about holography anymore with so I guess people come and they go.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:56">20:56</span><span class="transcript-text">They come and they go and but uh i we we do have enough young people coming in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:01">21:01</span><span class="transcript-text">That&#x27;s good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:02">21:02</span><span class="transcript-text">Not as not like in the old days where everyone had their own little lab, you remember, but now um I don&#x27;t know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:11">21:11</span><span class="transcript-text">I think that there is a it&#x27;s a b there a lot of curiosity and interest.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:15">21:15</span><span class="transcript-text">And of course whenever we have exhibitions, people just love the meeting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:19">21:19</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:20">21:20</span><span class="transcript-text">What are some of the programs that you have coming up there on your calendar?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:23">21:23</span><span class="transcript-text">Anything that you can mention?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:25">21:25</span><span class="transcript-text">Well we have um an exhibition by uh Yu Young Ali of uh Korea.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:30">21:30</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:31">21:31</span><span class="transcript-text">Then uh which is opening uh next month.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:35">21:35</span><span class="transcript-text">Then we have an exhibition uh uh Sam Moury&#x27;s having an exhibition uh at the end of the year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:41">21:41</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:42">21:42</span><span class="transcript-text">And Martina M Mg is also having an exhibition.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:46">21:46</span><span class="transcript-text">Uh at the beginning of the year uh we had an exhibition of collaborations that um Rudy Burkout and I had done many years ago.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:55">21:55</span><span class="transcript-text">Mm-hmm and that was interesting to see them again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:58">21:58</span><span class="transcript-text">I just found one of the original exhibit catalogs from Sam Moray at the Museum of Holograph from nineteen eighty two.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:07">22:07</span><span class="transcript-text">Oh my goodness.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:08">22:08</span><span class="transcript-text">Yep.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:09">22:09</span><span class="transcript-text">That was that&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:10">22:10</span><span class="transcript-text">I found that yeah well he&#x27;s a he&#x27;s a very very very fine uh artist uh and uh hopefully and I you know it&#x27;ll be a great show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:21">22:21</span><span class="transcript-text">I&#x27;m sure it will be wonderful, beautiful work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:24">22:24</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:24">22:24</span><span class="transcript-text">So n you know we are um very de we are completely dependent on on grants.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:32">22:32</span><span class="transcript-text">So um we&#x27;re now waiting to hear what kind of funding we have for next year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:38">22:38</span><span class="transcript-text">And if anyone ever wanted to learn how to do holography they can just contact you for your workshop programs as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:44">22:44</span><span class="transcript-text">Absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:45">22:45</span><span class="transcript-text">They should go to our website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:46">22:46</span><span class="transcript-text">Absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:47">22:47</span><span class="transcript-text">I&#x27;ll have a link to your website as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:49">22:49</span><span class="transcript-text">Oh, great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:49">22:49</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:50">22:50</span><span class="transcript-text">But tell everyone what it is in case they&#x27;re listening to this ten years later.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:54">22:54</span><span class="transcript-text">It&#x27;s holocenter dot dot um uh and uh dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:00">23:00</span><span class="transcript-text">And um it&#x27;s uh there uh we have um all the news uh uh uh uh we are doing what what we&#x27;re doing and also what other holographers around the world are doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:12">23:12</span><span class="transcript-text">And we have we post dates for the workshop.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:17">23:17</span><span class="transcript-text">And it&#x27;s still very exciting work that you&#x27;re doing there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:20">23:20</span><span class="transcript-text">Well thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:21">23:21</span><span class="transcript-text">That never ends and and I love coming in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:23">23:23</span><span class="transcript-text">I&#x27;ve I&#x27;ve been into the center several times now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:25">23:25</span><span class="transcript-text">Uh huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:26">23:26</span><span class="transcript-text">I don&#x27;t get into New York as much as I used to when I was younger.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:29">23:29</span><span class="transcript-text">Uh the trip takes a lot out of me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:31">23:31</span><span class="transcript-text">When I came back from that trip uh my wife and I took out there and we were tired.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:36">23:36</span><span class="transcript-text">What a charming wife you have.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:38">23:38</span><span class="transcript-text">Oh, thank you so much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:39">23:39</span><span class="transcript-text">You&#x27;re so lucky.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:40">23:40</span><span class="transcript-text">I am.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">Lucky for somebody like me, I&#x27;m lucky.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:44">23:44</span><span class="transcript-text">Yeah, I know, it&#x27;s so supportive of your endeavors.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:47">23:47</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:48">23:48</span><span class="transcript-text">Well, sometimes you need to have that in order to get your work done and do what it is that you need to do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:54">23:54</span><span class="transcript-text">Hopefully I can leave something behind after I move on to greener pastures.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:59">23:59</span><span class="transcript-text">And um Well I think that the work that we have been that we have done and we&#x27;re doing still here, the pulse I think that holography is going to be taking a turn towards much more uh uh the whole digital world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:12">24:12</span><span class="transcript-text">Absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:13">24:13</span><span class="transcript-text">And s but I think that the these pulse uh uh and and CW work that we&#x27;ve been doing, uh it will be they will be seen as as the uh daguero teeps uh are are seen now as as very fine pieces of work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:32">24:32</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:33">24:33</span><span class="transcript-text">And yours especially.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:34">24:34</span><span class="transcript-text">Well, thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:35">24:35</span><span class="transcript-text">Yeah, absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:37">24:37</span><span class="transcript-text">&#x27;Cause I do have a couple portraits myself here in in my own.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:41">24:41</span><span class="transcript-text">I have a s a small c collection of holograms, nothing like some people do, like Jonathan Ross has an enormous collection of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:50">24:50</span><span class="transcript-text">But uh yours definitely has a more humane feel to it than the other portraits, and I don&#x27;t think that you&#x27;d get that many people who would give that common remark that the people look waxy or ghost like in your holograms because they maintain that that feeling of being present, of being human, of personality, of of something internal rather than just surface.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:16">25:16</span><span class="transcript-text">Well thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:17">25:17</span><span class="transcript-text">Yeah, and it&#x27;s tough to achieve with anything.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:19">25:19</span><span class="transcript-text">And you yeah, you know, some of my other work uh um I&#x27;ve done a l I&#x27;m very, very interested in the human form.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:26">25:26</span><span class="transcript-text">And I&#x27;ve done uh a great many uh other uh pieces that uh you know, I&#x27;ve had uh many other exhibitions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:33">25:33</span><span class="transcript-text">And many different styles of work as well, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:37">25:37</span><span class="transcript-text">And my the latest one, um I really became very interested in exploring the same theme with three different media and I and I did uh uh video and photography and and holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:51">25:51</span><span class="transcript-text">It was called um uh hide and seek.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:56">25:56</span><span class="transcript-text">Oh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:56">25:56</span><span class="transcript-text">And it was uh it was uh really it i i it if you go to my website, Anna Maria Nicholson dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:06">26:06</span><span class="transcript-text">Oh I didn&#x27;t even know you had a personal website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:08">26:08</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:09">26:09</span><span class="transcript-text">All these years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:10">26:10</span><span class="transcript-text">How long have you had that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:12">26:12</span><span class="transcript-text">Many years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:13">26:13</span><span class="transcript-text">I always went to the HoloCenter website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:15">26:15</span><span class="transcript-text">No, no, well they are links to me, but yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:18">26:18</span><span class="transcript-text">And you&#x27;ll see how you know I the different exhibitions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:21">26:21</span><span class="transcript-text">Well, I will most definitely make sure that everyone&#x27;s aware of that as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:24">26:24</span><span class="transcript-text">Thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:25">26:25</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:25">26:25</span><span class="transcript-text">I&#x27;m coming in a little at the end of the line there on uh uh on that a little late.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:29">26:29</span><span class="transcript-text">Well but now it&#x27;s something for me to do later tonight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:35">26:35</span><span class="transcript-text">I&#x27;ll come down to do editing on the uh audio and I can visit your website while I do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:40">26:40</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:40">26:40</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:41">26:41</span><span class="transcript-text">And is there anything else before we close that you would like the listeners to know about that I didn&#x27;t ask about I don&#x27;t know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:51">26:51</span><span class="transcript-text">We we&#x27;re open to the public uh on Saturdays for people to come and see the exhibitions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:56">26:56</span><span class="transcript-text">Mm-hmm and and uh we are also they can call and make a uh appointments uh if they cannot make it on the Saturday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:05">27:05</span><span class="transcript-text">And um that&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:08">27:08</span><span class="transcript-text">That&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:09">27:09</span><span class="transcript-text">And then for more information visit the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:12">27:12</span><span class="transcript-text">Visit the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:13">27:13</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:13">27:13</span><span class="transcript-text">Anna Maria thank you so much for being a guest on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:16">27:16</span><span class="transcript-text">It was an honor to interview and and please say hello to everyone for me again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:20">27:20</span><span class="transcript-text">Yes I will.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:21">27:21</span><span class="transcript-text">Thank you so much for for calling.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:23">27:23</span><span class="transcript-text">Okay, take care.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:24">27:24</span><span class="transcript-text">Bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:24">27:24</span><span class="transcript-text">Bye</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Profiles in Holography is brought to you through the generous support of the International Holography Fund. For more information, visit their website at holographyfund.org. Hello everyone, this is Frank DeFreitas, and I would like to welcome you to the 2008-2009 season opener for the Holotalk Show, the internet radio broadcast for lasers and holography here at holoworld.com. Now in its 12th year, I believe, or 13, I do not remember any longer how long it&#x27;s been. My guest this week for this opening show is Anna Maria Nicholson, who is the founding director of the Center for Holographic Arts in Long Island City, New York. And Anna is going to tell us amazing stories about her beginnings in holography, back when they were next-door neighbors. To Lloyd Cross and the early days, and moving on up to the founding of the Center. Before we get started with Anna Maria, I would like to also welcome you to stop by a new section of my own website, which is called Antiquarian Holographica. Now let me tell you briefly what that means. About 20 years ago, 20 years ago exactly, I wrote an article entitled Antiquarian Holographica, and it was an article about... collecting holographic memorabilia, or what they term printed ephemera. And ephemera is materials that have a very short lifetime. For instance, if you get a postcard in the mail that says that so-and-so is having an exhibit that&#x27;s running from August such to November such, that is considered ephemera because you look at that and you don&#x27;t save it, you throw it away. Well, I saved everything. And because this is the 20th anniversary of that article, I thought, you know what, it&#x27;s time to crack open the archives. And that&#x27;s exactly what I did this past summer. And I found thousands, thousands of pieces of holographic history in my filing cabinets that is currently being archived and entered into a searchable database. So that&#x27;s a new section of the website. Every Monday, Wednesday, and Friday, I put up a new piece of holographic history. And I&#x27;m going to be doing a little bit of a story behind each one of the pieces because I didn&#x27;t buy them on eBay. I actually got them in real time and they go back over 32 years. So I&#x27;ve been collecting these pieces for 32 years. So hopefully one day, when I pass on, I&#x27;m going to have it designated that this collection be turned over to an appraiser. Or to an appropriate institution or organization that will take care of it for people in the future to be able to see this work. Now, some of the pieces have holograms, but the majority of the pieces do not. And that&#x27;s what&#x27;s important because a lot of times, people saved the pieces that had holograms on them, but they threw away the pieces that did not have holograms. And my collection was heavily focused on holograms. And I was very focused on printed ephemera, whether it had a hologram or not. So I&#x27;m imagining that some of the pieces, some of them, may be the only existing pieces left in the world of these particular pieces of paper. And thousands of them. So, Antiquarian Holographica. If you go to holoworld.com, you&#x27;ll see a link that will take you over. And every Monday and Wednesday, Friday, you&#x27;ll see a new piece put up and a little bit of a story behind the pieces. And you&#x27;ll be able to take a look at the collection. So, without further ado, let&#x27;s move on to my interview with Anna Maria Nicholson. And I&#x27;d also like to point out there&#x27;s a little bit of a hum that got picked up by the recording. I&#x27;m trying to find out what that hum is. I cannot find it. It&#x27;s not here now, but it was there during the recording. It just goes to show. But anyway, I don&#x27;t think it&#x27;s that obtrusive that it&#x27;s going to take away your pleasure of listening to the fascinating piece. It&#x27;s just the fascinating stories that she&#x27;s going to tell you tonight on HoloTalk. So, this is Frank DeFreitas. Thank you for listening. And I look forward to having you come back for further HoloTalk shows over the winter months if you happen to be in the Northern Hemisphere. And the lucky ones, the summer months if you&#x27;re in the Southern Hemisphere. All right, take care. Hello, Martina. How are you? It&#x27;s Frank DeFreitas. Hey, Frank. How are you? Doing good. Excellent. Now, you&#x27;re calling to speak to Anna Maria? Yes, I am. She&#x27;s just here. I&#x27;ll pass you over. Thank you so much. Hi. Hello. How are you? I&#x27;m good. I&#x27;m good. Finally. Good. Are you ready to do our little interview? I&#x27;m ready to do our little interview. Well, I&#x27;m sure that there&#x27;s a lot of people out there who are interested in this.
 
 Hi. Hello, how are you? I&#x27;m good, I&#x27;m good. Good. Are you ready to do our little interview? I&#x27;m ready to do our little interview. Well, I&#x27;m sure that the world&#x27;s ready to hear from you, too. Wow. I don&#x27;t know about that, but... Oh, I&#x27;m sure. People are going to love to hear everything about what you&#x27;ve done in holography. Okay. What an impressive life and career you&#x27;ve had. Well, thank you. And it&#x27;s still in such the early days, too. Well, either that or... Well, yes, let&#x27;s be positive. Okay. Yes. Well, let&#x27;s start off the interview by having you tell a little bit about your early history in holography and the work that you and your husband were working on. And then we&#x27;ll just take it step by step, finally leading up to the Center for Holographic Arts in Long Island City, New York. Okay. So, first off, what brought you to holography? In the first place? Okay. What happened was that, by chance, Peter and I became quite interested in holography. Just the idea of it. You know, it was everywhere. Remember the Life Magazine article and all of that? Yes. Yes. And by chance, Lloyd Cross rented for the summer the loft behind us on Prince Street. Oh, no kidding. Yes. And we met, you know, on the street. He helped us unload the car one day. And he had all of these holograms that he had done at the university of where he was. And he now was presenting them to the world. Okay. And that&#x27;s where he started doing the laser. You remember the laser... Laser light shows? Yes. Laser light shows. Yeah. The very early laser light shows. Very early. Yeah. And one of the first ones was done in our building on Prince Street. Oh, no kidding. Yes. And what were you doing at the time? I was a mom. Okay. And I was doing photography. All right. And I was... We always dabbled. But then I saw a hologram or several of the holograms that Lloyd had. And it was just absolute love at first sight. Well, what type of holograms did he have? Were they the multiplex holograms yet? No, no, no, no. Or just very simple reflection or laser transmission? Not even reflection. There was no reflection then. It was laser illuminated. Okay. Transmission. Okay. But, you know... You remember when you see your first hologram. Oh, absolutely. Yeah. So, I thought, this is what I need to do with my life. Hmm. And so... Isn&#x27;t that something? Yes, I think so. There&#x27;s so many people tell the same thing. Mm-hmm. I wonder what happened. Yeah. You know, esoterically, they say that we all came from Atlantis where we were all involved in holography. Oh, okay. You know, I mean... I can go for that. Oh, no. Better than coming from Philadelphia where I came from. So, then, Lloyd Cross and Peter and I and our families, we went to Arizona to a school called Verde Valley School. Okay. Where a friend of mine was teaching. And they started a holography program. It was a high school. Oh. And so, that&#x27;s where Lloyd Cross invented the multiplex. No kidding. Yes. What a wonderful, fascinating story this is. Ah. And so, after that, we all went to San Francisco where he started the school. Mm-hmm. And we kind of split from there. Peter and Lloyd had a big disagreement on what the future of holography was going to be. Oh. And Peter thought that we should concentrate on pulse holography. Okay. And... And Lloyd was saying continuous wave, I would imagine. Well, multiplex. Multiplex holograms. Yeah. And so, which... And I agreed. And we all both felt that it wasn&#x27;t the real holography, you know. Mm-hmm. And then, after that, we came back to New York. And we... Peter got a grant from the Kaplan Fund to organize an exhibition of holography for the biennial, bicentennial, one of those... Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. celebrations. And he went around the country and he realized by that time that a lot of the facilities were closing. Already, huh? Do you remember that period? What are you talking about? Around 1976, I would imagine, right? Yes. When all that easy money that people dreamed of didn&#x27;t materialize. So he convinced MacDonald Douglas to donate some of his equipment. He went to the Smithsonian and convinced them to start a holography program. And the Kaplans funded it. And there was equipment from the
 
@@ -373,7 +784,7 @@ was looking for. I couldn&#x27;t find the word at the time, but I think the word
 
 And you have a wonderful lab there. We have a wonderful lab. We have a very sweet pulse laser, and we have a good transfer table, and we have Martina Grodius who is helping us here and bringing in the youth and energy that we used to have. Yes. I still have it. I want to let the world know I still have it. Sometimes in the middle of the night you say, oh, my God. I know. I know. But it&#x27;s a magical, magical, magical medium. Absolutely. Once you&#x27;re involved with it, that&#x27;s it. You&#x27;re stuck. Exactly. I think for most people. Although the more I go through my historical records and materials here and archive them, the more names come up that I don&#x27;t hear anything about holography anymore with. So I guess people come and they go. They come and they go. But we do have enough young people. We have enough young people coming in. That&#x27;s good. Not like in the old days where everyone had their own little lab, you remember. But now, I don&#x27;t know. I think that there is a lot of curiosity and interest. And, of course, whenever we have exhibitions, people just love the meeting. What are some of the programs that you have coming up there on your calendar? Anything that you can mention? Well, we have an exhibition by Yu-Yong Lee. Yu-Yong Lee of Korea. Okay. Then, which is opening next month. Then we have an exhibition. Sam Murray is having an exhibition at the end of the year. Okay. And Martina Mugrovius is also having an exhibition. Wonderful. At the beginning of the year, we had an exhibition of collaborations that Rudy Burkhout and I had done many years ago. And that was interesting to see them again. I just found... I found one of the original exhibit catalogs from Sam Murray at the Museum of Holography from 1982. Oh, my goodness. Yep. That&#x27;s great. I found that, yeah. Well, he&#x27;s a very, very, very fine artist. And hopefully, it will be a great show. I&#x27;m sure it will be. Wonderful, beautiful work. Yeah. So, you know, we are very... We are completely dependent on grants. So, we are now waiting to hear what kind of funding we have for next year. And if anyone ever wanted to learn how to do holography, they can just contact you for your workshop programs as well. Absolutely. They should go to our website. Absolutely. I&#x27;ll have a link to your website as well. Oh, great. Yeah. But tell everyone what it is in case they&#x27;re listening to this ten years later. It&#x27;s holocenter.com. And it&#x27;s... There, we have all the news. We are doing... What we&#x27;re doing and also what other holographers around the world are doing. And we have... We post dates for the workshop. And it&#x27;s still very exciting work that you&#x27;re doing there. Oh, thank you. That never ends. And I love coming in. I&#x27;ve been into the center several times now. Uh-huh. I don&#x27;t get into New York as much. As I used to when I was younger. Ah. The trip takes a lot out of me. Really? When I came back from that trip, my wife and I took out there. We were tired. What a charming wife you have. Oh, thank you so much. Yes, and you&#x27;re so lucky. I am. Yes. Lucky. For somebody like me, I&#x27;m lucky. Yeah. Yeah. I&#x27;m so supportive of your endeavors. Yeah. Yeah. Well, sometimes you need to have that in order to get your work done and do what it is that you need to do. Yeah. Hopefully, I can leave something behind after I move on to Greenland. Greenland or Pastures. Well, I think that the work that we have done and we&#x27;re doing still here, the Pulse, I think that holography is going to be taking a turn towards much more of the whole digital world. Absolutely. But I think that this Pulse and CW work that we&#x27;ve been doing, they will be seen as the daguerreotypes. I think that&#x27;s what I&#x27;ve seen now. It&#x27;s very fine pieces of work. Mm-hmm. And yours especially. Well, thank you. Yeah, absolutely. Because I do have a couple portraits myself here in my own. I have a small collection of holograms, nothing like some people do. Like Jonathan Ross has an enormous collection of holography. Right. But yours definitely has a more humane feel to it than the other portraits. And I don&#x27;t think that you&#x27;d get that many people who would give that common remark that the people look waxy or ghost-like in your holograms because they maintain that feeling of being...
 
-people who would give that common remark that the people look waxy or ghost-like in your holograms because they maintain that feeling of being present, of being human, of personality, of something internal rather than just surface. Well, thank you. Yeah, and it&#x27;s tough to achieve with anything. You know, some of my other work, I&#x27;m very, very interested in the human form. I&#x27;ve done a great many other pieces. You know, I&#x27;ve had many other exhibitions. And many different styles of work as well, right? And many different styles of work. And the latest one, I really became very interested in exploring the same theme with three different media. And I did a video and photography and holography. It was called Hide and Seek. Oh, okay. And it was really, if you go to my website, hannamarianicholson.com. Oh, I didn&#x27;t even know you had a personal website. Yes. All these years. How long have you had that? Many years. I always went to the Holocenter website. No, no. Well, there are links to me, but yes. And you&#x27;ll see how, you know, at the different exhibitions. Well, I will most definitely make sure that everyone&#x27;s aware of that as well. Thank you. Yeah. I&#x27;m going to be hanging a little at the end of the line there on that, a little late. But now it&#x27;s something for me to do later tonight. I&#x27;ll come down to do editing on the audio and I can visit your website while I do that. Okay. All right. And is there anything else before we close that you would like the listeners to know about that I didn&#x27;t ask about? Well, I don&#x27;t know. We are open to the public on Saturdays for people to come and see the exhibition. Okay. Thank you. And we are also, they can call and make an appointment if they cannot make it on the Saturday. And that&#x27;s it. That&#x27;s it. And then for more information, visit the website. Visit the website. Okay. Anna Maria, thank you so much for being a guest on the show. It was an honor to interview you. And please say hello to everyone for me again. Yes, I will. All right. Thank you so much for calling. Okay. Take care. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye.</div>
+people who would give that common remark that the people look waxy or ghost-like in your holograms because they maintain that feeling of being present, of being human, of personality, of something internal rather than just surface. Well, thank you. Yeah, and it&#x27;s tough to achieve with anything. You know, some of my other work, I&#x27;m very, very interested in the human form. I&#x27;ve done a great many other pieces. You know, I&#x27;ve had many other exhibitions. And many different styles of work as well, right? And many different styles of work. And the latest one, I really became very interested in exploring the same theme with three different media. And I did a video and photography and holography. It was called Hide and Seek. Oh, okay. And it was really, if you go to my website, hannamarianicholson.com. Oh, I didn&#x27;t even know you had a personal website. Yes. All these years. How long have you had that? Many years. I always went to the Holocenter website. No, no. Well, there are links to me, but yes. And you&#x27;ll see how, you know, at the different exhibitions. Well, I will most definitely make sure that everyone&#x27;s aware of that as well. Thank you. Yeah. I&#x27;m going to be hanging a little at the end of the line there on that, a little late. But now it&#x27;s something for me to do later tonight. I&#x27;ll come down to do editing on the audio and I can visit your website while I do that. Okay. All right. And is there anything else before we close that you would like the listeners to know about that I didn&#x27;t ask about? Well, I don&#x27;t know. We are open to the public on Saturdays for people to come and see the exhibition. Okay. Thank you. And we are also, they can call and make an appointment if they cannot make it on the Saturday. And that&#x27;s it. That&#x27;s it. And then for more information, visit the website. Visit the website. Okay. Anna Maria, thank you so much for being a guest on the show. It was an honor to interview you. And please say hello to everyone for me again. Yes, I will. All right. Thank you so much for calling. Okay. Take care. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

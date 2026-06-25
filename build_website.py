@@ -108,11 +108,85 @@ def srt_to_text(srt_content: str) -> str:
     lines = []
     for line in srt_content.strip().split('\n'):
         line = line.strip()
-        # Skip sequence numbers, timestamps, and blank lines
         if not line or line.isdigit() or '-->' in line:
             continue
         lines.append(line)
     return ' '.join(lines)
+
+
+def parse_srt(srt_content: str) -> list:
+    """Parse SRT into list of {start, end, text} segments."""
+    segments = []
+    blocks = srt_content.strip().split('\n\n')
+    for block in blocks:
+        lines = block.strip().split('\n')
+        if len(lines) < 3:
+            continue
+        # Find timestamp line
+        ts_line = None
+        text_lines = []
+        for line in lines:
+            if '-->' in line:
+                ts_line = line
+            elif not line.strip().isdigit() or ts_line:
+                if ts_line and not line.strip().isdigit():
+                    text_lines.append(line.strip())
+        if ts_line and text_lines:
+            parts = ts_line.split('-->')
+            start = parts[0].strip().split(',')[0]
+            end = parts[1].strip().split(',')[0]
+            segments.append({
+                'start': start,
+                'end': end,
+                'text': ' '.join(text_lines)
+            })
+    return segments
+
+
+def format_timestamp(ts: str) -> str:
+    """Convert HH:MM:SS to readable format."""
+    try:
+        parts = ts.split(':')
+        h, m, s = int(parts[0]), int(parts[1]), int(parts[2])
+        if h > 0:
+            return f"{h}:{m:02d}:{s:02d}"
+        return f"{m}:{s:02d}"
+    except:
+        return ts
+
+
+def get_transcript_sources(video_id: str) -> dict:
+    """Get available transcript sources for a video."""
+    sources = {}
+    parakeet_path = TRANSCRIPTS_DIR / f"{video_id}-parakeet.srt"
+    if parakeet_path.exists():
+        content = parakeet_path.read_text(encoding='utf-8', errors='replace')
+        segments = parse_srt(content)
+        sources['parakeet'] = {
+            'label': 'Parakeet (timestamped)',
+            'type': 'srt',
+            'segments': segments,
+            'text': srt_to_text(content)
+        }
+    whisper_path = TRANSCRIPTS_DIR / f"{video_id}-whisper-largev3.txt"
+    if whisper_path.exists():
+        content = whisper_path.read_text(encoding='utf-8', errors='replace')
+        sources['whisper'] = {
+            'label': 'Whisper Large-V3',
+            'type': 'text',
+            'text': content.strip()
+        }
+    # Also check for merged/corrected
+    for suffix, label in [('-corrected.txt', 'Corrected'), ('-merged.txt', 'Merged')]:
+        path = TRANSCRIPTS_DIR / f"{video_id}{suffix}"
+        if path.exists():
+            key = suffix.replace('-', '').replace('.txt', '')
+            sources[key] = {
+                'label': label,
+                'type': 'text',
+                'text': path.read_text(encoding='utf-8', errors='replace').strip()
+            }
+    return sources
 
 
 def get_excerpt(text: str, max_chars: int = 300) -> str:
@@ -344,19 +418,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -655,6 +822,46 @@ def build_creators_page(catalog, creators):
         f'<p>Holography Corpus · {len(creators)} creators</p>',
         '</div>',
         '</footer>',
+        '<script>',
+        'function switchTab(tabName) {',
+        '  document.querySelectorAll(".transcript-tab").forEach(t => t.classList.remove("active"));',
+        '  document.querySelectorAll(".transcript-panel").forEach(p => p.classList.remove("active"));',
+        '  document.querySelector(`.transcript-tab[data-tab="${tabName}"]`).classList.add("active");',
+        '  document.getElementById(`panel-${tabName}`).classList.add("active");',
+        '}',
+        'document.querySelectorAll(".transcript-tab").forEach(tab => {',
+        '  tab.addEventListener("click", () => switchTab(tab.dataset.tab));',
+        '});',
+        'function toggleTranscriptFullscreen() {',
+        '  const viewer = document.querySelector(".transcript-viewer");',
+        '  const btn = document.querySelector(".expand-btn");',
+        '  if (viewer.classList.contains("fullscreen")) {',
+        '    viewer.classList.remove("fullscreen");',
+        '    btn.textContent = "⤢ Expand";',
+        '  } else {',
+        '    viewer.classList.add("fullscreen");',
+        '    btn.textContent = "⤓ Collapse";',
+        '  }',
+        '}',
+        'document.addEventListener("keydown", (e) => {',
+        '  if (e.key === "Escape") {',
+        '    const viewer = document.querySelector(".transcript-viewer");',
+        '    if (viewer && viewer.classList.contains("fullscreen")) toggleTranscriptFullscreen();',
+        '  }',
+        '});',
+        'document.querySelectorAll(".timestamp").forEach(ts => {',
+        '  ts.addEventListener("click", () => {',
+        '    const time = ts.dataset.time;',
+        '    const iframe = document.querySelector("iframe");',
+        '    if (iframe) {',
+        '      const [h,m,s] = time.split(":").map(Number);',
+        '      const seconds = (h||0)*3600 + (m||0)*60 + (s||0);',
+        '      const src = iframe.src.split("?")[0] + "?autoplay=1&start=" + seconds;',
+        '      iframe.src = src;',
+        '    }',
+        '  });',
+        '});',
+        '</script>',
         '</body>',
         '</html>',
     ])
@@ -840,10 +1047,36 @@ def build_video_page(video, creator):
         '</div>',
     ]
 
-    if transcript:
+    # Transcript viewer with tabs
+    sources = get_transcript_sources(vid)
+
+    if sources:
+        # Tab buttons
+        tab_buttons = []
+        tab_panels = []
+        for i, (key, src) in enumerate(sources.items()):
+            active = ' active' if i == 0 else ''
+            tab_buttons.append(f'<button class="transcript-tab{active}" data-tab="{key}">{src["label"]}</button>')
+            
+            if src['type'] == 'srt' and src.get('segments'):
+                # Timestamped view
+                lines = []
+                for seg in src['segments']:
+                    ts = format_timestamp(seg['start'])
+                    start_time = seg['start']
+                    text_escaped = html.escape(seg['text'])
+                    lines.append(f'<div class="transcript-line"><span class="timestamp" data-time="{start_time}">{ts}</span><span class="transcript-text">{text_escaped}</span></div>')
+                panel_content = '\n'.join(lines)
+            else:
+                # Plain text view
+                panel_content = f'<div class="transcript-plain">{html.escape(src["text"])}</div>'
+            
+            tab_panels.append(f'<div class="transcript-panel{active}" id="panel-{key}">{panel_content}</div>')
+        
         html_parts.extend([
             '<h2>Transcript</h2>',
-            f'<div class="transcript">{html.escape(transcript)}</div>',
+            '<div class="transcript-tabs">' + ''.join(tab_buttons) + '</div>',
+            '<div class="transcript-viewer">' + '\n'.join(tab_panels) + '<button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>',
         ])
     else:
         html_parts.append('<p><em>Transcript not yet available for this video.</em></p>')

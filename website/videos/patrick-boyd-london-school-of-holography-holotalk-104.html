@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,392 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Ah! Ah! Ah!! Listen, Imaging. Yes, how are you? This is Frank DeFreitas calling again for Patrick Boyd. Sure, let me just get him for you. Thank you. Hello. Patrick. Hey, how you doing? How are you? It&#x27;s Frank. Not too bad, you know. Did you have a little time? Yep, yep, yep, yep. I called a little earlier. They said you were out to lunch. Yeah, yeah. What did you have for lunch? Oh, chicken Caesar salad. Slightly healthy, but then with the croutons, you know. Yeah, that sounds pretty good. Yeah, it&#x27;s all right. We&#x27;ve got a good cafe around here. No burgers and fries? No, they do burgers and fries, but, you know, it&#x27;s summer. It&#x27;s summer. Yeah, so, yeah, far away. I sound far away. No, no, no, no, fire away. Oh, fire away. I&#x27;m all psyched up now. Okay. Got a little bit of an echo in your voice, but I think we&#x27;re okay with it. Okay. It sounds like you&#x27;re in a large room. It is quite a large room. This is, I&#x27;m in the conference room. Oh, are you on a speakerphone? No, no, no, not at all. Okay. Not at all. I mean, we could try back or... No, this is fine. I think it&#x27;ll be fine. Okay. All right. Okay. Why don&#x27;t we start off? I know you have a number of things coming up that&#x27;s very exciting as far as some of your workshops, assuming that those are still go over there. Why don&#x27;t we start off with that, and we&#x27;ll get that information out to the folks that are listening right off the bat. Okay. No problem. Thank you. So, I&#x27;m in Maine now. There used to be a holography school in this location some time ago run by Edwina Orr. Mm-hmm. It&#x27;s called Richmond School, Richmond Holographic Studios. Yes. And so there was always classes here, and this is where I first came across holography as well. And, yeah, basically, about 10 years ago, the premises was taken over by a company called Spatial Imaging. Okay. And... And... And... make digital holograms. I see. Now, is that creating holograms directly from digital information, or are you using some sort of an interface with a projection screen or something? No, no, no, creating it digitally, printing it dot by dot. That&#x27;s an incredible amount of information that you&#x27;re processing there. Are you able to do that using just standard desktop computers now or proprietary stuff? No, no, no, it&#x27;s a standard desktop computer. That&#x27;s amazing. Yeah, they&#x27;re quite good, and they&#x27;ve got a few technologies that use different methods, but basically it&#x27;s printing the hologram pixel by pixel, and that&#x27;s mainly used for security imaging. Yes, I imagine they&#x27;re rather small holograms. Oh, no, up to 50 by 50, something like that, quite big. No kidding. Yeah, yeah. How much time does it take to print a hologram that size? Because I know a long time ago in Holosphere, the publication from the Museum of Holography, I think there was a... There was a company called Aerodyne, and they were doing digital holography, and I think they were doing a centimeter by centimeter hologram, and I believe it took 72 hours to print centimeter by centimeter. Well, I think the biggest one here takes about eight hours or something. Yeah. There&#x27;s one on the wall here, and I haven&#x27;t got a tape measure on me, but it&#x27;s about twice the size of an album cover or something like that. Okay. So they&#x27;re quite big. And yeah, they&#x27;re... Yeah, they take overnight, I think, those things to produce. Yeah. Yeah, it&#x27;s all done on photo assist. Anyway, unfortunately, this isn&#x27;t my department. My department is more traditional holography. And so therefore, they have these labs, which they hadn&#x27;t been the focus of the business, although they have done display work. It is interesting that holography has gotten to the point where we can refer to a specific type of holography now as traditional holography. Yes, I know. Yeah. Yes. It is quite odd. But then again, I think a lot of people working in holography, and I know some of them actually that work with holography, but don&#x27;t know traditional holography. They&#x27;re only digital holographers. Oh. Hmm. There&#x27;s one here actually who doesn&#x27;t know about traditional holography. Yeah. How about that? Yeah. We&#x27;re getting old, Patrick. Yeah, I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:25">0:25</span><span class="transcript-text">Yes, how are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">This is Frank Defray is calling again for Patrick Boyd.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:29">0:29</span><span class="transcript-text">Sure, let me just get him for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:30">0:30</span><span class="transcript-text">Thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:44">0:44</span><span class="transcript-text">Hello.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:45">0:45</span><span class="transcript-text">Patrick.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:46">0:46</span><span class="transcript-text">Hey, how are you doing?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:47">0:47</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">It&#x27;s Frank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">Uh not too bad, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:50">0:50</span><span class="transcript-text">Did you have a little time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:51">0:51</span><span class="transcript-text">Yeah, yeah, yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:53">0:53</span><span class="transcript-text">I called a little earlier.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:54">0:54</span><span class="transcript-text">They said you were out to lunch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:55">0:55</span><span class="transcript-text">Yes, yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:56">0:56</span><span class="transcript-text">What did you have for lunch?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:58">0:58</span><span class="transcript-text">Oh chicken Caesar salad.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:00">1:00</span><span class="transcript-text">Slightly healthy, but uh the croutons, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:04">1:04</span><span class="transcript-text">So Yeah, that sounds pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:08">1:08</span><span class="transcript-text">No bur no burgers and fries?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:15">1:15</span><span class="transcript-text">Yeah, so yeah, far away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:17">1:17</span><span class="transcript-text">I sound far away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:18">1:18</span><span class="transcript-text">No, no, no, no.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Fire away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:20">1:20</span><span class="transcript-text">Oh, fire away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:22">1:22</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:23">1:23</span><span class="transcript-text">Got a little bit of an echo in your voice, but I think we&#x27;re okay with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:26">1:26</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:26">1:26</span><span class="transcript-text">It sounds like you&#x27;re in a large room.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:28">1:28</span><span class="transcript-text">It is quite a large one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:29">1:29</span><span class="transcript-text">This is I&#x27;m in the conference room.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">Oh, are you on a speakerphone?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:33">1:33</span><span class="transcript-text">No, no, no, not at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:35">1:35</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:35">1:35</span><span class="transcript-text">Not at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:36">1:36</span><span class="transcript-text">I mean we could try back or No, this is fine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:39">1:39</span><span class="transcript-text">I think it&#x27;ll it it&#x27;ll be fine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:41">1:41</span><span class="transcript-text">Okay, alright, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:42">1:42</span><span class="transcript-text">Why don&#x27;t we start off?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:43">1:43</span><span class="transcript-text">I know you have a number of things coming up that&#x27;s very exciting as far as some of your workshops, assuming that those are are still a go over there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">Why don&#x27;t we start off with that and we&#x27;ll get that information out to the folks that are listening uh right off the bat.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:55">1:55</span><span class="transcript-text">Okay, no problem.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:57">1:57</span><span class="transcript-text">As you n may know, there used to be um a holography school in this location uh some time ago run by Edwina Orr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:07">2:07</span><span class="transcript-text">School Richmond School Richmond holographic studios.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:10">2:10</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:11">2:11</span><span class="transcript-text">And uh so there was always classes here, and this is where I first came across holography as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:17">2:17</span><span class="transcript-text">And yeah, basically, um about ten years ago the premises was uh uh taken over by a company called Spatial Imaging, which is called Rob Monday and Jeffrey Robb.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:29">2:29</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:30">2:30</span><span class="transcript-text">And uh but most of um they&#x27;re they&#x27;re traditionally a display holography company, but for the last I&#x27;d say eight years their work has been more digital, make digital holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:43">2:43</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:44">2:44</span><span class="transcript-text">Now is that creating holograms directly from digital information or are you using some sort of an interface with a with a uh projection screen or something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:51">2:51</span><span class="transcript-text">No, no, no, creating it digitally, printing it dot by dot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:55">2:55</span><span class="transcript-text">That&#x27;s an incredible amount of uh information that you&#x27;re processing there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:59">2:59</span><span class="transcript-text">Are are are you able to do that using just standard desktop computers now or proprietary stuff?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:05">3:05</span><span class="transcript-text">No, no, no, it&#x27;s uh it&#x27;s a standard desktop computer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:08">3:08</span><span class="transcript-text">That&#x27;s just that&#x27;s amazing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:10">3:10</span><span class="transcript-text">Yeah, no, it&#x27;s it&#x27;s they&#x27;re quite good, and they&#x27;ve got a few technologies uh that use different methods, but basically it&#x27;s yeah, printing the hologram pixel by pixel.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:19">3:19</span><span class="transcript-text">And that&#x27;s mainly used for security imaging.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:22">3:22</span><span class="transcript-text">Yes, I imagine they&#x27;re rather small holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:24">3:24</span><span class="transcript-text">Oh no, up to fifty by fifty, something like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:28">3:28</span><span class="transcript-text">No kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">What time how much time does it take to print a hologram that size?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:32">3:32</span><span class="transcript-text">Because I know a long time ago in Holosphere and the the publication from the Museum of Holography, I think there was a company called Aerodine, and they were they were doing digital holography, and I think they were doing a centimeter by centimeter hologram, and I believe it took seventy two hours to print centimeter by centimeter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:50">3:50</span><span class="transcript-text">Well, I think the biggest one here takes about eight hours or something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:03">4:03</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:04">4:04</span><span class="transcript-text">So they&#x27;re quite big.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">And um yeah, they&#x27;re the yeah, they take overnight, I think, those things to produce.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">And yeah, it&#x27;s all done on photo resist.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:14">4:14</span><span class="transcript-text">Anyway, unfortunately this isn&#x27;t my department.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:16">4:16</span><span class="transcript-text">My department&#x27;s okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:20">4:20</span><span class="transcript-text">And uh so therefore they had these labs which they hadn&#x27;t hadn&#x27;t been the focus of the business, although they have done display work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:28">4:28</span><span class="transcript-text">But it it is interesting that holography has gotten to the point where we can refer to a specific type of holography now as traditional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:37">4:37</span><span class="transcript-text">Yes, I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:38">4:38</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:39">4:39</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:40">4:40</span><span class="transcript-text">It is quite odd.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:41">4:41</span><span class="transcript-text">But then again, there are I think a lot a lot of people working in holography, and I know some of them actually that uh work with holog holography, but don&#x27;t know traditional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:53">4:53</span><span class="transcript-text">They&#x27;re only digital holographers, you know, oh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:57">4:57</span><span class="transcript-text">There there&#x27;s one here actually doesn&#x27;t know about traditional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:01">5:01</span><span class="transcript-text">Yeah, how about that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:02">5:02</span><span class="transcript-text">Uh next we&#x27;re getting old, Patrick.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:04">5:04</span><span class="transcript-text">Yeah, I know, I know, I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:05">5:05</span><span class="transcript-text">We&#x27;re probably the old school here, doing it by hand.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:09">5:09</span><span class="transcript-text">I I imagine that your workshops are going to be for traditional holography as well, is that correct?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">Okay, so go ahead and have a moment, no entirely traditional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:17">5:17</span><span class="transcript-text">Um, you know, the continuous wave laser, most of it, but we do cover the pulse slightly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:24">5:24</span><span class="transcript-text">And yeah, very traditional, you know, on a very heavy table, you know, settling time and all that, you know, all about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:32">5:32</span><span class="transcript-text">And um yeah, so um so basically the labs were here and uh spatial imaging thought they&#x27;d like to get the labs used and thought that it might be good, you know, time to uh start the courses again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:46">5:46</span><span class="transcript-text">Also, there&#x27;s a renewed interest in holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:49">5:49</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:50">5:50</span><span class="transcript-text">And uh there are some new materials becoming available as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:55">5:55</span><span class="transcript-text">And uh so as far as recording materials.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:57">5:57</span><span class="transcript-text">Yeah, recording materials, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:59">5:59</span><span class="transcript-text">What&#x27;s out there that&#x27;s new?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:00">6:00</span><span class="transcript-text">Uh well the B B plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:02">6:02</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:03">6:03</span><span class="transcript-text">Yeah, so we&#x27;ve started using those.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Are they your preference?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:06">6:06</span><span class="transcript-text">Uh yes, yeah, they seem available and uh they seem to work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:10">6:10</span><span class="transcript-text">They&#x27;re not as fast as ACFA, but when you get them to work they&#x27;re just as good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:13">6:13</span><span class="transcript-text">They&#x27;re beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:14">6:14</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:15">6:15</span><span class="transcript-text">And uh I&#x27;ve seen some very good work by Nyaki Bergstein using them, you know, full colour work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:21">6:21</span><span class="transcript-text">Which is absolutely fantastic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:24">6:24</span><span class="transcript-text">Now do you do any full colour work there with the uh continuous wave?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:31">6:31</span><span class="transcript-text">You know, we&#x27;ll which is what a lot of full colour work is anyway.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:35">6:35</span><span class="transcript-text">Um but yeah, we we mess around with tea.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">But at the moment we&#x27;re in a kind of um young stage, you know, embryonic stage.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">We&#x27;re just we&#x27;ve just got the labs up and running.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:46">6:46</span><span class="transcript-text">We&#x27;re offering the basic things in methods of teaching holography at the moment we&#x27;re just doing beginners courses.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:53">6:53</span><span class="transcript-text">And at the moment I&#x27;m busy trying to set up a stereogram camera as well, so we can teach that method as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:00">7:00</span><span class="transcript-text">Which will be from a digital input so that&#x27;s I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">Yeah, so um yeah, we&#x27;ve got we&#x27;ve got the basics of a camera here which will um make it that much easier.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">Bit of a shame, but there we go, you can&#x27;t stop progress.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">And then where people will be able to bring files, whether they&#x27;re computer generated or film or photographs and scan them in and go directly from the computer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:23">7:23</span><span class="transcript-text">That&#x27;s the idea.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:24">7:24</span><span class="transcript-text">That&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:24">7:24</span><span class="transcript-text">How many how many images per hologram are you planning to use?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:27">7:27</span><span class="transcript-text">Oh, I don&#x27;t know, fifty to a hundred.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:30">7:30</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:36">7:36</span><span class="transcript-text">Yeah, yeah, we&#x27;ve done three courses so far.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:39">7:39</span><span class="transcript-text">How long do they run?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:40">7:40</span><span class="transcript-text">Uh a week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:41">7:41</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:44">7:44</span><span class="transcript-text">And uh yeah, that uh at the moment we&#x27;re scheduling &#x27;em for the last week of every month.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:50">7:50</span><span class="transcript-text">And uh I haven&#x27;t really advertised it yet, so everyone that&#x27;s come along so far has been through word of mouth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:58">7:58</span><span class="transcript-text">Now, if someone wanted to get information about the workshops on the web, would they go to your personal website or is there another website that you would recommend they go to?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:06">8:06</span><span class="transcript-text">There is another website and it is www.holograms dot UK and you follow the link from it says what&#x27;s new.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:18">8:18</span><span class="transcript-text">Okay, uh hopefully we&#x27;ll get a a direct link &#x27;cause we&#x27;ve after the third workshop we decided it had this school had to have a name, so we&#x27;ve come up with the London School of Philography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:29">8:29</span><span class="transcript-text">Terrific.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:30">8:30</span><span class="transcript-text">Uh all the bills and I&#x27;ve got to um redo the web so uh that comes up on a search and hopefully it&#x27;ll come up with we&#x27;ll have to find out if London School is available or planted school of philography or something like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:44">8:44</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:47">8:47</span><span class="transcript-text">Now, your your early work, why don&#x27;t you tell the listeners that may not be familiar with Patrick Boyd from dare I say, maybe twenty year maybe fifteen, twenty years ago?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:57">8:57</span><span class="transcript-text">Oh golly, you know you&#x27;re talking uh well, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:01">9:01</span><span class="transcript-text">Twenty years now since I&#x27;ve been involved in holography, I think.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:04">9:04</span><span class="transcript-text">Yeah, and you started out with um I guess what we would turn here here in the States, you did a lot of uh fashion portraiture, I imagine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:13">9:13</span><span class="transcript-text">Yes, uh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:15">9:15</span><span class="transcript-text">Um well um I took uh the MA at the Royal College of Art in holography and uh came from a photographic background and I saw I guess my first holograms were actually photographic ones are the animated ones and um just animated images and for some reason then I was into fashion imagery, so I made animated fashion holograms which I perceived the end use being magazines and things like that, and then got involved in pulsed holography and got into portraiture and then started doing fashion imagery on that as well and uh did a shop window display for Zondo Rhodes and uh yeah, and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">So large scale fa fashion images and um and then when I lived in New York, which was nineteen ninety or eighty-nine ninety, I uh changed direction totally and went back into photographic imagery and started making stereograms, i.e.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:20">10:20</span><span class="transcript-text">three D holograms, but again still using animation, but these were more of a documentary nature than anything.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:29">10:29</span><span class="transcript-text">So uh Was it uh was this on uh Mercer Street in New York that you did these pieces?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:34">10:34</span><span class="transcript-text">Yeah, the old museum of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:36">10:36</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">And uh so but basically what I wanted to do was make uh a type of imaging that was spontaneous.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:46">10:46</span><span class="transcript-text">Unlike, you know, most holography is stuff that uh you find or whatever and then there&#x27;s a lot long deliberation process about making it a hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:56">10:56</span><span class="transcript-text">So I wanted to do something that was totally spontaneous.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:58">10:58</span><span class="transcript-text">So I worked out a way of making holograms from a camera that I could carry myself all the time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:04">11:04</span><span class="transcript-text">So I I took a photograph of thirty six photographs, one roll of film and then re registered them using an animation technique.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:12">11:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:13">11:13</span><span class="transcript-text">Of course, um nowadays, uh with video cameras and steady cams and uh registration software, this should be a lot easier.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:22">11:22</span><span class="transcript-text">Yeah, you register it on a screen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:24">11:24</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:24">11:24</span><span class="transcript-text">Or maybe there&#x27;s some software that can register it for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:27">11:27</span><span class="transcript-text">So I&#x27;m investigating that at the moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:30">11:30</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:31">11:31</span><span class="transcript-text">Seems a shame though, because um one of the thing I like one of the things I liked about re registering the imagery was that it put some human contact back into the process.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:42">11:42</span><span class="transcript-text">Yes, it was is it was very much a skill involved.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:44">11:44</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:45">11:45</span><span class="transcript-text">Which I I&#x27;m sure, you know, doing it on a terminal is a skill.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:49">11:49</span><span class="transcript-text">Differ different skill sets, but still a skill nonetheless, but it&#x27;s not as much I don&#x27;t know if that&#x27;s true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:55">11:55</span><span class="transcript-text">I was gonna say it&#x27;s not as much a hands on skill, but I guess it would be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:58">11:58</span><span class="transcript-text">It&#x27;s a tough thing, you know, it uh thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:00">12:00</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:01">12:01</span><span class="transcript-text">But um I did feel that um with a lot of these processes if you take human intervention out of them so much then they kind of become slightly sterile.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:11">12:11</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:12">12:12</span><span class="transcript-text">And it was always nice to have a bit of craft in it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:14">12:14</span><span class="transcript-text">So anyway, maybe the craft will come somewhere else from the &#x27;Cause when I was you know, re registering these images it&#x27;s it was a a constant, you know, I didn&#x27;t know how they would turn out until I actually started re-registering them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">Um &#x27;cause when I looked through the images I&#x27;d decide what was going to be the focal plane and uh you could con so you could look at the image and say, right, that part there is going to be on the image plane.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:43">12:43</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:43">12:43</span><span class="transcript-text">Everything else is going to be for front or behind.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:45">12:45</span><span class="transcript-text">And you could choose that right at the end, really.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:48">12:48</span><span class="transcript-text">I mean when I shot it I obviously had a slight idea, but it often quite often changed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:53">12:53</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">So the registration of the images actually determines what&#x27;s in the focal plane.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:59">12:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:00">13:00</span><span class="transcript-text">Absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:01">13:01</span><span class="transcript-text">That is very much a craft.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:03">13:03</span><span class="transcript-text">Yeah, absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:04">13:04</span><span class="transcript-text">And it was uh all the how you shot it was a craft, you know, and the re-registering.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:11">13:11</span><span class="transcript-text">I have a part of the website for little handmade portraits where we use a small amount of images, maybe about eight to ten, just to give a static three dimensional uh hologram and uh I I went through the same thing uh as far as trying to think of w what am I sacrificing if I want to go digital with this rather than just uh traditional photography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:32">13:32</span><span class="transcript-text">Yes, yes, it it is uh it is a questi you know, a big uh issue really and um yeah, one that&#x27;s gotta be broached there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:44">13:44</span><span class="transcript-text">But uh anyway, we&#x27;ll see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:46">13:46</span><span class="transcript-text">We will see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:47">13:47</span><span class="transcript-text">I can always go back to the old hands-on method, but the last one I did, which was some time ago, um I seem to remember it took me about a couple of months to do because uh there were seventy two images which I uh well, two lots of thirty six I montaged the foreground and the background and the both the foreground and the background had to have corresponding maps.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:11">14:11</span><span class="transcript-text">So I I kind of montaged in the space.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:15">14:15</span><span class="transcript-text">And so that was uh a bit too much work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:18">14:18</span><span class="transcript-text">I got too involved in the process, so this this&#x27;ll give me a chance to step back a bit and maybe start afresh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:25">14:25</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:26">14:26</span><span class="transcript-text">Now y I know I&#x27;ve been on a website of yours, it&#x27;s a personal website that contains your photography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:32">14:32</span><span class="transcript-text">Do you also have a website for the uh holograms so someone could see these?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:36">14:36</span><span class="transcript-text">I do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:36">14:36</span><span class="transcript-text">It&#x27;s rather out of date.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:38">14:38</span><span class="transcript-text">It&#x27;s in uh it&#x27;s in Jap well the one I did in Japan and it&#x27;s actually on uh the Oh okay yeah I remember actually on the a guy called Earth Freeze rescued it from Japan and this is now on the um Konstitu for median website the K H M dot D E.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:58">14:58</span><span class="transcript-text">And uh I&#x27;ll have to look up the website link.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:01">15:01</span><span class="transcript-text">Yeah I can do a search and uh find the URL because I want to include you know uh a link to you know some of your work to go along with the show as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:09">15:09</span><span class="transcript-text">Oh that that would be good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:11">15:11</span><span class="transcript-text">I&#x27;ve got to update it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:12">15:12</span><span class="transcript-text">It&#x27;s rather old.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:14">15:14</span><span class="transcript-text">But um yeah no have to thank us for rescuing it otherwise it would have been lost forever.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:19">15:19</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:23">15:23</span><span class="transcript-text">Nothing&#x27;s lost forever on the web.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:25">15:25</span><span class="transcript-text">I uh there&#x27;s actually a few websites that go around and they spider all the websites that are in existence.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:30">15:30</span><span class="transcript-text">And they store it on their computers and you can go there and do a search and find websites that have been off the web for years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:38">15:38</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:39">15:39</span><span class="transcript-text">So ever everything&#x27;s still there if you can think so you&#x27;ve got to find it you gotta find it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:43">15:43</span><span class="transcript-text">Do you ever think about coming to the States to do any of your workshop programs?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:47">15:47</span><span class="transcript-text">Um well we&#x27;re gonna get this one off the ground.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:49">15:49</span><span class="transcript-text">Sure, sure, I understand.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">People um have mentioned it and uh yes, of course I would be interested in doing I mean obviously there&#x27;s a thing where you know holography is kind of equipment dependent and so you couldn&#x27;t offer the whole thing and you could only offer what equip you know within the equipment available.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:09">16:09</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:09">16:09</span><span class="transcript-text">But uh the idea is to try and get some teaching elsewhere and hopefully encourage some people to come to Richmond as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:17">16:17</span><span class="transcript-text">That might want to, you know, do the stereogram work or the pulse work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:22">16:22</span><span class="transcript-text">Did you ever hear anything from Bardas?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:24">16:24</span><span class="transcript-text">I haven&#x27;t heard from Bardas for years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:26">16:26</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:27">16:27</span><span class="transcript-text">I think last I heard he was living in Oklahoma City or something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">Oh really?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">Huh getting into Shiatsu but I haven&#x27;t heard from for years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:36">16:36</span><span class="transcript-text">Yeah it would be good to get in contact with him.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:38">16:38</span><span class="transcript-text">Yeah I have a video tape of you that he recorded of you working at the museum of philography down in the lab.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:45">16:45</span><span class="transcript-text">Oh well you know that&#x27;d be good to see that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:48">16:48</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:49">16:49</span><span class="transcript-text">I may I may take a few snippets of that of at some point and uh show people Oh no that would be great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:55">16:55</span><span class="transcript-text">Would you like that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:56">16:56</span><span class="transcript-text">Yeah yeah absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:58">16:58</span><span class="transcript-text">That uh might look a little young though so it&#x27;d be horrify Yeah how how the years go, huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:04">17:04</span><span class="transcript-text">Yeah, right they fly past.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:05">17:05</span><span class="transcript-text">If you don&#x27;t mind me asking how old are you now?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:07">17:07</span><span class="transcript-text">Oh twenty eight mana I&#x27;m forty five now because uh I find quite scary.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:15">17:15</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:16">17:16</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:16">17:16</span><span class="transcript-text">I&#x27;m gonna hit fifty in January.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:18">17:18</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">That&#x27;s really scary.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:21">17:21</span><span class="transcript-text">That&#x27;s it, you know, it&#x27;s almost like, you know this is the last part of my life now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:26">17:26</span><span class="transcript-text">That&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:29">17:29</span><span class="transcript-text">It&#x27;s true though.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:30">17:30</span><span class="transcript-text">It&#x27;s true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:31">17:31</span><span class="transcript-text">Yeah, no, no, we&#x27;ve still got lots of years in there, twenty, thirty.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:35">17:35</span><span class="transcript-text">Yeah, but I don&#x27;t know, it&#x27;s all it&#x27;s all an attitude.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:38">17:38</span><span class="transcript-text">I imagine I&#x27;m still gonna be working away when I&#x27;m seventy five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:41">17:41</span><span class="transcript-text">I&#x27;ll never finish work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:41">17:41</span><span class="transcript-text">I&#x27;ll be w I&#x27;ll be working when I pass pass away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:44">17:44</span><span class="transcript-text">I mean, things go a little you know, progress takes a little longer, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:52">17:52</span><span class="transcript-text">But uh we&#x27;re still working away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:54">17:54</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:54">17:54</span><span class="transcript-text">Let me ask you this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:56">17:56</span><span class="transcript-text">Do you find more excitement in holography now or back when you you were uh uh say younger at n in New York?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:04">18:04</span><span class="transcript-text">I think I still find it just as exciting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:07">18:07</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:08">18:08</span><span class="transcript-text">And um What about the response of people to holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:11">18:11</span><span class="transcript-text">There&#x27;s seems to be almost a uh drought of exhibits and Yeah, well, I mean the the response of people uh to holography seems to be equally as uh amazing, you know, and there&#x27;s a whole load of people that come in and say, Wow, I&#x27;ve never seen anything like it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:28">18:28</span><span class="transcript-text">Yeah, still to this day, huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:29">18:29</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:30">18:30</span><span class="transcript-text">Well and they haven&#x27;t seen them, you see, &#x27;cause they&#x27;ve you know, they they&#x27;re coming up, you know, twenty year old maybe haven&#x27;t seen holograms like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:37">18:37</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:38">18:38</span><span class="transcript-text">&#x27;Cause I haven&#x27;t been around.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:39">18:39</span><span class="transcript-text">And uh it&#x27;s it&#x27;s kinda different working in it now because um before it was definitely on the cutting edge of technology.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:46">18:46</span><span class="transcript-text">Well now i it it&#x27;s just different, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:50">18:50</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:52">18:52</span><span class="transcript-text">And a lot of competing technologies.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:53">18:53</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:54">18:54</span><span class="transcript-text">Well it doesn&#x27;t seem high tech anymore, it just seems different, which is probably a good thing for holography because you know, philography suffered from anything that was being kind of over I don&#x27;t know, uh f uh what&#x27;s the word I&#x27;m looking for, like uh people expected too much from it, they expected Star Trek and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:14">19:14</span><span class="transcript-text">Yeah, project projected entertainment within their living rooms and things of that nature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:19">19:19</span><span class="transcript-text">And now that&#x27;s you know, not not it doesn&#x27;t have such a reputation to live up to.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:24">19:24</span><span class="transcript-text">Unfortunately you still get the odd thing in the papers where someone says, Oh, and they&#x27;re gonna be holographic projections and you have to explain to people that no, they&#x27;re not holographic projections, you know, there&#x27;s something else, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:29">19:29</span><span class="transcript-text">So it still has that problem.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:37">19:37</span><span class="transcript-text">But uh I mean people a lot of people had a very negative conceptual idea of holography, you know, because of all these promises that it failed to keep up to.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:50">19:50</span><span class="transcript-text">But now I know got a new generation of people coming up and they all seem very excited about it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:55">19:55</span><span class="transcript-text">And uh we&#x27;ll see and also holographies doing very well in the art world at the moment, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:01">20:01</span><span class="transcript-text">We&#x27;ve got um James Terrell showing his holograms as major art pieces.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">Where are those shows at?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:09">20:09</span><span class="transcript-text">Uh where he recently showed some at the Royal Academy in London show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:14">20:14</span><span class="transcript-text">But I think he&#x27;s showing all over the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:16">20:16</span><span class="transcript-text">Now most of these folks are artists in the traditional sense that they&#x27;ve worked with uh other media and holography just piqued in interest and they decided to do a few pieces with holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:27">20:27</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:28">20:28</span><span class="transcript-text">That&#x27;s been the case for so many years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:30">20:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:30">20:30</span><span class="transcript-text">I had mixed feelings about that, but I guess, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:33">20:33</span><span class="transcript-text">Yeah, I I think uh most holographers probably do, but it&#x27;s not only holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:37">20:37</span><span class="transcript-text">I mean, most big name artists will commission studios to make their work, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:44">20:44</span><span class="transcript-text">I had an art studio, an artist studio not long ago and my neighbour all he did was make work for a famous artist, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:52">20:52</span><span class="transcript-text">And he was a sculptor, so it&#x27;s it&#x27;s not just in holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:56">20:56</span><span class="transcript-text">It&#x27;s it&#x27;s a bit annoying that holographers per se have been able to get large shows for themselves on the back of their own work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:04">21:04</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:04">21:04</span><span class="transcript-text">But I think it it goes across the board.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:06">21:06</span><span class="transcript-text">I mean, art is a business and uh uh for better or for worse or whatever, and it&#x27;s um a lot of the people that make, you know, the money are peop people getting other people to make their work for them, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:19">21:19</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:20">21:20</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:20">21:20</span><span class="transcript-text">So it&#x27;s not always like that, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:23">21:23</span><span class="transcript-text">But anyway.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:24">21:24</span><span class="transcript-text">So what are your future plans?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:25">21:25</span><span class="transcript-text">I mean, ten years from now where do you see Patrick Boyd?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:28">21:28</span><span class="transcript-text">Well, um well, hopefully uh running a very successful holography school.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">With um courses more than once a month.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:39">21:39</span><span class="transcript-text">Now will you instruct do you plan on instructing these courses yourself or do you see the day come when you&#x27;re instructing most of the things you&#x27;ll be more in administrative position.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:47">21:47</span><span class="transcript-text">Well um organizing it and instructing it and also um getting guest teachers in in Yakibstein is the only one so far, but hopefully that&#x27;ll increase the other specialisms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:03">22:03</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:03">22:03</span><span class="transcript-text">So someone coming in downstairs very nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:07">22:07</span><span class="transcript-text">That&#x27;s okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:08">22:08</span><span class="transcript-text">And it&#x27;s good to s it&#x27;s good to hear people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:10">22:10</span><span class="transcript-text">Yes, yes, there&#x27;s people here, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:12">22:12</span><span class="transcript-text">There&#x27;s um there&#x27;s quite a lot going on here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:16">22:16</span><span class="transcript-text">And uh yeah also, you know, I&#x27;m still interested in shooting um photographic footage for holograms and making holograms again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:25">22:25</span><span class="transcript-text">Do you see the day when you will have no choice but to move on to digital holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:30">22:30</span><span class="transcript-text">Um no I think there&#x27;s a there&#x27;s a there&#x27;s a future for traditional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:35">22:35</span><span class="transcript-text">I mean you can tell the difference when you look at a digital hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:40">22:40</span><span class="transcript-text">And uh also Yeah no no no I can&#x27;t I can&#x27;t say uh I can just see uh traditional holography at the moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:48">22:48</span><span class="transcript-text">Yeah at the moment I mean, you even when you make a digital hologram you uh you still have to um well unless you get someone else to make it for you, you know, um there&#x27;s still a lot of technology involved.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:02">23:02</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:03">23:03</span><span class="transcript-text">It&#x27;s all swings and roundabouts really.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:05">23:05</span><span class="transcript-text">I imagine the printer would be the most expensive part of the uh of that process.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:10">23:10</span><span class="transcript-text">Yeah, I mean basically, um when you make a digital hologram you have a you know it&#x27;s there&#x27;s a s a setup involved and uh yeah, I mean well they are they&#x27;re extremely these di digital holographic printers or whatever are extremely expensive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:26">23:26</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:26">23:26</span><span class="transcript-text">Who&#x27;s manufacturing those?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:28">23:28</span><span class="transcript-text">Uh well we do here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:29">23:29</span><span class="transcript-text">Oh you&#x27;re manufacturing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:31">23:31</span><span class="transcript-text">That that&#x27;s the main core of uh business is the technology.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:35">23:35</span><span class="transcript-text">Making these machines now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:36">23:36</span><span class="transcript-text">And the folks that are purchasing them, the companies, uh what are the applications that they&#x27;re using them for?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">If you&#x27;re security and metric.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:44">23:44</span><span class="transcript-text">Yeah, tickets and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:46">23:46</span><span class="transcript-text">Well, I want to wish you a lot of luck, continued success.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:49">23:49</span><span class="transcript-text">It&#x27;s been a long time since we&#x27;ve had a chance to talk to one another.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:53">23:53</span><span class="transcript-text">How&#x27;s Allentown?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:54">23:54</span><span class="transcript-text">Allentown&#x27;s doing well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:56">23:56</span><span class="transcript-text">Still have the same house.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:57">23:57</span><span class="transcript-text">Yes, excellent.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:58">23:58</span><span class="transcript-text">You know, my wife and I put a a lot of years into uh refurbishing the house.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:02">24:02</span><span class="transcript-text">The the girls like we had like I spoke to you on Saturday, they&#x27;re they&#x27;re grown.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:06">24:06</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:07">24:07</span><span class="transcript-text">And uh out of the house and uh you got it back to yourself now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:12">24:12</span><span class="transcript-text">How many children do you have?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:13">24:13</span><span class="transcript-text">Two, two.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:14">24:14</span><span class="transcript-text">What are their ages?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:15">24:15</span><span class="transcript-text">Uh Hamish is twelve and Tapitha&#x27;s ten.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:18">24:18</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:19">24:19</span><span class="transcript-text">Hey, which was famously featured in the hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:22">24:22</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:24">24:24</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:25">24:25</span><span class="transcript-text">And uh but it doesn&#x27;t seem to have affected him too much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:29">24:29</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:29">24:29</span><span class="transcript-text">Uh he&#x27;s still doing well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:31">24:31</span><span class="transcript-text">And uh yeah, no, but if you ever hear of Bardas, let us know what he&#x27;s up to.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:36">24:36</span><span class="transcript-text">Yeah, I&#x27;ve looked him up a couple of times on the web and I found a few things, but uh nothing that was current.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:41">24:41</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:41">24:41</span><span class="transcript-text">I try to find everybody.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:43">24:43</span><span class="transcript-text">Yeah, I&#x27;ll go he&#x27;ll surface at some point.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:48">24:48</span><span class="transcript-text">Alright, well uh just to let the whole talk listeners know, we have uh links on the website to uh Patrick&#x27;s workshop programs and they&#x27;re running now in London and uh you can become a part of those because they&#x27;re running around the calendar year, the last week of each month.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:05">25:05</span><span class="transcript-text">Excellent, excellent.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:06">25:06</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:07">25:07</span><span class="transcript-text">I&#x27;ll send you the the address for the my personal holography website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:12">25:12</span><span class="transcript-text">Patrick, thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:13">25:13</span><span class="transcript-text">Uh my pleasure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:14">25:14</span><span class="transcript-text">I&#x27;m sure the uh listeners are very happy to hear your voice, and that&#x27;s what HoloTalk&#x27;s all about.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:18">25:18</span><span class="transcript-text">You know, we read about all these people on the web, but we don&#x27;t really get a chance to hear them or hear them speak and this gives them uh everyone an opportunity to actually put a human element to uh these h holographers that everyone reads about.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:32">25:32</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:32">25:32</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:33">25:33</span><span class="transcript-text">Brilliant, brilliant.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:33">25:33</span><span class="transcript-text">Now I&#x27;m gonna have to gem up on my technology and work out how to download this to my iPod as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:39">25:39</span><span class="transcript-text">Oh, yeah, that&#x27;s just an automatic process.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:40">25:40</span><span class="transcript-text">I I mean there&#x27;s there&#x27;s a thing now where you can hook your iPod up and it&#x27;ll just uh download the show overnight and it&#x27;ll be waiting for you in the morning.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:48">25:48</span><span class="transcript-text">Oh dear.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:49">25:49</span><span class="transcript-text">Isn&#x27;t that amazing?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:50">25:50</span><span class="transcript-text">I&#x27;m I&#x27;m getting emails from people t that listen to them uh going to work in the morning on the buses and stuff and it&#x27;s a whole new ball game now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:58">25:58</span><span class="transcript-text">Doing well, doing well, the site still looks good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:01">26:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:02">26:02</span><span class="transcript-text">Excellent.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:02">26:02</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:03">26:03</span><span class="transcript-text">Okay, listen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:04">26:04</span><span class="transcript-text">Speak to you soon.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:05">26:05</span><span class="transcript-text">Okay, take care, Patrick.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:06">26:06</span><span class="transcript-text">Thanks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:07">26:07</span><span class="transcript-text">Bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:07">26:07</span><span class="transcript-text">Bye then.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Ah! Ah! Ah!! Listen, Imaging. Yes, how are you? This is Frank DeFreitas calling again for Patrick Boyd. Sure, let me just get him for you. Thank you. Hello. Patrick. Hey, how you doing? How are you? It&#x27;s Frank. Not too bad, you know. Did you have a little time? Yep, yep, yep, yep. I called a little earlier. They said you were out to lunch. Yeah, yeah. What did you have for lunch? Oh, chicken Caesar salad. Slightly healthy, but then with the croutons, you know. Yeah, that sounds pretty good. Yeah, it&#x27;s all right. We&#x27;ve got a good cafe around here. No burgers and fries? No, they do burgers and fries, but, you know, it&#x27;s summer. It&#x27;s summer. Yeah, so, yeah, far away. I sound far away. No, no, no, no, fire away. Oh, fire away. I&#x27;m all psyched up now. Okay. Got a little bit of an echo in your voice, but I think we&#x27;re okay with it. Okay. It sounds like you&#x27;re in a large room. It is quite a large room. This is, I&#x27;m in the conference room. Oh, are you on a speakerphone? No, no, no, not at all. Okay. Not at all. I mean, we could try back or... No, this is fine. I think it&#x27;ll be fine. Okay. All right. Okay. Why don&#x27;t we start off? I know you have a number of things coming up that&#x27;s very exciting as far as some of your workshops, assuming that those are still go over there. Why don&#x27;t we start off with that, and we&#x27;ll get that information out to the folks that are listening right off the bat. Okay. No problem. Thank you. So, I&#x27;m in Maine now. There used to be a holography school in this location some time ago run by Edwina Orr. Mm-hmm. It&#x27;s called Richmond School, Richmond Holographic Studios. Yes. And so there was always classes here, and this is where I first came across holography as well. And, yeah, basically, about 10 years ago, the premises was taken over by a company called Spatial Imaging. Okay. And... And... And... make digital holograms. I see. Now, is that creating holograms directly from digital information, or are you using some sort of an interface with a projection screen or something? No, no, no, creating it digitally, printing it dot by dot. That&#x27;s an incredible amount of information that you&#x27;re processing there. Are you able to do that using just standard desktop computers now or proprietary stuff? No, no, no, it&#x27;s a standard desktop computer. That&#x27;s amazing. Yeah, they&#x27;re quite good, and they&#x27;ve got a few technologies that use different methods, but basically it&#x27;s printing the hologram pixel by pixel, and that&#x27;s mainly used for security imaging. Yes, I imagine they&#x27;re rather small holograms. Oh, no, up to 50 by 50, something like that, quite big. No kidding. Yeah, yeah. How much time does it take to print a hologram that size? Because I know a long time ago in Holosphere, the publication from the Museum of Holography, I think there was a... There was a company called Aerodyne, and they were doing digital holography, and I think they were doing a centimeter by centimeter hologram, and I believe it took 72 hours to print centimeter by centimeter. Well, I think the biggest one here takes about eight hours or something. Yeah. There&#x27;s one on the wall here, and I haven&#x27;t got a tape measure on me, but it&#x27;s about twice the size of an album cover or something like that. Okay. So they&#x27;re quite big. And yeah, they&#x27;re... Yeah, they take overnight, I think, those things to produce. Yeah. Yeah, it&#x27;s all done on photo assist. Anyway, unfortunately, this isn&#x27;t my department. My department is more traditional holography. And so therefore, they have these labs, which they hadn&#x27;t been the focus of the business, although they have done display work. It is interesting that holography has gotten to the point where we can refer to a specific type of holography now as traditional holography. Yes, I know. Yeah. Yes. It is quite odd. But then again, I think a lot of people working in holography, and I know some of them actually that work with holography, but don&#x27;t know traditional holography. They&#x27;re only digital holographers. Oh. Hmm. There&#x27;s one here actually who doesn&#x27;t know about traditional holography. Yeah. How about that? Yeah. We&#x27;re getting old, Patrick. Yeah, I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know. I know.
 
 traditional holography. Yeah, how about that? We&#x27;re getting old, Patrick. Yeah, I know, I know. We&#x27;re part of the old school here, doing it by hand. I imagine that your workshops are going to be for traditional holography as well, is that correct? Oh, yes, yes. Okay, so go ahead. Not at the moment, no, entirely traditional holography. You know, continuous wave laser, most of that, but we do cover the pulse slightly. Mm-hmm. And yeah, very traditional, you know, on a very heavy table, you know, settling time and all that, you know all about that. Yeah. And yeah, so basically the labs were here and Spatial Imaging thought they&#x27;d like to get the labs used and thought that it might be a good, you know, time to start the courses again. Also, there&#x27;s a renewed interest in holography. Yeah. And there are some new materials becoming available as well. Yeah. So, yeah, I think that&#x27;s a good thing. Yeah. And I think that&#x27;s a good thing as well. And so it&#x27;s... As far as recording materials? Yeah, recording materials, yeah. And what&#x27;s out there that&#x27;s new? Well, the BB plate. Oh, okay. Yeah, so it started using those. Are they your preference? Yes, yeah. Yeah. They seem available and they seem to work. They&#x27;re not as fast as Agfa, but when you get them to work, they&#x27;re just as good. They&#x27;re beautiful. Yeah. And I&#x27;ve seen some very good work by Nyacki Bergstein using them, you know, full color work, which is absolutely fantastic. Yeah. And I think that&#x27;s a good thing. Yeah. And I think that&#x27;s a good thing. Yeah. And I think that&#x27;s a good thing. Yeah. Now do you do any full color work there with the continuous wave? No, we haven&#x27;t started on the course. Yeah. We haven&#x27;t started full color, but we&#x27;ve been doing pseudo color. Um-hmm. You know, which is what a lot of full color work is anyway. Um, but yeah, we mess around with tea. But at the moment, we&#x27;re in a kind of young stage, you know. Yeah. Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean Dean basic things in methods of teaching holography at the moment. We&#x27;re just doing beginners courses. And at the moment, I&#x27;m busy trying to set up a stereogram camera as well, so we can teach that method as well, which will be from a digital input. I see. Yeah, so we&#x27;ve got the basics of a camera here, which will make it that much easier. A bit of a shame, but there we go. You can&#x27;t stop progress. Yeah. And where people will be able to bring files, whether they&#x27;re computer-generated or film or photographs, and scan them in and go directly from the computer. That&#x27;s the idea. That&#x27;s great. How many images per hologram are you planning to use? Oh, I don&#x27;t know, 50 to 100. I see. That&#x27;s quite adaptable. Mm-hmm. Mm-hmm. When are your workshop programs starting up? I&#x27;m assuming perhaps they&#x27;ve started already? Yeah, yeah. We&#x27;ve done three courses so far. How long do they run? A week. Okay. At the moment, it&#x27;s five days. And, yeah, at the moment, we&#x27;re scheduling them for the last week of every month. And I haven&#x27;t really advertised it yet, so everyone that&#x27;s come along so far has been through word of mouth. Now, if someone wanted to get information about the workshops on the web, would they go to your personal website, or is there another website that you would recommend they go to? There is another website, and it is www.holograms.uk. And you follow the link from, it says, What&#x27;s New? Okay. Okay. Hopefully, we&#x27;ll get a direct link, because we&#x27;ve, after the third workshop, we decided it had the school heads have a name, so we&#x27;ve come up with the London School of Philography. Terrific. Fills all the bills. And I&#x27;ve got to redo the web, so that comes up on a search, and hopefully it&#x27;ll come up. We&#x27;ll have to find out if London School is available. Or London School of Philography. Or something like that. Come to do all that. Now, your early work, why don&#x27;t you tell the listeners that may not be familiar with Patrick Boyd from, dare I say, maybe 15, 20 years ago? Oh, golly, now you&#x27;re talking. Well, yeah. It&#x27;s 20 years now since I&#x27;ve been involved in holography, I think. Yeah. And you started out with, I guess what we would turn here in the States, you did a lot of fashion portraiture, I imagine. Yes. I suppose, yeah. Well, I took the MA at the Royal College of Art in holography, and I came from a photographic background. And so I guess my first holograms were actually photographic ones, so the animated ones, and just animated images. And for some reason then I was into fashion imagery, so I made animated fashion holograms, which I perceived the end use being magazines. And things like that. And then got involved in post-holography, and got into portraiture, and then started doing fashion imagery on that as well. And did a shop window display for Zonda Rhodes, and things like that. So large-scale fashion images. And then when I lived in New York, which was 1990. 1990.
 
@@ -373,7 +851,7 @@ I&#x27;ll have to look up the website link. Yeah, I can do a search and find the
 
 at the moment you know James Turrell showing his holograms of major art pieces where are those shows at recently showed some of the Royal Academy in London okay I think he&#x27;s showing all over the world now most of these folks are artists in the traditional sense that they&#x27;ve worked with other media and holography just piqued an interest and they decided to do a few pieces with holography yeah that&#x27;s been the case for so many years I&#x27;ve mixed feelings about that but I guess you know yeah I think most of us probably do but it&#x27;s not only holography I mean most big-name artists will commission studios to make their work you know I had an art studio an artist you did not long ago my neighbor all he did was make work for a famous artist you know and he was a sculptor so it&#x27;s not just an allog fear so it&#x27;s a bit annoying but a lot of us have been able to get large shows for themselves on the back of their own work yeah but I think it goes across the board I mean art is a business and for better or for worse or whatever and it&#x27;s a lot of the people that make you know the money of people getting other people to make their work for them you know yeah it&#x27;s not always like that anyway so what are your future plans I mean ten years from now where do you think you&#x27;re going to be doing your work now you see Patrick Boyd well well hopefully running a very successful holography school okay with courses more than once a month now will you instruct do you plan on instructing these courses yourself or do you see the day come when you&#x27;ll be more in an administrative position well I&#x27;m organizing it and instructing it and also getting guest teachers inerenki Bergstein is the only one so far but hopefully that will increase to other specialisms so there&#x27;s someone coming in downstairs very nicely right that&#x27;s okay it&#x27;s good to hear people yes yes there&#x27;s people here yeah there&#x27;s um there&#x27;s quite a lot going on here and uh yeah also you know I&#x27;m still interested in shooting um photographic footage for holograms and making holograms again do you see the day when you no no choice but to move on to digital holography um no i think there&#x27;s a there&#x27;s a future for traditional holography i mean you can tell the difference when you look at a digital hologram and uh also yeah no no i can&#x27;t i can&#x27;t say i can just see a traditional holography at the moment yeah i mean even when you make a digital hologram you still have to um well unless you get someone else to make it for you you know um there&#x27;s still a lot of technology involved yeah it&#x27;s all swings and roundabouts really i imagine the printer would be the most expensive part of the uh of that process yeah i mean basically um when you make a digital hologram you have a there&#x27;s a setup involved and uh yeah i mean well they are the extreme these digital holographic printers or whatever they&#x27;re extremely expensive yeah who&#x27;s manufacturing those well we do here oh you&#x27;re manufacturing yeah that&#x27;s the main core of their business is the technology making these machines now and the folks that are purchasing them the companies what are the applications that they&#x27;re using them for a security okay tickets and things like that well i want to wish you a lot of luck continued success it&#x27;s been a long time since we&#x27;ve had a chance to talk to one another it&#x27;s been great to catch up thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank you thank but it doesn&#x27;t seem to have affected him too much. Yeah. He&#x27;s still doing well. And, yeah, no, if you ever hear of Bardus, let us know what he&#x27;s up to. Yeah, I&#x27;ve looked him up a couple times on the web, and I found a few things, but nothing that was current. Yeah. I try to find everybody. Yeah. I&#x27;ll go hill surface at some point. All right. Well, just to let the Holotalk listeners know, we have links on the website to Patrick&#x27;s workshop programs, and they&#x27;re running now in London. And you can become a part of those because they&#x27;re running around the calendar year, the last week of each month. Excellent. Excellent. Excellent. All right. I&#x27;ll send you the address for my.
 
-around the calendar year, the last week of each month. Excellent, excellent. All right. I&#x27;ll send you the address for my personal holography website. All right. Patrick, thank you. My pleasure. I&#x27;m sure the listeners are very happy to hear your voice, and that&#x27;s what HoloTalk&#x27;s all about. We read about all these people on the web, but we don&#x27;t really get a chance to hear them or hear them speak, and this gives everyone an opportunity to actually put a human element to these holographers that everyone reads about. Okay. All right. Brilliant, brilliant. Now I&#x27;m going to have to gem up on my technology and work out how to download this to my iPod as well. Oh, yeah, that&#x27;s just an automatic process. I mean, there&#x27;s a thing now where you can hook your iPod up, and it&#x27;ll just download the show overnight, and it&#x27;ll be waiting for you in the morning. Oh, dear. Isn&#x27;t that amazing? I&#x27;m getting e-mails from people that listen to them going to work in the morning on the buses and stuff, and it&#x27;s a whole new ballgame now. Doing well, doing well. The site still looks good. Yeah. Excellent. All right. Okay, listen, speak to you soon. Okay, take care, Patrick. Thanks. Bye. Bye.</div>
+around the calendar year, the last week of each month. Excellent, excellent. All right. I&#x27;ll send you the address for my personal holography website. All right. Patrick, thank you. My pleasure. I&#x27;m sure the listeners are very happy to hear your voice, and that&#x27;s what HoloTalk&#x27;s all about. We read about all these people on the web, but we don&#x27;t really get a chance to hear them or hear them speak, and this gives everyone an opportunity to actually put a human element to these holographers that everyone reads about. Okay. All right. Brilliant, brilliant. Now I&#x27;m going to have to gem up on my technology and work out how to download this to my iPod as well. Oh, yeah, that&#x27;s just an automatic process. I mean, there&#x27;s a thing now where you can hook your iPod up, and it&#x27;ll just download the show overnight, and it&#x27;ll be waiting for you in the morning. Oh, dear. Isn&#x27;t that amazing? I&#x27;m getting e-mails from people that listen to them going to work in the morning on the buses and stuff, and it&#x27;s a whole new ballgame now. Doing well, doing well. The site still looks good. Yeah. Excellent. All right. Okay, listen, speak to you soon. Okay, take care, Patrick. Thanks. Bye. Bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

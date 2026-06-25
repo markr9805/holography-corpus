@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,143 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frank DeFreitas and the Internet Webseum of Holography. The date is November 2098, 100 years into the future. The scene is a memorabilia show dealing with antiques and collectibles from the late 20th century. Hello, this is Frank DeFreitas, and welcome to another week of HoloTalk. On this special broadcast, we&#x27;re going to be taking a look at something I term Antiquarian Holographica, which is the collection of holographic memorabilia. At our show, we see rare and first edition books, period maps and lithographs, and in a corner at the end of a long aisle is a booth dealing exclusively with holography. Our imaginary booth has quite a selection. Embossed holograms, including several limited edition pieces produced back in the late 1980s and 90s by a number of prominent artists. A copy of the famous National Geographic cover with the American eagle. Signatures and autographs of the early movers and shakers in the field. Posters and programs from early international shows. And first edition copies of many out of print books on holography. And there&#x27;s a real attention getter as well. An actual helium neon laser that the person in the booth tells you really works. That is, if you can find a place that still uses electricity for power. Our little scenario is not that far fetched. Many of the items related to holography that we pass over as insignificant, stuffed into our desk drawers and filing cabinets, will someday be looked upon as period pieces worthy of collection. And since we can be fairly certain that we won&#x27;t be around to attend our little imaginary convention in 2098, why not make the most of the time that we do have by attempting to put together an impressive collection of future holographic memorabilia. Holotalk receives quite a few emails on a regular basis from its listeners. And many of those emails are asking for specific information relating to collecting. One person wrote asking for information concerning a specific embossed hologram and how to acquire one for their collection. Another from Europe spoke of the writer&#x27;s pride in the collection of books and other printed materials, all related to the field of holography. But added, that they were concerned that it was not complete. Could it be, I wondered, that collecting holographic related items was catching on around the globe? The answer to that question appears to be in the affirmative. Yes, there is collecting going on. And the real surprise is that it may prove to be the most active aspect of the field. There appears to be a fever that goes hand in hand with the audience. And that is the heart of collecting. Collectors can sometimes go through extreme trouble searching out materials. And nowhere are those materials more new and exciting than holography. For a field celebrating its first few decades of existence, there is a multitude of collecting possibilities, including tracking down books and related articles that extend much further back in time than just a few decades. There is a rich history and many centuries of art and science behind it, some of it extending back into the 16th and 17th centuries, all of it relating to holography today. This broadcast of Holotalk is devoted to what I call antiquarian holographica. Searching out the articles, books, posters, and holograms from around the world to add to one&#x27;s personal collection of holographic future memorabilia. The mission of this broadcast is to provide a solid foundation for starting one&#x27;s own archive on holography. For future generations who will look back in time not only through the eyes of a collector, but a keeper of antiquarian knowledge. This is a beautiful example of antiquarian holographica. As with any new endeavor, it is important to have a plan, an ultimate destination for your collection, or you concentrate on building it.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frank Defratus and the Internet Museum of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">The date is November 2098, 100 years into the future.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:20">0:20</span><span class="transcript-text">The scene is a memorabilia show dealing with antiques and collectibles from the late 20th century.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:29">0:29</span><span class="transcript-text">Hello, this is Frank Defratis, and welcome to another week of HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:34">0:34</span><span class="transcript-text">On this special broadcast, we&#x27;re going to be taking a look at something I term antiquarian holographica, which is the collection of holographic memorabilia.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:45">0:45</span><span class="transcript-text">At our show, we see rare and first edition books, period maps and lithographs, and in a corner at the end of a long aisle is a booth dealing exclusively with holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:59">0:59</span><span class="transcript-text">Our imaginary booth has quite a selection, embossed holograms, including several limited edition pieces produced back in the late 1980s and 90s by a number of prominent artists.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:14">1:14</span><span class="transcript-text">A copy of the famous National Geographic cover with the American Eagle.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:20">1:20</span><span class="transcript-text">Signatures and autographs of the early movers and shakers in the field, posters and programs from early international shows, and first edition copies of many out-of-print books on holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:36">1:36</span><span class="transcript-text">And there&#x27;s a real attention getter as well, an actual helium neon laser that the person in the booth tells you really works.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:45">1:45</span><span class="transcript-text">That is, if you can find a place that still uses electricity for power.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:50">1:50</span><span class="transcript-text">Our little scenario is not that far-fetched.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:54">1:54</span><span class="transcript-text">Many of the items related to holography that we pass over as insignificant, stuffed into our desk drawers and filing cabinets, will someday be looked upon as period pieces worthy of collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:08">2:08</span><span class="transcript-text">And since we can be fairly certain that we won&#x27;t be around to attend our little imaginary convention in 2098, why not make the most of the time that we do have by attempting to put together an impressive collection of future holographic memorabilia?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:27">2:27</span><span class="transcript-text">Holotalk receives quite a few emails on a regular basis from its listeners, and many of those emails are asking for specific information relating to collecting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:38">2:38</span><span class="transcript-text">One person wrote asking for information concerning a specific embossed hologram and how to acquire one for their collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:47">2:47</span><span class="transcript-text">Another from Europe spoke of the writer&#x27;s pride in the collection of books and other printed materials, all related to the field of holography, but added that they were concerned that it was not complete.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:00">3:00</span><span class="transcript-text">Could it be, I wondered, that collecting holographic-related items was catching on around the globe?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:08">3:08</span><span class="transcript-text">The answer to that question appears to be in the affirmative.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:12">3:12</span><span class="transcript-text">Yes, there is collecting going on, and the real surprise is that it may prove to be the most active aspect of the field.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:22">3:22</span><span class="transcript-text">There appears to be a fever that goes hand in hand with the art of collecting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:27">3:27</span><span class="transcript-text">Collectors can sometimes go through extreme trouble searching out materials, and nowhere are those materials more new and exciting than holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:40">3:40</span><span class="transcript-text">For a field celebrating its first few decades of existence, there is a multitude of collecting possibilities, including tracking down books and related articles that extend much further back in time than just a few decades.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:55">3:55</span><span class="transcript-text">There is a rich history and many centuries of art and science behind it, some of it extending back into the 16th and 17th centuries, all of it relating to holography today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:20">4:20</span><span class="transcript-text">Searching out the articles, books, posters, and holograms from around the world to add to one&#x27;s personal collection of holographic future memorabilia.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:34">4:34</span><span class="transcript-text">The mission of this broadcast is to provide a solid foundation for starting one&#x27;s own archive on holography for future generations who will look back in time not only through the eyes of a collector, but a keeper of antiquarian holographica.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:00">5:00</span><span class="transcript-text">As with any new endeavor, it is important to have a plan, an ultimate destination for your collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:08">5:08</span><span class="transcript-text">Will you concentrate on books and publications?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">Embossed holograms, posters and commemorative of exhibits, all of the above and more?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:20">5:20</span><span class="transcript-text">Remember, there is little, if any, background material available concerning collecting holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:28">5:28</span><span class="transcript-text">So much of the groundwork, legwork, and penwork, along with many hours of research, will have to be done by you, the collector.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:39">5:39</span><span class="transcript-text">The more you know, the more your collection will benefit, since much of your knowledge will show through in your aesthetic judgments and decisions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:50">5:50</span><span class="transcript-text">Whatever your plan is for reaching your goal, it should never be executed in a haphazard way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:57">5:57</span><span class="transcript-text">Decisions should be made intelligently and with great care as to what is worth having the honor of being part of your collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:06">6:06</span><span class="transcript-text">Remember, this isn&#x27;t clutter or garage sale mentality we&#x27;re talking about here, but a systematic recording of the history of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:17">6:17</span><span class="transcript-text">Let&#x27;s take a look at what a typical collection might contain.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:23">6:23</span><span class="transcript-text">We&#x27;ll start with holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:27">6:27</span><span class="transcript-text">Embossed holograms would be represented from around the world, both stock images and images that are unique.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:54">6:54</span><span class="transcript-text">There are also magazines, books, catalogs, brochures that have holograms on their cover or inside the issue.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">These printed pieces and the embossed holograms would be carefully placed in black sleeves, numbered, identified, and stored carefully away from thumbing curiosity seekers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:16">7:16</span><span class="transcript-text">Complete sets, such as the ET stickers from Hershey Reese&#x27;s pieces, would round out the collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:25">7:25</span><span class="transcript-text">A unique ET set would have all nine images on one untouched sheet of foil.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">These are much harder to come by, so would be valued more for a collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:38">7:38</span><span class="transcript-text">The new photopolymer holograms would also be considered a collectible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:42">7:42</span><span class="transcript-text">The reflection holograms produced on film and sold throughout retail outlets across the US are also a consideration.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">Publications.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:46">8:46</span><span class="transcript-text">Books.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:49">8:49</span><span class="transcript-text">Many books would be represented dealing with holography and its branches of lasers, light, and even philosophy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:57">8:57</span><span class="transcript-text">One thing is certain.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:59">8:59</span><span class="transcript-text">Books are an expensive part of collecting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:03">9:03</span><span class="transcript-text">Most books dealing with holography are not old enough or published in large enough numbers to be easily found on the used book rack.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:12">9:12</span><span class="transcript-text">Holography is a technical science, and technical manuals can run up quite a bill.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:18">9:18</span><span class="transcript-text">Fortunately, there are enough over-the-counter inexpensive soft covers to keep a collector busy for a long time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">Most bookstores will gladly special order titles for you, although some may put an additional finder&#x27;s fee on the final cost.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:36">9:36</span><span class="transcript-text">But these charges are usually minimal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:39">9:39</span><span class="transcript-text">First editions, especially those that are out of print, are a collector&#x27;s dream and a field unto itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:48">9:48</span><span class="transcript-text">This is the creme de la creme of book collecting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:51">9:51</span><span class="transcript-text">Whether you need first editions or simply a well-handled later edition is a matter of preference.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:03">10:03</span><span class="transcript-text">So looking to the future is a consideration that must be eventually confronted.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:11">10:11</span><span class="transcript-text">Letters and autographs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:14">10:14</span><span class="transcript-text">Letters and autographs are collectibles too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:19">10:19</span><span class="transcript-text">Letters are more of a personal collectible since many shouldn&#x27;t be put on display or passed around.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:26">10:26</span><span class="transcript-text">A letter or document written entirely in the hand of its author is called a holograph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:33">10:33</span><span class="transcript-text">A standalone signature is an autograph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:38">10:38</span><span class="transcript-text">The letters I have on file are obviously due to the HoloTalk program and a newsletter that I published back in the eighties.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:48">10:48</span><span class="transcript-text">But if you were to write to a holographer, I&#x27;m sure they would be glad to write a short note back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:55">10:55</span><span class="transcript-text">Since I don&#x27;t know of any holographers who currently need to have protection from crowds of admirers, I&#x27;m sure your request would be flattering.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:05">11:05</span><span class="transcript-text">Remember, use discretion displaying the letter, note card, or autograph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:11">11:11</span><span class="transcript-text">And don&#x27;t pass over the beauty of the envelope.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:14">11:14</span><span class="transcript-text">Many foreign stamps, as well as US are truly works of art.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:20">11:20</span><span class="transcript-text">The quality and feel of the paper, the design and printing of the letterhead, the penmanship get a feel for all these things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:34">11:34</span><span class="transcript-text">Many posters, announcements, and catalogs are still available through holography museums, galleries and manufacturers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:43">11:43</span><span class="transcript-text">Many years ago, through neglect, I lost an original poster for the inaugural tour of the New York Museum of Hologies through the looking glass.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:54">11:54</span><span class="transcript-text">Don&#x27;t make the same mistake.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:57">11:57</span><span class="transcript-text">Either put it on the wall or keep it in a cylinder.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:01">12:01</span><span class="transcript-text">Equipment catalogs are highly collectible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:05">12:05</span><span class="transcript-text">Not only do they show photos of the error&#x27;s existing technology, but many give technical drawings also.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:13">12:13</span><span class="transcript-text">Newport research catalogs have photos and blueprints for every piece of equipment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:19">12:19</span><span class="transcript-text">As the field progresses, and mirrors, lenses, and filters are gradually replaced by fiber optic and holographic optical elements, and whatever will come after that, these catalogs will take on an air of nostalgia.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:35">12:35</span><span class="transcript-text">Just call a company and ask for a catalog.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:38">12:38</span><span class="transcript-text">Tell them your 300 plus employee company grossed 150 million last year, and you&#x27;ll get it overnight express.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:47">12:47</span><span class="transcript-text">How about patents?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:49">12:49</span><span class="transcript-text">Well, the way things are going, the patents may become more famous than many holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">You can call the patent office in Washington, D.C.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">and receive for a nominal fee all the patents applied for and granted in the field of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:06">13:06</span><span class="transcript-text">Patents make a great addition to any collection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:10">13:10</span><span class="transcript-text">Overall, collecting should be an enjoyable and rewarding experience.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:15">13:15</span><span class="transcript-text">You may have a collection started already and just never looked at it as so.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">Go through your drawers and file cabinets, bookshelves, etc., and begin sorting things out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:26">13:26</span><span class="transcript-text">You may be surprised at what&#x27;s there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:29">13:29</span><span class="transcript-text">Keep an eye open at all times for holograms and articles, books and magazines.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:36">13:36</span><span class="transcript-text">With the interest in holography continuing at an ever accelerating pace, and individuals who began their interest in holography several years ago now becoming more sophisticated in their appreciation of the medium, the time is right for a blossoming of interest in collecting works of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:55">13:55</span><span class="transcript-text">However, while the most prominent artists in the field are beginning to find clientele willing to make substantial investments in their work, the majority of these works are priced beyond the means of the average enthusiast.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">This leaves an area completely void, which is waiting to participate in collecting holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:16">14:16</span><span class="transcript-text">It is believed that we may begin to fill that void by suggesting that a would-be collector begin by concentrating his or her efforts on building a collection of low cost and in many cases no cost, readily available embossed holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:35">14:35</span><span class="transcript-text">Now, one may immediately remark that if embossed holograms are low cost and readily available, what would the collecting interest be?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:46">14:46</span><span class="transcript-text">To answer this, it must be pointed out that although many embossed holograms are low in cost, there are many that are difficult to find.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:56">14:56</span><span class="transcript-text">Also, since several holographic artists have created works that were limited edition embossed holograms, it is possible to own a work with only a modest investment by such artists as Harriett Casden Silver, John Kaufman, Dan Schweitzer, among others.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:15">15:15</span><span class="transcript-text">There are a few embossed holograms that are becoming harder and harder to find.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:24">15:24</span><span class="transcript-text">However, once located, an older, out-of-print, limited run embossed hologram is a treasure to own and view.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:34">15:34</span><span class="transcript-text">It is truly a collector&#x27;s piece.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:37">15:37</span><span class="transcript-text">What does a beginning collector need to know?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:41">15:41</span><span class="transcript-text">Let&#x27;s break it down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:44">15:44</span><span class="transcript-text">It would be possible to have a combination of any single group classification with any single subgroup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">Let&#x27;s clarify and define each group and subgroup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:56">15:56</span><span class="transcript-text">Our groups are group one, two D graphic stickers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:03">16:03</span><span class="transcript-text">These are the images that are line drawings or graphics and are essentially flat surface pictures.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:11">16:11</span><span class="transcript-text">Usually another 2D flat surface image will appear a short depth away from the front image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:19">16:19</span><span class="transcript-text">The second image was usually a neutral field.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:23">16:23</span><span class="transcript-text">Many holograms of this type used a background of stars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:27">16:27</span><span class="transcript-text">A good example for collection purposes would be the famous ET stickers found in packages of Reese&#x27;s pieces.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:36">16:36</span><span class="transcript-text">The second group would be 3D images.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:40">16:40</span><span class="transcript-text">Now these embossed images are the same as a regular rainbow or white light transmission hologram that uses a three-dimensional object, be it real or abstract, as its image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:54">16:54</span><span class="transcript-text">A good example would be one of the National Geographic covers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:00">17:00</span><span class="transcript-text">Subgroups, now these groups are the subgroups of either group one, which is the 2D graphic sticker, or group two, 3D images.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">An example would be any retail hologram sold only for its own purpose.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:30">17:30</span><span class="transcript-text">Subgroup B, packaging holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:35">17:35</span><span class="transcript-text">Embossed holograms included in the packaging design of a consumer related product or its packaging materials, usually designed to attract or call attention to the product and enhance the product&#x27;s visibility and or appeal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:51">17:51</span><span class="transcript-text">Also used by companies to promote itself as future oriented or having a forward looking vision.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:59">17:59</span><span class="transcript-text">An example would be the hologram on a box for a camera.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:06">18:06</span><span class="transcript-text">Subgroup C artistic holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:11">18:11</span><span class="transcript-text">These are usually limited edition pieces created by an established holographic artist with the masters made in the artist studio lab or rental facility and then mass produced by embossing, similar to a lithograph made from a painting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:29">18:29</span><span class="transcript-text">An example would be Harriet Casden&#x27;s Silver Magic Teeth, which had a run of 1,750 pieces and was offered in a sleeve that contained the artist&#x27;s signature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:44">18:44</span><span class="transcript-text">Subgroup D, experimental prototype holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:51">18:51</span><span class="transcript-text">This type of embossed hologram is valued as a collectible for the simple reason that something about it makes it one of a kind.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:59">18:59</span><span class="transcript-text">An embossed hologram that was an artist&#x27;s proof and still contained crop marks and cut lines would make that piece unique from the others that were to follow for retail sale.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:14">19:14</span><span class="transcript-text">While a person can certainly become overwhelmed by the sheer number of embossed holograms that have flooded the market since their inception.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:22">19:22</span><span class="transcript-text">With a certain amount of skill and work, it can become possible to build quite an impressive collection of embossed holographic images.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:32">19:32</span><span class="transcript-text">With regards to acceptance of embossed holograms within the holographic community, a purist attitude once prevailed in the collective minds of holographic artists.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:44">19:44</span><span class="transcript-text">Their initial concern about the viewing of their work, now removed from the hermetically sealed environment of the holography galleries and museums and now out on the street with the general public, was soon found to ring true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">At the site of the smeared gray image of the National Geographic cover.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:41">20:41</span><span class="transcript-text">Since an only added to rather than subtracted from holography&#x27;s somewhat mystical appeal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:00">21:00</span><span class="transcript-text">And you will have a hologram that will stand up visually to anything produced in limited quantities on glass plates.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:07">21:07</span><span class="transcript-text">Only a discerning eye, or someone with knowledge of the holographic process itself, would find discrepancies.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:15">21:15</span><span class="transcript-text">Embossed holograms are beautiful and fun to collect, and for a modest investment of your time and money, you can build an impressive collection of holograms for display.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frank DeFreitas and the Internet Webseum of Holography. The date is November 2098, 100 years into the future. The scene is a memorabilia show dealing with antiques and collectibles from the late 20th century. Hello, this is Frank DeFreitas, and welcome to another week of HoloTalk. On this special broadcast, we&#x27;re going to be taking a look at something I term Antiquarian Holographica, which is the collection of holographic memorabilia. At our show, we see rare and first edition books, period maps and lithographs, and in a corner at the end of a long aisle is a booth dealing exclusively with holography. Our imaginary booth has quite a selection. Embossed holograms, including several limited edition pieces produced back in the late 1980s and 90s by a number of prominent artists. A copy of the famous National Geographic cover with the American eagle. Signatures and autographs of the early movers and shakers in the field. Posters and programs from early international shows. And first edition copies of many out of print books on holography. And there&#x27;s a real attention getter as well. An actual helium neon laser that the person in the booth tells you really works. That is, if you can find a place that still uses electricity for power. Our little scenario is not that far fetched. Many of the items related to holography that we pass over as insignificant, stuffed into our desk drawers and filing cabinets, will someday be looked upon as period pieces worthy of collection. And since we can be fairly certain that we won&#x27;t be around to attend our little imaginary convention in 2098, why not make the most of the time that we do have by attempting to put together an impressive collection of future holographic memorabilia. Holotalk receives quite a few emails on a regular basis from its listeners. And many of those emails are asking for specific information relating to collecting. One person wrote asking for information concerning a specific embossed hologram and how to acquire one for their collection. Another from Europe spoke of the writer&#x27;s pride in the collection of books and other printed materials, all related to the field of holography. But added, that they were concerned that it was not complete. Could it be, I wondered, that collecting holographic related items was catching on around the globe? The answer to that question appears to be in the affirmative. Yes, there is collecting going on. And the real surprise is that it may prove to be the most active aspect of the field. There appears to be a fever that goes hand in hand with the audience. And that is the heart of collecting. Collectors can sometimes go through extreme trouble searching out materials. And nowhere are those materials more new and exciting than holography. For a field celebrating its first few decades of existence, there is a multitude of collecting possibilities, including tracking down books and related articles that extend much further back in time than just a few decades. There is a rich history and many centuries of art and science behind it, some of it extending back into the 16th and 17th centuries, all of it relating to holography today. This broadcast of Holotalk is devoted to what I call antiquarian holographica. Searching out the articles, books, posters, and holograms from around the world to add to one&#x27;s personal collection of holographic future memorabilia. The mission of this broadcast is to provide a solid foundation for starting one&#x27;s own archive on holography. For future generations who will look back in time not only through the eyes of a collector, but a keeper of antiquarian knowledge. This is a beautiful example of antiquarian holographica. As with any new endeavor, it is important to have a plan, an ultimate destination for your collection, or you concentrate on building it.
 
 As with any new endeavor, it is important to have a plan, an ultimate destination for your collection. Will you concentrate on books and publications, embossed holograms, posters and commemorative of exhibits, all of the above and more? Remember, there is little, if any, background material available concerning collecting holography. So much of the groundwork, legwork and penwork, along with many hours of research, will have to be done by you, the collector. The more you know, the more your collection will benefit, since much of your knowledge will show through in your aesthetic judgments and decisions. Whatever your plan is for reaching your goal, it should never be executed in a haphazard way. Decisions should be made intelligently and with great care as to what is worth having the honor of being part of your collection. Remember, this isn&#x27;t clutter or garage sale mentality we&#x27;re talking about here, but a systematic recording of the history of holography. Let&#x27;s take a look at what a typical collection might contain. We&#x27;ll start with holograms. Embossed holograms would be represented from around the world, both stock images and images that are unique. Holograms such as Bird and Rocks from John Kaufman, Magic Teeth by Harriet Kasdan Silver, which came with its own slipcase with the artist&#x27;s signature on it, or Stargate by Dan Schweitzer, would be a central part of any collection. There are also magazines, books, catalogs, and magazines. There are also magazines, books, catalogs, and magazines. There are also magazines, books, catalogs, and magazines. T Advisory Advisory Advisory T Advisory Advisory the issue. These printed pieces and the embossed holograms would be carefully placed in black sleeves, numbered, identified, and stored carefully away from thumbing curiosity seekers. Complete sets, such as the E.T. stickers from Hershey Reese&#x27;s pieces, would round out the collection. A unique E.T. set would have all nine images on one uncut sheet of foil. These are much harder to combine, so would be valued more for a collection. The new photopolymer holograms would also be considered a collectible. The reflection holograms produced on film and sold throughout retail outlets across the U.S. are also a consideration. Publications. Some newspaper and magazine articles along with newsletters and press releases are filed as originals whenever possible or as Xerox copies. It is the collector&#x27;s main effort, however, to eventually track down original printed materials to eventually replace the Xerox copies. Most magazine and newsletter publishers have back issues available in stock and will send you a copy if requested to do so. Of course having an original copy would be helpful. Before purchasing the original copies, there would be a original issue versus a Xerox is really a decision made by the collector based on individual preference in the future the original will be the most sought after so the decision remains with the collector and their long-term goals books many books would be represented dealing with holography and its branches of lasers light and even philosophy one thing is certain books are an expensive part of collecting most books dealing with holography are not old enough or published in large enough numbers to be easily found on the used book rack holography is a technical science and technical manuals can run up quite a bill fortunately there are enough over-the-counter inexpensive soft covers to keep a clear vision of the future of the world. the collector busy for a long time most bookstores will gladly special order titles for you although some may put an additional finders fee on the final cost but these charges are usually minimal first editions especially those that are out of print are a collector&#x27;s dream and a field unto itself this is the creme de la creme of book collecting whether you need first editions or simply a well-handled later edition is a matter of preference first editions accumulate the most value as the years go by so looking to the future is a consideration that must be eventually confronted
 
@@ -371,7 +600,7 @@ accumulate the most value as the years go by. So looking to the future is a cons
 
 created works that were limited edition embossed holograms, it is possible to own a work with only a modest investment by such artists as Harriet Kasdan Silver, John Kaufman, Dan Schweitzer, among others. There are a few embossed holograms that are becoming harder and harder to find. They are becoming rare. However, once located, an older, out-of-print, limited run embossed hologram is a treasure to own and view. It is truly a collector&#x27;s piece. What does a beginning collector need to know? Let&#x27;s break it down. It would be possible to have a combination of any single group classification with any single subgroup. Let&#x27;s clarify and define each group and subgroup. Our groups are Group 1. Group 2. Group 3. Group 4. Group 5. Group 6. Group 7. Group 8. Group 9. Group 10. Group 11. Group 12. Group 13. Group 14. Group 15. Group 16. Group 17. Group 18. Group 19. Group 20. Group 21. Group 21. Group 22. Group 23. Group 24. Group 25. Group 26. Group 29. Group 30. Group 21. would be the famous E.T. stickers found in packages of Reese&#x27;s Pieces. The second group would be 3D images. Now, these embossed images are the same as a regular rainbow or white light transmission hologram that uses a three-dimensional object, be it real or abstract, as its image. A good example would be one of the National Geographic covers. Subgroups. Now, these groups are the subgroups of either group 1, which is the 2D graphic sticker, or group 2, 3D images. Subgroup A, standalone holograms. These holograms are usually packaged individually, with the hologram itself acting as the end product. An example would be any retail hologram sold only for its own purpose. Subgroup B, packaging holograms. Embossed holograms included in the packaging design of a consumer-related product or its packaging materials, usually designed to attract or call attention to the product and enhance the product&#x27;s visibility and or appeal. Also used by companies to promote itself as future-oriented or having a forward-looking vision. An example would be the hologram on a box for a camera. Subgroup C, artistic holograms. These are usually limited edition pieces created by an established holographic artist, with the masters made in the artist&#x27;s studio, lab, or rental facility, and then mass produced by embossing, similar to a lithograph made from a painting. An example would be Harriet Kasdan&#x27;s silver magic teeth, which had a run of 1,750 pieces, and was offered in a sleeve that contained the artist&#x27;s signature. Subgroup D, experimental prototype holograms. This type of embossed hologram is valued as a collectible for the simple reason that something about it makes it one of a kind. An embossed hologram that was an artist&#x27;s proof and still contained crop marks and cut lines would make that piece unique from the others that were to follow for retail sale. While a person can certainly become overwhelmed by the sheer number of embossed holograms that have flooded the market since their inception, with a certain amount of skill and work, it can become possible to build quite an impressive, impressive collection of embossed holographic images. With regards to acceptance of embossed holograms within the holographic community, a purist attitude once prevailed in the collective minds of holographic artists. Their initial concern about the viewing of their work, now removed from the hermetically sealed environment of the holographic galleries and museums, and now out on the street with the general public, was soon found to ring true. I still recall to my horror a group of people outdoors under cloudy skies exclaiming, wow, that&#x27;s neat, at the sight of the smeared gray image
 
-I still recall to my horror a group of people outdoors under cloudy skies exclaiming, wow, that&#x27;s neat, at the sight of the smeared gray image of the National Geographic cover. And one can almost picture the balding, aging, groovy art director clipping, it doesn&#x27;t do anything for me, as he holds a beautifully executed holograph under his fluorescent drafting lamp. The fabric is wearing thin on the issue of holograms not being viable because they&#x27;re not visible under anything less than ideal lighting conditions. I have always made this out to be a plus, since an only added to rather than subtracted from holography&#x27;s somewhat mystical appeal. Take an embossed hologram that was carefully produced and copied, place it in an appropriate frame with matting, take care to make sure it is illuminated properly, and you will have a hologram that will stand up visually to anything produced in limited quantities on glass plates. Only a discerning eye or someone with knowledge of the holographic process itself would find discrepancies. Embossed holograms are beautiful and fun to collect, and for a modest investment of your time and money, you can build an impressive collection of holograms for display. If you&#x27;re in the garage,</div>
+I still recall to my horror a group of people outdoors under cloudy skies exclaiming, wow, that&#x27;s neat, at the sight of the smeared gray image of the National Geographic cover. And one can almost picture the balding, aging, groovy art director clipping, it doesn&#x27;t do anything for me, as he holds a beautifully executed holograph under his fluorescent drafting lamp. The fabric is wearing thin on the issue of holograms not being viable because they&#x27;re not visible under anything less than ideal lighting conditions. I have always made this out to be a plus, since an only added to rather than subtracted from holography&#x27;s somewhat mystical appeal. Take an embossed hologram that was carefully produced and copied, place it in an appropriate frame with matting, take care to make sure it is illuminated properly, and you will have a hologram that will stand up visually to anything produced in limited quantities on glass plates. Only a discerning eye or someone with knowledge of the holographic process itself would find discrepancies. Embossed holograms are beautiful and fun to collect, and for a modest investment of your time and money, you can build an impressive collection of holograms for display. If you&#x27;re in the garage,</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

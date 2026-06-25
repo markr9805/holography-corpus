@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,279 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frank DeFreitas and the Internet Rebsium of Holography. Hello everyone, this is Frank DeFreitas and welcome to HoloTalk for the week of November 23rd. And Happy Thanksgiving this week, in case you happen to celebrate this holiday. If you are a student or educator, or someone who has an interest in making holograms as a hobby in your own home, studio, or lab, I have got the most incredible news for you on the show tonight. If this news doesn&#x27;t rock the holography world, then nothing will. You may also want to get a pencil and pad ready to take down some of the information that you will learn about tonight. I am holding in my hand a 4x5 inch white light reflection hologram, which is the same style or type of hologram that you see on the walls of countless hologram shops across the country. It is crisp, bright, and exhibits a great amount of depth. It&#x27;s on agfa plates. Now, what makes this hologram special, is that it will be a great tool for you to use in your daily life. It was not made with your standard helium neon or other gas laser, which are lasers that have been the standard for making holograms for over 30 years. What makes this hologram special, is that it was made using a standard, off the shelf, and out of the box, $49 laser pointer. I&#x27;ll repeat that. This hologram was made using a standard, off the shelf, and out of the box, $49 laser pointer. The person who achieved this is Steve Michael, who is my guest tonight on HoloTalk. Steve is going to tell us all the details of using a laser pointer to make holograms, so that you too can now get involved with holography at a fraction of the cost of what is the most expensive hologram in the world. And, Steve, I hope you&#x27;ll join us for a talk about the most expensive part of any holographic setup, the laser. Now, before we begin the interview, let me give you some specific information on this laser pointer that Steve is going to tell us about during the interview. It is called the Rocket Laser Pointer, Rocket, R-O-C-K-E-T, and can be found in the Edmund Scientific catalog. Edmund Scientific is located in Barrington, New York, and is the first laser pointer manufacturer in the United States. It is a highly-skilled laser pointer, and it is a highly-skilled laser pointer. It is also available in the United States and New Jersey, and it can be reached at the following telephone number. Area code 609-573-6250. Area code 609-573-6250. They will send you a catalog if you call and ask for one. Ask for their latest optics catalog. That&#x27;s the one that I have that I found the laser pointer in. The laser pointer, or rocket laser as it&#x27;s known in the catalog, its ordering number is D54006. That&#x27;s D as in dog, 54006. And here are the specs. It is a Class IIIa laser pointer. Power output is 3 to 5 milliwatts at 635 nanometers, which is very close to the Heaney at 633 nanometers. And it&#x27;s also very close to the power of many of the lasers that you find in the classroom. It runs on two LR44 alkaline batteries, and gets two and a half hours of continuous operation from these batteries. It also has an adjustable focus lens and a momentary on-off switch. Now, as many of you may remember, last year I ran a series of webcam nights, which you could log onto the site and see a presentation in the studio. I had a similar laser diode that I demonstrated, which was battery operated, and it was taken the diode out of the housing and hooked it up to a RadioShack power supply to run the diode off of standard household current. It may be possible to do this with this laser pointer as well, saving you the money of having to replace batteries all the time by just plugging it into the wall. We&#x27;ll have more on this later as we continue to check in with Steve.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frank Defratus and the Internet Museum of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">Hello everyone, this is Frank Defratus, and welcome to HoloTalk for the week of November 23rd.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:18">0:18</span><span class="transcript-text">And happy Thanksgiving this week in case you happen to celebrate this holiday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">If you&#x27;re a student or educator or someone who has an interest in making holograms as a hobby in your own home, studio or lab, I have got the most incredible news for you on the show tonight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:39">0:39</span><span class="transcript-text">If this news doesn&#x27;t rock the holography world, then nothing will.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:45">1:45</span><span class="transcript-text">Laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:48">1:48</span><span class="transcript-text">I&#x27;ll repeat that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">This hologram was made using a standard off-the-shelf and out-of-the-box $49 laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:03">2:03</span><span class="transcript-text">The person who achieved this is Steve Michael, who is my guest tonight on HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:10">2:10</span><span class="transcript-text">Steve is going to tell us all the details of using a laser pointer to make holograms so that you too can now get involved with holography at a fraction of the cost of what is the most expensive part of any holographic setup, the laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:27">2:27</span><span class="transcript-text">Now before we begin the interview, let me give you some specific information on this laser pointer that Steve is going to tell us about during the interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:37">2:37</span><span class="transcript-text">It is called the Rocket Laser Pointer, Rocket ROCKET, and can be found in the Edmund Scientific Catalog.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:49">2:49</span><span class="transcript-text">Edmund Scientific is located in Barrington, New Jersey, and they can be reached at the following telephone number.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:57">2:57</span><span class="transcript-text">Area code 609-573-6250.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:05">3:05</span><span class="transcript-text">Area code 609-573-6250.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:13">3:13</span><span class="transcript-text">They will send you a catalog if you call and ask for one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:18">3:18</span><span class="transcript-text">Ask for their latest optics catalog.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:21">3:21</span><span class="transcript-text">That&#x27;s the one that I have that Its ordering number is D54,000 006.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:37">3:37</span><span class="transcript-text">That&#x27;s D as in Dog 54,000 006.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">And here are the specs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:47">3:47</span><span class="transcript-text">It is a class 3A laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:52">3:52</span><span class="transcript-text">Power output is 3 to 5 milliatts at 635 nanometers, which is very close to the HENE at 633 nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:03">4:03</span><span class="transcript-text">And it&#x27;s also very close to the power of many of the lasers that you find in the classroom.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:10">4:10</span><span class="transcript-text">It runs on two LR 44 alkaline batteries and gets two and a half hours of continuous operation from these batteries.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:26">4:26</span><span class="transcript-text">Now as many of many of you may remember, last year I ran a series of webcam nights, which I which you could log on to the site and see a presentation in the studio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:39">4:39</span><span class="transcript-text">I had a similar laser diode that I demonstrated, which was battery operated, that I had taken the diode out of the housing and hooked it up to a Radio Shack power supply to run the diode off of standard household current.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:59">4:59</span><span class="transcript-text">Saving you the money of having to replace batteries all the time by just plugging it into the wall.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">So why is this such a big deal?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:16">5:16</span><span class="transcript-text">Well, it&#x27;s certainly not a big deal if you&#x27;re working with a 20 watt argon laser system, but for kids with school projects, teachers in the classroom, and many hobbyists and amateurs on tight budgets that really want to get involved with holography but could not do so.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:33">5:33</span><span class="transcript-text">This is going to revolutionize this type of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:40">5:40</span><span class="transcript-text">Can I make a hologram using a laser pointer?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:43">5:43</span><span class="transcript-text">In the past I&#x27;ve had to write back saying that you can view a laser hologram with the laser pointer, but because of the short coherence length of laser diodes, you could not make a hologram until now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:56">5:56</span><span class="transcript-text">So let&#x27;s move on to the interview with Steve Michael and get the details.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:00">6:00</span><span class="transcript-text">He&#x27;s also going to have information up at his site on laser pointer holography, and you can find a link to his site right on the HoloTalk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:09">6:09</span><span class="transcript-text">Now I won&#x27;t be coming back on after the interview, so I will thank you now for tuning in to HoloTalk and hope that you continue to come back each week for new and exciting shows just like this one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:19">6:19</span><span class="transcript-text">Here&#x27;s the interview with Steve.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:20">6:20</span><span class="transcript-text">This is Frankie Freitas for Holotalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:23">6:23</span><span class="transcript-text">Let&#x27;s get rolling and we&#x27;ll start off with uh your website, which is an incredibly well done site for amateur and hobbyist holography, especially with the guide and everything that you have on there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:36">6:36</span><span class="transcript-text">How did you get started with the website?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">Uh, how long has it been up?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">How much work did you put into it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:41">6:41</span><span class="transcript-text">Could you let listeners know a little bit about that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">I um I wrote a couple papers in 1990 and 91 in the Journal of Biological Photography, and I wrote these papers so that uh beginners in the field of biological sciences might want to use uh holography for their uh recording medium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">And both one paper was called How to Build a Holography System.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:07">7:07</span><span class="transcript-text">And the other one was Producing Transmission and Reflection Holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:12">7:12</span><span class="transcript-text">So I decided right now I&#x27;m working um on an internet team on a graphic arts team and I decided I&#x27;d it would be a good chance for me to set up a website and transfer that information so the rest of the world could see it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:27">7:27</span><span class="transcript-text">And I did that in all I finished it in August of ninety six.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">So it&#x27;s been up for a little over two years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:35">7:35</span><span class="transcript-text">And it took me about six hundred hours to produce all the graphics &#x27;cause I had to do those from scratches, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:41">7:41</span><span class="transcript-text">The background graphic that you have on there the laser pattern, did you do that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">Is that the laser being sent through like a piece of plexiglass or something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:49">7:49</span><span class="transcript-text">You&#x27;ve got it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:50">7:50</span><span class="transcript-text">That&#x27;s exactly right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:51">7:51</span><span class="transcript-text">That&#x27;s a great shot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">Technically it&#x27;s a great photograph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:54">7:54</span><span class="transcript-text">Oh thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:54">7:54</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:55">7:55</span><span class="transcript-text">Uh I projected it onto just a piece of white cardboard.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:58">7:58</span><span class="transcript-text">Uh set my camera up so that it was um in line with the direction that the pattern was being projected to the screen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:07">8:07</span><span class="transcript-text">And just by I have a linear translation stage the sitting on and just by slightly moving the plastic I could change the pattern if you will.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">And y and I had like thirty six or forty different patterns that I photographed and then um you know I did a Photoshop set it up for digital use.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:28">8:28</span><span class="transcript-text">Yeah, usually that saturates the film those types of shots, but that that&#x27;s just like right on the money.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:34">8:34</span><span class="transcript-text">You have hologram Mart where you sell some of your own editions too, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:38">8:38</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:39">8:39</span><span class="transcript-text">What pieces do you have on there right now?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:43">8:43</span><span class="transcript-text">My original work um was in the biological sciences.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:46">8:46</span><span class="transcript-text">So I have a human skull and a sagittal section of a human brain.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:52">8:52</span><span class="transcript-text">And these were actual uh real specimens.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:56">8:56</span><span class="transcript-text">And then I did one of a lunar lander on the moon.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:00">9:00</span><span class="transcript-text">Which was a positive model in the landscape I created using uh clay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:05">9:05</span><span class="transcript-text">The uh guide itself, is that something that you wrote as the site progressed or did you already have that written and you just put it up?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:13">9:13</span><span class="transcript-text">That&#x27;s almost like a holography manual.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:15">9:15</span><span class="transcript-text">Yes, I wrote that that was the material I wrote in nineteen ninety and ninety one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:19">9:19</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:20">9:20</span><span class="transcript-text">And I just uh transcribed it over to HTML.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:25">9:25</span><span class="transcript-text">Uh w where do you have your lab?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:27">9:27</span><span class="transcript-text">Is it in your home?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:27">9:27</span><span class="transcript-text">Yes, it&#x27;s in my basement.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:29">9:29</span><span class="transcript-text">Um what type of a table are you working on?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:33">9:33</span><span class="transcript-text">Well it&#x27;s really interesting I have a glass table.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:35">9:35</span><span class="transcript-text">Oh really?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:36">9:36</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:37">9:37</span><span class="transcript-text">Um I progressed from uh wooden table to sandbox to marble and now I have a five by eight foot three quarter inch thick glass table.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:48">9:48</span><span class="transcript-text">That&#x27;s very interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:50">9:50</span><span class="transcript-text">And it&#x27;s all um gravity mounted.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:53">9:53</span><span class="transcript-text">The holograms that you sent me were produced on that table, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:56">9:56</span><span class="transcript-text">Yes, they were it&#x27;s very uh stable, very rigid.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:00">10:00</span><span class="transcript-text">Now here&#x27;s what everyone&#x27;s waiting to hear.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:03">10:03</span><span class="transcript-text">I received as I said at the beginning of the show, two holograms from Steve.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:09">10:09</span><span class="transcript-text">A single beam reflection hologram and a single beam laser transmission hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:16">10:16</span><span class="transcript-text">And these were really nice holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:20">10:20</span><span class="transcript-text">And Steve you did them with a laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:23">10:23</span><span class="transcript-text">That&#x27;s correct.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:25">10:25</span><span class="transcript-text">Now my first question is is this just off the shelf or did you do something to the laser pointer?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:32">10:32</span><span class="transcript-text">No, this is one just off the shelf.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:34">10:34</span><span class="transcript-text">With um with batteries.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:35">10:35</span><span class="transcript-text">With batteries, three of &#x27;em.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">No kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:38">10:38</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:39">10:39</span><span class="transcript-text">And I bought the batteries you could buy a radio shack.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:42">10:42</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:43">10:43</span><span class="transcript-text">So it wasn&#x27;t like a laser that you took the diode out of the pointer and hooked the diode up to a power supply or anything like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:49">10:49</span><span class="transcript-text">That&#x27;s correct.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:50">10:50</span><span class="transcript-text">Just out of the box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:51">10:51</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:53">10:53</span><span class="transcript-text">And you probably put tape or something and make it uh stay on, or did you have a switch or something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:58">10:58</span><span class="transcript-text">Yeah, it&#x27;s one of those uh momentary on switches.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:01">11:01</span><span class="transcript-text">And what I did was it was clamped in one of these vice clamps, the the actual laser was and I had the button turned in such a way that I could put a pencil in another clamp and push the pencil against that button and hold it in place.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:20">11:20</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:21">11:21</span><span class="transcript-text">So you uh you kinda have to work fast and your setup and then you turn your laser off and let it rest and I generally have several extra batteries ready to go because when I actually make my exposure I want fresh batteries in there because it&#x27;ll give me the power I needed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:37">11:37</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:38">11:38</span><span class="transcript-text">And how long do you leave that laser on for?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:40">11:40</span><span class="transcript-text">I mean most of the uh gas lasers like the helium and neon, they really say how important it is to allow that laser to reach thermal stability.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:47">11:47</span><span class="transcript-text">How long would you say the laser pen was on for before you would do your first exposure?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:53">11:53</span><span class="transcript-text">Approximately five minutes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:54">11:54</span><span class="transcript-text">No kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:55">11:55</span><span class="transcript-text">And what what power laser?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:57">11:57</span><span class="transcript-text">This is a uh three to five milliwatt.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:00">12:00</span><span class="transcript-text">Operating at do you know the wavelength?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:02">12:02</span><span class="transcript-text">Yes, uh it&#x27;s at six four zero um zero nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:07">12:07</span><span class="transcript-text">Six four zero nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:08">12:08</span><span class="transcript-text">These holograms display an incredible amount of depth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:12">12:12</span><span class="transcript-text">Yes, I was very interested in finding out uh what the actual coherent length of these were.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:18">12:18</span><span class="transcript-text">Um I had done some research and got some specs from companies on the more powerful dial laser lasers like the one, two and five watt lasers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:27">12:27</span><span class="transcript-text">All of their specifications say that that the coherent length of these things were around three to four millimeters.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:34">12:34</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:35">12:35</span><span class="transcript-text">And plus the fact that they&#x27;re randomly polarized.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:40">12:40</span><span class="transcript-text">And I was concerned about that and being able to make a hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:44">12:44</span><span class="transcript-text">So I was a little discouraged um that dials lasers would even work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:49">12:49</span><span class="transcript-text">Exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:49">12:49</span><span class="transcript-text">I mean the emails that I get always getting emails, you probably get them too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">Can I do a hologram with a laser pen?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">And it&#x27;s always been well you may be able to do something like a postage stamp or something like that, but you would never get any depth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:06">13:06</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:07">13:07</span><span class="transcript-text">Well I decided to not believe what I read and I went what I did was I went to Edmund Scientific dunk their uh rocket laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:14">13:14</span><span class="transcript-text">Okay, the rocket laser pointer right out of the catalog.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:17">13:17</span><span class="transcript-text">Right out of the catalog.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:18">13:18</span><span class="transcript-text">They have numerous other ones and the wavelengths vary depending on which one you get.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:23">13:23</span><span class="transcript-text">Some of them are six hundred and seventy nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:25">13:25</span><span class="transcript-text">Six are s some are six fifty, six seventy five with the with the same model or with okay different yes, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:32">13:32</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:33">13:33</span><span class="transcript-text">And so I got the one that was closest to six three two eight for the um the film I was using.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:39">13:39</span><span class="transcript-text">Because I was using eighty seventy five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:41">13:41</span><span class="transcript-text">Oh okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">And so now this laser by the way cost forty five dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:49">13:49</span><span class="transcript-text">So right there we&#x27;ve brought the cost down from like, you know, a five milliwatt human neon from eight hundred dollars down to like forty five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:59">13:59</span><span class="transcript-text">But um when I got it here in my lap, first thing I checked was to see if it was polarized.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:03">14:03</span><span class="transcript-text">And sure enough it was.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:05">14:05</span><span class="transcript-text">No kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:06">14:06</span><span class="transcript-text">I I it it just blew me away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:08">14:08</span><span class="transcript-text">I didn&#x27;t think that was true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:11">14:11</span><span class="transcript-text">Well, the next day I went to Radio Shack and and checked two of their other models that they were two models that they have there, and they were both polarized.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:21">14:21</span><span class="transcript-text">So I&#x27;m thinking I don&#x27;t know whether all laser pointers are now, but at least three models are.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:26">14:26</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:28">14:28</span><span class="transcript-text">And then the next thing was I set up a microsen well I set up a Michelson interferometer to see if I could get fringe patterns.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:34">14:34</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:35">14:35</span><span class="transcript-text">And I was amazed right off the bat.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:37">14:37</span><span class="transcript-text">With the path lengths being zero, I got some really nice high contrast fringes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">I bet you thought you were really off and running then.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:45">14:45</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:46">14:46</span><span class="transcript-text">Um and then I decided I wanted to find out what the clearance length link was.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:50">14:50</span><span class="transcript-text">So I started to move one of the mirrors and I got it all the way out to ten inches.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:56">14:56</span><span class="transcript-text">Oh my goodness.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:57">14:57</span><span class="transcript-text">And I was still getting fringe patterns, very sharp.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:00">15:00</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:01">15:01</span><span class="transcript-text">As you can see, that hologram I sent you is probably three centimeters deep.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">Oh yeah, of of the horse, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:10">15:10</span><span class="transcript-text">Of the uh unicorn.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:11">15:11</span><span class="transcript-text">Yeah, easy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:12">15:12</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:13">15:13</span><span class="transcript-text">Easy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:15">15:15</span><span class="transcript-text">It looks just like you shot it with a helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:18">15:18</span><span class="transcript-text">In fact I would go out on the limb and say it&#x27;s better than a lot of the classroom laser uh holograms that I&#x27;ve seen as far as brightness and uh depth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:30">15:30</span><span class="transcript-text">Well, I put the object as close as I could to the film so the path differences were minimal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:36">15:36</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:38">15:38</span><span class="transcript-text">Um the other problem though with the diode laser is that it doesn&#x27;t have a circular beam profile.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:44">15:44</span><span class="transcript-text">Oh, I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:45">15:45</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:46">15:46</span><span class="transcript-text">It&#x27;s rectangular.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:47">15:47</span><span class="transcript-text">Mm, or at least the one I have.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">And I found that uh by the way, this particular diode laser pointer has a lens in front of the diode so you can focus it to a sharp point.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:00">16:00</span><span class="transcript-text">Oh you know, out to uh a hundred feet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:02">16:02</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:03">16:03</span><span class="transcript-text">And if you actually do focus that to infinity it&#x27;s a sharp point from the laser pointer all the way out to that distance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:11">16:11</span><span class="transcript-text">But what I had to do was I had to adjust that lens such a way behind my microscope objective which was gonna diverge the beams cover the whole four by five plate in such a way that I got it uniformity across the plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:26">16:26</span><span class="transcript-text">And that was a little difficult.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:27">16:27</span><span class="transcript-text">I mean I I even used the pinhole to try to clean it up some.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">But trying to put uh you know, it was trying it was like trying to put a rectangle through a a circle.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:38">16:38</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:39">16:39</span><span class="transcript-text">And I was getting diffraction effects.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:41">16:41</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:41">16:41</span><span class="transcript-text">What did your exposure time run on these shots?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:45">16:45</span><span class="transcript-text">It was one minute for the transmission and two minutes for the reflection.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:53">16:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:54">16:54</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:57">16:57</span><span class="transcript-text">Hm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:59">16:59</span><span class="transcript-text">So that that&#x27;s pretty short.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:01">17:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:01">17:01</span><span class="transcript-text">I&#x27;m trying to think it&#x27;s been a while since I&#x27;ve had a f a three or five milliwatt he but I&#x27;m trying to think of what the single beam exposure times would be on the eighty seventy five H D with the Heane.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:14">17:14</span><span class="transcript-text">Well, um I went and set up my five milliwatt unity in the on, which my power meter was saying was operated at about six point two milliwatts.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:21">17:21</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:22">17:22</span><span class="transcript-text">Yeah, my social time is about two seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:25">17:25</span><span class="transcript-text">With a single beam.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:27">17:27</span><span class="transcript-text">That&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:27">17:27</span><span class="transcript-text">Why do you think the difference there it&#x27;s not that much difference in the power?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:32">17:32</span><span class="transcript-text">Well I it could be the beam profile being spread out further that way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:38">17:38</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:39">17:39</span><span class="transcript-text">It certainly didn&#x27;t look as bright because I did take a power meter reading on the diodes laser when I had new batteries and I was getting three point three.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:47">17:47</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:48">17:48</span><span class="transcript-text">There&#x27;s about a three milliwatt difference.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:50">17:50</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:52">17:52</span><span class="transcript-text">Um which is half of what you were seeing with the Heaney, but yet more than twice the time on the exposure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:01">18:01</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:01">18:01</span><span class="transcript-text">Um in any case, it&#x27;s a wonderful job.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:05">18:05</span><span class="transcript-text">Oh thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:06">18:06</span><span class="transcript-text">Beautiful hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:07">18:07</span><span class="transcript-text">I mean that laser transmission hologram is is gorgeous.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:10">18:10</span><span class="transcript-text">And the reflection hologram as soon as the box was handed to me I opened the box up and uh with a lamp that I have on my desk I saw the image right away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:19">18:19</span><span class="transcript-text">I did try a tubing setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:23">18:23</span><span class="transcript-text">And that was very difficult.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:24">18:24</span><span class="transcript-text">As a matter of fact I wasn&#x27;t successful in getting the the plate covered uniformly and also being able to uniformly cover the object.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:37">18:37</span><span class="transcript-text">It&#x27;s again a function of that lens in front of the diode, plus having to split the beam cut your power in half in each of them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:47">18:47</span><span class="transcript-text">And so that&#x27;s that&#x27;s a bit difficult.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:50">18:50</span><span class="transcript-text">But for the student that wants to do a single beam for a science project it works great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:55">18:55</span><span class="transcript-text">Well Steve I&#x27;m going to go out on a limb and I&#x27;m gonna say that probably what you&#x27;ve just done could very well revolutionize holography not only in this country but around the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:10">19:10</span><span class="transcript-text">That that&#x27;s interesting you mean in terms of uh in terms of making it available to more people who will uh get involved with it and continue to grow in their interest and put in studios and uh their own places to do holograms?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:24">19:24</span><span class="transcript-text">Well that&#x27;s what I was hoping for.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:26">19:26</span><span class="transcript-text">If this was successful, which it was, um brings the cost way down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:30">19:30</span><span class="transcript-text">And you don&#x27;t have to have a big table like mine either.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:33">19:33</span><span class="transcript-text">And you know how many people want to do holograms using a laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:37">19:37</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:37">19:37</span><span class="transcript-text">You know?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:38">19:38</span><span class="transcript-text">I mean you see the emails, I see them all the time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:40">19:40</span><span class="transcript-text">Imagine now that you can write back to those people and tell them, yes, you can do a hologram with a laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:47">19:47</span><span class="transcript-text">Yes, that&#x27;s a great feeling.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:49">19:49</span><span class="transcript-text">Yeah, it&#x27;s incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:50">19:50</span><span class="transcript-text">Well I want to congratulate you Steve.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:52">19:52</span><span class="transcript-text">Um it&#x27;s not too often that we get somebody on the show that uh has done what you&#x27;ve done and I admire you because you didn&#x27;t listen to what other people were telling you and you just went ahead and did it anyway, which I really liked.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">Thanks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">I want to thank you for coming on and I want to uh uh tell the listeners that you can go to the 3d imagery dot com and I&#x27;ll have a link for that uh is it W W first?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:19">20:19</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:19">20:19</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:19">20:19</span><span class="transcript-text">So we&#x27;ve got W Ww dot three D imagery dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:24">20:24</span><span class="transcript-text">You&#x27;ll see a link for it right on the uh Holo Talk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:29">20:29</span><span class="transcript-text">You can click on that link and go over to the site.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:31">20:31</span><span class="transcript-text">And let me ask you this before we close it out, do you think you&#x27;re going to put anything on your website about your experiment and results?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:37">20:37</span><span class="transcript-text">Most definitely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:38">20:38</span><span class="transcript-text">Most definitely it will happen in the next couple of months.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:41">20:41</span><span class="transcript-text">And one other thing, um we had I talked to you about um finding a cheaper film too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:46">20:46</span><span class="transcript-text">Oh okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:47">20:47</span><span class="transcript-text">And Yes, that&#x27;s right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:49">20:49</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:50">20:50</span><span class="transcript-text">You were working with the tech path.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:52">20:52</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:53">20:53</span><span class="transcript-text">Um that didn&#x27;t turn out and I did several exposures um using different um angles between the beams and that&#x27;s pretty restrictive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:02">21:02</span><span class="transcript-text">I mean if you try to get down to ten degree difference and keep your spatial frequency down then you you&#x27;re not you&#x27;re not very practical anymore.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:10">21:10</span><span class="transcript-text">But um I did call Kodak today and found out the Kodak still produces the SO two fifty three holographic film and that&#x27;s in sheet, four by five sheets, comes twenty five in a box for sixty one fifty five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:25">21:25</span><span class="transcript-text">So we&#x27;re looking at uh less expense there too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:29">21:29</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:30">21:30</span><span class="transcript-text">And in small quantities then you have to buy a lot of the other films as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">And if you call Kodak at um eight hundred uh two four two two four two four they&#x27;ll send out the specs of that film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:44">21:44</span><span class="transcript-text">Well Steve, thank you very much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:46">21:46</span><span class="transcript-text">Uh hang on the line for a minute after I close this out, I&#x27;m gonna pick up the phone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:50">21:50</span><span class="transcript-text">Okay?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:50">21:50</span><span class="transcript-text">Thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:51">21:51</span><span class="transcript-text">Okay.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frank DeFreitas and the Internet Rebsium of Holography. Hello everyone, this is Frank DeFreitas and welcome to HoloTalk for the week of November 23rd. And Happy Thanksgiving this week, in case you happen to celebrate this holiday. If you are a student or educator, or someone who has an interest in making holograms as a hobby in your own home, studio, or lab, I have got the most incredible news for you on the show tonight. If this news doesn&#x27;t rock the holography world, then nothing will. You may also want to get a pencil and pad ready to take down some of the information that you will learn about tonight. I am holding in my hand a 4x5 inch white light reflection hologram, which is the same style or type of hologram that you see on the walls of countless hologram shops across the country. It is crisp, bright, and exhibits a great amount of depth. It&#x27;s on agfa plates. Now, what makes this hologram special, is that it will be a great tool for you to use in your daily life. It was not made with your standard helium neon or other gas laser, which are lasers that have been the standard for making holograms for over 30 years. What makes this hologram special, is that it was made using a standard, off the shelf, and out of the box, $49 laser pointer. I&#x27;ll repeat that. This hologram was made using a standard, off the shelf, and out of the box, $49 laser pointer. The person who achieved this is Steve Michael, who is my guest tonight on HoloTalk. Steve is going to tell us all the details of using a laser pointer to make holograms, so that you too can now get involved with holography at a fraction of the cost of what is the most expensive hologram in the world. And, Steve, I hope you&#x27;ll join us for a talk about the most expensive part of any holographic setup, the laser. Now, before we begin the interview, let me give you some specific information on this laser pointer that Steve is going to tell us about during the interview. It is called the Rocket Laser Pointer, Rocket, R-O-C-K-E-T, and can be found in the Edmund Scientific catalog. Edmund Scientific is located in Barrington, New York, and is the first laser pointer manufacturer in the United States. It is a highly-skilled laser pointer, and it is a highly-skilled laser pointer. It is also available in the United States and New Jersey, and it can be reached at the following telephone number. Area code 609-573-6250. Area code 609-573-6250. They will send you a catalog if you call and ask for one. Ask for their latest optics catalog. That&#x27;s the one that I have that I found the laser pointer in. The laser pointer, or rocket laser as it&#x27;s known in the catalog, its ordering number is D54006. That&#x27;s D as in dog, 54006. And here are the specs. It is a Class IIIa laser pointer. Power output is 3 to 5 milliwatts at 635 nanometers, which is very close to the Heaney at 633 nanometers. And it&#x27;s also very close to the power of many of the lasers that you find in the classroom. It runs on two LR44 alkaline batteries, and gets two and a half hours of continuous operation from these batteries. It also has an adjustable focus lens and a momentary on-off switch. Now, as many of you may remember, last year I ran a series of webcam nights, which you could log onto the site and see a presentation in the studio. I had a similar laser diode that I demonstrated, which was battery operated, and it was taken the diode out of the housing and hooked it up to a RadioShack power supply to run the diode off of standard household current. It may be possible to do this with this laser pointer as well, saving you the money of having to replace batteries all the time by just plugging it into the wall. We&#x27;ll have more on this later as we continue to check in with Steve.
 
 you the money of having to replace batteries all the time by just plugging it into the wall. We&#x27;ll have more on this later as we continue to check in with Steve to see what&#x27;s new from time to time here on HoloTalk. So why is this such a big deal? Well, it&#x27;s certainly not a big deal if you&#x27;re working with a 20-watt argon laser system, but for kids with school projects, teachers in the classroom, and many hobbyists and amateurs on tight budgets that really want to get involved with holography but could not do so, this is going to revolutionize this type of holography. The most common emails I get here in the studio, can I make a hologram using a laser pointer? In the past, I&#x27;ve had to write back saying that you can view a laser hologram with a laser pointer, but because of the short coherence length of laser diodes, you could not make a hologram until now. So let&#x27;s move on to the interview with Steve Michael and get the details. He&#x27;s also going to have information up at his site on laser pointer holography, and you can find a link to his site right on the HoloTalk page. Now, I won&#x27;t be coming back on after the interview, so I will thank you now for tuning into HoloTalk and hope that you continue to come back each week for new and exciting shows just like this one. Here&#x27;s the interview with Steve. This is Frank DeFreitas for HoloTalk. beginners in the field of biological sciences might want to use holography for their recording medium. And one paper was called How to Build a Holography System, and the other one was Producing Transmission and Reflection Holographs. So I decided right now I&#x27;m working on an Internet team, on a graphic arts team, and I decided it would be a good chance for me to set up a website and transfer that information so the rest of the world could see it. And I did that in, I finished it in August of 96, so it&#x27;s been up for a little over two years. And it took me about 600 hours to produce all the graphics, because I had to do those from scratch, as you know. The background graphic that you have on there, the laser pattern, did you do that? Yes. Is that the laser being sent through like a piece of plexiglass or something? You&#x27;ve got it. That&#x27;s exactly right. That&#x27;s a great shot. Technically, it&#x27;s a great photograph. Oh, thank you. Yes. I projected it onto just a piece of white cardboard, set my camera up so that it was in line with the correction that the pattern was being projected to the screen. And just by, I have a linear translation stage that&#x27;s sitting on, and just by slightly moving the plastic, I could change the pattern as well. And I had like 36 or 40 different patterns. Wow. That I photographed, and then, you know, I put it in Photoshop, set it up for digital use. Yeah, usually that saturates the film, those types of shots, but that&#x27;s just like right on the money. Yeah. You have a hologram art where you sell some of your own editions too, right? Yeah. What pieces do you have on there right now? My original work was in the biological sciences, so I have a human skull and a vaginal section of a human brain. But it&#x27;s an That&#x27;s almost like a holography manual. Yes, I wrote that. That was the material I wrote in 1990 and 91. Mm-hmm. And I just transcribed it over to HTML. Where do you have your lab? Is it in your home? Yes, it&#x27;s in my basement. And what type of a table are you working on? Well, it&#x27;s really interesting. I have a glass table. Oh, really? Yes. I progressed from wooden tables to sandbox to marble, and now I have a 5-by-8-foot, 3-quarter-inch thick glass table. That&#x27;s very interesting. And it&#x27;s all gravity-mounted. The holograms that you sent me were produced on that table, right? Yes, they were. It&#x27;s very stable, very rigid. Now, here&#x27;s what everyone&#x27;s waiting to hear. I received, as I said at the beginning of the show, two holograms from Steve, a single beam.
 
@@ -371,7 +736,7 @@ Now here&#x27;s what everyone&#x27;s waiting to hear. I received, as I said at t
 
 As you can see, that hologram I sent you is probably three centimeters deep. Oh, yeah, of the horse, yeah. Of the unicorn? Yeah, easy. Easy. It looks just like you shot it with a helium neon laser. In fact, I would go out on a limb and say it&#x27;s better than a lot of the classroom laser holograms that I&#x27;ve seen as far as brightness and depth. Well, I put the object as close as I could to the film so the path differences were minimal. Yeah. The other problem, though, with the diode laser is that it doesn&#x27;t have a circular beam profile. Oh, I see, yeah. It&#x27;s rectangular, or at least the one I have. And I found that, by the way, this particular diode laser pointer has a lens in front of the diode so you can focus it to a sharp point. You know, out to 100 feet. And if you actually do focus that to infinity, it&#x27;s a sharp point from the laser pointer all the way out to that distance. But what I had to do was I had to adjust that lens such a way behind my microscope objective, which was going to diverge the beam to cover the whole 4x5 plate in such a way that I got uniformity across the plate. And that was a little difficult. I mean, I even used a pinhole. Mm-hmm. I tried to clean it up some. Yeah. But trying to put, you know, it was like trying to put a rectangle through a circle. Yeah, yeah. And I was getting diffraction effects. Yeah. What did your exposure time run on these shots? It was one minute for the transmission and two minutes for the reflection. Oh, mm-hmm. Hmm. Oh, that&#x27;s fine. Pretty short. Yeah. I&#x27;m trying to think. It&#x27;s been a while since I&#x27;ve had a 3 or 5-milliwatt HEMI, but I&#x27;m trying to think of what the single beam exposure times would be on the 8075 HD with the HEMI. Well, I went and set up my 5-milliwatt HEMI, which my power meter was saying was operating at about 6.2 milliwatts. Mm-hmm. And my exposure time was around 2 seconds with a single beam. That&#x27;s interesting. Why do you think the difference there? It&#x27;s not that much difference in the power. Well, it could be the beam profile being spread out further that way. I see. It certainly didn&#x27;t look as bright because I did take a power meter reading on the dialed laser when I had new batteries and I was getting 3.3. Mm-hmm. There&#x27;s about a 3-milliwatt difference. Yeah. Which is half of what you were seeing with the HEMI, but yet more than twice the time on the HEMI. Right. In any case, it&#x27;s a wonderful job. Oh, thank you. A beautiful hologram. I mean, that laser transmission hologram is gorgeous. And the reflection hologram, as soon as the box was handed to me, I opened the box up and with the lamp that I have on my desk, I saw the image right away. I did try a tubing setup, and that was very difficult. Mm-hmm. In fact, I wasn&#x27;t successful. Yeah. I mean, getting the HEMI, I didn&#x27;t know what to do. And it was because it was in this Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins Hopkins that probably what you&#x27;ve just done could very well revolutionize holography not only in this country but around the world. That&#x27;s interesting. You mean in terms of? In terms of making it available to more people who will get involved with it and continue to grow in their interest and put in studios and their own places to do holograms? Well, that&#x27;s what I was hoping for. If this was successful, which it was, it brings the cost way down. And you don&#x27;t have to have a big table like mine either. And you know how many people want to do holograms using a laser pointer. Right. You know? I mean, you see the emails. I see them all the time. Imagine now that you can write back to those people and tell them, yes, you can do a hologram with a laser pointer. Yes, it&#x27;s a great feeling. Yeah, it&#x27;s incredible. Well, I want to congratulate you, Steve. It&#x27;s not too often that we get somebody on the show. That has done what you&#x27;ve done. And I admire you because you didn&#x27;t listen to what other people were telling you. And you just went ahead and did it anyway, which I really like. Thanks. I want to thank you for coming on.
 
-and I admire you because you didn&#x27;t listen to what other people were telling you, and you just went ahead and did it anyway, which I really like. Thank you. I want to thank you for coming on, and I want to tell the listeners that you can go to the 3Dimagery.com, and I&#x27;ll have a link for that. Is it www first? Yeah. Okay. So we&#x27;ve got www.3dimagery.com. You&#x27;ll see a link for it right on the HoloTalk page. You can click on that link and go over to the site. Let me ask you this before we close it out. Do you think you&#x27;re going to put anything on your website about your experiment and results? Most definitely. Most definitely. Yes. That will happen in the next couple of months. And one other thing, I had talked to you about finding a cheaper film, too. Oh, okay. Yes, that&#x27;s right. Yes. You were working with the? Tech parents. Yeah. That didn&#x27;t turn out. I did several exposures using different. I mean, I did a lot of research on the And I found out that the Kodak still produces the SO253 holographic film. And that&#x27;s in sheet, 4x5 sheets, comes 25 in a box for $61.55. So we&#x27;re looking at less expense there, too. Yeah. And in smaller quantities, then you have to buy a lot of the other films as well. Right. And if you call Kodak at 800-242-2424, they&#x27;ll send out the specs of that film. Steve, thank you very much. Hang on the line for a minute after I close this out. I&#x27;m going to pick up the phone. Okay? Thank you. Okay.</div>
+and I admire you because you didn&#x27;t listen to what other people were telling you, and you just went ahead and did it anyway, which I really like. Thank you. I want to thank you for coming on, and I want to tell the listeners that you can go to the 3Dimagery.com, and I&#x27;ll have a link for that. Is it www first? Yeah. Okay. So we&#x27;ve got www.3dimagery.com. You&#x27;ll see a link for it right on the HoloTalk page. You can click on that link and go over to the site. Let me ask you this before we close it out. Do you think you&#x27;re going to put anything on your website about your experiment and results? Most definitely. Most definitely. Yes. That will happen in the next couple of months. And one other thing, I had talked to you about finding a cheaper film, too. Oh, okay. Yes, that&#x27;s right. Yes. You were working with the? Tech parents. Yeah. That didn&#x27;t turn out. I did several exposures using different. I mean, I did a lot of research on the And I found out that the Kodak still produces the SO253 holographic film. And that&#x27;s in sheet, 4x5 sheets, comes 25 in a box for $61.55. So we&#x27;re looking at less expense there, too. Yeah. And in smaller quantities, then you have to buy a lot of the other films as well. Right. And if you call Kodak at 800-242-2424, they&#x27;ll send out the specs of that film. Steve, thank you very much. Hang on the line for a minute after I close this out. I&#x27;m going to pick up the phone. Okay? Thank you. Okay.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

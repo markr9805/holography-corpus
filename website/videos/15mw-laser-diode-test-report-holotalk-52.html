@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,13 +456,135 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frank DeFreitas and the Internet Museum of Holography. Hello everyone, this is Frank DeFreitas and welcome to another week of Holotalk for the week of April 12, 1999. I&#x27;m getting a little bit of a late start tonight, it&#x27;s almost midnight. I took a little bit of time today to update the archive page with more past Holotalk broadcasts. So if you&#x27;re interested in hearing some of the past shows that you may have missed over the last few weeks, I think it may go back into February, if you scroll down the Holotalk page, you will see a link for past Holotalk shows. And if you click on that link, it will take you to the archive page. Now I&#x27;ve got shows archived. Going all the way back to 1997. But I&#x27;ve recently, tonight, updated that entire page with shows going back to February, which weren&#x27;t archived on a weekly basis, but they&#x27;re up there now. So if you missed any shows since February, you can go back to the past Holotalk page and catch up on what&#x27;s been happening. This week, as I mentioned last week when we had the guest Alan Rohde, I&#x27;m going to take a little bit of time to talk about the test that I did here with the 15-milliwatt laser diode. And this test worked out really well. And unfortunately, I have not had a chance to shoot another hologram this week with it. In fact, I wanted to do an 8x10. I have one 8x10 plate left. But I&#x27;m going to hold off with that because next week, I believe on the 15th or 16th is the delivery date on this. I&#x27;m getting a 35-milliwatt diode coming in. And if that proves to be successful, shooting a small 4x5-inch hologram, then I may use the 35-milliwatt to shoot the 8x10. But in any case, I want to just give a little quick rundown this week on this 15-milliwatt laser diode. Now, once you get up into the powers of 15-milliwatt with helium-neon lasers, it gives you the capability of doing some very nice creativity. It gives you the ability to do some very nice creative work. The 5-milliwatt helium-neon lasers are great for the classroom. They&#x27;re great to start out with holography. I know there&#x27;s a ton of things that you can do with a 5-milliwatt. My first 5-milliwatt that I had, I was actually doing multiple color reflection holograms using triethanolamine on 4x5-inch AGFA plates back in the early 80s. So there&#x27;s a lot of things you can do with a 4x5. The 15... When you get up into the 10s and 15s, especially the 15s, I guess the most famous 15-milliwatt helium-neon laser out there is the Spectrophysics Stabilite 124B, which I also had in the mid-80s. And I believe, I&#x27;m not absolutely certain, but I believe I may have paid like $4,900 for that Stabilite when it was new from Spectrophysics with the tube, the head, and the power supply. I&#x27;ll have to go back and see if I can dig out, that sales receipt for that, because I think that goes back, I think I got mine back in 84 or 85. But there were a lot of very well-known holographic artists that were working around the 10, 12, 15-milliwatt range for many years and created beautiful, beautiful display artistic holograms using 15-milliwatts of power. So it&#x27;s very advantageous to us to be able to move up into these higher powers. Now, I know... I know. I know some of the holograms that are done for conventions, the large holograms that you see out there, are using 50-milliwatts. So it&#x27;s going to be interesting to see what this 35-milliwatt does. And this is really going to get us into the ballpark range of doing some very large-scale work. I want to run down the prices for this. Now, the 15-milliwatt laser diode that I have is putting out 635 nanometers. So we&#x27;re very close to the 633 line, which is the line of helium-neon laser. I don&#x27;t think it&#x27;s absolutely necessary to work with 635. Everyone, when we were talking very early on about laser diodes, saying it&#x27;ll be great to get down around 633 nanometers and we&#x27;re as close to it as we can with these laser diodes. But the holographic emulsions are sensitive to a number of different wavelengths. For instance, the BB plates from Germany, and maybe also the Slavich materials as well, both have a spike in the response curve at 647 nanometers for krypton. So whether you&#x27;re working with a 635 nanometer diode or 650, 635 is going to be a good choice.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frank Defratis and the Internet Museum of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">Hello everyone, this is Frank Defratus, and welcome to another week of HoloTalk for the week of April 12th, 1999.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:21">0:21</span><span class="transcript-text">I&#x27;m getting a little bit of a late start tonight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">It&#x27;s almost midnight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:25">0:25</span><span class="transcript-text">I took a little bit of time today to update the archive page with more past HoloTalk broadcasts.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:32">0:32</span><span class="transcript-text">So if you&#x27;re interested in hearing some of the past shows that you may have missed over the last few weeks, I think it may go back into February.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:42">0:42</span><span class="transcript-text">If you scroll down the HoloTalk page, you will see a link for Past HoloTalk shows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">And if you click on that link, it will take you to the archive page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:51">0:51</span><span class="transcript-text">Now I&#x27;ve got shows archived going all the way back to nineteen ninety-seven.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:58">0:58</span><span class="transcript-text">Uh but I&#x27;ve recently tonight updated that entire page with shows going back to February, which weren&#x27;t archived on a weekly basis, but they&#x27;re up there now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:08">1:08</span><span class="transcript-text">So if you missed any shows since February, you can go back to the uh past HoloTalk page and catch up on what&#x27;s been happening.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:18">1:18</span><span class="transcript-text">This week, uh as I mentioned last week when we had the guest Alan Rhodey, I wanted to take a little bit of time to talk about the test that I did here with the 15 milliwatt laser diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">And um this test worked out really well, and I&#x27;m uh unfortunately I have not had a chance to shoot another hologram this week with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:40">1:40</span><span class="transcript-text">In fact, I wanted to do an eight by ten.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:42">1:42</span><span class="transcript-text">I have one eight by ten plate left.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:46">1:46</span><span class="transcript-text">But I&#x27;m going to hold off with that because next week, I believe on the fifteenth or sixteenth is the the delivery date on this, I&#x27;m getting a thirty-five milliwatt diode coming in, and if that proves to be successful uh shooting a small four by five inch hologram, then I may use the 35 milliwatt to uh shoot the eight by ten.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:08">2:08</span><span class="transcript-text">But in any case, I want to uh just give a little quick rundown this week on this 15 milliwatt laser diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:15">2:15</span><span class="transcript-text">Now, once you get up into the powers of 15 milliwatt um with helium neon lasers, it gives you the capability of doing some very nice creative work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:24">2:24</span><span class="transcript-text">Uh the 5 milliwatt helium neon lasers are great for the classroom.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:28">2:28</span><span class="transcript-text">They&#x27;re great to start out with holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:31">2:31</span><span class="transcript-text">Um there&#x27;s uh I know there&#x27;s a ton of things that you can do with a five milliwatt.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:35">2:35</span><span class="transcript-text">Uh my first five milliwatt that I had, I was actually doing multiple color reflection holograms uh using triethanolamine on four by five inch Agva plates back in the early eighties.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:47">2:47</span><span class="transcript-text">So there&#x27;s a lot of things you can do with a four by five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:50">2:50</span><span class="transcript-text">Uh the 15, when you get up into the tens and fifteen, especially the fifteens, uh I guess the most famous 15 milliwatt helium neon laser out there is the uh Spectrophysics Stabilite uh 124B, which I&#x27;ve uh also had in the mid-80s.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:07">3:07</span><span class="transcript-text">And I believe, I&#x27;m not absolutely certain, but I believe I may have paid like $4,900 uh for that stabilite when it was new from Spectrophysics with the uh tube uh the head and the power supply.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:19">3:19</span><span class="transcript-text">I&#x27;ll have to go back and see if I can dig out that uh sales receipt for that because I think that goes back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:25">3:25</span><span class="transcript-text">I think I got mine back in 84 or 85.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">But there were a lot of uh very uh well-known holographic artists that were working around the uh 10, 12, 15 milliwatt range for many years and created beautiful, beautiful display uh artistic holograms using 15 milliwatts of power.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">So it&#x27;s it&#x27;s very advantageous to us to be able to move up into these higher powers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:51">3:51</span><span class="transcript-text">Now I know some of the uh holograms that are done for conventions, uh the large holograms that you see out there are using 50 milliwatts, so it&#x27;s going to be interesting to see what this 35 milliwatt does, and this is really going to get us into the uh ballpark range of doing some very uh uh large-scale work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:11">4:11</span><span class="transcript-text">I want to run down the prices for this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:14">4:14</span><span class="transcript-text">Now, the 15 millilit laser diode that I have is putting out six hundred and thirty-five nanometers, so we&#x27;re very close to the six thirty-three line of uh helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:25">4:25</span><span class="transcript-text">Um I don&#x27;t think it&#x27;s absolutely necessary to work with six hundred and thirty-five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:32">4:32</span><span class="transcript-text">Everyone, when we were talking very early on about laser diodes saying it&#x27;ll be great to get down around six hundred and uh thirty-three nanometers, and we&#x27;re as close to it as we can with these laser diodes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:44">4:44</span><span class="transcript-text">But the holographic emulsions are sensitive to a number of different wavelengths, for instance, uh the BB plates from Germany, and maybe also the Slavage materials as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:55">4:55</span><span class="transcript-text">Both have a spike in the response curve at 647 nanometers for krypton.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:02">5:02</span><span class="transcript-text">So whether you&#x27;re working with a 635 nanometer diode or 650, uh 635 is going to put you two nanometers away from 633, 650 is going to put you three nanometers away from 647.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:17">5:17</span><span class="transcript-text">So you&#x27;re in the ballpark for both of those.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:19">5:19</span><span class="transcript-text">The main difference, the main difference is what you&#x27;re going to pay for the diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:24">5:24</span><span class="transcript-text">Now, this 15 millilit 635 nanometer diode was $550 assembled.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:34">5:34</span><span class="transcript-text">Now, the same amount of power, you&#x27;re going to be able to do the same size holograms, you&#x27;re going to get the same type of response for a 650 nanometer diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:45">5:45</span><span class="transcript-text">Let me run down some of these prices for you just to uh because I know someone&#x27;s going to hear $550 and they&#x27;re going to think, well, that&#x27;s just putting us right back where we were before, where people couldn&#x27;t afford the higher powered.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:58">5:58</span><span class="transcript-text">And $550 is a big chunk for some people, especially if you&#x27;re doing this as an amateur or hobbyist.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:04">6:04</span><span class="transcript-text">That&#x27;s a big chunk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">So let&#x27;s take a look at this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:06">6:06</span><span class="transcript-text">Now, say for instance that you want to put your own laser diode module together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:13">6:13</span><span class="transcript-text">Here&#x27;s what it&#x27;s going to break down to for 15 milliwatts of power at 650 nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:20">6:20</span><span class="transcript-text">You&#x27;re going to pay, and these are approximate prices, maybe a little bit more, a little bit less, but we&#x27;re only looking at a few dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:26">6:26</span><span class="transcript-text">We&#x27;re not looking at hundreds, uh, maybe three dollars, five dollars, because they&#x27;re all relatively the same price around.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:33">6:33</span><span class="transcript-text">You&#x27;re going to pay $90 for the 650 nanometer diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">That&#x27;s the raw diode in the little brass housing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:43">6:43</span><span class="transcript-text">These are tiny little things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">You have to be very careful working with them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:46">6:46</span><span class="transcript-text">Always make sure you&#x27;re grounded.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:48">6:48</span><span class="transcript-text">The slightest uh touch of static on a raw diode will absolutely fry it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:54">6:54</span><span class="transcript-text">Don&#x27;t even think about five watt uh five uh volts or anything like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:58">6:58</span><span class="transcript-text">You&#x27;re just just you walking across the carpet and picking it up, you&#x27;re gonna fry it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:03">7:03</span><span class="transcript-text">So you have to be very careful if you&#x27;re doing this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:05">7:05</span><span class="transcript-text">I just wanted to put that in there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:07">7:07</span><span class="transcript-text">$90 for the actual diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">Now, on top of that, you&#x27;re going to need a driver now the diode&#x27;s going to have to be it&#x27;s either soldered to the driver or some of the dryer drivers have little uh uh uh receptacles or what we call females uh that you can plug the male end of the diodes into right on the chip itself so that&#x27;s going to run you 30 you&#x27;re going to pay nine dollars for a colonnading lens to go into the housing excuse me and twenty dollars for the actual housing itself now add that up you&#x27;ve got 90 30 9 and 20 and you&#x27;re going to pay $149 for a 15 milliwatt 650 nanometer diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:55">7:55</span><span class="transcript-text">Now if you&#x27;d like to move up to 20 milliwatts at 650 nanometers you can put one together yourself by adding about $65 onto the $90.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:07">8:07</span><span class="transcript-text">I think it&#x27;s $155 for the actual diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">So you&#x27;re looking at $214 for 20 milliatts at $150.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">That&#x27;s that&#x27;s a nice piece too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:19">8:19</span><span class="transcript-text">Now you can also get these assembled if you&#x27;ve got a little bit more cash to spend and I&#x27;m not selling these I&#x27;m just trying to give people an idea of uh of what we can do and at what price because I&#x27;m comparing this to the $550 that was paid for the $635 nanometer 15 milliwatt.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:36">8:36</span><span class="transcript-text">So you&#x27;re comparing $149 to $150 and you&#x27;re still getting the same amount of power and your emulsion is still going to be just as responsive because it has that spike right there at 647 nanometers for krypton.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:50">8:50</span><span class="transcript-text">Now, if you want these already assembled, you&#x27;re looking at uh let&#x27;s see, I have it all written down here I&#x27;m I&#x27;m shooting this from the hip because, like I had said, it&#x27;s almost midnight, and I don&#x27;t want to go over too long with this, but uh assembled, you&#x27;re looking at $185 for the 15 milliwatt 650, and you&#x27;re looking at 245 dollars for the 20 milliwatt.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:12">9:12</span><span class="transcript-text">That means that diode module is going to come already assembled in the housing, the brass housing, it&#x27;s going to have the colonnading lens, it&#x27;s going to have the laser diode, it&#x27;s going to have two pigtail wires coming out of it where you just hook a couple batteries up to it and run it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:25">9:25</span><span class="transcript-text">Um I did not have any luck running it off of the power general power supply.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:31">9:31</span><span class="transcript-text">Now, I had someone send me an email saying that you know, but I think they misunderstood the web page that I put up, meaning that I was running it off of one of those drivers that you just plug into the wall.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:41">9:41</span><span class="transcript-text">No, this is a very high quality regulated switching DC power supply from Power General, and uh I did not get one image running uh that diode uh diode module off of that power supply.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:56">9:56</span><span class="transcript-text">And I was just uh doing everything as normal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">Uh we think possibly that the AC current going into these uh into these power supplies has to be very, very clean.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:08">10:08</span><span class="transcript-text">So we&#x27;re going to put a scope on the AC power here in the studio and find out if there&#x27;s a lot of noise in there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:14">10:14</span><span class="transcript-text">You can&#x27;t have a lot of noise.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:16">10:16</span><span class="transcript-text">So it looks like the batteries are the best bet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:18">10:18</span><span class="transcript-text">And I also picked something up that I&#x27;m experimenting with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:34">10:34</span><span class="transcript-text">Now it&#x27;s uh running at half price for 1999, and it provides up to 20 hours runtime for C Ds that use two AA batteries.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:43">10:43</span><span class="transcript-text">You can charge this up to 500 times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:44">10:44</span><span class="transcript-text">So I&#x27;ve been using it and it looks pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:48">10:48</span><span class="transcript-text">Um it&#x27;ll put out uh I think I measured it at uh four point one eight volts when it was fully charged, and I just ran it until the diode actually uh just went out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:01">11:01</span><span class="transcript-text">But you can charge it up to five hundred times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:04">11:04</span><span class="transcript-text">So this may save you a lot of money uh on batteries as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:09">11:09</span><span class="transcript-text">And the number for that is twenty-three five oh five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:15">11:15</span><span class="transcript-text">That&#x27;s uh stock number twenty-three-five oh five portable CD power pack.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:20">11:20</span><span class="transcript-text">And it uh it&#x27;s actually a little lead acid battery, and it&#x27;s the size of a C D case.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:27">11:27</span><span class="transcript-text">That&#x27;s how that&#x27;s the size, it&#x27;s very thin.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:29">11:29</span><span class="transcript-text">If you&#x27;ve got a C D case sitting there, take a look at it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:32">11:32</span><span class="transcript-text">This battery is the exact same size.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">And uh I&#x27;ve been running the Infinite or 200 off of that, uh, with very good results so far.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:41">11:41</span><span class="transcript-text">So there you have it, folks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:42">11:42</span><span class="transcript-text">Uh there&#x27;s a little bit of an update on the 15 milliwatt if you&#x27;d like to move up in power a little bit, and you&#x27;ve been working with a five milliwatt laser pointer, uh, you can see that it&#x27;s uh I don&#x27;t want to say inexpensive because that&#x27;s a relative word for most people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:58">11:58</span><span class="transcript-text">I don&#x27;t want to assume that uh sitting here saying 149 dollars is inexpensive for some people because I know raising a family myself with three kids uh who are now grown, but I can remember the day when uh if I had a hundred and forty nine dollars it was going to go for sneakers, it wasn&#x27;t going to go for a laser diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:15">12:15</span><span class="transcript-text">So uh that is relative to you, but it&#x27;s very inexpensive uh considering what you would have paid for a 15 milliwatt uh Heaney laser and also what you would pay for even a used 15 milliwatt HeNE laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">Um it&#x27;s a great opportunity to move up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:36">12:36</span><span class="transcript-text">And like I had mentioned, next week I will be getting in the 35 milliwatt diode, and I&#x27;m very, very excited uh to get in the uh lab and start working with that, as you can imagine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:48">12:48</span><span class="transcript-text">And uh from there, who knows where it&#x27;s going to go.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:50">12:50</span><span class="transcript-text">But we&#x27;re going to continue building this and see where we can take it and take it one step at a time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:56">12:56</span><span class="transcript-text">Uh small power increments and work with it and see how it works.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:02">13:02</span><span class="transcript-text">And who knows?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:04">13:04</span><span class="transcript-text">We could really be into some really interesting stuff here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:07">13:07</span><span class="transcript-text">So I want to thank you for tuning in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:09">13:09</span><span class="transcript-text">Uh, we&#x27;ll get back to more guests.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:11">13:11</span><span class="transcript-text">I&#x27;m going to go in and check the list of uh guests that I have uh scheduled for the rest of the season, send a couple emails out and get a few uh few new guests on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:21">13:21</span><span class="transcript-text">And don&#x27;t forget if you&#x27;d like to uh check out the Holo Talk Past broadcast, just scroll down the Holo Talk page and click on that link, and it will take you to an archive of previous broadcasts going all the way back to 1997.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:35">13:35</span><span class="transcript-text">So thank you very much for tuning in this week and every week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:38">13:38</span><span class="transcript-text">I hope you continue to come back for news and information and guests concerning the fields of lasers and holography right here on the internet with HoloTalk, the Internet&#x27;s laser and holography talk show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:48">13:48</span><span class="transcript-text">This is Frank Defratis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:50">13:50</span><span class="transcript-text">Thank you for tuning in, and I&#x27;ll see you next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:55">13:55</span><span class="transcript-text">Would you like to make your own one of a kind hologram and learn how you can start making holograms on your own at the same time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">You can do this and much more by attending one of Frank the Fratis&#x27;s holography workshops.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:06">14:06</span><span class="transcript-text">From beginner to advance, Frank&#x27;s got a workshop that&#x27;s just right for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:11">14:11</span><span class="transcript-text">From single afternoon, evening, or weekend introductory workshops to Wednesday evening five-week complete courses.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:14">14:14</span><span class="transcript-text">And don&#x27;t forget his newest workshop, Laser Pointer Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:21">14:21</span><span class="transcript-text">Located just off the northeast extension of the Pennsylvania Turnpike and Interstate 78.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:27">14:27</span><span class="transcript-text">The studio is a quick nonstop drive from the New York, Philadelphia, and Baltimore, Washington, D.C.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:32">14:32</span><span class="transcript-text">areas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:33">14:33</span><span class="transcript-text">For more information, call the studio&#x27;s toll-free hotline at 1-800-458-3525 and begin your own journey with holography today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:43">14:43</span><span class="transcript-text">That&#x27;s 1-800-458-3525.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:48">14:48</span><span class="transcript-text">For more information on attending Frank De Freitas Holography Workshop today.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frank DeFreitas and the Internet Museum of Holography. Hello everyone, this is Frank DeFreitas and welcome to another week of Holotalk for the week of April 12, 1999. I&#x27;m getting a little bit of a late start tonight, it&#x27;s almost midnight. I took a little bit of time today to update the archive page with more past Holotalk broadcasts. So if you&#x27;re interested in hearing some of the past shows that you may have missed over the last few weeks, I think it may go back into February, if you scroll down the Holotalk page, you will see a link for past Holotalk shows. And if you click on that link, it will take you to the archive page. Now I&#x27;ve got shows archived. Going all the way back to 1997. But I&#x27;ve recently, tonight, updated that entire page with shows going back to February, which weren&#x27;t archived on a weekly basis, but they&#x27;re up there now. So if you missed any shows since February, you can go back to the past Holotalk page and catch up on what&#x27;s been happening. This week, as I mentioned last week when we had the guest Alan Rohde, I&#x27;m going to take a little bit of time to talk about the test that I did here with the 15-milliwatt laser diode. And this test worked out really well. And unfortunately, I have not had a chance to shoot another hologram this week with it. In fact, I wanted to do an 8x10. I have one 8x10 plate left. But I&#x27;m going to hold off with that because next week, I believe on the 15th or 16th is the delivery date on this. I&#x27;m getting a 35-milliwatt diode coming in. And if that proves to be successful, shooting a small 4x5-inch hologram, then I may use the 35-milliwatt to shoot the 8x10. But in any case, I want to just give a little quick rundown this week on this 15-milliwatt laser diode. Now, once you get up into the powers of 15-milliwatt with helium-neon lasers, it gives you the capability of doing some very nice creativity. It gives you the ability to do some very nice creative work. The 5-milliwatt helium-neon lasers are great for the classroom. They&#x27;re great to start out with holography. I know there&#x27;s a ton of things that you can do with a 5-milliwatt. My first 5-milliwatt that I had, I was actually doing multiple color reflection holograms using triethanolamine on 4x5-inch AGFA plates back in the early 80s. So there&#x27;s a lot of things you can do with a 4x5. The 15... When you get up into the 10s and 15s, especially the 15s, I guess the most famous 15-milliwatt helium-neon laser out there is the Spectrophysics Stabilite 124B, which I also had in the mid-80s. And I believe, I&#x27;m not absolutely certain, but I believe I may have paid like $4,900 for that Stabilite when it was new from Spectrophysics with the tube, the head, and the power supply. I&#x27;ll have to go back and see if I can dig out, that sales receipt for that, because I think that goes back, I think I got mine back in 84 or 85. But there were a lot of very well-known holographic artists that were working around the 10, 12, 15-milliwatt range for many years and created beautiful, beautiful display artistic holograms using 15-milliwatts of power. So it&#x27;s very advantageous to us to be able to move up into these higher powers. Now, I know... I know. I know some of the holograms that are done for conventions, the large holograms that you see out there, are using 50-milliwatts. So it&#x27;s going to be interesting to see what this 35-milliwatt does. And this is really going to get us into the ballpark range of doing some very large-scale work. I want to run down the prices for this. Now, the 15-milliwatt laser diode that I have is putting out 635 nanometers. So we&#x27;re very close to the 633 line, which is the line of helium-neon laser. I don&#x27;t think it&#x27;s absolutely necessary to work with 635. Everyone, when we were talking very early on about laser diodes, saying it&#x27;ll be great to get down around 633 nanometers and we&#x27;re as close to it as we can with these laser diodes. But the holographic emulsions are sensitive to a number of different wavelengths. For instance, the BB plates from Germany, and maybe also the Slavich materials as well, both have a spike in the response curve at 647 nanometers for krypton. So whether you&#x27;re working with a 635 nanometer diode or 650, 635 is going to be a good choice.
 
 for Krypton. So whether you&#x27;re working with a 635 nanometer diode or 650, 635 is going to put you two nanometers away from 633, 650 is going to put you three nanometers away from 647. So you&#x27;re in the ballpark for both of those. The main difference, the main difference is what you&#x27;re going to pay for the diode. Now, this 15 milliliter 635 nanometer diode was $550 assembled. Now, the same amount of power, you&#x27;re going to be able to do the same size holograms, you&#x27;re going to get the same type of response for a 650 nanometer diode. Let me run down some of these prices for you just to, because I know someone&#x27;s going to hear $550 and they&#x27;re going to think, well, that&#x27;s just putting this. Right back where we were before, where people couldn&#x27;t afford the higher powered. And $550 is a big chunk for some people, especially if you&#x27;re doing this as an amateur or hobbyist, that&#x27;s a big chunk. So let&#x27;s take a look at this. Now, say for instance, that you want to put your own laser diode module together. Here&#x27;s what it&#x27;s going to break down to for 15 milliwatts of power at 650 nanometers. You&#x27;re going to pay, and that&#x27;s going to be $550. And these are approximate prices, maybe a little bit more, a little bit less, but we&#x27;re only looking at a few dollars. We&#x27;re not looking at hundreds, maybe $3, $5, because they&#x27;re all relatively the same price around. You&#x27;re going to pay $90 for the 650 nanometer diode. That&#x27;s the raw diode in the little brass housing. These are tiny little things. You have to be very careful working with them. Always make sure you&#x27;re grounded. The slightest touch of static on a raw, diod will absolutely fry it. Don&#x27;t even think about 5 volts or anything like that. Just you walking across the carpet and picking it up, you&#x27;re going to fry it. So you have to be very careful if you&#x27;re doing this. I just wanted to put that in there. $90 for the actual diode. Now, on top of that, you&#x27;re going to need a driver. Now, the diode&#x27;s going to have to be, it&#x27;s either soldered to the driver or some of the drivers have little resistors. Now, if you&#x27;re going to be using a! watt 650 nanometer diode now if you&#x27;d like to move up to 20 milliwatts at 650 nanometers you can put one together yourself by adding about $65 on to the $90 I think it&#x27;s $155 for the actual diode so you&#x27;re looking at two hundred and fourteen dollars for 20 milliwatts at 650 that&#x27;s that&#x27;s a nice piece too now you can also get these assembled if you&#x27;ve got a little bit more cash to spend and I&#x27;m not selling these I&#x27;m just trying to give people an idea of of what we can do and at what price because I&#x27;m comparing this to the $550 that was paid for the 635 nanometer 15 milliwatt so you&#x27;re comparing 149 dollars to 550 and you&#x27;re still getting the same amount of power and your emulsion is still going to be just as responsive because it has that spike right there at 647 nanometers for Krypton now if you want these already available at www.SupplyDirect.com assembled you&#x27;re looking at let&#x27;s see I have it all written down I&#x27;m shooting this from the hip because like I had said it&#x27;s almost midnight and I don&#x27;t want to go over too long with this but assembled you&#x27;re looking at a hundred and eighty-five dollars for the 15 milliwatt 650 and you&#x27;re looking at two hundred and forty-five dollars for the 20 milliwatt that means that diode module is going to come already assembled in the housing the brass housing is going to have the collimating lens it&#x27;s going to have the laser diode it&#x27;s going to have two pigtail wires coming out of the housing and then theиковg set up meaning that I was running it off of one of those drivers so you just plug into the wall no this is a very high quality regulated switching DC power supply from Power General and I did not get one image running that diode module off of that power supply and I was just doing everything as normal. We think possibly that the AC current going into these power supplies has to be very, very clean so we&#x27;re going to put a scope.
 
 Everything&#x27;s normal. We think possibly that the AC current going into these power supplies has to be very, very clean. So we&#x27;re going to put a scope on the AC power here in the studio and find out if there&#x27;s a lot of noise in there. You can&#x27;t have a lot of noise. So it looks like the batteries are the best bet. And I also picked something up that I&#x27;m experimenting with. Do this at your risk any time we&#x27;re working with this power stuff. But at Radio Shack, there&#x27;s something on sale right now until May 1st, and it&#x27;s called a portable CD power pack. Now, it&#x27;s running at half price for $19.99, and it provides up to 20 hours run time for CDs that use two AA batteries. And you can charge this up to 500 times. So I&#x27;ve been using it, and it looks pretty good. It&#x27;ll put out, I think I measured it at 4.18 volts when it was fully charged. And I just ran it until the diode actually just went out. But you can charge it up to 500 times. So this may save you a lot of money on batteries as well. And the number for that is 23-505. That&#x27;s stock number 23-505, portable CD power pack. And it&#x27;s actually a little lead acid battery. And it&#x27;s the size of a CD case. That&#x27;s the size. It&#x27;s very thin. If you&#x27;ve got a CD case sitting there, take a look at it. This battery is the exact same size. And I&#x27;ve been running the Infinitor 200 off of that with very good results so far. So there you have it, folks. There&#x27;s a little bit of an update on the 15-milliwatt. If you&#x27;d like to move up in power a little bit, and you&#x27;ve been working with a 5-milliwatt laser pointer, you can see that it&#x27;s... I don&#x27;t want to say inexpensive because that&#x27;s a relative word for most people. I don&#x27;t want to assume that sitting here saying $149 is inexpensive for some people because I know raising a family myself with three kids who are now grown, but I can remember the day when if I had $149, it was going to go for sneakers. It wasn&#x27;t going to go for a laser diode. So that is relative to you, but it&#x27;s very inexpensive considering what you would have paid for it. It&#x27;s a great opportunity to move up. And like I had mentioned, next week I will be getting in the 35-milliwatt diode, and I&#x27;m very, very excited to get in the lab and start working with that, as you can imagine. And from there, who knows where it&#x27;s going to go, but we&#x27;re going to continue building this and see where we can take it and take it one step at a time. And small power increments and work with it and see how it works. And who knows? We could really be into some really interesting stuff here. So I want to thank you for tuning in. We&#x27;ll get back to more guests. I&#x27;m going to go in and check the list of guests that I have scheduled for the rest of the season, send a couple of emails out and get a few new guests on the show. And don&#x27;t forget, if you&#x27;d like to check out the HoloTalk Pass broadcast, just scroll down the HoloTalk page and click on that link, and it will take you to an archive of previous broadcasts going all the way back to 1997. So thank you very much for tuning in this week. And every week I hope you continue to come back for news and information and guests concerning the fields of lasers and holography right here on the Internet with HoloTalk, the Internet&#x27;s laser and holography talk show. This is Frank DeFreitas. Thank you for tuning in, and I&#x27;ll see you next week. Would you like to make your own one-of-a-kind hologram and learn how you can start making holograms on your own at the same time? You can do this and much more by attending one of Frank DeFreitas&#x27; holography workshops. From beginner to advanced, Frank&#x27;s got a workshop that&#x27;s just right for you. From single afternoon, evening, or weekend introductory workshops to Wednesday evening five-week complete courses. And don&#x27;t forget his newest workshop, laser pointer holography. Located just off the northeast extension of the Pennsylvania Turnpike, at Interstate 78, the studio is a quick, non-stop drive from the New York, Philadelphia, and Baltimore, Washington, D.C. areas. For more information, call the studio&#x27;s toll-free hotline at 1-800-458-3525 and begin your own journey with holography today. That&#x27;s 1-800-458-3525 for more information on attending a Frank DeFreitas holography workshop today. Thank you.
 
-Thank you.</div>
+Thank you.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

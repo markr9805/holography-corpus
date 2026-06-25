@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,280 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello? Hello, Sven. How are you? It&#x27;s Frank DeFreitas. Yes, I&#x27;m all right. I&#x27;m glad I was able to get the number and get you in there. I know it&#x27;s getting late there where you are now, and you probably want to get home for the weekend. Oh, it&#x27;s no problem. I work very late, so I start early. Not very early, so I work late. I work late, too. I got the last show up last night around midnight, so it&#x27;s good to do another one with you today, and I&#x27;m glad we finally have a chance to talk. I&#x27;ve visited your website many times. I&#x27;m very impressed with the work that you&#x27;re doing with holography, especially with full color. Yes. How did that come about? Oh, well, I started very early with it, but only with two colors. But now I have a good setup, and we make about 400 color holograms each year with the students. Small size. The ones you have on your website, they look like they&#x27;re probably 8x. 8x10s are larger. Yeah, 8x10. 8x10, all of them. So that&#x27;s a maximum. Well, I&#x27;ve tried a larger one, but the setup is too small for very big holograms. What are you using, like a 4x8 Newport table there? It&#x27;s a stone table, in fact. Oh, no kidding. Isn&#x27;t that something? That&#x27;s beautiful work, too. Now, you&#x27;re using all gas lasers with that, I presume. Yeah, I have a helium-cadmium laser. I have a diode-pumped jug laser and a helium-neon laser. Now, the course that you run there, what type of students take that course? Well, I have several. Electric engineering and... Well, different... Well... We have had also engineering, physics, and so that is the kind of students. And I have also a special course for holographers or people especially interested in holography. Yes, I would assume that the course runs as a separate course to the physics and electrical engineering course, but also as a primary course for the students who would wish to take holography as their primary study? Yes, something like that. Well, I mean, most of the holograms are made with engineering, physics, or such type of students. But I have a small group that is especially interested in holography. And so they make different kinds of holograms like rainbow holograms and color and ordinary holograms like transmission holograms and reflection holograms in one color. Now, would your students, once they&#x27;ve completed this course and they&#x27;ve received their degree, would they then go out into the workforce? The workforce? Yes, would they then go to try and get jobs? Well, in our country, our country isn&#x27;t very big. The number of pupils, the number of persons in Sweden is eight million. So it&#x27;s not very easy to find a job in holography here. Now, how long have you been involved with holography and how did you get started? Well, I was interested in holography already. I started in 1968. In 1969. And, well, I was interested in stereoscopy and photography and so on. So I tried to make, in fact, a film in three dimensions and such things. So I was amazed by the pictures and the holographic pictures. So I started very early. Was it very difficult getting the university to set up a holography lab or were they very willing to do that? Well, well, I...
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:22">0:22</span><span class="transcript-text">Hello.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">Hello, Sven.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:24">0:24</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:25">0:25</span><span class="transcript-text">It&#x27;s Frank Defratis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">Yes, I&#x27;m alright.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">I&#x27;m glad I was able to get the number and get you in there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:30">0:30</span><span class="transcript-text">I know it&#x27;s getting late there where you are now and you probably want to get home for the weekend.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:35">0:35</span><span class="transcript-text">Oh, it&#x27;s no problem.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:36">0:36</span><span class="transcript-text">I work very late.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:38">0:38</span><span class="transcript-text">So I start early.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:40">0:40</span><span class="transcript-text">Uh not very early, so I work late.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:43">0:43</span><span class="transcript-text">I I work late too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:44">0:44</span><span class="transcript-text">I I got the last show up last night around midnight, so uh it&#x27;s good to do another one with you today, and I&#x27;m glad we finally have a chance to talk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:52">0:52</span><span class="transcript-text">I visited your website many times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:54">0:54</span><span class="transcript-text">I&#x27;m very impressed with the work that you&#x27;re doing with holography, especially with uh full color.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:00">1:00</span><span class="transcript-text">Yes, uh well uh how did that come about?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:03">1:03</span><span class="transcript-text">Oh well I started very early with it, but only with two colors, so uh but now uh I have a good uh setup and uh we make uh about uh four hundred color holograms each year f with the students.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:22">1:22</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:23">1:23</span><span class="transcript-text">Small size.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:24">1:24</span><span class="transcript-text">Uh the ones you have on your website, they look like they&#x27;re probably eight by tens or larger.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:29">1:29</span><span class="transcript-text">Yeah, eight by ten.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">Eight by ten all of them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:32">1:32</span><span class="transcript-text">No, that&#x27;s a maximum.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:34">1:34</span><span class="transcript-text">Well, I&#x27;ve tried uh larger one, but um the setup is too small for uh for uh very big holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:44">1:44</span><span class="transcript-text">What are you using like a f a four by eight newport table there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">Uh it&#x27;s a stone table, in fact.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:51">1:51</span><span class="transcript-text">Oh no kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:52">1:52</span><span class="transcript-text">Isn&#x27;t that something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:53">1:53</span><span class="transcript-text">That&#x27;s beautiful work too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:54">1:54</span><span class="transcript-text">Now you you&#x27;re using all gas lasers with that, I presume.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:58">1:58</span><span class="transcript-text">Yeah, I have an organ no not an orgon a helium cadmium laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:03">2:03</span><span class="transcript-text">I have a diet pump jug laser and a helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:08">2:08</span><span class="transcript-text">Now the course that you run there, what type of students take that course?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:13">2:13</span><span class="transcript-text">Uh well I I have several uh electric engineering and uh uh well d different uh uh well we have had also engineering uh physics and so that is the kind of uh students and I have also a special course for uh holographers or people uh uh especially interested in holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:47">2:47</span><span class="transcript-text">Yes I I would assume that the course runs as a um a separate course to the physics and electrical engineering course but also as a uh primary course for the students who would wish to take uh holography as their primary study yeah something like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:05">3:05</span><span class="transcript-text">Well um I mean most of the holograms are made with uh uh with uh engineering physics or uh uh uh uh uh s such type of uh students but uh I have uh a a small group that&#x27;s s uh especially interested in in holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:26">3:26</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:27">3:27</span><span class="transcript-text">And so they make different kinds of holograms like rainbow holograms and and uh color and and ordinary uh holograms like uh transmission holograms and reflection holograms in one color.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:43">3:43</span><span class="transcript-text">Now would your students once they&#x27;ve completed this course and they&#x27;ve received their degree would they then go out into the workforce?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:51">3:51</span><span class="transcript-text">Uh the workforce?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:53">3:53</span><span class="transcript-text">Yes, would they then go to try and get jobs doing holography in your country?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:58">3:58</span><span class="transcript-text">Well in in our country our country is isn&#x27;t very big.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:03">4:03</span><span class="transcript-text">Uh the number of pupils uh the uh the number of persons in Sweden is uh eight million so it&#x27;s not very easy to to find a job in holography here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:15">4:15</span><span class="transcript-text">Now how long have you been involved with holography and how did you get started?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:19">4:19</span><span class="transcript-text">Well I was interested uh in holography already in I started in sixty eight, sixty nine and uh well I I I was interested in stereoscopy and photography and so on so uh I tried to make uh in fact uh film in in three dimensions and such things so uh I I I was uh amazed by the pictures uh and the holographic pictures so I I tr I started very early.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:55">4:55</span><span class="transcript-text">Was it very difficult getting the uh university to set up a holography lab or were they very willing to do that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">Well uh uh well I I it wasn&#x27;t it was not very s uh not very difficult to to get a lab like this in the beginning and then uh then we expanded a bit to then uh so now I have in fact uh two large tables and one small and uh uh we uh working in three separate rooms and we have a lab nearby so it it&#x27;s uh very nice I I th I think that it would be good if I could have uh international students to use the lab more uh and uh I think it&#x27;s uh it would be nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:59">5:59</span><span class="transcript-text">I try I have had some s some international students.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:02">6:02</span><span class="transcript-text">Would the lab be open for people to rent the studio to do work in it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:10">6:10</span><span class="transcript-text">Uh I I uh I don&#x27;t think it&#x27;s uh yeah well it&#x27;s possible to d to do that maybe yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:19">6:19</span><span class="transcript-text">Why don&#x27;t you tell a little a little bit about the university itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:26">6:26</span><span class="transcript-text">This is Lund Lund University?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:28">6:28</span><span class="transcript-text">Yes uh Lund University we have a technical part and we have uh another we have two parts so one is uh just in in technical technical faculty.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:45">6:45</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:47">6:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:48">6:48</span><span class="transcript-text">And the plates you&#x27;re using are are are they they&#x27;re called ultima plates, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:52">6:52</span><span class="transcript-text">Yes, that&#x27;s right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:53">6:53</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:54">6:54</span><span class="transcript-text">And how how&#x27;s the response of those plates?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:57">6:57</span><span class="transcript-text">The response?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:58">6:58</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:59">6:59</span><span class="transcript-text">As far as your exposure times working with them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:04">7:04</span><span class="transcript-text">I mean uh in fact uh I think there was a reduction in the time of three to four compared to Russian plates.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:14">7:14</span><span class="transcript-text">I used the Russian Slavish plates before.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:17">7:17</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:18">7:18</span><span class="transcript-text">What are the uh holograms that are on your website, the full color holograms?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:22">7:22</span><span class="transcript-text">They&#x27;re used uh is that the ultima?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:25">7:25</span><span class="transcript-text">Some are uh Russians and some are ultimate, yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:31">7:31</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:31">7:31</span><span class="transcript-text">I um I&#x27;ve only seen one full color hologram and that was many years ago, and I have not uh had a chance to even see one in front of me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:40">7:40</span><span class="transcript-text">I&#x27;ve seen them on websites, but I uh I was in Montreal uh many years ago.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">I think it was a show called Images in Time and Space, and that was the only time I&#x27;ve ever seen in front of me a full color hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">Well uh I I have f for the moment I have a setup for doing a twenty by twenty five centimeter hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:02">8:02</span><span class="transcript-text">Uh and I uh I have already tested w one plate and so uh and now the the the French plates are very good and I hope uh I hope I will uh get a very clear plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:19">8:19</span><span class="transcript-text">I already had one, so I I I trying another uh object just now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:27">8:27</span><span class="transcript-text">Uh with the uh the actual diagram and the setup that you have on your website, I see the uh multiple laser beams passing through the beam splitters and being combined.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:38">8:38</span><span class="transcript-text">Is there anything that you need to do to the beam intensity?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:41">8:41</span><span class="transcript-text">What&#x27;s the ratio uh for the RGB for the red, green and blue?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:45">8:45</span><span class="transcript-text">What&#x27;s what&#x27;s the ratio to one another that folks would be interested in hearing about?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">Well, it&#x27;s dependent on if I use the dial laser or the uh or the helium neon.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:58">8:58</span><span class="transcript-text">I I mean I&#x27;m I&#x27;ve made some experiments with that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:02">9:02</span><span class="transcript-text">And um uh but uh the the um balance is mi merely nearly thirty f three thirty three thirty three for the moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:15">9:15</span><span class="transcript-text">That is okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:24">9:24</span><span class="transcript-text">Oh that that&#x27;s very clever.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:25">9:25</span><span class="transcript-text">So the dyes in the plates are optimized so that you use the same amount of power for about the same yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:34">9:34</span><span class="transcript-text">I mean there is a difference uh between the red uh diode laser and helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:42">9:42</span><span class="transcript-text">Yeah, the wavelength difference.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:43">9:43</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:44">9:44</span><span class="transcript-text">I think it&#x27;s six three uh six hundred thirty eight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:49">9:49</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:51">9:51</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:51">9:51</span><span class="transcript-text">So you&#x27;d be closer to that with the Heaney than you would the diode.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:56">9:56</span><span class="transcript-text">But I mean the no no no, I mean the diode laser is uh six hundred thirty eight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:02">10:02</span><span class="transcript-text">Oh I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:03">10:03</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:03">10:03</span><span class="transcript-text">But I don&#x27;t know w exactly where is the m optimum and in fact I mean to compensate sometimes for the coherence loss I have to uh I have to uh uh change the ratios.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:21">10:21</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:25">10:25</span><span class="transcript-text">Uh you can see maybe in some uh uh holograms there is a green blue background because the the coherence length doesn&#x27;t uh uh I mean the the coherence doesn&#x27;t reach the back in the isn&#x27;t that interesting?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:41">10:41</span><span class="transcript-text">I&#x27;ll have to go back on there and and and take a look at that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:44">10:44</span><span class="transcript-text">That&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:45">10:45</span><span class="transcript-text">Well it&#x27;s uh I mean but if I have a I I made uh this uh spring I made one with a dire laser when there was no mode hop in it and then I uh the the background was white.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:04">11:04</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:04">11:04</span><span class="transcript-text">But when I make larger holograms uh I think uh uh it&#x27;s more important that um that I have a good coherence length.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:15">11:15</span><span class="transcript-text">That is why I try to get the dye laser working.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:20">11:20</span><span class="transcript-text">Well let&#x27;s say you&#x27;re doing an eight by ten plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:23">11:23</span><span class="transcript-text">Um what&#x27;s your exposure time running for an eight by ten plate on your system?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:28">11:28</span><span class="transcript-text">Is eight is eight by no eight by ten inches.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:32">11:32</span><span class="transcript-text">Uh well let&#x27;s say thirty by forty centimeter or so.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">I&#x27;ve uh had some plates uh that size but they only twenty by twenty five okay uh the exposure time uh well something like uh three minutes or so I I have a sp uh have you seen uh I have an uh uh paper on the I think you were in the a conference in uh weren&#x27;t you in uh Austria?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:09">12:09</span><span class="transcript-text">No.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:10">12:10</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:11">12:11</span><span class="transcript-text">No.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:12">12:12</span><span class="transcript-text">Uh I can send you uh the expl uh the the paper on the setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:17">12:17</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:17">12:17</span><span class="transcript-text">Did you have some holograms in there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:21">12:21</span><span class="transcript-text">In the conference.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:23">12:23</span><span class="transcript-text">Did you provide a paper in a few?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:24">12:24</span><span class="transcript-text">Yeah, yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:25">12:25</span><span class="transcript-text">I showed the uh holograms and and uh presented the setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:30">12:30</span><span class="transcript-text">Oh okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:30">12:30</span><span class="transcript-text">Yeah I think I&#x27;ve been to the website of the the last conference but uh and I&#x27;ve I&#x27;ve seen maybe you can get directly that uh the digital version of yeah I think I may have it bookmarked somewhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:44">12:44</span><span class="transcript-text">I don&#x27;t remember a downloadable document on it though.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:47">12:47</span><span class="transcript-text">If you want to send them to me I&#x27;d I&#x27;d be happy to receive that and look look through that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:52">12:52</span><span class="transcript-text">And if you want to I can include it on the web page with this show so other folks can download it too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:57">12:57</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:57">12:57</span><span class="transcript-text">Yeah so send yeah send that to me and I&#x27;ll put that up with the uh with the show when it goes up uh I probably about two weeks I guess we&#x27;ll go up with this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:06">13:06</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:07">13:07</span><span class="transcript-text">So how many students do you have in your class typically there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:12">13:12</span><span class="transcript-text">I mean we we make we we have eight students and they make uh eight holograms in four hours.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:23">13:23</span><span class="transcript-text">Wow yeah you it&#x27;s I mean this is they I mean this is part of half the time they use for the the uh color holograms and and half the time they study already made holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">So they get their own holograms and so they can put up the toe.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:49">13:49</span><span class="transcript-text">Well that sounds like a great class.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:51">13:51</span><span class="transcript-text">I don&#x27;t think uh we have anything like that here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:53">13:53</span><span class="transcript-text">No no uh probably not I haven&#x27;t uh no yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:58">13:58</span><span class="transcript-text">I know I know some colleges that are just uh setting stuff up with laser pointers uh let alone the type of uh setup that you have although there&#x27;s a couple of high schools actually uh that have some great labs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">Uh there&#x27;s one in Florida, Jacksonville, uh Florida, which is Inglewood High School.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:13">14:13</span><span class="transcript-text">They have a great holography lab for kids, but of course we&#x27;re not doing full color work, but uh it&#x27;s a beautiful setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:19">14:19</span><span class="transcript-text">But you have a color lab uh or a holographic lab w for kids too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:24">14:24</span><span class="transcript-text">Yeah, I I I bring students in to uh do holographic workshops here, sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:29">14:29</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:30">14:30</span><span class="transcript-text">It&#x27;s not too busy in the summertime like it is in the uh the school season when kids are uh working on science fair projects and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:38">14:38</span><span class="transcript-text">But it&#x27;s it&#x27;s nothing as complex as uh doing color work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">I mean a lot of them are middle school students and high school students and we come in and uh do the setup and just do a simple you know either single beam or split beam hologram depending on their project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:55">14:55</span><span class="transcript-text">In fact I&#x27;m for the moment I&#x27;m just sitting at the computer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:00">15:00</span><span class="transcript-text">I was working on I&#x27;m w working with digital holography too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:05">15:05</span><span class="transcript-text">Oh that&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:06">15:06</span><span class="transcript-text">Tell us a little about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">For the moment I I&#x27;ve tried a very long time to get uh the image and it just appeared on the on the uh computer here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:18">15:18</span><span class="transcript-text">So how now you&#x27;ll take that uh you&#x27;ll take that digital data and what will you do with that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:25">15:25</span><span class="transcript-text">Uh well we we have a project we try to make a digital microscope in fact.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:33">15:33</span><span class="transcript-text">Uh we have uh a digital camera and uh we are uh starting face I mean with holography the you you get the information, the face information also.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:48">15:48</span><span class="transcript-text">And that that information is very important in you can uh measure uh differences in uh in uh refractive index and so on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:01">16:01</span><span class="transcript-text">So you&#x27;re not g you&#x27;re not actually generating a hologram from that data yet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:05">16:05</span><span class="transcript-text">And I well uh I I can well what what uh you know m about digital holography or have you I wouldn&#x27;t say I&#x27;m an expert on it but I&#x27;m familiar with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">Yeah yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:17">16:17</span><span class="transcript-text">So uh in fact w we just um put a screen uh a virtual screen in the field and we we can change the position of this screen and see where the image is focused.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:33">16:33</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:34">16:34</span><span class="transcript-text">And so um and also you you get the the face information from the hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:42">16:42</span><span class="transcript-text">I see, I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:43">16:43</span><span class="transcript-text">And this is important.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:45">16:45</span><span class="transcript-text">This is all part of your students projects or is this a personal project of your own?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:50">16:50</span><span class="transcript-text">Well we we uh are running in in a way a company uh we&#x27;re starting a company on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:56">16:56</span><span class="transcript-text">Oh really?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:57">16:57</span><span class="transcript-text">What&#x27;s what&#x27;s the name what&#x27;s going to be the name of the company?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:00">17:00</span><span class="transcript-text">The the name is uh f uh Phi uh I don&#x27;t know Phi company.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:11">17:11</span><span class="transcript-text">P P H I.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:15">17:15</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:16">17:16</span><span class="transcript-text">Face holographic imaging.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:18">17:18</span><span class="transcript-text">Great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">Great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:20">17:20</span><span class="transcript-text">And what will the final product be that you&#x27;ll be manufacturing and providing?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">Yeah we we have a prototype of uh a digital uh microscope.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:31">17:31</span><span class="transcript-text">I see, I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:33">17:33</span><span class="transcript-text">For the moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:34">17:34</span><span class="transcript-text">So we we will we continue we have the first version of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:39">17:39</span><span class="transcript-text">And it ties into holography, the there&#x27;s a hologram involved which is an optical element.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:42">17:42</span><span class="transcript-text">No, there is no optical element.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:48">17:48</span><span class="transcript-text">It&#x27;s uh it&#x27;s uh C C D.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:50">17:50</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:51">17:51</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:52">17:52</span><span class="transcript-text">So uh so we we have uh just just we record the interference feed between uh a reference beam and uh object field.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:06">18:06</span><span class="transcript-text">I see, and then that&#x27;s captured on the C C D.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:09">18:09</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:10">18:10</span><span class="transcript-text">And then we reconstruct it in uh in a digital form.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:16">18:16</span><span class="transcript-text">Wow, what&#x27;s what&#x27;s the resolution of that C C D um well yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:23">18:23</span><span class="transcript-text">The the resolution is something like uh ten microns or but um you can uh uh y you can over sample and so you can get finer details.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:42">18:42</span><span class="transcript-text">I see, I see that&#x27;s incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:45">18:45</span><span class="transcript-text">Well you have a lot of stuff going on there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:47">18:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:49">18:49</span><span class="transcript-text">So for the moment we we also I uh uh uh I have had a student working on on uh holography uh inline holography with uh a terawatt laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:07">19:07</span><span class="transcript-text">They make um uh uh you can get over tunes of the fundamental.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:15">19:15</span><span class="transcript-text">So we he has made some uh pictures with forty nanometer light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:23">19:23</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:24">19:24</span><span class="transcript-text">Coherent light generated in uh in the laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:28">19:28</span><span class="transcript-text">You&#x27;re saying this is a terawatt laser?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:30">19:30</span><span class="transcript-text">Yeah, that&#x27;s that&#x27;s because the um the uh pulses are very short, some hundred fef femty seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:41">19:41</span><span class="transcript-text">Yeah, wow, that&#x27;s absolutely incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:43">19:43</span><span class="transcript-text">And what what would be a technical application for that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:46">19:46</span><span class="transcript-text">Well for the moment we are just studying the principles and see what what is possible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:52">19:52</span><span class="transcript-text">What&#x27;s possible to do, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:54">19:54</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:55">19:55</span><span class="transcript-text">Worry about the applications later on, just get the results right first.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:58">19:58</span><span class="transcript-text">Yeah, we Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:03">20:03</span><span class="transcript-text">Yeah, well I we hope uh I mean uh you you go into uh interesting uh wavelength regions, so uh we hope in the future.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:19">20:19</span><span class="transcript-text">Well, Sven, it&#x27;s is there anything you&#x27;d like to add to the interview before we close it out?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:25">20:25</span><span class="transcript-text">What would you like to say if you had a chance to say there&#x27;s gonna be a lot of people listening to you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:29">20:29</span><span class="transcript-text">Okay, I I I would like uh a lot of people to come here and do some uh color holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:35">20:35</span><span class="transcript-text">Okay, and how would they go about doing that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:38">20:38</span><span class="transcript-text">I don&#x27;t I don&#x27;t know for the moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:40">20:40</span><span class="transcript-text">I will find out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:42">20:42</span><span class="transcript-text">I guess the first step would be for them to contact you, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:45">20:45</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:46">20:46</span><span class="transcript-text">Yeah, and I we&#x27;ll have a l a link to your uh website on the whole talk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:50">20:50</span><span class="transcript-text">And if you send that document to me I&#x27;ll also include that document as a download.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:55">20:55</span><span class="transcript-text">Yeah, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:55">20:55</span><span class="transcript-text">And if anybody would like to do color holography now, would they have to actually attend the university in order to do color holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:01">21:01</span><span class="transcript-text">Yeah, I w I will find out w uh a way to uh I think i if if I get a lot of people interested in it w maybe we can uh arrange an international course.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:15">21:15</span><span class="transcript-text">That would be very nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:16">21:16</span><span class="transcript-text">That would be very nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:18">21:18</span><span class="transcript-text">Once again I Okay, well I&#x27;m glad we finally got a chance to speak to one another.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:24">21:24</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:24">21:24</span><span class="transcript-text">And it was very nice talking with you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:26">21:26</span><span class="transcript-text">It&#x27;s very nice talking with you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:27">21:27</span><span class="transcript-text">It&#x27;s very beautiful work that you&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:29">21:29</span><span class="transcript-text">I wish uh I wish I could have more experience with color holography or even just see one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">Because it&#x27;s been so many years I I&#x27;d love to see one in front of me &#x27;cause I imagine they must be breathtaking.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:40">21:40</span><span class="transcript-text">Oh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:41">21:41</span><span class="transcript-text">Oh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:43">21:43</span><span class="transcript-text">And uh the the color uh I mean the plates that Iv makes are very clear.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:49">21:49</span><span class="transcript-text">And that uh that&#x27;s very I mean you you think the object is just behind in full color.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:58">21:58</span><span class="transcript-text">Which which was the whole point of holography really.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:00">22:00</span><span class="transcript-text">I mean we see a monochrome image uh you sort you you certainly do get that sense and of course of course we have uh pseudo color as well which if if done properly can give you uh a very much a sense of uh color within the image but I imagine true color holography must be m mind boggling.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:18">22:18</span><span class="transcript-text">I remember seeing one I think it was a Japanese hologram that I saw in uh Montreal when I was there and it just um I just could not believe it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:27">22:27</span><span class="transcript-text">Yeah I I I have uh a nice setup to to do pseudo colour holograms too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:34">22:34</span><span class="transcript-text">Mm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:35">22:35</span><span class="transcript-text">Mhm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:36">22:36</span><span class="transcript-text">But I think there there is one hologram or so which is pseudo color in the on the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:47">22:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:47">22:47</span><span class="transcript-text">Do you sell any of the holograms?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:49">22:49</span><span class="transcript-text">Uh no, uh that uh I ha I haven&#x27;t s I I haven&#x27;t uh touched up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:55">22:55</span><span class="transcript-text">If someone went to your website and they wanted to buy one of those color holograms, would you sell it to them?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:01">23:01</span><span class="transcript-text">Well it&#x27;s possible maybe, yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:59">22:59</span><span class="transcript-text">Yeah, if the price was right, I guess, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:04">23:04</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:05">23:05</span><span class="transcript-text">Well I uh I mean most of the holograms you&#x27;d I don&#x27;t have more than some few.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:11">23:11</span><span class="transcript-text">Yeah, just one or two, I guess.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:12">23:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:12">23:12</span><span class="transcript-text">Same with me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:13">23:13</span><span class="transcript-text">So so uh we also have had some some uh exhibitions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:20">23:20</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:20">23:20</span><span class="transcript-text">Yeah, and you have a group here that uh is interested in holography and sometimes we we uh decide to make an exhibitions and so that&#x27;s uh yeah if you sell the holograms you wouldn&#x27;t be able to do the exhibitions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:35">23:35</span><span class="transcript-text">No, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:37">23:37</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:38">23:38</span><span class="transcript-text">Well I want to thank you, Sven.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:39">23:39</span><span class="transcript-text">It&#x27;s been very nice talking with you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">And I want to wish you uh a nice weekend.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:44">23:44</span><span class="transcript-text">I guess your weekend&#x27;s getting started.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:46">23:46</span><span class="transcript-text">Mine is still have some time before I start mine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:49">23:49</span><span class="transcript-text">It&#x27;s only one in the afternoon here, but it was very nice talking with you and uh look forward to having your show up and I&#x27;m sure the listeners are going to enjoy it as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:57">23:57</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:58">23:58</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:59">23:59</span><span class="transcript-text">Very nice to to speak with you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:01">24:01</span><span class="transcript-text">Very nice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:02">24:02</span><span class="transcript-text">All right, thank you very much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:03">24:03</span><span class="transcript-text">Thank you very much too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:05">24:05</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:05">24:05</span><span class="transcript-text">Bye bye.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello? Hello, Sven. How are you? It&#x27;s Frank DeFreitas. Yes, I&#x27;m all right. I&#x27;m glad I was able to get the number and get you in there. I know it&#x27;s getting late there where you are now, and you probably want to get home for the weekend. Oh, it&#x27;s no problem. I work very late, so I start early. Not very early, so I work late. I work late, too. I got the last show up last night around midnight, so it&#x27;s good to do another one with you today, and I&#x27;m glad we finally have a chance to talk. I&#x27;ve visited your website many times. I&#x27;m very impressed with the work that you&#x27;re doing with holography, especially with full color. Yes. How did that come about? Oh, well, I started very early with it, but only with two colors. But now I have a good setup, and we make about 400 color holograms each year with the students. Small size. The ones you have on your website, they look like they&#x27;re probably 8x. 8x10s are larger. Yeah, 8x10. 8x10, all of them. So that&#x27;s a maximum. Well, I&#x27;ve tried a larger one, but the setup is too small for very big holograms. What are you using, like a 4x8 Newport table there? It&#x27;s a stone table, in fact. Oh, no kidding. Isn&#x27;t that something? That&#x27;s beautiful work, too. Now, you&#x27;re using all gas lasers with that, I presume. Yeah, I have a helium-cadmium laser. I have a diode-pumped jug laser and a helium-neon laser. Now, the course that you run there, what type of students take that course? Well, I have several. Electric engineering and... Well, different... Well... We have had also engineering, physics, and so that is the kind of students. And I have also a special course for holographers or people especially interested in holography. Yes, I would assume that the course runs as a separate course to the physics and electrical engineering course, but also as a primary course for the students who would wish to take holography as their primary study? Yes, something like that. Well, I mean, most of the holograms are made with engineering, physics, or such type of students. But I have a small group that is especially interested in holography. And so they make different kinds of holograms like rainbow holograms and color and ordinary holograms like transmission holograms and reflection holograms in one color. Now, would your students, once they&#x27;ve completed this course and they&#x27;ve received their degree, would they then go out into the workforce? The workforce? Yes, would they then go to try and get jobs? Well, in our country, our country isn&#x27;t very big. The number of pupils, the number of persons in Sweden is eight million. So it&#x27;s not very easy to find a job in holography here. Now, how long have you been involved with holography and how did you get started? Well, I was interested in holography already. I started in 1968. In 1969. And, well, I was interested in stereoscopy and photography and so on. So I tried to make, in fact, a film in three dimensions and such things. So I was amazed by the pictures and the holographic pictures. So I started very early. Was it very difficult getting the university to set up a holography lab or were they very willing to do that? Well, well, I...
 
 set up a holography lab or were they very willing to do that? Well, it was not very difficult to get a lab like this in the beginning. Then we expanded a bit. So now I have in fact two large tables and one small. We are working in three separate rooms and we have a lab nearby. So it&#x27;s very nice. I think that it would be good if I could get a lab like this in the future. If we could have international students using the lab more, I think it would be nice. I have had some international students using it. Would the lab be open for people to rent the studio to do work in it? I don&#x27;t think it is, perhaps it is possible to do that, perhaps, yes. maybe yes why don&#x27;t you tell a little a little bit about the university itself this is lund lund university yes lund university we have a technical part and we have another we have two parts so so one is just in in technical technical faculty yeah yeah and the plates you&#x27;re using are are they&#x27;re they&#x27;re called ultima plates right yes that&#x27;s right yeah and how how&#x27;s the response of those plates the response yeah as far as your exposure times working with them it&#x27;s uh i mean uh in fact i think there was a reduction in the time of three to four compared to russian plates i really the russian slavish plate before what are the holograms that are on your website the full color holograms they&#x27;re used uh is that the ultima some some are russians and some are ultimate yes yeah i um i&#x27;ve only seen one full color hologram and that was many years ago and i have not had a chance to even see one in front of me i&#x27;ve seen them on websites but i i was in montreal many years ago i was in montreal i was in montreal i was in montreal i was in montreal i was in montreal ago i think it was a show called images in time and space and that was the only time i&#x27;ve ever seen in front of me a full color hologram okay okay well i i have for the moment i have a setup for doing a 20 by 25 centimeter hologram and i i have already tested one plate and so and now the the the french plates are very good and i hope i hope i will get a very clear plate i already had one so i i trying another object just now with the the actual diagram and the setup that you have on your website i see the multiple laser beams passing through the beam splitters and being combined is there anything that you need to do to the beam intensity what&#x27;s the ratio for the rgb for the red and blue what&#x27;s what&#x27;s the ratio to one another that folks would be interested in hearing about well it&#x27;s dependent on if i use the diode laser or the uh or the helium neon i i mean i&#x27;m i&#x27;ve made some experiments with that and um but the the balance is merely nearly 30 333 33 for the moment that is okay the the the dyes in in the plate this they are optimized for that so oh that that&#x27;s very clever so the dyes and the plates are optimized so that you use the same amount of power about the same yeah yeah that&#x27;s uh i mean there is a difference between the red diode laser and helium laser yeah the wavelength difference yeah think it&#x27;s 638. I see. I see. So you&#x27;d be closer to that with the Heney than you would the diode. But I mean the no no no I mean the diode laser is 638. Oh I see okay. But I don&#x27;t know exactly where is the optimum and in fact
 
@@ -371,7 +737,7 @@ set up a holography lab or were they very willing to do that? Well, it was not v
 
 I was working on, I&#x27;m working with digital holography, too. Oh, that&#x27;s interesting. Tell us a little about that. For the moment, I&#x27;ve tried a very long time to get the image, and it just appeared on the computer here. Now, you&#x27;ll take that digital data, and what will you do with that? Well, we have a project. We try to make a digital microscope, in fact. We have a digital camera, and we are studying face. I mean, with holography, you get the information, the face information also, and that information is very important. You can measure differences in refractions. You can measure the refractive index and so on. I see. So you&#x27;re not actually generating a hologram from that data yet. Well, I can. Well, you know about digital holography? I wouldn&#x27;t say I&#x27;m an expert on it, but I&#x27;m familiar with it. Yeah, yeah. So, in fact, we just put a screen, a virtual screen, in the field, and we can... We can change the position of this screen and see where the image is focused. I see. And so... And also, you get the face information from the hologram. I see, I see. Which is important. This is all part of your students&#x27; projects, or is this a personal project of your own? Well, we are running, in a way, a company. I see. We&#x27;re starting a company on it. Oh, really? Yeah. What&#x27;s the name? What&#x27;s going to be the name of the company? The name is Phi... I don&#x27;t know. Phi Company. Okay. P-H-I. Okay. Face Holographic Imaging. Great. Yeah. Great. And what will the final product be that you&#x27;ll be manufacturing and providing? Yeah, we have a prototype of a... A digital microscope. I see. I see. For the moment. Oh. We will continue. We have the first version of it. And it ties into holography? There&#x27;s a hologram involved, which is an optical element? No, there is no optical element. Okay. It&#x27;s a CCD. I see. Okay. So, we have... Just we record the interference field between reference beam and the object field. I see. And then that&#x27;s captured on the CCD. Yeah. And then we reconstruct it in a digital form. Wow. What&#x27;s the resolution of that CCD? It&#x27;s... Wow. Yeah. The resolution is something like... 10 microns. Wow. But you can... You can oversample, and so you can get finer details. I see. I see. That&#x27;s incredible. Well, you have a lot of stuff going on there. Yeah. So, for the moment, we also... I have had a student working on... On holography, inline holography with a terawatt laser. They make... You can get over-tunes of the fundamental. So, we... He has made some pictures with 40 nanometer light. Wow. Coherent light. Mm-hmm. And it&#x27;s generated in the laser. You&#x27;re saying this is a terawatt laser? Yeah. That&#x27;s because the pulses are very short, some 150 seconds. Yeah. Wow. That&#x27;s absolutely incredible. And what would be a technical application for that? Well, for the moment, we are just studying the principles and see what is possible. What&#x27;s possible to do. Yeah. Yeah. Yeah. Worry about the applications later on. Yeah. Let&#x27;s get the results right first. Yeah. Yeah. There&#x27;s always something to do with something. Yeah. We hope... I mean, you go into...
 
-there&#x27;s always something to do with something yeah we hope I mean you go into interesting wavelength regions so mm-hmm so we hope the future well Sven it&#x27;s is there anything you&#x27;d like to add to the interview before we close it out what would you like to say if you had a chance to say there&#x27;s going to be a lot of people listening to you okay I would like a lot of people to come here and do some color all around okay and how would they go about doing that I don&#x27;t I don&#x27;t know for the moment I guess the first step would be for them to contact you right yeah yeah and I will have a link to your website on the whole talk page and if you send that document to me I also include that document as a download yeah and if anybody would like to do color holography now would they have to actually attend the University in order to do color holography I will find out a way to I think if if I get a lot of people interested in it maybe we can arrange an international course that would be very nice that would be very nice okay well I&#x27;m glad we finally got a chance to speak to one another yeah and very nice talking with you it&#x27;s very nice talking with you it&#x27;s very beautiful work that you&#x27;re doing I wish I wish I could have more experience with color holography or even just see one because it&#x27;s been so many years I&#x27;d love to see one in front of me because I imagine they must be breathtaking oh yeah oh yeah and the color I mean the plates that it makes are very clear and that that&#x27;s very I mean you you think the object is just behind in your color which which was the whole point of holography really I mean we see a monochrome image you sort you certainly do get that sense and of course of course we have a pseudo color as well which if done properly can give you a very much a sense of color within the image but I imagine true color holography must be mind-boggling I remember seeing when I think it was a Japanese hologram that I saw in Montreal when I was there and it just I just could not believe it I have a nice set up to torque self the color holograms too but I think there there is one all the farm or so which is go the color in on the website ya do you sell any of the holograms I know I haven&#x27;t if someone went to your website and they wanted to buy one of those color holograms would you sell it to them well it&#x27;s possible maybe yes yeah if the price was right I guess right well I I mean most of the holograms you&#x27;d I don&#x27;t have more than some few yeah just one or two I guess yeah same with me so we also have had some some exhibitions mm-hmm yeah and you have a group here that is interested in holography and sometimes we decide to make an exhibitions so yeah that&#x27;s yeah if you sell the holograms you wouldn&#x27;t be able to do the exhibitions no okay we&#x27;re on a more okay well I want to thank you Sven it&#x27;s been very nice talking with you and I want to wish you a nice weekend I guess your weekends getting started mine is still have some time before I start mine it&#x27;s a one in the afternoon here but it was very nice talking with you and look forward to having your show up and I&#x27;m sure the listeners are going to enjoy it as well okay very nice all right thank you very much thank you very much too bye bye you</div>
+there&#x27;s always something to do with something yeah we hope I mean you go into interesting wavelength regions so mm-hmm so we hope the future well Sven it&#x27;s is there anything you&#x27;d like to add to the interview before we close it out what would you like to say if you had a chance to say there&#x27;s going to be a lot of people listening to you okay I would like a lot of people to come here and do some color all around okay and how would they go about doing that I don&#x27;t I don&#x27;t know for the moment I guess the first step would be for them to contact you right yeah yeah and I will have a link to your website on the whole talk page and if you send that document to me I also include that document as a download yeah and if anybody would like to do color holography now would they have to actually attend the University in order to do color holography I will find out a way to I think if if I get a lot of people interested in it maybe we can arrange an international course that would be very nice that would be very nice okay well I&#x27;m glad we finally got a chance to speak to one another yeah and very nice talking with you it&#x27;s very nice talking with you it&#x27;s very beautiful work that you&#x27;re doing I wish I wish I could have more experience with color holography or even just see one because it&#x27;s been so many years I&#x27;d love to see one in front of me because I imagine they must be breathtaking oh yeah oh yeah and the color I mean the plates that it makes are very clear and that that&#x27;s very I mean you you think the object is just behind in your color which which was the whole point of holography really I mean we see a monochrome image you sort you certainly do get that sense and of course of course we have a pseudo color as well which if done properly can give you a very much a sense of color within the image but I imagine true color holography must be mind-boggling I remember seeing when I think it was a Japanese hologram that I saw in Montreal when I was there and it just I just could not believe it I have a nice set up to torque self the color holograms too but I think there there is one all the farm or so which is go the color in on the website ya do you sell any of the holograms I know I haven&#x27;t if someone went to your website and they wanted to buy one of those color holograms would you sell it to them well it&#x27;s possible maybe yes yeah if the price was right I guess right well I I mean most of the holograms you&#x27;d I don&#x27;t have more than some few yeah just one or two I guess yeah same with me so we also have had some some exhibitions mm-hmm yeah and you have a group here that is interested in holography and sometimes we decide to make an exhibitions so yeah that&#x27;s yeah if you sell the holograms you wouldn&#x27;t be able to do the exhibitions no okay we&#x27;re on a more okay well I want to thank you Sven it&#x27;s been very nice talking with you and I want to wish you a nice weekend I guess your weekends getting started mine is still have some time before I start mine it&#x27;s a one in the afternoon here but it was very nice talking with you and look forward to having your show up and I&#x27;m sure the listeners are going to enjoy it as well okay very nice all right thank you very much thank you very much too bye bye you</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,255 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frank DeFreitas and the Internet Regime of Holography. Hello, this is Frank DeFreitas and welcome to Holotalk, the Internet&#x27;s laser and holography talk show. Our toll-free number is 1-800-458-3525, or you can send an email to holotalk at holoworld.com. We&#x27;ve got telephone calls, we&#x27;ve got emails, we&#x27;ve got special guests coming up, so thank you for tuning in and let&#x27;s get this week&#x27;s show on the road. Hello, this is Frank DeFreitas and welcome to another week of Holotalk. Our guest this week is Brian Monahan from Pennsylvania Pulp and Paper, located in Glenside, Pennsylvania. They have a website at www.holoprism.com. That&#x27;s H-O-L-O-P-R-I-S-M. H-O-L-O-P-R-I-S-M.com. Now, as you&#x27;re listening to the show, you can go over and visit their website. We also have a link on the Holotalk page. You can just click on the link and the show will continue to play with the real audio player in the background as you visit their website. Our musical guest this week is a band called Brazil 2000. Now, Brian has a very interesting company. They&#x27;re producing holograms using desktop computers and holographic printers. Now, they&#x27;re not digital. They&#x27;re doing the traditional three-dimensional holograms. They&#x27;re doing what we refer to as 2D, 3D holograms, which means it has almost a spectral quality to it. And it does have some depth, but the depth is more in layers than anything else. They use the desktop computers to both design the images themselves and also bring images in that are supplied to them on disks. And also, as Brian tells us in the interview, more and more commonly through the internet, they&#x27;re using the desktop computers to do the 3D holograms. So it&#x27;s going to be a very interesting interview. Before we get to that interview, I just want to point out one thing. There&#x27;s going to be a major laser and holography exhibit in this area. Now, if you live in the New York, Philadelphia, Baltimore, Washington, D.C. corridor or anywhere in that area all the way west to, say, Harrisburg, this exhibit is going to be right in your area. Now, at this point in time, there have not been any, you know, there have not been any, you know, there have not been any, you know, press releases sent out on this, so I cannot comment on when the exhibit&#x27;s going to be or where it&#x27;s going to be located. But I will let you do this. I&#x27;m going to give you an e-mail address. That e-mail address is as follows, exhibit at holoworld.com. That e-mail address is exhibit at holoworld.com. If you send an e-mail to that address, I&#x27;m going to put up a special folder for you, and I&#x27;m going to put all the e-mails in there. And as soon as the information is released, and I get the go-ahead on releasing some of that information, I will make sure that you are the first people to know about it. And I&#x27;m also going to look into perhaps having HoloTalk listeners receive maybe a discount or something of that nature if you come out to see this show. It&#x27;s going to be approaching holography and lasers through science and technology, so it&#x27;s going to be something to see. Now, this isn&#x27;t going to be a long show. I&#x27;ve moved the studio. The studio equipment and everything we need to broadcast is now over at the Discovery Center of Science and Technology. We&#x27;re going to be doing this show live in front of people each weekend, so we may have to change the date that it goes up. We&#x27;ll have to see about that. But in any case, we&#x27;re going to make this a short show because some of the equipment is hooked up. Other parts of the equipment is not hooked up. So we&#x27;re just going to go right into the Brian Monahan interview. And let&#x27;s see what Brian has to say about his company, Pennsylvania Pulp and Paper, and what they&#x27;re doing with desktop holography. Good morning. Hi, Brian. How are you doing? Not bad. Not bad. We&#x27;re talking with Brian Monahan from Pennsylvania Pulp and Paper. And they&#x27;re located in Glenside, Pennsylvania. Brian, how are you doing today? Not bad, Frank. And you? Okay. To tell you the truth, when I was looking through your materials last night and I was looking at the pictures, I saw that you had a lot of photos of your work. And I thought, well, we&#x27;ve known each other for a while anyway. But to be honest with you, we could probably do two shows on what it is that you guys are doing down there. Could you tell us a little bit about some of the hotter things that are going on down there? Yes. Well, just recently, as a matter of fact, the past two days, we have done some really amazing breakthroughs in the realm of photo-resist holography. Uh-huh. Basically, we are doing a new project. We&#x27;re going to be doing a new process, which will enable us to make dot matrix-type holograms at extremely, extremely high speeds in very large formats.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frank Defratis and the Internet Legend of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:11">0:11</span><span class="transcript-text">Hello, this is Frankie Freitas, and welcome to HoloTalk, the Internet Laser and Holography Talk Show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:17">0:17</span><span class="transcript-text">Our toll-free number is 1-800-4583525, or you can send an email to Holotalk at HoloWorld.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">We&#x27;ve got telephone calls, we&#x27;ve got emails, we&#x27;ve got special guests coming up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:33">0:33</span><span class="transcript-text">So thank you for tuning in, and let&#x27;s get this week&#x27;s show on the road.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:40">0:40</span><span class="transcript-text">Hello, this is Frank Defradis, and welcome to another week of HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:44">0:44</span><span class="transcript-text">Our guest this week is Brian Monahan from Pennsylvania Pulp and Paper, located in Glenside, Pennsylvania.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:50">0:50</span><span class="transcript-text">They have a website at www.holoprism.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:55">0:55</span><span class="transcript-text">That&#x27;s H O L O P R I S M of W dot Holoprism.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:01">1:01</span><span class="transcript-text">Now, as you&#x27;re listening to the show, you can go over and visit their website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:04">1:04</span><span class="transcript-text">We also have a link on the Holo Talk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:06">1:06</span><span class="transcript-text">You can just click on the link.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:08">1:08</span><span class="transcript-text">And the show will continue to play with the real audio player in the background as you visit the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:13">1:13</span><span class="transcript-text">Our musical guest this week is a band called Brazil 2000.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Now Brian has a very interesting company.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:21">1:21</span><span class="transcript-text">They&#x27;re producing holograms using desktop computers and holographic printers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:27">1:27</span><span class="transcript-text">Now they&#x27;re not doing the traditional three-dimensional holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">They&#x27;re doing what we refer to as 2D, 3D holograms, which means it has almost a spectral quality to it, and it does have some depth, but the depth is more in layers than anything else.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:44">1:44</span><span class="transcript-text">They use the desktop computers to both design the images themselves and also bring images in that are supplied to them on discs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:53">1:53</span><span class="transcript-text">And also, as Brian tells us in the interview, uh more and more commonly through the internet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:58">1:58</span><span class="transcript-text">So it&#x27;s going to be a very interesting interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:59">1:59</span><span class="transcript-text">Before we get to that interview, I just want to point out one thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:04">2:04</span><span class="transcript-text">There&#x27;s going to be a major laser and holography exhibit in this area.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:11">2:11</span><span class="transcript-text">Now if you live in the New York, Philadelphia, Baltimore, Washington, DC, Carrid or anywhere in that area all the way west to, say Harrisburg, this exhibit is going to be right in your area.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:25">2:25</span><span class="transcript-text">Now at this point in time there have not been any press releases sent out on this, so I cannot comment on when the exhibit&#x27;s going to be or where it&#x27;s going to be located.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:36">2:36</span><span class="transcript-text">But I will let you do this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:38">2:38</span><span class="transcript-text">I&#x27;m going to give you an email address.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:40">2:40</span><span class="transcript-text">That email address is as follows Exhibit at HoloWorld.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:47">2:47</span><span class="transcript-text">That email address is exhibit at holoworld.com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:51">2:51</span><span class="transcript-text">If you send an email to that address, I&#x27;m going to put up a special folder for you and I&#x27;m going to put all the emails into that folder and as soon as the information is released and I get the go-ahead on releasing some of that information, I will make sure that you are the first people to know about it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:08">3:08</span><span class="transcript-text">And I&#x27;m also going to look into perhaps having HoloTalk listeners receive maybe a discount or something of that nature if you come out to see this show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:18">3:18</span><span class="transcript-text">It&#x27;s going to be approaching holography and lasers through science and technology so it&#x27;s going to be something to see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:28">3:28</span><span class="transcript-text">Now this isn&#x27;t going to be a long show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:30">3:30</span><span class="transcript-text">Uh I&#x27;ve moved the studio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:32">3:32</span><span class="transcript-text">The studio equipment and everything we need to broadcast is now over at the Discovery Center of Science and Technology.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:38">3:38</span><span class="transcript-text">We&#x27;re going to be doing this show live in front of people uh each weekend so we may have to change the date that it goes up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">We&#x27;ll have to see about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:46">3:46</span><span class="transcript-text">But in any case, um we&#x27;re going to make this a short show because some of the equipment hook is hooked up, other parts of the equipment is not hooked up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:54">3:54</span><span class="transcript-text">So uh we&#x27;re just going to go right into the Brian Monaghan interview and let&#x27;s see what Brian has to say about his company Pennsylvania Pulp and Paper and what they&#x27;re doing with desktop holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">Good morning.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:07">4:07</span><span class="transcript-text">Hi Brian, how are you doing?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:08">4:08</span><span class="transcript-text">Not bad, not bad.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:10">4:10</span><span class="transcript-text">Um we&#x27;re talking with Brian Monaghan from Pennsylvania Pulp and Paper.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:16">4:16</span><span class="transcript-text">And they&#x27;re located in Glenside, Pennsylvania.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:20">4:20</span><span class="transcript-text">Brian, how are you doing today?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:21">4:21</span><span class="transcript-text">Not bad, Frank and you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:23">4:23</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:23">4:23</span><span class="transcript-text">Um to tell you the truth, when I I was looking through your materials last night and well we&#x27;ve known each other for a a while anyway.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:30">4:30</span><span class="transcript-text">But to be honest with you, uh we could probably do two shows on what it is that you guys are doing down there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:36">4:36</span><span class="transcript-text">Could you tell us a little bit about uh some of the hotter things that are going on down there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:40">4:40</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:40">4:40</span><span class="transcript-text">Uh well w uh just recently as a matter of fact uh the past two days we have uh done some really amazing breakthroughs in the realm of photoresist holography um basically we are uh doing a new process which will enable us to uh make uh dot matrix type holograms at uh extremely extremely high speed in very large format and uh also in cylindrical format.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">Oh interesting and the the big thing about that is our industry, which is uh in the embossed holo holography industry the same lines where shims meet up on an embossing cylinder are uh taboo.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:28">5:28</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">Especially with our cross grading, our rainbow cross grading.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:33">5:33</span><span class="transcript-text">So we&#x27;ve developed a technique to be able to uh write our holography directly into a cylinder and produce a fairly long lasting cylinder with absolutely no seam lines.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:44">5:44</span><span class="transcript-text">Well that&#x27;s incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:45">5:45</span><span class="transcript-text">Yeah, it it&#x27;s pretty interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:47">5:47</span><span class="transcript-text">Now what size can you go up to with this?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:48">5:48</span><span class="transcript-text">You said low large format.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:49">5:49</span><span class="transcript-text">What do you mean large format?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:51">5:51</span><span class="transcript-text">Well, right now we are set up to do thirty inches by forty inches.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:55">5:55</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:55">5:55</span><span class="transcript-text">At extremely high speed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:57">5:57</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:57">5:57</span><span class="transcript-text">Uh we are in the works of uh the engineering a plan to do uh hundred and ten inch wide cylinders.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:04">6:04</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Um mainly for some larger wide web embossers uh in the country.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:10">6:10</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:11">6:11</span><span class="transcript-text">It it is absolutely fantastic and you know, it&#x27;s the best thing is I look back at when I met you and we worked uh took your class with the the Heaney lasers and my biggest goal in life was to be able to get a ten milliwatt heaney.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:27">6:27</span><span class="transcript-text">And uh setting up uh endless hours of uh tables and carpets and and cement in my basement and uh coming out uh with uh what you might call a hologram on several occasions really spurred me and now I look back look back at that and look where we are now with uh you know, four we have four dot matrix labs, we have uh uh clean rooms for coating photoresist, uh electroforming, uh embossing and a lot of uh a lot of very high powered and fun lasers to play with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:59">6:59</span><span class="transcript-text">Now the holography part of your business for Pennsylvania pulp and paper, that&#x27;s running what percentage would you say that is of your business?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:07">7:07</span><span class="transcript-text">To date, uh about ninety-five percent.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:09">7:09</span><span class="transcript-text">Ninety-five percent.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">That&#x27;s incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:11">7:11</span><span class="transcript-text">Now you do what they call desktop holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:16">7:16</span><span class="transcript-text">Would that be a correct term for it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:18">7:18</span><span class="transcript-text">Uh if you&#x27;re working on desktop computers and in the design stage?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:22">7:22</span><span class="transcript-text">Yeah that would be a good term.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:23">7:23</span><span class="transcript-text">Uh everything that we do is uh electronic um we do not use any masks or any uh anything like that with a conventional 2D, 3D holography or models.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:35">7:35</span><span class="transcript-text">So someone scans an image in to your computer or you receive that on a disk if they wanted something reproduced?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:41">7:41</span><span class="transcript-text">Yes, or most a lot right now is coming uh via the internet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:46">7:46</span><span class="transcript-text">Oh no kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:47">7:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:47">7:47</span><span class="transcript-text">As s uh JPEG images or whatever?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:49">7:49</span><span class="transcript-text">Uh bitmap.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:50">7:50</span><span class="transcript-text">Bitmaps.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">And what we do is we have a our computer system will break down a bitmap image just as a BMP file may have two hundred and fifty six different colors.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:02">8:02</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:03">8:03</span><span class="transcript-text">Uh our computer will interpret it and our machine will run at two hundred and fifty six different angles.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">So as a picture has all the colors to make the picture, we shoot a hologram with all the angles to make the same picture.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">Pixel by pixel.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:18">8:18</span><span class="transcript-text">Now you had a couple interesting projects and one of the ones that goes back a little way is Star Trek Generations.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:24">8:24</span><span class="transcript-text">And then you&#x27;ve got the men in black video covers uh video cassette cover as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:29">8:29</span><span class="transcript-text">Can you tell us a little bit about that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:32">8:32</span><span class="transcript-text">That was that the men in the actually the Star Trek one was a good uh you know we won uh we won a few awards with the IHMA, the International Hologram Manufacturers Association for the Star Trek box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:43">8:43</span><span class="transcript-text">Mm-hmm and it really in my opinion turned out turned out really pretty fantastic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:48">8:48</span><span class="transcript-text">It achieved its goal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:50">8:50</span><span class="transcript-text">Uh the that led into a lot of other projects, some smaller ones, uh, but then eventually into the Men in black, which uh last year, uh definitely, if not to date, was the largest holographic packaging job in the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:06">9:06</span><span class="transcript-text">I was looking through your materials last night, one thirty in the morning in bed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:10">9:10</span><span class="transcript-text">Just to get ready for doing the show today, and I picked out this one piece here which is premium mirror board one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:16">9:16</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:17">9:17</span><span class="transcript-text">And I thought to myself, I wonder if this could be used as a regular mirror.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:21">9:21</span><span class="transcript-text">So I went down into the lab &#x27;cause I had my lab at my house.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:24">9:24</span><span class="transcript-text">And believe it or not it does a nice job reflecting laser light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:28">9:28</span><span class="transcript-text">You can take a la you could cut this up and make front surface mirrors.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:32">9:32</span><span class="transcript-text">I I&#x27;m almost positive that the surface on this is so good that I could use it in a holographic setup and make a hologram with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:40">9:40</span><span class="transcript-text">Well we got a new end use now for it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:42">9:42</span><span class="transcript-text">On cardboard.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:43">9:43</span><span class="transcript-text">You know what we had no idea what it would be used for when we introduced that product.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:48">9:48</span><span class="transcript-text">It took us about a year and a half to be able to design it that it would uh be printable and you could cut it into a box and fold it and glue it and but it still had to have that absolutely perfect mirror condition.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">Mm-hmm and uh it took a while once we made it we really didn&#x27;t have too much of an idea who would use it and how it would be used.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:09">10:09</span><span class="transcript-text">Sort of like the laser itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:10">10:10</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:11">10:11</span><span class="transcript-text">But uh it&#x27;s amazing we have uh customers using it for things as crazy as mirrors for inmates in prison.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:19">10:19</span><span class="transcript-text">No kidding uh since they can&#x27;t have anything sharp.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:22">10:22</span><span class="transcript-text">This they get a piece of this uh mirror board along with their toothbrushes and uh then they can shave in it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:29">10:29</span><span class="transcript-text">Incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:30">10:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:31">10:31</span><span class="transcript-text">That&#x27;s an it&#x27;s that&#x27;s it&#x27;s very interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:33">10:33</span><span class="transcript-text">I think I&#x27;m gonna try working with it a little bit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:36">10:36</span><span class="transcript-text">It it doesn&#x27;t work too well on the spread beam, you know, once the beam&#x27;s spread out, but to take the beam around the table, this works just as uh good as one of the little front surface mirrors.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:46">10:46</span><span class="transcript-text">You may have something there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:47">10:47</span><span class="transcript-text">What are some of the other things you&#x27;ve done on a number of different labels for uh for uh breweries like uh Miller Dri Genuine Draft, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:56">10:56</span><span class="transcript-text">Well that one we weren&#x27;t involved with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:58">10:58</span><span class="transcript-text">That one was a good uh story to tell our customers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:02">11:02</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:03">11:03</span><span class="transcript-text">Uh that one was shot by Chromagen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:05">11:05</span><span class="transcript-text">I see uh several years ago.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:07">11:07</span><span class="transcript-text">But the sales results from that were pretty amazing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:10">11:10</span><span class="transcript-text">So we we we like to tout the uh sales results of that one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:14">11:14</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:15">11:15</span><span class="transcript-text">Uh but we we&#x27;ve been uh really pretty diverse.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:18">11:18</span><span class="transcript-text">It it&#x27;s a really amazing where all the ends of our holography is going.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:23">11:23</span><span class="transcript-text">Uh from everything from again the the packaging arena, which is very hot right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:29">11:29</span><span class="transcript-text">We&#x27;re trying to push more into the publishing area for uh book covers, annual report covers, uh things of that nature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:38">11:38</span><span class="transcript-text">Our our large format uh holography, our large machine will, you know, when it produces the thirty by forty, works really very well with uh posters and point of purchase displays, things of that nature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:52">11:52</span><span class="transcript-text">I you know, we&#x27;re we&#x27;re still a relatively small company.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:56">11:56</span><span class="transcript-text">Um and it&#x27;s difficult when you try to get into this industry, uh, thinking that you can compete with the American bank notes over the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">Uh where they&#x27;re producing a billion little half inch holograms a year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:10">12:10</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:11">12:11</span><span class="transcript-text">Uh so we&#x27;ve kind of took a different direction in the packaging in the large format.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:17">12:17</span><span class="transcript-text">We may not sell a billion of our holograms, but we sell a million sheets uh that are thirty by forty inches, that&#x27;s a lot of square inches of holographic material.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:27">12:27</span><span class="transcript-text">Yeah, I s I see your your applications here on uh Christmas cards on uh comic book covers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:36">12:36</span><span class="transcript-text">I mean it&#x27;s it&#x27;s just on everything.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:39">12:39</span><span class="transcript-text">It&#x27;s been it it it has been actually the best part of it, it has been a lot of fun doing it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:46">12:46</span><span class="transcript-text">Uh we work with a lot of good customers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:48">12:48</span><span class="transcript-text">Uh M MM Mars is a project we got finished doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:51">12:51</span><span class="transcript-text">It took about six months where we mastered um I would say thirteen, fourteen different originations and combined that into a seamless background pattern to make uh a two foot by three foot hologram uh that would be embossed and then adhered to the side of a candy cart for retail distribution.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:13">13:13</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:14">13:14</span><span class="transcript-text">And it took a long time and a uh to shoot that many originations and to get it just right but we had a great customer to work with and when we were all done you look at it and it&#x27;s fantastic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:24">13:24</span><span class="transcript-text">Is that the moment all the candy bar names on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:27">13:27</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:28">13:28</span><span class="transcript-text">Yeah I have that up I have that hanging in the center here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:30">13:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:31">13:31</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:31">13:31</span><span class="transcript-text">It&#x27;s really a fantastic piece and uh we&#x27;re starting to see a lot more people willing to venture into new and unique things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:40">13:40</span><span class="transcript-text">And it it really uh it it&#x27;s really fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">You know when somebody comes to us and says we want to do this or you want to do something unique uh we have a lot of fun in proofing it and uh and showing them what what capabilities that we have and you know what can be done out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">I just want to let the listeners know that Pennsylvania pulpit paper has a website and let me give you the web address and there it&#x27;s also a link right on the HoloTalk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:04">14:04</span><span class="transcript-text">It&#x27;s www dot holoprism dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">Www.holism dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:12">14:12</span><span class="transcript-text">And you can go to their website even as you&#x27;re listening to this show because the real audio player will continue to play in the background as you surf the web.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:22">14:22</span><span class="transcript-text">So if you&#x27;d like to find out more about Pennsylvania Pulp and Paper, just you can go right now to their website and the show will continue.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:29">14:29</span><span class="transcript-text">You can still listen to the show while you&#x27;re uh uh cruising around the web there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:34">14:34</span><span class="transcript-text">I think uh I I will mention to you that uh for uh people who understand the internet well that the our website is antiquated and old uh and it&#x27;s uh we&#x27;re in the works of updating it and not making it so graphically intensive and more user friendly but for uh for two and a half years old it it it you know did its job.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:54">14:54</span><span class="transcript-text">Yeah I&#x27;m sure it did.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:55">14:55</span><span class="transcript-text">You have a nice C D ROM too an instructional CD ROM.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:58">14:58</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:59">14:59</span><span class="transcript-text">And that&#x27;s a you know again that that&#x27;s available to people uh who are interested in holography uh who want to know a little bit more very basics on how holograms are made at uh embossed holography and a little bit more about what our company does let me ask you this before we close out here do you ever get any comments from anybody that what you&#x27;re doing is not holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:25">15:25</span><span class="transcript-text">Does anybody ever say that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:26">15:26</span><span class="transcript-text">Yeah some some people do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:28">15:28</span><span class="transcript-text">Some people uh what&#x27;s your response to that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:32">15:32</span><span class="transcript-text">Uh you well my response is that what we&#x27;re doing is considered two dimensional holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:37">15:37</span><span class="transcript-text">We&#x27;re we&#x27;re interfering two beams of laser light to create a uh an interference pattern.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:43">15:43</span><span class="transcript-text">Um be it an interference pattern as complex as a three-dimensional image would be or two-dimensional image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:49">15:49</span><span class="transcript-text">Uh it really doesn&#x27;t matter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">Um some of the work that we&#x27;ve done in the past, we contract out to get a three-dimensional image uh or stereographic image and combine it and integrate it with our uh holographic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:02">16:02</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:03">16:03</span><span class="transcript-text">Uh our 2D prismatic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:05">16:05</span><span class="transcript-text">And what the biggest thing that uh our target audience is is normally people that have products that are under in-store lighting conditions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:13">16:13</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:14">16:14</span><span class="transcript-text">Where ours works very well, especially the dot matrix, it shows a lot of color and a lot of movement.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:19">16:19</span><span class="transcript-text">And a three-dimensional hologram uh would be difficult to see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:23">16:23</span><span class="transcript-text">Sometimes the combination of the two of them are dot matrix holography gets them in, three-dimensional holography wows them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:30">16:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:30">16:30</span><span class="transcript-text">So there&#x27;s a place for everything, and uh I think eventually we&#x27;ll be getting into doing some uh three D origination, very simple.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:39">16:39</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:40">16:40</span><span class="transcript-text">Stuff like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:40">16:40</span><span class="transcript-text">We we&#x27;ve been uh working very hard on on protecting what we&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:44">16:44</span><span class="transcript-text">We we just got issued a patent last week on uh registering lithography to holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:51">16:51</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:51">16:51</span><span class="transcript-text">Umgratulations on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:54">16:54</span><span class="transcript-text">People say that that&#x27;s not true holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:58">16:58</span><span class="transcript-text">Uh uh same thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:59">16:59</span><span class="transcript-text">It&#x27;s a unique product in itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:01">17:01</span><span class="transcript-text">Yeah, I I see you moving in that direction.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:04">17:04</span><span class="transcript-text">Uh I&#x27;m gonna try and describe this to you so you know what I&#x27;m talking about.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:07">17:07</span><span class="transcript-text">There&#x27;s a piece that was in your package with two angels on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:11">17:11</span><span class="transcript-text">And you&#x27;re looking up towards the clouds, and I I I see you moving more towards uh the imaging, the actual imaging itself with this piece, because I think this piece grabbed my attention right away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">And then unfortunately you don&#x27;t have the printed piece, but the true uh printing, the true lithography would be printed in register to that hologram to add some color and texture, so it&#x27;s just not all uh silver and boss holog hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:40">17:40</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:42">17:42</span><span class="transcript-text">If you&#x27;re listening to this show and you&#x27;re finding it hard to imagine w exactly what it is we&#x27;re talking about, you may want to go over to the uh Pennsylvania Pulp and Paper site.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:51">17:51</span><span class="transcript-text">But chances are you&#x27;ve already had a chance to see something that&#x27;s been produced by Pennsylvania Pulp and Paper.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:58">17:58</span><span class="transcript-text">Next time you&#x27;re over the video store, pick up the men in black video.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:03">18:03</span><span class="transcript-text">Oh, mine&#x27;s reading written in French.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:06">18:06</span><span class="transcript-text">I just noticed that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:07">18:07</span><span class="transcript-text">Yeah, we did uh so far about sixteen countries, including Russia and Saudi Arabia.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:12">18:12</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:13">18:13</span><span class="transcript-text">Well pick up the men in black video cassette box and you&#x27;ll see exactly what it is that they&#x27;re doing over Pennsylvania Pulp and Paper.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:20">18:20</span><span class="transcript-text">So Brian, we&#x27;re gonna head out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:22">18:22</span><span class="transcript-text">Great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:23">18:23</span><span class="transcript-text">Uh this is the first show that I&#x27;ve done live from the Discovery Center.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:28">18:28</span><span class="transcript-text">So you were sort of a guinea pig this week because this equipment just got hooked up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:32">18:32</span><span class="transcript-text">But I think everything worked out okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:34">18:34</span><span class="transcript-text">Yep.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:35">18:35</span><span class="transcript-text">Uh if you don&#x27;t try something new, you&#x27;ll never get anywhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:37">18:37</span><span class="transcript-text">Now you need a little help getting that real audio player to work, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:40">18:40</span><span class="transcript-text">Yep.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:41">18:41</span><span class="transcript-text">I&#x27;m going to send an email to you to show you uh how you can do that easily with America Online because it&#x27;s a little bit different than with a direct internet dial-up account.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:49">18:49</span><span class="transcript-text">Wonderful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:50">18:50</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:50">18:50</span><span class="transcript-text">I appreciate it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:51">18:51</span><span class="transcript-text">Brian, thanks for being a guest.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:52">18:52</span><span class="transcript-text">Thank you, Frank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:53">18:53</span><span class="transcript-text">Take care.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:54">18:54</span><span class="transcript-text">Bye bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:54">18:54</span><span class="transcript-text">Bye bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:57">18:57</span><span class="transcript-text">Okay, folks, that was the Brian Monaghan interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:00">19:00</span><span class="transcript-text">Uh we&#x27;re going to get the questions next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:03">19:03</span><span class="transcript-text">Uh we had a bunch of questions coming in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:05">19:05</span><span class="transcript-text">In fact, uh we had the best week we ever had last week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:08">19:08</span><span class="transcript-text">In fact, on Monday, uh when Steve Benton interview first started, we had one hundred no one thousand and one hundred and fourteen listeners on Monday, one thousand and forty-nine listeners on Tuesday, and I&#x27;m not quite sure the number on Wednesday, I forgot it actually, but it was over a thousand.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:27">19:27</span><span class="transcript-text">So within three days, we had three thousand listeners Monday, Tuesday, and Wednesday of the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:32">19:32</span><span class="transcript-text">We&#x27;ve got a bunch of questions that came through.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:29">19:29</span><span class="transcript-text">We&#x27;re going to get to the questions next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:35">19:35</span><span class="transcript-text">You know, every other week we have a uh special guest and then we get to questions and other things on the excuse me, odd weeks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:43">19:43</span><span class="transcript-text">So don&#x27;t forget uh our toll-free number, one eight hundred-four five eight three five two five, or send an email to Holotalk at HoloWorld dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:51">19:51</span><span class="transcript-text">If you want information about that holography exhibit that&#x27;s coming to this area, New York, Philly, Baltimore, Washington, DC area, easy drive from any of those places, uh, send an email to exhibit at holoworld.com and I&#x27;ll fill you in on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:06">20:06</span><span class="transcript-text">So uh thank you for tuning in to HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:08">20:08</span><span class="transcript-text">Uh, don&#x27;t forget our special musical guest this week is a band called Brazil two thousand.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:12">20:12</span><span class="transcript-text">Uh here for your listening pleasure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:14">20:14</span><span class="transcript-text">Don&#x27;t forget to tune in for that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:16">20:16</span><span class="transcript-text">And this is Frank DeFreyus, once again for HoloTalk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:18">20:18</span><span class="transcript-text">Thank you for tuning in, and I&#x27;ll see you next week.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frank DeFreitas and the Internet Regime of Holography. Hello, this is Frank DeFreitas and welcome to Holotalk, the Internet&#x27;s laser and holography talk show. Our toll-free number is 1-800-458-3525, or you can send an email to holotalk at holoworld.com. We&#x27;ve got telephone calls, we&#x27;ve got emails, we&#x27;ve got special guests coming up, so thank you for tuning in and let&#x27;s get this week&#x27;s show on the road. Hello, this is Frank DeFreitas and welcome to another week of Holotalk. Our guest this week is Brian Monahan from Pennsylvania Pulp and Paper, located in Glenside, Pennsylvania. They have a website at www.holoprism.com. That&#x27;s H-O-L-O-P-R-I-S-M. H-O-L-O-P-R-I-S-M.com. Now, as you&#x27;re listening to the show, you can go over and visit their website. We also have a link on the Holotalk page. You can just click on the link and the show will continue to play with the real audio player in the background as you visit their website. Our musical guest this week is a band called Brazil 2000. Now, Brian has a very interesting company. They&#x27;re producing holograms using desktop computers and holographic printers. Now, they&#x27;re not digital. They&#x27;re doing the traditional three-dimensional holograms. They&#x27;re doing what we refer to as 2D, 3D holograms, which means it has almost a spectral quality to it. And it does have some depth, but the depth is more in layers than anything else. They use the desktop computers to both design the images themselves and also bring images in that are supplied to them on disks. And also, as Brian tells us in the interview, more and more commonly through the internet, they&#x27;re using the desktop computers to do the 3D holograms. So it&#x27;s going to be a very interesting interview. Before we get to that interview, I just want to point out one thing. There&#x27;s going to be a major laser and holography exhibit in this area. Now, if you live in the New York, Philadelphia, Baltimore, Washington, D.C. corridor or anywhere in that area all the way west to, say, Harrisburg, this exhibit is going to be right in your area. Now, at this point in time, there have not been any, you know, there have not been any, you know, there have not been any, you know, press releases sent out on this, so I cannot comment on when the exhibit&#x27;s going to be or where it&#x27;s going to be located. But I will let you do this. I&#x27;m going to give you an e-mail address. That e-mail address is as follows, exhibit at holoworld.com. That e-mail address is exhibit at holoworld.com. If you send an e-mail to that address, I&#x27;m going to put up a special folder for you, and I&#x27;m going to put all the e-mails in there. And as soon as the information is released, and I get the go-ahead on releasing some of that information, I will make sure that you are the first people to know about it. And I&#x27;m also going to look into perhaps having HoloTalk listeners receive maybe a discount or something of that nature if you come out to see this show. It&#x27;s going to be approaching holography and lasers through science and technology, so it&#x27;s going to be something to see. Now, this isn&#x27;t going to be a long show. I&#x27;ve moved the studio. The studio equipment and everything we need to broadcast is now over at the Discovery Center of Science and Technology. We&#x27;re going to be doing this show live in front of people each weekend, so we may have to change the date that it goes up. We&#x27;ll have to see about that. But in any case, we&#x27;re going to make this a short show because some of the equipment is hooked up. Other parts of the equipment is not hooked up. So we&#x27;re just going to go right into the Brian Monahan interview. And let&#x27;s see what Brian has to say about his company, Pennsylvania Pulp and Paper, and what they&#x27;re doing with desktop holography. Good morning. Hi, Brian. How are you doing? Not bad. Not bad. We&#x27;re talking with Brian Monahan from Pennsylvania Pulp and Paper. And they&#x27;re located in Glenside, Pennsylvania. Brian, how are you doing today? Not bad, Frank. And you? Okay. To tell you the truth, when I was looking through your materials last night and I was looking at the pictures, I saw that you had a lot of photos of your work. And I thought, well, we&#x27;ve known each other for a while anyway. But to be honest with you, we could probably do two shows on what it is that you guys are doing down there. Could you tell us a little bit about some of the hotter things that are going on down there? Yes. Well, just recently, as a matter of fact, the past two days, we have done some really amazing breakthroughs in the realm of photo-resist holography. Uh-huh. Basically, we are doing a new project. We&#x27;re going to be doing a new process, which will enable us to make dot matrix-type holograms at extremely, extremely high speeds in very large formats.
 
 make dot matrix type holograms at extremely, extremely high speeds in very large formats and also in cylindrical formats. Oh, interesting. The big thing about that is our industry, which is in the embossed holography industry, seam lines where shims meet up on an embossing cylinder are taboo. Mm-hmm. Especially with our cross-grading, our rainbow cross-grading. So we&#x27;ve developed a technique to be able to write our holography directly into a cylinder and produce a fairly long-lasting cylinder without moving those seam lines. Well, that&#x27;s incredible. Yeah, it&#x27;s pretty interesting. Now, what size can you go up to with this? You said large format. What do you mean large format? Well, right now we are set up to do 30 inches by 40 inches at extremely high speeds. Wow. We are in the works of engineering a plan to do 110-inch wide cylinders. Wow. Mainly for some larger wide-web embossers in the country. Mm-hmm. It is absolutely fantastic. And, you know, the best thing is I look back at when I met you and we worked, took your class with the Heaney lasers. Mm-hmm. And my biggest goal in life was to be able to get a 10-milliwatt Heaney. Yeah. And setting up. Yeah. And I spent endless hours of tables and carpets and cement in my basement and coming out with what you might call a hologram on several occasions really spurred me. And now I look back at that and look where we are now with, you know, we have four dot matrix labs. We have our own clean rooms for coating photo resist, electroforming, embossing, and a lot of very high-powered and fun lasers. And I think that&#x27;s what I want to play with. Now, the holography part of your business for Pennsylvania Pulp and Paper, that&#x27;s running, what percentage would you say that is of your business? To date, about 95%. 95%. That&#x27;s incredible. Yeah. Now, you do what they call desktop holography. Would that be a correct term for it? Uh. After working on desktop computers in the design stage? Yeah, that would be a good term. Everything that we do is electronic. Mm-hmm. Uh. We do not use any masks or anything like that. We work with conventional 2D, 3D holography or models. So someone scans an image in to your computer or you receive that on a disk if they wanted something reproduced? Yes. Or most of that right now is coming via the Internet. Oh, no kidding. Yeah. As JPEG images or whatever? Bitmap. Bitmap. Yeah. Yeah. And what we do is we have our computer system will break down a bitmap image. Just as a BMP file may have 256 different colors. Mm-hmm. Uh. Our computer will interpret it and our machine will run at 256 different angles. I see. So as a picture has all the colors to make the picture, we shoot a hologram with all the angles to make the same picture. Pixel by pixel. Now, you had a couple interesting projects. One of the ones that goes back a little way is Star Trek Generations. Yeah. And then you&#x27;ve got the Men in Black video covers. Uh. And then you&#x27;ve got the video cassette cover as well. Yeah. Can you tell us a little bit about that? That was the first one. That Men in Black. The Men in Black. Actually, the Star Trek one was a good, you know, we won a few awards with the IHMA, the International Hologram Manufacturing Association, for the Star Trek box. Mm-hmm. And it really, in my opinion, turned out really pretty fantastic. It achieved its goal. That led into a lot of other projects, some smaller ones. Uh. But then eventually. And then it went into the Men in Black, which last year, definitely, if not to date, was the largest holographic packaging job in the world. I was looking through your materials last night, 1.30 in the morning in bed, just to get ready for doing the show today. And I picked out this one piece here, which is Premium Mirror Board 1. Yeah. And I thought to myself, I wonder if this could be used as a regular mirror. So I went down into the lab, because I had my lab at my house. And believe it or not, it does a nice job, reflectingly. And I thought, well, I&#x27;m going to use this as a laser light. You can take a light. You could cut this up and make front surface mirrors. I&#x27;m almost positive that the surface on this is so good that I could use it in a holographic setup and make a hologram with it. Well, we got a new end use now for it. On cardboard. But you know what? We had no idea what it would be used for when we introduced that product. It took us about a year and a half to be able to design it that it would be printable. And you could cut it into a box and fold it and glue it. But it still had to have that absolutely perfect mirror condition. And it took a while. Once we made it, we really didn&#x27;t have too much of an idea who would use it and how it would be used. Sort of like the laser.
 
@@ -371,7 +712,7 @@ mirror condition. And it took a while. Once we made it, we really didn&#x27;t ha
 
 Again, that&#x27;s available to people who are interested in holography, who want to know a little bit more, very basics on how holograms are made, an embossed holography, and a little bit more about what our company does. Let me ask you this before we close out here. Do you ever get any comments from anybody that what you&#x27;re doing is not holography? Does anybody ever say that? Yeah, some people do. Some people... What&#x27;s your response to that? Well, my response is that what we&#x27;re doing is considered two-dimensional holography. We&#x27;re interfering two beams of laser light to create an interference pattern. Be it an interference pattern as complex as a three-dimensional image would be or a two-dimensional image, it really doesn&#x27;t matter. Some of the work that we&#x27;ve done in the past, we&#x27;ve contracted out to get a three-dimensional image or stereographic image and combine that. And integrate it with our holographics, our 2D prismatic. And the biggest thing that our target audience is normally people that have products that are under in-store lighting conditions, where ours works very well, especially the dot matrix. It shows a lot of color and a lot of movement. And a three-dimensional hologram would be difficult to see. Sometimes the combination of the two of them, our dot matrix holography, gets them in, and the three-dimensional holography wows them. So there&#x27;s a place for everything. And I think eventually we&#x27;ll be getting into doing some 3D origination. Yeah, I was just going to ask you that. Stuff like that. We&#x27;ve been working very hard on protecting what we&#x27;re doing. We just got issued a patent last week on registering lithography to holography. Congratulations on that. People say that that&#x27;s not true holography. Well, it&#x27;s a product. Same thing. It&#x27;s a unique product in itself. Yeah, I see you moving in that direction. I&#x27;m going to try and describe this to you so you know what I&#x27;m talking about. There&#x27;s a piece that was in your package with two angels on it. And they&#x27;re looking up towards the clouds. And I see you moving more towards the imaging, the actual imaging itself with this piece. Because I think this piece grabbed my attention right away. And then, unfortunately, you don&#x27;t have the printed piece. but the true printing, the true lithography would be printed in register to that hologram to add some color and texture so it&#x27;s just not all silver embossed hologram. If you&#x27;re listening to this show and you&#x27;re finding it hard to imagine exactly what it is we&#x27;re talking about, you may want to go over to the Pennsylvania Pulp and Paper site. But chances are you&#x27;ve already had a chance to see something that&#x27;s been produced by Pennsylvania Pulp and Paper. Next time you&#x27;re over to the video store, pick up the Men in Black video. Oh, mine&#x27;s written in French. I just noticed that. Yeah, we did so far about 16 countries including Russia and Saudi Arabia. Okay. Well, pick up the Men in Black video cassette box and you&#x27;ll see exactly what it is that they&#x27;re doing over Pennsylvania Pulp and Paper. So, Brian, we&#x27;re going to head out. Great. This is the first show that I&#x27;ve done live from the Discovery Center. So you were sort of a guinea pig this week because this equipment just got hooked up. But I think everything worked out okay. Yep. If you don&#x27;t try something new, you&#x27;ll never get anywhere. Now, you need a little help getting that real audio player to work, right? Yep. I&#x27;m going to send an email to you to show you how you can do that easily with America Online because it&#x27;s a little bit different than with a direct Internet dial-up account. Wonderful. All right. All right. I appreciate it. Brian, thanks for being a guest. Thank you, Frank. Take care. Bye-bye. Bye-bye. Okay, folks. That was the Brian Monahan interview. We&#x27;re going to get to questions next week. We had a bunch of questions coming in. In fact, we had the best week we ever had last week. In fact, on Monday when Steve Benton&#x27;s interview first started, we had 1,114 listeners on Monday. 1,049 listeners on Tuesday. And I&#x27;m not quite sure of the number on Wednesday. I forgot it, actually, but it was over 1,000. So within three days, we had 3,000 listeners Monday, Tuesday, and Wednesday of the show. We&#x27;ve got a bunch of questions that came through. We&#x27;re going to get to the questions next week. You know, every other week we have a special guest, and then we get to questions and other things on the odd weeks. So don&#x27;t forget our toll-free number, 1-800-458-3525, or send an email to Holotrack.com. That&#x27;s holotrack.com. If you want information about that holography exhibit that&#x27;s coming to this area, New York, Philly, Baltimore, Washington, D.C. area, easy drive from any of those places, send an email to exhibit at holoworld.com, and I&#x27;ll fill you in on that. So thank you for tuning in to Holotalk. Don&#x27;t forget our special music.
 
-many of those places, send an email to exhibit at holoworld.com, and I&#x27;ll fill you in on that. So thank you for tuning in to HoloTalk. Don&#x27;t forget our special musical guest this week is a band called Brazil 2000, here for your listening pleasure. Don&#x27;t forget to tune in for that. And this is Frank DeFreus once again for HoloTalk. Thank you for tuning in, and I&#x27;ll see you next week.</div>
+many of those places, send an email to exhibit at holoworld.com, and I&#x27;ll fill you in on that. So thank you for tuning in to HoloTalk. Don&#x27;t forget our special musical guest this week is a band called Brazil 2000, here for your listening pleasure. Don&#x27;t forget to tune in for that. And this is Frank DeFreus once again for HoloTalk. Thank you for tuning in, and I&#x27;ll see you next week.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

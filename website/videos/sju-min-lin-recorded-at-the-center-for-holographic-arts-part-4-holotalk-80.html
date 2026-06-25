@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,11 +456,161 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello, this is Frank DeFreitas, and we&#x27;re here at the Center for Holographic Arts in Long Island City, better known as Queens, and I&#x27;m speaking with Xu Min Lin. How are you? Hi, good. Hi, everybody. How are you? You&#x27;ve been involved with holography for how long? It has been about 10 years. 10 years now. And what do you work in? Is most of the work that you do in reflection holography or white light transmission holography? I do most of reflection hologram, but I&#x27;m kind of working on more in much larger scale by having a hologram into the installation. So, for example, one of my work, I install the hologram on the floor, and that floor takes about 1,000 square feet space. And the entire holographic installation is that size? That would be about, for that piece, that particular one, I have about 100. 100 holograms mixed with the tiles. So people, the audience can be walked on the tiles and also the holograms, to look at the hologram. Now, is this an exhibit that moves from place to place, part of your work, or is this an exhibit that&#x27;s in a building that&#x27;s there permanently? This piece has been traveled to many different countries, and currently are shown in Finland. And most of the time it was in the museum space and kind of keep traveling now. What&#x27;s your background? What&#x27;s your background? Is your background more as an artist or in science and technology? Fine arts, my background. Fine arts. What drew you to holography? Were you involved with another medium first and sort of like changed over to holography, or was holography your first love? Well, yeah, before, as an artist, I kind of, you know, played with all different mediums, like a painting or a sculpture, those things. But it&#x27;s kind of, I always feel like a two-dimensional painting, they are too flat, 2D, and the sculpture to me is also kind of a little too real. So until about 10 years ago when I first time I saw hologram, I finally found these two elements, these two qualities can be combining together. Yeah. Do you have your own laboratory? Yes, I do. I have my studio in Manhattan. Okay. Yeah, and what do you have inside? What type of laser systems are you working with right now? I have a... I have a helium-neon laser and also a big table for that. The table weighs 2,000 pounds. Yeah. So, and also some other size facilities. Do you know what the power of a laser is? It&#x27;s a 15 milliwatt. 15? 15. 15 milliwatt. Okay, like a 125 spectra. Yeah. You know pretty well. Yeah, I was just wondering. Okay. As an artist working in holography, do you find sometimes, you become frustrated because there&#x27;s only so much you can do with the technology? I have to say, as a holographer, you always have to, you know, there are so many things unknown and happen during the working, you know, procedure. But frustration never really coming from the limitation because I do feel, maybe different than other holographers, I do feel there are still so many things you can do for this medium. And, you know, apply to different ideas. There are so many odd, you know, things I haven&#x27;t done yet. And, you know, if sometimes you get frustrated, maybe because like, you know, any good work requires so many, you know, requirement like stability or temperature, whatever, so many things. Sometimes you don&#x27;t get a very good result and you have to researching to see what happen. And that kind of, sometimes you don&#x27;t get a very good result. Sometimes you have no way to find out because there are not many people involved in this field. And the support may be not enough. But other than that, I&#x27;m pretty happy. What&#x27;s your process of coming up with a holographic work? Do you sit down and think of a concept and perhaps maybe draw it out on paper first? Or is there a process that you find yourself going into from start to finish with a piece? Most of pieces, they will be coming from all different, different directions. But, yeah, I do have to, you know, make a whole proposal together. Since my type of hologram, it require like a lot of multi-exposures. So sometimes I feel it&#x27;s kind of like, even like a film production. I have to have a, you know, after the concept and after the idea starting to develop, I maybe even do a storyboard. Or even having a people, actual people who are finally, I&#x27;m going to be in my hologram. I will took the photo first as my sketch. There&#x27;s so many holograms out there where it&#x27;s just the hologram. And like you had mentioned earlier, you work with installations and there are other elements there.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Hello, this is Frankie Freitas and we&#x27;re here at the Center for Holographic Arts in Long Island City, better known as Queens.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:08">0:08</span><span class="transcript-text">And I&#x27;m speaking with Shu Min Lin.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:10">0:10</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:11">0:11</span><span class="transcript-text">Hi, good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">Hi everybody.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:13">0:13</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:14">0:14</span><span class="transcript-text">Um you&#x27;ve been involved with holography for how long?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:18">0:18</span><span class="transcript-text">Uh has been about ten years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:20">0:20</span><span class="transcript-text">Ten years now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:21">0:21</span><span class="transcript-text">And what do you work in?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:23">0:23</span><span class="transcript-text">Uh is most of the work that you do in reflection holography or white light transmission holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">Um, I do most of uh reflection hologram, but I kind of working on more in much larger scale by having a hologram into the installation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:39">0:39</span><span class="transcript-text">So um for example, one of my work, I installed the hologram on the floor and that floor takes about one thousand square feet space.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:49">0:49</span><span class="transcript-text">And the uh the entire holographic installation is that size?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:54">0:54</span><span class="transcript-text">Um that would be about like uh for that piece, that particular one I have a one about one hundred holograms mixed with the tiles.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:01">1:01</span><span class="transcript-text">So people the audience can be walk on the the tiles and also the holograms to look at the hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:08">1:08</span><span class="transcript-text">Now is this an exhibit that moves from place to place part of your work or is this uh an exhibit that&#x27;s in a building that&#x27;s there permanently?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:15">1:15</span><span class="transcript-text">Uh this piece uh has been traveled to many different countries and currently uh showing in Finland and most of the time it was in the museum space and kind of keep traveling now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:27">1:27</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:27">1:27</span><span class="transcript-text">What&#x27;s your background?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:28">1:28</span><span class="transcript-text">Is your background uh more as an artist or in science and technology?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:32">1:32</span><span class="transcript-text">Uh fine arts, my background.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:34">1:34</span><span class="transcript-text">Fine arts.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:35">1:35</span><span class="transcript-text">What drew you to holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:37">1:37</span><span class="transcript-text">Were you involved with another medium first and uh sort of like changed over to holography or was holography your first love?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:46">1:46</span><span class="transcript-text">Well, um yeah, uh before as artist I kind of you know, play with all different medium like a painting or sculpture, those things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:54">1:54</span><span class="transcript-text">Um but it&#x27;s kinda I always feel like a two dimensional painting, they are too flat, too D and the uh sculpture to me is also kinda a little too real.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:05">2:05</span><span class="transcript-text">So until about ten years ago when I first time I saw hologram, I finally found these two elements, these two quality can be combining together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:15">2:15</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:16">2:16</span><span class="transcript-text">Do you have your own laboratory?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:18">2:18</span><span class="transcript-text">Yes I do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:19">2:19</span><span class="transcript-text">Um I have my studio in Manhattan.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:22">2:22</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:22">2:22</span><span class="transcript-text">Yeah, um what do you have inside what type of uh laser systems are you working with right now?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:27">2:27</span><span class="transcript-text">I have uh uh Hinam Niang uh laser and also um a a big table for that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:34">2:34</span><span class="transcript-text">The table weighs two thousand pounds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:36">2:36</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:37">2:37</span><span class="transcript-text">Um so and also some other size facilities.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:41">2:41</span><span class="transcript-text">Do you know what the uh power of a laser is?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:43">2:43</span><span class="transcript-text">It&#x27;s a fifty million one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:44">2:44</span><span class="transcript-text">Fifteen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:45">2:45</span><span class="transcript-text">Fifty mil okay, uh one twenty five uh spectra.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:49">2:49</span><span class="transcript-text">Yeah, you know pretty well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">Um as an artist working in holography, do you find sometimes you become frustrated because there&#x27;s only so much you can do with the technology?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:03">3:03</span><span class="transcript-text">Um I have to say as a holographer you always have to you know, there are so many things unknown and happen during the the working, you know, procedure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:14">3:14</span><span class="transcript-text">But but frustration never really coming from the limitation because I do feel maybe different other holographer, I do feel there&#x27;s still so many things you can do uh for this medium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:27">3:27</span><span class="transcript-text">And um you know apply to different ideas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:31">3:31</span><span class="transcript-text">There&#x27;s so many art, you know, things I haven&#x27;t done yet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:35">3:35</span><span class="transcript-text">Um and you know, if sometimes you get frustrated maybe because like uh you know, every good work it requires so many um you know, requirement like a stability or temperature whatever so many things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:49">3:49</span><span class="transcript-text">Sometimes you don&#x27;t get a very good result and you have to research in to see what happened.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:55">3:55</span><span class="transcript-text">And that kind of sometimes you have no way um to find out because there are not many people involved in this field and the support maybe not enough.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">But other than that I&#x27;m pretty happy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:08">4:08</span><span class="transcript-text">What&#x27;s what&#x27;s your process of coming up with a uh holographic work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">Uh do you sit down and think of a concept and perhaps maybe draw it out on paper first or is there a process that you find yourself going into from start to finish with a with a piece?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:24">4:24</span><span class="transcript-text">Um most of pieces they they will be coming from all different directions but yeah I do have to you know make a whole proposal together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:33">4:33</span><span class="transcript-text">Since I my type of hologram it require like a a lot of multi exposures.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:39">4:39</span><span class="transcript-text">So sometimes I feel it&#x27;s kinda like a even like a film production.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:42">4:42</span><span class="transcript-text">I have to have a you know after the concept and after I the idea ki starting to develop I maybe even do a storyboard or I even uh having a people actual people who are finally I&#x27;m I&#x27;m going to be in my hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:57">4:57</span><span class="transcript-text">I will took the photo first as my sketch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:01">5:01</span><span class="transcript-text">There&#x27;s so many holograms out there where it&#x27;s just the hologram and like you had mentioned earlier uh you work with installations and there are other th elements that are involved with your holographic work as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:12">5:12</span><span class="transcript-text">What are some of the things that you&#x27;ve combined with holography in your projects?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:16">5:16</span><span class="transcript-text">Um so far w the things I&#x27;m combining is all the different material objects like a some like a for example I have other pieces like a glass vase or the other the other piece I&#x27;m mounting the hologram on the fish tank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">And um and then you know I&#x27;m also will be working on more and more combining with some other materials or some other art form together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:42">5:42</span><span class="transcript-text">I&#x27;ve I&#x27;ve been involved with holography for many years as well and I know that there&#x27;s been comments out there saying that you know some people feel holography is a legitimate art form, other people do not and I would think that after all these years that that argument would have gone away but it still seems to be fairly prevalent out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Um how do you feel that this uh medium of holography could be looked upon as a legitimate art form?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:13">6:13</span><span class="transcript-text">A lot of times when you go out to see a hologram, you&#x27;ll see a hologram of something of an object and for most people, you know why not just sit the object there instead of making a hologram of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:24">6:24</span><span class="transcript-text">Uh what&#x27;s different about the type of work that you do that gets away from that thing of just reproducing something that already exists?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:33">6:33</span><span class="transcript-text">Well to look at that perspective like a even painting are is kinda r reproduced something the photography there reproduce something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:42">6:42</span><span class="transcript-text">So I think the value is not how exactly these things reproduce the real object.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:48">6:48</span><span class="transcript-text">It&#x27;s how and it&#x27;s all according to how what kind of meaning the artist put into that work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:54">6:54</span><span class="transcript-text">Otherwise I guess every artwork repres reproduce something else.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:59">6:59</span><span class="transcript-text">So um I don&#x27;t know why I guess the hologram has a limitation is not a lot of people really know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:07">7:07</span><span class="transcript-text">And also not a lot of people able to get into this medium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">So this medium always kind of has been and o you know so far not that popular.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:16">7:16</span><span class="transcript-text">So, you know, people kinda looking at that in a very interesting way because people keep thinking about the technical side rather than what the actual content those artists put into there because what grabbing you first is always, wow, that&#x27;s so amazing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">Why why are you doing this?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:34">7:34</span><span class="transcript-text">How this happening.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:35">7:35</span><span class="transcript-text">So I guess that was something, you know, how people feel that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:40">7:40</span><span class="transcript-text">But I guess if anyone who are seriously um or some art critic for or like any any audience or any um you know, they if they get really more serious about work, then they will get in there and then see what&#x27;s a real expression the artist try to put in there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:58">7:58</span><span class="transcript-text">It&#x27;s like a every every other medium, like even I guess w even oil painting in one time was a new medium too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:05">8:05</span><span class="transcript-text">And high tech at one time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:07">8:07</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:07">8:07</span><span class="transcript-text">So like a pencil was high tech at one time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">So this is just like uh we are kind of m maybe in the time frame we are a little earlier.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:16">8:16</span><span class="transcript-text">So we have to be able to answer most of those questions about technical side.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:21">8:21</span><span class="transcript-text">What are the biggest barriers to having people get involved with holography?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:24">8:24</span><span class="transcript-text">What could we change about holography that would allow more people the opportunity to get involved with it, do you feel?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:30">8:30</span><span class="transcript-text">Well, first of all it&#x27;s about this um requires so many equipment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:36">8:36</span><span class="transcript-text">This v we make it very different than other uh our medium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:40">8:40</span><span class="transcript-text">And those equipments, you know, is making like a m normal like our student they couldn&#x27;t really reach and touch or to get in there and then to spend enough time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">It&#x27;s like also like a even computer at the beginning.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:54">8:54</span><span class="transcript-text">You know, you see like uh all the students squeeze into one room and they all study from one big screen and now everyone got one in school and one at home.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:03">9:03</span><span class="transcript-text">So it&#x27;s about like I guess I guess you have to make uh the equipment more um available for people and then that really depends on what you know if there&#x27;s any like a major company they will be willing to put in more effort into this to make this more popular.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:23">9:23</span><span class="transcript-text">Do you think some of the companies that are uh dealing with these technologies, such as the laser manufacturers, your optical manufacturers and the people who manufacture the mounts, do you think that they should be putting more money back into the field to help people get involved with it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:38">9:38</span><span class="transcript-text">It doesn&#x27;t seem as if these companies contribute anything back into the field.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:42">9:42</span><span class="transcript-text">Yeah, it doesn&#x27;t seem they&#x27;re doing that, but I would like to see that because like uh, you know, if one day these things become more uh available for people, then um back to just now we&#x27;re talking about people keep thinking about this technology things, it&#x27;s like nobody will asking anyone how the photo developed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:02">10:02</span><span class="transcript-text">Even nobody knows.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:04">10:04</span><span class="transcript-text">And how those city like a music city comp compact disc, how that works.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:10">10:10</span><span class="transcript-text">And nobody knows, but because it&#x27;s so popular, so nobody asks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:14">10:14</span><span class="transcript-text">Interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:15">10:15</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:15">10:15</span><span class="transcript-text">Where do you see holography going in the future as far as maybe ten or twenty years down the road?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:21">10:21</span><span class="transcript-text">Um uh first I&#x27;d like to find out what some of your visions are on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:26">10:26</span><span class="transcript-text">And then I&#x27;ll get back to you, uh, maybe asking you what do you think needs to take place in order for us to get there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:32">10:32</span><span class="transcript-text">But where would you like to see holography in ten years?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:35">10:35</span><span class="transcript-text">What do you think we&#x27;re going to be seeing with it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">You know, since this medium is so attractive, you know, by how many times when I had a show and how you see how people the audience responds to the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:47">10:47</span><span class="transcript-text">You know, you know, people like this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:50">10:50</span><span class="transcript-text">And um so it&#x27;s like a feel like a very you know interesting like it doesn&#x27;t really go that far so far.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:58">10:58</span><span class="transcript-text">But but if the things are very attractive to people and you know I this is no reason it doesn&#x27;t get big.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:06">11:06</span><span class="transcript-text">So I would see like it&#x27;s supposed to be in the future um maybe those things can in state of I mean the closest one will be photography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:16">11:16</span><span class="transcript-text">Um the photo ID whatever.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:18">11:18</span><span class="transcript-text">Um I guess ID will be the the most closest one like uh that can be really thing, three dimensional pe you know, people on the photo or ID, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:31">11:31</span><span class="transcript-text">And in order to get there, what do you think we need to overcome?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">What what are some of the barriers that you see to getting there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:39">11:39</span><span class="transcript-text">Again still back to the equipment&#x27;s not that available and um and you need to have a kind of more and I I guess individually the those holographers if they don&#x27;t have enough funding then you you cannot really push that far.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:55">11:55</span><span class="transcript-text">So again it&#x27;s still have you know we have to see if there&#x27;s any bigger manufacturing company they related to this and they&#x27;ll be willing to put more energy on this side.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">That&#x27;s that&#x27;s an issue that I hear a lot about as far as an artist will say that they don&#x27;t have any funding so that they can&#x27;t do any work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:13">12:13</span><span class="transcript-text">I I try to you know I I still try to s you know using hologram to make a bigger hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:19">12:19</span><span class="transcript-text">So somehow, you know, you know, if someone purchased a hologram, I put up money back to produce a bigger work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:26">12:26</span><span class="transcript-text">And sometimes I have some commission work and I use that part of money to do, you know, to kind of going back to for the next project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:35">12:35</span><span class="transcript-text">Um yeah, and yeah, that&#x27;s the way kind of self-sufficient in that way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:40">12:40</span><span class="transcript-text">How can someone find out more about your work?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:44">12:44</span><span class="transcript-text">Okay, um I have a website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:46">12:46</span><span class="transcript-text">No, I&#x27;m going to have, but not yet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:48">12:48</span><span class="transcript-text">Um I I because I I kind of show very frequently, um, I almost have about usually about ten exhibitions in one year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">And uh yeah, I should have my website, that&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:02">13:02</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:03">13:03</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:03">13:03</span><span class="transcript-text">And we will include information.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:06">13:06</span><span class="transcript-text">I see you have your card here, so would it be alright for us to put your telephone number in case and your email address as well?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:13">13:13</span><span class="transcript-text">Of course, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:14">13:14</span><span class="transcript-text">And if anyone um you know heard this from the from the news and if you have any question, please welcome to call me or you can email to me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:23">13:23</span><span class="transcript-text">Should I just re my yeah, my phone number, same as my fax number is Ariacall two one two six six two five nine six six.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:33">13:33</span><span class="transcript-text">And my email address is uh L I N Lin.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:38">13:38</span><span class="transcript-text">L I N at Sprintmail dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">Um L-I-N at S P R I N T M A I L dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:50">13:50</span><span class="transcript-text">And my name is Shumin Lin.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:52">13:52</span><span class="transcript-text">It&#x27;s spelled S H U M I N.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">Shoe Min Lin, L-I-N.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:59">13:59</span><span class="transcript-text">Well, I thank you very much for being on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:01">14:01</span><span class="transcript-text">It was very nice meeting you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">Yeah, me too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:03">14:03</span><span class="transcript-text">Thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:03">14:03</span><span class="transcript-text">We&#x27;ll see you next week, everyone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:05">14:05</span><span class="transcript-text">Take care.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello, this is Frank DeFreitas, and we&#x27;re here at the Center for Holographic Arts in Long Island City, better known as Queens, and I&#x27;m speaking with Xu Min Lin. How are you? Hi, good. Hi, everybody. How are you? You&#x27;ve been involved with holography for how long? It has been about 10 years. 10 years now. And what do you work in? Is most of the work that you do in reflection holography or white light transmission holography? I do most of reflection hologram, but I&#x27;m kind of working on more in much larger scale by having a hologram into the installation. So, for example, one of my work, I install the hologram on the floor, and that floor takes about 1,000 square feet space. And the entire holographic installation is that size? That would be about, for that piece, that particular one, I have about 100. 100 holograms mixed with the tiles. So people, the audience can be walked on the tiles and also the holograms, to look at the hologram. Now, is this an exhibit that moves from place to place, part of your work, or is this an exhibit that&#x27;s in a building that&#x27;s there permanently? This piece has been traveled to many different countries, and currently are shown in Finland. And most of the time it was in the museum space and kind of keep traveling now. What&#x27;s your background? What&#x27;s your background? Is your background more as an artist or in science and technology? Fine arts, my background. Fine arts. What drew you to holography? Were you involved with another medium first and sort of like changed over to holography, or was holography your first love? Well, yeah, before, as an artist, I kind of, you know, played with all different mediums, like a painting or a sculpture, those things. But it&#x27;s kind of, I always feel like a two-dimensional painting, they are too flat, 2D, and the sculpture to me is also kind of a little too real. So until about 10 years ago when I first time I saw hologram, I finally found these two elements, these two qualities can be combining together. Yeah. Do you have your own laboratory? Yes, I do. I have my studio in Manhattan. Okay. Yeah, and what do you have inside? What type of laser systems are you working with right now? I have a... I have a helium-neon laser and also a big table for that. The table weighs 2,000 pounds. Yeah. So, and also some other size facilities. Do you know what the power of a laser is? It&#x27;s a 15 milliwatt. 15? 15. 15 milliwatt. Okay, like a 125 spectra. Yeah. You know pretty well. Yeah, I was just wondering. Okay. As an artist working in holography, do you find sometimes, you become frustrated because there&#x27;s only so much you can do with the technology? I have to say, as a holographer, you always have to, you know, there are so many things unknown and happen during the working, you know, procedure. But frustration never really coming from the limitation because I do feel, maybe different than other holographers, I do feel there are still so many things you can do for this medium. And, you know, apply to different ideas. There are so many odd, you know, things I haven&#x27;t done yet. And, you know, if sometimes you get frustrated, maybe because like, you know, any good work requires so many, you know, requirement like stability or temperature, whatever, so many things. Sometimes you don&#x27;t get a very good result and you have to researching to see what happen. And that kind of, sometimes you don&#x27;t get a very good result. Sometimes you have no way to find out because there are not many people involved in this field. And the support may be not enough. But other than that, I&#x27;m pretty happy. What&#x27;s your process of coming up with a holographic work? Do you sit down and think of a concept and perhaps maybe draw it out on paper first? Or is there a process that you find yourself going into from start to finish with a piece? Most of pieces, they will be coming from all different, different directions. But, yeah, I do have to, you know, make a whole proposal together. Since my type of hologram, it require like a lot of multi-exposures. So sometimes I feel it&#x27;s kind of like, even like a film production. I have to have a, you know, after the concept and after the idea starting to develop, I maybe even do a storyboard. Or even having a people, actual people who are finally, I&#x27;m going to be in my hologram. I will took the photo first as my sketch. There&#x27;s so many holograms out there where it&#x27;s just the hologram. And like you had mentioned earlier, you work with installations and there are other elements there.
 
 There are so many holograms out there where it&#x27;s just the hologram. And like you had mentioned earlier, you work with installations and there are other elements that are involved with your holographic work as well. What are some of the things that you&#x27;ve combined with holography in your projects? So far, the things I&#x27;m combining is all the different material objects. Like some, like, for example, I have other pieces like glass vase. Or the other piece, I&#x27;m mounting the hologram on the fish tank. And then, you know, I also will be working on more and more, combining with some other materials or some other art form together. I&#x27;ve been involved with holography for many years as well. And I know that there&#x27;s been comments out there saying that, you know, some people feel holography is a legitimate art form, other people do not. And I would think... I think that after all these years that that argument would have gone away, but it still seems to be fairly prevalent out there. How do you feel that this medium of holography could be looked upon as a legitimate art form? A lot of times when you go out to see a hologram, you&#x27;ll see a hologram of something, of an object. And for most people, you know, why not just sit the object there instead of making a hologram of it? What&#x27;s different about the type of work that you do? That gets away from that thing of just reproducing something that already exists? Well, to look at that perspective, like even painting is kind of reproduced. Oh, that&#x27;s true, yes. Even the photography there reproduces something. So I think the value is not how exactly these things reproduce the real object. It&#x27;s how... And it&#x27;s all according to how, what kind of meaning the artist put into that work. Otherwise, I guess every artwork are reproduced. those artists put into there because what grabbing you first is always wow that&#x27;s so amazing why are you doing this how this happening so I guess that was something you know how people feel that but I guess if anyone who are seriously or some art critic or like any audience or any you know if they get really more serious about work then they will get in there and then see what&#x27;s a real expression the artist tried to put in there it&#x27;s like a AV other medium like even I guess even oil painting in one time was a new medium too and high tech at one time yeah so like a pencil was high tech at one time yeah so this is just like we are kind of maybe in the time frame we are a little earlier so we have to be able to answer most of those questions about technical side what are the biggest computer at the beginning. You know, you see like all the students squeeze into one room and they all study from one big screen. And now everyone got one in school and one at home. So it&#x27;s about like, I guess, I guess you have to make the equipment more available for people. And then that really depends on what, you know, if it&#x27;s any like a major company, I mean, they will be willing to put in more effort into this to make this more popular. Do you think some of the companies that are dealing with these technologies such as the laser manufacturers, your optical manufacturers and the people who manufacture the mounts, do you think that they should be putting more money back into the field to help people get involved with it? It doesn&#x27;t seem as if these companies contribute anything back into the field. Yeah, it doesn&#x27;t seem they&#x27;re doing that. But I would like to see that because like, you know, if one day these things become more available for people, then back to just now we&#x27;re talking about people keep thinking about these technology things. It&#x27;s like nobody will asking anyone how the photo develop. Even nobody knows. And how those CD, like a music CD, compact disc, how that works.
 
-how the photo developed even nobody knows and how those city like a music CD come compact disc how that works and nobody knows but because so popular so nobody asked interesting yeah where do you see holography going in the future as far as maybe 10 or 20 years down the road first I&#x27;d like to find out what some of your visions are on that and then I&#x27;ll get back to you maybe asking you what do you think needs to take place in order for us to get there but where would you like to see holography in 10 years what do you think we&#x27;re going to be seeing with it you know since this medium is so attractive you know by how many times when I had a show and how you seeing how people the audience responds to the world you know you know people like this and so it&#x27;s like a feel like a very you know interesting like it doesn&#x27;t really go that far so far but okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay people on the photo or ID. And in order to get there, what do you think we need to overcome? What are some of the barriers that you see to getting there? Again, still back to the equipment is not that available and you need to have a kind of more I guess individually, those holographers if they don&#x27;t have enough funding, then you cannot really push that far. So again, we have to see if there&#x27;s any bigger manufacturing company related to this and they&#x27;ll be willing to put more energy on this side. That&#x27;s an issue that I hear a lot about as far as an artist will say that they don&#x27;t have any funding so that they can&#x27;t do any work. I still try to use holograms to make a bigger hologram. So somehow, if someone purchases a hologram and I put that money back to produce a bigger work and sometimes I have some commission work and I use that part of money to kind of going back for the next project. Yeah, and yeah, that&#x27;s the way kind of self-sufficient in that way. How can someone find out more about your work? Okay, I... Do you have a website? No, I&#x27;m going to have, but not yet. And the... Because I kind of show very frequently I almost have about usually about 10 exhibitions in one year. And yeah, I should have my website. That&#x27;s it. Yeah. Okay, and we will include information. I see you have your card here. So would it be all right for us to put your telephone number in case and your email address as well? Of course, yeah. And if anyone, you know, heard this from the news and if you have any question, please welcome to call me or you can email to me. Should I just... Yeah, my phone number, same as my fax number is area code 212-662-5966. And my email address is lin, lin, at sprintmail.com lin at sprintmail.com And my name is Shu Min Lin. It&#x27;s spelled S-H-U. S-H-U-M-I-N. Shu Min Lin. L-I-N. Well, I want to thank you very much for being on the show. It was very nice meeting you. Yeah, me too. Thank you. We&#x27;ll see you next week, everyone. Take care.</div>
+how the photo developed even nobody knows and how those city like a music CD come compact disc how that works and nobody knows but because so popular so nobody asked interesting yeah where do you see holography going in the future as far as maybe 10 or 20 years down the road first I&#x27;d like to find out what some of your visions are on that and then I&#x27;ll get back to you maybe asking you what do you think needs to take place in order for us to get there but where would you like to see holography in 10 years what do you think we&#x27;re going to be seeing with it you know since this medium is so attractive you know by how many times when I had a show and how you seeing how people the audience responds to the world you know you know people like this and so it&#x27;s like a feel like a very you know interesting like it doesn&#x27;t really go that far so far but okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay okay people on the photo or ID. And in order to get there, what do you think we need to overcome? What are some of the barriers that you see to getting there? Again, still back to the equipment is not that available and you need to have a kind of more I guess individually, those holographers if they don&#x27;t have enough funding, then you cannot really push that far. So again, we have to see if there&#x27;s any bigger manufacturing company related to this and they&#x27;ll be willing to put more energy on this side. That&#x27;s an issue that I hear a lot about as far as an artist will say that they don&#x27;t have any funding so that they can&#x27;t do any work. I still try to use holograms to make a bigger hologram. So somehow, if someone purchases a hologram and I put that money back to produce a bigger work and sometimes I have some commission work and I use that part of money to kind of going back for the next project. Yeah, and yeah, that&#x27;s the way kind of self-sufficient in that way. How can someone find out more about your work? Okay, I... Do you have a website? No, I&#x27;m going to have, but not yet. And the... Because I kind of show very frequently I almost have about usually about 10 exhibitions in one year. And yeah, I should have my website. That&#x27;s it. Yeah. Okay, and we will include information. I see you have your card here. So would it be all right for us to put your telephone number in case and your email address as well? Of course, yeah. And if anyone, you know, heard this from the news and if you have any question, please welcome to call me or you can email to me. Should I just... Yeah, my phone number, same as my fax number is area code 212-662-5966. And my email address is lin, lin, at sprintmail.com lin at sprintmail.com And my name is Shu Min Lin. It&#x27;s spelled S-H-U. S-H-U-M-I-N. Shu Min Lin. L-I-N. Well, I want to thank you very much for being on the show. It was very nice meeting you. Yeah, me too. Thank you. We&#x27;ll see you next week, everyone. Take care.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

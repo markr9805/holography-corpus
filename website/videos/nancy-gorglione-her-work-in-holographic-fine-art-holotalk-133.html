@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,15 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Profiles in Holography is brought to you through the generous support of the International Holography Fund. For more information, visit their website at holographyfund.org. Hello everyone, this is Frank DeFreitas and I would like to welcome you to this latest broadcast of HoloTalk, the Internet&#x27;s laser and holography talk show. My guest for this installment is California holographer Nancy Gorglione. Now, there aren&#x27;t too many holographers that could come on to the show and start talking about their involvement with the field going back to the early 1970s. But Nancy was there when it was all going down in the San Francisco Bay Area and she has been kind enough to come on the show and tell us her story, which also includes her work with Greg Cherry and their company, CherryHolography.com. Cherry Optical Holography. So, you know, there&#x27;s not much more I can add to introducing someone like this, so I will turn it over to Nancy.</div>
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Profiles in Holography is brought to you through the generous support of the International Holograp.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:07">0:07</span><span class="transcript-text">For more information, visit their website at holographyfund.org.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:17">0:17</span><span class="transcript-text">Hello everyone, this is Frank Defratis, and I would like to welcome you to this latest broadcast of Holotalk, the Internet&#x27;s laser and holography talk show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">My guest for this installment is California holographer Nancy Gorglione.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:32">0:32</span><span class="transcript-text">Now, there aren&#x27;t too many holographers that could come on to the show and start talking about their involvement with the field going back to the early 1970s.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:41">0:41</span><span class="transcript-text">But Nancy was there when it was all going down in the San Francisco Bay Area, and she has been kind enough to come on the show and tell us her story, which also includes her work with Greg Cherry and their company, Cherry Optical Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:57">0:57</span><span class="transcript-text">So, you know, there&#x27;s not much more I can add to introducing someone like this, so I will turn it over to</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Profiles in Holography is brought to you through the generous support of the International Holography Fund. For more information, visit their website at holographyfund.org. Hello everyone, this is Frank DeFreitas and I would like to welcome you to this latest broadcast of HoloTalk, the Internet&#x27;s laser and holography talk show. My guest for this installment is California holographer Nancy Gorglione. Now, there aren&#x27;t too many holographers that could come on to the show and start talking about their involvement with the field going back to the early 1970s. But Nancy was there when it was all going down in the San Francisco Bay Area and she has been kind enough to come on the show and tell us her story, which also includes her work with Greg Cherry and their company, CherryHolography.com. Cherry Optical Holography. So, you know, there&#x27;s not much more I can add to introducing someone like this, so I will turn it over to Nancy.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

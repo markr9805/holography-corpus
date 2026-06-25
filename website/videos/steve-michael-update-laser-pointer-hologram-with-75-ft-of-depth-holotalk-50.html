@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,336 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">The following is a production of Frankie Freitas and the Internet Museum of Holography. Hello and welcome to another week of HoloTalk for the week of March 15th, I believe it is. I don&#x27;t have the calendar handy with me here right now, but I believe it&#x27;s the week of March 15th. Greetings from the blizzard capital of the United States, or at least the next day or two is going to be the blizzard capital of the United States, Allentown, Pennsylvania. The snow&#x27;s coming down. We&#x27;re expecting what we call here on the east coast and northeastern, which is going to give us a potential of several feet of snow. And if you haven&#x27;t seen Allentown, Pennsylvania, and you&#x27;re tuning in on Sunday night or perhaps even Monday, it&#x27;s Sunday night now here. The Weather Channel has a reporter in Allentown, Pennsylvania. So when you turn on the Weather Channel and get updates on this winter storm, you will be able to look right into the town of HoloTalk in my studio. So greetings to everyone. Of course, it&#x27;s always nice to see the snow coming down, but boy, oh boy, the shoveling that we&#x27;re going to have to do when this mess is over is going to be incredible. Fortunately, by the middle of the week, we&#x27;re going to be up into the mid to upper 50s. So it&#x27;s not going to hang around as if it had hit earlier in the year, like December or January, which would be around for months. So it&#x27;s going to be a nice night, great night to do holograms. If you&#x27;ve ever done holograms, you know that there&#x27;s nothing better to dampen vibration in your environment than to have a nice cover of snow on the ground and no cars running around on the street becomes very quiet. This week we have Steve Michael as our guest. And. If you&#x27;re logging on to listen to this fantastic story, you&#x27;re in for a real treat. I know when I opened his email, my jaw hit the desk. I just could not believe that all of this is happening with such an inexpensive way to make holograms with laser pointers. And Steve&#x27;s going to be on in just a second to tell us all about this hologram that he made that has a depth of seven and a half feet, which I believe works out to about two. And a half meters. I&#x27;m real familiar with nanometers and millimeters, milliliters and liters. But when it gets up into meters and kilometers, I&#x27;m a little, a little touchy on that. So I think it&#x27;s about two and a half meters in depth. That works out to seven and a half feet, US feet. In any case, Steve&#x27;s going to be on to tell us all about it. And also a few tips on processing the slavage materials as well. A few things that he&#x27;s found. Found out working with those materials. And let me tell you, this is absolutely an incredible story about this depth that he&#x27;s received in this hologram. Because number one, there&#x27;s no indication that this is the upper limit. I remember when we first started talking that we thought it was an incredible feat to get a few inches. And I did the eight by ten hologram, which had a piece of coral that went back into the hologram about eight inch depth. And that was incredible. And it continued. It continued on and on. But when you talk about seven and a half feet. Now, folks, we&#x27;re not talking about a very expensive laser system like a water cooled argon that has an etalon attached to it that allows it to record a great amount of depth that&#x27;s running in the tens of thousands of dollars. Folks, we&#x27;re talking about a little battery powered laser pointer for $14.99. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. by mistake actually uh not by mistake but by chance a lot of the strayed light actually went past the scene that he had set up he set up a little scene of the lunar lander module with some astronauts on the surface of the moon and things like that and he noticed that the um well i&#x27;ll let him talk tell you about it because there&#x27;s an incredible part of the story and maybe he should tell you about it as well before i tell you we&#x27;ll just go in and listen to it then but in any case also if you have an opportunity check out my shoebox holography page which is a little tiny system that i&#x27;ve put together for introducing children school-aged children to holography using laser pointers it all fits in the area the size of the shoebox and it&#x27;s also great for demonstrating holography at museums or schools and even for doing workshops and what&#x27;s nice about it is this like i had mentioned this whole system packs up into the area the size of the shoebox and because the laser pointer is battery operated you do not need to even be around electricity to make the hologram so that&#x27;s an interesting aspect of it
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">The following is a production of Frankie Freitas and the Internet Museum of Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:12">0:12</span><span class="transcript-text">Hello and welcome to another week of HoloTalk for the week of March 15th, I believe it is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:20">0:20</span><span class="transcript-text">I don&#x27;t have the calendar handy with me here right now, but I believe it&#x27;s the week of March 15th.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:24">0:24</span><span class="transcript-text">Uh greetings from the Blizzard Capital of the United States, or at least the next day or two is going to be the Blizzard Capital of the United States, Allentown, Pennsylvania.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:35">0:35</span><span class="transcript-text">The snow&#x27;s coming down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:36">0:36</span><span class="transcript-text">We&#x27;re expecting what we call here on the east coast and nor&#x27;eastern, which is going to give us a potential of uh several feet of snow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:46">0:46</span><span class="transcript-text">And if you haven&#x27;t seen Allentown, Pennsylvania, and you&#x27;re tuning in on Sunday night or perhaps even Monday, it&#x27;s Sunday night now here, uh, the Weather Channel has a reporter in Allentown, Pennsylvania.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:59">0:59</span><span class="transcript-text">So when you turn on the weather channel and get updates on this winter storm, you will be able to look right into the town of Holo Talk in my studio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:09">1:09</span><span class="transcript-text">So greetings to everyone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:11">1:11</span><span class="transcript-text">Of course it&#x27;s always nice to see the snow coming down, but boy oh boy, the shoveling that we&#x27;re going to have to do when this mess is over is uh going to be incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Fortunately, by the middle of the week we&#x27;re going to be up into the mid to upper sixties, so it&#x27;s not going to hang around as if it had hit earlier in the year, like December or January, which it&#x27;d be around for months.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:33">1:33</span><span class="transcript-text">So it&#x27;s going to be a nice night, great night to do holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:36">1:36</span><span class="transcript-text">If you&#x27;ve ever done holograms, you know that uh there&#x27;s nothing better to dampen vibration in your environment than have a nice cover of snow on the ground and no cars running around on the street becomes very quiet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">This week we have Steve Michael as our guest, and if you&#x27;re logging on to uh listen to his fantastic story, you&#x27;re in for a real treat.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:59">1:59</span><span class="transcript-text">I know when I uh opened his email my jaw hit the desk.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:04">2:04</span><span class="transcript-text">I just could not believe that uh all this is happening with such an inexpensive way to make holograms with laser pointers and Steve&#x27;s going to be on in just a second to tell us all about this hologram that he made that has a depth of seven and a half feet which I believe works out to about uh two and a half meters.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:26">2:26</span><span class="transcript-text">I&#x27;m real familiar with uh nanometers and millimeters, milliliters and liters, but when it gets up into meters and kilometers I&#x27;m uh a little a little touchy on that so I think it&#x27;s about two and a half uh meters in depth that works out to seven and a half feet uh US feet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:45">2:45</span><span class="transcript-text">In any case Steve&#x27;s going to be on to tell us all about it and also a few tips on uh processing the slavage materials as well uh a few things that he&#x27;s found out working with those materials and let me tell you this this is absolutely an incredible story about this uh depth that he&#x27;s received in this hologram because number one there&#x27;s no indication that this is the upper limit.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:09">3:09</span><span class="transcript-text">I remember when we first started talking that we thought it was an incredible feat to get a few inches and I did the eight by ten hologram which had a piece of coral that went back into the hologram about eight inch depth and that was incredible and it continued on and on but when you talk about seven and a half feet now folks we&#x27;re not talking about a a very expensive laser system like a uh a water cooled argon that ha has an etilon attached to it that allows it to uh record a great amount of depth that&#x27;s uh running in the tens of thousands of dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:42">3:42</span><span class="transcript-text">Folks, we&#x27;re talking about a little battery-powered laser pointer for $14.99.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:51">3:51</span><span class="transcript-text">And this was a split beam laser transmission hologram that he made and and quite by mistake actually uh not by mistake but by chance a lot of the stray light actually went past the scene that he had set up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:04">4:04</span><span class="transcript-text">He set up a a little scene of the lunar lander module with some astronauts on the surface of the moon and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">And he noticed that the um well I&#x27;ll let him talk tell you about it because there&#x27;s an incredible part of the story and maybe he should tell you about it as well um before I tell you and we&#x27;ll just go in and listen to it then.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:24">4:24</span><span class="transcript-text">But in any case also if you have an opportunity check out my shoebox holography page which is a little tiny system that I&#x27;ve put together for introducing uh children, school age children to holography using laser pointers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:42">4:42</span><span class="transcript-text">It all fits in the area the size of a shoebox and it&#x27;s also great for demonstrating holography at museums or schools uh and even for doing workshops and what&#x27;s nice about it is this like I had mentioned this whole system packs up into the area the size of a shoebox and because the laser pointer is battery operated you do not need to even be around electricity to make the hologram so that&#x27;s a an interesting aspect of it as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:11">5:11</span><span class="transcript-text">So let&#x27;s move on the interview with Steve I think runs about 15 minutes or so, and I&#x27;m not going to come back on after it&#x27;s over.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:19">5:19</span><span class="transcript-text">I just want to get this finished up here, run out and grab something to eat and get back and probably do a little bit of shoveling uh after I get this up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:29">5:29</span><span class="transcript-text">And I want to thank you for tuning into HoloTalk and continue to tune in each and every week when we bring you news and information on lasers and holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:41">5:41</span><span class="transcript-text">And also some late breaking news that if not for the internet, it would be virtually impossible to get as quickly as you&#x27;re getting this right now, because I got this email uh probably around lunchtime today from Steve, and through the magic of the internet, uh, within hours I have this up with an interview on the web that everyone uh can get information about it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:08">6:08</span><span class="transcript-text">So I&#x27;m going to now this is my own personal opinion.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:14">6:14</span><span class="transcript-text">To me, because I don&#x27;t want anyone saying that I&#x27;ve lost my mind or this or that, I feel that this is one of the most incredible holograms ever made.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:26">6:26</span><span class="transcript-text">And the reason being is because we see a lot of deep holograms that are made with systems that run into tens of thousands of dollars and uh with very expensive laser systems and optical components and arrangements.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">But this is something that&#x27;s completely different, and it&#x27;s I see a shift in holography, almost a revolutionary shift in the field of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:56">6:56</span><span class="transcript-text">And even though we&#x27;re still what many high-end holographers would consider low-end holography, I see it having an impact on the upper end sooner or later as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">And uh I&#x27;m not going to go any further with that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">We will let this all unfold in the way that it needs to unfold.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:18">7:18</span><span class="transcript-text">But I think some of the things that are happening right now are possibly some of the most important things that have ever happened in the field of holography, certainly within the last several years at least, if not going back to the beginning.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:31">7:31</span><span class="transcript-text">But this hologram by Steve Michael, which shows seven and a half feet of depth using a $14.99 battery operated laser pointer with all homemade equipment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:55">7:55</span><span class="transcript-text">Let&#x27;s see if my um my little opinion there actually bears out any type of fruit within the next uh several weeks, several months, because this isn&#x27;t the end of the line, folks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:12">8:12</span><span class="transcript-text">This is not the end of the line.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:13">8:13</span><span class="transcript-text">This is still very much the beginning, and who knows where this is going to go, and who knows how long it&#x27;s going to be, maybe a few weeks or maybe a few months.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:23">8:23</span><span class="transcript-text">But considering that holography goes back to the 60s, waiting a few weeks or a few months for a new thing to come through as a breakthrough is not that very long.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:33">8:33</span><span class="transcript-text">So, in within the next few months, if we happen to get another story, who knows what the next story is going to be and how far forward we will move again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:44">8:44</span><span class="transcript-text">And once again, I think it&#x27;s giving many people the freedom to finally break the chains of traditional holography, which has bound us to certain sizes and certain things that we could do, certain things that we couldn&#x27;t do that only the larger research laboratories could do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:02">9:02</span><span class="transcript-text">And we are definitely breaking out of those chains and we&#x27;re chains, and we&#x27;re saying we&#x27;re here, and now holography is finally in the hands of the masses, and let&#x27;s see what people can do with it and if we can&#x27;t take this somewhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:16">9:16</span><span class="transcript-text">So let&#x27;s move on to the interview with Steve Michael.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:19">9:19</span><span class="transcript-text">Um, like I said before, I&#x27;m not going to come back on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:22">9:22</span><span class="transcript-text">Of course, I went on for another five or ten minutes after I said that, but I I&#x27;ve just been ex I&#x27;ve just been so excited all day long about this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:29">9:29</span><span class="transcript-text">You know, drive driving around, I couldn&#x27;t stop thinking about it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:32">9:32</span><span class="transcript-text">I was grinding my teeth sitting at red lights just thinking about how exciting that this is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:37">9:37</span><span class="transcript-text">So congratulations to Steve Mike on what he&#x27;s doing for holography cannot be uh put into words, believe me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:46">9:46</span><span class="transcript-text">So uh thanks for tuning in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:48">9:48</span><span class="transcript-text">And first, let&#x27;s have a word from my sponsor, which is my own studio, because I can&#x27;t get any other sponsors, so I have to sponsor it myself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">Thanks for tuning in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:02">10:02</span><span class="transcript-text">See you next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:05">10:05</span><span class="transcript-text">Would you like to make your own one-of-a-kind hologram and learn how you can start making holograms on your own at the same time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:12">10:12</span><span class="transcript-text">You can do this and much more by attending one of Frank&#x27;s greatest&#x27;s holography workshops.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:17">10:17</span><span class="transcript-text">From beginner to advance, Frank&#x27;s got a workshop that&#x27;s just right for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:21">10:21</span><span class="transcript-text">From single afternoon, evening, or weekend introductory workshops to Wednesday evening five-week complete courses.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:28">10:28</span><span class="transcript-text">And don&#x27;t forget his newest workshop, Laser Pointer Holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:32">10:32</span><span class="transcript-text">Located just off the Northeast Extension of the Pennsylvania Turnpike and Interstate 78.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">The studio is a quick non-stop drive from the New York, Philadelphia, and Baltimore, Washington, DC areas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:43">10:43</span><span class="transcript-text">For more information, call the studio&#x27;s toll-free hotline at one-eight hundred four five eight three five two five and begin your own journey with holography today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:53">10:53</span><span class="transcript-text">That&#x27;s one eight hundred four five eight three five two five for more information on attending Frankie Frey&#x27;s holography workshop today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:06">11:06</span><span class="transcript-text">This is Frankie Fras.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:08">11:08</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:08">11:08</span><span class="transcript-text">Hi, Frank, fine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:09">11:09</span><span class="transcript-text">I wanted to get you on the phone and if you don&#x27;t mind maybe record a couple of your comments on that hologram that you made for this week&#x27;s show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:18">11:18</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:18">11:18</span><span class="transcript-text">Well, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:19">11:19</span><span class="transcript-text">I&#x27;ve already told a few people about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:21">11:21</span><span class="transcript-text">This is just incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:22">11:22</span><span class="transcript-text">I know, it blew me away.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:24">11:24</span><span class="transcript-text">Um I I was really amazed to see that I could uh all I did was shoot a the the uh the object beam just went across the whole landscape of the Lunanander thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:34">11:34</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:34">11:34</span><span class="transcript-text">You know, from front to back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:36">11:36</span><span class="transcript-text">And that was uh everything was there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:38">11:38</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:39">11:39</span><span class="transcript-text">No intensity drop off or anything.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:41">11:41</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:42">11:42</span><span class="transcript-text">Which is incredible in itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:44">11:44</span><span class="transcript-text">You know, I I I noticed that there was light in the background on my lab wall.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:48">11:48</span><span class="transcript-text">Honest to God.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:49">11:49</span><span class="transcript-text">I know, so seven and a half feet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:51">11:51</span><span class="transcript-text">Seven and a half feet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:56">11:56</span><span class="transcript-text">I&#x27;m gonna try the same setup with my thirty-five milliwatt and see, you know, what it does.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:01">12:01</span><span class="transcript-text">Yeah, now is this a split beam hologram?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:04">12:04</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:05">12:05</span><span class="transcript-text">Oh god.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:07">12:07</span><span class="transcript-text">That&#x27;s unbelievable.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:08">12:08</span><span class="transcript-text">I mean uh this little infinity two hundred is fantastic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:12">12:12</span><span class="transcript-text">Well I imagine you must be getting a lot of emails like I am from people who are doing this now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:17">12:17</span><span class="transcript-text">Right, as a matter of fact, I just got one from this guy, he had a pointer and he w him in the sun set up a setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:24">12:24</span><span class="transcript-text">And they were g they weren&#x27;t giving first of all they were using um PFG O one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:30">12:30</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:32">12:32</span><span class="transcript-text">And they were doing ten second exposures.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">And nothing was coming out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:37">12:37</span><span class="transcript-text">It was just, you know, pink.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:38">12:38</span><span class="transcript-text">The film was tank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:39">12:39</span><span class="transcript-text">Nothing was there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:40">12:40</span><span class="transcript-text">So I said, Well, you know, you gotta it&#x27;s gotta be longer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:43">12:43</span><span class="transcript-text">Try a fifty second.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:45">12:45</span><span class="transcript-text">So he did and the film did get dense but there was no image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:50">12:50</span><span class="transcript-text">So he said, Well, okay, I&#x27;m gonna buy the Infinity Two hundred and and he did.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:56">12:56</span><span class="transcript-text">Put that in the system and it worked the first time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">Well, and is this for a reflection or transmission?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:01">13:01</span><span class="transcript-text">Transmission.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:01">13:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:03">13:03</span><span class="transcript-text">What&#x27;s what exposure times are you finding compared to AGFA with the O ones and the O O three emulsions?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:09">13:09</span><span class="transcript-text">I&#x27;m finding the O one to be about twice.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:13">13:13</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:14">13:14</span><span class="transcript-text">And I&#x27;m finding the O three to be four times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:17">13:17</span><span class="transcript-text">Four times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:18">13:18</span><span class="transcript-text">Well yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:19">13:19</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">So two, yeah, four four times.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:22">13:22</span><span class="transcript-text">And generally with the five milliwatt, like the one the transmission I did last night, the you know, I used the spatial filter but the pin hole came out super clean and it was a thirty second exposure on AGFA eighty seventy five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:35">13:35</span><span class="transcript-text">What size plate did you use?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:36">13:36</span><span class="transcript-text">A four by five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:37">13:37</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:38">13:38</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:38">13:38</span><span class="transcript-text">Remember I had that cross effect on the O three?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:42">13:42</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:43">13:43</span><span class="transcript-text">And I&#x27;m finding out the film is very because it&#x27;s such a fine grain film, it&#x27;s like uh Kodak Tech Pan film, which needs special agitation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:52">13:52</span><span class="transcript-text">With the tech pan film, what you do is you drop it into the uh tech pan developer and you agitate it um vertically, not flipping it over in the in you know, in the tank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:04">14:04</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:04">14:04</span><span class="transcript-text">Um for five seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:06">14:06</span><span class="transcript-text">Then you let it sit for thirty seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:07">14:07</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:08">14:08</span><span class="transcript-text">And then in other words you&#x27;re not doing this, um actually I take that back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:13">14:13</span><span class="transcript-text">With that one you agitate up and down vertically for two seconds, two up and down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:17">14:17</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:18">14:18</span><span class="transcript-text">And then let it sit for thirty seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:20">14:20</span><span class="transcript-text">If you do any more agitation than that, what happens is you get more density around the edges of the perforation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:27">14:27</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:33">14:33</span><span class="transcript-text">Uh instead of flushing the the tray back and forth left to right and up and down, which was actually causing the cross effects.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:41">14:41</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:41">14:41</span><span class="transcript-text">It was developing more depth down the center and across the center.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:46">14:46</span><span class="transcript-text">Top to bottom and left to right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:47">14:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:48">14:48</span><span class="transcript-text">Because of the way I was rocking the tray.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:49">14:49</span><span class="transcript-text">So what I did was when I put the film in, I grabbed the corner of the film and use circular agitation for five seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:58">14:58</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:58">14:58</span><span class="transcript-text">Let it sit for thirty seconds.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:01">15:01</span><span class="transcript-text">Then do another five seconds of circular rotation, let it sit for thirty seconds and continue doing this for the whole five minutes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">And what processing technique are you using?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:10">15:10</span><span class="transcript-text">Still using Yeah, just a s straight viral, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:13">15:13</span><span class="transcript-text">And and the cross effect disappeared and I got uniform illuminat um, you know, density across the whole piece of sh sheet film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:21">15:21</span><span class="transcript-text">And I just put that up today on my site.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:23">15:23</span><span class="transcript-text">If you go to um my section uh titled films dot HTML.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:28">15:28</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:29">15:29</span><span class="transcript-text">I described that technique there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:31">15:31</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:31">15:31</span><span class="transcript-text">Now you don&#x27;t have to do that for zero one because it&#x27;s not as fine grained.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:35">15:35</span><span class="transcript-text">Did you say you ever did a reflection hologram with the zero one yet?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:38">15:38</span><span class="transcript-text">I don&#x27;t know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:39">15:39</span><span class="transcript-text">I I think I did, but I can&#x27;t remember.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:42">15:42</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:46">15:46</span><span class="transcript-text">Uhhuh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:47">15:47</span><span class="transcript-text">With that faster emulsion.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:48">15:48</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:49">15:49</span><span class="transcript-text">You know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:51">15:51</span><span class="transcript-text">Well, I like I said, um at the most you&#x27;re looking at two minutes at O three.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">For four by five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">For four by five with with the infinitor, you know, an F a split beam.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:06">16:06</span><span class="transcript-text">Yeah, so a single beam on the two and a half by two and a half plates or f I think it&#x27;s fifty millimeter by fifty millimeter their size is would uh cut that down considerably for kids.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">Uhhuh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:17">16:17</span><span class="transcript-text">But I I&#x27;m curious about this uh the depth on this hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:21">16:21</span><span class="transcript-text">I mean at seven and a half feet, that isn&#x27;t isn&#x27;t an indication at all that we&#x27;re maxed out either.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:27">16:27</span><span class="transcript-text">Exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:28">16:28</span><span class="transcript-text">I mean I can&#x27;t I mean I could certainly set something up on my, you know, ten foot table to see uh if I can reach ten feet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:37">16:37</span><span class="transcript-text">Um but I have a feeling I will and I want to go beyond and I can&#x27;t &#x27;cause I&#x27;ve maxed it out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:43">16:43</span><span class="transcript-text">Of course, like I said, I couldn&#x27;t I was amazed that my wall was absolutely stable during that thirty second.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:49">16:49</span><span class="transcript-text">Yeah, well that&#x27;s sort of like I guess with John Claire uh probably not as close to going into the caves, you know, because he uses no vibration isolation at all in the caves.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:58">16:58</span><span class="transcript-text">Uhhuh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:59">16:59</span><span class="transcript-text">But I guess the foundation of the house, uh d was that wall actually part of the foundation or was it the wall in the middle of the house?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:05">17:05</span><span class="transcript-text">No, it was the foundation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:06">17:06</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:06">17:06</span><span class="transcript-text">It was outside foundation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:08">17:08</span><span class="transcript-text">Plus I had my kids walking around upstairs closing opening and sh shedding the microwave, turning it on all during this exposure, so and everything just I mean it the hologram is just beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">Are you gonna put something up on your web page about that too?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:22">17:22</span><span class="transcript-text">Yes, I am.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:23">17:23</span><span class="transcript-text">Um I need to photograph it first.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:25">17:25</span><span class="transcript-text">Well make sure that there&#x27;s a link on the whole talk page so that people can go back over again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:30">17:30</span><span class="transcript-text">Yeah, it&#x27;s gonna take me, um I&#x27;m probably not gonna shoot the the uh film till tomorrow night and then processing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:36">17:36</span><span class="transcript-text">I don&#x27;t have a digital camera, but um I should get the results up there by uh the middle of the week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:42">17:42</span><span class="transcript-text">Okay, so uh if you&#x27;re listening to the show in the middle of the week, the end of the week, you might want to start going over to uh Steve&#x27;s website and see this what has to be absolutely the most incredible hologram that&#x27;s ever been made.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:56">17:56</span><span class="transcript-text">I&#x27;m gonna say that right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:58">17:58</span><span class="transcript-text">This has to be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:59">17:59</span><span class="transcript-text">I don&#x27;t care if it was a large corporation that uh did all the work that&#x27;s been done in the past, but this is a fourteen ninety-nine laser pointer who&#x27;s man that&#x27;s managed to create seven and a half feet of depth in a hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:13">18:13</span><span class="transcript-text">So this this has got to be one of one of the greatest, if not the greatest holograms that&#x27;s ever been made.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:18">18:18</span><span class="transcript-text">It&#x27;s gotta be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:58">18:58</span><span class="transcript-text">In fact, we are in a blizzard condition.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:01">19:01</span><span class="transcript-text">Oh wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:02">19:02</span><span class="transcript-text">Up in the Alltown area, uh we&#x27;re looking at sixteen to twenty four inches of snow through tonight, which is a perfect time to make holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:12">19:12</span><span class="transcript-text">&#x27;Cause everything I mean you&#x27;ll talk about dampening your environment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:15">19:15</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:15">19:15</span><span class="transcript-text">Uh I mean it it&#x27;s always so quiet and peaceful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:18">19:18</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:19">19:19</span><span class="transcript-text">No cars on the road.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:20">19:20</span><span class="transcript-text">Yeah, no cars on the road and you walk outside and it&#x27;s just peaceful and it&#x27;s a g it&#x27;s a great time to do holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:25">19:25</span><span class="transcript-text">So I I&#x27;d love to uh set something up and shoot this one once I get this show finished and up on the air.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:31">19:31</span><span class="transcript-text">You know, it dawned on me last night after I saw this hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:34">19:34</span><span class="transcript-text">It blows away the need to have equal path lengths.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:37">19:37</span><span class="transcript-text">Oh yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:38">19:38</span><span class="transcript-text">Absolutely.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:39">19:39</span><span class="transcript-text">If you&#x27;ve got that much uh coherence.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:41">19:41</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:42">19:42</span><span class="transcript-text">You don&#x27;t even have to worry about path length.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:43">19:43</span><span class="transcript-text">What&#x27;s a path length they&#x27;ll be saying in a couple of weeks from now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:47">19:47</span><span class="transcript-text">I&#x27;m sorry, what is that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:48">19:48</span><span class="transcript-text">But they&#x27;ll be saying what what&#x27;s a path length?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:50">19:50</span><span class="transcript-text">You don&#x27;t even you know that whole terminology may even just drop right out of holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:55">19:55</span><span class="transcript-text">Yeah, except for those lasers that have shorter coherently.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:59">19:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:00">20:00</span><span class="transcript-text">The world has to know about this, you know, and uh what you what you&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:04">20:04</span><span class="transcript-text">I mean, number one, you come on the show, I think it was back in either late November or or early December and you give us the news about making these holograms using a laser pointer, which was incredible news and here it is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:16">20:16</span><span class="transcript-text">Uh within several months, uh you&#x27;ve got another story and another finding that you&#x27;ve done that uh it if it doesn&#x27;t blow anybody away then they&#x27;re either made out of stone or something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:28">20:28</span><span class="transcript-text">Well, too bad I can&#x27;t get a patent on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:30">20:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:33">20:33</span><span class="transcript-text">Still not making any money, but that&#x27;s okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:36">20:36</span><span class="transcript-text">Well who knows what it&#x27;ll lead to eventually someday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:40">20:40</span><span class="transcript-text">That&#x27;s true.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:41">20:41</span><span class="transcript-text">And uh you you as far as I&#x27;m concerned, it&#x27;s the most exciting time in holography for me for years and years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:47">20:47</span><span class="transcript-text">You know, I mean I&#x27;m addicted to it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:49">20:49</span><span class="transcript-text">And in fact you must be addicted too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:54">20:54</span><span class="transcript-text">I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:55">20:55</span><span class="transcript-text">And then here you are back in again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:56">20:56</span><span class="transcript-text">So it must be very addictive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:57">20:57</span><span class="transcript-text">I know, I can&#x27;t get away from it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:59">20:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:59">20:59</span><span class="transcript-text">I keep thinking of all these things I want to try.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:01">21:01</span><span class="transcript-text">Uh especially the um uh the two laser thing with the electric supply that do you have to do it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:06">21:06</span><span class="transcript-text">Oh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:07">21:07</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:07">21:07</span><span class="transcript-text">I&#x27;m I&#x27;m really uh curious about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:10">21:10</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:11">21:11</span><span class="transcript-text">Wouldn&#x27;t that be something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:12">21:12</span><span class="transcript-text">And then what you could do if that works, then you can use one for the reference beam and the other for the object beam.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:17">21:17</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:18">21:18</span><span class="transcript-text">And then because of the coherent link, uh you don&#x27;t have any path length problems.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:23">21:23</span><span class="transcript-text">Gee, you&#x27;re home free.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:24">21:24</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:25">21:25</span><span class="transcript-text">And for uh anyone who&#x27;s listening, Steve and I sent a couple emails back and I had suggested now I don&#x27;t know whether this is going to work or not, but uh uh as things in the past have shown us, you can&#x27;t always believe the things that we&#x27;ve been hearing uh with traditional holography anymore.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:40">21:40</span><span class="transcript-text">Those things are falling by the wayside left and right here, as Steve is showing us time after time here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:46">21:46</span><span class="transcript-text">But uh running two laser pointers but running them off of the same power supply, which splits the exact current up into two separate currents so that the diode is uh running at the uh same current level and perhaps you can use one diode for the reference beam and the other diode for the uh object beam.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:04">22:04</span><span class="transcript-text">Now did you maintain any specific object to uh reference ratios with this transmission hologram?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:09">22:09</span><span class="transcript-text">I know sometimes people go four to one or two to one, some things like that, six to eight to one sometimes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:14">22:14</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:15">22:15</span><span class="transcript-text">Um were you concerned at all with that or just set up and shoot?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:18">22:18</span><span class="transcript-text">I always try to get it close to two to one or less.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:21">22:21</span><span class="transcript-text">But I think this particular setting was approximately probably three to one, maybe even four to one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:26">22:26</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:27">22:27</span><span class="transcript-text">Yeah, and uh I was amazed at the brightness.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:29">22:29</span><span class="transcript-text">Well, the person that you had mentioned with that uh Infinitor pointer, I think hi his him and his son, did they send you the chess piece?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:36">22:36</span><span class="transcript-text">No, they didn&#x27;t.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:41">22:41</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:42">22:42</span><span class="transcript-text">And you can see the hologram that they did.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:43">22:43</span><span class="transcript-text">It&#x27;s a beautiful hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:44">22:44</span><span class="transcript-text">Oh, and and the guy wrote in the email, uh, you may not find this nice enough to use and I took a look at it and I said, You&#x27;ve got to be kidding me, this is beautiful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:51">22:51</span><span class="transcript-text">Oh, so he wrote to you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:53">22:53</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:53">22:53</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:54">22:54</span><span class="transcript-text">Yeah, I&#x27;ve been uh you know what happens with a lot of people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:56">22:56</span><span class="transcript-text">They go through the websites a lot of times and they send a identical emails to a lot of different people.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:01">23:01</span><span class="transcript-text">Oh I all the time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:02">23:02</span><span class="transcript-text">Uh-huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:02">23:02</span><span class="transcript-text">Happens all the time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:03">23:03</span><span class="transcript-text">A lot of times emails that I get, I know you&#x27;re getting the same ones.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:06">23:06</span><span class="transcript-text">Uh you know, and I try to answer them and I know you&#x27;re probably answering them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:09">23:09</span><span class="transcript-text">But that&#x27;s what they do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:10">23:10</span><span class="transcript-text">And a lot of other ones don&#x27;t even bother on the websites at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:14">23:14</span><span class="transcript-text">They just go on to the website, look for an email link, click on it and say, uh, uh, we&#x27;re trying to make a hologram and we haven&#x27;t been successful, we&#x27;re not we don&#x27;t have an image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:22">23:22</span><span class="transcript-text">What are we doing wrong?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:23">23:23</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:24">23:24</span><span class="transcript-text">And how can you answer that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:25">23:25</span><span class="transcript-text">I mean you need to move could you please send me a little more information and maybe I can troubleshoot this for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:31">23:31</span><span class="transcript-text">Really.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:32">23:32</span><span class="transcript-text">But anyway, I don&#x27;t want to hold you up too long &#x27;cause I know it&#x27;s around dinner time, but I just had to call you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:37">23:37</span><span class="transcript-text">This is an unscheduled call, an unscheduled show, but this news, believe me, uh Steve, this is just fantastic news.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:45">23:45</span><span class="transcript-text">Yeah, I was very happy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:46">23:46</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:48">23:48</span><span class="transcript-text">I bet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:49">23:49</span><span class="transcript-text">I&#x27;ll be checking on later in the week, uh, towards the end of next week to uh log on and see if we can&#x27;t uh get a little peek at that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:55">23:55</span><span class="transcript-text">Uh yeah, I&#x27;m just hoping that I can get him focused that that back wall.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:00">24:00</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:01">24:01</span><span class="transcript-text">That&#x27;s gonna I don&#x27;t have any idea how many exposures gonna run on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:05">24:05</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:05">24:05</span><span class="transcript-text">Well y you know you probably know that the hologram itself does have depth of field just like if the actual object were there too, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:12">24:12</span><span class="transcript-text">Right, right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:12">24:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:13">24:13</span><span class="transcript-text">So I&#x27;m not gonna you know, if I use an F sixteen on my camera, I&#x27;m not even gonna cover that twenty four inches, I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:19">24:19</span><span class="transcript-text">So I&#x27;m gonna have to make one exposure in the front of the hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:23">24:23</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:25">24:25</span><span class="transcript-text">Focus to the back, isn&#x27;t that something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:27">24:27</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:27">24:27</span><span class="transcript-text">Was there anything on the wall?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:28">24:28</span><span class="transcript-text">What is it like uh a cinder block wall?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:31">24:31</span><span class="transcript-text">Actually there&#x27;s two things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:33">24:33</span><span class="transcript-text">You see the ta you see you see part of a m a mirror mount that I have on the table first, which is about a foot away from the wall, and then you see the actual uh shadow of the mirror on the wall.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:46">24:46</span><span class="transcript-text">Oh my goodness.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:48">24:48</span><span class="transcript-text">So hopefully I can define that in the photograph so everybody can see it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:51">24:51</span><span class="transcript-text">If not, then I&#x27;ll just show the front of the Lunar Lander scene and the back of the Lunar Lander scene.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:56">24:56</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:57">24:57</span><span class="transcript-text">Which is twenty-four inches.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:58">24:58</span><span class="transcript-text">That&#x27;s enough.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:59">24:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:00">25:00</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:00">25:00</span><span class="transcript-text">Well thanks for uh take a couple minutes and uh tune on, listen to the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:04">25:04</span><span class="transcript-text">And uh let&#x27;s just keep moving ahead.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:07">25:07</span><span class="transcript-text">Well we will.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:08">25:08</span><span class="transcript-text">It makes you wonder what&#x27;s next.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:10">25:10</span><span class="transcript-text">I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:11">25:11</span><span class="transcript-text">What&#x27;s next?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:12">25:12</span><span class="transcript-text">It&#x27;s exciting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:13">25:13</span><span class="transcript-text">All right, Steve, take care.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:14">25:14</span><span class="transcript-text">Okay, thanks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:15">25:15</span><span class="transcript-text">I&#x27;ll send you that uh little chess piece that that guy sent me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:17">25:17</span><span class="transcript-text">I&#x27;ll touch it to an email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:19">25:19</span><span class="transcript-text">JPEG.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:19">25:19</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:20">25:20</span><span class="transcript-text">Bye bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:21">25:21</span><span class="transcript-text">Bye.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">The following is a production of Frankie Freitas and the Internet Museum of Holography. Hello and welcome to another week of HoloTalk for the week of March 15th, I believe it is. I don&#x27;t have the calendar handy with me here right now, but I believe it&#x27;s the week of March 15th. Greetings from the blizzard capital of the United States, or at least the next day or two is going to be the blizzard capital of the United States, Allentown, Pennsylvania. The snow&#x27;s coming down. We&#x27;re expecting what we call here on the east coast and northeastern, which is going to give us a potential of several feet of snow. And if you haven&#x27;t seen Allentown, Pennsylvania, and you&#x27;re tuning in on Sunday night or perhaps even Monday, it&#x27;s Sunday night now here. The Weather Channel has a reporter in Allentown, Pennsylvania. So when you turn on the Weather Channel and get updates on this winter storm, you will be able to look right into the town of HoloTalk in my studio. So greetings to everyone. Of course, it&#x27;s always nice to see the snow coming down, but boy, oh boy, the shoveling that we&#x27;re going to have to do when this mess is over is going to be incredible. Fortunately, by the middle of the week, we&#x27;re going to be up into the mid to upper 50s. So it&#x27;s not going to hang around as if it had hit earlier in the year, like December or January, which would be around for months. So it&#x27;s going to be a nice night, great night to do holograms. If you&#x27;ve ever done holograms, you know that there&#x27;s nothing better to dampen vibration in your environment than to have a nice cover of snow on the ground and no cars running around on the street becomes very quiet. This week we have Steve Michael as our guest. And. If you&#x27;re logging on to listen to this fantastic story, you&#x27;re in for a real treat. I know when I opened his email, my jaw hit the desk. I just could not believe that all of this is happening with such an inexpensive way to make holograms with laser pointers. And Steve&#x27;s going to be on in just a second to tell us all about this hologram that he made that has a depth of seven and a half feet, which I believe works out to about two. And a half meters. I&#x27;m real familiar with nanometers and millimeters, milliliters and liters. But when it gets up into meters and kilometers, I&#x27;m a little, a little touchy on that. So I think it&#x27;s about two and a half meters in depth. That works out to seven and a half feet, US feet. In any case, Steve&#x27;s going to be on to tell us all about it. And also a few tips on processing the slavage materials as well. A few things that he&#x27;s found. Found out working with those materials. And let me tell you, this is absolutely an incredible story about this depth that he&#x27;s received in this hologram. Because number one, there&#x27;s no indication that this is the upper limit. I remember when we first started talking that we thought it was an incredible feat to get a few inches. And I did the eight by ten hologram, which had a piece of coral that went back into the hologram about eight inch depth. And that was incredible. And it continued. It continued on and on. But when you talk about seven and a half feet. Now, folks, we&#x27;re not talking about a very expensive laser system like a water cooled argon that has an etalon attached to it that allows it to record a great amount of depth that&#x27;s running in the tens of thousands of dollars. Folks, we&#x27;re talking about a little battery powered laser pointer for $14.99. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. And this was a split beam laser transmitter. by mistake actually uh not by mistake but by chance a lot of the strayed light actually went past the scene that he had set up he set up a little scene of the lunar lander module with some astronauts on the surface of the moon and things like that and he noticed that the um well i&#x27;ll let him talk tell you about it because there&#x27;s an incredible part of the story and maybe he should tell you about it as well before i tell you we&#x27;ll just go in and listen to it then but in any case also if you have an opportunity check out my shoebox holography page which is a little tiny system that i&#x27;ve put together for introducing children school-aged children to holography using laser pointers it all fits in the area the size of the shoebox and it&#x27;s also great for demonstrating holography at museums or schools and even for doing workshops and what&#x27;s nice about it is this like i had mentioned this whole system packs up into the area the size of the shoebox and because the laser pointer is battery operated you do not need to even be around electricity to make the hologram so that&#x27;s an interesting aspect of it
 
 And because the laser pointer is battery operated, you do not need to even be around electricity to make the hologram. So that&#x27;s an interesting aspect of it as well. So let&#x27;s move on. The interview with Steve, I think, runs about 15 minutes or so. And I&#x27;m not going to come back on after it&#x27;s over. I just want to get this finished up here, run out and grab something to eat and get back and probably do a little bit of shoveling after I get this up. And I want to thank you for tuning in to HoloTalk and continue to tune in each and every week when we bring you news and information on lasers and holography. And also some late breaking news that, if not for the Internet, would be virtually impossible to get as quickly as you&#x27;re getting this right now because I got this email probably around lunchtime today from Steve. And through the magic. The magic of the Internet. Within hours, I have this up with an interview on the web that everyone can get information about it. So I&#x27;m going to me. Now, this is my own personal opinion to me because I don&#x27;t want anyone saying that I&#x27;ve lost my mind or this or that. I feel that this is one of the most incredible holograms ever made. And the reason being. Is because we see a lot of deep holograms that are made with systems that run into tens of thousands of dollars and very expensive laser systems and optical components and arrangements. But this is something that&#x27;s completely different. And it&#x27;s I see a shift in holography that almost a revolutionary shift in the field of holography. And even though we&#x27;re still what? Many. High end holographers would consider low end holography. I see it having an impact on the upper end sooner or later as well. And I&#x27;m not going to go any further with that. We will let this all unfold in the way that it needs to unfold. But I think some of the things that are happening right now are possibly some of the most important things that have ever happened in the field of holography. Certainly within the last several years. At least. If not going back to the beginning. But this hologram by Steve Michael. Which shows seven and a half feet of depth. Using a $14.99 battery operated laser pointer with all homemade equipment. I consider myself in my opinion to be one of the most important holograms that has ever been created. And let&#x27;s see if my. My little opinion there actually bears out. Any type of fruit within the next several weeks several months because this isn&#x27;t the end of the line folks. This is not the end of the line. This is still very much the beginning. And who knows where this is going to go and who knows how long it&#x27;s going to be maybe a few weeks or maybe a few months. But considering the holography goes back to the 60s. Waiting a few weeks. Or a few months for a new. Thing to come through as a breakthrough is not that very long. So within the next few months if we happen to get another story. Who knows what the next story is going to be and how far forward we will move again. And once again I think it&#x27;s giving many people the freedom to finally break the chains of traditional holography. Which has bound us to certain sizes and certain things that we could do. Certain things that we couldn&#x27;t do that only the larger research laboratories could do. And we are definitely breaking out of those changing chains and we&#x27;re saying we&#x27;re here. And now holography is finally in the hands of the masses and let&#x27;s see what people can do with it. And if we can&#x27;t take this somewhere. So let&#x27;s move on to the interview with Steve Michael. Like I said before I&#x27;m not going to come back on. Of course I went on for another five or 10 minutes after I said that. But I&#x27;ve just been. I just. I&#x27;ve been so excited all day long about this. You know driving around I couldn&#x27;t stop thinking about it. I was grinding my teeth sitting at red lights just thinking about how exciting that this is. So congratulations to Steve Michael and what he&#x27;s doing for holography cannot be put into words. Believe me. So thanks for tuning in. And first let&#x27;s have a word from my sponsor which is my own studio. Because I can&#x27;t. Get any other sponsors. So I have to sponsor it myself. Thanks for tuning in. See you next week. Would you like to make your own one of a kind hologram and learn how you can start making.
 
@@ -373,7 +795,7 @@ then do another 5 seconds of circular rotation let it sit for 30 seconds and con
 
 The world has to know about this, you know, and what you&#x27;re doing. I mean, number one, you come on the show, I think it was back in either late November or early December, and you give us the news about making these holograms using a laser pointer, which was incredible news. Now, here it is. Within several months, you&#x27;ve got another story and another finding that you&#x27;ve done that if it doesn&#x27;t blow anybody away, then they&#x27;re either made out of stone or something. Well, too bad I can&#x27;t get a patent on it. Yeah. Still not making any money, but that&#x27;s okay. Well, who knows what it will lead to eventually someday. That&#x27;s true. And as far as I&#x27;m concerned, it&#x27;s the most exciting time in holography for me for years and years. You know, I mean, I&#x27;m addicted to it. And, in fact, you must be addicted too because I remember you telling me you were going off on another project. I know. And then here you are back in again. So it must be very exciting. Very addicting. I know. I can&#x27;t get away from it. Yeah. I keep thinking of all these things I want to try, especially the two-laser thing with the electric supply that you had. Oh, yeah. Yeah. I&#x27;m really excited about that. Curious about that. Yeah. Wouldn&#x27;t that be something? And then what you could do, if that works, then you can use one for the reference beam and the other for the object beam. Yeah. And then because of the coherent length, you don&#x27;t have any pathway problems. Gee, you&#x27;re home free. Yeah. Yeah. And for anyone who&#x27;s listening, Steve and I sent a couple emails back, and I had suggested, now I don&#x27;t know whether this is going to work or not, but as things in the past have shown us, you can&#x27;t always believe the things we&#x27;ve been hearing with traditional holography anymore. Those things are falling by the wayside left and right here, as Steve is showing us time after time here. But running two laser pointers but running them off of the same power supply, which splits the exact current up into two separate currents so that the diode is running. And so, you can see that the current is running at the same current level. And perhaps you can use one diode for the reference beam and the other diode for the object beam. Now, did you maintain any specific object to reference ratios with this transmission hologram? I know sometimes people go four to one or two to one, some things like that, six to eight to one sometimes. Yeah. Were you concerned at all with that or just set up and shoot? I always try to get as close as two to one or less. Yeah. But I think this particular setting was approximately probably three to one, maybe even four to one. Yeah. Yeah. And I was amazed at the brightness. Well, the person that you had mentioned with that infinitor pointer, I think him and his son, did they send you the chess piece? No, they didn&#x27;t. I&#x27;ll pop that on the email and send it to you because I have the chess piece. Oh, okay. And you can see the hologram that they did. It&#x27;s a beautiful hologram. Oh, okay. And the guy wrote in the email, you may not find this nice enough to use. And I took a look at it and I said, you&#x27;ve got to be kidding me, this is beautiful. Oh, so he wrote to you? Yeah. Oh, okay. Yeah, I&#x27;ve been, you know what happens with a lot of people, they go through the websites a lot of times and they send identical emails to a lot of different people. Oh, I see. All the time. Uh-huh. Happens all the time. A lot of times, emails that I get, I know you&#x27;re getting the same ones. Uh-huh. You know, and I try to answer them and I know you&#x27;re probably answering them, but that&#x27;s what they do. And a lot of other ones don&#x27;t even bother on the websites at all. They just go onto the website, look for an email link, click on it and say, we&#x27;re trying to make a hologram and we haven&#x27;t been successful, we&#x27;re not, we don&#x27;t have an image, what are we doing wrong? Right. And how can you answer that? I mean, you need to look for it. Could you please send me a little more information and maybe I can troubleshoot this for you? Really? But anyway, I don&#x27;t want to hold you up too long because I know it&#x27;s around dinner time, but I just had to call you. This is an unscheduled call, an unscheduled show, but this news, believe me, Steve, this is just fantastic news. Yeah, I was very happy. Yeah? I bet. It&#x27;s how it works. I&#x27;ll be checking in later in the week, towards the end of next week to log on and see if we can&#x27;t get a little peek at that. Yeah. Yeah, I&#x27;m just hoping that I can get in focus at that back wall. Yeah. That&#x27;s going to, I don&#x27;t have any idea how my exposure&#x27;s going to run on that. Yeah. Well, you know, you probably know that the hologram itself does have depth of field just like if the actual object were there too, right? Right, right. Yeah. So I&#x27;m not going to, you know, if I use an F-16 on my camera, I&#x27;m not even going to cover that 24 inches, I know. Yeah. So I&#x27;m going to have to make one exposure in the front of the hologram. Yeah. And then focus to the back field. Focus to the back. Isn&#x27;t that something? Right. Was there anything on the wall? What is it, like a cinder block wall? Actually, there&#x27;s two things. You see part of a mirror mount that I have on the table first, which is about a foot away from the wall. And then you see the actual shadow of the mirror on the wall. Oh my goodness. So hopefully I can define that in the photographs so everybody can see it. If not, then I&#x27;ll just show the front of the lunar lander scene. The back of the lunar lander scene. OK. Which is 24 inches. That&#x27;s enough. Yeah. Well, thanks for taking a couple minutes and tune on, listen to the show. And let&#x27;s just keep moving ahead. Oh, we will. It makes you wonder what&#x27;s next.
 
-Well, thanks for taking a couple minutes and tune on, listen to the show. And let&#x27;s just keep moving ahead. Oh, we will. It makes you wonder what&#x27;s next. I know. What&#x27;s next? This is exciting. All right, Steve, take care. Okay, Pat. I&#x27;ll send you that little chess piece that that guy sent me. I&#x27;ll attach it to an email, JPEG. All right. Bye-bye. Bye. Bye.</div>
+Well, thanks for taking a couple minutes and tune on, listen to the show. And let&#x27;s just keep moving ahead. Oh, we will. It makes you wonder what&#x27;s next. I know. What&#x27;s next? This is exciting. All right, Steve, take care. Okay, Pat. I&#x27;ll send you that little chess piece that that guy sent me. I&#x27;ll attach it to an email, JPEG. All right. Bye-bye. Bye. Bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

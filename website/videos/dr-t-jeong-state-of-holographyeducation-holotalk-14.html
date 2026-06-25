@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,314 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello, everybody. Frank DeFreitas here. Welcome to another week of Holotalk. The Dr. Jayong interview is coming up in just a moment. I just want to point one thing out. I&#x27;m going to give Dr. Jayong a fair shake here. He was in Venezuela and he just got back, so the show was not put up on Sunday. It&#x27;s going up on Tuesday, the 31st. So what I&#x27;m going to do is the next Holotalk show is not going to be this Sunday. The next Holotalk is going to be next Tuesday, April 7th. And then we will go back to Sundays after that. So tune in next week, Tuesday night, April 7th, for the new Holotalk show. And then we&#x27;ll get back on to Sundays beginning April 12th once again. Dr. Jayong&#x27;s interview ran a little over 20 minutes long. It&#x27;s a nice interview. He talks about his work with color holography, holography in education, a little bit about Intograph, and even a few comments on the AGFIS situation. So it&#x27;s a very interesting interview. So I want to thank you. Thank you for tuning in. And let&#x27;s just get right into the interview. And I&#x27;m not going to come back on after it&#x27;s over. So I&#x27;ll say goodbye now. And thank you very much for tuning in to Holotalk. And thanks for your patience this week for me getting it up a little bit late. Here&#x27;s the Dr. Jayong interview. Dr. Jayong. Dr. Jayong. This is Frank DeFreitas. How are you? Oh, good. Good. Very good to have you on the phone. Do you have a few minutes? Sure. Of your time? Yeah. You last week, I was in no man&#x27;s land. You took a little vacation. Well, a big one, actually. Yeah? Did you have some fun? Well, I took my two sons, and I took a week-long clinic on high wind, ocean wind surfing. That sounds pretty good to me. Very, very challenging. But we have summer-like weather here today. Oh, and it&#x27;s the same temperature here as in Venezuela. Yeah. Allentown, PA today, we hit about 84, 85 degrees today. Well, I guess you didn&#x27;t need to take a vacation. That&#x27;s right. I could still use a vacation. It&#x27;s just the water there is about the same temperature. We&#x27;re talking to Dr. Jayong, who is with Lake Forest College. And Dr. Jayong also runs the Holography Workshop Programs and the symposium, the International Symposium for Display Holography. What&#x27;s new out there that you can tell us about that&#x27;s hot off the grill? Do you have anything that&#x27;s absolutely, positively new? Well, the newest that we report. And as... CNN interviewed us on, is we can now make holograms whose image, you know, has the same color as the object. It stays the same color no matter what angle you look at. It has both vertical and horizontal parallax and does not fade away when you look at large angles. So in other words, it&#x27;s the same as having the real thing in a box. So we think that&#x27;s pretty new. And making... Holographic optical elements. Like, make a hologram of a mirror. That mirror, apparently, inside the glass actually reflects quite light. Incredible. So holographic optical elements in three color, we think there are many applications. Where are you doing the full color holography at? Is there a studio somewhere out in the... We&#x27;re doing it at Lake Forest College. Oh, right at the college. Right. The Center for Photonics Studies. When is the next holography? When is the next symposium coming up? When is that going to be? At the new millennium. Oh, really? Every three years we have a symposium. Okay, so 2000. So last year we just had the sixth one. I see. And we had 22 countries came. I have not been out there yet. Well, well, there&#x27;s always the next time. I don&#x27;t fly. I&#x27;ve never been... Well, it&#x27;s... I&#x27;m 42 years old and I&#x27;ve never been on the airplane. Philadelphia is not so far, you know. Yeah, I guess I could drive. You know what? I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. You know what people do is make it part of a vacation. People from Europe, they just take their family and after the symposium or before they go see the Grand Canyon. That&#x27;s great. Well, what we can do in 2000, because 2000 is still pretty long away, maybe I can come out with all the studio broadcasting equipment and we can do some live broadcasting right from the symposium. Well, I&#x27;m sure by that time internet will be better. Yeah. Yeah. I think it will be even more fantastic beyond imagination right now I think. Now do you have your workshops every year or are they every two years? We&#x27;ve been having it since 1971. Every year? Every year. But for the first time I&#x27;m going to take a sabbatical this summer because I have never taken a summer off. Since 71? Since this year I retired from teaching. Oh, no kidding. I&#x27;m now a emeritus. So instead I do... I do a lot of things. I do a lot of things. I do a lot of things. But since that I do research only which allows me to have a completely free schedule. That&#x27;s why I chose this particular last week to go windsurfing because that&#x27;s the high wind season with El Nino going on down in Margarita Island. Yeah, you&#x27;re certainly like resting, huh? Oh, yeah. Yeah.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Hello everybody, Frank Defratis here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">Welcome to another week of HoloTalk, the Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:04">0:04</span><span class="transcript-text">Jaeong interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:05">0:05</span><span class="transcript-text">It&#x27;s coming up in just a moment.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:06">0:06</span><span class="transcript-text">I just want to point one thing out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:08">0:08</span><span class="transcript-text">I&#x27;m going to give Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:08">0:08</span><span class="transcript-text">Jong a fair shake here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:10">0:10</span><span class="transcript-text">He was in Venezuela and he just got back, so uh the show was not put up on Sunday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:15">0:15</span><span class="transcript-text">It&#x27;s going up on Tuesday, the thirty-first.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:17">0:17</span><span class="transcript-text">So what I&#x27;m going to do is the next Holo Talk show is not going to be this Sunday.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:22">0:22</span><span class="transcript-text">The next Holo Talk is going to be next Tuesday, April 7th.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:28">0:28</span><span class="transcript-text">And then we will go back to Sundays after that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:31">0:31</span><span class="transcript-text">So uh tune in next week, Tuesday night, April 7th, for the new Holo Talk show, and then we&#x27;ll get back on to Sundays beginning April 12th once again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:40">0:40</span><span class="transcript-text">Uh Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:41">0:41</span><span class="transcript-text">Jae On&#x27;s interview ran over a little tw a little over twenty minutes long.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:44">0:44</span><span class="transcript-text">It&#x27;s a nice interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:45">0:45</span><span class="transcript-text">He talks about his work with color holography, uh holography and education, a little bit about uh integraph, and even uh a few comments on the AGFA situation, so it&#x27;s a very interesting interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:56">0:56</span><span class="transcript-text">So I want to thank you for tuning in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:59">0:59</span><span class="transcript-text">And uh let&#x27;s just get right into the interview, and I&#x27;m not going to come back on after it&#x27;s over, so I&#x27;ll say goodbye now and thank you very much for tuning into Hollow Talk and thanks for your patience this week uh for me getting it up a little bit late.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:10">1:10</span><span class="transcript-text">Here&#x27;s the Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:11">1:11</span><span class="transcript-text">Jeong interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:12">1:12</span><span class="transcript-text">Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:13">1:13</span><span class="transcript-text">Jae On.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:14">1:14</span><span class="transcript-text">This is Frank Defradis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:16">1:16</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:16">1:16</span><span class="transcript-text">Oh good, good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:18">1:18</span><span class="transcript-text">Very good to have you on the phone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Do you have a few minutes?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:20">1:20</span><span class="transcript-text">Sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:22">1:22</span><span class="transcript-text">Yeah, you last week I was in no man&#x27;s land.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:25">1:25</span><span class="transcript-text">You you took a little vacation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:27">1:27</span><span class="transcript-text">Uh a big one, actually.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:28">1:28</span><span class="transcript-text">Yeah?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:29">1:29</span><span class="transcript-text">Did you have some fun?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:30">1:30</span><span class="transcript-text">Well, I took my two sons and I uh took a week-long clinic on high wind, uh ocean wind surfing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:40">1:40</span><span class="transcript-text">That sounds pretty good to me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:42">1:42</span><span class="transcript-text">Very challenging.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:43">1:43</span><span class="transcript-text">Well, we have summer-like weather here today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:47">1:47</span><span class="transcript-text">Uh same temperature here as in Venezuela.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">Yeah, Al Allentown PA today, we hit about eighty four, eighty-85 degrees today.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:54">1:54</span><span class="transcript-text">Well, I guess you didn&#x27;t need to like take a vacation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:57">1:57</span><span class="transcript-text">I could still you go back to the case.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:58">1:58</span><span class="transcript-text">Uh we&#x27;re talking to Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:03">2:03</span><span class="transcript-text">Jayong who is with Lake Forest College.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:06">2:06</span><span class="transcript-text">And Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:07">2:07</span><span class="transcript-text">Jae Young also runs the holography workshop programs and the symposium, the uh international symposium for display holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:17">2:17</span><span class="transcript-text">What&#x27;s new out there that you can tell us about that&#x27;s uh hot off the uh grill?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:21">2:21</span><span class="transcript-text">Do you have anything that&#x27;s absolutely possibly new?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:24">2:24</span><span class="transcript-text">The newest that we report and as uh CNN had interviewed us on, is uh we can now make holograms uh whose image, you know, has the same color as the object.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:37">2:37</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:37">2:37</span><span class="transcript-text">It stays the same color no matter what angle you look at.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:40">2:40</span><span class="transcript-text">It has both vertical and horizontal parallax and does not fade away when you look at large angles.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:48">2:48</span><span class="transcript-text">So in other words, uh it&#x27;s the same as having the real thing in that in a box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">So uh we think that&#x27;s pretty new and uh making uh holographic optical elements.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:59">2:59</span><span class="transcript-text">Yeah like make a hologram of a mirror.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:01">3:01</span><span class="transcript-text">What&#x27;s that mirror apparently in the ho inside the the glass uh actually reflects quite light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:09">3:09</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:09">3:09</span><span class="transcript-text">Incredible holographic optical elements in three colour, we think there are many uh applications.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:15">3:15</span><span class="transcript-text">Where where are you doing the full color holography at?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:18">3:18</span><span class="transcript-text">Is there a studio somewhere out in the uh we&#x27;re doing it at Lake Forest college.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:22">3:22</span><span class="transcript-text">Oh, right at the college.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:23">3:23</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:24">3:24</span><span class="transcript-text">It&#x27;s the center for photonic studies.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:26">3:26</span><span class="transcript-text">When when is the next symposium coming up?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:28">3:28</span><span class="transcript-text">When is that going to be?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">Uh at the new millennium.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:32">3:32</span><span class="transcript-text">Oh really?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:32">3:32</span><span class="transcript-text">Every three years we have uh Okay, so two thousand positions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:36">3:36</span><span class="transcript-text">So last year we just had the uh sixth one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:39">3:39</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:40">3:40</span><span class="transcript-text">And we have twenty two countries uh team.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:43">3:43</span><span class="transcript-text">I have not been out there yet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:45">3:45</span><span class="transcript-text">Well well is the next time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">I don&#x27;t fly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:49">3:49</span><span class="transcript-text">I&#x27;ve never been thirty two years old and I&#x27;ve never been in the colour.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:53">3:53</span><span class="transcript-text">It&#x27;s not so far, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:54">3:54</span><span class="transcript-text">Yeah, I guess I could drive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:55">3:55</span><span class="transcript-text">You know what people do is uh uh make it part of a vacation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:00">4:00</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:01">4:01</span><span class="transcript-text">People from Europe, they just take their family and after the symposium or before they go see the Grand Canyon.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:07">4:07</span><span class="transcript-text">That&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:09">4:09</span><span class="transcript-text">Well what we can do in two thousand because two thousand is still pretty long way maybe I can come out with all the uh studio broadcasting equipment we can do some live broadcasting we can use some I&#x27;m sure by that time uh internet would be even more fantastic beyond imagination right now I think.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:27">4:27</span><span class="transcript-text">Now do you have your workshops every year or are they every two years?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:32">4:32</span><span class="transcript-text">Every year every year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:34">4:34</span><span class="transcript-text">But for the first time I&#x27;m gonna take a sabbatical this summer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:39">4:39</span><span class="transcript-text">Because I have never taken the summer off.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:41">4:41</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:43">4:43</span><span class="transcript-text">Since seventy since seventy one and since this year I retired from teaching now emeritus.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:50">4:50</span><span class="transcript-text">So instead I do research only which allows me to have a completely free schedule.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:56">4:56</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:56">4:56</span><span class="transcript-text">That&#x27;s why I chose this parti last week to go in surfing because that&#x27;s the high wind season with El Niño going on down in uh Margarita Island.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:07">5:07</span><span class="transcript-text">We&#x27;re certainly like resting huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:09">5:09</span><span class="transcript-text">Oh yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:11">5:11</span><span class="transcript-text">So tell us a little bit about uh the research you&#x27;re doing that the full color holography is very interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:16">5:16</span><span class="transcript-text">How many lasers do you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:18">5:18</span><span class="transcript-text">What we do it um we take a uh blue colour, green colour, and red colored lasers, three of them, using dichroic beam splitters, combined all the three beams into one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:31">5:31</span><span class="transcript-text">So it&#x27;s very fantastic to see a white laser beam.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:36">5:36</span><span class="transcript-text">Incredible.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:37">5:37</span><span class="transcript-text">And uh with that s one beam, we do denis you holograms exactly the way you do one colour.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:45">5:45</span><span class="transcript-text">So simple.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:46">5:46</span><span class="transcript-text">You put a full color object uh on the other side of the holographic plate and expose it once and develop it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:53">5:53</span><span class="transcript-text">If someone wanted to see a full color hologram, where are some of the key places perhaps across the case?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:59">5:59</span><span class="transcript-text">Uh number one, visit my website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:02">6:02</span><span class="transcript-text">We uh show quite a few of them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Uh so that&#x27;s out we have a gallery here in Lake Forest College, of course, that&#x27;s open to the public every day.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:12">6:12</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:12">6:12</span><span class="transcript-text">We show some of the first ones uh we made here four years ago.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:16">6:16</span><span class="transcript-text">And uh but the CNN uh program uh uh you want me to give the address?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:22">6:22</span><span class="transcript-text">Um yes, you go ahead and give the address and let me remind the listeners that there&#x27;s there will be a link right on the whole talk page right now as you&#x27;re listening to this show, you can click on that link and go to the Lake Forest College uh webpage for Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:37">6:37</span><span class="transcript-text">Jiang&#x27;s lab.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">And uh the real audio player will continue to play in the background while you can take a look at all the fantastic work that they&#x27;re doing out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:46">6:46</span><span class="transcript-text">So why don&#x27;t you go ahead and give them the uh web address in case they have to do it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:49">6:49</span><span class="transcript-text">Right, the web address is uh H T T P colon slash slash W W W dot L F C dot E D U Slash physics slash holography Slash.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:12">7:12</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:13">7:13</span><span class="transcript-text">We allow you to a lot of choices to visit our gallery to look at at the description of our work and uh detailed scientific reference.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:25">7:25</span><span class="transcript-text">Now you&#x27;ve been involved involved with education for probably since the beginning when you got involved with holography I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">Since nineteen sixty six one of your focuses was not only on the uh college level education but on junior high school and high school education as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:40">7:40</span><span class="transcript-text">Um how do you feel that holography is being represented in the schools now?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:46">7:46</span><span class="transcript-text">Do you think it&#x27;s grown or has it sort of from my judgment uh the educational application of holography is the area that will be constant because education is constant.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:00">8:00</span><span class="transcript-text">No matter what happens to the economy, no matter what happens to what&#x27;s new, what&#x27;s old.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:04">8:04</span><span class="transcript-text">Education is key.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:06">8:06</span><span class="transcript-text">And holography uh having involving itself with three direct Nobel Prizes in physics.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:14">8:14</span><span class="transcript-text">The Littmann Noble Nobel Prize in 1908, the uh Brock Nobel Prize in 1915, the Garborn Nobel Prize in 1971, uh makes holography a very basic subject, meaning it is not a trick, not a fad, it is good science.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:32">8:32</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:33">8:33</span><span class="transcript-text">So I had always been interested in uh making it understandable.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:39">8:39</span><span class="transcript-text">So in uh about eleven years ago, the Thomas Edison Foundation uh funded a project in which I wrote a holography uh uh project book for children for twelve year old and in it we just teach them how to make seven kinds of holograms at home right now using a total budget of three hundred dollars meaning about the the money you need to buy a fair camera.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:08">9:08</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:09">9:09</span><span class="transcript-text">But the three hundred dollars you buy your laser and all the optics, film plates, all everything you need to make those holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:17">9:17</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:18">9:18</span><span class="transcript-text">So uh I also made video so my project has been to well the uh some schools get those booklets.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">This is a non profit basis, you know, it&#x27;s a two dollar book.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:30">9:30</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:30">9:30</span><span class="transcript-text">So the whole the philosophy is uh let children learn naturally meaning do it first.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:37">9:37</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:38">9:38</span><span class="transcript-text">Then when they are interested they&#x27;ll start wondering how does it work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:42">9:42</span><span class="transcript-text">Then they have to l find out how rainbows work how soap bubbles give color.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:48">9:48</span><span class="transcript-text">All the basic the how seashells you know have uh i uh all those nice colors mhm and so forth and it all these ideas add together equal to a dentist hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">It&#x27;s a wonderful opportunity to bring the uh science students together with the creative students as well because in schools usually these two as I in fact sell this program so to speak.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:13">10:13</span><span class="transcript-text">I don&#x27;t think of this as science or art or whatever.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:16">10:16</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:17">10:17</span><span class="transcript-text">It is just something to do and they some students would do it as art, some would do it as crap, some will do it as science, you know, they can decide yes what it is and uh so I uh been doing school programs all around the country and uh I&#x27;m doing s teacher projects, meaning on Saturdays every year, uh uh science students from junior high or high school always have a so called uh institute day.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:47">10:47</span><span class="transcript-text">During that day I would teach the science students how to make holograms so then they can of course teach students locally.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:55">10:55</span><span class="transcript-text">The the objective of the whole project is to make holography a basic part of the science curriculum curriculum in uh junior high schools.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:07">11:07</span><span class="transcript-text">In other words, everybody who have made a hologram when you have gone through junior high, so they know what the principles are involved.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:15">11:15</span><span class="transcript-text">At that time, that&#x27;s the time before they uh kind of uh look at science in the wrong way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:23">11:23</span><span class="transcript-text">They find out that hey, this you mean this is science.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:26">11:26</span><span class="transcript-text">I couldn&#x27;t believe it, it&#x27;s actually fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:28">11:28</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:28">11:28</span><span class="transcript-text">My friends told me science cannot be fun, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:32">11:32</span><span class="transcript-text">So uh so at age twelve is about when you should show them that science art everything, if you uh do it with a degree of uh dedication, they&#x27;re all fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:44">11:44</span><span class="transcript-text">I get a lot of students that listen to this program.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:47">11:47</span><span class="transcript-text">And let&#x27;s just imagine an eighth grade student out there and they&#x27;re interested in holograms and holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:53">11:53</span><span class="transcript-text">Would you encourage them to follow through on that project?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:59">11:59</span><span class="transcript-text">You know, so that uh everything they need.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:01">12:01</span><span class="transcript-text">What about as a career choice?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:03">12:03</span><span class="transcript-text">They want to say they want to grow career.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">I never tell a student to become a holographer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:09">12:09</span><span class="transcript-text">Never.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:10">12:10</span><span class="transcript-text">Never.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:11">12:11</span><span class="transcript-text">And the reason for that is uh the reason is I telling them to do it the way they want to learn to play the violin.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:19">12:19</span><span class="transcript-text">You don&#x27;t necessarily want to be a tons of violinist.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:22">12:22</span><span class="transcript-text">You are enriching your life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:25">12:25</span><span class="transcript-text">A few people may end up doing it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:27">12:27</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:28">12:28</span><span class="transcript-text">Because you find it uh that you&#x27;re so dedicated to it that you wouldn&#x27;t mind living that life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">But uh I always advise students to broaden the horizon, do holography as a project, take the pace, also do some projects in art, do some projects in uh literature.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:47">12:47</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:48">12:48</span><span class="transcript-text">Then you will know what you like.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:51">12:51</span><span class="transcript-text">In the next ten years, do you think holography would be a serious career choice for someone?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">It certainly is a serious career choice right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:00">13:00</span><span class="transcript-text">Now here again I tell if they are interested in holography, I tell them to broaden their scientific base so that they can shift any time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:10">13:10</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:11">13:11</span><span class="transcript-text">Uh laterally, you know, into a a life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:14">13:14</span><span class="transcript-text">For example, the big application in holography, uh in the next ten years is computer memory.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:21">13:21</span><span class="transcript-text">Uh each uh holographic optical element to control light inside the computer chip, mm-hmm to distribute the information from one chip to another via light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:32">13:32</span><span class="transcript-text">That&#x27;s the important use.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:34">13:34</span><span class="transcript-text">Even now the most important uses of holography, uh you know, in my I I have a Tom Pine mat.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:41">13:41</span><span class="transcript-text">I always wear chip watches because I lose them when I&#x27;m winning.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:45">13:45</span><span class="transcript-text">But there&#x27;s a hologram in in there that you&#x27;re looking right through.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:50">13:50</span><span class="transcript-text">Really?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:50">13:50</span><span class="transcript-text">Uh used to when you push the button at night to look at what time it is, mm-hmm, there would be w one little bright s light on one corner and spread out to the other side and it fades out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:01">14:01</span><span class="transcript-text">Right now there&#x27;s a hologram uh layer in there that spreads the light evenly throughout the entire space of my watch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:07">14:07</span><span class="transcript-text">There&#x27;s a hologram, nobody knows about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:09">14:09</span><span class="transcript-text">I did not know about that on the Timex watch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:11">14:11</span><span class="transcript-text">Yep, in the Motorola uh cell phone, mm-hmm, you turn it on at night, there&#x27;s a hologram on the on under the glass.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:21">14:21</span><span class="transcript-text">Isn&#x27;t that interesting?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:22">14:22</span><span class="transcript-text">In other words, there are in lots of places in a C D player there&#x27;s a hologram inside to split the light, send the light to different places, you know, and grocery store.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:34">14:34</span><span class="transcript-text">In in other words, holograms are already in many places people don&#x27;t know, and in the future it&#x27;ll be many other places.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">That&#x27;s something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:43">14:43</span><span class="transcript-text">And that&#x27;s whole area, uh so I tell students they can have fun making holograms of pictures to to learn.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:52">14:52</span><span class="transcript-text">Maybe that&#x27;s their profession.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:54">14:54</span><span class="transcript-text">Make art uh image, artistic images.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:57">14:57</span><span class="transcript-text">But by learning one thing, you automatically are learning a million things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:01">15:01</span><span class="transcript-text">Relate, you know, one learning to another, how generic learnings are that one physical law apply to infinite number of things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:11">15:11</span><span class="transcript-text">And then be able to be flexible when you see an application in H O E do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:16">15:16</span><span class="transcript-text">In interferometry, do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:18">15:18</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:19">15:19</span><span class="transcript-text">So uh in that sense holography grows in in diverse fields as it is now kind of invisible doing s uh uh in front of your eye, literally.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:32">15:32</span><span class="transcript-text">That we don&#x27;t we&#x27;re not even aware of.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:35">15:35</span><span class="transcript-text">Do you think the um Agas situation is going to have any detrimental effect on holographic education in the United States?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:42">15:42</span><span class="transcript-text">Uh I think I&#x27;m an optimist.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:45">15:45</span><span class="transcript-text">I wrote an editorial for the proceedings of the volume being uh published just last month uh by the S P I E uh of the conference that we had last summer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">And my the title of my my introduction was holography, a runos renaissance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:05">16:05</span><span class="transcript-text">What I say is ACFA&#x27;s withdrawal actually ignited a forest fire, which is a bad thing, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:13">16:13</span><span class="transcript-text">But after a forest fire, new growth takes place.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:16">16:16</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:17">16:17</span><span class="transcript-text">It clears down and that&#x27;s exactly what&#x27;s going on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:20">16:20</span><span class="transcript-text">ACFA dominated the scene for twenty five years, so no one else will even get in and bother to make good film and plates.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:28">16:28</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:28">16:28</span><span class="transcript-text">So we stage data scroll no colour holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:33">16:33</span><span class="transcript-text">I mean two colour holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:35">16:35</span><span class="transcript-text">But by their withdrawing now suddenly we find other sources from Germany, from Russia, from Japan and China.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:43">16:43</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:43">16:43</span><span class="transcript-text">And they&#x27;re better than ECFA.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:47">16:47</span><span class="transcript-text">In other words, uh that&#x27;s a renaissance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:49">16:49</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:50">16:50</span><span class="transcript-text">And DuPont now is in the game of making photopolymer holograms in full color.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:56">16:56</span><span class="transcript-text">We do that by the way, we use DuPont full colour, uh photopolymer and make copies of a holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:03">17:03</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:04">17:04</span><span class="transcript-text">For your full colour holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:06">17:06</span><span class="transcript-text">Right, right, to mass produce them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:08">17:08</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:09">17:09</span><span class="transcript-text">So in other words there&#x27;s this gonna be a uh a new life, new millennium for holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:16">17:16</span><span class="transcript-text">Using new and better materials, uh with more w uh wide open applications.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:22">17:22</span><span class="transcript-text">Now you have a business which you have had for many years, Integraph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:26">17:26</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:29">17:29</span><span class="transcript-text">This yes, uh early in my uh career when I stopped teaching uh especially children hologram, they always wanna find out where can I buy the film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:40">17:40</span><span class="transcript-text">At that time, you know, only you can buy it only in bulk, a whole roll of this, a whole big box of that and so forth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:47">17:47</span><span class="transcript-text">But a science fair project student is not going to have the money or the need for large quantities.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:54">17:54</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:54">17:54</span><span class="transcript-text">So we decided uh at home, look, we&#x27;ll sell you one square foot of film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:59">17:59</span><span class="transcript-text">That&#x27;s all you need.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:00">18:00</span><span class="transcript-text">Well it turned out it grows and grow and becomes a complete business and we Integraph now supply uh to the whole world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:07">18:07</span><span class="transcript-text">Our biggest customer last year was Australia.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:11">18:11</span><span class="transcript-text">No kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:12">18:12</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:13">18:13</span><span class="transcript-text">And so uh we also got a dealership from DuPont to sell their Omni Tech seven oh six.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:20">18:20</span><span class="transcript-text">They they only give two dealerships in the whole world at that time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:25">18:25</span><span class="transcript-text">So um that&#x27;s uh Intigraph.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:27">18:27</span><span class="transcript-text">So uh we now assemble a kit for learners of any age.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:33">18:33</span><span class="transcript-text">You want to spend minimum uh amount of money to start why waste money by buying all the new gadgets you don&#x27;t even know what they are.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:42">18:42</span><span class="transcript-text">So using the simplest thing learn seven projects first, then you know what you need next to learn the next project.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:49">18:49</span><span class="transcript-text">So so uh we still are aim at education.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:53">18:53</span><span class="transcript-text">Our customer base is schools, universities and people want to learn holography so we make videos show you how to do it and uh other written material to what to do next after that little book clip you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:08">19:08</span><span class="transcript-text">Why don&#x27;t you let everyone know your email address and maybe this is my name just T, my initial and then my last name J E O N G with no space, T J E O N G at A O L dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:26">19:26</span><span class="transcript-text">And I do that we can give people complete catalogs and we even give advice when people have trouble.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:33">19:33</span><span class="transcript-text">They just ask me questions in the internet and I tell you, here&#x27;s what you d I think you have done wrong, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:38">19:38</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:39">19:39</span><span class="transcript-text">I also uh include a link with your name on the Holo Talk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:45">19:45</span><span class="transcript-text">So if they click on your name, yeah, when they click on your name they&#x27;ll get your email address.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:50">19:50</span><span class="transcript-text">How&#x27;s that?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:51">19:51</span><span class="transcript-text">So that uh if anyone say that again I cannot hear you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:54">19:54</span><span class="transcript-text">What I&#x27;ll do is I&#x27;ll create a link on the Holo Talk page.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:58">19:58</span><span class="transcript-text">Sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:58">19:58</span><span class="transcript-text">And where your name will be listed and if they click on your name they will get an email form that they can request information about your products with integration.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">Right, that&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:08">20:08</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:08">20:08</span><span class="transcript-text">I appreciate that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:09">20:09</span><span class="transcript-text">Anything else you want to let the listeners know about, uh before we wrap this up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:14">20:14</span><span class="transcript-text">Well, uh I I tell I I&#x27;m a professor in the liberal arts college for a reason.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:21">20:21</span><span class="transcript-text">I tell uh all young people to make sure you broaden your education and not start narrowing down too early.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:30">20:30</span><span class="transcript-text">Make sure you read history, read literature, do music, and make some holograms for fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:37">20:37</span><span class="transcript-text">And then when you have done a broad based education, then you choose which is the best that suits you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:48">20:48</span><span class="transcript-text">So I don&#x27;t sell holography at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:50">20:50</span><span class="transcript-text">I sell it that&#x27;s part of the thing that I can do to help uh people to get into this particular area in addition to all the other areas.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:00">21:00</span><span class="transcript-text">That&#x27;s very wise.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:01">21:01</span><span class="transcript-text">I hear you&#x27;re quite the violinist as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:03">21:03</span><span class="transcript-text">I play in two orchestra.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:05">21:05</span><span class="transcript-text">I&#x27;m a concert master of the a college of chamber orchestra and I play first violin in a semi professional orchestra.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:14">21:14</span><span class="transcript-text">And I enjoy it enormously.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:17">21:17</span><span class="transcript-text">And I windsurf with my children.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:21">21:21</span><span class="transcript-text">I can keep up with them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:22">21:22</span><span class="transcript-text">How old are you how old are your sons?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:24">21:24</span><span class="transcript-text">And uh so I that&#x27;s my philosophy of life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:28">21:28</span><span class="transcript-text">How old are your sons?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:30">21:30</span><span class="transcript-text">Uh they are uh thirty and thirty two and I&#x27;m sixty six.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:34">21:34</span><span class="transcript-text">I I have three daughters eighteen, seventeen and uh fifteen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:38">21:38</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:41">21:41</span><span class="transcript-text">Yeah the oldest one&#x27;s away a college physics major so I hope she does wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:45">21:45</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:46">21:46</span><span class="transcript-text">That&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:46">21:46</span><span class="transcript-text">What college?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:47">21:47</span><span class="transcript-text">Uh Georgian Court College which is a private women&#x27;s college in New Jersey.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:51">21:51</span><span class="transcript-text">I&#x27;m for private uh uh liberal arts colleges.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:54">21:54</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:55">21:55</span><span class="transcript-text">Because he there we pay attention to each individual.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:59">21:59</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:59">21:59</span><span class="transcript-text">And uh my philosophy is go to a good small liberal arts college and then go to a big good graduate school.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:07">22:07</span><span class="transcript-text">That&#x27;s that&#x27;s the advice that she received as well and she&#x27;s doing pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:11">22:11</span><span class="transcript-text">That I believe in that firm yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:13">22:13</span><span class="transcript-text">Well Dr Jalen it was a pleasure speaking with you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:16">22:16</span><span class="transcript-text">Great pleasure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:17">22:17</span><span class="transcript-text">And uh I hope you log on and hear the interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:21">22:21</span><span class="transcript-text">I&#x27;ll have a Tuesday I&#x27;m starting a new life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:23">22:23</span><span class="transcript-text">Well congratulations on your new life.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:25">22:25</span><span class="transcript-text">I can&#x27;t wait till I can start my new life too I still have a few years to I think you&#x27;ve got a good a very interesting one and I certainly you&#x27;re very devoted to what you&#x27;re doing and that is a sign that you enjoy what you&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:38">22:38</span><span class="transcript-text">Yeah I have a great time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:39">22:39</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:39">22:39</span><span class="transcript-text">Thank you very much for being a guest.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:41">22:41</span><span class="transcript-text">Good night.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:41">22:41</span><span class="transcript-text">Okay good night bye</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello, everybody. Frank DeFreitas here. Welcome to another week of Holotalk. The Dr. Jayong interview is coming up in just a moment. I just want to point one thing out. I&#x27;m going to give Dr. Jayong a fair shake here. He was in Venezuela and he just got back, so the show was not put up on Sunday. It&#x27;s going up on Tuesday, the 31st. So what I&#x27;m going to do is the next Holotalk show is not going to be this Sunday. The next Holotalk is going to be next Tuesday, April 7th. And then we will go back to Sundays after that. So tune in next week, Tuesday night, April 7th, for the new Holotalk show. And then we&#x27;ll get back on to Sundays beginning April 12th once again. Dr. Jayong&#x27;s interview ran a little over 20 minutes long. It&#x27;s a nice interview. He talks about his work with color holography, holography in education, a little bit about Intograph, and even a few comments on the AGFIS situation. So it&#x27;s a very interesting interview. So I want to thank you. Thank you for tuning in. And let&#x27;s just get right into the interview. And I&#x27;m not going to come back on after it&#x27;s over. So I&#x27;ll say goodbye now. And thank you very much for tuning in to Holotalk. And thanks for your patience this week for me getting it up a little bit late. Here&#x27;s the Dr. Jayong interview. Dr. Jayong. Dr. Jayong. This is Frank DeFreitas. How are you? Oh, good. Good. Very good to have you on the phone. Do you have a few minutes? Sure. Of your time? Yeah. You last week, I was in no man&#x27;s land. You took a little vacation. Well, a big one, actually. Yeah? Did you have some fun? Well, I took my two sons, and I took a week-long clinic on high wind, ocean wind surfing. That sounds pretty good to me. Very, very challenging. But we have summer-like weather here today. Oh, and it&#x27;s the same temperature here as in Venezuela. Yeah. Allentown, PA today, we hit about 84, 85 degrees today. Well, I guess you didn&#x27;t need to take a vacation. That&#x27;s right. I could still use a vacation. It&#x27;s just the water there is about the same temperature. We&#x27;re talking to Dr. Jayong, who is with Lake Forest College. And Dr. Jayong also runs the Holography Workshop Programs and the symposium, the International Symposium for Display Holography. What&#x27;s new out there that you can tell us about that&#x27;s hot off the grill? Do you have anything that&#x27;s absolutely, positively new? Well, the newest that we report. And as... CNN interviewed us on, is we can now make holograms whose image, you know, has the same color as the object. It stays the same color no matter what angle you look at. It has both vertical and horizontal parallax and does not fade away when you look at large angles. So in other words, it&#x27;s the same as having the real thing in a box. So we think that&#x27;s pretty new. And making... Holographic optical elements. Like, make a hologram of a mirror. That mirror, apparently, inside the glass actually reflects quite light. Incredible. So holographic optical elements in three color, we think there are many applications. Where are you doing the full color holography at? Is there a studio somewhere out in the... We&#x27;re doing it at Lake Forest College. Oh, right at the college. Right. The Center for Photonics Studies. When is the next holography? When is the next symposium coming up? When is that going to be? At the new millennium. Oh, really? Every three years we have a symposium. Okay, so 2000. So last year we just had the sixth one. I see. And we had 22 countries came. I have not been out there yet. Well, well, there&#x27;s always the next time. I don&#x27;t fly. I&#x27;ve never been... Well, it&#x27;s... I&#x27;m 42 years old and I&#x27;ve never been on the airplane. Philadelphia is not so far, you know. Yeah, I guess I could drive. You know what? I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. I&#x27;m going to fly. You know what people do is make it part of a vacation. People from Europe, they just take their family and after the symposium or before they go see the Grand Canyon. That&#x27;s great. Well, what we can do in 2000, because 2000 is still pretty long away, maybe I can come out with all the studio broadcasting equipment and we can do some live broadcasting right from the symposium. Well, I&#x27;m sure by that time internet will be better. Yeah. Yeah. I think it will be even more fantastic beyond imagination right now I think. Now do you have your workshops every year or are they every two years? We&#x27;ve been having it since 1971. Every year? Every year. But for the first time I&#x27;m going to take a sabbatical this summer because I have never taken a summer off. Since 71? Since this year I retired from teaching. Oh, no kidding. I&#x27;m now a emeritus. So instead I do... I do a lot of things. I do a lot of things. I do a lot of things. But since that I do research only which allows me to have a completely free schedule. That&#x27;s why I chose this particular last week to go windsurfing because that&#x27;s the high wind season with El Nino going on down in Margarita Island. Yeah, you&#x27;re certainly like resting, huh? Oh, yeah. Yeah.
 
 surfing because that&#x27;s the high wind season with El Nino going on down in Margarita Island. You&#x27;re certainly not resting. Oh yeah yeah. So tell us a little bit about the research you&#x27;re doing that the full color holography is very interesting. How many lasers does it take? We take a blue color, green color and red color lasers, three of them, using dichroic beam splitters, combine all the three beams into one. So it&#x27;s very fantastic to see a white laser beam. Incredible. And with that one beam we do Dennis Huck holograms exactly the way you do one color. It&#x27;s so simple. You put a full color object on the other side of the holographic plate and expose it once and develop it. If someone wanted to see a full color hologram, where are some of the key elements that are needed to make it work? Well, the first thing is to make sure that the hologram isемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуемуему link right on the whole talk page right now as you&#x27;re listening to this show you can click on that link and go to the lake forest college web page for dr jayong&#x27;s lab and the real audio player will continue to play in the background while you can take a look at all the fantastic work that they&#x27;re doing out there so why don&#x27;t you go ahead and give them the web address in case they right the web address is http colon slash slash www dot l f c dot e d u slash physics slash holography slash okay we allow you to a lot of choices to visit our gallery to look at the description of our work and detail scientific reference now you&#x27;ve been involved involved with education from from probably since the beginning when you got involved with holography I know you&#x27;ve done in 66 one of your focuses was not only on the college level education but on junior high school and high school education as well how do you feel that holography is being represented in the schools now do you think it&#x27;s grown or has it sort of like that in fact it&#x27;s been a little bit more recent but my judgment the educational application of holography is the area that will be constant because education is constant no matter what happens to the economy no matter what happens to what&#x27;s new what&#x27;s old education is key and holography having involving itself with three direct Nobel Prizes in physics mm-hmm but Lippmann Nobel Prize in 1908 the Brock Nobel Prize in 1915 the Gabor Nobel Prize in 1971 makes holography a very basic subject meaning it is not a trick not a fad it is good science yes so I had always been interested in making it understandable so in about 11 years ago the Thomas Edison Foundation funded a project in which I wrote a holography project book for children for 12 year olds and in it we just teach them how to make seven kinds of holograms at home right now using a total budget of three hundred dollars meaning about the money you need to buy a fair camera yes but the three hundred dollars you buy your laser and all the optics film plates everything you need to make those holograms mm-hmm so uh I also made these holograms and I made these holograms and I made these holograms and I made these holograms and I made these holograms video so my project had been to well the some schools get those booklet this is a nonprofit basis you know yes a two dollar book mm-hmm so the whole the philosophy is let children learn naturally meaning do it first mm-hmm then when they are interested they start wondering how does it work then they have to find out how rainbows were how soap bubbles give color all the basic how sea water is work then they have to find out how rainbows were how soap bubbles give color all the basic how sea water is seashells have all those nice colors and so forth. And all these ideas add together equal to a Tennessee hologram. It&#x27;s a wonderful opportunity to bring the science students together with the creative students as well, because in schools usually these...
 
@@ -371,7 +771,7 @@ It is a wonderful opportunity to bring the science students together with the cr
 
 things. Yes. To relate, you know, one learning to another. How generic learnings are that one physical law applies to infinite number of things. And then be able to be flexible when you see an application in HOE, do that. In interferometry, do that. So, in that sense, holography grows in diverse fields. As it is now kind of invisibly doing in front of your eye, literally, that we were not even aware of. Do you think the AGFA situation is going to have any detrimental effect on holographic education in the United States? I think, I&#x27;m an optimist. I wrote an editorial for the proceedings of the volume being published just last month by the SPIE of the conference that we had last summer. And the title of my introduction was Holography, a Renaissance. What I say is AGFA&#x27;s withdrawal actually ignited a forest fire, which is a bad thing, right? But after a forest fire, new growth takes place. I see. It clears down. And that&#x27;s exactly what&#x27;s going on. AGFA dominated the scene for 25 years, so no one else would even get in and bother to make good film and plays. Mm-hmm. So we stayed, stayed as Quo, no color holograms. I mean, two color holograms. But by their withdrawing, now suddenly we find other sources from Germany, from Russia, from Japan and China. Mm-hmm. And they&#x27;re better than AGFA. In other words, that&#x27;s a renaissance. Yes. And DuPont now is in the game of making photopolymer holograms in full color. We do that. By the way, we use DuPont full color photopolymer and make copies of the holograms. Mm-hmm. For your full color holograms. Right. To mass produce them. Mm-hmm. So, in other words, there&#x27;s going to be a new life, new millennium for holography using new and better materials with more wide open applications. Now, you have a business which you have had for many years, Intagraph. Right, Intagraph. It&#x27;s a trip. Can you tell us a little bit about that? Yes. Early in my career, when I started teaching, especially children, hologram, they always wanted to find out where can I buy the film. At that time, you know, only, you can buy it only in bulk, a whole roll of this, a whole big box of that and so forth. But a science fair project, student is not going to have the money or the need for large quantities. So, we decided at home, look, we&#x27;ll sell you one square foot of film. That&#x27;s all you need. Well, it&#x27;s growing and growing and becomes a complete business. And we Intagraph now supply to the whole world. Our biggest customer last year was Australia. No kidding. Right. And so, we also got a dealership from DuPont to sell their Omnitech 706. They only give two dealerships in the whole world at that time. that&#x27;s Intagraph. So, we now assemble a kit for learners of any age. You want to spend minimum amount of money to start. Why waste money by buying all the new gadgets? You don&#x27;t even know what they are. So, you do the simplest thing, learn seven projects first. Then you know what you need next to learn the next project. So, we still aim at education. Our customer base is schools, universities, and people want to learn holography. So, we make videos, show you how to do it, and other written materials, what to do next after that little booklet. Why don&#x27;t you let everyone know your email address? They may be looking for materials. My name is T, my initial, and then my last name J-E-O-N-G with no space. T-J-E-O-N-G at AOL.com. And all of that. We can give people complete catalogs and we even give advice when people have trouble. They just ask me questions on the internet and I tell you, here&#x27;s what I think you have done wrong. I&#x27;ll also include a link with your name on the Holotalk page. So, if they click on your name, they&#x27;ll get your email address. How&#x27;s that? Say that again. I cannot hear you. What I&#x27;ll do is I&#x27;ll create a link on the Holotalk page. Sure. Where your name will be listed and if they click on your name, they will get an email form that they can request information about your products with integration. Right. That&#x27;s great. Okay. Right. I appreciate that. Anything else?
 
-and if they click on your name, they will get an email form that they can request information about your products with integration. Right, that&#x27;s right. Okay. Right, I appreciate that. Anything else you want to let the listeners know about before we wrap this up? Well, I tell, I&#x27;m a professor in the liberal arts college for a reason. I tell all young people to make sure you broaden your education and not start narrowing down too early. Make sure you read history, read literature, do music, and make some holograms for fun. And then when you have done a broad-based education, then you choose what is the best that suits you. So I don&#x27;t sell holography at all. I sell it as part of the thing that I can do to help people to get into this particular area, in addition to all the other things. That&#x27;s very wise. I hear you&#x27;re quite the violinist as well. I play in two orchestras. I&#x27;m a concertmaster of the college chamber orchestra, and I play first violin in a semi-professional orchestra. And I enjoy it enormously. And I windsurf with my children. I can keep up with them. How old are your sons? And so that&#x27;s my philosophy of life. How old are your sons? They are 30 and 32. Oh, okay. And I&#x27;m 66. I have three daughters, 18, 17, and 15. Wow. Those are the age of two things together. Yeah, the oldest one&#x27;s away, a college physics major, so I hope she does well. Physics, wow. Yes. That&#x27;s great. What college? Georgian Court College, which is a private women&#x27;s college in New Jersey. I&#x27;m for private liberal arts colleges. Yes. Because there we pay attention to each individual. Mm-hmm. And my philosophy is go to a good small liberal arts college and then go to a big good graduate school. That&#x27;s the advice that she received as well, and she&#x27;s doing pretty good. I believe in that firmly. Well, Dr. Jayong, it was a pleasure speaking with you. Great pleasure. And I hope you log on and hear the interview. All right. I&#x27;ll have that for Tuesday. Well, I&#x27;m starting a new life. Well, congratulations on your new life. I can&#x27;t wait till I can start my new life, too. I still have a few years to go. Well, I think you got it. Well, I think you got it. You got a very interesting one, and certainly you are very devoted to what you&#x27;re doing, and that is a sign that you enjoy what you&#x27;re doing. Yeah, I have a great time. Right. Thank you very much for being a guest. Good night. Okay, good night. All right. Bye-bye. Bye-bye. Bye-bye.</div>
+and if they click on your name, they will get an email form that they can request information about your products with integration. Right, that&#x27;s right. Okay. Right, I appreciate that. Anything else you want to let the listeners know about before we wrap this up? Well, I tell, I&#x27;m a professor in the liberal arts college for a reason. I tell all young people to make sure you broaden your education and not start narrowing down too early. Make sure you read history, read literature, do music, and make some holograms for fun. And then when you have done a broad-based education, then you choose what is the best that suits you. So I don&#x27;t sell holography at all. I sell it as part of the thing that I can do to help people to get into this particular area, in addition to all the other things. That&#x27;s very wise. I hear you&#x27;re quite the violinist as well. I play in two orchestras. I&#x27;m a concertmaster of the college chamber orchestra, and I play first violin in a semi-professional orchestra. And I enjoy it enormously. And I windsurf with my children. I can keep up with them. How old are your sons? And so that&#x27;s my philosophy of life. How old are your sons? They are 30 and 32. Oh, okay. And I&#x27;m 66. I have three daughters, 18, 17, and 15. Wow. Those are the age of two things together. Yeah, the oldest one&#x27;s away, a college physics major, so I hope she does well. Physics, wow. Yes. That&#x27;s great. What college? Georgian Court College, which is a private women&#x27;s college in New Jersey. I&#x27;m for private liberal arts colleges. Yes. Because there we pay attention to each individual. Mm-hmm. And my philosophy is go to a good small liberal arts college and then go to a big good graduate school. That&#x27;s the advice that she received as well, and she&#x27;s doing pretty good. I believe in that firmly. Well, Dr. Jayong, it was a pleasure speaking with you. Great pleasure. And I hope you log on and hear the interview. All right. I&#x27;ll have that for Tuesday. Well, I&#x27;m starting a new life. Well, congratulations on your new life. I can&#x27;t wait till I can start my new life, too. I still have a few years to go. Well, I think you got it. Well, I think you got it. You got a very interesting one, and certainly you are very devoted to what you&#x27;re doing, and that is a sign that you enjoy what you&#x27;re doing. Yeah, I have a great time. Right. Thank you very much for being a guest. Good night. Okay, good night. All right. Bye-bye. Bye-bye. Bye-bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,8 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello everyone, this is Frank DeFreitas and welcome to Holotalk, the Internet&#x27;s laser and holography talk show, enjoyed in over 42 countries throughout the world. And now, here&#x27;s this week&#x27;s show. Hi Colin, how are you? I&#x27;m good, oh, this sounds much better being on the landline. Yeah, yeah, it&#x27;s good. Why don&#x27;t we start off first by having you tell the listeners a little bit about your forum to start off with, and I would imagine there aren&#x27;t too many people who are already involved with holography who are not aware of the forum itself, but I imagine there may be some new people to holography and some listeners that have not visited, and there may also be some listeners who are not even aware of what exactly you do on a forum, an online forum. So maybe you could start off and tell the listeners a brief introduction to holographyforum.org or holographyforum.com. I think you have both domains, don&#x27;t you? No, I only have .org actually, .com is not available to me. Okay, so tell everyone about the forum as far as what it is that you do and your participants do at the forum. What do you do when you go to a forum? Well, you know, perhaps we should start with why I chose. I started to go seek a forum when I was learning to make holograms. Okay. I was starting to make holograms. Everything was really challenging to me. There was concepts I didn&#x27;t understand as far as what pieces of equipment I might buy, as well as I didn&#x27;t have a very good theoretical background as far as what I was doing and what I needed to do, and I went out on the Internet searching for things and found some great information. And on your forum, or really your website, which led me to your forum. I&#x27;m out of the forum business. Well, you&#x27;re out of the forum business now. Yeah. However, when I was starting holography, that was the only option to actually get a real person to say, you&#x27;re doing this wrong. Yeah. And so for me, it became how I learned the trade was to find people on the Internet and communicate either. Via a forum or via a private email. But I had no way of meeting anybody other than by contacting them on a forum. Yeah. And what a forum is on the Internet and what a forum was for me was a place to encounter people that were either at the same level I was or just slightly above the level I was that were willing to trade information. And that&#x27;s what we really do at a holography forum is we trade information with people and there&#x27;s people of every level. We have professional holographers. We have holographers that have only made one hologram. We have holographers that have not yet made a hologram and are still acquiring equipment. It&#x27;s a very nice mix. It is. We&#x27;re really lucky in that regard. At the beginning of the holography forum, we only had people at one level. And fortunately, there have been professional holographers to adopt us. And there have been new holographers to come in that have made it a very, what I would call a vital place to actually explore holography. And when I started the holography forum, I made a quote that, you know, well, what is it that we want to do? And that is, this is a place to share ideas and experiences about holography. And I&#x27;ve really... You know, strove very hard to actually make that a reality. Yeah. And gosh, I don&#x27;t know how long it&#x27;s been. It&#x27;s been two and a half years probably. Oh, really? And more than 12,000 posts later. Yeah. That we&#x27;ve been together. And, you know, it&#x27;s very rewarding for me. Anymore, I don&#x27;t get the chance to answer people. I don&#x27;t get the chance to answer people&#x27;s questions as much as I really just maintain the mechanicals of the site and tell people, you know, well, if your password doesn&#x27;t work, this is why. But there&#x27;s so many other people there that have more experience than I do that can answer the questions that I don&#x27;t need to anymore. You&#x27;re actually one of the moderators. I am. I am and Michael Harrison are both moderators. Yes. And in a, I don&#x27;t know, a more fundamental sense, I actually make sure that if the forum falls apart that we have backups and things like that. Mm-hmm. More of a...
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-whisper"><div class="transcript-plain">Hello everyone, this is Frank DeFreitas and welcome to Holotalk, the Internet&#x27;s laser and holography talk show, enjoyed in over 42 countries throughout the world. And now, here&#x27;s this week&#x27;s show. Hi Colin, how are you? I&#x27;m good, oh, this sounds much better being on the landline. Yeah, yeah, it&#x27;s good. Why don&#x27;t we start off first by having you tell the listeners a little bit about your forum to start off with, and I would imagine there aren&#x27;t too many people who are already involved with holography who are not aware of the forum itself, but I imagine there may be some new people to holography and some listeners that have not visited, and there may also be some listeners who are not even aware of what exactly you do on a forum, an online forum. So maybe you could start off and tell the listeners a brief introduction to holographyforum.org or holographyforum.com. I think you have both domains, don&#x27;t you? No, I only have .org actually, .com is not available to me. Okay, so tell everyone about the forum as far as what it is that you do and your participants do at the forum. What do you do when you go to a forum? Well, you know, perhaps we should start with why I chose. I started to go seek a forum when I was learning to make holograms. Okay. I was starting to make holograms. Everything was really challenging to me. There was concepts I didn&#x27;t understand as far as what pieces of equipment I might buy, as well as I didn&#x27;t have a very good theoretical background as far as what I was doing and what I needed to do, and I went out on the Internet searching for things and found some great information. And on your forum, or really your website, which led me to your forum. I&#x27;m out of the forum business. Well, you&#x27;re out of the forum business now. Yeah. However, when I was starting holography, that was the only option to actually get a real person to say, you&#x27;re doing this wrong. Yeah. And so for me, it became how I learned the trade was to find people on the Internet and communicate either. Via a forum or via a private email. But I had no way of meeting anybody other than by contacting them on a forum. Yeah. And what a forum is on the Internet and what a forum was for me was a place to encounter people that were either at the same level I was or just slightly above the level I was that were willing to trade information. And that&#x27;s what we really do at a holography forum is we trade information with people and there&#x27;s people of every level. We have professional holographers. We have holographers that have only made one hologram. We have holographers that have not yet made a hologram and are still acquiring equipment. It&#x27;s a very nice mix. It is. We&#x27;re really lucky in that regard. At the beginning of the holography forum, we only had people at one level. And fortunately, there have been professional holographers to adopt us. And there have been new holographers to come in that have made it a very, what I would call a vital place to actually explore holography. And when I started the holography forum, I made a quote that, you know, well, what is it that we want to do? And that is, this is a place to share ideas and experiences about holography. And I&#x27;ve really... You know, strove very hard to actually make that a reality. Yeah. And gosh, I don&#x27;t know how long it&#x27;s been. It&#x27;s been two and a half years probably. Oh, really? And more than 12,000 posts later. Yeah. That we&#x27;ve been together. And, you know, it&#x27;s very rewarding for me. Anymore, I don&#x27;t get the chance to answer people. I don&#x27;t get the chance to answer people&#x27;s questions as much as I really just maintain the mechanicals of the site and tell people, you know, well, if your password doesn&#x27;t work, this is why. But there&#x27;s so many other people there that have more experience than I do that can answer the questions that I don&#x27;t need to anymore. You&#x27;re actually one of the moderators. I am. I am and Michael Harrison are both moderators. Yes. And in a, I don&#x27;t know, a more fundamental sense, I actually make sure that if the forum falls apart that we have backups and things like that. Mm-hmm. More of a...
 
 I don&#x27;t know, a more fundamental sense, I actually make sure that if the forum falls apart that we have backups and things like that, more of a systems administration kind of standpoint. Yeah, for anyone who would be listening from an online service similar to America Online that may be familiar with chat rooms, a forum could be considered a chat room in slow motion in the fact that you&#x27;re communicating back and forth with one another, but it&#x27;s 24-7 in the post. Stay there and you reply to them, and you can go back and see what other people have replied to. And that&#x27;s what&#x27;s really nice about it is, you know, you&#x27;re not limited to the people that are specifically listening to, you know, at that moment. But, gosh, on our forum, I don&#x27;t think I&#x27;ve ever asked a question that wasn&#x27;t answered within an hour. Yeah. You know, that&#x27;s, you know, remarkable for such an esoteric, subject as holography to actually have that many people focused on one spot. And we&#x27;ve managed to acquire some experts in a variety of fields. You know, Dinesh Padir is an expert in DCG and has done mastering for Banknote Holographics, as well as owns his own company producing DCG holograms. And he&#x27;s been more than willing to share theoretical insight as well as, you know, specifics about DCG work. And then we run into people like Martin, who&#x27;s been developing a photopolymer that he has available as well as, gosh, he has read every patent I&#x27;ve ever encountered on holography and every patent from the beginning of photography on every chemical process. And is very good at answering questions about chemistry. And it&#x27;s just really interesting to see how everybody, you know, picks their own little influence on their understanding of holography and chooses to answer those questions. I tend to reserve my answers to questions regarding vibration analysis and table design because I have 14 years experience as a musical instrument maker. Yes. And have a lot of background in, Yes. in, in, in, in,!! Yeah, exactly. That&#x27;s, that&#x27;s amazing. Now, anyone can come to the forum and read any of the posts, but they do have to register in order to make posts of their own. That&#x27;s correct. I&#x27;m, I&#x27;m... Yeah, that&#x27;s right. We, in the beginning, we let everybody post that wanted to come across, come across the website. But one of the things we&#x27;ve learned is that the more information that you offer about yourself as far as what location you&#x27;re at, what you&#x27;re interested in, what you&#x27;re interested in, what your interests in holography are, the, uh, the more we can offer you. And so, I, I do require people to register, but all I ever get from them is their email address. Yeah. And anything else they offer is really up to them. Yeah. So, if someone wants, that&#x27;s listening to this, wants to become an active member of the forum, you&#x27;ll have to register, but you can certainly go over to holographyforum.org and go through all the posts and even an archive of posts that go back and forth, and see if there&#x27;s any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, any, Yes, every, every post is available. The original posts, you can no longer reply to. We, we started at a company called forgiven, forgiven, forgiven, forgiven, forgiven forgiven, forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven forgiven and even an archive of posts that go back to the very beginning. Yes, every post is available. The original posts you can no longer reply to. We started at a company called Network 54, and all of those posts we archived over. I&#x27;m very, very fortunate to have had the help from a user who uses the name HoloM. He wrote some scripts that allowed us to import all of those scripts, all of those posts, and we&#x27;re able to actually access those and search those with our search parameters. But for technical reasons, we chose not to allow anybody to reply to them. We&#x27;d rather have somebody start a new post on the same subject. Okay. Now, you&#x27;ve actually grown much beyond just an informal group of Internet enthusiasts that are posting a form and have become more of a formal group with what I believe is the Porcelain Cat group. Is that correct? Well, yeah, that was kind of an odd thing. That just happened spontaneously.
 
@@ -375,7 +469,7 @@ and get it into my head in the same way that theatrical lighting works, is to ha
 
 You know, it&#x27;s our excitement as amateurs that&#x27;s going to take holography through the next 20 years. It&#x27;s not going to be any big corporate sponsor. It&#x27;s not going to be anything. It&#x27;s really us as amateurs that are going to carry holography through. Yeah, and that&#x27;s how it&#x27;s been, actually. And that&#x27;s how it&#x27;s been since the 80s. There&#x27;s been a lot more excitement, I think. Of course, I may be prejudiced to this, but I think there&#x27;s a lot more excitement in amateur holography that&#x27;s happened in the last 10 years than any other aspect of holography. Well, you know, and I hope that&#x27;s true. I look at, you know, the dot matrix holograms that are coming out now, and I look at the work that Liddy&#x27;s doing with their high-end holograms. And, you know, I look at the work that you&#x27;re doing as an amateur. I don&#x27;t know if calling you an amateur is quite the right word. I&#x27;m a professional amateur. You&#x27;re the most experienced amateur. How about if we say that? You know, your equipment, you&#x27;re seconds away from doing the level of work that Liddy&#x27;s doing. And, you know, you&#x27;re exploring all of those LCDs and all of that work. And what separates you from Liddy is they&#x27;re trying to make you look like a real person. Yeah. You&#x27;re just trying to disseminate it to people who just want to, you know, be fascinated by it and explore it. Yeah. And I think that&#x27;s what&#x27;s going to make holograms exciting. Yeah. I have all those little mini portraits that I put the process up on the website. I have all those of my kids, and they&#x27;re one of my biggest treasures as they continue into adulthood now to look back at those. Well, and, you know, portrait work is stunning. It&#x27;s remarkable. When you started, you had a little forum that you started that was sort of designed to teach everybody how to do portraits. Yeah, which went nowhere. Well, unfortunately, yeah. And probably my fault by not doing what you do with yours as far as being a good moderator. Once again, recognizing a weakness. Well, I don&#x27;t know if I think you&#x27;re shortchanging yourself. No. I think that what you did was really good. It sort of inspired the beginning, and I think a lot of people are working along that line. And I wish there was better communication amongst the individuals that are actually walking down that road at this point. And one of the things that&#x27;s come up is we would love to have you host us because you have more to show than any of us. Oh, I don&#x27;t know. You might come out here and say, oh, my God. I can&#x27;t believe I spent money on airfare to go to this guy&#x27;s place. No, you know. I&#x27;m serious. That&#x27;s not going to be how it is at all. Yeah. You know, I&#x27;d love to come and meet everybody. Well, you know what? What that says to me is that the next meeting needs to be on the East Coast because we need to have you attend. Oh, thank you. You&#x27;re one of the most gifted people that I think we could ever have lectured to us. Thank you. You know I don&#x27;t fly, and that&#x27;s really cut a lot of opportunities for me. You don&#x27;t fly. You don&#x27;t fly. You don&#x27;t fly. You don&#x27;t fly. Why? I flew for the first time because I wanted to finally do it, and I flew for the first time only two or three years ago, which would have made me, oh, I&#x27;m going to be 49, so it would have made me maybe about 47 years old the first time I got on a plane. Went up to Boston because I figured it would be a quick trip from Philadelphia, only like 90 minutes or something, and the trip there was exhilarating, you know, the takeoff. I never experienced such power in a jet and everything. It was really great. But then on the way back, there were grounded flights because of severe thunderstorms, and the flight back was absolutely, I swear to God, I thought I was going to die. I thought we were all going to die, and it was the worst 90 minutes of my life, and that was it. That was my first and only flight that I will ever take, ever. That&#x27;s it. I&#x27;m done. But I&#x27;ll drive anywhere. I drive down to Florida. You know, I mean, it doesn&#x27;t, the last trip I did down to Florida, I did it 16 hours straight. You know, I love to just. I love to just put it on a cruise and listen to the talk shows, and I just take extra time to drive. California is too far for me to drive, though. It&#x27;s a long trip out to California from where you are. We&#x27;re running on fumes here as far as time to keep this file size manageable for people, because believe it or not, there are quite a few people that are still on dial-up connections that access this, so I try and keep the show within a reasonable amount of time. Is there anything that you want to add that we have? I haven&#x27;t talked about yet. You know, the thing that I would add is I&#x27;m not sure if it&#x27;s come across in the private communications that you and I have had, but you are personally the reason why I am involved.
 
-come across in the private communications that you and I have had, but you are personally the reason why I am involved in holography, and it was encountering your website that got me started in holography after 20 years of being on the back benches of just reading about the technology. If it wasn&#x27;t for you, your website, and the research you&#x27;ve done, I would still simply be a poor person hoping to one day make a hologram. Well, I&#x27;ll take that to heart. Thank you very much. I appreciate that. I don&#x27;t know. It&#x27;s a very, very nice compliment, and I appreciate you making it, and I do believe that your own contributions to amateur holography for students, for those who would be like, you see those magazines, Popular Photography or whatever, I think you&#x27;re doing the exact same thing. I don&#x27;t know. I&#x27;m just going with holography. Maybe it&#x27;s time to pass the torch. You know what I mean? I&#x27;m an old man now. I&#x27;m not a young guy anymore like you guys. I see the pictures of you guys. You&#x27;re all young guys. You know what we&#x27;re doing, though, is we&#x27;re spreading the torch. It&#x27;s not yet time to pass the torch. I&#x27;m still giving you 40 more years to contribute to this field. Yeah, I still have a good bench press, so I&#x27;m not going anywhere too soon. All right. All right. I&#x27;m going to close and probably head up to bed shortly. Okay, Frank. Tonight and call it an early night. I know we&#x27;ve rambled on and given you way more information. It was great. It was great to finally have some time to chat, because we&#x27;ve known each other for a while, and we&#x27;ve sent a couple emails back and forth, but as far as actually chatting, I don&#x27;t think we&#x27;ve really had the opportunity to do what we did tonight, and I&#x27;m thankful for it. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right.</div>
+come across in the private communications that you and I have had, but you are personally the reason why I am involved in holography, and it was encountering your website that got me started in holography after 20 years of being on the back benches of just reading about the technology. If it wasn&#x27;t for you, your website, and the research you&#x27;ve done, I would still simply be a poor person hoping to one day make a hologram. Well, I&#x27;ll take that to heart. Thank you very much. I appreciate that. I don&#x27;t know. It&#x27;s a very, very nice compliment, and I appreciate you making it, and I do believe that your own contributions to amateur holography for students, for those who would be like, you see those magazines, Popular Photography or whatever, I think you&#x27;re doing the exact same thing. I don&#x27;t know. I&#x27;m just going with holography. Maybe it&#x27;s time to pass the torch. You know what I mean? I&#x27;m an old man now. I&#x27;m not a young guy anymore like you guys. I see the pictures of you guys. You&#x27;re all young guys. You know what we&#x27;re doing, though, is we&#x27;re spreading the torch. It&#x27;s not yet time to pass the torch. I&#x27;m still giving you 40 more years to contribute to this field. Yeah, I still have a good bench press, so I&#x27;m not going anywhere too soon. All right. All right. I&#x27;m going to close and probably head up to bed shortly. Okay, Frank. Tonight and call it an early night. I know we&#x27;ve rambled on and given you way more information. It was great. It was great to finally have some time to chat, because we&#x27;ve known each other for a while, and we&#x27;ve sent a couple emails back and forth, but as far as actually chatting, I don&#x27;t think we&#x27;ve really had the opportunity to do what we did tonight, and I&#x27;m thankful for it. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,393 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello. Hello, Tony. Yes. How are you? It&#x27;s Frank DeFreitas. I&#x27;m good. How are you, Frank? Doing pretty good. I thought I would give you a call and find out some information about this light meter that you&#x27;ve put together, and you sent an email to me about that, and thank you for sending that. If we were to talk about that, what would be the most important information you&#x27;d want the listeners to know about? The most important thing I want listeners to know is that it&#x27;s available. Okay. And this is something that I put together because I thought there was a need for it. Apparently, there used to be a meter that everybody liked called Science Mechanics SM3. Yes, I have that one. And I think that one is out of print at this point. Yeah. So I think there&#x27;s an opportunity here to replace that meter with, you know, a 21st century upgraded kind of version. And I have been doing holograms in my basement for about three years now, and I basically started with your book, with Shoebox Holography. Oh, that&#x27;s great. And I&#x27;ve kind of graduated from laser diodes to higher power helium neon lasers, and I have a small table. And I&#x27;ve experimented. I&#x27;ve done all of the different kinds of silver halide film and plates that I can get a hold of. And what turned out to be your favorite to work with so far? Well, so far, I&#x27;d have to say my favorite is BB. Yeah. It&#x27;s definitely the most reliable, and it&#x27;s the highest performing one that I&#x27;ve found. I think that probably Ultimate can also be very good, but I&#x27;ve had a really strange problem with Ultimate in that I haven&#x27;t been able to get any... Oh, that&#x27;s interesting. I have gotten several batches, and the folks at Ultimate have been very, very supportive trying to help me out. I&#x27;ve had several batches from France. I&#x27;ve had one batch from Canada. And we thought maybe it was x-rays, but now we&#x27;re pretty sure that&#x27;s not the case. And I&#x27;ve tried everything that I can think of. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. So we&#x27;re still in the midst of sorting out what&#x27;s going on there. But I think that Ultimate probably can give the same kind of performance, you know, based on what I&#x27;ve been able to see, you know, aside from the fact that I&#x27;m dealing with this horrendous fogging problem. But I expect that it would be nearly as good or perhaps even better than BB as far as noise and contrast and so forth. And I suspect it&#x27;s much more sensitive. The drawback on BB is that it&#x27;s fairly lower or less sensitive, I guess you&#x27;d say, than most everything else. So it requires a longer exposure or higher power. Where are you getting your BB plates from lately? I buy them from Vintech. Okay. Oh, okay. Yeah. Yeah. He&#x27;s still... South Carolina. Okay. They&#x27;re super to deal with. And this stuff shows up in just a few days. Yeah. Did they say about the Ultimate, did they think it might be your processing regimens? Well, they provide the developer. Oh, I see. Okay. So we&#x27;ve tried everything we can possibly think of. There&#x27;s still an outside possibility that it&#x27;s something to do with my safe lighting. Okay. And other than that, I mean, we&#x27;ve exotic lighted this light. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. We&#x27;ve costably eliminated every variable that we can think of so far, which is very strange. And I completely believe that it works at some locations, but it just doesn&#x27;t seem to work in Andover. I don&#x27;t know what the reason is. Yeah, it&#x27;s, hmm. Sometimes one of those variables turns out to be the most surprising element. Yes. You know, it could, do you use tap water? We&#x27;ve tried different kinds of water. Yeah, okay. Typically I use bottled water. Yeah. And I tried an experiment with bottled distilled water, which I would have thought either one of those would be fine. The thing is, all of my regimen has worked okay for many other kinds of film. Yeah, yeah. You know, I&#x27;ve got some old Agfa. I&#x27;ve got Slavich. And I&#x27;ve tried even, I&#x27;ve even gotten some Fuji. So, you know, I&#x27;ve tried a lot of different kinds of films. And most of them work the way they, you would expect them to work. That&#x27;s interesting. But now you have a light meter. That&#x27;s right. I saw a picture of it. It&#x27;s very nice with the digital readout. Uh-huh. What are the functions on there? Essentially. Essentially.
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Hello.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:01">0:01</span><span class="transcript-text">Hello, Tony.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">How are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:03">0:03</span><span class="transcript-text">It&#x27;s Frank Defratus.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:04">0:04</span><span class="transcript-text">I&#x27;m good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:05">0:05</span><span class="transcript-text">How are you, Frank?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:05">0:05</span><span class="transcript-text">Doing pretty good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:06">0:06</span><span class="transcript-text">Thought I would give you a call and find out some information about this light meter that you&#x27;ve put together, and you sent an email to me about that, and thank you for sending that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:15">0:15</span><span class="transcript-text">If we were to talk about that, what would be the most important information you&#x27;d want the listeners to know about?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:22">0:22</span><span class="transcript-text">The most important thing I want listeners to know is is that it&#x27;s available.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:26">0:26</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:27">0:27</span><span class="transcript-text">Uh and uh this is something that that I put together because I I thought there was a need for it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:34">0:34</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:35">0:35</span><span class="transcript-text">Um apparently there used to be a a meter that everybody liked called uh Science Mechanics SM3.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:43">0:43</span><span class="transcript-text">Yes, I have that one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:45">0:45</span><span class="transcript-text">And um I think that one is out of print at this point.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:49">0:49</span><span class="transcript-text">So I think there&#x27;s a uh an opportunity here to replace that meter with uh, you know, uh twenty-first century uh upgraded kind of version.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:00">1:00</span><span class="transcript-text">And uh I have been doing holograms in in my basement for about three years now, and uh um I basically started with your book with shoebox holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:13">1:13</span><span class="transcript-text">Oh, that&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:14">1:14</span><span class="transcript-text">And uh I&#x27;ve kind of graduated from laser diodes to uh higher powered uh uh helium neon lasers and have a small table and I&#x27;ve I&#x27;ve experimented with all of the different kinds of silver halide film that I can and plates that I can get a hold of.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">And what turned out to be your favorite to work with so far?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:34">1:34</span><span class="transcript-text">Well, so far I&#x27;d have to say my favorite is uh B B.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:37">1:37</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:38">1:38</span><span class="transcript-text">Um it&#x27;s definitely the most reliable and it&#x27;s uh the highest performing one that I&#x27;ve found.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:45">1:45</span><span class="transcript-text">Um I I think that probably Ultimate can also be very good, but I&#x27;ve had a really strange problem with Ultimate in that I haven&#x27;t been able to get any that isn&#x27;t like totally fogged.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:58">1:58</span><span class="transcript-text">Um that&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:00">2:00</span><span class="transcript-text">I uh I have gotten several batches and it the the folks at Ultimate have been very, very supportive uh trying to trying to help me out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:12">2:12</span><span class="transcript-text">I&#x27;ve had several batches from France.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:14">2:14</span><span class="transcript-text">I&#x27;ve had one batch from Canada and we thought maybe it was X rays, but um now we we&#x27;re pretty sure that&#x27;s not the case and I&#x27;ve tried everything that I can think of.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:26">2:26</span><span class="transcript-text">Um so we&#x27;re still in the midst of sorting out what&#x27;s going on there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:30">2:30</span><span class="transcript-text">But I think that uh Ultimate probably can give the same kind of performance, you know, uh based on what I&#x27;ve been able to see um uh fr you know, aside from the fact that I&#x27;m dealing with this horrendous fogging problem.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:45">2:45</span><span class="transcript-text">Um, but I I I expect that it would be uh nearly as good or perhaps even better than B B as far as noise and contrast and so forth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:56">2:56</span><span class="transcript-text">Um and it I suspect it&#x27;s much more sensitive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:00">3:00</span><span class="transcript-text">Uh the drawback on B B is that it&#x27;s it&#x27;s it&#x27;s fairly uh lower sense or less sensitive, I guess you&#x27;d say.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:07">3:07</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:08">3:08</span><span class="transcript-text">Um than most everything else, so it it requires a uh longer exposure or or higher power.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:14">3:14</span><span class="transcript-text">Where are you getting your B V plates from lately?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:16">3:16</span><span class="transcript-text">I buy them from Vintech.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:18">3:18</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:19">3:19</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:19">3:19</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:20">3:20</span><span class="transcript-text">Yeah, South Carolina.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:21">3:21</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:22">3:22</span><span class="transcript-text">They&#x27;re super to deal with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:24">3:24</span><span class="transcript-text">Um you can place a web order and and the stuff shows up in uh just a few days.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:29">3:29</span><span class="transcript-text">Did they say about the Ultima?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:31">3:31</span><span class="transcript-text">They think it might be your processing regimens.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:33">3:33</span><span class="transcript-text">Well, um they provide uh the developer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:36">3:36</span><span class="transcript-text">Oh, I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:37">3:37</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:38">3:38</span><span class="transcript-text">Um so um we&#x27;ve we&#x27;ve tried everything we can possibly think of.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:43">3:43</span><span class="transcript-text">The the uh there&#x27;s a there&#x27;s still an outside possibility that it&#x27;s something to do with my safe lighting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:50">3:50</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:51">3:51</span><span class="transcript-text">Uh and uh other than that uh I mean we&#x27;ve we&#x27;ve we&#x27;ve exhaustively eliminated every variable that we can think of so far.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:00">4:00</span><span class="transcript-text">Um which is it&#x27;s very strange and and I completely believe that it works at in at some locations but it just doesn&#x27;t seem to work in Andover.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:10">4:10</span><span class="transcript-text">I don&#x27;t know what the Yeah it&#x27;s uh hmm it sometimes one of those variables turns out to be the most surprising element.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:18">4:18</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:19">4:19</span><span class="transcript-text">You know it could it do you use tap water?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:22">4:22</span><span class="transcript-text">Uh we we&#x27;ve tried different kinds of water typically I use bottled water yeah uh and I tried an experiment with uh bottled distilled water uh which I would have thought either one of those would be fine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:35">4:35</span><span class="transcript-text">The thing is I all all of my regimen uh has worked okay for many other kinds of film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:42">4:42</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:42">4:42</span><span class="transcript-text">Uh you know I&#x27;ve got some old Ag Fa, I&#x27;ve got um Slavic and uh I&#x27;ve tried even I&#x27;ve even gotten some Fuji.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:52">4:52</span><span class="transcript-text">So you know I&#x27;ve tried a lot of different kinds of film and most of them work the way they you would expect them to work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:59">4:59</span><span class="transcript-text">That&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:00">5:00</span><span class="transcript-text">But now you have a light meter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:02">5:02</span><span class="transcript-text">That&#x27;s right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:03">5:03</span><span class="transcript-text">I saw a picture of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:04">5:04</span><span class="transcript-text">It&#x27;s very nice with the digital readout.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">Uh huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">What are the functions on there?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:08">5:08</span><span class="transcript-text">Uh essentially uh it it gives you four numbers at a time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:13">5:13</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:14">5:14</span><span class="transcript-text">That&#x27;s as much information as I could squeeze on the display.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:18">5:18</span><span class="transcript-text">And the top two numbers are uh your reading in power for the object beam and the reference beams.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:26">5:26</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:27">5:27</span><span class="transcript-text">And uh one of the bottom numbers is the total of the two beams, so that&#x27;s just adding the power together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:34">5:34</span><span class="transcript-text">And the other is uh typically a ratio.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:38">5:38</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:39">5:39</span><span class="transcript-text">And so you can set it up, you can place the sensor where your film is, and you can card off one beam and and measure the other.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:48">5:48</span><span class="transcript-text">Then you know, so for example you could cart off the reference beam and measure the object and punch the button in for that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:56">5:56</span><span class="transcript-text">And then you can uh card off the object beam and measure the reference and at that point it&#x27;ll give you a display of the ratios.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:03">6:03</span><span class="transcript-text">I see totals.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:05">6:05</span><span class="transcript-text">So if you&#x27;re shooting for a particular ratio that you like um you can you can tune it in that way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:12">6:12</span><span class="transcript-text">And it&#x27;s all real time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:14">6:14</span><span class="transcript-text">And the power readings have trending on them so that they have a little plus and minus sign that comes and goes depending on whether the reading is going up or going down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:32">6:32</span><span class="transcript-text">Whether things are going up or down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:34">6:34</span><span class="transcript-text">So I added that function in so that you can use it for uh adjusting optics.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:38">6:38</span><span class="transcript-text">Uh you can find the the center of the beam, you can just set it up and tune your spatial filter for a maximum output uh which is basically the optimum setting in most cases unless there&#x27;s something funny with your optics.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:53">6:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:53">6:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:55">6:55</span><span class="transcript-text">And it also can do optical density.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:58">6:58</span><span class="transcript-text">Oh okay yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:59">6:59</span><span class="transcript-text">So in that case uh you can set it up so that it measures the uh basically the log of the ratio of the the two readings.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:10">7:10</span><span class="transcript-text">And so what you would do for that is you&#x27;d put the sensor in a little plastic bag and put it face up on the table, and you can develop your film and um put it in some stop bath or fixer or something so that you can turn the lights on, and then you can um basically measure the room light with nothing over the sensor, just the ambient light, and then you put your film over the sensor and measure the other reading, and it&#x27;ll compute that uh the log of that ratio and tell you what your optical density is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:42">7:42</span><span class="transcript-text">That&#x27;s interesting.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:43">7:43</span><span class="transcript-text">I noticed that a lot of the instructions and the uh spec sheets that come with uh holographic films fail to mention anything about uh final densities at all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:53">7:53</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:57">7:57</span><span class="transcript-text">In the olden days, back in the day of uh color separations and things like that and uh outputting, you know, film from like uh line of type machines, uh laser uh printers and things that uh you always went for a density.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:09">8:09</span><span class="transcript-text">Always put your film under a densitometer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:12">8:12</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:12">8:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:14">8:14</span><span class="transcript-text">I think uh some people are you know get uh uh into the numerical accuracy of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:21">8:21</span><span class="transcript-text">Um some film manufacturers I think the Slavic webpage does have a a density versus exposure and curve.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:30">8:30</span><span class="transcript-text">Um but I think there&#x27;s some experimentation also uh uh you know there&#x27;s kind of a rule of thumb that I&#x27;ve observed over the three years that I&#x27;ve been paying attention, uh that transmission holograms want to be around one to two and reflection holograms want to be two or better.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:50">8:50</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">Um so that&#x27;s that&#x27;s useful for that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:54">8:54</span><span class="transcript-text">I mean a lot of people just develop by eye and a lot of processing schemes don&#x27;t uh account for uh being able to make a density measurement before you bleach it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:59">8:59</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:07">9:07</span><span class="transcript-text">Um but I think it might still be possible to do that if you if you had a for example, if you had a a light source which was not in the sensitive area of the film you&#x27;re using.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:18">9:18</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:19">9:19</span><span class="transcript-text">So if you&#x27;re using red sensitive film, if you had a green LED as a light source, you could probably still go ahead and do a density reading on it even before it&#x27;s uh bleached.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:29">9:29</span><span class="transcript-text">Yeah, yeah, and if if it&#x27;s not your reading, you get back get it back into the developer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:33">9:33</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:33">9:33</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:34">9:34</span><span class="transcript-text">And let me ask you this, is is is the uh L L E uh the L C D panel that&#x27;s on your your light meter, is that backlit?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:42">9:42</span><span class="transcript-text">Yes it is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:43">9:43</span><span class="transcript-text">Great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:43">9:43</span><span class="transcript-text">Uh it has a a green backlight to it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:47">9:47</span><span class="transcript-text">And um the uh the backlight um uh consumes a lot of a lot of power from the battery.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:54">9:54</span><span class="transcript-text">It that&#x27;s the thing draws almost no power except for the backlight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:58">9:58</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:58">9:58</span><span class="transcript-text">And so the thing has an automatic power down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:01">10:01</span><span class="transcript-text">If you don&#x27;t punch any buttons for five minutes, it shuts itself off.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:05">10:05</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:06">10:06</span><span class="transcript-text">Uh and then if you just touch a button it comes back on again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:08">10:08</span><span class="transcript-text">Well, you really thought of everything with this, didn&#x27;t you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:11">10:11</span><span class="transcript-text">I&#x27;ve I&#x27;ve had uh some experience um building things that involve uh a processor and three buttons.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:19">10:19</span><span class="transcript-text">Uh I build a number of of different products for different martic markets kind of on my own.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:25">10:25</span><span class="transcript-text">And so I have kind of a canned uh hardware approach using some of these microchip uh computers that are absolutely phenomenal.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:34">10:34</span><span class="transcript-text">There&#x27;s as much processing power in in these single chips as there was on the first computer I learned on, which was a PDP eight back in nineteen sixty eight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:44">10:44</span><span class="transcript-text">I think around nineteen seventy I was on maybe a machine one of them called Wangs.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:49">10:49</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:49">10:49</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:50">10:50</span><span class="transcript-text">Had punch cards.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:52">10:52</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:52">10:52</span><span class="transcript-text">You punch punch out a program on a card and you put that in punch card into a little reader and then you go on to the little terminal and do your work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:59">10:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:00">11:00</span><span class="transcript-text">Yeah, that was something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:01">11:01</span><span class="transcript-text">Back in the days of punch cards and paper tape.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:04">11:04</span><span class="transcript-text">So you long way you go back quite a way too, huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:07">11:07</span><span class="transcript-text">Yeah I do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:07">11:07</span><span class="transcript-text">Uh I uh I can remember first getting interested in lasers and holography from a uh probably a popular science magazine article about Eupatniax and Leith when they were when they made their first uh transmission hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:25">11:25</span><span class="transcript-text">And uh then I uh did some holography in the early seventies when I was uh in high school.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:32">11:32</span><span class="transcript-text">Mm-hmm uh I got some information from Scientific American article and I made split uh split beam transmission holograms on my basement floor and I I still have some of them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:42">11:42</span><span class="transcript-text">They&#x27;re they&#x27;re pretty amazing that they&#x27;ve lasted this long.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:45">11:45</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:45">11:45</span><span class="transcript-text">And then the the internet is an incredible thing because every once in a while, late at night I&#x27;ll get bored with whatever I&#x27;m doing and I&#x27;ll just type something random into a search engine and about three years ago I typed amateur holography into a search engine and that that was just the beginning of a brand new hobby for me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:05">12:05</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:06">12:06</span><span class="transcript-text">I&#x27;ve been going uh pretty steadily ever since.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:09">12:09</span><span class="transcript-text">Well I really respect the fact that even though you did holograms back in the seventies when you first came on the program you said you&#x27;ve been involved for three years uh because there&#x27;s nothing that drives me nuts as much as folks that did a couple holograms, you know, back in the seventies or eighties for a project or whatever, or maybe they worked on it for a year or whatever and then for twenty years haven&#x27;t done anything and then they get back into the field and the next thing you know they&#x27;re saying they&#x27;ve been involved with holography for twenty years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:37">12:37</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:37">12:37</span><span class="transcript-text">That drives me crazy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:39">12:39</span><span class="transcript-text">And it that&#x27;s out there too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:41">12:41</span><span class="transcript-text">But the internet is wonderful.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:43">12:43</span><span class="transcript-text">Folks from all over the world will hear your interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:46">12:46</span><span class="transcript-text">I don&#x27;t know if it&#x27;ll sell any light meters but uh they&#x27;ll listen to the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:50">12:50</span><span class="transcript-text">But hopefully speaking of which do you have a standalone website that has information about this meter?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:56">12:56</span><span class="transcript-text">Because I can include that link.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:58">12:58</span><span class="transcript-text">I haven&#x27;t uh gotten that sophisticated yet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:01">13:01</span><span class="transcript-text">Um I posted it on the uh holography forum and if folks are interested in getting a look at it and reading about it uh I would direct them there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:12">13:12</span><span class="transcript-text">Um just go to the holography forum and look at the for sale section and there&#x27;s a uh a new product announcement in there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:20">13:20</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:21">13:21</span><span class="transcript-text">And um holography is basically a hobby to me and I I thought that I could make a contribution to holography by making this meter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:33">13:33</span><span class="transcript-text">Uh it this isn&#x27;t gonna be anything that&#x27;s gonna support me in my old age.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:38">13:38</span><span class="transcript-text">I know I&#x27;m not gonna quit my day job.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:41">13:41</span><span class="transcript-text">Um and at the same time if if I&#x27;m gonna build a quality product and and I&#x27;m not gonna make a kit, I&#x27;m not gonna make it something that that won&#x27;t work.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:51">13:51</span><span class="transcript-text">Yeah stay away from the kits.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:52">13:52</span><span class="transcript-text">Um really I need to charge a fair price for it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">Um so so that&#x27;s that&#x27;s where it&#x27;s priced and and that&#x27;s where it&#x27;s intended to be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:01">14:01</span><span class="transcript-text">And what is the price?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:02">14:02</span><span class="transcript-text">Uh 1795.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:04">14:04</span><span class="transcript-text">US dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:05">14:05</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:06">14:06</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:07">14:07</span><span class="transcript-text">And that includes uh a sensor.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:10">14:10</span><span class="transcript-text">And I use a a solar cell for a sensor.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:14">14:14</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:15">14:15</span><span class="transcript-text">And um I&#x27;ve chosen that sensor because I&#x27;ve found that it&#x27;s inexpensive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:20">14:20</span><span class="transcript-text">Uh it&#x27;s a l nice large area, uh, so that you can integrate over a an area of the uh of the plate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:29">14:29</span><span class="transcript-text">Uh it&#x27;s very thin, so you can position it uh in the plane of the of the film readily, you know, it&#x27;s not uh bulky.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:38">14:38</span><span class="transcript-text">Um and it also it&#x27;s it has a very low reflectivity.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:42">14:42</span><span class="transcript-text">Uh a very dull surface, which means you don&#x27;t have to concern yourself about uh the several percent that might be reflecting off the front, say from a typical sensor that has a a uh glossy shiny face to it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:57">14:57</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:57">14:57</span><span class="transcript-text">And that actually happens when you put a holographic plate into the plate holder as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:01">15:01</span><span class="transcript-text">You&#x27;re you&#x27;re still losing a certain percentage off of that first surface that uh you didn&#x27;t capture when you were doing the uh light reading.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:08">15:08</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:09">15:09</span><span class="transcript-text">Um the uh the meter can be calibrated for different wavelengths and also for different sensors.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:17">15:17</span><span class="transcript-text">If someone has an application um for a a a different type of sensor or a different wavelength, uh then a calibration I can just come up with a calibration for it and put it in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:30">15:30</span><span class="transcript-text">And uh it&#x27;s all reprogrammable.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:33">15:33</span><span class="transcript-text">So if I come up with a new idea or new feature, or if someone buys a meter and then later on wants to, you know, they go from red to green, uh it can be reprogrammed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:43">15:43</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:44">15:44</span><span class="transcript-text">Send it back and uh hopefully it&#x27;ll get better, you know, as people come up with new ideas and things that I can do with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:50">15:50</span><span class="transcript-text">Okay, so basically it is for whether you&#x27;re either using the meter in the red part of the spectrum or the green part of the spectrum.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:58">15:58</span><span class="transcript-text">Out of the box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">And and the power range?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:02">16:02</span><span class="transcript-text">Um well the power range is somewhat affected by the sensor.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:06">16:06</span><span class="transcript-text">Uh and the the power range that that I&#x27;m able to really feel confident with is up to about thirty-five milliwatts.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:13">16:13</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:14">16:14</span><span class="transcript-text">Because that&#x27;s that&#x27;s the most powerful laser I have here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:18">16:18</span><span class="transcript-text">Um electrically speaking, it reads from uh one microwatt to one watt.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:26">16:26</span><span class="transcript-text">Um but you know, obviously when you get into the higher power levels, you may have to do some calibrating for the sensor.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:34">16:34</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:35">16:35</span><span class="transcript-text">I&#x27;d get one myself, but I I work by eye now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:38">16:38</span><span class="transcript-text">Like the old photographers would do back in the early days of photography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:42">16:42</span><span class="transcript-text">I don&#x27;t I I rarely even do uh readings anymore myself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:48">16:48</span><span class="transcript-text">I think after you you make so many holograms for so many years, you can pretty much just look at a setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:53">16:53</span><span class="transcript-text">And y you&#x27;re already in the ballpark, your your mind already knows where you need to be.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:58">16:58</span><span class="transcript-text">But for but for someone that&#x27;s just starting out, it&#x27;s uh it it&#x27;s of utmost importance.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:03">17:03</span><span class="transcript-text">Because you&#x27;re training your mind at that point.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:06">17:06</span><span class="transcript-text">That&#x27;s right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:10">17:10</span><span class="transcript-text">And the mind remembers over time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:12">17:12</span><span class="transcript-text">It may not remember just after doing it for a week, but if you&#x27;re doing it you&#x27;re doing it day after day, week after week and year after year, eventually you just look at something and you can pretty much tell where you&#x27;re going to be with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">I agree with that, and and I think one thing that makes that whole process easier is if you can standardize.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:31">17:31</span><span class="transcript-text">Um so for example, um I just I just do red and I stay with a four by five uh inch format.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:39">17:39</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:40">17:40</span><span class="transcript-text">And my table geometries are are fairly pretty stable.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:44">17:44</span><span class="transcript-text">Um they&#x27;re usually one of two choices depending on whether I&#x27;m making H1s or H2 copies.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:51">17:51</span><span class="transcript-text">And um so with all of that, you&#x27;re right, you you do develop a a feeling or an intuition for uh what what works.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:01">18:01</span><span class="transcript-text">Um but still if uh if you&#x27;re experimenting or you&#x27;re going a little bit outside your envelope, maybe with a different color or different laser or uh sometimes the subject matter too can be a little tricky or a different film like uh uh I mean most of the silver films are are fairly similar, but there is some variation.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:22">18:22</span><span class="transcript-text">I I definitely think the ultimate&#x27;s more sensitive and the BB is less sensitive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:26">18:26</span><span class="transcript-text">And if you&#x27;re using a brand new film, you probably want to start where the manufacturer uh recommends.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:33">18:33</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:34">18:34</span><span class="transcript-text">It&#x27;s a good starting point, and uh a meter can help you make sure you&#x27;re starting there and help you eliminate some of the variables right out of the box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:42">18:42</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:43">18:43</span><span class="transcript-text">Have you worked on any larger format films or plates yet, like eight by ten and up?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:48">18:48</span><span class="transcript-text">No, I haven&#x27;t.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:49">18:49</span><span class="transcript-text">Uh as I said, I&#x27;ve I&#x27;ve kind of specialized.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:52">18:52</span><span class="transcript-text">Um I have a uh a two by two table that I&#x27;ve built.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:57">18:57</span><span class="transcript-text">Um it&#x27;s a hex can table.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:59">18:59</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:00">19:00</span><span class="transcript-text">So it&#x27;s literally um soda cans uh between two skins of steel.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:05">19:05</span><span class="transcript-text">That was John Clayer that started that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:07">19:07</span><span class="transcript-text">Yeah, I think it might have been him.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:09">19:09</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:09">19:09</span><span class="transcript-text">But but there are a lot of different people who&#x27;ve who&#x27;ve who&#x27;ve uh investigated it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:14">19:14</span><span class="transcript-text">And uh you know, I built one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:16">19:16</span><span class="transcript-text">I uh uh another interesting thing about my approach is that um I don&#x27;t have a lot of room, even though I have a reasonably sized house, um I have a lot of other hobbies going on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:27">19:27</span><span class="transcript-text">I&#x27;m into amateur radio model rocketry um and uh so space is a premium and I I didn&#x27;t have a room that I could dedicate as a dark room.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:41">19:41</span><span class="transcript-text">So I&#x27;ve taken over uh actually my wife ended up uh convincing me to to remodel the downstairs bathroom so that it can be used both for chemistry and for regular downstairs bathroom function.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:55">19:55</span><span class="transcript-text">You&#x27;ve been bitten by the bug so um one of the things that I developed is a technique where most of my my um processes can be carried out in room light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:07">20:07</span><span class="transcript-text">Um so I use um five by seven Graphlex film holders as my film holder.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:15">20:15</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:16">20:16</span><span class="transcript-text">And I rebuild &#x27;em so that you can put a a piece of four by five film or a sandwich between glass or you can put a a glass plate in them and they&#x27;ll it&#x27;ll be mounted stably and that was a a trick in itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:30">20:30</span><span class="transcript-text">Um and then you can put the slides on this thing and you can carry it around the house.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:35">20:35</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:35">20:35</span><span class="transcript-text">And then my table is enclosed uh in uh foam core.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:41">20:41</span><span class="transcript-text">It&#x27;s uh about a three foot cube around this two foot table and on one side there&#x27;s a port where I&#x27;ve cut out a square and I&#x27;ve made uh what looks like uh a Graphlex camera entry.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:55">20:55</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:56">20:56</span><span class="transcript-text">It&#x27;s uh insulated from light and vibration by several layers of black trash bag plastic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:03">21:03</span><span class="transcript-text">And you can position everything you want inside the box and put the plate holder in and close up the box and then pull a dark slides out and then you can make an exposure that way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:15">21:15</span><span class="transcript-text">Well do you have any pictures anywhere of this?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:17">21:17</span><span class="transcript-text">Because this is sounding awful familiar to me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:19">21:19</span><span class="transcript-text">Like I&#x27;ve seen some pictures of of your studio or something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:22">21:22</span><span class="transcript-text">I think I&#x27;ve put some pictures like this uh up on um uh Michael Harrison&#x27;s website if you&#x27;ve been kind enough to host some space for me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:32">21:32</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:33">21:33</span><span class="transcript-text">Because it all sounds very familiar like I&#x27;ve seen it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:35">21:35</span><span class="transcript-text">Uh so I may have described some of it and put up some pictures.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:38">21:38</span><span class="transcript-text">Yeah, because I&#x27;ve never been there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:40">21:40</span><span class="transcript-text">We&#x27;ve never met, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:41">21:41</span><span class="transcript-text">No.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:41">21:41</span><span class="transcript-text">No we&#x27;ve never met.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:42">21:42</span><span class="transcript-text">Nope.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:43">21:43</span><span class="transcript-text">Alright, anything you want to add, Tony?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:45">21:45</span><span class="transcript-text">We&#x27;re coming up well actually over twenty minutes now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:47">21:47</span><span class="transcript-text">I like to keep it short just so that the file sizes don&#x27;t get too big because the audio files.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:52">21:52</span><span class="transcript-text">Some people are still on dial up modems and that&#x27;s fine, but what I try to do is to make everybody happy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:57">21:57</span><span class="transcript-text">So I try to keep the file sizes as small as possible because they&#x27;re downloading on you know dial up modems and things still.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:05">22:05</span><span class="transcript-text">Anything you&#x27;d like to add before we close it out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:08">22:08</span><span class="transcript-text">Uh I think we&#x27;ve I&#x27;m just uh kind of looking at a cheat sheet here to see if we&#x27;ve covered everything um uh basically it&#x27;s uh it&#x27;s an accurate light meter um it gives you some computations that uh help you out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:26">22:26</span><span class="transcript-text">It has real time readings uh that you can use if you&#x27;re making adjustments or if you&#x27;re trying to set beam ratios um and uh runs on a battery and simple to use and uh and affordable and affordable yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:44">22:44</span><span class="transcript-text">So I&#x27;m I&#x27;m hoping that some some folks will be uh interested in it and uh you know I I&#x27;m just trying to uh make whatever kind of a contribution I can to the hobby.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:54">22:54</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:54">22:54</span><span class="transcript-text">Um and and really that&#x27;s my point of view on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:57">22:57</span><span class="transcript-text">Uh I I I&#x27;m not like many people who sort of think that holography is gonna be the next big thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:03">23:03</span><span class="transcript-text">Well, good for you because you&#x27;re in for a big surprise.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:08">23:08</span><span class="transcript-text">Yeah, I know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:10">23:10</span><span class="transcript-text">I&#x27;m drawing a blank, so just hold on with me here for a second.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:13">23:13</span><span class="transcript-text">Um how can someone get in touch with you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:16">23:16</span><span class="transcript-text">Um Do you want to give your phone number?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:18">23:18</span><span class="transcript-text">Do you want me to put your phone number on the on the Holotalk website uh page when people listen to the show or what do you want them to do?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:28">23:28</span><span class="transcript-text">Probably the best thing would be to um give out uh the email address.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:34">23:34</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:35">23:35</span><span class="transcript-text">I think that would be and I&#x27;ll place a link to that also so that people can just click on that and send you an email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:41">23:41</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:42">23:42</span><span class="transcript-text">That would be that would be the best thing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:44">23:44</span><span class="transcript-text">Do you have a PayPal account where people can pay you online or just check money order thing?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:48">23:48</span><span class="transcript-text">Uh I do have a PayPal account.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:50">23:50</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:51">23:51</span><span class="transcript-text">Uh at the moment I can only accept uh uh payment from a checking account.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:56">23:56</span><span class="transcript-text">I can&#x27;t payment from a credit card because I&#x27;m just uh I&#x27;m just really a user and not a seller.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:03">24:03</span><span class="transcript-text">I see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:03">24:03</span><span class="transcript-text">Well you can let everybody you can work that out with everyone else when they contact you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:07">24:07</span><span class="transcript-text">I can&#x27;t take credit cards.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:08">24:08</span><span class="transcript-text">I can&#x27;t accept credit cards.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:10">24:10</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:10">24:10</span><span class="transcript-text">Um I I I have access to a merchant account where I can run those through.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:15">24:15</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:15">24:15</span><span class="transcript-text">So wanna give them the email address?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:19">24:19</span><span class="transcript-text">Sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:19">24:19</span><span class="transcript-text">Uh it&#x27;s B A R O C K T E E R at A O L dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:27">24:27</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:30">24:30</span><span class="transcript-text">Oh, okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:31">24:31</span><span class="transcript-text">And that&#x27;s from one of my other hobbies that I resurrected by typing something into the internet late at night.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:38">24:38</span><span class="transcript-text">Hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:40">24:40</span><span class="transcript-text">Yeah, I I did some little model rocketing when I was a kid.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:44">24:44</span><span class="transcript-text">It was a lot of fun.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:44">24:44</span><span class="transcript-text">Well uh like holography, the model rocketry area has grown up as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:52">24:52</span><span class="transcript-text">And when you were a kid you probably thought a C or a D was a big engine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:57">24:57</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:58">24:58</span><span class="transcript-text">And nowadays uh the the um model rocketry can go as high as M.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:06">25:06</span><span class="transcript-text">Wow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:07">25:07</span><span class="transcript-text">And each letter is a doubling, it&#x27;s uh a doubling of the amount of power.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:11">25:11</span><span class="transcript-text">Isn&#x27;t that something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:12">25:12</span><span class="transcript-text">I know some people launch cameras and everything on, you know.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:14">25:14</span><span class="transcript-text">Cameras, video, um small children.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:20">25:20</span><span class="transcript-text">Pets well, you&#x27;re not supposed to launch anything with a backphone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:23">25:23</span><span class="transcript-text">That&#x27;s the Oh, is that what it is?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:25">25:25</span><span class="transcript-text">Isn&#x27;t that something, huh?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:28">25:28</span><span class="transcript-text">Well, I&#x27;ll have to look I no, I&#x27;m not going to look that up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:31">25:31</span><span class="transcript-text">I&#x27;m not going to look that up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:33">25:33</span><span class="transcript-text">That&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:33">25:33</span><span class="transcript-text">I&#x27;ve got too many things going on now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:35">25:35</span><span class="transcript-text">That&#x27;s right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:35">25:35</span><span class="transcript-text">When I turned fifty, I chose there were a few things that I was going to continue to do, and I was dropping everything else, and I chose holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:42">25:42</span><span class="transcript-text">Getting back involved with music and composing again, which I&#x27;ve started to do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:46">25:46</span><span class="transcript-text">I put a recording studio in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:48">25:48</span><span class="transcript-text">And uh fitness, you know, cycling, I&#x27;m just boxing and things of that nature that I&#x27;ve been doing for years.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:54">25:54</span><span class="transcript-text">Well that&#x27;s a great one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:55">25:55</span><span class="transcript-text">That&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:56">25:56</span><span class="transcript-text">That is it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:57">25:57</span><span class="transcript-text">Nothing else and nothing new.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:58">25:58</span><span class="transcript-text">This is gonna take me out for the rest of my life, and I don&#x27;t I&#x27;m not gonna put model rocketry into a search engine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:05">26:05</span><span class="transcript-text">That was a lot of fun though.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:07">26:07</span><span class="transcript-text">I have seen some videos of people who have had the small uh USB type cameras or whatever it was that they had on the nose of the rocket, and they&#x27;d launched that up into the neighborhoods and stuff, and it was like I&#x27;ve gotta do this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:20">26:20</span><span class="transcript-text">But I&#x27;m gonna stay away from it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:22">26:22</span><span class="transcript-text">Alright, Tony.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:24">26:24</span><span class="transcript-text">It was really nice talking to you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:26">26:26</span><span class="transcript-text">Well, thank you very much for calling.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:28">26:28</span><span class="transcript-text">I hope we get a chance to meet sometime.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:30">26:30</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:30">26:30</span><span class="transcript-text">We&#x27;re not too far apart from one another.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:29">26:29</span><span class="transcript-text">No.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:33">26:33</span><span class="transcript-text">And uh maybe one of these days they&#x27;ll they&#x27;ll have some kind of a get together uh in the northeast.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:39">26:39</span><span class="transcript-text">I know that they they&#x27;ve been trying to have one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:41">26:41</span><span class="transcript-text">I tried to have one in Georgia, but it kind of fizzled out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:44">26:44</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:45">26:45</span><span class="transcript-text">But uh if they had one in the northeast, I think we would we would get together.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:49">26:49</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:50">26:50</span><span class="transcript-text">Well, I get up there sometimes around Cape Cod, Martha&#x27;s Vineyard uh area.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:55">26:55</span><span class="transcript-text">I don&#x27;t know how far that is from you from where you are.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:26:59">26:59</span><span class="transcript-text">Well, um But if I ever find myself coming up there again, probably won&#x27;t be this summer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:05">27:05</span><span class="transcript-text">I&#x27;m only about a two-hour drive from the Cape.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:08">27:08</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:08">27:08</span><span class="transcript-text">Um probably actually you know, about an hour and a half from the bridges.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:12">27:12</span><span class="transcript-text">Infamous bridges.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:14">27:14</span><span class="transcript-text">I st I usually stay in a town called Falmouth.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:16">27:16</span><span class="transcript-text">Uh-huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:16">27:16</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:18">27:18</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:18">27:18</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:19">27:19</span><span class="transcript-text">So that&#x27;s only about an hour and a half from me here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:21">27:21</span><span class="transcript-text">Yeah, and then we take the boat over.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:23">27:23</span><span class="transcript-text">All right, Tony.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:24">27:24</span><span class="transcript-text">All right, Frank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:25">27:25</span><span class="transcript-text">Have a good rest of the night, and uh at some point I&#x27;ll get this all.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:30">27:30</span><span class="transcript-text">I don&#x27;t think we need to do too much I don&#x27;t do too much editing on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:32">27:32</span><span class="transcript-text">If I stumble over something, I usually leave it in, but if someone else stumbles, I&#x27;d take it out for them if they want to.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:37">27:37</span><span class="transcript-text">But you did a wonderful job.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:38">27:38</span><span class="transcript-text">You were prepared, you knew what you wanted to say, and you got it across comprehensively, and uh I think we&#x27;d be ready to go with it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:45">27:45</span><span class="transcript-text">Great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:45">27:45</span><span class="transcript-text">Well, thank you very much for the opportunity.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:47">27:47</span><span class="transcript-text">Sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:47">27:47</span><span class="transcript-text">Howdyos, amigo.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:49">27:49</span><span class="transcript-text">All right, thanks, Frank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:50">27:50</span><span class="transcript-text">Talk to you later.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:27:51">27:51</span><span class="transcript-text">Bye.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello. Hello, Tony. Yes. How are you? It&#x27;s Frank DeFreitas. I&#x27;m good. How are you, Frank? Doing pretty good. I thought I would give you a call and find out some information about this light meter that you&#x27;ve put together, and you sent an email to me about that, and thank you for sending that. If we were to talk about that, what would be the most important information you&#x27;d want the listeners to know about? The most important thing I want listeners to know is that it&#x27;s available. Okay. And this is something that I put together because I thought there was a need for it. Apparently, there used to be a meter that everybody liked called Science Mechanics SM3. Yes, I have that one. And I think that one is out of print at this point. Yeah. So I think there&#x27;s an opportunity here to replace that meter with, you know, a 21st century upgraded kind of version. And I have been doing holograms in my basement for about three years now, and I basically started with your book, with Shoebox Holography. Oh, that&#x27;s great. And I&#x27;ve kind of graduated from laser diodes to higher power helium neon lasers, and I have a small table. And I&#x27;ve experimented. I&#x27;ve done all of the different kinds of silver halide film and plates that I can get a hold of. And what turned out to be your favorite to work with so far? Well, so far, I&#x27;d have to say my favorite is BB. Yeah. It&#x27;s definitely the most reliable, and it&#x27;s the highest performing one that I&#x27;ve found. I think that probably Ultimate can also be very good, but I&#x27;ve had a really strange problem with Ultimate in that I haven&#x27;t been able to get any... Oh, that&#x27;s interesting. I have gotten several batches, and the folks at Ultimate have been very, very supportive trying to help me out. I&#x27;ve had several batches from France. I&#x27;ve had one batch from Canada. And we thought maybe it was x-rays, but now we&#x27;re pretty sure that&#x27;s not the case. And I&#x27;ve tried everything that I can think of. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. So we&#x27;re still in the midst of sorting out what&#x27;s going on there. But I think that Ultimate probably can give the same kind of performance, you know, based on what I&#x27;ve been able to see, you know, aside from the fact that I&#x27;m dealing with this horrendous fogging problem. But I expect that it would be nearly as good or perhaps even better than BB as far as noise and contrast and so forth. And I suspect it&#x27;s much more sensitive. The drawback on BB is that it&#x27;s fairly lower or less sensitive, I guess you&#x27;d say, than most everything else. So it requires a longer exposure or higher power. Where are you getting your BB plates from lately? I buy them from Vintech. Okay. Oh, okay. Yeah. Yeah. He&#x27;s still... South Carolina. Okay. They&#x27;re super to deal with. And this stuff shows up in just a few days. Yeah. Did they say about the Ultimate, did they think it might be your processing regimens? Well, they provide the developer. Oh, I see. Okay. So we&#x27;ve tried everything we can possibly think of. There&#x27;s still an outside possibility that it&#x27;s something to do with my safe lighting. Okay. And other than that, I mean, we&#x27;ve exotic lighted this light. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. We&#x27;ve costably eliminated every variable that we can think of so far, which is very strange. And I completely believe that it works at some locations, but it just doesn&#x27;t seem to work in Andover. I don&#x27;t know what the reason is. Yeah, it&#x27;s, hmm. Sometimes one of those variables turns out to be the most surprising element. Yes. You know, it could, do you use tap water? We&#x27;ve tried different kinds of water. Yeah, okay. Typically I use bottled water. Yeah. And I tried an experiment with bottled distilled water, which I would have thought either one of those would be fine. The thing is, all of my regimen has worked okay for many other kinds of film. Yeah, yeah. You know, I&#x27;ve got some old Agfa. I&#x27;ve got Slavich. And I&#x27;ve tried even, I&#x27;ve even gotten some Fuji. So, you know, I&#x27;ve tried a lot of different kinds of films. And most of them work the way they, you would expect them to work. That&#x27;s interesting. But now you have a light meter. That&#x27;s right. I saw a picture of it. It&#x27;s very nice with the digital readout. Uh-huh. What are the functions on there? Essentially. Essentially.
 
 but now you have a light meter. That&#x27;s right. I saw a picture of it. It&#x27;s very nice with the digital readout. What are the functions on there? Essentially, it gives you four numbers at a time. Okay. That&#x27;s as much information as I could squeeze on the display. And the top two numbers are your reading in power for the object beam and the reference beam. Okay. And one of the bottom numbers is the total of the two beams, so it&#x27;s just adding the power together. And the other is typically a ratio. I see. And so you can set it up. You can place the sensor where your film is, and you can cart off one beam and measure the other. So, for example, you could cart off the reference beam and measure the object and punch the button in for that. Yep. And then you can... You can cart off the object beam and measure the reference, and at that point, it&#x27;ll give you a display of the ratios. I see. Yeah. So if you&#x27;re shooting for a particular ratio that you like, you can tune it in that way. And it&#x27;s all real time. And the power readings have trending on them so that they have a little plus and minus sign that comes and goes depending on whether the reading is going up or going down. I see. You don&#x27;t have to do the mental math. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. I see. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. You can use it for adjusting optics. You can find the center of the beam. You can just set it up and tune your spatial filter for a maximum output, which is basically the optimum setting in most cases unless there&#x27;s something funny with your optics. And it also can do optical density. Oh, okay, yeah. So in that case, you can set it up so that it measures basically the log of the ratio of the two readings. And so what you would do for that is you&#x27;d put the sensor in a little plastic bag and put it face up on the table, and you can develop your film and put it in some stop bath or fixer or something so that you can turn the lights on. And then you can basically measure the room light. With nothing over the sensor, just the ambient light. And then you put your film over the sensor and measure the other reading, and it&#x27;ll compute the log of that ratio and tell you what your optical density is. That&#x27;s interesting. I noticed that a lot of the instructions and the spec sheets that come with holographic films fail to mention anything about final densities at all. Right. I was always surprised by that because I know in the olden days, back in the day of color science, separations and things like that and outputting film from line-of-type machines, laser printers and things, that you always went for a density. Always put your film under a densitometer. Right. Yeah. Interesting. I think some people get into the numerical accuracy of it. Some film manufacturers, I think the Slavage webpage does have a density versus exposure. Okay. And it&#x27;s a little bit more than that. Yeah. But I think there&#x27;s some experimentation also. There&#x27;s kind of a rule of thumb that I&#x27;ve observed over the three years that I&#x27;ve been paying attention that transmission holograms want to be around one to two and reflection holograms want to be two or better. Yeah. So that&#x27;s useful for that. I mean, a lot of people just develop by eye. Mm-hmm. Yeah. But some processing schemes don&#x27;t account for being able to make a density measurement before you bleach it. Yeah. Yeah. But I think it might still be possible to do that if you had a, for example, if you had a light source which was not in the sensitive area of the film you&#x27;re using. Mm-hmm. So if you&#x27;re using red sensitive film, if you had a green LED as a light source, you could probably still go ahead and do a density reading on it. Yeah. Even before it&#x27;s bleached. Yeah, and if it&#x27;s not your reading, you get it back in the developer. Right. Yeah. And let me ask you this. Is the LCD panel that&#x27;s on your light meter, is that backlit? Yes, it is. Great. It has a green backlight to it. And the backlight consumes a lot of power from the battery. The thing draws almost no power except for the backlight. Yeah. And so the thing has an automatic power down. If you don&#x27;t punch any buttons for five minutes, it shuts itself off. Wow. And then if you just touch a button, it comes back on again. Wow, you really thought of everything with this.
 
@@ -373,7 +852,7 @@ plate into the plate holder as well. You&#x27;re still losing a certain percenta
 
 that I&#x27;ve developed is a technique where most of my processes can be carried out in room light. So I use 5x7 Graflex film holders as my film holder. And I rebuild them so that you can put a piece of 4x5 film or it&#x27;s sandwiched between glass or you can put a glass plate in them and it&#x27;ll be mounted stably. And that was a trick in itself. And then you can put the slides on this thing and you can carry it around the house. And then my table is enclosed in foam core. It&#x27;s about a three foot cube around this two foot table. And on one side there&#x27;s a port where I&#x27;ve cut out a square and I&#x27;ve made what looks like a Graflex film holder. It&#x27;s camera entry. It&#x27;s insulated from light and vibration by several layers of black trash bag plastic. And you can position everything you want inside the box and put the plate holder in and close up the box and then pull the dark slides out. And then you can make an exposure that way. Do you have any pictures anywhere of this? Because this is sounding awful familiar to me. Like I&#x27;ve seen some pictures of your studio or something. I think I&#x27;ve put some pictures like this up on Michael Harrison&#x27;s website. Okay. He&#x27;s been kind enough to host some space for me. Yeah. Because it all sounds very familiar like I&#x27;ve seen it. So I may have described some of it and put up some pictures. Yeah. Because I&#x27;ve never been there. We&#x27;ve never met, right? No. No, we&#x27;ve never met. No. All right. Anything you want to add, Tony? We&#x27;re coming up, well, actually over 20 minutes now. I like to keep it short just so that the file sizes don&#x27;t get too big because the audio files. Some people are still on dial-up modems. And that&#x27;s a good thing. Some people are still on dial-up modems. And that&#x27;s a good thing. Some people are still on dial-up modems. And that&#x27;s a good thing. Some people are still on dial-up modems. And that&#x27;s fine. But what I try to do is to make everybody happy. So I try to keep the file sizes as small as possible because they&#x27;re downloading on dial-up modems and things still. Anything you&#x27;d like to add before we close it out? I think we&#x27;ve... I&#x27;m just kind of looking at a cheat sheet here to see if we&#x27;ve covered everything. Basically, it&#x27;s an accurate light meter. It gives you some computations that help you out. It has real-time readings that you can use if you&#x27;re making adjustments or if you&#x27;re trying to set beam ratios. And it runs on a battery and it&#x27;s simple to use and... And affordable. And affordable, yes. So I&#x27;m hoping that some folks will be interested in it and, you know, I&#x27;m just trying to make whatever kind of a conversation I can get out of it. I&#x27;m just trying to make whatever kind of a contribution I can to the hobby. Yeah. And really, that&#x27;s my point of view on it. I&#x27;m not like many people who sort of think that holography is going to be the next big thing. Well, good for you because you&#x27;re in for a big surprise. It&#x27;s the next big thing for many, many years. Yeah, I know. I&#x27;m drawing a blank, so just hold on with me here for a second. How can someone get in touch with you? Do you want to give your phone number? Do you want me to put your phone number on the Holotalk website page when people listen to the show? Or what do you want them to do? Probably the best thing would be to give out the email address. Okay. And I&#x27;ll place a link to that also so that people can just click on that and send you an email. Yeah, yeah. That would be the best thing. Do you have a PayPal account where people can pay you online or just check money order thing? I do have a PayPal account. Okay. At the moment, I can only accept payment from a checking account. I can&#x27;t accept payment from a credit card. All right. I&#x27;m just really a user and not a seller. I see. Well, you can work that out with everyone else when they contact you. I can take credit cards. I can accept credit cards. Oh, okay. I have access to a merchant account where I can run those through. Okay. So you want to give them the email address? Sure. It&#x27;s B-A-R-O-C-K-T-E-E-R at AOL.com. Okay. B-A-R-O-C-K-T-E-E-R. Oh, okay. And that&#x27;s from one of my other hobbies that I resurrected by typing something into the Internet late at night. Hmm. Yeah, I did some little model rocketing when I was a kid. It was a lot of fun. Well, like holography, the model rocketing. The model rocketry area has grown up as well. And when you were a kid, you probably thought a C or a D was a big engine. Yeah. And nowadays, the model rocketry can go as high as M. Wow. And each letter is a doubling. It&#x27;s a double.
 
-the model rocketry can go as high as M. Wow. And each letter is a doubling. It&#x27;s a doubling of the amount of power. Isn&#x27;t that something? I know some people launch cameras and everything on them. Cameras, video. Small children? Well, you&#x27;re not supposed to launch anything with a backbone. Oh, is that what it is? Isn&#x27;t that something? Wow. No, I&#x27;m not going to look that up. I&#x27;m not going to look that up. That&#x27;s it. I&#x27;ve got too many things going on now. That&#x27;s right. When I turned 50, I chose there were a few things that I was going to continue to do, and I was dropping everything else. And I chose holography, getting back involved with music and composing again, which I&#x27;ve started to do. I put a recording studio in. And fitness, you know, cycling, boxing and things of that nature that I&#x27;ve been doing for years. Well, that&#x27;s a great one. That&#x27;s it. That is it. Nothing else. And nothing new. This is going to take me out for the rest of my life, and I&#x27;m not going to put model rocketry into a search engine. That was a lot of fun, though. I have seen some videos of people who have had the small USB-type cameras or whatever it was that they had on the nose of the rocket, and they&#x27;d launch that up into the neighborhoods and stuff, and it was like, I&#x27;ve got to do this. But I&#x27;m going to stay away from it. All right, Tony. It was really nice talking to you. Well, thank you very much for coming. I hope we get a chance to meet sometime. We&#x27;re not too far apart from one another. No. Maybe one of these days they&#x27;ll have some kind of a get-together in the northeast. I know that they&#x27;ve been trying to have one. They tried to have one in Georgia, but it kind of fizzled out. Yeah. But if they had one in the northeast, I think we would get together. Yeah. Well, I get up there sometimes around Cape Cod, Martha&#x27;s Vineyard area. I don&#x27;t know how far that is from you. I don&#x27;t know how far that is from where you are. Well. But if I ever find myself coming up there again, it probably won&#x27;t be this summer. I&#x27;m only about a two-hour drive from the Cape. Okay. Probably, actually, about an hour and a half from the bridges, infamous bridges. I usually stay in a town called Falmouth. Uh-huh. Yeah. I know where that is. Yeah. So that&#x27;s only about an hour and a half from me. Yeah, and then we take the boat over. All right, Tony. All right, Frank. Have a good rest of the night. And, uh. At some point, I&#x27;ll get this all. I don&#x27;t think we need to do too much. I don&#x27;t do too much editing on it. If I stumble over something, I usually leave it in. But if someone else stumbles, I take it out for them if they want to. But you did a wonderful job. You were prepared. You knew what you wanted to say, and you got it across comprehensively. And I think we&#x27;d be ready to go with it. Great. Thank you very much for the opportunity. Sure. Adios, amigo. All right. Thanks, Frank. Talk to you later. Bye. Bye. Bye. Bye. Bye. Bye.</div>
+the model rocketry can go as high as M. Wow. And each letter is a doubling. It&#x27;s a doubling of the amount of power. Isn&#x27;t that something? I know some people launch cameras and everything on them. Cameras, video. Small children? Well, you&#x27;re not supposed to launch anything with a backbone. Oh, is that what it is? Isn&#x27;t that something? Wow. No, I&#x27;m not going to look that up. I&#x27;m not going to look that up. That&#x27;s it. I&#x27;ve got too many things going on now. That&#x27;s right. When I turned 50, I chose there were a few things that I was going to continue to do, and I was dropping everything else. And I chose holography, getting back involved with music and composing again, which I&#x27;ve started to do. I put a recording studio in. And fitness, you know, cycling, boxing and things of that nature that I&#x27;ve been doing for years. Well, that&#x27;s a great one. That&#x27;s it. That is it. Nothing else. And nothing new. This is going to take me out for the rest of my life, and I&#x27;m not going to put model rocketry into a search engine. That was a lot of fun, though. I have seen some videos of people who have had the small USB-type cameras or whatever it was that they had on the nose of the rocket, and they&#x27;d launch that up into the neighborhoods and stuff, and it was like, I&#x27;ve got to do this. But I&#x27;m going to stay away from it. All right, Tony. It was really nice talking to you. Well, thank you very much for coming. I hope we get a chance to meet sometime. We&#x27;re not too far apart from one another. No. Maybe one of these days they&#x27;ll have some kind of a get-together in the northeast. I know that they&#x27;ve been trying to have one. They tried to have one in Georgia, but it kind of fizzled out. Yeah. But if they had one in the northeast, I think we would get together. Yeah. Well, I get up there sometimes around Cape Cod, Martha&#x27;s Vineyard area. I don&#x27;t know how far that is from you. I don&#x27;t know how far that is from where you are. Well. But if I ever find myself coming up there again, it probably won&#x27;t be this summer. I&#x27;m only about a two-hour drive from the Cape. Okay. Probably, actually, about an hour and a half from the bridges, infamous bridges. I usually stay in a town called Falmouth. Uh-huh. Yeah. I know where that is. Yeah. So that&#x27;s only about an hour and a half from me. Yeah, and then we take the boat over. All right, Tony. All right, Frank. Have a good rest of the night. And, uh. At some point, I&#x27;ll get this all. I don&#x27;t think we need to do too much. I don&#x27;t do too much editing on it. If I stumble over something, I usually leave it in. But if someone else stumbles, I take it out for them if they want to. But you did a wonderful job. You were prepared. You knew what you wanted to say, and you got it across comprehensively. And I think we&#x27;d be ready to go with it. Great. Thank you very much for the opportunity. Sure. Adios, amigo. All right. Thanks, Frank. Talk to you later. Bye. Bye. Bye. Bye. Bye. Bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

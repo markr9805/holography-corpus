@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,11 +456,88 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Hello, this is Frank DeFreitas, and welcome to Holotalk, your laser and holography internet radio talk show. I&#x27;ve been off the air since a week before Christmas, and not only is it good to be back behind the mic again, there&#x27;s been a lot of very exciting work that has taken place in the last few weeks that I&#x27;d like to get everyone back up to speed on. Holotalk was down completely for Christmas week due to my Santa radar page, where kids could track Santa from the North Pole with radar and listen to updates along the trip. The page received 14,055 hits on Christmas Eve, and we received 156 phone calls in three hours to Santa&#x27;s sleigh during the trip. It was a lot of fun, and I&#x27;m hoping it turns into an annual tradition on the web for kids everywhere. The scheduled guest for this week, Arlene Jurwitz, has asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. I have managed to create a 4x5-inch multicolor white light reflection hologram, single-beam hologram, using my laser pointer that I paid $7.99 for. I now have a special section on the Holoworld site dedicated to laser pointer holography, so I hope that you take the opportunity to visit the pages to see what work has been done in the last few weeks, and continue to visit to keep up with advancements as they are made. made. My second area of interest is in making simple holographic stereograms. This is where you can take a series of individual pictures from different perspectives with your own 35 millimeter camera and then transfer those frames into one hologram which will give you a three-dimensional view of your subject whether it&#x27;s a nature scene, a car, or a portrait of someone that you know, maybe a wife, girlfriend, boyfriend, husband, your child, grandchildren. You can take them, sit them down, do a specific series of exposures with your 35 millimeter camera and then get that film processed and bring it in and create a three-dimensional hologram from those frames. I find this area important because of the vast number of amateur and hobbyist photographers out there who are always looking to advance their interests and skills and to try out new techniques. In the past, purchasing a helium neon laser for several hundred dollars was out of the question, but to be able to do this with a laser pointer that is less than ten dollars now moves that restriction out of the way. Stereogram holograms are going to require a split beam setup, so this is still an area that needs to be explored. At the very least, I would like to be able to create the laser transmission stereogram slit master. This would require an opportunity to view the hologram with the laser pointer and see it three-dimensionally. Doing the transfer from the laser master to a reflection copy is going to be a long shot at the low power end of laser pointers, but this is what the work is all about. You push the limits, you have to think differently, and you have to come up with answers and solutions. The one advantage of creating stereograms is that the dimensional information is contained within a flat plain. flat plane. For example, the three-dimensional image that you see when you look at a stereogram is not due to the fact that there is a three-dimensional object recorded onto the emulsion as in typical traditional holography where you sit an object behind the plate, you do a holographic master of the object, and then...
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Hello, this is Frank Defratis, and welcome to Holotalk, your laser and holography Internet Radio Talk Show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:07">0:07</span><span class="transcript-text">I&#x27;ve been off the air since a week before Christmas, and not only is it good to be back behind the mic again, there&#x27;s been a lot of very exciting work that has taken place in the last few weeks that I&#x27;d like to get everyone back up to speed on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:21">0:21</span><span class="transcript-text">HoloTalk was down completely for Christmas week due to my Santa Radar page, where kids could track Santa from the North Pole with radar and listen to updates along the trip.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:31">0:31</span><span class="transcript-text">The page received 14,055 hits on Christmas Eve, and we received 156 phone calls in three hours to Santa Slay during the trip.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:41">0:41</span><span class="transcript-text">It was a lot of fun, and I&#x27;m hoping it turns into an annual tradition on the web for kids everywhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">The scheduled guest for this week, Arlene Jurwitz, has asked to move her appearance to next week due to a scheduling conflict.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:57">0:57</span><span class="transcript-text">So we&#x27;re looking forward to hearing about Arlene and her work with holography, hopefully next week on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:03">1:03</span><span class="transcript-text">I&#x27;d like to say hello to all new listeners, and I imagine we&#x27;re going to have a lot of you out there, especially those interested in laser pointer holography, which has become a very hot topic as your emails have shown over the past several weeks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:19">1:19</span><span class="transcript-text">Since the last show right before Christmas, and by the way, HoloTalk is now back on the air with a new show every week until Memorial Day.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:28">1:28</span><span class="transcript-text">After Memorial Day, you can enjoy the summer rebroadcast until the new fall season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:34">1:34</span><span class="transcript-text">Anyway, since the last show before Christmas, we have moved from wondering if laser pointers will consistently work for making holograms to actually creating a multiple color reflection hologram using one.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:47">1:47</span><span class="transcript-text">There are two areas of laser pointer holography that I am very interested in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:52">1:52</span><span class="transcript-text">I will tell you what those areas are and why I feel they are important to the success of this new sub-field of traditional quote unquote holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:04">2:04</span><span class="transcript-text">My first area of interest with development is multicolor laser pointer holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:10">2:10</span><span class="transcript-text">This is where you can have the hologram exhibit color control and mixing of several colors at one time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:17">2:17</span><span class="transcript-text">I find this very important in order to make holography appealing to artists who wish to give it a shot as a means of creative expression.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:25">2:25</span><span class="transcript-text">I have managed to create a 4x5-inch multicolor white light reflection hologram, single beam hologram, using my later laser pointer that I paid $7.99 for.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:30">3:30</span><span class="transcript-text">A specific series of exposures with your 35 millimeter camera and then get that film processed and bring it in and create a three-dimensional hologram from those frames.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:41">3:41</span><span class="transcript-text">I find this area important because of the vast number of amateur and hobbyist photographers out there who are always looking to advance their interests and skills and to try out new techniques.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:53">3:53</span><span class="transcript-text">In the past, purchasing a helium neon laser for several hundred dollars was out of the question.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:59">3:59</span><span class="transcript-text">But to be able to do this with a laser pointer that is less than $10 now moves that restriction out of the way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:06">4:06</span><span class="transcript-text">Stereogram holograms are going to require a split beam setup.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:12">4:12</span><span class="transcript-text">So this is still an area that needs to be explored.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:15">4:15</span><span class="transcript-text">At the very least, I would like to be able to create the laser transmission stereogram slit master.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:21">4:21</span><span class="transcript-text">This would give you an opportunity to view the hologram with the laser pointer and see it three-dimensionally.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:28">4:28</span><span class="transcript-text">Doing the transfer from the laser master to a reflection copy is going to be a long shot at the low power end of laser pointers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:36">4:36</span><span class="transcript-text">But this is what the work is all about.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:39">4:39</span><span class="transcript-text">You push the limits, you have to think differently, and you have to come up with answers and solutions.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:52">4:52</span><span class="transcript-text">For example, the three-dimensional image that you see when you look at a stereogram is not due to the fact that there is a three-dimensional object recorded onto the emulsion, as in typical traditional holography where you sit an object behind the plate, you do a holographic master of the object and then transfer that over.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:15">5:15</span><span class="transcript-text">The fact that you see a three-dimensional image when you look at a stereogram is due to the fact that your eyes are seeing different perspectives at the same time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:24">5:24</span><span class="transcript-text">And this information is contained as a flat plane, which requires very little coherence length, providing that your table geometry is set up properly, and your beam pads match up as closely to one another as you can possibly make them.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:38">5:38</span><span class="transcript-text">I have also found that Hitachi has just released a 35 milliwatt 658 nanometer laser diode for 41 dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:50">5:50</span><span class="transcript-text">This is 35 milliwatts for 41 dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:55">5:55</span><span class="transcript-text">Call your laser supplier and ask them to quote you a price on a 35 milliwatt helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:00">6:00</span><span class="transcript-text">You&#x27;re looking at several thousand dollars.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:03">6:03</span><span class="transcript-text">Steve Michael will be back with updates on his experimentation and research as well on future whole talks.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:10">6:10</span><span class="transcript-text">At present, he is working with Kodak&#x27;s SO253 film to see how well it works out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:15">6:15</span><span class="transcript-text">I&#x27;m going to order some of the Slavage Film or plates in the not too distant future and begin working with them as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:22">6:22</span><span class="transcript-text">I just opened my last box of Agha plates and still have a few packs of film left, but after that, that&#x27;s it for AgFA.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:30">6:30</span><span class="transcript-text">I have nothing else.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:32">6:32</span><span class="transcript-text">Steve is also working with split beam holography, according to his last email that he just sent today, to see if it&#x27;s possible to get results and what those results are.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:41">6:41</span><span class="transcript-text">Now I highly recommend that you visit and bookmark Steve&#x27;s site for additional information and updates.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:47">6:47</span><span class="transcript-text">You can find a link to Steve&#x27;s site on my link page, and I&#x27;ve created a special section right at the top devoted to laser pointer holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:55">6:55</span><span class="transcript-text">So stop back and watch it grow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:58">6:58</span><span class="transcript-text">If you have started to work with laser pointers and have a web page, please send along your URL so I can put a link up for visitors to stop by your site and see what it is that you&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:08">7:08</span><span class="transcript-text">So with the prices of laser diodes going down, along with their power increases and shorter wavelengths, this is a very interesting time indeed.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:16">7:16</span><span class="transcript-text">My helium neon laser is just sitting there on the table.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:19">7:19</span><span class="transcript-text">When I pick up one of those 35 milliwatt Hitachi diodes, and if it works, I doubt that I will use it again.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:27">7:27</span><span class="transcript-text">It&#x27;s true that making holograms with a laser pointer or diode, or semiconductor or solid state, or whatever term you wish to use for it, is going to take a little adjustment in the usual way of making holograms.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:39">7:39</span><span class="transcript-text">Power requirements, beam profile, mode hopping, noise, changes in wavelength and power due to temperature and current and voltage fluctuations, and a host of other considerations not yet known will have to be worked out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:52">7:52</span><span class="transcript-text">And that&#x27;s what we&#x27;re doing.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:54">7:54</span><span class="transcript-text">So if you&#x27;re an artist who&#x27;s basically interested in with the creative end of using this, a lot of this information you may not have very much interest in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:03">8:03</span><span class="transcript-text">But at this stage of the ball game, this information is very important because this is actually being developed as we go along here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">If you continue to stop back to the laser page that I have up there for laser diodes, and also Steve&#x27;s wonderful site, you&#x27;ll start to see a lot of this technical information start to fade away because it&#x27;s been worked out and it&#x27;s no longer necessary to post the findings.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:28">8:28</span><span class="transcript-text">And as time goes on, we will try and at least on my site, I&#x27;m sure Steve as well, to cater to the interest of the amateur and artist and people who want to use this who are more interested in actually just taking this technology and using it rather than knowing how much of a wavelength shift you get from going from 2.5 volts to 3 volts at such and such milliamps.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:54">8:54</span><span class="transcript-text">But we need to do that right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:55">8:55</span><span class="transcript-text">It&#x27;s something we need to do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:57">8:57</span><span class="transcript-text">So hang in there with us.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:00">9:00</span><span class="transcript-text">So, in other words, if you if you&#x27;re listening to this program as a first-time listener or a well seasoned amateur hobbyist philographer, there&#x27;s plenty of work left to be done and miles of road left to travel.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:10">9:10</span><span class="transcript-text">At least we know where we&#x27;re at right now at this moment, and that is we can make a 4x5-inch multicolor single beam reflection hologram, which are every bit as good as what you would make with an equivalent helium neon laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">The only difference I&#x27;ve found so far is that it costs less than $10 for the laser pointer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:33">9:33</span><span class="transcript-text">For the experimenter or classroom teacher, I know we are just about ready to cross over into what I am calling shoebox holography, where your entire portable system fits into the area the size of a shoebox with no electricity required.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:51">9:51</span><span class="transcript-text">In fact, I have classes starting this spring at the Discovery Center at Lehigh University, which I am calling shoebox holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:00">10:00</span><span class="transcript-text">And if you would like to learn how to do laser pointer holography through a workshop at my studio, I&#x27;ll have information on that up on the web soon as well.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:09">10:09</span><span class="transcript-text">You&#x27;ll even be able to take home everything you need to start making your own holograms from the workshop, including the laser, the lens, the plate holder, film, development chemistry, and little isolation platform.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:22">10:22</span><span class="transcript-text">And I&#x27;ll even put it into a shoebox for you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:24">10:24</span><span class="transcript-text">Of course, I have size 12 shoes, so that helps when it comes to fitting everything into the box.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:30">10:30</span><span class="transcript-text">So that&#x27;s it for this week&#x27;s report.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:32">10:32</span><span class="transcript-text">Let&#x27;s keep it short.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:33">10:33</span><span class="transcript-text">Have you go over and visit the laser pointer pages and see what&#x27;s happening with the laser pointers?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">And also don&#x27;t forget to go over and visit Steve&#x27;s site.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:40">10:40</span><span class="transcript-text">And also, don&#x27;t forget to tune in each week for Hollow Talk, as we&#x27;ve got lots of guests coming up on the second half of the season.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:48">10:48</span><span class="transcript-text">If you have any news, please send it in so that I can share it with everyone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:52">10:52</span><span class="transcript-text">So this is Frank Defratis.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:54">10:54</span><span class="transcript-text">Thanks for tuning in and see you next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:57">10:57</span><span class="transcript-text">Thank you.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Hello, this is Frank DeFreitas, and welcome to Holotalk, your laser and holography internet radio talk show. I&#x27;ve been off the air since a week before Christmas, and not only is it good to be back behind the mic again, there&#x27;s been a lot of very exciting work that has taken place in the last few weeks that I&#x27;d like to get everyone back up to speed on. Holotalk was down completely for Christmas week due to my Santa radar page, where kids could track Santa from the North Pole with radar and listen to updates along the trip. The page received 14,055 hits on Christmas Eve, and we received 156 phone calls in three hours to Santa&#x27;s sleigh during the trip. It was a lot of fun, and I&#x27;m hoping it turns into an annual tradition on the web for kids everywhere. The scheduled guest for this week, Arlene Jurwitz, has asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. She&#x27;s also asked to move her appearance to next week due to her health conditions. I have managed to create a 4x5-inch multicolor white light reflection hologram, single-beam hologram, using my laser pointer that I paid $7.99 for. I now have a special section on the Holoworld site dedicated to laser pointer holography, so I hope that you take the opportunity to visit the pages to see what work has been done in the last few weeks, and continue to visit to keep up with advancements as they are made. made. My second area of interest is in making simple holographic stereograms. This is where you can take a series of individual pictures from different perspectives with your own 35 millimeter camera and then transfer those frames into one hologram which will give you a three-dimensional view of your subject whether it&#x27;s a nature scene, a car, or a portrait of someone that you know, maybe a wife, girlfriend, boyfriend, husband, your child, grandchildren. You can take them, sit them down, do a specific series of exposures with your 35 millimeter camera and then get that film processed and bring it in and create a three-dimensional hologram from those frames. I find this area important because of the vast number of amateur and hobbyist photographers out there who are always looking to advance their interests and skills and to try out new techniques. In the past, purchasing a helium neon laser for several hundred dollars was out of the question, but to be able to do this with a laser pointer that is less than ten dollars now moves that restriction out of the way. Stereogram holograms are going to require a split beam setup, so this is still an area that needs to be explored. At the very least, I would like to be able to create the laser transmission stereogram slit master. This would require an opportunity to view the hologram with the laser pointer and see it three-dimensionally. Doing the transfer from the laser master to a reflection copy is going to be a long shot at the low power end of laser pointers, but this is what the work is all about. You push the limits, you have to think differently, and you have to come up with answers and solutions. The one advantage of creating stereograms is that the dimensional information is contained within a flat plain. flat plane. For example, the three-dimensional image that you see when you look at a stereogram is not due to the fact that there is a three-dimensional object recorded onto the emulsion as in typical traditional holography where you sit an object behind the plate, you do a holographic master of the object, and then...
 
 object recorded onto the emulsion as in typical traditional holography where you sit an object behind the plate you do a holographic master of the object and then transfer that over that&#x27;s an actual wave front of the object that&#x27;s traveling out there the fact that you see a three-dimensional image when you look at a stereogram is due to the fact that your eyes are seeing different perspectives at the same time and this information is contained as a flat plane which requires very little coherence length providing that your table geometry is set up properly and your B pads match up as closely to one another as you can possibly make them I have also found that Hitachi has just released a 35 mil a lot 658 nanometer laser diode for $41 this is 35 mil a watts for $41 call your laser supplier and ask them to quote you a price on a 35 mil a lot helium neon laser you&#x27;re looking at several thousand dollars Steve Michael will be back with updates on his experimentation and research as well on future holotalks at present he is working with Kodak&#x27;s SO253 film to see how well it works out I&#x27;m going to order some of the slavage film of plates in the not too distant future and begin working with them as well I just opened my last box of AGFA plates and still have a few more plates that I can use to make my own plates and I&#x27;m going to make a few packs of film left but after that that&#x27;s it for AGFA I have nothing else Steve is also working with split beam holography according to his last email that he just sent today to see if it&#x27;s possible to get results and what those results are now I highly recommend that you visit and bookmark Steve&#x27;s site for additional information and updates you can find a link to Steve&#x27;s site on my link page and I&#x27;ve created a special section right at the top devoted to laser pointer holography so stop back and watch the video it grow if you have started to work with laser pointers and have a web page please send along your URL so I can put a link up for visitors to stop by your site and see what it is that you&#x27;re doing so with the prices of laser diodes going down along with their power increases and shorter wavelengths this is a very interesting time indeed my helium neon laser is just sitting there on the table when I pick up one of those 35 milliwatt Hitachi diodes and if it works I doubt that I will use it again it&#x27;s true that making holograms with a laser pointer or diode or semiconductor or solid-state or whatever term you wish to use for it is going to take a little adjustment in the usual way of making holograms power requirements being profile mode hopping noise changes in wavelength and power due to temperature and current and voltage fluctuations and a host of other considerations not yet known will have to be worked out and that&#x27;s what we&#x27;re doing so if you&#x27;re an artist who&#x27;s basically interested in with laser pointer holography and laser diodes and other things that you&#x27;re interested in with laser pointer holography and laser diodes and other things that you&#x27;re interested in the creative end of using this a lot of this information you may not have very much interest in but at this stage of the ballgame this information is very important because this is actually being developed as we go along here if you continue to stop back to the laser page and that I have up there for laser diodes and also Steve&#x27;s wonderful site you&#x27;ll start to see a lot of this technical information start to fade away because it&#x27;s been worked out and it&#x27;s no longer necessary to use laser diodes and other things that you&#x27;re interested in post the findings and as time goes on we will try and at least on my site I&#x27;m sure Steve as well to cater to the interest of the amateur and artists and people who want to use this who are more interested in actually just taking this technology and using it rather than knowing how much of a wavelength shift you get from going from 2.5 volts to 3 volts at such-and-such milliamps but we need to do that right now that&#x27;s something we need to do and that&#x27;s what we&#x27;re going to do now. so hang in there with us so in other words if you&#x27;re listening to this program is a first-time listener or a well-seasoned amateur hobbyist holography there&#x27;s plenty of work left to be done and miles of road left to travel at least we know where we&#x27;re at right now at this moment and that is we can make a 4 by 5 inch multi-color single beam reflection hologram which are every bit as good as what you would make with an equivalent helium neon laser the only difference is that it&#x27;s not a laser diode but rather a laser diode. I found so far is that it costs less than $10 for the laser pointer for the experimenter or classroom teacher I know we are just about ready to cross over into what I am calling shoebox holography where your entire portable system fits into the area the size of a shoebox with no electricity required in fact I have classes starting this spring at the Discovery Center at Lehigh University where I teach the which I am calling shoebox holography and if you would like to learn how to do laser pointer holography through a workshop at my studio I&#x27;ll have information on that up on the web soon as well
 
-And if you would like to learn how to do laser pointer holography through a workshop at my studio, I&#x27;ll have information on that up on the web soon as well. You&#x27;ll even be able to take home everything you need to start making your own holograms from the workshop, including the laser, the lens, the plate holder, film, development chemistry, and little isolation platform. And I&#x27;ll even put it into a shoe box for you. Of course, I have size 12 shoes, so that helps when it comes to fitting everything into the box. So that&#x27;s it for this week&#x27;s report. Let&#x27;s keep it short, have you go over and visit the laser pointer pages and see what&#x27;s happening with the laser pointers. And also don&#x27;t forget to go over and visit Steve&#x27;s site. And also don&#x27;t forget to tune in each week for HoloTalk, as we&#x27;ve got lots of guests coming up on the second half of the season. If you have any news, please send it in so that I can share it with everyone. So this is Frank DeFreitas. Thanks for tuning in, and see you next week. Thanks. Thanks. Thanks. Thanks. Thanks.</div>
+And if you would like to learn how to do laser pointer holography through a workshop at my studio, I&#x27;ll have information on that up on the web soon as well. You&#x27;ll even be able to take home everything you need to start making your own holograms from the workshop, including the laser, the lens, the plate holder, film, development chemistry, and little isolation platform. And I&#x27;ll even put it into a shoe box for you. Of course, I have size 12 shoes, so that helps when it comes to fitting everything into the box. So that&#x27;s it for this week&#x27;s report. Let&#x27;s keep it short, have you go over and visit the laser pointer pages and see what&#x27;s happening with the laser pointers. And also don&#x27;t forget to go over and visit Steve&#x27;s site. And also don&#x27;t forget to tune in each week for HoloTalk, as we&#x27;ve got lots of guests coming up on the second half of the season. If you have any news, please send it in so that I can share it with everyone. So this is Frank DeFreitas. Thanks for tuning in, and see you next week. Thanks. Thanks. Thanks. Thanks. Thanks.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">

@@ -222,19 +222,112 @@ h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
     height: 100%;
 }
 
-.transcript {
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
     background: var(--bg-secondary);
+    color: var(--text-muted);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
     max-height: 600px;
     overflow-y: auto;
-    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-    font-size: 0.85em;
-    line-height: 1.7;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .meta-table {
@@ -363,7 +456,317 @@ footer {
 </table>
 </div>
 <h2>Transcript</h2>
-<div class="transcript">Fuji Hunt, John Placco speaking. Hello, John. How are you? It&#x27;s Frank. Hi, Frank. How are you? Okay. I guess you&#x27;re all set and ready to go. Yeah, I guess so. Okay, that&#x27;s great. I just got back in from lunch, and I&#x27;m glad everything worked out time-wise for both of us. Yeah, yeah. You&#x27;re on the HoloTalk show, and listeners will be tuning in to hear all the news about the new Fuji materials. So it might be a good idea for us to start off with maybe a timeline as far as Fuji&#x27;s development of these materials. Maybe explain why Fuji even decided to get involved with holographic materials in the first place. Well, basically, as everybody knows, Fuji is a manufacturer, marketer, and reseller of photographic films and all kinds of things like that. They found that there was one kind of niche market that&#x27;s out there for films that has not really been serviced very much in the past. It&#x27;s been serviced up and down. Different companies got in and out of it. Supply is questionable at times. Quality goes up and down. So they thought, since they have the capability of coding high-quality films, they thought that&#x27;s a market they could get into. Also, there&#x27;s some thought about the future in data storage, where you can store information on various different kinds of substrates. Holography is one of the things that people have talked about. So, you know, looking at it as possibly a two-fold kind of technology. Yeah, so basically with the holographic data storage, the film-based holography part of this is actually just Fuji getting their feet wet, really. You couldn&#x27;t look at it that way. It&#x27;s a possibility. Yeah. And when did Fuji start? Has this been in development for a long time? I don&#x27;t think it&#x27;s been a long time. It might have been about... A year, I&#x27;m all told. They started to look at the research of doing it and things like that about a year ago. And then they started doing some market research probably a year ago last summer. So, I&#x27;d say last year, 2005. I guess the summer-fall of 2004, they started to do some market research on it. That&#x27;s a pretty quick... Turnaround time. Yeah. From conception to actually bringing it to the market. Yeah. I think it... You know, I can&#x27;t say before that what they were doing or thinking or anything like that. But as far as I know, that&#x27;s how the whole thing worked through. And again, we have to remember they&#x27;re a photographic company, so they can do a lot of testing pretty quickly. Mm-hmm. Mm-hmm. So, let&#x27;s move on to... Now that we know that the product... Has been developed and it&#x27;s out there. I&#x27;m assuming it&#x27;s out there. I&#x27;m not sure. Is it available for order yet or not quite there? Not quite there. Not quite there. Yeah. We just announced it via press release from Japan and one from the U.S. itself. Our plan is to have a film available by the end of January 2006. Mm-hmm. And that film would be available in 30 by 40 sheets, 50 by 60 sheets. And one meter by 10 meter length rolls. Yeah. And from what I understand from our lunch last week, at this time at least, Fuji doesn&#x27;t plan on supplying any other formats other than those that you just mentioned. Right. At this present time, we aren&#x27;t because of the simple fact that we haven&#x27;t had the film out there. We&#x27;ve done market research and study. We&#x27;ve done a field trial on the test and stuff. But we thought it&#x27;d be best... Mm-hmm. To bring it in into what we feel is the commercial market. Mm-hmm. Which uses the largest volumes of film. And thus, once some volumes have been established, then we could think about bringing it into sizes like your listers might be using. And, you know, like 2 1⁄2 by 2 1⁄2 or 4 by 5 or the like. Yeah. And there&#x27;s always the option at this point in time for someone to order a few 30 by 40 centimeter sheets and just cut them down. Yeah. Basically, that&#x27;s the way to get around it. Yeah. The minimum box quantity we&#x27;ll have would be 10. So, I mean, a couple people could get together and buy some like that. Or if it&#x27;s a school, you know, they could just buy one box and it&#x27;ll probably last them for the year. Now, since this film is panchromatic, do you recommend any specific safe light or no safe light at all with it? No. You can use a safe light. As a matter of fact, it dips down at the lowest rate at about 570. So, we&#x27;ve actually used a very dark amber type filter as a safe light. Okay. But we&#x27;ve also found...
+<div class="transcript-tabs"><button class="transcript-tab active" data-tab="parakeet">Parakeet (timestamped)</button><button class="transcript-tab" data-tab="whisper">Whisper Large-V3</button></div>
+<div class="transcript-viewer"><div class="transcript-panel active" id="panel-parakeet"><div class="transcript-line"><span class="timestamp" data-time="00:00:00">0:00</span><span class="transcript-text">Fuji Hunt, John Flacco speaking.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:02">0:02</span><span class="transcript-text">Hello, John, how are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:03">0:03</span><span class="transcript-text">It&#x27;s Frank.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:04">0:04</span><span class="transcript-text">Hi, Frank, how are you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:05">0:05</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:05">0:05</span><span class="transcript-text">I guess you&#x27;re all set and ready to go.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:07">0:07</span><span class="transcript-text">Yeah, I guess so.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:08">0:08</span><span class="transcript-text">Okay, that&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:09">0:09</span><span class="transcript-text">I just got back in from lunch and I&#x27;m glad everything worked out time wise for both of us.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:13">0:13</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:14">0:14</span><span class="transcript-text">You&#x27;re on the Holo Talk Show, and the listeners will be tuning in to hear all the news about the new Fuji materials.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:22">0:22</span><span class="transcript-text">So it might be a good idea for us to start off with maybe a timeline as far as uh Fuji&#x27;s development of these materials.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:29">0:29</span><span class="transcript-text">Maybe explain why Fuji even decided to get involved with holographic materials in the first place.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:35">0:35</span><span class="transcript-text">Uh-huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:36">0:36</span><span class="transcript-text">Well, basically, um, as uh everybody knows, Fuji is a uh manufacturer, marketer, and uh reseller of photographic films and all kinds of things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:48">0:48</span><span class="transcript-text">And uh they found that uh there was one uh kind of niche market that&#x27;s out there for films that uh has not really been serviced very much in the past.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:00:59">0:59</span><span class="transcript-text">It&#x27;s it&#x27;s been serviced up and down, different companies got in and out of it, uh supply is is questionable at times, quality goes up and down, so they thought since they have the capability of of coding uh high quality films, they thought uh that&#x27;s a market they could get into.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:16">1:16</span><span class="transcript-text">Also, there&#x27;s um uh thought about the future in data storage where you can store uh information on various different kinds of substrates and holography is one of the things that people have talked about.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:31">1:31</span><span class="transcript-text">So um, you know, looking at it as possibly a a twofold kind of technology.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:36">1:36</span><span class="transcript-text">Yeah, so basically with the holographic uh data storage, the uh film based uh holography part of this is actually just Fuji getting your feet wet, really.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:45">1:45</span><span class="transcript-text">It could you couldn&#x27;t look at it that way.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:47">1:47</span><span class="transcript-text">It&#x27;s uh it&#x27;s a possibility, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:48">1:48</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:49">1:49</span><span class="transcript-text">And uh when did Fuji start to uh has this been in development for a long time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:53">1:53</span><span class="transcript-text">Uh I don&#x27;t think it&#x27;s been a long time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:01:55">1:55</span><span class="transcript-text">It might have been about uh a year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:01">2:01</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:02">2:02</span><span class="transcript-text">They started to look at the research of doing it and things like that about a year ago, and then they started doing some market research uh probably uh a year ago, uh last summer, so last year, two thousand five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:21">2:21</span><span class="transcript-text">This I guess the summer fall of two thousand and four, they started to do some market research on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:28">2:28</span><span class="transcript-text">That&#x27;s a pretty quick turnaround time.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:30">2:30</span><span class="transcript-text">Uh yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:33">2:33</span><span class="transcript-text">Yeah, uh I think it uh you know I can&#x27;t say before that what they were doing or thinking or anything like that, but as far as I know, that&#x27;s that&#x27;s how the uh the whole thing worked through.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:45">2:45</span><span class="transcript-text">And again, we have to remember they&#x27;re they&#x27;re a photographic company, so they can you know do a lot of the testing pretty quickly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:53">2:53</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:02:55">2:55</span><span class="transcript-text">So let&#x27;s move on to now that we know that the product has been developed and it&#x27;s out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:01">3:01</span><span class="transcript-text">I&#x27;m assuming it&#x27;s out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:02">3:02</span><span class="transcript-text">I&#x27;m not sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:02">3:02</span><span class="transcript-text">Uh is it&#x27;s available for order yet or not available.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:05">3:05</span><span class="transcript-text">Not quite there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:07">3:07</span><span class="transcript-text">Uh we just uh announced it via press release uh from Japan and one from the US itself.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:13">3:13</span><span class="transcript-text">Um our plan is to have a film available by the end of January two thousand six.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:20">3:20</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:21">3:21</span><span class="transcript-text">And uh that film would be available in uh thirty by forty sheets, fifty by sixty sheets, and uh one meter by uh ten meter length rolls.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:33">3:33</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:34">3:34</span><span class="transcript-text">And from what I understand from our lunch last week, at this time at least, Fuji doesn&#x27;t plan on supplying any other formats other than those that you just mentioned.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:44">3:44</span><span class="transcript-text">At this present time we we aren&#x27;t because uh of the simple fact that we&#x27;re we&#x27;ve haven&#x27;t uh had the film out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:03:52">3:52</span><span class="transcript-text">We&#x27;d you know we&#x27;ve done market research and study, we&#x27;ve done a field trial on the test and and stuff, but we thought it&#x27;d be best uh to bring it in into what we feel is the commercial market which um uses the largest volumes of film and thus uh once some volumes have been established then we could think about bringing it into sizes like uh your listeners might be using in you know like two and a half by two and a half or four by five or the like and there&#x27;s always the option at at this point in time for uh someone to order a few thirty by forty centimeter sheets and just cut them down.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:26">4:26</span><span class="transcript-text">Yeah basically that that&#x27;s a way to get around it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:28">4:28</span><span class="transcript-text">The minimum uh box uh quantity we&#x27;ll have would be ten.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:32">4:32</span><span class="transcript-text">So I mean a couple of people could get together and and buy some like that or uh if it&#x27;s a school, you know, they can just buy one box and it&#x27;ll probably last them for the year.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:43">4:43</span><span class="transcript-text">Now since since this film is panchromatic is it uh do you recommend any specific safe light or no safe light at all with it?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:04:50">4:50</span><span class="transcript-text">No you can use a safe light as a matter of fact it&#x27;s um it dips down at the lowest uh rate at about uh five seventy nanometers so uh we&#x27;ve actually used a very dark amber type filter as a safe light.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:06">5:06</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:07">5:07</span><span class="transcript-text">Uh but we&#x27;ve also found uh that there&#x27;s a um amber uh LED type light it&#x27;s uh company called Opti.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:17">5:17</span><span class="transcript-text">Opt LED, I think it&#x27;s called, and they uh sell an amber uh spotlight, basically, uh that&#x27;s made from an LED.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:26">5:26</span><span class="transcript-text">Uh that&#x27;s been used very successfully as a safe light uh by covering half of it with a green filter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:32">5:32</span><span class="transcript-text">It is very, very bright.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:34">5:34</span><span class="transcript-text">You can actually see in the room pretty clearly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:36">5:36</span><span class="transcript-text">Oh, that&#x27;s great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:37">5:37</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:38">5:38</span><span class="transcript-text">So we&#x27;re happy about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:39">5:39</span><span class="transcript-text">Or, you know, you could you have to experiment, of course.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:42">5:42</span><span class="transcript-text">So sodium vapor type lights could be used, but they the intensity has to be reduced by quite a bit, yeah, with neutral density filters or some kind of enclosure or what have you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:54">5:54</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:05:54">5:54</span><span class="transcript-text">Now we spoke a little bit last week about comparisons just for general purposes to Agva, and you gave some information as far as an increase in resolution over AGFA, if my notes are correct, but yet the speed is very consistent or maybe one stop difference between AgFA if you want to do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:13">6:13</span><span class="transcript-text">We think it&#x27;s about uh around a half a stop slower than the AGFA material.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:18">6:18</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:18">6:18</span><span class="transcript-text">Um basically uh it resolution is around uh even lines per millimeter would be greater than three thousand lines per millimeter.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:29">6:29</span><span class="transcript-text">The grain size is about thirty to forty uh nanometers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:33">6:33</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:34">6:34</span><span class="transcript-text">So it&#x27;s it&#x27;s not the finest grain in the world, but it&#x27;s uh very fine grain.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:39">6:39</span><span class="transcript-text">Uh well, I did see some reflection holograms created with it, and they were very impressive.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:44">6:44</span><span class="transcript-text">Yeah, uh some of the things that people have told us about them are that uh very little noise, so you get a lot of really blazing clear image out of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:54">6:54</span><span class="transcript-text">And you know, good that of course gives you the good contrast for highlight the shadow.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:06:59">6:59</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:00">7:00</span><span class="transcript-text">So that&#x27;s really good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:02">7:02</span><span class="transcript-text">And like I said, the brightness is really uh good about it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:05">7:05</span><span class="transcript-text">Once you do a transfer, it&#x27;s very, very bright.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:09">7:09</span><span class="transcript-text">As far as processing the film, pretty much any type of processing chemistry that happens to be a holographer&#x27;s favorite, I understand will uh yes, basically it uses you know the normal process that you would use for holography, you know, doing a a developer and then a bleach afterwards, and uh different people have their own little you know, chemical mixes that they like to use.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:32">7:32</span><span class="transcript-text">Um people use a uh Webster&#x27;s uh formulation out there, you could use D nineteen, there&#x27;s different kind of pyro uh mixes out there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:45">7:45</span><span class="transcript-text">Pyro Pyro was actually always my favorite.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:47">7:47</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:07:47">7:47</span><span class="transcript-text">Uh I mean it&#x27;s a good because it&#x27;s uh you know, from the black and white film, it&#x27;s a very uh low contrast, fine grain type developer that gives you a very long tonal range and it uh lends itself very nicely to holographic film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:01">8:01</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:02">8:02</span><span class="transcript-text">Do you happen to know offhand any of the specific formulas that uh were being used for the uh testers that they were using?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:10">8:10</span><span class="transcript-text">Um nothing that was out of the ordinary that was uh out uh in the marketplace.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:17">8:17</span><span class="transcript-text">What I mean I can say that um you know, uh as your listeners may or may not know, Fuji Hunt is uh uh the real whole name of Fuji Hunt is Fuji Hunt Photographic Chemicals Incorporated.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:31">8:31</span><span class="transcript-text">And so and we&#x27;re a wholly owned subsidiary of Fuji Photo Film Limited Japan, and and most of our products that we deal with uh are photographic chemicals like the ones you might see being used in local mini labs or mass retailers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:46">8:46</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:47">8:47</span><span class="transcript-text">So our forte is actually chemicals in a lot of respects.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:08:51">8:51</span><span class="transcript-text">So we will be in future, once we uh you know the the holographic film gets out there into the marketplace, we will uh most definitely be looking at introducing uh total processing systems where it includes uh a developer that&#x27;s optimized for use with the film, um where you basically just have to add water and you have a developer, and then we want to um produce or provide a stabilizer solution.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:18">9:18</span><span class="transcript-text">&#x27;Cause one of the issues that you have with holography is it&#x27;s not really like a black and white film where it&#x27;s fixed and washed normally.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:26">9:26</span><span class="transcript-text">People use bleaches and then how do you stabilize the image so it doesn&#x27;t print out over time?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:31">9:31</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:31">9:31</span><span class="transcript-text">So we&#x27;re looking at uh doing something in that vein uh in the future.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:36">9:36</span><span class="transcript-text">Are you are you speaking primarily of uh manually developing film or are you planning on developing some sort of a uh automation system?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:45">9:45</span><span class="transcript-text">We&#x27;re we&#x27;re looking at possibly doing some kind of automation uh uh down the line after uh we come up with a regular chemical system.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:54">9:54</span><span class="transcript-text">I didn&#x27;t mean a system per se as far as machinery goes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:09:57">9:57</span><span class="transcript-text">Okay, and more developer and stabilizer developer bleach and stabilizer.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:03">10:03</span><span class="transcript-text">There&#x27;s an awful lot of old photo typesetting systems out there that uh the laser image centers like the linatronics and the different AGFA machines, in fact I think AGFA was one time was called Compu Graphic, you know, before I purchase Compu Graphic.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:19">10:19</span><span class="transcript-text">But they used to have these little desktop processing units that uh were about the size of a uh laser printer that you&#x27;d feed your cassettes through and it would develop your film uh or your paper type of uh media that would come out of the laser photo typesetters.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:36">10:36</span><span class="transcript-text">Oh, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:37">10:37</span><span class="transcript-text">Uh w would converting a piece of equipment like that be that uh far out of the question using uh developer and bleach?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:48">10:48</span><span class="transcript-text">I don&#x27;t think so.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:48">10:48</span><span class="transcript-text">I mean I think uh it can be done.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:10:53">10:53</span><span class="transcript-text">Uh probably the the thing that you&#x27;d have to watch is what exact chemicals you use, because obviously they&#x27;re uh the plumbing and what everything is made out of has a lot to do with whether you can or cannot use that particular machine to do a process.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:11">11:11</span><span class="transcript-text">Um so that that would be one of the things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:14">11:14</span><span class="transcript-text">I I think that would probably be the the quickest and easiest way we would like to see moving forward into an actual system because um a lot of the bigger machines that do very large uh processes uh are kind of not being used anymore.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:31">11:31</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:32">11:32</span><span class="transcript-text">So they might be uh available for a song, let&#x27;s say.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:35">11:35</span><span class="transcript-text">On eBay or whatnot.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:37">11:37</span><span class="transcript-text">Yeah, exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:38">11:38</span><span class="transcript-text">And then just take them, clean them out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:40">11:40</span><span class="transcript-text">And if you decide that you want to go with a route of uh D nineteen and some fixer, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:46">11:46</span><span class="transcript-text">Just feed your thirty by forty centimeter sheet.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:48">11:48</span><span class="transcript-text">You just have to figure out the timing that it needs to go through the rollers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:51">11:51</span><span class="transcript-text">Exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:52">11:52</span><span class="transcript-text">That&#x27;s basically all you would have to do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:54">11:54</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:55">11:55</span><span class="transcript-text">It&#x27;s not really, really that hard.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:57">11:57</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:11:58">11:58</span><span class="transcript-text">So uh isn&#x27;t that something?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:00">12:00</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:00">12:00</span><span class="transcript-text">I mean it is possible, and there&#x27;s some people that have looked at it but haven&#x27;t done a lot of work in it, but I think within the next uh the coming year um uh we&#x27;re gonna be talking to quite a number of uh large uh producing holographers that are doing it for various display work and trying to get a system down that can be more automated.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:23">12:23</span><span class="transcript-text">Yeah, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:24">12:24</span><span class="transcript-text">Terrific.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:25">12:25</span><span class="transcript-text">You don&#x27;t have any pricing together on any of the materials yet, do you?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:29">12:29</span><span class="transcript-text">Uh not specifically because we&#x27;re again it&#x27;s uh even though we said we were working on this for about a year, it&#x27;s all coming to a head really fast right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:38">12:38</span><span class="transcript-text">Um I was looking at proposals and things like that, and I mean for your listeners uh as a uh you know four by five sheets, they would probably be running in the three to five dollar a piece range approximately.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:51">12:51</span><span class="transcript-text">That&#x27;s as close as I can come to as as an estimate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:55">12:55</span><span class="transcript-text">For film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:12:57">12:57</span><span class="transcript-text">No no plans on plates, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:00">13:00</span><span class="transcript-text">Plates are are kind of uh a whole nother thing for us in that uh of course um the film is manufactured in Japan and uh the facility obviously is there to make uh lots of rolls of film or lots of sheets of film or what have you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:21">13:21</span><span class="transcript-text">So their their expertise in coding is on a a thinner s flexible type of substrate.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:27">13:27</span><span class="transcript-text">Uh when you get into uh thicker plate substrates they do obviously have the technology because they uh coat uh some of the coatings for uh plasma screens and L C D screens.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:39">13:39</span><span class="transcript-text">I see but the the difficulty is of course those are uh the cost of those are are quite high.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:48">13:48</span><span class="transcript-text">Plus the shipping from Japan of plates is somewhat problematic because uh of damage and and things like that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:56">13:56</span><span class="transcript-text">So I mean it&#x27;s not out of the question.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:13:58">13:58</span><span class="transcript-text">I think we&#x27;re gonna have to see how the film performs in the marketplace and what kind of demands we can get out of it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:06">14:06</span><span class="transcript-text">Um if plates become an issue uh moving forward we will definitely consider that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:13">14:13</span><span class="transcript-text">It&#x27;s it&#x27;s not that inexpensive anymore to have things manufactured in Japan, is no, no.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:18">14:18</span><span class="transcript-text">It&#x27;s uh like everything else, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:21">14:21</span><span class="transcript-text">Costs are going up and uh resources are well, everything&#x27;s kind of shifting to to China.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:27">14:27</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:28">14:28</span><span class="transcript-text">For all kinds of stuff.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:29">14:29</span><span class="transcript-text">Well I know twenty years ago a lot of the uh bicycle manufacturers they started to have their frames manufactured in Japan.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:37">14:37</span><span class="transcript-text">So if you bought a Raleigh or if you bought a Schwin, they were uh British and American companies but the actual frames, the uh production facilities had shifted to Japan.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:48">14:48</span><span class="transcript-text">And then of course you had your Jap Japanese makers like Fuji and whatnot making bicycles.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:14:53">14:53</span><span class="transcript-text">But then it got so expensive to manufacture the frames in Japan that even the Japanese bicycle companies now have their frames manufactured in Taiwan.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:02">15:02</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:03">15:03</span><span class="transcript-text">So if you buy a Fuji bicycle now, even though it&#x27;s a Japanese uh company that frames manufactured in Taiwan.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:09">15:09</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:10">15:10</span><span class="transcript-text">Well it&#x27;s a global economy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:11">15:11</span><span class="transcript-text">Yeah, it&#x27;s the same thing anymore anywhere.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:13">15:13</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:14">15:14</span><span class="transcript-text">Very interesting what is the thickness of the substrate?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:18">15:18</span><span class="transcript-text">Uh the total thickness of the film is about eight point nine mil mil.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:23">15:23</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:24">15:24</span><span class="transcript-text">Uh the emulsion itself is about uh eight microns thick.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:30">15:30</span><span class="transcript-text">Yeah, I don&#x27;t for for lack of memory right here I can&#x27;t uh remember w how that compares to uh perhaps the Slavic film or the uh old Agva film as far as thickness.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:41">15:41</span><span class="transcript-text">I know Agva had a pretty nice uh thickness to it to work with and we have a back coat on the film to help reduce curl.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:48">15:48</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:49">15:49</span><span class="transcript-text">Let me ask you basically that&#x27;s not an antihalation back.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:54">15:54</span><span class="transcript-text">No, it&#x27;s not.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:55">15:55</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:55">15:55</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:56">15:56</span><span class="transcript-text">That&#x27;s no, we found some people it&#x27;s one of those things.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:15:59">15:59</span><span class="transcript-text">You can&#x27;t have it on there if you&#x27;re gonna try to have the film uh usable for for masters and transfers.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:06">16:06</span><span class="transcript-text">Yeah, exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:07">16:07</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:09">16:09</span><span class="transcript-text">Alright, well you I did receive the first press release.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:15">16:15</span><span class="transcript-text">Do you have any other materials that you could send to me that I could place on the website for when people listen to the interview.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:22">16:22</span><span class="transcript-text">Um I have the uh the latest press release that we uh you know what&#x27;s the date on your press release?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:29">16:29</span><span class="transcript-text">I&#x27;d have to pop it open on the screen.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:31">16:31</span><span class="transcript-text">Hold on.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:32">16:32</span><span class="transcript-text">Let&#x27;s see.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:36">16:36</span><span class="transcript-text">Hope everything doesn&#x27;t shut down on me.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:37">16:37</span><span class="transcript-text">We&#x27;ll lose uh twenty minutes of uns uh show here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:41">16:41</span><span class="transcript-text">Oh December twenty eighth, two thousand five latest press release okay how about if I put that up on the uh website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:46">16:46</span><span class="transcript-text">That would be fine.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:47">16:47</span><span class="transcript-text">That&#x27;s good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:16:48">16:48</span><span class="transcript-text">Um I have uh provisional technique technical documentation um that could be uh probably put there it it really just provides what uh nanometer range it has where the safe lights should be uh what lasers can be used.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:05">17:05</span><span class="transcript-text">Response curves.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:07">17:07</span><span class="transcript-text">Uh response curves.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:08">17:08</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:09">17:09</span><span class="transcript-text">I have contacted a few people as far as uh their willingness to take this material and do a couple shots and give feedback on it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">Uh huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:19">17:19</span><span class="transcript-text">So if you&#x27;d like I can get that information to you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:22">17:22</span><span class="transcript-text">Yeah that would be great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:24">17:24</span><span class="transcript-text">And dare we say that if uh possibly maybe five the first five people that would want to contact you to get a sample to work with could do so?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:36">17:36</span><span class="transcript-text">Yes.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:36">17:36</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:37">17:37</span><span class="transcript-text">I would say that we could easily do that at the first five people that contact me via email and uh J P L A C K O F U J I H U N T USA dot com.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:17:59">17:59</span><span class="transcript-text">And we&#x27;ll send them uh a few sheets of four by five to try out.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:03">18:03</span><span class="transcript-text">Okay, and I&#x27;ll also have that email address right on the website.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:07">18:07</span><span class="transcript-text">Now keep in mind folks, this is the first five people, not the first fifty five.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:13">18:13</span><span class="transcript-text">And of course this is a global show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:15">18:15</span><span class="transcript-text">So you know, when this goes up online, whatever time it goes up, it&#x27;s gonna go up.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:21">18:21</span><span class="transcript-text">I mean it&#x27;s gonna if I put this up at eight o&#x27;clock at night, that&#x27;s gonna make it as an advantage for some people, but for some other person around the world where it might be three o&#x27;clock in the morning and they&#x27;re sleeping, they&#x27;re gonna be out of luck.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:34">18:34</span><span class="transcript-text">So I can&#x27;t luck with the draw, having three kids and trying to be fair with three kids all the time has led me to believe that you know what, it&#x27;ll go up when it goes up and the first five people that contact gets the stuff.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:46">18:46</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:46">18:46</span><span class="transcript-text">You know what I mean?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:47">18:47</span><span class="transcript-text">Yeah, that&#x27;s the way it&#x27;s &#x27;cause I can read the emails now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:50">18:50</span><span class="transcript-text">That&#x27;s not fair.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:52">18:52</span><span class="transcript-text">It was three o&#x27;clock in the morning here.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:55">18:55</span><span class="transcript-text">That&#x27;s uh I&#x27;m sorry, that&#x27;s the best I can do.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:58">18:58</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:58">18:58</span><span class="transcript-text">That&#x27;s it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:18:59">18:59</span><span class="transcript-text">Well, I want to thank you guys for lunch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:01">19:01</span><span class="transcript-text">It was delicious.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:01">19:01</span><span class="transcript-text">Oh, you&#x27;re very good.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:02">19:02</span><span class="transcript-text">I was actually over in in that area today, my wife and I went over to a uh a Bavarian restaurant that&#x27;s uh over there to get some uh some uh knockworth deli food, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:15">19:15</span><span class="transcript-text">So uh Ryan over there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:17">19:17</span><span class="transcript-text">Oh, it&#x27;s an absolutely gorgeous day.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:20">19:20</span><span class="transcript-text">It&#x27;s it&#x27;s it&#x27;s unbelievable.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:21">19:21</span><span class="transcript-text">I think we&#x27;re gonna pay for this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:23">19:23</span><span class="transcript-text">Yeah, probably pay for this weather.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:25">19:25</span><span class="transcript-text">Is there anything that you&#x27;d like like to add to this interview that we have not uh been that we&#x27;ve not talked about?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:32">19:32</span><span class="transcript-text">Uh I think uh that pretty much covers it uh that I could think of.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:35">19:35</span><span class="transcript-text">I mean, we&#x27;re really excited about bringing this film to market.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:39">19:39</span><span class="transcript-text">Um we&#x27;ve had some uh uh famous people uh in the holographic community tested.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:45">19:45</span><span class="transcript-text">Do you want to give any information about those famous people?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:48">19:48</span><span class="transcript-text">Uh well we had Anna Maria Nicholson uh look at the film, we had Augie Mouth look at the film, um Dr.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:19:56">19:56</span><span class="transcript-text">Perry, John Perry at uh Hollow North look at the film on uh I can&#x27;t think of any.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:03">20:03</span><span class="transcript-text">John Taylor, right?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:04">20:04</span><span class="transcript-text">Uh Rob Taylor, yes, yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:06">20:06</span><span class="transcript-text">Uh Fourth Dimension um Oh, what was the the other game?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:09">20:09</span><span class="transcript-text">Sorry about that, Rob.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:10">20:10</span><span class="transcript-text">Uh triple take?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:12">20:12</span><span class="transcript-text">Triple take.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:13">20:13</span><span class="transcript-text">Oh no kidding.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:14">20:14</span><span class="transcript-text">And yeah, in California.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:15">20:15</span><span class="transcript-text">And uh Dinesh and Joy.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:17">20:17</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:18">20:18</span><span class="transcript-text">We&#x27;ve gotten uh really excellent feedback from everyone.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:21">20:21</span><span class="transcript-text">Uh they really like the film.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:23">20:23</span><span class="transcript-text">It looked good, it was uh good to work with.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:26">20:26</span><span class="transcript-text">Um it&#x27;s gonna come in the size that they&#x27;re looking at.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:31">20:31</span><span class="transcript-text">Uh what&#x27;s nice is uh I mean we knew that the uh Agva material is basically getting to the end.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:40">20:40</span><span class="transcript-text">Uh not there&#x27;s some out there still but very little, and for those that have a red Ruby Pulse, um if they needed a film to keep on making images and and this film will will help them do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:53">20:53</span><span class="transcript-text">So we&#x27;re very excited about that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:20:56">20:56</span><span class="transcript-text">And I guess lastly, if someone is out there, we&#x27;ll say it&#x27;s uh either John Smith or Sally Smith.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:04">21:04</span><span class="transcript-text">And they&#x27;re already using materials and they&#x27;ve been using them for a while, why would they want to switch?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:09">21:09</span><span class="transcript-text">What is the incentive for them to switch over to Agva if they already have a protocol in place with uh other materials?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:17">21:17</span><span class="transcript-text">Well, I think it it gives you the opportunity to have a secondary supplier if issues arise.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:25">21:25</span><span class="transcript-text">Um it also gives it the opportunity to uh possibly use some of the newer low cost lasers that are out there if you&#x27;re using an older system and you wanted to upgrade but um you know you were limited to the type of film you were using, this might give you the opportunity to upgrade to a different kind of uh possibly a cheaper, more powerful laser.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:48">21:48</span><span class="transcript-text">Um since it&#x27;s a pan chromatic film, you have a wide range of different types of lasers to choose from.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:21:55">21:55</span><span class="transcript-text">And of course, uh Fuji is uh I would say the largest manufacturer of uh films in the world.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:02">22:02</span><span class="transcript-text">And uh you know, we can&#x27;t make it right, nobody can.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:07">22:07</span><span class="transcript-text">And I think uh our quality speaks for itself, and we believe we&#x27;ll have a uh high quality product that uh is consistent, the same emulsion to emulsion, and has a great shelf life and has a great uh image.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:23">22:23</span><span class="transcript-text">It has uh just a fabulous, bright, low noise, sharp, sharp hologram.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:30">22:30</span><span class="transcript-text">Yeah, it&#x27;s very nice stuff to look at from what we could see under the conditions that we were in.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:37">22:37</span><span class="transcript-text">Yes, exactly.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:38">22:38</span><span class="transcript-text">I mean that&#x27;s that speaks volumes for it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:40">22:40</span><span class="transcript-text">Right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:40">22:40</span><span class="transcript-text">It really does.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:41">22:41</span><span class="transcript-text">Yeah, so we&#x27;re we&#x27;re gonna actually introduce it uh the film at the uh Photonics West show in uh in San Jose, and we hope to uh also go to the International Symposium on display holography.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:58">22:58</span><span class="transcript-text">Oh, in Wales.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:59">22:59</span><span class="transcript-text">Uh in Wales.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:22:59">22:59</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:00">23:00</span><span class="transcript-text">We&#x27;ll also actually uh we&#x27;re hoping to have uh uh the work some work on display at uh the photo marketing association trade show in in um Orlando in February.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:12">23:12</span><span class="transcript-text">Oh that&#x27;s nice too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:14">23:14</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:14">23:14</span><span class="transcript-text">So I mean we&#x27;re serious that that we know that the market has been uh let&#x27;s say under serviced and we believe there is quite a potential out there for holography in not only the hobby world but also um for displays uh medical imaging uh mapping and the like and and we think our film i is the film that will be used in the future for those if Fuji&#x27;s ever interested in putting a exhibit together using the Fuji materials uh for people to come to that would be a good idea too.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:23:50">23:50</span><span class="transcript-text">We probably would uh think about that once we get it rolling out in the market people are actually using it and making more and more holograms that we could you know you never know a sponsored show or an artist or the or the like there&#x27;s so many artists out there right now it it&#x27;s hard to say whose work we would uh we would like to sponsor but yeah anything is possible in the future.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:15">24:15</span><span class="transcript-text">Mm-hmm.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:17">24:17</span><span class="transcript-text">And when will you see Greg next?</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:19">24:19</span><span class="transcript-text">And he&#x27;s not sitting in the room with you right there.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:21">24:21</span><span class="transcript-text">No no he&#x27;ll be here next week.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:23">24:23</span><span class="transcript-text">Okay he sent me a date tell him that if you if you can and and you see him tell him that the dates okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:28">24:28</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:29">24:29</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:29">24:29</span><span class="transcript-text">I think February sometime.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:31">24:31</span><span class="transcript-text">I think uh eighth or something.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:33">24:33</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:33">24:33</span><span class="transcript-text">And then I&#x27;ll get back to him on that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:36">24:36</span><span class="transcript-text">But he he&#x27;s not in touch with email or anything right now.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:38">24:38</span><span class="transcript-text">Oh yeah you could email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:39">24:39</span><span class="transcript-text">Oh, is he okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:40">24:40</span><span class="transcript-text">All right.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:41">24:41</span><span class="transcript-text">I&#x27;ll do that.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:43">24:43</span><span class="transcript-text">Alright, and then this show will probably go up later tonight, and I&#x27;ll get the uh email.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:48">24:48</span><span class="transcript-text">I don&#x27;t know if you&#x27;re on the email list or not.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:50">24:50</span><span class="transcript-text">Um not sure.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:52">24:52</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:52">24:52</span><span class="transcript-text">It&#x27;s it&#x27;s not where it is, though.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:53">24:53</span><span class="transcript-text">Yeah, it&#x27;s it&#x27;s the email list that goes out to uh everyone announcing that there&#x27;s a new show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:57">24:57</span><span class="transcript-text">Uh-huh.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:24:58">24:58</span><span class="transcript-text">So that announcement&#x27;ll go out either later tonight or early tomorrow morning, depending on how much I get finished tonight.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:03">25:03</span><span class="transcript-text">I think I&#x27;m just going to use the show as is.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:05">25:05</span><span class="transcript-text">I don&#x27;t even think anything needs to be edited on this.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:07">25:07</span><span class="transcript-text">It&#x27;s not too much, I don&#x27;t think.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:08">25:08</span><span class="transcript-text">No, just as is, put it up and we&#x27;re ready to go and everybody can listen to it.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:12">25:12</span><span class="transcript-text">Yeah.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:12">25:12</span><span class="transcript-text">Okay.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:13">25:13</span><span class="transcript-text">Sounds great.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:14">25:14</span><span class="transcript-text">All right, John, thank you very much for being on the show.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:16">25:16</span><span class="transcript-text">Well, thank you.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:16">25:16</span><span class="transcript-text">Thank you and Greg for lunch.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:18">25:18</span><span class="transcript-text">Had a great time and uh a lot of uh luck and success with your new holographic material and welcome to the club.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:25">25:25</span><span class="transcript-text">Thank you very much.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:26">25:26</span><span class="transcript-text">All right, talk to you later.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:27">25:27</span><span class="transcript-text">You have a good day.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:27">25:27</span><span class="transcript-text">Bye.</span></div>
+<div class="transcript-line"><span class="timestamp" data-time="00:25:28">25:28</span><span class="transcript-text">Bye bye.</span></div></div>
+<div class="transcript-panel" id="panel-whisper"><div class="transcript-plain">Fuji Hunt, John Placco speaking. Hello, John. How are you? It&#x27;s Frank. Hi, Frank. How are you? Okay. I guess you&#x27;re all set and ready to go. Yeah, I guess so. Okay, that&#x27;s great. I just got back in from lunch, and I&#x27;m glad everything worked out time-wise for both of us. Yeah, yeah. You&#x27;re on the HoloTalk show, and listeners will be tuning in to hear all the news about the new Fuji materials. So it might be a good idea for us to start off with maybe a timeline as far as Fuji&#x27;s development of these materials. Maybe explain why Fuji even decided to get involved with holographic materials in the first place. Well, basically, as everybody knows, Fuji is a manufacturer, marketer, and reseller of photographic films and all kinds of things like that. They found that there was one kind of niche market that&#x27;s out there for films that has not really been serviced very much in the past. It&#x27;s been serviced up and down. Different companies got in and out of it. Supply is questionable at times. Quality goes up and down. So they thought, since they have the capability of coding high-quality films, they thought that&#x27;s a market they could get into. Also, there&#x27;s some thought about the future in data storage, where you can store information on various different kinds of substrates. Holography is one of the things that people have talked about. So, you know, looking at it as possibly a two-fold kind of technology. Yeah, so basically with the holographic data storage, the film-based holography part of this is actually just Fuji getting their feet wet, really. You couldn&#x27;t look at it that way. It&#x27;s a possibility. Yeah. And when did Fuji start? Has this been in development for a long time? I don&#x27;t think it&#x27;s been a long time. It might have been about... A year, I&#x27;m all told. They started to look at the research of doing it and things like that about a year ago. And then they started doing some market research probably a year ago last summer. So, I&#x27;d say last year, 2005. I guess the summer-fall of 2004, they started to do some market research on it. That&#x27;s a pretty quick... Turnaround time. Yeah. From conception to actually bringing it to the market. Yeah. I think it... You know, I can&#x27;t say before that what they were doing or thinking or anything like that. But as far as I know, that&#x27;s how the whole thing worked through. And again, we have to remember they&#x27;re a photographic company, so they can do a lot of testing pretty quickly. Mm-hmm. Mm-hmm. So, let&#x27;s move on to... Now that we know that the product... Has been developed and it&#x27;s out there. I&#x27;m assuming it&#x27;s out there. I&#x27;m not sure. Is it available for order yet or not quite there? Not quite there. Not quite there. Yeah. We just announced it via press release from Japan and one from the U.S. itself. Our plan is to have a film available by the end of January 2006. Mm-hmm. And that film would be available in 30 by 40 sheets, 50 by 60 sheets. And one meter by 10 meter length rolls. Yeah. And from what I understand from our lunch last week, at this time at least, Fuji doesn&#x27;t plan on supplying any other formats other than those that you just mentioned. Right. At this present time, we aren&#x27;t because of the simple fact that we haven&#x27;t had the film out there. We&#x27;ve done market research and study. We&#x27;ve done a field trial on the test and stuff. But we thought it&#x27;d be best... Mm-hmm. To bring it in into what we feel is the commercial market. Mm-hmm. Which uses the largest volumes of film. And thus, once some volumes have been established, then we could think about bringing it into sizes like your listers might be using. And, you know, like 2 1⁄2 by 2 1⁄2 or 4 by 5 or the like. Yeah. And there&#x27;s always the option at this point in time for someone to order a few 30 by 40 centimeter sheets and just cut them down. Yeah. Basically, that&#x27;s the way to get around it. Yeah. The minimum box quantity we&#x27;ll have would be 10. So, I mean, a couple people could get together and buy some like that. Or if it&#x27;s a school, you know, they could just buy one box and it&#x27;ll probably last them for the year. Now, since this film is panchromatic, do you recommend any specific safe light or no safe light at all with it? No. You can use a safe light. As a matter of fact, it dips down at the lowest rate at about 570. So, we&#x27;ve actually used a very dark amber type filter as a safe light. Okay. But we&#x27;ve also found...
 
 So we&#x27;ve actually used a very dark amber-type filter as a safe light. Okay. But we&#x27;ve also found that there&#x27;s an amber LED-type light. It&#x27;s a company called OptLED, I think it&#x27;s called, and they sell an amber spotlight, basically, that&#x27;s made from an LED. That&#x27;s been used very successfully as a safe light by covering half of it with a green filter. It is very, very bright. You can actually see in the room pretty clearly. Oh, that&#x27;s great. Yeah. So we&#x27;re happy about that. Or, you know, you have to experiment, of course. The sodium vapor-type lights could be used, but the intensity has to be reduced by quite a bit with neutral density filters or some kind of enclosure or what have you. Yeah. Now, we spoke a little bit. We spoke a little bit last week about comparisons, just for general purposes, to AGFA, and you gave some information as far as an increase in resolution over AGFA, if my notes are correct, but yet the speed is very consistent or maybe one-stop difference between AGFA, if you wanted to. We think it&#x27;s about around a half a stop slower than the AGFA material. Okay. Basically, resolution is around, in lines per millimeter, it would be greater. It&#x27;s about more than 3,000 lines per millimeter. Mm-hmm. The grain size is about 30 to 40 nanometers. Okay. So it&#x27;s not the finest grain in the world, but it&#x27;s a very fine grain. Mm-hmm. Well, I did see some reflection holograms created with it, and they were very impressive. Yeah. Some of the things that people have told us about them are that very little noise, so you get a lot of really blazing clear image out of it. Yeah. And, you know, good. Of course, it gives you a good contrast. Yeah, yeah. I like the shadow. Mm-hmm. So that&#x27;s really good. And, like I said, the brightness is really good about it. Once you do a transfer, it&#x27;s very, very bright. As far as processing the film, pretty much any type of processing chemistry that happens to be a holographer&#x27;s favorite, I understand, will pretty much work. Yes. Basically, it uses, you know, the normal process that you would use for holography, you know, doing a developer and then a bleacher. And different people have their own little, you know, chemical mixes that they like to use. Mm-hmm. Some people use a Webster&#x27;s formulation out there. You could use D19. There&#x27;s different kind of pyro mixes out there. Yeah. Pyro is actually always my favorite. Yeah. I mean, it&#x27;s good because it&#x27;s, you know, from the black and white film, it&#x27;s a very low contrast, fine grain type developer that gives you, you know, very long tonal range, and it lends itself very nicely to holographic film. Yeah. Do you happen to know offhand any of the specific formulas that were being used for the testers that they were using? Nothing that was out of the ordinary that was out in the marketplace. Okay, yeah. I mean, I can say that, you know, as your listeners may or may not know, Fuji Hunt is... The real whole name of Fuji Hunt is Fuji Hunt Photographic Chemicals Incorporated, and we&#x27;re a wholly owned subsidiary of Fuji Photo Film Limited Japan, and most of our products that we deal with are photographic chemicals, like the ones you might see being used in local mini labs or mass retailers. Mm-hmm. So our forte is actually chemicals in a lot of respects, so we will be in future once we, you know, the... The holographic film gets out there into the marketplace, we will most definitely be looking at introducing total processing systems where it includes a developer that&#x27;s optimized for use with the film, where you basically just have to add water and you have a developer, and then we want to produce or provide a stabilizer solution, because one of the issues that you have with holography is it&#x27;s not really like a black and white film where it&#x27;s fixed and washed normally. Mm-hmm. People use bleaches, and then how do you stabilize the image so it doesn&#x27;t print out over time? Yeah. So we&#x27;re looking at doing something in that vein in the future. Are you speaking primarily of manually developing film, or are you planning on developing some sort of a automation system where you feed film through? We&#x27;re looking at possibly doing some kind of automation down the line after we come up with a regular chemical system. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm.
 
@@ -373,7 +776,7 @@ have their frames manufactured in Taiwan. Yeah. So if you buy a Fuji bicycle now
 
 on uh i can&#x27;t think of it john taylor right uh rob rob taylor yes yeah uh fourth dimension uh oh what was the other sorry about that rob triple take triple take oh no kidding yeah in california dinesh enjoy yeah we&#x27;ve gotten uh really excellent feedback from everyone they really like the film it looked good it was good to work with comes it&#x27;s going to come in the size that they&#x27;re looking at what&#x27;s nice is i mean we knew that the agfa material is basically getting to the end not there&#x27;s some out there still but very little and for those that have a red ruby pulse if they needed a film to keep on making images and this film will will help them do that so we&#x27;re very excited about that and i guess lastly if someone is out there we&#x27;ll say it&#x27;s either john smith or sally smith and they&#x27;re already using materials and they&#x27;ve been using them for a while why would they want to switch what is the incentive for them to switch over to agfa if they already have a protocol in place with other materials well i think it gives you the opportunity to have a secondary supplier if issues arise it also gives you the opportunity to possibly use some of the newer low-cost lasers that are out there if you&#x27;re using an older system and you want it to upgrade but you know you were limited to the type of film you were using this might give you the opportunity to upgrade to a different kind of possibly a cheaper more powerful laser since it&#x27;s a panchromatic film you have a wide range of different types of lasers that you can use to upgrade to a different kind of possibly a cheaper more powerful laser since it&#x27;s a panchromatic film you have a wide range of different types of lasers to choose from and of course fuji is a i would say the largest manufacturer of films in the world and you know we can&#x27;t make it right nobody can and i think our quality speaks for itself and we believe we&#x27;ll have a high quality product that is consistent the same motion to a motion and has a great shelf life and has a great image It has just a fabulous bright, low noise, sharp, sharp hologram. Yeah, it&#x27;s very nice stuff to look at from what we could see under the conditions that we were in. And we were looking at them. Yes, exactly. I mean, that speaks volumes for it. Right. It really does. Yeah, so we&#x27;re going to actually introduce it, the film, at the Photonics West show in San Jose. And we hope to also go to the International Symposium on Display Holography. Oh, in Wales. In Wales. Yeah. We&#x27;ll also actually, we&#x27;re hoping to have some work on display at the Photo Marketing Association trade show in Orlando in February. Oh, that&#x27;s nice, too. Yeah. So, I mean, we&#x27;re serious that we know that the market has been. Let&#x27;s see. I would say underserviced. And we believe there is quite a potential out there for holography in not only the hobby world, but also for displays, medical imaging, mapping, and the like. And we think our film is the film that will be used in the future. If Fuji&#x27;s ever interested in putting an exhibit together using the Fuji materials for people to come to, that would be a good idea. We probably would think about that once we get it rolling out in the market. People are actually using it and making more and more holograms that we could, you know, you never know. Yeah. A sponsored show or an artist or the like. Mm-hmm. There&#x27;s so many artists out there right now, it&#x27;s hard to say whose work we would like to sponsor. Yeah. But anything is possible in the future. Mm-hmm. And when will you see Greg next? Yes. And he&#x27;s not sitting in the room with you right now, is he? No, no. He&#x27;ll be here next week. Okay. He sent me a date. Tell him if you can and you see him, tell him that the date&#x27;s okay. Okay. All right. I think February sometime. I think 8th or something. Yeah. And then I&#x27;ll get back to him on that. But he&#x27;s not in touch with email or anything right now, right? Oh, yeah. You can email. Oh, is he? Okay. Oh, sure. All right. I&#x27;ll do that. That computer goes with him everywhere he goes. All right. And then this show will probably go up later tonight. And I&#x27;ll get the email. I don&#x27;t know if you&#x27;re on the email. I don&#x27;t know if you&#x27;re on the email list or not. I&#x27;m not sure. Okay. I know where it is, though. Yeah. It&#x27;s the email list that goes out to everyone announcing that there&#x27;s a new show. Uh-huh. So that announcement will go out either later tonight or early tomorrow morning, depending on how much I get finished tonight. I think I&#x27;m just going to use the show as is. I don&#x27;t even think anything needs to be edited on this. It&#x27;s not too much, I don&#x27;t think. No. Just as is.
 
-later tonight or early tomorrow morning depending on how much I get finished tonight. I think I&#x27;m just going to use the show as is. I don&#x27;t even think anything needs to be edited on this. It&#x27;s not too much, I don&#x27;t think. No, just as is. Put it up and we&#x27;re ready to go and everybody can listen to it. Yeah. Okay. Sounds great. Alright, John, thank you very much for being on the show. Thank you and Greg for lunch. Had a great time and a lot of luck and success with your new holographic material and welcome to the club. Thank you very much. Alright, talk to you later. You have a good day. Bye. Bye-bye. Bye-bye.</div>
+later tonight or early tomorrow morning depending on how much I get finished tonight. I think I&#x27;m just going to use the show as is. I don&#x27;t even think anything needs to be edited on this. It&#x27;s not too much, I don&#x27;t think. No, just as is. Put it up and we&#x27;re ready to go and everybody can listen to it. Yeah. Okay. Sounds great. Alright, John, thank you very much for being on the show. Thank you and Greg for lunch. Had a great time and a lot of luck and success with your new holographic material and welcome to the club. Thank you very much. Alright, talk to you later. You have a good day. Bye. Bye-bye. Bye-bye.</div></div><button class="expand-btn" onclick="toggleTranscriptFullscreen()">⤢ Expand</button></div>
 </main>
 <footer>
 <div class="container">
