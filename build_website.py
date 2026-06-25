@@ -91,11 +91,28 @@ def get_video_url(video):
 
 def get_transcript_text(video_id: str) -> str:
     """Get full transcript text for a video."""
-    for suffix in ['-corrected.txt', '-merged.txt', '-whisper-turbo.txt']:
+    # Prefer corrected > merged > whisper-turbo > whisper-largev3 > parakeet
+    for suffix in ['-corrected.txt', '-merged.txt', '-whisper-turbo.txt', '-whisper-largev3.txt']:
         path = TRANSCRIPTS_DIR / f"{video_id}{suffix}"
         if path.exists():
             return path.read_text(encoding='utf-8', errors='replace')
+    # Try parakeet SRT (strip timestamps)
+    srt_path = TRANSCRIPTS_DIR / f"{video_id}-parakeet.srt"
+    if srt_path.exists():
+        return srt_to_text(srt_path.read_text(encoding='utf-8', errors='replace'))
     return ''
+
+
+def srt_to_text(srt_content: str) -> str:
+    """Convert SRT format to plain text."""
+    lines = []
+    for line in srt_content.strip().split('\n'):
+        line = line.strip()
+        # Skip sequence numbers, timestamps, and blank lines
+        if not line or line.isdigit() or '-->' in line:
+            continue
+        lines.append(line)
+    return ' '.join(lines)
 
 
 def get_excerpt(text: str, max_chars: int = 300) -> str:
