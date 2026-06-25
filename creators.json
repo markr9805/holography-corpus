@@ -19,7 +19,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@holojay",
     "tier": 1,
-    "description": "Videos about holograms and holography, exhibitions at Gallery 286, exhibitions from the Jonathan Ross Hologram Collection, artists working with holography and light-based media. Features videos of holograms by August Muth, Dora Tass, Patrick Boyd, Iñaki Beguiristain, Steve Weinstock, and Matthew Schreiber.",
+    "description": "Videos about holograms and holography, exhibitions at Gallery 286, exhibitions from the Jonathan Ross Hologram Collection, artists working with holography and light-based media. Features videos of holograms by August Muth, Dora Tass, Patrick Boyd, I\u00f1aki Beguiristain, Steve Weinstock, and Matthew Schreiber.",
     "status": "inactive",
     "subscribers": 70,
     "video_count": 35,
@@ -44,7 +44,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@EricLeiserArtist00",
     "tier": 1,
-    "description": "Holographic filmmaker — art exhibitions, animated films, music videos, performances. Features holographic sculpture content. Recent content includes 'Ethereal Grounds' solo exhibition (2026) and 'Ghost Stay' (2025). Also has holography-specific videos from 2005-2019.",
+    "description": "Holographic filmmaker \u2014 art exhibitions, animated films, music videos, performances. Features holographic sculpture content. Recent content includes 'Ethereal Grounds' solo exhibition (2026) and 'Ghost Stay' (2025). Also has holography-specific videos from 2005-2019.",
     "status": "active",
     "subscribers": 3450,
     "video_count": 149,
@@ -56,7 +56,7 @@
   },
   {
     "id": "xar3d",
-    "name": "Al Razutis — XAR3D",
+    "name": "Al Razutis \u2014 XAR3D",
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@XAR3D",
     "tier": 2,
@@ -75,14 +75,14 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@hansbjelkhagen6568",
     "tier": 3,
-    "description": "3D Imaging and Holography — Lippmann photography, digital and analogue colour holograms. Features 'Russian Egg', 'Watches', 'Monster' hologram videos.",
+    "description": "3D Imaging and Holography \u2014 Lippmann photography, digital and analogue colour holograms. Features 'Russian Egg', 'Watches', 'Monster' hologram videos.",
     "status": "inactive",
     "subscribers": 50,
     "video_count": 8
   },
   {
     "id": "robhocking",
-    "name": "Rob Hocking — Math Art",
+    "name": "Rob Hocking \u2014 Math Art",
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@RobHockingMathArt",
     "tier": 3,
@@ -121,7 +121,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@HolocenterNYC",
     "tier": 2,
-    "description": "Exhibitions and projects at the Center for the Holographic arts. Features 'The Pure Visual Delight of Holographic Art' (3.8K views), 'Artist Photonics – light and art', 'Physics of Holography lecture by Pete Rogina' (56K views).",
+    "description": "Exhibitions and projects at the Center for the Holographic arts. Features 'The Pure Visual Delight of Holographic Art' (3.8K views), 'Artist Photonics \u2013 light and art', 'Physics of Holography lecture by Pete Rogina' (56K views).",
     "status": "inactive",
     "subscribers": 412,
     "video_count": 7,
@@ -145,7 +145,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@virtualmuseumofholography3813",
     "tier": 4,
-    "description": "HoloSeminar series — 'What is a Hologram?' panel discussions with holographic artists.",
+    "description": "HoloSeminar series \u2014 'What is a Hologram?' panel discussions with holographic artists.",
     "status": "inactive",
     "subscribers": 23,
     "video_count": 3
@@ -201,7 +201,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@rivervalleytv",
     "tier": 2,
-    "description": "Primarily a publishing/technology company channel, but contains holography-specific content including 'Fine Art Holography in Transition — Analogue to Digital', 'Holography in the history of Contemporary Art', 'Installation with Sunlight and Holography', ISDH symposium recordings.",
+    "description": "Primarily a publishing/technology company channel, but contains holography-specific content including 'Fine Art Holography in Transition \u2014 Analogue to Digital', 'Holography in the history of Contemporary Art', 'Installation with Sunlight and Holography', ISDH symposium recordings.",
     "status": "active",
     "subscribers": 3500,
     "video_count": 8300
@@ -212,7 +212,7 @@
     "platform": "youtube",
     "channel_url": "https://www.youtube.com/@jacquesholograms9834",
     "tier": 4,
-    "description": "Synthetic holography — 'The Perspectives of Synthetic Holography', 'Experiments in composition for synthetic holography', 'Content Metamorphosis in Synthetic Holography', 'GraphisHologram', 'Tractatus Holographis'.",
+    "description": "Synthetic holography \u2014 'The Perspectives of Synthetic Holography', 'Experiments in composition for synthetic holography', 'Content Metamorphosis in Synthetic Holography', 'GraphisHologram', 'Tractatus Holographis'.",
     "status": "inactive",
     "subscribers": 6,
     "video_count": 8
@@ -227,7 +227,7 @@
     "status": "active",
     "subscribers": 1500000,
     "video_count": 0,
-    "note": "Major channel — only download holography-specific videos, not full channel"
+    "note": "Major channel \u2014 only download holography-specific videos, not full channel"
   },
   {
     "id": "gettymuseum",
@@ -277,7 +277,7 @@
   },
   {
     "id": "alrazutis_website",
-    "name": "Al Razutis — Visual Alchemy",
+    "name": "Al Razutis \u2014 Visual Alchemy",
     "platform": "website",
     "channel_url": "https://www.alchemists.com",
     "tier": 2,
@@ -297,7 +297,7 @@
   },
   {
     "id": "jonathanross_website",
-    "name": "Jonathan Ross — Hologram Collection",
+    "name": "Jonathan Ross \u2014 Hologram Collection",
     "platform": "website",
     "channel_url": "https://www.jrholocollection.com",
     "tier": 1,
@@ -394,22 +394,73 @@
     "description": "The primary online community for display holography. ~51,000 posts across ~6,500 topics covering DCG, silver halide, optics, techniques, equipment, and gallery. Active since 2004 with Network54 archives back to 2002. Key knowledge base for DCG recipes, silver halide chemistry, laser setups, and ISDH symposium discussions.",
     "status": "active",
     "website": "https://holographyforum.org/forum/",
-    "notable_members": ["Ed Wesly", "Joe Farina", "Din", "holomaker", "Colin Kaminski", "Jeffrey Weil"],
+    "notable_members": [
+      "Ed Wesly",
+      "Joe Farina",
+      "Din",
+      "holomaker",
+      "Colin Kaminski",
+      "Jeffrey Weil"
+    ],
     "forum_stats": {
       "total_posts": 51000,
       "total_topics": 6500,
       "forums": {
-        "General Holography (old)": {"id": 30, "topics": 1921, "posts": 18624},
-        "DCG": {"id": 7, "topics": 155, "posts": 1582},
-        "Techniques": {"id": 5, "topics": 428, "posts": 4241},
-        "Beginning Holography": {"id": 45, "topics": 234, "posts": 2462},
-        "Gallery": {"id": 32, "topics": 299, "posts": 2243},
-        "AgX": {"id": 9, "topics": 65, "posts": 575},
-        "Optics": {"id": 23, "topics": 36, "posts": 288},
-        "Equipment": {"id": 6, "topics": 235, "posts": 1261},
-        "ISDH/Symposia": {"id": 3, "topics": 28, "posts": 101},
-        "Announcements": {"id": 4, "topics": 71, "posts": 313},
-        "General Holography (new)": {"id": 8, "topics": 138, "posts": 922}
+        "General Holography (old)": {
+          "id": 30,
+          "topics": 1921,
+          "posts": 18624
+        },
+        "DCG": {
+          "id": 7,
+          "topics": 155,
+          "posts": 1582
+        },
+        "Techniques": {
+          "id": 5,
+          "topics": 428,
+          "posts": 4241
+        },
+        "Beginning Holography": {
+          "id": 45,
+          "topics": 234,
+          "posts": 2462
+        },
+        "Gallery": {
+          "id": 32,
+          "topics": 299,
+          "posts": 2243
+        },
+        "AgX": {
+          "id": 9,
+          "topics": 65,
+          "posts": 575
+        },
+        "Optics": {
+          "id": 23,
+          "topics": 36,
+          "posts": 288
+        },
+        "Equipment": {
+          "id": 6,
+          "topics": 235,
+          "posts": 1261
+        },
+        "ISDH/Symposia": {
+          "id": 3,
+          "topics": 28,
+          "posts": 101
+        },
+        "Announcements": {
+          "id": 4,
+          "topics": 71,
+          "posts": 313
+        },
+        "General Holography (new)": {
+          "id": 8,
+          "topics": 138,
+          "posts": 922
+        }
       }
     }
   },
@@ -452,5 +503,37 @@
     "description": "International Symposium on Display Holography 2026. Symposium schedules, registration, presenter info.",
     "status": "active",
     "website": "https://isdh2026.org"
+  },
+  {
+    "id": "jiwon-choi",
+    "name": "Jiwon Choi",
+    "platform": "website",
+    "channel_url": "https://sites.google.com/view/jiwonc",
+    "tier": 2,
+    "description": "PhD student in Optical Sciences at University of Arizona, working with Dr. Weimin Zhou in Computational Imaging and Visual Intelligence Lab (CIVIL). Previously worked with Dr. Florian Willomitzer on integrating machine learning in optical 3D metrology. Research on NeRF/NeRF-- for hologram preservation and view interpolation, deflectometric eye tracking, and holographic image rendering with neural radiance fields. MS from Northwestern University (Computational Photography Lab with Dr. Oliver Cossairt).",
+    "status": "active",
+    "website": "https://sites.google.com/view/jiwonc",
+    "research_areas": [
+      "NeRF holography",
+      "neural radiance fields",
+      "hologram preservation",
+      "3D imaging",
+      "computational holography",
+      "deflectometry"
+    ],
+    "affiliation": "University of Arizona, Optical Sciences",
+    "lab": "Computational Imaging and Visual Intelligence Laboratory (CIVIL)",
+    "notable_work": [
+      "Analog Hologram Preservation With NeRF (DGaO 2023)",
+      "Quantitative Analysis of Holography Interpolation With NeRF (2022)",
+      "Accurate Eye-Tracking from Deflectometric Information using Deep Learning (2024)"
+    ],
+    "collaborators": [
+      "Dr. Weimin Zhou",
+      "Dr. Florian Willomitzer",
+      "Dr. Oliver Cossairt",
+      "Dr. Jack Tumblin",
+      "Dr. Marc Walton"
+    ]
   }
 ]
