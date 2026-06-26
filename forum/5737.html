@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Pulse Holographic Interferometry — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5740.html" class="prev-thread">← how to reproduce broken hologram?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5738.html" class="next-thread">Fuji Holographic film SALE! →</a></div>
+    <h1>Double Pulse Holographic Interferometry</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>3,587</td></tr>
+        <tr><td>Started</td><td>Tue Aug 01, 2006 6:00 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/ron-michael.html">Ron Michael</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/ron-olson.html">ron olson</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5737" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Aug 01, 2006 6:00 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I would like to make a doubel pulse laser with the two pulses having the exact same frequency. What is required? The designs I understand would change frequency between the two pulses.<br><br>TIA</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Tue Aug 01, 2006 10:56 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Why do they need to be the exact same frequency? Is it to make the hologram brighter? Or do you want to make interferograms? In the case of interferograms, is it required to have this same frequency?<br><br>A fantastically dangerous way to do it would be to split the beam first, use beam #1 for the first exposure. A 20ns beam is about 6m long. So, if you would take two mirrors of very high reflectivity and bounce #2 beam back and forth between two mirrors about 3m apart at an offset angle, each double bounce would account for a delay of 20ns (exactly one pulse length). By adjusting the angle between the two mirrors, you can adjust the amount of bounces between the mirrors and thus the delay time of the second pulse.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Tue Aug 01, 2006 1:08 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">For interferograms you don&#x27;t need it the same frequency, you just need enough time between exposures to catch the movement and this is where active q switching come in. A pockel cell is the preferred method but an AOM is also useful. <br><br>If you don&#x27;t want the interference, then the two pulses have to be very close together like say 50 or so nanosecs apart for a slow object. The problem with multiple pulses is not the frequency, it&#x27;s the object movement speed. Due to spatial hole burning, even if you have a SLM first pulse, more than likely the next pulse will be a different SLM. <br><br>To prevent SHB,<br><br>You could setup a ring cavity with four mirrors rectangle with one as your partial reflector. both waves will emit at two different directions. 90 degrees apart, so use just one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Tue Aug 01, 2006 3:18 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Ring cavities help with spatial burning hole issue (spectral issue), but not the temporal issue (SLM). You would need mode selectors like high finese etalons etc or better yet, have a very small yag crystal polished/coated in a way to make a micro ring laser. This can be diode pulse pumped and because of it&#x27;s diode pump mode volume and small ring size it can be made slm and tem00, then this will seed your oscillator (regen amp) before going on to your power amps. But as you can see these techniques are more complicated and involve more time and money. <br><br>Keep in mind to design multiple pulses with the same L mode, you know that oscillator will require active control of the pulse timing, temperature, cavity length, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Aug 01, 2006 4:16 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I have never heard of a problem with different frequencies coming out of multiply pulsed ruby lasers. My experience has been with JK lasers, (the Rolls Royce of Ruby) and I had never heard of this being an issue.<br><br>These beasts had two etalons, which may account for the single frequency stability. They also had two Pockels cell drivers for the Q-Switching (with Krytrons! They were the <em>MacGuffin</em> in the movie, Frantic, with Harrison Ford. The bad guys thought he had some krytrons, which used in conjunction with the flat pack batteries from Polaroid SX-70 Time Zero Super Color Film make a dandy letter bomb, as invented by the Moshad, the Israeli Secret Police! Sorry for the digression!) so that pulse separation could be dialed in.<br><br>So I don&#x27;t really think that you need to worry about two frequencies being emitted during double pulsed work. At least if you have a JK laser or something similarly equipped.[/i]</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ron olson</span>
+                <span class="post-date">Tue Aug 01, 2006 9:22 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">What is it you&#x27;re going to be looking at? You need to ascertain the required timing difference between pulses before you design the system. If the pulse separation is a few to a few tens of nanoseconds (this is rare) you can get by with an optical delay line; if the separation is from several to a few hundred microseconds (typical for studying things under stress) you&#x27;ll need to double-pulse a Pockels cell; if the timing difference exceeds 0.5 milliseconds, you&#x27;ll need two independently Q-switched lasers driven by a delay generator and seeded by a common source (assuming they need to be the same frequency). Frequency drift between two consecutive pulses under the same flashlamp curve has never, to my knowledge, been an issue for interferrometry using either ruby or YAG lasers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Aug 01, 2006 11:03 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Well, I am reading about interferometry and double pulse will give me one set of data however I think Time average interferometry will be needed eventually. <br><br>I was wondering if I could take the object and shoot an exposure, then apply a strain and fire the laser again perhaps 30 seconds later. Is this posible at all?<br><br>I still have not researched time average interferometry at all.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5740.html" class="prev-thread">← how to reproduce broken hologram?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5738.html" class="next-thread">Fuji Holographic film SALE! →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5784.html" class="card">
+                <h3>holographic interferometry</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5777.html" class="card">
+                <h3>Holographic Interferometry</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="2597.html" class="card">
+                <h3>holographic interferometry</h3>
+                <div class="card-meta">General Holography (old) · 12 posts</div>
+            </a>
+            <a href="11473.html" class="card">
+                <h3>Holographic sensor based on Jeff Blyth&#x27;s Diffusion method</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="11430.html" class="card">
+                <h3>How do the holographic foils on pokemon cards work?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11414.html" class="card">
+                <h3>Swave&#x27;s new AR holographic system</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

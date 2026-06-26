@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving the object to reduce speckle? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11337.html" class="prev-thread">← Open aperture holograms w/lens</a><a href="Techniques.html">↑ Techniques</a><a href="11332.html" class="next-thread">The HUD market grows →</a></div>
+    <h1>Moving the object to reduce speckle?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>95,491</td></tr>
+        <tr><td>Started</td><td>Fri Sep 29, 2023 6:23 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/loic74.html">Loic74</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11336" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Sep 29, 2023 6:23 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">This idea was suggested to me by another holographer. Say we have a Denisyuk arrangement with an object/plate/plate holder assembly which is essentially locked together (no movement relative to each other). Now we place this on a small isolation table (which is on air). Nothing else is on the table. The laser and expanding optics are off the table. Now, we find some means to gently wobble the entire table to a very small degree, say for example 10 microns to the left and right. So, the entire table is gently swaying back and forth by about 10 microns during the exposure. I would think this would change the speckle pattern produced on the object, and average out the speckle to an extent?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Sep 29, 2023 10:02 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Don&#x27;t you think it would be easier to wiggle the mirror? Either way, I think you&#x27;d smear objective speckle but not affect subjective speckle which happens during reconstruction.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Sep 29, 2023 10:41 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Yes, no and possibly irrelevant.<br><br>Speckle is caused by the rms of a surface, a figure giving the non-uniformity of an apparently flat surface. So, if you have two nearby points on a surface where the variation in height is &gt; λ/2 (~ 300nm), then you get interference due to the extreme coherence of the source and the variation of the &quot;peak&quot; of one point and the &quot;valley&quot; of the nearby point, and, the loci of the interference is speckle. Generally, the rms of a holographic material is usually greater than λ, so a variation across the surface is usually greater than λ/2 (For technical holography, extremely flat mirrors are spec&#x27;d with an rms of λ/20). If you move the surface relative to the source, then you &quot;present&quot; a varying surface profile, and so you vary the speckle pattern, which then &quot;averages out&quot; to create a blur.<br><br>However, if you vary the angle of the reference beam in a Denisyuk geometry, as you would be by rotating the source position relative to the object/plate holder position, you also create new sets of Bragg planes (I&#x27;ve tried to show this in an exaggerated diagram below). If the rotation is small - you mention 10 u or 20 λ - then you&#x27;ll probably broaden the Bragg plane structure. The efficiency of a hologram is given by/based on the sinusoidal nature of the Bragg planes. So, if the planes broaden, you no longer have a sinusoidal variation. This means that you&#x27;ll get Fourier components which will rob light from the first order. The image will be a little dimmer than it could have been.<br><br>On the other hand, if this is meant to be seen in white light, then there will be no speckle because the rms will be irrelevant - the source is not coherent enough for speckle.<br><br>![Bragg.jpg](https://holographyforum.org/forum/download/file.php?id=7826)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Sep 29, 2023 11:55 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">BobH and Din, thank you for your replies.<br><br>Bob, I&#x27;m not currently using a mirror except for the dichroics which combine the 3 lasers in the other room. Once the beams go through the hole in the wall, I have a small platform for the spatial filter, which is not attached to the table. The table is a short distance away. I found that by vibrating the spatial filter platform, it will reduce perceived speckle on the object, but I haven&#x27;t tried this when making a hologram. Vibrating the spatial filter will of course broaden the size of the point source and reduce spatial coherence. Maybe a dumb idea, I don&#x27;t know.<br><br>I did try placing my finger on the isolation table while making an exposure. (I may be completely mistaken, but you or someone else mentioned something like this -- sorry if I have you confused with another holographer.) The motion I introduced was probably huge -- maybe a few millimeters. (Another holographer told me that a much smaller movement was in order, in the micron range). Anyway, to my surprise I got a very dim hologram of the object (this was in Denisyuk format). But the area almost in contact with the emulsion came out extremely bright. I never saw anything which looked more like a &quot;real object.&quot; Unfortunately, I couldn&#x27;t determine if speckle was absent or reduced, because that part of the object was metallic silver and very tiny. I certainly couldn&#x27;t see any speckle. I agree it will be challenging to move the table by a controlled 10 microns, but I think it can be done. (I&#x27;m afraid I don&#x27;t know the meaning of &quot;subjective speckle.&quot;)<br><br>Din, thank you for the explanation and sketch. Considering how bright DCG holograms can be (finally I&#x27;m making some progress), I would be happy to reduce some brightness for reduced speckle. Although I tried, I couldn&#x27;t quite follow that, in the context of white-light viewable holograms, &quot;there will be no speckle because the rms will be irrelevant - the source is not coherent enough for speckle.&quot;<br><br>For some reason, my mind wants to compare &quot;reduced spatial coherence of the source&quot; to moving a surface relative to the source. An example of the former would be vibrating the spatial filter, or using the output from the end of a 3mm light guide (which, according to reports on another forum, works as a reference beam). An example of the latter would be moving the surface relative to the source (moving the object/plate/plateholder). Maybe those two examples have no similarity or connection to each other.<br><br>Thanks again for your input and help.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Sep 29, 2023 2:08 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Fri Sep 29, 2023 11:55 am:</strong> I did try placing my finger on the isolation table while making an exposure. (I may be completely mistaken, but you or someone else mentioned something like this -- sorry if I have you confused with another holographer.) The motion I introduced was probably huge -- maybe a few millimeters. (Another holographer told me that a much smaller movement was in order, in the micron range). Anyway, to my surprise I got a very dim hologram of the object (this was in Denisyuk format). But the area almost in contact with the emulsion came out extremely bright. I never saw anything which looked more like a &quot;real object.&quot;<br><br>It&#x27;s because dispersion starts at the plate and increases through the depth of the image space. This is why &quot;achromat&quot; or &quot;open aperture&quot; holograms produce an image when you use an H1 with no slit. The lack of a slit creates dispersion, but there&#x27;s no diseprsion right at the plate, so you can see image about 1/2 inch in front of and behind the plate..<br><br>&gt; <strong>Joe Farinawrote:↑Fri Sep 29, 2023 11:55 am:</strong> Din, thank you for the explanation and sketch. Considering how bright DCG holograms can be (finally I&#x27;m making some progress), I would be happy to reduce some brightness for reduced speckle. Although I tried, I couldn&#x27;t quite follow that, in the context of white-light viewable holograms, &quot;there will be no speckle because the rms will be irrelevant - the source is not coherent enough for speckle.&quot;<br><br>Speckle is the interference of two coherent beams from two nearby points on an undulating surface of the (non-flat) surface. But, the interference pattern is dependent on the wavelength, while the undulations are fixed on the surface. So, while the depth difference is fixed, different wavelengths create different interference patterns. I&#x27;ve tried to illustrate this for a surface where two nearby points are separated by 250nm (below). For a coherent 500 nm beam, you get a dark, destructive interference area ( a speckle &#x27;dark spot&#x27; ), because the path difference is half λ. But for a 450nm beam, the height difference (fixed, remember) is not half λ, so while there is interference for the 450nm beam, the area is not so dark (a speckle &#x27;not-so-dark spot&#x27;). This will offset the darkness of the spot from the 500nm beam. Consider now a whole range of wavelengths from ~450 - 650 nm, there will be now a range of wavelengths causing different interference patterns for the same spot from the same (fixed) path difference of the surface. All these differences of path lengths will &#x27;blur out&#x27; the interference, ie there will be no speckle.<br><br>&gt; <strong>Joe Farinawrote:↑Fri Sep 29, 2023 11:55 am:</strong> For some reason, my mind wants to compare &quot;reduced spatial coherence of the source&quot; to moving a surface relative to the source. An example of the former would be vibrating the spatial filter, or using the output from the end of a 3mm light guide (which, according to reports on another forum, works as a reference beam). An example of the latter would be moving the surface relative to the source (moving the object/plate/plateholder). Maybe those two examples have no similarity or connection to each other.Thanks again for your input and help.<br><br>Spatial coherence refers to the are of the source (look up van Cittert - Zernicke theorem if interested). I don&#x27;t think rapidly oscillating the point source actual increases the spatial coherence. Consider a point source of light on axis to a lens, placed at the focal point. The lens will output a collimated beam. If you replaced the point source with a small extended source, such as a small diffused disc, then the lens output will no longer be collimated. So, as you increase the spatial coherence of the source (point source -&gt; extended source), the output becomes divergent. But, if you oscillated the point source around the axis, you would not get a divergent output, you&#x27;d get a rapidly oscillating collimated beam.<br><br>![Bragg.jpg](https://holographyforum.org/forum/download/file.php?id=7827)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Sep 30, 2023 9:03 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Fri Sep 29, 2023 2:08 pm:</strong> It&#x27;s because dispersion starts at the plate and increases through the depth of the image space. This is why &quot;achromat&quot; or &quot;open aperture&quot; holograms produce an image when you use an H1 with no slit.<br><br>I always wanted to try &quot;open aperture.&quot; I&#x27;ve heard this produces very bright holograms (I saw a detailed description in the <em>Holography Handbook</em>.)<br><br>&gt; <strong>Dinwrote:↑Fri Sep 29, 2023 2:08 pm:</strong> Spatial coherence refers to the are of the source (look up van Cittert - Zernicke theorem if interested). I don&#x27;t think rapidly oscillating the point source actual increases the spatial coherence. Consider a point source of light on axis to a lens, placed at the focal point. The lens will output a collimated beam. If you replaced the point source with a small extended source, such as a small diffused disc, then the lens output will no longer be collimated. So, as you increase the spatial coherence of the source (point source -&gt; extended source), the output becomes divergent. But, if you oscillated the point source around the axis, you would not get a divergent output, you&#x27;d get a rapidly oscillating collimated beam.<br><br>That&#x27;s surprising and very interesting.<br><br>Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Loic74</span>
+                <span class="post-date">Fri Jan 19, 2024 5:32 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Greetings<br><br>I tried something similar and was also surprized by the results: <br><br>I used a 600µm core multimode glass fiber to mix RGB lasers. One advantage of such a fiber is that it is very easy to couple in the three wavelengths and at the output they are well mixed. One disadvantage is that the output is very noisy/speckly. So then I tried to vibrate the fiber while exposing holograms. To the naked eye, the speckles are greatly reduced. Strangely enough, the holograms were much dimmer when vibrating the fiber than when not. <br><br>The setup was a single beam Denisyuk setup, with the source setup (lasers, fiber and vibration source) sitting on a separate table than the hologram setup. <br><br>I am struggling to understand why it is so. Am reducing the laser&#x27;s coherence length by vibrating the MM fiber?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 19, 2024 6:49 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thanks for sharing your results.<br><br>I was wondering if you quantified the actual distance the end of your fiber was moving/vibrating during exposure. Maybe it resulted in too much of a loss in spatial coherence? <br><br>It&#x27;s difficult to get a handle on such small distances, so I recently bought an inexpensive microscope:<br><br>[https://www.ebay.com/itm/314825875050](https://www.ebay.com/itm/314825875050) <br><br>And combined it with an inexpensive microscope calibration slide with a resolution of 10 microns (0.01mm):<br><br>[https://www.amazon.com/Microscope-Calib ... hdGY&amp;psc=1](https://www.amazon.com/Microscope-Calibration-Micrometer-Multifunctional-Calibrating/dp/B084V75CZH/ref=sr_1_1_sspa?crid=1DSM25XJ2JU7O&amp;dib=eyJ2IjoiMSJ9.CMbB57LsuVFRv9qnDRzEKv6l9io39rCqYNGy0A2XiYG1dW5v6rbGgjxJZnwBi-jUTTcyJ2uYT7Nc4oU7Rm4PSKeHykCaKKIRYkNvuxNrWWws93o2OTPmaHaKTbco_JtLoQUXfJoXbBnBXCoObVTnKloPnE4oPnGrrZeAVem8o0yHDVDgu2xF8l0lMKvNEocndCHpKYY-vNWDSRh9lUxddqaxaSgg8RWAOUQaLFRAeTU.Wy6zWcdGmFhmHU-Z7PcpUKiVwbDMSqohWZuOzlppuzA&amp;dib_tag=se&amp;keywords=microscope+calibration+slide&amp;qid=1705663532&amp;sprefix=microscope+calibration+%2Caps%2C467&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1) <br><br>I&#x27;ve used these to successfully measure the amount of my object/plateholder assembly movement during exposure. It&#x27;s difficult to get a handle on speckle reduction techniques in holography, because we are dealing with the speckle averaging over the length of the holographic exposure. It would be gratifying to see the &quot;instant&quot; speckle reduction (by visual observation only) and have that correlate to the &quot;averaged&quot; speckle reduction during the length of the holographic exposure. Such a situation might result from &quot;rapid&quot; movement or vibrating of some part of the setup (such as the end of your fiber), while a &quot;slow&quot; change of the speckle pattern (probably difficult to observe by eye) would still be useful for a time-averaged holographic exposure over many seconds or minutes (possibly by moving an object/plateholder assembly), which is what I&#x27;m working on.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Loic74</span>
+                <span class="post-date">Fri Jan 19, 2024 9:59 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">The tip of my fiber is not moving, it is the body of the fiber which I am moving in ordert o mix internal modes</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 19, 2024 10:03 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thanks for the clarification, that&#x27;s interesting. I don&#x27;t know why that would cause a dimmer hologram.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11337.html" class="prev-thread">← Open aperture holograms w/lens</a><a href="Techniques.html">↑ Techniques</a><a href="11332.html" class="next-thread">The HUD market grows →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11359.html" class="card">
+                <h3>noise due to a large (extended) object</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="8501.html" class="card">
+                <h3>is this speckle?</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="731.html" class="card">
+                <h3>Two issues - losing an object beam and spots on plate</h3>
+                <div class="card-meta">Equipment · 18 posts</div>
+            </a>
+            <a href="597.html" class="card">
+                <h3>Object Size</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="571.html" class="card">
+                <h3>Flat Object</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 6 posts</div>
+            </a>
+            <a href="349.html" class="card">
+                <h3>Any ideas for wide area object lighting?</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

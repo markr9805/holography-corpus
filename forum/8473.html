@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>making a hologram printer? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8475.html" class="prev-thread">← cheap photopolymer holography?</a><a href="Techniques.html">↑ Techniques</a><a href="8472.html" class="next-thread">Table cover →</a></div>
+    <h1>making a hologram printer?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>7,710</td></tr>
+        <tr><td>Started</td><td>Mon Sep 14, 2015 4:37 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/gezzer.html">gezzer</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/admin-jsfisher.html">admin_jsfisher</a> · <a href="../authors/lobaz.html">lobaz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8473" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">gezzer</span>
+                <span class="post-date">Mon Sep 14, 2015 4:37 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">okay, this may sound dumb but can we make a hologram printer with a simple 2D CNC machine modified to focus the image on an OLED screen to the small parts of a holographic recording medium one by one?<br><br>let&#x27;s guess we have a printing head moving across the x-y plane made of square OLED screen(or led or etc) with a resolution of 5000x5000 pixels with focusing optics, and a holographic recording medium laying under it. <br><br>thinking in terms of simple optics, if we focus the whole screen on a 1x1mm area on the recording medium and have the printing head moving between exposures with 1mm steps, we can transfer an interference pattern from a computer to the medium with 5000 lines/mm resolution.<br><br>but i think due to behaviour of light in nano scale, there will be some difficulties focusing the image, i mean beams from the individual pixels will start to interfere each other and will make the projected image on the medium blurred. am i correct?<br><br>if yes, how are cgh&#x27;s printed with methods other than electron lithography? i&#x27;ve read that cgh&#x27;s can be recorded on holographic mediums using spatial light modulators which afaik simply are lcd screens.<br><br>&gt; There are a number of ways of making digital holograms in which small regions of the film, termed ‘Voxels’ or ‘Hogels’, are exposed to the pre-calculated fringe pattern, such as by using a spatial light modulator (SLM) or electron beam lithography.mentioned in:http://holocenter.org/what-is-holography</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Sep 14, 2015 5:55 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I think you may be confusing several ideas. The problem with phrases like &quot;digital holography&quot; and &quot;computer generated holography&quot; is that these phrases are not precisely defined. Hence, each person has a different concept in mind.<br><br>Firstly, digital holography, or digital holograms, usually refers to the fact that the image source is a digital medium, but the hologram is conventional. Basically, in the old Lloyd Cross method, each frame in a video sequence was photographed, then each photograph was back-illuminated (ie light was allowed to pass through it from the back) and some suitable material was added to cause scattering. Thus, an image was created from particular photograph in the video sequence. This image was squeezed into a single line, or slit, by means of lenses, and recorded in the conventional way as a hologram with a ref beam. The plate was then moved by one slit width (or the slit was moved) , the next photograph was brought into place and recorded. So, for example, in The Kiss, you have the woman blowing a kiss at you as she turns. You make a video of it with a movie camera. You place the movie film into a projector and remove the back of the projector. Let&#x27;s say you want 300 frames across an 8x10in (20x25mm) plate. This means a slit width of either 10/300 in (25/300 mm). So, you run the movie projector, one frame at a time. At each frame, you expose only one slit width of the hologram (~ 0.08mm), then you move the hologram plate (or the slit) by 0.08mm, bring the next frame into the projector and repeat. This is tedious and time-consuming. <br><br>Nowadays, instead of a movie camera and a real film, you can set up a video sequence in a computer. The video sequence does not have to be real, it can be a CG sequence of images from MAYA, POSER or any number of 3D image software packages. Instead of threading the movie frames into a projector, you display them on a digital image device, eg an lcd, slm or even your laptop screen (if you can get the back off). The process is then pretty much similar. You create a software package that automates the display of a frame and so bring up the first image of the sequence, shoot it as a slit image, move the slit (or hologram) and shoot the next image. So, for example, the software will do the following (assuming you&#x27;re moving the plate instead of the slit):<br><br>Start with placing all the video frames into a particular folder<br><br>Software starts with frame 1 (somehow) and so places frame 1 onto the digital device, let&#x27;s say an slm<br><br>Software waits for settle time (user controlled)<br><br>Software opens shutter for a expose time (user controlled)<br><br>software moves plate by one slit width (user controlled)<br><br>software places frame 2 into slm <br><br>Software waits for settle time<br><br>repeat.<br><br>For example, here&#x27;s one we made using a similar system, but arranged horizontally, instead of vertically. The image is a CG sequence made from BLENDER [https://www.youtube.com/watch?v=zgcKKgQPjuw](https://www.youtube.com/watch?v=zgcKKgQPjuw)<br><br>This method does not calculate anything. It merely uses a digital image device as the object source and slices the imagery by software.<br><br>Now, instead of slicing the images into slits, you can break up the images as a set of square elements, based on view angle. Then, you record each individual square as a square hologram. So, you can break up the image elements into a 300x300 (or even 1000 x 1000) array and record the hologram as a 300 x 300 (or 1000x1000 array). Now, you can pack more information in, and so get parallax in both horizontal and vertical directions. The number of elements per unit distance is the &quot;resolution&quot; of the hologram. However, the spatial frequency of the hologram is not the same as the resolution. This is an often confusing concept. But, you still have not calculated any Fourier transforms. You&#x27;ve broken up the image into a particular geometry. These individual elements are called &quot;hogels&quot;. Each one is a hologram in it&#x27;s own right.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Sep 14, 2015 6:30 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">For CGH, or Computer Generated Hologram, you actually calculate Fourier terms. Since the far field pattern of any scene is the Fraunhofer diffraction pattern (Note to Petr: Yes, I know you can have Fresnel hologram also! ), the fringe pattern recorded on a hologram is the Fraunhogfer diffraction pattern of the object. Thus, instead of actually illuminating an object or transparency with real light, you calculate it&#x27;s Fraunhofer pattern using an FFT software. You then record the pattern directly onto the plate as a 2-D absorption variation. You can then bleach to convert to a phase hologram.<br><br>However, this method requires very large amounts of information and is a long calculation. So, you sample the object wavefront into an N X N array, the sampling interval based on, say, the Shannon theorem. You then record an N x N hologram of each sampled object waveform. The problem is that you have to record both the amplitude and the phase of the FT, ie both the Fourier coefficant and the phase term. There are various ways of extracting this, such as Lee&#x27;s method ( [http://www.ncbi.nlm.nih.gov/pubmed/20216666](http://www.ncbi.nlm.nih.gov/pubmed/20216666) ), the kinoform ( [http://opticalengineering.spiedigitalli ... id=1221163](http://opticalengineering.spiedigitallibrary.org/article.aspx?articleid=1221163) ), ROACH, where a three colour process is used. One of the three colours,, the colour you&#x27;re actually recording with, contains the amlitude information, while the other two colours encode the phase shift.<br><br>In all of these methods, you calculate the Fraunhofer pattern with an FFT program, break it up into an array, and record directly onto the medium.Thus, these are Computer Generated Holograms (CGH) because the software generates the data<br><br>You don&#x27;t have to holographically record the phase and amlitude of the FT on a 2-dimensional array. You can convert the FT into a series of height information, let&#x27;s say white (&quot;1&quot;) is 5 microns high and black (&quot;0&quot;) is two microns (but you need to encode phase also). Then you can set up a lithography system, such as e-beam, to directly create the surface profile of the hologram, with a certain grey-scale resolution.<br><br>Then, there are methods where you generate an image in space from a digital device, but a HOE is used to project the image into free space. One such device is Holoxica (we made the HOE that allows this to work) [https://vimeo.com/62616968](https://vimeo.com/62616968)<br><br>This is not a hologram, per se, but it uses holography to create an image in free space.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">gezzer</span>
+                <span class="post-date">Tue Sep 15, 2015 10:39 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hey Din,<br><br>What you say is different from what intend to do but i think it&#x27;s an easier method to record holograms of 3d models from a computer. i think a DLP chip(is actually a slm with moving pixel mirrors on it&#x27;s surface) or a small lcd slm from a common video projector would work. in case of dlp chip it&#x27;s a reflective light modulator, for the lcd part it&#x27;s transmissive. i will just replace its light source with the object beam in a holography setup. So i can make an automated multiplexed hologram printer by the process you mentioned.<br><br>what i actually meant by CGH is this:<br><br>![Image](http://corticalcafe.com/Images/cgh/cgh_letter_A_output.gif)<br><br>this is a computer generated hologram of letter A, you can easily see the calculated fringe patterns. all you have to do is transfer this image to a transmissive surface and you get a hologram. normally best method would be electron lithography but in this case printing on transparency with a common laser printer at 600dpi works. you cannot see a image on the printed transparency but if you point a laser beam through it you can get the image projected. this is due to the limited fringe spacings which could not display the image in visible spectrum, the image projected by a laser beam is very limited in size, i mean diffraction angles are less than a single degree, but it&#x27;s present, so this is a hologram.<br><br>what i want is to print this(actually not this one) calculated fringe pattern in much higher resolution(~125000dpi for 5000lines/mm) so i can get a transmission hologram whose image is in the visible spectrum.<br><br>if i can transfer an image in such high resolution, i think i can then calculate a whole hologram like 10cmx10cm, which is hundreds of gigabytes of data for a single hologram, then print it to a holographic plate by splitting it into 1mmx1mm parts.<br><br>this response is for your first post, i&#x27;ll later read your second post throughly and answer. but as far as i understand up to now, i might be missing some ideas about holograms. a hologram is a simple 2d image without any important information recorded in the depth(z axis) of the holographic medium as i know(which i&#x27;m not very sure of).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">admin_jsfisher</span>
+                <span class="post-date">Tue Sep 15, 2015 12:19 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">If you have access to a good college library, you may check for this: <em>Introduction to modern digital holography : with MATLAB</em> by Ting-Chung Poon, Jung-Ping Liu.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Sep 15, 2015 12:48 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Gezzer,<br><br>Yes, that would be a CGH. However, you haven&#x27;t specified a &quot;reference beam&quot; into the calculation. In this case, you have a &quot;reference beam&quot;, that&#x27;s pretty much on-axis. That is, the reference beam angle is simulated at zero degrees. You need to add the reference beam to get the final spatial frequency. By the way, 5000 l/mm is too high for a transmission hologram, and you can&#x27;t make a reflection hologram with this method. The spatial frequency of a hologram is given by<br><br>lambda<em>nu = sin(theta)<br><br>where lambda is the recording wavelength, nu is the spatial frequency and theta is the interbeam angle. So, let&#x27;s say you&#x27;re recording a transmission hologram with 532 (solid state green) at an angle of 60 degrees. Then the spatial frequency is<br><br>nu = sin(60)/0.000532 ~ 1628 l/mm<br><br>If you want 5000 l/mm, at 60 degrees, you&#x27;d have to use light of wavelength<br><br>lambda = sin(60)/5000 ~ 1.7 nm!<br><br>&gt; <strong>gezzer:</strong> but as far as i understand up to now, i might be missing some ideas about holograms. a hologram is a simple 2d image without any important information recorded in the depth(z axis) of the holographic medium as i know(which i&#x27;m not very sure of).<br><br>There are two basic types of hologram: transmission and reflection. There are many, many ways of naming a hologram (such as &quot;phase modulated, white light reflection&quot;), but the two types above are the basic types.<br><br>A hologram can be recorded as a variation in grey scale with no variation in height. In this method, the light passing through the hologram is modulated by the grey scale variation in absorption. These are called transmission holograms. Since the grey scale variation is caused by two beams - the ref and the object beams - if one of the two beams - the ref beam - is passed through the grey scale variation, then this variation changes the waveform to the other beam - the object beam. Thus the object beam is recovered. Mathematically, the intensity on the film I, with ref R and object O, is:<br><br>I = RR</em> + OO<em> + R</em>O + RO<em><br><br>If this intensity is photographically recorded, the transmission of the film (the grey scale values) is<br><br>T = b</em>i = b(RR<em> + OO</em> + RO<em> + R</em>O)<br><br>If the original ref is now passed through this (2D) structure, then the output is<br><br>(R)<em>(T) = bRRR</em> + bROO<em> + bRRO</em> + bRR<em>O<br><br>You can see that the last term is proportional to the original object beam (bRR</em>O), the third term (bRRO*) creates a second image, usually called the &#x27;pseudoscopic image&quot;. The first term is the zero order term - the non-diffracted part of the ref just passing through the hologram - and the second term is the noise term, unless you record properly, this term creates an aura of light around the image - noise. In this method all light is diffracted, but only the ref wave will recreate the object beam.<br><br>Another way of recording the object beam is by means of planes inside the emulsion, like window slats. These &quot;slats&quot; are separated by half the recording wavelength and will only reconstruct with the same ref beam. Any other beam will not reconstruct the hologram. This is known as &quot;Bragg selectivity&quot; because the hologram will select only the ref beam to diffract, no other form of light will diffract. This is not strictly true, but it&#x27;s a working definition. These are generally called reflection holograms.<br><br>Still another way is to modulate the height of the emulsion as a function of the exposure. These are (usually) recorded on photoresist. The end result is a variation or modulation of the surface as a series of varying heights.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sat Oct 03, 2015 9:56 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hi, gezzer,<br><br>the image you shown is definitely a computer generated hologram (CGH). If you are interested in this subject, you may consider contacting professor Levent Onural at Bilkent University (near Ankara).<br><br>There are some algorithms for CGH calculation that are easy to implement. The real problem is how to print them. One solution is, as you mentioned, e-beam lithography, but this is a very expensive way (unless you know some insider that can print you samples in free time). Other possibility is to use optical lithography. It can &quot;print&quot; individual pixels down to size about 0.6 um, which is perfectly OK for display holography. Not cheap as well, but much cheaper than e-beam. For example holograms by Kyoji Matsushima (you can find videos on youtube) are created by an optical litography system built by (I believe) Sumiyo Nakahara.<br><br>This is the main reason why CGH is not very popular: very expensive and very slow hardcopy procedure.<br><br>Much faster approach does not use CGH, but plain pictures as input and the interference is made optically; Din wrote about this principle in his post. A good resource on this subject is a book by Hans Bjelkhagen and David Brotherton-Ratcliffe &quot;Ultra-realistic Imaging&quot;<br><br>Petr</div>
+        </div>
+
+    <div class="thread-nav"><a href="8475.html" class="prev-thread">← cheap photopolymer holography?</a><a href="Techniques.html">↑ Techniques</a><a href="8472.html" class="next-thread">Table cover →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="7376.html" class="card">
+                <h3>Need help making hologram portraits</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="5606.html" class="card">
+                <h3>Making the Wild Duck Hologram</h3>
+                <div class="card-meta">Gallery · 7 posts</div>
+            </a>
+            <a href="4949.html" class="card">
+                <h3>Making a Sculpture for a Hologram - Any advice?</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="2807.html" class="card">
+                <h3>Problems with making a reflection hologram on PFG-03M</h3>
+                <div class="card-meta">General Holography (old) · 17 posts</div>
+            </a>
+            <a href="11477.html" class="card">
+                <h3>Lighting for Display of a Reflection Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11476.html" class="card">
+                <h3>Make yourself a hologram of yourself!</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

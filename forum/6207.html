@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresnel vs. Fourier — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6210.html" class="prev-thread">← introductions</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6199.html" class="next-thread">Holographic video →</a></div>
+    <h1>Fresnel vs. Fourier</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>4,320</td></tr>
+        <tr><td>Started</td><td>Thu Apr 26, 2007 1:35 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/stereofan.html">Stereofan</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/alesnick.html">alesnick</a> · <a href="../authors/favalora.html">favalora</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6207" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Stereofan</span>
+                <span class="post-date">Thu Apr 26, 2007 1:35 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have recently run across several references to fresnel and fourier transforms in characterizing holograms. I do not know enough to understand the differences between the transforms, what they are, when they are used, and under what conditions. Any pointers to good primers? Any comments on specialized differences and nature of the transforms? Thanks in advance for any help...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Apr 26, 2007 3:57 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">A Fourier Transform is based on the idea that any waveform can be made from an infinite sum of sine waves. This is how the graphic analyzer in a stereo or computer sound program works. It makes a frequency &quot;bin&quot; that has a finite width to allow the computation using an algorithm called an Fast Fourier Transform (FFT). <br><br>Here is a more detailed description:<br><br>[http://en.wikipedia.org/wiki/Fourier_transform](http://en.wikipedia.org/wiki/Fourier_transform)<br><br>A related concept is holography is that of any fringe pattern recorded can be thought of as the sum of an infinite number of zone plates. A zone plate is a series of black and white rings like this:<br><br>![Image](http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Zonenplatte_Cosinus.png/210px-Zonenplatte_Cosinus.png)<br><br>A zone plate uses Fresnel diffraction.<br><br>If one wants to make a fringe pattern from a 3-D model in a computer then one would need to define each point in x,y,z and luminosity (a 3-D vector) Then a zone plate can be calculated to project the point. If one does this to a large number of points and creates a complicated zone plate then one can make a transmission hologram of a computer object. The software to carry this out would need to use an FFT.<br><br>Now, I have never tried any of this or really studied anything but the basics of it so I likely have omitted key points and what not but that is the general idea. Perhaps Ed or Gregg will refine this crude explanation. <br><br>[http://en.wikipedia.org/wiki/Zone_plate](http://en.wikipedia.org/wiki/Zone_plate)<br><br>Now when I think of it all I like to think of the hand drawn holograms. I think this is less computationally intensive but I have not tried it. An FFT is actually a very highly optimized piece of code. Fortunately you don&#x27;t have to write your own FFT anymore here is an example:<br><br>[http://www.fftw.org/](http://www.fftw.org/)<br><br>Now a much more numerically intensive problem would be to calculate the 3 dimensional structure of the fringes coming from any object/reference beam combination. Then one could take a slice of this at any point and make a hologram. This is a quite useful thought experiment when thinking of Holographic Interferometry. With out understanding it you can not make any measurements of absolute values but now I am off topic.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Stereofan</span>
+                <span class="post-date">Thu Apr 26, 2007 5:33 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I was under the impression from another thread that fresnel and fourier transforms were used in alternate ways, but from what you say it sounds like they are complementary, no?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alesnick</span>
+                <span class="post-date">Thu Apr 26, 2007 7:35 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">the Fresnel and Fraunhofer approximations are just that -- approximations. they are used in the context of Fourier optics to describe the diffraction of light. When light passes through an aperture, the resulting profile is a function of the fourier transform of the aperture and the original beam profile.<br><br>The Fresnel approximation is more accurate in the near field, where a wavefront differs in both size and geometry as a function of distance (as is the case when light passes through a pinhole and diffuses in a 1/r^2 type pattern). Fraunhofer diffraction occurs once the propagated wavefront becomes planar, in the far field.<br><br>If I recall correctly, the Fresnel is also accurate in the far field, while the Fraunhofer gives a much more simplified but less accurate) approximation near the origin<br><br>(all of my knowledge comes from 2-d analysis of ultrasound transducers with different apertures -- MUCH simpler than 3-dimensions . . .)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alesnick</span>
+                <span class="post-date">Thu Apr 26, 2007 8:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">haha.<br><br>and i just now realize the original post had nothing to do with fraunhofer.<br><br>fourier, fraunhofer, whats the difference? <br><br>the fourier transform is an _piece_ of evaluating the fresnel integral -- or, at least it _can_be.<br><br>The fresnel integral is a convolution of the plane wave profile and the calculated fresnel kernel -- this integral could be evaluated by hand, but very very few can actually be calculated analytically. if we take the fourier transform (or, computationally, the fast fourier transform) of both elements of the convolution, we can simply multiply the two FT&#x27;s together. taking the inverse FFT, we end up with an answer that may have been impossible to get otherwise.<br><br>f conv g --&gt; FT --&gt; = F * G --&gt; IFFT--&gt; = f conv g<br><br>basically a way around the integral . . .</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Thu Apr 26, 2007 11:25 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Stereofan - <br><br>Did that answer your question? Or are you asking &quot;What&#x27;s the difference between Fourier and Fresnel hologram configurations?&quot;<br><br>In any case, I think there&#x27;s a great thoughtfully-written textbook that really repays the time you spend absorbing the details: <em>Optics</em> by Hecht. A more advanced book is written by Goodman, but that&#x27;s too much of a jump into the deep end at first.<br><br>Also, Steve Benton&#x27;s [MIT course notes](http://mas450.syntheticholography.org/reading/chaptersPDF/index.html) are still available online. It sounds like that would be a good place for you to build up intuition about these things.<br><br>You might want to flip through Hariharan&#x27;s holography text for some quick answers too.<br><br>There are several sections on introductory Fourier optics -- that is, ways in which certain types of mathematical analysis allows you to reach some very interesting conclusions about how lenses and holograms do to light.<br><br>Don&#x27;t worry if it sounds baffling. A lot of us still think it&#x27;s baffling; the math is complicated (at least to non-mathematician engineers) and it&#x27;s easy to get confused when non-experts use certain scientific terms in the wrong way, which happens from time to time even in books.<br><br>gregg</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alesnick</span>
+                <span class="post-date">Fri Apr 27, 2007 12:12 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>favalora:</strong> Stereofan -Don&#x27;t worry if it sounds baffling. A lot of us still think it&#x27;s baffling; the math is complicated (at least to non-mathematician engineers) and it&#x27;s easy to get confused when non-experts use certain scientific terms in the wrong way, which happens from time to time even in books.gregg<br><br>ooooooooooh yeah. thats for sure. i finally have an intuitive sense of how it works after 10 years of holography (holy crap, it feels like yesterday that I was in 7th grade), and two courses in signals &amp; systems and medical imaging.<br><br>(trust me, it can be done muuuuch sooner for an engineering mindset less prone to procrastination . . .)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Stereofan</span>
+                <span class="post-date">Mon Apr 30, 2007 11:35 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">alesnick 8) 8) <br><br>favalora, my father is a calc professor but it hasn&#x27;t really rubbed off (much) on me -- I have a deep respect, however, for stupid questions.. in that many things scientists &quot;know&quot; can&#x27;t be done have been done by people who weren&#x27;t told it was impossible.. and also by the fact that if you persist long enough, clear as mud often becomes crystal -- genius maybe 99% sweat (Edison) but clarity is 80% persistence -- speaking of which.. I wish there were a way to tell when my topics were posted to (new, unread messages).. anyways..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Stereofan</span>
+                <span class="post-date">Fri May 04, 2007 2:38 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Thanks for the tip, alesnick, I went looking in signal processing and found the hadamard treansform mentioned by someone viz. Ray Kurzweil&#x27;s meanderings. Perhaps when holography is enmeshed with the internet&#x27;s digital topography, the singularity will be complete? 8) <br><br>I&#x27;m still trying to figure out exactly <strong>how</strong> the Hadamard transform is implicated in holography (specifically, computing the interference fringe pattern from a given object/reference waveform). One interesting thing to note is that the transformation, though composed of real numbers acts on a set of complex numbers (I feel this is somehow related to my intuition regarding computational holography -- ie, that a complex set is involved somehow).</div>
+        </div>
+
+    <div class="thread-nav"><a href="6210.html" class="prev-thread">← introductions</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6199.html" class="next-thread">Holographic video →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="1078.html" class="card">
+                <h3>straight vs. circular fringes?</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="7958.html" class="card">
+                <h3>luminosity vs. # of wavelengths</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="7518.html" class="card">
+                <h3>Resolving neighboring distant points: Fresnel zone plates</h3>
+                <div class="card-meta">Beginning Holography · 29 posts</div>
+            </a>
+            <a href="6466.html" class="card">
+                <h3>Fresnel rhombs</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="6370.html" class="card">
+                <h3>fresnel lenses</h3>
+                <div class="card-meta">Beginning Holography · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

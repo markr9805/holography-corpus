@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Polarization with Mirrors — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="546.html" class="prev-thread">← Color Holography Optics setup</a><a href="Optics.html">↑ Optics</a><a href="541.html" class="next-thread">Excellent source of information concering optics →</a></div>
+    <h1>Rotating Polarization with Mirrors</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>38</td></tr>
+        <tr><td>Views</td><td>694,574</td></tr>
+        <tr><td>Started</td><td>Thu May 10, 2012 6:54 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">Johnfp</a> · <a href="../authors/jem.html">Jem</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/kate.html">kate</a> · <a href="../authors/kaveh1000.html">kaveh1000</a> · <a href="../authors/djm.html">djm</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/dannybee.html">dannybee</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=543" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Thu May 10, 2012 6:54 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Thanks to Kaveh&#x27;s thesis, this has been increadibly useful when you cannot rotate your laser and you need to rotate the polarization of your laser for overhead/side reference lighting to achieve brewsters.<br><br>![PolarizRotateWMirrors.jpg](https://holographyforum.org/forum/download/file.php?id=2159)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Thu May 10, 2012 7:21 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">That&#x27;s a great way, but can be a bit &#x27;lossy&#x27; if the mirrors are inneficient.<br><br>If you can get hold of a halfwave plate designed for the wavelength of light you&#x27;re using that&#x27;s a much better method. Plus you get the added bonus of being able to set the polarisation at any arbitary angle by simply rotating the waveplate <br><br>Probably not as cheap as two mirrors though <br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu May 10, 2012 8:21 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jem:</strong> That&#x27;s a great way, but can be a bit &#x27;lossy&#x27; if the mirrors are inneficient.<br><br>Not just lossy, it&#x27;s also very difficult to align. The second mirror amplifies the error on the first mirror since the angle of refelction is twice the angle of the mirrors. So, if the first mirror is off by delta(theta), then the beam from the second will be off by 4<em>delta(theta) and the error in the polarisation will be off by cos(4</em>delta(theta)). This will give a reduction in efficiency of cos^2(4*delta(theta)). This is not very important in display holography, since the object depolarises anyway, but it becomes important for HOEs.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Thu May 10, 2012 10:40 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Correct, much cheaper.<br><br>Correct, not for HOE&#x27;s but fine for display.<br><br>Very easy to use, works great.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kate</span>
+                <span class="post-date">Tue May 15, 2012 3:30 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">As I was looking at this method I saw a way to use the same principle to get two vertically polarized beams from a polarizing cube beamsplitter if you don&#x27;t have an output waveplate and with only one additional mirror. If you position the cube so that the the 90 deg output is traveling out vertically, then the straight through beam will have vertical polarization. A mirror placed just above the beamsplitter to turn the vertical beam to travel horizontally (still 90 deg to the input beam), will leave that beam with vertical polarization as well. I made crude sketch to show the idea:</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue May 15, 2012 11:31 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The beam coming from the top of the cube is s polarised, whereas the beam coming from the mirror above the cube is p polarised. I believe the beam coming from the mirror above the cube will be horizontally polarised, since the s or p state is preserved.<br><br>If a coordinate system is set up so that the plane of your drawing is the x-y plane, with the y axis being vertical, then the positive z axis comes out of the plane of the drawing (out of &quot;the paper&quot;). Your drawing shows the beam coming in from the negative z direction towards the positive z axis through the origin, being split by the cube into two beams: one continuing on into the positive z direction and one going along the positive y axis. The beam going along the positive y axis (&quot;up&quot;) has the y-z plane as the plane of incidence while the polarisation vector is along the x axis, and so the beam as shown is s polarised. When the beam hits the mirror atop the cube, the beam changes direction to go along the positive x direction. Now the plane of incidence is the x-y plane and the polarisation vector is along the y axis, which means it&#x27;s p polarised. I think the s polarisation state of the input beam will be preserved and the reflected beam from the mirror above the cube will have a polarisation vector along the z axis, ie horizontally.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Tue May 15, 2012 4:59 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Kate is right. It is the exact equivalent of the image John was referring to. Attached is better diagram. Wish I had SketchUp in the old days. <br><br>For your info, the original diagram (pre personal computers) was programmed in Fortran, submitted to microfilm (35mm BW film), then printed on photo paper in a darkroom!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed May 16, 2012 10:34 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>kaveh1000:</strong> Kate is right.<br><br>Why? <br><br>Since the output beam from the top mirror can be both horizontally and vertically polarised, what principle or law states which one it must be. There are three possibilities: <br><br>Both permitted choices occur, in which case, the bam is once more unpolarised<br><br>S polarisation is maintained, in which case it&#x27;s horizontally polarised<br><br>P polarisation is created, in which case it&#x27;s vertically polarised.<br><br>What law or equation determines which case occurs?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed May 16, 2012 11:54 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">[http://www.directindustry.com/prod/opto ... 96302.html](http://www.directindustry.com/prod/optolita/polarizing-optical-cube-beam-splitters-57692-596302.html)<br><br>That&#x27;s why!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Wed May 16, 2012 12:03 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">The portion of the beam reflected by the prism is s-polarized with respect to the prism face, but p with respect to the mirror.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed May 16, 2012 2:22 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Johnfp:</strong> http://www.directindustry.com/prod/opto ... 96302.htmlThat&#x27;s why!<br><br>Nice pictures of a cube beamsplitter. They&#x27;ve even got the descritption right! Nothing there about a mirror above the cube beamsplitter.<br><br>&gt; <strong>kaveh1000:</strong> The portion of the beam reflected by the prism is s-polarized with respect to the prism face, but p with respect to the mirror.<br><br>True. The polarisation is determined by the plane of incidence. The plane of incidence from the cube (prism) goes up and into the paper (my y-z plane) and so the beam is s, as you say. The plane of incidence of the reflected light from the upper mirror goes along the paper and so is p, as you say. But, that still doesn&#x27;t explain why the output light is p and not s, which it can be. If it were s, then the beam would be horizontally polarised. My question: why isn&#x27;t it s, since the input beam to the system is s?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed May 16, 2012 2:56 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I don&#x27;t know Dinesh. I see it, saw it as soon as Kaveh turned me on to it, implemented it on the table and was able to rotate my polarization easily when going from side illumination to overhead illumination in H1 set ups. Maybe I don&#x27;t know what your asking.<br><br>Think of the mirror as having a ring on it of some diameter. The mirror is at a 45 to the ground and the ring is glued at normal to the mirror. Now take a rope and feed it through the ring. The end that runs parallel to the ground you are holding. The other end hangs down. Now take the end of the rope and wiggle it up and down such that the waves are not bigger then the diameter of the ring. The waves move up and down until they get to the ring then they move near to far on the rope end that is hanging down. <br><br>Now take my original post and arrange the mirrors as such and put two rings in the system. You will find the polarization has been rotated by 90 degrees (Of couse there will be gross losses in a mechanical system like this.) But it should get the process across.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Wed May 16, 2012 4:52 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Dinesh, I can only think you are trying to analyse the problem too deeply. I don&#x27;t know how to answer your question.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">djm</span>
+                <span class="post-date">Wed May 16, 2012 6:14 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> The beam going along the positive y axis (&quot;up&quot;) has the y-z plane as the plane of incidence while the polarisation vector is along the x axis, and so the beam as shown is s polarised.<br><br>Yes, the beam going up towards the mirror is s-polarized in relation to the cube. But it is p-polarized in relation to the mirror. The transmitted beam through the cube is p-polarized in relation to the cube and is vertically polarized if the beam entering the cube is horizontally aligned.<br><br>&gt; <strong>Dinesh:</strong> When the beam hits the mirror atop the cube, the beam changes direction to go along the positive x direction. Now the plane of incidence is the x-y plane and the polarisation vector is along the y axis, which means it&#x27;s p polarised.<br><br>Yes, after the mirror the beam is still p-polarized in relation to the mirror. Which means it is vertically polarized if the original beam to the cube is horizontally aligned.<br><br>&gt; <strong>Dinesh:</strong> But, that still doesn&#x27;t explain why the output light is p and not s, which it can be. If it were s, then the beam would be horizontally polarised. My question: why isn&#x27;t it s, since the input beam to the system is s?<br><br>The reason is because the light going up from the polarizing beamsplitter cube can <strong>only</strong>be s-polarized with respect to the cube and then consequently only p-polarized with respect to the mirror (in this arrangement).<br><br>This effect, that a polarizing beamsplitter cube is reflecting s-polarized light and transmitting p-polarized light, is what we utilize together with a waveplate to get a variable beamsplitter for our polarized laser beams.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">djm</span>
+                <span class="post-date">Wed May 16, 2012 8:48 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Just to clarify.<br><br>&gt; <strong>Dinesh:</strong> But, that still doesn&#x27;t explain why the output light is p and not s, which it can be.<br><br>No, in this optical setup the beam exiting the mirror can never be s-polarized with respect to the mirror.<br><br>&gt; <strong>Dinesh:</strong> If it were s, then the beam would be horizontally polarised.<br><br>Yes, but the beam is not s-polarized with respect to the mirror, but p-polarized, and then consequently vertically polarized.<br><br>&gt; <strong>Dinesh:</strong> My question: why isn&#x27;t it s, since the input beam to the system is s?<br><br>In the illustrated setup the input beam to the system is both s- and p-polarized with respect to the cube&#x27;s polarizing beamsplitter surface. The beam reflected from the cube going up towards the mirror is s-polarized with respect to the cube. It will <strong>allways</strong>be s-polarized (with an ideal cube). This also means that with respect to the mirror, that is reflecting the beam in 90 degrees to the original beam entering the cube, the beam will then <strong>always</strong> be p-polarized. However, if the mirror instead had an orientation with the beam exiting the mirror parallel to the original beam, then the reflected beam would be s-polarized.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu May 17, 2012 11:58 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">My understanding of polarisation states is that the polarisation state is dependant on the plane of incidence, not on the optical component that it impinges on. The optical component merely defines a plane of incidence. So, a beam may be &quot;vertically&quot; or &quot;horizontally&quot; polarised, but these polarisation states depend on the gravitational field in which they exist. Where there is no gravitational field, &quot;vertical&quot; and &quot;horizontal&quot; have no meaning. The beam may also be defined wrt the plane defined by two vectors: the surface normal of the reflecting surface, n, and the direction of the beam,k. These two vectors form the plane of incidence and the polarisation - the E vector - is perpendicular to k. If it&#x27;s also perpendicular to n it&#x27;s then s polarised, and if it perpendicular to k and parallel to n it&#x27;s p polarised. It&#x27;s the n and k vectors that define the state of polarisation, &quot;up&quot; and &quot;down&quot; are superfluous accidents of the earth&#x27;s gravitational field. Which kind of makes you wonder what the polarisation states of light inside a black hole would be? But I digress<br><br>In the case given here, the light exiting the cube is s polarised because its k vector is along the y axis (in the coordinate system I described earlier) and the surface normal, n, of the reflecting surface (inside the cube) is in the y-z plane. The E vector is along x-y and so the E vector is both perpendicular to the n vector and the k vector. If the mirror above the cube had never been there, it would be an s polarised beam. I don&#x27;t think that merely placing a mirror in this set-up now creates the same beam with two polarisation states for the same E vector since this would imply two mutually perpendicular k vectors - a violation of conservation of energy. Once the mirror is placed, the surface normal to the reflecting mirror,n&#x27;, is in the x-y plane and the new propagation vector, k&#x27; is in the direction of x. Hence there are two solutions for the E vector: Either perpendicular to both the n&#x27; and the k&#x27; and so in the z direction and s polarised, or parallel to n&#x27; and perpendicular to k&#x27; and so in the y direction and thus p polarised. Again, it cannot be both s and p since this would imply two k vectors for the same beam. <br><br>However, on thinking further, the beam from the cube, E_up is:<br><br>E_up = E_x(y)<em>exp(i<strong>k</strong>z) (where <strong>k</strong> is the unit vector in the z direction)<br><br>Thus, the vector component of dipole moment on the mirror is<br><br>E_up</em>sin(theta) = E_x(y)*sin(theta) where theta is the tilt of the mirror wrt the horizontal.<br><br>This means there is no component of the dipole moment in the z direction. Thus, the beam reflecting from the mirror also cannot have an E vector in the z direction. This would imply that the diagram is correct. However, if the mirror were tilted azimuthally, then there would be a cos(phi) component to the dipole moment and so there would be a &quot;horizontal&quot; component to the polarisation.<br><br>I think the problem here is really the difference between theorists and experimentalists. To the experimentalist, mathematics follows reality, while to the theorist, reality follows mathematics!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu May 17, 2012 2:34 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Sorry, I made a mistake. The light going up from the cube is not<br><br>E_up = E_x(y)<em>exp(ikz) (where k is the unit vector in the z direction)<br><br>It&#x27;s<br><br>E_x(y) = E_0</em>exp(ik<strong>j</strong>y) where <strong>j</strong> is the unit vector in the y direction. The dipole moment is then q<em>E_x(y)</em>sin(theta) which is in the x-y plane and so the E vector of the reflected beam is in the y direction</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Fri May 18, 2012 12:16 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Dinesh, you are clearly a genius with maths, but you have to ask yourself why all that theoretical stuff is getting in the way of understanding a very simple principle that seems to be obvious to everyone else in this forum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri May 18, 2012 1:18 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>kaveh1000:</strong> Dinesh, you are clearly a genius with maths, but you have to ask yourself why all that theoretical stuff is getting in the way of understanding a very simple principle that seems to be obvious to everyone else in this forum.<br><br>Genius, huh? Flattery will get you everywhere....well, at least it&#x27;ll get you a beer at the MIT bar (they do have one, don&#x27;t they?)<br><br>The problem is, Kaveh, that the the obvious is sometimes not so obvious. Many times, the obvious is wrong. I&#x27;ve seen too many situations where the &quot;obvious&quot; was assumed and proved to be not quite as obvious. There is a very well known holograpy company led by a very competent optical scientist who thought it was &quot;obvious&quot; that woodgrain was due to spurious reflections off the walls of the lab and would not believe it was a polarisation effect. We wasted an entire day covvering the walls of the lab with black velvet and still the woodgrain occurred! The very first dot matrix machines had some of the dots brighter than other dots. Everyone thought it was &quot;obvious&quot; that the laser was mode-hopping. I managed to prove mathematically that the cube in the dot matrix was twisted. Even though the mathematics was pretty compelling proof, it took quite a while for the company to act on it because the person in charge thought that it was &quot;obvious&quot; and &quot;simple&quot; that the laser was mode-hopping. <br><br>In this case, for instance, it seems &quot;obvious&quot; and &quot;simple&quot; that the beam is apparently both p and s polarised at the same time relative to both cube and mirror. This is simple, right? However, let&#x27;s throw in a bit of complexity. Let&#x27;s have a beamsplitter instead of a mirror. Let&#x27;s then place a sheet of glass above the beamsplitter at an angle of 60 degrees odd. We&#x27;re agreed that the beam is clearly s polarised when it exits the cube at the top. So, according to Brewster&#x27;s law, the glass atop the beamsplitter will reflect some of the light (as you know, only p polarised at Brewster&#x27;s angle does not reflect). Now, vary the beamsplitter&#x27;s reflectivity. At some point, due only to the varying of the splitter, the beam now takes on the characteristics of both p and s. So, apparently, the reflectivity of the piece of glass atop the cube will now drop because of the p component, while simultaneously not drop because of the s component.<br><br>The problem is, people seem to accept truth based on a belief system and, when the belief system does not solve the problem, people add all sorts of spurious <em>ad hoc</em> assumptions to the belief system to force fit the result into the belief system. When I was in school and in university, back in the bad ol&#x27; 60&#x27;s, the educational system tried to teach us rational thinking and analytical skills. I was actually told by Dr Bondi (one of the proposers of the Steady State theory of cosmology and a lecturer at Kings) that the whole point of going to university was to teach you to think and analyse. If you simply wanted to learn physics, you could do a correspondance course! My apparent skill in mathematical manipulation is not that great; these are after all, simple algebraic equations. I&#x27;d like to believ my skill is in the analysis of a speculation or problem, the mathematisation is a fairly simple and straightforward process coming out from the analysis. But these days,I find that any analysis of any problem is frowned upon and deemed to be socially unacceptible. It seems that the socially correct thing to do, when presented with facts and/or speculation is to assume a &quot;group think&quot;, &quot;politically correct&quot; stance such that analysis has a faint whiff of elitism. When did educational system get to the stage that the results of education in the analysis of a speculation become a shameful thing done in the dark. When did we deny the ability to analyse, and put down those who did analyse, and simply accept a &quot;group hug&quot; kind of mentality to problem solving?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat May 19, 2012 10:20 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> I think the s polarisation state of the input beam will be preserved and the reflected beam from the mirror above the cube will have a polarisation vector along the z axis, ie horizontally.<br><br>I strongly disagree with this. Dinesh my friend, sometimes a mathematical analysis can go very wrong and this is one case if it led you to that conclusion. There is no way the polarization of the beam coming off the top mirror in the drawing referred to above is &quot;horizontal&quot; if the mirror itself is in the &quot;vertical&quot; direction with respect to the plane of incidence defined by the beamsplitter cube. No way. A page of argument won&#x27;t change that, and only confuses anyone reading this topic.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat May 19, 2012 1:10 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I strongly disagree with this. Dinesh my friend, sometimes a mathematical analysis can go very wrong and this is one case if it led you to that conclusion. There is no way the polarization of the beam coming off the top mirror in the drawing referred to above is &quot;horizontal&quot; if the mirror itself is in the &quot;vertical&quot; direction with respect to the plane of incidence defined by the beamsplitter cube. No way. A page of argument won&#x27;t change that, and only confuses anyone reading this topic.<br><br>Bob, I actually showed that it would be vertical. The reason is that the dipole moment of the atoms in the mirror are vertical and so the E vector is also vertical.<br><br>My point is not whether or not it&#x27;s vertical, my point is: why? I repeat, in case it&#x27;s been missed again: Why is it vertical? - there must be a reason besides, &quot;<em>Because I&#x27;m an &#x27;expert&#x27; and I say it is</em>&quot;. No one seems to be able to give a reason. If it&#x27;s as &quot;obvious&quot; and as &quot;simple&quot;, then surely it&#x27;s not very difficult to explain why. Otherwise, I&#x27;m simply expected to understand this as a matter of faith or &quot;belief&quot;, and I ain&#x27;t too good in both the faith department and blind unquestioning belief in &quot;experts&quot; department. If I accepted faith and blind belief as criteria for understanding natural law, I&#x27;d have become a priest and not a physicist! (Not that I&#x27;m demeaning priests, I simply have a different <em>weltanscauung</em>) I need some sort of proof. If people simply accept facts and speculation on some sort of faith basis, how do you find anything new? With no clue about a reason for something, the phenomena is not understood, it&#x27;s simply accepted. In such a situation (My gawd, I&#x27;m beginning to sound like Thomas Jannsen!) there can be no creativity because there&#x27;s no understanding! As I&#x27;ve said many times, if gawd almighty told me it was vertical, I&#x27;d ask why and examine the proof. Kaveh flat out told me he couldn&#x27;t tell me why<br>&gt; <strong>kaveh1000:</strong> I don&#x27;t know how to answer your question.<br> So, why (besides the dipole moment argument). Does anyone have an alternate reason?<br><br>The point you make about the fact that the polarisation must be vertical because the mirror is &quot;vertical&quot; is presumably meant to mean that the mirror is tilted to the right of the beamsplitter and is presented with a horizontal polarisation (along the x in my coord system) that&#x27;s in the direction of tilt. However, had it been presented with a horizontal polarisation along the z - the other horizontal polarisation - would the beam still be vertical? Since the beam is going &quot;up&quot;, it can have two horizontal polarisations; if it had the other horizontal polarisation - the z direction in my system - the dipole moment would be along the z direction and so would the polarisation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat May 19, 2012 11:31 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">I think i agree with bob.. some time its just comsense ...and a good p-filter from a camera to use as a tool to check p rotation...when I do this in the lab I never think math but more simple sience and optics..and tweak it till it works beause which is better get a head hirting thinking math or just make it work for that set up...because i think it was dinesh that said it isnt the one with big labs and big phd&#x27;s that make good holographer but one&#x27;s who know how to make it work in the real world blood sweat and mirrors...hehehehe</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun May 20, 2012 7:40 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Ah, but there a lot of people who think that the Tupac hologram is a hologram. In fact, there&#x27;s probably a 1000:1 ratio of those who think it&#x27;s a hologram to those who know it isn&#x27;t. By any definition of &quot;common&quot; sense, there are a 1000 &quot;common&quot;s to every &quot;uncommon&quot;! Presumably the argument that common sense wins out every time would indicate that the Tupac is now a hologram by &quot;common&quot; consent and sense? <br><br>However, if I say that the Tupac is a hologram and you say it isn&#x27;t, surely we must actually show/demonstrate/prove/explain our reasons for our statement. If we simply yell at each other: &quot;It is! It&#x27;s obvious it is!&quot; and &quot;It isn&#x27;t. Anyone can see it isn&#x27;t!&quot; (which is actually happening as I speak!) then all sense of rational debate and conversation has gone. All points are settled by a show of hands. All debates are decided by decibel and not reason. Now, both Musion and Tupac are holograms, Dihydrogen Oxide is one of the most dangerous materials on the face of the earth, there is a dinosaur in a lake in Scotland and aliens built the pyramids. All of these are &quot;obvious&quot; and &quot;simple&quot; to a lot of people. We&#x27;ve achieved the democratisation of the laws of physics!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Sun May 20, 2012 8:39 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">[http://www.dhmo.org/facts.html](http://www.dhmo.org/facts.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun May 20, 2012 8:49 am</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> BobH wrote:I strongly disagree with this. Dinesh my friend, sometimes a mathematical analysis can go very wrong and this is one case if it led you to that conclusion. There is no way the polarization of the beam coming off the top mirror in the drawing referred to above is &quot;horizontal&quot; if the mirror itself is in the &quot;vertical&quot; direction with respect to the plane of incidence defined by the beamsplitter cube. No way. A page of argument won&#x27;t change that, and only confuses anyone reading this topic.Bob, I actually showed that it would be vertical. The reason is that the dipole moment of the atoms in the mirror are vertical and so the E vector is also vertical.My point is not whether or not it&#x27;s vertical, my point is: why?<br><br>But you never mentioned that THAT was your point. It took ten posts after the glaringly incorrect statement I quoted before you argumentatively demonstrated yourself to be wrong, without explaining <em>why</em> you made the glaringly incorrect statement in the first place. So I have to ask, what was the purpose of the ten post argument, in which you were clearly incorrect? Why is it necessary to replace a physical explanation of a very simple arrangement of mirrors with a mathematical one, when a couple of simple sentences about relative planes of incidence would&#x27;ve done the job as well? If you&#x27;re really looking for a reason why there&#x27;s sometimes some backlash against what you post, here it is! And I say that with all my respect for a long time friend and fellow holographer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun May 20, 2012 9:59 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Bob, If you go back along this thread, you&#x27;ll notice I&#x27;ve been asking why all along! Nobody seems to simply state why this polarisation is what it is. That&#x27;s all I&#x27;ve ever wanted. everyone is so sure of themselves, but no one can apparently come up with a reason. Kaveh says it&#x27;s &quot;obvious&quot; and &quot;simple&quot; but cannot explain why. You say you say you absolutely believe that kate&#x27;s drawing is correct, again with no reason, John shows a picture of cube beamsplitters, but again with no reason. DJM I think came the closest, but I got thrown by the fact that he claimed that the p and s states were with respect to specific optics (&quot;the mirror&quot;, the &quot;cube&quot; etc). However, I think that DJM actually came up with another reason (besides the dipole moment) in that Fresnel&#x27;s equstions cannot be solved unless the beam is as Kate drew it. don&#x27;t know if that&#x27;s what DJM meant, but that;s what comes out if you read &quot;between the lines&quot; of DJM&#x27;s explanation. You say <br>&gt; <strong>BobH:</strong> Why is it necessary to replace a physical explanation of a very simple arrangement of mirrors with a mathematical one, when a couple of simple sentences about relative planes of incidence would&#x27;ve done the job as well?<br> But then, where are these simple sentences? People seem to get mad at me because I question? If my question is &quot;obvious&quot; and my mistake is &quot;glaring&quot;, then where&#x27;s the correct expalantion. No one has answered!<br><br>I hope I can put across some of my own feelings in this. You simply cannot state an fact and then state that it&#x27;s &quot;obvious&quot; and simple&quot; and &quot;everyone knows it&quot;! That goes against the grain of everything that any body of learning or study is based on. But, besides DJM, everyone is absolutely certain of this fact without knowing why???? Does no one actually care why something is what it is. Does everyone simply accept &quot;experts&quot; without question. <br><br>If you examine this series of conversations, you&#x27;ll notice that I&#x27;ve been asking why all along! Does anyone (besides DJM&#x27;s explanation of the Fresnel conditions and my explanation of the dipole moment) why? No one has posted anything about a simple explanation of the planes of incidence! I&#x27;m clearly wrong, but the answer to my mistake (or anyone&#x27;s mistake) is not to bear down on the mistake and call the person who&#x27;s made the mistake all kinds of fool and idiot, as you all have done, but explain slowly and carefully why I&#x27;m a fool and idiot. If I am a fool and an idiaot, then fair enough! I&#x27;ll accept the name-calling and the anger. No one on this forum seems to care that insults have been thrown, names have been used insinuations have been made simply because I don;&#x27;t know why the polarisation is what it&#x27;s claimed to be. <br><br>What a nice bunch we are!!!<br><br>I&#x27;m sorry. I really don&#x27;t know why the polarisation is what Kate says it is. I finally figured out that it&#x27;s the dipole moment. But I think that all this name calling, insinuations, anger and backlash are uncalled for!!!!<br><br>All of you seem to go into a rage because I&#x27;m actually excercising the physics degree that I earned at college. If my being a physicist bothers you all so much, perhaps I ought to redefine myself. I never took any courses in physics! I never stuidied any mathematics! There&#x27;s actually no mathematics in holography. All facts are simply stated. I&#x27;m very very sorry that I actually implied that there is some physics and math in holography becauser I can clearly see my error. Ii now bow before you all in humble apology that I dared to invoke actual science and math. Please believe me that i will not post anything involving physics, math, chemistry or anything else of a scientific nature on these pages. Clearly anyone even claiming any scientific background to holography ought to be burned at the stake! I was going to say :<br><br>&quot; I see three fingers&quot; a la 1984, but that involves a knowledge of the Arts and Literature and I&#x27;m pretty sure you&#x27;ll all get even madder at me if I invoke any form of erudition at all!!!!!<br><br>&gt; <strong>Dinesh:</strong> kaveh1000 wrote:Kate is right.Why?Since the output beam from the top mirror can be both horizontally and vertically polarised, what principle or law states which one it must be. There are three possibilities:Both permitted choices occur, in which case, the bam is once more unpolarisedS polarisation is maintained, in which case it&#x27;s horizontally polarisedP polarisation is created, in which case it&#x27;s vertically polarised.What law or equation determines which case occurs?<br><br>&gt; <strong>kaveh1000:</strong> Dinesh, I can only think you are trying to analyse the problem too deeply. I don&#x27;t know how to answer your question.<br><br>&gt; <strong>kaveh1000:</strong> The portion of the beam reflected by the prism is s-polarized with respect to the prism face, but p with respect to the mirror.<br><br>&gt; <strong>Dinesh:</strong> True. The polarisation is determined by the plane of incidence. The plane of incidence from the cube (prism) goes up and into the paper (my y-z plane) and so the beam is s, as you say. The plane of incidence of the reflected light from the upper mirror goes along the paper and so is p, as you say. But, that still doesn&#x27;t explain why the output light is p and not s, which it can be. If it were s, then the beam would be horizontally polarised. My question: why isn&#x27;t it s, since the input beam to the system is s?<br><br>&gt; <strong>kaveh1000:</strong> Dinesh, I can only think you are trying to analyse the problem too deeply. I don&#x27;t know how to answer your question.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun May 20, 2012 10:27 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Since I&#x27;ve been put down, demeaned and, despite several pleas for an explanation, ignored. Since I see no end to these repressive behaviours with no sight of any justice from anyone. I don&#x27;t think that I can contribute anymore. If you all seem to think that I actually don&#x27;t understand or know holography, and you all seem to think think there is no science in holography but simply hand waving statements and since no one seems to actually seek knowledge, just ego, I&#x27;d like to be taken off the membership rolls.<br><br>If any of you actually benefited from anything I wrote, I hope I taught or inspired you. I hope you carry forward the idea of rational discussion. I hope I left something of the excitement of new ideas and deep insight into these phenomena. Unfortunately, there are some here who&#x27;s ego transcends any hope of insight or study. I&#x27;m clearly a fish out of water when I question, debate and try to inspire to some to greater heights.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon May 21, 2012 9:45 am</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> I&#x27;m clearly wrong, but the answer to my mistake (or anyone&#x27;s mistake) is not to bear down on the mistake and call the person who&#x27;s made the mistake all kinds of fool and idiot, as you all have done, but explain slowly and carefully why I&#x27;m a fool and idiot. If I am a fool and an idiaot, then fair enough! I&#x27;ll accept the name-calling and the anger. No one on this forum seems to care that insults have been thrown, names have been used insinuations have been made simply because I don;&#x27;t know why the polarisation is what it&#x27;s claimed to be.<br><br>I don&#x27;t recall anyone calling you &quot;all kinds of fool and idiot&quot;. Where&#x27;s the insult and insinuations? I have to tell you the only insinuation I read in this thread is that you know what you&#x27;re talking about because you&#x27;re a physicist and everyone else here are &quot;all kinds of fools and idiots&quot; because of their inability to explain the most basic things about holography to your satisfaction and in the language of mathematics. <br><br>Why is it necessary (for example) for a photographer to know the physics of how light interacts with a reflective surface to explain how the mirror in their SLR camera works to someone new to photography? I only questioned the necessity of ten posts of argument about a statement you, the physicist amongst us, made about the polarization state of a beam in a specific drawing. The context of that statement doesn&#x27;t imply to me that you were playing the &quot;Devil&#x27;s Advocate&quot; when you made it, or that it was made to stimulate discussion about <em>why</em> light reflects off surfaces.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon May 21, 2012 2:13 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> Dinesh wrote:I&#x27;m clearly wrong, but the answer to my mistake (or anyone&#x27;s mistake) is not to bear down on the mistake and call the person who&#x27;s made the mistake all kinds of fool and idiot, as you all have done, but explain slowly and carefully why I&#x27;m a fool and idiot. If I am a fool and an idiaot, then fair enough! I&#x27;ll accept the name-calling and the anger. No one on this forum seems to care that insults have been thrown, names have been used insinuations have been made simply because I don;&#x27;t know why the polarisation is what it&#x27;s claimed to be.I don&#x27;t recall anyone calling you &quot;all kinds of fool and idiot&quot;. Where&#x27;s the insult and insinuations? I have to tell you the only insinuation I read in this thread is that you know what you&#x27;re talking about because you&#x27;re a physicist and everyone else here are &quot;all kinds of fools and idiots&quot; because of their inability to explain the most basic things about holography to your satisfaction and in the language of mathematics.Why is it necessary (for example) for a photographer to know the physics of how light interacts with a reflective surface to explain how the mirror in their SLR camera works to someone new to photography? I only questioned the necessity of ten posts of argument about a statement you, the physicist amongst us, made about the polarization state of a beam in a specific drawing. The context of that statement doesn&#x27;t imply to me that you were playing the &quot;Devil&#x27;s Advocate&quot; when you made it, or that it was made to stimulate discussion about <em>why</em> light reflects off surfaces.<br><br>thanks Bob Dineash has left the forum</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon May 21, 2012 2:14 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">&gt; <strong>dannybee:</strong> BobH wrote:Dinesh wrote:I&#x27;m clearly wrong, but the answer to my mistake (or anyone&#x27;s mistake) is not to bear down on the mistake and call the person who&#x27;s made the mistake all kinds of fool and idiot, as you all have done, but explain slowly and carefully why I&#x27;m a fool and idiot. If I am a fool and an idiaot, then fair enough! I&#x27;ll accept the name-calling and the anger. No one on this forum seems to care that insults have been thrown, names have been used insinuations have been made simply because I don;&#x27;t know why the polarisation is what it&#x27;s claimed to be.I don&#x27;t recall anyone calling you &quot;all kinds of fool and idiot&quot;. Where&#x27;s the insult and insinuations? I have to tell you the only insinuation I read in this thread is that you know what you&#x27;re talking about because you&#x27;re a physicist and everyone else here are &quot;all kinds of fools and idiots&quot; because of their inability to explain the most basic things about holography to your satisfaction and in the language of mathematics.Why is it necessary (for example) for a photographer to know the physics of how light interacts with a reflective surface to explain how the mirror in their SLR camera works to someone new to photography? I only questioned the necessity of ten posts of argument about a statement you, the physicist amongst us, made about the polarization state of a beam in a specific drawing. The context of that statement doesn&#x27;t imply to me that you were playing the &quot;Devil&#x27;s Advocate&quot; when you made it, or that it was made to stimulate discussion about <em>why</em> light reflects off surfaces.<br><br> Bob Dinesh has left the forum</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Mon May 21, 2012 2:31 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">I really dont understand all this nonsense ! just run a damn 10 minuet test and you will know outcome ............ isnt that what really counts?<br><br>Danny based on the reality of this topic isnt it really Kates fault Dinesh left the room?<br><br>By the way Kate very good idea and as ive tested it and it works very well , thank you all for the input !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon May 21, 2012 2:33 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomaker:</strong> I really dont understand all this nonsense ! just run a damn 10 minuet test and tell usthe outcome ............ isnt that what really counts?<br><br>amen!!!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon May 21, 2012 2:35 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomaker:</strong> I really dont understand all this nonsense ! just run a damn 10 minuet test and you will know outcome ............ isnt that what really counts?Danny based on the reality of this topic isnt it really Kates fault Dinesh left the room?By the way Kate very good idea and as ive tested it and it works very well , thank you all for the input !<br><br>how much math does that take?<br><br>yes a simple &amp; workable .. with no math need</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon May 21, 2012 5:03 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomaker:</strong> I really dont understand all this nonsense ! just run a damn 10 minuet test and you will know outcome ............ isnt that what really counts?Danny based on the reality of this topic isnt it really Kates fault Dinesh left the room?By the way Kate very good idea and as ive tested it and it works very well , thank you all for the input !<br><br>I gess your correct dave....sad day</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Tue May 22, 2012 8:01 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">My two cents. <br><br>I posted something very simple and cost effective that I have used and works. I surely did not know it was going to get all this attention. In fact, after I posted it, Dinesh posted all this garbage about how difficult it was to align and how wouldn&#x27;t work with HOE&#x27;s. Well, since most here are display holographers we can forget the second part. As for the first part, not difficult at all, not with a couple of gimbles.<br><br>&gt; Since I&#x27;ve been put down, demeaned and, despite several pleas for an explanation, ignored. Since I see no end to these repressive behaviours with no sight of any justice from anyone. I don&#x27;t think that I can contribute anymore. If you all seem to think that I actually don&#x27;t understand or know holography, and you all seem to think think there is no science in holography but simply hand waving statements and since no one seems to actually seek knowledge, just ego, I&#x27;d like to be taken off the membership rolls.If any of you actually benefited from anything I wrote, I hope I taught or inspired you. I hope you carry forward the idea of rational discussion. I hope I left something of the excitement of new ideas and deep insight into these phenomena. Unfortunately, there are some here who&#x27;s ego transcends any hope of insight or study. I&#x27;m clearly a fish out of water when I question, debate and try to inspire to some to greater heights.<br><br>It seems Dinesh wanted us to explain what he alread knew and kept badgering us for the answer. Some of us thought he didnt get it, but I assume he did and was tryign to force us to get it at the physics level. He should have just posted what he wanted to say and let the one that can use that info use it. Then he gets mad and leaves when he was the one playing us. I didn&#x27;t really see anyone put him down. Oh well.<br><br>Back to topic, use a protractor and ruler for table heights and squares.<br><br>I personally want to thank Kaveh as this arrangement saved me hundreds of dollar and I had all the parts (a sinlge base and pole, two mounted gimbals with mirrors. DONE!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Tue May 22, 2012 9:01 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">sorry bob didnt mean to point a finger at you....Dinesh has gone before and came back....so I think he will be back...he can some times, even tho hes very bright and wise his self can get in the way</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey M</span>
+                <span class="post-date">Sat Nov 24, 2012 1:45 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">I used the two mirror system exactly as John pictured, but with a flip mirror on top, to switch the beam between two tables. One table had the rotated beam, set for an overhead reference beam mastering table, at Brewster&#x27;s angle, the other table got the unrotated beam for H1-H2 copies on their sides. No need to ever think about polarization adjustment again, all automatic, no infinitely adjustable angles which you never need anyway. I never reset another cool rotating device after that.<br><br>If a holographer can&#x27;t set a reflection at 90 degrees, get out. Yes, any deviation from right angles rotates out. These mirrors handle your full laser power, so you want great mirrors with little loss.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">nobo</span>
+                <span class="post-date">Fri Jan 01, 2016 10:25 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">&gt; <strong>kaveh1000:</strong> Kate is right. It is the exact equivalent of the image John was referring to. Attached is better diagram. Wish I had SketchUp in the old days.For your info, the original diagram (pre personal computers) was programmed in Fortran, submitted to microfilm (35mm BW film), then printed on photo paper in a darkroom!!<br><br>That&#x27;s so interesting!</div>
+        </div>
+
+    <div class="thread-nav"><a href="546.html" class="prev-thread">← Color Holography Optics setup</a><a href="Optics.html">↑ Optics</a><a href="541.html" class="next-thread">Excellent source of information concering optics →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8827.html" class="card">
+                <h3>Polarization dependence of gratings</h3>
+                <div class="card-meta">Optics · 16 posts</div>
+            </a>
+            <a href="863.html" class="card">
+                <h3>change laser polarization</h3>
+                <div class="card-meta">Optics · 17 posts</div>
+            </a>
+            <a href="8117.html" class="card">
+                <h3>ACRYLIC PARABOLIC MIRRORS</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="7912.html" class="card">
+                <h3>Collimating mirrors</h3>
+                <div class="card-meta">Beginning Holography · 11 posts</div>
+            </a>
+            <a href="7429.html" class="card">
+                <h3>Dove prism for polarization rotation</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="7356.html" class="card">
+                <h3>Polarization Preserving Holographic Recording Materials</h3>
+                <div class="card-meta">General Holography (old) · 17 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

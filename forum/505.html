@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOE limitations — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="506.html" class="prev-thread">← RabbitHoles holograms</a><a href="Techniques.html">↑ Techniques</a><a href="503.html" class="next-thread">Looking for Larry Lieberman holograms →</a></div>
+    <h1>HOE limitations</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>84</td></tr>
+        <tr><td>Views</td><td>29,158</td></tr>
+        <tr><td>Started</td><td>Mon Mar 26, 2012 6:35 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holorefugee.html">holorefugee</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/pinkysbrain.html">PinkysBrain</a> · <a href="../authors/zipsister.html">zipsister</a> · <a href="../authors/holomaker.html">holomaker</a> · <a href="../authors/dannybee.html">dannybee</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=505" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Mon Mar 26, 2012 6:35 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I know that HOE&#x27;s can replace a series of lenses yet I rarely see them used for that purpose. Why is that? What are the limitations of noise etc...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Mar 26, 2012 9:44 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Chromatic aberrations, field of view issues because of Bragg selectivity, the need to be off-axis, and stability for a few.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 27, 2012 11:19 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Partly because lenses are refractive elements and partly because of the need for stability during reconstruction in a complex optical system. To make things more complicated, there are two different kinds of diffraction: Bragg and Raman Nath, and these have different properties.<br><br>Let&#x27;s take a camera as an example. The basic arguments will probably carry over to any optical instrument, with some reservations. It could be possible, for example, to replace the lens of a refractive, Galilean telescope with a hologram, but not a reflective telescope (ironically, for the same reasons that Newton invented the refelecting telescope!). In a camera, the scene extends across the field of view and away from the camera lens, there is a considerable variation in x, y and z. All the light from these diverse directions will focus in a one-to-one relationship on the focal plane where (hopefully) the film rests. This is because all light refracts in a refractive system, no matter the direction or depth. There will be lens aberrations, but these can be countered with a suitable combination of lenses. The defocusing of a scene along the z direction can be countered by stopping down the aperture. If you replaced such a system with a hologram, all the light may not diffract. If the hologram is a &quot;thick&quot; hologram, ie the diffraction mechanism was Bragg, then only a very narrow range of angles of the incoming light would diffract. In addition, only a very narrow range of wavelengths would diffract. You&#x27;d effectively get a highly saturated, relatively dim, single colour image of the parts of the scene that encompassed an angular range of maybe 10 degrees. Also, the focusing properties of the hologram would have to be built into the hologram on recording by the divergence of the &quot;object&quot; beam. This means that there is almost no depth of view. Closing the aperture would have no effect on this. You could have a combnation of holograms, but each &quot;sub-hologram&quot; would have to have a very high photopic and scotopic efficiency else there will be significant light loss. Getting high photopic and scotopic ain&#x27;t easy! On top of all this, your Bragg hologram would need to be extra-ordinarily thick (an emulsion depth of 100&#x27;s of microns) in order to be Bragg transmissive. You could, of course, have a combination of transmissive and reflective elemsts, but besides the complexity, you&#x27;d have the same issues of light loss because it&#x27;s not easy to get the hologram to be optically clear to all but the diffractive wavelengths. Also, the same problem occurs that only a narrow cone of light will diffract.<br><br>You could put in a transmissive element, but then you&#x27;d have severe dispersion giving rise to what Bob calls chromatic aberration. Dispersion is not actually chromatic aberration because, for one thing, the colours go the opposite way. In diffractive dispersion, the red end is deviated more than the blue, while in refractive chromatic dispersion, the blue end is more deviated. But, the effect is the same. Everything will have an coloured aura around it. You could have a very narrow band transmissive element, but then you&#x27;d only get a very narrow range of colours and angle. <br><br>On top of all these problems, aberrations are far worse for slight changes in the hologram than for a similar change for lenses. Let&#x27;s say that the lens was off by 5 degrees or so, then a well corrected set of lenses would not show much aberrations. But, a hologram would, depending on the hologram. Unfortunately, not a lot seems to be written about holographic aberrations these days. I&#x27;ve been combing the literature for my ISDH paper. Also, these diffractive elements have to be calulated, there&#x27;s no &quot;holographic design software&quot; such as Zemax or Code V. In fact, most of my day is spent in calculating these HOEs (or, to hew to the modern usage, DOEs) and then Joy sets up the table geometry as per my calculatons. Clients often ask me which software I use and seem amazed that I don&#x27;t use software at all! I do about 20% of the initial calculations in my head and then the more detailed calculation on the back of any old scrap of paper.<br><br>Having said all that, there are areas where holograms have almost replaced conventional optics. Most spectrophotometers these days have a hologram as the dispersive element.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 27, 2012 12:21 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> You could put in a transmissive element, but then you&#x27;d have severe dispersion giving rise to what Bob calls chromatic aberration. Dispersion is not actually chromatic aberration because, for one thing, the colours go the opposite way. In diffractive dispersion, the red end is deviated more than the blue, while in refractive chromatic dispersion, the blue end is more deviated. But, the effect is the same.<br><br>Not true. I&#x27;ll have to correct myself. Dispersion creates multiple copies of the subject while chromatic aberration creates an aura around the subject. An object illuminated by white light and seen through a dispersive holographic grating will show several coloured objects next to each other. The object focused by a lens that&#x27;s chromatically aberrated will show the object surrounded by a series of coloured auras.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Mar 27, 2012 12:24 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Surprisingly there are production dSLR lenses from Canon that use what they term Diffractive Optics, but an HOE by any other name would correct chromatic aberration just as sweetly.<br><br>[http://www.usa.canon.com/cusa/consumer/ ... age_Perf#f](http://www.usa.canon.com/cusa/consumer/standard_display/Lens_Advantage_Perf#f)<br><br>Have to scroll down to see the relevant propaganda.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Tue Mar 27, 2012 3:26 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Dinesh, The moment you realized that the red and blue go in opposite directions in refractive and diffractive optics you should have filed for a patent. <br><br>I am wondering if I can make a single hologram of three lenses that work at a single frequency. The object is narrow (.5 deg) and I need to project a real image. Efficiency is not a problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 27, 2012 5:12 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>holorefugee:</strong> I am wondering if I can make a single hologram of three lenses that work at a single frequency. The object is narrow (.5 deg) and I need to project a real image. Efficiency is not a problem.<br><br>You mean, you illuminate a small object on one side of the hologram and there are three focused images of the object on the other side? It doesn&#x27;t sound too difficult, especially if efficiency is not an issue. Throw me a decent bottle of merlot (or one of your decent IPAs) and I&#x27;ll have you one by next week.<br><br>&gt; <strong>holorefugee:</strong> Dinesh, The moment you realized that the red and blue go in opposite directions in refractive and diffractive optics you should have filed for a patent.<br><br>I think that the Good Lord beat me to it on that one. If and when I stand before the Heavenly Throne or whatever, one question I gotta ask: &quot;Why on earth did you make the diffraction angle lambda-dependant but make the refraction angle inverse lambda-dependant!&quot; This would be right after the question, &quot;Quantum mechanics! What kind of a bizarre mood were you in when you thought that one up?! Even Feynmann didn&#x27;t understand it!&quot; Of course, I just gotta ask &quot;By the way, do you play dice?&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Wed Mar 28, 2012 1:12 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">How would you even record the equivalent of a compound lens in analogue even for a narrow bandwidth? <br><br>Simply interfering a plane wave with a converging wave will give you a zone plate equivalent to a single lens easy enough ... but I don&#x27;t quite see how to do it for a lens system (I&#x27;m not sure a thin hologram even has enough degrees of freedom to do it).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Mar 28, 2012 3:07 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> How would you even record the equivalent of a compound lens in analogue even for a narrow bandwidth?Simply interfering a plane wave with a converging wave will give you a zone plate equivalent to a single lens easy enough ... but I don&#x27;t quite see how to do it for a lens system (I&#x27;m not sure a thin hologram even has enough degrees of freedom to do it).<br><br>All you have to do is model, or recreate, the wavefronts. That is, treat the lens system as a black box with a specific transfer function, with a specific input. The transfer function applied the input will give you the wavefront for the output. You then create this output wavefront as the &quot;object beam&quot; and the input wavefront as the &quot;reference beam&quot;. There are standar matrices for refraction and reflection, so for the real lens system - the black box - you construct the transformation matrices, multiply them and get a grand &quot;system matrix&quot;. You apply this matrix to the input wavefront; so if the input is a spherical, diverging wave and the system matrix is M, the output waveform is:<br><br>|o&gt; = M*exp(-i<strong>k.r</strong>)<br><br>Actually a single converging wave will not give a zone plate, but the output can be modelled as a zone plate. In a zone plate, you have a binary index system, with the nth ring being at a distance of n squared from the centre. That is, a zone plate is discontinuous. The Bragg planes (for a thick hologram) or the surface profile (for a thin hologram) have no such n-squared relationship. The coincidence/confusion arises because a zone plate can focus/the hologram focuses/therefore the hologram is a zone plate. However, this can also be said of a standard, glass thin lens: a glass thin lens focuses/a zone plate focuses/therefore a glass thin lens is a zone plate.<br><br>The whole idea that a &quot;hologram&quot; is a &quot;zone plate&quot; came about with the early theories of holography. At that time they needed a theoretical model for the hologram and decided to model it as a series of zone plates sitting on the plate surface with diffraction occurring purely in the Raman Nath regime. Thus, if a given wavefront impinged on the hologram (ie the reconstruction beam), the &quot;zone plates&quot; all across the plate, would &quot;sample&quot; different parts of the (reconstruction) wavefront and, depending on the size and density of the zone plates, would create a new (image) wavefront. The series of zone plates was a sort of theoretical black box. Since lens theory was fairly advanced and zone plates were well understood, a whole bunch of theoretical constructs could be drawn up. Thus, the earliest theories of holograms referred to the efficiency as a function of the MTF of a zone plate. However, a zone plate is not a lens, it doesn&#x27;t refract light. A zone plate works by virtue of Fresnel diffraction and, by it&#x27;s nature, Fresnel diffraction is a near-field diffraction phenomenon.<br><br> However, if the hologram consisted of real zone plates, there would have to be a one-to-one correspondance between the points on the objects and the zone plates on the hologram. This would defeat the meaning of the phrase &quot;hologram&quot;, since then every point of the hologram would not contain the data pertinent to the entire object. Thus for a given a specific point on the object, there would correspond a specific zone plate at a speciic position on the hologram. In this situation, if you could &quot;block off&quot; a given zone plate (say by applying a black dot over a part of the plate) then the reconstructed image would be missing specific points.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Wed Mar 28, 2012 6:23 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> That is, treat the lens system as a black box with a specific transfer function, with a specific input.<br><br>What to use though as the specific input? A singlet, doublet and triplet can all produce the exact same output for the same plane wave input for instance ... so we need a more complex input it seems.<br><br>&gt; In a zone plate, you have a binary index system<br><br>That&#x27;s a Fresnel zone plate, a Gabor zone plate is a relatively common term too ... which is by definition the 2d interference pattern of a diverging beam with a plane wave, which is thus what a thin hologram will record ... and which will have in approximation a n-squared relationship if the focus of the beam is &quot;far away&quot; from the recording plane.<br><br>&gt; However, if the hologram consisted of real zone plates, there would have to be a one-to-one correspondance between the points on the objects and the zone plates on the hologram. This would defeat the meaning of the phrase &quot;hologram&quot;, since then every point of the hologram would not contain the data pertinent to the entire object. Thus for a given a specific point on the object, there would correspond a specific zone plate at a speciic position on the hologram.<br><br>The zone plate extends to infinity, limited only by the field of view of the point (if it is obscured from a given area on the hologram plane the zone plate is non existent there). So every area on the hologram still has data pertinent to the entire object (for as far as it&#x27;s viewable from that area on the hologram).<br><br>&gt; In this situation, if you could &quot;block off&quot; a given zone plate (say by applying a black dot over a part of the plate) then the reconstructed image would be missing specific points.<br><br>No, only for the set of view points from which the point is behind (or in front) of the black dot ... for other view points the point would still be visible.<br><br>This kind of masking is actually a rather essential point in the zone plate view of thin holograms BTW. The classical gabor zone plate interference pattern is only a valid representation of a point visible from all directions.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Mar 29, 2012 11:41 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> What to use though as the specific input? A singlet, doublet and triplet can all produce the exact same output for the same plane wave input for instance ... so we need a more complex input it seems.<br><br>Not so. There are more surface for one thing in a doublet or triplet. The transfer matrix is different. For example, the doublet would have four matrices, one for each surface. It also depends on where the lens is meant to be used. For example, in an underwater camera, the index on either side of the lens is different. Hence Newton&#x27;s formula (for example) is now:<br><br>xx&#x27; = ff&#x27;<br><br>Instead of<br><br> xx&quot;=f^2<br><br>Also, it depends on the exact nature of the doublet or triplet and also whether or not the lens was being used in the paraxial, Gaussian regime by meas of stops and apertures. Just because a series of lenses focuses a plane wave doesn&#x27;t mean the transfer matrix is te same. If that was so, there would be no need of expensive doublets and triplets, you could simply use one lens!<br><br>&gt; <strong>PinkysBrain:</strong> That&#x27;s a Fresnel zone plate, a Gabor zone plate is a relatively common term too<br><br>A Gabor zone plate!? What on earth is one of those! Where does this stuff come from, for gawd&#x27;s sake? Don&#x27;t tell me this stuff is on the internet, that great miasma of metaphor and misinformation! There&#x27;s no mention of a &quot;Gabor zone plate&quot; in any of the literature that I can find. It&#x27;s not in Collier, Lin and Burckhardt, it&#x27;s not in Hariharan and it&#x27;s not in the original Gabor paper!<br><br>Here&#x27;s the origin of the &quot;zone plate&quot; model.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2144&amp;mode=view)<br><br> As you can clearly see, the zone plate model is only valid insofar as the Taylor expansion is valid. For this to be true, the hologram size (or the incidence angle) must be very, very small. If this conditiion is met, the defining phase relation equation follows the n-squared rule of a Fresnel zone plate. In the Gabor paper, he mentions that the hologram subtended an angle of arcsin(0.04). Also, this is only true for a single point object of zero dimension inline (on axis) with another axial, single point object of zero dimension. Even in a so-called Gabor hologram, the moment the &quot;object&quot; becomes a transparency (as in the original experiments), the zone model breaks down because the phase variation equation can no longer have the n-squared relation. For a transparency, the phase relation becomes similar to Young&#x27;s equation and the phase relationship takes on a sinusoidal form:<br><br>phi = cos(Phi_r - phi_o)<br><br>This is certainly not an n-squared relationship and therefore is not literally a zone plate. The isophase lines are no longer circular, but linear. The zone plate model infers that any extended transparency can be modelled as a series of individual points, each of which generates a &quot;zone plate&quot;. However, only the axial point will generate a zone-plate set of rings. Any off-axis point (the rest of the transprency!) will generate a Youngs set of fringes.<br><br>&gt; <strong>PinkysBrain:</strong> The zone plate extends to infinity,<br><br>It can&#x27;t do. If x -&gt; infinity, the Taylor expansion is no longer valid! The whole argument for a zone plate-like set of fringes is gone!<br><br>&gt; <strong>PinkysBrain:</strong> So every area on the hologram still has data pertinent to the entire object<br><br>There is still a one-to-one relationship between an object point and a set of rings - whether they extend to infinity or not. You cannot have a bijective mapping of the data!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Thu Mar 29, 2012 2:20 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Just because a series of lenses focuses a plane wave doesn&#x27;t mean the transfer matrix is te same. If that was so, there would be no need of expensive doublets and triplets, you could simply use one lens!<br><br>You misunderstand my point ... you can&#x27;t record an abstract matrix, what are you going to use as a reference and object beam (ie. input and output) to actually record the lens function.<br><br>&gt; A Gabor zone plate!? What on earth is one of those! Where does this stuff come from, for gawd&#x27;s sake? Don&#x27;t tell me this stuff is on the internet, that great miasma of metaphor and misinformation!<br><br>Dunno, did they have the internet in 1967? <br><br>[http://www.opticsinfobase.org/ao/abstract.cfm?id=14574](http://www.opticsinfobase.org/ao/abstract.cfm?id=14574)<br><br>&gt; There&#x27;s no mention of a &quot;Gabor zone plate&quot; in any of the literature that I can find.<br><br>Effective literature research does require knowing how to navigate the miasma.<br><br>&gt; As you can clearly see, the zone plate model is only valid insofar as the Taylor expansion is valid.<br><br>Now you&#x27;re just being circular ...<br><br>A common definition of a zone plate is simply the interference pattern on a plane of a plane wave with a spherical wave (not necessarily perpendicular to the plane wave either). Not common to me, not common to just the internet ... just plain common.<br><br>&gt; Any off-axis point (the rest of the transprency!) will generate a Youngs set of fringes.<br><br>Otherwise known as linear zone plates <br><br>As I&#x27;ve said before, language ... even scientific language is not as strict as you think it is.<br><br>&gt; There is still a one-to-one relationship between an object point and a set of rings - whether they extend to infinity or not. You cannot have a bijective mapping of the data!<br><br>Non sequitur.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Mar 29, 2012 2:37 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">The idea of a hologram as a zone plate was described by Rogers in one of his 1950’s papers. The idea of maybe not infinitely wide but real wide zone plate was described by Steve McGrew in his paper at the 1982 ISDH, or maybe later, I am not at home right now to get the exact citation. His premise was that further you go off center in a zone plate the fringes look more like off-axis hologram fringes. <br><br>Tung Jeong christened the holographically produced zone plate a Gabor zone plate in his little blue book on holography, circa 1977.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Mar 29, 2012 3:47 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> You misunderstand my point ... you can&#x27;t record an abstract matrix, what are you going to use as a reference and object beam (ie. input and output) to actually record the lens function.<br><br>The matrix elements give you an euation which is then an effective surface. You then try to simulate the surface using optical components. Thus, for example, if the matrix elements gave you:<br><br>o = ax^2 + by^2<br><br>This is an ellipsoid. To create an ellipsoid phase front, you&#x27;d have a phase mask consisting of a reverse ellipsoid and pass a collimated beam through it. The phase surfaces would then satisfy the equation. <br><br>&gt; <strong>PinkysBrain:</strong> Dunno, did they have the internet in 1967?http://www.opticsinfobase.org/ao/abstract.cfm?id=14574<br><br>The link you show is to a paper entitled: Zone Plate Theory Based on Holography<br><br>Notice, it says &quot;Zone Plate theory&quot;, not &quot;Gabor Zone Plate Theory&quot;. In fact, the analysis I wrote down is almost exactly the same as the abstract in the paper. It&#x27;s a non-linear series expansion, exactly as I gave. But, the analysis shows a zone plate simulation (an n-squared relationship) under certain circumstances which I laid out in the analysis. It&#x27;s not a <em>Gabor</em> zone plate, whatever that is.<br><br>&gt; <strong>PinkysBrain:</strong> A common definition of a zone plate is simply the interference pattern on a plane of a plane wave with a spherical wave (not necessarily perpendicular to the plane wave either). Not common to me, not common to just the internet ... just plain common.<br><br>Well, anything can be defined as &quot;true&quot; if just some sort of &quot;common&quot; knowledge is the only basis of truth. There are people out there who are convinced that aliens landed in New Mexico because well...everybody knows it&#x27;s true. It&#x27;s just common! I cannot help it if people have belief systems such as religion, which is also &quot;common&quot;. As far as I&#x27;m concerned, if you cannot prove it mathematically and/or show compelling experimental evidence based on Popperian falsifiability, it&#x27;s simply a belief system! And, yes, by extension, I&#x27;m not a great believer in string theory. So far as I know, it&#x27;s mathematical elegant, but with no experimental evidence.<br><br>&gt; <strong>PinkysBrain:</strong> Otherwise known as linear zone plates<br><br>Again, you can of course call something anything you want, but in the technical literature there&#x27;s no such thing as a &quot;linear zone plate&quot;. A zone plate is a particular kind of structure created by analysis of Fresnel diffraction. Fresnel diffraction from a 2 dimensional linear structure gives rise to the Fresnel integrals:<br><br>S(x)=\int{sin(t^2)}dt<br><br>C(x)=\int{_0^x \cos(t^2)}dt.<br><br> The solution of which are not zone plates. In fact, they are modelled using the Cornu spiral.<br><br>&gt; <strong>PinkysBrain:</strong> As I&#x27;ve said before, language ... even scientific language is not as strict as you think it is.<br><br>Scientific language ought to be, and is, strict. The problem is that the news media and popular language dilute the scientific concepts by mixing metaphor and story-telling. This gives rise to belief systems such as aliens, Bigfoot, Yeti&#x27;s, creams and potions that prevent ageing and similar nonsense. To a scientist, a protein is an exact thing, not a metaphor; it&#x27;s a set of amino acids set in a particular geometry, not something in one of those (equally nonsensical!) &quot;energy drinks&quot;. The temperature of a gas has a precise meaning - the average kinetic energy of the particles. I find it difficult to understand why everyone says that everything is &quot;cool&quot;. What exactly is the relationship between modern fashion and the kinetic energy of gas molecules? Yet, when someone who is well dressed a la modern fashion, they&#x27;re supposed to &quot;look cool&quot;. So, your looking at clothes can change the average KE?? <br><br>&gt; <strong>Ed Wesly:</strong> The idea of a hologram as a zone plate was described by Rogers in one of his 1950’s papers. The idea of maybe not infinitely wide but real wide zone plate was described by Steve McGrew in his paper at the 1982 ISDH, or maybe later, I am not at home right now to get the exact citation. His premise was that further you go off center in a zone plate the fringes look more like off-axis hologram fringes.<br><br>Yes, you&#x27;re right. In fact, the analysis I gave leads to just such a result. The spatial frequency increases quite rapidly, which is why the photographic emulsions Gabor used had to be small. They didn&#x27;t have sufficent spatial frequency response to give rings beyond just a few. But, they&#x27;re no <em>Gabor</em> zone plates. They&#x27;re the standard n-square zone plates, as per the analysis I showed. If you&#x27;re interested and have the book, there&#x27;s an interesting chapter in Collier, Lin and Burckhardt (the bible!) which shows an analysis of the dimensions of the zone plate model against the frequency responce of a given film.<br><br>&lt;Edit&gt; Notice, by the way, that almost all the papers referring to the zone plate model was pre-Kogelnik. The zone plate model was used extensively in the 50&#x27;s and late 60&#x27;s by the early workers such as El Sum. The Kogelnik model supplanted the zone plate model and is more accurate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Thu Mar 29, 2012 4:20 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> It&#x27;s not aGaborzone plate, whatever that is.<br><br>From the paper :<br><br>The Gabor zone plate is defined to be that zone plate<br><br>which, when illuminated by spherical (or plane) wavefronts<br><br>of monochromatic light, produces only one real<br><br>and one virtual point image. This differs markedly<br><br>from the Fresnel zone plate which, in theory, produces<br><br>an infinite number of point images. The concept of<br><br>the Gabor zone plate comes immediately from hologram<br><br>theory. Note that a hologram will produce both the<br><br>wavefronts that were incident on the photographic<br><br>plates from which it descended (the virtual image) and<br><br>the conjugate wavefronts (the real image). Thus, the<br><br>hologram made from a point source object will be a<br><br>Gabor zone plate if the amplitude transmittance of the<br><br>hologram is a linear function of the incident light intensity.<br><br>An added assumption is that the distortions<br><br>resulting from the finite size of the film grains (limited<br><br>resolution, scattering, etc.) are negligible.<br><br><strong>The actual production of a Gabor zone plate could beaccomplished by illuminating a single point scatterer ina laser beam that is directed onto a photographic plate.</strong><br><br>Or in other words the interference pattern of a plane wave and a spherical wave.<br><br>&gt; Again, you can of course call something anything you want, but in the technical literature there&#x27;s no such thing as a &quot;linear zone plate&quot;.<br><br>You can&#x27;t prove a negative and I have proven the positive too often to bother any more ...<br><br>&gt; A zone plate is a particular kind of structure created by analysis of Fresnel diffraction.<br><br>Begging the question.<br><br>&gt; Scientific language ought to be, and is, strict.<br><br>So I guess Mr. Horman is not a true Scotsman then?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Mar 29, 2012 6:23 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> From the paper :<br><br>Which paper? I have the Gabor paper and this is not it. The actual paper is:<br><br>&quot;A New Microscopic Principle&quot;, Research Laboratory, Thomson-Houston Co. Ltd., Rugby<br><br>and, &quot;Nature, 16, pp777 - 778, 1948<br><br>&gt; <strong>PinkysBrain:</strong> The concept ofthe Gabor zone plate comes immediately from hologramtheory.<br><br>Which theory? Kogelnik? H M Smith? El Sum?<br><br>&gt; <strong>PinkysBrain:</strong> Note that a hologram will produce both the wavefronts that were incident on the photographic plates from which it descended (the virtual image) and the conjugate wavefronts (the real image).<br><br>There is only one object wavefront that is incident on the plate, call it o. The reconstruction beam reconstructs both the original, o, and it&#x27;s conjugate o*. The phrase &quot;a hologram will produce both the wavefronts that were incident on the photographic plates&quot; is incorrect or the writer misunderstands the relationship between a complex variable and its complex conjugate<br><br>&gt; <strong>PinkysBrain:</strong> The Gabor zone plate is defined to be that zone plate which, when illuminated by spherical (or plane) wavefronts of monochromatic light, produces only one real and one virtual point image....Thus, the hologram made from a point source object will be a Gabor zone plate<br><br>This is a tautology. <br><br>&gt; <strong>PinkysBrain:</strong> An added assumption is that the distortions resulting from the finite size of the film grains (limited resolution, scattering, etc.) are negligible.<br><br>Not true. Holographic aberrations (&quot;distortions&quot;) are not a function of the grain size. Also, the writer does not seem to understand scattering. Which scattering? Mie? Rayleigh? The writer does not seem to understand the point of spatial frequency respone, which is not a &quot;distortion&quot;<br><br>Whoever this writer is, he has the popular grasp of holography that is all over the internet. Most of it is a metaphor at best and incorrect at worst<br><br>&gt; <strong>PinkysBrain:</strong> You can&#x27;t prove a negative and I have proven the positive too often to bother any more ...<br><br>Well, you haven&#x27;t defined &quot;linear zone plate&quot; except tautologically, ie a &quot;linear zone plate&quot; is a zone plate that&#x27;s linear!<br><br>&gt; <strong>PinkysBrain:</strong> Begging the question.<br><br>Which question am I begging?<br><br>&gt; <strong>PinkysBrain:</strong> So I guess Mr. Horman is not a true Scotsman then?<br><br>Who on earth is Mr Horman??? Never heard of him. Is the producer of a canned meat product? Isn&#x27;t that called Horman?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Thu Mar 29, 2012 11:00 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Just as well I didn&#x27;t have to know all that to make a hologram otherwise I might have taken up painting pop sticks for a past time.<br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Mar 30, 2012 7:10 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Well, most of the time I&#x27;ve advocated in the past that you have to forget the theory. An analogy would be driving a car. If you had to work out the thermodynamics of the internal combustion engine every time you got into your car, you wouldn&#x27;t get very far! Theory is only important if you&#x27;re trying to discover something new or trying to understand an odd fact. The practice of holography is easily decoupled from the theory of holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Fri Mar 30, 2012 7:52 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> The practice of holography is easily decoupled from the theory of holography.<br><br>Well thank goodness for that !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Mar 30, 2012 8:42 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Well, most of the time I&#x27;ve advocated in the past that you have to forget the theory. An analogy would be driving a car. If you had to work out the thermodynamics of the internal combustion engine every time you got into your car, you wouldn&#x27;t get very far! Theory is only important if you&#x27;re trying to discover something new or trying to understand an odd fact. The practice of holography is easily decoupled from the theory of holography.<br><br>But Dinesh old friend, that&#x27;s why you&#x27;ve experienced (and often complain about) the negative reaction to the reams of theory you provide with every simple practical question asked here.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Mar 30, 2012 8:57 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">I knew I should of studied more greek I was out playing hooky that day</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Fri Mar 30, 2012 9:17 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> The phrase &quot;a hologram will produce both the wavefronts that were incident on the photographic plates&quot;<br><br>You&#x27;re taking that out of context ... he simply always uses wavefronts in plural, look at his second usage ... he isn&#x27;t saying both were incident.<br><br>&gt; Not true. Holographic aberrations (&quot;distortions&quot;) are not a function of the grain size.<br><br>He is not talking about aberrations in replay, he is talking about the distortion between the original optical intensity pattern and the physical color pattern on the photographic plate after development.<br><br>&gt; Which scattering? Mie? Rayleigh?<br><br>The scattering inside the photographic emulsion, mathematical constructs to make calculating scattering tractable for specific circumstances are quite irrelevant to the point he is making ... the concept of scattering can exist in isolation.<br><br>&gt; The writer does not seem to understand the point of spatial frequency respone, which is not a &quot;distortion&quot;<br><br>The spatial frequency response is simply a derived property ... it&#x27;s a consequence of things like grain size and blurring resulting from scattering inside the medium.<br><br>&gt; Which question am I begging?<br><br>What is a zone plate.<br><br>&gt; Who on earth is Mr Horman??? Never heard of him. Is the producer of a canned meat product? Isn&#x27;t that called Horman?<br><br>The engineer/scientist who deigned to use the term Gabor zone plate in 1967, long before there was an internet to blame it on ... and he isn&#x27;t alone ... but I guess they are unscientific by definition, the Dinesh definition (ie. no true Scotsman.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Mar 30, 2012 11:07 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> The engineer/scientist who deigned to use the term Gabor zone plate in 1967, long before there was an internet to blame it on ... and he isn&#x27;t alone ... but I guess they are unscientific by definition, the Dinesh definition(ie. no true Scotsman.)<br><br>Where&#x27;s the paper? Where&#x27;s the proof? Where&#x27;s the derivation of the equation? In what sense is he a &quot;scientist&quot;? Has he published in any recognised journal? Or is he one of those self-styled &quot;scientists&quot; that sprout up every now and again with fantastic ideas of perpetual motion machines and Quantum Unified Thoeries! There is still no definition of a &quot;Gabor&quot; zone plate. There&#x27;s no mention in any of the accepted literature, no mention in any textbook, no mention in any professional book, simply an opinion based on poor understanding and hand waving arguments. <br><br>If you, or this &quot;scientist&quot; can show me a calculation or derivation that shows that a new and different kind of zone plate exists for which x_n is not proportional to n squared, I&#x27;d be happy to study the derivation; in addition, if there is a derivation that a specific geometry creates this new and differnt kind of phase relationship at a given plane, I&#x27;d be happy to study the phase relation and comment on the mathematics. I notice though that there is no comment on the mathematics justifying the Fresnel zone plate that is accepted in the standard literature. Without any derivation or proof or definition, this is simply wordplay and so it&#x27;s simply a belief system. In this situation, I can just as easily say that there is a Laplace zone plate or even a vegetarian zone plate or a tofu zone plate. All these are equivalent and equally meaningless. The moment you inject wordplay, hand waving arguments and vague semantics into science, the whole value of science is lost. In this situation, bigfoot, yeti and aliens become just as justifiable as relativistic quantum mechanics. As far as I&#x27;m concerned all this nonsense about New Age and The Age of Aquarius and astrology and palm reading comes from!<br><br>&gt; <strong>PinkysBrain:</strong> (ie. no true Scotsman.)<br><br>I&#x27;m sorry, I don&#x27;t understand the Scottish reference.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Fri Mar 30, 2012 11:29 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Where&#x27;s the paper? Where&#x27;s the proof?<br><br>The one I linked ...<br><br>&gt; Where&#x27;s the derivation of the equation?<br><br>The equation is irrelevant (also the one in the paper was wrong and corrected by someone else in the letter section). It&#x27;s the definition of a (Gabor) zone plate as being the interference pattern of a spherical wave with a plane wave I was interested in. You have a very narrow view as what constitutes a zone plate (an on axis Fresnel zone plate and bugger all else) and I wanted to show the term is a lot more flexible than that.<br><br>&gt; In what sense is he a &quot;scientist&quot;? Has he published in any recognised journal?<br><br>Applied optics seems a pretty decent journal and [with 30+ citations](http://scholar.google.com/scholar?hl=en&amp;lr=&amp;cites=3916195194625952265&amp;um=1&amp;ie=UTF-8&amp;ei=iel1T_fjMaah0QXwqrCQDQ&amp;sa=X&amp;oi=science_links&amp;ct=sl-citedby&amp;resnum=1&amp;ved=0CDYQzgIwAA) it might not be seminal but also certainly not unnoticed.<br><br>&gt; There is still no definition of a &quot;Gabor&quot; zone plate.<br><br>&quot;The Gabor zone plate is defined to be that zone plate<br><br>which, when illuminated by spherical (or plane) wavefronts<br><br>of monochromatic light, produces only one real<br><br>and one virtual point image.&quot;<br><br>&quot;The actual production of a Gabor zone plate could be<br><br>accomplished by illuminating a single point scatterer in<br><br>a laser beam that is directed onto a photographic plate.&quot;<br><br>&gt; I&#x27;m sorry, I don&#x27;t understand the Scottish reference.<br><br>[No true Scotsman fallacy](http://en.wikipedia.org/wiki/No_true_Scotsman) (use google books to find a definition from a dead paper source if you like, most of the time wikipedia does fine though).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Fri Mar 30, 2012 1:06 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Dinesh: &quot;a tofu zone plate&quot;, this is new for me! What about analyzing a volume zone plate? Does it increase the resolution?<br><br>That Scottish logical fallacy is very difficult for ones that deal with plain English!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Mar 30, 2012 1:24 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> The one I linked ...<br><br>What link? I couldn&#x27;t find any link<br><br>&gt; <strong>PinkysBrain:</strong> The equation is irrelevant<br><br>You&#x27;re joking! While we&#x27;re at it, let&#x27;s just throw out Maxwells equation. Light can then behave in any way you choose or in any way that&#x27;s &quot;common&quot;! In fact, let&#x27;s throw out the second law of thermodynamics and start work on a perpetual motion machine!<br><br>&gt; <strong>PinkysBrain:</strong> It&#x27;s the definition of a (Gabor) zone plate as being the interference pattern of a spherical wave with a plane wave I was interested in.<br><br>Yes, this is the definition of a<em>Fresnel zone plate</em>. There&#x27;s no such thing as a <em>Gabor zone plate</em>. The relationship of the maxima radially (or along any given axis) is an n squared one, which is the definition of a <em>Fresnel zone plate.</em>. I have yet to hear what a Gabor zone plate, as opposed to the standard (and well known) Fresnel zone plate is.<br><br>&gt; <strong>PinkysBrain:</strong> Applied optics seems a pretty decent journal and with 30+ citations it might not be seminal but also certainly not unnoticed.<br><br>I still don&#x27;t see in any of these references any type of zone plate that is not Fresnel. They all seem to have the n squared relationship of a<em>Fresnel</em> zone plate<br><br>&gt; <strong>PinkysBrain:</strong> &quot;The Gabor zone plate is defined to be that zone plate which, when illuminated by spherical (or plane) wavefronts of monochromatic light, produces only one real and one virtual point image.&quot;<br><br>This is the definition of a sinusoidal grating. See, for example, Goodman&#x27;s &quot;Introduction to Fourier Optics&quot;. This is, by the way, not true. There&#x27;s always a zero order. A thin diffractive structure (Q&lt;10) produces three output beams<em>if, and only if</em>, the interference lines are sinusoidal. There is no &quot;zone plate&quot; that will produce only two outputs. A Fresnel zone plate produces an infinite number of outputs in a gradually decreasing manner a la the Cornu spiral. A sinusoidal grating produces two outputs - a +1, a -1 and a 0. By the way, defined by whom.<br><br>&gt; <strong>PinkysBrain:</strong> You have a very narrow view as what constitutes a zone plate (an on axis Fresnel zone plate and bugger all else) and I wanted to show the term is a lot more flexible than that.<br><br>Heck, I&#x27;ve been accused of being &quot;narrow&quot; and &quot;inflexible&quot; when I refuse to accept aliens, astrology, New Age nonsense, palm reading and a whole host of similar rubbish. If there are people who want to believe in dragons and ghosts, you don&#x27;t need my permission. But trying to validate a scientific discussion with simply repeated statements that it must be true because it&#x27;s true and therefore I&#x27;ve proved it&#x27;s true does not carry a lot of weight.<br><br>Can you prove what a &quot;Gabor&quot; zone plate is, as opposed to a Fresnel, without recourse to &quot;experts&quot;, the internet and apeals to what is &quot;commonly known&quot;. It&#x27;s a simple matter to calculate the phase function of a collimated circular beam (Gaussian or otherwise, and this makes a difference) interacting with a divergent beam? I&#x27;ve done the same with the original Gabor geometry. I&#x27;d now be interested in your analysis of your geometry so we can determine the difference between hand waving and reality! If your analysis shows an n squared relationship, all you&#x27;ve done is confirm that you&#x27;ve derived a Fresnel zone plate. Perhaps we can see your own calculations as opposed to appeals to the internet and experts. I&#x27;m not a great believer in experts. Kogelnik, the standard accepted theory today, shows nothing of a zone plate, Gabor or otherwise<br><br>By the way, have you actually ever made a hologram, display or technical. Perhaps you can show us some of your work in the gallery section. Or are these all armchair ruminations? You have actually studied some physics, I take it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Fri Mar 30, 2012 4:17 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Let&#x27;s take a leaf out of the &#x27;Book of Youth&#x27;...&quot;Whatever!&quot; As for me, I&#x27;m off to make one of those vegetarian zone plates; they sound yummy! <br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Mar 30, 2012 4:34 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">some are using them in Pin hole cameras...in place of the pinhole</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Fri Mar 30, 2012 5:48 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> You&#x27;re joking! While we&#x27;re at it, let&#x27;s just throw out Maxwells equation.<br><br>No I&#x27;m not, the Gabor zone plate is physically defined. You can derive a mathematical approximation with the diffraction theory of your choice ... but all that is irrelevant to the point I was making that your definition of zone plates is overly narrow.<br><br>&gt; The relationship of the maxima radially (or along any given axis) is an n squared one<br><br>As long as f &gt;&gt; n<em>lambda ...<br><br>&gt; which is the definition of aFresnel zone plate..<br><br>Fresnel zone plates are generally defined as binary ... in fact you did that yourself <strong>&quot;In a zone plate, you have a binary index system&quot;</strong>. Gabor zone plates are otherwise known as sinusoidal zone plates if you like that term better.<br><br>&gt; This is the definition of a sinusoidal grating.<br><br>Generally a sinusoidal grating will refer to a simple linear grating.<br><br>&gt; See, for example, Goodman&#x27;s &quot;Introduction to Fourier Optics&quot;.<br><br>1/2+m/2</em>cos(2pi*x) on page 79 ... so yeah.<br><br>&gt; This is, by the way, not true. There&#x27;s always a zero order.<br><br>Which is not an image.<br><br>&gt; But trying to validate a scientific discussion with simply repeated statements that it must be true because it&#x27;s true and therefore I&#x27;ve proved it&#x27;s true does not carry a lot of weight.<br><br>This not a scientific discussion, this is a semantic discussion ...<br><br>&gt; It&#x27;s a simple matter to calculate the phase function of a collimated circular beam (Gaussian or otherwise, and this makes a difference) interacting with a divergent beam? I&#x27;ve done the same with the original Gabor geometry. I&#x27;d now be interested in your analysis of your geometry so we can determine the difference between hand waving and reality! If your analysis shows an n squared relationship, all you&#x27;ve done is confirm that you&#x27;ve derived a Fresnel zone plate.<br><br>Are you really going to move the goal posts now and pretend you never said binary?<br><br>&gt; By the way, have you actually ever made a hologram, display or technical. Perhaps you can show us some of your work in the gallery section. Or are these all armchair ruminations? You have actually studied some physics, I take it.<br><br>Ad hominem ... another tick on the fallacy bingo card, almost there.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Mar 30, 2012 7:30 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> Dinesh wrote:You&#x27;re joking! While we&#x27;re at it, let&#x27;s just throw out Maxwells equation.No I&#x27;m not, the Gabor zone plate is physically defined. You can derive a mathematical approximation with the diffraction theory of your choice ... but all that is irrelevant to the point I was making that your definition of zone plates is overly narrow.The relationship of the maxima radially (or along any given axis) is an n squared one.<br><br>Pinky I miss your cartoon what was it called.....&quot;Pinky and the brain&quot; best cartoon ever</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Fri Mar 30, 2012 8:39 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">dannybee...I don&#x27;t think anyone is listening. Care for a slice of vegetarian zone plate? <br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Mar 30, 2012 10:44 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">&gt; <strong>zipsister:</strong> dannybee...I don&#x27;t think anyone is listening. Care for a slice of vegetarian zone plate?Dave<br><br>Why not? is that with hot mustard???</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Fri Mar 30, 2012 11:31 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Dannybee...It comes with a generous helping of plane and spherical waves on top, with a crusty virtual image base of the original point source and a real image that would rival any being served at the local McZone take away on the corner of Dinesh and PinkysBrain Streets. If you insist on mustard then we can help you out with that, too. Hell, I&#x27; ll even throw in a hologram to eat it on.<br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Sat Mar 31, 2012 7:45 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">Getting back to the original topic and my original question on how to even record a HOE corresponding to a lens system before we got sidetracked in semantics... a simple thought experiment.<br><br>A double lens system can be set up to work as a beam expander ... how would a single HOE ever be able to replicate that feat?<br><br>AFAICS in the general case a single thin HOE can not replicate a multi-lens system (I would guess in Dinesh&#x27;s favored terminology you would say it can not replicate the translation part of the system matrix). A thick HOE can in theory, but it would often require very high diffraction angles and long travel of the light inside the medium (you are effectively collapsing an optical path which could be 10s of cm with lenses inside the thickness of the holographic medium after all). Pretty sure it won&#x27;t be physically realizable most of the time, and despite the matrix handwaving still not sure how to even begin trying to record them.<br><br>This is all a bit on the nose, so in retrospect my question was kinda silly ...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Mar 31, 2012 9:00 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> Getting back to the original topic and my original question on how to even record a HOE corresponding to a lens system before we got sidetracked in semantics... a simple thought experiment.A double lens system can be set up to work as a beam expander ... how would a single HOE ever be able to replicate that feat?AFAICS in the general case a single thin HOE can not replicate a multi-lens system (I would guess in Dinesh&#x27;s favored terminology you would say it can not replicate the translation part of the system matrix). A thick HOE can in theory, but it would often require very high diffraction angles and long travel of the light inside the medium (you are effectively collapsing an optical path which could be 10s of cm with lenses inside the thickness of the holographic medium after all). Pretty sure it won&#x27;t be physically realizable most of the time, and despite the matrix handwaving still not sure how to even begin trying to record them.This is all a bit on the nose, so in retrospect my question was kinda silly ...<br><br>We do this all the time! I&#x27;ve actually been doing this since 1986. In fact, I posted somewhere here an edge lit, thick lens system. The holographic solar concentrator people do it all the time also. The people who make FBG&#x27;s (fibre bragg gratings) do it all the time, too.<br><br>Basically, you don&#x27;t worry about ray paths, you focus (sorry!) on the phase wavefronts. You model the phase wavefront you want and you reconstruct that. <br><br>Consider, if you will, that a display hologram is simply a phase wavefront. You could always create a series of phase retarders in some appropriate geometry with various power profiles and various angles relative to some set of axes. Then you pass a collimated beam through this set of phase retarders - phase masks, if you will. This is, of course, an optical analogue of a Fourier transform, with the phase retarders acting as the Fourier elements. Of course, if the elements are discrete, then, it&#x27;s actually a Fourier series. To simulate an actual Fourier transform like this, you&#x27;d need a continuous phase retarder where the retardation is a function of position. So, let&#x27;s say that a specific phase wavefront for a specific object (say, a porcelain cat) is phi_cat(x, y) at some point (x,y) on some plane. Then, if you have a phase mask where the thickness of the phase mask is at some point (x,y) is nk(phi_cat(x,y)), then the phase of a collimated beam will be retarded by exactly the amount needed to simulate or recreate the phase wavefront of the cat. As far as the plate is concerned, it&#x27;s getting a specific wavefront, which it will &quot;release&quot; with the appropriate recon beam. The hologram is simply a codified representation of phi_cat(x,y). This series of phase retarders can be considered as a series of non-symmetrical &quot;thick lenses&quot;, since a lens is exactly that - a phase retardation system (the phase retardation function of a real lens is derived in Goodman&#x27;s &quot;Introduction to Fourier Optics&quot; using Kirchoff integrals). In a real sense, this is pretty much what you&#x27;re doing when you make a shadowgram. The glass object is acting as a complex phase retardation system, or a non-symmetric &quot;thick lens&quot; system. For a real, physical model the wavefront is created by actually reflecting light off it, which &quot;automatically&quot; creates the appropriate phase wavefront phi_cat(x,y). Of course, the wavefronts can be calculated electronically, creating an electronic analogue of the physical phase retarders.<br><br>I don&#x27;t actually see &quot;lenses&quot;, I simply see wavefronts which I translate to Bragg planes via Fourier optics and Kogelnik.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat Mar 31, 2012 9:12 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">I have found in practice HOE have many limitations , when reading on HOE&#x27;s you would think someday it would replace the complexed lens system in everyday use or even replace complex lens corrections for the human eye. But in practice they fall way short! Let’s take an example here a 5omm lens for a canon and table with laser to do full color. There’s no way in God’s green earth (in the present time) that you can reproduce that lens Holographic that it will work just as good as the original lens in white light ....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Mar 31, 2012 9:23 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">True, and this was Colin&#x27;s question right at the beginning of this. HOEs have their limitations just as lenses do. You use what&#x27;s appropriate as a solution for a given problem. HOEs are good for siutuations where a complex light field needs to be produced from a fixed set of inputs. In a camera system, the light coming in is not fixed. The colours vary all over the map, the light comes in from all directions, including depth, and all this light needs to be focused on a one-to-one relationship at the film plane. This sort of function is almost impossible for a HOE. On the other hand, when the input is a fixed collimated white light and the output needs to be able to split that light into a spectrum with specific power profiles for the spectral components - say 10%red, 20% yellow, 40% green-orange, and 30% in the blue (this is actually pretty close to the human eye sensitivity), with each component going towards a specific direction, then a HOE is ideal. A lens-prism system would find it difficult to simulate this (possible, but not easy). This is pretty much a spectrophotometer and this is why mostly spectrphotometers have HOEs in them. It&#x27;s a bit like packing. If you have no idea what the weather is going to be, you pack everything.If you know you&#x27;re going to India in August, you leave the winter overcoat behind (unless you&#x27;re a masochist!)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Sat Mar 31, 2012 12:41 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Basically, you don&#x27;t worry about ray paths, you focus (sorry!) on the phase wavefronts. You model the phase wavefront you want and you reconstruct that.<br><br>The problem is that anything except a thin lens does not have a unique phase delay from input to output, for recording a hologram this doesn&#x27;t matter, since you have a fixed reference/reconstruction beam and you only want to replay what came out of the lens at the time of recording, not reproduce it&#x27;s optical function.<br><br>Lets go back to the thought experiment, a thin hologram obviously can&#x27;t reproduce a beam expander ... being able to reproduce the wavefront of an object for a display hologram is not sufficient to reproduce the optical function of a lens system.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Mar 31, 2012 5:47 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> The problem is that anything except a thin lens does not have a unique phase delay from input to output<br><br>Of course it does! That&#x27;s the definition of a lens, thin or otherwise! If it didn&#x27;t have a unique phase relationship, it wouldn&#x27;t focus!<br><br>I&#x27;d even go so far as to reference the infamous internet, since it&#x27;s such a standard process. Oh, by the way, have you studied any physics or optics or is this just another armchair rumination? Anyway:<br><br>[http://www.iue.tuwien.ac.at/phd/kirchauer/node51.html](http://www.iue.tuwien.ac.at/phd/kirchauer/node51.html)<br><br>[http://inst.eecs.berkeley.edu/~ee290f/f ... s_post.pdf](http://inst.eecs.berkeley.edu/~ee290f/fa04/Lenses_post.pdf)<br><br>[http://www.optics4engineers.org/en/cour ... nu_14.html](http://www.optics4engineers.org/en/courses/OPI_ang_M02_C01/co/Contenu_14.html)<br><br>And there are several others...<br><br>&gt; <strong>PinkysBrain:</strong> not reproduce it&#x27;s optical function.<br><br>Please define &quot;optical function&quot;. The standard definition of the optical function of a thin lens is that it delays the phase of an incoming light source. The paraxial focus of a thin lens - the optical function, if you will, is given by <br><br>n/u + n&#x27;/v = (n&#x27;-n)/f<br><br>Of course, as always, you&#x27;d know more than anyone else what a thin lens. However, you need to have some of the defining equations. I&#x27;m sure you can find references all over the internet that a lens, thin or otherwise, does not focus. Perhaps the aliens have a &quot;zap ray&quot; that confuses the nullifies all the text books and college courses on optice and physics (which you have taken, right?) in advance of the invasion force. Soon alien ships will hover over all the pubs and dry up the supply of beer! Horrors! And we won&#x27;t be able to fight back because,<em>none of our lenses will work {gasp! horror!</em><br><br>You have studied the physics of this, right? At a college, perhaps, or from the internet? I assume you got a BS or MS or PhD from a real university and not the University of Whackopaedia?<br><br>&gt; <strong>PinkysBrain:</strong> Lets go back to the thought experiment, a thin hologram obviously can&#x27;t reproduce a beam expander<br><br>What&#x27;s a&quot;beam expander&quot;. Is it an optical system to simply cause a collimated beam to diverge? to collimate at a different radius? You do know the meaning between &quot;collimate&quot; and &quot;expand&quot;, right? Collimate is having Lassie as a close friend, expand is what happens to your mind, according to friends of mine that smoke pungent smelling substances.<br><br>I&#x27;m sorry if this is flippant, but the fact you state that a thin lens does not have a unique phase delay is such nonsense that I can&#x27;t believe that anyone could state such a thing. Taking this together with the fact that &quot;scientific words don&#x27;t have exact meanings&quot; and &quot;equations are irrelevant&quot; implies a person who has never taken a formal course in physics or optics, has never made a hologram or has never actually carried out any calculations on optics or physics, but nevertheless is an &quot;expert&quot; on all these things. This is why I don&#x27;t believe in &quot;experts&quot;, there are too many outrageous claims made by &quot;experts&quot; that fly in the face of 500 years of physics and optics.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat Mar 31, 2012 8:23 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">Holographic fabrication of grating <br><br>structures ... For the fabrication of integrated beam-expanders [http://photonics.intec.ugent.be/researc ... t.htm....I](http://photonics.intec.ugent.be/research/facilities/processing/default.htm....I) think anyone who has worked in holography for anytime knows how to make simple HOE beam expanders to use in a optical setup ...it shows you how in the holo bible &quot;Practical Holography&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Sat Mar 31, 2012 8:42 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Oh, by the way, have you studied any physics or optics or is this just another armchair rumination?<br><br>I already have that one on my bingo card, can we move on?<br><br>&gt; http://www.iue.tuwien.ac.at/phd/kirchauer/node51.html<br><br>Thin lens.<br><br>&gt; http://inst.eecs.berkeley.edu/~ee290f/f ... s_post.pdf<br><br>&quot;We consider the model of a “thin lens”, where we<br><br>introduce a phase delay at (x, y) due to the lens material.<br><br><strong>We assume a negligible translation of rays insidethe lens.</strong>&quot;<br><br>&gt; http://www.optics4engineers.org/en/cour ... nu_14.html<br><br>&quot;A lens is said to be thin if a ray entering through one side at point (x,y) emerges on the opposite side at the same point (x,y) (negligible ray translation). <br><br>Therefore, a thin lens simply delays the incident wave phase with a quantity proportional to its thickness at any point (x,y) (see figure IV-1).&quot;<br><br>&gt; Please define &quot;optical function&quot;.<br><br>In the context of this thread ... imaging with a given focal length and a given depth of focus.<br><br>&gt; Of course, as always, you&#x27;d know more than anyone else what a thin lens.<br><br>Possibly, but I didn&#x27;t make assertions about thin lenses ... I made assertions about &quot;anything except a thin lens&quot;.<br><br>&gt; What&#x27;s a&quot;beam expander&quot;. Is it an optical system to simply cause a collimated beam to diverge?<br><br>No, it does exactly what it says on the box ... it [expands a beam](http://www.edmundoptics.com/learning-and-support/technical/learning-center/application-notes/lasers/beam-expanders/). A function which fundamentally requires translation inside the lens system, which is fundamentally impossible with a thin hologram for obvious reasons.<br><br>&gt; I&#x27;m sorry if this is flippant, but the fact you state that a thin lens does not have a unique phase delay<br><br>Maybe you should try reading what I say, instead of what the construct you have of me in your head says ... they are obviously not the same thing, because I did not state that.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Apr 01, 2012 12:11 am</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body"></div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sun Apr 01, 2012 8:08 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">Well, I would be interested here in learning the boundaries of what lens systems can and can&#x27;t be encoded into an HOE.<br><br>I agree, I am having a hard time imagining how a &quot;thin&quot; hologram would take a small-radius beam as input and produce a larger-radius beam as output.<br><br>And I&#x27;d like it if we can proceed, y&#x27;know, with giving one another the benefit of the doubt.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Apr 02, 2012 3:00 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">It&#x27;s a bit of a tallish order because there&#x27;s so much flrxibility here! However, let&#x27;s give it a go. The problems here are threefold:<br><br>1. What is a thin hologram?<br><br>2. What is a thin lens?<br><br>3a. What is/are the limitation of recording an HOE on a thin hologram?<br><br>3b. Can the HOE have a small radius beam as an input and have a large radius beam as an output?<br><br>1. Thin Hologram<br><br>First of all, a thin hologram doesn&#x27;t necessarily have to be physically thin. Holograms with an emulsion thickness of 100&#x27;s of microns can be thin while emulsions of 10&#x27;s of microns can be classed as thick (more on this later). Basically, a thin hologram is defined such that (1) the diffraction is a surface phenomenon and therefore only two dimensions are required to describe it and (2) the diffraction is in the Raman Nath regime.<br><br>Taking the first of the above 2 definitions, the hologram, ie the diffractive structure, can be classified by a spatially varying complex amplitude function,<br><br>t(x,y) = |t(x,y)|exp(-i<em>phi(x,y))<br><br>There are now two possibilities, extremes, if you will: (1) phi(x,y) is constant across the hologram and (2) |t(x,y)| = 1, ie transmissivity is uniform across the hologram. In a real hologram, of course, phi(x,y) will not be completely constant and transmissivity will not be completely uniform, there will be both some absorption some variations in density.<br><br>Taking the first condition, assume that the amplitude transmission is linearly proportional to the intensity of the interference pattern:<br><br>|t(x,y)| = t_0 + t_1 cos(kx)<br><br>where t_0 is the average transmission amplitude of the unrecorded film and k is the (recorded) angular spatial frequency (k= (2</em>pi)/d) ). Since the transmissivity is limited to values between zero and one, the maximum diffraction occurs when<br><br>|t(x,y) = (1/2) + (1/2)cos(kx) = (1/2) + (1/4)<em>exp(ikx) = (1/4)</em>exp(-ikx)<br><br>As you can see, that maximum diffraction in each order is one quarter of the incident amplitude, and so, the maximum diffraction efficiency is, epsilon = (1/4)^2 = 1/16 = 0.0625, or about 6%. A real hologram is far below this because the maximum transmissivity is rarely one. Notice that there is only direction for the diffracted beam for a given spatial frequency. <br><br>Taking the second condition, assume that |t(x,y) = 1 and the hologram is completely encoded in the phase relationship:<br><br>t(x,y) = exp(-i<em>phi(x,y))<br><br>Now, again, assume that the phase shift is proportional to the incident phase, phi(x,y) = phi_0 + phi_1</em>cos(kx)<br><br>then<br><br>t(x,y) = exp(-i<em>phi(x,y)</em>exp[-i-i<em>phi_1</em>cos(kx)] (ignoring the phi_0)<br><br>In this case, the variability of the phase, the second factor, can now be expanded as a Fourier series to give a summation of Bessel functions of the nth order, J_n(phi_1). This kind of thin hologram will diffract into a large number of orders n, with the diffracted ampltude of the nth order being proportional to J_n(phi_1). Since the first order Bessel function has the highest value, then the diffraction efficiency is now proportional to the first order Bessel function and epsilon = (J_1)^2 = 0.339 or about 30%. This, again is a theoretical maximum, rarely achieved. Notice, there are many directions of diffracted beam for a given spatial frequency, each direction being dermined by the appropriate Bessel function.<br><br>The criteria for whether or not a hologram is actually thin comes from the Q parameter<br><br>Q = (2<em>(pi)</em>lambda_0<em>d)/(n</em>k)<br><br>where lambda_0 is the recording wavelength, d is the emulsion thickness, n is the refractive index and k is the spatial frequency. As you can see, by appropriate choices of lambda_0,n and k, you have a lot of versatility on the value of d. In other words, the actual physical thickness of the emulsion is but one factor in the definition of &quot;thin&quot;.<br><br>Also, a thin hologram diffracts in the Raman Nath regime. In this kind of diffraction, diffraction occurs regardless of the direction of the input beam<br><br>2. Thin lens<br><br>A lens system is a refractive system, wherein the amount of refraction is dependant on the height above the axis (for an axially symmetric system). In other words, the phase delay is a function of the height above the axis. This is not always true, and is only true for a lens with spherical or conic profile - the phase delay of a cylindrical lens, for example, is in a plane perpendicur to the meridional plane. A lens system is defined by what are called the cardinal points of the system. These are: the principal planes, the nodal planes and the two focal lenghs. In general, there are two principal planes, two nodal planes and two focal lengths, making six cardinal points in all. The principal points are where the actual refraction occurs, the nodal planes are generally on ether side of the lens and are defines as those planes where the magnification of the Gaussian pairs is unity. <br><br>A thin lens is defined such that the principal and nodal planes are coincident. For a biconvex lens, theses planes are perpendicular to the axis and go through the centre of the lens, ie they cut the lens in two symmetrically. The focal points of the thin lens is given by the so-called Lens Makers Formula,<br><br>1/f = (n-1)<em>(1/R_1 - 1/R_2)<br><br>where R_1 and R_2 are the radii of the faces of the lens. In addition, The sign convention is such that the face of first refraction (the left hand face) has it&#x27;s centre of curvature in the image space and the face of the second refraction is negative when the centre of curvature is in the object space. This sign convention gives R_1 positive abnd R_2 negative for a biconvex lens and the other way around for a biconcave lens. There is also a relationship between the object&#x27;s distance the lens (strictly the 1st principal plane) and the image&#x27;s distance to the lens (strictly, the second principal plane), known as the thin lens formula,<br><br>1/v + 1/u = 1/f<br><br>Again, a sign convention applies such that anything to the left of the lens is positive and anything to the right is negative. In this way, it can be seen that a biconvex lens will take a narrow aperture collimated beam and expand it to a diverging beam (not a larger aperture collimated beam, no single lens will do this)<br><br>3a. What is/are the limitation of recording an HOE on a thin hologram?<br><br>It depends on whether it&#x27;s an amplitude hologram or a phase hologram (see above). In a purely transmission hologram, there will be one order and it&#x27;ll be only a few percent efficient. In a phase hologram, there will be many orders, with each one falling in efficiency. A real hologram has both amplitude characteristics and phase characteristics, so there will be a set of orders falling in efficiency, but not always according to J_n. However, as I mentioned above, a thin hologram doesn&#x27;t have to be physically thin. You camn record a thin hologram on a 1 cm cube of lithium niobate! It all depends on the Q factor.<br><br>In addition, it also depends on the spatial frequency response of the material. If the HOE function requires a large spatial frequency, you have to chose an appropriate material that can take this higher frequency. This requires a calculation of the required set of frequencies appropriate to the function. The basic equation of diffraction in a thin hologram is the grating equation,<br><br>lambda = d</em>[sin(theta) + sin(phi)]<br><br>But, in general, you&#x27;ll have a large range of frequencies and it becomes necesarry to calculate the Fourier components. It may also be enough to simply determine simply the maximum frequency using the Shannon criteria.<br><br>As a practical example, consider a grating recoded on 1813 photoresist. This resist has a maximum frequency at about 1500 l/mm. Assume one recording beam at normal incidence and the other beam at whatever angle gives you 1500 l/mm with whatever wavelength 1813 is sensitive to. Then, if the input beam is a collimated, on axis beam at lambda = 633, then deviation due to diffraction is,<br><br>theta = arcsin(0.000633*1500) = arcsin(0.949) = 71.71 degrees.<br><br>I&#x27;d say tha&#x27;s a large deviation on a thin hologram!<br><br>3b. Can the HOE have a small radius beam as an input and have a large radius beam as an output?<br><br>You have issues of bandwidth and efficiency, but given a required deviation angle, it&#x27;s always possible to find some medium with some appropriate lamda and frequency response characteristics that can give you wahtever beam divergence you want. I&#x27;m assuming the question relates to beam divergence by a thin hologram so that a small set - or even a single - spatial frequency can diverge by large amounts. However, if the question relates to a collimated beam of a given, but small, diameter being converted to a collimated of a given , but larger, diameter, then there needs to be a range of spatial frequencies. Basically any collimated beam is a sum of divergent beams in different directions (the Fourier breakdown)so you need to record a set of fringes such that the smaller collmated beam sees a complex set of Fourier components that superimpose to give carefully controlled orders set of orders. Of course, this is not possible in an amplitude hologram but is possible in a phase hologram.<br><br>I hope that answers the question. I wrote it a bit hurriedly, so I hope there are no glaring errors. If there are, blame Maxwell&#x27;s Demons!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Mon Apr 02, 2012 4:56 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">Take <em>that</em> Favalora. Any more questions?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Apr 02, 2012 9:11 pm</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> However, if the question relates to a collimated beam of a given, but small, diameter being converted to a collimated of a given , but larger, diameter, then there needs to be a range of spatial frequencies. Basically any collimated beam is a sum of divergent beams in different directions (the Fourier breakdown)so you need to record a set of fringes such that the smaller collmated beam sees a complex set of Fourier components that superimpose to give carefully controlled orders set of orders. Of course, this is not possible in an amplitude hologram but is possible in a phase hologram.I hope that answers the question. I wrote it a bit hurriedly, so I hope there are no glaring errors. If there are, blame Maxwell&#x27;s Demons!<br><br>If you&#x27;re saying here that you can make a beam expander in a phase hologram (volume I presume), I&#x27;d love to see how. You can make a single HOE that has, for example, a 2mm diameter input beam at normal incidence and an output beam significantly larger (say 4mm diameter)?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Tue Apr 03, 2012 4:37 am</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">I do kinda expect a mea culpa ...<br><br>A beam expander in the current context changes the width of a beam, not it&#x27;s divergence (I gave a link with a picture!).<br><br>A thin hologram can&#x27;t do this ... and while a thick one might be able to do it in theory, you would need to record more than a phase wavefront ...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Apr 03, 2012 1:57 pm</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">Both a thin and a thick hologram can do this. In the case of a thin hologram, it would be fairly difficult, in a thick hologram it&#x27;s a little easier.<br><br>In a thin hologram we take advantage of the fact that a plane wavefront can be decomposed into an angular spectrum, see section 3.10 in Goodman&#x27;s &quot;Fourier Optics&quot;. You would have to organise the set of various different orders from different exposures to be generated by the incoming beam and exactly simulate the outgoing beam. In a volume hologram, it&#x27;s a little easier because you&#x27;re essentially making a colour hologram in a thick emulsion.<br><br>Let me also say that it is possible in a thin hologram, but it is pointless simply repeating endlessly, &quot;No you can&#x27;t, yes I can&quot;, or quoting someone on the internet who says you can&#x27;t. Any flaw in the argument needs to be addressed vis a vis the Goodman analysis or a similar analysis. I&#x27;m not too good with just words or the prattling of &quot;experts&quot;. For a decent bottle of merlot, I can make you one, if I have the exact characterisation.<br><br>Sorry, Kaveh, but Gregg did ask!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Apr 03, 2012 3:03 pm</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> If you&#x27;re saying here that you can make a beam expander in a phase hologram (volume I presume)<br>One more thing, Bob, I meant a surface phase hologram, not a volume. In a surface phase hologram, you&#x27;re right a single HOE can&#x27;t do it, but nowhere in the problem specification did it say that it was necessary to record a single phase hologram. Of course, it depends on what you mean by the word &quot;single&quot;. For example when you make a flip image hologram (one where the image flips as you twist the hologram), you record two Bragg sets in the same emulsion. Is this a &quot;single&quot; hologram because all the Bragg planes are in the same emulsion, or is this a &quot;multiple&quot; hologram because there are two sets of Bragg planes. This is not as &quot;academic&quot; as it sounds, you can do frequency doubling in a hologram. I remember in 86 I made a notch filter at about 270nm in dcg using a 488 line and &quot;frequency doubling&quot; the 540 line on the hologram. The efficiency was low, the 540 line had an OD of about 4-ish and the 270 had an OD of about 1.5. The powers that be wouldn&#x27;t believe it was possible to do frequency doubling in a dcg. You can even optically amplify in a hologram. No one believed this either except the results were showing optical amplification. Joy didn&#x27;t believe it could be done eiither and it was impossible to try and convince her (she doesn&#x27;t follow maths and I&#x27;m no good with words!). Luckily for me we happened to be sitting with Yuri one day and she sketched my setup and asked Yuri what would happen. He replied, &quot;This is optical amplification by resosnance effect&quot;. Joy believed me finally because Yuri simply told her that what I was saying was true. While I don&#x27;t accept that you should simply believe an &quot;expert&quot;, in this case Yuri helped me out!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Tue Apr 03, 2012 3:30 pm</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> One more thing, Bob, I meant a surface phase hologram, not a volume. In a surface phase hologram, you&#x27;re right a single HOE can&#x27;t do it<br><br>I&#x27;ll readily grant there are more thin holograms than surface phase holograms ... but what kind of thin holograms could create a beam expander and in what important aspect would they differ from surface phase holograms to allow them to do it?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Apr 03, 2012 5:52 pm</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> but what kind of thin holograms could create a beam expander and in what important aspect would they differ from surface phase holograms to allow them to do it?<br><br>Well, I don&#x27;t think they&#x27;d differ from surface phase holograms, I think they&#x27;d need to be surface phase.The problem is that there would need to be a fairly high spatial frequency response because you&#x27;d have to pack a number of almost distinct sets of fringes, several for each of the Bessel functions, which wold have to be almost independant, ie no cross talk. I don&#x27;t know whether it&#x27;s practically feasable unless you had a fairly high frequency response. Whether any practical emulsion exists is also an interesting question. I&#x27;ve been working with Nitto Denko&#x27;s material, which has resolution in the molecular range, but is used for volume holograms because you have to place a charge field across the emulsion.If it&#x27;s possible to have an almost pure surface charge field, then this material may be able to do it.<br><br>Understand that for a thin hologram to create a beam expander, this discussion is largly theoretical. That is, it can be done theoretically, but may be beyond the means of any practical device to actually do until a new kind of material comes out.<br><br>By the by, apropos of this discussion, POC worked with holographic neural networks in the mid-80&#x27;s. This never actually went anywhere because, I believe, for the same reason. The materials of the day (and perhaps today) were simply not capable of the resolution required.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Apr 03, 2012 7:25 pm</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">I still haven&#x27;t read anything here to explain how one would make a beam expander in a single thick volume hologram. By thick I mean on the order of 10 microns. By single I mean a single layer, regardless of the number of fringe patterns in it. 2mm in one side, 4mm out the other side. No TIR tricks inside, for example, the 1.5mm thick base for the material.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Apr 03, 2012 7:49 pm</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I still haven&#x27;t read anything here to explain how one would make a beam expander in a single thick volume hologram. By thick I mean on the order of 10 microns. By single I mean a single layer, regardless of the number of fringe patterns in it. 2mm in one side, 4mm out the other side. No TIR tricks inside, for example, the 1.5mm thick base for the material.<br><br>OK, here&#x27;s one possibility. take a circular disk and record on it a series of rings with a sinusoidal variation. In other words, at any point r from the centre of the disk, the density, or phase, is<br><br>psi =r_0<em>cos(<strong>k.r</strong>)<br><br>where k is the spatial frequency (k = 2</em>pi/d). In this case, a collimated beam of any radius, let&#x27;s say 2mm. if axial, would produce a cone of semi-angle theta, such that <br><br>theta = arcsin(lambda/d)<br><br>Now, place a second disk with a sinusoidal variation with a spatial frequency k&#x27;, such that <br><br>k&#x27; = 2<em>pi/d&#x27;<br><br>and place the second disk at some position x away from the first.<br><br>Now, the output from the first disk, impinging on the second disk at theta (assuming the disks were parallel), would diffract at some angle phi, such that<br><br>sin(phi) = sin(theta) - lambda/d&#x27;<br><br>If you now made phi = 0 and theta = arctan(d&#x27;/x), the second disk would collimate the output from the first disk, but with a larger radius,<br><br>r&#x27; = x</em>tan(theta)<br><br>Now collapse x, so that x-&gt;0. In this situation, the tan function-&gt; infinity; however, the closer the tan approached infinity, the better the collimation. So, absolutely mathematical collimation may be difficult (!), but a reasonable collimation may be possible. There would be a trade-off between the lambda, the x and the two spatial frequencies, but I suspect that thee would be some set of parameters for which you get reasonable results. However, it may be that lambda may not be in the visible.<br><br>I agree that this is very difficult to do in practice with a pure surface hologram, but it&#x27;s not that difficult with a volume hologram. The only proviso is the input beam has to be axial as close as possible and the radial frequency set be as close to circular as possible. <br><br>If I see this a holographic beam expanding collimator in a catalogue, someone owes me a merlot!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Apr 03, 2012 8:21 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">I don&#x27;t buy it. How about a drawing showing the beams you&#x27;d use to make such a thing. 2mm in and 4mm out, from a single layer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Tue Apr 03, 2012 8:57 pm</span>
+                <span class="post-number">#55</span>
+            </div>
+            <div class="post-body">Ok, lets take this to an extreme. If I wanted an HOE that could take a 1.2mm beam and give me a 14.1&quot; collimated output then we all agree this is not possible, right?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Apr 03, 2012 9:17 pm</span>
+                <span class="post-number">#56</span>
+            </div>
+            <div class="post-body">I&#x27;m sayin&#x27; it&#x27;s not possible with ANY practical expansion and a single HOE.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Apr 04, 2012 5:47 am</span>
+                <span class="post-number">#57</span>
+            </div>
+            <div class="post-body">Ok, I have not been following this thread that closely but I would imagine the single layer (hologram) that makes a beam bigger upon exit then entrance is surly possible. It is demonstrated that we alread have edge lit hologram so light can travel up the single layer emulsion only to get dispersed out at various intervals. So for this HOE, one would have to design fringes that allos some to pass, and some to get reflected up the layer at which time is runs into fringes that redirect that light traveling up the emulsion out the opposite end again. Now that layer may be a little thicker then we are used to to get a nice volume of fringes.<br><br>![SingleLayerHOEexpander.jpg](https://holographyforum.org/forum/download/file.php?id=2146)<br><br>I actually argued that if care was taken, on could design an HOE that would take your gausian, collimated expanded beam and flatten it out so the the intensity was equal anywhere on the plate. This could be used to make incredible HOE&#x27;s. Here is the lens configuration. If it can be done by a single lens, then surly a single layer hologram.<br><br>[http://holograms3d.com/Illustrations/ReshapingBeam.jpg](http://holograms3d.com/Illustrations/ReshapingBeam.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Apr 04, 2012 7:03 am</span>
+                <span class="post-number">#58</span>
+            </div>
+            <div class="post-body">Beam diverging can be done with a single element. Usually you need a telescope type configuration, eyepiece and objective to create a collimated output larger or smaller than the input.<br><br>But John’s diagram certainly has an ingenious aspect to it. I’m sure a rigorous analysis looking at the diffractive properties of such a fringe system might override the collimating, or maybe not, or might enhance the effect. A nice concept to mull over while commuting!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Apr 04, 2012 8:22 am</span>
+                <span class="post-number">#59</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I don&#x27;t buy it. How about a drawing showing the beams you&#x27;d use to make such a thing. 2mm in and 4mm out, from a single layer.<br><br>&gt; <strong>BobH:</strong> I don&#x27;t buy it. How about a drawing showing the beams you&#x27;d use to make such a thing. 2mm in and 4mm out, from a single layer.<br><br>I&#x27;m afraid John&#x27;s the expert here as far as diagrams are concerned! But, the geometry I described is basically dispersion compensation with the second element larger than the first. The first element diverges the smaller collimated beam, so the 2mm collimated beam becomes a cone with a base diameter of 4 mm, and the second element takes that divergent beam with a diameter of 4 mm and &quot;straightens it up&quot; causing it to be collimated again.<br><br>&gt; <strong>BobH:</strong> I&#x27;m sayin&#x27; it&#x27;s not possible with ANY practical expansion and a single HOE.<br><br>It&#x27;s not practically possible with a <em>single</em> thin hologram. This is why I asked for a definition of single, it&#x27;s possible to do what I described (let&#x27;s call it a &quot;Dispersion Compensation Beam Expander&quot;) if you have a disk made with the correct width and coat both sides. This is a single package, but, strictly, not a &#x27;single thin hologram&#x27;. <br><br>It is practical and not that difficult to do with a single thick hologram. I actually had already thought of John&#x27;s geometry. This is why I asked if you considered two Bragg plane sets to be a &quot;single&quot; thick hologram a few posts back:<br><br>&gt; <strong>Dinesh:</strong> Of course, it depends on what you mean by the word &quot;single&quot;. For example when you make a flip image hologram (one where the image flips as you twist the hologram), you record two Bragg sets in the same emulsion. Is this a &quot;single&quot; hologram because all the Bragg planes are in the same emulsion, or is this a &quot;multiple&quot; hologram because there are two sets of Bragg planes.<br><br>However, John was first to publish, so to him goes the credit! I&#x27;m joking! There&#x27;s no real &quot;credit&quot; here, we&#x27;re just playing with ideas. Anyway, what I meant was that it&#x27;s possible with two sets of planes in the same emulsion. <br><br>&gt; <strong>holorefugee:</strong> Ok, lets take this to an extreme. If I wanted an HOE that could take a 1.2mm beam and give me a 14.1&quot; collimated output then we all agree this is not possible, right?<br><br>Why not? John&#x27;s geometry would do it. As I mentioned, there are a couple of other ways. It&#x27;ll cost! Since this is how I get my beer coupons, I can&#x27;t give too much away (I&#x27;ve already been taken to task by &quot;business advisors&quot;, my salesman, the barman at my pub and even Joy for giving away too much detail before the NDA and the checks arrive! I say that the way to do so-and-so is pretty obvious and the above mentioned reply, &quot;Not to them!&quot;). At any rate, the hologram would be extremely large and awkward to go to such extremes with John&#x27;s geometry, but there are other ways to make a smaller, more manage-able hologram.<br><br>&gt; <strong>Ed Wesly:</strong> But John’s diagram certainly has an ingenious aspect to it. I’m sure a rigorous analysis looking at the diffractive properties of such a fringe system might override the collimating, or maybe not, or might enhance the effect. A nice concept to mull over while commuting!<br><br>It would work, but there are limitations. It wouldn&#x27;t work on any emulsion at present commercially available, you&#x27;d have to tailor the emulsion (and the exposure, by the way) specially. It would even work with a Gaussian, with certain alterations in the plane structure. As I say, I already thought of it and I already did the calculations.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Apr 04, 2012 10:01 am</span>
+                <span class="post-number">#60</span>
+            </div>
+            <div class="post-body">Two points about John&#x27;s idea:<br><br>1) In an &quot;edge-lit&quot; HOE, the light isn&#x27;t trapped inside the emulsion as he draws. It&#x27;s trapped between the air-glass interface and the air-emulsion interface. Having light trapped inside the emulsion as drawn isn&#x27;t possible, and I&#x27;d love to see the set-up proposed to create the fringes he described.<br><br>2) Dinesh is describing the use of TWO HOE layers used in a system to expand a beam, not one. That&#x27;s my point. Making a beam expander requires two HOEs just as it requires two refractive lenses, and so one of the limitations of HOEs is that they can NOT record such complex optical systems in a single layer. Thin or thick (regarding the recording mechanism of the layer).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Apr 04, 2012 10:35 am</span>
+                <span class="post-number">#61</span>
+            </div>
+            <div class="post-body">Well, all I can say is that we charge 3K/week for consulting and prototype services. This would be a two week job, so I&#x27;d normally charge 6K to make such a thing in a single hologram. I actually don&#x27;t cash the check until I&#x27;ve actually done it. The &quot;it&quot; used to be a bit dodgy because clients would ask for one thing and then assume it did something else, so now I ask for any objective test(s), the results of which would be a pass/fail criterion. Once the device passes the client imposed test, I then cash the check and pass on the optic. If it does not pass the test, I return the check. Once or twice this system has broken down because the test results were not objective enough and prey to interpretation, but mostly the system works.<br><br>The point I&#x27;m trying to make is that if someone out there wants one, I can make one, for 6K. If it&#x27;s a forum member I recognise, I&#x27;ll probably do it for about 2K, if it&#x27;s a forum member I&#x27;m personally a friend of, I&#x27;ll do it for a bottle of merlot (just don&#x27;t tell Joy I&#x27;m only charging a bottle of merlot!)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Apr 04, 2012 12:41 pm</span>
+                <span class="post-number">#62</span>
+            </div>
+            <div class="post-body">Well Bob, I do stand corrected that the light travels differently in an edge lit hologram then I mentioned. What I meant to say is light can travel up the length of the glass as easily as it can though the flat of the glass.<br><br>Now the hard part is to create the hologram or actually, the fringes. I have pondered and the way I would make it is to....<br><br>First we know we need fringes to be at a 45% angle to the plane of the plate but arranged in a circular pattern acound the ceneter of the hologram. As we cannot use a collimated reference beam to achieve this we need to be creative in using a different technique. Even though we are feeding the final hologram with a colimated beam we have to use a 45 degree ref and 45 degree obj, coming from the opposite side at the opposite angle to get those fringes. Basically an on axis reflection hologram with the plate tilted at 45degrees in describing a single fringe. Now the tricky part. <br><br>On the object side of a reflection hologram (yes reflection and we will use the pseudoscopic to actuall get light to come out the back of the plate).<br><br>Use a positive (biconcave or planoconcave) lens at a very close proximity to the emulsion (diverging). Then make a mask that blocks the center part (a circle) and another blocker that blocks all the outside part (a square as big as your emulsion) but with a hole in the middle just a little larger then the diamter of the center circle blocker such that only a ring of light from the lens hits the plate at a 45 degree angle in reference to the center of the plate. If the unblocked ring is narrow enough then the light is going to be pretty darn parallel, not fully but the smaller the ring, the less difference in angle from light going through the inner most part of the ring and the light going through the outter most part of the ring. So essentially the light is coming from the center of the plate in a ring to an outer part of the plate. Much like the slant angle in a cone.<br><br>Of course the same bocker would be needed on the reference side such that only the ring part gets exposed by the reference beam. But this time we need a concave mirror much larger then the ring such that we can do the same with the reference beam but have the beam converging to that 45 degree angle and thus illuminating that ring with almost parallel rays hitting the ring at a 45 degree angle in relation to the center of the plate.<br><br>Now we repeat this with many rings of blockers just lightly larger then the one before. We also have to change either the power of the lens on the object side and/or the convergence/divergence of the beam going into the lense such that we have the same 45degre angle for each and every ring exposure. I am not sure just moving the lens out would achive that, I would need to work it out but I have a thought I want to get out of my head before I lose it (LOL). We also may need to modify the ref side light such that each ring get light hitting it at 45degres from the center of the plate. Of course like an integral hologram, the closer the ringes are together, the better the HOE. The smaller (width) of the rings the better the HOE.<br><br>So if we look at the fringes of the &quot;ring&quot; of exposure, the fringe are, at every point, 45 degrees to the emulsion face but arranged in a circle by the two intersecting beams. So to explain. Lay the plate down such that top is North, bottom is South and so forth. LIght that hits the top of one of the rings is going to be reflected north and as it does propigate thought the emulsion parallel to the surface it will hit subsiquent rings that reflect some of the light out at a normal to the plate but further ouside the original rings location. Same hold true for light hitting the bottom of the ring. It will be reflected south and hit subsiquent rings which will reflect it out of the plate normal to the plate. This will happen at every point (point size again depends on ring width and spacing from one to each other) on the hologram.<br><br>Now what tollerances do we need? <br><br>If this is not clear, I may be able to find some time to illustrate it but it may be tricky.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Apr 04, 2012 2:45 pm</span>
+                <span class="post-number">#63</span>
+            </div>
+            <div class="post-body">&gt; <strong>Johnfp:</strong> (yes reflection and we will use the pseudoscopic to actuall get light to come out the back of the plate).<br><br>Whether you use the pseudo or the ortho, in a reflection hologram, the light will reverse itself, not transmit through. When you look at a reflection hologram, say held vertically, then someone standing opposite you looking at the back of the hologram, a transmission image of the same hologram, does not see a pseudoscopic reflection hologram. They actually see an orthoscopic image that&#x27;s pretty close to a white hologram, but we&#x27;ve covered this before. If you flip the plate so you&#x27;re looking at the pseudo, the person standing opposite you will not see the ortho that you were originally looking at, he/she will see a pseudoscopic, wide band image as you see a pseudoscopic narrow band image.<br><br>The whole point here is that the laser beam has to enter one side and exit the other. In this kind of HOE (collimated input and output) there is no distinction bewteen the &quot;pseudoscopic&quot; and &quot;orthoscopic&quot;. Actually, there is no &quot;pseudoscopic&quot; and &quot;orthoscopic&quot;, since the wavefront is flat in both cases. These terms imply a rotation of an image with respect to the rotation of the hologram. An orthoscopic image of a porcelain cat will turn in the opposite way to the rotation of the plate and a pseudoscopic image will rotate in the same direction. That&#x27;s why the pseudoscoic image of a face seems to follow you around. In an HOE, there is psi, the desired wavefront, and psi<em>, it&#x27;s complex conjugate. However, in a flat wavefront psi = psi</em>, since no part of the wavefront leads or lags any other part.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Apr 04, 2012 9:01 pm</span>
+                <span class="post-number">#64</span>
+            </div>
+            <div class="post-body">John, I understand what you&#x27;re saying about the construction of the fringes in your drawing, but don&#x27;t believe the result will function as a beam expander. You have light traveling through an emulsion parallel to the surfaces (going through how many fringes?), and being output as though all those fringes act like partially reflecting mirrors where you can control (with very high accuracy) their reflectivity. Fringes aren&#x27;t mirrors. That&#x27;s an impractical nightmare. <br><br>Dinesh, you make the single later HOE I described above and I&#x27;ll be more than happy to give you a bottle of nice Merlot. Good luck.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Apr 04, 2012 9:11 pm</span>
+                <span class="post-number">#65</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> Dinesh, you make the single later HOE I described above and I&#x27;ll be more than happy to give you a bottle of nice Merlot. Good luck.<br><br>Let me get this right. A 2 mm collimated beam entering a hologram on one side and a 4 mm collimated beam exiting out the other side? A single hologram, with no sub-holograms on either side of a glass structure (one emulsion), but a volume hologram. Hope we agree that we&#x27;re talking laser beams, not white light. You&#x27;re on! I&#x27;ve got a few jobs on hand and I&#x27;m researching my paper, so can you give me about a month to 6 weeks?<br><br>&gt; <strong>BobH:</strong> Fringes aren&#x27;t mirrors. That&#x27;s an impractical nightmare.<br><br>A fact not often understood because of popular descriptions and metaphor.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Apr 04, 2012 11:10 pm</span>
+                <span class="post-number">#66</span>
+            </div>
+            <div class="post-body">Right, and not using the base thickness of the hologram layer. We&#x27;re talking about a single layer HOE. No multiple passes through the same layer. Small beam in, large beam out, both on axis. Bring it to Boston. Good luck!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Wed Apr 04, 2012 11:19 pm</span>
+                <span class="post-number">#67</span>
+            </div>
+            <div class="post-body">Hello Dinesh,<br><br>Can I get in on this action? I&#x27;ll put up another bottle of Merlot that you can&#x27;t do it. What&#x27;s your bet to match my bottle?<br><br>It&#x27;s not that either side has me totally convinced......I just find this bet fun and want to raise the stakes. <br><br>See you in Boston. <br><br> Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Apr 05, 2012 7:13 am</span>
+                <span class="post-number">#68</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> Can I get in on this action? I&#x27;ll put up another bottle of Merlot that you can&#x27;t do it. What&#x27;s your bet to match my bottle?<br><br>You&#x27;re asking what I would give if I don&#x27;t do it? Actually, it wasn&#x27;t supposed to be a bet, I simply said that I&#x27;d do it for a bottle of Merlot. But, if you want to make a bet of it, I&#x27;ll stake a steak in any restaurant in Boston or a crate of beer (your choice).<br><br>&gt; <strong>BobH:</strong> Right, and not using the base thickness of the hologram layer. We&#x27;re talking about a single layer HOE. No multiple passes through the same layer. Small beam in, large beam out, both on axis. Bring it to Boston. Good luck!!!<br><br>I assume it doesn&#x27;t have to be 100% efficient and you&#x27;ll allow for Fresnel reflections. In other words, we create a beam of some radius, say r_1 with a laser, then we place the optic in it&#x27;s path and a beam of some radius r_2 (r_2 &gt; r_1) comes out of the optic, on axis. There will be some Fresnel reflection of the original r_1 beam reflected from the back of the optic and there will be some interference effects due to the zero order of the original r_1 beam reacting to the new r_2 beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Thu Apr 05, 2012 8:24 am</span>
+                <span class="post-number">#69</span>
+            </div>
+            <div class="post-body">This is where we say, wait, wait, not just r_2 &gt; r_1.<br><br><strong>r_2 &gt;&gt; r_1</strong>, mister!<br><br>(...and you say, wait, &gt;&gt;? Is that, like 100x? And I&#x27;ll be like, no, how&#x27;s 10x? And then someone else will be all, &quot;Wait, Gregg didn&#x27;t offer to pay Dinesh, ignore him,&quot; and I&#x27;ll be like, &quot;I live one town over from Cambridge, it would be a SHAME if something were to HAPPEN to you during your VISIT,&quot; and you&#x27;ll be like, &quot;Is this some weird Italian thing, Mister Favalora?&quot;. Etc.)<br><br>Looking forward to it, my good sir...<br><br>g<br><br>ps Oh, you said 2 mm and 4 mm, never mind.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Thu Apr 05, 2012 9:07 am</span>
+                <span class="post-number">#70</span>
+            </div>
+            <div class="post-body">Hello Dinesh,<br><br>The stakes are now a steak, excellent. You have a bet sir! (handshake)<br><br> Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Apr 05, 2012 9:20 am</span>
+                <span class="post-number">#71</span>
+            </div>
+            <div class="post-body">That&#x27;s right Greg, I said 2mm in and 4mm out (but let&#x27;s just make it <em>any</em> 2x expansion), to make it a significant expansion that would be obvious and easy to measure. And since we&#x27;re discussing the limitations of HOEs here, the DE should be high enough to indicate that a little fine tuning would make it a practical device, capable of replacing a lens based system.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Apr 05, 2012 11:40 am</span>
+                <span class="post-number">#72</span>
+            </div>
+            <div class="post-body">&gt; <strong>favalora:</strong> This is where we say, wait, wait, not just r_2 &gt; r_1.r_2 &gt;&gt; r_1, mister!(...and you say, wait, &gt;&gt;? Is that, like 100x? And I&#x27;ll be like, no, how&#x27;s 10x? And then someone else will be all, &quot;Wait, Gregg didn&#x27;t offer to pay Dinesh, ignore him,&quot; and I&#x27;ll be like, &quot;I live one town over from Cambridge, it would be a SHAME if something were to HAPPEN to you during your VISIT,&quot; and you&#x27;ll be like, &quot;Is this some weird Italian thing, Mister Favalora?&quot;. Etc.)<br><br>Insofar as the &quot;wierd Italian thing&quot;, I&#x27;ll have you know I know karate... and 5 other Japanese words. Also, I&#x27;ve watched all the Bruce Lee films! My master was the most dangerous man in all of China and I have a video of me squashing a muffin using the secret technique of Hap-Ka-Do, but it&#x27;s too terrifying to show. . AAAEEEYAGH!!!!!<br><br>&gt; <strong>Jeffrey Weil:</strong> Hello Dinesh,The stakes are now a steak, excellent. You have a bet sir! (handshake)Jeff W<br><br>Hokay (handshake)<br><br>&gt; <strong>BobH:</strong> That&#x27;s right Greg, I said 2mm in and 4mm out (but let&#x27;s just make it <em>any</em> 2x expansion), to make it a significant expansion that would be obvious and easy to measure. And since we&#x27;re discussing the limitations of HOEs here, the DE should be high enough to indicate that a little fine tuning would make it a practical device, capable of replacing a lens based system.<br><br>Good &#x27;nuff.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Sat Apr 07, 2012 4:32 pm</span>
+                <span class="post-number">#73</span>
+            </div>
+            <div class="post-body">This might just be my favorite thread in the history of all the holography forums. Thank you!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Sun Apr 08, 2012 7:10 am</span>
+                <span class="post-number">#74</span>
+            </div>
+            <div class="post-body">I think we&#x27;re ready to publish now. Title? Hoe, Hoe, Hoe....Don&#x27;t You Mean A Zone Plate?...Will You Have That On Or Off Axis?...Did Someone Say Vegetarian?...And Now For Something Completely Different.<br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Apr 08, 2012 7:21 am</span>
+                <span class="post-number">#75</span>
+            </div>
+            <div class="post-body">&gt; <strong>zipsister:</strong> Don&#x27;t You Mean A Zone Plate?...Will You Have That On Or Off Axis?...Did Someone Say Vegetarian?<br><br>...and would you like onion rings with that? Sinusoidal or square-law?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Sun Apr 15, 2012 10:58 am</span>
+                <span class="post-number">#76</span>
+            </div>
+            <div class="post-body">Has anyone ever tried to make a long working distance magnifier from just a hologram? The USAF used one to compensate for the spherical aberration of an acrylic fresnel lens to achieve diffraction limited magnification .... but I don&#x27;t quite see why the fresnel lens is necessary in the first place.<br><br>[http://www.geoffandersen.com/resources/ ... _Apr98.pdf](http://www.geoffandersen.com/resources/AO_Vol37_Apr98.pdf)<br><br>Why couldn&#x27;t you simply record a lens function at the same position as the fresnel lens with a hologram? With a phase hologram you would have obviously have to make it an off axis lens so the higher orders don&#x27;t mess things up (order 0 and the negative orders are irrelevant though, because they are diverging ... will just decrease contrast a bit) and you might still need a second lens to keep the image distance down (you can&#x27;t just make the working distance smaller unless your holographic medium can comfortably handle very high diffraction angles).<br><br>I imagine you&#x27;d record the interference pattern of a point source on one side (critical for it to be small, going to lose a bit of power here) and an off center point source on the other, and while using it as a microscope you have a beam splitter on the image side and use an area light source to light the object (widening the laser and putting it on a rotating diffuser like in the paper seems like a good idea, will remove speckle).<br><br>Why wouldn&#x27;t this work just as well as compensating for a fresnel lens?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Sun Apr 15, 2012 2:07 pm</span>
+                <span class="post-number">#77</span>
+            </div>
+            <div class="post-body">Actually on second thought it&#x27;s not so easy to separate the higher diffraction orders unless you put the image so far off center that no line passes through the object, hologram and image ... hmm, guess you would need to do it on axis after all and (mostly) filter out the higher orders with an aperture.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Apr 16, 2012 7:25 am</span>
+                <span class="post-number">#78</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> Has anyone ever tried to make a long working distance magnifier from just a hologram?<br><br>Any lens will magnify, so long as you define the position of the object and the sign of the image. The working distance depends on the aperture and the f#. I&#x27;m sure the photographers here will give you more information. Holographically, the working distance depends on the aperture size and the focal length, so if you have a large plate and a large, fast collimator, you can get a fairly short working distance. Getting a long working distance is quite easy, it&#x27;s getting a short distance is more problematical. We&#x27;ve been doing this for quite a while now, starting in &#x27;08, when we were asked to get a working distance of 0.8mm. <br><br>&gt; <strong>PinkysBrain:</strong> The USAF used one to compensate for the spherical aberration of an acrylic fresnel lens to achieve diffraction limited magnification .... but I don&#x27;t quite see why the fresnel lens is necessary in the first place.<br><br>They&#x27;re not specifically trying to correct a fresnel, per se. They give the fresnel as an example of the application of the technique at the end of the paper. They&#x27;re trying to correct for the spherical aberration (SA) of a large-aperture lens system as in a microscope. In spherical aberration, the Gaussian image is formed when the input angle, the divergence angle of the light going into the lens (or the entrance pupil) is limited to about 0.5 degrees; more specifically, a Gaussian image is formed when Snell&#x27;s Law {n<em>sin(theta_1) = n&#x27;</em>sin(theta_2)} is replaced by the approximation sin(theta)~theta. Now Snell&#x27;s law becomes n<em>theta_1 = n&#x27;</em>theta_2. As the angle going into the entrance pupil increases the Gaussian condition no longer holds and so there is a phase mismatch. The Gaussian condition is predicated on Fermat&#x27;s Principle and is caused by the fact the lens is spherical (it needs to be a conic section as per Fermat&#x27;s Principle), which causes SA. The system in this paper eliminates SA because in a diffractive system Fermat&#x27;s Principle doesn&#x27;t really apply. In diffraction, light is not propagated point-to-point through various media, but propagates via a mechanism of absorption and re-emission. Thus, Fermat&#x27;s Principle, and so Gaussian optics, no longer holds and you can get a wide-field lens with no SA - in theory. Of course, the hologram itself must have no aberrations!<br><br>&gt; <strong>PinkysBrain:</strong> Actually on second thought it&#x27;s not so easy to separate the higher diffraction orders unless you put the image so far off center that no line passes through the object, hologram and image ... hmm, guess you would need to do it on axis after all and (mostly) filter out the higher orders with an aperture.<br><br>There are no higher orders here, assuming linear processing; higher order will be present if the processing is non-linear. The hologram in the paper is reference off-axis, so it&#x27;s a volume hologram (depending on other parameters such as the film thickness and the ref angle). It&#x27;s only in Raman Nath or non-linear processing that you get higher orders.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Mon Apr 16, 2012 10:31 am</span>
+                <span class="post-number">#79</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Getting a long working distance is quite easy<br><br>Only for a hologram ... large diffraction limited lenses are expensive. Still, has anyone here ever made a hologram for long working distance magnification? (Without correcting for another lens like in the USAF paper.)<br><br>&gt; The hologram in the paper is reference off-axis<br><br>If you use the hologram as the lens itself, which is what I was asking about, it&#x27;s on axis though.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Apr 16, 2012 12:30 pm</span>
+                <span class="post-number">#80</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> Still, has anyone here ever made a hologram for long working distance magnification? (Without correcting for another lens like in the USAF paper.)<br><br>It depends on what you mean by &quot;long working distance magnification&quot;. In a microscope, the lower the magnification of the microscope, the longer the working distance. Thus, a &quot;long working distance magnification&quot; is a tautology, since a long working distance implies <em>a priori</em> a low magnification, if by &quot;magnification&quot; you mean an appropriate magnification for a speciific woirking distance. The fact that the microscope magnifies at all is, of course, a moot point. The magnitude of the magnification (and the numerical aperture) determines the actual working distance. <br><br>A &quot;hologram&quot; for a &quot;long working distance magnification&quot; depends on what a hologram is, or rather, what the hologram does - or is intended to do. You can always make a HOE as a lens. This is commonplace. As a lens, it will of course magnify in the appropriate circumstances. However, defining a &quot;working distance&quot; for a HOE depends on the application. <br><br>&gt; <strong>PinkysBrain:</strong> If you use the hologram as the lens itself, which is what I was asking about, it&#x27;s on axis though.<br><br>Then you seem to be asking if anyone has made a HOE as an eyepiece for a microscope? Not that I&#x27;m aware of specifically. Leith gave a paper at an SPIE meeting soemtime around the late 80&#x27;s for a hologram as a gunsight, which would probably count in your definition. I believe, though, that the sight did not magnify. Bob probably knows a bit more about this. I was at the meeting when he presented the paper, but I&#x27;m afraid I wasn&#x27;t paying a lot of attention since I wasn&#x27;t interested in holographic gunsights!<br><br>There is also:<br><br>&quot;Optical Systems with Resolving Powers exceeding the Classical Limit&quot;, W. Lukosz, J. Opt. Soc Am 56, pp 1463 - 1472 (1966)<br><br>( [http://www.opticsinfobase.org/josa/abst ... 56-11-1463](http://www.opticsinfobase.org/josa/abstract.cfm?uri=josa-56-11-1463) )<br><br>He uses a pair of gratings to achieve this effect and there is no reason that such gratings cannot be holographic</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Apr 16, 2012 1:00 pm</span>
+                <span class="post-number">#81</span>
+            </div>
+            <div class="post-body">The holographic gunsight was Upatnieks&#x27;s big money maker.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Apr 16, 2012 2:23 pm</span>
+                <span class="post-number">#82</span>
+            </div>
+            <div class="post-body">The gun sight might have been something like this. <br><br>[http://en.wikipedia.org/wiki/Reflector_sight](http://en.wikipedia.org/wiki/Reflector_sight)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PinkysBrain</span>
+                <span class="post-date">Mon Apr 16, 2012 3:07 pm</span>
+                <span class="post-number">#83</span>
+            </div>
+            <div class="post-body">Looking around a bit the big problem with volume holograms for lenses is the angular selectivity ... nice for eliminating higher orders, unfortunately it also dims light not coming exactly from the position of the original point source. I wonder if the same effect was the cause of the poor field of view in the USAF paper.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Apr 16, 2012 5:35 pm</span>
+                <span class="post-number">#84</span>
+            </div>
+            <div class="post-body">&gt; <strong>PinkysBrain:</strong> Looking around a bit the big problem with volume holograms for lenses is the angular selectivity ... nice for eliminating higher orders, unfortunately it also dims light not coming exactly from the position of the original point source.<br><br>...and so we go full circle!<br><br>&gt; <strong>Dinesh:</strong> If the hologram is a &quot;thick&quot; hologram, ie the diffraction mechanism was Bragg, then only a very narrow range of angles of the incoming light would diffract. In addition, only a very narrow range of wavelengths would diffract. You&#x27;d effectively get a highly saturated, relatively dim, single colour image of the parts of the scene that encompassed an angular range of maybe 10 degrees</div>
+        </div>
+
+    <div class="thread-nav"><a href="506.html" class="prev-thread">← RabbitHoles holograms</a><a href="Techniques.html">↑ Techniques</a><a href="503.html" class="next-thread">Looking for Larry Lieberman holograms →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="935.html" class="card">
+                <h3>seeking lab(s) capable of full color reflection HOE work</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="775.html" class="card">
+                <h3>HOE Mirror</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="241.html" class="card">
+                <h3>Will an HOE of a sheer plate check collimation?</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="7592.html" class="card">
+                <h3>Beam shaping HOE</h3>
+                <div class="card-meta">General Holography (old) · 26 posts</div>
+            </a>
+            <a href="3204.html" class="card">
+                <h3>Limitations of beam splitters</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fringe monitor circuit — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="907.html" class="prev-thread">← Yellow Photons</a><a href="Techniques.html">↑ Techniques</a><a href="885.html" class="next-thread">Extroduction →</a></div>
+    <h1>fringe monitor circuit</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>12</td></tr>
+        <tr><td>Views</td><td>53,758</td></tr>
+        <tr><td>Started</td><td>Sun Jun 15, 2014 11:51 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/a-k.html">a_k</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=897" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jun 15, 2014 11:51 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">It can be difficult to observe fringe movement patterns with an interferometer, so I built a simple circuit for this purpose. It monitors a fringe pattern and provides audible information, and also displays the output from a simple photodiode. The detector assembly (under construction) has a phototransistor for the audible portion of the circuit, and also a photodiode to simply show the voltage on a digital voltmeter.<br><br>The circuit for the audible portion takes a little work, but the circuit below (from a book by Iannini) has been tested, and works.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2659&amp;mode=view)<br><br>An audible output has some advantages for long-exposure holograms which include a secondary interferometer, such as a fringe-locker circuit. The fringes can remain stable, but &quot;shift&quot; or &quot;blink&quot; at unpredictable intervals. The sound from the speaker can indicate when this happens (likewise with a sharp disturbance like vibration). Also, years ago, forum member Tom B. noted that such a circuit could be used successfully to &quot;listen&quot; to mode hops from diode lasers (I believe he used headphones to better resolve the changes in sound). I have finished the audio circuit, as shown below, and it works well.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2658&amp;mode=view)<br><br>Parts list for opto-listener:<br><br>[](https://holographyforum.org/forum/download/file.php?id=2657&amp;mode=view)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Jun 16, 2014 6:23 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Just a quick correction, the author of that book seems to be Petruzzellis (not Iannini). I made a photocopy of that circuit some time ago, and don&#x27;t have the book. Also, to clarify, I plan to use the audible section (the circuit illustrated) to monitor sharp transient effects to the fringe pattern (by listening to the speaker while doing other things), and the simple photodiode/digital voltmeter to monitor long-term fringe drift.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Jun 16, 2014 11:20 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">By the way, something you might keep in mind. When you turn off an exposure upon fringe motion detection, then turn it back on again, you risk exposing two distinct set of fringes, rather than just a broad set of fringes. That is, if motion is taking place during exposure, the fringes will broaden at the peak, thus flattening the peak of the sinusoid. Of course, if too much motion occurs, then the fringes run into each other and you have very little modulation. Think of photographing peas on a plate. If there&#x27;s &quot;plate motion&quot;, then the image of the peas will be fuzzy, and if there&#x27;s too much&quot;plate motion&quot;, the entire image will meld together as one large fuzzy image, with no resolution.<br><br>However, if you expose, shut off and then resume exposure, you risk recording two distinct set of fringes. This will give rise to two images, slightly out of phase with each other. This superimposition of two out-of-phase images will result in moire fringes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Jun 16, 2014 11:53 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thanks Dinesh, but I don&#x27;t turn the exposure on and off. Instead, I need to monitor what is happening with the fringes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Mon Jun 16, 2014 6:48 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thanks for the circuit, Joe. Are you getting sufficient volume with the speaker and is it an ordinary 8 or 16 Ohm speaker?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Jun 17, 2014 6:29 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Hello Ahmet. Yes, surprisingly, it has good volume. The large speaker is ordinary 8 ohm (the small one is also probably 8 ohm, but didn&#x27;t check it). I added the large extension speaker (for use in the house), so it is wired in series with the small speaker. The small speaker is on the board, and is used to tune the circuit while in the lab. I added a switch which shorts the small speaker (to silence it, and have the output only going to the extension speaker in the house), but I just found out that it apparently makes a very faint sound even when shorted (?) I&#x27;m not sure about this, and will have to re-check. It is so faint that it probably won&#x27;t cause a disturbance (although it&#x27;s very close to the table). I may want to remove the little on-board speaker though, because it really doesn&#x27;t help that much, because when it&#x27;s tuned, then shorted, the tuning changes for the extension speaker. This is the speaker:<br><br>[http://www.alliedelec.com/search/produc ... U=70115879](http://www.alliedelec.com/search/productdetail.aspx?SKU=70115879)<br><br>The earlier circuit didn&#x27;t provide much volume, but this one does. It makes a loud chirping sound, with the frequency varied by the potentiometer. Changes in light on the phototransistor cause a slight but noticeable change or disruption to the chirps. It seems the op-amp provides quite a lot of amplification, also I used a darlington phototransistor (a very cheap one). The sound reminds one of the sound effects in old science fiction movies.<br><br>Here are a couple photos taken this morning showing the detector head in place (it has two detectors, a phototransistor and a photodiode.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2661&amp;mode=view)<br><br>![P6160013.JPG](https://holographyforum.org/forum/download/file.php?id=2660)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Jun 17, 2014 12:55 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Of you simply want to monitor the fringe activity, would it make sense to attach the output to a chart recorder in addition to your audio feedback, so you have a hard copy? This way, you can date the chart, note room temp, time of day and season and get a plot of variation of frequency of the activity against parameters such as time of day and room temp. <br><br>Having said &quot;chart recorder&quot;, these days there&#x27;s probably an app on your cell phone to do this. And, if not, why not? In fact, I&#x27;m wondering what would happen if you got an extra set of speakers and connect them directly onto the cell phone and simply have the cell phone directly log the data. It&#x27;ll drive the NSA nuts if they record a ping from your cell phone every time your laser mode hops!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Jun 17, 2014 1:55 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Of you simply want to monitor the fringe activity, would it make sense to attach the output to a chart recorder in addition to your audio feedback, so you have a hard copy? This way, you can date the chart, note room temp, time of day and season and get a plot of variation of frequency of the activity against parameters such as time of day and room temp.Having said &quot;chart recorder&quot;, these days there&#x27;s probably an app on your cell phone to do this. And, if not, why not? In fact, I&#x27;m wondering what would happen if you got an extra set of speakers and connect them directly onto the cell phone and simply have the cell phone directly log the data. It&#x27;ll drive the NSA nuts if they record a ping from your cell phone every time your laser mode hops!<br><br>Those are all excellent ideas, Dinesh, thank you. I already have a chart recorder for temperature and humidity. This is a little device not much bigger than a pen, and it hooks into a USB port to show the charts on a PC (costs about $70). Now, in combination with a chart recorder for fringe movement, I might really learn something! Years ago, a photoresist holographer told me that fringes (on an interferometer) move/drift at a faster rate if the fringes are horizontal (i.e., parallel to the table surface, rather than vertical or perpendicular to the table). According to him, table/component movement is more pronounced in an &quot;up and down&quot; manner. As a result, he advised that my fringe locker photodiodes should be placed in a horizontal fringe pattern, rather than a vertical one. I have always wanted to verify this experimentally, and a chart recorder would be perfect for this. Nice idea about the cell-phone monitoring of fringe stability (fortunately my lasers aren&#x27;t mode-hopping). I see no reason why it won&#x27;t work</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Wed Jun 18, 2014 3:14 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">The problematic part with the idea of the chart recorder would be the interpretation of the recorded noise i think. The fringe monitors output signal (AC component) mainly indicates when the laser is entering a chaotic operating region, not something that would allow a meaningful interpretation about direction/degree of wavelength changes. The recording of the room temperature also wouldn&#x27;t tell much about what is happening with the laser, it is too remote, but maybe it would be useful to track vertical table movement. But isn&#x27;t the horizontal movement of the table more interesting most of the time? What i am trying to say is that the best use of the fringe listener will probably be as a live monitoring/hinting/warning device for a lasers stability.<br><br>Joe, the speaker shouldn&#x27;t make any noise when shorted, that&#x27;s strange. You could use a two position switch to connect the circuits output (after the capacitor) with the speakers. <br><br>How is the circuit tuned? I don&#x27;t see any tunable parts in the schematic. Are you using a trimpot to set the amplification of U1? Btw. there is a connection missing in the schematic, U2s non-inverting input (Pin 3) isn&#x27;t connected.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jun 18, 2014 4:18 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Yes the schematic had me confused also. For some strange reason, the arrow coming off the non-inverting (+) input of U2 is NOT drawn all the way to the &quot;resistor&quot; which, if drawn another half inch, becomes a &quot;potentiometer&quot; ! Very sloppy.<br><br>So that&#x27;s how the circuit is tuned, by R2 which is a 10k, audio &quot;volume control&quot; potentiometer. U1 is a regular 741 op-amp, and U2 is a 386 audio amplifier (all of these are in the parts list).<br><br>I checked the situation when the small speaker on my circuit is shorted. When the big speaker is also connected, then the small speaker shorted, the small speaker is silenced, which is fortunate. However, if I insert a jumper where the big speaker is supposed to be, then short the small speaker, I get a high-pitched whine from the small speaker. That&#x27;s what had me confused.<br><br>With regards to the audible/speaker portion of my circuit, yes I agree there&#x27;s no obvious way to use a chart recorder. But since I also have a simple photodiode/digital voltmeter, maybe there&#x27;s a way by simply charting different voltages of the photodiode. The photodiode output varies from ~0.1V (? the low end of the range wasn&#x27;t checked) up to about 0.5V (about 500 mV), depending on how much light is striking it. So if the fringe pattern is moving, then the voltage output will be changing also. I noticed this voltage data logger on eBay, maybe it will work?<br><br>[http://www.ebay.com/itm/BDV01-DC-Voltag ... 4181d08c1f](http://www.ebay.com/itm/BDV01-DC-Voltage-Data-Logger-USB-0-30V-0-04V-resolution-64K-1-sec-samp-LED-alarm-/281350802463?pt=LH_DefaultDomain_0&amp;hash=item4181d08c1f)<br><br>If it&#x27;s of any help, here are a couple more pictures of the circuit. The two blue terminals in the upper right corner are for the inputs from the phototransistor and the photodiode. The two blue terminals in the upper left corner are for the outputs to the extension speaker and to the digital voltmeter from the photodiode. The photodiode portion of the circuit has no additional components, the two blue terminals (upper right and upper left) are simply jumpered together. The red pushbutton switch is for the main power, the toggle switch is to short the small speaker.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2663&amp;mode=view)<br><br>[](https://holographyforum.org/forum/download/file.php?id=2662&amp;mode=view)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Thu Jun 19, 2014 6:10 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks for clarifying the schematic, the arrow makes sense now.<br><br>The data loggers fixed resolution of 40mV is not sufficient for a 500mV signal. The $59 looks a bit overpriced too. <br><br>Have a look at this one with 8 analog + 14 digital I/O ports + SD card reader for data logging:<br><br>[http://www.ebay.com/itm/Data-Logger-Mod ... 5d430c675d](http://www.ebay.com/itm/Data-Logger-Module-Logging-Shield-Data-Recorder-Shield-for-Arduino-UNO-SD-Card-/400556844893?pt=LH_DefaultDomain_0&amp;hash=item5d430c675d)<br><br>The base board:<br><br>[http://www.ebay.com/itm/UNO-R3-DIY-Modu ... 3f27ad53bf](http://www.ebay.com/itm/UNO-R3-DIY-Module-for-Arduino-Board-USB-cble-/271248610239?pt=LH_DefaultDomain_0&amp;hash=item3f27ad53bf)<br><br>A temperature/humidity sensor:<br><br>[http://www.ebay.com/itm/DHT11-DHT-11-Di ... 5d3f09ef4d](http://www.ebay.com/itm/DHT11-DHT-11-Digital-Temperature-and-Humidity-Sensor-Temperature-sensor-Arduino-/400489574221?pt=LH_DefaultDomain_0&amp;hash=item5d3f09ef4d)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jun 19, 2014 6:25 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>a_k:</strong> The data loggers fixed resolution of 40mV is not sufficient for a 500mV signal. The $59 looks a bit overpriced too.<br><br>Thanks, I should have seen that, 40mV resolution isn&#x27;t enough for such small variations in voltage. Thanks also for the links to the Arduino-related components.</div>
+        </div>
+
+    <div class="thread-nav"><a href="907.html" class="prev-thread">← Yellow Photons</a><a href="Techniques.html">↑ Techniques</a><a href="885.html" class="next-thread">Extroduction →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1076.html" class="card">
+                <h3>new fringe locker</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="802.html" class="card">
+                <h3>question about fringe expansion</h3>
+                <div class="card-meta">Optics · 7 posts</div>
+            </a>
+            <a href="335.html" class="card">
+                <h3>Fringe movement</h3>
+                <div class="card-meta">Techniques · 13 posts</div>
+            </a>
+            <a href="8320.html" class="card">
+                <h3>Fringe Lockers and Stability</h3>
+                <div class="card-meta">General Holography (old) · 19 posts</div>
+            </a>
+            <a href="6589.html" class="card">
+                <h3>&quot;Complete Fringe Stabilization Techniques&quot;</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="5820.html" class="card">
+                <h3>Fringe drift: Diode vs. HeNe</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

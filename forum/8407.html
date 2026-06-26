@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pfg-03c   white ion laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8405.html" class="prev-thread">← Can I use 5mrad?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8409.html" class="next-thread">Newbie with a question →</a></div>
+    <h1>pfg-03c   white ion laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>60,490</td></tr>
+        <tr><td>Started</td><td>Wed Sep 01, 2010 7:42 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/chanwoo.html">Chanwoo</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/142laser.html">142laser</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8407" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Chanwoo</span>
+                <span class="post-date">Wed Sep 01, 2010 7:42 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">![:hand:](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b.svg) Hi~<br><br>[http://www.coherent.com/Lasers/index.cf ... howMe=More](http://www.coherent.com/Lasers/index.cfm?fuseaction=show.page&amp;ID=354&amp;loc=834&amp;ShowMe=More)<br><br>Here is Innova 70c spectrum. It is white light 2.5w(many wavelength 476nm to 752nm)<br><br>If i use this at PFG-03c(slavich) can i make a color hologram? <br><br>Is there knows about coherence length of ion laser?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 01, 2010 10:03 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I don&#x27;t think white-light lasers are the way to go for color holography. I think Bjelkhagen briefly experimented with them, but he quickly switched back to discrete multiple lasers at different wavelengths. I assume there are problems with using a white-light laser. Maybe part of the problem is that 532nm works so very well for color holography. There may be no sustitute for having a good green DPSS laser at that wavelength, with lots of power, which is readily available.<br><br>If you intend to make full color silver-halide holograms, and want to use at least 3 lasers, then this would almost certainly be the way to go (at minimum):<br><br>Blue: Argon with etalon (5-watt type) water-cooled, three-phase power (most likely), etalon (necessary) for use at 476nm, cost is about $6,000 for a surplus system doing specified power, new, it would be a lot, lot more expensive.<br><br>Green: DPSS 532nm laser such as Coherent 315M, for more power, Verdi. Cost surplus for 315M: $1,500 and up, Verdi much more<br><br>Red: This is the weak point in the chain unless you have a krypton laser. HeNe will be most likely, get absolutely the most power you can get. This won&#x27;t be much, it&#x27;s hard to get one over 35mW. If money is no problem, then it would probably be best to get a krypton laser at 647nm with an etalon. These may be difficult to find surplus. This will provide a lot more red power compared to HeNe. However, I think PFG-03C has especially good sensitivity to red, which compensates somewhat for the lack of power available at HeNe 633nm. There are some lucky people who have old SP-125 HeNe lasers with an etalon which are putting out a lot of power, these are quite rare however. Other good choices for the HeNe would be a SP-127 or one of the Siemens HeNe&#x27;s.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 01, 2010 11:46 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">If that laser is suitable for holography then is surely will work. The main number on reason everyone uses 3 different lasers is control of each of the wavelengths.Color film will require so many J of red, green and blue. Unless your laser just so happens to marry with those energy requirement for each wavelength, it will be very difficult in getting the exposure for all three wavelengths correct. <br><br>But heck, if you have the time try it.<br><br>I remember long ago we played with a Krypton/Argon laser and got color holograms from it. Again, no control but it was fun to play with.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Thu Sep 09, 2010 12:14 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The white light Ion laser will work. Coherence length is a few cm so make sure the object is amall and the beam paths measure the same. 3-5 GHz linewidth; buy a red HeNe from ME!! Phil 142laer</div>
+        </div>
+
+    <div class="thread-nav"><a href="8405.html" class="prev-thread">← Can I use 5mrad?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8409.html" class="next-thread">Newbie with a question →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="3075.html" class="card">
+                <h3>Argon Ion Laser</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="2862.html" class="card">
+                <h3>Argon Ion Laser</h3>
+                <div class="card-meta">General Holography (old) · 34 posts</div>
+            </a>
+            <a href="1138.html" class="card">
+                <h3>Ion Laser Question</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="11470.html" class="card">
+                <h3>measuring laser intensity</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

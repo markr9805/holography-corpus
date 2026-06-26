@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to get circular fringes? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="1076.html" class="prev-thread">← new fringe locker</a><a href="Techniques.html">↑ Techniques</a><a href="1075.html" class="next-thread">Copper Sulfate bleach →</a></div>
+    <h1>How to get circular fringes?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>22</td></tr>
+        <tr><td>Views</td><td>31,658</td></tr>
+        <tr><td>Started</td><td>Sun Jul 19, 2015 1:31 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/lobaz.html">lobaz</a> · <a href="../authors/dannybee.html">dannybee</a> · <a href="../authors/admin-jsfisher.html">admin_jsfisher</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/jsfisher.html">jsfisher</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=1077" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jul 19, 2015 1:31 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">With regards to generating fringes with a Mach-Zehnder interferometer, Saxby mentioned:<br><br>&quot;If you line the beams up very precisely, you can obtain circular fringes which move in and out with any change in optical path lengths, making the detection of drift easy.&quot; (Practical Holography, 2nd ed., p. 163)<br><br>In all my years of generating fringes (either Michelson or Mach-Zehnder) I have only seen straight, parallel fringes, sometimes with a slight curve. I was wondering if I&#x27;m missing something with regards to generating circular fringes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sun Jul 19, 2015 2:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">You can get circular interference fringes by interfering two spherical waves, e.g. from two spatial filters. The center of the circles will be at the line connecting centers of the waves, i.e. the pinholes. So to make nice circles on the screen, you should add them together using beam splitter to make proper on-axis setup.<br><br>As an example I created the Octave script that simulates two spherical waves (wavelength 532 nm); the center of the first is located at 1000 mm from the screen, the second at 1001 mm. The extent of the image is 200x200 mm so the fringes should be perfectly visible.<br><br>![Interference fringes](https://holographyforum.org/forum/download/file.php?id=2762)<br><br>And the script:<br><br># all distances are in meters<br><br>lambda = 532e-9;<br><br>x=(-100:100)<em>1e-3;<br><br>y=(-100:100)</em>1e-3;<br><br>[xx,yy] = meshgrid(x, y);<br><br>z0 = 1;<br><br>z1 = 1.001;<br><br>beam1 = exp(j<em>2</em>pi/lambda<em>sqrt(xx.</em>xx + yy.<em>yy + z0</em>z0));<br><br>beam2 = exp(j<em>2</em>pi/lambda<em>sqrt(xx.</em>xx + yy.<em>yy + z1</em>z1));<br><br>wave = beam1 + beam2;<br><br>interference = wave .* conj(wave);<br><br>imagesc(x, y, interference);<br><br>colormap(gray)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jul 19, 2015 2:55 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thank you, Lobaz, now maybe I understand.<br><br>In the past, I&#x27;ve always used an un-diverged beam to combine on the beamsplitter/beam-combiner (i.e., the two raw beams striking a point on the beam-combiner), prior to expanding optics to show the fringes.<br><br>So if I understand correctly, if a beam-expanding lens is inserted (i.e., as a substitute for the spatial filter you mentioned above) into each beam, immediately before the beam-combiner, then (perhaps) the resulting fringes will be circular. Need to give that a try, thanks again.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Jul 20, 2015 2:05 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">You are right, Joe. The beams must have different radii of curvature. It is even enough if one beam is collimated (i.e. it is a spherical wave with infinite radius) and the second one is diverging or converging.<br><br>If you have a flat beam splitter or a plane-parallel plate, you can see circular fringes with one beam only: take a diverging beam (after a spatial filter or diverging lens) and put the plate into the beam. Try to make it perpendicular to the beam. The beam is transmitted, of course, but a bit is reflected back at the second surface, and back again at the first surface. So in fact behind the plate, there are the directly transmitted spherical wave plus a weaker one that has a bit longer optical path (longer by a distance there-and-back inside the plate). The situation is actually the same as if there were two diverging beams with origins on axis, a little bit apart from each other. (In fact, there will be other reflections as the light bounces multiple times between the plate surfaces, but they get weaker and weaker. It is a sort of a Fabry-Perot interferometer.)<br><br>I wanted to make photograph of actual experiment, but I don&#x27;t have a flat enough plate. The flat beam splitter I used is quite uneven and the fringes were far from being &quot;circular&quot;. But there was definitely some center of fringes.<br><br>Try it!<br><br>Petr</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Jul 21, 2015 7:30 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thank you, Petr</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Wed Jul 22, 2015 8:36 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">[http://www.ebay.com/itm/Skink-Pinhole-P ... 460c20ed5b](http://www.ebay.com/itm/Skink-Pinhole-Pancake-Retro-Pro-Lens-Kit-modular-swap-apertures-Canon-EOS-M-/300851195227?pt=LH_DefaultDomain_0&amp;hash=item460c20ed5b) they use this as a lens setup in a pinhole camera too very interesting I think they call them &quot;zone plates&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jul 23, 2015 1:14 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">So far, no luck in getting circular fringes.<br><br>My (faulty) method was:<br><br>1. Have two beams strike point on beamsplitter as usual, expand w/negative lens. Straight fringes, so far so good.<br><br>2. Insert positive lens in each beam, just before beamsplitter. Beams focus, spread out somewhat, then strike same point on beamsplitter. Just got some spurious straight fringes (not subject to movement) but no circular fringes.<br><br>A photo is attached, beamsplitter in center, positive lenses to top and left, negative beam expanding lens to bottom.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jul 23, 2015 6:53 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I found some interesting pages in the old book by Winston E. Kock, &quot;Lasers and Holography&quot; regarding circular &quot;zone plate&quot; fringes. I tried to post the relevant pages from my copy, but it seems very difficult to post papers here on the forum, and the .pdf format is not allowed anymore. But the full copy is available online as a 16MB file:<br><br>[https://ia700809.us.archive.org/30/item ... graphy.pdf](https://ia700809.us.archive.org/30/items/LasersHolography/Kock-LasersHolography.pdf) <br><br>The relevant parts are on pages 9 through 15, and plates 4 and 5 (which is past page 32). The author favors a pinhole (or aperture, I guess) for the spherical wave, interfering with a plane wave (method of producing plane wave unknown, perhaps collimated), to generate the circular fringe pattern or zone plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 24, 2015 7:27 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Ok, got it. Plane wave + spherical wave.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 24, 2015 8:01 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">A couple photos. It was important to add linear polarizers in each beam (downstream) to get good fringes. This may have been part of my mistake before. If the polarization is wrong, there is nothing, of course. The locking is nice, and seems better than with straight fringes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">admin_jsfisher</span>
+                <span class="post-date">Fri Jul 24, 2015 8:09 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> ...I tried to post the relevant pages from my copy, but it seems very difficult to post papers here on the forum, and the .pdf format is not allowed anymore....<br><br>I&#x27;m not sure what problems you were encountering, but .PDF files are definitely permitted. It may have been the 256KB file size limit, I guess. I&#x27;ve upped that to 2MB.<br><br>I&#x27;ll continue to look, though....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 24, 2015 8:37 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I tried just now to post a 680k .pdf file in this section (and also in the pdf-input section) and got the message &quot;The extension pdf is not allowed&quot;.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Jul 24, 2015 12:19 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Just for the record, I got the same message when I tried to upload a pdf.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">admin_jsfisher</span>
+                <span class="post-date">Fri Jul 24, 2015 2:30 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Well, that sucks and needs to be fixed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Fri Jul 24, 2015 9:35 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Ok. I think the PDF upload problem is resolved. That system admin guy really ought to be fired.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jul 25, 2015 7:47 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Jul 27, 2015 8:43 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Ok, got it. Plane wave + spherical wave.<br><br>Hi,<br><br>yes, plane wave is a special case of a spherical wave where the radius of curvature = infinity. Actually, if your collimation is not perfect (which is usually the case), you get slightly converging or slightly diverging spherical waves; their radii of curvature are high and differ in the sign.<br><br>I think problem of your original setup is that there are too many unwanted interference patterns - from front/back surfaces of the lenses and from front/back surfaces of the flat beam splitter. That is why it is the best to use just pinhole to produce a spherical wave. The setup must be also very precise - if the beams leaving the beam splitter are not perfectly parallel, the center of the circular fringes moves quickly off and it is hard to find it.<br><br>Petr</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Jul 27, 2015 9:03 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">The concepts of plane and spherical waves were things I never really considered, thanks for your help and clarification. Yes, my plane wave was really a &quot;weak&quot; spherical wave (raw slightly diverging laser beam). After reading Kock&#x27;s description of an &quot;abstracted&quot; hologram consisting of a plane wave interfering with 3 spherical waves (from pinholes in different positions in space), I really liked it. I think it&#x27;s a good way to get a handle on the way a hologram works. A (roughly) plane wave interfering with a huge number of spherical waves (from various points on the object).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jul 27, 2015 5:43 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I think it&#x27;s a good way to get a handle on the way a hologram works. A (roughly) plane wave interfering with a huge number of spherical waves (from various points on the object).<br><br>This is a slide that Joy uses to show how a hologram works. This was a part of a presentation we gave to Dorkbot about 5 years ago</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jul 29, 2015 7:57 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">I like that drawing because it&#x27;s less abstract (than Kock&#x27;s example of three pinhole-points in space). It also has three points: the cat&#x27;s ear, nose, and butt. Also, the reference is shown as spherical (not a &quot;pure plane&quot; as in Kock). As Petr suggested, the reference beam should (I think) be considered as a spherical wave, even if collimated.<br><br>One thing I like about the Kock drawing (and description) is that it shows how the &quot;zone plates&quot; generated from the two bottom pinholes extend upward to overlap the zone plate generated from the top pinhole, and how the holographic plate is offset (towards the top). Even though the centers of the projected zone plates from the two lower pinholes are not located on the holographic plate, their outer rings overlap onto the plate. (This is clearly suggested, but not actually shown in the drawing.) But all three pinholes are still visible in the final holographic reconstruction.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Thu Jul 30, 2015 1:39 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">I updated the script so you can play with the interference fringes as you wish <br><br>I set the on-axis reference light R (100 m away from the hologram, amplitude 1), and three point light sources A, B, C according to Figure 10 in Kock486.pdf<br><br>A - located at [0, 3 mm, -1 m], amplitude 0.1<br><br>B - located at [0, 0, -2 m], amplitude 0.1<br><br>C - located at [0, -3 mm, -1.5 m], amplitude 0.1<br><br>When only R and A are shining (B and C have amplitude 0), the hologram located at z=0, size 8x8 mm, looks like this:<br><br>![R+A](https://holographyforum.org/forum/download/file.php?id=2773)<br><br>When only R and B are shining (A and C have amplitude 0), the hologram looks like this. Note that the fringes are not as close to each other because B is further than A.<br><br>![R+B](https://holographyforum.org/forum/download/file.php?id=2774)<br><br>When only R and C are shining (A and B have amplitude 0), the hologram looks like this. Note that until now, all the holograms have low contrast because the reference is 100x stronger that the object light (intensity is the square of the amplitude).<br><br>![R+C](https://holographyforum.org/forum/download/file.php?id=2775)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Thu Jul 30, 2015 1:45 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Let us turn on A and C. Note that fringes sometimes sum up and create more dense black, sometimes they cancel each other. Anyway, the sum of A and C (and R, of course) is not as simple as adding previous images together.<br><br>![R+A+C](https://holographyforum.org/forum/download/file.php?id=2776)<br><br>Finally, we can turn on all lights (A, B, C and R). The result starts to be quite hard to read. Note how the contrast of the hologram is improving.<br><br>![R+A+B+C](https://holographyforum.org/forum/download/file.php?id=2777)<br><br>And the script, of course. Enjoy!<br><br>Petr<br><br># the wavelength<br><br>lambda = 532e-9;<br><br># the extent of the holographic plate<br><br>x=(-200:200)<em>0.02e-3;<br><br>y=(-200:200)</em>0.02e-3;<br><br># point light sources: x, y, z coordinates and the amplitude (squate root of the intensity)<br><br># in succession:<br><br># R - on-axis reference light, almost collimated (pinhole 100 m away)<br><br># A - top light, the closest to the hologram<br><br># B - middle light, the furthest from the hologram<br><br># C - bottom light, somewhere between A and B<br><br>lights = [0, 0, -100, 1;<br><br> 0, 3e-3, -1, 0.1;<br><br>				 0, 0, -2, 0.1;<br><br>				 0, -3e-3, -1.5, 0.1];<br><br># the calculation				 <br><br>[xx,yy] = meshgrid(x, y);<br><br>wave = zeros(length(y), length(x));<br><br>for lightNo = 1:rows(lights)<br><br>	x0 = lights(lightNo(1), 1);<br><br>	y0 = lights(lightNo(1), 2);<br><br>	z0 = lights(lightNo(1), 3);<br><br>	wave = wave + lights(lightNo, 4) <em> exp(j</em>2<em>pi/lambda</em>sqrt((xx-x0).<strong>2 + (yy-y0).</strong>2 + z0<em>*2));<br><br>end<br><br>interference = wave .</em> conj(wave);<br><br># just for display purposes<br><br>interference(1,1) = 0;<br><br>#display<br><br>imagesc(x, y, flipud(interference));<br><br>colormap(gray)</div>
+        </div>
+
+    <div class="thread-nav"><a href="1076.html" class="prev-thread">← new fringe locker</a><a href="Techniques.html">↑ Techniques</a><a href="1075.html" class="next-thread">Copper Sulfate bleach →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1078.html" class="card">
+                <h3>straight vs. circular fringes?</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="6338.html" class="card">
+                <h3>New to holography; how do I get a good start?</h3>
+                <div class="card-meta">Beginning Holography · 15 posts</div>
+            </a>
+            <a href="6281.html" class="card">
+                <h3>Agfa 10E56HD: how to get it bright?</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="11493.html" class="card">
+                <h3>Could anyone explain how dynamic holography is achieved?</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="11443.html" class="card">
+                <h3>How are 3D dot matrix holograms made?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11430.html" class="card">
+                <h3>How do the holographic foils on pokemon cards work?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

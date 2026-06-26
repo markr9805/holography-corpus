@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Holography? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6549.html" class="prev-thread">← Diffusers?</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6530.html" class="next-thread">Hello, I&#x27;m new to the forum and holography. →</a></div>
+    <h1>3D Holography?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>4,178</td></tr>
+        <tr><td>Started</td><td>Thu Nov 15, 2007 12:33 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/caldus.html">Caldus</a> · <a href="../authors/favalora.html">favalora</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/glajciorz.html">glajciorz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6544" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Caldus</span>
+                <span class="post-date">Thu Nov 15, 2007 12:33 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi,<br><br>I know this may be a bit off-topic, but does anyone here know anything about 3D holography (a volumetric display)? I saw this one video (here it is: [http://www.youtube.com/watch?v=FF1vFTQOWN4](http://www.youtube.com/watch?v=FF1vFTQOWN4)) and now I really want to make something like that. They use some kind of projector, a spinning mirror, a holographic diffuser, and OpenGL graphics on the computer as the subject. I just think it would be really awesome to make something similar. Does anyone know how you would go about making this exactly? Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Fri Nov 16, 2007 12:45 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The movie of a display you referred to was built by researchers out of USC; their SIGGRAPH paper explains how it was made and how it works. My company, [Actuality,](http://www.actuality-medical.com) built a similar system as reported in <em>Applied Optics</em>, as well as a commercially-available volumetric display, Perspecta. The nomenclature in the field is still up in the air, but you can call these volumetric displays or multiview volumetric displays, or perhaps even light field displays. There are other ways to make volumetric displays too. But be aware that there are many years&#x27; of patents covering these technologies.<br><br>-gregg</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Caldus</span>
+                <span class="post-date">Fri Nov 16, 2007 1:35 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">So is it even worth trying to reproduce this? This seems really difficult to do.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Fri Nov 16, 2007 1:56 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hi - <br><br>In my experience, it gets much more difficult as the desired resolution increases. But if you Google around you&#x27;ll find that a number of high school and college students have built a variety of low-res volumetric displays, many of which periodically sweep a group of LEDs through space.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Caldus</span>
+                <span class="post-date">Fri Nov 16, 2007 6:55 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">How did you find that? I can&#x27;t seem to find anything about how to actually make one?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Nov 16, 2007 10:36 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Gregg, <br><br>How hard would it be to make a lcd that sweeps through space and is edge lit?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Nov 16, 2007 10:40 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">All those twisting wires?!?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Nov 17, 2007 5:37 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I think the killer would be the slow response time of LCD displays - several milliseconds at least which would sweep out quite an arc in the volume. Maybe plasma would be better?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Sat Nov 17, 2007 8:12 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Tom B.:</strong> I think the killer would be the slow response time of LCD displays - several milliseconds at least which would sweep out quite an arc in the volume. Maybe plasma would be better?<br><br>Or LED matrix or DLP display.<br><br>pzdrvk<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Sat Nov 17, 2007 8:15 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Caldus, look at this:<br><br>pzdrvk<br><br>Adam</div>
+        </div>
+
+    <div class="thread-nav"><a href="6549.html" class="prev-thread">← Diffusers?</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6530.html" class="next-thread">Hello, I&#x27;m new to the forum and holography. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11443.html" class="card">
+                <h3>How are 3D dot matrix holograms made?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="10871.html" class="card">
+                <h3>DIY 3D Holographic Autostereoscopic Screen</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="10545.html" class="card">
+                <h3>3D Silhouette</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Green Expansion Difference — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11390.html" class="prev-thread">← H1/H2 question</a><a href="Techniques.html">↑ Techniques</a><a href="11385.html" class="next-thread">Producing dust-free coatings? →</a></div>
+    <h1>Red Green Expansion Difference</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>26</td></tr>
+        <tr><td>Views</td><td>288,685</td></tr>
+        <tr><td>Started</td><td>Tue Nov 05, 2024 7:23 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/alan-sailer.html">Alan Sailer</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/holomaker.html">holomaker</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11387" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Tue Nov 05, 2024 7:23 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have been wasting a lot of film (!) messing with red/green exposures in a simple denisyuk set-up.<br><br>I am happy that I was able to avoid buying an expensive dielectric mirror to combine the beams. I&#x27;m <br><br>using a dielectric filter from on old LCD projector (rotating RGB filters to strobe the colors). It seems <br><br>to work well.<br><br>However I am puzzled as to why the 40x microscope objective is expanding the red and green lasers <br><br>differently. For example when the green beam is one inch in diameter the red beam is 1.7 inches. The red laser <br><br>is a 24 inch long HeNe and the green is a CrystaLaser DPSS unit. I&#x27;d expect the longer HeNe to be better <br><br>collimated than the green.<br><br>The end result is that I can&#x27;t get a color balance across the entire film plane. The edges are red when <br><br>the center is closer to balanced.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Nov 06, 2024 1:16 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Alan Sailerwrote:↑Tue Nov 05, 2024 7:23 pm:</strong> However I am puzzled as to why the 40x microscope objective is expanding the red and green lasersdifferently. For example when the green beam is one inch in diameter the red beam is 1.7 inches. The red laseris a 24 inch long HeNe and the green is a CrystaLaser DPSS unit. I&#x27;d expect the longer HeNe to be bettercollimated than the green.The end result is that I can&#x27;t get a color balance across the entire film plane. The edges are red whenthe center is closer to balanced.Cheers.<br><br>It&#x27;s because the beam waist, W(0), for each laser is different.<br><br>The beam divergence of a Gaussian (laser) beam is not collimated at the output. It initially converges, reaches a point of minimum convergence, then diverges. The beam radius at minimum convergence is known as the beam waist, W(0). Assuming the beam is propagating along the z axis the divergence of the laser beam downstream, W(z), is dependent on the beam waist, W(0), in the following manner:<br><br>W(z) = W(0)√[1 + (z/z(0))²]<br><br>where z(0) is the point of minimum convergence. In other words, if the waist is large, then the beam divergence is large for any given point z along the beam. The beam waist is usually quoted in the laser spec. To be completely accurate, passing a beam through a lens creates a new beam waist W&#x27;(0), but this parameter is also dependent on the laser&#x27;s &quot;built-in&quot; beam waist.<br><br>If you&#x27;re concerned, you might look into placing an iris in the beam and widening it enough to block the &quot;overspill&quot; red light. Thor labs ( [https://www.thorlabs.com/newgrouppage9. ... oup_id=206](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=206) ) has iris&#x27;s, but it may be expensive; it&#x27;s the &quot;go-to&quot; company for a lot of technical holographers. There are probably cheaper alternatives. It may be possible to make your own iris if you don&#x27;t need a variable open diameter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Nov 08, 2024 7:10 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">As Din explained, the difference in expanded beam diameters is in the nature of things, and that&#x27;s what you want to see. The input beams to the spatial filter should be smallest for blue, larger for green, and still larger for red. Likewise, the expanded beams coming out of the spatial filter (or just the objective) will smallest to largest in that same order. Just use the uniform middle part of the expanded beam for the hologram. Inevitably, there will be wasted light for green and red.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Nov 08, 2024 9:48 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Beam diameter AND divergence need to be the same for all colors to get the best result when going through a spatial filter. It was easier when all the beams came from gas lasers which had similar divergences. DPSS laser beams have generally much smaller diameter and much larger divergence than gas lasers. I&#x27;d recommend an up-collimating telescope for the DPSS lasers to match the gas laser&#x27;s beam. That&#x27;s the only way you&#x27;ll get the collinear beams to go through a pinhole at the same time, and the uniformity of color you want at the recording plane.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Nov 08, 2024 10:15 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobHwrote:↑Fri Nov 08, 2024 9:48 am:</strong> Beam diameter AND divergence need to be the same for all colors to get the best result when going through a spatial filter.<br><br>That hasn&#x27;t been my experience. To get a clean spatially filtered beam with blue, green, and red, I&#x27;ve had to use a specific size input beam for blue, green, and red, and the diameter needed to be smallest for blue, bigger for green, and still bigger for red. Otherwise, it wouldn&#x27;t spatial filter properly. I would be extremely happy if this wasn&#x27;t necessary, and there is a way to make the output (spread) beams closely matched in size. I&#x27;ve read (I&#x27;m pretty sure it was in one of Bjelkhagen&#x27;s papers, or maybe during a tutorial in Lake Forest) that the input beams should not have the same diameter, and there will be some wasted light at the edges for green and red. I think this has also been discussed on this forum, or the old one. I do modify the divergence of the blue and green using 3-lens telescope arrangements. High-quality objectives are supposed to have high levels of correction for both chromatic and spherical aberrations, but even with my PLAN objective in a Newport spatial filter, the spread beam won&#x27;t be uniform unless the input beams are different diameters.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Nov 08, 2024 10:42 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Fri Nov 08, 2024 10:15 am:</strong> To get a clean spatially filtered beam with blue, green, and red, I&#x27;ve had to use a specific size input beam for blue, green, and red, and the diameter needed to be smallest for blue, bigger for green, and still bigger for red.<br><br>This would be consistent with the blue and green lasers having greater divergence than the red. An oversized pinhole might allow that, and you could get a reasonable match at a specific distance away from the spatial filter, but diameter and divergence must both match for accurate results. All the literature supports that.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Nov 08, 2024 12:18 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobHwrote:↑Fri Nov 08, 2024 10:42 am:</strong> diameter and divergence must both match for accurate results. All the literature supports that.<br><br>I tried to find some references on the subject, but the only thing I found so far was a 2006 post on the old forum. Unfortunately, the link to Edmund doesn&#x27;t work anymore. I&#x27;m not sure where Colin got his information from.<br><br>[https://www.holographyforum.org/forum/v ... php?t=5362](https://www.holographyforum.org/forum/viewtopic.php?t=5362) <br><br>Say we had three (RGB) beams that in practice (maybe not so easy to do accurately) had the same diameter and divergence before the spatial filter. Would the spread beam be uniform with no wasted light at the edges for green and red?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Nov 09, 2024 10:06 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Yes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 09, 2024 10:35 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Ok, thanks, I didn&#x27;t know that. It would be a big benefit to have no wasted red light, which is much more difficult to find in high powers except Cobolt. But the practical realization of this matched diameter/divergence may not be so easy. Say we call the entrance aperture to the microscope objective point &quot;X&quot; which is some distance away from the lasers. At that point, (point X) I assume the diameters/divergences must match. It seems to me that it might take a (very) large amount of fiddling with the telescope lenses (at unknown positions) to get this ideal situation. My lab layout would complicate this further, since the lasers are in another room.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 09, 2024 10:37 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Briefly, when a coherent beam (or any beam, really, but the rings are most prevalent the narrower the bandwidth) passes through a biconvex lens, it does not focus to a point. It forms a series of circles, known as Airy rings because the focus of a thin, biconvex lens is the Fourier transform of the input plane of the beam to the lens, along with all the non-uniformities of the beam such as dust etc. The circles in the Airy ring are caused by the non-uniformities - they&#x27;re known as the higher frequencies encoded in the beam. If you could block all the Airy rings, the output of the lens would be due to a completely uniform input plane to the lens - this is spatial filtering, you&#x27;re &#x27;filtering&#x27; the light in space by, effectively, putting an iris in the beam at some point in space to get rid of some spatial part of the beam. This is why when you mis-align a pinhole, you get a series of rings, you&#x27;re allowing Airy rings through.<br><br>At any rate, the radius of the first Airy ring is given by (this is where Colin&#x27;s formula comes from, but he uses 1.27 as the coefficiant which is incorrect - the number comes from the first zero of the sinc function)):<br><br>r = 1.22<em>f</em>λ/D = 1.22<em>F#</em>λ<br><br>Thus, in order to perfectly pinhole a focused beam, the pinhole has to have a radius equal to the first Airy ring, as per above equation. <br><br>But, a few points:<br><br>1. commercially available pinholes will probably not come in exactly the calculated first Airy radius, so, you have to approximate.<br><br>2. there&#x27;s no such thing as a beam consisting of just one wavelength, which is impossible for various reasons. Therefore, even the best laser has a bandwidth, and so no pinhole, calculated for just one wavelength, will completely block off the first Airy ring. However, the narrower the bandwidth, the more prominent the central wavelength. This is not too bad for display hologram - as Kaveh used to say: &quot;The eye forgives a lot&quot;. It is important in technical work, where the hologram is &quot;read&quot; by a machine.<br><br>3. The Airy radius is based on the fact that the input beam is completely collimated, impossible in a Gaussian beam. As a matter of interest, Airy was an astronomer, and so was looking at light from distant stars, whose light is pretty well collimated. <br><br>4. The actual focal length is also based on a laser parameter known as M², usually given in most laser specs. If M² = 1, you have a perfect Gaussian (laser) beam, but in practice it&#x27;s usually higher. The closer to M² is to 1, the better.<br><br>Having said this, it should be obvious that several wavelengths in an input beam cannot all pass through the same pinhole and have all the Airy rings filtered out - a point that Colin makes. The divergence of a beam, having passed through a lens is based on the NA (numerical aperture) of the lens, which is usually printed on the side of the objective, but <em>only if the lens aperture is filled</em>. If the aperture is not filled, the beam divergence is given by the beam diameter at the lens, and it&#x27;s focal length (see below). I assume this is the basis of Colin&#x27;s calculation of increasing the beam diameter. In the case the beam fills the diameter, the divergence θ = arcsin(NA), in the case, it does not fill the aperture, θ = arctan(D&#x27;/(2f), D&#x27; &lt; D. So, by manipulating the input beam diameter, you may be able to have roughly equal beam divergencesrs for all three beams (another point Colin makes), but you cannot filter out all the higher frequencies in all the beams. However, remember again, the eye forgives a lot!<br><br>Airy rings: [https://www.edmundoptics.com/knowledge- ... e0lgqW_Qh0](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/limitations-on-resolution-and-contrast-the-airy-disk/?srsltid=AfmBOorqTgqqPcjE0GVoSBppxVC2hwlRQFGrIcCTesqYSRe0lgqW_Qh0)<br><br>![beam_diameter.jpg](https://holographyforum.org/forum/download/file.php?id=7873)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 09, 2024 10:59 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks, Din, for the in-depth analysis. Your last paragraph was especially interesting. I never paid any attention to whether or not the beams were filling the aperture of the objective. I&#x27;m sure they were not. All I can say is that after a lot of fiddling over the years with multiple beams going through a spatial filter, the only way I was able to get a clean, white spread beam (in the center, that is) was by using smaller beams for blue, larger green, and still larger for red (resulting in spread beams which also increased in size). There were many, many cases where I&#x27;ve had bothersome colored &quot;spots&quot; in the center due to incorrect spatial filtering. The only way for me to get a clean &quot;center&quot; was to use different size beams for RGB.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sat Nov 09, 2024 12:50 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Wow. Quite a technical conversation. A lot of it goes over my head but the bottom line seems to be <br><br>that what I am seeing is normal.<br><br>I know this is tyro stuff but all this expansion really throws a wrench into my exposure times. I&#x27;m up <br><br>to a half hour with the Geola photopolymer. It&#x27;s kind of a minor pain asking my wife to avoid the <br><br>garage for that long several times a day. It definitely makes the idea of conventional holographic <br><br>film more attractive.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Sun Nov 10, 2024 8:24 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Do like the rest of us had to do at one time or another, shoot at night !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Nov 10, 2024 10:02 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">None of that math is necessary in the real world, unless you&#x27;re being paid to calculate something that someone else will be expected to build. Laser beams are generally not collimated. If their divergences are not matched, the objective focuses them to different locations. If you calculate the pinhole diameter that&#x27;s perfect for blue, the red will not go through cleanly regardless of its diameter. The solution for best color matching of the beams is a telescope in at least two of the three before any beam splitting, and using the largest pinhole you can to get a clean beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Nov 10, 2024 1:06 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">What I would like to see is a YouTube video showing the table, lasers, telescope lenses, and spatial filter. With the initial divergence of each laser stated, the type of each lens in each telescope, each focal length, the distances from the laser apertures to the first lens of each telescope, and the exact distance from each lens to the next. Also, the distances from the telescopes to the aperture of the microscope objective, the diameter of the combined beams at the aperture, the type of objective with its power and aperture size, and the size of the pinhole. Finally, I would like to see a photo of the spread beam which is perfectly even (white in the case of RGB, or yellow in the case of RG), with no extra colors at the outer edges, and with no color variation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Nov 11, 2024 8:39 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">What I would like to see isa report on someone&#x27;s professional review of the literature on the topic. My comments come from experience setting up such systems for HOE work but not pictorial so I can&#x27;t offer a picture of the result. I know that the RGB pictorial holograms I often see have problems in this area so what people are doing is not working well. It&#x27;s a bit expensive to buy all the necessary components and optics to make the video requested and takes way more time to set it all up. Do the literature search and let us know what you find.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Nov 11, 2024 8:52 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I wasn&#x27;t asking you personally to make a video, I just said I would like to see it. I&#x27;m certainly not expecting for this to ever happen, that&#x27;s why I included a As for literature on the subject, I&#x27;ve never seen it discussed, either in a cursory way or in-depth.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Nov 11, 2024 9:38 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Fair enough. Just consider that the equation presumes a plane wave input to the microscope objective. Good luck getting a diverging red beam through the 5 micron pinhole calculated to be optimum for a collimated blue beam regardless of either beam&#x27;s diameter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Nov 11, 2024 1:59 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Mon Nov 11, 2024 8:52 am:</strong> I wasn&#x27;t asking you personally to make a video, I just said I would like to see it. I&#x27;m certainly not expecting for this to ever happen, that&#x27;s why I included aAs for literature on the subject, I&#x27;ve never seen it discussed, either in a cursory way or in-depth.<br><br>There&#x27;s no literature I&#x27;ve found on this &quot;divergence problem&quot; of non-overlapping beams. However, the problem is quite complicated. It involves the divergence/convergence of a Gaussian beam /before/after a lens, the beam waist of the laser - and so, different lasers will diverge by different amounts based on their specific w(0) - and, last, but certainly not least, the colour sensitivity of the eye, which is not at all objective. Colour is a very complicated subject and not so simple as to say that three wavelengths will give you &quot;colour&quot;. While there is quite a lot on colour sensitivity of the eye and laser wavelengths, there is nothing I&#x27;ve found on the &quot;divergence problem&quot;. In most cases, Kaveh&#x27;s suggestion to me was to alter beam intensities so that the object looked the same under laser illumination as under white light; I&#x27;d illuminate the object with three wavelengths, then rapidly turn the room (white) lights on and off quickly. This resulted in a blinking of colours if the colours were mis-matched. In terms of over-spill on the plate, I made sure that the collimator &#x27;saw&#x27; white light, so any overspill went beyond the collimator, or the plate if you&#x27;re not using a collimator.<br><br>The divergence of a Gaussian (laser) beam after a lens is based on the Gaussian function, and so is not planar. However, the error between assuming planar wavefronts and analysing it using the actual Gaussian function is small (probably &lt; 5%) for a small aperture of a lens and so, for display holography, not as important. As I mentioned, the cone receptor variation will probably swamp the 5% odd error. If you want the true Gaussian analysis, you&#x27;ll find it here: [https://www.edmundoptics.com/knowledge- ... Os-d3K8Yuo](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/gaussian-beam-propagation/?srsltid=AfmBOopJjOymjAy9KiSQXWCBGvOcySmtee3mFSHHFe6vcIOs-d3K8Yuo) (about a third of the way down the page - &#x27;Gaussian Beam Manipulation&#x27;, the article also analyses the focusing of a Gaussian to a spot).<br><br>Most of the papers/articles on colour holography involved the gamut, based on the CIE chart, which gives the range of colours that can be captured based on the laser wavelengths used. For some reason, people working in colour holography used the CIE 1932, which is outdated. Colour vision today (for the Western world - yes it is culturally-based!) is better modeled on the CIE 1976. In the 80&#x27;s there was a quite intense &quot;gamut wars&quot;, largely between Kaveh and Paul Hubel ( a prominent worker from Oxford University). I believe Paul Hubel wanted a larger gamut for a greater colour range, while Kaveh wanted a smaller gamut because the greater - Paul Hubel&#x27;s - gamut included a lot of colours not seen in nature. I don&#x27;t think the gamut wars were ever resolved because they both left holography by the 90&#x27;s. Today, no one in the colour holography world seems overly concerned with gamuts<br><br>At any rate, Dr. Sunny Bains produced a magazine in the 80&#x27;s called &quot;International Holography&quot;, in which both Kaveh and Paul Hubel wrote articles on colour holography. Below is Paul Hubel&#x27;s article on colour holography, with the gamut he used from the 1976 CIE.<br><br>![img001.jpg](https://holographyforum.org/forum/download/file.php?id=7874)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Nov 12, 2024 8:19 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Mon Nov 11, 2024 1:59 pm:</strong> In terms of over-spill on the plate, I made sure that the collimator &#x27;saw&#x27; white light, so any overspill went beyond the collimator, or the plate if you&#x27;re not using a collimator.<br><br>Thanks, at least I know I&#x27;m not alone. (Thanks also for the detailed comments.) I&#x27;ve found the beam combination issue to be quite challenging. My attitude is that if it&#x27;s good enough, there&#x27;s no need for further fiddling. I&#x27;m working on two-color blue/green now, and since ample power is available, I can afford overspill.<br><br>I remember Kaveh&#x27;s paper well. I collected quite a few papers by various authors on color holography, and to me Kaveh&#x27;s paper made the most sense.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 23, 2024 8:43 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Bob was right, it is possible to evenly combine multiple beams, if diameter and divergence are correct.<br><br>![P1010023.JPG](https://holographyforum.org/forum/download/file.php?id=7881)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 23, 2024 9:50 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Well, yes. There&#x27;ll always be &quot;white&quot; at the centre of the overlapping beams. As I mentioned, I made sure the &quot;white&quot; area was limited to my (16&quot;) collimator, so the object saw &quot;pure white&quot; light, with any overspill going off the edges of the collimator. However, there will also be overspill, as I believe Alan noticed. In your case, there seems to be a turquoise overspill. The centre itself, the area of pure &quot;white&quot;, will of course depend on how much each wavelength in the beam expanded. If the beams are not sufficiently expanded, the &quot;white&quot; area decreases, as a function of object area.<br><br>It would be interesting to measure the diameter of each component individually, without the other components being present. You can also plot the Gaussian of each beam individually, eg by passing a fibre attached to a plotter across the beam and so having a measuring aperture - a sample size - of about a 100 microns or so. I think you&#x27;ll find that the three individual Gaussians will not overlap except at the &#x27;centre&#x27; (which you can take at the FWHM) of the least Gaussian spread.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 23, 2024 11:21 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Sat Nov 23, 2024 9:50 am:</strong> In your case, there seems to be a turquoise overspill. The centre itself, the area of pure &quot;white&quot;, will of course depend on how much each wavelength in the beam expanded. If the beams are not sufficiently expanded, the &quot;white&quot; area decreases, as a function of object area.<br><br>Thanks, yes, there seems to be turquoise (488) overspill. So far, &quot;perfection&quot; has been elusive, but this morning&#x27;s result is better than I&#x27;ve had in the past. It&#x27;s a ticklish job The photo looks more irregular than it does in person -- I don&#x27;t know which is better judge of uniformity, camera or eye. I&#x27;m sure the fiber detector you mentioned would settle the issue.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 23, 2024 1:15 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">The problem is really with this concept of &quot;white&quot; (which is why I keep putting it in quotes). If you look at the &quot;white&quot; of the 1932 CIE, it&#x27;s different from the &quot;white&quot; in the 1976 CIE. This is because the CIE was designed for manufacturers of commercial materials; it was designed initially so that printers from different countries printing the same product - a magazine, for example - would see the same colours, so that &quot;white&quot; was designed for eye receptivity from incoherent light. But, &quot;white&quot; is also culturally dependent. I had a friend who worked in Sony Pictures. her job was to take the artist impression of DVD covers and send it to all the countries who locally made and distributed the DVD&#x27;s. When I mentioned the cultural eye sensitivity to colour, she told me that the DVD for &quot;I Dream of Jeannie&quot; had intense blues for the American eye. However, when the DVD from Finland was sent to Sony for approval, the intense blue was much diluted. The Finns swore blind that the colour matched, they couldn&#x27;t perceive the intense blue. The reason, I explained, was that American and European advertising used blue leds, which produces an intense, over-saturated blue, and their advertisers didn&#x27;t. Our colour perception has shifted to more saturated colours.<br><br>Another problem is that an object&#x27;s &quot;white&quot; is the result of dyes imbued within the material, but those dyes have a colour profile that may be different from the colour profile in your lasers, so what looks &quot;white&quot; from the lasers would not look &quot;white&quot; to the object. You have to tune in the white so that the object looks white under laser illumination (below). <br><br>And still another problem is that the reconstruction light has to have the same profile as the laser&#x27;s &quot;white&quot;. So, on reconstruction, the &quot;white&quot; hologram will not appear &quot;white&quot;. I remember a few years back Stanislovas Zacharovas (Stas) displayed a set of colour holograms on a polymer he was pushing. When I mentioned this to Rob Mundy (I think it was Rob), Rob&#x27;s first comment was, &quot;Were there any white holograms?&quot; No, there weren&#x27;t.<br><br>Your best bet is to follow Kaveh&#x27;s advice: illuminate the object with the three lasers so the (white) object looks white, despite the laser illumination not looking white on a wall. This is what I did with the teapot.<br><br>![color teapot26.jpg](https://holographyforum.org/forum/download/file.php?id=7883)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 23, 2024 2:16 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Thanks Din, those are very good points, and I will keep them in mind. By the way, you mentioned a long time ago that DCG needed about 5 times as much green light, as opposed to blue. Today I found that to be 100% correct. Yesterday, I did a DCG exposure with 50mJ blue and 150mJ green, and the green didn&#x27;t come out at all. Today&#x27;s exposure had 50mJ blue and 300mJ (ouch) green, and the green came out very nicely. This porcelain figure was shown in the earlier photo next to the white screen. Today&#x27;s hologram is shown below (sorry for the blurry photo). So it looks like &quot;standard&quot; no-dye two color (blue/green) DCG is possible, if enough green power is available.<br><br>![P1010024.JPG](https://holographyforum.org/forum/download/file.php?id=7884)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Nov 24, 2024 8:34 am</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">The eye sees color changes with high sensitivity. If the Gaussian rolloff of the three beams is not the same, colors will shift as one moves around the viewing zone. Might be OK for very small objects but for larger holograms with more complexity than a simple test object chosen to look good, beam shape matching is important to get good color uniformity.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11390.html" class="prev-thread">← H1/H2 question</a><a href="Techniques.html">↑ Techniques</a><a href="11385.html" class="next-thread">Producing dust-free coatings? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1056.html" class="card">
+                <h3>Can I make a green hologram with a red laser?</h3>
+                <div class="card-meta">Equipment · 9 posts</div>
+            </a>
+            <a href="491.html" class="card">
+                <h3>Does 5% TEA Treatment of Red Film make it Green Sensitive</h3>
+                <div class="card-meta">Techniques · 13 posts</div>
+            </a>
+            <a href="7874.html" class="card">
+                <h3>What is the red I see from a green dpss?</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="7534.html" class="card">
+                <h3>Green laser guys:  Do you find red stuff to disappear?</h3>
+                <div class="card-meta">Beginning Holography · 5 posts</div>
+            </a>
+            <a href="11397.html" class="card">
+                <h3>Green safelights</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

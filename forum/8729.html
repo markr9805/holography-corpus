@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taming the divergence of a 315M — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8736.html" class="prev-thread">← old Multiplex film type?</a><a href="Techniques.html">↑ Techniques</a><a href="8725.html" class="next-thread">LSD (new) →</a></div>
+    <h1>Taming the divergence of a 315M</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>7,677</td></tr>
+        <tr><td>Started</td><td>Mon Dec 05, 2016 8:45 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/jrburns47.html">jrburns47</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/brian.html">Brian</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8729" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Dec 05, 2016 8:45 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Joseph Burns wrote on the Facebook Holography page: [https://www.facebook.com/groups/Holography/](https://www.facebook.com/groups/Holography/) “I&#x27;m interested in finding out how other holographers deal successfully with the diverging beam of the Compass 315M (and other SLM lasers with non-collimated beams) and if, and how, they successfully make a useful collimated laser beam... Since the Compass series has become somewhat ubiquitous in holography, I was hoping at least one clever person had worked out an elegant solution”<br><br>Here is my solution, whether it’s clever or not is up to you. It makes sense to this former math/science department of Chicago’s DESIGN school (Harrington College of Design, now closed), although I did raise the ire of those on Photon Lexicon and probably will here from those who like to whip out the integrals and differential equations, (usually to impress no one but themselves!), but it seems the solution for this geometrical optics problem simply relies on ray-tracing and trigonometry.<br><br>Everyone knows that parallel rays come to a focus one focal length away from a lens, and its inverse, a point source placed one focal length away from a lens will emerge collimated. So if a lens is placed at the appropriate position in front of a laser, the rays should emerge parallel.<br><br>The trick is in finding the position of the “point source” of a laser. Everyone has witnessed divergence with their lasers, and the manufacturers supply a divergence angle, along with a beam diameter in their spec sheets.<br><br>So to my high school trigonometry-teaching mind, if you know one of the sides of a right triangle and one of its angles, you can figure out the rest of the sides and angles. In the case of the laser spec’s, we know the base of a right triangle as the light exits the laser, half the given beam diameter, and the angle opposite it, one half of the divergence angle. The adjacent side is the distance from where the beam diameter is measured to the tip of the triangle, or the “virtual point source”. Here it is in pictures, with some solutions to the problems, He-Ne’s and DPSSes included.<br><br>![VPS.jpg](https://holographyforum.org/forum/download/file.php?id=6857)<br><br>You can download the sheet from here if this is not good enough resolution for you. [http://edweslystudio.com/Research/BST/VPS.pdf](http://edweslystudio.com/Research/BST/VPS.pdf)<br><br>Doing the sums for the 315M yields the “virtual point source” to be 145.45 mm behind the output window of the laser. Which would mean putting a 150 mm lens less than 5 mm away from the output should yield a collimated beam, but more practical would be a 200 mm lens 54.55 mm away.<br><br>Moving the lens closer to the laser would diverge the beam, but not as quickly as the laser does on its own, and moving it further from the laser would start it converging. See something like Popular Optics by Sam Brown to understand why. [http://edweslystudio.com/nlutie/Bookshe ... sponly.htm](http://edweslystudio.com/nlutie/Bookshelf/POPULAR%20OPTICSdisponly.htm)<br><br>The basic reason why laser beams diverge is the wave-like nature of light, and it does require heavier guns of mathematics to completely quantify the beam waist. But it can be extrapolated where the beam waist becomes zero using the above trigonometric relationships, which gives a first order approximation of what to buy and where to put it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Mon Dec 05, 2016 9:06 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Thank you Ed for the interesting hypothesis! I had a feeling that it might be a virtual point source but that was based on my trial and error attempts at collimating the raw beam, not on any truly mathematical knowledge. I think Dinesh has a different conclusion which he put forward either in the FB Holography group or the FB Holography Forum group earlier today. They might both be the same conclusion expressed differently. I&#x27;m going to try both either tomorrow or Wednesday. Thanks you for your great effort. Still hoping that you can visit here at some point!.<br><br>Warm regards,<br><br>Jody</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Dec 06, 2016 1:42 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">No, Jody, it&#x27;s exactly the same. It&#x27;s just basic trig. Some of the above numbers are wrong, though.<br><br>&gt; <strong>Ed Wesly:</strong> The basic reason why laser beams diverge is the wave-like nature of light,<br><br>No, it&#x27;s because the beam is Gaussian:<br><br>I(r) = I0)<em>exp{-2</em>r^2/w(0)^2}<br><br>Basic algebra!<br><br>&gt; <strong>Ed Wesly:</strong> it does require heavier guns of mathematics to completely quantify the beam waist.<br><br>No, it&#x27;s again just basic high school algebra!<br><br>w(x)^2 = w(0)^2{1 + (lambda<em>x)/(pi</em>w(0)^2}<br><br>I really, really wish I could gave differentiated something or integrated something! Oh! I guess I haven&#x27;t tried to impress anyone, much less me!<br><br>I&#x27;m going to spend the rest of today muttering &quot;Must impress someone! Must impress someone!&quot;<br><br>Oh, if anyone wants me to differentiate or integrate something, send $1.00 to &quot;MIS (Must Impress Someone), c/o Impression St, Wow! Look at Meeeeee! Ca 90-something</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri Dec 16, 2016 11:27 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> I really, really wish I could gave differentiated something or integrated something! Oh! I guess I haven&#x27;t tried to impress anyone, much less me,<br><br>I think series expansions and basis set expansions are much more impressive. I have a lot more trouble getting my students to perform binomial expansions correctly than I have getting them to evaluate integrals correctly.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Dec 29, 2016 3:50 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Brian, perhaps I was being a bit facetious. The fact that anyone would be impressed by differentiating or integrating anything was so ludicrous that I thought I&#x27;d have a bit of fun with it. Of course, differentiation and integration are only impressive to those who are --- let&#x27;s say, not fully mathematically competent, but would like to pretend to be so. I remember my first class on the first day of my undergraduate mathematical physics course, which was Analysis. The professor started writing on the board, stopped, turned around to the class, and said, &quot;I assume you can all differentiate and integrate&quot;. We all started grinning (some laughed outright). The professor mumbled, &quot;Just checking&quot; and continued with the chalk.<br><br>&gt; <strong>Brian:</strong> I think series expansions and basis set expansions are much more impressive. I have a lot more trouble getting my students to perform binomial expansions correctly than I have getting them to evaluate integrals correctly.<br><br>As an undergraduate, I had trouble with Taylor expansions, ie telling the difference between Maclaurin and Taylor, contour integration and Group Theory. When i discovered that Maclaurin was simply Taylor about the origin, I said to myself, &quot;Oh! Of course!&quot; When Salaam told me that he struggled with Group Theory, I didn&#x27;t feel so bad!<br><br>As for contour integration: Why is the contour integral around Western Europe zero? Because all the poles are in Eastern Europe. Ba-Da-Boom!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Thu Jan 05, 2017 6:23 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> As for contour integration: Why is the contour integral around Western Europe zero? Because all the poles are in Eastern Europe. Ba-Da-Boom!<br><br>Haha, who knew contour integration could be time dependent?</div>
+        </div>
+
+    <div class="thread-nav"><a href="8736.html" class="prev-thread">← old Multiplex film type?</a><a href="Techniques.html">↑ Techniques</a><a href="8725.html" class="next-thread">LSD (new) →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="391.html" class="card">
+                <h3>Coherent Compass 315m on a battery ?</h3>
+                <div class="card-meta">Techniques · 28 posts</div>
+            </a>
+            <a href="270.html" class="card">
+                <h3>question about divergence</h3>
+                <div class="card-meta">Techniques · 20 posts</div>
+            </a>
+            <a href="7495.html" class="card">
+                <h3>cable for coherent 315m</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="6392.html" class="card">
+                <h3>Additional VRP-M + 315M results</h3>
+                <div class="card-meta">Gallery · 2 posts</div>
+            </a>
+            <a href="6310.html" class="card">
+                <h3>cooling a 315m</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="5983.html" class="card">
+                <h3>Co-linear beams, matching diameter and divergence</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determining pulse length — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6516.html" class="prev-thread">← Few thoughts</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6511.html" class="next-thread">Optical Hollusions! →</a></div>
+    <h1>Determining pulse length</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>2,539</td></tr>
+        <tr><td>Started</td><td>Sun Oct 28, 2007 7:26 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/glajciorz.html">glajciorz</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6514" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Sun Oct 28, 2007 7:26 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi.<br><br>I&#x27;m trying to determine pulse lenght of YAGna by making holograms of spinning objects.<br><br>Knowing the rotation speed, wavelenght and maximum possible movement during recording transmission holo I could calculate how short/long the pulse is (thanks for the idea Hans).<br><br>Today I&#x27;ve tried with blade rotating at 12000rpm, blade diameter is 1,8cm, 532nm light. It gives 11,3m/s rotation speed. Got a nice holo. Assuming that during the exposure object can&#x27;t move more than 0,5 of wavelenght it gives 24ns pulse. Assuming 0,2 of wavelenght it gives 9ns.<br><br>Question - which value is more probable - 0,2 or 0,5 of wavelenght ? Maybe more or less than that ?<br><br>Maybe I could try to shoot a Denisyuk where we have less tolerances for movement (0,1 of wavelenght ?).<br><br>greetings<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Nov 14, 2007 1:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I am surprised you did not get a response on this yet. I don&#x27;t have the math but I will explain what I think and others can chime it with the math hopefully. I am sure it can&#x27;t be that difficult.<br><br>Well, let&#x27;s take a look at this. A lot has to be considered here. Are the beams, ref and object, collimated and normal to plate? With a tranmisison this would be impossible. But if they are close enought we can look a the quick sumary below and negate the fact that they are not both exactly normal.<br><br>With both beam collimated and normal to plate, if there is no movement we get a good hologram. If the object moves 1/2 wavelength then we get constructive fringes where their was destructive fringes and destructive fringes where their was contructive. No hologram. If the object moves 1/4 wavelength then we get a dim hologram as there is less contrast beween contructive and destruct fringes.<br><br>But the problem with this simple example is the taking into account if either the beams are not collimated or if one or either of the beams are not perfectly on axis. Because then at that 1/2 wave movement of the object there may be a place on the plate the has the contructive where the destructive is and visa vera (total even average of light), but move down the plate some and the movement is only 1/4 wavlength with respect to reference, down the plate further and only 1/8 movement, down the plate further and we catch up on the next wave and the constructives are still were the contructives were without the movement and visa vera. So a really nice fringe at this spot down the plate, even though the object moved. This would give us a hologam with movement bands on it. Even if the object moved a few wavelenths, we could have this same scenerio but we would get more movement bands on it. So as we go the other way, less then a 1/2 wave movement and at about 1/4 wave movement, we start approaching a weakness of creating the fringes. That spot down the plate that allows the catch up to the next wave and allows a constructive fringe where the original contructive fringe was, never happens. All constructive fringes are dimmed to some degree. This results in a dim hologram and then as we get less and less movement, the fringes get more contrasty (less relative movement of the constructive fringe) to a bright hologram. <br><br>So I expained it the best I can and maybe someone here can post the exact formula&#x27;s to allow you to calculate that number based on your rate of divergence of the two beam and their angle with respect to one another. It could be possible you are off by 1/4 to 1/8 of a wave and not really notice it in the hologam.<br><br>You may want to actually set your geometry up such that you get dark banding fringes on your object, then using the forumula with your divergence rates, angles and speed of rotation you can calcuate exactly the duration by counting the number of fringes on your object.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Wed Nov 14, 2007 10:00 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks for reply, John.<br><br>My geometry is single beam transmission, beam coming from above (at angle c.a. 40deg) illuminating both the blade and the standing film.<br><br>Beam spreads with c.a. 15deg. angle.<br><br>greetings<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Nov 15, 2007 1:28 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">From you post I read the light hits the film directly at 40 degrees (off the normal, correct?).<br><br>But at what angle does the light hit the film from the blade?<br><br>We need the two angles relative to the plate (from normal for both).<br><br>And your divergence rate is 15 degrees correct?<br><br>I will start researching. <br><br>Where is a physics head when you need one?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Tue Nov 20, 2007 11:58 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I&#x27;ll have to wait a moment till I measure blade rotation speed precisely.<br><br>Maybe Denisyuk setup would be more apropriate for my measurements - with the beam hitting the plate perpendicularily ?<br><br>What do you think, John ?<br><br>greetings<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 20, 2007 1:03 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I&#x27;ll be honest with you. I am no expert here and am trying to determine a practical way of doing this too. It seems you can be off just a little bit and the numbers may be way off. I was also hoping someone with some real hands-on knowledge would chime in.<br><br>If you really don&#x27;t need to know the exact pulse length and are just wondering....then for holography, if something (the outer part of your blade) is moving at that speed (circumference x time of one revolution) then surely you are well within holographic capabilities. Most things will only move a fraction of a cm. Unless of course your trying to make a hologram of an electron....<br><br>Not to get off track, but why do you want to measure the pulse length?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Tue Nov 20, 2007 2:10 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It&#x27;s not only about curiosity and holographic capabilities.<br><br>Knowing pulse lenght and its energy I can estimate peak power (after oscillator and hence after all the amplifiers). Knowing beam diameter I would know if I&#x27;m still below destruction limit of the KTP.<br><br>Hans gave me another idea - reflecting the pulse from a rotating octagonal mirror (taken from a laser printer) and measuring lenght of the reflection on distant wall. <br><br>Or maybe sending the pulse towards spinning wheel covered with photographic paper (no good idea).<br><br>Have no better ideas besides borrowing 500MHz DSO and a fast photodiode from my company <br><br>greetings<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 20, 2007 2:14 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Well, if I may, if you are worried about ruining an expensive optic, I would not want to rely on manual measurement method where a lot of error could come into play. If you can burrow a piece of equipment that will measure it for you, I would do that for sure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 24, 2007 4:54 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>glajciorz:</strong> Hi.I&#x27;m trying to determine pulse lenght of YAGna by making holograms of spinning objects.Knowing the rotation speed, wavelenght and maximum possible movement during recording transmission holo I could calculate how short/long the pulse is (thanks for the idea Hans).Today I&#x27;ve tried with blade rotating at 12000rpm, blade diameter is 1,8cm, 532nm light. It gives 11,3m/s rotation speed. Got a nice holo. Assuming that during the exposure object can&#x27;t move more than 0,5 of wavelenght it gives 24ns pulse. Assuming 0,2 of wavelenght it gives 9ns.Question - which value is more probable - 0,2 or 0,5 of wavelenght ? Maybe more or less than that ?Maybe I could try to shoot a Denisyuk where we have less tolerances for movement (0,1 of wavelenght ?).greetingsAdam<br><br>Just from what I have read about the SSY I believe 24ns is the right answer. Can you post a photo of the hologram?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Nov 24, 2007 5:10 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Years back we were trying to speed up our flash/strobe (to achieve better film resolution) and to measure this we used a photo cell used with a timing oscilloscope and we could measure the pulse on the scope screen....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Tue Nov 27, 2007 6:32 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Just from what I have read about the SSY I believe 24ns is the right answer. Can you post a photo of the hologram?<br><br>greetings<br><br>Adam</div>
+        </div>
+
+    <div class="thread-nav"><a href="6516.html" class="prev-thread">← Few thoughts</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6511.html" class="next-thread">Optical Hollusions! →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11375.html" class="card">
+                <h3>Coherence Length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="8876.html" class="card">
+                <h3>Tricks for measuring coherence length</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="211.html" class="card">
+                <h3>Coherence length</h3>
+                <div class="card-meta">Techniques · 19 posts</div>
+            </a>
+            <a href="7738.html" class="card">
+                <h3>coherence length estimation</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="7521.html" class="card">
+                <h3>recent transfers from pulse masters</h3>
+                <div class="card-meta">Gallery · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

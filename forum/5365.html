@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheap source of Laser Crystals — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5364.html" class="prev-thread">← Another ridiculous hologram story</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5362.html" class="next-thread">Spatial filtering for Color Holography →</a></div>
+    <h1>Cheap source of Laser Crystals</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>82</td></tr>
+        <tr><td>Views</td><td>16,070</td></tr>
+        <tr><td>Started</td><td>Mon Feb 06, 2006 10:51 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/bastian-s.html">Bastian_S</a> · <a href="../authors/jeff-blyth.html">jeff-blyth</a> · <a href="../authors/michaelh.html">MichaelH</a> · <a href="../authors/jean.html">jean</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5365" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 06, 2006 10:51 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">[http://www.roithner-laser.com/index.htm](http://www.roithner-laser.com/index.htm)<br><br>These guys have truely all types of laser diodes and YAG crystals for reasonable prices (5cm YAG crystal for 350 Euro&#x27;s). A pricelist is on their web site and they have datasheets for most of their products.<br><br>Would I be able to build a suitable pulsed YAG laser with one of these 5cm crystals?<br><br>Also here is their link for their small hybrid DPSS crystals: [http://www.roithner-laser.com/crystals.html](http://www.roithner-laser.com/crystals.html)<br><br>Suppose I keep the temperature of this type of hybrid Nd:YVO4/KTP crystal constant and also do this for the pumping diode, perhaps it would make a suitable DPSS laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Feb 06, 2006 5:04 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> http://www.roithner-laser.com/index.htmAlso here is their link for their small hybrid DPSS crystals:http://www.roithner-laser.com/crystals.htmlSuppose I keep the temperature of this type of hybrid Nd:YVO4/KTP crystal constant and also do this for the pumping diode, perhaps it would make a suitable DPSS laser.<br><br>It won&#x27;t be single frequency and most likely pretty useless for holography, like most green pointers. Building a single frequency DPSS is no small feat... a ring laser would probably be the easiest setup.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 06, 2006 7:03 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">A ring laser. I have read once before that a ring laser setup can even make a dye laser single frequency. How does a ring setup where the light travels only in one direction through the lasing medium enable one single wavelength to win?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Feb 06, 2006 7:25 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> A ring laser. I have read once before that a ring laser setup can even make a dye laser single frequency. How does a ring setup where the light travels only in one direction through the lasing medium enable one single wavelength to win?<br><br>Because there are no standing waves like in an ordinary resonator; for the latter, the resonance condition is satified by a large number of longitudinal modes, and those which happen to lie within the gain curve of the lasing medium, will be excited. This effectively reduces the coherence lentgh. Then there are other effects like &quot;spatial hole burning&quot;, which makes it it easier for competing modes to become excited. <br><br>This is not so for a ring laser - there are no multiple resonance modes at all to start with, and there is no spatial hole burning but rather a &quot;winner takes all&quot; principle at work. There is only one thing to care about, namely there will be also a wave running in the opposite direction, which takes away 50% of the power; unles one makes it hard for this mode to come up (like using an acoustic modulator or somethng else).<br><br>Surely single mode operation can alse be achieved by an ordinary resonator, but things like etalons and other tricks are necessary. Unless one is taking care of this, there is practicaly no way to have single mode operation, and this applies to basically all DPSS lasers that are not specifically designed for single longitudinal mode.<br><br>PS: here&#x27;s a brief [movie](http://argonholo.webhop.net/laser/pics/633modedrift.AVI) (3.8MB) I did a few days ago, showing how a few longitudinal modes of a HeNE laser drift while it warms up (the lower trace shows a 10x zoom). I plan to do more of such investigations esp for diode and DPSS lasers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Mon Feb 06, 2006 7:34 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">in standing wave resonators there is something called spatial hole burning. The standing wave leaves population inversion at its nodes untouched. The next longitudinal mode doesnt have its nodes at the same position and sees inversion left by the other and starts oscillating too. <br><br>in a ring setup there is no standing wave and therefore one single mode &lt;i&gt;CAN&lt;/i&gt; dominate the others.<br><br>/edit wler was faster ...<br><br>/edit 2<br><br>AFAIK there are multiple resonaces in a ring laser too, spaced c/l ( l= ring length) apart if I remember correctly.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 06, 2006 8:04 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Aha. Thank you, I am beginning to understand it. What is the result of this formula? Does it show the distance in wavelength between resonant waves?<br><br>If I use a ring length of 10cm I should get a distance in resonant wavelengths of 3,33E-10 = 0.3nm, correct?<br><br>Is it also possible to block the opposite wavelength with a circular polarizing filter, or would one just loose too much light with that kind of setup?<br><br>Is it possible to make one of those acoustic modulators at home?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Tue Feb 07, 2006 7:08 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Aha. Thank you, I am beginning to understand it. What is the result of this formula? Does it show the distance in wavelength between resonant waves?If I use a ring length of 10cm I should get a distance in resonant wavelengths of 3,33E-10 = 0.3nm, correct?<br><br>Actually I confused about modes in ring lasers. A resonance is based on a standing wave, and in a ring laser one has a travelling wave. So there can&#x27;t be a resonance, but on the other hand the light must at a given point be in phase again after having travelled around the ring. This may have a similar wavelength selecting effect as a cavity...<br><br>&gt; <strong>Hans:</strong> Is it also possible to block the opposite wavelength with a circular polarizing filter, or would one just loose too much light with that kind of setup?Is it possible to make one of those acoustic modulators at home?<br><br>There are a few methods for suppressing the wave running in the other direction. Eg using a Faraday isolator, some birefrequent plate etc. These are parts that would be difficult to get. That&#x27;s why I was mentioning an AOM - I doubt they can be built at home (apart from the RF driver), but they appear often enough on ebay. There was a german guy recently who sold dozens of them.<br><br>At some point I&#x27;d like to try to build a ring laser, but that&#x27;s a long term goal.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Tue Feb 07, 2006 10:27 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">A december issue of the Amateur Scientist of Scientific American mentions modulating laser light with a homemade &quot;Faraday Cell&quot;. They discribe it as a glass tube with lots of copper windings around it. A strong current is pumped through this coil. The tube is filled with stuff that has a good Verdet Constant.<br><br>The longer the tube, the more the direction of polarization rotates. Perhaps it is possible to wind a tight coil around a glass fiber and get enough rotation (45 degrees) for it to work?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Tue Feb 07, 2006 5:39 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> If I use a ring length of 10cm I should get a distance in resonant wavelengths of 3,33E-10 = 0.3nm, correct?Is it also possible to block the opposite wavelength with a circular polarizing filter, or would one just loose too much light with that kind of setup?Is it possible to make one of those acoustic modulators at home?<br><br>The reason i wrote this is to underline that a ring has longitudinal modes spaced c/(one roundtrip) apart just like a standing wave laser. 0.3 nm spacing sounds way too much, its 3*10^8 m/s / 0.1m = 3 GHz , Im too lazy right now to fetch a calc to say how many nm that are. It doesnt matter that much anyway.<br><br>easiest way to force one direction would be self injection locking : the two ring directions will leave your OC under different angles. just take a mirror and reflect one direction back in itself into the resonator. <br><br>Nevertheless, forget the ring, its extremely tough to build.<br><br>And forget diode pumping a pulsed holography laser. You wont be able to pay pump diodes that have enough peak power. If you want lets say 10 mJ ( which is still waaay to less) in 5 ns your laser has a peak power of 2 kW. Your pump might not need the same peak power because you can pump longer than the laser pulse but on the other hand you dont have 100% eficiency from pump power to green, so youll need a pump diode in the kW regime.<br><br>Id go for Bill Jensens approach, it seems to work quite well, although its probably not single frequency.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Tue Feb 07, 2006 6:57 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Ok, I will forget about diode pumping for now. I have in the meantime contacted a glass instrument maker here in Holland. He says he should be able to make Xenon filled Flash tubes for me. Where would I be able to find information about the required gass mixtures/pressures, and crystal glass thickness?<br><br>The SSY1 is not allowed to be exported out of the USA.<br><br>So suppose I have the following items at the following cost:<br><br>YAG rod (4.0x50.0 mm): 350 Euro<br><br>Xenon Flash Tube: 150 Euro<br><br>KTP (5.0x5.0x25.0 mm): 1380 Euro<br><br>I would still need to make the power supply, an etalon, the two mirrors and a q-switch.<br><br>I guess the power supply should be not extremily difficult to make, but what types of capacitors do I need? Can I make those at home, or where could I find suitable ones?<br><br>How much does an etalon cost? Can I make one of those at home?<br><br>What types of mirrors do I need and how much should they cost?<br><br>Does the YAG rod have to be cut at Brewster&#x27;s angle at it&#x27;s ends or can it be flat-ended?<br><br>Can I get 1 joule out of a 5cm YAG rod?<br><br>Can I make a chemical fluid filled q-switch at home?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Tue Feb 07, 2006 11:11 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Where did you get the info on ssy export limitations ? bad to hear that<br><br>Well you can make buying lists with prices if you know exactly what and how you want to build it and where the problems are. But not if you are developing a laser on your own. <br><br>1 J ( even some 10 mJ) at some ns pulse length is extremely high power, and you can expect many of your expensive components to break or get burnt while building a laser like that.<br><br>And you probably cant make most of the stuff at home.<br><br>Youll might want to order more than one KTP because theyll might break in your laser development, same goes for laser crystals and mirrors , youll need dieelectric, about 250 € each. Precise optomechanic like mirror holders are expensive too.<br><br>Dont forget measurement equipment, an oscilloscope, a fast enough photodetector, power meter etc. A camera to check and adjust for TEM00. etc etc</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Wed Feb 08, 2006 6:39 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> ...................So suppose I have the following items at the following cost:YAG rod (4.0x50.0 mm): 350 EuroXenon Flash Tube: 150 EuroKTP (5.0x5.0x25.0 mm): 1380 EuroI would still need to make the power supply, an etalon, the two mirrors and a q-switch.I guess the power supply should be not extremily difficult to make, but what types of capacitors do I need? Can I make those at home, or where could I find suitable ones?How much does an etalon cost? Can I make one of those at home?What types of mirrors do I need and how much should they cost?Does the YAG rod have to be cut at Brewster&#x27;s angle at it&#x27;s ends or can it be flat-ended?Can I get 1 joule out of a 5cm YAG rod?Can I make a chemical fluid filled q-switch at home?<br><br>While we are on such a high level of DIYery here, I just wonder if you couldn’t also grow your own crystals too!<br><br>40 plus years ago I remember growing my own crystals of ammonium diHydrogen phosphate (ADP)to make a piezoelectric resonator. I just left a saturated solution in a dust free place for weeks.<br><br>I learned which direction to cleave my best looking crystal in from a book by a guy called Mason. I don’t know about “KTP” but I gather that KDP potassium dihydrogen phosphate can work as a frequency doubler. Perhaps the ammonium salt is better but not commercial because of its susceptibility to moisture and heat. You could always keep your own homemade crystals warm and dry that would be the least of your problems. –Anyway this is all just a thought after looking at that crystal price. ( Probably the crystal growing manufacturers don’t like thoughts like this going around!)<br><br>As for this bit Hans:<br><br>&quot;Can I make a chemical fluid filled q-switch at home?&quot;<br><br>Yes I think you could do that.<br><br>I acquired a cylindrical 5 cm long glass cell with parallel windows about 2 cm diameter from lab equipment suppliers . It was made with 2 filling tubes with mini stoppers. I filled it with trichloroethylene in which I had dissolved a small amount of a special dye I got from Eastman-Kodak at that time (~12 yrs ago) The dye contained Ni , I could post you a bit if you are seriously interested in doing it. Any good hydrophobic solvent of that type would do I think .(eg xylene). <br><br>There was a certain low concentration range over which it worked as a Q switch, it was too easy to over do it I remember, the 532nm<br><br>beam profile patterns you got from it were often quite weird and wonderful<br><br>particularly if you were doing multiple 0.1 sec pulses. (I suppose this was caused by thermal effects in the liquid.Such variabilities were ultimately not helpful in my work here so it was replaced by the crystal system.) <br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Feb 08, 2006 6:57 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">On the danger of stirring up controversy and getting beaten up: why<br><br>would be a pulse laser a better thing to have as compared to a CW<br><br>laser .... unless one really by all means wants to shoot holograms<br><br>of people or animals ? I would think that while almost everything<br><br>is much tougher (adjustment, lighting control, cleaning the beam,<br><br>coherence length, need of high power optics, enhanced danger), making<br><br><em>nice</em> holograms would be much harder. So far I couldn&#x27;t see any<br><br>pulse hologram by a hobbyist that would be remotely comparable in<br><br>quality to a better CW hologram.... but I am open to be taught otherwise! &lt;/duck&gt;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Feb 08, 2006 9:15 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">My table is completely finished today. The pulsed laser is just a step I want to take in the future. I like to think many steps ahead always, and do all the possible research, check feasability of prices and see if it is possible. <br><br>My steps plan is still as follows:<br><br>- Table (Finished)<br><br>- Fume cupboard (In Progress)<br><br>- Blyth Holographic plates (In Progress)<br><br>- Open Source plates for others to test (Perhaps one month from now)<br><br>- H1 -&gt; H2 transfers<br><br>- Stereograms<br><br>- Multiplex Holograms<br><br>- Panchromatic Blyth plates<br><br>- Color Stereograms<br><br>- SHSG<br><br>- Pulsed Holograms<br><br>A few months ago I knew nothing about holography and lasers. So I try to absorb as much knowledge and teory as possible. I am waiting for the Bjelkhagen book to arrive (It&#x27;s now on backorder)<br><br>I believe that if I cannot build it in my garage, it&#x27;s probably too expensive to buy. I would love to grow the crystals. Would that really be possible? I have never done something like that.<br><br>I think I will be a bad boy tonight. I won&#x27;t be able to finish the fume cupboard before my next flight. So I think I will don a carbon filtered painters mask and start mixing the chemicals for the plates tonight in my garage and start to silane scrub a batch of microscope slides.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Wed Feb 08, 2006 9:37 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Blyth Holographic plates (In Progress)<br><br>I&#x27;ll race you. I&#x27;ve also got some materials on the way that will let me start on that project.<br><br>&gt; <strong>Hans:</strong> Stereograms / Multiplex Holograms<br><br>Andres is racing along that path as well and pulling me along with him as we extend my Holocontroller program.<br><br>&gt; <strong>Hans:</strong> I think I will be a bad boy tonight. I won&#x27;t be able to finish the fume cupboard before my next flight. So I think I will don a carbon filtered painters mask and start mixing the chemicals for the plates tonight in my garage and start to silane scrub a batch of microscope slides.<br><br>urgh. You may win the race then <br><br>I don&#x27;t have the MSDS handy but what components require a fume hood for the Blyth plates? Or is it really a clean-air bench?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Feb 08, 2006 9:50 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I don&#x27;t really know if any of the chemicals require a fume hood. I just know too little about the health hazards. What is an MSDS?<br><br>If anyone could alleviate my mind about this, please let me know. It will save me lots of building time, better spent on the rest of the projects.<br><br>(Reviewing Jeffs guide. I just remembered that the slides need to be pre-scrubbed with Chloride over night. I will do this tonight. You can still win Michael. )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jean</span>
+                <span class="post-date">Wed Feb 08, 2006 9:52 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> Hans wrote:I think I will be a bad boy tonight. I won&#x27;t be able to finish the fume cupboard before my next flight. So I think I will don a carbon filtered painters mask and start mixing the chemicals for the plates tonight in my garage and start to silane scrub a batch of microscope slides.urgh. You may win the race then<br><br>No, it&#x27;s me <br><br>I&#x27;m just finish rinsing hardened plates. I load plates with AgNO3 tomorrow evening. <br><br>&gt; I don&#x27;t have the MSDS handy but what components require a fume hood for the Blyth plates? Or is it really a clean-air bench?<br><br>Acetone , Silane, methanol.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Feb 08, 2006 11:00 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">The one I was really afraid of was the LiBr. I am not sure why. Guess it just sounds dangerous...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Feb 08, 2006 11:21 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">MSDS are Material Safety Data Sheets.<br><br>I suggested having a section for them or posting them but I was ridiculed to no end with the reasoning that everyone whom works with a chemical not only knows what they are but should have them. So I gave up adding them to my list. I think I even suggested a section on safety but lost that battle too. But....<br><br>Here is the compilation I started. It seems Lithium Bromide is one on the list.<br><br>[http://www.sketchys.com/HoloPage/HoloFi ... y/MSDS.htm](http://www.sketchys.com/HoloPage/HoloFiles/Holography%20Safety/MSDS.htm)<br><br>Feel free to use them and send me any additional ones you have electronically and I can add it to the list.<br><br>If Colin wants to put a sticky to the link or copy them here, feel free. I still think a safety section would be very advantageous.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Feb 08, 2006 11:29 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">There is no doubt that we need it! How else does one know about the hazards?<br><br>Nowadays chemicals are packaged with all the OSHA stuff, but if you are a bargain basement holographic scrounger like myself you may end up &quot;inheriting&quot; some stuff from a more relaxed era!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 12:09 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Hahah, now that I know what MSDS&#x27;s are, I have read them all for the various components. It turns out that the LiBr was actually the safest. (Used as a sedative in medicine )<br><br>I had no idea the silane was the most scary one. But I guess I can do the scrubbing outside, while wearing rubber gloves, yes? That way I have virtually no risk of inhalation.<br><br>Now what do they mean by &quot;harmful by inhalation&quot; anyways? Do they mean it&#x27;s dangerous to inhale an aerosol or the vapour? I guess inhaling the actual liquid would be silly. Even water can be lethal if it is inhaled. <br><br>It seems to me the other chemicals can be handled safely while wearing protective glasses and rubber gloves and ventilate the working area (keep the door to my lab open). I think I will put the fume hood on hold for a while and dive into making the plates.<br><br>If I am about to do something really stupid now, please let me know. The slides are drowning in a small closed container of Chloride now.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Thu Feb 09, 2006 1:06 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> The one I was really afraid of was the LiBr. I am not sure why. Guess it just sounds dangerous...<br><br><strong>Chemophobia!</strong><br><br>Hans one can get too worked up about this safety aspect, there is too much hysteria around.<br><br>You can&#x27;t really work from the basis that it just “sounds dangerous”.<br><br>Acetone vapour is a fire hazard of course, but none of the solutions are bad enough to worry about other than using common sense . You are not going to drink any of it and you are going to store it in labelled bottles and use rubber gloves are&#x27;nt you. <br><br>Of course this pre-supposes there will be no children around.<br><br>There is only one really nasty dangerous chemical involved. But it is as common as …as…<br><br>well oven cleaner! It is NOT involved in the plate making but in the general hologram developer. It is of course caustic soda or NaOH or sodium hydroxide. One splash of that solution in your eye and you are in big trouble within seconds. Even getting it on your skin and not washing it off at once can leave you with painful sores that can take weeks to heal.<br><br>Because I know more about general lab chemicals than most I was made “Chemical Safety Officer” here. I will never forget how Richard Birenheide roared with laughter when I told him that. He then said “ We have a saying in German that that is like <br><br>making the Goat the Gardener!” ------I felt quite wounded by that.<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Feb 09, 2006 1:36 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>jean:</strong> MichaelH wrote:Hans wrote:I think I will be a bad boy tonight. I won&#x27;t be able to finish the fume cupboard before my next flight. So I think I will don a carbon filtered painters mask and start mixing the chemicals for the plates tonight in my garage and start to silane scrub a batch of microscope slides.urgh. You may win the race thenNo, it&#x27;s meI&#x27;m just finish rinsing hardened plates. I load plates with AgNO3 tomorrow evening.<br><br>No, you&#x27;re so far ahead of Hans and me that you don&#x27;t qualify for the &quot;race&quot; <br><br>&gt; <strong>jean:</strong> I don&#x27;t have the MSDS handy but what components require a fume hood for the Blyth plates? Or is it really a clean-air bench?Acetone, Silane, methanol.<br><br>But wouldn&#x27;t adequate ventilation and a filter mask do just as well with those items?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Feb 09, 2006 1:38 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> MSDS are Material Safety Data Sheets.I suggested having a section for them or posting them but I was ridiculed to no end with the reasoning that everyone whom works with a chemical not only knows what they are but should have them.<br><br>As I recall you were only ridiculed by Forum Wrecker and if you&#x27;ll remember (which you don&#x27;t seem to) I made a home for your list here [http://www.dragonseye.com/holography/MSDS.html](http://www.dragonseye.com/holography/MSDS.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Feb 09, 2006 10:39 am</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Sorry Michael, I stand corrected. I guess the ridiculing stood out more and took over my mind. The problem with having the list on your site or mine is, it cannot be found easily from here. <br><br>Didn&#x27;t Women use acetone to strip the finger nail polish off their nails? I remember growing up smelling that stuff all the time as I grew up with a mom and three sisters. <br><br>I also remember smelling strong ammonia when they colored their hair.<br><br>I have to also mention that Isopropyl Alcohol was rubbed on my chest, right under my nose, as a child when I had a fever. <br><br>I use bleach when cleaning all the time.<br><br>Boy, maybe that&#x27;s what is wrong with me. LOL!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Feb 09, 2006 10:46 am</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">For anyone new to the MSDS discussion just bear in mind that the data sheets often make it sound like the world will come to an end if you don&#x27;t wear a hazmat suit while using most substances.<br><br>Of course, there are a few chemicals where you actually <em>will</em> die if you breath in just a little bit.<br><br>When in doubt, ask. There are people who know chemistry here.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">tpark</span>
+                <span class="post-date">Thu Feb 09, 2006 3:35 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Yeah, most chemistry isn&#x27;t too scary, and with proper ventilation and protection, and a bit of caution, you can make holograms and still live a relatively long time! Materials containing mercury, lead, thallium and other unhealthy materials should be treated with care. Also, chromium compounds can cause health problems too. <br><br>Strong bases such as potassium hydroxide or sodium hydroxide, or acids such as sulfuric or hydrochloric acid should be treated carefully, but with proper protection and a reasonable degree of caution, they aren&#x27;t a problem to use. <br><br>Some chemicals aren&#x27;t super toxic, but can cause problems because of a tendency to go boom or catch fire. Be careful with peroxides, or chlorates (like potassium chlorate). Fortunately such materials aren&#x27;t used for holography. <br><br>Just take a bit of care, and you&#x27;ll live to a ripe old age and have all your fingers still</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 4:53 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">So I guess I will just skip the construction of the fume hood then. I can use the extra storage space in my garage.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 6:45 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">Ok, I will have finished coating my plates (30 microscope slides) tonight.<br><br>When they harden in the oven, I want to start mixing the chemicals. I have exactly one gram of Pinacyanol Chloride. Can I just dump this in the 500ml of Methanol and use it as a stock solution? It seems impossible to do otherise I guess, because it is very syruppy and thus difficult to divide into smaller measures.<br><br>p.s. How far are you on your way MichaelH? I feel the adrenaline of the race starting to stir my vanes. I only have until tomorrow evening. After that I have to fly for seven days.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Feb 09, 2006 7:46 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> p.s. How far are you on your way MichaelH? I feel the adrenaline of the race starting to stir my vanes. I only have until tomorrow evening. After that I have to fly for seven days.<br><br>Not too close. I&#x27;ve got the last few chemicals and a ph meter arriving today and tomorrow. I&#x27;ve had no luck winning a magnetic hotplate stirrer on the various sites so I&#x27;ll have to stir by hand. I haven&#x27;t yet figured out how I&#x27;m going to improvise an oven. I&#x27;ve got all sorts of obligations going this weekend so I hope your significant other distracts you long enough for me to at least catch up with you.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 8:15 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">You still stand a good chance of winning. You can easily stir the gelatin on a normal kitchen hot plate and a spoon. I found that method just as quick. I bought a small, very cheap culinary oven to harden the gelatin in. But I guess an old pan in an ordinary oven, set to 50C should work just as well.<br><br>Problem is that I still have to prepare for my flight on Saturday.<br><br>p.s. Does anyone holographer live close to Las Vegas? I will be there for work next week for a few days.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Feb 09, 2006 8:54 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">I took and old toaster oven and modified it with a metal diffusing plate on the bottom, then I drilled a hole in the top down into the unit where I place a cullinary thermometer. It works pretty good and only fluxuates about +-5 degrees F when on bake.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 10:04 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">What is a diffusing plate John? Does it help to stabilize the temperature?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Thu Feb 09, 2006 11:18 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Ok, I will have finished coating my plates (30 microscope slides) tonight.When they harden in the oven, I want to start mixing the chemicals. I have exactly one gram of Pinacyanol Chloride. Can I just dump this in the 500ml of Methanol and use it as a stock solution? It seems impossible to do otherise I guess, because it is very syruppy and thus difficult to divide into smaller measures.Yes you can do this although my formula said 1 gram per 1000ml not 500ml. 1 gram will actually all dissolve up fine in 500 ml methanol and then you could halve the quantity in the formula, ----probably a good idea.However if you could manage just to do 0.5g in 500 ml I will later reveal apretty remarkable extra trick you can do with the other half gram.It is not at all &quot;syruppy&quot;I cant understand why you said this.jeffp.s. How far are you on your way MichaelH? I feel the adrenaline of the race starting to stir my vanes. I only have until tomorrow evening. After that I have to fly for seven days.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Feb 09, 2006 11:26 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">It is basically a piece of metal slightly smaller then the size of the bottom with air spaces around the side to keep the direct radiation of the heating elements from causing hot spots when they came on. It sets on rack built into the toaster oven. It diffuses the heat more evenly and was an idea of Jeff Blyth&#x27;s.<br><br>I only used the oven to heat raw glass and never to harden the emulsion via heat until Jeff&#x27;s suggestions.<br><br>You know this is actually a good thought provoker. I never looked to see if the top elements came on and they too might need some kind of shield to keep hot spots off the plate. Jeff, what do you think?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Thu Feb 09, 2006 11:44 pm</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> It is basically a piece of metal slightly smaller then the size of the bottom with air spaces around the side to keep the direct radiation of the heating elements from causing hot spots when they came on. It sets on rack built into the toaster oven. It diffuses the heat more evenly and was an idea of Jeff Blyth&#x27;s.I only used the oven to heat raw glass and never to harden the emulsion via heat until Jeff&#x27;s suggestions.You know this is actually a good thought provoker. I never looked to see if the top elements came on and they too might need some kind of shield to keep hot spots off the plate. Jeff, what do you think?<br><br>Actually the overhead grill elements dont operate on the ovens I know of unless you actually switch it to &quot;grill&quot; setting. Otherwise the heating elements are behind iron side panels. I suppose direct IR from a grill might &quot;do things&quot;. We are only running at lowish temperatures I suggested ~60C for the Cr hardening for the silver bromide system, (but 100C for the DCG system).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Feb 09, 2006 11:51 pm</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Ah, I&#x27;m sorry Jeff, I misread about the amount of Pinacyanol. You are right of course, it did say 1g/1000ml. <br><br>When I look into the miniature brown container it looks as if it is syruppy. I cannot make it move. I cannot even see well if it is a liquid or a solid. Perhaps it is a fine powder that has clumped to the bottom of the mini-bottle?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Feb 10, 2006 12:27 am</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">I just checked again. It is a powder. In that case it should be no problem for me to measure half a gram. I bought an electronic scale for just that purpose (precision 0.01g).<br><br>You will win the contest Michael. <br><br>I don&#x27;t know what went wrong here, but something happened when I coated the microscope slides. I will try to analyse.<br><br>YESTERDAY I did several test coatings without hardening to practise with the gelatin as follows:<br><br>- 30g of gelatin in 170ml of tap water heated to about 45C<br><br>- Treated one piece of picture frame glass with rain-x and taped it off on the sides with Scotch tape (spacers). <br><br>- Cleaned another piece of picture frame glass with a bar of soap.<br><br>- Poured a small quantity of gelatin on the (pre-heated) soap bar cleaned glass<br><br>- Gently put the rain-x&#x27;ed glass on top of it<br><br>- Put both in the refrigerator for 30 minutes.<br><br>Now I practiced this about 5 times to make sure I got that part right. Each time a beautifull flat gelatin layer stayed on the soap cleaned glass when I seperated the two pieces. The thickness was somewhere between 5um and 10um.<br><br>TODAY I did this:<br><br>- 30g of gelatin in 170ml of water from my OSMOSE filter, heated to 57C<br><br>- Treated 8 microscope slides with rain-x and taped them off on the sides with Scotch Tape (spacers).<br><br>- Subbed 8 other slides with Chloride for about 4 hours, and then scrubbed them with a mix of 2ml silane in 100ml Acetone. Let the slides rest for about 4 hours. Then cleaned them with methyl alcohol.<br><br>- Poured small amount of gelatin (57C) on the pre-heated silaned slides.<br><br>- Gently put the rain-x&#x27;ed slides on top of them.<br><br>- Put all of them in the refrigerator for 30 minutes.<br><br>AMAZINGLY the gelatin now has a preference to stick to the RAIN-X&#x27;ed slides. Also the cooled gelatin is not nearly as solid now as the gelatin I made yesterday. It is more like a semi solid slime. I don&#x27;t know what went wrong???<br><br>I will now roll up into a little depressed fluffy ball in the corner of my living room, not much unlike a sad hamster without food for the coming winter, and in shame of loosing your challenge contemplate where was my error today.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jean</span>
+                <span class="post-date">Fri Feb 10, 2006 8:26 am</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> ...TODAY I did this:- 30g of gelatin in 170ml of water from my OSMOSE filter, heated to 57C- Treated 8 microscope slides with rain-x and taped them off on the sides with Scotch Tape (spacers).- Subbed 8 other slides with Chloride for about 4 hours, and then scrubbed them with a mix of 2ml silane in 100ml Acetone. Let the slides rest for about 4 hours. Then cleaned them with methyl alcohol.- Poured small amount of gelatin (57C) on the pre-heated silaned slides.- Gently put the rain-x&#x27;ed slides on top of them.- Put all of them in the refrigerator for 30 minutes.AMAZINGLY the gelatin now has a preference to stick to the RAIN-X&#x27;ed slides. Also the cooled gelatin is not nearly as solid now as the gelatin I made yesterday. It is more like a semi solid slime. I don&#x27;t know what went wrong???<br><br>Make sure you rince well your plates after Bleach cleaning. I use a little bit of dishwasher soap to do this, rinse in DI water, dry with clean tissu or paper towel. I use Windex to finish (to be sure).<br><br>For the silane, I&#x27;m always waiting for at least 24 hours after application. 3 or 4 days seems beter.<br><br>I never heat gelatin more than 45°C but can depend of your gelatin, I see it&#x27;s one of the variable you changed thus need more time to gelify.<br><br>Try to avoid the 30 minutes in refrigerator, I&#x27;ve always some troubles like yours when I tried this (pure gelatin or mb-dcg).<br><br>Of course, you need to wait more time, but as you use microscope slides, I think 45 minutes at room temp. should be ok.<br><br>What&#x27;s the room temp. ? Not sure but can play a role, as well as the HR.<br><br>&gt; I will now roll up into a little depressed fluffy ball in the corner of my living room, not much unlike a sad hamster without food for the coming winter, and in shame of loosing your challenge contemplate where was my error today.<br><br>Welcome aboard. I&#x27;ve stopped counting my bad batchs once I reached the overflow limit of my calculator.<br><br>Failures can help us to go farther. Believe me, success waits you on the finish line !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Fri Feb 10, 2006 1:49 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> You will win the contest Michael.<br><br>Only if I get really lucky. I&#x27;ve only had one session of pour-coating two plates so I&#x27;ve still got a lot of learning to do.<br><br>Like Jean I also wonder how important RH is to the gelling process. I&#x27;ll be recording temp and RH as I go so I&#x27;ll at least be able to share what mine was.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Feb 10, 2006 1:53 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">Michael this is a good thread. I believe it deserves it&#x27;s own subject.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Fri Feb 10, 2006 2:07 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">I&#x27;ve thought of that but I can&#x27;t split threads. I could start another or attempt to resurrect an old one but there&#x27;s still good meat here. I&#x27;m hoping Colin will split this off soon.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Feb 19, 2006 11:29 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">I tried practice coating another batch of silane treated slides. I re-treated the original slides with silane. And I treated a piece of picture frame glass. This time by immersing the slides/picture frame glass in acetone(100ml) / silane (1ml) solution. <br><br>When I try to mold coat a layer onto a picture frame glass, the coating sticks to the silane treated glass, and not to the rain-x treated other glass (with the scotch tape used for separating). This is as it should be I guess. <br><br>When I try the same with the slides, the gelatin always sticks to the rain-x treated slide (with scotch tape separators on the side) and not to the silane treated slide. No exceptions here. It almost seems as if the slides become gellofobic from the silane treatment. <br><br>- Could it be that there is something wrong with my silane? <br><br>- How can I diagnose the condition of my silane solution?<br><br>I learned the funny way today why the Chrome Alum hardening bath needs to be cold when immersing the plate in it. I also now understand why I should listen more carefully to useful tips and not use heated air to then dry the plate after that.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Feb 19, 2006 11:55 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">im not sure the cast/coating method works so well on small pieces...<br><br>can you use a different method to coat ,or use larger pieces of glass?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 20, 2006 12:18 am</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">The picture frame glass is about 10x15cm. On that the gelatine does stick on the silane treated glass. But it does not seem to stick as well as it used to before I treated it with silane. Before, the gelatine was firmly stuck to the glass after I had it dried thoroughly in a small oven at about 45C. I could not even peel it off with my finger nails then. <br><br>But after the silane treatment it is as if it really wants to peel off. I easlily rub the dried gelatin off by just gently rubbing it with my finger nail. Is there some type of common mistake I could have done with the silane treatment?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Feb 20, 2006 12:26 am</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> .......................When I try the same with the slides, the gelatin always sticks to the rain-x treated slide (with scotch tape separators on the side) and not to the silane treated slide. No exceptions here. It almost seems as if the slides become gellofobic from the silane treatment.- Could it be that there is something wrong with my silane?- How can I diagnose the condition of my silane solution?I learned the funny way today why the Chrome Alum hardening bath needs to be cold when immersing the plate in it.I also now understand why I should listen more carefully to useful tips and not use heated air to then dry the plate after that.<br><br>Did you leave the silane treated slides open to the air for several hours ?<br><br>The silane layer needs to &quot;hydolyse&quot; with ambient humidity so that it forms SiOH groups which then adhere to the similar bonds on the glass surface. If you don&#x27;t give it time to hydrolyse you might get the trouble you describe. Incidentally I now find that I can get at least as good a bond by using only o.2 ml in 100 cc acetone. It being only a surface effect of course. <br><br>Using a long sheet of glass and the Dave Battin coating method would make things easier for you I think.<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 20, 2006 12:38 am</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">The first time I treated the glass by rubbing it with a 2ml solution of silane in 100ml acetone until dry. Interesting crackly grey patterns became visible on the glass. I let the glass slides alone for about 4 hours and then cleaned them with methanol until the grey patterns were no longer visible.<br><br>The second time I treated the glass slides (+ picture frame glass this time), I submerged them in a 1ml solution of silane in 100ml of acetone. Again interesting grey patterns became visible, but more diffuse this time. I then air dried them on the radiator in my living room (about 30C), and let them rest there during the rest of the night (about 15 hours). After that I cleaned them with a bar of soap and water.<br><br>Can it be that there is not enough moisture in my house? Should I put the slides in a small oven with a cup of water next to them? Is it possible that my silane is bad?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Feb 20, 2006 1:06 am</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> The first time I treated the glass by rubbing it with a 2ml solution of silane in 100ml acetone until dry. Interesting crackly grey patterns became visible on the glass. I let the glass slides alone for about 4 hours and then cleaned them with methanol until the grey patterns were no longer visible.The second time I treated the glass slides (+ picture frame glass this time), I submerged them in a 1ml solution of silane in 100ml of acetone. Again interesting grey patterns became visible, but more diffuse this time. I then air dried them on the radiator in my living room (about 30C), and let them rest there during the rest of the night (about 15 hours). After that I cleaned them with a bar of soap and water.Can it be that there is not enough moisture in my house? Should I put the slides in a small oven with a cup of water next to them? Is it possible that my silane is bad?<br><br>I would doubt if the relative humidity in your room is much below 50%.<br><br>There is water in the acetone which is why you need to make fresh solution up each time because after about 30 mins the silane can hydrolyse in the acetone instead of on the glass surface.<br><br>When you describe &quot;grey&quot; patterns are they removable by mild scratching with your nail?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 20, 2006 1:32 am</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">I have not really tried scratching away the post treatment patterns with a finger nail, but they need a very thorough rubbing with methanol or soap water to be removed. It looks like some sort of white/gray crystallization on the surface of the glass.<br><br>One thing I noticed with non-treated glass is that the gelatin sicks to the glass also on the edges of a small gelatin puddle when it is smeared out and dried well. I can then not even scratch that off with a finger nail. With the treated glass, the edge of a smeared gelatin puddle will curl up a little after drying. I can then easily pull the whole sheet of gelatin off.<br><br>I will try tomorrow if I get the same patterns on the glass if I treat it with Acetone (without silane additive). At least I will know then what causes the crackly patterns.<br><br>p.s. It is really cold in my garage (about 5C). Could that perhaps cause problems with treatment? I did pre-heat the glass with a hair drier before scrubbing/subbing.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Mon Feb 20, 2006 2:28 am</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Can it be that there is not enough moisture in my house? Should I put the slides in a small oven with a cup of water next to them? Is it possible that my silane is bad?<br><br>is it possible too much saline is left behind?<br><br>i tried a test run to see how the saline/acetone mixture worked. after subbing and drying my plate i sprayed a small amount of the saline/acetone mixture onto a soft paper towel and rubbed it over the surface (coating it and leaving a sworl mark or two) after an hour or two the plate seemed to have dryied clear and i gave it the finger test and i could feel the tackiness of the surface, and the clean side of the glass felt almost greasy compared to the treated side...........</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Feb 20, 2006 3:17 am</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">&gt; <strong>dave battin:</strong> ........is it possible too much silane is left behind?...........<br><br>Yes that is a good point Dave. Hans said he did another silanizing step on top of one he did before. <br><br>This silane stuff bonds more strongly to glass than it does to itself. So thicker layers not only leave marks but they are not as strong as an ideal monolayer on the glass although they are still OK and good enough. <br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Mon Feb 20, 2006 3:34 am</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> What is a diffusing plate John? Does it help to stabilize the temperature?<br><br>i use a marble tile cut to fit inside my toaster oven to act as a diffuser plate</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 20, 2006 12:16 pm</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">So I guess that the marks are polymer strings of silane? That would mean that my silane has not gone bad. Is it possible that I tried to clean the glass too well afterwards and thus rubbed off the new silane layer?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Feb 20, 2006 2:21 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> So I guess that the marks are polymer strings of silane? That would mean that my silane has not gone bad. Is it possible that I tried to clean the glass too well afterwards and thus rubbed off the new silane layer?<br><br>The ultimate monolayer requirement on the glass is very tightly bonded.<br><br>However I do sometimes wonder about the amine part of the molecule. That is the essential linking part to the gelatin. <br><br>The amino propyl silane manufacturers do give an example of silanizing <br><br>glass sheets with their stuff dissolved in an ethanol bath. <br><br>In one example sheets were then left out at room temp. for 12 hrs or left in a warmer at 60C. for 30 mins. (obviously not with wet ethanol on the sheets still).<br><br>It could be that your &quot;5C&quot; garage is too damn cold at the moment I am afraid.<br><br>jeff<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Feb 20, 2006 2:58 pm</span>
+                <span class="post-number">#55</span>
+            </div>
+            <div class="post-body">I will try to silane some glasses in my (much warmer) house this evening. Here are some pictures of the separation:<br><br>![Image](http://www.hologramhans.com/pictures/Warm%20Chrome%20Alum.jpg)<br><br>In this photo the effect can be seen of when I did not heed the warning about having a chilled solution of Chrome Alum. <br><br>![Image](http://www.hologramhans.com/pictures/Victorial%20Curtain%20Coated%20Separation.jpg)<br><br>Here is a slide I coated with the Victorian Curtaining method. This time subbed in a chilled solution of Chrome Alum, then dried over night in cool air then inserted in the oved at about 40C. The gelatin started separating almost instantly.<br><br>![Image](http://www.hologramhans.com/pictures/Separation%20on%20Mold%20Coated%20plate.jpg)<br><br>This is the Mold Coated picture frame plate. Separation at the edges, and at one place more in the middle of the plate.<br><br>The blue drop-like features in the photo&#x27;s are crystallized Chrome Alum salt leftovers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jean</span>
+                <span class="post-date">Mon Feb 20, 2006 3:28 pm</span>
+                <span class="post-number">#56</span>
+            </div>
+            <div class="post-body">I got often the same problems of crisp gelatin in the chromium bath, and even in plain DI water.<br><br>I found if I wait 2 or 3 days after silane application to coat, gelatin stay beter in the chromium bath.<br><br>now, I wait at least 24 hours between coating, hardening and silver loading, at room temp.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 21, 2006 1:12 pm</span>
+                <span class="post-number">#57</span>
+            </div>
+            <div class="post-body">I again will have to state my proceedures as I have never had emulsion lifts. I have used both plain gelatin and full emulsions.<br><br>I take my glass, new or previously coated, and place in a 3% solution of Hydrochloric acid (readily available in low concentrationfrom hardware store as Muriatic Acid) in a plastic sealable container. I leave there overnight or longer, sometimes weeks. Basically, if a hologram is not to be saved I put it and store it in the solution. When I am cooking my gelatin, I take the glass out of the container one by one and scrub it with a plastic wool (used for Teflon pans) while wearing rubber gloves. And then place in a tray under running tap water. When I have done all the plates I want to do I take each of the plates again and scrub them with the plastic wool again under running water and plate in a 45 degree angle drying rack. Before all the water has evaportated off the glass I take each and still wearing rubber gloves (to keep oils off from the hands) dry the plates with a 1/4 sheet of paper towel. I use one sheet of paper towel in my left hand to hold the edges of the glass and a second sheet in my right hand balled up. I rub the glass across and up and down and turn the balled up towel until it is felt and heard that there is no more moisture on the glass. Then I do the other side. I place the glass horizonally on a paper towel layed out on the work surface. Depending on the coating thickness I want the my ambient room temperature, I may coat directly or place the plates in an oven to warm (up to 120F.) By the time I am done, the gelatin mixure has cooked. At this point I take the glass, hit it with a blast of air from canned air (for computers) and coat. <br><br>Whether plain gel or fully mixed emulsion, I have never had emulsion lift. When drying with the balled up paper towel I can feel different textures to the opposite sides of the glass. But no matter which side I use, I still do not experience emulsion lifts.<br><br>It may be worth a try.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Tue Feb 21, 2006 1:37 pm</span>
+                <span class="post-number">#58</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> I again will have to state my proceedures as I have never had emulsion lifts. I have used both plain gelatin and full emulsions.I take my glass, new or previously coated, and place in a 3% solution of Hydrochloric acid (readily available in low concentrationfrom hardware store as Muriatic Acid) in a plastic sealable container. I leave there overnight or longer, sometimes weeks. Basically, if a hologram is not to be saved I put it and store it in the solution. When I am cooking my gelatin, I take the glass out of the container one by one and scrub it with a plastic wool (used for Teflon pans) while wearing rubber gloves. And then place in a tray under running tap water. When I have done all the plates I want to do I take each of the plates again and scrub them with the plastic wool again under running water and plate in a 45 degree angle drying rack. Before all the water has evaportated off the glass I take each and still wearing rubber gloves (to keep oils off from the hands) dry the plates with a 1/4 sheet of paper towel. I use one sheet of paper towel in my left hand to hold the edges of the glass and a second sheet in my right hand balled up. I rub the glass across and up and down and turn the balled up towel until it is felt and heard that there is no more moisture on the glass. Then I do the other side. I place the glass horizonally on a paper towel layed out on the work surface. Depending on the coating thickness I want the my ambient room temperature, I may coat directly or place the plates in an oven to warm (up to 120F.) By the time I am done, the gelatin mixure has cooked. At this point I take the glass, hit it with a blast of air from canned air (for computers) and coat.Whether plain gel or fully mixed emulsion, I have never had emulsion lift. When drying with the balled up paper towel I can feel different textures to the opposite sides of the glass. But no matter which side I use, I still do not experience emulsion lifts.It may be worth a try.<br><br>After our last discussion on this here I did take some clean glass and treated it overnight in 3% HCl then rinsed it and then did a gelatin only coat . ---It did not key on at all well. At the same time I also compared it to glass treated with just TSP or tri sodium phosphate solution 5%. That one did work quite well. Now I learn that you allow this HCl soln to act for a really long time and not the least of your success may be due to quite a bit of elbow grease. I admit that I did not try that hard to make the HCl<br><br>work as it hardly seems likely to be chemically reactive on glass compared to the highly alkaline TSP. You have obviously got the nack<br><br>necessary John.<br><br>jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 21, 2006 2:25 pm</span>
+                <span class="post-number">#59</span>
+            </div>
+            <div class="post-body">Humm.... I do remember using fresh bought glass and soaking it for a hour or so and had no problems. Maybe it is the way I double wash and dry with a towel.<br><br>The only reason I dry with a towel as I described comes from experience in cleaning a house window or car windshield. No matter which cleaner is used (Ammonia, Windex, Vinegar and water). After spraying on the cleaner and wiping there is alway streaking. But if you continue to rub turning the towel often until you feel the towel and glass are dry you can rub all the streaks away. I just try to apply that same technique and it has worked.<br><br>Jeff, thanks for the feedback.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Feb 22, 2006 2:58 am</span>
+                <span class="post-number">#60</span>
+            </div>
+            <div class="post-body">Hans , how long beteween coating and the hardening step? it takes at least 45min. -one 1/2 hours for the gel to set and dry. I&#x27;m waiting for my new coated plates to dry .............and ill try to get them in the harding bath tonight.<br><br>one hour later;<br><br>well well i have never seen the gelatin jump off the plate !LOL<br><br>i was cutting my jelled plates into small pieces to place them in the crome bath and i heard this crackle like noise and what do i see ,the emultion rolling up and off the plate! ill take jeans suggestion and wait 24 hours after the saline application to proceed. <br><br>im going to have to table this project for a short while as im taking a holiday and will return to it in ten days or so please stand by........</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Feb 22, 2006 9:19 am</span>
+                <span class="post-number">#61</span>
+            </div>
+            <div class="post-body">I have tried waiting between 1 hour and 24 hours. But always with the same results. I have to hold experimenting as well now. Today I fly again untill next monday.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jean</span>
+                <span class="post-date">Wed Feb 22, 2006 10:06 am</span>
+                <span class="post-number">#62</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> I have tried waiting between 1 hour and 24 hours. But always with the same results. I have to hold experimenting as well now. Today I fly again untill next monday.<br><br>Between each step ? Or only between silane and coating ?<br><br>Have a nice trip.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Feb 22, 2006 10:11 am</span>
+                <span class="post-number">#63</span>
+            </div>
+            <div class="post-body">The longest I waited between silane and coating was 36 hours. The longest between coating and hardening was 24 hours.<br><br>I am sure now that I am doing something wrong with the silane. My plates don&#x27;t feel sticky at all aferwards. Perhaps that A1100 stuff from the Tips&amp;Tricks section would suit me better? It comes pre-mixed in liter bottles.<br><br>Thanks, till monday.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Feb 22, 2006 11:45 am</span>
+                <span class="post-number">#64</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Perhaps that A1100 stuff from the Tips&amp;Tricks section would suit me better? It comes pre-mixed in liter bottles.Thanks, till monday.<br><br>thats what im using ...............</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Tue Mar 21, 2006 11:14 pm</span>
+                <span class="post-number">#65</span>
+            </div>
+            <div class="post-body">I finally succeeded in keeping the coating on the glass throughout the process. Not with the silane pre-treatment, but by pre-soaking the plate in a very low concentration of gelatine+chrome alum. I let the super thin film harden in a small oven. That created a very thin coating, that could be made visible by breathing on the plate. A coated plate will show pretty oily colorations then. A non-coated plate just shows the fog from my breath. Then I applied a layer of the higher concentration gelatine with the mold method and hardened that afterwards in Chrome Alum + oven.<br><br>I applied the AgNO3 and afterwards a 3 minute dip in the LiBr+dye (I chose a longer time because of the cold temperature in my garage). I noticed some of the dye had separated from the LiBr bath, but the liquid was still blue, so I guessed that it would still be ok.<br><br>I then exposed for 30 seconds (denisyuk) under about 20mW beam. During development I noticed a very, very slight darkening on part of the plate... Then I bleached and dried with a hair drier. Nothing was visible in the end...<br><br>Are the homemade plates a lot less sensitive compared to PFG-01? Or should I make a new stock solution of LiBr+dye?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Wed Mar 22, 2006 12:01 am</span>
+                <span class="post-number">#66</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> I finally succeeded in keeping the coating on the glass throughout the process. Not with the silane pre-treatment, but by pre-soaking the plate in a very low concentration of gelatine+chrome alum. I let the super thin film harden in a small oven. That created a very thin coating, that could be made visible by breathing on the plate. A coated plate will show pretty oily colorations then. A non-coated plate just shows the fog from my breath. Then I applied a layer of the higher concentration gelatine with the mold method and hardened that afterwards in Chrome Alum + oven.I applied the AgNO3 and afterwards a 3 minute dip in the LiBr+dye (I chose a longer time because of the cold temperature in my garage). I noticed some of the dye had separated from the LiBr bath, but the liquid was still blue, so I guessed that it would still be ok.I then exposed for 30 seconds (denisyuk) under about 20mW beam. During development I noticed a very, very slight darkening on part of the plate... Then I bleached and dried with a hair drier. Nothing was visible in the end...Are the homemade plates a lot less sensitive compared to PFG-01? Or should I make a new stock solution of LiBr+dye?<br><br>. <br><br>Hans you don&#x27;t mention the final sensitizing step after the LiBr bath ,<br><br>this is essential . You need to dip the rinsed plate in 1% Ascorbate at pH about 6. Reduction sensitization is essential before exposure.<br><br>It should have been plenty sensitive and should have developed up quickly<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Mar 22, 2006 12:10 am</span>
+                <span class="post-number">#67</span>
+            </div>
+            <div class="post-body">I forgot to mention that I did sensitize in TEA,and dried as a final step. But I did not do the dip in the ascorbate bath. Should I have done the ascorbate final bath even when treating with TEA?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Mar 22, 2006 12:32 am</span>
+                <span class="post-number">#68</span>
+            </div>
+            <div class="post-body">Also, I did not mention that I developed in JD-2. Should I have used a different type of developer?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Wed Mar 22, 2006 1:29 am</span>
+                <span class="post-number">#69</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Also, I did not mention that I developed in JD-2. Should I have used a different type of developer?<br><br>I dont think the developer makes much difference to your &quot;no-show&quot; result. TEA on its own should be fine as sensitizer so that leaves the question of the dye. Perhaps too much has come out of solution. Try adding more alcohol to the LiBr bath and stirr it round , the dye should go back into solution. <br><br>Another thought, Did you blow dry the plate so that it was not swollen before you put it in the Br- bath? --Otherwise the AgNO3<br><br>migrates out faster than the LiBr migrates in.<br><br>------------------------------------------<br><br>A good Developer is :<br><br>Solution A<br><br> 40 g ascorbic acid <br><br>6 g “Metol” 4-methylaminophenol <br><br>Made up to 1 litre in distilled or deionized water<br><br>Solution B <br><br>100 g anhydrous sodium carbonate ( Na2CO)3 <br><br>30 g Sodium hydroxide (NaOH). <br><br>Made up to 1 litre in distilled or deionized water<br><br>Mix equal volumes of A and B for the developer.<br><br>The mixture should be used in a plastic dish with an identical dish floating on the top so that there is a minimal air gap. If you use it like this the same developer can be used again and again for many days (depending on how much usage of course) otherwise this developer left in an open dish is more vulnerable to oxidation from the air than standard developers because it deliberately does not contain sulfite ions. So the time the developer spends exposed to the air is low when you use a floating dish and it is only while immersing your plates or taking them out that it is fully open to the air. Unmixed solutions A and B keep indefinitely. A yellowing or browning of solution A is OK . ( Badly oxidized solution A is BLACK).<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Mar 22, 2006 7:09 am</span>
+                <span class="post-number">#70</span>
+            </div>
+            <div class="post-body">I did blow dry the plate until it looked dry to me in the safety light. One thing that I forgot though is to wash the TEA out before developing. I will try again when I come back from my flight next week. I will try to get the dye back in the solution with alcohol.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Wed Mar 22, 2006 8:56 am</span>
+                <span class="post-number">#71</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> I did blow dry the plate until it looked dry to me in the safety light. One thing that I forgot though is to wash the TEA out before developing. I will try again when I come back from my flight next week. I will try to get the dye back in the solution with alcohol.<br><br>It&#x27;s perfectly OK to leave the TEA in when you go into dev solution ,it is even possibly good for it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Wed Mar 22, 2006 12:05 pm</span>
+                <span class="post-number">#72</span>
+            </div>
+            <div class="post-body">&gt; <strong>jeff-blyth:</strong> Hans wrote:I did blow dry the plate until it looked dry to me in the safety light. One thing that I forgot though is to wash the TEA out before developing. I will try again when I come back from my flight next week. I will try to get the dye back in the solution with alcohol.It&#x27;s perfectly OK to leave the TEA in when you go into dev solution ,it is even possibly good for it.<br><br>Really? All the literature I&#x27;ve read (which isn&#x27;t by any means <em>all</em> the literature) says that it causes fogging if not washed out.<br><br>Granted, I haven&#x27;t done my own tests. Have you done this with only your emulsion or with slavich, agfa, etc as well?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Wed Mar 22, 2006 12:15 pm</span>
+                <span class="post-number">#73</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> Really? All the literature I&#x27;ve read (which isn&#x27;t by any means <em>all</em> the literature) says that it causes fogging if not washed out.<br><br>Note, in a great many developer formulas TEA is present. It serves as an accelerator.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Wed Mar 22, 2006 12:58 pm</span>
+                <span class="post-number">#74</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> jeff-blyth wrote:Hans wrote:I did blow dry the plate until it looked dry to me in the safety light. One thing that I forgot though is to wash the TEA out before developing. I will try again when I come back from my flight next week. I will try to get the dye back in the solution with alcohol.It&#x27;s perfectly OK to leave the TEA in when you go into dev solution ,it is even possibly good for it.Really? All the literature I&#x27;ve read (which isn&#x27;t by any means <em>all</em> the literature) says that it causes fogging if not washed out.Granted, I haven&#x27;t done my own tests. Have you done this with only your emulsion or with slavich, agfa, etc as well?<br><br>I will hazzard my own guess and say that the literature you read about this was from someone who made their own wrong guess when they got a <br><br>&quot;fogging&quot; result. Which presumably means that in the finished hologram scatter was noticed. If it did mean genuine fogging without light ie a subdued brightness then the assumption that it was due to leaving the TEA on during dev step was wrong in my opinion. <br><br>The cause of the trouble from TEA either from scatter or fog is due to a gradual deterioration over time. With the old relatively fast Agfa 8E75HD I used to find this trouble if I left &quot;TEAed&quot; plates for a week before exposure. (My guess is that it was either caused by neighboring grains actually managing to coalesce with the TEA acting as a viscous solvating medium for AgBr grains or alternatively by straight chemical fog<br><br>or very slow development of AgBr grains which would happen in any developer given enough time. .<br><br>I have been pleasantly surprised to find though that I can get away with using BB640 plates that had been 5%TEAed several months previously! and not even refrigerated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 23, 2006 1:04 am</span>
+                <span class="post-number">#75</span>
+            </div>
+            <div class="post-body">&gt; <strong>jeff-blyth:</strong> I will hazzard my own guess and say that the literature you read about this was from someone who made their own wrong guess when they got a &quot;fogging&quot; result.<br><br> Saxby, PH 3rd edition pg 265 &quot;when you come to the processing, give the emulsion a good pre-wash before you develop it, as the combination of TEA and developer is a powerful foggant.&quot;<br><br>I haven&#x27;t the time to find other references but find this interesting but typical of the holographic process. Is there nothing that can be taken as read?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Thu Mar 23, 2006 3:28 am</span>
+                <span class="post-number">#76</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> jeff-blyth wrote:I will hazzard my own guess and say that the literature you read about this was from someone who made their own wrong guess when they got a &quot;fogging&quot; result.Saxby, PH 3rd edition pg 265 &quot;when you come to the processing, give the emulsion a good pre-wash before you develop it, as the combination of TEA and developer is a powerful foggant.&quot;I haven&#x27;t the time to find other references but find this interesting but typical of the holographic process. Is there nothing that can be taken as read?<br><br>Thanks. I will check this out today.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Thu Mar 23, 2006 6:31 am</span>
+                <span class="post-number">#77</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> jeff-blyth wrote:I will hazzard my own guess and say that the literature you read about this was from someone who made their own wrong guess when they got a &quot;fogging&quot; result.Saxby, PH 3rd edition pg 265 &quot;when you come to the processing, give the emulsion a good pre-wash before you develop it, as the combination of TEA and developer is a powerful foggant.&quot;I haven&#x27;t the time to find other references but find this interesting but typical of the holographic process. Is there nothing that can be taken as read?<br><br>Yes it&#x27;s typical. Even if a particular statement about processing was correct when it was written, materials, contaminants, and processing environments change. Nothing should be taken as Gospel. That said, I have not noticed any particular extra fogging from TEA in the emulsion for BB and Ultimate emulsions when developed with metol/ascorbic acid at my low basement temperatures (~10C). Even so, when using TEA, I superstitiously continue to pre-rinse in distilled water before developing - it can&#x27;t hurt (can it?), and I speculate that for very hard emulsions, a presoak could help the developer to penetrate the thickness of the emulsion more quickly for more even depth development... <br><br>Perhaps other developers are more sensitive to TEA?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Thu Mar 23, 2006 10:01 am</span>
+                <span class="post-number">#78</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> ............taped it off on the sides with Scotch tape (spacers).....The thickness was somewhere between 5um and 10um..............Then I applied a layer of the higher concentration gelatine with the mold method and hardened that afterwards in Chrome Alum + oven.......I then exposed for 30 seconds (denisyuk) under about 20mW beam. During development I noticed a very, very slight darkening on part of the plate... Then I bleached and dried with a hair drier. Nothing was visible in the end...<br><br>Hans,<br><br>Are you sure that your emulsion is between 5um and 10 um?<br><br>A 10 um spacer will give a 10 um wet-gelatin layer.<br><br>The thickness of the dry gelatin will be about 15%, so 1.5 microns.<br><br>This is too thin, and will give no, or a very weak hologram.<br><br>I would suggest to develope one plate with the lights on.<br><br>The maximum achievable density will be so reached<br><br>and you can check if the reason for your problem is underexposure,<br><br>or a bad emulsion.<br><br>Last week, I have coated a plate.<br><br>I cut a small piece and tested it for Dmax. I measured a Dmax=1.6 only.<br><br>(... I have to investigate the reasons!)<br><br>I exposed the rest @633 nm, in a denisyuk setup.<br><br>The plate reached a D=1.2<br><br>Although weak, the hologram is very clear, without any noise, and with some bright spots</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Mar 23, 2006 11:40 pm</span>
+                <span class="post-number">#79</span>
+            </div>
+            <div class="post-body">I have bought a micrometer. But I forgot to measure the thickness before exposing/developing the plate. I am beginning to suspect the potency of my JD-2 now though. I have left some mixed A+B it in the tray after the test. It should have turned brown after about 24 hours. But it is still crystal clear. I will chuck a small piece of exposed PFG-01 in tomorrow to test that is not the problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Fri Mar 24, 2006 3:07 am</span>
+                <span class="post-number">#80</span>
+            </div>
+            <div class="post-body">&gt; <strong>Tom B.:</strong> MichaelH wrote:jeff-blyth wrote:I will hazzard my own guess and say that the literature you read about this was from someone who made their own wrong guess when they got a &quot;fogging&quot; result.Saxby, PH 3rd edition pg 265 &quot;when you come to the processing, give the emulsion a good pre-wash before you develop it, as the combination of TEA and developer is a powerful foggant.&quot;I haven&#x27;t the time to find other references but find this interesting but typical of the holographic process. Is there nothing that can be taken as read?Yes it&#x27;s typical. Even if a particular statement about processing was correct when it was written, materials, contaminants, and processing environments change. Nothing should be taken as Gospel. That said, I have not noticed any particular extra fogging from TEA in the emulsion for BB and Ultimate emulsions when developed with metol/ascorbic acid at my low basement temperatures (~10C). Even so, when using TEA, I superstitiously continue to pre-rinse in distilled water before developing - it can&#x27;t hurt (can it?), and I speculate that for very hard emulsions, a presoak could help the developer to penetrate the thickness of the emulsion more quickly for more even depth development...Perhaps other developers are more sensitive to TEA?<br><br>Yes I have now checked this out using cut up BB640 plates.<br><br>There is no sign what so ever of any additional fogging occurring if 10%<br><br>TEA is left on the plate when it goes into developer, compared to the same plate with the TEA washed off under running tap water for a minute before being put in the same developer. Furthermore lower down<br><br>on that page quoted by Michael, Graham goes on to recommend using an unexposed chip of plate to be put in the dev with your hologram and then when this chip has gone gray then it is time to take the hologram out .<br><br>&quot;Nothing will be gained by leaving in longer.&quot; he says.<br><br>In practice today if you worked like that then Slavich stuff should&#x27;nt be developed at all ! because unexposed plate goes gray almost at once ...<br><br>if you are lucky ...... usually I find they go much darker. The new Fuji material also I find has a certain fog level. However let&#x27;s get this in some perspective . In James&#x27; Theory of the Photographic Process some low inherent fog level is considered normal . Developers of the high contrast type which we require are a compromise to bring out the best contrast between the exposed and unexposed parts with respect to a short development time. If the unexposed bits did not have a slight fog level at all it would indicate the developer was unlikely to be satisfactory to get high fringe contrast.<br><br> THE real question is does this fog effect get much worse after plates have had a relatively short storage time ? Compared to photographic materials with vastly greater ASA values , holographic material should be able to be kept for years in really dry conditions without damned refrigeration being necessary. I have 25 years old Agfa 8E 75 <br><br>which makes a pretty good job of it. <br><br>jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Fri Mar 24, 2006 6:16 am</span>
+                <span class="post-number">#81</span>
+            </div>
+            <div class="post-body">&gt; <strong>jeff-blyth:</strong> The new Fuji material also I find has a certain fog level.<br><br>Yes, I noticed this on unexposed areas but I wasn&#x27;t at all alarmed since it cleared very rapidly in the bleach (a few seconds) compared to exposed areas. I wondered if it might be due to residual sensitivity to the safelight I was using (OptiLeds amber) when chopping up the sheets and setting up. Which reminds me I should do a safelight test...<br><br>Re my earlier statement about water presoak before developing possibly promoting more even development, I now realize that the argument could be turned around: that developer would more rapidly penetrate dry thirsty gelatin than it would diffuse into sopping wet gelatin. I dunno - I kind of suspect that it makes little or no discernable difference and my presoak routine is a meaningless, though comforting, ritual.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Fri Mar 24, 2006 10:23 am</span>
+                <span class="post-number">#82</span>
+            </div>
+            <div class="post-body">&gt; <strong>Tom B.:</strong> jeff-blyth wrote:The new Fuji material also I find has a certain fog level.Yes, I noticed this on unexposed areas but I wasn&#x27;t at all alarmed since it cleared very rapidly in the bleach (a few seconds) compared to exposed areas. I wondered if it might be due to residual sensitivity to the safelight I was using (OptiLeds amber) when chopping up the sheets and setting up. Which reminds me I should do a safelight test...Re my earlier statement about water presoak before developing possibly promoting more even development, I now realize that the argument could be turned around: that developer would more rapidly penetrate dry thirsty gelatin than it would diffuse into sopping wet gelatin. I dunno - I kind of suspect that it makes little or no discernable difference and my presoak routine is a meaningless, though comforting, ritual.<br><br>No your ritual routine is correct from a purist point of view. There are large osmotic pressure forces at work between virtually pure water saturating the emulsion and high ionic concentrations in the developer outside. Over the ~10 micron thickness of the emulsion these osmotic pressure forces act faster than it would take dry emulsion to imbibe developer solution and swell up. With very fast development times I have found that by looking at the absorption hologram in just silver without any bleaching , a reflection hologram can look fine on the emulsion side but then you see almost nothing through the glass side.<br><br>----In other words the development is so uneven that the back end of the hologram against the glass has perhaps got no fringe structure . Longer development time would have sorted this but then the front of the hologram would be getting over developed ie your dark fringes are starting to develop up. So you can have a catch up problem and a more broad band result because of unequal fringe thicknesses. But generally with moderately short dev times it does not seem to make much difference if you do just put your dry plate in the dev withou the presoak.<br><br>jeff</div>
+        </div>
+
+    <div class="thread-nav"><a href="5364.html" class="prev-thread">← Another ridiculous hologram story</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5362.html" class="next-thread">Spatial filtering for Color Holography →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="3136.html" class="card">
+                <h3>Cheap source for 80mw Laser Diode and nice optics.</h3>
+                <div class="card-meta">General Holography (old) · 24 posts</div>
+            </a>
+            <a href="8247.html" class="card">
+                <h3>Recommend cheap laser pointers for holography?</h3>
+                <div class="card-meta">Beginning Holography · 3 posts</div>
+            </a>
+            <a href="5880.html" class="card">
+                <h3>Cheap laser medium</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="5712.html" class="card">
+                <h3>Cheap source of Red LED&#x27;s</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5452.html" class="card">
+                <h3>Nice LAser source for Holography</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="5443.html" class="card">
+                <h3>Laser diode versus He-Ne source</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

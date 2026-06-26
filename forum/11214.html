@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dielectric mirror mystery — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11215.html" class="prev-thread">← Bayfol HX polymer</a><a href="Techniques.html">↑ Techniques</a><a href="11197.html" class="next-thread">Lume lightfield pad →</a></div>
+    <h1>Dielectric mirror mystery</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>66,805</td></tr>
+        <tr><td>Started</td><td>Wed Jan 05, 2022 5:56 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jrburns47.html">jrburns47</a> · <a href="../authors/john-klayer.html">John Klayer</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/142laser.html">142laser</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11214" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Wed Jan 05, 2022 5:56 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi all,<br><br>I’m testing a 660nm laser. I have both aluminum and dielectric 1” steering mirrors. The dielectric mirrors were bought years ago &amp; coatings were AR optimized for 514.5nm.<br><br>The mystery is that the OB measured power is ~38mw. When I measure it again after reflecting of an aluminum mirror, it’s a tiny bit less as expected. When I swap out the aluminum mirror for one of the 514.5nm AR coated dielectric mirrors, I get a reading of ~45mw!!! I gone back and forth several times, always measuring the beam power before the mirror and after reflection from each mirror.<br><br>I would welcome any thoughts on this mystery. Going to stick with the aluminum mirrors for now since there’s no way the reflected beam from the dielectric mirror could be reflecting more light than it’s receiving…<br><br>I’m using a Newport 840-C light meter with an 818 wand detector with attenuator in place.<br><br>Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Thu Jan 06, 2022 7:51 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Did you try rotating the detector? Could be polarization.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Jan 06, 2022 10:33 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Rotating the detector would detect no difference if the beam was polarised, since detector measure power, irrespective of polarisation. <br><br>I&#x27;m assuming the measurements were identical - the meter position (relative to mirrors), the input beam profile and mirror orientation were the same in both cases. I&#x27;m also assuming that the input beam is collimated. In this case, the only solution I can think of is that there is an aberration on the surface of the dielectric, causing the beam profile to change. Either the beam radius is decreasing, so that the aperture of the meter was not filled, or the beam radius is increasing, and there are stray reflections hitting the detector. Considering the increase in measured power, I would suspect the former. To test this, I&#x27;d put a card right up against the dielectric, and trace the beam profile as you move away from the mirror. if the beam radius is decreasing, it would explain your observation.<br><br>Joy thinks that the detector could be picking up something in the room. I would assume that if both measurements were taken under identical conditions, then this stray light would affect both mirrors the same way.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Thu Jan 06, 2022 11:01 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thank you John &amp; Dinesh &amp; Joy for your thoughts on this odd observation. I’m NOT going to dwell on it now since I’m on a deadline testing the 660nm laser and it would be all too easy to get sidetracked trying to understand what’s actually going on![🤪](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92a.svg)![😂](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f602.svg)! Since I don’t currently have any mirrors specifically optimized for high power 660nm, I was testing different beam steering mirror options I have immediately available to see which mirrors lose the least amount of light when reflecting the beam![😂](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f602.svg)! Suffice to say that I’m going with the aluminum mirrors for now because they behave as expected and light loss is minimal. I have three, more optimal (hopefully) mirrors, (Newport 10Q20BB.1) arriving in a few days from an eBay source.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Jan 09, 2022 10:05 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I&#x27;d suspect the attenuator slipped, letting a bit of light hit the unattenuated detector. Possible if using a raw beam, but especially if the beam overfills it. Wouldn&#x27;t take much. Might also have a pinhole in the attenuator.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Mon Jan 10, 2022 2:38 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The Newport attenuators can get pinholes eaten in the coatings that are way too small to see. I suspect your laser found one. However a gain chip mirror is a real cool idea....Hmmmmmmm Phil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Jan 11, 2022 11:08 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>142laserwrote:↑Mon Jan 10, 2022 2:38 pm:</strong> The Newport attenuators can get pinholes eaten in the coatings that are way too small to see. I suspect your laser found one. However a gain chip mirror is a real cool idea....HmmmmmmmPhil<br><br>It&#x27;s unlikely to be &#x27;pre-existing&#x27; holes in the attenuator (assuming &#x27;attenuator&#x27; stands for the covering on the meter head to limit the intensity on the photodiodes, and also assuming that the head Jody used had such an attenuator). If these holes already existed, then both mirror readings would have been affected equally. Since the ratio was being measured, presumably to get an idea of their efficiency, the ratio would be unaffected. Thus, if the readings without holes were i(nput reading) and o(utput reading), and the attenuator affected these readings by the factor β, then the ratio of unaffected readings would be o/i, and the affected readings would be βo/βi = o/i. This is an example of a systematic error most first year students learn in lab classes. <br><br>Also, if Jody took a series of measurements (he says he went &#x27;back and forth several times&#x27;), then it&#x27;s unlikely that the attenuator slipped between two readings in one set of measurements. This error would have to be corrected for the next set of readings on the first mirror, and re-introduced for the next set on the second mirror exactly in the same way as the first set.<br><br>If several sets of readings were taken, and the second mirror continued to show a higher output, while the first set continued to show a lower output, it seems likely the error is introduced in the mirror itself.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11215.html" class="prev-thread">← Bayfol HX polymer</a><a href="Techniques.html">↑ Techniques</a><a href="11197.html" class="next-thread">Lume lightfield pad →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11033.html" class="card">
+                <h3>Holographic Optical Element (HOE) of simple reflection mirror</h3>
+                <div class="card-meta">Equipment · 14 posts</div>
+            </a>
+            <a href="775.html" class="card">
+                <h3>HOE Mirror</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="646.html" class="card">
+                <h3>Mirror resurfacing</h3>
+                <div class="card-meta">Equipment · 11 posts</div>
+            </a>
+            <a href="8235.html" class="card">
+                <h3>Mystery plates</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="8061.html" class="card">
+                <h3>mirror TLC</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="7954.html" class="card">
+                <h3>Can a hologram work as a concave/convex mirror</h3>
+                <div class="card-meta">Beginning Holography · 13 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

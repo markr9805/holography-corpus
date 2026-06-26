@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequency Doubling Questions — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5325.html" class="prev-thread">← Holotalk</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5318.html" class="next-thread">Ascorbate developer keeping →</a></div>
+    <h1>Frequency Doubling Questions</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>2,277</td></tr>
+        <tr><td>Started</td><td>Wed Jan 11, 2006 2:45 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/junior.html">Junior</a> · <a href="../authors/tony.html">Tony</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5326" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 11, 2006 2:45 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Will a frequency doubler found in a green laser point work at a base wavelength of 514 instead of 1064?<br><br>Will it frequency double 514 to 257?<br><br>What will the one found in a 3 - 5 mW green laser pointer handle approximately in beam input energy?<br><br>Thanks in advance,<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Jan 11, 2006 7:54 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hell, I&#x27;d just throw it in there. Put it in that etalon-less mount you have to tip it to fit the cavity. Start with the laser just over threshold and crank it up until there is conversion.<br><br>If you get it to work, you&#x27;re gonna have a somewhat dangerous wavelength, 514/2 = 257 nm. It&#x27;ll scatter like crazy, maybe not even getting over to the holoplate in a straightforward manner. Your gelatin will be pretty opaque to it. <br><br>Coherent had a series of argons they called FreD for frequency doubled, and I don&#x27;t know if they still make them. It might be helpful to look up the lit and/or get friendly with someone who used one or works on them.<br><br>I don&#x27;t know if the doubler was by the output coupler or by the high end reflector, it would make sense to me to put in the back where the beam waist is smaller for more energy density.<br><br>Good luck!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 11, 2006 8:29 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Don&#x27;t have one but thought it might be a cheap source (green laser pen) if it would work. <br><br>I would like to do it outside the cavity, then try to get a standing wave pattern from the 514 (object beam) and the 257 (reference beam).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jan 12, 2006 2:13 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">These crystals are usually have anti-reflection coatings on them to makee them more efficient at certain frequencies. But, give it a try. I would suspect it would work a little at least. How would you detect the light?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Junior</span>
+                <span class="post-date">Thu Jan 12, 2006 7:27 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hi!<br><br>This won&#x27;t work because the phase matching (the refractive index has to be identical for the two wavelengths) of the 1064-&gt;532 conversion crystals is different from the phase matching of a 532-&gt;266 crystal. <br><br>And: if you want to use wavelengths shorter than 320 nm, you can&#x27;t use glas optics; you have to use quartz lenses, special UV mirrors, quartz plates...<br><br>Junior</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 12, 2006 10:50 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Colin, I guess some type of phosphorus material. I was thinking a fluorescent light tube.<br><br>Junior, Thank you. I have been trying to research this Phase Matching statement you have made. I have found it seems that to frequency double a CW 514 line, most use a BBO crystal. But they seem to be very inefficient. There are a couple of &quot;cavity&quot; designs I found incorporating the crystal which is external to the laser for more efficiency but I am not sure I have the means and optics to persue that avenue.<br><br>I was hoping if I could get some coherent UV out, and because the UV line was generated from the 514 line, and the 257 and 514 could interfere to produce a standing wave pattern, then I could make a hologram with the UV line coming in from the emulsion side (object) and the 514 line passing through the plate to the emulsion. Thus the UV would be directly incident on the emulsion. For this set up only one UV optic would be needed. An expanding lens after the frequency doubler and before the object to emulsion.<br><br>I may break down and buy a green laser pointer to sacratfice to the UV gods. It would be fun to play with anyway.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Thu Jan 12, 2006 11:54 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">I think we covered this once before. My opinion is no, you can&#x27;t get interference between a fundamental and a second harmonic to form a hologram. See my post in the old thread:<br><br>[http://holographyforumorg.ntitemp.com/p ... highlight=](http://holographyforumorg.ntitemp.com/phpBB2/viewtopic.php?t=4098&amp;highlight=)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 12, 2006 12:50 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Tony, thank you for the link to that thread. I am not sure how I missed it.<br><br>Can you explain your statement, &quot;I postulate that whatever nonlinear process causes the doubling, will also cause a doubling of the phase.&quot;?<br><br>What do you mean by a doubling of the phase?<br><br>Wouldn&#x27;t every creats of the longer wavelength and every other creast of the shorter wavlength yield a standing wave antinode? And every trough of the longer wavelength and crest of the shorter wavelength also yield a standing wave antinode?<br><br>Also, can you explain this animation? It is the second one down.<br><br>[http://www.glenbrook.k12.il.us/gbssci/p ... 10l4b.html](http://www.glenbrook.k12.il.us/gbssci/phys/Class/waves/u10l4b.html)<br><br>It seems to me that the antinodes fluxuate between constructive and destructive interference (albeit very quickly for light), and the nodes do not fluxutate. Is a fringe the adjacent node and antinode? I always thought it was two anitnodes with one being constructive and one destructive.<br><br>I know the illuminating and replay in a different wavelength would be near impossible for a reflection unless the fringes acted as a nonlinear Frequency Doubling crystal but I am sorry I have not grasped why a frequence and it&#x27;s second harmonic cannot interfere to poduce a standing wave pattern. <br><br>I have found that the output frequency doubled wave will have a 90 degree (or 45 degree) polarization rotation but that would be fixable in a a split beam.<br><br>Thank you for your time,<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Thu Jan 12, 2006 1:33 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; What do you mean by a doubling of the phase?<br><br>I mean that if you introduce a phase change of X degrees in the fundamental, you will see a phase change of 2X in the doubled output.<br><br>This is true for ultrasound phenomena, but I don&#x27;t know if it&#x27;s true for optical crystals.<br><br>&gt; Wouldn&#x27;t every creats of the longer wavelength and every other creast of the shorter wavlength yield a standing wave antinode? And every trough of the longer wavelength and crest of the shorter wavelength also yield a standing wave antinode?<br><br>I don&#x27;t think so. Consider a time t at which the fundamental wave is at a positive crest and the 2f (second harmonic) wave is also at a positive crest. At this time they add to form an antinode. Now consider a time one half period of the fundamental later. Now the fundamental is at a negative crest, but the 2f wave is back to a positive crest, so you get a node. The pattern is not stationary in time, so as the recording medium integrates over time, there would be no spatial variation of density (fringes).<br><br>&gt; Also, can you explain this animation? It is the second one down.http://www.glenbrook.k12.il.us/gbssci/p ... 10l4b.htmlIt seems to me that the antinodes fluxuate between constructive and destructive interference (albeit very quickly for light), and the nodes do not fluxutate.<br><br>The antinodes fluctuate between positive sum and negative sum, but the interference is always constructive (i.e. they add in amplitude). The nodes never fluctuate because their sum is always zero. Their interference is always destructive (i.e. they cancel in amplitude).<br><br>&gt; Is a fringe the adjacent node and antinode? I always thought it was two anitnodes with one being constructive and one destructive.<br><br>I guess one could define a fringe in a number of ways - it could either be a single bright or dark area, or it could be one pair, including a node and an antinode.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 12, 2006 2:02 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thanks again Tony.<br><br>Considering the phase, If the phase is changed between reference beam and object beam, then that should not be a problem. It is important that it is maintained wholely in the reference. In a split beam set up, if your object beam is 1/2 wavelength longer in distance then your reference beam you have a 180 phase change but still get a hologram. In fact it is the phase change off of each part of an object that gives us the 3D in a hologram.<br><br>I will say that I have been tremendously enlightened by the fast of the formation of the standing wave fringe structure. This in fact leads me to believe that the &quot;Light&quot; part of the fringe actually fluxuates between double intensity of light and no light at that area, whereas the &quot;dark&#x27; part of the fringe stays dark..... If this is true this is very very interesting!!!</div>
+        </div>
+
+    <div class="thread-nav"><a href="5325.html" class="prev-thread">← Holotalk</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5318.html" class="next-thread">Ascorbate developer keeping →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5630.html" class="card">
+                <h3>Frequency Doubling of Nd:YAG 1064nm to green 532nm</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="3093.html" class="card">
+                <h3>Frequency Doubling</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="11374.html" class="card">
+                <h3>Photo Polymer Questions</h3>
+                <div class="card-meta">Equipment · 11 posts</div>
+            </a>
+            <a href="10927.html" class="card">
+                <h3>Questions about Osram PB530 laser</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="9662.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="9661.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

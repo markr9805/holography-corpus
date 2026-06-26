@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan to produce a Pulsed green Holography laser &amp;lt;$300 — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5165.html" class="prev-thread">← Spectra Physics 125 disaster</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5159.html" class="next-thread">Air cooled Ar laser and holograms →</a></div>
+    <h1>Plan to produce a Pulsed green Holography laser &amp;lt;$300</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>51</td></tr>
+        <tr><td>Views</td><td>29,067</td></tr>
+        <tr><td>Started</td><td>Sun Nov 06, 2005 5:23 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/bill-jensen.html">Bill Jensen</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/sergio.html">Sergio</a> · <a href="../authors/markcavin.html">MarkCavin</a> · <a href="../authors/martin.html">Martin</a> · <a href="../authors/jeff-blyth.html">jeff-blyth</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5166" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 06, 2005 5:23 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body"><strong>Objective: Produce a Pulsed green Holography laser for under $300</strong><br><br>I will be cannibalizing an SSY-1 (SSY1) commercially available surplus passively q-switched 1064nm laser with a Pulse Forming Network (PFN) capacitor bank for about $150 as a start. I will separate the OC mirror to gain access to the cavity to add optics.<br><br>I will add an intracavity Etalon on an adjustable mirror mount at nearly the Brewsters angle. I will add a KTP crystal intracavity or extracavity (whichever is better) for frequency doubling to 532nm green.<br><br>The supplied PFN has a 36uF non-polarized capacitor with very low ESR of 0.02 ohms and a 0.03mH inductor. Just supply a HV DC supply 645 – 700 V through a 1K 10W resistor to charge it up in a second. When this energy is dumped into the flashlamp when it is triggered, it begins to conduct till all of the energy from the cap is dumped into the flashlamp in about 100 usec. Then this formula will work: Joules into lamp = (1/2)*(Capacitance in Farads)(Voltage on caps squared). Then it stops conducting and PFN recharges. Hopefully the 1K resistor is high enough to stop the conduction through the flashlamp. <br><br>Experimental information on SAM’s Laser Faqs mentions that 645 V delivering 7.5 J to the lamp is the lasing threshold. A good value is 700 V delivering 8.82 J for a long lifetime of 100000 shots. I will be using 900 V for 15 J which is driving the flashlamp and q-switch moderately hard. Lifetime estimate 10000 shots. The PFN drains into the lamp in about 100 uSec in these cases. <br><br>The rod is 5mm x 60mm Nd:YAG laser. It has a dye (BDN?) passive dye q-switching cell to automatically get about a 10ns pulse without the need for any electronics. Assuming a 15 J lamp energy, about 16mJ of 1064nm will be emitted according to Sams data. <br><br>Experiments online have shown that just introducing a KTP crystal into that unpolarized beam gives a 1mJ pulse of green. I plan to introduce my Etalon in the resonator cavity to select a single mode primarily, which increases coherence length. It will be at the Brewster&#x27;s angle to polarize the beam for improved efficiency of the frequency doubling with the KTP. Hopefully about 2-3 mJ of green output. <br><br>If 1 Joule can expose 1 meter squared area (Laser Reflections spec), I figure that I can expose a tiny green sensitive holographic plate. Subject might be a small flower on a 2.5&quot; x 2.5&quot; green sensitive plate.<br><br>The beam quality will be improved twofold:<br><br>Coherence Length is dramatically increasing by the addition of the Etalon. From about 3 cm to over 1 meter is my guess. This is caused by the selection of nearly a single longitudinal frequency by the Etalon.<br><br>Selecting the TEM00 mode by using the passive q-switch. As the energy builds up in the cavity, the TEM00 mode is predominant before the dye bleaches clear. This is the greatest intensity in the center of the dye. Then the dye begins to clear in this central portion, and the TEM00 mode begins to amplify, will little from the other modes. I am not sure of the actual mathematics of all this. I also have a Cr4+:YAG crystal coming which is a passive q-switch which has a much higher damage threshold just in case the dye one is damaged. Cr4+:YAG may also select the TEM00 mode in the same manner. It has been told to me that reducing the aperture to a smaller diameter intracavity will also help the TEM00. I will only try this if I am unable to make the holograms come out. The cavity is a flashlamp pumped with white Barium sulfate packed reflector. This diffuses the lamp energy for a more even rod illumination which also favors TEM00. The HR and OC mirror geometry may be a parameter to play with since some geometries favor TEM00, but I am not sure which ones. <br><br>I have most of the parts purchased and coming. The KTP is on loan. I lack the Green sensitive plates / film and chemicals, so I will need to wait till next month’s paycheck. I will try transmission holograms first since they are less sensitive to beam quality, and have a good exposure time. <br><br>I welcome any comments about the theory and execution of my upcoming experiment.<br><br>Thank you very much.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 06, 2005 7:59 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The Hologram will actuall only fill about 1-2 square centimeters on the small 2.5&quot; x 2.5&quot; plates. I could use Film to economize my experiments even further. This will be good enough to test the feasibility of the pulsed holography before I spend bigger money on the 1/2 Joule system which I already started building.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 06, 2005 9:16 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I just purchased the VRP-M film 4x5&quot; 10 sheets which gets me going. I already have JD2 developer and bleach still left.<br><br>The Cr4+:YAG crystal will not work as a replacement for this low power pulsed laser. It need about 1/2 Joule / cm2 to bleach clear. I am running at nowhere near this energy. My more powerful system will be though.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue Nov 08, 2005 1:09 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I am excited but skeptical about my recent calculations…<br><br>Assuming 1 Joule per Meter squared is sufficient to expose the green hologram film, I have the following calculations:<br><br>1J / 1 m^2 = 1J / (100 cm)^2 = 1J / 10000 cm^2 Is that correct?<br><br>I have lets say 5 mJ (of pulsed green at 4ns, as you will see below)<br><br>Using the formula 1J/10000 cm^2 = 0.005J/ X cm^2<br><br>We have an area of 50 cm^2 or about an area 7 cm x 7 cm.<br><br>Or 2.7” x 2.7” area.<br><br>This is a LOT bigger than the 1cm x 1cm that I got before.<br><br>Did I miscalculate somewhere?<br><br>If I am OK, then I am going to try the following pulsed holographic experiment. Take an unmodified SSY-1 pulsed 1064nm laser and produce 15mJ pulse of 4ns. Then focus this beam into a KDP crystal from a dead DPSS laser. Even though the 1062nm is randomly polarized and not as efficient, it is more intense due to focusing. That increases the output of 532nm green a lot. The energy and power should be below the destruction of the KTP if I don’t focus too sharply. I may get about 5mJ pulse of green at 4ns. If you look above, 0.005J can expose the 2.7” x 2.7” plate.<br><br>This would mean that the cost of this system could be $150 if you shop around. Hopefully it will make a hologram, or I will have to resort to cannibalizing the head as specified in the original plan, and making it polarized and etalon enhanced in the process.<br><br>Any comments on my calculations? Thank you very much.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Nov 08, 2005 4:52 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> 1J / 1 m^2 = 1J / (100 cm)^2 = 1J / 10000 cm^2 Is that correct?<br><br>When I am checking things like this I use the google search page. Go to google and enter:<br><br>1 M^2 in cm^2<br><br>it will show you that you are correct.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 08, 2005 11:22 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I checked your calculations and they look correct but I am wondering why you are using 1J/m^2 (100uJ/cm^2) as a puled energy requirement insead of what is posted on Slavich&#x27;s web site. They mention 20-40uJ/cm^2 for mastering and 30-60 for copies. Do you think the added energy is needed? Are you using their suggested developer? Are you also going to use Latensification?<br><br>I am excited to hear of your results and possibly see the hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue Nov 08, 2005 1:20 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hi there John,<br><br>I am getting VPR-M from Integraf developed only with the JD-2 chemicals.<br><br>I got mixed up and thought I was getting FPR-M with 1 J / cm^2.<br><br>I can&#x27;t figure out how to do this latensification buisness. Anyone know how? Or how much it helps? Can I do without it?<br><br>Thank you.<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue Nov 08, 2005 2:13 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Bill, please check this site, your answer will be found at the bottom of this page<br><br>[http://www.kvant.sk/EN/sk/vrp-m.htm](http://www.kvant.sk/EN/sk/vrp-m.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Tue Nov 08, 2005 2:25 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> I checked your calculations and they look correct but I am wondering why you are using 1J/m^2 (100uJ/cm^2) as a puled energy requirement insead of what is posted on Slavich&#x27;s web site. They mention 20-40uJ/cm^2 for mastering and 30-60 for copies. Do you think the added energy is needed? Are you using their suggested developer? Are you also going to use Latensification?I am excited to hear of your results and possibly see the hologram.<br><br>It may be correct due the reciprocity failure and diffuse illumination, etc , I&#x27;m curious about would be possible find a single axial mode control with a ~5mm crystal laser cavity due the large mode separation, it would eliminate directly the etalon.<br><br>Another point: passive dye cell could be used for Q switch?<br><br>[http://www.polygrama.com](http://www.polygrama.com)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue Nov 08, 2005 2:39 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thanks for the Link on Latensification. That is good information.<br><br>It seems that what this is doing is exposing the undeveloped hologram to non-coherent light like fogging in photography. How could this possibly work? I am baffled!<br><br>Made a mistake in my last post, meant to say 1 Joule / meter squared.<br><br>If the sensitivity is say 20 uJ / cm^2 then for my anticipated 3mJ pulsed laser I can expose a 4.8&quot; x 4.8&quot; plate ! That would be way more than I ever dreamed of if it could actually be put into practice. But I guess that might be a smaller plate since you need half of the energy to light the object in the transmission hologram setup.<br><br>I so far only have success with transmissions and not reflections. I don&#x27;t have an optical table. I work off the floor. Pretty crude but still fun. With pulsed holography I guess I could hold the film in my hand without glass plates, and take a hologram of my other hand. Sounds pretty wierd but cool.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Nov 08, 2005 2:59 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">This information from Hanz Bjelkhegen will be useful:<br><br>[http://www.holographyforum.org/phpBB2/v ... sification](http://www.holographyforum.org/phpBB2/viewtopic.php?t=1684&amp;highlight=latensification)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Tue Nov 08, 2005 3:04 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Hi Bill,<br><br>One thing about VRP-M is it does not make very good single beam reflection holograms.<br><br>[http://www.slavich.com/faq.htm](http://www.slavich.com/faq.htm)<br><br>Can I make Denisyuk type holograms on the VRP-M material with an Argon laser? <br><br>The quality will be poor as VRP-M requires high carrier modulation to achieve good diffraction efficiency. Since the Denisyuk technique is typical of small carrier modulation the brightness of the final reflection hologram will be disappointing. For Denisyuk type holograms with green laser radiation you should use PFG-03C or PFG-04.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 08, 2005 3:42 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">What is meant my high carrier modulation??? Fringe contrast? Is it that Denisyuks have too much object beam or too little object beam with respect to ratio?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Tue Nov 08, 2005 3:58 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> What is meant my high carrier modulation??? Fringe contrast?<br><br>Spatial frequency...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 08, 2005 4:15 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Thanks Martin, that makes sense.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Wed Nov 09, 2005 11:54 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Hi there John,I am getting VPR-M from Integraf developed only with the JD-2 chemicals.I got mixed up and thought I was getting FPR-M with 1 J / cm^2.I can&#x27;t figure out how to do this latensification buisness. Anyone know how? Or how much it helps? Can I do without it?<br><br>See also Sergey Vorobyov&#x27;s „25 holography lessons“.<br><br>Pulse holography at: [http://www.holography.ru/les13eng.htm](http://www.holography.ru/les13eng.htm)<br><br>and [http://www.holography.ru/les15eng.htm](http://www.holography.ru/les15eng.htm)<br><br>VRP plates (or FPR) : [http://www.holography.ru/les14eng.htm](http://www.holography.ru/les14eng.htm)<br><br>Latensification: [http://www.holography.ru/les19eng.htm](http://www.holography.ru/les19eng.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri Nov 11, 2005 8:47 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Thanks guys for all the great articles. I am learning a lot of new information.<br><br>Update on the project: I have gotten my materials from around the world, and have gotten the SSY-1 laser and power supply built.<br><br>It is lasing at 700 Volts to the tune of 41 mJ of (4ns ?) pulsed 1064nm. The next phase will be to introduce the KTP crystal in the exit beam and see how much I get in the way of green output. I am hoping on 14 mJ so I can expose the 2.5&quot; x 2.5&quot; pieces of VPR-M green holography film.<br><br>Overdriving a little at 800 Volts, I get 75 mJ of 1064 nm.<br><br>I may need to put a lens in the path before the KTP to increase the power density and improve KTP doubling efficiency. This lens will also act as my beam spreader. I will put a Green transparent / 1064 nm blocking filter, and house the SSY-1 apparatus in a light tight box since there is a lot of white light leakage from the tube.<br><br>I was unable to get the larger piece of KTP crystal, so I have to make due with a very small one from a dead DPSS laser I hacked open.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Nov 12, 2005 3:58 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Update:<br><br>I added the KTP crystal to the output of an unmodified SSY1 head running at a conservative 700 Volts. This is not overstressing the tube.<br><br>Using a pulse energy Joule meter I was able to measure 2.1 mJoules of green output. This is good news! That means that this laser might be able to light an 2.8&quot; x 2.8&quot; area for pulse transmission holography. (half of which can be the film, half the object).<br><br>The next test is to button up all the wires and optics more permanently, and enclose the laser so it is light tight. Then I can try a test exposure on the film that I have.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Nov 13, 2005 3:44 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Wow! This is great!<br><br>What are you using for a IR filter? I would like a better one for my laser pointer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 4:02 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>I am using a 2mm x 2mm KTP and 4mm diameter IR filter both from a dead laser DPSS green laser pointer.<br><br>Here is the optical path: Nd:YAG SSY1 non-polarized 1064nm pulsed 4 ns (I just purchased a high speed pin photodiode and amplifier to measure the actual pulsewidth) enters the KTP which takes in only about 1/3rd of the full beam. From there it goes through the IR filter and then through a 2 cm focal length lens. The divergence is a 1 foot irregular blob on the wall 10 feet away. It seems brighter than my red laser diode, yet our eyes are more sensitive to green. The blob is pretty bad in evenness with my hot melt glue optical mounts.<br><br>I will next flash some film to see if it gets exposed by the laser light. That will let me know that it is bright enough. Also I see if a hologram can be made with such a primitive setup.<br><br>What sort of safe light do you use for VPR-M green sensitive film?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 6:29 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br><strong>I have taken my first pulsed Green Hologram ... SUCCESS !</strong><br><br>The hologram is of my two fingers. The wrinkles are visible in an exposed area about 1&quot; x 1&quot;<br><br>Here is what I did. I took an unmodified SSY-1 1064nm unpolarized 4ns pulsed laser powered by the Pulse Forming Network electronics that comes with it on Ebay, and the trigger HV circuit that comes with it too. Cost $150.<br><br>I placed a 2mm x 2mm piece of KTP from a dead 3mW laser DPSS. This converted about a 1/3rd area of the 1064nm beam which is 5mm in diameter.<br><br>The green 532 nm output was filtered by a 3mm x 3mm piece of IR reflecting and 532nm passing filter glass from the same laser pointer. <br><br>Then it went through a 2cm focal length glass lens that acts as a beam spreader.<br><br>When it flashes from 900 Volts driving power, you are able to see a bright green blob about 1.5&quot; wide by 1&quot; tall. It is very irregular and spotty. This is driving the flashlamp and internal dye Q-switch pretty hard.<br><br>At a distance of 8&quot; I held a piece of VPR-M Slavich hologram film 2&quot; x 2&quot; held in my bare hands without plate glass to hold it at all, at a 45 degree incident angle to the beam for transmission holography. I placed my two fingers as the object. I did a good flash. (The SSY-1 outputs irregularly because there is no polarizing Brewster to polarize the 1064nm which would make the KTP most efficient. Therefore you are at the whim of the SSY-1 to be polarized roughly at the proper orientation for the KTP to operate fully)<br><br>I exposed this undeveloped film to a 4 watt white frosted nightlight, 8 inches away, for 60 seconds. This is called latensification, and I found that it was a necessary step.<br><br>I developed in JD-2 developer for 3 minutes with my red diode laser as a safelight. I could see that there was an area 1&quot; x 1&quot; blobbish on one edge of the film that had darkened a bit, and fog all over slightly.<br><br>Wash in tap water 60 secs, Bleach JD-2 for 60 secs (it nearly all turned clear), Wash in tap water 60 secs. Blotted with kleenex, waved around in the air drying for about 10 minutes.<br><br>Unlike the first 3 tests which I performed, this hologram looked refractive in white light, and I could see diffraction lines in there by looking closely.<br><br>Using a green DPSS spread beam, I was able to reconstruct the image of my fingers, and look around them from different vantage points as a hologram should. Not a superb picture, but enough to know that:<br><br><strong>Pulsed Holography can be done for under $200 !!!!!</strong> <br><br>I have a few more SSY-1 lasers coming by mail which I traded some laser stuff for. I will take one of them apart and add an Etalon (which I have many), and at the Brewsters angle to improve the power output considerably by polarizing the 1064nm for proper matching to the KTP orientation.<br><br>Anyone else interested in trying their hand at it? It is Very exciting to see such a thing be possible, and agree with theory so well !<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Sun Nov 13, 2005 3:14 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Bill, that is awasome, great work. I would love to try it but I don&#x27;t think DCG will react well with a short pulse. Of couse I do not know this for sure. Keep the the great work and thank you for sharing the time line on this sucessful story. <br><br>Could youp possible show a photo of the holo?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 3:47 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Pretty bad picture of the hologram, can&#x27;t figure out how to take it. It looks much better. Also my setup. The priority mail box fits over the laser to block the flashlamp from exposing the film.<br><br>[http://wdjensen123.com/Holography/4.jpg](http://wdjensen123.com/Holography/4.jpg)<br><br>[http://wdjensen123.com/Holography/1.jpg](http://wdjensen123.com/Holography/1.jpg)<br><br>[http://wdjensen123.com/Holography/2.jpg](http://wdjensen123.com/Holography/2.jpg)<br><br>[http://wdjensen123.com/Holography/3.jpg](http://wdjensen123.com/Holography/3.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Nov 13, 2005 4:00 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">nice work bill ! thank you for sharing your results and showing us your setup! keep on going!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 5:27 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Thanks for the good feedback. Too bad the picture of the hologram did not come out at all.<br><br>Here is how to wire up the SSY-1, Pulse Forming Network, and the trigger boards that you get on Ebay for $150:<br><br>Starting from [http://www.repairfaq.org/sam/pfn1sch.pdf](http://www.repairfaq.org/sam/pfn1sch.pdf) <br><br>We run the + high voltage (700 nominal, 800 pushing it, 950 absolute max that capacitor can take) through a 3.9 K ohm 10 Watt resistor to P1-9. The negative goes to the black wire with the spade lug with circular hole in it, which is found next to the HV red output for the Flashlamp. All grounds go here.<br><br>The P1-5 gets +26.5 volts 100 mA but it works even at 16 v. The ground is P1-15. Keep it powered up as long as the HV is applied. When the power is shut off, remove this voltage source to quickly drain the cap voltage in about 2 seconds, its a safely.<br><br>P1-13 is ground and P1-3 is some sort of trigger voltage, but I was not able to figure it out.<br><br>Plug the 4 pin green connector between the PFN board and the red trigger transformer board.<br><br>The lamp positive is red FL+ and the neg of flamp is black to FL-. The white trigger wire of the lamp goes to the red wire from the trigger transformer. Insulate it for 30KV.<br><br>I shorted the case of the scr to the larger of the 2 vertical terminals that poke up from the SCR. Very little current / power throught it, but hundreds of volts so insulate well.<br><br>Insulate the Red trigger wire with thick insulation wire.<br><br>The caps charge to 700 volts in under a second. It flashes with a short on SCR. Sometimes you may get a double pulse if the switch contacts bounce. The current through the 3.9Kohms is not enough to support flashlamp conduction and it extinguishes.<br><br>Sources of 700 volts are at [http://www.repairfaq.org/sam/laserssc.htm#sscpfn1](http://www.repairfaq.org/sam/laserssc.htm#sscpfn1) <br><br>Sincerely,<br><br>Bill Jensen<br><br>wdjensen123 at symbol hotmail dot symbol com<br><br>San Leandro, California</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Sun Nov 13, 2005 6:10 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Dear Holographers,I have taken my first pulsed Green Hologram ... SUCCESS !<br><br>Well done Bill ! This is impressive stuff. <br><br>In how many seconds can you do a second pulse do you reckon? <br><br>jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 6:12 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">I can pulse it 2 times a second</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sun Nov 13, 2005 7:46 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Congratulations, Bill, Very impressive!<br><br>The SSY1 is available as one integral laser but only for US customers <br><br>Bill what optical mounts did you use? Will you use a circular aperture for transversal mode control?<br><br> I think with a FP etalon aligned into optical cavity you will soon make it running for a deep high quality hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Nov 13, 2005 9:05 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">For Optical mounts I used some xyz mounts LP-05-XYZ hot melt glued in place on a wooden board. There is no need for vibration isolation of course. <br><br>I have not neede the aperture yet, especially since the dye bleaches from the center out on the q-switch, which acts as sort of the same thing. <br><br>I plan on using the Etalon to get a single transverse longitudinal mode, once my other SSY-1&#x27;s arrive. I am getting 5 more in trade by the end of next week. I am moving out of the state and need to pack up all my stuff soon. Wife got a new job and we are moving. <br><br>Sincerely<br><br>William D. Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Nov 14, 2005 4:17 am</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">Bill, If you sell any of them let me know. I would like to play with one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon Nov 14, 2005 4:25 am</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>I was hoping some people would want to buy the basic core laser so they can try their hand at pulsed green holography. I&#x27;ll post an ad in the for sale area.<br><br>I finally found out how to take a picture of the resultant hologram. You can see my knuckles in the following NEW uploaded picture:<br><br>[http://wdjensen123.com/Holography/4.jpg](http://wdjensen123.com/Holography/4.jpg)<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Nov 14, 2005 12:43 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">Bill, In you photos I cannot see the oscillator? Where it the rear mirror?<br><br>Also, have you thought obout putting two cavities in line. One with both front and rear mirror as an oscillator and a second in front of the ouput beam to amplify the power, then Frequency Double?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon Nov 14, 2005 1:22 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Hi John,<br><br>The SSY1 comes with 2 integral mirrors mounted and prealigned with the metal frame. The q switch is also inside. My xy mounts are for KTP, IR filter, lens, and one spare one, in the pictures.<br><br>The oscillator then amplifier is an experiment I have not thought about yet. It may take more money than I have.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Nov 14, 2005 2:13 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">Oh, OK, I think I see where they are. <br><br>If you can take those mirrors out then a second SSY1 could be uses as the amplifyer as long as energy will not exceed damage threseholds. It sounds like you could flash them together and the second cavity would still be inverted as the first cavity exited its light.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Wed Nov 16, 2005 9:02 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">Bill,<br><br>From the following posted on 6th November:<br><br>Objective: Produce a Pulsed green Holography laser for under $300<br><br>To the following on the 13th November<br><br>I have taken my first pulsed Green Hologram ... SUCCESS !<br><br>That’s just seven days from concept to practical reality. You must surely rate as one of the fastest experimentalists on the forum. <br><br>Congratulations!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 17, 2005 2:50 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">No doubt, this was a remarkable showing!!!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu Nov 17, 2005 3:25 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Thank you so much for your words of encouragement! It is deeply appreciated.<br><br>Colin, check your email for a surprise offer from me.<br><br>In the last experimental hologram of my fingers, I was able to expose about a 1&quot; square area with the <strong>roughly 0.75 mJ output at 900 Volts</strong>.<br><br>Today I just got the KTP crystal 4mm x 4mm x 5mm that I bought. Whew, now I am broke! Well, I just placed it on some pennies and fiddled with the angle and at 900 Volts <strong>I got an average output of 9 mJ !!</strong>If my meter is to believed, that is 12 times the original intensity. Or an area on the plate of 3.5&quot; square! With latensification of double my 60 seconds, I may be able to push a whole 4&quot; x 5&quot; film which is nearly a whole face! I&#x27;ll see what I can come up with, but with all the packing its tough to find the time. Some of this may be IR, because my blocking lens if bad.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 17, 2005 4:21 am</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">Edmund has some IR filters that are about $40. They have an anoying peak at 1040 nm . However, they will take out 90% of the IR in the worst case.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 17, 2005 4:24 am</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">Here is a great link:<br><br>[http://repairfaq.ece.drexel.edu/sam/lasercps.htm](http://repairfaq.ece.drexel.edu/sam/lasercps.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 17, 2005 4:28 am</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">This part is relevant:<br><br>Converting a Lamp Pumped IR YAG Laser to Green?<br><br>Multiwatt Halogen, arc lamp, or flashlamp pumped solid state lasers are readily available at reasonable prices from laser surplus outfits, eBay, and elsewhere. What about adding a KTP (or other SHG crystal) and getting them to output nice 532 nm green? (Similar comments apply to higher harmonics but the difficulty level increases significantly.) While this would appear at first to be an easy project, the realities may be quite different. There are a number of issues all relating to peak power density available and shape of the beam inside the crystal. Maximum harmonic power will be generated when a narrow polarized collimated beam is properly phase matched to the KTP (Type-II critical phase matching). If the original laser isn&#x27;t polarized (e.g., Nd:YAG without Brewster angled rod ends), adding a polarizing element will significantly increase performance. Since harmonic generation is a non-linear process, it is desirable to maximize power density so long as it is safely less than the damage threshold of the KTP. <br><br>Lamp pumped SS lasers often use flat-flat resonators to prevent hot spots inside the YAG rod. The intra and output beams both have a large diameter (almost equal to the rod diameter) and are massively multi (transverse) mode. Just inserting a KTP crystal into the beam (inside or outside the cavity) without taking into these factors and peak power density of the beam will likely result in either poor performance or damage to the KTP. With the multimode beam, it isn&#x27;t sufficient to just consider the average power density in the beam cross-section - peak power in the hot spots due to the sub-beams must be taken into account. <br><br>CW SS lasers: External doubling will probably be very inefficient even with careful beam shaping due to the limited maximum power density available. Intracavity doubling may be possible but will probably require additional optics to achieve a narrow beam waist inside the KTP. <br><br>Non-Q-switched pulsed SS lasers: Intracavity or external doubling may be possible depending on peak power and beam structure. It may just be a matter of inserting a KTP crystal in the appropriate location. <br><br>Q-switched pulsed or quasi-CW SS lasers: Due to the extremely high peak power of Q-switched laser pulses, external doubling will probably be quite efficient but selection of the proper beam waist is most critical to avoiding destruction of the KTP. <br><br>In short, this may be possible but don&#x27;t expect miracles, at least not unless the conversion is carefully designed and executed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 17, 2005 4:30 am</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">This is a great example of someone who did not try it and did not find the miracles that you found!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu Nov 17, 2005 4:39 am</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">More Success !<br><br>Hi there,<br><br>I have to pick up my wife at the airport, but I decided to make one hologram.<br><br><strong>The newest pulsed hologram came out Great ! It is an area a little over 3&quot; x 3&quot; on the film.</strong> Dim but very crisp. I&#x27;m wearing IR goggles and you see the lower part shining. My tip of the nose is lit, and then all of my mouth. You can see both rows of teeth, glistening saliva (yuck) and you can peer around in my slightly open mouth.<br><br>I tried to take a picture of it, but it is too hard. This is about 5-7 mJ is my guess. My ns speed photodiode amplifier and oscilloscope sees the sharp 4ns spike, but a baffling tapered following pulse that may be IR energy. I have a blocker coming. But it works! You guys should try it, its really fun!<br><br>Next I will improve my efficiency and increase power dramatically by opening up the SSY1 cavity and introducing a brewster window to polarize it, making the KTP even more efficient and a more powerful beam to work with! Not sure how to predict how much more power I can hope to gain.<br><br>I now have 10 of these units coming if anyone wants to buy one and become a pulse holographer which opens a whole new world of holography and subjects.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Nov 17, 2005 10:56 am</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">This really is incredible work Bill.<br><br>Once Life(tm) settles down I&#x27;m going to have to give some serious consideration to purchasing a system from you. In the meantime I&#x27;m actively watching your progress.<br><br>Way to go, and keep going!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Nov 17, 2005 4:09 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">Congratulations, Bill. We also need a CW blue laser</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Nov 17, 2005 4:36 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe:</strong> Congratulations, Bill. We also need a CW blue laser<br><br>AND HOW!!!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Thu Nov 17, 2005 6:27 pm</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">This is a really modern mini pulsed laser machine, after 38 years of the first pulsed laser hologram of a human, October, 31, 1967, (L D Siebert) you did the first pulsed laser home made one...<br><br>The SSY1 cavity is really worth for studying.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Thu Nov 17, 2005 6:48 pm</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Dear Holographers,Thank you so much for your words of encouragement! It is deeply appreciated.Colin, check your email for a surprise offer from me.In the last experimental hologram of my fingers, I was able to expose about a 1&quot; square area with theroughly 0.75 mJ output at 900 Volts.Today I just got the KTP crystal 4mm x 4mm x 5mm that I bought. Whew, now I am broke! Well, I just placed it on some pennies and fiddled with the angle and at 900 VoltsI got an average output of 9 mJ !!If my meter is to believed, that is 12 times the original intensity. Or an area on the plate of 3.5&quot; square! With latensification of double my 60 seconds, I may be able to push a whole 4&quot; x 5&quot; film which is nearly a whole face! I&#x27;ll see what I can come up with, but with all the packing its tough to find the time. Some of this may be IR, because my blocking lens if bad.Sincerely,Bill Jensen<br><br>Bill,<br><br>Roithner offers a KTP 2.0 x 2.0 x 5.0 mm³, ARC for SHG EU 53,00.<br><br>It could be used with the laser? WDYT?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Nov 17, 2005 10:43 pm</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">Jeff, I have sent you two e-mail via the forum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed May 24, 2006 11:37 am</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>Thank you for all your input. <br><br>Since overall beam evenness is the desired effect for holography, I will test the anticipated tungsten 25 micron spatial filter for evenness of green energy output, without trying to force a reduced output of green TEM00 with an internal 1mm aperture.<br><br>I found that the credit card I used to charge the tungsten aperture was maxed out (bummer) so they are going to call me for a new card today. That means a later in the week delivery of the spatial filter. Sometimes I am so impatient for things. Also, I quickly lose interest in things as new topics catch my interest. Kind of a scatterbrain. Feedback helps keep me motivated. <br><br>Although I have not said it often enough, I appreciate ever single reply I get to this topic, even if I don&#x27;t directly acknowledge it. I am a bit verbose, but it is just me venting some of my enthusiasm for this exciting prospect of bringing pulsed holography to the masses. Plus it brings me great pleasure to learn about new science, so I can later share with other people as I master the topics. <br><br>Also I would like to have a buisness making the final lasers so I can once again feel productive in society. I find that prayers for guidance help my research progress. I find the glory of the L)ord in the science of our physical world, and it leaves me with a breathtaking view of the infinite.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Nov 01, 2006 3:14 pm</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">Bill how are you doing? Have you any completed pulsed systems yet? If so what&#x27;s the largest size that can be done with it? What&#x27;s the price?<br><br>I hope all is well!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue Dec 19, 2006 2:37 pm</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">Hi there Holographers,<br><br>I am doing fine these days, and recently had some holographic activity and pulsed hologram success.<br><br>Before I was cutting up my 4&quot; x 5&quot; films in quarters, and using the SSY-1 with PFN1 at 900 volts.<br><br>I have now had success at quadrupling my power available for single green 4ns pulses which boosts me from 15mJ green to 60mJ of green to expose the full 4&quot; x 5&quot; sheet!<br><br>To let you know how I did it, I cannibalized four SSY-1 type PFN1&#x27;s and robbed the caps and wired them in parallel. I used a 5 uH inductor (although 7 uH would be better) I ran it at 900 VDC and got 60 mJ of green out !!!<br><br>Developing the holograms with Jeff Blythe&#x27;s Metol and fixing in Na thiosulphate (no bleach here) on transmissions, I discovered at first that the holograms were way overexposed! I backed off the divergent beam and took more shots and where the intensity was lighter, had very good holograms of my face. Pores, teeth glistening, glasses reflecting, etc.<br><br>Next I plan to reduce the voltage to reduce the mJ of green since they work better with about 30% dark exposure.<br><br>I have had some spare time since my consulting is between projects right now.<br><br>I recently discovered that all my other PFN higher power networks I designed were producing multiple pulses and did not give holograms at all. Now that I have four PFN1 caps with very low ESR, the holograms are back in buisness. I am really excited about having a lot of holographic quality green at my disposal! I estimate that I really only need about 30 mJ to expose a 4&quot; x 5&quot; film.<br><br>Has anyone else made pulsed holograms with the SSY-1?? I have sold about 60 of them so far to various experimenters. I have gotten up to 700 mJ multipulses out of them, even operating as a hand held battery powered laser gun.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+
+    <div class="thread-nav"><a href="5165.html" class="prev-thread">← Spectra Physics 125 disaster</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5159.html" class="next-thread">Air cooled Ar laser and holograms →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5800.html" class="card">
+                <h3>suitable laser for pulsed holography</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="10766.html" class="card">
+                <h3>Ruby LASER for holography</h3>
+                <div class="card-meta">Optics · 7 posts</div>
+            </a>
+            <a href="8507.html" class="card">
+                <h3>pulsed holography</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red wavelengths for color holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6135.html" class="prev-thread">← True Color Transmission Holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6125.html" class="next-thread">Pulsed Laser Design Files →</a></div>
+    <h1>Red wavelengths for color holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>54</td></tr>
+        <tr><td>Views</td><td>11,498</td></tr>
+        <tr><td>Started</td><td>Tue Mar 27, 2007 4:27 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/kaveh.html">Kaveh</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/tom-m.html">tom m</a> · <a href="../authors/michaelh.html">MichaelH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6129" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Mar 27, 2007 4:27 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Kaveh has stated that 610nm is optimum for true color holography, but the question arises: where does suitability fall off, going higher?<br><br>For blue and green, there seems to be some interesting observations, such as 532 gives better yellow rendition than 514, and that 488 is too long for the blue.<br><br>But what is the best practical solution for red, I wonder.<br><br>There are only 3 options:<br><br>1. HeNe, up to around 100mW or so with a 125 &amp; etalon, if someone is lucky enough to have both. Or about 40mW with the &quot;hottest&quot; 127 or equivalent.<br><br>2. Diodes with various wavelengths and powers. Integraf is claiming their 50mW 650nm system will be available soon.<br><br>3. Krypton at 647nm and high power. But....severe expense and a real pain in the rear.<br><br>If 610 is optimum, then I wonder if 633 is already somewhat too long. I think Gentet uses HeNe, Bjelkhagen has used both HeNe and Krypton.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Mar 27, 2007 6:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">My first choices would be 647nm (small Krypton with etalon), 532nm (DPSS) and 457nm (large Argon with etalon). Buying surplus lasers and making scanning Fabry-Perot interferometers at home (though I already have one for the red) would be my plan to minimize costs.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Tue Mar 27, 2007 9:58 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hi Joe<br><br>Color is a complex subject. The choice of the optimum wavelengths is a contentious issue. You only need to look at different papers to see that there is no one answer. All I can give you are my views, which have not changed over the last 20 years or so!<br><br>I don&#x27;t think that going higher than 610 is going to have a strong effect on color rendition. Obviously there are no practical laser wavelengths around 610, so you can pick 633 or 647. Of course the higher you go, the lower the [luminous efficiency](http://en.wikipedia.org/wiki/Image:CIE_1931_Luminosity.png), or apparent brightness of the light, so you will need more of it in proportion to the blue and the green. I think this is the main disadvantage when going higher.<br><br>The green and blue, on the other hand, can have bad effects on color rendering index or [CRI](http://en.wikipedia.org/wiki/Color_rendering_index). 532 nm is pretty good, but 514 is bad. And anything around 488 is very nasty for CRI.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Mar 27, 2007 11:00 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; I don&#x27;t think that going higher than 610 is going to have a strong effect on color rendition.<br><br>You&#x27;ve <em>got</em> to be kidding! 633nm looks orange when compared to 647nm. I can&#x27;t imagine rendering a red delicious apple with 610nm as my deepest red! <br><br>I <em>could</em> go with 633nm because it&#x27;s sooo much cheaper to run than 647nm, but 610?!?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Mar 27, 2007 11:55 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I once read an article by Bjelkhagen stating the 4 colors were best. If I remember correctly he had not only done the math but I think he shows it. The example was comparing three colors to four colors.<br><br>After looking at his holograms with him I decided that for some colors it was not very important and for some it would be. Remember that these papers are written so as to make every color look the same as real. All of the systems we talk about are better than video or color film! And I find them perfectly pleasing. (this web site shows how small the color gambit is for a computer monitor: [http://www.yorku.ca/eye/ciediag1.htm](http://www.yorku.ca/eye/ciediag1.htm))<br><br>What I did find a little distracting was the color change across the film plate. I don&#x27;t know if you have seen the circuit board he used in one of his papers. It was a different shade of green at the edges than at the center. Both shades looked fine to me but the difference looked slightly off.<br><br>Hans was kind enough to point this out to me and also to teach me why it had occurred. This discussion resulted in my addition to the wiki on the importance of controlling beam diameter and passing all beams through one pinhole. I am sure Hans tried to also explain the beam divergence is important as well but I was not bright enough to pickup on it till Bob Hess pointed it out to me.<br><br>PS I just found this reference that shows the history of the CIE diagram.<br><br>[http://en.wikipedia.org/wiki/CIE_chromaticity_diagram](http://en.wikipedia.org/wiki/CIE_chromaticity_diagram)<br><br>OK getting a little off topic here:<br><br>While I have not seen any papers about it, you could computationally estimate the difference it color (measured from the center to the edge of a solid color object) using a system like this:<br><br>[http://en.wikipedia.org/wiki/Lab_color_space](http://en.wikipedia.org/wiki/Lab_color_space)<br><br>Then one could make a digital object on a LCD that was color compensated to provide a better image. Sort of a &quot;pre-distorted color image&quot;.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Mar 28, 2007 7:13 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I don&#x27;t think that going higher than 610 is going to have a strong effect on color rendition.You&#x27;vegotto be kidding! 633nm looks orange when compared to 647nm. I can&#x27;t imagine rendering a red delicious apple with 610nm as my deepest red!<br><br>Ah... &quot;compared to 647&quot; it certainly looks orange. But were you looking at this in a darkened room where only the two wavelengths were illuminating? In that case, the eye/brain doesn&#x27;t have a &quot;normal&quot; point of reference and because the very deep red is present, sees the 610 as orange. (The eye/brain is extremely good at comparison of colors, but useless at absolute measurement of them.) This is a very unnatural situation, and if you were to switch the lights on and have some normal objects around, then suddenly you would see 610 as a deep red, and 647 as a deeper red.<br><br>I think you will find that the deepest red apple has a dominant color that is under 610, so you do not need a red deeper than that. The key data here is that of [Wintrigham](http://xplqa.ieee.org/Xplore/login.jsp?url=/iel5/10933/4050507/04050515.pdf?isnumber=4050507&amp;prod=JNL&amp;arnumber=4050515&amp;arSt=1135&amp;ared=1172&amp;arAuthor=Wintringham%2C+W.T.) in 1951, which I cited in [1989](http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel3/1153/1870/00051790.pdf?arnumber=51790). It was cited later by others in color holography, including Hans Bjelkhagen.<br><br>Here is the important diagram that I redrew from Wintringham&#x27;s paper:<br><br>![Image](http://homepage.mac.com/kaveh1000/wintringham.jpg)<br><br>The shaded area represents the limit of colors known to exist in nature. So the boundary is the most saturated colors known. (Later Pointer extended this to newer dyes made in the lab.)<br><br>So you can see that a deep red apple would fall somewhere in the shaded area, and easily covered by 610nm.<br><br>The important point about the CIE diagram is that the horseshoe shape represents the colors that the eye can distinguish, not the colors that exist in nature, or even man-made objects. Most of these lie well away from the boundary of the curve, and it is only these we need to represent.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Mar 28, 2007 7:15 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> I once read an article by Bjelkhagen stating the 4 colors were best. If I remember correctly he had not only done the math but I think he shows it. The example was comparing three colors to four colors.<br><br>I have great respect for Bjelkhagen&#x27;s work, but I disagree with him (and others suggesting more than 3 colors) on this one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Mar 28, 2007 7:27 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Kaveh:</strong> I have great respect for Bjelkhagen&#x27;s work, but I disagree with him (and others suggesting more than 3 colors) on this one.<br><br>The article was not very convincing unless you assumed you were making a copy of say the Mona Lisa for study of the pigments used or some such esoteric use. He did show it could be a little better.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Mar 28, 2007 2:02 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; The important point about the CIE diagram is that the horseshoe shape represents the colors that the eye can distinguish, not the colors that exist in nature, or even man-made objects.<br><br>&quot;... the colors that the eye can distinguish&quot; are all present in sunlight, and that exists in nature. Specular reflections off earthly objects will certainly contain colors outside of your shaded area of those &quot;known to exist in nature&quot;. <br><br>I wonder, if laser light of all wavelengths was cheaply available, would you still advocate using only three to render real world objects? Would they be the same three?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Mar 28, 2007 3:11 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> &quot;... the colors that the eye can distinguish&quot; are all present in sunlight, and that exists in nature.Specular reflections off earthly objects will certainly contain colors outside of your shaded area of those &quot;known to exist in nature&quot;.<br><br>OK. I don&#x27;t have Wintringham&#x27;s paper to hand, but I guess the shaded area is the gamut of non-specular reflection, under a standard white light source. Clearly specular reflections, diffraction, and fluorescence will fall outside this gamut. We are talking about whether the colors of an object will look true to the original when using certain laser wavelengths. <br><br>&gt; <strong>BobH:</strong> I wonder, if laser light of all wavelengths was cheaply available, would you still advocate using only three to render real world objects? Would they be the same three?<br><br>Amazingly, yes. Thornton, who looked at color rendering index found that a white light emitting just in the three wavelengths mentioned had a better CRI (~80) than any other combination of wavelengths, including one containing all wavelengths. Seems puzzling, but true. In addition, the luminosity of such a light, per power of output, was highest too.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Mar 28, 2007 3:22 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Ahhh, but what&#x27;s always puzzled me is yellow. Are there any pure, true yellows out there? If so, wouldn&#x27;t it be black if illuminated with RGB? I guess the same hold true for other &quot;pure colors&quot;. <br><br>What I base this on is my research on the spectral sensitivity of paints tests. There are paints that only reflect a very narrow band wavelength and absorbs all others. Again, how would these paints and even the raw material they are made from look with only narrow R, G and B?<br><br>I believe some generalizations and best cases need to be adopted.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Mar 28, 2007 3:31 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Ahhh, but what&#x27;s always puzzled me is yellow. Are there any pure, true yellows out there? If so, wouldn&#x27;t it be black if illuminated with RGB? I guess the same hold true for other &quot;pure colors&quot;.<br><br>I think that most yellows, even flowers and bright paints do not exhibit their &quot;yellowness&quot; by reflecting yellow wavelengths, but a combination of red and green. So they will still be just as yellow and bright using correct RGB wavelengths.<br><br>&gt; <strong>JohnFP:</strong> What I base this on is my research on the spectral sensitivity of paints tests. There are paints that only reflect a very narrow band wavelength and absorbs all others. Again, how would these paints and even the raw material they are made from look with only narrow R, G and B?I believe some generalizations and best cases need to be adopted.<br><br>Perhaps there are very special paints that do not follow the general rule, but my guess is that with the primary RGBs proposed by Thornton (450, 540 and 610), and suggested by me for holography, you will simply get desaturation, not color distortion. But I am only guessing here.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Mar 28, 2007 3:39 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">As a side note, Gentet has developed what he calls a &quot;mobile color holocamera&quot; for use in museums. There is a little information here:<br><br>[http://www.ultimate-holography.com/GB/index.html](http://www.ultimate-holography.com/GB/index.html) <br><br>Gentet seems to be a no-expense-spared kind of guy regarding color holography, yet he seems to prefer a HeNe for the red. I&#x27;m sure cost wouldn&#x27;t prevent him from using a krypton, so I wonder if there is a reason for this. Of course I don&#x27;t know if he uses krypton as well, but I&#x27;ve never seen it mentioned, only HeNe at 633. Unfortunately he does not participate regularly in this forum.<br><br>If the forum member &#x27;hansholo&quot; is in fact Hans Bjelkhagen, why doesn&#x27;t he participate here, I wonder?<br><br>Even though Kaveh&#x27;s published material on color holography is very small (only one paper that I know of), quantity is in no way indicative of quality! It is the most clear-headed and consise paper on the subject that I have! With such a complex problem as color holography, one needs to be able to step back, and take a look at the problem as a whole. Kaveh does this admirably. (Not only that, but he shares his knowledge freely on this forum.)<br><br>When money is no object, then yes, give me large-frame argons and kryptons, with etalons and all-digital controls, and a verdi. But who can do this? Or, who can wait around for years for surplus ones that could fail at any time? Not only this, but a suitable lab must be constructed to accommodate everyting, and provide a stable environment where results can be repeated over time.<br><br>Clear-headed choices need to be made if someone wants to make color holograms. Money can substitute only to a limited extent.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Mar 28, 2007 3:55 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Hansholo is not Hans Bjelkhagen. He does have a login here but he does not appear to do much online. He has been quite supportive of the Lippmann information I have been disseminating.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Mar 28, 2007 8:07 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">I think I had written a little tract on color holographic exposures as I had practiced them at Lake Forest College early &#x27;90&#x27;s for this forum. (It may have gotten deleted during the forum wrecking, a reminder to please don&#x27;t let those two back here!)<br><br>We used Argons at 476 and 514, and a 125 He-Ne at 633. This is because this was what was available. Prior to that, Hans Bj and V.C. Sainov were using Bulgarian plates, and for some silly reason they were using 488 for the blue, not a wise choice, as that corner of the CIE triangle would not be able to give a decent Navy Blue like 476 could. And of course, 458 would have been a little too scattery.<br><br>(Footnote on an experiment I would have liked to try: looking at a line connecting 488 and 633 on the CIE, it passes right through equal energy white! That would be a very cool effect, a white reflection hologram, with cyan and red accents!) (I thing cyan would be a more appropo name for 488 than blue, since it&#x27;s at that blue/breen border)<br><br>Exposures were on the then brand new duPont panchromatic polymer, although it needed like hundreds of milli, not micro, Joules in the red. I did a holo of a Russian Nesting Doll that Yuri D. himself gave to my first born, about the size of a 35 mm slide with that material.<br><br>What was more effective was a sandwich of an Agfa plate for the red and blue/green duPont laminated on top. But what also worked (surprisingly!) were back lit objects in a two beam reflection set up, with all three exposures on Agfa 8E75HD! Even better were sanwiches of 8E75HD for red and the blue and green on 8E56HD AHI, or 8E75HD and Ilford blue/green.<br><br>There were some left over Bulgarian HP-490 plates, and they gave the best results for the blue green. (Bulgarian HP-650 I never got to work!) These I developed in CWC2, against the then conventional wisdom that this type of processing would never work on Soviet style ultra-fine grain materials.<br><br>If I were to do it from scratch, I&#x27;d still use He-Ne 633, unless there are newer and cheaper and more powerful reds. I still think of 610 as being orange! The closest I&#x27;ve ever seen to this color was from a tunable He-Ne and who knows if it&#x27;s still being produced, by PMS (Particle Measurement Systems). And there definitely is a difference between it and 633, except that laser didn&#x27;t allow simultaneous lasing of all the wavelengths. Curiously, the 594 that could be coaxed out of it looked more orangey than yellow. But 543 was real green!<br><br>The 476 blue I like better than deeper ones because scatter is going to be the limiting factor down there. Yeah, 532 or 528 (a low gain argon line) would be better for green, but it always comes down to what you can get your hands on.<br><br>Wasn&#x27;t there some group in New Hampshire that Hans was involved with the Sobolevs that promised true color holograms but never got off the ground? And then this forum&#x27;s own Jeff Murray (are you still out there?) was helping some dentist that bought the equipment get things going but then nothing ever became of that?<br><br>Oh boy, the more things change the more they remain the same.<br><br>Also I am a 3 lambda man. The recording materials will be taxed enough with three exposures, why burden them with a fourth? Plus how do you juggle exposures to color tune a system like that?<br><br>I just can&#x27;t stop my fingers! I thought the origin of the Wintringham Gamut was a survey of the naturally occurring colors of everyday life to be used by early color TV engineers. So that&#x27;s the target for that industry. Things outside of it wouldn&#x27;t be too dearly missed.<br><br>There aren&#x27;t too many things that I have found that emit or reflect at the yellow notch. (Sodium vapor lamps and the above mentioned laser are not so ordinary examples.) Most all the yellows we see are red/green combos.<br><br>One topic that I don&#x27;t see discussed much regarding true color is the replay bandwith. (But I don&#x27;t have Kaveh&#x27;s paper infront of me, nor any others.) Whenever you look at a specular highlight in a reflection holo it&#x27;s not monochromatic, but a discontinuous spectrum; there are some missing lines. Of course there is a peak wavelength that is very nicely constructively interfered with for the brightest peak, then its neighbors sort of fit into the volume grating, so they are present, but not as bright, then there is a black band in the spectrum due to a certain wavelengths geometry fitting in the structure and destructively interfering. You can see a cyclic variation throughout the spectra, especially in deep scenes.<br><br>So the lasers can provide the corner angles of the triangle of colors during analysis, but the replay spectrum (synthesis) will grow due to the broadening of the replay colors.<br><br>BTW, whatever happened to the poster that was trying to do true color at some college? Any results?<br><br>Well, I better get something accomplished at work!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Mar 28, 2007 8:10 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Hans Bj&#x27;s email is hansholo@....com, and he does live in Wales, but I think he might be too busy for us!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Mar 29, 2007 1:34 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Thank you for the tips about blue scattering, it has been mentioned many times but since I don&#x27;t have a blue line I keep forgetting.<br><br>HeCd must be tough. Is resist less sensitive to scatter?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Mar 29, 2007 4:17 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">I understand Kaveh&#x27;s thesis (I was in the room at Lake Forest when he presented it there), and also remember the bruhaha when Paul Hubel argued in favor of the wavelengths I mentioned above. He was using the newly released Ilford material which was much less scattering than Agfa&#x27;s, and therefore allowed the use of 457nm. I&#x27;m certain the materials from Slavich, Color Holographics, and Gentet will do as well as the Ilford did back then.<br><br>Regarding red, however, I still think 647nm would be better than 610nm. If I were to do full color holography at home, though, I&#x27;d probably use a HeNe. How about 633nm (HeNE), 532nm (DPSS) and 442nm (HeCd), with processing to swell the final image (all three colors) by 20nm? All three lasers are air cooled with the HeCd limiting the coherence length and power. Good for 4x5&quot; holograms though! <br><br>&gt; Wasn&#x27;t there some group in New Hampshire that Hans was involved with the Sobolevs that promised true color holograms but never got off the ground? And then this forum&#x27;s own Jeff Murray (are you still out there?) was helping some dentist that bought the equipment get things going but then nothing ever became of that?<br><br>Last I heard of that effort was that Dr. Paul Crusel (sp?) was trying to sell all the equipment. That was about a year ago. I have a three color hologram in my collection he made on DuPont material, with the Indian scene master from Ultimate. Very nice. I don&#x27;t think he produced much, if anything, with Jeff Murray there. Jeff was struggling before he went East, and I think his experience there nailed the holography coffin shut for him!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Mar 29, 2007 11:18 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Wasn&#x27;t there some group in New Hampshire that Hans was involved with the Sobolevs that promised true color holograms but never got off the ground? And then this forum&#x27;s own Jeff Murray (are you still out there?) was helping some dentist that bought the equipment get things going but then nothing ever became of that?<br><br>Holos. They stiffed me for some work I did for them, so I wasn&#x27;t bothered when they went belly up. Soon after that, I received a list with all their former stuff that was for sale. Wow, talk about some incredible lasers! The list, presumably compiled by the liquidators, was quite long, and didn&#x27;t seem to miss the slightest detail. They were even trying to sell small quantities of chemicals <br><br>Jeff Murray told me that RGB bought pretty much everything. Too bad that didn&#x27;t fly. Last I heard from him, he said he had a nice two-car garage and wanted to set up a lab. Really, I think that&#x27;s the best way to go, because &quot;commercial&quot; holography never seems to work out. You may temporarily have access to some incredible equipment in a commercial environment, but that is not enough. You need access all the time, anytime, for many years into the future.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Mar 29, 2007 2:14 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; ... because &quot;commercial&quot; holography never seems to work out. You may temporarily have access to some incredible equipment in a commercial environment, but that is not enough. You need access all the time, anytime, for many years into thefuture.<br><br>Or you need a good business plan, <em>honest</em> business partners, <em>ethical</em> marketing, and technical ability to deliver that which was promised. I&#x27;m not argueing your point, but throwing money into lots of equipment certainly isn&#x27;t the path to sucess in holography. I know of many large ion lasers sitting around doing nothing.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Mar 29, 2007 3:15 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> Regarding red, however, I still think 647nm would be better than 610nm.<br><br>At first glance is does seem odd that 610 might be best. After all, it would seem to exclude everything between 610 and 700. I&#x27;ve never seen 610, but as 633 is rather orange, then I guess 610 would be more orange still.<br><br>But look at Wintringham&#x27;s data, that &quot;blob&quot; in the center of the CIE diagram. This is supposed to represent pretty much everything we normally see in nature. There are points plotted there (were these done by Kaveh?) to show green foliage, caucasian skin, and blue sky. Also, there are other points (b,g,y,r) to show highly saturated examples of blue, green, yellow, and red. As we see from the triangle formed by 450, 540, and 610, the &quot;saturated red point&quot; is well within it. In fact the 610 wavelength could be shortened a bit further, and still enclose the red portion of &quot;Wintringham&#x27;s blob&quot; in its entirety. Honestly, it doesn&#x27;t seem to make much sense to me, but there it is.<br><br>I think this is one of the keys to Kaveh&#x27;s paper, the other one being the importance of luminosity. The shorter red we use, the higher the luminosity, and thus the holographic image will appear brighter or more luminous, because the eye/brain is more sensitive to colors approaching yellow.<br><br>But on the other hand, what about blue? Kaveh suggests 450, but 476 is a more luminous color. So, if it&#x27;s just a matter of maximum luminosity while still enclosing Wintringham&#x27;s data, wouldn&#x27;t it be best to simply choose the 3 colors which enclose the blob, at the same time having the longest blue (highest luminosity) and shortest red (highest luminosity)? I must be making an error here, Kaveh, could you please clarify this?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Mar 29, 2007 3:57 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">If I remember correctly, Lippmann photography is capable of better color rendition than all other techniques. If that&#x27;s correct, could it be that his technique&#x27;s recording of all wavelengths instead of just three is responsible?<br><br>If we were talking about recording sound waves instead of light waves, I&#x27;d be advocating analog instead of coursely sampled digital. Sampled digital obviously works well, but am I wrong to want to include as much information as possible?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">tom m</span>
+                <span class="post-date">Thu Mar 29, 2007 3:58 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; Quote:... because &quot;commercial&quot; holography never seems to work out. You may temporarily have access to some incredible equipment in a commercial environment, but that is not enough. You need access all the time, anytime, for many years into thefuture.Or you need a good business plan, honest business partners, ethical marketing, and technical ability to deliver that which was promised. I&#x27;m not argueing your point, but throwing money into lots of equipment certainly isn&#x27;t the path to sucess in holography. I know of many large ion lasers sitting around doing nothing.<br><br>Ditto<br><br>I have some of the best equipment I&#x27;ve seen in the back of my studio and still haven&#x27;t got a &quot;holoart&quot; piece in any of the galleries I&#x27;m in.<br><br>I&#x27;m more commited to equipment acquisition than production of &quot;holoart&quot;.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Mar 29, 2007 4:06 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">All the work on color TV and photography to date has been done to suit pigments phosphors and light sources that were available then. Holography isn&#x27;t restricted by the pigments or phosphors, and we have micro-arc lamps, LEDs and lasers to consider as light sources now. Choosing orange instead of red because it appears brighter to the eye is no longer necessary when adequately high power LEDs at 650nm can be used. Same with 450nm. You&#x27;ll see what I mean when you see the colors on a projection TV using LEDs or lasers as the source.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 29, 2007 5:46 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> ...am I wrong to want to include as much information as possible?<br><br>Yes <br><br>It all depends on what you need.<br><br>Hard-core audiophiles regularly claim that they can hear the difference between CD-quality audio and what most regular people would consider high data-rate mp3 compression. Most normal people with normal audio equipment would be hard-pressed to hear a difference.<br><br>The same is roughly true with holography.<br><br>Kaveh&#x27;s point about comparing 633 &amp; 650 next to each other is, imo, well taken. Look at 633 by itself in a dark room pointed at a white surface and it looks (to me anyway) quite red. Put a 650 spot next to it and suddenly 633 looks quite orange.<br><br>It&#x27;s all relative to a very large degree.<br><br>A critical question is does it really matter? Does your choice of color affect the end-result to any degree that is remotely important to your target audience? If your target audience is you, (meaning the creator of the work) then only your opinion matters. If you can only see differences in output when comparing two holograms made using difference source frequencies, side by side then my opinion is that it doesn&#x27;t matter unless the final holograms will also be compared that way. If those same holograms can be displayed in different rooms and nobody notices that there&#x27;s a difference between them, then I&#x27;d have to say that the source lasers don&#x27;t make a bit of difference.<br><br>To me, the more important question is &quot;does the final result look reasonable?&quot; If the viewer has no reason to think that the colors in the hologram weren&#x27;t the original colors of the objects, then I&#x27;d have to say that the there&#x27;s no good reason to put additional work into getting more &quot;accurate&quot; color rendition. Unless you&#x27;re doing non-display work it&#x27;s all subjective anyway.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Mar 29, 2007 6:07 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">With regards to using 450, 540, and 610, I guess the short answer to my question is &quot;look at Thornton&#x27;s paper,&quot; which I haven&#x27;t done, and the same goes for Wintringham and Pointer. It&#x27;s on my list.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Mar 29, 2007 6:22 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> A critical question is does it really matter? Does your choice of color affect the end-result to any degree that is remotely important to your target audience? If your target audience is you, (meaning the creator of the work) then only your opinion matters. If you can only see differences in output when comparing two holograms made using difference source frequencies, side by side then my opinion is that it doesn&#x27;t matter unless the final holograms will also be compared that way. If those same holograms can be displayed in different rooms and nobody notices that there&#x27;s a difference between them, then I&#x27;d have to say that the source lasers don&#x27;t make a bit of difference.To me, the more important question is &quot;does the final result look reasonable?&quot; If the viewer has no reason to think that the colors in the hologram weren&#x27;t the original colors of the objects, then I&#x27;d have to say that the there&#x27;s no good reason to put additional work into getting more &quot;accurate&quot; color rendition. Unless you&#x27;re doing non-display work it&#x27;s all subjective anyway.<br><br>Well said. This certainly applies to the kind of work I want to do. The line must be drawn somewhere, so that color holography is within the realm of the possible. Knowing where to draw the line is essential, and this means knowing what your purpose is. My experience thus far in building a two-color lab has proven how difficult it can be, and adding to the complexity is the last thing I need at this point!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Mar 29, 2007 6:55 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Colin asked:<br><br>&gt; Is resist less sensitive to scatter?<br><br>Scatter comes from an inhomogenous medium. Silver halide materials have the roughly 2.5 index of refraction silver halide crystals embedded in the 1.5 refractive index gelatin. Big delta n, lots of scatter. (Of course size, concentration, and wavelength play a part in the Rayleigh scatter equation.)<br><br>On the other hand, photo resist is pretty homogenous once the solvent evaporates, so scatter is slight or non-existent.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Mar 29, 2007 7:07 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">I recall reading somewhere that scattering of blue light can even occur at the molecular level, with no actual colloidal particles involved, and that&#x27;s why the sky is blue. I may be wrong, however, and maybe it&#x27;s because small particles are up there. But of course, I agree with Ed, scattering really comes into play when particles are involved.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ErichRose</span>
+                <span class="post-date">Thu Mar 29, 2007 9:50 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">I would be very interested in hearing from folks in Russia regarding the holograms made of various antiquities. Some were done in full color. In those cases the purpose was to create a duplicate of the object. I wonder how close they actually came?<br><br>The point is that it&#x27;s one thing to talk about creating full color &quot;art&quot; and another to develop a method that most accurately captures an objects &quot;true&quot; colors. Even the best color film can be &quot;off&quot; when held up to the original object. All of us who work with computers know the frustration of going from screen, to print and the headache of calibration. <br><br>I worked with an engineer years ago who was quite brilliant. He would make various radio shack chips do things they were not supposed to do. Drove the technician insane trying to figure out how he did it. Long story short...he believed that the digital era would be relatively short since truely accurate and high quality information must eventually be recorded in it&#x27;s analog form. The very nature of digitizing information creates an approximation. As he would say, &quot;The real world is made up of shades of color, sound, energy, etc. Not 1s, 2s, bits or bytes.&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Thu Mar 29, 2007 9:52 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">I am glad we are having this debate. I have waited for many years for someone to really challenge what I am saying. But although others have suggested other wavelengths, no-one has made challenges like you guys have, and I appreciate it.<br><br>&gt; <strong>Joe:</strong> At first glance is does seem odd that 610 might be best. After all, it would seem to exclude everything between 610 and 700. I&#x27;ve never seen 610, but as 633 is rather orange, then I guess 610 would be more orange still.<br><br>I don&#x27;t have Thornton&#x27;s paper to hand, but will find it. I can only assume that even the deepest reds you come across in reflective materials can be reproduced by mixing in 610 and the green and red. Yes, 633 is a deeper red, but reflective materials don&#x27;t approach that saturation, and are well within the Wintringham or Pointer curves, so there is no need to have the deeper reds to reconstruct them.<br><br>&gt; <strong>Joe:</strong> But look at Wintringham&#x27;s data, that &quot;blob&quot; in the center of the CIE diagram. This is supposed to represent pretty much everything we normally see in nature. There are points plotted there (were these done by Kaveh?) to show green foliage, caucasian skin, and blue sky. Also, there are other points (b,g,y,r) to show highly saturated examples of blue, green, yellow, and red. As we see from the triangle formed by 450, 540, and 610, the &quot;saturated red point&quot; is well within it. In fact the 610 wavelength could be shortened a bit further, and still enclose the red portion of &quot;Wintringham&#x27;s blob&quot; in its entirety. Honestly, it doesn&#x27;t seem to make much sense to me, but there it is.<br><br>I didn&#x27;t put those b,g,y,r points in. They were there already, and I think represent saturated colors. I agree it doesn&#x27;t seem to make sense, but that is the rule of the CIE triangle, that any color within the triangle can be replicated by mixing the three colors.<br><br>I think what this shows is that most things we see around us are not very saturated. Blue sky for instance... So a blue that has twice the saturation of blue sky will look a very rich blue, but still nowhere near a pure laser wavelength. <br><br>It seems that just because the <em>dominant color</em> of an object is a deep red, you don&#x27;t need a deep red wavelength to reconstruct it. Perhaps this is what is confusing. You get the dominant wavelength by drawing a straight line through the white point (E), and the object color (r say), and seeing where it crosses the edge of the CIE curve. So in the diagram, r will have a dominant wavelength of just over 610. So it will look the same color as that wavelength, but with less saturation. But we don&#x27;t need such a deep red to recreate it. A more orangey red mixed correctly with green and blue will do it.<br><br>&gt; <strong>Joe:</strong> I think this is one of the keys to Kaveh&#x27;s paper, the other one being the importance of luminosity. The shorter red we use, the higher the luminosity, and thus the holographic image will appear brighter or more luminous, because the eye/brain is more sensitive to colors approaching yellow.But on the other hand, what about blue? Kaveh suggests 450, but 476 is a more luminous color. So, if it&#x27;s just a matter of maximum luminosity while still enclosing Wintringham&#x27;s data, wouldn&#x27;t it be best to simply choose the 3 colors which enclose the blob, at the same time having the longest blue (highest luminosity) and shortest red (highest luminosity)? I must be making an error here, Kaveh, could you please clarify this?<br><br>OK. The luminosity is a secondary point. I used the argument of luminosity to show why we don&#x27;t need the biggest triangle, as most people suggest. If we want the biggest potential gamut, we can choose 400 and 700 as blue and red. But then we wouldn&#x27;t see anything as they are at the limits of the eye&#x27;s sensitivity.<br><br>The primary goal is to find 3 wavelengths that automatically mix to produce the correct colors. These were empirically found to be 450, etc. In other words, by trial and error, these wavelengths were found to give a high CRI. If you were to replace the 450 with 476, you would reduce your CRI.<br><br>I am really enjoying these exchanges by the way, as I am learning all the time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Mar 30, 2007 3:51 am</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">&gt; <strong>Kaveh:</strong> I agree it doesn&#x27;t seem to make sense, but that is the rule of the CIE triangle, that any color within the triangle can be replicated by mixing the three colors.<br><br>I believe this has to do with the chemicals that make the eye sensitive to light. There are three molecules so we only need three colors to stimulate them.<br><br>From:<br><br>[http://www.answers.com/topic/color-vision-1](http://www.answers.com/topic/color-vision-1)<br><br>&gt; Techniques of microspectrophotometry have been used to measure the absorption of light by single cone receptors from the eyes of primates, including humans. The results confirm that three types of cone receptors are specialized to absorb light over characteristic ranges of wavelength, with maximum absorption at about 420, 530, and 560 nanometers. In addition there are rod receptors sensitive to low intensities of light over a broad range of wavelengths peaking at about 500 nm. In each of the four types of receptor there is a photosensitive pigment that is distinguished by a particular protein molecule. This determines the range and spectral location of the light which it absorbs.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Mar 30, 2007 10:00 am</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">I agree with Kaveh, it&#x27;s great armchair holography to discuss all these parameters. Who amongst us has the wherewithal to carry out any experiments? And how many people are actually capable of doing any of the above?<br><br>It&#x27;s always a matter of trying to do the best with what you have on hand. It&#x27;s fun to quibble about the optimal wavelengths, but for me, heck with verisimilitude, I just want to put any color of the rainbow at any point in 3 space!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Mar 30, 2007 10:38 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>Kaveh:</strong> So a blue that has twice the saturation of blue sky will look a very rich blue, but still nowhere near a pure laser wavelength.<br><br>You know, I think this statement hits the nail on the head. Even since I got into holography it seems there is something very special about the color of lasers. 25 years ago anyway (before the common use of LED&#x27;s).<br><br>The 442 wavelength of the HeCd was one of the most beautiful colors I have ever seen. And I can&#x27;t think of anything natural that has that color. It was actually a color that I had never seen before. It just touched me somewhere inside. I have never seen the red of a Krypton but I bet it is equally as beautiful and unnatural as the HeCd.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Mar 30, 2007 12:11 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Who amongst us has the wherewithal to carry out any experiments?<br><br>Maybe it&#x27;s not as bad as all that. It shouldn&#x27;t be that difficult if someone is working with silver, and willing to use two colors instead of three. The possibilities of two-color holography seem to be pretty much unexplored. If someone is making silver holograms with a HeNe, how hard would it be to add a 532nm laser? Not very, in my opinion, if both lasers are located on the table and the pinhole is pretty large.<br><br>I shouldn&#x27;t open my mouth too wide at this point, though, because I haven&#x27;t got my two beams together yet (but my setup is more involved, for DCG). If a spatial filter isn&#x27;t used, all you need is a second laser and that $40 dichroic mirror from Edmund. Even if you don&#x27;t match the diameter and divergence of both beams, you should still be able to get some interesting results.<br><br>I think Kaveh said that the two above colors (532 and 633) will take you more than 2/3rds of the way to full color. Obviously if you want to duplicate a museum object with blues, this won&#x27;t work. But we&#x27;re only marginally interested in that, I think. Personally I intend to use my own colors on sculpture. So, the sculpture can be colored with 532 and 633 in mind, and the appreance can be checked under those two wavelengths. Actually, since I do this work in another building, I&#x27;m planning to use a combined 5mW HeNe and pointer at 532nm for the sole purpose of checking the appearance of the colored sculpture. Then, it becomes a matter of controlling shrinkage of the emulsion, and keeping the bandwith narrow, if the colors are to be retained in the final hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Mar 30, 2007 6:54 pm</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe:</strong> Then, it becomes a matter of controlling shrinkage of the emulsion, and keeping the bandwith narrow, if the colors are to be retained in the final hologram.<br><br>This is a bigger problem in my opinion. But, it takes getting out of the arm chair!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Mar 31, 2007 11:53 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Joe wrote:Then, it becomes a matter of controlling shrinkage of the emulsion, and keeping the bandwith narrow, if the colors are to be retained in the final hologram.This is a bigger problem in my opinion.<br><br>I agree it&#x27;s a problem, but I think Michael&#x27;s important points should be kept in mind. If you set the goal of presenting an &quot;absolute illusion&quot; of a given colored object, then you&#x27;ve selected a very thorny problem. But that&#x27;s part of a more general problem for holographers who think in terms of &quot;taking pictures&quot; of things.<br><br>On the other hand, if you take a different view, based on colored sculpture being an <em>element</em> of the hologram, then things aren&#x27;t as difficult. If there&#x27;s a little shrinkage or broadening, it&#x27;s O.K. unless it detracts from the final result. In other words, if the greens are a tad bit greener, or the reds are slightly redder, or the colors are less saturated, then it shouldn&#x27;t be a big deal. In fact, the holographer may prefer the &quot;new&quot; look. If not, then adjustments can be made to the colors on the sculpture.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Mar 31, 2007 2:41 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">The original question in this thread asked about detrimental effects on a hologram if using longer wavelengths than 610nm. I think the answer is that there are none. Kaveh says CRI will suffer if reds longer than 610nm are used, but I can&#x27;t believe it (sorry Kaveh ). <br><br>Yes, the colors made by color TVs is nice and acceptable, but nowhere close to accurate or consistant. With the availability of LEDs and lasers as sources of the future for reconstructing holograms, I don&#x27;t think it wise to restrict our thinking to what was good for TV 50 years ago, or good for lighting 36 years ago (Thronton).<br><br>Hubel &amp; Ward got better blues, reds and purples by using a longer wavelengths for blue and red, wavelengths available with common lasers. High powered LEDs are available at those wavelengths. I&#x27;m not suggesting that all holographers doing multicolor work must use ion lasers, but I don&#x27;t think laser phobia is a good reason to choose a primary color.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Mar 31, 2007 3:20 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> The original question in this thread asked about detrimental effects on a hologram if using longer wavelengths than 610nm. I think the answer is that there are none. Kaveh says CRI will suffer if reds longer than 610nm are used, but I can&#x27;t believe it (sorry Kaveh).<br><br>It bugs me that I don&#x27;t have Thornton&#x27;s paper, maybe I will be able to find it tomorrow. But it seems he did a lot of grunt work to find the 3 wavelengths for the best CRI, presumably to accommodate the Wintringham data. Personally I want to see more detail on how this was done. The luminosity of the recording wavelengths appears to have significance, as Kaveh asserts, but obviously there are other factors involved, because 450 is considerably less luminous compared to longer blue wavelengths which would still enclose the Wintringham data. I guess it all boils down to trial and error work to find the best CRI.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Apr 01, 2007 11:31 am</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe:</strong> Even though Kaveh&#x27;s published material on color holography is very small (only one paper that I know of)....<br><br>This is incorrect, I&#x27;ve found out. There are at least several papers, maybe more. I haven&#x27;t done much research on color holography, ever since I read the 1989 paper, I tended to stop there! But I am still wavering a bit about the best blue wavelength, at least the best practical blue wavelength (suitability, power, cost, availability, etc.), so I intend to delve into the two papers by Thornton today (1971 and 1972).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Apr 02, 2007 12:09 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">After looking at the two papers by Thornton, I see the criteria for finding the best 3 wavelengths was a compromise involving the best CRI combined with the best luminosity. If it&#x27;s a matter of finding the best CRI <strong>or</strong> the best luminosity, then the wavelengths will change. I think it would be an interesting research topic to see what the best wavelengths would be in each <strong>separate</strong> case, i.e, either the best CRI or the best luminosity, especially where blue is concerned.<br><br>To say that I&#x27;m in no position to argue with Thornton is an understatement. Here are the two papers if anyone wishes to find them:<br><br>Luminosity and Color-Rendering Capability of White Light, W.A. Thornton (Westinghouse Fluorescent and Vapor Lamp Divisions, Bloomfield, New Jersey), Journal of the Optical Society of America, Volume 61, Number 9, September 1971, pages 1155-63.<br><br>Color-Discrimination Index, W.A. Thornton, Journal of the Optical Society of America, Volume 62, Number 2, February 1972, pages 191-4.<br><br>Also, the one by Wintringham is called Color Television and Colorimetry, W.T. Wintringham (Bell Telephone Laboratories, Murray Hill, New Jersey), Proceedings of the I.R.E., Volume 39, 1951, pages 1135-72 (a long paper).<br><br>One interesting thing about Thornton&#x27;s use of 450, 540, and 610 is that he said that just those 3 wavelengths would provide even better color rendition than sunlight. This is because sunlight contains certain wavelengths around 500 and 580 which have a stongly adverse effect on the CRI.<br><br>He also made the interesting comment on page 1157 of the first paper: &quot;....Figure 2 indicates that there are three wavelength regions that can only be labeled as disastrous for the CRI, namely, wavelengths near 495, 575, and beyond about 640 nm.&quot;<br><br>And from the summary:<br><br>&quot;....For CRI, the three most effective wavelengths in white light of any color are near 450, 540, and 610 nm. It is established here, perhaps for the first time, that three wavelengths should be predominant in white light from which high CRI and high luminosity are both desired, and it is shown that white light composed of only these three wavelengths is very difficult to excel in those characteristics. Conversely, composition of white light should avoid wavelengths near 500 and 580 nm; not only are those wavelengths ineffective, but they are actually harmful since, for example, removing a slice of light near 500 or 580 nm from the SPD of a cool-white fluorescent lamp causes the CRI to rise sharply.&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Mon Apr 02, 2007 1:51 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">Bugs me that I don&#x27;t have the paper too. Bugs me more that we can&#x27;t just put it online and allow everyone to see it. I&#x27;ll try to find it, then copy, and send it to anyone who wants. Damn copyright. <br><br>I think that blue is a much smaller contibutor to luminosity than the other colors. And you are right that in the end is trial and error. Either physical, or using calculation to predict CRI. That&#x27;s it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Mon Apr 02, 2007 1:57 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">Thanks Joe. This is very useful. I have thought that it would be good to have a &quot;translation&quot; section on Holographer.org. This would be a layman&#x27;s summary to important papers, avoiding the mandatory gobbledygook in published technical papers. If you can do such an article on any of these papers, I would be happy to format and publish online.<br><br>Down with gobbledygook.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Apr 03, 2007 12:26 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">Kaveh, I sent you a PM.<br><br>I found a couple of statememts in Wintringham (first and second quote) and Thornton (third quote) that I thought were worth sharing:<br><br>&quot;As pointed out earlier, it is possible that, under certain circumstances, spectra, stained glass windows, fluorescent-dyed materials, and the like, may form part of a television presentation. In such cases, the general conclusions drawn here obviously are invalid.&quot; (page 1162)<br><br>Otherwise, the Wintringham data includes &quot;the entire gamut of fast or permanent surface colors....represented in the color chips of the Munsell and of the Ostwald systems....the Textile Color Card Association....and the gamut covered by printing inks.&quot; (pages 1160-1)<br><br>That&#x27;s certainly good enough for me. The very last footnote in the second Thornton paper states:<br><br>&quot;It is not unexpected that the locus shows an evolutionary extension toward the three spectral colors of maximum brightness (450, 540, and 610 nm).&quot;<br><br>It took me a moment to understand this. The &quot;locus&quot; he refers to is Wintringham&#x27;s data, and the fact that it is enclosed so nicely by 450, 540, and 610 is no &quot;accident&quot; but that it merely makes common sense! The &quot;evolutionary extension&quot; refers to the newer synthetic pigments and dyes (for example as examined by Pointer) which extend the Wintringham data outward in all directions. (That&#x27;s the way I understand it, at least.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Tue Apr 03, 2007 10:28 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">All good quotes, Joe. <br><br>Let me tell you that, at least for me, the more I try to understand what is going on in color, the more complex it becomes. The whole thing is a mixture of physics, psychology, anatomy, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Apr 24, 2007 6:44 pm</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">The other night I was reading an interesting paper in Leonardo, Volume 25, Number 5 (1992), called &quot;True-Color Holography,&quot; by Paul Hubel.<br><br>Regarding the question of the best red wavelength, I found two comments noteworthy (on page 512):<br><br>&quot;The red components used experimentally (633 and 647nm), although longer than the optimum, give accurate color reproduction when used to record holographic images.&quot;<br><br>But later on, he adds:<br><br>&quot;....the best results were achieved by the 458, 529, 633nm combination.&quot;<br><br>This would reinforce the comment by Thornton that anything longer than 640 isn&#x27;t so good.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Apr 24, 2007 9:11 pm</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">A little bit of a <em>non sequitor</em>: I found an object the other day that is organic but I am sure out of Wintringham&#x27;s gamut: the magenta turnips that you can find in Middle Eastern Delis!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Apr 24, 2007 9:41 pm</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">You may be right, Ed! I&#x27;m on the lookout for non-Wintringham stuff myself.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Apr 25, 2007 1:27 am</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">I bet you it&#x27;s in the gamut Ed. <br><br>Remember that these highly saturated colors in nature existed when Wintringham did his survey. But it would be interesting to find out. I would love to see a comprehensive table of xy plots for common objects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Apr 25, 2007 11:26 am</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">&gt; <strong>Kaveh:</strong> I would love to see a comprehensive table of xy plots for common objects.<br><br>I wonder what kind of equipment would be needed to do this.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Apr 25, 2007 11:56 am</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">Spectrophotometer. It reads the wavelength reflectivity throughout the spectrum, then a computer program translates that data to chromaticity points. I&#x27;ve wanted one of these for years, and at lost I have one, only because we need one for my day job (to calibrate screen and print). This is the one I have bought:<br><br>[http://www.pantone.com/pages/products/p ... id=47&amp;ca=2](http://www.pantone.com/pages/products/product.aspx?pid=47&amp;ca=2)<br><br>We haven&#x27;t really done much with it yet, but I am hoping to have a good play with different objects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Apr 25, 2007 1:03 pm</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">Thanks, Kaveh.<br><br>It looks like a spectrophotometer would provide a set of coordinates for any test object, i.e., a small irregular blob within the CIE diagram. (Is that correct?) That would be pretty interesting to see. It might put to rest any doubts about the efficiency of 450, 540, and 610, if the blob falls within that triangle. If I had one, I would invite Ed to send me his radish.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Wed Apr 25, 2007 1:38 pm</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe:</strong> Thanks, Kaveh.It looks like a spectrophotometer would provide a set of coordinates for any test object, i.e., a small irregular blob within the CIE diagram. (Is that correct?) That would be pretty interesting to see. It might put to rest any doubts about the efficiency of 450, 540, and 610, if the blob falls within that triangle. If I had one, I would invite Ed to send me his radish.<br><br>I can almost guarantee that all will fall within the triangle, and if not, I bet the result will just be a small desaturation.<br><br>I&#x27;ll report my findings when I have played with it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Apr 25, 2007 1:55 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">I don&#x27;t know if I could send you the turnip, it might not like the mails. The color itself is almost fluorescent, looks like it might be found down at the bottom right of the CIE chart where the -ish is in purplish red.<br><br>I kind of think that this may be out of the gamut of everyday color since this is a rather unusual food, only found in Middle Eastern delis, and probably not one that would be found in a survey done in the &#x27;50&#x27;s. It will be interesting to try the spectrometer on it!<br><br>I am out of them at the moment, they don&#x27;t last for long at my house, but another test would be to photograph them with color film and digitally, and see what the rendition is like.<br><br>If you don&#x27;t know what kind of vegetable I am talking about, it is a turnip, yuck is my immediate response, but pickled in some sort of brine, so it&#x27;s not the color that they have coming out of the ground. The color is kind of like what you get from 255 on both the red and blue sliders in Photoshop. And it tastes pretty good, not like normal turnips. I don&#x27;t know the name of it in the shop, I just point at it in the display case and they put it in a container.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6135.html" class="prev-thread">← True Color Transmission Holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6125.html" class="next-thread">Pulsed Laser Design Files →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1074.html" class="card">
+                <h3>color holography at home</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="1070.html" class="card">
+                <h3>trying color holography again</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="805.html" class="card">
+                <h3>Color Holography</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="786.html" class="card">
+                <h3>Questions about two color holography</h3>
+                <div class="card-meta">Equipment · 45 posts</div>
+            </a>
+            <a href="546.html" class="card">
+                <h3>Color Holography Optics setup</h3>
+                <div class="card-meta">Optics · 40 posts</div>
+            </a>
+            <a href="210.html" class="card">
+                <h3>Color holography</h3>
+                <div class="card-meta">Techniques · 15 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

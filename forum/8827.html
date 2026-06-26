@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polarization dependence of gratings — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="9940.html" class="prev-thread">← So... diode or hene lasers for holography ?</a><a href="Optics.html">↑ Optics</a><a href="8530.html" class="next-thread">microscope objective →</a></div>
+    <h1>Polarization dependence of gratings</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>16</td></tr>
+        <tr><td>Views</td><td>231,398</td></tr>
+        <tr><td>Started</td><td>Sun Jun 11, 2017 9:17 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/abripin.html">abripin</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/lobaz.html">lobaz</a> · <a href="../authors/sergio.html">Sergio</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8827" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">abripin</span>
+                <span class="post-date">Sun Jun 11, 2017 9:17 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">It is often said that there is a difference in efficiency of gratings with respect to polarization but:<br><br> 1- why is that the case at a microscopic level?<br><br> 2- Also, transmission gratings are apparently less subject to this issue, why?<br><br>The only thing I can think of is that if the polarization is perpendicular to the grating periodicity (TM), the electric field will see a modulation in refractive index but what does this cause? Moreover if the case would be that the field needs to see this modulation in refractive index, then why do they still work at all with also the orthogonal polarization? I would then suppose that would not work. In metallic gratings maybe oscillations of electrons in the grating wires can be excited when the field is TM but then why do they still work in the case of TE polarization?<br><br>If you also have any references to read that would be great. I cannot find proper explainations to this.<br><br>Thank you</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 12, 2017 9:25 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It&#x27;s not true that the efficiency of a grating is dependent on the polarisation of the reconstruction beam.<br><br>There are two theories of holograms: thin holograms and thick holograms. The criterion for differentiation is the so-called Q parameter<br><br>Q = 2π(lambda)t/(nd^2)<br><br>where:<br><br>lambda is the recording wavelength<br><br>t is the emulsion thickness<br><br>d is the grating spacing<br><br>n is the index of the emulsion.<br><br>If Q &lt; 1, then the grating is thin. Diffraction in this regime is known as <em>Raman Nath diffraction</em>. Otherwise the hologram is thick, and diffraction in this regimes is known as <em>Bragg diffraction</em><br><br>Assuming phase gratings, the most common forms of gratings today, the respective efficiencies, eta, are:<br><br>eta(RN) = (J_1)^2{delta(phi)}<br><br>eta(B,T) = sin^2(nu)<br><br>eta(B,R) = sinh^2(nu)/(1 + sinh^2(nu))<br><br>Where<br><br>eta(RN) is the efficiency of a Raman Nath grating, J_1 is the first Bessel function and delta(phi) is the index modulation<br><br>eta(B,T) is the efficiency of a Bragg transmission grating, nu is a function, nu(m,lambda,s) m being the modulation and s the slant factors of the Bragg planes<br><br>eta(B,R) is the efficiency of a reflection grating, but this time the efficiency is dependent on the hyperbolic sin function.<br><br>The important point to notice is that all these efficiency functions are <em>scalar</em>. This means that there&#x27;s nowhere to insert the polarisation state of the reconstruction beam. Whether the recon is TM or TE, the efficiency will be the same, because the only factors that affect it are the index modulation, the emulsion thickness, the recording wavelength and (in the case of Bragg diffraction) the slant factors.<br><br>There are, however, two additional factors.<br><br> First, while recording the grating, polarisation makes a difference. That&#x27;s because the strength of the interference is dependent on the angle between the E vectors in the recording beam. The exact relationship is that the strength of the interference is a cosinusoidal function of the E vectors. If you use s polarisation (polarisation perpendicular to the plane of incidence) then the angle between the E vectors will always zero, and so the cos (E_1, E_2) = 1. You get the maximum possible interference strength. But, if you use p polarisation (polarisation parallel to the plane of incidence) then the angle between the E vectors is a function of the interbeam angle of the recording. If the E vectors are perpendicular, cos(E_1,E_2) = 0 and there will be no recording. Note that this refers to the recording of the hologram, not the reconstruction of an already recorded hologram<br><br>Second, the amount of light that actually gets to the grating depends on the amount of light that penetrates into the grating. However, that depends on how much light is lost due to front surface reflection, either from the emulsion or the base material. In this case, the amount of reflection is given by the Fresnel equations, and these are polarisation dependent. However, note that this is a purely reflective effect, regardless of the grating inside the emulsion. The diffraction efficiency from the grating itself is independent of polarisation.<br><br>It seems to be a common fallacy that the efficiency of a grating is polarisation dependent. I&#x27;ve heard apparently very knowledgeable people (&quot;experts&quot;) say this. However, when I point out that the efficiency functions are scalar functions, they just walk away. I suspect the mathematics of holography is not a strong point to these experts!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 12, 2017 9:32 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">One other thing that needs mentioning is that there are people who have developed a <em>vector</em> theory of diffraction. In this situation, the efficiency is a vector function of the reconstruction beams, and, of course, you can now insert the polarisation state of the recon beam into the vector function. The most notable is the Gaylord and Moharam paper ( [https://www.osapublishing.org/josa/abst ... a-71-7-811](https://www.osapublishing.org/josa/abstract.cfm?uri=josa-71-7-811) ), and Glytsis and Gaylord ( [https://www.osapublishing.org/josaa/abs ... a-7-8-1399](https://www.osapublishing.org/josaa/abstract.cfm?uri=josaa-7-8-1399) ).<br><br>However, the regimes in which these holograms are analysed are rarely the regime in which most gratings are recorded, so the scalar functions are more than adequate for analysing any grating.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jun 13, 2017 6:22 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hello, abripin,<br><br>I would check &quot;Diffraction Grating Handbook&quot; by Erwin Loewen and Christopher Palmer (Richardson Gratings/Newport Corporation), currently in 7th edition. Chapter 9 explicitly discusses polarization dependence, you will find some references there as well. <br><br>I have no simple theory on the origin of polarization dependence. Scalar theory of light suggests that the efficiency it should be polarization independent, but scalar theory of light may be unreliable when the diffraction structure possesses wavelength-scale details, or when there is some light-matter interaction. Maybe you could check Wolfgang Iff&#x27;s thesis &quot;Rigorous Fourier Methods Based on Numerical Integration for the Calculation of Diffractive Optical Systems&quot; for some insight and general references.<br><br>The question is not &quot;is the grating efficiency polarization dependent&quot;, but rather &quot;how much it depends on polarization&quot;. Certain gratings are more prone to polarization, others are almost insensitive. You should clarify what type of diffraction gratings are you interested in. Ruled, holographic, surface, volume, ...?<br><br>Petr</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Jun 13, 2017 8:39 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Petr,<br><br>I assumed it was holographic, since this was posted in a holography forum.<br><br>The Gaylord and Moharam paper shows that if you have a surface structure with an amplitude, a and a grating spacing d, then if a/d &gt;~3, polarisation dependence arises. If a/d &gt;5, then the surface structure becomes polarisation dependent and Bragg selective. So, for very deep, high spatial frequency gratings, you go from Raman Nath to Bragg, and you go from polarisation independence to polarisation dependence. These types of gratings can be ruled, but it&#x27;s very difficult to make them holographically.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Jun 13, 2017 9:44 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I think we were answering the wrong question. The question was: &quot;If the efficiency is polarisation dependent, then why is it polarisation dependent?&quot;<br><br>The question was not: &quot;Is the efficiency polarisation dependent?&quot;<br><br>First of all, any medium with an index n, is supposed to &quot;slow light&quot;, so that the velocity of light in a medium of index n, has velocity v = c/n. But, the medium does not change the velocity of light. What happens is that the electrons in the medium are driven into oscillation as a result of the oscillating E field. This oscillation of a charged particle (the electron) in an EM field (the other nearby electrons) cause the oscillating electron to generate a new oscillating field. However, the phase of the incoming E wave, and the phase of the oscillating electron, and thus the new E wave, are out of phase by π.This causes interference effects between the new E wave and the incoming E wave. The result is that a resultant E wave is generated that&#x27;s phase delayed by these interference effects, appearing to slow the light down. The denser the electron population is, the more electrons will oscillate and so the greater is the effect of this phase delay of the resultant E wave. Therefore, the index of a substance is proportional to the density.<br><br>Now, consider an isotropic substance. If there is index modulation, then parts of the substance of higher density will generate waves of different phase relationships than parts with lower density. The incoming E wave (your reconstruction beam), will &quot;see&quot; more electrons in some parts of the medium than other parts of the medium. If the incoming E wave is polarised, all the electrons are driven into oscillation in the same direction as the incoming E wave. The new, generated, E wave will therefore be also polarised. Therefore interference effects will be occur between the electrons in the regions with the same density, as well as between electrons in regions with different densities. In some cases, where the modulation is very high, strong interference effects between electrons in the dense parts and electrons in the not-so-dense parts will generate strong, resultant E waves. In this case, the efficiency, ie the ratio between the amplitude of the incoming E wave (the reconstructing wave) and the generated E wave (the reconstructed wave), will be quite high. Thus, the efficiency may be polarisation dependent. <br><br>However, if the index is not too high, and the modulation is not too high, then the interference effects between the incoming and outgoing wave will not generate strong interference effects. Thus the new outgoing wave is less dependent on the polarisation of the incoming wave. The efficiency is therefore not polarisation dependent.<br><br>Generally, grating theories do not take these mutual interference effects into consideration. They simply assume that the reconstructed wave is a scalar function of the reconstructing wave, by assuming a modulation of the permittivity (delta epsilon), and plugging this delta epsilon into Maxwell. Note, though, if the substance is anisoptropic, as in some crystals, then you&#x27;d expect to see polarisation effects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Thu Jun 15, 2017 4:28 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It&#x27;s difficult to differentiate between &quot;holographic&quot; and &quot;other&quot; grating <br><br>A side note: there are sub-wavelength features in e-beam mastered embossed holograms, such as sharp boundaries. I think I have heard (although I am not sure) that a proper estimate of their diffraction efficiency requires full electromagnetic field modeling, including polarization. However, I cannot tell how much full calculation differs from scalar theory estimate. And I have no intuitive mental model how to think about polarization effects in such holograms.<br><br>By the way, Dinesh, do you have any mental models that allow you to guess diffraction efficiency without actually calculating it?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Jun 15, 2017 9:12 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Petr, yes, some idea.<br><br>In a Bragg reflection hologram, the efficiency depends on the modulation, which depends on the ratio, and the hardness of the emulsion, assuming proper exposure and development. But, the planes are sinusoidal. This means that if it&#x27;s overexposed, or overdeveloped, then the sinusoidal nature becomes more rectangular-wave. The exposure/development is non-linear. This gives rise to additional Fourier components. This means the output bandwidth broadens and flattens, since the output waveform is a Fourier transform of the plane distribution. So, I think of the area under the output curve as a measure of efficiency. The broader the bandwidth, and the flatter the output curve, the less efficient overall. This is a good thing for display holograms, since the broader the bandwidth, the brighter is the hologram (The brightness is the integral of the bandwidth multiplied by the photopic function, or, broadly, the area under the output curve). But, for HOEs, it wastes energy into less desirable wavelengths. So, for display, I try and make it broadband, and for HOEs, I try to make it narrowband.<br><br>The same holds for transmission holograms, but transmission holograms have one advantage over reflection holograms. They are dispersive. That means if, for some exposure and development, you get orders that diffract in different directions, then the fringes are non-linear. Energy is going into directions that you don&#x27;t want. So, for a particular exposure/development scheme, I look for orders. Sometimes, in a resist hologram, I develop too aggressively, and I see third orders, and even dim fourth orders. I know I&#x27;ve developed too aggressively, and I dilute the etch. <br><br>In both cases, I try and think of the fringe/plane structure. I&#x27;ve found that almost everyone thinks of the hologram in terms of the output, be it display or HOE. I try and think of the Bragg planes (for a volume hologram) or the surface profiles (for a surface hologram) inside the emulsion and the photons interacting with the structure. I then try and think of boundaries. When the light gets into the emulsion, it starts electrons oscillating. If there is a sharp distinction between an interference bright area and an interference dark area, then you get a sharp change in the density of the emulsion and so a sharp change in the number of electrons at the barrier. I think this means that polarisation effects are beginning to happen, especially if the change is rapid and large. So, if these sharp boundaries border small changes in density, ie the amplitude of the rectangular wave is small, then I think there are no polarisation effects. But, if the sharp changes are high, ie the amplitude of the rectangular is high, then I think polarisation effects begin to happen. I think this is the basis of the Moharam and Gaylord paper.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Wed Jul 05, 2017 9:08 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> Petr, yes, some idea.In a Bragg reflection hologram, the efficiency depends on the modulation, which depends on the ratio, and the hardness of the emulsion, assuming proper exposure and development. But, the planes are sinusoidal. This means that if it&#x27;s overexposed, or overdeveloped, then the sinusoidal nature becomes more rectangular-wave. The exposure/development is non-linear. This gives rise to additional Fourier components. This means the output bandwidth broadens and flattens, since the output waveform is a Fourier transform of the plane distribution. So, I think of the area under the output curve as a measure of efficiency. The broader the bandwidth, and the flatter the output curve, the less efficient overall. This is a good thing for display holograms, since the broader the bandwidth, the brighter is the hologram (The brightness is the integral of the bandwidth multiplied by the photopic function, or, broadly, the area under the output curve). But, for HOEs, it wastes energy into less desirable wavelengths. So, for display, I try and make it broadband, and for HOEs, I try to make it narrowband.<br><br>In the photo-polymer this ratio depends on the ratio of the correct local developed polymerized photosensitive monomers to the diffused oligomers after exposure, I think the planes are still sinusoidal. As we may have the same broadband regime in some &quot;developed&quot; holograms I think in a flattening of fringes, not a rectangular-wave.. Direct exposure without post heating gives a much more pure distribution, even overexposed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Thu Aug 10, 2017 4:09 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thank you both for answering my question; and sorry for my late response, I completely forgot this thread.<br><br>I was really interested in any response for &quot;estimating diffraction efficiency without actually calculating it&quot;. You probably know that a sinusoidal amplitude grating (transmission) makes just 0, +1 and -1 diffraction orders, with diffraction efficiency 6.25 % (power in the +1 order / incident power). Square-wave grating with 50 % duty cycle makes 0, +1, -1, +3, -3, +5, -5, ... diffraction orders (zero and all odd numbers); surprisingly, power in the +1 order is about 1.6x higher than for the sinusoidal grating. Although I can calculate it, I still cannot imagine why it happens (without any equation).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Aug 11, 2017 9:05 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobaz:</strong> surprisingly, power in the +1 order is about 1.6x higher than for the sinusoidal grating. Although I can calculate it, I still cannot imagine why it happens (without any equation).<br><br>Because the edge is sharp. Diffraction occurs in any slit because of oscillations of electrons at the slit edge. If the edge is sharp, the E field is greater, and so electrons have more energy to oscillate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Aug 14, 2017 1:26 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Partly true. Sharp edges mean that more light is diffracted away from 0 order. It does not tell how much light gets to +1 order. Usually, diffraction efficiency is defined as the ratio of the intensity of a selected diffraction order (say, +1) and the incident intensity.<br><br>Imagine, for example, a sinusoidal amplitude grating, i.e. amplitude transmittance is given as<br><br>c(x) = cos(2<em>pi</em>x)/2 + 0.5<br><br>If the grating is illuminated by a plane wave at normal incidence and unit amplitude, the average intensity just behind the grating is<br><br>integrate(c(x)^2, x, 0, 1) = 3/8.<br><br>It can be easily found that intensity of the 0 order is 0.25x the incident intensity, and intensity of the 1st order is 0.0625x the incident intensity. Thus, the diffraction efficiency is 6.25%.<br><br>For comparison, take a flat amplitude grating, i.e. amplitude transmittance is given as<br><br>f(x) = squareWave(x) * sqrt(3/4).<br><br>Here, squareWave is periodic with period 1, and squareWave = 0 for 0&lt;x&lt;1/2, otherwise 1. The average intensity just behind the grating is again<br><br>integrate(f(x)^2, x, 0, 1) = 3/8.<br><br>(If we did not introduce the factor sqrt(3/4) to f(x), the average intensity would be 1/2 instead of 3/8, and it would be unfair to compare diffraction efficiencies.)<br><br>Now, intensity of the 0 order is approximately 0.19x the incident intensity, which confirms the idea - a grating with sharp edges diffracts more light away from the 0 order.<br><br>Intensity of the 1st order is approximately 0.079x the incident intensity, which means that the diffraction efficiency of the &quot;sharp&quot; grating is higher. However, this &quot;sharp&quot; grating produces more diffraction orders (all odd orders), for example 3rd diffraction order is approximately 0.013x the incident intensity.<br><br>To conclude:<br><br>1. A &quot;sharp&quot; grating diffracts more light, which could indicate higher diffraction efficiency.<br><br>2. On the other hand, a &quot;sharp&quot; grating produces more diffraction orders, which could indicate smaller diffraction efficiency.<br><br>My point is that I cannot guess which conclusion is valid without a rigorous analysis.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Aug 14, 2017 5:55 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Without actually doing the analysis, I would think that you could decompose the &#x27;sharp&#x27; grating into a set of sinusoidal gratings. Then the efficiency of each sinusoidal component will be proportional to the zero order Bessel function of the amplitude of the sinusoidal grating. In other words, each sinusoidal component would be proportional to a zero order Bessel function whose argument would be proportional to the coefficient of the decomposition. So, the first order would be J₀(α<em>4/π), the second order would be J₀(α</em>4/(3π)) etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Aug 15, 2017 4:51 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Why Bessel? I thought that Bessel functions emerge just in radially symmetric structures due to properties of the Hankel transform.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Aug 15, 2017 6:17 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobaz:</strong> Why Bessel? I thought that Bessel functions emerge just in radially symmetric structures due to properties of the Hankel transform.<br><br>For simplicity, assume one-dimensional model. Thus, there is a phase variation, as a function of x, φ(x). Therefore, the transmissivity of the hologram, after recording, is:<br><br>t = exp[i<em>φ(x)]<br><br>The developed hologram will have a phase variation:<br><br>φ(x) = k{a² + r² + 2a</em>r<em>cos(2πξx) = φ(0) + φ(1)</em>cos(2πξx)<br><br>So, the transmissivity of the hologram becomes<br><br>t = exp[i<em>φ(x)]</em>exp[i<em>φ(1)</em>cos(2πξx)] = k&#x27;<em>exp[i</em>φ(1)<em>cos(2πξx)] = k&#x27;</em>Σiⁿ Jn[φ(1)]<em>exp[i</em>n*(2πξx)]<br><br>(ignoring the constant phase factor, summation over n, Jn is the Bessel function of the first kind, nth order)<br><br>Thus, the amplitude of a thin phase grating is proportional to the Bessel function.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Aug 22, 2017 4:55 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Oh, I see, you assume phase holograms. I usually assume amplitude modulation</div>
+        </div>
+
+    <div class="thread-nav"><a href="9940.html" class="prev-thread">← So... diode or hene lasers for holography ?</a><a href="Optics.html">↑ Optics</a><a href="8530.html" class="next-thread">microscope objective →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="8726.html" class="card">
+                <h3>diffraction gratings</h3>
+                <div class="card-meta">Equipment · 13 posts</div>
+            </a>
+            <a href="863.html" class="card">
+                <h3>change laser polarization</h3>
+                <div class="card-meta">Optics · 17 posts</div>
+            </a>
+            <a href="827.html" class="card">
+                <h3>temperature dependence</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="543.html" class="card">
+                <h3>Rotating Polarization with Mirrors</h3>
+                <div class="card-meta">Optics · 38 posts</div>
+            </a>
+            <a href="8092.html" class="card">
+                <h3>Diffraction gratings</h3>
+                <div class="card-meta">Beginning Holography · 18 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

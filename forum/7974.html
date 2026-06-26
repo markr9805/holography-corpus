@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detection of mode-hopping in laser diodes — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7978.html" class="prev-thread">← Brewster&#x27;s angle</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7975.html" class="next-thread">new 8mm and 10mm white LEDs →</a></div>
+    <h1>detection of mode-hopping in laser diodes</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>2,584</td></tr>
+        <tr><td>Started</td><td>Tue Sep 08, 2009 8:33 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/tom-b.html">Tom B.</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7974" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Sep 08, 2009 8:33 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">After seeing wler&#x27;s awesome work with laser diodes, I am giving thought to using them in a color holography setup. In fact, if my HeNe gets much lower in power (and it has decreased over time) I will certainly want one of wler&#x27;s systems (heck, I want one now ) Hopefully he will keep up the excellent work. (By the way, I sure am glad that I abandoned my efforts to make a stable, TE-cooled diode laser for holography. After seeing how long it took wler, and at what effort, there would have been absolutely no hope for me!)<br><br>Anyway, even though it looks like wler has made tremendous progress, I think there is still a need to monitor the diode, to know whether it&#x27;s mode-hopping or not. And it would be good if the method is simple, for the less technically-gifted holographers among us.<br><br>Judging by purely holographic results, the best method seems to be that used by Tom B., who listens to an audible signal. I don&#x27;t know of anyone who comes close to Tom B. for reliably grinding out high-quality holograms with a laser diode. (Wler and others bounce light off a CD to visibly see the mode-hops, and that sounds like a good method also.) But I like the audible method a bit more becasue, it might be like an &quot;alarm&quot; going off when the diode is hopping. And it really should be obvious, like an alarm, becasue we can&#x27;t have a mode-hopping laser during an exposure. A grating could be used (or some other optical method) but, like the &quot;audible alarm,&quot; I think it should be a permanent feature of the diode laser&#x27;s setup, and be in operation whenever the laser is turned on. Then, if/when a problem develops, an adjustment can be made to the setting on the diode, to get out of the danger zone.<br><br>So, does anyone have a good design for an audible light-sensor that can detect mode-hopping? I&#x27;ve seen some designs for such a device, one on page 28 of Petruzzellis&#x27; Electronic Sensors for the Evil Genius, and a few others on pages 40-46 of Forrest M. Mims&#x27; Engineer&#x27;s Mini-Notebook, Sensor Projects (bought from Radio Shack years ago, not sure if this is available anymore).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Sep 09, 2009 2:04 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Actually I ponder to integrate a &quot;noise detector&quot; in the lasers, but I dont yet know how practical this will be. Ie., just a photo detector and an AC amplifier, connected to a little speaker and a LED. Then a pot would allow to change the diode current by a few mA und hopefully one could detect a good operating point.<br><br>However, things are not so easy - noise appears only if a mode changes (or if there is a chaotic mode competition) so that it typically happens that even at zero noise, the diode runs multimode. In fact diodes run mostly multimode while having noise mainly only at transition zones. That&#x27;s why in my measurements I have always tracked both the linewidth and the noise, and they often give complementary information.<br><br>So the question remains, how to detect multimode with simple means, possibly within the laser head. Or better avoid the need of doing it. <br><br>One possibility would be to adjust the diode in a broad single mode zone beforehand (as it is done now), and use the noise detector to verify that the diode stays in that zone - ie, by turning the current a little bit up and down one would encounter at some point audible mode hops, and then going back right in the middle between these currents, would be a good single mode point; the idea here would be to compensate for a gradual shift of an identified single mode zone over time (ie due to diode ageing).<br><br>Another way might be ECDL, which is what I try right now. Single mode operation is not automatic in ECDL setups, it requires a suitable diode and a good matching of the grating with the diode. I am not sure about what factors all go into it, so far I simply have observed that some diodes give no useful single mode at all, and others almost everywhere over the current/temperature region. The one copy of HL6385 I tested last weekend worked excellently in this respect. So the point here would be that in such cases, where there are (almost) no noiseless multimode zones, essentially the diode runs single mode everywhere and one just would need to check the noise so that no hoppings occur. That could probably be done by very simple means. To be seen...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 09, 2009 3:12 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Wler, thanks a lot for the answer, I will keep those points in mind. I hope you keep up the good work.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Sep 12, 2009 6:22 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hi Joe - Though you can get quite audible pops and noise during mode hops when listening to lasers with amplified photodiode sensors, this is not a reliable mean of assuring good coherence. There are other bad modes such as multiline and chaotic operation which are not so audible. For the last several years I have used a simple coherence check: when tweaking or checking laser drive current, hold up a thick (~ 1 cm or more) glass plate perpendicular to the diverging beam so that a bulls-eye interference pattern (between the front and back reflections from the plate) is projected back toward the source onto a white card or whatever and look at the fringe contrast. Generally, if the fringes look OK, it&#x27;s safe to shoot. The rationale is that when coherence goes bad (for a laser known to be capable of good single-line mode) it goes very very bad - enough to mess up even short range coherence. I suppose this could be automated to some degree using wasted spill-over light and a webcam for fringe contrast monitoring.<br><br>For me, this is adequate - I have a very stable thermal environment (unheated basement) and exposures are short, &lt; 30 secs, so I don&#x27;t have to worry to much about a mode hop in the middle of an exposure - as long as I keep the laser current safely within a stable zone.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Sep 12, 2009 9:44 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thanks for clarifying that Tom. I will take that as the <em>de facto</em>standard for checking laser diode stability <br><br>Wler&#x27;s lasers look so good that maybe there won&#x27;t be a need for checking them. But my jitters regarding laser diodes haven&#x27;t completely gone away</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sat Sep 12, 2009 11:33 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Thanks for clarifying that Tom. I will take that as thede factostandard for checking laser diode stabilityWler&#x27;s lasers look so good that maybe there won&#x27;t be a need for checking them. But my jitters regarding laser diodes haven&#x27;t completely gone away<br><br>No, actually they do need checking. I am just getting one back due to holograms with weak contrast, despite stable fringes. Either it got somehow deadjusted, or I fear, the spectrum is not pure enough. That is, there is the possibility that there are weak extra modes, and if they are, say at just 1% of the power, one cannot see them easily by watching fringes, and also my CCD spectrum analyzer and SFPI don&#x27;t have such a great dynamical range so that there is a limit of what one can see. And I guess the eye works logarithmically and to achieve really dark black, or high extinction, one needs better than a percent, or whatever, mode purity (thats is what I conjecture). <br><br>And indeed I have noticed that when approaching a mode hop by tuning the current, sometimes weak extra modes come slowly up from the ground, and I always adjusted the current that they are gone with some guts-feeling safety margin; but perhaps there were not suppressed enough. It remains to be seen what the cause is. It may be curable by readjustment, or change of diode, or whatever. <br><br>Anyways ECDLs seem spectrally much more pure, though they are delicate to adjust and seem more prone to mode hops than free running diodes. And some device for the end user to readjust would likely be necessary - a noise-check circuit is in the making. Right now one of my Opnext HL6385 does easily 100mW at 640nm in an ECDL, but it tends to run in an unstable area after a few hours.</div>
+        </div>
+
+    <div class="thread-nav"><a href="7978.html" class="prev-thread">← Brewster&#x27;s angle</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7975.html" class="next-thread">new 8mm and 10mm white LEDs →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="307.html" class="card">
+                <h3>Laser diodes and magnets</h3>
+                <div class="card-meta">Equipment · 13 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8218.html" class="card">
+                <h3>Experience with red laser diodes</h3>
+                <div class="card-meta">Beginning Holography · 8 posts</div>
+            </a>
+            <a href="5668.html" class="card">
+                <h3>Pseudo-Pulse Mode w/ Laser Diodes</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

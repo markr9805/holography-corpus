@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chromatic aberration — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="1011.html" class="prev-thread">← GRIN lenses</a><a href="Optics.html">↑ Optics</a><a href="999.html" class="next-thread">spherical aberration →</a></div>
+    <h1>chromatic aberration</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>62,899</td></tr>
+        <tr><td>Started</td><td>Sun Jan 11, 2015 3:35 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/lobaz.html">lobaz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=998" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jan 11, 2015 3:35 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering if someone can help me with a question. Say we have a co-linear beam of 532nm and 633nm. And we want to focus both wavelengths to the same point using a double convex lens. The diameter of each input beam (green and red) can be changed. I was under the impression that the red incoming beam will need to be bigger in relation to the green. This did work (to an extent) with my setup with the spatial filter. And I think this is what the Holowiki says also. I had a look at the Wikipedia entry for &quot;chromatic aberration&quot; and it showed the following diagram:<br><br>[http://upload.wikimedia.org/wikipedia/e ... am.svg.png](http://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Chromatic_aberration_lens_diagram.svg/415px-Chromatic_aberration_lens_diagram.svg.png)<br><br>So, if that diagram is kept in mind, if the incoming green (or blue) beam is reduced in diameter, does that mean that its focal point is &quot;pushed forward&quot; towards the red focal point? I have to confess my ignorance of optics and physical science.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Fri Jan 16, 2015 12:13 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Wiki image is correct. Width of the beam does not change focal distance, and green is focused closer to the lens than red. If you need to focus red+green to the same distance, you have two choices:<br><br>- Use an achromatic doublet, i.e. two lenses cemented together. These two lenses have their chromatic aberrations too, but in opposite direction so that they cancel each other for specific wavelengths. You can also use an achromatic objective that has other aberrations corrected too, but more complicated setup = more light loss.<br><br>- Change spread of one of the beams. For example, put a weak concave lens into the green beam. This makes the beam divergent a bit, so the main convex lens focuses it a bit farther.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 16, 2015 1:40 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks, that helps to clarify the issue. Looks like divergence is the main thing to keep in mind.</div>
+        </div>
+
+    <div class="thread-nav"><a href="1011.html" class="prev-thread">← GRIN lenses</a><a href="Optics.html">↑ Optics</a><a href="999.html" class="next-thread">spherical aberration →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="999.html" class="card">
+                <h3>spherical aberration</h3>
+                <div class="card-meta">Optics · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

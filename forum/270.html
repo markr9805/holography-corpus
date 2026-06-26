@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question about divergence — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="276.html" class="prev-thread">← Doctor laser - one of the last holographers</a><a href="Techniques.html">↑ Techniques</a><a href="247.html" class="next-thread">Dupont Film →</a></div>
+    <h1>question about divergence</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>20</td></tr>
+        <tr><td>Views</td><td>10,836</td></tr>
+        <tr><td>Started</td><td>Sat Jul 16, 2011 9:20 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/johnfp.html">Johnfp</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/holorefugee.html">holorefugee</a> · <a href="../authors/142laser.html">142laser</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=270" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jul 16, 2011 9:20 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering how the diameter of the input beam affects the divergence (beam spread) of the output from a spatial filter. I guess that whenever a beam has a larger diameter, the divergence will be greater (when going through the objective or lens).<br><br>On the Edmund website, they use a formula for finding the pinhole size for a spatial filter:<br><br>1.27 X 0.633 (HeNe wavelength) X 5.5 (focal length of objective in millimters) = 4.42<br><br>This is divided by the beam diameter (lets say 1.3mm) to get the &quot;beam spot diameter&quot; in microns (3.4) which is multiplied by 1.5 to get a suggested pinhole size of 5.1 microns (say 5).<br><br>I want to compare this to using a 9mm focal length objective (with a larger beam diameter) but keeping the pinhole at 5 microns. (I have the Edmund 5.5mm focal length &quot;laser singlet&quot; objective, but these objectives appear to have a problem when used with spatial filters, and have been discontinued. I have the 9mm version on order, but it hasn&#x27;t arrived yet.)<br><br>Plugging the 9mm figure into the above equation (using my junior-high school algerbra, which is as far as I ever got in math), the input beam should be 2.2mm for use with the 9mm objective and 5 micron pinhole.<br><br>My question is: will the first example have a larger beam spread after the spatial filter, will they be similar, or somewhere in between?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Jul 16, 2011 10:35 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I&#x27;ve always found that equations for pinhole size always resulted in diameters that are waaaaay too small for practical use, and have never used a hole smaller than 10 microns. Beam wandering because the laser is off the table and beam pointing stability of gas lasers make keeping a small hole aligned a constant hassle. Also, the artifacts in the beam profile that are being removed by the hole are typically so minor that a larger hole can be used to get an adequately filtered beam. Equations typically calculate beam waist without regard for these practical user related considerations.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jul 16, 2011 10:54 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Bob. There might be some problem with this particular 5.5mm &quot;singlet&quot; objective from Edmund, I&#x27;ve had a lot of trouble with it. But I&#x27;ve tried 1,2,5,10,15, and 20 micron pinholes, and the only one which worked acceptably was the 5 micron. But even then, I was getting a lot of light loss. After using the Edmund equation to carefully control the input beam diameter, the results improved, and I got 73% of the light through the spatial filter, with a clean disc of light coming out. So the Edmund equation was helpful in that case, they use a figure of 1.5 as the multiplier for the beam spot, for choosing the pinhole [http://www.edmundoptics.com/technical-s ... l-filters/](http://www.edmundoptics.com/technical-support/lasers/understanding-spatial-filters/)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Jul 17, 2011 8:46 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The relationship between the beam diameter and beam spread is given by the NA (numerical aperture), usually quoted on the objective itself while the pinhole size is determined by the Airy diameter, which depends on the wavelength and the beam diameter. The calculation you quote gives the Airy diameter, but the NA of the lens gives the beam spread. The two are related and so knowing the Airy diameter (the pinhole size) can help in determining the relationship of the beam spread to the beam diameter. However, the lens will cause the beam to diverge anyway, regardless of the pinhole. The pinhole is just there to remove artifacts in the beam (possibly not so well, as Bob suggests!). It&#x27;s the NA that&#x27;s probably more important for the relationship of beam diameter and beam spread, which is a function of the f# of the lens. <br><br>The Airy disc diameter is(pinhole size) :<br><br>p = 1.22(lambda/d)<br><br>where d is the lens diameter. Assuming you fill the entire aperture of the lens, this is also the beam diameter.<br><br>The NA (the arcsin of the half angle of the beam spread) is given by (roughly)<br><br> NA = arcsin(arctan(d/2f))<br><br>where f is the focal length of the lens. But, f/d = f# (the f-number of the lens). <br><br>So, without knowing the f# of your 9mm lens, I can&#x27;t see a way of knowing the beam diameter and the beam spread. <br><br>I don&#x27;t know what the f# of a microscope objective is, off-hand, but in general, the larger the magnification factor, the smaller the focal length, the larger the NA and the wider is the beam spread. So, in answer to your question:<br> <br>&gt; <strong>Joe Farina:</strong> My question is: will the first example have a larger beam spread after the spatial filter, will they be similar, or somewhere in between?<br><br>Yes, probably, the first example will have a larger beam spread. However, without knowing the various f#&#x27;s, I can&#x27;t say for sure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jul 17, 2011 11:10 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> The relationship between the beam diameter and beam spread is given by the NA (numerical aperture), usually quoted on the objective itself while the pinhole size is determined by the Airy diameter, which depends on the wavelength and the beam diameter.<br><br>Thanks for your help. I wasn&#x27;t able to find out what the numerical aperture is for the Edmund &quot;singlet&#x27; objective, I will just have to try it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Jul 18, 2011 12:21 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The numerical apertures marked on microscope objectives are accurate when the whole aperture of the lens is filled. This is rarely the case when inputting a laser beam.<br><br>The f/# of a lens is defined by the focal length of the lens divided by the aperture. If Joe’s 9mm f.l. laser line focusing singlet is entered by a 2mm diameter beam, then it is working at f/4.5.<br><br>Numerical aperture a la Melles Griot ([http://www.cvimellesgriot.com/products/ ... rmulas.pdf](http://www.cvimellesgriot.com/products/Documents/TechnicalGuide/Paraxial_Formulas.pdf)) is a little different than the Wikipedia entry ([http://en.wikipedia.org/wiki/Numerical_aperture](http://en.wikipedia.org/wiki/Numerical_aperture)) but the illustration in M-G shows it all. Numerical aperture = sin theta, theta being the half-angle of divergence after a collimated beam leaves the lens. Numerical aperture = clear aperture/2f, so in the example above, the Numerical Aperture = 2mm/18mm = .111… This equals sin theta, theta then equals 6.379 degrees, so the full spread angle = twice that or 12.759 degrees.<br><br>So all you need to know to determine the spread angle is the size of the input beam, which is a whole other can of worms to open when measuring laser beam profiles, and the focal length of the beamspreading optic. But where’s the focal length marked on a microscope objective? Check out this chart, again from M-G, correlating magnification with focal length. [https://cvimellesgriot.com/Products/Doc ... og/OAS.pdf](https://cvimellesgriot.com/Products/Documents/Catalog/OAS.pdf) <br><br>The reason why Bob complains that suggested pinhole sizes are way too small is that the manufacturers, especially Newport, calculate the best possible case of resolution of a microscope objective assuming the objective is diffraction limited and the whole numerical aperture is used, (hardly ever the working in the lab case!) using the Airy’s disc formula posted above or a variation. ([http://www.cvimellesgriot.com/products/ ... ection.pdf](http://www.cvimellesgriot.com/products/Documents/TechnicalGuide/Lens_Selection.pdf)) Bigger NA yields smaller resolution.<br><br>You can “zoom” a microscope objective by using a pre-spreading lens. Best results are obtained by using a long focal length lens, see my reply to: [http://holoforum.org/forum/viewtopic.php?f=11&amp;t=213](http://holoforum.org/forum/viewtopic.php?f=11&amp;t=213)<br><br>Hope this helps!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Jul 18, 2011 3:26 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Thanks a lot Ed, that was very helpful, the links were good also. If a 2mm beam (633nm) is spread by a 9mm EFL lens, and the off-axis spread is ~6 degrees (6 degrees off the normal in all directions, i.e., 12 degrees total spread) that would be good. It seems like the 1.3mm beam with a 5.5 EFL lens had more spread than that, but not by a large amount. I was worried that there wouldn&#x27;t be enough room on my small table for the beam spread of the 9mm objective. But that&#x27;s also a good tip about pre-expanding the beam with a lens, in front of the spatial filter. I wonder why more people don&#x27;t do this, it seams like an easy way to fine-tune the relationship between the objective/pinhole, and to vary the overall divergence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Jul 18, 2011 3:47 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I wonder why more people don&#x27;t do this, it seams like an easy way to fine-tune the relationship between the objective/pinhole, and to vary the overall divergence.<br><br>Because if you pre-expand a beam before it goes into the spatial filter, then the point at which the beam converges is no longer at the aperture of the pinhole. The pinhole is place at the focal point of the lens (for obvious reasons to do with the fourier transform of a collimated beam - remember that the pinhole is just an optical transform). If you expanded the beam, it would collapse at some other point further away than the focal point and the fourier of the noise may not be as easily transformed away. It may be possible to move the pinhole to the new position, but the relationship between the image point and the object point is not linear and the travel on the pinhole mount may not be able to track it. Another point is the laser beam is Gaussian. In this case, the Airy disc diameter is not the calculated one, since the calculated diameter is given at the focus of a lens receiving collimated light. Also, the edges of the Gaussian may not fill the aperture of the objective. If you pre-expanded it by a very small amount, you may be able to get away with it. All lasers give out raw beams that are slightly divergent anyway, the specs give you the beam divergence, so the beam is already &quot;pre-diverged&quot; by a very small amount. You could also use a larger than necessary pinhole and allow a little noise. Our blue Melles laser has oval beams - one dimension diverges more than the other - and we can pinhole it, but not cleanly. <br><br>.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jul 20, 2011 12:34 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">It turns out that the 9mm Edmund singlet works well with an 8 micron pinhole and ~2.2mm diameter HeNe beam. Bob was right, making the pinhole somewhat larger makes all the difference. But I&#x27;m convinced something fishy was happening with my previous 5.5mm singlet. Edmund discontinued that one, and said that it wouldn&#x27;t work with their spatial filter (without explaining why). It didn&#x27;t seem to work with my spatial filter either. But with the 9mm singlet, I was able to get 92% of the HeNe light through the pinhole with a good strong disc of clean light.<br><br>If anyone is trying to conserve HeNe light (this probably applies to everyone who uses a HeNe ), I can recommend the Edmund 9mm singlet.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Sep 14, 2011 8:09 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I didnt read the whole thread but I did a little research on pinhole to objective and found some info that helped me understand which type of objective is better for which end you wanted to receive. I always like singlets as they were easier to maintain and clean but in my research I found that a singlet needs a larger diameter pinhole due to the thickness of the pinhole. <br><br>I illustrated something for myself to help me visualize this and I hope it can be useful.<br><br>[http://www.holograms3d.com/Illustration ... nholes.jpg](http://www.holograms3d.com/Illustrations/ObjectivesVSPinholes.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Wed Sep 14, 2011 8:46 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Hello John,<br><br>I&#x27;m not sure your diagram is correct. I don&#x27;t think it&#x27;s about the thickness of the pin hole, its about the size of the spot you can produce with a non-best form singlet. <br><br>A compound system, like a standard microscope objective, can focus the spot to a diffraction limited size, small enough to get through the matching pinhole. <br><br>A standard singlet will form a waist larger than the objective would, aberrations from the singlet will keep it from getting through that same hole. <br><br>A best form lens might do the trick. Not sure as I&#x27;ve never tried to use one. Here&#x27;s a decryption of a best form. You&#x27;ll see in the text it talks about spot size. <br><br>[http://www.specialoptics.com/products/b ... index.html](http://www.specialoptics.com/products/bestform_index.html)<br><br>Jeff Weil<br><br>NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Sep 14, 2011 9:06 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Thanks Jeffrey. <br><br>So, if we have a singlet with a 9mm efl and a compond objective with a 9mm efl then wouldnt the first lens in the compound reduce the diameter of the beam before it hits the second lens thus reducing the rate of convergence/divergence and ultimately (taking into account the pinhole thickness) changing the best diameter pinhole?<br><br>I thought I thought this though, but I may have to go back and re-research it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Wed Sep 14, 2011 10:44 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Hello John,<br><br>I&#x27;m not sure you can make an assumption about all objectives like that. There are many designs. Some might do that some might not. <br><br>I am sure that a standard singlet cannot produce the small spot like an objective can. <br><br>I&#x27;d forget about the pinhole math too. It requires the beam to be a certain diameter. Every time you move the spatial filter around the table, moving it closer and further from the laser, that diameter changes. I just stick a 20 micron in there and if it doesn&#x27;t work well I&#x27;ll go smaller. <br><br>I would guess the most serious problem with using a singlet is the mounting. Spatial filters are designed for the length and mount of an objective. Other than ripping apart one and sticking a singlet in there how do you mount it in the filter?<br><br>Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Sep 14, 2011 11:08 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">The singlets I have are a standard objective with the entry lens taken out. Just the lens at the exit end is in there. One I actually have to put in the spatial filter backwards to work as the fl is very far out.<br><br>You know, pinholes come in 1/2 mil, 1 mil and 2 mil standard thicknesses. So the thickness of a 12 micron (1/2 mil) and the thickness of a 50 micron (2 mil) plays a part if you want to approach the optimal pinhole size (not waisting light with maximum cleanliness).<br><br>But your practicallity is by far better. I have a few different size pinholes and I just grab the one that works best. As you stated, distance from laser, divergence of your laser, objective power, how touchy your spatial filter is all plays a role on object to pinhole size.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Wed Sep 14, 2011 3:18 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Long before I could afford a laser I had been reading about holography. I think It was Fred&#x27;s book that quoted the standard pinhole equation and then said to multiply by 2. It has always worked for me.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Sep 17, 2011 9:28 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> I&#x27;m not sure you can make an assumption about all objectives like that. There are many designs. Some might do that some might not.I am sure that a standard singlet cannot produce the small spot like an objective can.I&#x27;d forget about the pinhole math too.<br><br>&gt; <strong>holorefugee:</strong> It has always worked for me.<br><br>True. The microscope objective we all use for a beam expander is just that, a microscope objective lens. Thus , it&#x27;s designed to minimise white-light aberrations and create as near as dammit a diffraction limited spot, have a specific entrance pupil and a specific exit pupil and have good entendu. The fact that any diffraction-limited system gives rise to Airy rings is the reason we pinhole, to reject the non-zero Airy frequencies. However, singlets (by that I presume is meant a single lens, rather than a multitude lens system called a &quot;singlet&quot;) cannot remove all aberrations unless ver-r-ry carefully aligned. Even then I&#x27;m not sure you can create a diffraction-limited focused spot with a single lens. In this case, you can&#x27;t create a perfect set of Airy rings, there&#x27;ll be a bit of a wobble on the rings.<br><br>However, as Jeff and Colin have said, if you can get a working version with which you&#x27;re happy, forget the theory! (can&#x27;t believe I just said that!) Theory gives you an understanding of an idealised system, fom which you can whittle away till you get a working version of a system. But most of the time, if you can make a working system by trial, error, a working knowledge and some elbow grease (an &quot;empirical system&quot;, if you wish to be a little grandiose!) and you&#x27;re happy with this, it&#x27;s as good as any deep theoretical analysis.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Sep 17, 2011 9:52 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> forget the theory! (can&#x27;t believe I just said that!)<br><br>Do my eyes deceive me? I can&#x27;t believe you just said that <br><br>Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Sep 17, 2011 10:44 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Interesting, thanks Jeff and Dinesh for pointing this out. I chose to use a singlet (in an objective-type mount) that is sold by Edmund: [http://www.edmundoptics.com/products/di ... uctid=1922](http://www.edmundoptics.com/products/displayproduct.cfm?productid=1922) <br><br>I thought it would have less losses than a multi-element objective, and I guess it does. But I have to admit, I&#x27;ve had a lot of trouble with these Emund singlets (I have two of them, one of which has been discontinued by Edmund). As Dinesh noted, it takes a lot of care to get it aligned properly. But it can be done (for 633nm and 532nm at the same time), and the losses are low.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 05, 2011 5:02 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> The microscope objective we all use for a beam expander is just that, a microscope objective lens. Thus , it&#x27;s designed to minimise white-light aberrations and create as near as dammit a diffraction limited spot, have a specific entrance pupil and a specific exit pupil and have good entendu. The fact that any diffraction-limited system gives rise to Airy rings is the reason we pinhole, to reject the non-zero Airy frequencies. However, singlets (by that I presume is meant a single lens, rather than a multitude lens system called a &quot;singlet&quot;) cannot remove all aberrations unless ver-r-ry carefully aligned. Even then I&#x27;m not sure you can create a diffraction-limited focused spot with a single lens. In this case, you can&#x27;t create a perfect set of Airy rings, there&#x27;ll be a bit of a wobble on the rings.<br><br>Thank you Jeffrey for bringing up the problem with singlets, and also Dinesh for the clarification above. I bought a regular 40x objective, and it worked immediately. Not much loss either. (By the way, it was a new objective and was only $39 from an eBay seller in Canada. They have a lot of other objectives as well.) Those Edmund singlets are a pain, I take back what I said earlier, and don&#x27;t recommend them.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Wed Oct 12, 2011 9:51 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">It sounds likem the problem is solved! Getting 90% transmission with a good spot is about the best one can do without cheating by using a bigger laser... That works too... Phil</div>
+        </div>
+
+    <div class="thread-nav"><a href="276.html" class="prev-thread">← Doctor laser - one of the last holographers</a><a href="Techniques.html">↑ Techniques</a><a href="247.html" class="next-thread">Dupont Film →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="8590.html" class="card">
+                <h3>Question about dichromate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="8511.html" class="card">
+                <h3>Newb(?) question about perceived depth</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8482.html" class="card">
+                <h3>question about color changes</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

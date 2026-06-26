@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposure Calculations in uJ/cm^2? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5285.html" class="prev-thread">← Sealing DCG.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5282.html" class="next-thread">PFG-03C Processing? →</a></div>
+    <h1>Exposure Calculations in uJ/cm^2?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>2,149</td></tr>
+        <tr><td>Started</td><td>Fri Dec 23, 2005 4:51 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jmcclean.html">jmcclean</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/samuel.html">Samuel</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5286" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jmcclean</span>
+                <span class="post-date">Fri Dec 23, 2005 4:51 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Howdy y&#x27;all, Recently picked up a Sekonic L558 light meter for my camera bag. I can convert EV readings to Lux or Foot Candles. Being mathematically challenged I am having a difficult time trying to figure out how all those film characteristic curves that plot density versus exposure account for TIME, when all I see to achieve a density of 2 is some value like 25 uJ/cm^2, nothing to say about duration. For example, I am presently getting from my D&amp;S laser spread for a 4 x 5 plate: 14 Lux, or 2.05 uJ/cm^2. On the S&amp;M light meter this reads 20 on Scale 2. My only reference to determine exposure values have been the tables presented in Unterseher <em>et al</em> 1982. If I can now read directly in Lux or uJ/cm^2, how can I use these values to determine exposure TIME based on a published film characteristic curve? For instance if my film curve shows 25 uJ/cm^2 to achieve density of 2 do I go for 12 seconds with the above values?<br><br> How do y&#x27;all go about PREDICTING exposure values aside from running test strips? Cheers, James McClean</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Dec 23, 2005 6:46 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The units of uJ/cm^2 are radiometric, not photometric like Lux or Footcandles. The meter to use is a power meter, not a photometer. When measuring pulsed laser light, you want to use a radiometer. An optical power meter reads out directly in Watts, and typically has a silicon, germanium or thermopile detector. For holography, look for range to go from nW to mW for exposure metering, and mW to Watts for laser output power measurement.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Dec 23, 2005 7:30 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>jmcclean:</strong> .... For example, I am presently getting from my D&amp;S laser spread for a 4 x 5 plate: 14 Lux, or 2.05 uJ/cm^2...... If I can now read directly in Lux or uJ/cm^2, how can I use these values to determine exposure TIME based on a published film characteristic curve? For instance if my film curve shows 25 uJ/cm^2 to achieve density of 2 do I go for 12 seconds with the above values?<br><br> That&#x27;s exactly right - there isn&#x27;t more to it ! Once you know your illumination in terms of uJ/cm^2, you are almost done.<br><br> Still it makes sense to double and halve the time to see where the optimal values are - things are not too well-defined, as the actual film sensitivity may depend on other facters like how you process it. Or depending on the type of hologram, you want to aim to OD1 instead of OD2, etc. Also the illumination across the plate, even using a spatial filter, will often vary quite a bit, and you&#x27;ll have to decide on what place on the plate you want to optimize.<br><br> Such factors cannot be meaningfully measured and one needs to develop some experience for this, and calculated exposure values serve as a good starting point. On the other hand, the exposure time is not a very critical factor at all, and doubling or halving the time often won&#x27;t make a relevant difference, at least compared to other factors. Eg much more important seems to have a good beam ratio.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Dec 23, 2005 11:52 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">1 Joule is 1 watt for one second. <br><br>So if a film requres 25uJ/cm^2 (25 watts per second) and you are measuring 2.05uJ/cm^2 (2.05 watts per second) then simply deviding 25 by 2.05 (~12 seconds) will yeild the time.<br><br>Or don&#x27;t I understand the question?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Dec 23, 2005 4:56 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; So if a film requres 25uJ/cm^2 (25 watts per second)<br><br>Actually, 1 Watt = 1 Joule/second. The calculation is:<br><br>Exposure Yime = Sensitivity X Detector Area / Total Power.<br><br>Typically: s = uJ/cm^2 X cm^2 / uW</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Dec 23, 2005 6:08 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks Bob!! Had it completely backwards but...<br><br>wouldn&#x27;t he still be able to simply devide to get the seconds if he already has the Joule conversion for his meter and the film sensitivity is in Joules? <br><br>In other words, he measured energy(J) not power(W) and the film sensitivity in in energy(J) thus the energy he needs devided by the energy he has will give him the time in seconds. <br><br>Was/is my logic off?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Dec 23, 2005 7:17 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">To measure Joules, you need to specify a time. To know how much exposure you&#x27;re giving a recording material, you&#x27;ll also need to specify an area (let&#x27;s say the area of the detector). <br><br>That&#x27;s why the detector should be parallel to the recording plane when measuring the beams to calculate exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Dec 23, 2005 7:27 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Let&#x27;s not forget that the TLAR mothod works well also.<br><br>That<br><br>Looks<br><br>About <br><br>Right<br><br>I did not have a light meter for about the first 30 exposures I made. Later I used a solar cell hooked up to a current meter. Finally, I purchased a power meter. All three methods can be made to work well.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Samuel</span>
+                <span class="post-date">Thu Dec 29, 2005 6:57 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">i made some calculus too and i find it weird, i us 63<em>63cm plates and i&#x27;ve got a 5mW laser so that&#x27;s 5000uW and i&#x27;ve got VRPm so the sensitivity is 75uJ/cm²<br><br>so that makes 75</em>6.3*6.3/5000=0.6second that&#x27;s really few so where have i been wrong do you think?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Dec 30, 2005 2:42 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">In principle your computation is correct, assuming 6.3cm plates. In practice you need to take into account losses by lenses, non-even illumination, loss of light outside the plates etc. Probably easiest would be to do test stripes with different exposure times, roughly doubling the time between stripes, taking those .6sec as the center value.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5285.html" class="prev-thread">← Sealing DCG.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5282.html" class="next-thread">PFG-03C Processing? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6469.html" class="card">
+                <h3>Help Please - Exposure Calculations</h3>
+                <div class="card-meta">Beginning Holography · 11 posts</div>
+            </a>
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11379.html" class="card">
+                <h3>Exposure</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11287.html" class="card">
+                <h3>&quot;dry&quot; methods of increasing sensitivity without more exposure</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 1 posts</div>
+            </a>
+            <a href="10884.html" class="card">
+                <h3>GEOLA News_Online Exposure Calculator</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="10457.html" class="card">
+                <h3>Integraf PFG-03C exposure time?</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

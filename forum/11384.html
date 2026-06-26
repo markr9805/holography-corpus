@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Pattern — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11385.html" class="prev-thread">← Producing dust-free coatings?</a><a href="Techniques.html">↑ Techniques</a><a href="11383.html" class="next-thread">Walter Spierings Microscope Hologram →</a></div>
+    <h1>Mode Pattern</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>39,599</td></tr>
+        <tr><td>Started</td><td>Sat Nov 02, 2024 5:56 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/alan-sailer.html">Alan Sailer</a> · <a href="../authors/jrburns47.html">jrburns47</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11384" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sat Nov 02, 2024 5:56 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was using a fizeau interferemeter to check out several cheap laser pointers a week or so ago.<br><br>The red laser showed fringes so I wanted to try making a hologram with it.<br><br>The beam, after expansion in a 40X microscope objective looked very wonky. I am curious what the pattern means and if I should even try using it to make a hologram.<br><br>Cheers.<br><br>![DSC09890.jpg](https://holographyforum.org/forum/download/file.php?id=7865)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Sat Nov 02, 2024 6:23 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">From your brief description, it sounds like you’re not using a pinhole after the 40x objective. However, the photo looks a lot like a 40x in a spatial filter that’s been focused through a pinhole but hasn’t been fully tuned in on the z-axis… if not, then not adequate for good holograms.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sat Nov 02, 2024 7:04 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks. No pinhole. <br><br>A friend with optics experience said it looked like multi-longitudinal mode operation. He did not <br><br>know if this precluded holograms but said spacial filtering would help.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Nov 03, 2024 8:54 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">It looks a lot like Newton&#x27;s rings (below). Usually a Fizeau is meant to test surface flatness, so it&#x27;s possible that your geometry led to two surfaces in close contact, leading to Newton&#x27;s rings. If these are Newton&#x27;s rings, then it may be possible to make a hologram, albeit a thin hologram because of limited coherence length since your fringe contrast is not high. <br><br>Try a Michelson since that is the best test of coherence. If you get fringes with equal path lengths, vary one path until the fringes disappear, and the difference is the coherence length. In this case you can make a hologram. If the Michelson fringes keep shifting suddenly then you have mode hopping and therefore multiple modes. In this case you can still make a hologram, but the hologram will have superimposed on it a series of diagonal lines across the image (what Colin Kaminski called &quot;sliced bread&quot;)<br><br>![Newton&#x27;s_rings_(650nm_red_laser_light).jpeg](https://holographyforum.org/forum/download/file.php?id=7866)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sun Nov 03, 2024 2:28 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Interesting. I set-up a coherence length set-up awhile back, so I may do it again.<br><br>Right now I&#x27;m trying to put a HeNe in place to see what it looks like. It showed about 4 inches of coherence length...<br><br>Cheers.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11385.html" class="prev-thread">← Producing dust-free coatings?</a><a href="Techniques.html">↑ Techniques</a><a href="11383.html" class="next-thread">Walter Spierings Microscope Hologram →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8899.html" class="card">
+                <h3>Enforcing single longitudinal mode operation via coherent addition?</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="759.html" class="card">
+                <h3>Mode Hope??</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 22 posts</div>
+            </a>
+            <a href="8410.html" class="card">
+                <h3>Mode Hopping in Semi-Conductor Lasers</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="7792.html" class="card">
+                <h3>single mode fiber</h3>
+                <div class="card-meta">General Holography (old) · 35 posts</div>
+            </a>
+            <a href="7431.html" class="card">
+                <h3>mode hopping</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a>
+            <a href="7393.html" class="card">
+                <h3>Single mode fiber question</h3>
+                <div class="card-meta">Beginning Holography · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numerical aperture — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8574.html" class="prev-thread">← vocabulary</a><a href="Equipment.html">↑ Equipment</a><a href="8531.html" class="next-thread">Storing DCG emulsion (also some misc questions) →</a></div>
+    <h1>numerical aperture</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>23</td></tr>
+        <tr><td>Views</td><td>24,982</td></tr>
+        <tr><td>Started</td><td>Mon Apr 11, 2016 1:34 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/brian.html">Brian</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/john-klayer.html">John Klayer</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/bobh.html">BobH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8572" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Mon Apr 11, 2016 1:34 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Okay this is probably a silly question or two from a newbie just putting things together to get started, but here goes. Do most people just send an unaltered laser beam into the microscope objective? I&#x27;m wondering, because it seems that objective magnification and pinhole size pairs I&#x27;ve seen mentioned (for example, 40x and 15 micron) are expecting beam diameters around 1 mm. If this is what is done, then Isn&#x27;t that a waste of the objective&#x27;s numerical aperture?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Apr 11, 2016 1:56 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Don&#x27;t forget that the beam is Gaussian. The outer edges get dim pretty fast, (as exp[-k(r^2)], where k takes waist diameter and wavelength into account, as I&#x27;m sure you know). But, yes. To an extent, the beam is &quot;wasted&quot;, but not completely. The idea is that the objective diverges the beam pretty rapidly, which is what allows holographers to illuminate the entire plate, or to collimate the beam with a large mirror. For example, a 40X has a beam divergence of 80 degrees. This can illuminate an 8in x 10in plate in portrait mode from 6in away. This allows for space in a tight setup. For example , our 12.5in collimater has a focal length of 36in, so a 20X suffices to illuminate the entire collimator.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Mon Apr 11, 2016 6:31 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">The 40X (N.A. = 0.65) has beam divergence of 80 degree only if the incident beam fills the objective&#x27;s entire aperture. The N.A. is roughly proportional to diameter of the aperture/beam size. When you go from the 6 mm diameter aperture of a 40X objective to, say, a 2 mm diameter beam, then the N.A. is reduced to 0.27, which is a 30 degree beam divergence. This is what makes me wonder why people don&#x27;t telescope the beam to match the diameter of the objective&#x27;s exit aperture.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Mon Apr 11, 2016 8:28 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I remember seeing an article by TJ more than 30 years ago where he suggested putting a concave lens with a z adjustment just before the input of a space filter to adjust the input beam size and output divergence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Apr 11, 2016 9:39 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Here is that article! From the Winter 1984 issue of holosphere, the Advocate of Holographic Art, Science, and Technology. I have been doing this for decades. And it also works with converging the beam slightly to zoom down. Great minds thing alike, Brian!<br><br>![ZoomSF1.jpg](https://holographyforum.org/forum/download/file.php?id=6817)<br><br>![ZoomSF2.jpg](https://holographyforum.org/forum/download/file.php?id=6818)<br><br>John Klayer, who posted above, might be close to you! You physicists should get in touch. One of John&#x27;s cave holograms are in the latest edition of the Saxby/Stas book!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Tue Apr 12, 2016 12:57 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I wish I was in John&#x27;s shoes, having my memory serve me so well.<br><br>I love how figure 1 in Dr. Jeong&#x27;s article shows that a wider collimated input beam produces a larger divergence. But what it cannot show is that the wider input beam produces a narrower spot size (or beam waist) before the beam begins to diverge. So the narrower you want to squeeze light, the wider the beam has to be to start with. And the more you try to squeeze light down, the more it spreads afterward. I think that is so nifty.<br><br>Ed, indeed a convex lens can serve the same purpose as the concave lens. Even though Dr. Jeong says the exact choice of focal length doesn&#x27;t much matter, a particular choice of convex lens can give near optimal performance for a given objective lens. Select a plano convex lens with focal length close to F = 160 (D1/D2) mm, where D1 is incident beam diameter and D2 is objective aperture diameter. Setting the lens on a z translator at a distance S = F + 160 mm behind the aperture and the beam will converge very close to the diffraction limited spot size and subsequently exhibit very close to maximum divergence. Then moving the lens closer to the objective will increase spot size and reduce divergence.<br><br>This is the arrangement for DIN standard objectives, which make up about 90% of RMS thread objectives. If you are like me and buy a surplus objective that turns out to be a JIS standard objective (the other 10%) you need to replace 160 in the two equations by 170. This factor optimizes the beam for insertion into the objective, and I recall that the pinhole position only shifts microns as the lens is moved millimeters closer to the objective.<br><br>I&#x27;ll post the reference for the lens choice tomorrow when I&#x27;m at a computer instead of an iPad.<br><br>And Ed, I don&#x27;t know if John is close to me, but I can guarantee I&#x27;m not close to anything.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Tue Apr 12, 2016 3:30 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Brian, I get up to NW Georgia every few weekends. I see you&#x27;re over in NW Alabama.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Tue Apr 12, 2016 8:42 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">reference for the lens<br><br>Bechhoefer, J., &amp; Wilson, S. (2002). Faster, cheaper, safer optical tweezers for the undergraduate laboratory. American Journal of Physics, 70(4), 393-400.<br><br>lens discussed in section II.B., last paragraph.<br><br>John, indeed you located me. If you ever venture toward Huntsville, let me know.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Apr 12, 2016 12:38 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Well, one other problem with this wider beam diameter approach is that the beam is more prone to spherical aberration as you veer away from paraxial. Also, if you&#x27;re not exactly on-axis, you also have the possibility of coma and astigmatism. I&#x27;ve often wondered whether cylindrical lenses in some combination would help with the astigmatism for an off-axis geometry, since there is no tangential/ meridional power, depending on the orientation of the lens.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Tue Apr 12, 2016 4:05 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">True, the wide beam puts some stress on the paraxial approximation, but the objective isn&#x27;t a thin lens either. If microscopists can live with plan achromat objectives, probably my beginner level holography isn&#x27;t going to suffer much. If I do find spherical aberration causing trouble, then I&#x27;ll just dial down the D2 value in the lens formula until I achieve acceptable results. Or by then, my holography is so sophisticated that I&#x27;ll just get apochromat objectives and problem is solved.<br><br>Heck, apochromats can come with an iris installed on the aperture so that you can dial down its diameter as you like... that little detail makes it so much easier to align a laser beam through one, it isn&#x27;t even funny. Too bad they are so expensive. <br><br>And true, misalignment adds other problems. But I have a lot of practice aligning optics.<br><br>Dinesh, since I only mentioned the possible benefits, it is good to know possible drawbacks. I realize probably most people don&#x27;t want to add another element to their optical train anyways. But who knows, someone (besides me) may want to give it a go. And this can only help to &quot;inform their decision-making.&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Apr 13, 2016 6:54 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Not only is a prespreading lens a good idea to zoom the size of the spread spatially filter beam, but translating one in the X-Y plane before the microscope objective can move the Gaussian beam for optimal results, like controlling the beam balance ratio in a single beam hologram set up. To see its practical application, check out: [http://edweslystudio.com/Research/DE615/DE.html](http://edweslystudio.com/Research/DE615/DE.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Wed Apr 13, 2016 11:12 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">An x y translator is very useful for that lens. Without one, fine tuning the lens position relative to the incident beam is a real test of patience.<br><br>To be complete, the optimal concave lens for this arrangement would have the same magnitude focal length, but of course with negative sign. Then the separation distance equation is the same, and the negative focal length results in a much shorter distance. I don&#x27;t have any concave lenses, so I never thought about using one for this purpose (until now).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri Apr 22, 2016 5:21 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Okay in my other thread, I promised to ask only one question per week. I asked a question last Sunday and its only Friday. But its Friday after 5 pm, so I&#x27;m declaring it another week.<br><br>I am planning to purchase pinholes next week. I have a couple 40x objectives and a couple 16x objectives. What pinholes would you generally use with each of these to spatially filter an unmodified (say 2 mm diameter) beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sat Apr 23, 2016 8:01 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">10 - 15 microns for the 40X&#x27;s, 20 - 25 on the 16X.<br><br>Optimation seemed to be always be the least expensive, but I am leaning toward Lenox Laser after having visited their plant with our old forum friend, John Pecora. Plus they sponsor what looks like fun annual Light Seminars.<br><br>Wouldn&#x27;t it be nice if someone made a micro-iris?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Apr 23, 2016 11:21 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Remember that the pinhole diameter must be about, or slightly larger than the Airy diameter. However, in order to calculate the Airy diameter, you need to know the beam profile of the beam coming into the laser. Remember also, the objective of an objective is to create a real image for the eyepiece. Holographers are using the objective &quot;backwards&quot;, as it were. However, the laser does not propagate from a point source, but the beam waist. So, effectively, you need to extend the beam waist to a point source, take the magnification into account and calculate the Airy diameter.<br><br>From a practical point of view, it depends a lot on the laser, the power of the laser, and the beam divergence at the objective. Back in the day when I was using a 30 mW HeNe, I used a 5 micron for the 40X and a 25 micron for the 10X. There&#x27;s an inverse relationship, the higher the &#x27;X&#x27;, the lower the &#x27;micron&#x27; for obvious reasons, I guess, since r ~ 1.22{(lambda)(f)}/d.<br><br>&gt; <strong>Ed Wesly:</strong> I am leaning toward Lenox Laser after having visited their plant with our old forum friend, John Pecora<br><br>So, he&#x27;s a pro now is he? I assume that&#x27;s the reason he&#x27;s visiting a laser manufacturer. I seem to remember he swore blind that he was just a hobbyist and was never going to become a pro.<br><br>[edit] Please do give him my regards. Hope he&#x27;s doing well.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sat Apr 23, 2016 1:03 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Yes, pinhole selection depends on a lot, which is why I hedged and mentioned a range rather than a number. So I would advise ordering a range of sizes.<br><br>Lenox Laser doesn&#x27;t make lasers to sell, but uses them to make pinholes and other micro apertures, especially arrays. John Pecora worked there as a technician.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Sat Apr 23, 2016 3:43 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I am familiar with using objectives to focus laser beams (in order to create optical traps. So I know about Airy disks, Rayleigh criterion, and so on. When I do those calculations, a 16x objective focuses a typical 2 mm diameter beam to an Airy disk smaller than 8 microns, and a 40x can squeeze it to under 2 microns. <br><br>But of course a pinhole is going to have some thickness to it (on the scale of the spot size, the hole starts to look more like a tunnel than a doorway) and the beam&#x27;s convergence and divergence angles are going to be pretty steep. So I figured one needs an oversized hole to keep from losing the edges of the beam at the tunnel entrance.<br><br>So Dinesh and Ed, thanks much, your numbers give me a better feel for what I need. And thanks Ed for mentioning suppliers; I&#x27;ll take a look.<br><br>Also, I&#x27;m glad to have read old posts. Saved me from making the mistake of using really high NA objectives I accumulated during the optical trapping days.<br><br><em>sigh</em> now I have to wait a whole week to ask another question.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sat Apr 23, 2016 6:31 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">&gt; &quot;<em>sigh</em> now I have to wait a whole week to ask another question&quot;<br><br>We won&#x27;t hold you to that!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Apr 24, 2016 8:32 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Brian:</strong> <em>sigh</em> now I have to wait a whole week to ask another question.<br><br>Well, you can always redefine &#x27;week&#x27;. After all, the religious folk have been redefining &#x27;day&#x27; for quite a while now.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Apr 24, 2016 8:47 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">I&#x27;d recommend using the largest diameter pinhole you can get away with. Matching it to the Airy disk &quot;by the numbers&quot; will only result in keeping the alignment of the beam going through it in your system a nightmare. At 40X, I&#x27;d use 10 micron pinhole. Anything lower, I&#x27;d be at 25 microns. the only reason to use a spatial filter is to remove objectionable patterns. Use the largest pinhole that achieves that goal, not the one that provides textbook perfection of the Airy disk. Pictorial holography is not a physics experiment, unless you want it to be.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Sun Apr 24, 2016 1:22 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">BobH, i can certainly imagine these alignment issues. I&#x27;m happy to follow the expert consensus, and I will order 10 micron and 25 micron pinholes this week.<br><br>Ed, Dinesh, it is end of semester and I&#x27;ve got to get some work done! Already I spend too much time mulling over the good ideas y&#x27;all have provided.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Apr 25, 2016 12:30 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> Pictorial holography is not a physics experiment, unless you want it to be.<br><br>Bob, yes, normally, I&#x27;d agree with you. However, in this case, as I understand it, this is a physics professor intending at some stage to teach physics students. To that end, I&#x27;d suggest that a theoretical basis be presented (why a pinhole at all? If a pinhole, what determines it&#x27;s diameter? and so on). In my case, when I deal with tech students (say, physics or optics engineers from UCSD), I usually say that while a calculation of the pinhole size is a good exercise, as is understanding the reasons for such and such a diameter, in practice you&#x27;ll never get pinholes commercially of the calculated diameter, and the calculations refer to an ideal situation, which you&#x27;ll never get. So, I usually say, you can use a LUT, but be aware of the reasons and trade-offs. I think there&#x27;s a difference between teaching physics students about holography and having an art workshop.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri May 13, 2016 9:37 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">So this week was alignments and getting used to the feel of new pieces. Eventually I made everything work perfectly for the green laser. A glass plate tilting down in a kludged-together mount allowed me to see when I had vertical polarization. Fast axis of half wave plate at exactly 45 degrees from horizontal, and plate tilted so angle of incidence is Brewster angle, and reflection spot on the table vanishes. Why do manufacturers even bother to orient laser polarization horizontally?<br><br>Next, beam through pinhole, then align objective lens and push it along rails toward pinhole. First attempt, can see the Fraunhofer diffraction pattern from objective and Fraunhofer diffraction from pinhole and a mess in between. Try, try again until ... pushing objective toward pinhole, Fraunhofer pattern from objective that gets brighter, then changes to Fresnel diffraction (dark spot at center), then just a bright perfect circle of light over (what feels like) a long range, then back to pinhole&#x27;s Fresnel diffraction and Frauhofer diffraction. Textbook example of what should happen.<br><br>So then I expanded the beam as described in this thread. Much easier to align, works great and now I get a big circle of light except... there is a shadow of some kind of teeny fiber thread or eyelash in the circle. Take objective off the rail and clean it.<br><br>Okay, all fixed, nice circle with angle of divergence matching that of my little LED recon light. Time for a Denisyuk hologram of my favorite shiny coin. Plate blacked along its edges. Coin and plate tilted at Brewster angle. Boom... the best result I ever had. No woodgraining. With recon at same angle, perfect green reproduction of coin. Then tilting recon to smaller angles of incidence, image goes yellow and orange and red before it starts elongating... that specular reflection surface behaving exactly as Dinesh explained in vocabulary thread. How fun!<br><br>In tandem I also worked to set up the blue laser. And everything going right with the green went very badly wrong with the blue. For example, finally fixed its polarization problem today. But all that big mess will await another post.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8574.html" class="prev-thread">← vocabulary</a><a href="Equipment.html">↑ Equipment</a><a href="8531.html" class="next-thread">Storing DCG emulsion (also some misc questions) →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11469.html" class="card">
+                <h3>Can an achromat hologram (full aperture transfer method) be made using photoresist instead of DCG?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11337.html" class="card">
+                <h3>Open aperture holograms w/lens</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="7746.html" class="card">
+                <h3>Good-enough synthetic aperture photography</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5617.html" class="card">
+                <h3>Forcing pulsed TEM00 mode with an aperture</h3>
+                <div class="card-meta">General Holography (old) · 12 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

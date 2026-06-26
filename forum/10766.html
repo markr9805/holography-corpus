@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby LASER for holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="10782.html" class="prev-thread">← compact RGB collimated unit</a><a href="Optics.html">↑ Optics</a><a href="10667.html" class="next-thread">Poor man&#x27;s spectrometer →</a></div>
+    <h1>Ruby LASER for holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>148,992</td></tr>
+        <tr><td>Started</td><td>Mon Nov 18, 2019 4:11 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/soda.html">soda</a> · <a href="../authors/loic74.html">Loic74</a> · <a href="../authors/martin.html">Martin</a> · <a href="../authors/pluto.html">pluto</a> · <a href="../authors/grayham.html">Grayham</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=10766" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Mon Nov 18, 2019 4:11 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Making the ruby laser is quite easy thanks to time to time avability of the ruby rods on Ebay. Make the rod lasing require several hundreds Joules of flash energy and two mirrors. Make the laser suitable for holography is another story. Free running ruby laser have poor coherence and the pulse is few milliseconds long. There is need for a Q-switch and etalons which make the laser complex and very complicated device. These parts are temperature sensitive, which further complicate the situation, making it almost impossible for DIY project. Inspired underwater holography project, I have successfully build passive Q-switched ruby laser with minimum, easy obtainable or even easily machinable parts. Starting from resonator backend: HR needs to be long radius mirror with radius around 5m. These can be found in dead He Ne, or found on Ebay, at reasonable prices. Despite it is designed for 633 nm, at 694nm usually still have reflectivity 98-99%. As Q-switch I use methanolic cryptocyanine solution in 1 cm long cuvete. The ruby rod 6.5 mm diameter, 75 mm long active part with 5 mm leuco-sapphire ends (made in USSR) is pumped by INP3-80A flash lamp. The ruby rod and the flash lamp are placed in foci of elliptical reflector. The elliptical reflector is made by polishing of an aluminum tube and squeezing it to elliptical shape. Together with polished aluminum endplates forms easy to make pump chamber. To achieve TEM00 operation, near OC is placed mode aperture - 1.8 mm hole drilled in thin brass sheet. The OC is plane parallel uncoated glass substrate. The thickness is not critical (3-10 mm), but parallelism needs to be high. Electrolytic capacitor bank together with an inductor powers the flash lamp which pumps the ruby, the crypto bleaches and the laser produce nice giant pulse with several meters of coherence length! The magic is that OC uncoated glass plate act as etalon, selects several modes near maximum of the ruby gain and only one of these modes is allowed to oscillate due to spectral hole burning effect in the passive Q-switch. Outputs energy is nothing extra, 30-40 mJ, but good enough for 4x5 Agfa 8E75HD. And power amplifier is under construction )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Mon Nov 18, 2019 4:18 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Few examples:</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Loic74</span>
+                <span class="post-date">Mon Nov 18, 2019 4:50 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Sounds awsome, are you going to post pics and details about the laser? I&#x27;d love to see it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Mon Nov 18, 2019 5:16 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The laser is build on big fused quartz tube as rigid frame, in this picture is with two-lamp pump chamber, later switched to more effective single lamp alluminium one. Cap bank is 380uF/2400V, but now operated at 1600V max.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Tue Nov 19, 2019 9:50 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">That&#x27;s absolutely amazing! Congratulations!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pluto</span>
+                <span class="post-date">Tue Nov 19, 2019 1:01 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Wow, very impressive work. How long did the project take and what was the cost of materials?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grayham</span>
+                <span class="post-date">Sat Nov 23, 2019 1:45 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Very Nice!</div>
+        </div>
+
+    <div class="thread-nav"><a href="10782.html" class="prev-thread">← compact RGB collimated unit</a><a href="Optics.html">↑ Optics</a><a href="10667.html" class="next-thread">Poor man&#x27;s spectrometer →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="695.html" class="card">
+                <h3>holography with Semiconductor laser</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="471.html" class="card">
+                <h3>Coherent Compass 315M-100 DPSS 532nm Laser Holography Single</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="8337.html" class="card">
+                <h3>Finding out whether my laser is suitable for holography</h3>
+                <div class="card-meta">Beginning Holography · 7 posts</div>
+            </a>
+            <a href="7140.html" class="card">
+                <h3>Scratch Holography using a Laser</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="6513.html" class="card">
+                <h3>Hughes Ruby Laser Hookup</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Holography: help — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7628.html" class="prev-thread">← Black spots and fringes on laser</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7626.html" class="next-thread">Dim Hologram →</a></div>
+    <h1>Digital Holography: help</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>4,695</td></tr>
+        <tr><td>Started</td><td>Wed Dec 03, 2008 11:41 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/ztp911.html">ztp911</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7624" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ztp911</span>
+                <span class="post-date">Wed Dec 03, 2008 11:41 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi guys~ I’m new to this forum and would like some help in making holography. I’ve roughly browsed the topics and it seems to me that most people use conventional photographic plates to record holograms. My case is a bit different: I use a CCD (Charge-coupled device) camera to record the interference pattern.<br><br>First of all, here is the setup: I use a He-Ne laser beam with a wavelength of 0.6328 mm. The laser beam goes through a beam expander (not quite sure what the scientific terminology for it). It is then split into two parts by a beam splitter. The reference beam gets reflected from a mirror and goes through a polarizer to reduce its intensity, the object wave shines on the object which is a hexagon nut covered by whiteout to increase its diffusivity. <br><br>The distance between the object and the CCD camera is 110 mm and the angle that the camera makes with the incident reference wave is about 30°. <br><br>After taking the hologram, I run a Matlab code to reconstruct the image digitally. However, I’m not getting anything. Possible sources of error could arise from either the setup or the computer program, or maybe both. Could someone point out if there’s anything wrong with the setup? If it’s OK, would someone check the Matlab code I’m using? I appreciate your time!<br><br>Also, could someone show me how to embed pictures in my post? I think it&#x27;s more straightforward. Thanks.<br><br>Have a good one~<br><br>ztp</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ztp911</span>
+                <span class="post-date">Thu Dec 04, 2008 2:27 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hi guys, just a follow-up, here are some pictures illustrating what the setup looks like:<br><br>![This is the actual setup.](https://holographyforum.org/forum/download/file.php?id=6270)<br><br>![This is the schematic diagram of the setup.](https://holographyforum.org/forum/download/file.php?id=6269)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Dec 04, 2008 3:27 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">If you calculate the required resolution you will find that with 45 degrees between the reference and object beams you will need much more resolution than a CCD is capable of. You could try a Fresnel hologram...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ztp911</span>
+                <span class="post-date">Thu Dec 04, 2008 4:10 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>Thanks for your reply, could I adjust the incident angle so that the resolution requirement is not so demanding? Because currently that&#x27;s the only camera available. By the way, the CCD I&#x27;m using has a maximum resolution of 1600 * 1200 pixels.<br><br>Another question is, I&#x27;m not quite sure what you mean by Fresnel hologram, has it got something to do with reconstructing the image using Fresnel approximation? <br><br>Thanks again for your advise.<br><br>ztp</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Dec 04, 2008 1:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Look under &quot;The Equations&quot; to plug in the angles of ref and object with minimal separation you may be able to achieve. Thus use your laser wavlength to calculate f. After you arrive at f, then halve this number. Then compare this to the resolution of your camera.<br><br>[http://www.holowiki.com/index.php/Holog ... ons_Part_I](http://www.holowiki.com/index.php/Holography_Transmission_Equations_Part_I)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Dec 04, 2008 10:45 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">#1: As noted above, you don’t have much in the way of resolution. Resolving power is not just a pixel count, like your 1600 * 1200, but how many there are per millimeter. The typical CCD has pixels approximately 6 microns on a side, or about 166/mm.<br><br>The fringe spacing with an intra-beam angle of 45 degrees at 633 nm is about 900 cycles per mm, a cycle being a bright fringe followed by a dark fringe or fringe pair. This means the fringe pairs are about 1 micron wide, much smaller than your pixels.<br><br>The maximum angular separation that you could use would be determined by realizing that to capture a fringe pair you would use two pixels, so the fringe pair size would be 12 microns, so the angular separation needed to achieve these big fringes is about 3 degrees.<br><br>See the Holo-Wiki to find the formulae that I used to get these numbers.<br><br>#2: How to replay the hologram? A hologram is a physical representation of the fringe pattern and is used to reshape the reference beam into the object beam. No amount of Mat Lab will allow you to do this on a computer monitor. What you have labeled as your hologram is simply the beam profile of your reference beam, which looks like it’s aimed a little bit high.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ztp911</span>
+                <span class="post-date">Fri Dec 05, 2008 3:59 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hi John and Ed,<br><br>Thanks for your valuable comments! I&#x27;ve modified the setup so that the ref/object angle is close to 0. Here is the new setup:<br><br>![Setup 3.jpg](https://holographyforum.org/forum/download/file.php?id=6272)<br><br>After the reconstruction process, I got the following:<br><br>![4.2, 305.jpg](https://holographyforum.org/forum/download/file.php?id=6271)<br><br>As you can see, instead of getting the image of a single nut, I got a bunch of them, and it seems to me that the left half is the exact replica of the right half. Could someone tell me how I can modify my setup further to avoid this? Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Dec 05, 2008 12:49 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Well, a little bit of a catch 22. To separate the multi-images so that you can only see one, you need to increase the angle separation between the two beams, but as you do that, the fringes get smaller and higher resolution is needed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Dec 05, 2008 2:15 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Very clever to have changed your set up to become a sort of Mach-Zehnder Interferometer to lower the spatial frequency! But unfortunately as John points out the elimination of the twins or triplets or quadruplet images is a function of bigger beam angles. Maybe now some sort of Fourier transform could be applied to eliminate the twins? (Just throwing that out, I might be getting in over my head on that one! Don&#x27;t forget, Gabor never really did get rid of them either! But then again, he didn&#x27;t have the computers we do!)<br><br>Something that could be fun with this set-up would be to replace your CCD ship with photographic film in a 35 mm camera body without a lens. Kodak used to make a film called Technical Pan that was capable of recording gratings with these low spatial frequencies, of course now discontinued. Rollei now makes <em>Advanced Technical Pan Film</em> (see [http://www.bhphotovideo.com/c/product/5 ... anced.html](http://www.bhphotovideo.com/c/product/550700-REG/Rollei_42220111_135mm_36_Exposure_ATP1_1_Advanced.html)) which might work like the old stuff. I haven&#x27;t tried it yet, but yes, I do know from experience that the Kodak TP could make low frequency gratings, not that bright, using the Pyrochrome type processing system.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ztp911</span>
+                <span class="post-date">Sun Dec 07, 2008 10:12 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thanks very much guys, I&#x27;ll see if there&#x27;s anything I can do to suppress the twin image. Thanks for the help.<br><br>P.S. Ed, I wish I had the luxury to use a photographic film, however, since I was asked specifically to do this with a numerical approach, I have to stick to a CCD. But I&#x27;ll take your suggestion and give it a shot in the future.<br><br>Cheers,<br><br>ztp</div>
+        </div>
+
+    <div class="thread-nav"><a href="7628.html" class="prev-thread">← Black spots and fringes on laser</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7626.html" class="next-thread">Dim Hologram →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11405.html" class="card">
+                <h3>Holography Lab help</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="11393.html" class="card">
+                <h3>Help minimizing motion &amp; can i skip the lamination?</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="11363.html" class="card">
+                <h3>Digital Holography Market Report 2024-2032</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11285.html" class="card">
+                <h3>digital holography make depth hologram</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11258.html" class="card">
+                <h3>Digital Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="10869.html" class="card">
+                <h3>Help with information about creating an optic illusion of rain drops</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

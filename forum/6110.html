@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser line width vs. coherence length — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6114.html" class="prev-thread">← 532nm laser with etalon</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6108.html" class="next-thread">Narrowband filters →</a></div>
+    <h1>Laser line width vs. coherence length</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>4,153</td></tr>
+        <tr><td>Started</td><td>Sat Mar 10, 2007 3:38 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/infocrew.html">info.crew</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/dj-mathson.html">DJ Mathson</a> · <a href="../authors/glajciorz.html">glajciorz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6110" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">info.crew</span>
+                <span class="post-date">Sat Mar 10, 2007 3:38 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi everybody!<br><br>Does exist some equation for determining the coherence length from line width, or it depends on more parameters? I made few eperiments with laser module from GM electronics 5mW, 532nm. [http://www.gme.cz/index.php?action=deta ... pict=&amp;jaz=](http://www.gme.cz/index.php?action=detail&amp;sklcis=759-289&amp;lk=&amp;sk=&amp;pict=&amp;jaz=)<br><br>It has the corenece length more than 30 cm (tested at home), but i think that this laser is not stabile at all. The hologram was allways bad, like with movement.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Mar 10, 2007 4:41 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>info.crew:</strong> The hologram was allways bad<br><br>By &quot;bad&quot; do you mean there were dark bands (or lines) all over the object, or was it something else? If there were regularly-spaced bands (alternating bright and dark) on the image of the object itself, then the coherence length was relatively short during the exposure time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Mar 10, 2007 4:54 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Coherence length = speed of light / linewidth.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sun Mar 11, 2007 4:15 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">From Iovine&#x27;s &quot;Homemade Holograms&quot; p. 154:<br><br>If you know the range of frequencies:<br><br>CL = c / (2 <em> range in Hz) - c is speed of light in m/sec<br><br>For a range of wavelengths:<br><br>CL = (center wavelength in meters)^2 / (2 </em> range in meters) <br><br>Example: laser diode at 670 nm with wavelength range of 0.2 nm should<br><br>have a CL of (670 <em> 10^-9)^2 / 2 </em> (0.2 * 10^-9) = 0.0011 meter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">info.crew</span>
+                <span class="post-date">Sun Mar 11, 2007 10:14 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; By &quot;bad&quot; do you mean there were dark bands (or lines) all over the object, or was it something else? If there were regularly-spaced bands (alternating bright and dark) on the image of the object itself, then the coherence length was relatively short during the exposure time.<br><br>Yes, there are just lines across the object and just small part of the object is visible. Difraction efficiency is very low.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">info.crew</span>
+                <span class="post-date">Sun Mar 11, 2007 10:21 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks for the equations.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Mar 11, 2007 12:38 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>info.crew:</strong> Yes, there are just lines across the object<br><br>This is a common sight for people who experiment with laser diodes for holography. I&#x27;ve seen large (1/4 inch) and pronounced (dark) bands when doing long exposures on MBDCG and a 35mW diode, and very small (1 mm) and faint (dark) bands when using short exposures with a red pointer (3mW) on silver halide. So, the &quot;lines&quot; can manifest themselves in a number or ways.<br><br>All that it means is that the coherence length is not long enough for the depth of the object, for the duration of the exposure. Actually this has been used (on purpose) for precise measurement of objects. A &quot;banded&quot; hologram is made, and the depth contours establish the exact distance of various parts of the object in relation to the film plane. But if you want to make display holograms, it&#x27;s a real pain, to say the least.<br><br>To give you my honest two cents worth, I would never bother with calculations of coherence length. I would rely on holographic testing only.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Fri Aug 31, 2007 5:00 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Tom B.:</strong> From Iovine&#x27;s &quot;Homemade Holograms&quot; p. 154:If you know the range of frequencies:CL = c / (2 * range in Hz) - c is speed of light in m/sec<br><br>This is a typographical error in Iovine´s &#x27;Homemade Holograms&#x27; book. The number 2 shouldn´t be in this equation. The right equation is:<br><br>Coherence length = c/bandwidth<br><br>(bandwidth, or the range of frequencies, is in Hz)<br><br>Iovine´s exampel in the book is right. With a typical HeNe laser bandwidth of 1500 MHz the coherence length is:<br><br>CL = 3x10^8/(1500x10^6) meter = 0.2 meter</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Sep 01, 2007 7:36 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">I seem to recall this coming up before and a possible explanation for those weird factors of 2 was that two definitions of coherence length have been floating around - one defining it as the path length difference required for 50% fringe visibility and the other using zero visibility. I think the first is most common nowadays. Maybe someone with a more academic/physics/math background could comment on what convention is generally used by the holography community?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Sun Sep 02, 2007 7:50 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Hi guys.<br><br>Maybe you remember this topic:<br><br>[http://holographyforum.org/phpBB2/viewtopic.php?t=5250](http://holographyforum.org/phpBB2/viewtopic.php?t=5250)<br><br>Alchemist&#x27;s TEC cooled diode was supposed to have coherence lenght (CL) in order of 1.4 to 4.2 mm - enough to make a holo of a coin.<br><br>Christiano was able to make a Denisuyk with 20mm depth... So his diode&#x27;s CL should be at least 40mm - 10 times more than calculated.<br><br>How to explain this ?<br><br>greetings<br><br>Adam</div>
+        </div>
+
+    <div class="thread-nav"><a href="6114.html" class="prev-thread">← 532nm laser with etalon</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6108.html" class="next-thread">Narrowband filters →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11375.html" class="card">
+                <h3>Coherence Length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="8876.html" class="card">
+                <h3>Tricks for measuring coherence length</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="211.html" class="card">
+                <h3>Coherence length</h3>
+                <div class="card-meta">Techniques · 19 posts</div>
+            </a>
+            <a href="7738.html" class="card">
+                <h3>coherence length estimation</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="6523.html" class="card">
+                <h3>About Coherence Length</h3>
+                <div class="card-meta">Beginning Holography · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pulsed holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8511.html" class="prev-thread">← Newb(?) question about perceived depth</a><a href="Equipment.html">↑ Equipment</a><a href="8497.html" class="next-thread">It&#x27;s time...guidance apppreciated. →</a></div>
+    <h1>pulsed holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>11,118</td></tr>
+        <tr><td>Started</td><td>Thu Dec 31, 2015 12:43 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/cycy.html">cycy</a> · <a href="../authors/bobh1357.html">BobH1357</a> · <a href="../authors/jsfisher.html">jsfisher</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8507" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">cycy</span>
+                <span class="post-date">Thu Dec 31, 2015 12:43 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi, <br><br>New on this forum.<br><br>Is it be possible to use an high laser diode in pulsed mode to overcome stability/vibration challenges and in particular for making portrait or pets holograms? <br><br>many thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH1357</span>
+                <span class="post-date">Fri Jan 01, 2016 11:08 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Those making pulsed laser holograms typically use from 700mJ to 2J of energy per pulse. Their lasers also have etalons to give long coherence length (single longitudinal mode) and have a very nice spatial mode. If you can find a diode laser with those characteristics, please post about it here!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Fri Jan 01, 2016 12:43 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Yeah, I thought first about the energy levels a single pulse would need to provide. There are not many 10,000 Watt diode lasers out there.<br><br>However, why does it need to be all in one pulse? Isn&#x27;t pulsed mode (with the diode being pulsed continually with, say, a 50% duty cycle) used in many laser diode testing and evaluation setups? I had thought that was because thermal effects and other stresses on the diode were reduced. So, the question I have is how much differently does a laser diode behave in CW versus pulse modes?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH1357</span>
+                <span class="post-date">Fri Jan 01, 2016 7:33 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Pulsed mode for a diode laser allows it to get rid of heat and stay at a higher power level for a given current. Can&#x27;t use it for holography because each pulse is too weak to expose a plate and multi=pulse exposure over time allows motion of subjects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jan 04, 2016 2:21 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">The pulse width is also a factor. All films require a certain amount of energy to maximise whatever physical change is caused by the actinic radiation (hardness, reduction of silver salts etc) - the exposure. The power of a laser is a figure determining the amount of energy per second. Thus a 10,000 W laser would give 10,000 Joules of energy in 1 second (and probably fry most films!).<br><br>For example, Slavich silver films have an exposure of about 200 microJoules (200 x 10^(-6) J). Using Bob&#x27;s figure of 700 mJ the time necessary to transfer the right amount of energy to the film to cause the physical change (reduction of silver salts, in this case), ~200 uJ - is 200/700,000 = ~0.2 msec. If the pulse width was much larger, you&#x27;d be transferring too much energy to the film; if much lower you&#x27;d not tranfer enough energy to the film. <br><br>To determine the pulse width necessary, you need to determine the speed of the motion you&#x27;re trying to capture. Making assumptions such as that the object must not move by a quarter wavelength over the period of the exposure (ideally, it must not move at all, but you&#x27;re using a pulse laser <em>because</em> it moves), then, for an object moving at velocity v, the exposure time, t = lambda/(4v). This is a bit simplified, since the direction of the velocity is also important and I haven&#x27;t taken that into consideration. It&#x27;s the phase of the object wave, relative to the reference phase, that&#x27;s important. In terms of the energy of the pulse, E, t = S/E (where S is the sensitivity of the film). Thus, E = 4Sv/lambda.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8511.html" class="prev-thread">← Newb(?) question about perceived depth</a><a href="Equipment.html">↑ Equipment</a><a href="8497.html" class="next-thread">It&#x27;s time...guidance apppreciated. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6468.html" class="card">
+                <h3>Pulsed DCG holography</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="5800.html" class="card">
+                <h3>suitable laser for pulsed holography</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="5621.html" class="card">
+                <h3>pulsed holography questions..</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="5614.html" class="card">
+                <h3>2 Stage pulsed holography system: Oscillator and amplifier</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="5600.html" class="card">
+                <h3>Source for Pulsed Holography lasers, parts, info, etc</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="5601.html" class="card">
+                <h3>Spatial filtering in pulsed holography</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposure Timer controller — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7781.html" class="prev-thread">← developer chemistry for green sensitive plates</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7780.html" class="next-thread">Pre-sensitizing silver halide without TEA? →</a></div>
+    <h1>Exposure Timer controller</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>10,095</td></tr>
+        <tr><td>Started</td><td>Tue Mar 17, 2009 8:52 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/koliaco.html">koliaco</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7778" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">koliaco</span>
+                <span class="post-date">Tue Mar 17, 2009 8:52 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I build this one base on schematic in Homemade Holograms book. Have modified the exposure range to: 10s, 20s, 100s, 200s, 1000s and 2000s. can combine to have 30s, 300s and so on (just combine switches) switches are DPDT 0n-off-0n).<br><br>To get resistance just need a Multimeter plugged in and Main switch turned off to open loop connection from 1M rotary turn.<br><br>All fits in 85x55x30mm project box.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Mar 18, 2009 11:59 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Pretty darn cool! Let me guess, total price for parts &lt;$30?<br><br>What does your shutter look like?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Mar 18, 2009 12:28 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">That is quite nifty. <br><br>Here is what I am using. The software is very easy to use and this allows me to program in a settle time and an exposure time. You could program in may settle times and exposure times for more sophisticated set ups. Basically I ran a loop through one relay for positive flow and a loop through another relay for negative flow. My shutter is not statically open or closed. Need positive to open and negative to close. &lt;$100.<br><br>K74A<br><br>[http://www.ozitronics.com/relay.html](http://www.ozitronics.com/relay.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">koliaco</span>
+                <span class="post-date">Thu Mar 19, 2009 4:23 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Pretty darn cool! Let me guess, total price for parts &lt;$30?What does your shutter look like?<br><br>I dont exactly know how much it costs cause I had to buy bits many times as my original plan was only to have 10 - 20s range, but $30 US is surely enough. <br><br>Be careful with capacitors selection though. On mine, I first got them from different brands and they did not increase capacitance proportionately as indicated- 10s , 100s ,... . For this you need x3 of each capacitors: 10 uf, 100 uf and 1000 uf. Just buy 5 of each in case they they are not all the same if you planing to make one.<br><br>My shutter is made out of Harddisk drive coil, but it seems to be too heavy and virating, if it works I will post picture. Otherwise I have a small volt meter as secondary choice.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">koliaco</span>
+                <span class="post-date">Thu Mar 19, 2009 4:28 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> That is quite nifty.Here is what I am using....K74Ahttp://www.ozitronics.com/relay.html<br><br>Yours is quite cool. I wanted to make something like that too, but so far my electrical knowledge is probably not enough to build something like that. Definitely up to it later on. <br><br>Thanks for the link!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 19, 2009 11:03 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">If your shutter vibrates, mount it from the ceiling or on a stand with an arm reaching in. This way it does not come into contact with the table. My laser, shutter and first mirror are actaully off the table because my shutter too is mechanical. I have to use some type of shutter that can handle 600 or so mw.<br><br>Laser and first transfer mirror (without Shutter)<br><br>[http://www.sketchys.com/holograms3d/The ... oTable.JPG](http://www.sketchys.com/holograms3d/TheLab/NewLab/LaserToTable.JPG)<br><br>Laser with shutter. Shutter is mounted in the black box on front of laser which keep stray light from being reflected in room.<br><br>[http://www.sketchys.com/holograms3d/The ... bleTop.JPG](http://www.sketchys.com/holograms3d/TheLab/NewLab/TableTop.JPG)<br><br>The fact is, the laser beam does not have to be holographically stable prior to first beam splitter (in a single beam reflection the plate or film itself is actually the beam splitter) but only has to be stable enough to keep alignment. Thus having the first mirror off the table allows me to tweak the beam back in, even in a multi beam set up to back to where it was before. I have done this many times with 3 spatial filters coming back into allignment. <br><br>Here is proof that laser does not need to be on table. <br><br>See &quot;Proving Fringe Stability with Laser off Table&quot;<br><br>[http://www.holograms3d.com/Test_Researc ... search.htm](http://www.holograms3d.com/Test_Research/Test_Research.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Thu Mar 19, 2009 1:46 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hello Everyone,<br><br>Here&#x27;s my fave way to hold a shutter thats shaking. My setup is different now but I used this for 20 years. <br><br>JohnFP is right about using an arm to hold the shutter off the table. Using that method the shutter is still right there for easy access when your working on the table but no problem with vibes.<br><br>I used one of these lights<br><br>[http://www.amazon.com/Adjustable-Studen ... 73&amp;sr=1-11](http://www.amazon.com/Adjustable-Student-Clip-Lamp-Black/dp/B00193Z30O/ref=sr_1_11?ie=UTF8&amp;s=furniture&amp;qid=1237472273&amp;sr=1-11)<br><br>You can get them at homedepot for the same 11 or 12 bucks. Rip off the lamp and put your shutter on the end of that gooseneck. Now get a cheap mic stand. Nothing works better. The stand has a nice weight at the bottom, it&#x27;ll reach into your settup with great adjustablity on its height, angle, how far it reaches in, etc.....<br><br>clip that lamp/shutter to the boom so it goes straight down into the beam. Now when you want the beam &quot;on&quot; you don&#x27;t need to go to your shutter controller and walk away from the table. Just grab that gooseneck and bend the shutter out of the beam path. When your ready to load up some film or plates just bend it back into the beam. The gooseneck perserves your position so it goes in and out very easily.<br><br>On the one in the picture you can see a pot installed in the clip. that&#x27;s to control the current and keep the coil cool in that rotary solinoid I was using for a shutter. There is no blade on that shutter right now. <br><br>If the clip doesn&#x27;t hold it well enough for you to bend it in and out of the beam without it shifting just use a c clamp to increase the force the clip is holding onto the boom with or attach it to the boom in a more permanent way. The only thing importaint about the lamp is the gooseneck.<br><br>I&#x27;ve used all the different home made shutters and some pro ones but the best I&#x27;ve ever used are the rotary devices that Dave B was selling on Ebay. Find some of those, you won&#x27;t be sorry.<br><br> Jeffrey Weil<br><br> NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Thu Mar 19, 2009 2:17 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Yes great little shutters, sadly they are all gone! 95 pieces! any way i figured i give my tried and true method as well, i use the little flipper shutter Jeffery wrote about, and have it connected to a Few volt wall transformer, i have this plugged into the standard gra-lab timer (this is my exposure timer) and then i have that timer plugged in to another gra-lab timer, this one counts down my settle time, a bit analogue but works great !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Thu Mar 19, 2009 3:20 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Hello Dave,<br><br>Great use of the two timers. I was going to do that too before I got an old JRP holo timer. Built in settle and exposure timers. <br><br>I have a cool idea for you to add to your timers. Use the other power ports on those timers and two different colored leds. You&#x27;ll need some wall wart transformers and proper resistors to run those leds. You might need some relays from Radio Shack too depending on how you have it wired up.<br><br>Make it so the leds are outside the lab. When the first color is on, your settling. When that goes off and the other led goes on, your exposing. When both go off the exposure is done. <br><br>I have a single led outside my lab. On steady is settling, flashing is exposing and off is done. Very convienient. I can see the leds from anywhere in the downstairs of my house.<br><br> Jeffrey Weil<br><br> NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 19, 2009 4:28 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Here is how I wired the shutter and wall mole with the relays cotroled by a short DOS batch file. Be reminded, this shutter is static till you tell it something. In other words if it is open and no voltage is apllied, it stays open. If it is closed and not voltage is applied it stays closed. It was the shutter taken of one of these old movie camera&#x27;s i got at a yard sale for $1. Not sure if the one in this link is the exact one or not, best I can remember.<br><br>[http://www.123rf.com/photo_632928.html](http://www.123rf.com/photo_632928.html)<br><br>![CompControlShutter.JPG](https://holographyforum.org/forum/download/file.php?id=6337)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">koliaco</span>
+                <span class="post-date">Thu Mar 19, 2009 5:20 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">I have a mic stand which I can extend to over a meter. but in my table I designed it with complete cover to isolate the whole setup from external light and heat. So I really need to find something stable enough to stay within the table, and as mainly I will be working with MBDCG, accuracy of exposure is not of that a big deal, so maybe voltmeter is still suitable. <br><br>in the picture below is the coil shutter with mic stand and an objective lens on it.</div>
+        </div>
+
+    <div class="thread-nav"><a href="7781.html" class="prev-thread">← developer chemistry for green sensitive plates</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7780.html" class="next-thread">Pre-sensitizing silver halide without TEA? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6420.html" class="card">
+                <h3>Simple Exposure Timer</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11379.html" class="card">
+                <h3>Exposure</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11287.html" class="card">
+                <h3>&quot;dry&quot; methods of increasing sensitivity without more exposure</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 1 posts</div>
+            </a>
+            <a href="10884.html" class="card">
+                <h3>GEOLA News_Online Exposure Calculator</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="10457.html" class="card">
+                <h3>Integraf PFG-03C exposure time?</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

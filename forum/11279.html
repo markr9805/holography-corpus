@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam Splitter Problems — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11282.html" class="prev-thread">← Non linear CGH</a><a href="Techniques.html">↑ Techniques</a><a href="11277.html" class="next-thread">Holographic testing of CMB radiation telescopes →</a></div>
+    <h1>Beam Splitter Problems</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>93,712</td></tr>
+        <tr><td>Started</td><td>Wed Mar 08, 2023 1:04 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/john-howard.html">John Howard</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/holomaker.html">holomaker</a> · <a href="../authors/loic74.html">Loic74</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11279" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Howard</span>
+                <span class="post-date">Wed Mar 08, 2023 1:04 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I am trying to use a beam splitter to produce a reference beam that is separate from the subject beam. I find that when I use a simple thin-glass 50t/50r splitter I get gross interference stripes all across the hologram - no matter whether I use the Transmitted or the reflected beam as my reference beam. Since this is a piece of glass, the interference stripes make sense, but it makes such beam splitters useless.<br><br>So I tried two different prism beam splitters, a cubic and a pentagonal and both of them produced a splatter of &quot;freckels&quot; across the hologram. It took a process of elimination to figure that it was the beam splitters doing that, but eliminating beam splitters cleared up the problem.<br><br>Question: can anyone suggest what I am doing wrong or how I might solve this. Thanks for any clues.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Mar 09, 2023 9:32 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It&#x27;s possible that your cube beamsplitters may have some kind of structure within them, ie cracks, bubbles etc. This would cause scattering and cause your freckles.<br><br>I used a variable neutral density filter ( [https://www.thorlabs.com/newgrouppage9. ... up_id=1393](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1393) ) simply because the studio I started in, Richmond Studios, London) used them back in 1982. Today, I think, most holographers use a cube splitter ( [https://www.thorlabs.com/newgrouppage9. ... oup_id=754](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=754) ). The link I posted is for a non-polarising splitter, which is probably easier for a beginner to use. Polarising beamsplitters require additional components and may be harder to use.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Howard</span>
+                <span class="post-date">Thu Mar 09, 2023 7:14 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Din, thank you very much. I am encouraged that you suspect the inner planes of the cube as I do. The cubes I am using were very inexpensive. I have another inexpensive one arriving in a few days which I will test, but if I see the same problem, I will purchase a good one since, for my project, a good beam splitter is essential. Everything else is working fine - it&#x27;s the last problem I have.<br><br>Thanks again for the link.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Sat Mar 18, 2023 7:46 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Can’t use thin glass as a splitter, needs to be thicker as the outputs need to be separated more, sounds like there are too close to each other ( like stepping on each other) causing interference bands… try a1/4” plate..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Loic74</span>
+                <span class="post-date">Fri Mar 24, 2023 12:40 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">If you feed your reference beam into a spatial filter, the simple thin plate beamsplitter may work as the reflected beam would be focused outside the pinhole.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11282.html" class="prev-thread">← Non linear CGH</a><a href="Techniques.html">↑ Techniques</a><a href="11277.html" class="next-thread">Holographic testing of CMB radiation telescopes →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="729.html" class="card">
+                <h3>Rotate a polarizing beam splitter cube</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="7752.html" class="card">
+                <h3>Cubed Beam Splitter and 1/2 Wave Plate</h3>
+                <div class="card-meta">General Holography (old) · 14 posts</div>
+            </a>
+            <a href="7373.html" class="card">
+                <h3>Polarizing beam splitter</h3>
+                <div class="card-meta">Beginning Holography · 26 posts</div>
+            </a>
+            <a href="11492.html" class="card">
+                <h3>Crystallization problems w/ Dip-n-shoot or G307</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a>
+            <a href="11420.html" class="card">
+                <h3>Problems with Holograms and Bayfol HX200</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11388.html" class="card">
+                <h3>Single Beam Transmission</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

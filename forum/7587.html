@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jpeg displayer for stereograms? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7605.html" class="prev-thread">← Fundumental hologram !!!</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7584.html" class="next-thread">Roll your eyes:  it&#x27;s another glass/film/glass question →</a></div>
+    <h1>Jpeg displayer for stereograms?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>40</td></tr>
+        <tr><td>Views</td><td>13,257</td></tr>
+        <tr><td>Started</td><td>Mon Oct 27, 2008 6:44 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/justin-w.html">Justin W</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/holo-cyware.html">holo_cyware</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7587" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Mon Oct 27, 2008 6:44 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Howdy all<br><br>Oh lawdy, lawdy I wish I was a computer guy.<br><br>I&#x27;m totally snagged when it comes to trying to figure out how I&#x27;m going to coordinate the sequence of events that will result in exposure of a multiplex hologram - to me, it all seems well within the capacity of the modern computer, but must be somewhat outside the bounds of average consumer requirements...<br><br>My plan is this: I will be using a Weedtech bipolar stepper motor controller, found here: [http://www.weedtech.com/wtmcd-m.html](http://www.weedtech.com/wtmcd-m.html) to move my slit mask. A second Weedtech module, the solid state relay module [http://www.weedtech.com/wtssr-m.html](http://www.weedtech.com/wtssr-m.html) will open and close my shutter. This all seems pretty basic and straightforward and I think I&#x27;ll wind up using the provided Modcom software to control these two data modules, but I&#x27;m ever so totally hung up on figuring out how to synchronize these events with the cycling of the jpegs on my LCD screen.<br><br>I don&#x27;t know the first thing about programming and therefore have no clue whether I&#x27;m asking the impossible here or what... I just want a jpeg cycler that can coordinate the display of my source images with stepper motor/relay sequence. I really don&#x27;t even know where to start when it comes to this. I have no idea if I want my jpeg displayer to trigger the next motor/relay steps - or - if I need something that will tell the displayer to send the next jpeg following the motor/relay actions. Has anyone ever worked with Modcom? Can this program be instructed to trigger jpeg display?<br><br>Am I going to have to learn to write code and program my own application?<br><br>Arg.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Mon Oct 27, 2008 9:22 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I&#x27;ve given this a little thought <em>tries unsuccessfully to look intelligent for a moment</em><br><br>and maybe what I want is something that will allow me to slave one programs&#x27; buttons to another...?<br><br>Like, for instance - make the &quot;Next&quot; button in a slide show viewer controlled by this Modcom jobbie...<br><br>Has anyone done such a thing?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Oct 28, 2008 10:20 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; Am I going to have to learn to write code and program my own application?<br><br>&gt; Like, for instance - make the &quot;Next&quot; button in a slide show viewer controlled by this Modcom jobbie...<br><br>This last suggestion would probably be most difficult. I assume you want full automation.<br><br>The fist thing we need to do is figure out how to communicate with your two cards. Because they don&#x27;t come with software I assume we want to send a HEX byte or two to the serial port that it plugs into. A simple Basic program could do this. But since they both are using serial ports you would need two serial ports...or... since they state they are stackable, which I assume to mean they can be connected in series if you change the DIP switch settings on both, I assume they can both use the same port. But I am not sure how that changes where you send the byte. I assume this information would come with the cards. <br><br>So basically you write a basic program to loop as follows;<br><br>Settle time,<br><br>Open Shutter<br><br>time (exposure time)<br><br>Close Shutter<br><br>Advance stepper motor<br><br>Repeat.<br><br>Now we have to insert the &quot;advance jpeg image&quot;. Where to insert it is easy, anywhere after the Close Shutter but before the Repeat. I assume the best way in Basic would be to call a file (your jpeg image) and output (write) it to the screen.<br><br>So I don&#x27;t think it would be impossibly difficult, but it will take a little work. I like basic because it is easy. But I am sure there are many other ways this can be done.<br><br>Will they send you the user (programming) manual prior to purchase?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Tue Oct 28, 2008 3:00 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">HOWDY John!<br><br>Good to see ya, buddy. It has been a while... I do hope things are cool.<br><br>Anyway. Thank god my pal John knows about programming.<br><br>This is all brand-spankin&#x27; new information to me. I think I might possibly be interested in learning some programming language - maybe just so it&#x27;s a skill that I have... And gosh, in today&#x27;s world, ain&#x27;t much goin&#x27; on that doesn&#x27;t involve 1&#x27;s and 0&#x27;s getting processed through computer guts...<br><br>My current knowledge is limited to this: There are several standard programming languages. C, C++, and Visual Basic 6 are the ones I see most when I go to read up on this stuff. <br><br>John, when you say Basic is your favorite, does that mean Visual Basic (VB6)?<br><br>If yes, is VB a good one to learn for this endeavor because of the ease with which one can &quot;call&quot; a jpeg file? Would this eliminate the need for a jpeg viewer? Could I simply code in the display of the images in order with the rest of the code that will instruct the modules?<br><br>All new territory for me, my friend.<br><br>Oh, and: You said something about sending &quot;HEX bytes&quot; to the modules... I believe the guy told me the modules are looking for instruction in the form of ASCII characters. <em>I don&#x27;t know what that means</em> and may burst into tears at any point because this is all so confusing. Hehehe...<br><br>And yessir and yes indeedy - the modules are stackable. I can plug them end-to-end and will only require one port on my computer - which in this case (as I am using a laptop and have no RS232 port) will be one of my USB ports (I&#x27;ll have to get an adapter). Yar, there&#x27;s five tiny switches in a row on each module and apparently I give each one a unique address that way. From what I can glean from the three or four words of their programming guides, (that I understood) I&#x27;ll lead off any instructions I send to the modules with their address (basically whatever number they&#x27;ve been assigned). The various programming guides can be found here:<br><br>Communications protocol: [http://www.weedtech.com/an100.pdf](http://www.weedtech.com/an100.pdf)<br><br>Host programming guidelines: [http://www.weedtech.com/an200.pdf](http://www.weedtech.com/an200.pdf)<br><br>The stepper controller data sheet: [http://www.weedtech.com/wtmcd-m.pdf](http://www.weedtech.com/wtmcd-m.pdf)<br><br>The relay module: [http://www.weedtech.com/wtssr-m.pdf](http://www.weedtech.com/wtssr-m.pdf)<br><br>So... heck yeah! If I could write up some code that involved all the necessary functions (motor control, relay control, various delays and jpeg display), then that sure sounds like the whatnot that I need to do! Many blessings to you John for being willing to help guide me.<br><br>Where do I begin with this?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Tue Oct 28, 2008 3:17 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Oh, ok, I see now, BASIC is a language itself.<br><br>Is this a good one to learn?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Oct 28, 2008 3:33 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Back when I worked at CFC/Northern Banknote, we had the most deluxe stereogram machine, perfected by Craig Newswanger, the ultimate maestro of holographic automation. You are correct that this is the order of operations. The machine used Visual Basic, software written by the master himself.<br><br>One thing that we were doing on the display side was to use uncompressed TIFF&#x27;s instead of jpg&#x27;s to keep the images as clean as possible. Every time you save jpg&#x27;s they get more compressed, so you might have some of that nasty artifacting around your images.<br><br>Another feature to have your friend program in is a mouse cursor blanker, so you don&#x27;t see the arrow in all your frames!<br><br>With a VGA DLP, were could get decent 6&quot; by 8&quot; images!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Tue Oct 28, 2008 5:14 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Cool!<br><br>Neat tip, Ed. Uncompressed TIFFs... I&#x27;m all about cleaner images.<br><br>Well, as I learn more about this whole shebang, I&#x27;m thinking it may work out a little something like this:<br><br>Terry Weeder from Weedtech has informed me that the Modcom program he wrote to run those data modules has the ability to start and stop other programs, but not send commands to them...<br><br>I&#x27;m very much considering using Modcom because it speaks the language of those modules already, and (I think, I hope) already has all the necessary delays between commands wired into its functions and I won&#x27;t get some of the information snarls I read about in the communication protocol stuff.<br><br>Here&#x27;s what Weeder writes:<br><br>&quot;ModCom has the ability to start or run other programs, but not to <br><br>send commands to another program. You may be able to run your jpg <br><br>viewer from ModCom and load a certain image at the same time. You <br><br>will have to try it out.<br><br>First, put your jpg viewer program in the same folder as your <br><br>modcom application file. Then put a Pushbutton on the screen of <br><br>ModCom and have it start your jpg viewer program and load an image <br><br>like this:<br><br>yourviewer.exe yourimage.jpg<br><br>Start the ModCom run loop and click on the Pushbutton and see if it <br><br>works. Then try multiple Pushbuttons with each one displaying a <br><br>different image and see if it loads the image into the same viewer, <br><br>or if it starts a 2nd, 3rd, 4th copy of the viewer. In that case, <br><br>it won&#x27;t work.&quot;<br><br>Soo.... What this registers as in my feeble brain is that I will need to code a viewer for each of my 32 images,<br><br>then set up Modcom to turn them on then off one at a time.<br><br>I&#x27;d just skip the Modcom entirely if I wasn&#x27;t so nervous about trying to write code that received all these confirmations and cleared buffers between commands and all this other stuff that is frikkin Greek to me...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Oct 28, 2008 5:36 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Does Modcom allow you to capture a sequence of events or loop a few functions? If so great.<br><br>Also, does Modcom allow you to run multiple programs at the same time, one of the stepper and one for the relays? Or can the stepper motor program call the relay program or via vera?<br><br>Another thought is that if you have to use a gui interface what monitor will you use to diplay the image to be recorded. You would either need two computer monitors, two computers or be able to record the software strings and run them in the background without the gui interface.<br><br>I will read the literature more closely when I get time. The string sent to each board does not seem to be complicated. It&#x27;s just a Upper case character or two and a numerical number. But how do we attach the header to the string? Can we simply send the string to the address as indicated by the DIP switch? Or do we need to send the string to the master card with the address of the card we want and the master card figures whether its his or needs to be passed on?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Tue Oct 28, 2008 5:53 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Hi again John<br><br>Golly I wish I knew the answers to most of what you ask...<br><br>Yes, Modcom is arranged so that I can request a number of functions in order then loop them, and yep, I think it will let me run the relay board and the stepper controller with the same window.<br><br>For now, and I&#x27;m ebarrassed to report this, but My LCD screen for the initial phase of this project will be a second-hand PDA (pocket PC) with the back of the case removed and the whatever is on the back of an LCD removed as well so that I can back-light it with my object beam. It&#x27;s only got 320x240 pixel resolution, but will hopefully be sufficient until I can upgrade to a real LCD screen. I&#x27;ve got an as-of-yet uninstalled program called Innobec Sidewindow that will allow me to use the PDA as a second monitor (extended desktop), which should hopefully avoid my interface that controls the motor and relay from being hologrammed, as I can locate the modcom on the regular part of my screen and have the image displayer slide of the side onto the PDA screen.<br><br>Um.. and I think (think) as far as addressing commands, it boils down to a two-digit number followed by a space followed by the command string... Does this make sense? I get the impression that the modules sort it out and yeah, pass along commands not addressed to them.<br><br>I am installing Visual Basic 2008 right now and if it doesn&#x27;t come with the compiler, it&#x27;s free (I think) and i can grab that easily enough.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Tue Oct 28, 2008 11:59 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">On getting another look at the commands for the stepper motor driver, I think it looks as if the header character used to address the command string will be (in ASCII) a letter A-P or lowercase a-p...<br><br>Just noting that.<br><br>Anyway - what is my major concern at this point when it comes to the idea of coding my own commands to the data modules is getting said commands to go to an RS-232 port that I don&#x27;t actually have. Dude told me over the phone that they will work just fine plugged in through a USB/serial adapter, but unless my USB automatically rings its various ports and can discover that there&#x27;s RS-232 stuff at the end of one, then I&#x27;m plumb confused about how to speak RS-232 through a USB port.<br><br>This is the main reason that I am considering using Modcom. It <em>must</em>be set up to sniff around my various com ports ad figure out what&#x27;s what. Ok, so I&#x27;m taking that on faith... Mebbe I oughta read up some on communicating with different computer ports. Oh, and put my nose to the grindstone and teach myself some programming language... I&#x27;m getting there in small steps.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 12:16 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Oh!<br><br>Ooooooohhhhhh....<br><br>Good stuff. It would appear that USB/serial converters come with drivers that help your &#x27;puter treat the converter as if it were an installed RS-232.<br><br>Good stuff.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 12:52 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> I will read the literature more closely when I get time. The string sent to each board does not seem to be complicated. It&#x27;s just a Upper case character or two and a numerical number. But how do we attach the header to the string? Can we simply send the string to the address as indicated by the DIP switch? Or do we need to send the string to the master card with the address of the card we want and the master card figures whether its his or needs to be passed on?<br><br>I agree, John, it really doesn&#x27;t look that complicated to code this (even bearing in mind that I have no clue how) - the command strings are short and sweet and straighforward. For my purposes, I&#x27;m really only looking at a Relay close command as soon as everything boots, a Position command right at first to establish that the motor&#x27;s current position is 0 gosh darn it, followed by a Move to position command followed by a settle delay followed by a relay open command followed by an exposure delay followed by a relay close command...<br><br>...with the image output to screen command mixed in there somewhere!<br><br>Then do at all over again another 31 times ( I think I&#x27;ll have to do it this way because it looks like I&#x27;ll be dealing with absolute motor position each move, i.e.; move to position 1000, then 2000 the time after, then 3000 and so on...) 1000 steps per move because: It&#x27;ll be a stepper with 1.8 degree steps &gt; 200 steps/revolution turning 1/16th lead screws at 2:1 drive:driven ratio &gt; 1000 steps = 5 motor turns = 2.5 lead screw turns = 5/32&quot; linear travel<br><br><em>takes breath</em><br><br>So....<br><br>And yessir, I believe the cards sort out which commands are for them and which are not. Each one has a 232 in and a 232 out and can just be daisy-chained, and will pass it all on down the line, culling what is intended for them...<br><br>I think my code will look a little something like:<br><br>(Minus the &quot;stage&quot; command I&#x27;ll need to drive the carriage right up to the bottom of the film before I begin the exposure sequence)<br><br>Move to position 1000<br><br>Begin chilling for 25 seconds or so<br><br>Call up 1.jpeg<br><br>Finish chilling<br><br>Open relay<br><br>Chill for 20 seconds<br><br>Finish chilling and close relay<br><br>Move to position 2000<br><br>Chill<br><br>Call up 2.jpeg<br><br>and so on...<br><br>If I could do all that with my own code (which I feel more confident about knowing that the RS-232/USB situation is cool), why I reckon that would be just swell</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Oct 29, 2008 1:55 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Do yourself the favor of writing this in DOS and not Windows. If you write this as a DOS BASIC program the learning curve will be an evening instead of weeks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 2:34 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">As guaranteed as death and taxes: I&#x27;m interested in the path of least resistance between me and a working stereogram machine.<br><br>With that said (and being a great argument for a DOS program feeding orders to my gadgetry), I have to wonder if something more graphically-oriented is worth the extra brain strain - When I have my perfect, working interface, there&#x27;ll be a number of things that I&#x27;ll be asking it to do:<br><br>Stage command - a field and a button where I can enter the distance my slit must drive upward to reach the bottom edge of my just-mounted film (likely a consistent figure if I perfect a way of mounting my film in the same spot every time), that will put me a few numbers and a click away from having my slit lined up and ready for action...<br><br>Expose command - a couple of fields where I can enter slit size and film size (or likely just number of steps to drive each time) and exposure delay and then tap a button that says &quot;go&quot; or something that will begin a 5 minute delay during which I can slip quietly from the house, then the machine will begin its primary routine.<br><br>A Reset command - this button will exist to do nothing in this world but to drive the motor back to 0 position so that I can remove and process the film.<br><br>I don&#x27;t know enough about programming to know whether this could be done with a DOS program or not, but I can say for pretty certain that I desire the runtime ease of pecking a few figures into fields then hitting buttons - my nerves tend to be strung tight when I&#x27;ve got emulsion out in the open, and something easy-to-use at exposure time is my main goal. I&#x27;m just gonna have to keep learning about different languages and see what&#x27;s available to me. Maybe BASIC will prove to be capable of making fields and buttons. I need to gits learned up.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 4:42 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">sNow I have not tweaked it but here is a start. If you let me know which language you decide to use I may be able to help you with specifics. The code for the MODCOM should be correct, but please correct me if I misread anything.<br><br>So lets say you have your master module as the stepper motor and it’s DIP settings are 00000 (A) and the relay module is slave and has a dip setting of 00001 (B). <br><br>You have the film in place and the slit is below the film so that the film can be loaded and unloaded in this position. Unless you get a feedback positioner you will have to manually find this the first time (first plate). Not too hard really as I am sure you have a few percent of film length to play with. A dry run will prove most useful. In fact, you can write two small programs in which one moves the slit up a few space and one down a few spaces thus if you motor does not like to be manually moved, you can move it up or down a few time with those two min-programs until it is in the correct spot. You could then run this program with a settle time of 1 sec and and exposure of 1 second to see where it ends up. And knowing the number of slits you could move it back the same number of steps with yet another program and then tweak from there with the first two movement programs. Stepper motors I have used in the past didn&#x27;t mind at all being moved manually as long as there was not power to then, so then again, it would be even easier.<br><br>Your code would be as follows (this is not basic yet, just logical) and words in [ ] are just comments. Assume the relay for your shutter is the first one (A) on the card and the documentation states the relay is normally open (no current to open shutter provided shutter is closed with no voltage to it)<br><br>You would also need to determine how far each step moves the slit.<br><br>-------------------------------------------------------------------------------<br><br>HouseKeeping<br><br>Send to Port x AP0M50 [Sets starting position to 0 logically, then moves the slit up 50 steps]<br><br>a=1 [ Set bmp variable number to 1]<br><br>e=0 [This is the exposure number variable]<br><br>f=25 [This is the number of exposures wanted]<br><br>Call bmp(a) [Calls the first .bmp file (bmp1)]<br><br>Write bmp(a) [Displays the first bmp1 file to the LCD]<br><br>Main<br><br>Send to port x BCA30000 [Closes Relay A (opens shutter) for 30000mS (30 seconds)]<br><br>Send to port x BOA [Opens Relay A (closes shutter)]<br><br>e=e+1 [Counts the number of exposures]<br><br>If e=f then go to END [If the number of exposure = to the preset f then exit program]<br><br>Send to port x AM10 [Moves slit up 10 steps]<br><br>a=a+1 [Sets BMP index up one]<br><br>Call bmp(a) [Calls subsequent BMP file]<br><br>Write bmp(a) [Displays subsequent BMP file]<br><br>Pause (180) [Pauses for 3 minutes]<br><br>GoTo Main (Starts back over at Main)<br><br>END<br><br>Few corrections needed. Move is reative not cumulative and we nee to home the slit afterwards. Since we cannot use a varable in the string we may have to step the motor up and then back....rats. Back to the drawing board....lol.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 5:06 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">This may be better.<br><br>--------------------------------------<br><br>HouseKeeping<br><br>Send to Port x AP0M50 [Sets starting position to 0 logically, then moves the slit to position 50]<br><br>a=1 [ Set bmp variable number to 1]<br><br>e=0 [This is the exposure number variable]<br><br>f=25 [This is the number of exposures wanted] [changeable]<br><br>n=10 [number of steps wanted for each slit move] [changeable]<br><br>Call bmp(a) [Calls the first .bmp file (bmp1)]<br><br>Write bmp(a) [Displays the first bmp1 file to the LCD]<br><br>Main<br><br>Send to port x BCA30000 [Closes Relay A (opens shutter) for 30000mS (30 seconds and changeable)]<br><br>Send to port x BOA [Opens Relay A (closes shutter)]<br><br>e=e+1 [Counts the number of exposures]<br><br>If e=f then go to END [If the number of exposure = to the preset f then exit program]<br><br>z=0<br><br>KEEPSTEPPING<br><br>Z=z+1<br><br>Send to port x AS+ [Moves slit up 1 steps]<br><br>If p = n then STOPSTEPPING <br><br>else KEEPSTEPPING [Repeat to step 10 times]<br><br>STOPSTEPPING<br><br>a=a+1 [Sets BMP index up one]<br><br>Call bmp(a) [Calls subsequent BMP file]<br><br>Write bmp(a) [Displays subsequent BMP file]<br><br>Pause (180) [Pauses for 3 minutes]<br><br>GoTo Main (Starts back over at Main)<br><br>END <br><br>Send to Port x AM0 [Move the slit home (out of way and where started originally)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 5:23 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">So I think again there are two key point here, you want a program that can send a string to a port and can pull in and send out an image file.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 5:42 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">In basic it looks like<br><br>img scr=$path&quot;.&quot;image1.jpg<br><br>For diaplaying the image and you can use a variable like this<br><br>img scr=$path&quot;.&quot;x.jpg<br><br>where x can be from 1 to whatever and thus you can increment x and get file names 1.jpg, 2.jpg, 3.jpg etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Oct 29, 2008 5:46 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">I was able to find copies of basica.exe and basica.com so you can run basic in dos without problems. If you need the files email me.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 5:50 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">Hi John!<br><br>Too cool for school, homeslice.<br><br>A quick note: The shutter (torn out of an old polaroid camera) is closed when given power which I think will mean that a closed relay will be a closed shutter<br><br>-and - <br><br>I think that is the very first thing the code must do - close the shutter so I can load film then run the staging subroutine<br><br> - which - <br><br>should be easy enough to figure on-the-fly with a stainless ruler through a dry run or two, as 200 steps = 1 revolution = 1/32&quot; slit travel...<br><br>I can picture sliding a slim ruler between the slit and the glass and just measuring how far I must drive my slit vertically to line up its top edge with the bottom edge of the film (true, in the dark, but I should be able to see the edge of a piece of masking tape well enough under a safelight).<br><br>So - say the top edge of my slit is 3 1/2&quot; below the bottom edge of my film after jigging the sandwich, then - um... well, 32 x 200 = 6400 steps = 1&quot; slit travel &gt; 22,400 steps = 3 1/2&quot; slit travel. It would be mightyfine to be able to enter this or a similar figure into a field somewhere and hit a &quot;stage&quot; button to drive the slit into start position.<br><br>The stepper board will accept single step commands, so I bet it would be easy enough to trim in the event that I don&#x27;t actually wind up with nice numbers.<br><br>I guess at this point I need to decide once and for all whether I intend to utilize the MODCOM or not. Are the command lines you wrote above intended for use in the MODCOM?<br><br>It offers the advantage of being a pre-made GUI that by the looks is pretty versatile and customizable. The disadvantage to it, however, if I&#x27;m understanding this correctly, is that I would still need to write individual viewers for the images, then furthermore, figure out how to make MODCOM turn them on and off at appropriate moments, plus - make sure they pop open in the same spot each time (the extended portion of my desktop that is the LCD screen)...<br><br>Golly this is so confusing <br><br>Oh, and, am I all messed up with the cumulative movement thing? I would swear the stepper board is looking for commands that move it to an absolute position relative to wherever its 0 point is...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 6:04 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Yes, I am not sure how to interface the imaging with the MODCOM gui.<br><br>Well the MOVE command is absolute (sorry if I stated it wrong). SO you would have to code in<br><br>Move to 20<br><br>Move to 40<br><br>Move to 60 etc cause you cant put a variable in their data string. I can&#x27;t see on how to loop it with their move command easily.<br><br>SO I think the STEP command in a loop will be much better.<br><br>I&#x27;m trying to find a simple basic language that has both the output image to file functionallity and the send data string to USB port. I&#x27;ve googled quite a few and can find output to diplay for bacis and send data sting to USB for visual basic but no luck on both yet.<br><br>I do remember using Dark Basic and I believe I could do both with it and I actually still have a copy at home. I will see if that does it for you and let you know. I can&#x27;t believe I can find outputing an image file to the monitor with Visual Basic. I will take up lookign agian tomorrow when time permits.<br><br>In the mean time before you waste your time research those two functionallities and let me know what you find. My brain door is open for you if you can find something amungst the cobwebs you can use.<br><br>The command lines above are written to be use with some type of 16 bit (could be dos) editor and/or compiler. I was even wondering if a simple batch (.bat) file had those two commmands you need. I know the MODCOM lines and the logic will work with with a simple batch file, just need to find how to output it to a port and send a pic to the screen.<br><br>Peace!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Oct 29, 2008 6:05 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Colin, do you remember if basica has the two function he needs?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 6:22 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Bless you, John, for working with me on this.<br><br>I sorta feel like a real jerk at this point because I&#x27;ve called in the cavalry and won&#x27;t even be able to put any of this work and thought and effort to the test for another couple of months when i can afford the boards and motors... <br><br>Just my nerves getting the best of me as I envision investing all the money into <br><br>Getting the aluminum machined and anodized<br><br>Buying all the hardware and lead screws and bearings<br><br>Buying the data modules and stepper motor and USB/serial converter<br><br>then<br><br>Assembling it all <br><br>then<br><br>Making it work right...<br><br>In a life fueled by irony, it would be quite fitting that after all the mechanical assembly and whatnot that I couldn&#x27;t make the stuff run because I have no computer skills... So, I&#x27;m making a preemptive strike on the programming and trying to get my head around it early.<br><br>Anyway - about the MODCOM - I <em>think</em> it has some sort of editor that allows me to input command lines and I believe it knows where to send them, too. Which still leaves the image manipulation... I may wind up making separate .exe files for displaying each of my 32 images, then setting up modcom buttons to turn them on then off at certain points in the procedure. I&#x27;ve got more to learn here.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Wed Oct 29, 2008 8:54 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">A thought (and this may be a stinkin&#x27; load of wishful thinking) - <br><br>Bearing in mind that in order to use MODCOM for motor and relay control, it appears that I will have to create an array of 32 buttons on the interface, one to start an .exe file for a viewer for each of the images (and therefore risking winding up with a stack of 32 different windows),<br><br>maybe I can make only two buttons on my MODCOM interface, one to start the .exe file that will open the first image, and a second button that will start an .exe file that is coded in such a way that it does that a+1 gimmick and simply toggles up the next image in the original window...?<br><br>Is this code-able?<br><br>MODCOM would then, of course, have full control over and access to all its buttons and would be able to mix them into my sequence...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Oct 30, 2008 2:10 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Colin, do you remember if basica has the two function he needs?<br><br>He can use Poke to output data directly to the driver. I think basica was written before jpeg compression so I don&#x27;t know how one would implement it. I bet someone has and you would just have to find a sub routine to call.<br><br>If we need a small library to talk to the card I can hand assemble one. I don&#x27;t have an assembler any more.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Oct 30, 2008 2:20 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Well Justin,<br><br>Turn you slit horizontally and put it in an old fashion typewriter. Hit the space bar when you want to move the slit to the left. Then use a manual card shutter and advance the JPG manually via the computer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Thu Oct 30, 2008 6:24 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Hehehehe.<br><br>Maybe I could have a candle that burns through a rope which drops a weight that kicks a boot that scares a bird that rattles its cage that pulls a string to release a ball that rolls down a ramp which nudges my slit to the next position.... <br><br>Oops - I forgot break an egg into a pan somewhere in there...heheh.<br><br>Anyway I&#x27;ve been playing with ModCom and it turns out this program is <em>utterly pimp</em>.<br><br>And I&#x27;ve got enough Rube Goldberg going on there anyhow.<br><br>But it&#x27;ll work swell - I can build my own interface that has everything I need - from data fields that will poll the boards for information to timers and buttons that can transmit either single commands or sequences, even indicator lamps... It&#x27;s FUN! I even rigged an indicator lamp that will light up and flash manically if one of the boards sends back an error message (?)... I&#x27;ve set it up to manage my housekeeping needs (setting initial motor position to zero, setting motor speed, setting phase current, setting my shutter to a default position of &quot;closed&quot; first thing, etc), I&#x27;ve set it up to manage my staging ( I can just dial up how many steps I want it to move before I begin the primary sequence), I&#x27;ve set up a data window to poll the motor board and track current position (and if everything works right, work from that number and simply make each move {that value} + 1000, I&#x27;ve set up a timer that will trigger a conditional if {timer} = {data field where I&#x27;ve indicated desired exposure time}..<br><br>ModCom is crazy cool.<br><br>And that just leaves the image manipulation. ModCom can run programs (either in a sequence or with buttons) but not command or stop them.<br><br>So.... I could either code (translate that to have my buddy Theo code) 32 different .exe files - one for each image...<br><br>Or<br><br>have ModCom set up to run two .exe files. The first one would open 1.jpeg, then when the second .exe was started, it would replace the existing image with x+1, in essence using the same window over and over. This second executable I think will need to have an auto-stop feature so that I can start it over and over.<br><br>The ModCom has really turned the need for a lot of code into a need for a little bit of code.<br><br>Yay!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Fri Oct 31, 2008 2:19 am</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Justin W:</strong> I&#x27;ve set up a data window to poll the motor board and track current position (and if everything works right, work from that number and simply make each move {that value} + 1000<br><br>Allow me to amend this. Turns out that while it is legal to include a variable in a command string, it would be an invalid order to send an <em>anything</em> + 1000 to one of the boards. What I&#x27;ve set up instead is a second data window that polls for current motor position then offsets that value by 1000. I call this my NextMove object. I a now in a position to hit a button that starts a sequence that leads off by transmitting a move to command using that field as a variable then does the rest of the stuff (settle delay, shutter relays, increment a counter, then repeat it all until the counter = desired number of repeats data field, then reset), so - While the position and movements are absolute, the offset by 1000 feature allows the board to see a command relative to its current position each time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Oct 31, 2008 12:12 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">Justin, that sounds great. Good luck and if you need anything I can help with let me know.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Fri Oct 31, 2008 9:39 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">Thanks, John.<br><br>That&#x27;s really cool that you&#x27;re lookin&#x27; out for me.<br><br>If it turns out that Theo runs into difficulty coding me a viewer, I just may wind up finding myself trying to learn coding for myself. If that happens to be the case, I imagine I&#x27;ll be fairly lost and may have a lot of questions related to the fundamentals of writing code. I&#x27;ve found plenty of tutorials available on the web, but they all seem to assume that I know things that I in fact do not. The concept of speaking to a kinda dumb and totally literal machine in strictly logical terms seems like it should be one of those things I should be able to get my mind around in short order, but I&#x27;ve noted about myself that I struggle to get a firm grip on procedures until I know the &quot;What&quot;, the &quot;How&quot; and the &quot;Why&quot;... The instructions that seem to be available to the casual searcher of &quot;how to code&quot; documentation (at least that I have found so far) seem to have only one or two of the three at any one time, and result in me blinking at the screen with a blank expression on my face <br><br>Maybe my malfunction is that so far I have not found instructions that start me off at seeing a list of standard commands available to developer... I bet getting a glimpse of the arsenal available to a programmer would help me understand what is possible...<br><br>Dunno. Anyway - thank you for being willing to help, John. Frankly, the best case scenario here involves me taking delivery of a couple working .exe files and not having to write a single line of code whatsoever, but I&#x27;m realistic enough to face the fact that I may have to create an application or two - and if that turns out to be the case, I can guarantee that I&#x27;ll have some very remedial questions</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Oct 31, 2008 11:54 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">In any programing envrionment there is a piece of software that is pre-written. Lately it is known as &quot;Hello World&quot;. It will have the basics of what a program needs to simply exsist in that language. If you find yourself learning a new language start by modifying the &quot;Hello World&quot; program as much as you can. At some point you get board and start a new piece of code but with the knowledge of the minium that is required. The last time I learned a new language (68000 Asembler) I changed the &quot;Hello World&quot; program into a GUI TicTacToe program for a Mac +.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Nov 01, 2008 3:21 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">Hello Justin,<br><br>You mentioned the cost of machining the parts. I know this is a lot to add on at the same time as your programing and doing all the other stuff for stereograms but I HIGHLY recommend that ANYONE serious about holography learn to machine their own stuff.<br><br>I have a small lathe and two mills. This is the latest one I&#x27;ve put in my house<br><br>[http://www.industrialhobbies.com/Produc ... mill_2.htm](http://www.industrialhobbies.com/Products/square_column_mill_2.htm)<br><br>I also have the small one that this mill is eating in the 2nd photo.<br><br>I just did a very complex holo for a big Japanese company. This is a perfect example of why having your own stuff is great. The holo was a 7 layer 2d-3d with 5 of the layers in full color! That was a lot of work but it came out great. <br><br>While I was making it I found that my registration equipment and plateholder were not up to the job. I needed a presission part to get everything right. Within 20 min. I had the part and was back up and the holo got out on time. Without that mill it would have taken over a week longer! In production that is a lifetime.<br><br>Using this equipment is probably a little easier than you might think. The big mill you can have delivered for less than 2500 bucks or so. The small mill is about 500. I know thats a lot but you might just spend that much going to pro shops and having them do your stuff for you. While they are better machinests they don&#x27;t know what we do. The parts we use are usually pretty simple and we can do it better. Even a spatial filter is a pretty simple thing once you understand the process.<br><br>Now, its true that I spent many years in holography before I learned how to do this and did some nice stuff. But now, I can&#x27;t imagine how I lived so long without it.<br><br>I&#x27;ll be making my new stereogram system pretty soon. I&#x27;m so glad I have this stuff to help out this time.<br><br> Jeffrey Weil<br><br> NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Sat Nov 01, 2008 4:39 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Jeffrey - that&#x27;s cool. Yeahbuddy just try to find a red-blooded male who doesn&#x27;t long for machining capabilities of their own...<br><br>The way original plan I had was to order some aluminum plate and go at it with my dad&#x27;s drill press. This original design was based on a not-uncomplicated gear train transferring power from the motor to the lead screws and it dawned on me that I would never never as in not ever drill my bearing holes accurately enough that the gears meshed properly, there in my dad&#x27;s wood shop on a vintage Delta drill press...<br><br>Since that time the design has evolved and the gearing is history - power transmission, I now proudly announce, will be performed by a timing belt and the only opportunity for backlash will be between lead screws and nuts - and that will only matter upon slit carriage reset after the burn anyway.<br><br>But still - the chances of me getting all those many close-fit clearance holes and tapped holes I&#x27;m requesting that will hold this gizmo together are slightly less than nil - and despite not needing scores of bearing holes lining up properly, a few still need to.<br><br>My point being this - 1. There is no way this contraption will ever assemble properly and work right without being constructed from the precision-machined parts I have drawn up - and - 2. I live in a an apartment about as large as a walk-in closet and will never be able to fit a machine shop in here...<br><br>Anyway, I&#x27;ve been engaged in some dialog with Paul Markun at Tampa Technik machine shop and he has been not only very helpful with design advice but is willing to work with me on the price seeing as how this is not a corporate business venture and is in fact an ambitious hobby endeavor. So that&#x27;s real good.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Sat Nov 01, 2008 5:05 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">BTW, just clicked the link you put up and I gotta say: Sweet rig, man</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Nov 01, 2008 5:38 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">Hey Justin,<br><br>That little machine being eaten by the big one is not bad at all. I&#x27;ve owned one for a few years and did a lot of stuff on it. Its small but will do most everything a holographer needs with some creativity. <br><br>It will fit on a table in your apartment easily. The metal chips it makes would be a mess. But with a shopvac your good to go. Those come small too.<br><br>It weights about 100lbs and can be carried around without too much trouble. You could keep it on the closet floor and move it outside to work. This could not be done with my big one of course. Thats 1000 pounds.<br><br>I know exactly what your saying about things bolting together. When I first got the small mill I was amazed by the power of making 4 threaded holes on one piece and 4 countersunk holes on another and they would not only fit perfectly but you could even spin the part and use other holes and it still fits perfectly! Just like a &quot;real&quot; part. And thats the whole point. You can make real stuff. Just being able to line up holes and cut a slot alone makes the first machine would the money. And of course it can do a lot more.<br><br>Now, if you just need to drill perfectly you CAN do that on your dad&#x27;s delta drill press. Really. <br><br>What you need to do is get a small x-y table for the press. Put your part in there and use the handwheels to move the part an exact amount. You will have to deal with backlash, but some careful planning will totally remove that problem. Next get a set of center drills. Those are little stubby drills just to get it started. Then switch to a normal bit and your good to go. You could buy all that stuff for less than 100 bucks. and it will fit on the drill press table permently, no new space needed.<br><br>[http://www.use-enco.com/CGI/INSRIT?PMAK ... TPG=INLMK3](http://www.use-enco.com/CGI/INSRIT?PMAKA=201-2826&amp;PMPXNO=951820&amp;PARTPG=INLMK3)<br><br>[http://littlemachineshop.com/products/p ... -390856429](http://littlemachineshop.com/products/product_view.php?ProductID=1230&amp;category=-390856429)<br><br>This would do it for you. If you want to get even better you could put a digital readout on the table. Use a 20 dollar digital caliper and bolt it to the table. <br><br>[http://littlemachineshop.com/products/p ... &amp;category=](http://littlemachineshop.com/products/product_view.php?ProductID=2983&amp;category=)<br><br>That would go on the long axis of the table a smaller one would go on the y axis.<br><br>with that on the table you wouldn&#x27;t have to worry about backlash either. The handwheels with still have it but the digital caliper will only move with actual table motion. For drilling that would be almost as accurate as a milling machine. Not totally but more than close enough for screw holes to line up right. Real parts!<br><br>BTW, no machine can drill bearing holes perfectly with a drill bit. A drill bit bounces around in the very hole its drilling. You need to drill close to the final size and use a boreing bar or a reamer to make it really round. You could not use a boreing bar on the drill press, its not ridged enough but a reamer would work just fine.<br><br>For bolt holes and matching threaded holes a drill bit is fine. For a good press fit with a bearing you would want to ream.<br><br> Jeffrey Weil<br><br> NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Nov 04, 2008 1:33 pm</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">I did a search for &quot;Visual Basic Commands&quot; and came up with this.<br><br>[http://www.5starsupport.com/info/vb.htm](http://www.5starsupport.com/info/vb.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holo_cyware</span>
+                <span class="post-date">Tue Nov 04, 2008 8:33 pm</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Firstly, I&#x27;m really glad that somebody else wants to do what I&#x27;ve been planning to do for years.<br><br>My approach is to use a 15&quot; LCD screen (1024x768 native res.), allowing holograms up to 12x9 inches and a flatbed scanner as the slit carier (can be controlled easy via the PC). Sorry to say that but farting around with God knows what custom hardware as the photoframes are is too difficult.<br><br>I&#x27;m a computer programmer and I know I can write a piece of software that would create the slideshow and the slit squence I need.<br><br>For now, I&#x27;m about get (in a few days) the laser (532 nm single mode, coherence of about 1m), and I&#x27;m working on the holo lab (in a basement). I already have the screen (two actually; I hope that DeFreitas idea of using the second screen as a &quot;slit generator&quot; will work. Must give it a try...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Nov 05, 2008 1:40 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">It would be a surprise if the contrast of the LCD would be as opaque as a piece of metal!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holo_cyware</span>
+                <span class="post-date">Wed Nov 05, 2008 3:09 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">Yes, that&#x27;s what I&#x27;m afraid of, especially because I already tested the laser against some polarized sheet and some light (maybe less that 1%) would still escape. Enough to ruin (by overexposing) the hologram though.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Thu Nov 06, 2008 5:53 am</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> I did a search for &quot;Visual Basic Commands&quot; and came up with this.http://www.5starsupport.com/info/vb.htm<br><br>Thanks, John</div>
+        </div>
+
+    <div class="thread-nav"><a href="7605.html" class="prev-thread">← Fundumental hologram !!!</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7584.html" class="next-thread">Roll your eyes:  it&#x27;s another glass/film/glass question →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="508.html" class="card">
+                <h3>Alternate name for disc-shaped stereograms?</h3>
+                <div class="card-meta">Equipment · 11 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

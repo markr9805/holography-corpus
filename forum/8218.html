@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience with red laser diodes — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8245.html" class="prev-thread">← New to Holography</a><a href="Beginners.html">↑ Beginning Holography</a><a href="8215.html" class="next-thread">Third try, dip-n-shoot DCG →</a></div>
+    <h1>Experience with red laser diodes</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>8</td></tr>
+        <tr><td>Views</td><td>6,909</td></tr>
+        <tr><td>Started</td><td>Tue Mar 09, 2010 8:52 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jnhong.html">jnhong</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8218" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jnhong</span>
+                <span class="post-date">Tue Mar 09, 2010 8:52 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;ve been lurking in the forums for a few months, but I&#x27;ve been shooting basic holograms for a few years. All my experience is with red laser diodes, and I&#x27;ve made some observations along the way. Currently have 3 Laser Diode Modules, all are &lt;5 mW.<br><br><strong>Laser Diode Modules</strong><br><br>LitiHolo diode (from their kit), 650-670 nm, 3 mW rating. I&#x27;ve measured 42.5 mA at 3.8v-3.9v with very strong output from this LDM. It&#x27;s nice and strong but the beam could be rather dirty.<br><br>Integraf diode. Spec&#x27;ed at 650 nm, 2.8v-4.0v, 50-65 mA, 3-4 mW. However, I&#x27;ve been running mine with 5.2v and it only draws 32.5 mA. (4 rechargeable AA at 1.2-1.3v each.) The output power seems to be lower than the Litiholo diode, but it&#x27;s a somewhat cleaner beam. I&#x27;ve shot nice holograms with this one. I&#x27;ve observed a rather low polarization ratio, perhaps 50:1 or thereabouts. I need to gather better data.<br><br>ThorLabs LDM 635 nm, 5mW, -5VDC, 100 mA. This is a nice laser diode module generating a very clean beam, though not perfect, not flawless. Very high polarization ratio on this one, maybe 1000:1 or better. The module wiring and specification is not extremely detailed, but it was straightforward to test and determine the proper power connections. I run this with a 4xAA battery pack with NiMH rechargeables. That way I don&#x27;t have to buy a &quot;lab quality&quot; +5VDC power supply. I&#x27;ve only recently acquired this LDM, so I&#x27;ve only made rather basic holograms with it so far.<br><br>Recommendation to other beginners: use rechargeable batteries for laser diodes for very stable and long-lasting power. NiMH cells have excellent voltage vs capacity curves so they&#x27;ll stay around 1.2v for hours and hours of use. Don&#x27;t use alkalines -- they suck. LDMs have a built-in power regulator so you have no worries about start-up spikes.<br><br>Overall, these diode modules produce pretty stable outputs after a short warm up time. Now, if you wanted to use bare laser diodes and design your own drivers, I believe there&#x27;s a different forum for that. <br><br><strong>Hologram Setups</strong><br><br>Single Beam setups, both Reflection and Transmission, work very well with these diodes. My preferred setup is to use a small concave mirror (12 mm dia, FL=6 mm) as a beam expander, instead of taking the lens off from the module.<br><br>Split Beam setups are the hard ones. I&#x27;ve had a rather low success ratio with split-beam, perhaps 20-25% produce acceptable images. I&#x27;ve spent a lot of money, time, and effort for my optical benches and I&#x27;ve run tests to prove stability, so I know I have that covered. Despite that, I&#x27;ve had a lot of failed shoots.<br><br>What I have learned is that the output stability of my lasers is significantly affected by backreflections from the complex optical path. When I black card the laser beam, it seems the diode starts pumping out more power. When I remove the shutter, I observe the power to immediately drop and then drift up and down for a minute. (I&#x27;m using a simple light sensor and voltmeter to do this. Still saving up for a proper laser power meter.) The power fluctuations very likely affect the mode of the laser and prevent good fringe formation.<br><br>One way I&#x27;ve been able to get acceptable holograms is to use a very long exposure time. I filtered the object and reference beams drastically so I could expose the plate from 60 to 90 seconds. It works, but it&#x27;s not a great workaround. A lot of things can happen in a minute. I&#x27;m currently experimenting to find a better scheme.<br><br>Recommendation to other beginners: single beam work is great with laser diodes. The real challenge is high-quality split-beam work. Hopefully some experts here can provide a few pointers. If not, be patient while I work through my efforts.<br><br>Here I get to ask my own, beginner&#x27;s questions. I&#x27;d like to work with affordable GREEN laser diodes. Yes, I know I should find a Coherent 315m or a JDSU microgreen laser. But I said AFFORDABLE, to the fairly motivated hobbyist. Does anyone have good experience to share?<br><br>Joe</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Mar 09, 2010 11:06 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I would love it if you would add your post to the wiki! :whistle: <br><br>I did not have any luck with the cheap green lasers. Perhaps they have changed in the last 5 years. I found them to not be single lognitudinal mode.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Mar 10, 2010 3:45 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I&#x27;ve been working with a Coherent 215M-10 10mW green laser that&#x27;s very stable and single frequency. It cost about $250 on Ebay, and I think there&#x27;s still some for sale there.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jnhong</span>
+                <span class="post-date">Wed Mar 10, 2010 6:11 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Bobh, I checked and saw some Coherent Compass lasers on ebay. I&#x27;ll consider getting those. Hopefully they don&#x27;t have the same backreflection issues I get with the red laser diodes.<br><br>Joe</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Mar 12, 2010 7:50 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">See this partial wiki entry:<br><br>[http://www.holowiki.com/index.php/Faraday_Isolator](http://www.holowiki.com/index.php/Faraday_Isolator)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jnhong</span>
+                <span class="post-date">Fri Mar 12, 2010 8:09 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Faraday Isolators are pretty expensive, but 3M has an anti-glare film/polarizer that does the same thing. I might give it a try if the problems persist. However, in recent experiments I&#x27;ve been changing the beam angles so there are no direct back-reflections, plus spacing out my components as much as my (tiny) optical bench will allow. That seems to be giving me more reliable results. Monitoring the power with my phototransistor, during exposure, gives me a good sense of what the diode is doing. So far so good.<br><br>I just didn&#x27;t realize that back reflections could actually affect the diode that much. Time to save up for a REAL laser!<br><br>Joe</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jnhong</span>
+                <span class="post-date">Sat Mar 13, 2010 4:22 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Coherence Length of red laser diodes -- practical experience.<br><br>When I started doing holograms a few years back, I followed all the advice found in books and the web, strictly measuring and matching the path lengths. This was very difficult, given that I had a tiny, tiny optical bench and not a lot of components to play with. Clearance between the beams and the optical components was a major constraint. After a few successes with single-beam and basic split-beam recordings, I relaxed my path-matching and continued to have success.<br><br>From experience, I can say that red laser diodes have pretty good coherence lengths. I have recordings made with beam path difference of 150-200 mm, and I have some experiments done with even longer differences, up to 300 mm. My bench being tiny, I couldn&#x27;t generate path differences longer than that. So now I don&#x27;t even worry about coherence lengths at all. I just configure my components to get the proper reference and object angles, and good clearance between optics, holders, and the beams.<br><br>Now that I&#x27;m getting even more ambitious, I will probably get a bigger optical table, and the 200 mm margin in path lengths is probably sufficient so I don&#x27;t need to go farther than that.<br><br>Recommendation for beginners: if you&#x27;re having trouble designing a setup that exactly matches beam lengths, don&#x27;t get frustrated. There&#x27;s good coherence length with red laser diodes, and a margin of 100 mm is probably big enough for you to get by. As long as you are using a stable power supply (use rechargeables), warm up the laser properly (5-10 minutes), keep direct reflections away from the diode, then this part of recording should be good.<br><br>Joe</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Mar 16, 2010 6:49 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">When I was using diodes a lot I had a 3&#x27; x 5&#x27; bench. I would place the laser at one corner and direct it down the 3&#x27; length. The first optic was a 12mm mirror that would send the beam out onto the table. Since the mirror was so small it was easy to slightly mis-align the following optics so the back reflection missed the laser. The hardest optics were always the plano lenses and I would tilt them and accept the aberrations.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8245.html" class="prev-thread">← New to Holography</a><a href="Beginners.html">↑ Beginning Holography</a><a href="8215.html" class="next-thread">Third try, dip-n-shoot DCG →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="307.html" class="card">
+                <h3>Laser diodes and magnets</h3>
+                <div class="card-meta">Equipment · 13 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="7974.html" class="card">
+                <h3>detection of mode-hopping in laser diodes</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

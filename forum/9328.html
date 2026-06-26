@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integration between Arduino MKR GSM 1400 and Hologram Cloud — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="9629.html" class="prev-thread">← D.I.Y. holographic photopolymer</a><a href="Techniques.html">↑ Techniques</a><a href="8957.html" class="next-thread">Musical Instrument Holography →</a></div>
+    <h1>Integration between Arduino MKR GSM 1400 and Hologram Cloud</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>6,443</td></tr>
+        <tr><td>Started</td><td>Fri May 25, 2018 8:55 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/michaelsmith.html">MichaelSmith</a> · <a href="../authors/jrburns47.html">jrburns47</a> · <a href="../authors/admin-jsfisher.html">admin_jsfisher</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=9328" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelSmith</span>
+                <span class="post-date">Fri May 25, 2018 8:55 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi,<br><br>I’m want to use my MKR GSM 1400 board and using Hologram Sim to send the data to the hologram cloud. The board is using the same GSM module like Dash. As far as I know there is already a library to send the data to the cloud but i think this library is only compatible for Dash board. Is there any information/library on how could I send the data?Based on my assumption of the incompability of the library for MKR board, so I tried to understand what the function i.e HologramCloud.sendMessage() actually do.But I’m stucked on modem.command() function inside sendMessage() function as I dont really understand what “+HMRST” really mean for. I thought that it maybe one of the AT command for U201 module. But there is no reference on it as I look at the manual. So I assume it is the command for Hologram server side. Am I right?<br><br>Please help.<br><br>I didn&#x27;t find the right solution from the Internet.<br><br>References:-<br><br>[https://community.hologram.io/t/integra ... cloud/1441](https://community.hologram.io/t/integration-between-arduino-mkr-gsm-1400-and-hologram-cloud/1441)<br><br>[Digital video content production studio](https://jobs.vidzzy.com/hire-digital-video-content-production-studio/)<br><br>Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Fri May 25, 2018 9:30 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Your link sent me to a general site for something called Vidzzy or some such. Not sure what it has to do with holography...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Fri May 25, 2018 11:52 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Ok - the link now seems to take me to the appropriate message board. Still not sure what this has to do with holography other than that the term is used in the software as HologramCloud. Can you enlighten me? I use an Arduino Uno to control my shutter, stepper motors, and film advance in my otherwise analog holography H! mastering system. LabView is the software that granularly controls the system (thank you Joe Pentland, artiste and general wizard and worldclass squash player extraordinaire). Google &quot;Joe Pentland artist&quot; to see his kinetic sculpture.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">admin_jsfisher</span>
+                <span class="post-date">Fri May 25, 2018 12:50 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hologram is the name of a company that has absolutely nothing to do with holography:<br><br>&gt; Hologram was founded in 2013 in Chicago with the vision to build out a new form of telecommunication to provide secure connectivity for IOT devices. Frustrated by an attempt to send basic customer food orders over a GRPS connection in Asia, co-founder Ben Forgan teamed up with virtualization security expert and co-founder Pat Wilbur to build the tools for any developer to reliably design a cellular connected device. In 2015, they released the Hologram Dash, an Arduino compatible cellular module, as well as full set of tools to get developers started quickly and securely.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Fri May 25, 2018 12:54 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thanks for clarification admin.</div>
+        </div>
+
+    <div class="thread-nav"><a href="9629.html" class="prev-thread">← D.I.Y. holographic photopolymer</a><a href="Techniques.html">↑ Techniques</a><a href="8957.html" class="next-thread">Musical Instrument Holography →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11477.html" class="card">
+                <h3>Lighting for Display of a Reflection Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11476.html" class="card">
+                <h3>Make yourself a hologram of yourself!</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11469.html" class="card">
+                <h3>Can an achromat hologram (full aperture transfer method) be made using photoresist instead of DCG?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11461.html" class="card">
+                <h3>Achromat hologram question</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11455.html" class="card">
+                <h3>Litiholo hologram disorted?!</h3>
+                <div class="card-meta">Optics · 2 posts</div>
+            </a>
+            <a href="11451.html" class="card">
+                <h3>In an image plane hologram, why does the front part of the hologram stick out from the plate?</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

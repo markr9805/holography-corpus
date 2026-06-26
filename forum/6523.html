@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Coherence Length — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6533.html" class="prev-thread">← Isolation table on a table?</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6510.html" class="next-thread">Hi, I&#x27;m new here! →</a></div>
+    <h1>About Coherence Length</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>3,594</td></tr>
+        <tr><td>Started</td><td>Sun Nov 04, 2007 4:08 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/bernardb.html">bernardb</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/walschuler.html">walschuler</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6523" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">bernardb</span>
+                <span class="post-date">Sun Nov 04, 2007 4:08 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I am trying to understand coherence length in how it applies to holography. Let me describe a fictional scenario and please tell me if this is the correct interpretation of CL:<br><br>Lets say I have a laser 532nm with a CL of 20cm. Lets say I am making a Split Beam transmission hologram. The reference beam path measures 2 meters in length, and the object beam path is 2.5 meters. A difference of .5 meter (50cm). Does this mean the coherent nature of the SPLIT beam is no longer &quot;in sync&quot; when they combine to create the interference pattern at the scene, and therefore will not produce an image? Alternately, say I have the above setup where reference beam and object beam lengths are <strong>within</strong> 20cm, does this allow for the proper interference at the scene?<br><br>I have Saxby&#x27;s book but I can&#x27;t find it at the moment due to it being PACKED from moving...<br><br>Thanks again for all the great help!<br><br>Bernard</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Nov 04, 2007 5:09 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">For practical purposes, you will want to equalize the path lengths within a cm or two. That will give you 18 cm of usable object depth. Remember that the distance from the object to the plate needs to be added to the object path length.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Tue Nov 06, 2007 2:32 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>bernardb:</strong> Lets say I have a laser 532nm with a CL of 20cm. Lets say I am making a Split Beam transmission hologram. The reference beam path measures 2 meters in length, and the object beam path is 2.5 meters. A difference of .5 meter (50cm). Does this mean the coherent nature of the SPLIT beam is no longer &quot;in sync&quot; when they combine to create the interference pattern at the scene, and therefore will not produce an image? Alternately, say I have the above setup where reference beam and object beam lengths arewithin20cm, does this allow for the proper interference at the scene?<br><br>What you say is basically correct, though you should realize that the coherence length is not very sharply defined. Rather, when the path difference between ref beam and reflected object beam _at the location_ of the plate becomes larger, the beams gradually get out of sync and the image gradually dims out. That is, if the size of the object is in the order of the coherence length or larger, then parts of the object away from the ideal location will gradually dim out. Thus the object should be considerably smaller than the coherence length, and the total path lengths should match considerably better than the CL. If you match the object beam path length by measuring from the center of the object to the center of the plate it should work out well. <br><br>If the coherence length is small, like 1 inch for an argon laser without etalon, then you need to match path lengths very precisely, to better than 1/4 inch or so, and the recorded depth of the scene (no matter how big the object is) will be in the order of an inch only.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">bernardb</span>
+                <span class="post-date">Tue Nov 06, 2007 2:37 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thanks Colin and wier, that answers my question pretty much spot on (feeling a tad British this morning...),<br><br>I appreciate all the information!<br><br>Bernard</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Nov 07, 2007 1:51 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thank you wler. That is a great description. I think I will add it to the wiki, hmmm, where...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">walschuler</span>
+                <span class="post-date">Thu Dec 20, 2007 6:48 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Two other points about path length difference, coherence length and image brightness:<br><br>1) Consider an ellipse and its 2 foci. If the beam splitter is at one focus and the plate is at the other, for any disposition of reference beam mirror and objects, in which the mirror and objects sit anywhere on the ellipse, the path lengths for reference and objects will be identical. If the objects are large, as mentioned above, then the object path lengths will vary with position on the objects.<br><br>2) But in the above setup, some objects will be closer to the plate than others, and so the closest ones will send more light to the plate, and that will affect their relative brightnesses. This can be reasonably compensated by adjusting the object reflectances so that the farthest objects are the most reflective.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6533.html" class="prev-thread">← Isolation table on a table?</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6510.html" class="next-thread">Hi, I&#x27;m new here! →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11375.html" class="card">
+                <h3>Coherence Length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="8876.html" class="card">
+                <h3>Tricks for measuring coherence length</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="211.html" class="card">
+                <h3>Coherence length</h3>
+                <div class="card-meta">Techniques · 19 posts</div>
+            </a>
+            <a href="7738.html" class="card">
+                <h3>coherence length estimation</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="6110.html" class="card">
+                <h3>Laser line width vs. coherence length</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diffraction gratings — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8743.html" class="prev-thread">← Integraf Diode Vs Generic Laser diode</a><a href="Equipment.html">↑ Equipment</a><a href="8599.html" class="next-thread">Pre Recorded Holographic Video Projection →</a></div>
+    <h1>diffraction gratings</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>13</td></tr>
+        <tr><td>Views</td><td>18,013</td></tr>
+        <tr><td>Started</td><td>Fri Nov 11, 2016 1:58 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/brian.html">Brian</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8726" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri Nov 11, 2016 1:58 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I apologize in advance for the long read.<br><br>As I mentioned in another post, early this fall my son explored Ed Wesley’s method of making a diffraction grating, described in his “Seven Single Beam Projects,” as the basis for his science project. In his project, he varied the angle between plate and mirror to see how it affected the spread of the rainbow produced by the grating. This was a great project for him, because he could position the mirrors and holo plate all on his own, and he already had experience measuring diffraction angles.<br><br>I started thinking about one result my son found, which in retrospect should have been obvious. In the single reflecting mirror setup of Ed’s method, the central axis of the spreading reference beam hits the holo plate at a 45 degree angle. So the reconstructing white light must illuminate the plate at the same 45 degree angle to produce a rainbow. Whereas with a normal diffraction grating, the light illuminates a grating at normal incidence. And so I started thinking about making a “normal incidence” diffraction grating. I know one could split a beam into two, send one in at normal incidence and send the other through at an angle with repect to the plate. But I wondered if there might be a way to make the “normal incidence” diffraction grating while still preserving the “single beam” nature of the project. It was obvious that it will take more than one plane mirror that is used in Ed’s method, but it took me a while playing with arrangements in my head to sort out how to do it.<br><br>Once I figured out how to do it, I thought this would be a great research project for one of my majors. I&#x27;m sure this has been done before, and so even if the results don’t really interest anyone else, I could file it under “proof of principle.” So this fall, a student and I began making normal incidence diffraction gratings.<br><br>The gratings were made with a 532 nm laser. We used Litiholo plates to make the gratings, because they are easy to use. But more importantly, we didn’t have to worry about shrinking or swelling of emulsion while the plate dried.<br><br>I’ll describe the geometry we used for making the grating. <br><br>First, normal incidence diffraction gratings are meant to be use with collimated light, so we had to (expand and) collimate the laser beam. We used a Galilean telescope composed from two plano-convex lenses to do this. All my good lenses are only one inch diameter, and so all the gratings we made are one inch diameter circles. (Note to self, need to purchase a good long-focal-length, two inch diameter lens.)<br><br>With the collimated beam at normal incidence to a plate on one side, we placed a plane first-surface mirror on the other side. This mirror was oriented 45 degrees from the plate. We chose a 10 cm distance between plate and mirror along beam central axis of the beam for no particular reason, and it seemed to work well. So now the beam passing through the plate is reflected 90 degrees, running parallel to the plate surface.<br><br>Then we intercepted the reflected beam with another plane first-surface mirror set at an angle from the first mirror, so that the second-reflected beam passes back through the plate, overlapping the incident beam. To achieve this overlap, the distance separating the two mirrors depends on the angle between the two mirrors. For our setup, we varied the angle between mirrors across the range 55 - 85 degrees, where mirror separation decreases as the angle between mirrors increases.<br><br>So in the setup we kept beam, plate position, and first mirror position always the same and we varied angle (and corresponding separation) of the second mirror. Subsequent measurements of diffraction from the gratings allowed us to deduce each grating’s characteristic lines/mm. We found a nice linear relation between lines/mm and angle between mirrors. This allowed us to set angles to produce standard gratings, I.e. 600 lines/mm and 1200 lines/mm.<br><br>The gratings behaved pretty much like normal gratings, even exhibiting a blaze angle where one first order spot was brighter than the other. It was pretty clear the gratings had maximum efficiency in the green region of the rainbow… not surprising since we were using green laser light to make them.<br><br>One issue we came across in the experimental setup is what to do with the reflected beam that passes through the plate. And another issue was that some of the reflected beam hitting the plate is reflected back into the mirror setup. Quite fun figuring out how to divert those beams, because their directions change with every change in angle between the mirrors. The major errors and uncertainties in the setup and in measuring the diffraction patterns arose from positioning everything by hand and not having precision angle measurements. Typically we might be off by one degree in the angle between mirrors and we had an uncertainty of half a degree in in diffraction pattern measurements. This could be improved, but again this is a &quot;proof of principle&quot; project. <br><br>So… if another student decides they want to work on this… next up is to try making gratings using different laser wavelength.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Nov 14, 2016 3:25 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">If your source is on one side of the plate, and the mirror are on the other side, you&#x27;ve got a reflection geometry, not a transmission one. You were making Bragg planes, not transmission gratings, ie Bragg diffraction, not Raman Nath diffraction. The diifraction equation {lambda = d<em>sin(theta)} is not valid fror a Bragg, reflection setup, you need to use Kogelnik. The reason you got a transmission, on-axis (normal incidence) grating, is because the interfering beams were the normal incident beam, and a beam reflected off the front side from the back mirror(s), to the back side, and back to the front side again.In other words, following the beam path, the beam enters from the rear of the plate, hits the back of the front side, then reflects to the rear, and back to the front. In effect you got two gratings: the transmission (Raman nath) grating due to the multiple reflections inside the glass, and the reflection (Bragg) grating due to the beams entering from either side of the plate.<br><br>&gt; <strong>Brian:</strong> even exhibiting a blaze angle where one first order spot was brighter than the other.<br><br>This was probably the Bragg diffraction, which would have been brighter.<br><br>&gt; <strong>Brian:</strong> The major errors and uncertainties in the setup and in measuring the diffraction patterns arose from positioning everything by hand and not having precision angle measurements.<br><br>This may be a little overkill, if you&#x27;re just playing around, but, when we want to measure angles down to less than +/- 1 deg, we first remove the mirror, and note the position of the spot , say on a wall or a card, at quite a distance away (exactly how far depends on the accuracy of the angle desired). Call this &quot;spot 1&quot;. Then replace the mirror and allow the spot to hit a distant point also. Call this &quot;spot 2&quot;. Measure, the three legs (mirror-spot 1, mirror-spot 2 spot 1 - spot 2). Now it&#x27;s just the cos rule. The longer these distances are, then, of course, the better the accuracy. <br><br>If you want a transmission, single beam geometry, diverge the beam from a single source point, ie an objective/pinhole. Place the pinhole on-axis to the plate, ie make the plate normal to the central axis of the beam. Allow the beam to diverge quite a lot. In other words, if the Liti plate size is l, and the plate-pinhole distance is d, then the beam divergence should be theta ~/&gt; 6</em>arctan(l/2d). We may now be able to define three regions of the diverging beam: The region actually hitting the plate, and the two regions on either side of the plate. Place a mirror in either region of the (diverging) beam somewhere between the pinhole and the plate (not on the other side of the plate). If you place the pinhole far enough away, the normal beam will be pretty much collimated, and the &quot;spillover&quot; beam hitting the mirror will form the other beam. By placing the mirror at different distances in either region, you&#x27;ll get different spatial frequencies. If you place two mirrors at both regions, at different angles, you get some really interesting effects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Mon Nov 14, 2016 5:03 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> In effect you got two gratings: the transmission (Raman nath) grating due to the multiple reflections inside the glass, and the reflection (Bragg) grating due to the beams entering from either side of the plate.<br><br>This is very helpful for understanding... shame on me for not realizing it was a reflection hologram. I will read up on the Kogelnik coupled wave theory.<br><br>And the angle info is useful. <br><br>&gt; <strong>Din:</strong> If you want a transmission, single beam geometry, diverge the beam from a single source point, ie an objective/pinhole. Place the pinhole on-axis to the plate, ie make the plate normal to the central axis of the beam. Allow the beam to diverge quite a lot.<br><br>Your description is something we can do. Just want to verify the orientation, the plane containing the mirror is perpendicular to the plane of the plate. <br><br>The only issue I see is... if the beam diverges quite a lot, and the plate is far away, there is going to be a lot of reflection off the table surface. Even matte black cardboard on the table will reflect some light through the plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Nov 15, 2016 2:47 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Brian:</strong> our description is something we can do. Just want to verify the orientation, the plane containing the mirror is perpendicular to the plane of the plate.<br><br>Yes, or it can be twisted slightly. The point is to re-direct the spillover light onto the plate.<br><br>&gt; <strong>Brian:</strong> The only issue I see is... if the beam diverges quite a lot, and the plate is far away, there is going to be a lot of reflection off the table surface. Even matte black cardboard on the table will reflect some light through the plate.<br><br>Black velvet<br><br>![blackVelvet.jpg](https://holographyforum.org/forum/download/file.php?id=6850)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Tue Nov 15, 2016 6:18 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> Black velvet<br><br>I was afraid you&#x27;d say that. I have some, but it was stored in a hot, humid environment for years and I am afraid to unfold it. Probably should just buy new.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Nov 16, 2016 1:06 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">It&#x27;s apparently called &quot;black knit fabric&quot; and it goes for about 4 or 5 bucks a yard. Cheaper if you dig through the remnant bin.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Thu Nov 17, 2016 11:58 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">I unrolled that old bolt of black velvet. I can cut off the edges that turned brown and it should be fine. With pinhole divergence at least 40 degrees and Liti plates 7.5 cm long, then 35 cm or more separation between pinhole and plate is a reasonable work space. So we&#x27;ll set up and give it a try. Maybe I&#x27;ll have something to report mid-December?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Thu Nov 17, 2016 6:00 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">It worked. Incident beam had a 15 degree divergence, so used 100 cm separation distance. Photo shows zero and first order spots from 532 nm light through the grating.The grating isn&#x27;t very clean; for example, you can see a defect above and slightly right of the zero order spot. But we&#x27;ll track down stray light and get better.<br><br>No second order red spots and I think no second order green spots, so something over 1000 lines/mm.<br><br>![first grating a.jpg](https://holographyforum.org/forum/download/file.php?id=6854)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri Nov 18, 2016 10:06 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Just for fun, a picture of the setup before we put down the black cloth. Objective-pinhole seen in the foreground. At the far right is reflected light from the mirror, showing the shadow outline of the plate.<br><br>![transmission setup a.jpg](https://holographyforum.org/forum/download/file.php?id=6856)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Nov 18, 2016 1:52 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Great! Glad you got results!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Tue Nov 29, 2016 11:49 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks Dinesh! We found the first attempt had ~1400 lines/mm. Lots to explore and improve with this setup, so we&#x27;ll continue with it for the rest of the semester.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Dec 09, 2016 2:42 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I just discovered this thread today, and I wish I had sooner, to help you on get on the right track, but it looks like you were lead in the right direction. Check out the expanded Seven Single Beam Projects page on my web site, featuring the new <em>Seven Single Beam Projects for the Web</em>, [http://edweslystudio.com/Pedagogy/7SBP/ ... e7SBP.html](http://edweslystudio.com/Pedagogy/7SBP/ListFrame7SBP.html), with the Bonus #1: Gratings being particularly pertinent to this topic. [http://edweslystudio.com/Pedagogy/7SBP/ ... ectB1.html](http://edweslystudio.com/Pedagogy/7SBP/7SBPWeb/B1Gratings/ProjectB1.html)<br><br>This is a Beta version, adding to it irregularly, maybe I&#x27;ll complete it before I kick the bucket!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Fri Dec 16, 2016 11:12 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Ed, I&#x27;m pretty sure the spectral lamp is krypton. Like 99% sure. The only thing preventing me from being 100% sure is that no sane person would use krypton for a discrete line demonstration.<br><br>After making a few, we gave up on the large divergence gratings. Setting the plate so far from the divergence point, there was way too much scattered light from all kinds of directions. So the gratings tended to have very Interesting looking but useless dark bands swirling through them.<br><br>Another difficulty with diverging beam transmission to produce the grating is that the mirror can be placed at multiple positions in two dimensional space to produce the same (central) angle incident onto the plate. Really a job trying to figure out the best balance of intensity and plate coverage. So this problem was sort of over-subscribed, with two spatial range variables to determine one final domain result.<br><br>So we went back to the collimated beam, a nice one inch circle where we could divert all the unwanted reflections away. And we didn&#x27;t have to black the edge of the two inch wide plate.<br><br>We added another mirror to make gratings via transmission hologram (with our traditional &quot;pulling off the protective coating&quot; ceremony that accompanies the unveiling of a new first surface mirror)... first mirror behind the plate reflects the beam 90 degrees, second mirror off to the side reflects the beam another 90 degrees, so that it is parallel to the incident beam and traveling in the opposite direction (not through the plate). Then a third mirror positioned along the line of the parallel beam reflects it back on the plate from the incident side to produce the grating. With our 1 degree precisions in measuring third mirror angle and subsequent measure of first order light dispersion, we could make gratings from 300 - 1600 lines/mm with an uncertainty of +/- 25 lines/mm.<br><br>I totally expected the lines per mm to be proportional to the angle of incidence of the second beam, but it was not. A plot of six test plates&#x27; lines/mm vs 3rd mirror angle (which translates to Incident angle) was best fit by a shallow quadratic (parabola) curve. We set up to test the widest discrepancy between quadratic and linear fits, an angle that the quadratic curve predicted 300 lines/mm, while the linear fit predicted 350 lines/mm (not much beyond our uncertainty!) and proceeded to create three 300 lines/mm gratings in a row. They make nice holiday gifts!</div>
+        </div>
+
+    <div class="thread-nav"><a href="8743.html" class="prev-thread">← Integraf Diode Vs Generic Laser diode</a><a href="Equipment.html">↑ Equipment</a><a href="8599.html" class="next-thread">Pre Recorded Holographic Video Projection →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="8092.html" class="card">
+                <h3>Diffraction gratings</h3>
+                <div class="card-meta">Beginning Holography · 18 posts</div>
+            </a>
+            <a href="8827.html" class="card">
+                <h3>Polarization dependence of gratings</h3>
+                <div class="card-meta">Optics · 16 posts</div>
+            </a>
+            <a href="971.html" class="card">
+                <h3>Diffraction efficiency of Lippmann Plates</h3>
+                <div class="card-meta">Techniques · 42 posts</div>
+            </a>
+            <a href="7432.html" class="card">
+                <h3>Holographic gratings</h3>
+                <div class="card-meta">Gallery · 19 posts</div>
+            </a>
+            <a href="6588.html" class="card">
+                <h3>diffraction efficiency double-header</h3>
+                <div class="card-meta">Beginning Holography · 9 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

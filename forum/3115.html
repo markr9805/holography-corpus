@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying to figure out exposure formulae — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3119.html" class="prev-thread">← Looking for a copy of a paper</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3111.html" class="next-thread">New Holotalk! →</a></div>
+    <h1>Trying to figure out exposure formulae</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>13</td></tr>
+        <tr><td>Views</td><td>2,793</td></tr>
+        <tr><td>Started</td><td>Thu Feb 10, 2005 5:08 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/grey.html">Grey</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/edelbrp.html">edelbrp</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/johnfp.html">JohnFP</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3115" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grey</span>
+                <span class="post-date">Thu Feb 10, 2005 5:08 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">OK... I always see stuff like &quot;.5 mJ/cm2&quot; and such, and I want to see if I understand this exposure thing correctly....<br><br>Say I have a 5x10 cm plate with the above exposure listing for reflection holography (.5mJ/cm2 for a 660 nm beam), and assume a Denisyuk geometry. My thinking is that, with the beam diverged to cover the plate (50 sq cm), it would take a 25 mW laser 1 second (Watts being Joules per second according to Google) for the proper exposure (.5x50cm2)? <br><br>And a 5 mW pointer would require 5 seconds?<br><br>Am I getting this right?<br><br>I&#x27;ve never had a stitch of electrical experience, let alone anything technical like this... so I apologize in advance for my ignorance.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Feb 10, 2005 6:51 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Yes, and no. You have the right idea but I think you forget it takes two beamns to make a hologram.<br><br>Power is the amount of energy transferred per second. Power is measured in Watts and energy is measured in Joules. To expose the plate, you need to give the plate, or more precisely, all the silver halide grains in the emulsion, a certain amount of energy which they need to carry out the photographic process. By giving them so many watts (power) you&#x27;re throwing so much energy (Joules) at the emulsion so that the energy builds up till they have enough. In your example, the film manufacturer has created an emulsion that requires 0.5 mJ/sq cm of energy. The 25 mW HeNe is throwing out 25 mJ of energy every second on each sq cm. Thus the 25 mW HeNe, when expanded, is throwing out 0.5 mJ of energy per second per sq cm on the 50 sq cm plate In order to absorb 0.5 mJ, each sq cm has to be exposed for 1 second. <br><br>However, the exposure is made a little more complicated by the fact that there are two beams, the beam itself is Gaussian and the plate may be old. The total of 0.5 mJ/sq comes from both beams. So if you throw 0.5 mW/sq cm on the plate, this is recorded as the reference beam and the the object beam. If the beam ratio is 1:1 (ideal) then the plate &quot;sees&quot; 0.5 as the object and 0.5 as the reference, thus giving the plate 1.0 mW/sq cm and halving your exposure. More complicated still is the fact the the entire object is not uniformly reflective, some parts of the object may not be throwing 0.5 mW/sq cm on the plate but off it You need to ensure that the most highly reflective part of the object is coincident with the center of the plate, where the most intense part of the reference is.<br><br>The gaussian nature of the beam means that the edges of the beam are at a lower power than 0.5 mW/sq cm. Usually the inner third of the beam is at this power with power dropping off as you go out to the edges of the beam. Thus the inner third of the beam may need a second, but the outer edges will need more. If you create 3 zones of the plate then, very roughly, you double for the &quot;second&quot; third and quadruple for the &quot;outer&quot; third.<br><br>The sensitivity of the plate degenerates with age, temperature etc. The factory spec of 0.5 mW/cm needs to be taken wih a pinch of salt. It can vary a great deal. In the old Agfa days, 8E75 was rated as 25 microwatts/sq cm but it behaved more like 50 or even 75. Today, Slavich PFG-01 seems to be about 150 microW/sq cm while I get best results at about 1 mW for VRP (but remember the affect of ratio - this is very important)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grey</span>
+                <span class="post-date">Thu Feb 10, 2005 7:17 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> More complicated still is the fact the the entire object is not uniformly reflective, some parts of the object may not be throwing 0.5 mW/sq cm on the plate but off it You need to ensure that the most highly reflective part of the object is coincident with the center of the plate, where the most intense part of the reference is.The gaussian nature of the beam means that the edges of the beam are at a lower power than 0.5 mW/sq cm. Usually the inner third of the beam is at this power with power dropping off as you go out to the edges of the beam. Thus the inner third of the beam may need a second, but the outer edges will need more. If you create 3 zones of the plate then, very roughly, you double for the &quot;second&quot; third and quadruple for the &quot;outer&quot; third.The sensitivity of the plate degenerates with age, temperature etc. The factory spec of 0.5 mW/cm needs to be taken wih a pinch of salt. It can vary a great deal. In the old Agfa days, 8E75 was rated as 25 microwatts/sq cm but it behaved more like 50 or even 75. Today, Slavich PFG-01 seems to be about 150 microW/sq cm while I get best results at about 1 mW for VRP (but remember the affect of ratio - this is very important)<br><br>Does this mean that you guys are carding off entire sections of the plate to get equal exposure?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">edelbrp</span>
+                <span class="post-date">Thu Feb 10, 2005 8:50 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Grey:</strong> Does this mean that you guys are carding off entire sections of the plate to get equal exposure?<br><br>No, but it can probably help to choose a good scene composition and proper light ratios. (Which I think is what Dinesh is saying) And to remember that there&#x27;s light bouncing back from the objects, which is also adding to the exposure.<br><br>I don&#x27;t think you have to get overly picky about the exposure. I did some tests varying exposures from 30 seconds to 3 minutes, and I found very little difference between them. It showed me that I needed to pay more attention to stability and chemical processing. At least for a newbie like me who&#x27;s still grasping the basics! ;&#x27;)<br><br>-Phil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Feb 11, 2005 7:24 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I have to admit I never calculate exposure times in energy. If I want more power I double the time if I want less I cut the time in half. I tend to over expose and underdevelop compared to most people here. But, it is really more of a feel thing. Watching the plate in the developer I get a sense of how things are working. I did not realize how important this experience was until I was working with a group of students and noticed that I was getting brighter results using a chemistry that was foreign to me. I noticed that I was not using the prescribed times but watching the plate to see what was happening. My experience paid off and I was getting much brighter holograms that most of the students that were following the outlined times more carefully.<br><br>All this being said I don&#x27;t get results nearly as bright as some others here. Many here have given me holograms brighter than my work as well as much valued advice!<br><br>Right now I think the recipie for brightness is BB640, stability, an active developer and a dichromate bleach. I&#x27;ll change my mind in a day or two. Exposure time within a factor of two is pretty easy to hit by trial and error.<br><br>I am by no means the expert here what do other people think?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Feb 11, 2005 8:06 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Grey:</strong> OK... I always see stuff like &quot;.5 mJ/cm2&quot; and such, and I want to see if I understand this exposure thing correctly.......<br><br>Hi Grey,<br><br>I think without (at least approximately) measuring the illumination (or figuring it out by trial and error) it is pretty hard to obtain the optimum. In practice there are losses in lenses and mirrors and uncertainties in the actual laser power, which are difficult to estimate beforehand (see footnote for a side remark). Also, evennes of plate illumination is very hard to gauge by eye, one really should measure it.<br><br>As for determining the exposure, see:<br><br>[http://perso.wanadoo.fr/redlum.xohp/hol ... sures.html](http://perso.wanadoo.fr/redlum.xohp/holography/exposures.html) <br><br>In my experience those exposure curves are so accurate that<br><br>I get proper illumination already in the first shot.<br><br>I got a few spare photo sensors around, and if you like I could<br><br>send one to you, that may make things very easy.<br><br>Footnote/side remark: recently I made some effort in accurately (ratiometrically) measuring optical densities and losses of optical components. Surprising was that some things like beam splitters, had enormous losses. Like my (until that date) preferred cube beam splitter had more than 60% loss (ie comparing the sum of the two outputs with the input). Another cube had 25% loss, and same for a metallic coated beam splitter. Alu mirrors sometimes had 15-20% loss. Dielectric splitters and mirrors had close to 0% loss, on the other hand. <br><br>Moral is: after the beam has passed a few mirrors and splitters and (perhaps uncoated) lenses, one typically gets only a small fraction of the original laser power to the plate !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Feb 11, 2005 2:42 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">If I have the luxury of a calibrated light meter that reads out directly the incident flux in micro- or milli- Watts per square centimeter, exposure calibration and calculation is a snap! For instance, my own personal exposure value for PFG-01 is 200 microJoules per square centimeter, found by trial and error.<br><br>A Joule (after James Prescott Joule, who investigated the mechanical equivalent of heat) equals one Watt -second. A one watt light bulb on for one second emits one Joule of energy. (Energy = power <em> time, notice that this is multiplication, not division like in miles/hour!) A one Joule JK Ruby laser would deliver enough photons in its 20 nanosecond Q-switched pulse to do a full human figure.<br><br>As to be expected, there are 1000 milliJoules in a Joule, and 1,000,000 microJoules in a full Joule.<br><br>So I put the light meter probe, hopefully a detector one square centimeter in area, right on a dummy plate in the holder. I measure how much light is really hitting the plate, with the detector parallel to the plate. If I were to measure something like 50 microwatts per square centimeter at the film plane, I would simply divide that into my exposure dose to get the exposure time. <br><br>200 microWatts </em> seconds per centimeter squared<br><br> 50 microWatts per centimeter squared<br><br> = 4 seconds exposure time<br><br>Notice that the units are all written out like you should have been doing in word problems in science classes, but you can see how everything cancels out except the seconds, which is what we are looking for.<br><br>My exposure values for these materials were determined by trial and error, using methods described in some of my classroom handouts (available upon e-mail request to anyone interested). <br><br>At the time I did these, I had access to a calibrated meter. But a CdS cell or silicon cell hooked up to a VOM would work just as well, correlating the observed resistance or voltage with successful exposure times and then being able to extrapolate to other situations. <br><br>But I usually use the readings as a starting point for a test exposure series anyway, found by placing 4 expo&#x27;s on one plate, bracketing the calculated time by 1/2 stops either way, and developing for a certain fixed time. The brightest exposure with the most tolerable noise can always be found this way.<br><br>You can&#x27;t trust the manufacturer&#x27;s numbers, because they want the material to appear faster. The old Agfa numbers would work to get a slight density barely viewable image in an unbleached plate, but for bleaching processing schemes you need heck of a lot more. Nowadays the manufacturers recommend a processing scheme with bleaching, so they are a lot closer<br><br>Don&#x27;t fall into the trap of pointing the light meter detector directly at the reference beam. The holo plate is not pointed in that direction, so it&#x27;s not getting the full force of the light. The intensity of the light is attenuated by the sine of the incident angle, so the detector needs to be at that same angle as the reference beam.<br><br>Developing to a certain density can work, but may be inconsistent. I do have a nice densitometer, X-Rite Model 331. If anyone would like to send me samples they would like measured, send them to me with a self-addressed stamped return envelope and I would be glad to help for free.<br><br>MicroJoules per square centimeter is a mouthful, so I propose that we replace those nine syllables with the acronym ED, for Exposure Dosage! Then PFG-01 would need 200 EDs!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Feb 11, 2005 3:37 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">[quote:cf6300336f=&quot;Ed Wesly&quot;]...so I propose that we replace those nine syllables with the acronym ED, for Exposure Dosage! Then PFG-01 would need 200 EDs![/quote:cf6300336f]<br><br>Thus creating an eponymous unit, eh Ed? <br><br>Actually, I must admit I don&#x27;t really calculate exposure either. There are too many factors that can throw off a calculated exposure such as the ones I mentioned, ratio, Gaussian fall-off and true sensitivity of the plate. In addition, something nobody&#x27;s mentioned yet, is polarisation. This is a sort of counteracting problem. Ideally both the reference and object should be the same polarisation. However, when the incoming light bounces off the object the polarisation will maintain if the object is metallic or very shiny but these are the worst objects to shoot as a Denisyuk. The light reflects off to one side off the plate and very little hits the back of the plate. The best results are obtained with diffuse objects (spray paint with flat white) which depolarise the most.<br><br>When making Denisyuks, I use a cross of Edelbrp&#x27;s method and Colin&#x27;s method. I first ensure that the object is so lit that the reflected light coincides with the reference. To do this I look at the lit object from the other side , the perspective of the reference along the direction of the reference, and what I see is what the reference sees. If the object is bright at this viewpoint, it&#x27;s OK. Usually I expand the beam so that the center of the Gaussain covers the whole, or most of, the plate. Then I measure the reference and cut it by about 30% - 50% to to take account of the fact that there&#x27;s refelection off the first surface, as Ed explained, and the object beam is depolarised. I then calculate an exposure based on these and the fact that the film is probably less sensitive than the manufacturer (trial and error, I&#x27;m afraid. I&#x27;ve found VRP is about 1 mJ/sq cm and PFG-01 is about 150 microJ/sq cm). I shoot at this exposure and judge by the way it comes up in the developer. In my case, using VRP and CWC2 with PBU Metol, I&#x27;m looking for about 80% - 90% dark in about two and a half minutes. If it goes dark too soon (less than 2 minutes) I&#x27;ve overexposed and conversely, too long (&gt;4 mins) is underexposure. Obviously with your film and developer, you need to find these numbers. An easier way may be to do exposure tests. Mask off diferent sectors of the film and expose each sector by a factor of 1.5 longer (10 secs, 15 secs etc ). The develop the entire film and see how dark the various sectors get. You&#x27;re looking for about 80% - 90% (a 20W safelight bulb will look like a dim christmas tree light through the plate in a darkroom) dark in about 2 to 3 min.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grey</span>
+                <span class="post-date">Thu Feb 17, 2005 4:56 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Thanks guys... although I&#x27;m more confused now than before I asked <br><br>I guess I&#x27;m just going to have to get used to the idea of wasting a lot of money on plates until I get a &#x27;feel&#x27; for this. <br><br>I was just hoping that someone would say &quot;just aim it here for 10 seconds, badda-bing badda-bang, you got yourself a hologram...&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Feb 17, 2005 5:14 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Grey, I bet if you asked specifically and gave specifics you could get your badda bing.<br><br>In other word, state exactly what power your laser is putting out. What size plate you want to do. What developer and bleach you have and I bet some here may be able to tell you how large to expand your beam and what exposure time you could use.<br><br>Also, you could do test strips to keep plate usage down to a minimum. Start with a near calculation and do a couple shorter and a couple longer exposures right on the same plate using some black card stock to make strips for each exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Feb 17, 2005 6:07 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Grey<br><br>Send me your e-mail address and I will send you some classroom handouts and Holographic Consumer reports that outline the procedures for calibrating your equipment so that you don&#x27;t have to waste any more plates! But you do need to get some sort of light meter or photo-sensitive cell and take good notes! (Notes available to anyone who sends me their e-address!)<br><br>BTW, have you ever made photographic prints? The same sort of testing is what you need to do for hologrpaphy.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Feb 17, 2005 7:21 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">[quote:971c91b5b8=&quot;Grey&quot;]&quot;just aim it here for 10 seconds, badda-bing badda-bang, you got yourself a hologram...&quot;[/quote:971c91b5b8]<br><br>OK, with slight variations:<br><br>1. Just set up your beam ratio. For a Denisyuk, that&#x27;s about 1:1 so paint your object flat white and try to make sure that the reflected light from the object hits the plate<br><br>2. Aim the light meter at the reference. One good, easy way is to get the retroreflection from the meter back down the reference path.<br><br>3. Take a reading. If possible take several readings by moving the meter around the plateholder and average them.<br><br>4. Let&#x27;s assume your reading is R. Say, for sake of argument it&#x27;s 12 microwatts/sq cm.<br><br>5. Note the sensitivity of your plate. Say for sake of argument it&#x27;s 150 microjoules/sq cm. This is usually given in manufacturer&#x27;s site. <br><br>6. Divide the plate sensitivity by the meter reading. In our example 150/12 = 12.5.<br><br>7. Add &quot;fudge factor&quot; of approx 25%. (This is the &quot;feel&quot; part. Usually you&#x27;ll get it in a plate or two.) and expose for 15 secs.<br><br>8. If it develops too quickly (&lt;1 min), cut exposure. If it develops too slowly (&gt;4 mins) increase exposure.<br><br>9. Look at hologram. Marvel over fact that all the technical bloo-ha-ha is basically unnecesary. You don&#x27;t need differential calculus or a PhD (unless you&#x27;re making HUDs or HOEs- but that&#x27;s another story )<br><br>A few tips:<br><br>Already mentioned, be sure that the object is throwing light back at the reverse of the plate<br><br>Use film sandwiched in glass for exposure tests. Film is cheap and you can cut it into 1&quot; x 1&quot; squares just for tests.<br><br>You can make a cheap easy meter with Radio Shack parts. Several members of forum have posted methods. Just be sure to calibrate it. One way is to expand your laser beam to about 1 sq cm, or a circle of about 1/4&quot; or 1/2 cm, take a reading and note that the actual power is whatever your laser is, ie 25mW for a 25mW laser. So, if you aim your meter at this 1/4&quot; circle of a 25mW laser light and it says 0.5, then multiply all meter readings by 5 to get actual beam power.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grey</span>
+                <span class="post-date">Sun Feb 20, 2005 4:27 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Actually, its starting to make sense now. Thanks so much for the replies...<br><br>Ed, I&#x27;d love to see those papers. I&#x27;ll send you my email.<br><br>Dinesh, you always amaze me in the range of your posts. Sometimes you sound like you could teach Einstein a thing or two, and then one post later, you can bring it all down to the level of a dork like me <br><br>Thanks again, everyone.</div>
+        </div>
+
+    <div class="thread-nav"><a href="3119.html" class="prev-thread">← Looking for a copy of a paper</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3111.html" class="next-thread">New Holotalk! →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11451.html" class="card">
+                <h3>In an image plane hologram, why does the front part of the hologram stick out from the plate?</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a>
+            <a href="11449.html" class="card">
+                <h3>Is there a name for holograms where the image sticks out from the plate?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11379.html" class="card">
+                <h3>Exposure</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11287.html" class="card">
+                <h3>&quot;dry&quot; methods of increasing sensitivity without more exposure</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 1 posts</div>
+            </a>
+            <a href="11042.html" class="card">
+                <h3>Probability of print out as a function of grain radius</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some questions about panchromacity — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="215.html" class="prev-thread">← A helpful tip</a><a href="AgX.html">↑ AgX - Silver Halide Emulsions</a><a href="183.html" class="next-thread">archiving silver halide →</a></div>
+    <h1>Some questions about panchromacity</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="AgX.html">AgX - Silver Halide Emulsions</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>6,776</td></tr>
+        <tr><td>Started</td><td>Sun Mar 13, 2011 11:02 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/justin-w.html">Justin W</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/martin.html">Martin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=190" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Sun Mar 13, 2011 11:02 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello all!<br><br>I recently was wondering (unfortunately over in Beginning Holography instead of here in AgX) about adding dyes to commercial film in order to widen its spectral sensitivity.<br><br>What I learned is that it is quite possible to infuse a green-sensitive film such as VRP-M with blue dye in order to make it red-sensitive as well. To my limited understanding, green films such as VRP-M are (in their stock configuration) able to transfer the energy from green (and some blue) light into the silver molecules because they are previously infused with red dye.<br><br>Sounds to me like - and please please correct me if I&#x27;m wrong - I&#x27;m gonna wind up with a purple-tinted film.<br><br>Now let me track off the plot for just a moment to explain my blue laser dilemma: In my full-color plan that I have laid out, the idea is (was) to use red laser light, green laser light and blue laser light to additively recreate colors. A red laser I can buy. Green I already own.<br><br>But blue... That pesky blue... In order for my RGB plan to work accurately, I need to be lasing with a blue that is as close to what my computer calls blue as possible. That looks to be right around 445 or 450nm. A real deep blue. Blue blue.<br><br>Unfortunately deep blue doesn&#x27;t seem to be a wavelength that good holography lasers are available in. The closest I can find is 488nm. That&#x27;s sorta turquoise. It might work a little but everything&#x27;s gonna wind up shifted with no recourse later.<br><br>Then a buddy suggested a really cool creative solution: Why not shoot my blue channel in both 407nm and 488nm? Equal exposures of both should put me right about square where I want to be (447.5nm by my math)...<br><br>Everything seems kosher as far as burning at the 488nm, as that is advertised to be naturally within the spectral sensitivity of VRP-M.<br><br>But! In order to get this film into a red-sensitive state, it seems I&#x27;ve tinted it purple...<br><br>Will this purple-tinted film reject the 407nm light?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Mar 14, 2011 12:19 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Justin W:</strong> Why not shoot my blue channel in both 407nm and 488nm? Equal exposures of both should put me right about square where I want to be (447.5nm by my math)...<br><br>No. This is not a linear additive system. You can&#x27;t expose two wavelengths and expect to see the average of the two colours. It depends on the strength of the fringes, ie the efficiency at the given wavelength, and the number of the fringes at the specified wavelength. It also depends on your photopic curve (or scotopic, if you&#x27;re looking at the hologram under low light conditions). It also depends on swell rates, which will vary for the different spatial frequencies. <br><br>Let&#x27;s say that you shoot the hologram at 407 on an emulsion that 8 microns thick. Assuming that you&#x27;re shooting head-on (let&#x27;s keep things simple for now!) the fringe width is lambda/2n. Let&#x27;s keep things really simple and ignore n (I&#x27;ll wait till the purists stop shaking!). This means the width is 407/2 = 203.5 nm, which gives roughly 40 fringes. If the efficiency/fringe is eta, then the efficiency of the 407 fringes is 40<em>(eta). Now you shoot at 488. This, by the same argument, gives you 32 fringes and, at the same efficiency, gives you 32</em>(eta). It won&#x27;t actually be the same efficiency due to the sinusoidal nature of the fringes, but we&#x27;re continuing with the KISS philosophy for the this line of argument here. So, already there&#x27;s a 20% reduction in efficiency for the 488 line. The photopic curve (eye efficiency) shows a marked difference between 405 and 488, so without going into too much detail, your eye has almost zilch sensitivity at 407 and so the 488 will appear much brighter than the 407, so the colour your eye sees will shift markedly towards the 488 and appear turquoise -ish. This is not true under dark conditions, because your eye does have some scotopic efficiency at 407. Under dark conditions, the turquoise will shift toward the blue a little. <br><br>The swell rate will also shift both the 407 and the 488, but by different amounts. Because the 488 has &quot;more jelly&quot; between the fringes than the 407, it will absorb more and hence swell more. This will also affect the bandwidth, the spread over the wavelengths. Therefore I expect the 488 to be more broadband than the 407. Since your eye sees a broader band as brighter, this will shift the colour even more to torquoise. <br><br>Also, another factor is the ability of the material to take the fringes. Here ( [http://www.integraf.com/Downloads/VRP.pdf](http://www.integraf.com/Downloads/VRP.pdf) ) is the sensitivity curves for VRP. Ignore the actual units (the scale is a little inaccurate), but notice that the sensitivity of the 488 is over an order of magnitude lower than at 405 (note that it&#x27;s a log scale). This means that power-for-power, you need to expose some 10 times as much at 488 than at 407 for the same efficiency. Also the 407 will scatter as it progresses through the emulsion more than the 488, by the inverse 4th power, so I doubt you&#x27;ll get 407 fringes all the way through the emulsion. <br><br>On top of all this, is the actual wavelengths in your reconstruction source. Most reconstruction sources probably will not have a lot of 407 in them, thus reducing the output of the 407 fringes even more. <br><br>&gt; <strong>Justin W:</strong> Will this purple-tinted film reject the 407nm light?<br><br>Depends on the bandwidth and central frequency of the purple. &quot;Purple&quot; can be anything from 400 to 450-ish. So, if your purple starts at 420, peaks at 430 and drops down to 440, the dye will neither see the 407 nor the 488. Since 407 is pretty close to UV, whatever the purple, the effects mentioned above will probably swamp the effect due to absorption in the dye anyway. <br><br>For what it&#x27;s worth, this was shot at 457, 514 and 633:<br><br>![bus stop.jpg](https://holographyforum.org/forum/download/file.php?id=1889)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Tue Mar 15, 2011 4:26 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Also, another factor is the ability of the material to take the fringes. Here (http://www.integraf.com/Downloads/VRP.pdf) is the sensitivity curves for VRP. Ignore the actual units (the scale is a little inaccurate), but notice that the sensitivity of the 488 is over an order of magnitude lower than at 405 (note that it&#x27;s a log scale). This means that power-for-power, you need to expose some 10 times as much at 488 than at 407 for the same efficiency. Also the 407 will scatter as it progresses through the emulsion more than the 488, by the inverse 4th power, so I doubt you&#x27;ll get 407 fringes all the way through the emulsion.<br><br>Quite right. At 405nm I guess you&#x27;d need a grain size below 20nm, which limits the range of commercial emulsions. 8E75, PFG-01 (VRP most likely) for example become virtually opaque to such short wavelengths.<br><br>I also made some attempts with home made AgX emulsions. Struggling with the mode hopping issue, I was all the same able to record some reflection holograms on raw AgX emulsions (without any spectral sensitizer). However, I wasn&#x27;t terribly impressed by the speed of these emulsions. In regard to speed, the AgX materials did not perform dramatically better than FEG and, to some extent, DCG, at that wavelength.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 15, 2011 11:59 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Martin:</strong> At 405nm I guess you&#x27;d need a grain size below 20nm<br><br>Actually, I&#x27;m curious what the actual capture cross section is.<br><br>I did a quick search and found these:<br><br>[http://www.springerlink.com/content/u8g48h430567t121/](http://www.springerlink.com/content/u8g48h430567t121/)<br><br>[http://rmp.aps.org/abstract/RMP/v23/i4/p328_1](http://rmp.aps.org/abstract/RMP/v23/i4/p328_1)<br><br>Neither of them give any indication that anyone has actually calculated the capture cross section of AgX to light, as opposed to the electron transition probabilities, but both these papers indicate that the addition of traps within the grain might enhance the sensitivity of AgX. This made me wonder if it&#x27;s possible to create a photonic crystal by altering the constituents of AgX?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Wed Mar 16, 2011 1:33 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Neither of them give any indication that anyone has actually calculated the capture cross section of AgX to light, as opposed to the electron transition probabilities, but both these papers indicate that the addition of traps within the grain might enhance the sensitivity of AgX. This made me wonder if it&#x27;s possible to create a photonic crystal by altering the constituents of AgX?<br><br>Forming mixed crystals like AgBr/AgI or do you mean adding metal dopants to the AgX crystals?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Mar 16, 2011 10:20 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Martin:</strong> do you mean adding metal dopants to the AgX crystals?<br><br>Yes, metal dopants. It&#x27;s probably a pretty crazy idea, but the paper about adding gold to create traps kind of suggests semiconductors, which in turn suggests photonic crystals.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Thu Mar 17, 2011 12:54 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Yes, metal dopants. It&#x27;s probably a pretty crazy idea<br><br>Not really, since this has been done for a while in the context of photographic AgX emulsions.<br><br>Metals like Iron, ruthenium, rhodium. gold, palladium, osmium, iridium etc., as well as nasties like cadmium and mercury have been used.<br><br>Some of them undoubtedly have been added to holographic AgX materials in order to enhance speed, to prevent latent image fading or low-intensity reciprocity failure.<br><br>The main difficulty with these ingredients though seems to determine the exact quantities of dopants for AgX nanocrystals. That might involve pretty extensive testing.<br><br>I made a few attempts with gold sensitization but run into problems with fogged emulsions.</div>
+        </div>
+
+    <div class="thread-nav"><a href="215.html" class="prev-thread">← A helpful tip</a><a href="AgX.html">↑ AgX - Silver Halide Emulsions</a><a href="183.html" class="next-thread">archiving silver halide →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="358.html" class="card">
+                <h3>Some newbie questions about DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 24 posts</div>
+            </a>
+            <a href="10927.html" class="card">
+                <h3>Questions about Osram PB530 laser</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="9662.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="9661.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="786.html" class="card">
+                <h3>Questions about two color holography</h3>
+                <div class="card-meta">Equipment · 45 posts</div>
+            </a>
+            <a href="692.html" class="card">
+                <h3>Self-introduction and some questions</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

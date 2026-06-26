@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse energy versus efficiency — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5685.html" class="prev-thread">← Holography Labs</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5680.html" class="next-thread">holos turning dark in sun. →</a></div>
+    <h1>Pulse energy versus efficiency</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>29</td></tr>
+        <tr><td>Views</td><td>23,406</td></tr>
+        <tr><td>Started</td><td>Wed Jul 12, 2006 10:29 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/ron-michael.html">Ron Michael</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ron-olson.html">ron olson</a> · <a href="../authors/doug694.html">doug694</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5686" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Jul 12, 2006 10:29 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Now that I have mastered the MBDCG process and created a very stable 50mW diode laser without mode hops, I feel the pulse bug itching all over... (I am working on drawings of the 50mW laser for posting on the wiki right now)<br><br>I wanna build a pulsed laser. I have bought the Koechner book, and I have done the whole LEOT tutorial and studied SAM&#x27;s laser FAQ. I also read the book from [http://americanlasertechnic.com/pulsebook.htm](http://americanlasertechnic.com/pulsebook.htm). I have just received the Koechner book, and have not had a chance to study it thoroughly yet.<br><br>Before I jump into one of my hobby buying crazes, please allow me to to ask a few questions.<br><br>1] I understand that about 1J should be the value to aim for when doing pulsed portrais. Is this correct?<br><br>2] Are your findings also that the efficiency of a nd:YAG rod is about 0.1%? In that case, how much light could I safely pump into a 4x50mm crystal?<br><br>3] How much percent of the pump light will be amplified in a second stage?<br><br>4] Will several stages with 4x50mm crystals be enough? Or do I need bigger crystals?<br><br>5] Can I use a chemical Q-switch? Aligning a rotating Q-switch with an air cooled laser seems a daunting task because of the short fluorescense duration of a Yag crystal.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Jul 12, 2006 10:52 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Han,<br><br>Check out Colin&#x27;s holowiki on mopa. [http://www.holographyforum.org/HoloWiki/index.php/MOPA](http://www.holographyforum.org/HoloWiki/index.php/MOPA)<br><br>Response to your questions:<br><br>1. The output requirement is based on system losses, what size film, energy density requirement of the film for short pulse, oversized illumination fields etc. With certain film, 1 joule is very workable, but also much lower can be used in the right circumstances. <br><br>2. If the light you refer to is not the input beam, but the optical pumping, safety generally refers to heat deposit and thermal stress fractures. That depends on many factors. It certainly is possible to bleach (saturate) the crystal and not cause immediate fracture. But cavity construction, cooling methods, pump rates all play into stress.<br><br>3. Okay now I&#x27;m confused, pump light, did you mean input beam? <br><br>4. It will work but only allow you to achieve a very small energy output. For 1 joule, nd:glass large aperture(3/8 or 1/2 inch) to keep beam energy density down so you don&#x27;t pit your rod ends, burn AR coatings.<br><br>5. Nothing wrong with rotating q switches they work. more of a mechanical wear alignment issue. Cr4+:yag passive q switches are nice but you have limited output energy range with a specific fixed crystal absorption density as compared to liquid dyes concentrations. But the best part is crystal q switches have no maintenance requirements!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Jul 13, 2006 12:20 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; 3] How much percent of the pump light will be amplified in a second stage?3. Okay now I&#x27;m confused, pump light, did you mean input beam?<br><br>I meant the following: <br><br>- Suppose I get 100mJ from the first nd:YAG stage, when I pump it with 100J of xenon flash light.<br><br>- Suppose I pump the second stage (mopa) with the same amount (100J) of xenon light.<br><br>- How many times will the 100mJ that comes from the first stage into the second stage be amplified? Will I get just the double amount, that is 200mJ, or can I expect more power?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jul 13, 2006 1:02 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The power you get is related to the losses of the system, the gain of the medium, the pump rate, the length of the gain medium and the cross section of the rod. It is quite possible to get very large gains in a MOPA. Since the output of the resonator is quite low (about 20mj or so) it takes a good amount of gain to get real power. With 6mm dia 63mm long Nd:YAG I calculated I can get about 300mj of energy from each stage.<br><br>first stage: 20 mj<br><br>second stage: 320mj<br><br>third stage 620mj<br><br>As you can see you only get x amount from a given volume of gain material. In practice you will not extract all of the energy from the second stage unless you pass the beam back through the amplifiers making 4 stages out of the second two stages. This is achieved with polarizing beam splitters and waveplates.<br><br>Amplifier: 20mj<br><br>Isolator<br><br>Beam Splitter<br><br>Second stage: 170 mj<br><br>Third Stage: 450 mj<br><br>1/4 waveplate<br><br>mirror<br><br>Third Stage backwards: 470mj<br><br>Second Stage backwards: 620 mj<br><br>Since all of these extra components are quite expensive the frugal holographer will just add another stage. Ron Olsen has a great idea of replacing the third stage with Nd:Glass. Nd:YAG has very high gain limiting the useful length to about 60mm. (Beyond that the spontaneous emission starts to deplete energy from the rod and contaminate the beam.)<br><br>Nd:Glass on the other hand has a very low gain making it possible to make a amplifier that has Joules of gain in a single stage. Nd:Glass has a very broad florescent line making it unsuitable for a resonator but it works well as an amplifier.<br><br>Ron and Ron is that about correct?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Thu Jul 13, 2006 2:09 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">There are a lot of issues with amplification.<br><br>Here is a few things that come to my mind.<br><br>guess this could be a holowiki entry:<br><br>1. The gain medium&#x27;s emission cross section [http://www.rp-photonics.com/cross_sections.html](http://www.rp-photonics.com/cross_sections.html) relates to the pumping and energy storage leveling off (population inversion level) achieveable. Once gain reaches the physical conditions ripe for ASE, the depopulation increases and the gain levels off. The larger the emission cross section the lower the useful storage to be extracted. This can be modulated by temperature for example, cooling ruby and heating nd:yag will allow more extraction.<br><br>2. input beam energy density and power level also play a role in extraction efficiency and output level. optimum j/cm2 increases extraction which gives higher output.<br><br>3. signal gain is also related to rod length. The more amplifer length the higher the output. Additionally higher gain can be had from many short rods well spaced apart than from one long rod. (ASE related)<br><br>4. small signal gain is exponential compared to larger signals regarding amplification. <br><br>5. amplication of q switch pulses is different. Generally much less output due to optical pump time is much longer than signal time. after the signal all pump energy is wasted.<br><br>Let me demonstrate point 4 and 5: <br><br>Below is a test where the variables like pump time etc were not changed.<br><br>medium is Nd:yag. <br><br>multiple q switch output (9 to 11 pulses) for duration of pump time 140usec:<br><br>19mj oscillator, 488mj output from amps. 25x increase<br><br>single pulse 2/3 time interval of pump time:<br><br>3mj osc, 183mj amp. 61x<br><br>double pulse <br><br>6.5mj osc, 244mj amp. 32x<br><br>In the first case these were multiple 2 mj pulses. <br><br>So for a single pulse only 3mj extracted from the oscillator, most of the energy was wasted. <br><br>in the second case notice &quot;small signal&quot;gain is much higher compared to the third case 61x compared to 32x.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Thu Jul 13, 2006 2:31 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I needed to make myself more clear:<br><br>all pulses were 20nsec in duration<br><br>single pulse 2/3 time interval of pump time meant the pulse arrived around the time of 2/3 of the pump time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jul 13, 2006 10:45 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Ron, I really enjoyed your web site! Lots of good stuff pertaining to pulsed lasers and pulsed holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ron olson</span>
+                <span class="post-date">Thu Jul 13, 2006 7:09 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">To whom amplification may concern:<br><br>The issue with Nd:Glass is not so much gain related as it is medium related. Nd:YAG is a difficult crystal to grow in large boules - the Neodymium atom is replacing a smaller aluminum atom and this doping distorts the crystal making large boules very expensive and of dubious optical qulaity. Nd:Silicate glass (as used for Nd:YAG amplification) is cheap to pour and doping levels of 2-3% result in amplifiers that introduce very few detrimental effects in the beam and fewer losses in the pocketbook. Because the glass has less gain than YAG, the chances for spontaneous emission (and thus gain depletion) are reduced along with the need for anti-reflection rod coatings. Nd:YAG&#x27;s chief attributes are narrow bandwidth (good for SLM oscillators); high gain and good thermal conductivity (good for high average power amplifiers). Keep in mind that what you gain financially in a cheaper glass rod, you pay back in-part with increased demands on the power supply (capacitors are expensive in their own right) but if your goal is to produce a single-shot, high energy beam with the best possible beam quality - I believe Nd:Glass is your best option.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jul 14, 2006 4:59 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Thank you Ron and Ron!<br><br>Here are a couple of acronyms that we all may not be familiar with:<br><br>SLM: Single Longitudinal Mode<br><br>ASE: Amplified Stimulated Emission is when a photon is out of line with the mirrors but is still amplified on it&#x27;s only pass through the resonator and can deplete the stored energy in the resonator.<br><br>(Since I have only been studying pulse lasers for a few months, please correct me if I am wrong or over simplifying.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri Jul 14, 2006 5:06 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Ron,<br><br>You make some good points about Yag and Glass but obtaining higher output is also related to some of my earlier points on laser medium&#x27;s inherent characteristics. Extractable energy is basically Est*area where Est energy storage density in j/cm2. small signal gain is exp(Est/Esat) where Esat is photon energy/emission cross section. So Esat for Yag is 1.82E-19/6.5E-19 or about 0.28 j/cm2. For Q-246 nd:silicate it would be 1.82E-19/2.9E-20 or about 6.28j/cm2 Since gain is related to Est/Esat and if Est is much greater than Esat the high gain causes ASE to become a problem, If Est is much lower than Esat then system losses are a problem. So for efficiency Est closer to Esat is preferred. This means that for a given gain of say 2.718 = exp(est/esat) where est and esat are the same, (I&#x27;m normalizing this) then for nd:yag Est is .28j/cm2 and nd:glass is 6.28j/cm2. Going back to extractable energy given a fixed area of rod size then nd:glass is storing more energy that can be extracted as useful energy. I hope that helps</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Jul 15, 2006 5:26 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Sorry, time for some (perhaps) dumb questions. <br><br>- What is the definition of Est and Esat? <br><br>- When we speak about J/cm^2, should we multiply this by the length of the rod and the beam cros section area inside the rod to get the total value for a specific setup?<br><br>- Is it really possible to replace only the amplifier nd:YAG rod with a nd:Glass rod? I thought that nd:Glass lases at 1054nm and nd:YAG at 1064nm.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 15, 2006 5:46 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> - What is the definition of Est and Esat?<br><br>Est = Energy Storage Density in J/cm^2<br><br>To calculate this it would be easiest to reference Section 4.1 of Solid State Laser Engineering by Koechner.<br><br>Esat = photon energy/emission cross section<br><br>photon energy is the familiar freq*plank&#x27;s constant<br><br>This link is a good introductory explaination:<br><br>[http://www.physlink.com/education/AskExperts/ae99.cfm](http://www.physlink.com/education/AskExperts/ae99.cfm)<br><br>Ron updated the Wiki to include emission cross sections of interest. Search the wiki for MOPA.<br><br>&gt; <strong>Hans:</strong> - When we speak about J/cm^2, should we multiply this by the length of the rod and the beam cros section area inside the rod to get the total value for a specific setup?<br><br>The ^2 accounts for the area already.<br><br>&gt; <strong>Hans:</strong> - Is it really possible to replace only the amplifier nd:YAG rod with a nd:Glass rod?<br><br>Yes. <br><br>&gt; <strong>Hans:</strong> I thought that nd:Glass lases at 1054nm and nd:YAG at 1064nm.<br><br>To find out what frequency you can get a material to lase at you look at the fluorescent lines. Nd:Glass has a very wide line that includes 1064nm. The problem is it is so wide (over 27nm!) that making a SLM oscillator out of it would be difficult.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Jul 15, 2006 6:23 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Watch out for the phosphate glasses. You want the efficiency peak near your desired wavelength.<br><br>Kigre Nd:silicate Q-246 is okay [http://www.kigre.com/glass.html](http://www.kigre.com/glass.html)<br><br>You can rework the formulas for volume instead of area but values like<br><br>Esat Saturation Fluence (Koechner chapter 4.1 formula 4.8 refers to it as Es) which are based on emission cross section in cm squared give rise to units canceling properly. Extractable E = Est<em>area is (j/cm2) </em> cm2 losing the cm2. Esat is hv/(gamma*sigma) where gamma is 1 for a 4 level system and sigma is the emission cross section in cm2 so Esta is J/cm2 <br><br>then gain is exp(Est/Esat) or (j/cm2)/(j/cm2) or dimensional-less value.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Jul 15, 2006 10:54 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Also here is a web definition of saturation fluence or energy saturation: Esat is [http://www.rp-photonics.com/saturation_energy.html](http://www.rp-photonics.com/saturation_energy.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Jul 15, 2006 11:55 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">So I guess that one can conclude that, like with DCG, there are so many variables (pump chamber efficiency, the ability to get as close as possible to the optimum pulse length, q-switch timing, etc...) that it is very difficult to estimate the output power accurately before the laser has been built.<br><br>So, now comes the time to make choices for me as to what parts I need to buy. My ultimate goal is 1J of coherent green light. My budget is up to 4000 Euro. I prefer to by parts new, when affordable, in order to reproduce what I have made in case of failures.<br><br>Please allow me to ask some more questions:<br><br>1] Best type of crystal: nd:YAG, nd:Glass, nd:YLF. At [http://www.holography.ru/les15eng.htm](http://www.holography.ru/les15eng.htm) they use nd:YLF for their two stage portrait laser.<br><br>2] Type of flash lamp. Xenon is cheaper than Krypton, correct? <br><br>3] If I choose xenon, will I regret that later because more amplifier stages will be needed?<br><br>4] Is it better to have one capacitor, or is there a big advantage to have several in a PFN in order to shorten the pulse? Is it possible to have a pulse width sorter than 230us with one capacitor? Or will it be cheaper to have several with a lower capacitance in a PFN. (I have the formulas to calculate. Just wanna be sure.) I know how to make inductors and measure the inductance.<br><br>5] How many Joule should I choose to pump into the first stage? How many for the subsequent?<br><br>6] I noticed that the Russians use two stages (master + one amp). They reflect the light that comes out of the amp back into it with a SBS cell. The SBS cell cancels out deformations that occor during the first pass through the amp (such as thermal lensing). Can I make such a cell myself?<br><br>7] If I use a passive Q-Switch, will only one pulse be generated, or does the passive q-switch cycle?<br><br>8] Is there a cheap way to measure output power?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 16, 2006 12:34 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Hans, <br><br>4000 Euro is an easy project now. But, spend the first 100 euro on Koechner&#x27;s book. You can calculate within a factor of 2 what is going on, including TEM00 production and number of modes. Then you have to build the laser. As you learn and build please help me add to the MOPA page on the wiki. <br><br>I have an SSY, two Yag rods, misc optics and flash lamps. I am building an optical rail but I have been lagging on the eectronics side of it. Mechanical impeadance is an easy concept for me but electrical impeadance is more difficult for some reason...<br><br>I guess this is a time for &quot;The Art of Electronics&quot;.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 5:18 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I have the Koechner book. I will study it during my next trip. I am having a bit trouble with getting the right information out of that book though. It is full of interestig differential equations and scientific concepts, but I have a feeling that on the math side the Sam&#x27;s Laser FAQ gives much more practical information. Especially on the information about PFN&#x27;s. Also, a book by Daniel G. Gregory [http://www.buildalaser.net/pulsebook.htm](http://www.buildalaser.net/pulsebook.htm) fills in most of the rest of the gaps. The information that I have trouble finding anywhere is some useful numbers and tips to apply all this information to making a suitable holography setup though. I believe that my previous questions are quite important because without that information, one could set off on a shopping spree and find out afterwards that due to a serious mistake in design (rod size, choice of flash lamp, desired pump power, number of amplifiers, number of PFN caps) more than half of the parts will need replacement.<br><br>About the PFN theory. I think I have destilled a workable set of design rules for the PFN from Sam&#x27;s FAQ and the Gregory book. I will still need to double check them with information I can find in the Koechner book and simulate some PFN&#x27;s in Micro Cap (a SPICE simulator for electronic circuits). If these formulas work out I will post an easy design guide on the Wiki, including a simple design guide for making and testing your own inductors. <br><br>I hope to start building after about two months. Before starting building the PFN laser I have two more interesting little projects: I need to finish my spatial filter, and I have ordered the blue diode laser crystal kit (nd:YAG + BiBo + OC) from Castech. Now that I have experience with TEC controllers, I feel confident about building a blue laser where temperature of diode, YAG and SHG are tightly controlled. For that part I have finished all my research and I am fairly confident that a nice little blue laser will result or, if not, a very spiffy 30mW blue laser pointer will come out of it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 16, 2006 5:24 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Koechner has the answers to your questions about calculating the pump power and how it releates to output power. There are a series of equations to be solved but you should be fine.<br><br>Don&#x27;t forget to chek out Ron&#x27;s weights.xls file wich helps design the caps and inductors. Koehners book is simply an overview on what circuits are used, not a design guide.<br><br>It is however a design guide for the optics section.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sun Jul 16, 2006 4:45 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Hans,<br><br>Work your system from the goal back to the design.<br><br>You indicated you wanted 1 joule output. <br><br>You have at least two choices Ruby or Nd/SHG<br><br>Nd/SHG due to conversion efficiency requires high output prior to conversion. Ruby offers high output without conversion and now more film and plates are available for it. Years ago,I would not have recommended to others due to the lack of plates available for it. Today it should not be discounted. I have for years made portraits without the waxy look.<br><br>Lets say you decide you prefer Nd/SHG laser. <br><br>-Calc the beam size based on efficient SHG conversion.<br><br>-Watch your damage limits.<br><br>-Assume 25 to 50 percent conversion. (worse case).<br><br>that indicates a need for up to 4 joule laser for 1 joule 532 output (worse case). Remember Ron Olson indicated work with 250mj output was okay for the film he tested with. He suggested a 1joule/250mj system.<br><br>-based on beam size and damage limits and output prior to conversion, pick you amplifiers (Nd:glass with possible combination of nd:yag)<br><br>-Nd:glass like Ruby will require anywhere from 1500j to 6000j pump depending or cavity design and rod size. <br><br>-Water cooled amplifiers tend to be more efficient that aircooled ones due to fresnel reflections are greatly eliminated by the water and less thermal deposit since water absorbs longer IR.<br><br>-Zenon is the lamp of choice. you will need several for large amps. (some designs have use 2 to 6 of the linears lamps).<br><br>1 joule 532 output is going to be expensive since you have to have large enough rods and SHG crystal. The larger KDP etc tend to be less efficient so you should design around the 25% conversion just to be sure.<br><br>1 joule ruby is less expensive since 3/8 inch rods can do the job and no conversion is needed. My last ruby versions 8 and 9 showed good efficiency at 6kj total input compared to my version 7 which as air cooled system used 24Kjoules of flashlamp power and large rods. These systems generated 1 to 2.5 joules of power. Just go to the website if you are curious.<br><br>Actually it is okay to start small budget, find your rods and lamps first, get a good price on a SHG. Buy yourself some test equipment, work a few projects for experience. Then with that you will eventually get the system you want. Or find a deal on surplus system and modify it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Aug 11, 2006 9:19 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">I have spent several weeks now studying the Koechner book. But I must admit that I am defeated by the intimidating amount of formula&#x27;s that the author slaps in the face of the reader without sufficient explanation of dimensions, and lack of calculation examples. I assume that Mr Koechner loves to show off his impressive knowledge in all matters concerning differential equations, molecular dynamics and wave theory. But in his enthousiasm, he has completely forgotten to remind his readers about the mathematical conventions he uses for writing down differential equations. He loves to introduce new equations and concepts with half explanations about the derivations, forcing the reader to spend hours and days to solve these intricate puzzles in order to discover what he actually means to say in just one sentence (where he could have used two sentences). Here is an example: &quot;The output fluence Eout from a two pass amplifier can be calculated as follows&quot;, followed by a complicated mathematical equation. Nice to know the equation, but he completeley forgets to metion what he actually means with the words &quot;Output Fluence&quot;.<br><br>I am sorry, I will stop ranting now. It&#x27;s just so frustrating, that after so much studying, I am still no further in knowing a few basic facts:<br><br>- I understand that in an amateur setup, I will expect a 25% conversion efficiency for a SHG crystal. So for a 1J 532nm system, I will need 4J of 1064nm light. But I still have no clue about what size of laser crystal I need to order for the generator and for the amplifier.<br><br>- I have choices of three popular materials: nd:YAG, nd:YLF, and nd:glass. I presume that nd:YLF would be an easier material for me to use because of much longer fluorescense life time and thus less strict requirements regarding flash lamp pulse width.<br><br>- I am leaning towards copying the design of Sergey Vorobyov: [http://www.holography.ru/les15eng.htm](http://www.holography.ru/les15eng.htm). He uses nd:YLF crystals, and sent me some info about the sizes of his crystals (1cmx29cm for the amplifier crystal). But I am still not sure if this will be the most cost efficient way for me to make a good laser.<br><br>- Is such a large crystal really necessary, or would it be possible to have a holographic qualitty beam with several one pass amplifiers? In that case, is it possible to use several cheap 5mmx50mm nd:YAG crystals as amplifiers.<br><br>- Will such small crystals handle the pulse energy of 4J?<br><br>I have no problems designing the electronics circuits. I am happy to start construction and experimentation. But I am afraid I will order the wrong size crystals and flash lamps and spend my whole budget on parts of improper material and size. I would like to buy parts that will allow me to over design with respect to output power, without blowing my budget of 4000 Euro.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Aug 11, 2006 9:23 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">One thing I forgot to mention in my previous post is that I will have to buy cystals new. This is because of lack of surplus in Europe and export restrictions on surplus laser crystals from the US. I am happy to spend 1000US on a crystal, but I am so afraid that I will buy a 10cm shiny jewel that will give my exactly the wrong little parameter in order to prevent building a holographic quality laser with it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri Aug 11, 2006 9:48 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Hans,<br><br>A good rule of thumb is not to exceed 10j/cm2 of energy density and best to keep it closer to 5j/cm2 for coating issues. This is based on typical q switch lasers of the 5 to 20ns levels. The shorter the pulse the higher the peak power and the damage threshold is reduced. Also when ordering optics make sure they also can handle this as well. So 4 joules averaged in 1 cm2 would be a good target. The Peak gaussian ouput is 2x this or 8j/cm2. So watch out for peak energy as well. This density indicates a minimum of 1 cm2 rod area. But don&#x27;t forget diffraction effects and the rule of thumb there is 2x the required diameter for typical gaussian beam profiles. This would indicate about a 1/2 inch rod diameter which if nd glass and would require typical 5000 joules for a 6 inch long rod for example. Also this gives you some room incase you encounter more negative thermal lensing than you expected on the final amplifier. The use of a SBS conjugate mirror of course helps to correct some of these issues but also single pass systems also are holographic but thermal lensing muste be considered. I agree Koechner just compiles the references into his book and you do have to work through these formulas and other sited references. But you will find all this and more regarding the design of solid state systems. Some will just have to be learned the hard way or work with others who have successfully designed a system like the individuals you referenced.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Aug 12, 2006 8:53 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Thank you for the fast reply Ron,<br><br>I have found a few addresses that supply nd:YLF rods. So, if I would buy 1cm diameter rods, should be sufficient (3.14 square cm area). I will wind out about prices on Monday and inform all on the forum.<br><br>&gt; This would indicate about a 1/2 inch rod diameter which if nd glass and would require typical 5000 joules for a 6 inch long rod for example.<br><br>Did you approximate the 5kJ from a 0.1% conversion efficieny (flash lamp-&gt;rod)? How will I calculate the appropriate length of the amplifier and generator rod?<br><br>Sergey wrote me in an e-mail about his SBS cell. He said he uses CCL4 liquid in his cell, but did not specify the concentration and volume of his cell (I think he did not build his laser by himself). Would applying the SBS mirror simply envolve shining the beam into a container of this liquid? Or is it really required to converge the beam into the cell with a lens? How will I calculate the required volume (depth) of the SBS cell?<br><br>I noticed that nd:glass has the same flueresence wavelength as nd:YLF. So perhaps instead of using nd:YAG as a generator and amplifier, I could use nd:YLF as a generator and nd:glass for the amplifier to reduce cost. <br><br>If it fits my budget, I still think nd:YLF for all components is the way to go for me because of the longer fluorescence lifetime (twice as long as with nd:YAG). This might enable me to use cheaper capacitors because of less restrictions on pump pulse duration.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Aug 12, 2006 4:37 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">You have an error on your area calc you should take diameter/2 then times pi. I have found that on a final amplifier that 1.5x the diameter also works okay. In other words a 6mm beam in a 9mm rod. All other previous rods should use the 2x rule as a minimum requirement. Oscillators can be made from 5 to 6mm rod if the mode volume is 1 to 2mm. <br><br>Amp issues is covered in the koechner book and examples and formulas are there. This issue is complicated by cavity efficiencies like pump geometry, reflectors, water cooling or air conduction, how many lamps used based on spectral amperes for good absorption spectrum, lamp load based on pump time and bore diameter, what lamps you have to work with and what caps they will need. Some basic info is on the holowiki under &quot;mopa&quot; The level I gave gets you in the ball park for roughing the requirements. Basic assumptions aside, you should be able to get about 10x per 6 inch length. so 12 inches or 6 inch double passed should do 100x roughly. I need to qualify this, the first 6inch may get 12x and the second 8x for example due to the difference in gain related to input energy density. Also double pass will change the gain related to the previous pass. I have given plenty of examples of this on the web based on built amplifiers. <br><br>SBS can be made with acetone as well. You have to focus the beam into the cell to get a good reflection efficiency. If my memory serves, longer focus for higher power. Please refer to Koechner book on this.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Aug 12, 2006 4:44 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">One more note on amplifiers, If you don&#x27;t optimize the input power density you won&#x27;t get good extraction and will be under your target power.<br><br>Negative thermal lensing based on pumping also has to be taken into account regarding the energy density calculation as well as I indicated before about damage calculations. I have found that expanded well collimated beams generally will give higher amplification at first due to the exponential small signal gain due to the lower power density and then more area used for gain. Keep in mind the diffraction issue, as spatial quality is one of your most important design parameters.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Aug 12, 2006 5:36 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Oops, you are right about my mistake about surface area. I was thinking about circumference. Silly me.<br><br>So, with all the variables that are difficult to predict, I guess I should really over design a lot, with the assumption in mind that it&#x27;s always possible to downgrade, but hard to up grade. In chapter 2.3.4, Koechner shows a chart of input/output for a 2.5x5 inch^2 nd:YLF rod oscillator. Pumped at 30J, he manages to extract about .5J of 1054nm. Assuming I could manage to get half that efficiency, perhaps I should order twice that size (if I can afford it).<br><br>On the next page he shows a graph with an amplifier (200J pumping power gives him 10x amplification) with a 10mmx76mm rod. If I could take twice the rod length here, and use it in a double pass+SBS setup, perhaps I would be able to get the same amplification, resulting in a total output of 5J. Or perhaps I am just dreaming here. Anyways, I hope to know on Monday if I can afford crystal rods of that size. <br><br>So, I guess the start of my search should be in the following order: <br><br>- - Oscillator rod (preferably nd:YLF, oriented for 1053nm) 1cmx10cm.<br><br>- Amplifier rod (preferably nd:YLF or nd:glass for 1053nm) 1cmx15cm.<br><br>- Xenon bulbs of similar length, or slightly longer.<br><br>- Capacitors with sufficiently low inductance and impedance. <br>- - 100uF/1000V for the oscillator (or 2x50uF in a PFN config, can make the inductor coils myself).<br><br>- A total of 400uF/3000V for the amplifier.<br>- 2 polarizers able to withstand 5J.<br><br>- 3 quarter wave plates for 1053nm.<br><br>- KDP crystal.<br><br>- Something that reflects 1053nm out of the way after the KDP crystal.<br><br>How difficult will it be to get a good coherence length? On [http://www.holography.ru/les15eng.htm](http://www.holography.ru/les15eng.htm), Sergey shows that his oscillator uses a kind of ring configuration, but without a Faraday rotator. I have not seen this kind of configuration anywhere else. Should I aim for the same setup with that respect, or can I expect a good beam with a classical HR+OC setup?<br><br>I will start my cost analysis on Monday, and let you all know.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Aug 12, 2006 6:39 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Yes, I also I should have just given the formula pi()*r^2, since I left off the square in my typing.<br><br>You won&#x27;t get .5j of 1054 because you will want tem00 mode and will want to q switch it, so you would be lucky to get more than 50mj. Depending on your resonator configurations and longitudinal mode control, you may be looking at only 10 to 20mj. Also assume you will need up to twice the pump. Also you may be able to use a 6mm oscillator rod instead of 10mm rod depending on the size of the TEM00 mode in your setup. <br><br>So at 10x you would have 100mj or 200mj. Maybe with two pass 600mj.<br><br>Then there is SHG conversion.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Sat Aug 12, 2006 9:28 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Regarding the amplifier of that system remember he is using a 1x29cm rod as you indicated which if double passed is about 22 inches of laser rod amplification.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">doug694</span>
+                <span class="post-date">Thu Nov 09, 2006 3:22 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">This response is primarily for Hans (assuming its not too late - he might have finished his project already <br><br>I wanted to mention that there are lots of areas worth consideration if you are worrying about expense in a laser project.<br><br>Optics can be _incredibly_ expensive and really awkward to source, especially when you start looking at mirrors and etalons. For a first pulsed laser project, it is definitely worth considering a route which will not lead you to an expensive dead-end when you need that all-important component later on.<br><br>I have found sourcing YAG optics is relatively cheap and easy (particularly HR mirrors, windows, prisms and q-switches) since they are abundant in industry and usable ones are retired from service regularly. <br><br>KTP crystals are also relatively common although they always sell quickly and can sometimes be pricey. YAG rods are common but tend to be expensive - often exponentially with respect to rod size! <br><br>Surplus/ebay rods are often damaged and useless even when the seller states otherwise (you can&#x27;t repair them, in case you are wondering - its _way_ too expensive - I have had quotes before!) so unless you are sure of what you are getting it is perhaps wise to avoid non-trusted sources for rods.<br><br>As an example: I have a wonderful 10mm x 150mm yag rod which I got from a trashed laser, but it has a tiny pit on one end which makes it practically useless for anything other than blowing holes in stuff (and it probably wouldn&#x27;t last long doing that). I inquired about repair costs for this (and other salvaged, bargain &amp; freebie rods) which resulted in alarming responses. A minimum of $400 to refurbish a 50mm yag rod! I won&#x27;t even mention the quote I got on the 10mm x 150mm rod (I hope this deters people trying to pick up &#x27;repolishable&#x27; crystals on ebay).<br><br>Ruby rods and optics are comparable with YAG cost-wise, potentially cheaper but usually harder to source due to limited applications. Ruby is now nearly redundant in industry. Most of the optics I have found were at a good price, but ireally nteresting parts (like partial mirrors with known R%) appear so rarely. The only reliable source seems to be those military tank laser heads which are still around (but even they are getting more scarce) and retired medical lasers - although some have rods with integral mirrors which limits their usefulness.<br><br>You can also expect a difference in cost for capacitors intended for a ruby or yag laser. Ruby lasers tend to need a big bank of capacitors, but the capacitor profile is not as demanding as YAG - the pulse forming time is longer. The electrolytics I used in my first ruby laser were common photoflash types and worked ok. The maxwell capacitors I used for YAG were difficult to obtain and expensive, and if I had tried to match the electrical storage of the ruby laser it would have been _prohibitive_.<br><br>If you pick an exotic gain medium (however cheaply you might source it) with an unusual emission line for your oscillator, you could have problems getting the necessary optics. Some mirrors have very narrow wavelength response - for instance yag mirrors coated for 1320nm will allow most of the 1064 to pass in order to prevent 1064 becoming dominant. If you are forced to pick&#x27;n&#x27;mix optics you have a better chance of success with common, matched components than exotic or poorly documented ones.<br><br>My point really is, depending on what you decide upon early in your design, you could end up with disproportionate expense later on when you need to add something specific. By sticking to common materials you&#x27;ll have a better chance of initial success, then you can start incorporating more unusual designs incrementally with a better chance of understanding the implications of each change, and hopefully with less expense.<br><br>Doug</div>
+        </div>
+
+    <div class="thread-nav"><a href="5685.html" class="prev-thread">← Holography Labs</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5680.html" class="next-thread">holos turning dark in sun. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11313.html" class="card">
+                <h3>energy distribution across DCG plate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="971.html" class="card">
+                <h3>Diffraction efficiency of Lippmann Plates</h3>
+                <div class="card-meta">Techniques · 42 posts</div>
+            </a>
+            <a href="8110.html" class="card">
+                <h3>Energy density thread</h3>
+                <div class="card-meta">Beginning Holography · 7 posts</div>
+            </a>
+            <a href="8097.html" class="card">
+                <h3>energy holograms</h3>
+                <div class="card-meta">Beginning Holography · 7 posts</div>
+            </a>
+            <a href="7521.html" class="card">
+                <h3>recent transfers from pulse masters</h3>
+                <div class="card-meta">Gallery · 2 posts</div>
+            </a>
+            <a href="7235.html" class="card">
+                <h3>Is there now an affordable pulse laser?</h3>
+                <div class="card-meta">General Holography (old) · 9 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

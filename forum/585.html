@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiple exposures on a single plate — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="584.html" class="prev-thread">← how short must the exposure be to ...</a><a href="Equipment.html">↑ Equipment</a><a href="577.html" class="next-thread">How dark should the darkroom be? →</a></div>
+    <h1>multiple exposures on a single plate</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>12</td></tr>
+        <tr><td>Views</td><td>15,217</td></tr>
+        <tr><td>Started</td><td>Fri Jul 20, 2012 10:00 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holomark.html">Holomark</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/holomaker.html">holomaker</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=585" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Fri Jul 20, 2012 10:00 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I am about to try making multiple exposures on a single plate and am hoping for some advice or &quot;rules&quot; others may have from experience. Any thoughts are welcome. <br><br>For example I presume there must be some limit to the number of different images or effective exposure percentage. For example if I wanted two different images then each would be 50% of my total exposure. Here I presume that the total of all of the individual images must equal the required exposure for the plate . Do you lose brightnes or detail or both when dividing the exposure into different images. <br><br>Second, how different must the reference beam angle be for the different exposures? And does the allowance for the difference in the reference beam angle differ if using a collimated reference beam as opposed to an expanding reference beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Jul 20, 2012 1:15 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">These kind of questions depend on a large number of factors, so it&#x27;s impossible to give any precise set of figures. <br><br>When you record the hologram, you&#x27;re recording the Bragg planes and/or the fringe structure on the surface. So, the first level of dependance is: is this a surface hologram (eg resist) or a volume hologram? If volume, is this a reflection hologram or a transmission hologram? Then you need to determine/know: what is the spatial frequency of your recording as a fraction of the spatial frequency response of the medium?<br><br> For example, if you&#x27;re shooting a reflection hologram, on a silver halide plate of dimension 4x5, of an object that&#x27;s 3 inches in diameter, placed about 6 inches away with a reference angle at Brewster&#x27;s, with a HeNe (a common geometry), then the spatial frequency recorded by the edges of your object will be 2322 l/mm, while the centre of your image records 2369 l/mm. Most modern silver halide emulsions can record 3000 l/mm to about 5000 l/mm, so you&#x27;re pretty close to the edge of the frequency response. So, let&#x27;s say that you&#x27;re recording on a material that can take up to 5000 l/mm. This means that the efficiency starts to fall off at about 4000 l/mm (this depends on the grain density and a whole bunch of other factors, but, as a rule of thumb, the response is pretty flat for about 80% of the frequency range and then falls rapidly). So, let&#x27;s say that you record this 3&quot; object placed 6&quot; away with a HeNe referenced at 40, 50, 60 and 70 degrees. The spatial frequencies for these angles are:<br><br>angle (degrees) spatial frequency (l/mm) fringe separation (nm)<br><br> 40 ........................ 2789 ........................ 300<br><br> 50 ........................ 2595 ........................ 385<br><br> 60 ........................ 2369 ........................ 422<br><br> 70 ........................ 2120 ........................ 471<br><br>You can see that the fringes are getting &quot;fatter&quot;, but the spatial frequency is dropping. This means that in this range you&#x27;d need to expose longer as you decrease the angle from 70 to 40, since you&#x27;re getting close to the edge of the frequency response. The drop needs to follow the drop of the frequency response curve which is usually close to a falling sinusoidal. If it matters, I&#x27;d drop the exposures as a square function, but to each his own! Other holographers take it down linearly and the experienced holographers simply pick a number that &quot;feels right&quot;.<br><br> If you&#x27;re doing a transmission hologram on silver halide, then typically your frequencies are in the range of about 1000 to 1500 (shooting a transmission at at Brewsters with a HeNe gives a spatial frequency of 1368 l/mm). This is well below the extremes of the spatial frequency range, so there&#x27;s no need to drop the exposure times, you can keep them all the same. This is assuming, of course, that you&#x27;re not thinking of shooting anything above about 5 or so holograms on the same emulsion. As the number goes up to the 10s and beyond, you start getting reciprocity failure problems and so above 5 or so you have to then decrease the exposures.<br><br>The variation in differences between reference angles again depends on the spatial frequency range and on the development procedure. When you shoot a hologram, you have a &quot;latent image&quot; recorded. This means that the complete set of fringes are already &quot;in the plate&quot;, but at very low modulations. There&#x27;s less than 1% difference between Bragg plane and not-Bragg plane. This small difference is amplified by about 10,000 by the development process. But, the development process also swells the plate and causes the Bragg planes to swell. If the plane structures are too close together, you won&#x27;t see much difference between the two angles you exposed. More than likely, you&#x27;ll get one image surrounded by a halo of noise. A good &quot;rule of thumb&quot; is to set the next angle so that the difference in frequency is about 10%. In the above example, going from a ref of 50 to a ref of 60 gives a percentage difference in frequencies of <br><br>(2595 - 2359)/2595 = 0.091, or a 9% difference in frequencies.<br><br>If you&#x27;re intending to do pseudocolour, ie swell the plate between exposures, then there&#x27;s a whole different regime for successive exposures. You now need to calculate the new spatial frequency of the swelled plate (the plane separation has increased on swelling, so the frequency goes down).<br><br>If you&#x27;re doing dcg, you have to remember that the material is continuous.<br><br>Note comment on reciprocity, because this too has a bearing on exposure times, especially for particular long exposures or pulse shots.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Mon Jul 23, 2012 8:56 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Yes Holomark, Dinesh&#x27;s math may be a little bit scary but for now you can get by doing lots of small test shot to determine you best exposure times vs. your exposures. I personally don’t use a light meter to determine anything! So, By doing a series of test shots you will quickly learn about the films limits. Generally I&#x27;ll take the least exposer time i can afford for a single exposer and multiply it for each exposure .There will be adjustments you&#x27;ll need for a final hologram, but you&#x27;ll figure it out along the way ! Have fun and lets see some pictures!<br><br>As far as the halo i suspect ratio&#x27;s off and you giving too much on the object, move object slightly away from film or adjust ratios............</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Mon Jul 23, 2012 9:34 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I just got back from the library - had to do a little research to understand Dinesh&#x27;s post. (Dinesh, I love your posts. They may be a bit beyond my pay grade, but this means I get to learn that much more).<br><br>Unfortunately, I need to step back a bit further for some real basics. If I am shooting on silver halide plate of dimension 4x5 and my exposure requirement is for example 250uW (for a typical single beam reflection) at 50 degrees- what would I be my target exposure be if I wanted to make two exposures - 1 at 50 degrees and 1 at 130 degrees? In other words should each exposure be 250 uW or should the total of the two equal 250uW?<br><br>Second, is there anything else I need to do differently than when making a normal single exposure reflection hologram? (I don&#x27;t need slits or anything like that do I?<br><br>Thanks for the responses, I am back to my day job <br><br>Mark</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Jul 23, 2012 12:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomark:</strong> If I am shooting on silver halide plate of dimension 4x5 and my exposure requirement is for example 250uW (for a typical single beam reflection) at 50 degrees- what would I be my target exposure be if I wanted to make two exposures - 1 at 50 degrees and 1 at 130 degrees? In other words should each exposure be 250 uW or should the total of the two equal 250uW?<br><br>My first reaction is that 250 uW sounds a little high! But, assuming this is right, I&#x27;m not sure what you mean by a &quot;single beam reflection&quot; at 50 and then another exposure at 130. If this is a Denisyuk at 50, then is the 130 exposure mean you&#x27;re bringing the beam over to the other side of the plate while keeping the object in the same place? A single beam Denisyuk and a transmission H1 on the same plate?<br><br>In any case, in this geometry, I&#x27;d shoot the single beam at 50 at about 300 and the 130 exposure at about 200 (assuming it&#x27;s an H1 now). <br><br>The thing to understand is that when you make an exposure, you&#x27;re creating a set of fringes which have, at their peak, a higher density than the surrounding material; somewhat like a scene with rolling hills. The difference in height between the top of the hill and the &quot;ground level&quot; is the index modulation. So, let&#x27;s assume that you&#x27;re looking at a flat field. Now you &quot;expose&quot;. Hills begin to appear on the field, but, at the same time, the average level of the whole field also rises. If the hills are appearing and rising faster than the entire field, you&#x27;ve got good modulation and a good bright hologram (noise aside). But, if the average level of the field is rising almost as fast as the hills, the the effective height of the hills above the ground level is not that large. The modulation is not that good and the hologram is weak. The trick is to expose it in such a manner that you minimise the increase of index in the ground level, while maximising the index of the peak. This is the reason for the ratio, if you get your ratio right, you&#x27;ll achieve this juggling act of minimising one while maximising the other. However, when you expose twice, and I&#x27;m assuming that the ratio for each shot is different if indeed you&#x27;re shooting a reflection and a transmission, then you have to balance the increase with the ground level index with the increase of the hilltop index. Also, the plate needs about 250 uW of energy to react chemically with the light to begin with. If the exposure is too low, there&#x27;ll be no actinic reaction - the hills won&#x27;t rise at all! So, you need somewhere around the film sensitivity of light to have an actinic reaction, but you can go a little below and a little above. I&#x27;d go slightly under with the transmission and slightly over with the reflection.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Mon Jul 23, 2012 2:01 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Sorry I was not clear. The 50 and 130 degrees is the angles measured from the plane of the plate. I am thinking of two reflection hOlograms on one plate. I was thinking of 1. Two different objects and 2. Same angle but from opposite edge. Ie top ond bottom or left and right <br><br>I thInk I am hearing that each exposure must be at or near the requirements to raise the peaks to create the image. In other words both exposures around the 250. <br><br>Now that you mention it I do have on the drawing board a proposed hologram with both a transmission and reflection, but again with different objects involved.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Tue Jul 24, 2012 4:39 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">An easier way to think of it (assuming the reference beam intensity remains the same), is to find the most amount of energy the film will accept with one exposure befor its over exposed, lets say the max is 60sec , now you know the maximum amount to expose your film, now lets say you want 3 exposures , i would start @ 20 sec each exposure, some adjustments WILL be necessary .............<br><br>I’m not so sure why you have picked these two angles for each exposure’s reference beams ?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Jul 24, 2012 9:42 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">One of the best papers written on the subject was by Stephen Hart, of the Voxel holographic technique. But I don&#x27;t have a copy handy to relate its highlights.<br><br>But I cannot stress enough that exposure testing will yield plenty of practical results. As usual I must plug my web site, nlutie.com/ewesly to review my exposure testing series set up.<br><br>What is needed, and can find by testing, is the threshold and saturation points of your materials and processing scheme, i.e., the minimal exposure when the image first appears, and when the plate gets overloaded with information. A quick and dirty solution would be to simply divide the maximal exposure by the number of desired exposures to give the exposure for each.<br><br>As an example, my old experiences with Agfa 8E75HD showed that the material gets no brighter but plenty noisy at about 400 microJoules per square centimeter, and just an inkling of an image at 25 - 50 of those units. (Single Beam Reflections, CWC2 developer for 2&#x27;, CWPBQ2 bleach) So you could conceivably put 16 or 8 of the lesser expos on the plate. But usually 2 or 3 is all that is required.<br><br>Sometimes the two expos might not be equal, like if you are blending colors or varying relative intensities. As another example, I ran an expo test on Sphere-S GEO-3 plates of my test object at 633 nm. Then I used half of the max exposure as the basic expo on a plate, then ran an exposure test at 532 nm to see if I could get a decent yellow.<br><br>The bottom line is, keep your processing constant, and run organized tests to sneak up on the peak exposures for all those images you put on the plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Jul 24, 2012 10:40 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomaker:</strong> I’m not so sure why you have picked these two angles for each exposure’s reference beams ?<br><br>Because 50 and 130 from the same side of the late is 50 from either side of the plate (180 - 130 = 50).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Tue Jul 24, 2012 10:52 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">thanks Dinesh ! now i understand</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Tue Jul 24, 2012 4:12 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks for all the responses. I think I am starting to understand. Couldn&#x27;t resist trying so I headed home at lunch and tried. My setup has the reference beam hitting the plate from the side (I still need to work on my setup to get the top reference)<br><br>I first shot an image some lego people and parts (2.2 seconds), then turned the plate upside down and shot an image of a skull (also 2.2 seconds). The results are as follows:<br><br>The first two pictures show what is seen when illuminating the final hologram from left and right (at approx reference angle)<br><br>[](https://holographyforum.org/forum/download/file.php?id=2213&amp;mode=view)<br> illuminated from lego side <br><br>![illuminated from skull side](https://holographyforum.org/forum/download/file.php?id=2212)<br><br>The next three pictures show what is seen when illuminating perpendicular to plate (head on) with three different viewing angles<br><br>[](https://holographyforum.org/forum/download/file.php?id=2211&amp;mode=view)<br> lego and skull 1 <br><br>[](https://holographyforum.org/forum/download/file.php?id=2210&amp;mode=view)<br> lego and skull 2 <br><br>[](https://holographyforum.org/forum/download/file.php?id=2209&amp;mode=view)<br> lego and skull 3</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Tue Jul 24, 2012 4:26 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">The multiple exposure is not as bright/clear as a single image of the skull. Here is a side by side of the skull only (right) and skull with lego (left)<br><br>The exposure time for the skull only was 2.3 seconds while both of the exposures with the skull and lego were 2.2 seconds each. The setup was not changed between the skull only and the skull with legos. <br><br>The image of the skull and lego may be slightly shifted blue due to the fact that I made the two exposure hologram today at lunch. In my attempt to speed up the process I let the plate dry outside (35 minutes), then painted and let dry in almost direct sunlite. This caused a significant blue shift which subsided somewhat in the 30 minutes between bringing the hologram into the house and the time the pictures were taken. (Both holograms were painted today, but only the dual image plate was also exposed and processed today)<br><br>[](https://holographyforum.org/forum/download/file.php?id=2215&amp;mode=view)<br> dual image on left - single image on right <br><br>[](https://holographyforum.org/forum/download/file.php?id=2214&amp;mode=view)</div>
+        </div>
+
+    <div class="thread-nav"><a href="584.html" class="prev-thread">← how short must the exposure be to ...</a><a href="Equipment.html">↑ Equipment</a><a href="577.html" class="next-thread">How dark should the darkroom be? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="532.html" class="card">
+                <h3>Multiple Holograms from single exposure</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="6467.html" class="card">
+                <h3>Muse with me, o intrepid holographers, on multiple exposures</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="2971.html" class="card">
+                <h3>Multiple exposures</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="11421.html" class="card">
+                <h3>Glass plate recommendations</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11388.html" class="card">
+                <h3>Single Beam Transmission</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a>
+            <a href="11313.html" class="card">
+                <h3>energy distribution across DCG plate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

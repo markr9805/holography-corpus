@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Power of C315m — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="52.html" class="prev-thread">← Real-time holography article in this week&#x27;s Nature</a><a href="Techniques.html">↑ Techniques</a><a href="34.html" class="next-thread">3D class →</a></div>
+    <h1>Output Power of C315m</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>8</td></tr>
+        <tr><td>Views</td><td>12,047</td></tr>
+        <tr><td>Started</td><td>Sun Oct 31, 2010 2:52 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holom.html">HoloM</a> · <a href="../authors/sergio.html">Sergio</a> · <a href="../authors/paulos.html">Paulos</a> · <a href="../authors/kiffdino.html">Kiffdino</a> · <a href="../authors/142laser.html">142laser</a> · <a href="../authors/holorefugee.html">holorefugee</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=44" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Sun Oct 31, 2010 2:52 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi, <br><br>recently I wondered about the output power of my c315m. <br><br>I have the digital controller for the c315m. I can set output power through serial port.<br><br>If I set power, it takes about half a minute till the laser has stabilzed. <br><br>If I measure the output power with my light meter I only get about 80-85% of the power I have set through serial port. <br><br>So, I don&#x27;t know what&#x27;s right? I s my power meter wrong, or is the output of the laser wrong?<br><br>I assume it&#x27;s a control loop in the laser controller, so probably my meter is wrong?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sun Oct 31, 2010 2:59 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">What is the nominal power of your laser? 50mW? My laser were adjusted to 55mW below the maximum 70mW to not force the diode laser, or the life may be reduced greatly.<br><br>I remember that power can be adjusted and probably your meter is working.<br><br>Sergio,</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Sun Oct 31, 2010 4:15 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">it&#x27;s the 100 mW version. If I set it to 100 my meter shows 89 mW</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Mon Nov 01, 2010 6:39 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>HoloM:</strong> it&#x27;s the 100 mW version. If I set it to 100 my meter shows 89 mW<br><br>Jem has reported the same problem in the now closed holography forum, but you can read the discussion here:<br><br>[http://www.natscience.com/Uwe/Forum.asp ... ower-level](http://www.natscience.com/Uwe/Forum.aspx/laser/5409/Adjusting-C315m-Power-level)<br><br>I would suggest not to play with P6 pot though, if you are missing only 10 mW.<br><br>I have also had the same problem and could easily raise the output power from ca 80 to 100 mW by turning the pot P6.<br><br>The laser run fine for ca 2 years producing stable 100 mW, but since about a month ago I have serious problems, probably due to this intervention.<br><br>The laser doesn&#x27;t obey any autostart adapter&#x27;s commands and always runs unstable emitting around 150 mW at 2400 mA.<br><br>The digital controller says that the power meter inside the laser head measures zero (0) mW, so the analog controller thinks that there isn&#x27;t any laser beam and raises the current until the upper limit is reached.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kiffdino</span>
+                <span class="post-date">Mon Nov 01, 2010 2:01 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Its funny that this is coming up right now..<br><br>I think I baught my laser from Jem.<br><br>I&#x27;ve always ran it on full power, thus the pod was turned clockwise to the max.<br><br>Didnt have any problems with it until recently.<br><br>Since I purchased the laser I ran it for maximum of 150-200 hours.<br><br>Now when I have it on maximum output it stabalizes at first for maybe 10 minutes, then it starts acting funny and the diode destabilizes, while the ready light on the controller comes off.<br><br>I had to turn the it CCW for maybe 1/8 of the whole turn. Now its stable again. Hopefully it will stay that way...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Wed Nov 17, 2010 12:48 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The 315M is a great laser for holography. Unfortunatly as these lasers age many of them willl loose power when the setting remains the same. Sam calls this C315M loss of power syndrome. It seems to be due ti increased scatter inside the laser head from the beamsplitter that samples the beam becoming contmineted. The scatter is mistaken for laser power and the controller turns the laser down. On a newer 150 mW head we have observed about 1 mW per month power loss with NO ON TIME!! Even just sitting the lasers will loose power like this. Adjusting the pot per the instructions on the FAQ solves this except in extreme cases and is much easier than oening the sealed head to clean the under side of the beam splitter. Coherent should solve this...if it wern&#x27;t for this the C315M&#x27;s would be about perfect. Phil Bergeron, 142laser.<br><br>PS Who wants a C315M-150 in perfect shape made 2009 for $3K? $3,250 mounted on a nice large fanless heat sink with controller and new DC supply.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Thu Nov 18, 2010 5:53 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Thank you Phil, that was helpful.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Fri Nov 19, 2010 12:41 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">You are welcome! This problam and how to solve it are covered in Sam&#x27;s Laser FAQ. Sam wil also adjust a 315M laser and give the owner a full report on health for about $100 plus shipping costs. Phil</div>
+        </div>
+
+    <div class="thread-nav"><a href="52.html" class="prev-thread">← Real-time holography article in this week&#x27;s Nature</a><a href="Techniques.html">↑ Techniques</a><a href="34.html" class="next-thread">3D class →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="920.html" class="card">
+                <h3>Mounting c315m</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="717.html" class="card">
+                <h3>Intro and spatial filter power question</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="354.html" class="card">
+                <h3>LaserCheck Power Meter</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8336.html" class="card">
+                <h3>High power Fiber Coupled diode laser with HHL Package</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="7681.html" class="card">
+                <h3>Homemade High Power Diode Laser</h3>
+                <div class="card-meta">Beginning Holography · 55 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

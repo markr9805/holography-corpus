@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUDs — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3164.html" class="prev-thread">← Holowatch</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3159.html" class="next-thread">Metrologic Sandbox Holography Kit →</a></div>
+    <h1>HUDs</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>1,369</td></tr>
+        <tr><td>Started</td><td>Tue Mar 01, 2005 1:34 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/eric343.html">eric343</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3165" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Tue Mar 01, 2005 1:34 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">How are heads-up displays made? Is it feasible for a hobbyist to attempt, or best left to the professionals with multimillion-dollar labs?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 01, 2005 3:44 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Yes, a hobbyist can make one. It may not be as good as the professional one and partly the reason may be that you may not have a multi-million dollar spectrophotometer and other tools. Partly also is the material. You won&#x27;t get a good one on silver (de is too low) and if you try it on DCG, you need to very carefully control bandwidth and center frequency. The setup is pretty easy, but the control is not easy at all. This is usually the case with HOE&#x27;s<br><br>A Head(s) Up Display is essentially an optical device which reflects a data set from a CRT or LCD or some other data display device and projects it into infinity in the direction of the viewers eyes. The very first ones came out in the mid 80&#x27;s for fighter pilots. The problem was that at high g&#x27;s the pilot could not look down to see his flight controls. The solution was to project the flight data through a small crt in the shaft of his goggles. This crt would project the data into the back of the goggles which would have an optical surface. The optical surface would both magnify the data and project it at infinity so that the pilot needn&#x27;t have to keep refocusing his eyes. This optical surface didn&#x27;t have to be holographic, but due to the weight and size, holography was the best solution. Clearly you need two criteria: the hologram needed to be very, very tuned to the frequency of the crt, which had a bandwidth of about 20nm if memory serves (it was a long time ago!), and the pilot had to be able to see clearly through the goggles thus needing a very, very high photopic and scotopic efficency. In case you&#x27;re not familiar with these terms, it&#x27;s the ability to make out detail in day, photopic, and night, scotopic, conditions. The hazier the hologram, the worse the ability to see through them. The photopic was relatively easy (at least, if I might indulge in a small boast, it was for me. Apparently others were not finding it so easy!) but the scotopic was bloody difficult! Of course, it also had to have avery high de. In addition, the optic had to have a lot of power, the ability of the optic to act in a lenslike manner, so as to be able to magnify and project to infinity an image that was only millimeters across and only a few inches away from the eye, all with no dispersion. Today, I&#x27;ve seen them in cars. The data, speed, petrol level and I think, the tach, are projected on the road at about 25 - 30 feet away. The criteria for this are not so stringent. The image (the data set) is on the dashboard and the HUD is on the windscreen. The HUD itself is an optic that reflects, with power, the set into the drivers eyes. Both the data set and the eyes are a long way away from the HUD, so you don&#x27;t need as much optical power. The HUD is relatively broadband, compared to the early jet fighter HUD&#x27;s since the car isn&#x27;t going at Mach 5 (I hope!) and the de is a lot less, I&#x27;d say about 70% - 80%. We were required to get greater than OD 3 or about 99.9%<br><br>Anyway, to make it, determine the power needed. Let&#x27;s say you need to focus an image at 3 feet to a distance of 25 feet. Use the lens equation to determine the focal length:<br><br>1/f = 1/u + 1/v<br><br>In this case u=3 and v=25, so f=2.7. Then either shoot two diverging beams from either side of the plate from points at 3 and 25 feet away, or choose a different u and v so as to satisfy<br><br>1/u + 1/v = 1/2.7<br><br>That&#x27;s pretty much it! Now any point mage at 3 feet will focus at 25 feet. Of course, the ability to see this point with zero aberrations depends on how exact your beams are. The wavefronts must be very, very spherical so you can&#x27;t use a spherical mirror off axis. If you use lenses, be absolutely sure they&#x27;re on axis both in theta and phi (azimuth angle) so there&#x27;s no coma or astigmatism. Remember that the above equation is a paraxial approximation, so don&#x27;t go too high above the optic axis. If you shoot in silver, you&#x27;ll probably be OK in bandwidth but you&#x27;ll have poor de. If you shoot in DCG, you&#x27;ll be OK for de, but bandwidth may be a problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Mar 01, 2005 5:57 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thank you Dinesh, I was wondering how that worked. I only have one question, What is a wind screen?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 01, 2005 7:36 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">[quote:de217ffdf8=&quot;Colin Kaminski&quot;]Thank you Dinesh, I was wondering how that worked. I only have one question, What is a wind screen? [/quote:de217ffdf8]<br><br>Sorry, I forgot you yanks called it windshield Also, &quot;petrol&quot; is &quot;gas&quot; <br><br>By the way, if anyone does try it, remember that the you have to fix the two directions of the input and reflected beam. Re-reading what I wrote, it seems to say that both beams are on-axis. If done like this, they must also be used on-axis.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Tue Mar 01, 2005 8:20 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thanks for the in-depth and informative reply, Dinesh!<br><br>I think this may be worth trying <br><br>Why was it necessary to tune the hologram to match the precise wavelength of the CRT? Are they that monochromatic? Why would the bandwidth requirements change at all, with a car display vs. an F-16?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Mar 01, 2005 10:56 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The CRT&#x27;s are apparently that monochromatic. Not as monochromatic as a laser, but 20nm is still pretty narrow when you consider that an LED is 50 upwards. Of course, so long as the bandwidth of the hologram encompassed the bandwidth of the CRT, it can go beyond it. But if it does, you waste light that does not diffract. The Bragg planes that are not tuned to the CRT will cause noise and scattering. The pilot sees the scenery below rushing past him at Mach-whatever F16&#x27;s do. This means he has to take in the data and make decisions at a much faster rate than a driver in a car, so the data must stand out much more so in a jet, In a car, the background is usually a dark street with no features that need instant recognition (OK, maybe a deer, or something!) and so if the hologram is a little noisy, the driver can still make it out. My opinion, only an opinion, is that HUD&#x27;s in cars are more used as hi-tech gimmickry than to provide any real functioinality that a standard display couldn&#x27;t provide antyway. I was in one last Christmas in my cousin&#x27;s husband&#x27;s car. I think he epected me to be more impressed than I was</div>
+        </div>
+
+    <div class="thread-nav"><a href="3164.html" class="prev-thread">← Holowatch</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3159.html" class="next-thread">Metrologic Sandbox Holography Kit →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Pulse Mode w/ Laser Diodes — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5670.html" class="prev-thread">← question about holographic pictures</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5664.html" class="next-thread">2 channel denisyuk stereogram →</a></div>
+    <h1>Pseudo-Pulse Mode w/ Laser Diodes</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>1,411</td></tr>
+        <tr><td>Started</td><td>Sat Jul 01, 2006 2:46 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/tony.html">Tony</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/tom-b.html">Tom B.</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5668" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sat Jul 01, 2006 2:46 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Anybody have any experience with using short pulses on laser diodes?<br><br>I may start doing some investigation on this and wanted to make sure I wasn&#x27;t reinventing the wheel.<br><br>The idea is as follows:<br><br>Suppose one wanted to make a very small Denisyuk hologram using a 5 mw laser diode. If the entire 5 mw beam is only expanded to cover about an 8 mm diameter area, I figure the exposure time is on the order of 10 msec.<br><br>Typically when using laser diodes, the exposure is timed by blocking the beam, not by turning on and off the diode. This is because it is desirable to allow the diode to thermally stabilize.<br><br>In the case of a short exposure, perhaps the diode would not have time to heat up and mode hop during the exposure. This would mean that the beam exposure could be electrically timed directly by turning the diode on and off. While there may be mode hops as the diode current transitions to and from a plateau value, hopefully these transitions would be quick and not contribute much to the integral exposure.<br><br>Any ideas?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 01, 2006 6:14 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">All of the pluse diode stuff I have read is for 808nm diodes pumping Nd:Yag, ND:Glass or Vandate. There the line width is not important. The diodes handle the pump current just fine in fact you can get much more output from them. I have no Idea what the line structure is of a short diode pulse.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jul 01, 2006 9:14 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">This is a lovely idea! I expect it will be difficult, but it&#x27;s well worth pursuing. My take is that because the volume of the laser cavity on the die is so small, it would heat almost instantly with the rest of the die and package following slowly behind and raising the baseline temperature. Maybe there would be a way of shaping the current pulse to produce a stable plateau for a reasonable time ? <br><br>What would be useful is a series of time resolved high resolution spectra of the diode as it warms during pulsed operation. I think you could get the cavity temperature directly from the center wavelength vs time plot. Pulsed operation is the norm for DVD writing so maybe there is some information out there already - I&#x27;ll have a look.<br><br>But 10 ms is still a long exposure relative to what&#x27;s needed to stop motion in living subjects... DVD writers typically pulse at 100 mW or more vs. the 5 mW you suggested, so that would bring the time down to 500 us or less...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sun Jul 02, 2006 12:48 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Well, from a brief experiment and a sample size of one, I can say it is not impossible to make a hologram by pulsing a laser diode.<br><br>I made a small Denisyuk hologram using a 5 mw laser diode pulsed with a single pulse of 10 msec length. The laser was about 2 inches from the film and the collimating lens was removed. The film was 8E75 sandwiched between glass. The subject was a quarter taped to the glass.<br><br>There was no evidence of mode hopping; although this is inconclusive as the object depth was quite limited.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Thu Jul 06, 2006 5:21 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I googled around some and found this paper. Even though it&#x27;s about blue diodes it gives some idea of what to expect with red diodes. The correlation of forward voltage and wavelength (from which temperature can be inferred) on very short timescales was unexpectedly good, though of course you don&#x27;t see the mode hops in the forward voltage data. <br><br>&quot;Time Resolved Study of GaN-Based Laser Diode Characteristics During Pulsed Operation&quot; - Christoph Eichler<br><br>[http://www-opto.e-technik.uni-ulm.de/fo ... 002_ce.pdf](http://www-opto.e-technik.uni-ulm.de/forschung/jahresbericht/2002/ar2002_ce.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Thu Jul 06, 2006 1:24 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Tom- <br><br>Thanks for the reference - it looks like its very relevant to what I was proposing - from a quick scan, it would seem that mode hopping still occurs on a milliseconf time scale...</div>
+        </div>
+
+    <div class="thread-nav"><a href="5670.html" class="prev-thread">← question about holographic pictures</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5664.html" class="next-thread">2 channel denisyuk stereogram →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="307.html" class="card">
+                <h3>Laser diodes and magnets</h3>
+                <div class="card-meta">Equipment · 13 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8218.html" class="card">
+                <h3>Experience with red laser diodes</h3>
+                <div class="card-meta">Beginning Holography · 8 posts</div>
+            </a>
+            <a href="7974.html" class="card">
+                <h3>detection of mode-hopping in laser diodes</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

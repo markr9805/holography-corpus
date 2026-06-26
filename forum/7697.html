@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsed &quot;multi mode&quot;? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7728.html" class="prev-thread">← Chemical mixing order question</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7684.html" class="next-thread">Noobie Holotable →</a></div>
+    <h1>Pulsed &quot;multi mode&quot;?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>14</td></tr>
+        <tr><td>Views</td><td>8,616</td></tr>
+        <tr><td>Started</td><td>Wed Jan 28, 2009 9:28 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holo-cyware.html">holo_cyware</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/dutchelm05.html">Dutchelm05</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/larryd.html">LarryD</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7697" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holo_cyware</span>
+                <span class="post-date">Wed Jan 28, 2009 9:28 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I am wondering if in pulsed holography (not rubby but the 532 green) some kind of stabilisation for the laser is needed, or for the 20 ns pulse there is no such thing as &quot;multimode&quot;?<br><br>In other words, say I get a 1J capable Nd:YAG laser. If I shot it thru a KTP, would the resulted green capable of providing me with a &quot;bread slices free&quot; hologram or not? Is there some extra stabilisation needed?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Jan 28, 2009 4:16 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It all revolves around how single-frequency the beam is before the frequency doubler. An intra-cavity doubler is regarded as the more efficient way to do things.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 28, 2009 6:31 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">A pulsed laser can have a non gausian profile (muli mode temperally) or muliple lines lasing (multi mode transversly) or non polarized (no brewsters or polarization filters). Pretty much all things that need to be controlled for making a hologram has to be present (or controleed) in the pulsed laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dutchelm05</span>
+                <span class="post-date">Wed Jan 28, 2009 6:57 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> A pulsed laser can have a non gausian profile (muli mode temperally) or muliple lines lasing (multi mode transversly) or non polarized (no brewsters or polarization filters).<br><br>Your right on all accounts but KTP should only lase in one polarization (unless it is a brifrigent crystal) if I remember correctly. IMO at 20ns you might have a good chance of it being single mode temporally (no thermal lensing), but I doubt you would be spatailly. We would have to see what your cavity looks like i.e curvature of OC and HR, distances, etc.<br><br>You can lase it external cavity but as Ed said it is not as effecient. You would need to be careful of the type of crystal you use since some are more brifrigent than others at high peak energy. Is this q-switched? A 20ns flash lamp pulse at one jolue is pretty amazing.<br><br>Good Luck,</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 28, 2009 7:23 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">So Tony, does that mean the KTP is polarization sensitive? That is, you need to orientate the crystal with the polarization of the laser? Or does the crystal act as a polarizer (brewster windows or something)?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dutchelm05</span>
+                <span class="post-date">Wed Jan 28, 2009 7:39 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">So Tony, does that mean the KTP is polarization sensitive? That is, you need to orientate the crystal with the polarization of the laser? Or does the crystal act as a polarizer (brewster windows or something)?<br><br>Well its been a while, but KTP (at least intra-cavity) is preferentially polarized. On one of the sides of the crystal there is nomally an arrow which indicates orientation. If I remember correctly, it&#x27;s doubling is only using one polarization of the YAG, (which is sometimes why they use a quater wave plate intracavity). You also have to match the phase angle as well, which requires temperature regulation and XYZ tuning. <br><br>In some systems I worked on, we used a rotating waveplate and polarizer to attenuate the beam (externally) so the polarization was important. <br><br>I don&#x27;t know if you ever heard of a laser called the Greenlight (you may not be old enough to worry about your prostate ) but that is one of the systems I helped developed many years ago. It is a high power KTP (100 watts average)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 28, 2009 8:06 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Thanks Tony. I worked for years with pulsed lasers but we never had a need to frequency double them. <br><br>Just a few more synaptic connections added.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jan 28, 2009 8:56 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>holo_cyware:</strong> I am wondering if in pulsed holography (not rubby but the 532 green) some kind of stabilization for the laser is needed, or for the 20 ns pulse there is no such thing as &quot;multimode&quot;?In other words, say I get a 1J capable Nd:YAG laser. If I shot it thru a KTP, would the resulted green capable of providing me with a &quot;bread slices free&quot; hologram or not? Is there some extra stabilization needed?<br><br>Normally a TEM00 pulsed laser has a first stage that is designed simply to be TEM00. Then the power comes from amplifying stages later on. I made a SSY work in TEM00 and it took adding a pinhole and reducing its power significantly.<br><br>To get a Single Longitudinal Mode is not as hard. The only sliced bread pulsed holograms I have seen have been from double pulses.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holo_cyware</span>
+                <span class="post-date">Thu Jan 29, 2009 7:18 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">That&#x27;s what I assumed; the pulse duration is simply to short to ruin the hologram. That also may mean that every pulse has a different &quot;pattern&quot; of frequencies, maybe unique, the crystal temperature being the most important factor, hence bread lines for a two-pulse exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dutchelm05</span>
+                <span class="post-date">Thu Jan 29, 2009 3:18 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">holo cyware,<br><br>Any way you can share what kind of system delievers 1 joule at 20ns?<br><br>What rod size is that?<br><br>Is it q-swtiched?<br><br>Just curious.<br><br>Thanks,<br><br>Tony</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">LarryD</span>
+                <span class="post-date">Thu Jan 29, 2009 4:01 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>holo_cyware:</strong> ... That also may mean that every pulse has a different &quot;pattern&quot; of frequencies, maybe unique, the crystal temperature being the most important factor, hence bread lines for a two-pulse exposure.<br><br>I think the &quot;sliced bread&quot; look in that case is due more from the object moving a minute amount from one exposure to the next, which could be milliseconds-to-seconds apart. Tung Jeong from Integraf told me about a big dual pulsed ruby laser he has/had for sale, made specifically for holographic interferometry and you could use it to visualize modes of oscillation in things, or measure stresses on a surface, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holo_cyware</span>
+                <span class="post-date">Thu Jan 29, 2009 4:12 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Oh, sorry, it was all theorertical. I&#x27;d like to own such a system; I was just exploring the idea of using a SSY1 but the power was an erotic dream of mine.<br><br>If you like power, look here: [http://cgi.ebay.com/Nd-Glass-giant-lase ... dZViewItem](http://cgi.ebay.com/Nd-Glass-giant-laser-rod-mirrors-YAG-ruby-1064-nm_W0QQitemZ250351450370QQihZ015QQcategoryZ109452QQssPageNameZWDVWQQrdZ1QQcmdZViewItem) &lt;---- Instant vaporisation of the glass plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dutchelm05</span>
+                <span class="post-date">Thu Jan 29, 2009 5:20 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">I think I have rod envy <br><br>Thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jan 30, 2009 2:25 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>LarryD:</strong> holo_cyware wrote:... That also may mean that every pulse has a different &quot;pattern&quot; of frequencies, maybe unique, the crystal temperature being the most important factor, hence bread lines for a two-pulse exposure.I think the &quot;sliced bread&quot; look in that case is due more from the object moving a minute amount from one exposure to the next, which could be milliseconds-to-seconds apart. Tung Jeong from Integraf told me about a big dual pulsed ruby laser he has/had for sale, made specifically for holographic interferometry and you could use it to visualize modes of oscillation in things, or measure stresses on a surface, etc.<br><br>These lasers use a frequency locked seed laser to make sure the pulse is the same frequency for both pulses. This is not required if you are only making a single pulse and makes the design much less complicated.</div>
+        </div>
+
+    <div class="thread-nav"><a href="7728.html" class="prev-thread">← Chemical mixing order question</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7684.html" class="next-thread">Noobie Holotable →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8507.html" class="card">
+                <h3>pulsed holography</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="8383.html" class="card">
+                <h3>Pulsed hologram</h3>
+                <div class="card-meta">Gallery · 2 posts</div>
+            </a>
+            <a href="8148.html" class="card">
+                <h3>Pulsed Homemade Hologram</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="7609.html" class="card">
+                <h3>After 3 years, I&#x27;m back! Anyone doing cheap pulsed holos?</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="7210.html" class="card">
+                <h3>Beamspreading a pulsed beam</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

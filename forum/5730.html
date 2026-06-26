@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Hop Free Laser Diode (Part two), the need for an ECDL — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5736.html" class="prev-thread">← Squeegeeing Tips Anyone?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5731.html" class="next-thread">Thoughts on DPSS linewidth narrowing →</a></div>
+    <h1>Mode Hop Free Laser Diode (Part two), the need for an ECDL</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>2</td></tr>
+        <tr><td>Views</td><td>1,581</td></tr>
+        <tr><td>Started</td><td>Fri Jul 28, 2006 1:31 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/sergio.html">Sergio</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5730" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jul 28, 2006 1:31 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have had a chance to do some calculations in order to better understand the coherence length in laser diodes. I think some interesting conclusions can be made with some simple math:<br><br>- The number of nodes in a standing wave inside a laser cavity is: <strong>q=2nl/labda</strong>. (n=index of refraction, l=cavity length)<br><br>- Let&#x27;s try this with a imaginary diode with a crystal size of 1mm, and index of refraction of the crystal=1.5.<br><br>q=2<em>1.5</em>0.001/650e-9=4615 nodes.<br><br>- If we slightly heat the diode, in order to expand it&#x27;s l to fit one more node, we get 4616 nodes, right?<br><br>- This leads to a standing wavelength of: labda=2<em>1.5</em>0.001/4616=649.9nm<br><br>- So, our imaginary diode has a difference of wavelength between mode hops of 0.1nm.<br><br>- If the fluorescent line width of the lasing material in our diode (expressed in wavelength) is smaller than the difference between mode hops, only one standing wave would result inside the cavity and thus our imaginary diode would be single mode.<br><br>- The difference between two possible frequencies in a laser cavity can be expressed as: <strong>deltaF=c/(2<em>n</em>l)</strong>. Clearly a very big number in a diode because of the short cavity length. One would think that this is a good thing because it helps in making a short cavity suitable for only one mode.<br><br>- The band width of a single frequency in a cavity can be expressed as: <strong>Fbandwidth=deltaF*(T+L)</strong>. Where T is the transmission of the OC, and L is the round trip loss of the cavity.<br><br>- I think that here lies the cause of some single mode diodes having short coherence length, and some having very long ones.<br><br>- Now let&#x27;s assume that the L factor would be about the same for different laser diodes (of similar wavelength) that employ the same lasing semi conductor crystals.<br><br>- This would make the T factor (OC reflectivity) the main factor that separates the quality of different laser diodes.<br><br>- The coherence lenth of a cavity can be expressed as <strong>l=c/Fbandwidth</strong>. Now, we can see that some diodes (with a highly reflective OC side on the crystal) have very long coherence lengths, and others (with a high T factor, thus low reflectivity on OC side) have very short coherence lengths.<br><br>- Because diodes have very small cavities, single mode operation is easy to attain with proper manufactoring by assuring that the fluorescent line width is smaller than the (already big) deltaF. In essence, the cavity is it&#x27;s own Fabry Perot etalon.<br><br>- However, because deltaF is big (due to short cavity), this can easily lead to very short coherence lengths if the cavity is not enclosed by highly reflective mirrors.<br><br>- So, if the coherence length of a single mode laser diode is mainly dependant of the OC side on the crystal, here is an interesting possible conclusion:<br><br>A diode with a long coherence length (such as the HL6501MG and the HL6512MG), has a highly reflective OC facet on it&#x27;s crystal. Using a ECDL setup with this type of diode would be not necessary because the coherence length is already sufficient, <strong>and might not even be possible</strong> because the OC side is so reflective that no light from the grating that is used in the ECDL will be able to get back into the crystal.<br><br>A diode that has a very short coherence legth, will have a much more transparent OC facet on it&#x27;s crystal. If we remove the protective window of such a diode, the coherence length might be greatly increased to a value that is even bigger than that of the HL6512MG by using a ECDL setup. However, the losses introduced by the ECDL might be so big that it is difficult to get a decent power output from such a diode laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Fri Jul 28, 2006 12:33 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> I have had a chance to do some calculations in order to better understand the coherence length in laser diodes. I think some interesting conclusions can be made with some simple math:- The number of nodes in a standing wave inside a laser cavity is:q=2nl/labda. (n=index of refraction, l=cavity length)- Let&#x27;s try this with a imaginary diode with a crystal size of 1mm, and index of refraction of the crystal=1.5.q=2<em>1.5</em>0.001/650e-9=4615 nodes.- If we slightly heat the diode, in order to expand it&#x27;s l to fit one more node, we get 4616 nodes, right?- This leads to a standing wavelength of: labda=2<em>1.5</em>0.001/4616=649.9nm- So, our imaginary diode has a difference of wavelength between mode hops of 0.1nm.- If the fluorescent line width of the lasing material in our diode (expressed in wavelength) is smaller than the difference between mode hops, only one standing wave would result inside the cavity and thus our imaginary diode would be single mode.- The difference between two possible frequencies in a laser cavity can be expressed as:deltaF=c/(2<em>n</em>l). Clearly a very big number in a diode because of the short cavity length. One would think that this is a good thing because it helps in making a short cavity suitable for only one mode.- The band width of a single frequency in a cavity can be expressed as:Fbandwidth=deltaF*(T+L). Where T is the transmission of the OC, and L is the round trip loss of the cavity.- I think that here lies the cause of some single mode diodes having short coherence length, and some having very long ones.- Now let&#x27;s assume that the L factor would be about the same for different laser diodes (of similar wavelength) that employ the same lasing semi conductor crystals.- This would make the T factor (OC reflectivity) the main factor that separates the quality of different laser diodes.- The coherence lenth of a cavity can be expressed asl=c/Fbandwidth. Now, we can see that some diodes (with a highly reflective OC side on the crystal) have very long coherence lengths, and others (with a high T factor, thus low reflectivity on OC side) have very short coherence lengths.- Because diodes have very small cavities, single mode operation is easy to attain with proper manufactoring by assuring that the fluorescent line width is smaller than the (already big) deltaF. In essence, the cavity is it&#x27;s own Fabry Perot etalon.- However, because deltaF is big (due to short cavity), this can easily lead to very short coherence lengths if the cavity is not enclosed by highly reflective mirrors.- So, if the coherence length of a single mode laser diode is mainly dependant of the OC side on the crystal, here is an interesting possible conclusion:A diode with a long coherence length (such as the HL6501MG and the HL6512MG), has a highly reflective OC facet on it&#x27;s crystal. Using a ECDL setup with this type of diode would be not necessary because the coherence length is already sufficient,and might not even be possiblebecause the OC side is so reflective that no light from the grating that is used in the ECDL will be able to get back into the crystal.A diode that has a very short coherence legth, will have a much more transparent OC facet on it&#x27;s crystal. If we remove the protective window of such a diode, the coherence length might be greatly increased to a value that is even bigger than that of the HL6512MG by using a ECDL setup. However, the losses introduced by the ECDL might be so big that it is difficult to get a decent power output from such a diode laser.<br><br>The ECDL setup is more used in mm (longitudinal) lasers due the absence of mode hope. These diodes are more powerful than any sm diode, specially at longer WL as per example 780nm.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5736.html" class="prev-thread">← Squeegeeing Tips Anyone?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5731.html" class="next-thread">Thoughts on DPSS linewidth narrowing →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5639.html" class="card">
+                <h3>Mode Hop Free Laser Diode</h3>
+                <div class="card-meta">General Holography (old) · 41 posts</div>
+            </a>
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="8743.html" class="card">
+                <h3>Integraf Diode Vs Generic Laser diode</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="192.html" class="card">
+                <h3>Need a blue laser solution</h3>
+                <div class="card-meta">Equipment · 28 posts</div>
+            </a>
+            <a href="8411.html" class="card">
+                <h3>Laser Diode Question</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="8333.html" class="card">
+                <h3>Coaxial package diode laser with SM Fiber/PM Fiber</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

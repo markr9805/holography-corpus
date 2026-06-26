@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronics help needed — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8042.html" class="prev-thread">← where can i buy DMD ??</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8035.html" class="next-thread">how much do you know about DMD?? →</a></div>
+    <h1>electronics help needed</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>22</td></tr>
+        <tr><td>Views</td><td>6,400</td></tr>
+        <tr><td>Started</td><td>Sat Oct 24, 2009 12:42 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/favalora.html">favalora</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/a-k.html">a_k</a> · <a href="../authors/viking.html">Viking</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8043" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Oct 24, 2009 12:42 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;m pretty much stumped on this one. I want a LED to turn on gradually, say in a 1 to 4 second time frame.<br><br>If a hologram display includes a LED for illumination, which comes on automatically (I plan to use a PIR detector as part of the circuit) the LED will of course turn on rapidly. In other words, it will &quot;blink&quot; on. In my opinion, this is highly undesirable, as the system will look more like a halloween prop than a serious display for a hologram. Since the new types of LED are quite powerful, in the 1 watt range, some type of slow-start or soft-start circuit would be even more important, since a powerful LED which flashes on would be quite distracting for the viewer.<br><br>But after a week of hard searching, this appears to be a fairly difficult task. Soft-start circuits exist, but seldom do they state how long the start-up period is. In many cases, it&#x27;s very short, much less than 1 second. I did find a circuit which has a 1 second soft-start time, which is definitely at the lower limit of what I want:<br><br>[http://www.edn.com/article/CA6409618.html](http://www.edn.com/article/CA6409618.html) <br><br>It doesn&#x27;t need a lot of components, just a cheap IC, two transistors, two resistors, and a capacitor. But I was hoping for something longer than 1 second.<br><br>There is also a tantalizing description of another circuit, but unfortunately they want $40 for the complete paper, which is only 2 pages long:<br><br>[http://www.priorartdatabase.com/IPCOM/000036795/](http://www.priorartdatabase.com/IPCOM/000036795/) <br><br>But I don&#x27;t know what the slow-start time period might be.<br><br>There is another circuit involving a mosfet which I&#x27;m looking into, but again I have no idea about the slow-start period:<br><br>[http://kopka.at/elektr_e.htm](http://kopka.at/elektr_e.htm)<br><br>and a reference to a similar circuit on a forum at:<br><br>[http://forum.allaboutcircuits.com/showt ... hp?t=24273](http://forum.allaboutcircuits.com/showthread.php?t=24273) <br><br>Any new ideas or advice would be greatly appreciated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sun Oct 25, 2009 1:39 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hi Joe - <br><br>I studied analog circuit design, but have forgotten almost everything I know. The only thing that jumped to mind was a simple &quot;passive integrator circuit.&quot; Maybe the best way to explain it is to suggest that you see Fig. 1 in this Wikipedia article:<br><br>[http://en.wikipedia.org/wiki/Passive_integrator_circuit](http://en.wikipedia.org/wiki/Passive_integrator_circuit) .<br><br>The values of R and C should be chosen such that RC is roughly the on-time (I guess it&#x27;s actually 63% of on-time):<br><br>[http://en.wikipedia.org/wiki/File:Serie ... oltage.svg](http://en.wikipedia.org/wiki/File:Series_RC_capacitor_voltage.svg)<br><br>If you have some basic electronics knowledge, you could do better if you estimated the impedance of your LED, so that you could work out how that impacts your choice of R and C.<br><br>[http://en.wikipedia.org/wiki/RC_circuit](http://en.wikipedia.org/wiki/RC_circuit)<br><br>But there&#x27;s no harm in trying. Grab a, say, 1 uF capacitor, and a 1 Megohm resistor, and try it. If you want a longer delay, try higher values of R or C, like 5 Megohms or 10 uF.<br><br>Maybe this URL will give you some comfort (ignore the op amp)<br><br>[http://www.wolframalpha.com/input/?i=in ... tor.vp_5+V](http://www.wolframalpha.com/input/?i=integrator&amp;a=<em>C.integrator-_</em>Formula.dflt-&amp;a=*FP.Integrator.SignalShape-_square&amp;f3=0+V&amp;f=Integrator.Vi_0+V&amp;f4=1000000+ohms&amp;f=Integrator.R_1000000+ohms&amp;f5=1+microfarad&amp;f=Integrator.C_1+microfarad&amp;f6=8.5+s&amp;f=Integrator.tf_8.5+s&amp;f7=5+V&amp;f=Integrator.vp_5+V)<br><br>Fine point: the LED light output won&#x27;t be linear, so the switch-on might not appear as gradual as you&#x27;re hoping.<br><br>-gregg</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Oct 25, 2009 9:59 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Gregg. Yes, I tried a simple resistor/capacitor system, and it does provide an adequate delay. The LED fades in when power is applied, and fades out when the power is taken away. Unfortunately it requires high resistor values, which can&#x27;t be used if the brightness of the LED is to be maintained. With a 9-volt battery and the LEDs I&#x27;m using (the ones in the thread &quot;new 8mm and 10mm LEDs&quot;) they only need about 30 ohms resistance. Anything over that, and the light output goes down rapidly.<br><br>At this point, I&#x27;m thinking about programming a simple microcontroller like picaxe. Maybe that will work? I don&#x27;t have any programming experience, except for a class I took (almost 30 years ago) where we did a little BASIC. But the picaxe system is inexpensive, and is supposed to be for beginners, so that sounds encouraging.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sun Oct 25, 2009 11:04 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hi Joe - <br><br>Oops! If mentioned that you already tried the simple RC circuit in that original e-mail, I apologize for blathering on like that. (And, if you hadn&#x27;t, I&#x27;m glad you tried it.)<br><br>It is reasonable to try a micro-controller, but that&#x27;s a lot of work. First, I&#x27;d try a simple Op-amp integrator, if you have a copy of some basic EE book lying around (or Horowitz and Hill). The op-amp will has a high input impedance (meaning it won&#x27;t put a strain on the RC combo) and a great output rail, so your LED could be driven perfectly.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Oct 26, 2009 2:26 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">A ridiculously simple RC circuit that I&#x27;ve used is found in the instruction booklet by Forest Mims in the Electronics Learning Lab kit sold by Radio Shack.<br><br>I used it to ramp up and ramp down some LED&#x27;s behind a photograph of one of my sons holding a strange light bulb, so it looks like he&#x27;s holding a jar of lightning bugs!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Mon Oct 26, 2009 8:55 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Hello Joe<br><br>Thank you for the other thread about the very interesting LEDs. Very nice hologram you have there.<br><br>&gt; Unfortunately it requires high resistor values, which can&#x27;t be used if the brightness of the LED is to be maintained. With a 9-volt battery and the LEDs I&#x27;m using (the ones in the thread &quot;new 8mm and 10mm LEDs&quot;) they only need about 30 ohms resistance. Anything over that, and the light output goes down rapidly.<br><br>The LEDs series resistance should have no influence on the duration of ramp-up. If the R/C resistor value for the desired length of time is getting too large to allow full brightness of the LEDs you could try transistors with a higher current gain (HFE), a darlington transistor, or higher values for the capacitor.<br><br>The smallest and cheapest microcontroller (like a PIC12F508/509) would be good enough for the LED sunrise job. I guess they cost less than $1 a piece. There are very simple programmers for them too.<br><br>You could also eliminate the NE555 and do the timing with the microcontroller. As an added bonus the stand by current would be 100nA only, so virtually all of the batterie&#x27;s capacity would be used up in a productive way for driving the LED&#x27;s and not for waiting to do so. Well, almost, as 2/3 of the batteries energy is wasted for heating the LED&#x27;s current limiting resistor anyway. A microcontroller could also help optimizing the power consumption of the LED&#x27;s and getting some of those 2/3 back.<br><br>&gt; I can connect that to a 555 or 7555 timer and the light can go on/off only when needed, say for 1 minute or so. So, if the batteries last 16 hours, that would be 960 cycles before the batteries need to be replaced.<br><br>There might be low consumption versions of the 555 but the ordinary ones would have a standby current of 5mA@9V and the 9V battery would be discharged very soon.<br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Oct 26, 2009 9:41 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>favalora:</strong> First, I&#x27;d try a simple Op-amp integrator, if you have a copy of some basic EE book lying around (or Horowitz and Hill). The op-amp will has a high input impedance (meaning it won&#x27;t put a strain on the RC combo) and a great output rail, so your LED could be driven perfectly.<br><br>Thank you Gregg.<br><br>I&#x27;ve included some diagrams below. The first one shows what I used to make a simple RC circuit for a LED to fade in and out. The problem with this circuit is when I increase the value of the first resistor (near the +9V) to get an adequate fade-in, the ohm value is far too high to get adequate brightness from the LED.<br><br>The second diagram is from a Forrest Mims booklet, showing two op-amp integrator circuits. The third diagram is from the fourth link you provided above, showing a simpler circuit which appears to do the same thing -- take a square wave input and change it into a triangular wave output.<br><br>But I&#x27;m afraid I&#x27;m foggy on how to try this in combination with the RC circuit.<br><br><strong>*</strong><br><br>Hi Ahmet, I was hoping you would chime in. In the above circuit, increasing the value of the first resistor (near the +9V) caused the fade-in time to be longer. With low ohm values, there was no fade-in, it just blinked on. I can try this again to verify. Increasing the value of the capacitor (up from 470 to 1000 microfarads) caused the fade-out time to be longer.<br><br>I have been planning to use a transistor if needed. I&#x27;m going to need to get 80mA (and maybe as much as 300mA) at ~3.5V to the LED, so a transistor is probably indicated. That&#x27;s interesting about possibly eliminating the 555 by using a microcontroller. I was wondering about that. As you mentioned, the static current issue is very important, the 555 is probably unacceptable for that reason. I was really planning on using the 7555 which is a low power version of the 555 that has a static current of only 60 microamps. I didn&#x27;t know that a microcontroller can have such a low static current like you said -- I&#x27;m very happy to hear that.<br><br>I&#x27;m reading up on microcontrollers, and there seem to be a number of choices. The PIC seems to have been around for a while as the &quot;standard&quot; but it&#x27;s intimidating for a nontechnical dweeb like me. A popular choice these days seems to be Arduino. There is also picaxe, which seems to be the most user-friendly for the beginner.<br><br>My components are slowing coming in. Some new warm white LEDs came in today, and I expect a PIR board to arrive shortly. This new PIR board looks very interesting, it&#x27;s very tiny, only 13mm X 27mm, and has a static current of only 50 microamps. I will keep posting as things develop.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Tue Oct 27, 2009 1:36 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Hello Joe<br><br>Oh, now i understand the problem about the resistor values. One simple solution would be to use a gold-cap. They are tiny and have huge values. The one below is 10mmx4mm and has a capacity of 330&#x27;000uF.<br><br>![gold-cap](https://holographyforum.org/forum/download/file.php?id=6492)<br><br>Good to see that the 7555 is not consuming too much. You could use one of them as timer and keep the simple R/C circuit with a larger capacitor. <br><br>Alternatively you could use the circuit below for the sunrise effect. The 2N1613 can be used up to 500mA but then a heatsink might be needed. I just built the circuit with values as close to yours as possible (LED with 3.7V, 140mA) and it works ok. If you would want to use more than the 100-130mA it would be wise to look for an alternative for the 9V battery as they are not made for high currents usually.<br><br>![dscn3610-1.jpg](https://holographyforum.org/forum/download/file.php?id=6491)<br><br>Your probably are right about Arduino/Picaxe being easier to get started. I just checked on the picaxe website and their prices don&#x27;t seem to be excessive neither. The PICAXE-08 starter kit for instance is listed at about UK£ 8.50 and includes everything needed. Not too bad.<br><br>For me microcontrollers are fascinating as they provide very flexible and simple solutions to all sorts of problems. And they got much simpler to use too. <br><br>The tiny PIR board you mentioned sounds interesting. I would be glad to hear more about it and about how the whole project gets on.<br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Oct 27, 2009 11:02 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Wow, thanks Ahmet :dance: <br><br>In appreciation, please let me send you a selection of my newest LEDs. (I must have misplaced your address, could you please send a PM?) Regarding white LEDs, there is an interesting thread at:<br><br>[http://www.candlepowerforums.com/vb/sho ... hp?t=89607](http://www.candlepowerforums.com/vb/showthread.php?t=89607) <br><br>I made a couple of posts there (it&#x27;s a long thread, my posts are near the end) where I give the specs of the LEDs which I received yesterday. The person who has been doing extensive tests of white LEDs said that those specs have been exaggerated and &quot;physically impossible.&quot; It seems that this is business as usual for suppliers of LEDs, and I have yet to test them. It may be about a week before I send them to you, because I&#x27;m still waiting for the last LED, a warm white 5mm that only requires 20mA (the supplier claims that it has very high power, I think the figure given was 23,000mcd @ 120 degree viewing angle). This LED is supplied in a slighly different kind of package that I&#x27;m not familiar with, called &quot;high-flux&quot; or piranha. It&#x27;s rectangular and might be a bit more awkward to deal with.<br><br>Yes you&#x27;re right about 300mA being too much for a 9V battery, I forgot about that. But at this point I don&#x27;t think I will need to go nearly that high. I&#x27;ve also bought a 9V lithium (Ultralife) battery which costs about twice as much as an alkaline, but which is supposed to last 3 to 5 times longer.<br><br>Here&#x27;s the link to the PIR module I bought off eBay (it hasn&#x27;t arrived yet). Hopefully the link will work, as it&#x27;s very long:<br><br>[http://cgi.ebay.com/Smallest-PIR-Moveme ... 53dcef2ba4](http://cgi.ebay.com/Smallest-PIR-Movement-Sensor-Module-with-Shield-27x13mm_W0QQitemZ360188947364QQcmdZViewItemQQptZBI_Security_Fire_Protection?hash=item53dcef2ba4) <br><br>I will be removing the plastic shield/lens. I&#x27;ve found that a PIR will work if the lens is removed, and the IR passes through a tiny hole before reaching the detector. The hole can be on the order of 1 to 2mm, and the PIR will work, but with much reduced range. This reduced range is quite OK and in fact desirable, because I would like the viewer to get quite close before actuating it. (Since the holograms are small, 4 X 5 or less, the viewer will need to get close anyway.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Tue Oct 27, 2009 6:04 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Hello Joe<br><br>Your welcome. Thanks for your kind offer, i&#x27;ll pm you.<br><br>Interesting thread at candlepowerforums. jtr1962 must have spent lots of time for testing all the LEDs and compiling the data, which is rather valuable as , like you said, many sellers wildly exaggerate the performance. Looks like the LEDs got quite powerful and efficient lately.<br><br>Have you looked at dealextreme for LED stuff? They have quite a variety and all sorts of related stuff like this upconverter ($3.50, shipment included), which takes a single 1.5V battery and upconverts the voltage so LEDs in the 3.5V region can be driven. Seems to be quite efficient. <br><br>[http://www.dealextreme.com/details.dx/sku.7302](http://www.dealextreme.com/details.dx/sku.7302)<br><br>I have used hi-flux piranha style LEDs and actually liked the flat package. They have 4 pins which are pairwise connected. There is more metal mass in them which is supposed to help with the dissipation of heat. The ones i have can be driven up to 40mA.<br><br>The PIR link worked fine. 50uA stand-by current sounds good. Did you notice that the PIR sensor does turn the output on for 20 seconds and as long as there is movement in it&#x27;s range the period gets restarted without interruption. Maybe this feature would obsolete the 1 minute 555 timer? <br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Oct 27, 2009 6:45 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks, Ahmet, I will take a look at dealextreme. I&#x27;ve wondered about boosting a lower voltage battery. Then there wouldn&#x27;t be the power being wasted due to a resistor getting hot from a higher voltage like 9V. On this subject, it&#x27;s been suggested that, instead of using a resistor for limiting the current, a cheap diode (actually a series of diodes in my 9V case) be used to get the necessary voltage drop. There seem to be two schools of thought on this approach, some say that it prolongs battery life considerably, others say it doesn&#x27;t. But my current guess is that it will, because of what I read here:<br><br>[http://www.electronics-project-design.c ... esign.html](http://www.electronics-project-design.com/LEDCircuitDesign.html) <br><br>Yes, I did indeed notice that the PIR has a 20 second on time, taken from the last &quot;trigger.&quot; Just as you said, I have my fingers crossed that this will eliminate the need for a timing circuit. But I have to see for myself how reliably it operates.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Tue Oct 27, 2009 9:13 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Exactly. Compared to using 9V, boosting a lower voltage would be about double as efficient.<br><br>Series diodes cause a fixed voltage drop (still varying very little) while the voltage drop with a resistor causes a variable voltage drop which gets smaller with time. In both cases the emptier the battery gets, the less current would go through the LED. The percentage of power lost by a series diode would increase, that of a series resistor would decrease the emptier the battery gets. Therefore the total amount of power dissipated by the series diode would be larger. For a 3V battery and a 2.3V LED you could use a diode to drop the voltage but for a 9V battery and a 3.5V LED i would rather use a series resistor. <br><br>Let&#x27;s hope that the PIR behaves as it should.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 28, 2009 11:22 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Thanks for clarifying the resistor vs. diode issue, Ahmet. Regarding the gold-caps, I was wondering what range of values might be worth trying.<br><br>My supplier (Mouser) seems to have two kinds, rated for 2.5 and 5.5V. I was planning on using a 9V battery, so I guess that will need to be dealt with. For the 5.5V variety, they have:<br><br>Value in Farads (price): 0.047 ($3.48), 0.10 ($1.98), 0.22 ($2.06), 0.33 ($1.85), 0.47 ($5.41), 0.47 ($5.41), 0.68 ($8.72), 1 ($4.82) and 1.5 ($5.55)<br><br>Not quite as cheap as buying resistors</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 28, 2009 1:07 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Ahmet, in the transistor circuit you built above, I didn&#x27;t understand what &quot;tun&quot; means. It looks like two transistors, are they both 2N1613? (Sorry if my electronics ignorance is showing )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Wed Oct 28, 2009 1:34 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">If it makes you feel any better, I&#x27;m curious about that too.<br><br>This is a really great example of the value of this forum, by the way! It&#x27;s great to see such generous advice!<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Wed Oct 28, 2009 2:06 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Hello Joe<br><br>Sorry, TUN means &quot;transistor universal NPN &quot;, that means you can use any NPN type small transistor, it&#x27;s not critical at all. You can also replace the 2N1613 (which has a max. current of 500mA) with any another type as long as it&#x27;s maximum ratings are higher than the current of the LEDs.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 29, 2009 11:32 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Thanks Ahmet. I put together a quickie circuit based on your diagram (see photo below). I has a really nice fade-in effect, lasting about 7 seconds. When power is applied, there is no effect for about 3 seconds, then the fade-in lasts about 7 seconds before reaching full brightness. I didn&#x27;t try to adjust the potentiomenter yet for any different effect. The only problem is that when power is applied again, there is no delay before the LED comes on. If I discharge the capacitor by touching the negative side of the battery to the positive side of the capacitor, it &quot;resets&quot; and the LED comes on slowly again. Also, I did want to include a fade-out as well (the LED goes out quickly).<br><br>The components I used were: two NTE123AP transistors (rated up to 600mA), a 1M potentiometer (set to 100K), a 1000 uF electrolytic capacitor, a 1/2 watt 4.7K resistor, a power resistor (100 ohms), the LED, and a 9V battery.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Thu Oct 29, 2009 7:45 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Joe, the circuit behaves differently when a single 20mA LED is used. If you would use a 100-140mA LED and a 30-40 Ohm series resistor, the capacitor would get discharged within about 5 seconds after the battery is disconnected and a new startup would be from zero brightness again. A switch between the pot and +9V would, depending on its setting fade the LED in or out. <br><br>The LED gets its supply voltage directly from the battery, not from the capacitor, so as soon as the battery is disconnected, it turns off. 1000uF would not hold enough charge to directly supply an LED for several seconds. A switch between the pot and +9V would, depending on how it is set, fade the LED in or out.<br><br>For automatic fade in / fade out you could use the following circuit. It stays connected to the battery. When there is a positive voltage at the CTRL+ input the LED fades in and remains bright as long as the input is on high level. As soon as the input gets low, it fades out and remains dark.<br><br>![sunrise.jpeg](https://holographyforum.org/forum/download/file.php?id=6494)<br><br>I did notice the 3sec delay too. If you take a smaller capacitor, like 100-220uF, the fade in would start almost immediately and still last long enough if you set the pot higher than 100k.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Viking</span>
+                <span class="post-date">Thu Oct 29, 2009 8:31 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Hey Joe<br><br>Does your PIR have a relay as output? In that case I would simply connect that relay between the potmeter and + (like A_K does with his transistor).<br><br>For the fadeout you need a resistor parallel to the capasitor to drain it slowly. And you leave the circuit connected to the battery all the time. <br><br>The resistor parallel to the capasitor will affect the fade on a bit, you might need to adjust the pot a little. I believe the circuit above will take a long time<br><br>to fade out if you don&#x27;t use a resistor on the capacitor.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 29, 2009 8:49 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">Thanks for your patience with this, Ahmet. After my last post, I realized that the capacitor does indeed get discharged, but it takes a long time in my case (more than 40 seconds with my 120mA LED). I know the 100 resistor was out of spec., but I didn&#x27;t have anything convenient in the 30 to 40 range. I really appreciate the new diagram, and see that you included an input, ready for the PIR I will study the diagram and get the components together.<br><br>Viking, thanks for your comments, I will keep them in mind. The PIR doesn&#x27;t have a relay, it just puts out a pulse.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Viking</span>
+                <span class="post-date">Thu Oct 29, 2009 9:18 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">100 Ohms or 30 Ohms only makes the LED brighter og dimmer. It does not affect fade out time...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Fri Oct 30, 2009 12:28 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Viking is right. In the second circuit a resistor parallel to the capacitor is needed indeed. 50-100k would result in a sufficiently slow fade out. I&#x27;ve built the circuit without the base resistor, which was added later to the schematics. And in this version the capacitor got discharged a few seconds after disconnecting it from the battery through the base-emitter junction of the transistors without a bleeding resistor.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8042.html" class="prev-thread">← where can i buy DMD ??</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8035.html" class="next-thread">how much do you know about DMD?? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="9648.html" class="card">
+                <h3>coating help needed</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 10 posts</div>
+            </a>
+            <a href="5964.html" class="card">
+                <h3>Help Needed in Holgram Shooting</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="5870.html" class="card">
+                <h3>Help needed</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5854.html" class="card">
+                <h3>Help Needed</h3>
+                <div class="card-meta">General Holography (old) · 15 posts</div>
+            </a>
+            <a href="5414.html" class="card">
+                <h3>Help Needed in Holography</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="11405.html" class="card">
+                <h3>Holography Lab help</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

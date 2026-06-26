@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H1 masters - shrink or no shrink? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3090.html" class="prev-thread">← Excellent paper on Lasers, specifically the YAG</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3084.html" class="next-thread">Holographic Data Storage - Spatial Light Modulator →</a></div>
+    <h1>H1 masters - shrink or no shrink?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>1,124</td></tr>
+        <tr><td>Started</td><td>Sun Jan 30, 2005 10:47 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/tony.html">Tony</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/dinesh.html">Dinesh</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3083" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sun Jan 30, 2005 10:47 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">When making H1 masters, does it make any difference if the emulsion gets shrunk by processing? I would expect it to change the required illumination angle away from that which was used in recording the H1, but are there any other undesirable effects? Is there a reason to use processing that preserves the replay angle?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sun Jan 30, 2005 11:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">No doubt about it, shrinkage is to be avoided. Tilting off the original angle will start introducing new and unpleasant aberrations, and screw up your color alignment if you are doing registered RGB images.<br><br>This is if you are going for perfect replay and have a nice collimated beam, etc. If you&#x27;re just goofing around with one color and are using the old &quot;longest possible beam throw&quot; approach then a bit of coma from the wrong tip angle won&#x27;t be noticed so much amongst the spherical aberration and astigmatism!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Jan 31, 2005 8:07 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">[quote:004cbffb45=&quot;Tony&quot;]When making H1 masters, does it make any difference if the emulsion gets shrunk by processing? I would expect it to change the required illumination angle away from that which was used in recording the H1, but are there any other undesirable effects? Is there a reason to use processing that preserves the replay angle?[/quote:004cbffb45]<br><br>There is, depeding on your intentions. Despite popular misconception (very popular. Even experienced holographers have argued with me over this one!) a typical H1 is a volume hologram. The fringes exist as planes within the emulsiuon. I say &quot;typical&quot; because the condition is, very loosely, that the fringe seperation needs to be about 1/10th of the emulsion thickness or less to qualify for a volume hologram and the fringe seperation is dependant on the interbeam angle, so for the old Agfa, if the interbeam angle was greater than about 7 degrees you had a volume hologram. Probably pretty much the same for Slavich. Since the fringes exist as planes, any shrinkage will cause the planes to twist. Since the planes are not parallel (unless you&#x27;re shooting a HOE), some planes will twist more than other planes resulting in different parts of the image distorting in different ways. If the twist is small then you may not notice anything. However exact image planing is almost impossible. If you, for instance, have an animal and you want to image plane exactly on the tip of the nose, you won&#x27;t be able to. If the twist is too large, then you&#x27;ll no longer be able to get the Bragg condition for all planes. This will result in some parts of the image being dimmer, or even non-existent. You may also get vignetting - the dimming of an image at the edges - due to the fact that a diverging reference is at it&#x27;s largest angle to the (direct) object beam at the edges of the plate. Since the twist is a percentage effect, the small percentage of a large spatial frequency translates to a large absoilute twist. So, let&#x27;s say your reference is at 60 degrees to the plate center and the plate is 4x5. Then the angle at the edge of the plate, may be 80 degrees due to beam divergence. The fringe seperation has increased by the ratio sin(80)/sin(60). At these higher angles, the sin function increases pretty rapidly, so the increase is significant. Thus, if your plate has swelled so as to cause a twist of 10%, then at the edge of the plate the twist angle has increased by 10% of (sin(80)/sin(60). to the twist angle at the center of the plate.<br><br>Another problem is that it&#x27;s nice to be able to leave the setup as is and simply re-insert the H1 to show the pseudo. If the twist angle is large, you have to twist the plate holder to get the brightest image. As an aside, I do this by hitting the plate with a raw beam and twisting the plate holder till I get the brtightest playback. This makes life a little easier since I don&#x27;t use any lenses in the reconstruction beam and so don&#x27;t have to take lens alignemnt into account.</div>
+        </div>
+
+    <div class="thread-nav"><a href="3090.html" class="prev-thread">← Excellent paper on Lasers, specifically the YAG</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3084.html" class="next-thread">Holographic Data Storage - Spatial Light Modulator →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="380.html" class="card">
+                <h3>Is Beam Ratio Important when making H1 Masters</h3>
+                <div class="card-meta">Techniques · 14 posts</div>
+            </a>
+            <a href="5573.html" class="card">
+                <h3>H1 and H2 with no beamsplitters</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11288.html" class="card">
+                <h3>ISDH 2023 - anybody going?</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11024.html" class="card">
+                <h3>Horizontal stripes - along same depth, like ISO lines...</h3>
+                <div class="card-meta">Equipment · 18 posts</div>
+            </a>
+            <a href="10382.html" class="card">
+                <h3>TRANSMISSION MASTER TO REFLECTION COPY - QUESTION</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

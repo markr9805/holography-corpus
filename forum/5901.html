@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measuring thickness — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5903.html" class="prev-thread">← Michael Harrison on HoloTalk!</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5900.html" class="next-thread">psudo color dcg holography →</a></div>
+    <h1>Measuring thickness</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>1,254</td></tr>
+        <tr><td>Started</td><td>Wed Nov 29, 2006 4:58 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/uli.html">Uli</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5901" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Nov 29, 2006 4:58 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have tried to measure thickness as described by Thiry (and in my post: [http://holographyforum.org/phpBB2/viewt ... =thickness](http://holographyforum.org/phpBB2/viewtopic.php?t=4715&amp;highlight=thickness)).<br><br>For this purpose I tried a setup copy of the drawing I made in that post, and I tried with optical cable (for DVD audio) with a optical cable splitter. I made a small cardboard box spectrometer with a piece of a DVD.<br><br>Both experiments gave no result. No dark lines in the reflected spectrum. And now that I think about it, it seems unlikely to me how this method could ever work because of the short coherence length of white light. Yet, there are many companies that sell these kind of film thickness measurers at astronomical prices. So it must be able to give results.<br><br>Does anyone know what I am doing wrong?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Uli</span>
+                <span class="post-date">Thu Nov 30, 2006 10:12 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I use one of these expensive devices (from mut, germany) for thickness control of our plates. What I have learnt about them is that:<br><br>1- You will never see dark fringes. If you look at the setup posted by Hans on sept 24, you will notice that there are two beams interfering, one comes from the reflection from the front surface of the layer, and the other one comes from the boundary between the layer and the glass substrate. <br><br>The first beam is about 5% of the incoming beam (normal incidence reflection coefficient on the film-air boundary, 1.6 vs 1 refractive index). The other one is far weaker, since it comes from the boundary between film (approx refractive index 1.6) and glass substrate (approx refractive index 1.54). If you calculate the reflection coefficient you will find that it is lower than 0.2. The interference you get in those conditions is quite weak, so you need a good detector, with very low noise. Otherwise your noise will mask the signal. And that interference will be on top of the 5% reflection from the front surface.<br><br>If that is not enough, you also have an additional background reflection from the other side of the glass substrate, which will add an additional 5% background signal. So at the end you will have a background signal with 10% of the light from your white light source and the weak interference signal on top of that. That is why you can not see any fringe. Accordingly, what you need to do is to calibrate this background with an uncoated glass similar to the one you use for your plates and just make an easy spectra subtraction [signal from layer]-[glass reference].<br><br>The other problem comes with the range of measurements. If you measure layers in the range around 6 micron you will get about 20 maxima in a measuring range between 400 and 700 nm, which means you will have a maximum value every 15 nm. With a medium resolution spectrometer you can get a good result. But if you intend to measure a 20 micron layer the number of maxima goes up to almost 70 in the same range, so you get one maximum (and one minimum) every 4 nm. Max-min distance will be 2 nm. You will need a higher resolution spectrometer for that. The opposite happens with a thin layer. With a 1 micron layer you will be looking at a maximum every 100 nm, very difficult to evaluate, because of the bandwidth. I do not know what is the resolution you get with your dvd grating, but it is obviously related with what you want to achieve.<br><br>Do not worry about coherence with this spectral system. Everybody has seen Newton rings between two pieces of glass stuck together, and they show colour fringes with a standard white light. The system works when the set up is properly arranged. The problem is, it is not that easy (and that is probably the reason why these devices are so expensive). But with a bit of patience and money my guess is that you will get there.<br><br>I hope this information helps you. <br><br>Good luck</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Nov 30, 2006 5:24 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thank you for this information Uli. I will next try to make a diffraction transmission grating with a point source and a collimated reference beam. This type of grating appearantly needs no slit in front of it to work as a spectrometer. Then I will try to photograph the spectrum with a digital camera and make a VB program to analize Spectrum(glass+substrate)-Spectrum(glass only).<br><br>Perhaps that type of setup will work better.<br><br>I did make some measurements on my emulsions with my trusty old Zeiss microscope. It has a micrometer focus. Unfortunately focus is a subjective measurement and I have thus been unable to measure with accuracy of more than 4 micro meter.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5903.html" class="prev-thread">← Michael Harrison on HoloTalk!</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5900.html" class="next-thread">psudo color dcg holography →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6272.html" class="card">
+                <h3>Measuring thickness of gelatin</h3>
+                <div class="card-meta">General Holography (old) · 14 posts</div>
+            </a>
+            <a href="5798.html" class="card">
+                <h3>measuring DCG layer thickness</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="11470.html" class="card">
+                <h3>measuring laser intensity</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="11196.html" class="card">
+                <h3>emulsion thickness</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 18 posts</div>
+            </a>
+            <a href="8876.html" class="card">
+                <h3>Tricks for measuring coherence length</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="556.html" class="card">
+                <h3>Film Thickness</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 38 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

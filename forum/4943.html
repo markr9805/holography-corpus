@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser diodes — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4942.html" class="prev-thread">← film test strip marking protection</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4944.html" class="next-thread">Disposal of old dichromate baths →</a></div>
+    <h1>Laser diodes</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>1,374</td></tr>
+        <tr><td>Started</td><td>Sat Jul 09, 2005 5:29 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/vforge.html">vforge</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/tom-b.html">Tom B.</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4943" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">vforge</span>
+                <span class="post-date">Sat Jul 09, 2005 5:29 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;m thinking about building my own laser diode module from a raw diode. Does anybody know where to find the current 635nm to 640nm high power laser diodes with single mode? So far I have found an Opnext 635nm diode at up to 35mw, and a Sanyo 635-640nm diode at 40mw. The Sanyo costs over $ 390.00 and the Opnexts are about $ 170.00, but I suspect there are other options too. Mitsubishi, maybe.<br><br>I want to build my own module by affixing the diode to a peltier junction, and monitoring the temperature and the internal LD photodiode for power. I&#x27;m moderately handy with opamps and soldering irons and such, but does this sound like a realistic project? Has anybody else tried to make a long coherence length module out of bare laser diodes?<br><br>Any info would be much appreciated, and likewise I will share whatever I learn along the path to making one of these lasers.<br><br>Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 09, 2005 9:20 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I worked on one for quite awhile before I gave up. I think I was on the right path but I really needed a good scope and mine was not very useful. You can see some of the work here:<br><br>[http://www.designerinlight.com/holo/laser.htm](http://www.designerinlight.com/holo/laser.htm)<br><br>I since sent some of the parts to a friend to see if he can have better results. We&#x27;ll post if we have any success.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jul 09, 2005 9:38 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Digikey has a Sharp 50 mW 654 nm diode (Sharp GH06550B2B), Digikey p/n 425-1807-ND for $74.03. I haven&#x27;t tried it, but it&#x27;s cheap enough so it&#x27;s not a disaster if it&#x27;s not suitable for holography. <br><br>You may also want to look into getting a laser power meter - the topic has come up here several times. Because of part-to-part variation, it&#x27;s very difficult to work with bare diodes unless you have a way to measure the output power.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">vforge</span>
+                <span class="post-date">Sun Jul 10, 2005 3:28 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thanks for the advice!<br><br>I&#x27;m planning to use a TEC and a thermistor to control the termperature. Now the trick will be to figure out how to couple the TEC to the diode; I guess I can put the diode in a copper tube and hook the TEC to the tube. Thorlabs has a laser diode TEC housing but its expensive and it should be easy to build one.<br><br>As to the actual LD driver, I take it from the experiments that a constant current source is whats needed. Or do people use constant photodiode current? Whatever, I guess I am going to need a laser power meter. Off to ebay for that.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sun Jul 10, 2005 4:44 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">A few helpful links:<br><br>[http://members.misty.com/don/laserdps.htm](http://members.misty.com/don/laserdps.htm) - Sam&#x27;s the man!<br><br>[http://www.optima-optics.com/](http://www.optima-optics.com/) - laser diodes, mounts &amp; optics<br><br>[http://users.bestweb.net/~hobbs/](http://users.bestweb.net/~hobbs/) - sample chapter contains helpful info on thermal control<br><br>[http://optics.ph.unimelb.edu.au/atomopt/diodes.html](http://optics.ph.unimelb.edu.au/atomopt/diodes.html) - mostly IR stuff, but applicable to visible diodes. Check out the refernces and search for &quot;extended cavity diode laser&quot; on Google for much more. Maybe overkill for holography, but interesting.<br><br>[http://www.ilxlightwave.com/appnotes/mo ... lasers.pdf](http://www.ilxlightwave.com/appnotes/mode_hopping_semiconductor_lasers.pdf)<br><br>The above is one of several very helpful notes from ILX:<br><br>[http://www.ilxlightwave.com/navpgs/tech_notes.html](http://www.ilxlightwave.com/navpgs/tech_notes.html)<br><br>I would also recommend browsing the archives of this forum.<br><br>Re constant current versus constant power - For holography I prefer constant current (actually I use constant voltage + resistor). This requires a thermally stabilized laser which can be done either actively via Peltier, or passively by coupling to a large thermal mass which is insulated from ambient temperature changes. I prefer the latter. The archives contain extensive discussions of this topic.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 10, 2005 2:43 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I would strongly advise you to use constant current. Constant power only works when it settles into a constant current state. When a diode stops mode hopping it is constant current, constant power and a constant temperature. You must have all three things or it will mode hop.<br><br>I used a 4 amp TEC but it was way overkill. You could use a much smaller one. Also, it is very important to seperate the diode from the otherside of the TEC in a thermal sense. Please read the information at melcor.com if you don&#x27;t have any experience with TECs.</div>
+        </div>
+
+    <div class="thread-nav"><a href="4942.html" class="prev-thread">← film test strip marking protection</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4944.html" class="next-thread">Disposal of old dichromate baths →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10914.html" class="card">
+                <h3>new laser diodes for holography</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="307.html" class="card">
+                <h3>Laser diodes and magnets</h3>
+                <div class="card-meta">Equipment · 13 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8218.html" class="card">
+                <h3>Experience with red laser diodes</h3>
+                <div class="card-meta">Beginning Holography · 8 posts</div>
+            </a>
+            <a href="7974.html" class="card">
+                <h3>detection of mode-hopping in laser diodes</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

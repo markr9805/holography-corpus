@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Hop Free Laser Diode — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5640.html" class="prev-thread">← Three Color Holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5636.html" class="next-thread">glycerol in DCG →</a></div>
+    <h1>Mode Hop Free Laser Diode</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>41</td></tr>
+        <tr><td>Views</td><td>20,869</td></tr>
+        <tr><td>Started</td><td>Tue Jun 20, 2006 4:25 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5639" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Tue Jun 20, 2006 4:25 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have just finished preliminary tests. I have been successful controlling the temperature of a HG6512MG 50mW laser diode (650nm), housed in a aluminium block, with a HTC3000 TEC controller+evaluation board. I have thus far been able to adjust the range of power between non-lasing and full power without any apparent mode hops in the reflection of a dvd. I will try to mount all the electronics in a convenient housing tonight, and tomorrow the first tests with making a hologram. <br><br>Here are the links to the parts I used:<br><br>Laser Diode:<br><br>[http://thorlabs.com/NewGroupPage11.cfm? ... al_ID=1493](http://thorlabs.com/NewGroupPage11.cfm?ObjectGroup_ID=7&amp;Visual_ID=1493)<br><br>Diode Housing + Collimating Optics:<br><br>[http://www.mi-lasers.com/cgi-bin/shoppe ... ode_optics](http://www.mi-lasers.com/cgi-bin/shopper.cgi?search=action&amp;keywords=diode_optics)<br><br>TEC Controller + Evaluation Board:<br><br>[http://www.teamwavelength.com/products/ ... asp?part=6](http://www.teamwavelength.com/products/product.asp?part=6)<br><br>For powering the diode I used a simple circuit with a LM317 as described in Sam&#x27;s Laser FAQ.<br><br>As a temperature sensor I used a 10k thermistor. I glued (Zalman Heat Conducting Glue) the heat sink, peltier element, and diode housing to an aluminum plate, with room to spare for a ECDL setup in case that is still needed.<br><br>Total cost so far: 300USD.<br><br>A tip from Colin was very useful, to use thermally conducting epoxy for the NTC sensor. He also suggested using shielded cables for powering the diode and feedback from the NTC. Thank you Colin.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Thu Jun 22, 2006 2:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I am trying to build a cheap and reliable red diode laser as well. But the mode jumps are a big issue, I doubt you can catch them reliably with a CD. It is better to look for AC noise in the light output, or even better, the check the spectrum directly. So far I wasn&#x27;t able to identify trouble-free regions for one of those 100mW Rohm diodes, in a reproducible manner. I still need to do a more systematic (automated) search. <br><br>And then the question is how reproducible this will be (I mean for the very same diode; it is likely that the optimal stable operating point needs to be figured out for each diode individually). This may require a very tight long-term temp and current control.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jun 23, 2006 12:20 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> I am trying to build a cheap and reliable red diode laser as well. But the mode jumps are a big issue, I doubt you can catch them reliably with a CD. It is better to look for AC noise in the light output, or even better, the check the spectrum directly. So far I wasn&#x27;t able to identify trouble-free regions for one of those 100mW Rohm diodes, in a reproducible manner. I still need to do a more systematic (automated) search.And then the question is how reproducible this will be (I mean for the very same diode; it is likely that the optimal stable operating point needs to be figured out for each diode individually). This may require a very tight long-term temp and current control.<br><br>This was my conclusion but my science was sloppy so I hope I was wrong.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 3:09 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The way I did it was to find two temperature regions where the laser jumps between modes and then select the operating temperature at one in between those two temperatures. The regions where the laser hops are very easily spotted by looking at the second order reflection off a dvd. Two distinct reflection lines will be seen instead of one. I confirmed single modeness by making a 15 minute exposure on DCG. No mode hop lines were visible. Then I again made the setup with a dvd, taped a white sheet of paper on the wall and made a pen drawing over the second order reflection line. I let it run for three ours and made regular checks. The line did not move even 0.25mm. (With a mode hop, the line will move about 8mm at the distance of my dvd to the wall).<br><br>I have two of these diodes. I will replace this one with another 6512 and see if that one is stable as well. Next I will attempt to build a sfpi and see if there are other (weaker) lines visible. And I will do a Michelson coherence length test to make a final confirmation. I do think it looks promising. If it all works out, I will order a 130mW (ML101J27) from Thorlabs.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Fri Jun 23, 2006 3:23 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hey Hans - your diode tests sound promising. I wrote the following before your last post, but some of it might still be of interest.<br><br>I think there are two separate issues here:<br><br>1) Mode hopping is the easiest to deal with - as the diode operating current or temperature varies, the diode center wavelength changes in a stepwise fashion, changing slowly between modes on the flat part of the step, then jumping to the next wavelength. When it is near one of those steps the wavelength flips chaotically back and forth between modes. There is also an amplitude change associated with each flip which can be detected with a photodiode. I have been able to see mode hops by warming and cooling a common laser pointer and bouncing the collimated beam off a reflective grating. I think a CD would work well enough, but a long throw is needed to easily resolve the hops. A DVD would produce more dispersion. For a distance of about 5 meters, I think the displacement of the diffracted dot that I saw for each mode change was about 5 mm, which I think worked out to about 0.1 nm.<br><br>The cure for mode hops is to keep the diode operating current and temperature in a stable area. What I do is stabilize the diode temperature with a passive heat sink (lump of metal) which is insulated from air currents. Then I vary the diode current near the desired operating level to find an point far from the nearest mode-hop zone. <br><br>2) Multimode operation is more problematic. Some diodes (<em>especially</em> high power ones) emit multiple closely spaced wavelengths at the same time. The effect of this is to produce a periodic coherence function which is visible as contour lines (sliced bread) a few mm to 1 cm apart in the hologram. By the way, most non-etaloned HeNe lasers produce at least two lines about 1-200 MHz apart. This seen as a limit to the coherence length of something like 10 inches, but as has been observed, the coherence function repeats every 10 inches so really it is the same type of sliced bread phenomenon, just with much thicker slices. I guess, working backward, that this would make the diode laser mode spacing something on the order of a few GHz.<br><br>The only thing I can think of that would force single mode operation in a stubbornly multimode diode is some type of wavelength-dependant feedback - either an etalon or a grating as used in an Extended Cavity Diode Laser (ECDL). I don&#x27;t think that this would totally eliminate the need for temperature stabilization to prevent mode hopping, but I think it would help.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 3:52 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">A crude calculation about the accuracy of the dvd mode hop test:<br><br>A mode hop shows up as a jump of the second order reflection line of about 8mm in my dvd test setup. According to the datasheet of the HL6512MG, 17 mode hops fit in 5 nm. That comes down to 0.29nm per mode hop. So the resolution of my test should be about 0.037nm per mm of shift in the second order reflection. I can visually determine about 0,25 mm by drawing a pen stripe over the second order reflection line. I see no shift in this reflection line. So, the laser should be stable within 0.037*0.25=0.009nm. This is the best I can measure at the moment. Even if this is the best I could get, this would equate to a coherence length of at least 23cm. Not bat for such a small device at 50mW. Perhaps the coherence length is much more. But I will have to measure with a Michelson setup.<br><br>&gt; I have been able to see mode hops by warming and cooling a common laser pointer and bouncing the collimated beam off a reflective grating.<br><br>Yes, this is what I have observed. When I start at a temperature that gives me one single second order reflection line, and then start warming the diode slightly with my TEC controller. First a weak second line starts to become visible (sometimes slowly flashing). As the temperature increases, the line becomes more constant and more bright, untill both lines are equally bright. After again some increase in temperature, the original line starts to weaken and blink on and off. Eventually, at again a a slightly higher temperature, the original line disappears, and the new line remains.<br><br>&gt; The cure for mode hops is to keep the diode operating current and temperature in a stable area. What I do is stabilize the diode temperature with a passive heat sink (lump of metal) which is insulated from air currents. Then I vary the diode current near the desired operating level to find an point far from the nearest mode-hop zone.<br><br>This is how I used to do it with my D&amp;S laser (no TEC). But I found that eventually changes in ambient temperature would shift the diode into a mode hopping region. Usually during a long DCG exposure or during settling time. I found that behaviour frustrating and unacceptable.<br><br>I am now able to control the diode temperature within 0.01C with a cheap TEC controller. I keep the current constant within 0.1mA with a simple LM317 in constant current configuration and a 10ohm multiturn trimpot in series with a 10ohm resistor in the feedback loop of the 1.25V reference.<br><br>&gt; The only thing I can think of that would force single mode operation in a stubbornly multimode diode is some type of wavelength-dependant feedback - either an etalon or a grating as used in an Extended Cavity Diode Laser (ECDL). I don&#x27;t think that this would totally eliminate the need for temperature stabilization to prevent mode hopping, but I think it would help.<br><br>This is the reason I have ordered a 1800l/mm grating and a laser diode can opener together with my 6512 diodes, in case a TEC controller would not be sufficient. <br><br>With my D&amp;S laser the mode hopping was such a frustrating and time consuming business that eventually I became quite skilled at recognizing mode hopping. With some practice it is even easy to spot mode hopping by looking at the speckle pattern of the laser as you adjust it&#x27;s current. It can also be seen by looking at the lines caused by the diode facet/collimating mirror combination of the expanded beam. Finally, a shift in brightness can be spotted when mode hopping occurs. A michelson interferometer shows the mode hopping. But this is troublesome because the pattern can often shift due to other causes as well. But the dvd is by far the easiest and most accurate test I have tried so far.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jun 23, 2006 3:57 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Tom, What evidence do you have for multimode operation in diodes? If we consider a diode as a very small etelon it should have a large seperation between modes.<br><br>[http://www.tecoptics.com/etalons/theory.htm](http://www.tecoptics.com/etalons/theory.htm)<br><br>Note as d gets smaller the wavelength seperation gets larger. So I think that the cavity is actually giving us only the seperate modes allowed by the Fabry-Perot cavity formed by the diode shich should be quite large. If there were two modes operating at one they should be seperated by the mode hop frequency. <br><br>Note: I am not an expert in this but I am making this point as a devil&#x27;s advocate.l</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 4:30 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I think that what is actually happening in these diodes is not really a multimode operation when mode hopping starts. It is more like a rapid hopping between two competing modes at certain temperatures (cavity lengths). This accounts for the blinking of the second second order reflection lines at temperatures when the mode hopping starts. I think when two reflection lines of the dvd are clearly visible that both lines are rapidly flashing on and off, too fast for the eye to see. I am now convinced that, at least with the HL6512MG, it is easy to keep the diode out of a mode hopping state when temperature and current are kept under strict control. <br><br>I don&#x27;t know why some high power diodes are sold only as multimode diodes. Could that perhaps have to do with the flatness of the facets of the crystal? Or perhaps with homogenity of the dopings inside these bigger diode materials? <br><br>The big question here is: How wide is the bandwith of the laser when it does not mode hop? I guess this question can only be answered by a Michelson Interferometer test, or a SFPI (Scanning Fabry Perot Interferometer). Of course, we holographers have another instrument at our disposal: The transmission hologram. I have only done Denisyuks so far. But I propose a transmission setup with several little mirrors, positioned at varying distances from the plate. When re-playing, the coherence length could be determined by spotting the mirrors that disappear in the final hologram. If the mirrors reflect directly back at the plate, exposure times can be kept short to reduce chances of table movement due to temperature shifts in the table.<br><br>Another big question: Does the wavelength move slowly over time. My dvd tests show that this does not happen over a wavelength shift of more than 0.009nm (that is the resolution of my test). I guess in a super stable Michelson setup, this could be confirmed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jun 23, 2006 4:57 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Interesting your method with the DVD, I will try that!<br><br> I was putting together a surplus rotating-grating based spectrum analyzer but so far it was difficult to get better resolution than 1nm.<br><br>&gt; <strong>Hans:</strong> I think that what is actually happening in these diodes is not really a multimode operation when mode hopping starts. It is more like a rapid hopping between two competing modes at certain temperatures (cavity lengths). This accounts for the blinking of the second second order reflection lines at temperatures when the mode hopping starts. I think when two reflection lines of the dvd are clearly visible that both lines are rapidly flashing on and off, too fast for the eye to see. I am now convinced that, at least with the HL6512MG, it is easy to keep the diode out of a mode hopping state when temperature and current are kept under strict control.<br><br>I think that there is even some chaotic behavior - when in transition, there is lots of white noise in the spectrum up to a few Mhz. What I found is that the ranges where this happens are quite broad and it seems that the regions where this does not happen are rare. Also, sometimes the amplitude is very large and sometimes (ie in other regions) small but still non-zero. So far I wasn&#x27;t able to get a clear picture; what I am working on is a automatically generated plot of the current-temperature region, and the z-axis will be the AC noise in the spectrum.<br><br>&gt; <strong>Hans:</strong> I don&#x27;t know why some high power diodes are sold only as multimode diodes. Could that perhaps have to do with the flatness of the facets of the crystal? Or perhaps with homogenity of the dopings inside these bigger diode materials?<br><br>Generally, for any laser, the more gain there is the number of modes increases. (I am not sure right now whether &quot;multi-mode&quot; diodes vs &quot;single-mode diodes&quot; refers to transverse or longitudinal ones, I believe the former).<br><br>&gt; <strong>Hans:</strong> The big question here is: How wide is the bandwith of the laser when it does not mode hop?<br><br>Very little, a few Mhz. I checked this on my SFPI interferometer, and the width is the same as of a HeNe, which probably means the width I see is resolution of the SFPI, and the actual line width is even smaller. This means the coherence length is in the order of magnitude of tens of meters or more. At any rate, more than sufficient for our purposes! <br><br>However, even though the line width is small, the line can drift due to temperature (and fluctuations in the supply current), and this may effectively reduce the coherence length. It&#x27;s like 0.3nm/degree and this means once should keep the diode&#x27;s temp constant to a fraction of a degree, for the time of exposure.<br><br>Another big question is: does the location of a mode-hopping-free zone (in the temp-current plane) stay constant over time?<br><br>If not, then there is a problem producing ready-to-use maintenance-free turn-key laser diode modules.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 5:30 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; Interesting your method with the DVD, I will try that!<br><br>The way I set it up is as follows: I place the DVD at a grazing angle, nearly parallel to the beam of the laser. The second order reflection will then be almost back towards the laser. So this can be easily observed by projecting it on the wall behind the laser. If you want to test a diode without any collimating optics (for Denisyuk setups), another accurate test can be done. Just aim the diverging beam at the DVD. Then look at the reflected pattern on the wall. When you see bright red and dark lines, the diode is not mode hopping. When you see a diffusely reflected disk, there is strong mode hopping. The beauty of the DVD test is that it is very insensitive to movement in your setup.<br><br>&gt; However, even though the line width is small, the line can drift due to temperature (and fluctuations in the supply current), and this may effectively reduce the coherence length. It&#x27;s like 0.3nm/degree and this means once should keep the diode&#x27;s temp constant to a fraction of a degree, for the time of exposure.<br><br>Yes, that was a big worry for me when I started the TEC controller. But still, when I can control the temperature within 0.01C, that comes to 0.003nm. I should be able to improve this to 0.001C by making a box around the base plate and diode and only leaving the cooling fins on the other side of the Peltier element exposed, according to the specs of my HTC3000 TEC controller. I confirmed this with the help desk of the manufacturor of the HTC3000. <br><br>I can at the moment keep the current to the diode stable within 0.1mA when I drive the diode at 100mA. That is a .1% accuracy. I believe that the wavelength response to drive current is because of local temperature change due to this current change, wich cannot be compensated for by the crude TEC controller because it&#x27;s temperature sensor is located next to the Peltier cooler and not inside the laser diode. Perhaps using a laser diode with a built-in monitor diode and using a constant power controller (like the D&amp;S laser) in combination with my TEC controller setup would help here. I am not sure.<br><br>&gt; Another big question is: does the location of a mode-hopping-free zone (in the temp-current plane) stay constant over time?If not, then there is a problem producing ready-to-use maintenance-free turn-key laser diode modules.<br><br>I have done some tests concerning this as well. As long as the optics (collimating lens) are not adjusted, the mode hopping temperatures stay constant. Even if I leave the laser un-powered over night. If I remove the collimating lens for cleaning, I have to map the temperatures where the diode mode-hops again.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 5:40 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Or here is another possible method:<br><br>-Suppose the wavelength is solely dependant on the temperature of the diode.<br><br>-The wavelength would still change due to local heating of the diode with change of current/output power which cannot be measured by the NTC temperature sensor because it is located near the Peltier element.<br><br>- The output power at constant current is inversely proportional to the temperature of the diode.<br><br>-Suppose we measure the output power when we use a laser diode that has the built in monitor diode.<br><br>-Most analog TEC controllers use a voltage reference for the set point temperature.<br><br>==&gt; We could now use the measured power of the photodiode as a feedback to adjust the set-point temperature of the TEC controller to make mini adjustments to the local diode temperature. A simple voltage adding circuit with an opamp, in combination with an opamp pre-amplifier would suffice to feed back this signal back into the TEC controller.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jun 23, 2006 6:24 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Yes, I think we should try to figure out some way like this to stabilize a diode. Maybe tight temp and current control is sufficient, maybe not. I was thinking of including a mini-interferometer in form of a glass plate in the laser head, and using two photodiodes in order to fringe lock the interference pattern, via temp contro.<br><br>Or perhaps a small grating or piece of DVD would work, if the beam is folded many times in order to get a sufficient angular resolution.<br><br> It remains to be seen how well things can be made work, unfortunately all this takes a lot of time.<br><br>&gt; <strong>Hans:</strong> Another big question is: does the location of a mode-hopping-free zone (in the temp-current plane) stay constant over time?If not, then there is a problem producing ready-to-use maintenance-free turn-key laser diode modules.I have done some tests concerning this as well. As long as the optics (collimating lens) are not adjusted, the mode hopping temperatures stay constant. Even if I leave the laser un-powered over night. If I remove the collimating lens for cleaning, I have to map the temperatures where the diode mode-hops again.<br><br>That&#x27;s most interesting!<br><br>&gt; <strong>Hans:</strong> ..Perhaps using a laser diode with a built-in monitor diode and using a constant power controller (like the D&amp;S laser) in combination with my TEC controller setup would help here. I am not sure....We could now use the measured power of the photodiode as a feedback to adjust the set-point temperature of the TEC controller to make mini adjustments to the local diode temperature. A simple voltage adding circuit with an opamp, in combination with an opamp pre-amplifier would suffice to feed back this signal back into the TEC controller.<br><br>I have heard from other ppl (not having yet experience on my own about this) that constant power doesn&#x27;t work as well as constant current drive. I would think that the power dependence of the wavelength will be very small so stabilizing wavelength via power would not be accurate enough. <br><br>I think that keeping the drive current stable and noise free is an<br><br>important ingredient; the Thorlabs driver I am using right now (that<br><br>I got from Colin) is quite simple and has like 1uA RMS noise, and<br><br>I think one can beat this without too a great effort; there are now<br><br>ultra-precision opamps and voltage references easily available (eg<br><br>from Maxim), with stability in the order of 1ppm/C, so I think<br><br>building a very stable driver is not too difficult.<br><br>It would be interesting to exchange our ideas and experiences here. There is sort of a community project (with Colin) to develop a cheap and useable (ie stable enough) red LD module, and perhaps even build some units for sale, but all this went pretty slow mainly due to time constraints. So far I was mainly hording some components, setting up some measurement devices like an SFPI, and getting a computer interface to work.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jun 23, 2006 11:38 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">When I was experimenting with my etalon to find the adjustment that would yield the highest power output without losing the long coherence length, here is what I did and I found it to be superior in helping me get more intimate with my laser and etalon. It will be well worth the trouble.<br><br>I built a rigid interferometer. It was made on a solid aluminum plate. I attached some blocks and rods that I got from Lenox Laser [http://www.joeblox.com/pricing/eblox_Pricing.htm](http://www.joeblox.com/pricing/eblox_Pricing.htm). Those things are great as they can be reused, versatile and easy to configure different geometries. I set up a “+” configuration in which the expanding lens, beam splitter and first mirror were only about an inch apart from one another and were locked down. Then the second mirror was adjustable from one inch to 12 inches (22 inch differential) and could be locked down. Of course you could find other hardware to use but the idea is to have it locked down all on one small rigid base.<br><br>Originally I placed a piece of glass for a beam splitter just outside the laser but before the shutter. Glass only steals about 10% of the laser energy. The beam splitter directed the beam to the locked down interferometer. This allowed me to monitor my fringes while playing with the etalon. One of the lines, I cannot remember which one now, must have a sister line very close because I get the same flicker if the etalon and laser tuning is just right (or just not right). This drawing is how I had it configured in my old lab. [http://www.sketchys.com/HoloPage/HoloFi ... Table2.jpg](http://www.sketchys.com/HoloPage/HoloFiles/Illustrations/Table2.jpg) Again, I could monitor the stability of my laser, real time, during the actual exposure.<br><br>What is so beautiful about the locked down interferometer is I still have it today, 2 years later, and I can throw it on the table and direct a beam into it and it needs no settle time and is completely stable. I know for sure all movements if any are from the laser only. At least if you could monitor you fringes real time it would save you from having to process a plate in which you knew the laser hopped. Of course I surely would take all steps to eliminate the hops but at least if ambient temp or something caused your heat and current to be good at one time but just at that hopping point another day, this would tell you immediately.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 5:05 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I just made a good hologram with the new laser setup. It came out just as bright as the one that Kris and I made in his lab (see gallery). I think this confirms my theory that my old D&amp;S laser wobbles around it&#x27;s wavelength, degrading the brightness of long exposure MBDCG holograms, and the inconsistancy with results with the D&amp;S laser even when it does not mode hop.<br><br>There are absolutely no mode hop lines visible in the hologram, and it is also a LOT sharper than the previous ones I had made with the D&amp;S laser. I think this setup makes a cheap and powerfull laser that is well suitable for holography. Next week I will order a 130mW diode and try that one in this setup. When all is finished I will publish the electronics schematics and technical drawings on the Wiki (can I Colin?).<br><br>&gt; What is so beautiful about the locked down interferometer is I still have it today, 2 years later, and I can throw it on the table and direct a beam into it and it needs no settle time and is completely stable. I know for sure all movements if any are from the laser only. At least if you could monitor you fringes real time it would save you from having to process a plate in which you knew the laser hopped. Of course I surely would take all steps to eliminate the hops but at least if ambient temp or something caused your heat and current to be good at one time but just at that hopping point another day, this would tell you immediately.<br><br>This is the setup that Kris uses in his lab. I opted for using the DVD method because it is easier to spot mode hops with that. Also, the insensitivity to movement of the DVD setup makes it more suitable in my setup. In one setup I used over spill beam light and reflected it off the DVD to the wall. A real time mode hop detector. But I think that with the new setup a mode hop detection is not necessary, or perhaps only just before exposure to ensure that back-reflections into the diode don&#x27;t cause troubles.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jun 23, 2006 7:17 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> There are absolutely no mode hop lines visible in the hologram, and it is also a LOT sharper than the previous ones I had made with the D&amp;S laser. I think this setup makes a cheap and powerfull laser that is well suitable for holography. Next week I will order a 130mW diode and try that one in this setup. When all is finished I will publish the electronics schematics and technical drawings on the Wiki (can I Colin?).<br><br>Congratulations! I will be looking forward to learning more about your success.<br><br>The Mitsubishi 130mW diode is surprisingly inexpensive, only $169.05 at Thorlabs. The 660nm wavelength may be too long for color holography, though. I think Kaveh said the optimum wavelength would be around 610nm (maybe he can comment on this?). It may do very nicely, however, for monochromatic MB-DCG holograms. (Actually, it sounds like the system you&#x27;re currently using may do very well &quot;as is&quot;, even if the higher-powered diode doesn&#x27;t work out.) <br><br>Thorlabs also sells a 35mW 635nm Sanyo diode, but the price is higher, $384.80.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Fri Jun 23, 2006 9:02 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I have shot six MBDCG holograms this evening with the new laser. Not a trace of mode hopping. The laser ran continuously the whole evening. One hologram, scared the hell out of me for a few minutes because the dreaded black bands from hell were visible on it. But relief came soon, when I realized that the bands were only visible on the object and not on the white background behind it. It was object movement. I have spent four months trying to figure out why my MBDCG holograms almost never came out really bright and never suspected the laser because of consistant results with PFG-01. After having tried all variables concerning MBDCG, the only variable left to try was the laser. I guess the results with PFG-01 were more consistant because my old D&amp;S laser shifts frequency at a slow enough rate to not affect the short exposure times with AgBr emulsions much.<br><br>What gives me great pleasure about this project is that it makes me completely independant of suppliers for making holograms. The cost per plate is very low with MBDCG. I guess less than .5 Euro per 10x15cm plate (That&#x27;s including the glass). The next step will be to get a good spatial filter and experiment with H1-&gt;H2 transfers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jun 23, 2006 11:05 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Yooooooo Hooooooo!!!!!!!!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jun 24, 2006 12:09 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> When all is finished I will publish the electronics schematics and technical drawings on the Wiki (can I Colin?).<br><br>Of course, that is exactly what the Wiki is for!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jun 24, 2006 2:01 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Tom, What evidence do you have for multimode operation in diodes? If we consider a diode as a very small etelon it should have a large seperation between modes.http://www.tecoptics.com/etalons/theory.htmNote as d gets smaller the wavelength seperation gets larger. So I think that the cavity is actually giving us only the seperate modes allowed by the Fabry-Perot cavity formed by the diode shich should be quite large. If there were two modes operating at one they should be seperated by the mode hop frequency.Note: I am not an expert in this but I am making this point as a devil&#x27;s advocate.l<br><br>Hey, no problem - I claim no special expertise either. Anyway, my hypothesis is based on encounters with a few diodes that produced sliced bread holograms to some degree no matter what the drive level was. There was no evidence of mode hopping (no AC noise), and they produced nice stable fringes but only at multiples of the coherence length of a few mm. Since the gain bandwidth of laser diodes is reputedly fairly broad, the simplest explanation to me was multiple longitudinal modes. Note also that laser diode manufacturers claiming SLM operation never give a mode purity spec. .<br><br>Some quick calculations as a sanity check:<br><br>Assume laser diode mode spacing to be 150 GHz and only 2 lines are present for a wavelength range (delta V) of 150 GHz. The coherence length is c/(2 * delta V) = 3 X 10<strong>8 / 150</strong>9 = 0.002 m. Or 2 mm, in the same ballpark as the peak to valley spacing of the sliced bread fringes. Without going into details, the 150 GHz mode spacing would correspond to a wavelength range of about 0.1 nm, which is also of the same order of magnitude as observed from viewing mode hops.<br><br>Some relevant info here:<br><br>&quot;Home-brew Scanning Fabry-Perot Interferometer (SFPI)&quot;<br><br>[http://perso.orange.fr/redlum.xohp/laser/SFPI.html](http://perso.orange.fr/redlum.xohp/laser/SFPI.html)<br><br>Note especially how sensitive to back reflections laser diodes can be.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jun 24, 2006 6:58 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">The following paper may have some relevance to the discussion:<br><br>&quot;Bistability and mode hopping in a semiconductor laser&quot; by George R. Gray and Rajarshi Roy, in Journal of the Optical Society of America B, Volume 8, Number 3, March 1991, pages 632-8.<br><br>This is one heck of a paper. I could probably read it until the cows come home, and still not understand it.<br><br>Anyway, I will quote some things of interest:<br><br>&quot;....it is found that there are two distinct regimes of multimode behavior in semiconductor lasers: one in which the modes are oscillating simultaneously and one in which they oscillate in a bistable manner. These regimes depend on the level of the injection current and on the temperature of the laser mount....The laser&#x27;s bistable regime is marked by the presence of mode hopping between two longitudinal modes. Mode hopping is characterized by the random, nearly complete exchange of power between two longitudinal modes of the laser. In contrast with mode partition, which typically involves weak modes sharing power with a strong mode, mode hopping signifies a more violent competition between the modes. The two modes may have a nearly equal <em>average</em> power, but the nonlinear coupling allows only one of the modes to oscillate at any one time. Spontaneous emission noise then initiates the hopping between modes....we investigate the fact that both bistable and multimode (simultaneous operation of two or more modes) regimes are found experimentally for different operating points.&quot;<br><br>This is the kind of stuff that made me forget about diodes and go back to HeNe&#x27;s.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jun 25, 2006 12:57 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Thank you for this information Joe. I have observed both situations at certain temperatures with my laser diodes. I noticed that with some temperatures, the modes rapidly flash on and off. This I could explain with my limited phisics knowledge by thinking that the cavity length at that temperature was at exactly the right length for one mode and it&#x27;s second order to exist and both of them competing for the lasing medium. At one temperature/power combination I noticed THREE second order reflection lines from my DVD. This shattered my other theory. I guess that somehow in that region some chaotic behaviour exists, perhaps due to impurities in the semiconductor crystal.<br><br>Please don&#x27;t be afraid of diodes. They are fun to experiment with, give much sharper results than HeNe. They have more power, and are ready for use as soon as the TEC controller has stabilized the temperature (about 30 seconds). With a good TEC controller and stable current source my diode will not mode-hop. Even when modest reflections come back into the diode from my singlet. With the HL6512MG diode a very stable 50mW laser can be built for less than 300 USD and about one day of building time. And, best of all, if something of this laser breaks down it won&#x27;t bust your budget. In fact I have a spare diode in my lab, just for this event.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jul 07, 2006 8:10 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Here&#x27;s a first test scan over the laser current/temperature plane (of one of those Rohm laser diodes), the whole thing took like an hour to complete and covers roughly one degree centigrade:<br><br>![Image](http://perso.orange.fr/redlum.xohp/laser/pics/LDscan1.jpg)<br><br>x-Axis = laser diode current in mA<br><br>y-axis = thermistor voltage in mV<br><br>Color: AC noise in diode output. Noise means chaotic mode instability which is no use for holography.<br><br>Obviously a black zone should be selected as operating point.<br><br>Most interesting will be to see if the pattern (for a given diode) stays constant over an extended period of time, or not. Only if it does a set-once-and-forget strategy would make sense. It&#x27;s obvious that a long-term stability of 0.1 degrees or so would be necessary in that case.<br><br>It will also be interesting to see how this differs for other diodes of the same type, and how it depends on spurious light feedback, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jul 07, 2006 3:31 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Nice work! What is the conversion between thermistor mv and temp?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jul 07, 2006 4:06 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Nice work! What is the conversion between thermistor mv and temp?<br><br>In words: first compute what the thermistor resistance is in terms of the voltage - what goes in here is the 4096mV reference voltage across thermistor plus a 10K series resistor. Then use the thermistor resistance as an input to the &quot;Steinhart-Hart Equation&quot; to compute the temperature as 1/T = A + [B <em> ln(R)] + [C </em> ln(R)3] for certain numerical constants A,B,C. <br><br>All-in-all, here&#x27;s the more or less self-explaining code I use in my Labview program to display the temp (this is for a standard NTC with 10K at 25 °C):<br><br>Vref=4096;<br><br>R=10000<em>Vth/(Vref-Vth);<br><br>Temp=1/(0.001129148+ 0.000234125</em>ln(R) + 8.76741E-8<em>(ln(R))</em>*3)- 273.15;<br><br> In this way, 2270mV corresponds to 20.1 °C and 2210mV to 21.4 °C.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jul 08, 2006 6:57 am</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> Most interesting will be to see if the pattern (for a given diode) stays constant over an extended period of time, or not. Only if it does a set-once-and-forget strategy would make sense. It&#x27;s obvious that a long-term stability of 0.1 degrees or so would be necessary in that case.It will also be interesting to see how this differs for other diodes of the same type, and how it depends on spurious light feedback, etc.<br><br>Wonderful stuff! These are all important open questions - the effects of optical feedback (to which laser diodes are notoriously sensitive) on the stability map are of particular interest to me. In my setup I have the uncoated plano side of a cylinder lens reflecting back into the uncollimated diode about 1 cm away and have often wondered what the effect of the feedback is. It seems to make good holograms usually, but I&#x27;m pretty dubious about the reliabilty of this arrangement. <br><br>Beside the diode temperature and current, this adds two more dimensions to the problem: the percentage feedback and the distance to the reflection. It would be nice to be able to set some lower bound such as &quot;with diode X, less than Y percent optical feedback from any distance has no effect on the stability map&quot;. Or it could very well be that feedback (even without a grating) improves things sometimes. Probably for initial experiments just sticking a thin uncoated glass plate in front of the diode and seeing what effect it has on the stability map would be interesting. It would have to be carefully mounted - the reflections are very position sensitive.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sat Jul 08, 2006 3:38 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">I now gathered data for 10 hours or so and produced a much better plot and replaced the old one , but now I realize I can&#x27;t back-edit the text of my previous post to reflect the changes. So the text, as far as mV vs C is concerned, is not up to date, the y-axis now carries a labelling directly in degrees C. <br><br>I will do a couple of other runs under precisely the same conditions - let&#x27;s keep the fingers crossed and hope that the pictures will be very similar!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 08, 2006 7:58 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">This is quite interesting. I had always expected the stability regions to be wider at lower power settings but this is not the case. It looks like a broad region would be around 21C and 120mv drive current. This should be pretty easy to achieve. What is the wavelength sensitivty vs temperature in the middle of a black region?<br><br>Also, What is the 24 hour stability in a black region?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Jul 13, 2006 8:37 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">That&#x27;s a great experiment Wler!!!<br><br>Our experiments have sparked the interests of our fellow Russian holography hobbyists. I have regular email contact with Sergey Vorobyov (who made our portrait holograms), and he has been experimenting with the HL6501MG and posting his results on the Russian Forum: [http://babelfish.altavista.com/babelfis ... t%3D000346](http://babelfish.altavista.com/babelfish/trurl_pagecontent?lp=ru_en&amp;url=http%3A%2F%2Fwww.holography.ru%2Fcgi-bin%2Fultimatebb.cgi%3Fubb%3Dget_topic%26f%3D1%26t%3D000346)<br><br>(This link is automatically translated by Altavista&#x27;s Babelfish, so don&#x27;t be surprised if some words come out strange )<br><br>Sergey also made a Fabry Perot image of the light emitted by a non-temperature controlled HL6501MG, and he gave me permission to post it on this forum.<br><br>![Image](http://www.hologramhans.com/pictures/FabryPerot.jpg)<br><br>In this picture a clear single mode pattern is visible at one temperature/current combination.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Thu Jul 13, 2006 8:49 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">And, the wiki has now reached Russia also. <br><br>[http://babelfish.altavista.com/babelfis ... 46%26p%3d2](http://babelfish.altavista.com/babelfish/trurl_pagecontent?lp=ru_en&amp;trurl=http%3A%2F%2Fwww.holography.ru%2Fcgi-bin%2Fultimatebb.cgi%3Fubb%3Dget_topic%26f%3D1%26t%3D000346%26p%3D2)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 9:04 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">Wler,<br><br>I noticed that the dark lines run diagonally, pointing towards the higher current.<br><br>Is that because the local temperature of the diode becomes higher than the sensed temperature close to the Peltier Element due to higher current?<br><br>&gt; Most interesting will be to see if the pattern (for a given diode) stays constant over an extended period of time, or not. Only if it does a set-once-and-forget strategy would make sense. It&#x27;s obvious that a long-term stability of 0.1 degrees or so would be necessary in that case.<br><br>I have not done such a sophisticated automated analysis like yours. I did measure the temperature zones where the diode does not mode hop when keeping the current constant. I did this twice on different days. As long as I don&#x27;t move the collimating mirror, the mode free temperatures stay the same with my diode. For me the TEC controller has been quite a spectacular improvement thus far. I have not seen a single unwanted mode hop since I built the thing.<br><br>&gt; It will also be interesting to see how this differs for other diodes of the same type, and how it depends on spurious light feedback, etc.<br><br>I would think that the temperature will be similar for different diodes of the same type, but not exactly the same. This because of manufacturor tolorances and back reflections from collimating lens, etc...<br><br>How did you measure diode output noise? Did you measure it with a light sensor of some kind? Or did you do a run with a SFPI for each temperature/current combination?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 9:09 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">&gt; This is quite interesting. I had always expected the stability regions to be wider at lower power settings but this is not the case. It looks like a broad region would be around 21C and 120mv drive current. This should be pretty easy to achieve. What is the wavelength sensitivty vs temperature in the middle of a black region?<br><br>Wler, if you measured the noise with a light sensor, did you compensate for the higher total output power? In that case it would make sense that the noise appears to become less. Thus the black regions become wider with higher current. (noise/total output power decreases when output power increases, even when the actual noise stays constant).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sun Jul 16, 2006 9:47 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Wler,I noticed that the dark lines run diagonally, pointing towards the higher current.Is that because the local temperature of the diode becomes higher than the sensed temperature close to the Peltier Element due to higher current?<br><br>Good point - there is always a temp difference to be taken into account.<br><br>Actually, right now I am not sure any more about the reality of the black valleys. They might be an artifact. Just last night I had a re-run with the same setup however with modified signal processing, and they have disappeared, but I need to check this further in detail. On the other hand, the bad peaks came out consistently again. For a comparison of the pics, see [http://argonholo.webhop.net/laser/diodelasers.html](http://argonholo.webhop.net/laser/diodelasers.html)<br><br>&gt; <strong>Hans:</strong> How did you measure diode output noise? Did you measure it with a light sensor of some kind? Or did you do a run with a SFPI for each temperature/current combination?<br><br>Just with a large area photo diode behind an OD3 filter. This feeds a straightforward opamp circuit: first a simple transimpedance amplifier, then a high gain AC amplifier, then a precision rectifier in order to have a signal of one polarity, and then a peak detector. After this mode jumps are visible with a few tens of mV peak. This then goes into a analog-digital computer interface, that also takes care of diode and TEC control (which is a left-over of a DPSS project, so this wasn&#x27;t a great deal). <br><br>As for the black valleys, I think this is some form of feedback arising from stepping up the diode current. A sudden step by 1mA of the diode current gives a signal jump in the order of magnitude of a true mode jump, so it needs to be smoothed out to reduce it&#x27;s influence. It seems that playing with this and the time constants of the scan and the peak detector, the valleys grow or shrink or even disappear, so as said I now think they are most likely fake. I don&#x27;t understand what gives them this peculiar band structure, it must be some kind of (non-optical interference effect.<br><br>This is also consistent with that I rarely see, if at all, mode jumps when outside those bad zones. What I intend to do is a night-long run with fixed temp and current, to see how often mode jumps arise; superficially they seem to be practically non-existent.<br><br>[Usueal caveats apply: this still doesn&#x27;t mean the laser is in single mode; etc. That needs to be checked with a SFPI. The Russian&#x27;s results are very interesting in this respect.]</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 11:57 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">I think that the work you are doing is fantastic. <br><br>I noticed that you use two Peltier elements in your cooling setup. I had this in mind for my subsequent blue laser (for cooling the base plate). But I was afraid that the heat transport rates would differ between the two peltiers and thus create a constant temperature near the Peltier where the PI controller measures the temperature, but a wildly fluctuating temperature near the other Peltier element due to differing heat transport rate. What are your thoughts about this? Do you have your sense NTC near one Peltier, or in-between the two Peltiers? If it is between the Peltiers, do you have trouble with the PI controller oscillating the temperature due to time lag in heat transport from the Peltiers to the NTC? Does a PI<strong>D</strong> controller help here?<br><br>With my setup, I use a relatively small heat sink on the Peltier side (the flat side is exactly the same area as the Peltier element). If I try to cool the diode too much, this causes the heat sink to become too warm after some time and the temperature differential between both sides of the Peltier to be too big. When that happens, my PI controller starts pumping the maximum current into the Peltier and causes a slow thermal runaway. This is the one part that prevents my system from being fire-and-forget, because I need to adjust the set point temperature of my PI controller so that it is not too far from the abient temparature of the day in my sophisticated laboratory (actually a smelly garage ). In a next version, I will use a much bigger heat sink. I chose for the small heat sink because I was afraid that the heat sink would radiate heat back to the base plate that is just above it and mess up precision in case I would decide to add components for ECDL. But now that the diode seems stable enough to not justify the need for ECDL, I can make the heat sink many times bigger and make a true fire and forget system.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Jul 17, 2006 1:11 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">I was wondering why you had the large laser mount. The better you insulate everything the better your results will be. I used rubber foam around the laser mounting. The mass of the laser assemble was about 1/10 of the heatsink. I had problems with my power supply that kept me from getting good results but looking at Hans&#x27; work I think I shluld have moved the Temp sensor a little closer to the peltier. It was abou 4 mm away.<br><br>This was the last iteration:<br><br>![Image](http://www.designerinlight.com/holo/laser4.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Jul 17, 2006 2:06 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">&gt; It was abou 4 mm away.<br><br>The only way I was able to prevent oscilations in temperature (i.e. the controller chasing the set-point temperature) was by making sure that the NTC sensor was actually touching the Peltier element. That&#x27;s why I drilled the little hole through the base plate. But then, my controller is a PI controller and lacks the differentiating part. Perhaps with a PID controller, a distance between NTC and Peltier element is allowed, but I am not sure about this.<br><br>I used such a big base plate to accomodate possible expansion into a ECDL configuration. I think I will get out a metal saw tomorrow and shorten the base plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Jul 17, 2006 7:54 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> I noticed that you use two Peltier elements i...... ...If it is between the Peltiers, do you have trouble with the PI controller oscillating the temperature due to time lag in heat transport from the Peltiers to the NTC? Does a PIDcontroller help here?.<br><br>The Peltiers are run in series, so they heat or cool all the same, and there is no such problem. If each of them would be connected to a differrent controller, then (I guess) such problems could occur. The thermistor is a close as possible from the diode (like 5mm). This is the same setup as of the original Newport base plate (which was unusuable for me because of the kind of diode mount).<br><br>&gt; <strong>Hans:</strong> ..When that happens, my PI controller starts pumping the maximum current into the Peltier and causes a slow thermal runaway. This is the one part that prevents my system from being fire-and-forget, because I need to adjust the set point temperature of my PI controller so that it is not too far from the abient temparature of the day in my sophisticated laboratory (actually a smelly garage).<br> <br><br>Thermal runaway is a serious problem, and I had to fight it with my Compass 315 controller. As a safeguard, I had finally added a circuit that switches everyting off if the temperature (ie thermistor voltage) is out of an acceptable range (like between 10 and 40 degrees), and this for all of the 3 involved TECs. For the red laser I didn&#x27;t yet have this problem, but let&#x27;s see. I think that a large heatsink mass or a small maximal TEC current helps (I use 1 amp max TEC current for this relatively large cold plate). <br><br>&gt; <strong>Hans:</strong> The only way I was able to prevent oscilations in temperature (i.e. the controller chasing the set-point temperature) was by making sure that the NTC sensor was actually touching the Peltier element. That&#x27;s why I drilled the little hole through the base plate. But then, my controller is a PI controller and lacks the differentiating part. Perhaps with a PID controller, a distance between NTC and Peltier element is allowed, but I am not sure about this.<br><br>Hard to say, it depends on the precise thermal properties and the regulator loop. I had spent a lot of time in trying to stabilize TEC&#x27;s (for the Coherent 315), until I decided to go the hard way and really measure the response and determine the feedback loop parameters by computation. This then determines the optimum settings and prevents oscillations. <br><br>One item on my list is to do this also for Colin&#x27;s design depictured above. Probably the most relevant factor is simply the total mass of the heat sink.<br><br>Best,<br><br>Wolfgang</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Aug 28, 2006 6:27 pm</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Update: I now have complemented those noise scans over the LD current/temperature plane, with a more detailed spectrum analysis. The upshot is:<br><br>1) The noise in those diagrams is for real, and only few &quot;black&quot; regions remain without noise. The noise intensity varies very strongly, like 1000:1, and it is not yet clear yet whether a small noise is detrimental for holography or not.<br><br>2) Even the dark regions without any noise are not safe, as there can be multimode behavior without any noise. This happens especially at high power levels in the order of 100mW. <br><br>3) Safest appear the extended dark regions at reduced power without any noise, they are clean single mode. Power levels there are around 50mW.<br><br>I still need to check those regions with small noise with a scanning interferometer, so check the line width. <br><br>For explicit details for the Rohm diode, see [here](http://perso.orange.fr/redlum.xohp/laser/diodelasers.html#analysis).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Feb 18, 2007 2:08 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> I am trying to build a cheap and reliable red diode laser as well. But the mode jumps are a big issue, I doubt you can catch them reliably with a CD. It is better to look for AC noise in the light output, or even better, the check the spectrum directly. So far I wasn&#x27;t able to identify trouble-free regions for one of those 100mW Rohm diodes, in a reproducible manner. I still need to do a more systematic (automated) search.<br><br>We talked a while back about the best way collimate the out put... I like this package, each diode could be bench tested and setup w/adjusted prisms, and then super-glued in place.<br><br>![Image](http://www.junktronix.com/ebay/56dol-2.jpg)<br><br>This is a TEC cooled, collimated laser diode with an anamorphic prism pair that creates a circular beam with incredibly low divergence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Feb 18, 2007 2:11 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">im very tempted to buy this unit ($200 buy it now on the big &quot;E&quot;)and butcherize it to accept the Rhom diode ........</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sun Feb 18, 2007 3:13 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">Hi Dave,<br><br>that&#x27;s a very good design but still quite expensive. One can do the diode mount incl high quality optics for like $40-$50, however not incl anamorphic prisms (I now have found a guy for manufacturing the mounting blocks, and the optics are from Roithner). Of course electronics go on top of that.<br><br>The conclusions so far for the Rohm diode is that it can do like 55mW max single mode, when a suitable operating spot is chosen; not bad for a $9 device. Non-single mode it can do more than 120mW.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Feb 18, 2007 3:34 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">i jut purchased a set of wedge prisms to try it out (@$8 each and no coating ) to see the how this shapes the beam.<br><br>[http://cgi.ebay.com/ws/eBayISAPI.dll?Vi ... &amp;rd=1&amp;rd=1](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;ih=002&amp;sspagename=STRK%3AMEWN%3AIT&amp;viewitem=&amp;item=120085528136&amp;rd=1&amp;rd=1)</div>
+        </div>
+
+    <div class="thread-nav"><a href="5640.html" class="prev-thread">← Three Color Holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5636.html" class="next-thread">glycerol in DCG →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5730.html" class="card">
+                <h3>Mode Hop Free Laser Diode (Part two), the need for an ECDL</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="8743.html" class="card">
+                <h3>Integraf Diode Vs Generic Laser diode</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="8411.html" class="card">
+                <h3>Laser Diode Question</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="8333.html" class="card">
+                <h3>Coaxial package diode laser with SM Fiber/PM Fiber</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8334.html" class="card">
+                <h3>Pigtailed diode laser with SM Fiber / PM Fiber</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

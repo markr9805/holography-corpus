@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature control question — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="839.html" class="prev-thread">← A New Microscopic Principle</a><a href="Techniques.html">↑ Techniques</a><a href="823.html" class="next-thread">Issues with developing →</a></div>
+    <h1>temperature control question</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>4,115</td></tr>
+        <tr><td>Started</td><td>Thu Apr 03, 2014 7:48 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dannybee.html">dannybee</a> · <a href="../authors/steven.html">Steven</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=830" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Apr 03, 2014 7:48 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering if anyone can offer some guidance on how to control the temperature of a volume of water (~2 to 4 liters). I would like to control the temperature closely, say +/- 0.25 degree C, but preferably better.<br><br>I plan to use an aquarium heater (110V, 25W) as the heating element. Also a magnetic stirrer (star shape) to circulate water in the container.<br><br>The following controller was purchased (but not yet received):<br><br>[http://www.ebay.com/itm/400488088492?ss ... 1497.l2649](http://www.ebay.com/itm/400488088492?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1497.l2649) <br><br>This is not a PID type controller, though, and may not provide enough (accurate) control. They also have inexpensive PID controllers, and I&#x27;m thinking these might be better, such as:<br><br>[http://www.ebay.com/itm/360897759092?_t ... EBIDX%3AIT](http://www.ebay.com/itm/360897759092?_trksid=p2055119.m1438.l2649&amp;ssPageName=STRK%3AMEBIDX%3AIT)<br><br>But perhaps this can&#x27;t handle an AC appliance like a 110V aquarium heater? Maybe another type of heater should be used.<br><br>Any help would be appreciated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Apr 04, 2014 8:37 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I think this is a TE controller ... TE chips run off of 12 volts dc polarity makes where its a heater or a cooler</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Apr 04, 2014 8:57 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks. Yes, it may be for TE coolers. There do seem to be other PID controllers for higher voltages on eBay, I&#x27;m looking at some now.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Steven</span>
+                <span class="post-date">Sun Apr 27, 2014 7:51 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I was wondering if anyone can offer some guidance on how to control the temperature of a volume of water (~2 to 4 liters). I would like to control the temperature closely, say +/- 0.25 degree C, but preferably better.I plan to use an aquarium heater (110V, 25W) as the heating element. Also a magnetic stirrer (star shape) to circulate water in the container.The following controller was purchased (but not yet received):http://www.ebay.com/itm/400488088492?ss ... 1497.l2649This is not a PID type controller, though, and may not provide enough (accurate) control. They also have inexpensive PID controllers, and I&#x27;m thinking these might be better, such as:http://www.ebay.com/itm/360897759092?_t ... EBIDX%3AITBut perhaps this can&#x27;t handle an AC appliance like a 110V aquarium heater? Maybe another type of heater should be used.Any help would be appreciated.<br><br>Hi Joe,<br><br>I don&#x27;t know whether a 25 Watt aquarium heater would have enough power for your system, I suspect that you may need something much bigger.<br><br>It all depends on your system, what&#x27;s the difference between your target temperature and your ambient temperature, and what are the system losses.<br><br>If the system is well insulated, you may be OK with just a 25 Watt heater. The advantage of using a low power heater is that you would be less likely to have a temperature overshoot, but it could take you a long time to get to your target temperature. If your system losses are too high, you may never get to your target temperature.<br><br>I&#x27;m not sure whether a magnetic stirrer will provide enough mixing for 4 litres of water, you will just have to try it and see. You don&#x27;t want a temperature difference from the top to the bottom of your liquid.<br><br>The two items you listed may do the job. You will be able to confirm this if you have access to a suitable thermometer.<br><br>I&#x27;m waiting for a similar PID controller from China, but I will be using a platinum temperature sensor which is a resistive device rather than a k-type thermocouple.<br><br>[http://en.wikipedia.org/wiki/Resistance_thermometer](http://en.wikipedia.org/wiki/Resistance_thermometer)<br><br>I don&#x27;t know if all cheap PID temperature controllers from China can be reconfigured to use a different type of temperature sensor,<br><br>the one I have ordered can be. Likewise, the second item you list also looks like it can be configured to take an RTD (resistive temperature device).<br><br>The second item on your list looks like it can switch a maximum current of 3 Amps without the use of the SSR (solid state relay).<br><br>The advantage of using a SSR, is that it has a longer life than the built in relay and can handle a higher current.<br><br>The item you have ordered uses a 10K ohm NTC thermistor as a temperature sensor, which is fine.<br><br>Without seeing the instruction manual, I would think that the item you ordered will have a set of relay contacts as an output to power your heater.<br><br>The relay contacts could be rated for 10 Amps looking at the advert. The item also has a calibration setting, so I suppose you can calibrate it against a known accurate thermometer.<br><br>My shopping list:<br><br>[http://www.ebay.co.uk/itm/251256410617? ... 1439.l2649](http://www.ebay.co.uk/itm/251256410617?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)<br><br>[http://www.ebay.com/itm/PID-DIGITAL-TEM ... 1c3faefe30](http://www.ebay.com/itm/PID-DIGITAL-TEMPERATURE-CONTROLLER-FOR-KILN-FURNACE-OVEN-ESPRESSO-COFFEE-MACHINE-/121327517232?pt=UK_H_G_Major_Appliances_Oven_Cooker_Hoods_ET&amp;hash=item1c3faefe30)<br><br>[http://www.ebay.com/itm/SSR-25A-SOLID-S ... 1c3eee689d](http://www.ebay.com/itm/SSR-25A-SOLID-STATE-RELAY-PID-TEMPERATURE-CONTROLLER-KILN-FURNACE-ESPRESSO-/121314896029?pt=UK_WSJL_Wholesale_GL&amp;hash=item1c3eee689d)<br><br>I will be getting three of each and they will be used for:<br><br>Swelling bath circulating water with water pump.<br><br>Intermediate IPA heated water bath with water pump.<br><br>100% IPA heated water bath with water pump.<br><br>What are you using yours for?<br><br>I have attached a photo of my Heath Robinson intermediate IPA water bath that can hold up to four clip lock containers of IPA.<br><br>The heater, a 2KW 3 litre deep fat fryer, and water pump is located underneath. Surprisingly it doesn&#x27;t leak <br><br>Steven.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Steven</span>
+                <span class="post-date">Sun Apr 27, 2014 8:02 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Thanks. Yes, it may be for TE coolers. There do seem to be other PID controllers for higher voltages on eBay, I&#x27;m looking at some now.<br><br>No, I don&#x27;t think it is for TEC coolers.<br><br>This bit gives it away: &quot;Delay protection function.&quot;<br><br>A delay function is often used in conjunction with a compressor, as in refrigeration.<br><br>It&#x27;s designed to give time for any back pressure in the refrigeration circuit to equalise, otherwise the compressor may start under a heavy load, which is a bad thing as it could kill the motor. <br><br>Steven.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Apr 28, 2014 7:19 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks for your help, Steven. I definitely need it.<br><br>It looks like our temperature-control objectives are quite similar. At the moment, I&#x27;m working on the following:<br><br>1) A closely (0.2C +/-) temperature-controlled water-only bath (volume of water not decided yet). Some links are below for equipment (purchased recently) which might be used for this. I want to be able to vary this temperature, and do it rather quickly. The volume of water may need to be reduced from my earlier plans, or a stronger heater may be needed. <br><br>2) A not-so-closely (1C +/-) controlled water/alcohol bath to raise the temperature above ambient (say 17C) up to around 33C. This will be for the first (&quot;color tuning&quot; presumably) alcohol bath. The remaining alcohol baths may also need to be raised, but I would like to build a prototype first.<br><br>I would also like to do some experimenting with cooler than ambient liquids, but I think that problem is solved. I used the temperature-controller (linked previously) to lower the temperature of a small refrigerator. I can vary this anywhere between ambient and almost to freezing. So liquids in bottles can be stored inside.<br><br>Those are some excellent purchases you made. What a deal you got on the PID controller . I have bought some similar items recently in connection with the #1 water bath above:<br><br>[http://www.ebay.com/itm/160978077953?ss ... 1439.l2649](http://www.ebay.com/itm/160978077953?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)<br><br>[http://www.ebay.com/itm/331140962480?ss ... 1439.l2649](http://www.ebay.com/itm/331140962480?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)<br><br>[http://www.ebay.com/itm/310702225734?ss ... 1439.l2649](http://www.ebay.com/itm/310702225734?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)<br><br>You were right about the 25W aquarium heater not being nearly enough, I&#x27;m looking into other heater options. Thanks for the photo of your intermediate IPA/water bath, it looks excellent. Regarding closely controlled water baths, I&#x27;ve found some useful information regarding PID control from people who have built &quot;sous vide&quot; food cookers:<br><br>[http://www.tomordway.com/PID_Controller ... tml#Wiring](http://www.tomordway.com/PID_Controller/SousVideController.html#Wiring) <br><br>[http://www.instructables.com/id/Univers ... /?ALLSTEPS](http://www.instructables.com/id/Universal-controller-for-sous-vide-cooking/?ALLSTEPS) <br><br>As an engineer, you probably don&#x27;t need this kind of help, but I do</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Apr 28, 2014 9:05 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">oops, just noticed that you didn&#x27;t actually buy those items yet, good luck.<br><br>By the way bought a couple other things which might be useful. One is a cheap pH meter (with ATC) and this works well. Also is a &quot;powerhead&quot; which they use in aquariums, it pushes a lot of water around, for circulation.<br><br>[http://www.ebay.com/itm/191013832200?ss ... 1439.l2649](http://www.ebay.com/itm/191013832200?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649) <br><br>[http://www.ebay.com/itm/171290817341?ss ... 1439.l2649](http://www.ebay.com/itm/171290817341?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Steven</span>
+                <span class="post-date">Mon Apr 28, 2014 2:24 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&quot;Thanks for your help, Steven. I definitely need it.&quot;<br><br>No problem Joe.<br><br>&quot;What a deal you got on the PID controller&quot;<br><br>I didn&#x27;t bid on that particular PID controller, but one of the same model.<br><br>Link to the instruction manual for the one I have ordered: [http://www.happybuyerstore.com/manual/new2006power.pdf](http://www.happybuyerstore.com/manual/new2006power.pdf)<br><br>The one you have brought says under technical specifications: Main output: RELAY: capacity 250V/3A AC, 30V/3A DC,<br><br>but under Features: SSR control ready to connect external Solid State Relay to handle High current.<br><br>You will have to power the unit up first, without any connections to your heater or SSR and then go into the setup menu to see if there&#x27;s an option to select SSR output.<br><br>Your manual should provide all that info.<br><br>I suggest that you install all the electronics in a box of some form and if it&#x27;s a metal box, make sure that it is earthed.<br><br>I recommend that you bolt the SSR to some form of heat sink. It&#x27;s also worthwhile to have a switch placed between the output of the SSR and your heater. That way you can play with the settings of the PID controller without power going to your heater.<br><br>As regarding the choice of heating device, see if you can identify something that is already available and would fit in with your requirements, rather than starting from scratch with just an heating element. As you know, I&#x27;m using 2kW deep fat fryers. I got three for about $90. Until I have the PID controller set up, I don&#x27;t know how they will perform regarding hitting the target temperature. A 2kW heater may seem overkill for just heating water for the swelling bath, but see &#x27;Note 9 cycle rate&#x27; in the instruction manual linked above. The risk of using an overpowered heater for a small volume of water is temperature overshoot.<br><br>I plan to use one of the 2kW 3 litre deep fat fryers for my swelling water bath.<br><br>I will made a simple frame up to support a standard photo developing dish above the fryer at an angle and have a small water pump immersed in the water of the fryer.<br><br>If I make it right, the water should just trickle down from the edge of the raised developing tray back into the fryer. I will place the temperature sensor in the fryer.<br><br>I did ponder with the idea of heating the first IPA bath directly as you have done, but it complicates things.<br><br>I wanted the IPA containers to be sealed most of the time, I don&#x27;t like breathing in IPA fumes, maybe I should take up another hobby:-)<br><br>The temperature of a directly heated IPA bath can be controlled better as there is no container between the IPA bath and the surrounding temperature controlled water as I&#x27;m doing. There is less chance of water contamination with a directly heated IPA bath. I have to wipe the outside of the IPA container after withdrawing from the heated water bath before removing it&#x27;s lid. With my intermediate IPA water heated bath, I have to switch off the heater before withdrawing an IPA container, as there is less overflow into the deep fat fryer with a container removed.<br><br>Pumps:<br><br>I&#x27;m using a 800 ltr/hour water pump for my intermediate heated water bath, which is a massive overkill.<br><br>The pump is rated up to a working temperature of 30C. I didn&#x27;t find that out until it arrived.<br><br>It has a built in thermal cut out, but despite running it up to 60C it&#x27;s worked fine.<br><br>I will not need it to be run above about 40C anyhow.<br><br>I&#x27;m waiting for one of these to turn up: [http://www.ebay.co.uk/itm/400522820648? ... 1439.l2649](http://www.ebay.co.uk/itm/400522820648?ssPageName=STRK:MEWNX:IT&amp;_trksid=p3984.m1439.l2649)<br><br>I will order a second unit when I get back from Germany. They will be used for the swelling water bath and the final heated 100% IPA bath. The 100% IPA bath will be indirectly heated. The pumps are rated for use at 100C<br><br>I wonder what method the professional holographers use for heating IPA?<br><br>&quot;I&#x27;ve found some useful information regarding PID control from people who have built &quot;sous vide&quot; food cookers&quot;<br><br>Yes, there is also plenty of stuff on youtube covering PID temperature controllers.<br><br>There is one here, describing a method of modifying a PID controller &quot;Relay to SSR Modification&quot;<br><br>Link: [http://www.youtube.com/watch?v=2NpcMycHDvk](http://www.youtube.com/watch?v=2NpcMycHDvk)<br><br>I have a very similar model of PH meter, again from China.<br><br>I never brought it for holography, but to check the PH of my home made carp fishing bait.<br><br>Don&#x27;t store the sensor in distilled water. See: [http://hannainst.com/usa/whitepaper/Car ... derev4.pdf](http://hannainst.com/usa/whitepaper/CareandstorageofpHelectroderev4.pdf)<br><br>I&#x27;m now off to dip sensitize a couple of fresh plates.<br><br>Steven.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Apr 28, 2014 2:48 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Thanks for you comments, Steven, I appreciate it. Good luck on the holograms.</div>
+        </div>
+
+    <div class="thread-nav"><a href="839.html" class="prev-thread">← A New Microscopic Principle</a><a href="Techniques.html">↑ Techniques</a><a href="823.html" class="next-thread">Issues with developing →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11461.html" class="card">
+                <h3>Achromat hologram question</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11390.html" class="card">
+                <h3>H1/H2 question</h3>
+                <div class="card-meta">Techniques · 36 posts</div>
+            </a>
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

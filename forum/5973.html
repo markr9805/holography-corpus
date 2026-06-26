@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam Spot Size Diameter question. — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5975.html" class="prev-thread">← N2 laser in holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5974.html" class="next-thread">Sensitivity vs Humidity in silver emulsions →</a></div>
+    <h1>Beam Spot Size Diameter question.</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>15</td></tr>
+        <tr><td>Views</td><td>2,809</td></tr>
+        <tr><td>Started</td><td>Wed Jan 10, 2007 12:05 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/tony.html">Tony</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5973" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 10, 2007 12:05 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">[http://www.edmundoptics.com/techsupport ... icleid=272](http://www.edmundoptics.com/techsupport/DisplayArticle.cfm?articleid=272)<br><br>Why is it on this page that the larger the input beam diameter the smaller the beam spot? This does not make sense to me. And what&#x27;s more, using a 3 or 4mm beam diameter for .514u wavelength puts me at 2 or 3 micron pinhole.<br><br>Can anyone explain this?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Wed Jan 10, 2007 12:46 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Here&#x27;s a hand-waving explanation. The action of the lens is to align the wavefronts coming from all points across the beam so that they line up at the focus. The wider the beam, the more quickly these wavefronts become mis-aligned, as you move away from the focal point. <br><br>Consider a finite beam width with a finite &#x27;spot size&#x27; at the focus. Actually, the spot size is a scaled copy of the beam profile. Now widen the beam. The additional light on the sides of the beam destructively interfere with the original focus profile to effectively make it smaller.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 10, 2007 1:20 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hummm, destructive interference? I have never seen any destructive interference from a laser simply passing through a lens.<br><br>So the larger the beam diameter the smaller the focus spot. Just seems backwards to me. In looking at imaging, if I have a 10&quot; diameter lens and I place an object 2 inches high about a mile away I have a image of that object and the image should be some percentage of reduced size. Now if I take replace the 2 inch high object with 8 inch high object, this second object should appear 4 tims larger then the 2&quot; object, shouldn&#x27;t it?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Wed Jan 10, 2007 2:17 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">In the case of the example you gave, the difference is that the focal points are at different locations, which track with the incoming angle. In fact, if you had something 2 miles away, it would appear as a very small dot.<br><br>And yes, it is interference. The action of the lens is to adjust the time of flight of the waves such that they only align at the focal point. Recall that the speed of light in glass is lower than in air. Light passing through the thicker central portion of the lens is delayed more by passing through more material with slower speed than light passing through the edges.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Jan 10, 2007 7:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">The size of the pinhole is related to the size of the smallest spot that a lens can resolve. Resolution is related to f/#, and surprisingly, a low f/# gives better resolution than a high one! This might seem counter-intuitive to the old photographic rule of thumb wherein a larger f/# gives greater depth o&#x27; field, but it is true!<br><br>How to image this is by getting out your transparencies for making moire patterns and looking at how the interference fringes get smaller as the angle between the sheets gets bigger. The bigger angle between the interfering beams corresponds to a lower f/#.<br><br>When the extreme rays from the converging to a focus beam meet they will create an interference pattern. The size of the fringes gets smaller as the angle between these extreme rays gets bigger. The further from the center these edge rays are, the lower the f/# the lens is working at.<br><br>By filling up more of the objective with laser beam, it works at a lower f/#. So with that wide beam of yours, the spot size gets <strong>smaller</strong> at the focus compared to an under-filling beam.<br><br>But as usual, try all your different pinholes to see which one does get rid of the noise. Working with a 5 micron pinhole is no fun, so if you can get by with a 10 or 15, great!<br><br>For reference, see resolution in Optics Guide by Melles Griot, or Airy&#x27;s disk in other optical references.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 11, 2007 12:10 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">OK, then something else is going on.<br><br>I decided it was time to upgrade my optics. Mirrors, beamsplitters and objectives. The ones I have, I have been using for +20 years. <br><br>I broke down and purchased the 9mm singlet objective from Edmunds in addtions to new first surface mirrors and new beam splitters. Although the objective produces a very beautiful beam which at the moment seems like it does not even need a pinhole, I wanted to try my pinholes so that at a later time when the beam is not optimal I can use the spatial filter as a spatial filter and not simply a lens holder. Anyway, I tried to feed the 9mm singlet objective beam through a 10u, 25u and 50u pinhole. In every attempt the beam seemed like it was going through too small a pinhole, not too large.<br><br>To further explain my situation. The 9mm singlet has the power of roughly a 20x objective. My 20x standard objective has no problem what so ever being fed though a 25u pinhole with my beam diameter. In fact I can feed it though the 10u and 50u pinholes and get addequate results. Now, when I take the 9mm singlet objective I can never get a good focus with any of the three pinholes. <br><br>I believe what is happening is somehow the shape of the beam is being changed. That is, with the standard objective, which has two lenses in it, it is changing the diameter of the beam hitting the second lens and making the beam act as if it is a smaller diameter. With the siglet, the beam hitting the lens is the actual size of the beam.<br><br>Now, one thing I do not see addressed any any web page and specifically Edmund&#x27;s Optic page is the fact that when you get to a large input beam size the profile of the beam changes at the pinhole. The pinhole needs to be thinner. I tried to draw this to illustrate it. As you can see in the singlet ray trace drawing there is more that has to get to that 9mm point, thus the pinhole thickness is obstructing the edges of the beam, a lot. To fix this one would either have to get a pinhole on a thinner substrait, increase the size of the pinhole or move the EFL away from the lens.<br><br>Again, this is based on observation on how this 9mm singlet objective acts in my spatial filter. I would love to hear feedback but to test this I purchased a 27mm singlet lens that I will glue to a blank microscope objective (no optic in it). I need a singlet that acts more like a 10x instead of a 20x for the reference beam to collimtor anyway and Edmunds does not have one mounted already. And I purchased a 100u pinhole.<br><br>![Image](http://www.holograms3d.com/Illustrations/ObjectivesVSPinholes.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 11, 2007 1:23 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">On the subject of spatial filters in general, they seem to be cumbersome, wasteful, and antiquated.<br><br>Losses can be huge if a microscope objective is used. If anyone cares about conserving laser light (and this would surely apply to almost all holographers), then a singlet (or single lens) would be vastly preferable to a lossy and often expensive microscope objective.<br><br>Personally I would like to see a spatial filter designed with the holographer in mind. My &quot;ideal&quot; spatial filter would include the following:<br><br>1) A good, simple mechanical design, using the screws from Thorlabs. This would be similar to the kinds of movement found on some of the simpler commercial spatial filters.<br><br>2) Most importantly, it should have the provision for using a variety of SMALL LENSES instead of objectives or mounted singlets. It appears that the singlets from Edmund are good, but there are only a few focal lengths available.<br><br>3) Although a luxury, it would be fantastic to include two piezos (for fine-tuning of the up-and-down and side-to-side movement of the pinhole) in addition to the screws. (I don&#x27;t think a third one would be needed for the back-and-forth movement of the lens.) This should enable easy off-table use of the laser, with on-table use of the spatial filter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 11, 2007 2:52 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Yes Joe, I have to mostly agree with you. Spatial filters are a PITA and as it looks now I will not need the pinhole. Plus the fact that a singlet is very easy to clean compared to an objective. Over time objectives get dirty in between the two lenses an the whole thing needs to be taken apart to clean it. Very difficult to clean and put back together properly without a clean room.<br><br>With my current set up. I have two mirrors right at the laser and before the beam even gets to my table. These two mirrors rotate the polarization by 90 degrees such that it is P polarized (it comes out of the laser S) so I can use my large collimator which is not overhead mounted. Then the beam passes through a beam splitter then hits a transfer mirror and then proceeds throught the spatial filter. Now, since all the optics are new this beam looks great without a pinhole. But as dust etc. accumulates on the 4 optics plus the expanding lens, I am sure to soon see some Newton rings. If I attempt to clean these optic when this happens I will clean them right into being no good anymore (my philosophy is only clean optic on a must need basis, the more you clean them the higher the possibility of damaging them). Maybe the ticket it to clean and then replace these optics as needed. The three mirrors were made from one piece I bought and cut and only cost about $20. The beam splitters were made from 3 separate plate beam splitters (30-70, 50-50, 70-30) cut in half and glued side by side on a gimbal. The three combined prices were about $100 but because I used 1/2 of each and can use the other half when needed the effective cost for all three was about $50. I don&#x27;t think I will have to replace the singlet for quiet some time. The quality is very good. So for about $70 I can replace all optics to the reference beam expander. <br><br>I will still report back on how the loose 27mm singlet performs, how easily it mounts and if either the 9mm or 27mm singlet can be fed through a 10, 25, 50 or 100u pinhole and how it performs. I should receive the 27mm lens and the 100u pinhole tomorrow.<br><br>I have not seen any posts here concerning singlets and how they perform and especially how they work in a spatial filter so I think this is good info. Once all the data is compiled and other input, through this thread, has been heard, I will try to write something up for the Wiki on Singlets in spatial filters. WIth that, thank you everyone for you input and please add any additional thoughts, comments or facts.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 11, 2007 3:19 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">John, that&#x27;s an interesting possible explanantion of the problem you&#x27;re having with the singlet/pinhole.<br><br>Many years ago, I built a spatial filter using a single lens and a piece of aluminum foil. It worked well, and the resulting beam was just as good as what my commercial spatial filter produces. (But the homemade one wasn&#x27;t reliable, so I stopped using it.)<br><br>I don&#x27;t know how the thickness of the aluminum foil compares to the pinhole substrate, but my pinholes look very thin by eye, and I would be more inclined to say the aluminum foil was thicker (?). Probably, a lot of people have had success with a simple lens/aluminum foil arrangement.<br><br>The singlets from Edmund are supposed to be used in a spatial filter, aren&#x27;t they?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 11, 2007 3:27 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; The singlets from Edmund are supposed to be used in a spatial filter, aren&#x27;t they?<br><br>That&#x27;s what they say. <br><br>The pinholes I have range in thickness from 1/2 mil (12u) to 1 mil (25u). Foil I would guess to be 2 to 4 mil thick. But if you made the pinhole youself I would assume your hole to be &gt;50u (.002&quot;) as a guess. <br><br>&gt; John, that&#x27;s an interesting possible explanantion of the problem you&#x27;re having with the singlet/pinhole.<br><br>Yea, it&#x27;s funny no one has addressed the fact that we are trying to squeeze the center part of an hourglass though a cylinder.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jan 11, 2007 6:37 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">John, I have been using and recommending the Edmund Laser Singlets for years. I have had great results with them. Another thing to remember is pinholes become dirty. I take mine to my jeweler and have them ultrasonically cleaned and they come out perfect every time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 11, 2007 7:28 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Well, this is very interesting. I know all three pinholes are not dirty as they still work with the standard objectives. <br><br>Now I have to ask, which singlet objective are you using from Edmunds and what size pinhole? Also whom did you buy the pinhole from so I can research their specs on the pinhole.<br><br>Thanks in advance,</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 11, 2007 9:30 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Oh Colin, and one more piece of information...What is your beam size at the singlet?<br><br>Thanks in advance,<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jan 12, 2007 11:30 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Ok, I was able to get the 9mm singlet spatially filtered through the 100u pinhole (1/2mil). The 27mm singlet is ok with 50 and 100u pinholes. <br><br>But I will have to say, it is a different ball game tuning these things. When the spot expands and the rings start to go away with the standard objective everything seems flat. When you tune the Spatial Filter with the singlet, the spot and rings seem to be transposed on a curved surface. They slide side to side, top to bottom much quicker. They act much differently from each other with the singlet being much more touchy. I can usually tune my Spatial filter in less then a minute. With the singlet it takes a few minutes.<br><br>Has anyone else noticed a big difference in tuning between the standard and singlet objectives?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jan 17, 2007 4:59 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Well, this is very interesting. I know all three pinholes are not dirty as they still work with the standard objectives.Now I have to ask, which singlet objective are you using from Edmunds and what size pinhole? Also whom did you buy the pinhole from so I can research their specs on the pinhole.Thanks in advance,<br><br>I use all three shown here:<br><br>[http://www.edmundoptics.com/US/onlineca ... uctid=1922](http://www.edmundoptics.com/US/onlinecatalog/DisplayProduct.cfm?productid=1922)<br><br>When I have looked at my pin holes in a microscope the edges are not smooth like a cylinder but ragged like they were burned through. For the life of me I can&#x27;t remember where I have gotten them. I know I got some larger ones I never use on ebay. So it has to be either Edmund or Thorlabs.<br><br>The beam I use is elliptical and well collimated. It measures 8x3mm.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5975.html" class="prev-thread">← N2 laser in holography</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5974.html" class="next-thread">Sensitivity vs Humidity in silver emulsions →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11388.html" class="card">
+                <h3>Single Beam Transmission</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a>
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="11279.html" class="card">
+                <h3>Beam Splitter Problems</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="9998.html" class="card">
+                <h3>Two of the same laser instead of beam splitter?</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8924.html" class="card">
+                <h3>Single Beam Splitting for enhanced Denisyuk reflections</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

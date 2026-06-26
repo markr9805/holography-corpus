@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy to build Peltier cooling for Osram PL530 — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="10795.html" class="prev-thread">← Any New in holography</a><a href="Techniques.html">↑ Techniques</a><a href="10738.html" class="next-thread">Polarizing cube beamsplitter setup? →</a></div>
+    <h1>Easy to build Peltier cooling for Osram PL530</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>24,634</td></tr>
+        <tr><td>Started</td><td>Thu Nov 07, 2019 9:29 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/vasimv.html">vasimv</a> · <a href="../authors/soda.html">soda</a> · <a href="../authors/john-klayer.html">John Klayer</a> · <a href="../authors/frozone.html">frozone</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=10762" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">vasimv</span>
+                <span class="post-date">Thu Nov 07, 2019 9:29 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">The Osram PL530 (DPSS laser module) is cheap and has very good beam quality but quite hard to run properly. After some unsuccessful attempts and one destroyed module i&#x27;ve found the laser is very sensitive to temperature and requires quite precise cooling. So, i&#x27;ve started to build cooling/powering system for it from ready parts, with minimal soldering.<br><br>The system has microcontroller (Heltec ESP32 WiFi LoRa module), DPS3005 step-down module, GY-39 sensor (to control environment&#x27;s temperature, humidity, pressure and illumination), thermistor and small 5V step-down for microcontroller power. Later i plan to add one more DPS3005 module to be able slowly power-up laser&#x27;s power regulators (somehow my PL530 doesn&#x27;t want to start with full power and i have to reduce its current to zero and slowly increase it to get beam), and shutter servo. WiFi is used to provide small web-interface to see environment&#x27;s conditions and current peltier&#x27;s status.<br><br>If anyone is interested, i can make detailed instructions and firmware.<br><br>![DSC_2026.JPG](https://holographyforum.org/forum/download/file.php?id=7395)<br><br>![DSC_2031.JPG](https://holographyforum.org/forum/download/file.php?id=7399)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Fri Nov 08, 2019 1:24 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Great!<br><br>I have designed analog driver for PL530 include peltier driver, but currently I have no time to produce complete lasers... see for <br><br>inspiration:<br><br>[viewtopic.php?f=11&amp;t=9912&amp;start=30](https://www.holographyforum.org/forum/viewtopic.php?f=11&amp;t=9912&amp;start=30)<br><br>The PPLN heater is very sensitive part of PL530, when driven to constant resistance the sensitivity to base temperature is greatly reduced. It can be damaged by overheating of the PPLN. The laser diode can be damaged by current spikes instantly, do not use switching regulators!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">vasimv</span>
+                <span class="post-date">Fri Nov 08, 2019 7:45 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>sodawrote:↑Fri Nov 08, 2019 1:24 pm:</strong> I have designed analog driver for PL530 include peltier driver, but currently I have no time to produce complete lasers... see forinspiration:viewtopic.php?f=11&amp;t=9912&amp;start=30<br><br>Yes, looks good but i was too lazy to make PCB. And i have good experience in using MCUs for that kind of regulation, so i&#x27;ve decided to create MCU&#x27;s controlled module from ready parts. It has some restrictions because ESP32&#x27;s not really good ADC and slow working DPS3005 (can change output only two times per second or less) but still has +/- 0.1C precision.<br><br>&gt; <strong>sodawrote:↑Fri Nov 08, 2019 1:24 pm:</strong> It can be damaged by overheating of the PPLN. The laser diode can be damaged by current spikes instantly, do not use switching regulators!<br><br>Yeah, i found that already. But don&#x27;t have analog current regulator ready, so using switching one with simple capacitor close to laser as filter. Will add LC filter later.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Fri Nov 08, 2019 11:42 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Here&#x27;s the PL530 that Soda built for me:<br><br>[](https://imageshack.com/i/poDrObXgj)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">frozone</span>
+                <span class="post-date">Sat Dec 14, 2019 11:32 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">That’s amazing. Soda I’d definitely be down to pay for your time to build a whole laser when you get freed up again.</div>
+        </div>
+
+    <div class="thread-nav"><a href="10795.html" class="prev-thread">← Any New in holography</a><a href="Techniques.html">↑ Techniques</a><a href="10738.html" class="next-thread">Polarizing cube beamsplitter setup? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11474.html" class="card">
+                <h3>​The number one rival to the Osram PL530 has appeared.</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="10927.html" class="card">
+                <h3>Questions about Osram PB530 laser</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="901.html" class="card">
+                <h3>4 Lasers to build a 3D Hologram</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="859.html" class="card">
+                <h3>Osram green laser diodes</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="273.html" class="card">
+                <h3>Stupid question - how do you build a plate holder?</h3>
+                <div class="card-meta">Equipment · 25 posts</div>
+            </a>
+            <a href="7891.html" class="card">
+                <h3>Easy question.....I hope!</h3>
+                <div class="card-meta">Beginning Holography · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

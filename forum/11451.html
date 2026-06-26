@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In an image plane hologram, why does the front part of the hologram stick out from the plate? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11461.html" class="prev-thread">← Achromat hologram question</a><a href="Equipment.html">↑ Equipment</a><a href="11449.html" class="next-thread">Is there a name for holograms where the image sticks out fro →</a></div>
+    <h1>In an image plane hologram, why does the front part of the hologram stick out from the plate?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>8,325</td></tr>
+        <tr><td>Started</td><td>Mon Oct 06, 2025 11:39 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jayfritoes.html">JayFritoes</a> · <a href="../authors/lobaz.html">lobaz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11451" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JayFritoes</span>
+                <span class="post-date">Mon Oct 06, 2025 11:39 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">What is happening to the wavefront at that part to make it look like the object is sticking out?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Oct 06, 2025 1:18 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Nothing special.<br><br>Imagine a sheet of glass (plain glass, no hologram) and a shiny point behind it. A wave (a spherical one) emerges from it, passes through the glass sheet, and continues to infinity. If your eye is located in front of the glass sheet, you just perceive the spherical wave emerging from the point. Again: the wave passes through the glass sheet.<br><br>Code: [Select all](#)<br>` |<br> |<br>point <em> | # eye<br> |<br> | glass sheet<br>`<br><br>Now, if you want to make a holographic illusion of that point, you have to record the wave passing through the glass sheet. Thus, when reconstructing the wave, you illuminate the hologram with the reconstruction wave. The hologram must generate a wave that seems to originate (diverge from) the original point.<br><br>When a shiny point P is in front of the glass sheet, it is a bit more tricky to imagine it. Anyway: your eye perceives the spherical wave diverging from the point P. In this case, it is quite irrelevant what wave passes through the glass sheet as it does not reach your eye.<br><br>Code: [Select all](#)<br>` |<br> |<br> | </em> point P # eye<br> |<br> | glass sheet<br>`<br><br>If you want to make a holographic illusion, you have to arrange somehow that light seems to originate at the position of the point P. But this is quite simple: the hologram, when illuminated by a reconstruction wave, must create a wave that converges (focuses) at point P. As light does not stop there (imagine light rays emerging from the glass sheet and crossing at P), it continues further on. An observer then perceives light that seems to originate at P.<br><br>There is, indeed, one related unnatural pheomenon:<br><br>Code: [Select all](#)<br>` |\ / ray A<br> | \ /<br> | \ /<br> | * P<br> | / \<br> | / \<br> |/ \ ray B<br>glass sheet<br>`<br><br>All rays emerging from the glass sheet cross at P. When your eye is located between rays A and B, you perceive illusion of P. However, if your eye is outside that area, no light reaches your eye and the illusion disappears. This is quite unnatural, as if there was a shine point P, you would see it next to the glass sheet.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JayFritoes</span>
+                <span class="post-date">Mon Oct 06, 2025 2:06 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">But convergence alone doesn’t create the illusion of floating in front. For example, the flipped image in a concave mirror is formed from a convergence point in front of the mirror, yet the flipped image does not look like it’s floating in front of the mirror. P does not emit new light originating from P. The light at P is the light that came from the location of the glass, not the location of P. So what am I missing?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Oct 08, 2025 7:43 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>JayFritoeswrote:↑Mon Oct 06, 2025 2:06 pm:</strong> But convergence alone doesn’t create the illusion of floating in front.<br><br>It does, even with concave mirrors. Have you seen &quot;double concave mirror illusion&quot;? See [https://www.physics.purdue.edu/demos/di ... item=7A-11](https://www.physics.purdue.edu/demos/display_page.php?item=7A-11) or [https://ar.inspiredpencil.com/pictures- ... -illusions](https://ar.inspiredpencil.com/pictures-2023/concave-mirror-illusions).<br><br>You are right that images reflected in a concave mirror often do not look like floating in front of the mirror. I will be guessing here as I don&#x27;t have any evidence, so consider this as an &quot;educated guess&quot;. <br><br>Depth perception is a very complex process depending not just on binocular cues (parallax) and physically-based monocular cues (depth of focus), but also on many psychological cues (analysis of the scene, for example occlusion). So, even when binocular and simple monocular cues are sort of OK, other depth perception processes may prevail. For instance, a speck of dust on a mirror will not by occluded by a real image in front of the mirror, and occlusion wins.<br><br>Consider also this. A concave mirror must create a cone of reflected rays wide enough to hit both eyes of the observer; otherwise, missing binocular disparity breaks the depth illusion. A real image of a 3-D object is often heavily aberrated; aberrations may fool binocular disparity and 3-D perception breaks. When a real image is close to a rim of the mirror, perception of a real rim outweight depth perception of the illusion.<br><br>Finally: if a hologram showed just a real image of a single point (i.e., in front of the hologram), it would be very difficult to tell its spatial position. Brain is very good in depth estimation when it compares to something; once the reference is missing, depth perception is poor.<br><br>A hologram often displays a complex scene which makes 3-D perception good. Contrary, an accidental reflection in a concave mirror lacks suitable scene composition and the illusion does not seem to be in front of the mirror. However, try taking a concave mirror, make a meticulous experiment and observe the reflection carefully. You&#x27;ll see it is indeed in front of the mirror.<br><br>---<br><br>By the way, a long time ago I made a related experiment for stereoscopic vision (3-D cinema). I have displayed two objects next to each other on the screen. The objects were identical except for the size: one was small and located in the vicinity of the screen, the other was big and located far behind the screen. However, sizes of the objects were selected so that their images on the screen were of the same size.<br><br>The obsevers had to guess which object is big and far / small and close. With uniform background behind the objects, barely anyone could tell. When a simple checkerbard pattern was displayed behind objects, all observers were correct.<br><br>The conclusion is: even when everything is physically correct, other factors affect depth perception significantly.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11461.html" class="prev-thread">← Achromat hologram question</a><a href="Equipment.html">↑ Equipment</a><a href="11449.html" class="next-thread">Is there a name for holograms where the image sticks out fro →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11449.html" class="card">
+                <h3>Is there a name for holograms where the image sticks out from the plate?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11395.html" class="card">
+                <h3>Why does the use of photopolymer film produce ripples?</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a>
+            <a href="9964.html" class="card">
+                <h3>PLS HELP! Hologram vanished from holographic watch</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="8508.html" class="card">
+                <h3>why there are some Black stripes on the hologram</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="432.html" class="card">
+                <h3>various questions re image plane reflection</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="291.html" class="card">
+                <h3>Why is my hologram blue?</h3>
+                <div class="card-meta">Equipment · 26 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light meters II — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4799.html" class="prev-thread">← lighting for color holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4797.html" class="next-thread">w00t! High school students can learn holography →</a></div>
+    <h1>Light meters II</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>888</td></tr>
+        <tr><td>Started</td><td>Fri Apr 29, 2005 8:56 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/wler.html">wler</a> · <a href="../authors/sergio.html">Sergio</a> · <a href="../authors/bobh.html">BobH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4796" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Apr 29, 2005 8:56 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">This is a followup to [this](http://holographyforum.org/phpBB2/viewtopic.php?t=2165&amp;postdays=0&amp;postorder=asc&amp;start=0) thread.<br><br>In the mean time I was designing a simple light meter and building<br><br>a few samples of it; a brief preliminary description is [here](http://argonholo.webhop.net/electronics/lightmeter.html). It<br><br>works as expected.<br><br>I will make them available to anybody just for cost of material and<br><br>shipping. Right now I have materials for like a dozen units. I<br><br>may acquire material and order PCB&#x27;s for more, if there is sufficient<br><br>interest. So whoever is interested, please drop me a line, so that<br><br>I can gauge the demand.<br><br>There are several options:<br><br>A) just the PCB. It fits the common OPT101 sensor but also the<br><br>better OPT202 (no dark voltage).<br><br>B) PCB and OPT202 sensor plus most of the remaining components. You<br><br>must supply an MAX1044 or LTC1044 chip in SO8 package (hint: available as samples).<br><br>C) Ready to use and calibrated against my S20MM Thorlabs meter.<br><br>Obviously this is a lot of work and I can&#x27;t do this on a larger<br><br>scale . I have in mind people who do not have a calibrated meter<br><br>around and are struggling to find the right exposure. <br><br>However, right now I can accurately calibrate it only at 532nm as<br><br>I have a stabilized laser only for this wavelength. For other<br><br>wavelengths an extrapolation is possible but that will make things<br><br>less accurate of course. But in any case the accuracy should be<br><br>more than adequate for holography applications. I may be able to<br><br>very accurately calibrate other wavelengths later this year.<br><br>I may have time during the weekend, but before I proceed, a little<br><br>feedback is asked for: should I calibrate to have a round number,<br><br>like 20mV/(uW/cm^2) (which makes exposure computations easier, but<br><br>it can be true only at one wavelength), or should I calibrate to<br><br>match the raw sensitivity claimed in the sensor data sheet? That would<br><br>allow an easier comparison with other&#x27;s uncalibrated sensors;<br><br>the exposure can be determined via the curves on my web site.<br><br>It would be good to have a common standard for this. So please<br><br>give your vote which way you prefer!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Fri Apr 29, 2005 11:20 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Interesting stuff and options!<br><br>&gt; That wouldallow an easier comparison with other&#x27;s uncalibrated sensors;the exposure can be determined via the curves on my web site.<br><br>Is possible make a stand alone software for in situ palm hand meters?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Apr 30, 2005 12:17 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; right now I can accurately calibrate it only at 532nm asI have a stabilized laser only for this wavelength. For otherwavelengths an extrapolation is possible but that will make thingsless accurate of course.<br><br>I&#x27;d be happy to check anybodies meter with mine. I have, or have access to at least 4 Coherent Fieldmasters and one Labmaster Ultimate with all heads. These are all wavelength settable. <br><br>Might be a good exercise for the PCG Meeting. Power meter calibration amongst those present or sent in. What&#x27;s a mW?</div>
+        </div>
+
+    <div class="thread-nav"><a href="4799.html" class="prev-thread">← lighting for color holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4797.html" class="next-thread">w00t! High school students can learn holography →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="3248.html" class="card">
+                <h3>light meters</h3>
+                <div class="card-meta">General Holography (old) · 50 posts</div>
+            </a>
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11419.html" class="card">
+                <h3>Newport model 1930C light meter?</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11417.html" class="card">
+                <h3>Newport light meter 1916-C</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11340.html" class="card">
+                <h3>Purple transmitted light in DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

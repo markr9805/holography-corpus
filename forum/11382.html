@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCD Projector X-Cube — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11383.html" class="prev-thread">← Walter Spierings Microscope Hologram</a><a href="Techniques.html">↑ Techniques</a><a href="11373.html" class="next-thread">Sapphire instability due to AC noise →</a></div>
+    <h1>LCD Projector X-Cube</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>10</td></tr>
+        <tr><td>Views</td><td>249,692</td></tr>
+        <tr><td>Started</td><td>Thu Oct 17, 2024 9:23 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/alan-sailer.html">Alan Sailer</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/bobh.html">BobH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11382" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Thu Oct 17, 2024 9:23 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">One of my longer term goals in holography is to try and make a basic two color hologram.<br><br>I have seen set-up that use a dielectric mirror to combine the colors into a single beam. I have also seen people propose using the <br><br>beam combiner from an LCD projector (X-Cube).<br><br>Will the X-cube combiner work for two (or three) color holograms? Are there polarization issues?<br><br>If you use the dielectric mirror how do you pick which beam to reflect and which to transmit?<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 17, 2024 10:22 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I&#x27;ve never used an X-Cube, so I don&#x27;t know. I&#x27;ve only used the dichroic beam combiners from Edmund.<br><br>Regarding which beam to transmit and which to reflect, it depends on the power of your lasers, the difference in transmission vs. reflectance efficiency of the beam combiner, and the spectral sensitivity of the recording material. For example, if you need to conserve red light as much as possible, and your beam combiner has more efficiency in reflection mode (vs. transmission) then of course you want to reflect the red. In the long run, it shouldn&#x27;t make much difference, and if your lasers are approximately equal in power, I wouldn&#x27;t worry about it (when using Bayfol). Just combine the beams and shoot the holograms. It&#x27;s much more important to know the actual power output of the lasers. Later on, if you&#x27;re using other lasers, and there is an obvious power mismatch between the red and green, then it might be worthwhile to look into the beam-combiner efficiency issue. The most important thing is what your emulsion &quot;sees&quot; in terms of laser power. By the way, for measurements under 40mW, this looks like an inexpensive option:<br><br>[https://www.aliexpress.us/item/32568051 ... US%21%21AB](https://www.aliexpress.us/item/3256805185169954.html?spm=a2g0o.detail.0.0.79d2idbYidbYno&amp;gps-id=pcDetailTopMoreOtherSeller&amp;scm=1007.40050.362094.0&amp;scm_id=1007.40050.362094.0&amp;scm-url=1007.40050.362094.0&amp;pvid=50194161-2937-444f-8cfe-9fdd0d3ea141&amp;_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.362094.0,pvid:50194161-2937-444f-8cfe-9fdd0d3ea141,tpp_buckets:668%232846%238109%231935&amp;pdp_npi=4%40dis%21USD%21263.31%21157.99%21%21%21263.31%21%21%402101c5df16990182325242083e3ad7%2112000032784205776%21rec%21US%21%21AB)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Thu Oct 17, 2024 11:32 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Joe,<br><br>Thanks for responding to my questions. It is very helpful.<br><br>What you say makes sense. I have an ancient Spectra-Physics 3018 power meter (it is powered by the laser input, no battery) that seems to give<br><br>believable results. Both my HeNe and the DPSSL have similar output powers, about 20mW. The Bayfol appears to be less sensitive to red than green<br><br>so that might help me figure out what king of dielectric mirror to ise. I&#x27;d like to see if the beam combiner works. I did some quick tests with a white flash light and the appearance of the split colors changes when I polarize the light.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Oct 18, 2024 8:42 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Alan Sailerwrote:↑Thu Oct 17, 2024 11:32 am:</strong> I did some quick tests with a white flash light and the appearance of the split colors changes when I polarize the light.Cheers.<br><br>It would. Reflectivity is polarisation and angle dependent, so if you&#x27;re reflecting, polarisation is an issue. For transmission, it&#x27;s not because you transmit on-axis, most of the time, and so the light hits the lens perpendicularly. At perpendicular incidence, reflectivity is at 4% for a glass at all polarisations, and so you&#x27;ll lose 4% at the interface. For reflection, the polarisation state and angle determine the reflectivity - the proportion of incoming light that&#x27;s reflected. There are curves that you can read off for pure polarisations states &#x27;p&#x27; and &#x27;s&#x27; (below),. &#x27;P&#x27; polarisation refers to polarisation that&#x27;s parallel to the plane of incidence, thus for a horizontal geometry (all the beams in one plane), &#x27;p&#x27; polarisation would be horizontal. &#x27;S&#x27; polarisation refers to polarisation that&#x27;s perpendicular to the plane of incidence, and so would be vertical in a horizontal geometry. Of course, if the polarisation were some combination of &#x27;s&#x27; and &#x27;p&#x27;, the reflectivity would change. Also, if the beam changes direction from a horizontal geometry to a vertical one, eg is sent upwards, the polarisation is altered. In the end, what&#x27;s important is that the polarisation of both beams are parallel at the film plane; for this reason, some people use a polarising beam splitter cube and a half-wave plate.<br><br>The colour appears to change because the colour rendition depends on the colour mix at the film plane. If you lose a certain amount of light at some angle for a specific colour because of reflection , and not lose as much in transmission for another colour, the colour mix changes, hence the appearance changes. If you (or anyone else) is interested, I can upload an article I wrote on colour mixing.<br><br>![pol.jpg](https://holographyforum.org/forum/download/file.php?id=7863)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Oct 18, 2024 9:25 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">X-cubes in projectors often have polarizers or color-dependent half wave plates bonded to them so I&#x27;d be hesitant to use one harvested from a projector for holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Oct 18, 2024 11:25 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Fri Oct 18, 2024 8:42 am:</strong> Reflectivity is polarisation and angle dependent, so if you&#x27;re reflecting, polarisation is an issue.<br><br>Good point.<br><br>&gt; <strong>Alan Sailerwrote:↑Thu Oct 17, 2024 11:32 am:</strong> The Bayfol appears to be less sensitive to red than green<br><br>The sensitivity figures for Bayfol HX200 were given as 15mJ@633, 20mJ@532, and 25mJ@457 (page 3 of below link):<br><br>[https://www.geola.com/download/Bayfol_H ... asheet.pdf](https://www.geola.com/download/Bayfol_HX200_datasheet.pdf) <br><br>The Bayfol HX200 is a stellar performer for color holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Oct 18, 2024 11:53 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">One other point, thinking further, as to Joe&#x27;s method using dichroics, the dichroics have to be at an angle to the incoming, transmitted beam<em>, in order to line up the reflected beam. So, the transmitted beam is not hitting the dichroic at normal incidence (perpendicularly). This means there will be a back-reflection of the transmitted beam, and so be polarisation-dependant based on the angle of the incoming beam to the dichroic. Assuming you use &#x27;p&#x27; polarisation ( most holographers do, or should do, for different reasons), it&#x27;s important to have the incoming beam hit the (transmitting) dichroic at Brewster&#x27;s angle to limit the back-reflected beam. <br><br>Here, for what it&#x27;s worth, is our (Triple Take Holographics) three colour geometry. The dichroics are lined up at the bottom of the photograph.<br><br>![3C Setup.jpg](https://holographyforum.org/forum/download/file.php?id=7864)<br><br></em> the beam to be transmitted</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Fri Oct 18, 2024 7:14 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thanks for all the information. Some of it is currently above my pay grade but I&#x27;m learning. I&#x27;ll have to figure out why polarization is important.<br><br>AS far as din&#x27;s set-up I can identify the dichroic mirrors that combine the three beams. The circular beam splitters that are separating the ref/object beam look kind of like a circular ND filter that I used for a single photon dual slit demo I did last year.<br><br>I used a polarizer on the x-cube. The red/blue are of similar polarization, the green is orthogonal to the others.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Fri Nov 29, 2024 12:20 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Yesterday I ran across Ed Wesly&#x27;s stash of holographic info. He says that x-cubes are not a good beam combiner for holography.<br><br>I also found a paper on three color holography that used an X cube. Opinions differ...<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Nov 29, 2024 12:58 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I built x-cube light engines for a few years and even assembled one out of custom dichroic mirrors. The problem you may face is that for those harvested from projectors, there are often wavelength dependent wave plates attached (or special coatings) that can mess with the polarization of the individual colors.<br><br>Ed Wesly&#x27;s pages are full of accurate information and practical solutions for home holography.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11383.html" class="prev-thread">← Walter Spierings Microscope Hologram</a><a href="Techniques.html">↑ Techniques</a><a href="11373.html" class="next-thread">Sapphire instability due to AC noise →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11064.html" class="card">
+                <h3>LCD Screen Protectors for Photopolymer</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="9923.html" class="card">
+                <h3>Laser pico projector for making color holograms</h3>
+                <div class="card-meta">Techniques · 50 posts</div>
+            </a>
+            <a href="136.html" class="card">
+                <h3>DLP projector for stereograms</h3>
+                <div class="card-meta">Techniques · 43 posts</div>
+            </a>
+            <a href="8222.html" class="card">
+                <h3>LCD Transmittivity</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="7970.html" class="card">
+                <h3>digital light projector</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="7350.html" class="card">
+                <h3>Focused image using LCD</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

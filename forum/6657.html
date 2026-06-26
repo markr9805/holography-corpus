@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxeon Rebel — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6656.html" class="prev-thread">← Gelatin and anti-crystallization properties</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6659.html" class="next-thread">what I&#x27;ve been doing lately →</a></div>
+    <h1>Luxeon Rebel</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>1,000</td></tr>
+        <tr><td>Started</td><td>Sun Jan 13, 2008 3:07 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/bernardb.html">bernardb</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6657" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jan 13, 2008 3:07 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">This is a photo of the new Luxeon Rebel LED. I momentarily fired it up (without a heatsink) to see how bright it is. I must say these things are incredible. They will light up the room with white light (other colors are available). And obviously, due to the small size, it&#x27;s very close to a point source, so you could practically place it into contact with the hologram, and it would do well. I used a $13 switching power supply (the same kind used for cell phones, etc.) that I got from Jameco. It puts out a constant 3.3 volts, so I don&#x27;t think there&#x27;s a need to use a resistor for the Rebel, and that little transformer can handle 2.5 amps, much more than what is needed. Thanks Tom B., for letting me know about these little switching power supplies.<br><br>The only problem with these Rebels is the difficulty in handling, due to the very tiny size, and they must have adequate heatsinking. I just lit the one above for a few seconds without a heatsink, and it melted the plastic on my test leads. The Rebels cost about $4.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">bernardb</span>
+                <span class="post-date">Sun Jan 13, 2008 6:46 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Joe,<br><br>Is the intended use for these LED&#x27;s to illuminate finished holograms?<br><br>Do you have a mounting system in mind yet?<br><br>I have been working on a method to display using much less powerful LEDs myself.<br><br>How are the results?<br><br>Bernard</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jan 13, 2008 6:57 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>bernardb:</strong> I have been working on a method to display using much less powerful LEDs myself.<br><br>The lower power LEDs (especially some of the newer 5mm ones) are entirely adequate for small holograms, although if they get too close, there will be noticeable distortions in the reconstructed image (the same holds true for any light source, although LEDs are especially forgiving in this respect). The less-powerful LEDs also have the advantage of no real heatsinking requirements.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Tue Jan 15, 2008 3:49 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hey there,<br><br>The reason it melted your wires is your pulling too much current. You can&#x27;t really use voltage regulated power sources for leds, it must be current regulated. <br><br>With just a small increase in voltage the current going through an led can be much larger than before the increase.<br><br>In addition the voltage drop (needed voltage to run) in leds is a bit different from one to the next. So, you never really know exactly how much voltage to put through it without testing each one first. But all leds of the same sort want the same current. Give the leds a voltage greater than its spec with current regulation and the led will pull the correct amount of voltage on its own. <br><br>The easiest way to do this would be a simple resistor in series with the led. Its not efficient though. Thats not a real problem unless your working off a battery, if not who cares. The best way to current regulate the luxion would be with one of their power modules like the buck puck. Then you could have brightness adj too.<br><br>You could also wire up a lm317 voltage regulator with the right resistor and it will be a current regulated circuit. Simple and cheap like just the resistor but more efficient.<br><br> Jeffrey Weil<br><br>P.S. I forgot, instead of using the rebel try the luxion star. It&#x27;s easier to handle. It comes on its own small heat sink that has plenty of mounting holes for #4 screws to hold it to a larger sink. It also has nice big pads to solder to.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6656.html" class="prev-thread">← Gelatin and anti-crystallization properties</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6659.html" class="next-thread">what I&#x27;ve been doing lately →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Holographic collimators — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7270.html" class="prev-thread">← A Couple More Questions About TEA</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7260.html" class="next-thread">Beam Quality →</a></div>
+    <h1>Making Holographic collimators</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>13</td></tr>
+        <tr><td>Views</td><td>6,845</td></tr>
+        <tr><td>Started</td><td>Thu Apr 10, 2008 5:11 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/justin-w.html">Justin W</a> · <a href="../authors/erichrose.html">ErichRose</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7271" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Apr 10, 2008 5:11 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Well someone can correct me if I am wrong but there are two simple ways to make a collimating lens.<br><br>1. Set up a transmisison hologram with a collimated beam and a diverging beam with the diverging beam originating at a distance from the plate that you want the FL of the collimator to be.<br><br>2. Set up a transmisison hologram with two diverging beams with each orginating at twice the distance from the plate that you want the FL of the collimator to be. <br><br>Now remember, in making a transmission hologram at least one of the beam will be off axis. You will need to consider this in the using of the hologam. <br><br>For a collimating mirror, do the same but have the beams enter from opposite sides of the plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Apr 10, 2008 6:06 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">John:<br><br>Your technique #1 will work, no problem. #2, nope.<br><br>Check out the math in the Holo-Wiki, and you will see that since your distances 1 and 2 are equal, the quantity in parentheses in both the horizontal and vertical foci will drop out as their difference will be zero, and since that is multiplying the ratio of recording and reconstructing wavelengths, that will drop out also, leaving 1/output distance = 1/ illuminating distance. So no matter where the illuminating source is placed behind the holo, the reconstructed image source will be the same distance away. This is a curious kind of grating, where the two interfering beams are angularly symmetric to the plate and the same distance away. I think that this is a Fourier transform?<br><br>What you want is 1/ output distance to be = infinity. You could juggle the two interfering distances and the replay distance to get that result when plugging into the horizontal focus distance equation, but then plugging those same numbers in to the vertical focus equation, with its evil cosine^2 numerators will give a different focusing position, making the system astigmatic. In other words, the output beam will be parallel to itself in one dimension, the other dimension will be diverging or converging depending on how the beams were configured.<br><br>The trick would be to have one of the interfering beams to be astigmatic originally in the recording mode. I thought of using a cylinder lens after the spatial filter to do that, but it took a real genius like Rich Rallison on how to do it perfectly. He used a ray-tracing program that had a library of the commercially available lenses from Melles Griot, Newport, etc., and found lenses that when the beams went through them at odd angles would yield the proper degree of astigmatism!<br><br>So the timeless quandary of making cheap HOE collimators has always been hampered by finding that perfect lens or mirror to generate the first collimated beam!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Apr 11, 2008 2:03 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">WOW Ed, going to have to really digest this one. I thought I could put 2*FL in for each in the lens equation and then when I took one beam to FL the other would go to infiniy indicating it&#x27;s collimation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Apr 11, 2008 6:28 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I think you may <em>have</em> something there, John!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Justin W</span>
+                <span class="post-date">Sat Apr 12, 2008 3:46 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Johnny!<br><br>This is absolutely fascinating!<br><br>...even on a purely conceptual level - the math aside (which is a universal language I have yet to speak) - the very notion of being able to create custom beam-shaping optics from flat pieces of film is mind boggling!<br><br>Thank you for posting this. You&#x27;ve got my imagination running wild, brother. One can really begin to imagine fabricating all sorts of helpful optics to fit that &quot;situation&quot; on the table...you know... something to handle that odd angle that a parabolic might have had trouble with <br><br>Yeah!<br><br>And even if such efforts were to turn out to only be an interesting exercise, it will certain be that! - A Very Interesting exercise!<br><br>Now I <em>know</em> I need another spatial filter!<br><br>heheh</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Apr 14, 2008 1:03 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Ed, I have read both on this page and I can&#x27;t seem to find what you are speacking of. Can you tell me at least which part, I or II it is in, and then which section in that part?<br><br>[http://www.holowiki.com/index.php/Advan ... Holography](http://www.holowiki.com/index.php/Advanced_Mathematics_for_Holography)<br><br>Thanks in advance,<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Apr 15, 2008 4:06 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Since I can&#x27;t cut the equations out of the Wiki and paste them here, the first one I mention is directly under where it says Horizontal Focus, 1/r.<br><br>The second one is at the end of Part II, and is called Vertical Focus. I had run out of steam and didn&#x27;t do any examples for the last equations, maybe I will get inspired to do some more work on it!<br><br>The trick to making a collimator that works with a given replay or illumination distance as the Benton equations calls it would be to set both of the equations equal to each other and output distance = infinity!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Apr 15, 2008 6:20 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thank you Ed for the reply. I will review those again and see if it makes sense logically.<br><br>Can I ask if I may, since we have your attention... , can you explain in laymen terms what is the differnce between a glass lens and a holographic lens that does not allow the two to behave in the same manner.<br><br>I am sorry, sometimes formulas explain <strong>what</strong> but don&#x27;t always click with me on <strong>why</strong>.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Apr 15, 2008 7:34 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">The biggest problem is dispersion, since diffraction bends the different colors into different paths more vigorously than refraction.<br><br>Since the beams are usually off axis, other nasties like astigmatism and distortion rear their ugly heads.<br><br>The HOE will accurately reconstruct the wavefronts that were used to construct it when those conditions are duplicated, like the illuminating or replay source is at the same distance and incident angle as designed; but once the illuminating beam is moved, angularly or distance-wise, all hell breaks loose.<br><br>Lenses are more versatile, but the optimum in design, to be diffraction-limited, takes place usually at one and only one conjugate (object-image) position.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Apr 16, 2008 11:06 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Ok, Now I am starting to understand. If I make a on axis reflection HOE I cannot use that hologram in a table geometry without having to use it in an off axis type of set up. Then if I change the distance of the replay beam iI get severe complications. If it is made off axis then changing the replay point source distance has effects based on the fact the beams are already off axis. No way around this so far.<br><br>Sorry to be a bother, so it is possible to make a collimator with two point sources at twice the intended FL but the abberations and roll and other funky stuff would almost make it useless to be used as a true collimator in an H2 set up? Correct?<br><br>So that brings up the next question. And the reason for so much inquiry is I am trying to find out if it is truely possible to make a HOE collimator for you table if you don&#x27;t have a collimating lens and your table does not go on for infinity. Can we, well not me actually, can it be done to calculate the aberations, etc of an off axis transmission hologram such that we can make a collimating lens from two spatial filters placed at a reasonable distance from the film?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ErichRose</span>
+                <span class="post-date">Wed Apr 16, 2008 2:38 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Since I sort of prompted this thread, by describing very briefly something that Rudie Berkout had created for his lab years ago (1988?), I am going to weigh in again. Time has probably fogged my memory but what I believe Rudie created was something he used to illuminate (object beam?) his H1s when making rainbow holograms. And when making rainbows only a strip of light was needed and it played out in a single plane. Rudie used a big old 50Mw HeNe and made fairly big holograms. What he created was for a very specific set up. He often built cameras/rigs that he then used to explore various images and compositions. He was as much into the science and math as the composition and art of what he did. I have no idea at all if what he used for that camera worked easily in other set ups. I know Rudie is not as active in holography as he used to be. When I knew him he often had other projects beyond holography in the works. He wrote some papers years back. Maybe there are details there or someone who has contact with him could pick his brains?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Apr 16, 2008 3:53 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I remember seeing Rudie&#x27;s HOE, and it seemed to be about a meter wide and about 15 - 20 cm tall. That was 1987 or 8, so it&#x27;s a pretty hazy memeory.<br><br>I kind of got the impression that it was made in sections, like a collimated beam hit it over whatever size, then the collimator was moved, but the same recording and replay SF was in place. Kind of like a step and repeat on the collimator, reference beam stationary.<br><br>Rudie was certainly magical!<br><br>The trick in designing at lest on the math part, of what John wants to do, is calculable. Maybe if I&#x27;m not doing anything over the weekend I can give it a shot. (Yeah, right! It&#x27;s the final week of classes and I&#x27;m in a grading frenzy. But then again, this might make a better diversion than looking at helpless papers...) But what will turn out is that one of the beams in the recording will have to be astigmatic; horizontal and vertical divergences will be different.<br><br>A mock up of what I am trying to describe is to look back at your spatial filter (at an appropriate power level) and the bright dot of the pinole will look a certain distance away. Then put some sort of cylindrical optic in from of it, like those wide cylinders Edmund used to sell, or eyeglass lenses that correct for astigmatism. Now looking at the pinhole, you may see something that looks like a stripe or a plus sign of light. If distances are long, you could use an SLR camera to focus on the spot, and you would find a nice vertical stripe at one distance, a horizontal at another. The math trick is in calculating these distances; the practical trick is finding combinations of lenses that would provide the requisite foci.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Apr 16, 2008 4:11 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">But if I am making single set up to do say transfers and the geometry will never change I can do this with no abberations if I make the HOE right to begin with right?</div>
+        </div>
+
+    <div class="thread-nav"><a href="7270.html" class="prev-thread">← A Couple More Questions About TEA</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7260.html" class="next-thread">Beam Quality →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6581.html" class="card">
+                <h3>Making Holographic Optical Elements (HOE)</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5004.html" class="card">
+                <h3>Making silver bromide based holographic recording material</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="4821.html" class="card">
+                <h3>making holographic film</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="11473.html" class="card">
+                <h3>Holographic sensor based on Jeff Blyth&#x27;s Diffusion method</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11430.html" class="card">
+                <h3>How do the holographic foils on pokemon cards work?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

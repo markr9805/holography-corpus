@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Voltage Safety — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6628.html" class="prev-thread">← More on the mysteries of Gelatin</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6625.html" class="next-thread">Recommendations for a hygrometer? →</a></div>
+    <h1>High Voltage Safety</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>2,491</td></tr>
+        <tr><td>Started</td><td>Mon Dec 31, 2007 10:02 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/ron-michael.html">Ron Michael</a> · <a href="../authors/jeff-blyth.html">jeff-blyth</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6624" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Dec 31, 2007 10:02 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">What are the proper procedures for clearing high voltage circuits?<br><br>And what are the proper procedures for testing live high voltage circuits?<br><br>I have some time off next week and I am going to build the circuit for my pulsed laser but I have very little experience with high voltage. Any other tips? I have read Sam&#x27;s FAQ on High Voltage Safety.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Jan 01, 2008 1:24 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I know of three rules:<br><br>Remove your watch and rings.<br><br>Keep one hand in a back pocket.<br><br>Don&#x27;t lean your nuts up against the chassis.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Jan 01, 2008 2:04 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I know of three rules:Remove your watch and rings.Keep one hand in a back pocket.Don&#x27;t lean your nuts up against the chassis.<br><br>So the idea here is to not create any loops through your body?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Jan 30, 2008 4:16 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> What are the proper procedures for clearing high voltage circuits?And what are the proper procedures for testing live high voltage circuits?I have some time off next week and I am going to build the circuit for my pulsed laser but I have very little experience with high voltage. Any other tips? I have read Sam&#x27;s FAQ on High Voltage Safety.<br><br>Here is a suggestion to reduce the amount of hands on clearing or voltage monitoring of the HV circuit.<br><br>If before powering up the circuit, you designed a voltage monitor( a properly rated for the wattage and voltage, voltage divider and chassis mount lcd voltmeter) for it and it is built into the chassis along with your HV power supply that would provide safety to you as you would only have to look at your LCD display to see the voltage.<br><br>Additionally, another add on to the circuit is to use a properly rated power resistor(s) from the cap to a relay to ground, both of which are rated for the peak wattage and voltage isolation. A dpdt switch rated for 250vac that powers the HV tran and breaks the 12vdc or what ever the relay&#x27;s energized requirement is, can be used to switch off the HV power supply feed, the relay will go back to a normally closed position and discharge the caps automatically. By allowing the voltage monitor&#x27;s own power feed (5vdc for most single ended voltmeter models) to stay active you can monitor the discharge voltage. Of course, even if this is designed properly, the single points of failure of the voltage monitor or discharge circuit can leave lethal voltage on the caps. Therefore always perform a clearing with properly rated equipement before work on the circuit and short the caps to ground to prevent residual cap dielectric stress to return any voltage to the caps. This is very brief suggestion and of course their is still much information not included regarding safety when working around HV equipment. Wearing of rubber gloves and shoes and not working alone are a few tips.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jan 30, 2008 4:49 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Working alone is my only option. If I have a cap that is charged how do I safely clear it? I have just shorted it with an insulated screwdriver but it does not feel safe. Is there a berret way? I like the idea of shorting it with a resistor are there insulated clips I can make a HV circuit from?<br><br>Are there special rubber gloves for HV?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Thu Jan 31, 2008 4:45 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Working alone is my only option. If I have a cap that is charged how do I safely clear it? I have just shorted it with an insulated screwdriver but it does not feel safe. Is there a berret way? I like the idea of shorting it with a resistor are there insulated clips I can make a HV circuit from?Are there special rubber gloves for HV?<br><br>yes, class 1 for your application would work. Never bought from these folks. [http://xpresscartcentral.com/petl/thumbnail.asp?cid=30](http://xpresscartcentral.com/petl/thumbnail.asp?cid=30)<br><br>Better to have many redundant circuit features as already mentioned plus add resistors across the cap to bleed off the charge as well. So to recap, you have bleeder resistors that if they fail, the voltage dividers resistors of the lcd voltmeter will eventually bleed off the charge and you also have a discharge resistor and HV relay doing a fast discharge. These measures will clear the caps before you try any manual procedures. There is much danger in doing manual only without the above protections.<br><br>For example your discharge wand tip with a HV resistor to ground could come into contact with some chassis part causing an intervertant arc-short and molten metal burns or worse instead of the normal resistor to ground discharge. <br><br>After the voltage is reduced above by the circuit items, then to manually clear make sure, wear class 1 gloves, rubber sneakers, one arm only holding the discharge wand/resistor combo to ground. No other body contact with tables or other hand touching chassis or other devices are permitted. A white pvc sch 40 pipe about 18-24 inches long makes a good insulated handle for a wand if you are DIY.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jan 31, 2008 5:28 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">OK, Now I am starting to get the idea here. Thank you Ron.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri Feb 15, 2008 5:07 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">For anyone that works around electricity, I recommend you read many safety books. Here is one just to get you started: [http://www.cdc.gov/niosh/pdfs/02-123.pdf](http://www.cdc.gov/niosh/pdfs/02-123.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Jun 02, 2008 12:21 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">I just thought I&#x27;d throw in a very simple idea for messing about with high voltages that I used to do.<br><br>I used two ordinary cheap <em>identical</em> step- down transformers wired up back to back. These had to be standard isolation transformers with infinite resistance between the primary and secondary windings. So by then wiring up the 2 low voltage terminals from the transformer pair to form a circuit (with maybe a safety fuse in the circuit just in case.) one obtained a <em>completely isolated mains supply</em> . So there was no potential between you and the ground . (It is as bad as a 340V peak on this side of the pond.) <br><br>If you then stepped up the voltage with a third transformer (HT type) connected to the second one and you kept everything well isolated from earth you still had that extra safety. One does have to choose the right size for the transformer pair to handle the maximum current requirements of course. <br><br>jeff</div>
+        </div>
+
+    <div class="thread-nav"><a href="6628.html" class="prev-thread">← More on the mysteries of Gelatin</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6625.html" class="next-thread">Recommendations for a hygrometer? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8595.html" class="card">
+                <h3>Lazer safety</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a>
+            <a href="923.html" class="card">
+                <h3>Off the shelf high resolution film</h3>
+                <div class="card-meta">Equipment · 17 posts</div>
+            </a>
+            <a href="243.html" class="card">
+                <h3>Safety Goggles</h3>
+                <div class="card-meta">Equipment · 25 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8336.html" class="card">
+                <h3>High power Fiber Coupled diode laser with HHL Package</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="8198.html" class="card">
+                <h3>High Reproducible Hologram of Hardened Dichromated Gelatin</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

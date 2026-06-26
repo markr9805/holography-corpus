@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industry / Commercial — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+
+/* Forum styles */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+}
+.forum-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+}
+.forum-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.forum-table tr:hover {
+    background: var(--bg-secondary);
+}
+.forum-table a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.forum-table a:hover {
+    text-decoration: underline;
+}
+.forum-post {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85em;
+}
+.post-author {
+    font-weight: 600;
+    color: var(--accent);
+}
+.post-date {
+    color: var(--text-secondary);
+}
+.post-number {
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+.post-body {
+    padding: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+/* Theme tags */
+.theme-tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 2px 3px 2px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+.theme-tag:hover {
+    filter: brightness(1.2);
+    text-decoration: none;
+}
+.theme-cgh { background: #1a4b8c33; color: #58a6ff; border: 1px solid #58a6ff44; }
+.theme-dcg { background: #8b5cf633; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-denisyuk { background: #f59e0b33; color: #fbbf24; border: 1px solid #fbbf2444; }
+.theme-transmission { background: #10b98133; color: #34d399; border: 1px solid #34d39944; }
+.theme-rainbow { background: #ec489933; color: #f472b6; border: 1px solid #f472b644; }
+.theme-laser { background: #ef444433; color: #f87171; border: 1px solid #f8717144; }
+.theme-emulsion { background: #8b5cf633; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-exhibition { background: #06b6d433; color: #22d3ee; border: 1px solid #22d3ee44; }
+.theme-artist { background: #f9731633; color: #fb923c; border: 1px solid #fb923c44; }
+.theme-education { background: #84cc1633; color: #a3e635; border: 1px solid #a3e63544; }
+.theme-history { background: #a78bfa33; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-industry { background: #14b8a633; color: #2dd4bf; border: 1px solid #2dd4bf44; }
+.theme-metasurface { background: #6366f133; color: #818cf8; border: 1px solid #818cf844; }
+.theme-display { background: #0ea5e933; color: #38bdf8; border: 1px solid #38bdf844; }
+.theme-portrait { background: #e879f933; color: #d8b4fe; border: 1px solid #d8b4fe44; }
+.theme-abstract { background: #f43f5e33; color: #fb7185; border: 1px solid #fb718544; }
+.theme-medical { background: #22c55e33; color: #4ade80; border: 1px solid #4ade8044; }
+.theme-security { background: #eab30833; color: #facc15; border: 1px solid #facc1544; }
+.theme-sound { background: #7c3aed33; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-general { background: #64748b33; color: #94a3b8; border: 1px solid #94a3b844; }
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.theme-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: border-color 0.2s;
+}
+.theme-card:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+.theme-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.theme-card .theme-count {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.theme-card .theme-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+}
+
+.theme-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0;
+}
+.theme-filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.15s;
+}
+.theme-filter-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+.theme-filter-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">🔬 <span>Holography</span> Corpus</a></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../creators/index.html">Creators</a>
+<a href="../themes/index.html">Themes</a>
+<a href="../forum/index.html">Forum</a>
+<a href="../search/index.html">Search</a>
+<a href="../ask/index.html">Ask</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<h1><span class="theme-tag theme-industry">🏭 Industry / Commercial</span></h1>
+<p>Commercial holography, startups, products, manufacturing, cost-effective scaling</p>
+<p>31 videos</p>
+<div class="card-grid">
+
+        <a href="../videos/toward-a-viable-holography-scalable-and-cost-effective-with-theodore.html" class="card">
+            <h3>🔴 Toward a Viable Holography — Scalable and Cost-Effective — With Theodore Marescaux and Mike Noonen</h3>
+            <div class="card-meta">All Things Photonics · April 18, 2023 · 29m 47s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-history" onclick="window.location.href='themes/history-pioneers.html'">📜 History / Pioneers</span></div>
+        </a>
+
+        <a href="../videos/brian-monahan-international-holographic-paper-holotalk-84.html" class="card">
+            <h3>🔴 Brian Monahan - International Holographic Paper | HoloTalk #84</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 18m 5s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/spotlight-all-things-gratings-with-dave-ventola-omega-optical.html" class="card">
+            <h3>🟢 Spotlight: All Things Gratings — With Dave Ventola, Omega Optical</h3>
+            <div class="card-meta">All Things Photonics · April 21, 2026 · 35m 4s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span></div>
+        </a>
+
+        <a href="../videos/wavefront-phase-imaging-and-chalcogenide-glass-with-javier-elizalde-and.html" class="card">
+            <h3>🟠 Wavefront Phase Imaging and Chalcogenide Glass — With Javier Elizalde and Kathleen Richardson</h3>
+            <div class="card-meta">All Things Photonics · October 29, 2024 · 1h 2m · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span></div>
+        </a>
+
+        <a href="../videos/holographic-displays-from-the-war-room-to-the-living-room-with-wally-haas.html" class="card">
+            <h3>🟡 Holographic Displays: From the War Room to the Living Room — With Wally Haas</h3>
+            <div class="card-meta">All Things Photonics · July 08, 2025 · 27m 10s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-medical" onclick="window.location.href='themes/medical-scientific.html'">🩺 Medical / Scientific</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span></div>
+        </a>
+
+        <a href="../videos/nathalie-picque-from-frequency-combs-to-holography-and-everything-in-between.html" class="card">
+            <h3>🔴 Nathalie Picque: From Frequency Combs to Holography — and Everything in Between</h3>
+            <div class="card-meta">All Things Photonics · March 02, 2021 · 52m 18s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-medical" onclick="window.location.href='themes/medical-scientific.html'">🩺 Medical / Scientific</span></div>
+        </a>
+
+        <a href="../videos/alan-rhody-ross-booksholo-publicationssony-holocamera-holotalk-12.html" class="card">
+            <h3>🔴 Alan Rhody - Ross Books/Holo Publications/Sony HoloCamera | HoloTalk #12</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 19m 41s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/alec-jeong-integraf-holography-supply-company-holotalk-113.html" class="card">
+            <h3>🔴 Alec Jeong - Integraf holography supply company | HoloTalk #113</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 28m 49s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span></div>
+        </a>
+
+        <a href="../videos/joy-padiyar-discusses-tiple-take-company-holotalk-108.html" class="card">
+            <h3>🔴 Joy Padiyar - Discusses Tiple Take Company | HoloTalk #108</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 08, 2024 · 26m 49s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span></div>
+        </a>
+
+        <a href="../videos/embracing-the-future-of-holography-with-mike-noonen-swave-photonics.html" class="card">
+            <h3>🟠 Embracing the Future of Holography — With Mike Noonen, Swave Photonics</h3>
+            <div class="card-meta">Following the Photonics · December 04, 2024 · 17m 25s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-education" onclick="window.location.href='themes/education-tutorial.html'">📚 Education / Tutorial</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span></div>
+        </a>
+
+        <a href="../videos/store-announcement-june-17.html" class="card">
+            <h3>🔴 Store announcement. June 17</h3>
+            <div class="card-meta">LaserboyHolo (Travis) · June 19, 2023 · 2m 2s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-artist" onclick="window.location.href='themes/artist-creative.html'">🎨 Artist / Creative</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/brian-monahan-pa-pulp-paper-dot-matrix-holography-holotalk-15.html" class="card">
+            <h3>🔴 Brian Monahan - PA Pulp &amp; Paper / Dot Matrix Holography | HoloTalk #15</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 20m 29s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/segments-from-last-seasons-shows-holotalk-1.html" class="card">
+            <h3>🔴 Segments from Last Season&#x27;s Shows | HoloTalk #1</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 23m 51s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span></div>
+        </a>
+
+        <a href="../videos/alex-cheimets-slavich-recording-materials-holotalk-11.html" class="card">
+            <h3>🔴 Alex Cheimets - Slavich Recording Materials | HoloTalk #11</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 30m 35s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-denisyuk" onclick="window.location.href='themes/denisyuk-reflection.html'">🪞 Denisyuk / Reflection</span> <span class="theme-tag theme-emulsion" onclick="window.location.href='themes/emulsion-materials.html'">🎞️ Emulsion / Materials</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/steve-provence-holographic-masteringembossing-holotalk-21.html" class="card">
+            <h3>🔴 Steve Provence - Holographic Mastering/Embossing | HoloTalk #21</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 31m 43s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/wang-chun-holography-in-china-holotalk-8.html" class="card">
+            <h3>🔴 Wang Chun - Holography in China | HoloTalk #8</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 32m 23s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-artist" onclick="window.location.href='themes/artist-creative.html'">🎨 Artist / Creative</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span></div>
+        </a>
+
+        <a href="../videos/open-forum-listeners-email-questions-and-call-ins-holotalk-6.html" class="card">
+            <h3>🔴 OPEN FORUM - Listeners Email Questions and Call-Ins | HoloTalk #6</h3>
+            <div class="card-meta">singlemode (HoloTalk) · March 12, 2024 · 45m 5s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/make-your-own-plates-holotalk-63.html" class="card">
+            <h3>🔴 Make Your Own Plates | HoloTalk #63</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 21m 59s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span></div>
+        </a>
+
+        <a href="../videos/sam-goldwasser-sams-laser-faq-web-site-2005-holotalk-101.html" class="card">
+            <h3>🔴 Sam Goldwasser - Sams Laser FAQ Web Site (2005) | HoloTalk #101</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 22m 27s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/lisa-goldfarb-studentcenter-for-visual-arts-nyc-holotalk-28.html" class="card">
+            <h3>🔴 Lisa Goldfarb - Student/Center for Visual Arts, NYC | HoloTalk #28</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 27m 37s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-artist" onclick="window.location.href='themes/artist-creative.html'">🎨 Artist / Creative</span> <span class="theme-tag theme-education" onclick="window.location.href='themes/education-tutorial.html'">📚 Education / Tutorial</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/rob-taylor-fourth-dimensional-holographics-holo-portraits-holotalk-36.html" class="card">
+            <h3>🔴 Rob Taylor - Fourth Dimensional Holographics / Holo Portraits | HoloTalk #36</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 27m 41s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-denisyuk" onclick="window.location.href='themes/denisyuk-reflection.html'">🪞 Denisyuk / Reflection</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-transmission" onclick="window.location.href='themes/transmission.html'">💡 Transmission Holography</span></div>
+        </a>
+
+        <a href="../videos/dr-howard-fein-work-in-holography-holotalk-114.html" class="card">
+            <h3>🔴 Dr. Howard Fein - Work in Holography | HoloTalk #114</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 29m 59s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/sam-goldwasser-sams-laser-faq-web-site-1999-part-1-holotalk-60.html" class="card">
+            <h3>🔴 Sam Goldwasser - Sam&#x27;s Laser FAQ Web Site (1999) (part 1) | HoloTalk #60</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 35m 41s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span></div>
+        </a>
+
+        <a href="../videos/michele-roy-careers-in-laser-technologies-and-holography-holotalk-74.html" class="card">
+            <h3>🔴 Michele Roy - Careers in Laser Technologies and Holography | HoloTalk #74</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 41m 45s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-dcg" onclick="window.location.href='themes/dcg-silver-halide.html'">🧪 DCG / Silver Halide</span></div>
+        </a>
+
+        <a href="../videos/paul-christie-founder-president-of-liti-holographics-holotalk-89.html" class="card">
+            <h3>🔴 Paul Christie - Founder &amp; President of Liti Holographics | HoloTalk #89</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 55m 35s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-medical" onclick="window.location.href='themes/medical-scientific.html'">🩺 Medical / Scientific</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span></div>
+        </a>
+
+        <a href="../videos/from-failed-project-to-40-million-eye-scans-david-huang-on-the-birth-of-oct.html" class="card">
+            <h3>🟠 From Failed Project to 40 Million Eye Scans: David Huang on the Birth of OCT</h3>
+            <div class="card-meta">632nm · January 06, 2025 · 1h 29m · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-medical" onclick="window.location.href='themes/medical-scientific.html'">🩺 Medical / Scientific</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/national-security-and-laser-communication-with-dalius-petrulionis.html" class="card">
+            <h3>🟡 National Security and Laser Communication — With Dalius Petrulionis</h3>
+            <div class="card-meta">All Things Photonics · January 06, 2026 · 18m 48s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-medical" onclick="window.location.href='themes/medical-scientific.html'">🩺 Medical / Scientific</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/lloyd-cross-kiss-2-multiplex-holograms-by-video-by-xar3d-2020.html" class="card">
+            <h3>🔴 Lloyd Cross &amp; Kiss 2 - multiplex holograms by - video by  XAR3D 2020</h3>
+            <div class="card-meta">Al Razutis — XAR3D · January 02, 2021 · 1m 55s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-exhibition" onclick="window.location.href='themes/exhibition-gallery.html'">🏛️ Exhibition / Gallery</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/meta-optics-fabrication-and-commercialization-with-theodor-nielsen.html" class="card">
+            <h3>🔴 Meta-Optics Fabrication and Commercialization — With Theodor Nielsen</h3>
+            <div class="card-meta">All Things Photonics · October 04, 2022 · 26m 13s · Podcast</div>
+            <div class="card-excerpt"><span class="theme-tag theme-metasurface" onclick="window.location.href='themes/metasurface-doe.html'">🔮 Metasurface / DOE</span> <span class="theme-tag theme-laser" onclick="window.location.href='themes/laser-optics.html'">🔴 Laser / Optics</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/mary-harman-recorded-at-the-center-for-holographic-arts-part-3-holotalk-78.html" class="card">
+            <h3>🔴 Mary Harman - Recorded at The Center for Holographic Arts (part 3) | HoloTalk #78</h3>
+            <div class="card-meta">singlemode (HoloTalk) · April 07, 2024 · 24m 35s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-artist" onclick="window.location.href='themes/artist-creative.html'">🎨 Artist / Creative</span> <span class="theme-tag theme-cgh" onclick="window.location.href='themes/cgh-digital.html'">💻 CGH / Digital</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span></div>
+        </a>
+
+        <a href="../videos/vevor-faceting-machine-height-adjustable-mast-ham-v1-prototype.html" class="card">
+            <h3>🟡 Vevor Faceting Machine - Height Adjustable Mast (HAM) V1 Prototype </h3>
+            <div class="card-meta">Josh Dellay · January 07, 2026 · 2m 48s · Youtube</div>
+            <div class="card-excerpt"><span class="theme-tag theme-portrait" onclick="window.location.href='themes/portrait-figure.html'">👤 Portrait / Figure</span> <span class="theme-tag theme-industry" onclick="window.location.href='themes/industry-commercial.html'">🏭 Industry / Commercial</span> <span class="theme-tag theme-metasurface" onclick="window.location.href='themes/metasurface-doe.html'">🔮 Metasurface / DOE</span></div>
+        </a>
+</div>
+</main>
+<footer>
+<div class="container">
+<p>Holography Corpus · Industry / Commercial · 31 videos</p>
+</div>
+</footer>
+</body>
+</html>

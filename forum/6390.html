@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlling a c315m — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6389.html" class="prev-thread">← IPA purity</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6391.html" class="next-thread">going green →</a></div>
+    <h1>Controlling a c315m</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,312</td></tr>
+        <tr><td>Started</td><td>Fri Aug 10, 2007 5:19 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holom.html">HoloM</a> · <a href="../authors/jem.html">Jem</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/michaelh.html">MichaelH</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6390" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Fri Aug 10, 2007 5:19 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Has anyone tried to control a c315m with digital controller over a serial port with own software? <br><br>I think most of you don&#x27;t use the digital controller. Whats the advantages /disadvantages of only using the analog modul with autostart adapter?<br><br>Or is there any software already available?<br><br>I tried to program this in the last few days. I had success with powering on and off, setting power etc. fine. <br><br>But the controller has a command for reading actual Power:<br><br>qPower<br><br>The answer is the actual power in mW.<br><br>This is mainly interesting while the laser is tuning to it&#x27;s desired value, because the you can see in diagrams and curves how the Laser is tuning and searches for the right power. So it&#x27;s necessary to ask for the actual power frequently and very fast to get a good diagram with fine resolution in time. But this only works fine if I send the command every second or so. If I ask faster for the actual power it seems that the controler can&#x27;t tune the laser right any more. It seems if I make much traffic on the serial port, the controller hasn&#x27;t time to tune the laserpower. So the power regulation does not stabilize.<br><br>Has anyone information about that or has anyone done this before?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Fri Aug 10, 2007 8:17 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hi<br><br>I purchased one of Lutz&#x27;s C315m&#x27;s as I believe you did. These lasers come with the full kit (most unusual) including the digital controller. I am currently using Windows Hyperterminal to control my laser (very simple).<br><br>However, like yourself, I do a bit of VB and .Net programming and have thought about writing software. The problem as I see it is that there are insufficient commands that the laser understands to make any bespoke software really useful, So I pretty much shelved the idea as a waste of time.<br><br>Hyperterminal works fine for an On/Off switch and it also provides information about the status of the laser. As you correctly mention you have to keep polling the laser for the power staus if you want a continuous readout.<br><br>Have you checked your lasers output with a good meter? You&#x27;ll probably find as I did that the setpoint is at 100.5Mw and the reported power of the laser once stabilised is around 99.5 Mw. If you check this with your meter you&#x27;ll probably find it is actually giving out quite a bit less than this.<br><br>In order to get the actual power to match the reported power you&#x27;ll need to adjust pot 6 on the laser head very slightly anticlockwise (only a very small adjustment is needed - be careful). and DON&#x27;T DO IT UNLESS you know exactly which pot you&#x27;re adjusting !!<br><br>Sam Goldwasser gave a good explanation of why this needs to be done and how to do it - see my post on alt.lasers.<br><br>Cheers<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Fri Aug 10, 2007 8:17 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hi<br><br>I purchased one of Lutz&#x27;s C315m&#x27;s as I believe you did. These lasers come with the full kit (most unusual) including the digital controller. I am currently using Windows Hyperterminal to control my laser (very simple).<br><br>However, like yourself, I do a bit of VB and .Net programming and have thought about writing software. The problem as I see it is that there are insufficient commands that the laser understands to make any bespoke software really useful, So I pretty much shelved the idea as a waste of time.<br><br>Hyperterminal works fine for an On/Off switch and it also provides information about the status of the laser. As you correctly mention you have to keep polling the laser for the power staus if you want a continuous readout.<br><br>Have you checked your lasers output with a good meter? You&#x27;ll probably find as I did that the setpoint is at 100.5Mw and the reported power of the laser once stabilised is around 99.5 Mw. If you check this with your meter you&#x27;ll probably find it is actually giving out quite a bit less than this.<br><br>In order to get the actual power to match the reported power you&#x27;ll need to adjust pot 6 on the laser head very slightly anticlockwise (only a very small adjustment is needed - be careful). and DON&#x27;T DO IT UNLESS you know exactly which pot you&#x27;re adjusting !!<br><br>Sam Goldwasser gave a good explanation of why this needs to be done and how to do it - see my post on alt.lasers.<br><br>Cheers<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sun Aug 12, 2007 6:37 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Um.... the radio buttons don&#x27;t apply to everyone.....eg to people who control the 315M with home brew hard- and software</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Sun Aug 12, 2007 12:52 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Or people who bought <em>someone else&#x27;s homebrew solution</em><br><br>My laser is also putting out less than that reported by my controller but since I&#x27;m not doing DCG it&#x27;s not of much concern to me. I&#x27;ve only come close to needing max power yesterday while doing a &quot;how much can I see if I light most of my table&quot; kind of test.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6389.html" class="prev-thread">← IPA purity</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6391.html" class="next-thread">going green →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="920.html" class="card">
+                <h3>Mounting c315m</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="44.html" class="card">
+                <h3>Output Power of C315m</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="6543.html" class="card">
+                <h3>Autostart Adapter C315M</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="6334.html" class="card">
+                <h3>Questions Re: C315m Laser</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="6302.html" class="card">
+                <h3>New C315m Arrived !!</h3>
+                <div class="card-meta">General Holography (old) · 29 posts</div>
+            </a>
+            <a href="6292.html" class="card">
+                <h3>Advice Please - C315m &amp; Fiber Optics</h3>
+                <div class="card-meta">General Holography (old) · 30 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

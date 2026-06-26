@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specific photodiodes w/laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5837.html" class="prev-thread">← Russian developer</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5834.html" class="next-thread">Sticking gelatin to glass (new update) →</a></div>
+    <h1>specific photodiodes w/laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>2,741</td></tr>
+        <tr><td>Started</td><td>Mon Oct 09, 2006 3:49 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/laight.html">laight</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/wler.html">wler</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5836" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">laight</span>
+                <span class="post-date">Mon Oct 09, 2006 3:49 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello<br><br>I&#x27;m not very knowledged on optics or light, but I have a problem where I want to have a photodiode that:<br><br>- doesn&#x27;t detect/respond greatly to typical directional light (eg. from the sun)<br><br>- does detect light of a very specific wavelength, for example from a laser source<br><br>this almost seems like a contradiction but nevertheless I want to ask the experts if I could at least fudge this in some way. Perhaps by using photodiodes that have filters of some sort?<br><br>Another way to word my problem: imagine shining a laser at a photodiode in the dark and seeing a voltage increase (say 100mV). I would want the same thing to happen should I take this system outside in the sun.<br><br>Thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Oct 09, 2006 11:33 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">This is probably not the right section for this post but I will leave it here till it progresses.<br><br>If you place a long tube in front of the potodiode it will filter out much of the ambient light.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">laight</span>
+                <span class="post-date">Tue Oct 10, 2006 12:31 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks, Colin! I actually had thought of this idea but you are right for bringing it up. I was actually thinking more along the lines of using a narrowpass filter or similar..... but I think it doesnt really fix the problem..<br><br>ps. sorry for putting this in the wrong section</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Nov 03, 2006 5:47 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">There are many ways to enhance the signal (laser) to noise (sun) ratio, but this depends on the specific application. Eg sending information over tens of miles using a low-power laser in plain sunlight is a different task than building a light barrier switch across a door... <br><br>Generally using a filter is the simplest possibility. Dielectric filters are best and can have a width of a few nm, which should cut out most of the ambient light. Color glass filters are much cheaper but have a higher attentuation for the signal and less for the noise. Collimation optics such as lenses or parabolic mirrors on both transmitting and receiving ends can help a lot too. Depending on the application, one may also modulate the laser light say with 1khz, and then look for an AC component of 1khz in the photodiode signal; such a setup is very insensitive to ambient light and works well for switching applications.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5837.html" class="prev-thread">← Russian developer</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5834.html" class="next-thread">Sticking gelatin to glass (new update) →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="609.html" class="card">
+                <h3>Looking for a specific hologram for purchase</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="4851.html" class="card">
+                <h3>Question... Specific gravity to percentage?</h3>
+                <div class="card-meta">General Holography (old) · 9 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

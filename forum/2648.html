@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cylinder lens — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="2647.html" class="prev-thread">← Color control through exposure?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2644.html" class="next-thread">Polarisation →</a></div>
+    <h1>cylinder lens</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>2,081</td></tr>
+        <tr><td>Started</td><td>Wed Aug 04, 2004 1:45 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/pgh-bob.html">pgh-bob</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=2648" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pgh-bob</span>
+                <span class="post-date">Wed Aug 04, 2004 1:45 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">How do you determine what focal length to use for a diode lens to circularizing the beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Aug 04, 2004 2:37 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I don&#x27;t know particularly about diode lenses, but to make a circular beam from an elliptical one I&#x27;d have thought you&#x27;d first have to decide whether you wanted to &quot;pull&quot; the long axis &quot;in&quot; or &quot;push&quot; the short axis &quot;out&quot;. Once you decided that, a cylindrical lens is just a circular lens with the edges cut out. Since the edges are cut out only the top and bottom of the lens will affect the light. So you orientate the lens along whichever axis you want to alter. Now you have to decide by how much you want to &quot;pull&quot; or &quot;push&quot; the elliptical parts to circularise them, ie what radius do you want the long or short axis to become. Now the choice of lens depends on the size of the beam, the space you have to place the lens and the space you have in which the lens needs to circularise the beam. <br><br>If you trace the axis to be altered back to the point from which it seems to originate - an imaginary point source that just this axis came from. then you can either place the lens so that this point falls within the focal length. In this case, the beam will diverge and you&#x27;ll &quot;push&quot; the short axis out. If you place the &quot;focus&quot; of the axis outside the focal length of the lens, then the lens will cause the beam to converge up to a point, then focus at that point, then converge outward. Where you place the lens with respect to the point of origination of the axis and with respect to the point at which you want circulisation now determines the desired focal point of the lens. You can use the lens formula:<br><br>1/f = 1/u + 1/v<br><br>where f=focal length of lens<br><br>u = position of object<br><br>v=position of image<br><br>So, let&#x27;s say your elliptical beam was 3cm on one side and 2 cm on the other. You want to &quot;pull&quot; the 3cm side down to 2cm . You assume that the beam originates from the laser so that&#x27;s the point of origin of the beam (not quite true - there&#x27;s a beam waist , w_0 - but close enough) which happens to be 10 cm away. You place the cylindrical lens along the 3cm side and 10cm from the laser. If your lens has f=10cm and the sides are smaller than 2 cm (so it doesn&#x27;t affect the short axis) then you&#x27;ll get a cylindrical beam going the other way. The (long) 3cm axis will collimate and the (short) 2cm axis will be unaffected so the beam will continue to expand. Pretty soon the short axis becomes the long and vice versa. Somewhere along this path, the beams will be circular. If you get a lens with f=5cm, then the long axis will focus down to a point at 10 cm and the 2cm axis will continue to diverge. Somewhere along this path, the beams will circularise. If you get a lens with a focal length of f (whatever), then the lens will focus the long axis at a distance of v, where<br><br>1/v = 1/f - 1/10<br><br>and somewhere along this path.....<br><br>If you choose a lens with f&gt;10cm the long axis will continye to diverge and so will the short axis, There&#x27;s nowhere along this path...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Aug 04, 2004 3:06 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">This is actually very easy and I was taught by Edmund. Measure the ratio of the width to height ofr find it on the spec sheet. Then use two lenses on the same axis with the ratio of the focal lengths the same as the ratio of the width to height. For example:<br><br>Width to height = 3<br><br>First lens fl = 75mm<br><br>Second lens fl = 25mm<br><br>Spacing = 100mm</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pgh-bob</span>
+                <span class="post-date">Wed Aug 04, 2004 6:11 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I am moving from making single diverging beam reflection holograms with a laser diode and BB-640 plates to making split beam ones. I am having trouble focusing the beam to a tight spot with the lense that came with the assembly I bought. I thought that adding a cylinder lense in addition will collimate the beam as well as circularize it. How do most people deal with beam spread in diode lasers?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Aug 04, 2004 7:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I use two cylindar lenses as described however I would use the anamorphic prisms that Thorlabs sells if I was going to set up again.</div>
+        </div>
+
+    <div class="thread-nav"><a href="2647.html" class="prev-thread">← Color control through exposure?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2644.html" class="next-thread">Polarisation →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11408.html" class="card">
+                <h3>Holographic plasma lens for laser fusion ignition (LIF)</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="10920.html" class="card">
+                <h3>Do you think Light Field Lab&#x27;s upcoming holographic display is a fly-eye lens array or a new type of technology?</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="79.html" class="card">
+                <h3>Use a Hologram of a lens as a lens?</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="8433.html" class="card">
+                <h3>One step transmission holography with lens</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="8382.html" class="card">
+                <h3>lens ducts</h3>
+                <div class="card-meta">General Holography (old) · 9 posts</div>
+            </a>
+            <a href="7142.html" class="card">
+                <h3>lens mounting for use w/spatial filter?</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

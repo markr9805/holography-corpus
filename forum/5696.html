@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homebuild Blue DPSS? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5698.html" class="prev-thread">← Making Pulsed Ruby Portraits</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5688.html" class="next-thread">Beam Ratio →</a></div>
+    <h1>Homebuild Blue DPSS?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,616</td></tr>
+        <tr><td>Started</td><td>Sun Jul 16, 2006 5:26 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/joe-farina.html">Joe Farina</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5696" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 16, 2006 5:26 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">&gt; <strong>hans:</strong> Before starting building the PFN laser I have two more interesting little projects: I need to finish my spatial filter, and I have ordered the blue diode laser crystal kit (nd:YAG + BiBo + OC) from Castech. Now that I have experience with TEC controllers, I feel confident about building a blue laser where temperature of diode, YAG and SHG are tightly controlled. For that part I have finished all my research and I am fairly confident that a nice little blue laser will result or, if not, a very spiffy 30mW blue laser pointer will come out of it.<br><br>Hans, can you share some of the specs for blue DPSS lasers? What temperatures are required? What is the output of Nd:YAG at that line? Any links I should check out?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 9:36 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I don&#x27;t know about precise temperatures required yet. But I will attempt to make a design similar to the C315M laser. It will require 4 TEC controllers: One for the YAG crystal, one for the BiBo crystal and one for the Diode and for for the base plate that holds the components.<br><br>Here is the basic setup (I will not try to use the two cornering prism mirrors, but attempt to make a straight line setup, unless that will give problems with expansion due to temperature changes): [http://www.mza.com/~seward/Laser_FAQ/ww ... 315m-x.jpg](http://www.mza.com/~seward/Laser_FAQ/www.repairfaq.org/sam/laserpic/c315m-x.jpg)<br><br>I ordered the crystals from here: [http://www.castech.com/newEbiz1/EbizPor ... 37f5bbed8d](http://www.castech.com/newEbiz1/EbizPortalFG/portal/html/GeneralContentShow.html?GeneralContentShow_DocID=c373e9050a459d208f6a5737f5bbed8d)<br><br>They sell a blue diode laser Crystal Kit. It includes the Yag and Bibi crystals with the proper anti reflection coatings. Also a properly coated OC mirror is included with the kit.<br><br>I will use a grin lens to collimate the light from the laser diode into the crystal from here: [http://www.casix.com/product/Laser_DPSS.htm](http://www.casix.com/product/Laser_DPSS.htm)<br><br>And inexpensive 2W laser diodes can be found here: [http://www.roithner-laser.com/HP-laserdiodes.htm](http://www.roithner-laser.com/HP-laserdiodes.htm)<br><br>Their 2W LDM-0808-2W-35 costs only 230 Euro.<br><br>Excellent TEC controllers are:<br><br>[http://www.teamwavelength.com/products/ ... asp?part=6](http://www.teamwavelength.com/products/product.asp?part=6)<br><br>They have the best help desk in the world. Their help desk engineers are always truely interested in what I am working on and actually really know what they are talking about, and always take the time to explain all.<br><br>About temperature control:<br><br>Ideal temperature for the laser diode and base plate will of course not be a problem when building this thing. The trick lies with the temperature of the two crystals. But with separate TEC controllers for each crytical component that problem does not really exist (I hope ), because I will be able to start up the system and do a manual search program, similar to how the C315M controller works: First modulate the temperature of the nd:YAG crystal for maximum 946nm output, then modulate the temperature of the BiBo crystal for maximum blue output. With a TEC controller, one has a choice temperature ranges of 60C above and 60C below the normal temperature provided that there is sufficient thermal connection between the Peltier element on the crystal and the Peltier element on the base plate.<br><br>For single moded&#x27;ness I hope that tight temperature control will be sufficient, in effect coarse tuning the BiBo crystal for optimum SHG and then fine tuning the same crystal to make it function as a etalon to narrow the line width.<br><br>I manual temperature control works, I will use a simple Atmel AVR controller to automate the temperature search program. (I have extensive prior experience with these great little controllers)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 16, 2006 9:38 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Ah, I forgot to mention: Castech states that 30mW of blue light is possible for their Blue Crystal Kit, when pumped with a 2W diode.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sun Jul 16, 2006 10:08 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thanks very much for taking the time to post this info. Good look on the project!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jul 16, 2006 4:12 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hans, the &quot;blue noise&quot; problem is supposedly more severe than &quot;green noise.&quot; The only commercially-available blue DPSS lasers which are touted for holography are those from Melles-Griot, and we know how expensive they are. It may be worthwhile learning as much as you can about the design of these lasers. I believe the solution to the blue noise problem in the case of Melles Griot was to separate the forward and backward propagating beams completely, hence the two beams.<br><br>However, it appears that the blue noise problem can be overcome by other means, and below I include three references pertaining to this. Since I want you to succeed in your goal, I strongly suggest that you give thought to the blue noise problem prior to engineering your laser.<br><br>Reference #1<br><br>&quot;Low noise operation of a LD-pumped Nd:YAG/LBO blue laser&quot; by Zheng/Zhao/Qian. Unfortunately this 2003 paper is in Chinese, but I have the translated abstract:<br><br>&quot;The noise characteristics of a LD-pumped Nd:YAG/LBO (I-type) blue laser at 473nm were obtained. It shows the noise has mainly arisen from the coupling of different longitude modes. By inserting a birefringent filter (including a Brewster plate and a piece of Quartz in the resonator), the blue laser noise was eliminated. With 1.3W of incident pump laser, 58mW low noise blue laser output was obtained at last.&quot;<br><br>Reference #2<br><br>&quot;Stabilization of a diode-pumped intracavity frequency doubled microlaser at 473nm&quot; by Gabler/Liu/Eichler/Zhang/Fu/Peuker. In OSA Trends in Optics and Photonics Series (1999), 26 (Advanced Solid-State Lasers) 138-142.<br><br>&quot;We present the stabilization of an intracavity frequency doubled blue Nd:YAG laser by solving the so-called blue problem. Using a single stripe 1W/808nm laser diode for longitudinal end-pumping of a half-monolithic Nd:YAG/KNbO3 473-nm microlaser, a quarter-wave plate (QWP) was inserted into the cavity to suppress the large amplitude noise. An adjustment of the QWP with a rotational angle of 45 degrees referred to the extra-ordinary axis of the KNbO3 type II crystal, resulted in a complete suppression of the noise in the blue frequency doubled laser emission.&quot;<br><br>Reference #3<br><br>&quot;Compact and efficient Nd:YVO4 laser that generates a tunable single frequency green output&quot; by Friel/Kemp/Lake/Sinclair in Applied Optics (2000) 39(24) 4333-4337.<br><br>&quot;250mW of single frequency 532nm output was obtained from an intracavity-doubled Nd:YVO4 laser pumped with 1.2W from a fiber-coupled diode laser. The laser was frequency chirped smoothly over approximately 17 GHz while maintaining a single-frequency green output &gt; 200mW. A short Fabry-Perot cavity was used, and single frequency operation was enforced by means of a birefringent filter that utilizes the birefingence of both a KTP doubling crystal and the Nd:YVO4 laser crystal with polarization-dependent loss from a glass Brewster plate combined with polarization-dependent gain from the laser crystal&quot;<br><br><em>*</em><br><br>Even though this last paper concerns a 532nm laser, among all the papers I&#x27;ve read concerning DPSS lasers for holographic use, I consider it to be the best. It is carefully and clearly written. I would even suggest contacting Dr. Graham Friel by e-mail with any specific questions you may have. Years ago, he kindly responded to some of my questions. I don&#x27;t have his current e-mail address, though. Maybe someone on this forum can find it. (He used to be with the St. Andrews group that did a lot of work on DPSS &quot;microcavity&quot; lasers.)</div>
+        </div>
+
+    <div class="thread-nav"><a href="5698.html" class="prev-thread">← Making Pulsed Ruby Portraits</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5688.html" class="next-thread">Beam Ratio →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5620.html" class="card">
+                <h3>Homebuilt Blue DPSS?</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="11273.html" class="card">
+                <h3>A blue pigment for Sapphire 488</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="8825.html" class="card">
+                <h3>definition of broadband, narrowband, red shift, blue shift</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="192.html" class="card">
+                <h3>Need a blue laser solution</h3>
+                <div class="card-meta">Equipment · 28 posts</div>
+            </a>
+            <a href="8373.html" class="card">
+                <h3>Some experiments with the blue LD&#x27;s</h3>
+                <div class="card-meta">General Holography (old) · 59 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

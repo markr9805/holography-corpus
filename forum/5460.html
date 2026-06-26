@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Imaging anyone? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5462.html" class="prev-thread">← A meeting in Holland</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5454.html" class="next-thread">Control of gelatin for S.H. home made plates →</a></div>
+    <h1>Medical Imaging anyone?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>1,387</td></tr>
+        <tr><td>Started</td><td>Fri Mar 31, 2006 4:46 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/arturo.html">arturo</a> · <a href="../authors/kaveh.html">Kaveh</a> · <a href="../authors/markcavin.html">MarkCavin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5460" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">arturo</span>
+                <span class="post-date">Fri Mar 31, 2006 4:46 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello,<br><br>I am pursuing a project on using medical images (NMR or PET) to shoot a multiexposure hologram as described in Saxby&#x27;s book.<br><br>Actually I see two different ways to make an hologram from these images:<br><br>a) use &quot;slice cuts&quot; and shoot them at the appropriate distance as plane images like Saxby describes, obtaining 3d stack of two dimensional images<br><br>b) use some imaging software to recompose a 3d model from the medical images and then shoot an stereogram from the 3d model.<br><br>I was wondering if anyone has ever tried any of the above routes, and could display some results. Any comments are welcome!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Fri Mar 31, 2006 11:15 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I worked on the slice shots (a) many years ago. One of my colleagues, Steven Hart, is still pursuing it, and trying to commercialize it through Holorad (formerly Voxel):<br><br>[http://www.holorad.com/](http://www.holorad.com/)<br><br>[http://www.apple.com/science/profiles/voxel/index.html](http://www.apple.com/science/profiles/voxel/index.html)<br><br>Advantages of (a):<br><br>• Full parallax<br><br>• All visual depth cues<br><br>• No software needed<br><br>• No software manipulation of image, so no danger of computer misinterpretation<br><br>• Physician can measure surgical tools or fixing elements like screws, by putting it inside image. Full parallax allows this.<br><br>Advantages of (b):<br><br>• Single transfer exposure means no overload of recording medium<br><br>• Software can interpret image, add/remove elements, enhance contrast, etc.<br><br>• Hidden line or surface removal possible with software<br><br>So no clear answer as to which is the better route, but I favour (a) as a safer method for medical interpretation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Fri Mar 31, 2006 1:51 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Sounds like a fun project. If you need a way to display DICOM data there is an easy to use and very flexible tool kit at [http://www.medicalconnections.co.uk/htm ... jects.html](http://www.medicalconnections.co.uk/html/dicomobjects.html) you might find useful. Also if you need any DICOM datasets let me know.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Fri Mar 31, 2006 2:10 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I remember it took weeks for us to convert Dicom images!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Fri Mar 31, 2006 3:32 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">If you use a LCD or DLP as the object source, then with a simple viewer like the DicomObjects com object you could open and display the DICOM data as is; and have the ability to manipulate the data in many ways.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">arturo</span>
+                <span class="post-date">Sat Apr 01, 2006 10:53 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Kaveh:</strong> So no clear answer as to which is the better route, but I favour (a) as a safer method for medical interpretation.<br><br>Thanks so much for the insights on both methods - since my main objective is based on displaying medical info, I agree with you (a) seems more fit!<br><br>Thanks, i will keep you guys posted if something comes out!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">arturo</span>
+                <span class="post-date">Sat Apr 01, 2006 11:06 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>MarkCavin:</strong> Sounds like a fun project. If you need a way to display DICOM data there is an easy to use and very flexible tool kit athttp://www.medicalconnections.co.uk/htm ... jects.htmlyou might find useful. Also if you need any DICOM datasets let me know.<br><br>Thanks for both, the link and the offer! Regarding software, I appreciate the link, since I was not able to find a free DICOM viewer I liked. As for the images, I am thinking on using &quot;family shots&quot;, but should these prove poor quality or too complex, I will definitely contact you!</div>
+        </div>
+
+    <div class="thread-nav"><a href="5462.html" class="prev-thread">← A meeting in Holland</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5454.html" class="next-thread">Control of gelatin for S.H. home made plates →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="726.html" class="card">
+                <h3>Ultra-realistic imaging</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="5736.html" class="card">
+                <h3>Squeegeeing Tips Anyone?</h3>
+                <div class="card-meta">General Holography (old) · 21 posts</div>
+            </a>
+            <a href="5592.html" class="card">
+                <h3>Red Star - Anyone?</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

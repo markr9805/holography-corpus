@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Hopping w/SLM Diode? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5661.html" class="prev-thread">← Ultra-broadb. vis-nir volume hoe, solar&amp;ambient redirect</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5653.html" class="next-thread">Canadian Holographers →</a></div>
+    <h1>Mode Hopping w/SLM Diode?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>1,886</td></tr>
+        <tr><td>Started</td><td>Wed Jun 28, 2006 5:36 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/alackofcolor.html">alackofcolor</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/hans.html">Hans</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5660" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alackofcolor</span>
+                <span class="post-date">Wed Jun 28, 2006 5:36 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering if you can get mode hopping with a single longitudinal mode laser? I may have the thing wrong, but it seems like if it&#x27;s a &quot;single&quot; longitudinal mode, there&#x27;d be nothing else to hop to. Am I getting this right? I ask because we are about to buy a 442 nm DPSS laser for our color holography experiments and it is SLM and I was wondering if I should be worrying about mode hopping. Thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Thu Jun 29, 2006 3:07 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">SLM means only one mode at a time, but this does not rule out mode hops as the diode or crystal cavity length changes with temperature. The temperature control and drive stabilization circuitry that are an expected feature of an expensive DPSS laser SHOULD be adequate to keep it to a single mode once it has settled down. This is something that should be discussed with the manufacturer, though.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alackofcolor</span>
+                <span class="post-date">Sat Jul 01, 2006 4:41 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">How could I detect if the diode laser is mode hopping? Would a Michelson interferometer work? If so would I just watch for lack of stable fringes? I thought I remembered reading about someone checking with a DVD, but I didn&#x27;t really follow what they were doing. Any ideas?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 01, 2006 4:54 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Set up a Michelson Interferometer and watch the fringes. Slow drift is in the table. A quick jump is a mode hop. (Very generally speaking.)<br><br>A DVD or CD is simply a diffraction grating and you can check for the change in angle with frequency and look for a jump. It takes a pretty long throw but you can calculate the frequencies involved. (I don&#x27;t remember the frequency of the gratings on a CD or DVD. But I bet Tom does. )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jul 01, 2006 7:55 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">The spec is 740 nm +/- 30 nm track pitch for DVD, 1600 nm +/- 100 nm for CD. Look up the grating equation to calculate dispersion for the grating pitch (DVD is better), plug in the laser wavelength, do a bit of trigonometry to calculate for a given angular wavelength dispersion the linear displacement vs. distance (you are looking for hops on the order of 0.1 nm) and Voila! <br><br>Or skip the math and assume that 10 meters or so should be plenty to give you at least a few mm of displacement for a mode hop. Try it out with a laser pointer and an ice cube (to vary the temperature) first.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">alackofcolor</span>
+                <span class="post-date">Sat Jul 01, 2006 9:48 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">So each time a mode hop occurs, I should see the interference fringes shift by a few mm?<br><br>Do I just shine the beam on the face of the DVD and reflect it back behind the laser?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Jul 01, 2006 10:46 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">When you reflect the light off the laser, you will see more than one reflection: <br><br>1] The zero&#x27;th order reflection. This is the reflection that exits the surface of the DVD at the same angle as the light that shines on it.<br><br>2] The first order reflection. The angle of this reflection is arcsin( wavelentgh/line spacing).<br><br>2] The second order reflection. The angle of this reflection is arcsin( 2*wavelength/line spacing).<br><br>As you can see, the second order reflects at a bigger angle because of the factor 2. Because of this factor, differences in wavelength are also amplified in the second order reflection. Stability is not very important with this test. But it is much easier to see the effect if you have setup that holds the DVD and the laser steady. As the laser warms and cools, you will see the second order reflection jump by a small angle. At certain temperatures, two modes (wavelengths) may compete in the cavity of the laser. In that case you will see two second order reflections. Sometimes at equal brightness, sometimes one will rapidly flash on and off.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5661.html" class="prev-thread">← Ultra-broadb. vis-nir volume hoe, solar&amp;ambient redirect</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5653.html" class="next-thread">Canadian Holographers →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8410.html" class="card">
+                <h3>Mode Hopping in Semi-Conductor Lasers</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="7431.html" class="card">
+                <h3>mode hopping</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a>
+            <a href="6433.html" class="card">
+                <h3>Mode Hopping (sliced bread)</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="6425.html" class="card">
+                <h3>Hologram video from a mode hopping laserdiode</h3>
+                <div class="card-meta">Gallery · 15 posts</div>
+            </a>
+            <a href="5019.html" class="card">
+                <h3>Detect Mode Hopping very easily, you have the parts at home</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="3046.html" class="card">
+                <h3>arrgh - can&#x27;t find document describing mode hopping</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

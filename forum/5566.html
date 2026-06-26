@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improving a home made pulsed laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5187.html" class="prev-thread">← Proposed Holographic Camera to take pictures Outside</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5181.html" class="next-thread">Frequency-doubled hologram ?? →</a></div>
+    <h1>Improving a home made pulsed laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>119</td></tr>
+        <tr><td>Views</td><td>35,728</td></tr>
+        <tr><td>Started</td><td>Fri Nov 18, 2005 5:15 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/bill-jensen.html">Bill Jensen</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/markcavin.html">MarkCavin</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/bastian-s.html">Bastian_S</a> · <a href="../authors/geso.html">geso</a> · <a href="../authors/ronolson.html">RonOlson</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5566" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri Nov 18, 2005 5:15 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">JohnFP has proposed a new phenomenal experiment that I had not thought of before:<br><br>&quot;It is possible to obtain all the hardware you spoke of for a complete <br><br>system, but in addition add another cavity and power supply (can use the <br><br>same one here) then modify the trigger system such that it can trigger both but I possilby would be able to delay the second firing of the second cavity lap by very small amounts (the time needed for the amplifyer to be at max and then the amplifyer triggering)? Looking to amplify the output of the oscilator! AND would the optics provided be able to withstand the additional output energy. (optics can withstand them, see below of modified configuration)&quot;<br><br>This second cavity could act as an &quot;amplifier&quot; of the first cavity <br><br>&quot;oscillator&quot; This would be a very good experiment to perform. First SSY1 in unaltered state. Then the second SSY1 is aligned with the output of the first but remove the mirrors and q-switch. To fire the system you would flash #2 at 900 volts and wait 100 us. Then flash #1 at about 850 volts. #1 would q-switch with tem00 preferred especially at the lower voltage you get less unwanted frequencies and modes. The beam from #1 passes through #2 in a single pass amplification scheme, intensifying the first beam. The KTP would get a much higher energy density and you would get much more output 532nm green, 4ns pulse due to this. Add an intracavity #1 brewster window like the one I found to fit inside ($70, I need to test it), and KTP efficiency goes up dramatically again.<br><br>Possible output: #1 50 mJ, add #2 total 150 mJ 1064nm, KTP 50% efficiency <strong>75 mJ of polarized, Tem00, green !!! That would expose a hologram plate 17&quot; x 17&quot; !</strong><br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Nov 18, 2005 8:11 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Bill, <br><br>Now that you are starting to get into real power you should be reminded that pulses can be dangerous to your eyes and one should make a calculation of the safety.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri Nov 18, 2005 10:22 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>Yes you are right Colin. Not sure where to go for safety issues with eyes though.<br><br>As for the two SSY1 (oscillator and amplifier) I gave give a little more thought.<br><br>The implementation of this is almost trivial ! Oscillator SSY1 is unmodified, Amplifier SSY1 has 4 screws removed to remove the HR, OC, and simple to remove passive q-switch then.<br><br>The electronics have also become trivial as well. Both flashlamp caps charge to the same voltage, and get triggered at the SAME TIME. The energy in the rods will build up over about 100 us in both rods. No lasing occurs yet. Then the oscillator q-switch opens and the 4ns pulse comes out, making a single pass through the amplifier which adds power to the oscillator&#x27;s beam. Fairly simple! The KTP will become REALLY efficient then. No amplifier optics to be destroyed at all.<br><br>Alignment is also simple in that you can use a straight edge to mechanically align the 2 identical SSY1&#x27;s.<br><br>I am really running out of time now. We move out of California Dec 10, and need to pack up all the stuff. Even now my workroom is almost unusable for experiments. Anyone want to buy 2 SSY1&#x27;s from me and try it out? Be a part of holography history in the making!<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Nov 19, 2005 3:10 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have discovered that there IS room for a Brewster window inside the unmodified SSY1. This means that without the headache of externally adjustable mirror(s) on xy mounts, you can put the Brewster inside the cavity and put the mirrors back in their original places.<br><br>[http://thorlabs.com/NewGroupPage.cfm?Gu ... oup_ID=919](http://thorlabs.com/NewGroupPage.cfm?Guide=50&amp;Category_ID=140&amp;ObjectGroup_ID=919)<br><br>This is the place to go to buy the 6mm circular diameter brewster that will fit in the existing ~6.05mm hole. The mirror may poke out a bit but should be able to be glued down fine without hitting anything. Item BW0601 for $70.00 a real bargain because it will polarize the SSY1 which increases KTP efficiency dramatically.<br><br>Oh the sense of Power! Only 2 SSY units are left for sale. 8 accounted for already. Gonna have a lot of pulsed holographers out there. And not all of them came from this forum! New members! One is excited about doing the dual laser oscillator / amplifier experiment. <br><br>Sincerely,<br><br>Bill Jensen<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Sat Nov 19, 2005 4:21 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I hope after you have relocated you will continue with this project. In a few months i would be in a position to try this. This could change everything.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 19, 2005 7:15 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">For safety this is a good start:<br><br>[http://www.osha-slc.gov/dts/osta/otm/ot ... iii_6.html](http://www.osha-slc.gov/dts/osta/otm/otm_iii/otm_iii_6.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 19, 2005 7:46 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Dear Holographers,I have discovered that there IS room for a Brewster window inside the unmodified SSY1. This means that without the headache of externally adjustable mirror(s) on xy mounts, you can put the Brewster inside the cavity and put the mirrors back in their original places.http://thorlabs.com/NewGroupPage.cfm?Gu ... oup_ID=919This is the place to go to buy the 6mm circular diameter brewster that will fit in the existing ~6.05mm hole. The mirror may poke out a bit but should be able to be glued down fine without hitting anything. Item BW0601 for $70.00 a real bargain because it will polarize the SSY1 which increases KTP efficiency dramatically.<br><br>Have you been able to remove one of the morrors and replace it with the same alignment? It looks like they alligh everything with the 3 little feet that touch the mirrors. Gluing the brewsters window in won&#x27;t be easy. What glue do you have in mind? A very thin optical cement would be ideal. I guess a UV cure glue would work but one would have to be very precise and clean about it&#x27;s application.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue Nov 22, 2005 11:54 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>I won&#x27;t get the mirror in time to do any tests for you. I was going to use a tiny spot of elmers glue on the top and bottom for a vertically polarized beam. That way I can take it out real east if need be, and any glue traces can be dissolved with water. Plus it air dries real fast.<br><br>Are you going to buy a brewsters from those guys?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Nov 23, 2005 3:24 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Yeah, I think it should be polarized and I also want to try to make it TEM00. I may have to lengthen the cavity. I have a piece of KTP to play with but I also have an IR card so I can just work in IR for a while.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Nov 23, 2005 4:08 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>TEM00 is already favored. As the first intense rays start clearing the DYE passive q-switch, it clears from the center out. The TEM00 mode is thus favored like a small apeture. Then they amplify as the opening gets larger.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Nov 23, 2005 4:11 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Bill, that&#x27;s facinating. What a useful piece of knowledge. Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 26, 2005 4:29 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Bill,<br><br>Here is a source of cavity suppliers:<br><br>[http://www.uslasercorp.com/catalog/head ... #LampClips](http://www.uslasercorp.com/catalog/headparts.html#LampClips)<br><br>I know you asked but I can&#x27;t find the proper place to reply.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Nov 26, 2005 2:56 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> TEM00 is already favored. As the first intense rays start clearing the DYE passive q-switch, it clears from the center out. The TEM00 mode is thus favored like a small apeture. Then they amplify as the opening gets larger.<br><br>Bill are the mirrors in the ss1 con focal/ curved ? if you plan on using a amplifier rod,will you need to relocate the Q-switch? an aperture will reduce side modes going thru amplifier???</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Sat Nov 26, 2005 3:28 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Dave, in the amplifier you only want to amplify the beam and it quality you ultimately want. If you amplify the non TEM00 beam then you are wasting amplification of unwated and ultimately filtered light by the q-switch if it were after the amplifier. I would assume you want the q-switch before the amplifier rod thus having TEM00 entereing the amplifier.<br><br>I have a question also. If this is the case <br><br>&gt; TEM00 is already favored. As the first intense rays start clearing the DYE passive q-switch, it clears from the center out. The TEM00 mode is thus favored like a small apeture. Then they amplify as the opening gets larger.<br><br>then you take this beam which has a gaussian profile and TEM00 mode and put it through an amplifier, it is possible that the more intense light in the center may get amplified to a point as all the inverted electrons are used up in the center of the amplifier but the outside light get amplified more because there are less photons (intensity) from the oscillator and q-switch to hit the outside atoms in the amplifier rod in the inverted state (remember the amplifier is a single pass through the rod) thus more gain on the outside thus this will flatten out the gaussian profile? This would be very much welcome.<br><br>Of course this may depend on the number inverted electrons from the intensity of the lamp flash, the timing of the lamp flash and/or the length of the rod of the amplifier. Length of rod cannot be changed in your system. Intensity could be changed slightly. And timing could be changed over a full range from too early to too late. If this is all true, then being able to set the timing of the trigger of the amplifier would be great.<br><br>Bill, please comment!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Nov 26, 2005 7:12 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Dave, in the amplifier you only want to amplify the beam and it quality you ultimately want. If you amplify the non TEM00 beam then you are wasting amplification of unwated and ultimately filtered light by the q-switch if it were after the amplifier.<br><br>I was thinking the aperture would clean up the beam before entering the amplifier allowing you to relocate the q-switch nearest the full reflecting mirror (in the rear of the laser)............</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 26, 2005 7:46 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I have been talking with Laser Sam on usenet. About some of these issues:<br><br>[http://groups.google.com/group/alt.lase ... c98aa49ede](http://groups.google.com/group/alt.lasers/browse_frm/thread/76196f405f6fb2bc/588e1bc98aa49ede?tvc=1&amp;q=ssy+colin+group%3Aalt.lasers&amp;hl=en#588e1bc98aa49ede)<br><br>My latest concept is the first ssy1: Brewsters and aperture installed.<br><br>Telscope for beam size control.<br><br>2nd ssy1: mirrors and q-switch removed.<br><br>3rd stage: nd:glass Krypton flash pumped amplifier with brewsters ends. I don&#x27;t think the glass will broaden the seed frequency and it is more available and cheaper.<br><br>Telescope for beam size control.<br><br>KTP<br><br>Total cost $3000. Output power 1 to 2J 532nm at 20ns!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Dec 04, 2005 3:54 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>I have been busy with the move, but managed some things.<br><br>The SSY1 mirrors can be safely removed and replaced aligned. There are 3 precision ground feet that press on the flat of the mirror surface to align it back properly. Got the same Joule pulse output.<br><br>The mirrors are flat to my knowlegde.<br><br>I have placed the 6mm Brewster window from Thor labs into the output end, inside the assembled cavity. Two dots of elmers glue (so it can be water removed after the test if need be) which by surface tension holds the brewster in place till it dries. It took 15 minutes to diassemble the 6 screws, dab, and position the brewster and reassemble. Dried overnight. It needs to overhang a bit on both ends. Make sure it does not protrude beyond the 3 metal feet touching the mirror. Plenty of room in there. When you screw back the cavity to the metal frame, sight down the rod to make sure your glue spots are not visible and blocking the laser beam path. I can&#x27;t test it out yet for KTP performance.<br><br>I have a Cr4+:YAG passive q switch optic to mount inside in place of the weak dye one. I spec&#x27;d the flashlamp, and with proper waiting between shots, believe I can drive this assebly to 50 Joules to the flashlamp. That means I may get 2 Joules of 1064nm, and maybe 1 Joule of 532 nm green for holography. When I can, I will post my results.<br><br>I will be selling a complete turnkey system after it is all tested out in Tennessee. I arrive there Dec 10th. We already bought a house, and have interested people to buy our California home.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Dec 05, 2005 12:09 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">That is great news! With the larger KTP you may even get more than 50% efficiency! Becareful as I have read that you can make the cavity discolor with too much flash input.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Mon Dec 05, 2005 1:04 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> I will be selling a complete turnkey system after it is all tested out in Tennessee.<br><br>Bill do you have an idea about the final cost ?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon Dec 05, 2005 2:27 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">Hi Dave,<br><br>I am trying to target under $1000 for a 1 Joule system to make it as economical as possible. Where I must cut corners will be in a bit of beam quality since I will try to have all the power from the master oscillator rod, without an amplifier stage. If I can&#x27;t do it, I will resort to more sophisticated methods.<br><br>Tonight I will try some more power tests and let you all know. I will later redesign the PFN with a whole new capacitor bank and inductor for the 50 Joules of optical input. I have performed the necessary calculations and have the parts on order, to be shipped to me in Tennessee. Right now I will stick with 15 Joules since that&#x27;s all that is not packed up right now.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon Dec 05, 2005 3:55 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>I have tried the new Brewster window installed in the cavity. At 800 Volts, it outputs 90 mJ of 1064nm, very constant.<br><br>I have found that I probably am not matching the KTP angle at all. I get green but not measurable with the IR filter in. I can only face it on the 2 flats 90 degrees from each other, hoping the axis is along them, but poor green results. But I did note that the output appeared to be much more regular, and not fluctuating so wildly like the unpolarized cavity tests done before. I will have to wait till Tennessee to make a fully adjustable KTP mount to see what sort of higher output I can get, and also to make sure I have a polarized beam. <br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon Dec 05, 2005 7:47 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Oops,<br><br>I misquoted my anticipated &lt;$1000 SSY1 modified system specs: 50 Joules lamp input giving <strong>250mJ 1064nm</strong> for about <strong>100mJ of Green</strong>532nm. (not 1 Joule like I quoted) Enough to expose a pretty big plate, just not half body size. Full face size.<br><br>The other 1 Joule green value I gave you is yet another higher performance system I am calculating and working on based on materials used by my company ConvergentLaser.com It should easily attain 1 Joules of green with the much more efficient cavity. Target price unknown. Possibly $3000 as a guess.<br><br>I have fiddled with the HR and OC mirrors of the SSY1 taking them on and off. As long as you keep it clean, the laser remains in tune with no degradation of power.<br><br>There appears to be two types of Mirror mounts on the SSY-1: <br><br>One is a spring steel basket arrangement that screws down and presses the mirror to the 3 precision machined posts. Glue and friction keeps it from being knocked off center.<br><br>The other is a machined mirror housing that centers the mirror from shifting, and with a rubber o-ring to provide even better support of the mirror against the machined posts. I think I favor this type, and will get them from now on if possible. I have another shipment of 8 on the way.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Mon Dec 05, 2005 11:04 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Ithen you take this beam which has a gaussian profile and TEM00 mode and put it through an amplifier, it is possible that the more intense light in the center may get amplified to a point as all the inverted electrons are used up in the center of the amplifier but the outside light get amplified more because there are less photons (intensity) from the oscillator and q-switch to hit the outside atoms in the amplifier rod in the inverted state (remember the amplifier is a single pass through the rod) thus more gain on the outside thus this will flatten out the gaussian profile? This would be very much welcome.Of course this may depend on the number inverted electrons from the intensity of the lamp flash, the timing of the lamp flash and/or the length of the rod of the amplifier. Length of rod cannot be changed in your system. Intensity could be changed slightly. And timing could be changed over a full range from too early to too late. If this is all true, then being able to set the timing of the trigger of the amplifier would be great.<br><br>It doesnt depend on the number of inverted electrons. The saturation intensity for amplification is based on material constants and independent of pumping.<br><br>Of course it might be nice to have another degree of freedom to toy with. But if its adding extra complexity to what is supposed to be a ultra-low cost system it might not be worth the effort.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Tue Dec 06, 2005 1:33 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">How does one configure table geometries with this kind of system? Is this a shoot and scoot design with expanding optics integrated? How do you determine proper use of the object and reference components with only nano seconds of observation of the beam profile?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Dec 06, 2005 5:35 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Bastian_S, so your saying the number of electrons found in the higher shell for the duration of the wavetrain from the ocsillator is always the same no matter what the pump energy input into the amplifier is?<br><br>So does increasing energy to the flashlamp and thus increasing the energy into the crystal just lengthen the &quot;time&quot; the majority of electrons are in the excited state? So basically once an electron has been hit with the correct photon to give off two photons in phase, the added energy allows the electron the again be excited such that is can be stimulated into emission again?<br><br>If not, I am very ineterested if you could explain.<br><br>Thank you,<br><br>JohnFP.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Tue Dec 06, 2005 7:02 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">No, the number of excited atoms of course depends on pumping. Increasing pumping increases the population inversion and with this the small-signal gain g0 which is the gain the amplifier has for very small input powers. <br><br>But the real gain you see is heavily dependent on input laser intensity because the amplification process itself lowers the population inversion and therefore decreasing gain. The saturation intensity is<br><br> Isat=(h<em>f)/(t</em>d) (sorry cant write greek letters here) <br><br>with h : planck constant <br><br>f: frequency<br><br>t: upper laser level lifetime <br><br>d: stimulated emission cross section, i. e. the &quot;size&quot; the atom has that a photon can hit and stimulate another photon. the last two are material constants.<br><br>The real gain coefficient is g = g0/(1+(I/Isat)) ( I : intensity of the input laser beam)<br><br>Yes that means the wings of a gaussian are amplified more than the center, but the effect of saturation is independent of pumping which only affects g0.<br><br>But you probably wont get a flat top through this if the input beam is gaussian. The output beam might be a more or less distorted gaussian but still very gaussian looking like.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Dec 06, 2005 8:54 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Thank you!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Dec 07, 2005 2:10 am</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bastian_S:</strong> But you probably wont get a flat top through this if the input beam is gaussian. The output beam might be a more or less distorted gaussian but still very gaussian looking like.<br><br>You will get what is called a &quot;super guassian&quot;. This has more energy in the center and looks like it would be better for object illumination. If you look at the area under the curve it has a significantly larger amount of energy.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">geso</span>
+                <span class="post-date">Wed Dec 07, 2005 6:52 am</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">Too bad its not feasable to incorporate this crystal in the pulsed laser project...<br><br>[http://cgi.ebay.com/ND-Laser-Glass-ERBI ... dZViewItem](http://cgi.ebay.com/ND-Laser-Glass-ERBIUM-YAG-CRYSTALS-ROD-RUBY_W0QQitemZ7570332895QQcategoryZ53141QQrdZ1QQcmdZViewItem)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">RonOlson</span>
+                <span class="post-date">Mon Dec 19, 2005 9:41 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">Regarding building inexpensive Q-switched lasers for holography:<br><br>I purchased my Nd:YAG/Nd:Glass laser system (1J@532nm/15ns) as government surplus for $1500. To get everything ready to produce transmission and reflection H1&#x27;s and H2&#x27;s, equipping the darkroom, + R&amp;D inventory (plates &amp; film) I had invested almost $75,000 and to date I have more than $125,000 in studio hardware. The laser is just the beginning if you&#x27;re serious about producing display quality holography. I would add also that trying to build Q-switched Class IV lasers on the cheap is a recipe for serious trouble - the use of low damage threshold optics and/or non-AR coated optics (particularly in the IR) is asking for trouble.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Dec 24, 2005 2:21 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">Hello Holographers,<br><br>I am beginning to get settled in my new home in Tennessee. Let the games begin....<br><br>To recap, I had been able to take a hologram of my fingers, and a very dim one of my face with 3-5 mJoules of green.<br><br>Since then, I have replaced the SSY-1 dye cell with a solid Cr4+:YAG passive q-switch. Also the Brewster window I glued in is still in place. Both of these mods fit neatly into the SSY-1 housing so the resonator mirrors do not need to be externally mounted.<br><br>With some wobbly KTP mounting and the original pulse forming network, I am able to get the 850V 13 Joule lamp energy to lase with <strong>50 mJ of green! And quite repeatably unlike the 3-5 mJ randomly polarized tests before. That is approaching the 33-50% theoretic efficiency of KTP since I have added the polarizing Brewster Window.</strong> I have only one sheet of green hologram film left for testing so that will have to wait. The move has depleted my funds for the moment.<br><br>What I Can do with the parts on hand is the planned redesign of the pulse forming network that will inject about 50 Joules to the lamp. If the optics, coatings, and lamp are not destroyed in the process, I hope to get <strong>150-250 mJ of green</strong>if all goes as planned. My current CaF2 lens was destroyed by the extra energy. I may have to buy a glass one, or see if I can get this steel ball bearing to spread the beam. <br><br>I&#x27;ll keep you posted.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Dec 28, 2005 12:38 am</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have run some very high power tests on the SSY-1 pulsed laser.<br><br>Setup ----<br><br>SSY-1 modifications: Brewster window added and Cr4+:YAG passive q-switch replacing q-switch dye cell. Both done internal to the cavity.<br><br>PFN is totally replaced with a much higher uF and custom inductor.<br><br>There is no beam spreader optic right now, and the Joule meter measures the green power pulse just after the IR blocking lens which is Reflection coated for 1064nm. It is not coated for AR in 532nm though so a good amount is lost.<br><br>Here are some results of the tests tonight:<br><br>&lt;500V no firing of the lamp<br><br>500V gives 40mJ of green<br><br>550V gives 84mJ<br><br>600V gives 123mJ<br><br>650V gives 127mJ<br><br>700V gives 160mJ<br><br>750V gives 175mJ<br><br><strong>800V gives 214mJ of green</strong><br><br>I was firing about once every 5 - 15 seconds, and about 3-7 times for each setting. The flashlamp snapped safely in the chamber at my 6th firing at 800 Volts. No doubt I require more time for the passively air cooled cavity to release the built-up temperature.<br><br>At 700V, I was injecting 30.63 Joules to the lamp, at 20.04% explosion energy (estimate).<br><br>At 800V, I was injecting 40 Joules to the lamp, at 26.16% explosion energy (estimate).<br><br>It does not seem that anything else was damaged except the lamp. Later I will replace it, and see how many times it fires at higher voltages (900 max), but allowing much longer to cool. The metal cavity housing was only a little warm to the touch. <br><br>So I bet that the maximum for this setup will be about 1/4 Joule of 532 nm green output, polarized, and over 4-20ns (unmeasured as yet). Lifetime tests will need to be rigged up to run automatically.<br><br>There are better lamps available as well that might be used as a replacement in the future.<br><br>So to recap, the SSY-1, with $140 of enhanced parts, and a custom PFN $50, should be able to output 0.25 Joules of green. It is not certain for how long it needs to cool between shots. Also not sure of the quality of holograms this would make. <br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Dec 28, 2005 1:03 am</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Hi Bill,<br><br>This is good news. What does the expanded illumination pattern look like?<br><br>There is a listing of a better bulb in Laser Sam&#x27;s FAQs.<br><br>Colin</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Dec 28, 2005 11:40 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">Hello Colin,<br><br>The beam profile has only been characterized on Zapit paper. This is a black coated paper that snaps and whitens when exposed to laser beams. It responds to 1064nm and 532nm.<br><br>The beam spot on the zapit paper is square in shape corresponding to the 4mm x 4mm KTP crystal. It retains its spot size over 15 feet. The spot is very bright with some internal striations of lesser intensity. They seem to be some symmetrical reflections within the KTP crystal. A larger crystal might be in order since all 4 sides of the KTP are being clipped by the 5mm diameter 1064nm beam.<br><br>ZAP-IT laser alignment paper is made by KENTEK in Pittsfield NH. 800-432-2323 to order it.<br><br>Anyone else having any progress with the SSY-1 laser for holography?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Dec 28, 2005 10:34 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have replaced the destroyed SSY-1 flashlamp, and had to switch cavities since the high tension trigger wire blew open. All the other components seem to be working fine.<br><br>Then I performed tests with the same setup. <strong>There were no failures for 100 shots to 900 Volts (50 Joules).</strong>I am feeling much more confident that the previously blown flashlamp was because I did not let the tube cool long enough between shots. I increased my cool time from about 10 seconds to over 2 minutes to be overly safe. This tedious test was done manually.<br><br>I was able to find another beam spreader (CaF2) 2 cm focal. When used, it spreads the beam over a 3 foot square on the wall. It looks much much cleaner than all my previous tests. The area is bright, possibly too bright for me to even see any inconsistencies. Zapit paper shows some striations in the unexpanded beam though.<br><br>My KTP crystal is no longer at optimal angle so I am only getting half the original output, a bit above 100 mJ. It is rigidly mounted out of perfect alignment because of the hot melt glue I used. I will have to build in another 2 axes to properly align the KTP.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kcriqui</span>
+                <span class="post-date">Thu Dec 29, 2005 3:10 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">BIll,<br><br>I haven&#x27;t had time over the holidays to make amy more progress, but I wanted to let you know that I have a number of FXQSL-934-1.4 lamps which I think will fit the SSY-1. Let me know if you want a few to keep as spares. I got a large (13x13x20mm) crystal I <em>think</em> is KDP which I&#x27;ll try with the SSY-1 when I have time to set things up again. I am interested in the Cr4+:YAG passive q-switch you are using - do you have any for sale?<br><br>Kevin</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu Dec 29, 2005 1:14 pm</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Hi Kevin,<br><br>I would love to test the flashlamp you found. Is it still available, or do you have a lot? Can I buy a sample one?<br><br>I am going to place another order for the Cr4+:YAG crystals soon since other people are asking about it too. If you want one it costs $150 and takes 1-2 weeks. Prepayment is necessary for me to place the order. (wdjensen123 at hotmail dot com by Paypal) This one fits perfectly in the place occupied by the existing Dye passive q-switch. It is able to handle 500MW / cm2 energy which is absolutely necessary if you want to get decent energy out of the SSY-1.<br><br>I built a 5 axis KTP mount, and I am getting 165mJ of unexpanded green at 900 volts. I believe that I am getting a lot of green loss from my 1064nm reflector which is used as an IR blocker after the KTP crystal. It does not have 532nm AR coating and I see a lot of green back reflection.<br><br>The KDP you have is much better than the KTP I am using. It is bigger to accomodate the 5mm beam, and has a higher damage threshold than KTP. But the one I have is pretty good so far. The KDP needs to be encapsulated since it is damaged readily by moisture.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri Dec 30, 2005 10:00 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have automated the firing of the SSY-1 laser with the enhanced pulse forming network I designed. <strong>It has fired over 1200 shots without failure, with very little decrease in performance, and no components failures !!</strong>. <br><br>I am firing it using a PIC microprocessor and relays to trip the SCR on the trigger board every 60 seconds. Probably about 1 Watt average power dissapation. This is at 900 Volts delivering over 50 Joules of energy to the flashlamp. I am getting 160 to 186 mJoules of green out of the shots. <br><br>I ordered some more green VRP-M film 4x5 / 20 sheets for more hologram tests at the end of next week.<br><br>I was wondering how I go about detemining the coherence length of this laser setup if I have only one lens, one beamsplitter, and plenty of first surface mirrors. Anyone know how it is done? What happens when I start to go out of coherence... will the rings disappear? Do I need to photograph the rings during the flash, or do you think I can see them by eye?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Dec 31, 2005 11:40 am</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">I finally turned off the automated test. <strong>It fired over 2000 shots</strong>without any component failures.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Dec 31, 2005 9:03 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Here is a picture and diagram of the Michaelson-Morley Interferometer I made to test the coherence length. I am not getting rings. Is there something wrong here?<br><br>![Image](http://www.wdjensen123.com/Holography/Michaelson1.jpg)<br><br>![Image](http://www.wdjensen123.com/Holography/Michaelson2.jpg)<br><br>The center is the beam splitter glass, hard to see, it is not the obvious rectangular mirrir but grey looking. Right is laser green output. Left is a corner cube reflector. Above is a mirror on xy mount. Lens is down below.<br><br>And here is a picture of the PIC microcontroller pulser and hefty relay to trip the SCR on the trigger circuit. There is a filter cap added on to avoid spurious resetting by the flash spiking.<br><br>![Image](http://www.wdjensen123.com/Holography/PulserPIC.jpg)<br><br>I have some stuff for sale on Ebay as wdjensen123 if you want to check it out.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Dec 31, 2005 10:45 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Objective: Beam Quality Analysis of SSY-1 driven with 50 Joules and 160mJ output of green.<br><br>Here is a series of black and white negatives taken on Ilford B&amp;W contact paper, developed in Dektol and then Fixer. The series is for 900 Volts (51 Joules of lamp input and 160 mJ green on this film) then 800V, 700V, and 600V.<br><br>Note the striations are less apparent at higher powers, but still there. There are ripples on the pond from the CaF2 lens optic. Also a white starburst which is an internal flaw in the lens caused by me pumping too much power into the lens at high powers during my tests.<br><br>The striations are probably from the 4mm x 4mm KTP clipping the 5mm diameter IR beam. This may go away with a larger KTP crystal.<br><br>All in all, it is a clean enough beam for prototype testing for pulsed holography.<br><br>I gave up on the Michaelson-Morley interferometer for now. Next I have one sheet of green film left till my next shipment arrives maybe late next week. Possibly take another pulsed hologram.<br><br>![Image](http://www.wdjensen123.com/Holography/900Vbeam.jpg)<br><br>![Image](http://www.wdjensen123.com/Holography/800Vbeam.jpg)<br><br>![Image](http://www.wdjensen123.com/Holography/700Vbeam.jpg)<br><br>![Image](http://www.wdjensen123.com/Holography/600Vbeam.jpg)<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sat Dec 31, 2005 11:33 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">Bill,<br><br>For pulsed lasers instead a Michelson I would suggest use a simple, perhaps an uncoated glass slide etalon, measure or photograph the reflected light interference and you will get an idea about the logitudinal coherence, did you intall an intracavity etalon? So is spected a limited coherence for this laser...(too much logitudinal modes for holography)<br><br>WDYT?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Jan 01, 2006 12:40 am</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">Hi there Sergio and all,<br><br>I did not install an etalon since I discovered that the passive q-switch starts opening as a small central window, then widens. Thus favoring a single longitudinal mode.<br><br>I was able to take 2 more holograms at the increased power. They are still too dim to photograph and post here, but you can see the features of my face: glasses, nose side lit, lips, glistening teeth, pores in my skin, etc. <br><br>From the angle I took it, I can measure that sharp reflections from my glasses to the plate are in focus even though they are 5 inches from the places you can see them on the hologram. That seems to indicate that there is at least 5&quot; coherence length if I understand this correctly.<br><br>I think now I need help in taking transmission holograms (single beam, 45 degree angled film). The parameter of latensification also affects it. I developed one to nearly black and that did not turn out as good as the one I developed to half black. I am bleaching in JD-2 30 seconds after it totally clears.<br><br>Any tips on getting brighter transmissions? They are crisp but dim.<br><br>I also took one reflection, but cant see anything, although the film has faint rainbow flashes all over it. It is of my teeth. I am lighting it by a 12V halogen bulb with 3&quot; reflector, 3&#x27; away.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sun Jan 01, 2006 6:43 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Hi there Sergio and all,I did not install an etalon since I discovered that the passive q-switch starts opening as a small central window, then widens. Thus favoring a single longitudinal mode.Bill Jensen<br><br>So the Q-switch with parallel mirrors is self filtering the adjacent transversal and longitudinal modes in the build time regime? This is very interesting, sure that laser is very precise!<br><br>As regarding latensification did you try use it just before exposure? (to keep the film &quot;active&quot;).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Sun Jan 01, 2006 6:47 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">I do know a passive q-switch can favor the single transverse mode TEM00 by the effect you mention.<br><br>I think you mistook that for single longitudinal mode.<br><br>Afaik a normal standing wave laser without any elements like an etalon should nearly always run on multiple longitudinal modes.<br><br>It would be very interesting to know the coherence length of this laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Jan 01, 2006 7:01 pm</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Yes, I am confused about the difference between longitudinal and transverse single mode operation. Can anyone explain the difference in simple terms? And its effect on holography quality?<br><br>I do have some etalons, but not sure if I have any room to put them in the cavity without breaking out one of the mirrors from its mount.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bastian_S</span>
+                <span class="post-date">Fri Jan 06, 2006 5:09 pm</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">Transversal modes are beam profile patterns. in the fundamental TEM00 mode the beam has a gaussian shape and best divergence and smallest focus size. Higher order modes have patterns with more than one spot. Real laser beams can be a mixture of several modes. An aperture in the resonator can block higher order modes because they have a larger radius, thats what a cr:yag <em>might</em> do when it bleaches only in the middle where the highest intensity is.<br><br>Usually its said you need TEM00 for holography. I personally dont know any reason for this right now, it might be that most lasers that arent even TEM00 wont work for other reasons for holography.<br><br>Longitudinal modes are frequencies in the laser beam. Only waves that are resonant, i. e. that build up a standing wave, in your resonator are amplified. The spacing between these modes can be calculated <br><br>deltaf=c/2l ;c lightspeed; l resonator length<br><br>To have a long coherence length you need a single frequency. Many longitudinal modes would mean short coherence. 1 Mode wildly changing its frequency or several modes starting and ending lasing while your q-switch is open might be bad too.<br><br>Because of this its so interesting if your laser is forgiving enough so it still has a sufficient coherence length without an etalon selecting just 1 single longitudinal mode.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Fri Jan 06, 2006 6:52 pm</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">Excellent description Bastian, I wonder if there isn&#x27;t any etalon inside cavity <br><br>Maybe the dye cell alone is performing with their parallel faces as an etalon?<br><br>On other side a free running laser may give a &quot;sliced&quot; hologram image.<br><br>[http://www.polygrama.com](http://www.polygrama.com)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Jan 07, 2006 12:48 am</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Thank you for tips and info on the two different modes :longitudinal and spatial. Because of this discussion, I am testing out the selection of one or a few longitudinal modes by adding an etalon. The one I have is uncoated, so not as efficient.<br><br>I have been working on the SSY-1 system and have integrated into the housing a screw adjustable etalon that tilts by turning a 4-40 screw on the SSY-1. It cycles through a min and max by about a 10 degree turn on the screw. The construction of this etalon tilting mechanism is difficult, but I was able to fit it into the SSY-1 cavity, along with the added Brewster&#x27;s window, and replaced passive q-switch (Cr4+:YAG). I am driving it with my 50 Joule special pulse forming network.<br><br><strong>Below is a picture I have taken of my open mouth with glistening tongue.</strong> In the hologram you can peer into my mouth and see my nose. Another set of them the glasses come out very well. It is still dim.<br><br>![Image](http://www.wdjensen123.com/Holography/Etalon1.jpg)<br><br>Anyone else having success with the SSY-1 and pulsed holography? I am selling all these components for those interested in a more turnkey system.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pyrofx</span>
+                <span class="post-date">Wed Jan 11, 2006 1:56 am</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">I&#x27;ve found several power supplies that may be suitable for capacitor charging for the SSY Laser. Search Ebay for Electrophoresis PSUs. They are typically 0-3000 VDC @ 0-150 mA. Best aprt is they are fully adjustable and have built in meters.<br><br>I have one on the way and will let you know how it works out.<br><br>Regards,<br><br>Ken</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Jan 14, 2006 4:04 am</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">Dear Holographers:<br><br>I need help making transmission holograms with the SSY-1 that are not DIM.<br><br>I am using a single beam transmission setup with a convex-plano lens to expand the beam.<br><br>The following things have been tried to make brighter holograms, with no effect:<br><br>1. Uncoated single Etalon placed in the SSY-1, no real effect when maximized or minimized in output power. Supposed to select a single or few longitudinal modes.<br><br>2. Spatial filter placed after the convex lens, 30 micons aperture size. No effect. Does it help select the TEM00?<br><br>3 Added a plane mirror at different spots to reflect back more light to the object. Not much difference. Maybe a little though, inconclusive.<br><br>4. Varied latensification. It just seems to make the image dimmer. There is plenty of energy to expose the plate alone.<br><br>5. Different exposure times, voltages from 500 to 900 volts, distances (and therefore beam spreads), development (10, 20, 30, 40, 50, 60, 70, 80% dark exiting from the developer) parameters. Bleach works fine. JD-2 chemicals with VRP-M film. Only can get an optimum hologram that is very dim, or worse.<br><br>6. Different objects with different reflectivities. Tried white and specular too. Specular object did show up better. White is better than dark. Still dim though.<br><br>7. Tried developer and fixer for making the hologram. Also tried Dektol developer. Even dimmer.<br><br>Here is what I did note: <strong>that in one case was there a really bright image of the rough cut edge of a mirror that was very close to the plate, and the shiny object beam from it sparkled very bright, and caused it to appear very bright.</strong> From this I surmized that Maybe I need a more intense object beam. Does this seem reasonable? Anyone know what other tricks there are to brighten up the hologram.<br><br>It is getting frustrating to try to figure out what I am doing wrong. It may be something very simple, because Every hologram I have ever tried to make, even 10 years ago, was always very dim and barely viewable. Even with HeNe lasers and red diode lasers. And now the same thing with the pulsed green laser.<br><br>The objects are pretty sharp, and depth is at least 5 inches, just really dim. Any help would be most appreciated. I am at a loss. Feel free to ask me questions about my setup. Thank you very much.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Sat Jan 14, 2006 5:29 am</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">Bill,<br><br>Can you post a photograph of your setup?<br><br>Can you measure the beam ratios and post them?<br><br>Can you post a more detailed description of the table geometry?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Jan 14, 2006 7:49 am</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Here is what I did note:that in one case was there a really bright image of the rough cut edge of a mirror that was very close to the plate, and the shiny object beam from it sparkled very bright, and caused it to appear very bright.From this I surmized that Maybe I need a more intense object beam. Does this seem reasonable? Anyone know what other tricks there are to brighten up the hologram.<br><br>For the record I have no experience with VRP-M and little with transmission holos. <br><br>Your observation that you can get bright sparkles from reflections indicates that your film and chemistry is likely OK when fed the correct proportions of object and reference light. The useful coherence length of your new laser is an unknown. One of my favorite test objects is a pile of pearls - they have a bright specular refleclion (the highlight) visible from all angles and a good diffuse component too. Try taking a long string of pearls and stretching it out in a line away from the plate (against a black background) and making a hologram. This will tell you if there is a sudden dropoff of brightness with distance.<br><br>You might also try making a single beam grating using a mirror to bounce reference light at an angle into the film. This pretty much tells you what maximum brightness would look like.<br><br>Insufficient object light (relative to the reference) will definitely cause dim holos. To compensate, you can:<br><br>1) add more light to the object with mirrors or whatever<br><br>2) use a brighter object <br><br>3) dim the reference beam (not always easy for single beam and for objects close to the plate)<br><br>4) Do an H1-H2 transfer - you have total ratio control here<br><br>5) Use a material more forgiving of poor ratios such as BB-plates or Ultimate. I&#x27;ve only used these for reflection holos, no idea how they work for transmission. For green, the new Fuji film looks promising.<br><br>6) display your work in a dimly lit hallway with LED spotlights for maximum contrast - (my solution )<br><br>Continue the struggle - it IS possble to make acceptably bright holos!<br><br>&quot;What one fool can do, another can&quot; - Ancient Simian proverb</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sat Jan 14, 2006 12:52 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">This should pep things up quite a bit. Use this developer, as posted on this site:<br><br>[http://holographyforum.org/files/sm6.htm](http://holographyforum.org/files/sm6.htm)<br><br>The whole story is written there. The JD-2 developer, which really is the CWC2 developer, like almost all others, just doesn&#x27;t work in the realm of high intensity, short duration exposures.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Sat Jan 14, 2006 2:25 pm</span>
+                <span class="post-number">#55</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> This should pep things up quite a bit. Use this developer, as posted on this site:http://holographyforum.org/files/sm6.htmThe whole story is written there. The JD-2 developer, which really is the CWC2 developer, like almost all others, just doesn&#x27;t work in the realm of high intensity, short duration exposures.<br><br>Yes Ed I used to see that high Intensity problem with pulsed Ruby and thought it was a fact of life you had to put up with. So when I started working with a ~300mj pulsed FD YAG about 12 years ago I was expecting to see it all again. But after 12 years using a 6nsec. 532nm pulse<br><br>it has not been noticeable with silver halide although I have not been making proper comparisons with CW lasers. So perhaps alot of the problem was to do with 694nm <br><br> Interestingly in a paper I am doing for the July symposium in wales I show a pulsed portrait of my dirty fingers holding a coin that was shot in undyed DCG with 1 pulse! Although 5pulses over half a second is much brighter. There is a hint that the incredibly small absorption of dichromate at 532nm may be particularly effective when delivered in a 6ns pulse! A case of HIE ---High Intensity Enhancement?<br><br><strong>for Bill</strong>:Herewith is the dev formula I find fine for pulsed 532nm<br><br>That is a good article for interest. But I contend that the best way of dealing with ascorbate developer stock and it is a way we have been successfully using for some years in our labs is to &quot;A and B&quot; it. <br><br>For A we have a 500ml bottle with: <br><br>20g ascorbic acid <br><br>3g Metol (4-methylaminophenol sulfate) <br><br>and top it up with 500ml deionized water <br><br>for B we have a 500 ml bottle of <br><br>50g sodium carbonate anhydrous <br><br>15g sodium hydroxide <br><br>top up with 500 ml deionized water. <br><br>(This one should be labeled &quot;very caustic&quot; ) <br><br>Just use equal volumes of A and B from then on. <br><br>Now there are 3 bonus points for using Metol instead of phenidone. <br><br>1) is that phenidone is quite a strong silver halide solvent and tests have proved that metol gives brighter holograms. <br><br>2)The second point is that metol has a hardening action on gelatin and its effect on speeding up the development time over what you would have with just alkaline ascorbate means that even notoriously soft emulsions <br><br>juch as PFG-03 can be in and out of the developer bath into a stop bath (~5% acetic acid ) in around 20 seconds, before the gelatin is seriously attacked. Assuming of course your exposure level was good enough. <br><br>3) Metol is a weaker reducing agent or developer than alkaline ascorbic acid. <br><br>When Metol gets oxidized it goes really dark brown so this is a useful indicator to tell you when your bath is exhausted because it wont go severely dark until most of the ascorbate has been oxidized. A mild yellowing like weak tea is quite OK . Only when the stuff gets to the colour of strong British tea without milk do you chuck it out. ) <br><br>Dont forget to use the floating dish method of 2 closely fitting plastic dishes with the upper dish keeping most of the air out as it floats and acting as convenient agitator as well. <br><br>Acid ascorbate in the stock soln A will not seriously oxidize for a long time <br><br>(Slight yellowing is perfectly OK and can be ignored., provided your stuff does contain Metol.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Jan 14, 2006 4:30 pm</span>
+                <span class="post-number">#56</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Thank you for the great info. Where can you buy these chemicals in small quantities to try out? Premixed solutions?<br><br>Here are some pictures of my setup:<br><br>![Image](http://wdjensen123.com/Holography/Spatial1.jpg)<br><br>![Image](http://wdjensen123.com/Holography/Spatial2.jpg)<br><br>![Image](http://wdjensen123.com/Holography/Spatial3.jpg)<br><br>![Image](http://wdjensen123.com/Holography/Spatial4.jpg)<br><br>I don&#x27;t usually use the mirror, but that is what is on the table to help light the object.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sat Jan 14, 2006 6:52 pm</span>
+                <span class="post-number">#57</span>
+            </div>
+            <div class="post-body">&gt; Where can you buy these chemicals in small quantities to try out?<br><br>[http://www.photoformulary.com/DesktopDefault.aspx](http://www.photoformulary.com/DesktopDefault.aspx)<br><br>-Great selection, service, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sat Jan 14, 2006 6:54 pm</span>
+                <span class="post-number">#58</span>
+            </div>
+            <div class="post-body">&gt; <strong>jeff-blyth:</strong> Interestingly in a paper I am doing for the July symposium in wales I show a pulsed portrait of my dirty fingers holding a coin that was shot in undyed DCG with 1 pulse! Although 5pulses over half a second is much brighter. There is a hint that the incredibly small absorption of dichromate at 532nm may be particularly effective when delivered in a 6ns pulse! A case of HIE ---High Intensity Enhancement?<br><br>Very interesting, in this short pulse case the absorption of DC molecule, (the emulsion photo-activated material) is raised to a single state? Will the Chromium reduction only occur at this level that has a short life time? It would explain why the alocated energy could be delivered in a short time comparable to the single state, after that the gelatin crosslink is a matter of time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Jan 15, 2006 12:42 am</span>
+                <span class="post-number">#59</span>
+            </div>
+            <div class="post-body">Dear Jeff-Blythe,<br><br>I have ordered the developer chemicals you mentioned from the place Tony suggested. Thank you all.<br><br>Jeff, <br><br>Will this developer work with VRP-M green hologram film for pulsed holography 6ns pulses about 50 to 150 mJ ? <br><br>Is there a better film for transmission holography? For Reflection holography? <br><br>Do I need a stop, or can I just go to the bleach? <br><br>Will JD-2 bleach work for this process? <br><br>Does it need latensification at all?<br><br>Thank you very much for your help!<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sun Jan 15, 2006 11:58 am</span>
+                <span class="post-number">#60</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Jeff-Blythe has kindly responded to my questions. For your benefit I include them here for all to benefit:<br><br>Will this developer work with VRP-M green hologram film for pulsed holography 6ns pulses about 50 to 150 mJ ? <br><br><strong>Yes it works with everything I have tried it on.</strong> (he is talking about Silver Halide based films)<br><br>Is there a better film for transmission holography? For Reflection holography? <br><br><strong>I have just found the recently released Fuji film good for reflection but its sensitivity to red safe light might be a nuisance in your case. Anything that works well in reflection will work well in transmission . But this is not the always the case the otherway round. Eg I gather VRP-M not as good as PFG film for reflections</strong><br><br>Do I need a stop, or can I just go to the bleach? <br><br><strong>For reflections Yes you can but......If you are making transmissions then it is best to stop, -rinse- FIX - and then bleach.</strong><br><br>Does it need latensification at all? <br><br><strong>No...</strong><br><br><strong>I am really spoiled in my Institute where the pulsed YAG is 300mj in the 532nm and cost $30,000 plus. What&#x27;s more its beam quality is reallly poor.</strong></div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Sun Jan 15, 2006 4:56 pm</span>
+                <span class="post-number">#61</span>
+            </div>
+            <div class="post-body">&gt; I have just found the recently released Fuji film good for reflection<br><br>This is the first I&#x27;ve heard of the Fuji film. Can anyone on this board provide more details?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Sun Jan 15, 2006 5:48 pm</span>
+                <span class="post-number">#62</span>
+            </div>
+            <div class="post-body">Here&#x27;s Colin&#x27;s post [http://www.holographyforum.org/phpBB2/v ... php?t=4242](http://www.holographyforum.org/phpBB2/viewtopic.php?t=4242)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sun Jan 15, 2006 8:13 pm</span>
+                <span class="post-number">#63</span>
+            </div>
+            <div class="post-body">&gt; <strong>dcgman:</strong> I have just found the recently released Fuji film good for reflectionThis is the first I&#x27;ve heard of the Fuji film. Can anyone on this board provide more details?<br><br>it just so happens ill be visiting orlando the week of the photography convention ,and plan on visiting the fuji booth .</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pyrofx</span>
+                <span class="post-date">Wed Jan 18, 2006 4:28 pm</span>
+                <span class="post-number">#64</span>
+            </div>
+            <div class="post-body">Well, the SSY-1 fires with a snapping sound and blasts the toner off of a piece of copy paper<br><br>![Image](http://www.kenpurcell.com/holo/images/YAG%20Laser%20020.jpg)<br><br>I&#x27;d like to thank Bill Jesen for a few hints and information on his setup. His excitement of using this for holograms got me off my duff to rekindle my love all things lasers.<br><br>I did find a very useful device for the power supply, an Electrophoresis Power Supply. Mine puts out 3000 volts DC at up to 150 mA and was only $24.99 on eBay. Great to dial in voltage and current with meters built in to boot! Also sourced the Airborn connector on the PFN. They run about $20 each and the company is only 10 miles from my house (problem is they make these on demand and will only run a minumum of 100 pieces). I got a sample connect which was their last one for now. I found out through some contacts that the YAG lasers where probably made at Raytheon in McKinney, Texas.<br><br>I have some more photos of my setup at:<br><br>[http://www.kenpurcell.com/holo/index.htm](http://www.kenpurcell.com/holo/index.htm)<br><br>Now on to green! Any good sources for the KTP that you have found or any members will to sell some?<br><br>Where did I put those lenses? Time to make holes in stuff.<br><br>Have fun and be safe!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jan 18, 2006 5:49 pm</span>
+                <span class="post-number">#65</span>
+            </div>
+            <div class="post-body">Bill, how do you get the spatial filter tuned with this set up?<br><br>Are you able to pulse the laser pretty frequenty, thus allowing the spatial filter to be adjusted?<br><br>Good luck with your endeavors!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Jan 18, 2006 7:22 pm</span>
+                <span class="post-number">#66</span>
+            </div>
+            <div class="post-body">Dear Holographers:<br><br>That&#x27;s a great find: the Electrophoresis power supply. Thank you so much for sharing it with us. I have lost on 2 of them so far, but I have the parts to make my own supplies, so am not too worried.<br><br>The spatial filter first was a lens. I adjusted the XY until the spot was well centered on the axis of the laser system.<br><br>Then I added the pinhole 30 micron in front of the lens, but beyond the focus. I adjusted the XY to the pinhole at 500 volts (which allows multiple shots about 10 seconds apart or better). I fired as I adjusted the xy till I saw a dim roundish spot visually.<br><br>I contunued to move the z axis of the aperture towards the focus. Minor tweaking allowed me to stay centered. You see lots of artifacts and rings when you are too far off. I moved XY to walk the spot in the direction that the spot was off axis.<br><br>When I got close to the focus, I used a combination of visual and Joulemeter readings to maximize the energy and beam quality. There was a strange Joule maximum off axis visually, but I tuned away from it. Visual is the best indicator.<br><br>Currently I stopped when I reached 50% of the beam energy before spatial filtering. I bet it can be much better, but is fine for holograms.<br><br>Candidly, spatial filtering and etalon do not seem to improve the hologram image quality. I have ordered the chemicals for Jeff-Blythe&#x27;s formula. There is plenty of energy left to darken the exposed and plused film. The main problem to surmount is image dimmness.<br><br>My work is backpeddaling on the holography support, and I have started to look for another job in Knoxville. I need my hours to remain focused and effective.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Jan 19, 2006 12:13 am</span>
+                <span class="post-number">#67</span>
+            </div>
+            <div class="post-body">&gt; Then I added the pinhole 30 micron in front of the lens, but beyond the focus. I adjusted the XY to the pinhole at 500 volts (which allows multiple shots about 10 seconds apart or better). I fired as I adjusted the xy till I saw a dim roundish spot visually.<br><br>I wonder how much energy you can squeeze through that pinhole before you hit the point of diminishing returns because either a) the air is ionized at the beam waist (seriously damaging wavefront quality), or b) you burn a bigger hole as the beam wanders from shot to shot. Might be better off just using a nice coated fast negative lens, and keeping it clean.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Jan 19, 2006 12:36 am</span>
+                <span class="post-number">#68</span>
+            </div>
+            <div class="post-body">To hedge your bets, you should order the stuff for SM-6 developer also. Slavich does recommend it for pulsed holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 19, 2006 2:37 am</span>
+                <span class="post-number">#69</span>
+            </div>
+            <div class="post-body">You could use Gold plated, Molybdenum or even Diamond pinholes but using a clean lens would be a lot cheaper.<br><br>Here is a souce if anyone is interested.<br><br>[http://www.lenoxlaser.com/](http://www.lenoxlaser.com/)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu Jan 19, 2006 1:46 pm</span>
+                <span class="post-number">#70</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>If you place the spatial lens after the KTP and IR blocking mirror, then you don&#x27;t get sparking with either the standard PFN (15 Joules to lamp) or my modified PFN (50 Joules to lamp).<br><br>If you place a lens before or without the KTP or IR blocking mirror, you run the risk of air sparking at the elevated powers. This arc looks white with a hint of blue, about 3 mm long and .7 mm wide. There is a considerable snapping noise when it arcs the air. This focal point is where you can burn through a razor blade (gillette). This would definitely ruin a pinhole, or create one in a piece of metal. That might be handy.<br><br>There is a possibility that I might be severely overexposing my films. I have noted that the exposed film will darken to 50% in a range of 15 to 90 seconds. I have been using JD-2 developer. This might be a bit fast fo0r this less sensitive developer, denoting an overexposed film. <br><br>I will have to try some &quot;underexposures&quot; with the new developers. Also I need to try out a bigger KTP crystal since mine is 1mm diameter too small, and I get reflection artifacts and lines as the beam exits the KTP. The spatial filter does not clear them up!<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Jan 19, 2006 3:38 pm</span>
+                <span class="post-number">#71</span>
+            </div>
+            <div class="post-body">&gt; If you place the spatial lens after the KTP and IR blocking mirror, then you don&#x27;t get sparking with either the standard PFN (15 Joules to lamp) or my modified PFN (50 Joules to lamp).If you place a lens before or without the KTP or IR blocking mirror, you run the risk of air sparking at the elevated powers. This arc looks white with a hint of blue, about 3 mm long and .7 mm wide. There is a considerable snapping noise when it arcs the air. This focal point is where you can burn through a razor blade (gillette).<br><br>The location of the spatial filter has nothing to do with it. It&#x27;s a matter of energy at the beam waist that counts. By removing the KTP and IR blocker, you&#x27;re just letting the IR add to the energy at the focal point. <br><br>I&#x27;m going to repeat Ron Olson&#x27;s warning above in this thread. Be <em>very</em> carefull when operating any pulsed laser, especially when using it to make holograms. Damage happens faster than you can respond. Only a qualified Class IV laser operator should be using them because they are accostomed to the safeguards needed. Anyone buying these surplus units is playing with fire, and should have a pair of safety goggles (for both wavelengths), regardless of their cost. 8)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jan 20, 2006 3:23 pm</span>
+                <span class="post-number">#72</span>
+            </div>
+            <div class="post-body">If you post to alt.lasers they will tell you what is up with the latest safety goggles. When I was first getting into DPSS about 4 years ago I got some coated for 808, 1064 and 532nm at ND 10. The came from Russia and we made a group buy of 20 sets of goggles. They were only about $70.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Fri Jan 20, 2006 4:05 pm</span>
+                <span class="post-number">#73</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> If you place the spatial lens after the KTP and IR blocking mirror, then you don&#x27;t get sparking with either the standard PFN (15 Joules to lamp) or my modified PFN (50 Joules to lamp).If you place a lens before or without the KTP or IR blocking mirror, you run the risk of air sparking at the elevated powers. This arc looks white with a hint of blue, about 3 mm long and .7 mm wide. There is a considerable snapping noise when it arcs the air. This focal point is where you can burn through a razor blade (gillette).The location of the spatial filter has nothing to do with it. It&#x27;s a matter of energy at the beam waist that counts. By removing the KTP and IR blocker, you&#x27;re just letting the IR add to the energy at the focal point.I&#x27;m going to repeat Ron Olson&#x27;s warning above in this thread. Beverycarefull when operating any pulsed laser, especially when using it to make holograms. Damage happens faster than you can respond. Only a qualified Class IV laser operator should be using them because they are accostomed to the safeguards needed. Anyone buying these surplus units is playing with fire, and should have a pair of safety goggles (for both wavelengths), regardless of their cost. 8)<br><br>And be well versed (or get educated) in the hazards and proper methods of working with high voltages.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Thu Jan 26, 2006 4:45 am</span>
+                <span class="post-number">#74</span>
+            </div>
+            <div class="post-body">Are these DPSS-optimized goggles still available?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jan 27, 2006 9:36 pm</span>
+                <span class="post-number">#75</span>
+            </div>
+            <div class="post-body">&gt; <strong>eric343:</strong> Are these DPSS-optimized goggles still available?<br><br>Post this question to alt.lasers and I am sure they will have the latest information.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat Jan 28, 2006 12:57 pm</span>
+                <span class="post-number">#76</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Just an update on my progress. I have implemented the Blythe&#x27;s Metol developer and have improved my results. Also I have tuned the spatial filter to give much more even illumination.<br><br>It appears that I was severely overexposing my plates, and that JD-2 developer is pretty insensitive or not good for pulsed hologram development.<br><br>The transmission holograms are a bit brighter with at least 5&quot; depth. Also it is sensitive to the angle of the reference beam hitting the film. I am now taking holograms at a further distance and lower powers. Even 50-100 mJ is plenty for my 2&quot; x 2.5&quot; cut films. I need some way to vary the object to reference beam ratio.<br><br>I am developing 1-3 minutes in the Metol, wash, fix in normal Na Thiosulphate fixer. I let it go to about 30-50 % dark. The holograms appear brighter. When I bleach it in JD-2, the image completely disappears! Not good.<br><br>The striations in the beam went away when I had the spatial filter more properly aligned. But the intensity went down as well, below 40%. But there was still enough energy in my green to take the holograms.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sat Jan 28, 2006 1:29 pm</span>
+                <span class="post-number">#77</span>
+            </div>
+            <div class="post-body">&gt; &quot;Also it is sensitive to the angle of the reference beam hitting the film&quot;<br><br>Possibly the hologram was overmodulated, transmission holograms are more sensitive to this. Maybe a small direct reflection hologram give you a better idea of depth with no overmodulation problem because in reflection it will improve the DE up to maximum as it increases.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Sat Jan 28, 2006 2:09 pm</span>
+                <span class="post-number">#78</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> I am developing 1-3 minutes in the Metol, wash, fix in normal Na Thiosulphate fixer. I let it go to about 30-50 % dark. The holograms appear brighter. When I bleach it in JD-2, the image completely disappears! Not good.<br><br>That&#x27;s pretty obvious: JD-2 being a reversal bleach, you end up dissolving all silver/silver halide from the emulsion.<br><br>When using your JD-2, you have to omit the fix.<br><br>And if you wanted to fix, you&#x27;d have to use a rehalogenating bleach.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Feb 08, 2006 4:56 pm</span>
+                <span class="post-number">#79</span>
+            </div>
+            <div class="post-body">Good work on your part Bill Jensen! I enjoyed reading your thread <br><br>and I admire people who try to achieve. <br><br>Advice: Keep safety foremost, continue learning, and heed advice that can help, your efforts will be worth the experience as we all start from somewhere and enjoy the experience and benefits others have laid down. If you will allow me to make a suggestion for your safety. Package your laser and powersupply so you or someone doesn&#x27;t come into electrical contact with your device. Accidents can and do happen even with precautions and the greatest danger operating this laser is the powersupply (perhaps a darwin example: cleaning laser optics with the power supply energized). As was already mentioned in these posts, be careful of your beam as even secondary reflections can be hazardous. Suggest reading ANSI Z136.1 or maybe join a forum like: [http://www.rli.com/forum/default.asp](http://www.rli.com/forum/default.asp)<br><br>Good Engineering is better than Good Luck!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Thu Feb 09, 2006 4:34 am</span>
+                <span class="post-number">#80</span>
+            </div>
+            <div class="post-body">Don&#x27;t know if it&#x27;s been mentioned, but this book looks like it might be helpful. I have not read it, but the reviews look not too bad. I don&#x27;t know if the<br><br>described laser is any good for holography, though.<br><br>[http://www.amazon.ca/exec/obidos/ASIN/0 ... 22-2287550](http://www.amazon.ca/exec/obidos/ASIN/0974180505/qid=1139464435/sr=2-3/ref=sr_2_3_3/701-6032222-2287550)<br><br>If the link doesn&#x27;t work it&#x27;s:<br><br>Solid-State Lasers for the Laser Enthusiast: A Guide for the Design and Construction of a High Peak Power Solid-State Laser System<br><br>by Daniel J. Gregory (Author)<br><br>More info and some interesting resources on what I presume to be the author&#x27;s web site: [http://www.americanlasertechnic.com/](http://www.americanlasertechnic.com/)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Fri Feb 10, 2006 11:07 am</span>
+                <span class="post-number">#81</span>
+            </div>
+            <div class="post-body">Hey all.<br><br>It&#x27;s been a long time since I last posted here. I should come here more often.<br><br>Just first.. I&#x27;ll double up on be careful with pulsed lasers. I recently shone a blue pulsed laser in my eye. After several weeks (and an injection, and frequent eye exams) by vision was restored and everything was back to normal. I&#x27;m very lucky.<br><br>Second, You mention that you will need to set the voltage to a certain level. You do realise that you will have to increase the voltage over time, right? Just checking.. Although at 2 hz, the lamp should last a very long time.<br><br>Thirdly, It&#x27;s cool what you are doing</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Mar 08, 2006 7:29 pm</span>
+                <span class="post-number">#82</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have been inactive on holography for a while. My Mother died, and it has been real hard on me. I found out from a third party, and was told not to come to the funeral. They told me that the manner of her death is confidential information, but it had something to do with me. It is exasperating and depressing!<br><br>I am offering some more passive q-switches I had custom made for the SSY-1&#x27;s. They took 3 weeks to make at the factory. These components are by far the hardest ones to find. [http://cgi.ebay.com/ws/eBayISAPI.dll?Vi ... otohosting](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=7598099523&amp;indexURL=0&amp;photoDisplayType=2#ebayphotohosting)<br><br>The next phase is to take some test holograms with reduced intensity, but using the metol developer which is more sensitive, then use the JD-2 bleach (not the sodium tiosulphate fixer). I had a spatially unfiltered one come out real good in the lighter areas. You could see my glasses, and much more facial details. It was fantastic. I am much to depressed to post some of those pictures right now though.<br><br>I am using goggles and safety. I had a dilated eye test yesterday to be certain there is no hidden damage to my eyes and retina, and came up with flying colors. Thank you for your concerns about these elevated energies. It seems that just closing your eyes during pulsed holography exposure is enough to avoid any eye damage without the need for ground glass beam diffusers.<br><br>Once I get good holograms on a consistent basis, I will remove optical components such as the custom pulse forming network, to determine what optics and electronics are actually needed. I would consider selling my current setup for $500.<br><br>It has been hard to concentrate on much of anything. This has been the first death in the family I have been close to. Plus, I suffer from Dissociative Identity Disorder (Multiple Personality Disorder) and recently lost about a day from my illness. We all have our challenges, and it is a pleasure to be associated with such a group of visionary and creative people such as yourselves!<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Thu Mar 09, 2006 9:40 am</span>
+                <span class="post-number">#83</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Dear Holographers,I have been inactive on holography for a while. My Mother died, and it has been real hard on me. I found out from a third party, and was told not to come to the funeral. They told me that the manner of her death is confidential information, but it had something to do with me. It is exasperating and depressing!I am offering some more passive q-switches I had custom made for the SSY-1&#x27;s. They took 3 weeks to make at the factory. These components are by far the hardest ones to find.http://cgi.ebay.com/ws/eBayISAPI.dll?Vi ... otohostingThe next phase is to take some test holograms with reduced intensity, but using the metol developer which is more sensitive, then use the JD-2 bleach (not the sodium tiosulphate fixer). I had a spatially unfiltered one come out real good in the lighter areas. You could see my glasses, and much more facial details. It was fantastic. I am much to depressed to post some of those pictures right now though.I am using goggles and safety. I had a dilated eye test yesterday to be certain there is no hidden damage to my eyes and retina, and came up with flying colors. Thank you for your concerns about these elevated energies. It seems that just closing your eyes during pulsed holography exposure is enough to avoid any eye damage without the need for ground glass beam diffusers.Once I get good holograms on a consistent basis, I will remove optical components such as the custom pulse forming network, to determine what optics and electronics are actually needed. I would consider selling my current setup for $500.It has been hard to concentrate on much of anything. This has been the first death in the family I have been close to. Plus, I suffer from Dissociative Identity Disorder (Multiple Personality Disorder) and recently lost about a day from my illness. We all have our challenges, and it is a pleasure to be associated with such a group of visionary and creative people such as yourselves!Sincerely,Bill Jensen<br><br>My sympathies...<br><br>Martin</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Thu Mar 09, 2006 3:13 pm</span>
+                <span class="post-number">#84</span>
+            </div>
+            <div class="post-body">Dear Bill,<br><br>I&#x27;m sorry for your lost, blessings to you and your family.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed Mar 15, 2006 2:31 pm</span>
+                <span class="post-number">#85</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I appreciate your sympathies at my loss. I am becoming more productive these days, and hope to continue my holography experiments soon, when I have more energy. Let you dare to dream your dreams, and attain them with your ernest efforts.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed May 10, 2006 6:48 pm</span>
+                <span class="post-number">#86</span>
+            </div>
+            <div class="post-body">Hello Holographers,<br><br>Has anyone else tried out this pulsed holography yet? <br><br>I am going through my research and holograms again. I have kind of forgotten what progress has been made and what are the important parameters.<br><br>I had an eye exam and had my retina checked. Everything is fine, it was a routine checkup.<br><br>Let me know if anyone else has tried out the process.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Wed May 10, 2006 8:46 pm</span>
+                <span class="post-number">#87</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>Here is a pulsed hologram I took a few months ago. I had discovered that I was WAY overexposing the holograms. Also the Metol developer was much superior. The depth is about 5 inches. It shows my mouth, lips parted, teeth, cheek with pores, my right glasses frame, etc.<br><br>Let me know what you think about it.<br><br>Sincerely,<br><br>Bill Jensen![Image](http://wdjensen123.com/Holography/HologramMetol1.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Thu May 11, 2006 10:15 am</span>
+                <span class="post-number">#88</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill Jensen:</strong> Hi Holographers,Here is a pulsed hologram I took a few months ago. I had discovered that I was WAY overexposing the holograms. Also the Metol developer was much superior. The depth is about 5 inches. It shows my mouth, lips parted, teeth, cheek with pores, my right glasses frame, etc.Let me know what you think about it.<br><br>That&#x27;s pretty impressive!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 12, 2006 1:04 am</span>
+                <span class="post-number">#89</span>
+            </div>
+            <div class="post-body">That is getting much better! What is the fogging? What exposure are you finding works?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 12, 2006 10:07 am</span>
+                <span class="post-number">#90</span>
+            </div>
+            <div class="post-body">Hi Colin and Holographers,<br><br>That last picture had the spatial filter out of adjustment. Lucky for me, since the streaky intensity allowed me to determine that I was overexposing my plates. Where the intensity was very light, the holographic image was clearest. In the darker areas it was gone.<br><br>Here are the specifications on this hologram:<br><br>Laser System: SSY-1 with Etalon, Brewster Window integral. 4mm x 4mm KTP, IR block, no light shielding of the SSY-1 system, Divergent lens, spatial filter out of adjustment. 600 volt setting with high energy PFN I designed.<br><br>Green output at 10mJ, 31&quot; distance, film 2.5&quot; x 2&quot;, covering only about 1/5th of the spread beam area. 30 degree angle with reference beam, transmission hologram.<br><br>Development: No latensification, Jeff Blythe&#x27;s Metol developer for 3 minutes to 20-50% darkening, H2O wash, Sodium Thiosulfate conventional Fixer, H2O wash, NO bleach (JD-2 which destroys the image if done), pat with paper towel and air dry by waving in air.<br><br>Currently I fired up the SSY-1 system after months of sitting idle in preparation for continuing the experiments. In order to reduce the cost of the system, I went back to the standard PFN1 pulse forming network since a high intensity of green does not seem to be needed. I discovered that my SSY-1 appears to have optical deficiencies (degrading mirrors?) that only allow it to lase if the voltage is up to 900 volts (950 volt maximum for PFN1) where it used to lase at 550 volts or lower. It output 4mJ of green without any adjustments to my optics (pretty stable even though I used wood and hot melt glue to hold the optics all together). I hope to adjust it to about 10mJ to take some holograms. I will also test development without Fixer, but use the JD-2 bleach to see if that makes better holograms.<br><br>Much later I will replace the SSY-1 mirrors with spares to see if they were the ones damaged. To reduce costs, I will use the standard passive Q-switch and also remove the etalon to see if they are actually needed to produce the pulsed holograms. These will be done much later, once I start getting even better holograms with the current SSY-1 enhanced system as a baseline.<br><br>The biggest improvement is the Metol developer which makes better holograms than JD-2 by a long shot.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 12, 2006 2:03 pm</span>
+                <span class="post-number">#91</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>All I needed to adjust a minor amount was the spatial filter, to quadruple my output of green from 4mJ to 20 mJ. The KTP was still aligned properly.<br><br>I have just now successfully taken another hologram with my SSY-1 setup that actually is better than the other one I just posted. It is shown at the end of this post. There is a lot more depth and you can peer around a lot more. It might not look as good because my nose cast a shadow over much of my face.<br><br>This one was developed for 3 minutes in Jeff Blythe&#x27;s Metol developer, and bleached in JD-2 for 1 minute. It went 100% dark during development. Most of the striations are gone now, even though the spatial filter is not tuned optimally. I was outputting 20mJ out of the green pulsed beam. I calculate an exposure of 213 microJoules per cm squared for this hologram. (Exposures as low as 50 microJoules per cm squared still gave dim but discernable holograms with this Metol / JD-2 bleach technique) The holograms got better and better as I increased the exposures from 50. Then they began to degrade with more exposure beyond 213. This &quot;high&quot; level of exposure would have killed the holograms using my typical fixer and no bleach technique. Using just Metol and JD-2 bleach is new to the process I am using. It may also mean that using Metol developer and Sodium Thiosulphate Fixer might require Way less exposure energy (uJ/cm^2) in order for a hologram to develop.<br><br>Under a bright point source white light, you can see a rainbow effect which I have found means that there is a good hologram in there. Sometimes you can even see a blurry rainbow version of the bright spots in the hologram using this white light.<br><br>This may be the best I can do since the SSY-1 system is running at multiple frequencies of green. Would an internal aperture help? Next I will start stripping off the custom optics to see if the holograms are just as good. I am attempting to reduce the overall price of this &quot;&lt;$300&quot; system. So far the most expensive part was the KTP crystal at $250 for 4mm x 4mm x 5mm at Casix. Anyone know where to get it cheaper?<br><br>Sincerely,<br><br>Bill Jensen<br><br>![Image](http://wdjensen123.com/Holography/HologramMetol2.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Fri May 12, 2006 3:17 pm</span>
+                <span class="post-number">#92</span>
+            </div>
+            <div class="post-body">3 minutes in that developer is probably too much. When developing BB-640 or Agfa I usually don&#x27;t need more than 10-20 seconds. Longer development may contribute to grain growth. You&#x27;re probably just right in terms of exposure, just don&#x27;t develop &#x27;em that hard.<br><br>The holograms look very promising though. Keep &#x27;em coming!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 12, 2006 6:57 pm</span>
+                <span class="post-number">#93</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>There was actually nothing wrong with my modified SSY-1 with brewster, adjustable Etalon, and Cr4+:YAG passive q-switch. I was running it with the weaker PFN1 pulse forming network, and forgot that the lasing threshold of that system was higher because of the Cr4+:YAG q-switch. More energy is needed to open the switch, so 900 Volts gave 20mJ.<br><br>I have begun to eliminate optical components in the modified system to see if I can get comparably good holograms without them. I took a new SSY-1 unit and only put in the brewster window (to polarize the beam, and make KTP conversion of IR to green more efficient, a must).<br><br>Testing the unit now, I found that the original passive dye cell q-switch that is standard in the SSY-1, has a lower lasing threshold, and verified that it would lase down to 550 volts. At 900 volts I saw the same 20 mJ of green output I had with the modified system once I tweaked with the KTP alignment and Spatial Filter alignment. I have opted to repeat making holograms at this same exposure and other parameters.<br><br>My first tests failed because of my Metol solution was depleted, but showed that shorter time in the developer does not help. When I took a hologram at half the Metol development time of 90 seconds, there was an image, but dim. At 3 minutes of Metol only a little bit brighter. I figured out that the Metol was depleted to I changed the Metol solution to try again.<br><br>I had success with the next two. I took the hologram at 1 minute of Metol developer of my eyelid, forehead, eyebrows, nose, without glasses but eyes closed. Amazingly the detail was all there, and even more than my modified system. Still a splotchy and dirty image as usual, I&#x27;ll discuss that below. I could make out all the individual hairs on my eyebrow closest to the film. I could not get a good picture of it to show you.<br><br>The second good one is pictured below. It is still 20mJ exposure, with 1 minute in Metol developer. My fingers hold a shiny quarter. You can read all of the quarter and see the shape of the head and details nice if you peer around in the unsplotchy areas. It is hard to take a picture that shows all the details at once.<br><br><strong>I believe that this shows that the pulsed holography system based on the SSY-1 needs only the brewster window to be added ($70) to work good. Also the cheap standard PFN1 can be used, and not the high power custom one I designed. This drastically reduces the cost and labor to modify it for holography.</strong><br><br>Next I will attempt to improve the image quality. Up till now, that has not been my emphasis. I mainly wanted to prove that this cheap system could produce green beams that were strong enough and fast enough to capture a living subject. I believe that this has been confirmed. The cause of the poor image quality may be sixfold. <br><br>First, the KTP is only 4mm x 4mm and the laser beam is 5mm diameter. I noticed that this clipped and distorted the output green beam with interference lines that show up in all the holograms so far. (as a side note, I think I have designed a multi-axis KTP holder that is adjustable very simply and really cheap to make.)<br><br>Secondly, my beam expanding beam lens has always been damaged: it has a fracture in the center interior of the material (CaF2) which creates a blank starlike blotchy areas on all the holograms, so that the image disappears in this location. <br><br>Thirdly, the green beam spreading lens is dirty. <br><br>Fourth, the playback green laser dpss and lens I use to display and photograph the holograms is very poor with dirt all over it. <br><br>Fifth, my spatial filter is out of alignment.<br><br>Sixth, I may need to add an aperture inside the SSY-1 cavity to select a fewer number of resonant frequencies of IR. I could use advice on this point.<br><br>These modifications will take some time and money, so they will have to wait till I can raise some money to buy the parts I need. Anyone know where I can get 5mm x 5mm KTP for pretty cheap? Will Edmunds Scientific glass lenses work for green beam spreading? Am I forgetting something?<br><br>Sincerely,<br><br>Bill Jensen<br><br>![Image](http://wdjensen123.com/Holography/HologramMetol3.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Fri May 12, 2006 10:58 pm</span>
+                <span class="post-number">#94</span>
+            </div>
+            <div class="post-body">Could you use an aperture inside and get the same power? <br><br>Maybe used then an inverted telescope inside laser cavity using the tiny KTP, that indeed 2x2mm is pretty cheap $67.00.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Sat May 13, 2006 8:27 pm</span>
+                <span class="post-number">#95</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I might first try to put in an internal aperture since that might help make a single frequency, and limit the beam to about 3mm so that it will not be distorted as it goes through the KTP. I will lose some output energy this way I am sure.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun May 14, 2006 10:34 am</span>
+                <span class="post-number">#96</span>
+            </div>
+            <div class="post-body">&gt; Sixth, I may need to add an aperture inside the SSY-1 cavity to select a fewer number of resonant frequencies of IR. I could use advice on this point.<br><br>I found that you will need a 1mm apature before the front mirror to get a reasonable fresnel number to try to insure TEM 00 operation. Lenthening the cavity also helps.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon May 15, 2006 10:02 am</span>
+                <span class="post-number">#97</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>Where can I look to get the formulas that let you come up with the 1 mm aperture size?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon May 15, 2006 1:14 pm</span>
+                <span class="post-number">#98</span>
+            </div>
+            <div class="post-body">I have it in &quot;Solid State Laser Engineering&quot; by Koechner.<br><br>[http://search.barnesandnoble.com/bookse ... 0644&amp;itm=1](http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?z=y&amp;isbn=3540650644&amp;itm=1)<br><br>Read the whole section on spatial coherence. It has some great stuff. The equation you need is the Fresnel number. Fresnel numbers of below 1 tend to favor TEM00 beams.<br><br>It is a poor use of the active material but if you are going to build amplifier stages anyhow it is better to start with a clean beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu May 18, 2006 7:18 pm</span>
+                <span class="post-number">#99</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>OK, now I have a new problem....<br><br>Examining the 50 micron aperture of my spatial filter, I noticed that all my testing had blown the hole very wide. In effect, the spatial filter in this state was doing nothing for ANY of my holograms so far.<br><br>Thinking that I ruined it by really pumping out the power with my previous hi energy PFN, and not blocking the IR that was not converted by the KTP crystal, I replaced the aperture.<br><br>The next aperture I put in was a smaller 25 micron one. I was bringing my lens towards the aperture and was noticing for the first time that the green projected spot was actually looking even and gaussian!<br><br>Then disaster struck as the focus came closer to the aperture, it welded the hole shut! Under a microscope, I could see an area about .2mm diameter that had softened and melted the area around the hole.<br><br>Maybe I need a better aperture material than steel, with a higher melting point? But I am not sure of that, and would like suggestions.<br><br>The aperture needs to be 10-30 microns and able to withstand at least a 50mJ 532nm pulse of 4ns over 10 microns diameter, and survive this punishment.<br><br>Anyone have any ideas if this is even possible? What do the high power pulse holographers use as a spatial filter? Any alternatives?<br><br>I think that the system truly merits a spatial filter since the raw beam is very streaky, blotchy, etc. And it worked for a while, producing a beautiful beam.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu May 18, 2006 10:56 pm</span>
+                <span class="post-number">#100</span>
+            </div>
+            <div class="post-body">Forget about using a spatial filter with a pulsed laser. You need to expand the beam without bringing it to a focus. You&#x27;ll either ionize the air and ruin the spatial mode, or (as you&#x27;ve seen) burn the filter a new hole!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Thu May 18, 2006 11:17 pm</span>
+                <span class="post-number">#101</span>
+            </div>
+            <div class="post-body">Hello Holographers,<br><br>Actually, I think I have found the correct aperture to use for high power pulsed and q-switched lasers.<br><br>For $85 I can get a Tungsten 25 micron aperture that has the appropriate physical properties I need.<br><br>[http://www.lenoxlaser.com/opticalproduc ... tures.html](http://www.lenoxlaser.com/opticalproducts/tungsten_apertures.html)<br><br>Tungsten melts at 3880 degrees centigrade, where my stainless steel one is 1400 degrees. Also the thermal conductivity is good, as well as the reflectivity. I don&#x27;t know if these are polished, but I will buy one tomorrow and check it out in my pulsed SSY-1 holography system.<br><br>[http://www.lenoxlaser.com/publikations/ ... serap.html](http://www.lenoxlaser.com/publikations/hipowerlaserap.html) has the physical properties and background information.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu May 18, 2006 11:19 pm</span>
+                <span class="post-number">#102</span>
+            </div>
+            <div class="post-body">I have heard of spatial filters that keep the pinhole in a vacuum. This sonds like a very costly solution.<br><br>How did you finally filter out the 1064nm light from the YAG?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 19, 2006 12:22 am</span>
+                <span class="post-number">#103</span>
+            </div>
+            <div class="post-body">Hi Colin,<br><br>I used an IR mirror (dichroic) right after the KTP to remove the 1064nm from the 532nm. Without it, I have ruined three lenses (CaF2 and glass and microscope objective) before I figured it out. This q-switched laser is a lot more powerful than I thought.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 19, 2006 9:49 am</span>
+                <span class="post-number">#104</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>I just bought a Tungsten 25 micron aperture from [http://www.lenoxlaser.com](http://www.lenoxlaser.com) for $85 plus shipping. I&#x27;ll let you know if it can withstand the torture of the SSY-1 pulsed laser. Someone has to at least try. If it works, I think the beam and holograms will look a lot better. I chose it since it has one of the highest melting temperatures, good thermal conductivity, and is relatively cheap. I have been taping the apertures to a piece of round thick paper with a hole in it, and mounting it in my final XY mount.<br><br>My lens is in, and it is an Edmunds Optical plano convex 12mm diameter with 15mm focal length. Make sure you put an IR blocker dichroic before it since it will blow an internal fracture otherwise! My IR blocker is placed at about a 5 degree angle with the beam so that the reflection is off axis.<br><br>All these tests are with the standard PFN1 for SSY-1, using up to 900 VDC. There is no telling if the spatial filter and lens will be able to withstand the higher powers of the high power PFN I designed. The difference in green 532nm output is 30mJ for the standard PFN1, versus about 150mJ for my high power PFN. Quite a difference. I am sticking with the lower power PFN1 for now to keep costs down. I know that the SSY-1 mirrors can take the punishment of the high power. Also the Cr4+:YAG q-switch can as well. I assumed that the standard dye cell q-switch in the SSY-1 would not withstand the higher energy, but that test might be useful.<br><br>I checked my holograms, and it seems that developing in thiosulphate Fixer required less exposure than using JD-2 bleach instead. If the aperture reduces the output considerably, I may have to go back to the fixer technique of development. Both are using the superior Metol developer by Jeff Blythe.<br><br>I have sold about 20 SSY-1 systems to holographers so far. Anyone getting any results? Do you need help in setting it up? Let me know, I hate to be the only one doing all these experiments, although it is fun to be a &quot;pioneer&quot; in holography. Believe me, it is an eeire fantastic feeling to be able to have a hologram of your face and live subjects without the need for any vibration tables. Just hold the film in your fingers is all it takes. I can take a shot and develop and dry it in 10 minutes or less. Its a fast process. <br><br>I have always been interested in the beginnings of a technology. I have taken daguerreotypes from plates I made myself. The results were foggy, but just being able to do it was an enormous thrill. I get this same type of thrill with my SSY-1 pulsed holography system!<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Fri May 19, 2006 9:57 am</span>
+                <span class="post-number">#105</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I also ordered a 5mm x 5mm x 5mm KTP crystal which should increase my output by about 22% over the 4mm x 4mm KTP I have been using. Hopefully that will offset the anticipated Tungsten spatial filter losses I will encounter.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 19, 2006 9:25 pm</span>
+                <span class="post-number">#106</span>
+            </div>
+            <div class="post-body">&gt; <strong>Bill:</strong> have sold about 20 SSY-1 systems to holographers so far. Anyone getting any results? Do you need help in setting it up? Let me know, I hate to be the only one doing all these experiments, although it is fun to be a &quot;pioneer&quot; in holography.<br><br>Bill, I am busy working down your path as well. Ill post when I am a little farther along.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon May 22, 2006 1:17 pm</span>
+                <span class="post-number">#107</span>
+            </div>
+            <div class="post-body">Hi Holographers,<br><br>I am doing calculations on an internal aperture (a drilled hole in a piece of sheet metal) inside the SSY-1 cavity that would force the TEM00 mode.<br><br>Colin alerted me to p.208 of Solid State Laser Engineering by W. Koechner formula for the Fresnel Number calculation. This number allows you to determine which sized internal aperture will force the TEM00 operation of a particular Nd:YAG rod geometry.<br><br>Fresnel numbers of less than 1 or even 2 will make TEM00 predominate, which is necessary for good holography.<br><br>N (=fresnel number) = (aperture radius^2)/(wavelength x rod length)<br><br>For the standard SSY-1 with no aperture we have N = ((2.5 mm ^2)<em>((1,000,000 nm/mm))/(1064 nm) </em>(60 mm)) = 98 which is quite poor.<br><br>If we add a 0.7 mm hole we get an N=2 which is good!<br><br>If we do not add an aperture but move one of the mirrors away, we can get an N=2 with a OC to HR distance of about 3 meters which seems impractical.<br><br>Remember that there might be a small aperture effect from having a passive q-switch in place. The intensity before lasing is strongest in the center which acts like an aperture. This makes TEM00 predominate. Then as the aperture opens, the rest of the excited rod acts like a self-amplifying rod to reinforce the TEM00 mode. But this is just conjecture. In any case, I am getting holograms (even though they are dim or maybe not fully TEM00) without an aperture.<br><br>If I follow Colin&#x27;s advice of a 1 mm aperture in the cavity, my 30mJ energy would be reduced to about 1.5 mJ which is probably not enough to expose the plate (although the TEM00 energy would probably increase the quality of the dim holograms, a test is in order). If I use my enhanced PFN, then 150 mJ gets reduced to 7.5 mJ of TEM00 which I predict would give very good holograms. If the passive q-switch is helping the aperture and fresnel problem, maybe bigger apertures can be used and still have nearly TEM00 mode predominate (more experiments are needed) while using the cheaper and standard PFN1.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon May 22, 2006 3:31 pm</span>
+                <span class="post-number">#108</span>
+            </div>
+            <div class="post-body">Is there anyway to test the laser as is, for mode?<br><br>One suggestion would be to arrange a plate such that the expanded beam does not fully come to the edge of the plates. Use a very uniform white background under the plate and in contact with the glass for the object. If there are competing modes I am sure they should be distinguishable on the plate after the hologram is processed.<br><br>I believe if you are using 2x2&quot; plates and you can get the plate to where the beam is expanded just at 2&quot; or at 1 3/4&quot; then it should be broad enough to see multi modes as patches or donuts on the plate after it is processed.<br><br>What do you think?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon May 22, 2006 3:49 pm</span>
+                <span class="post-number">#109</span>
+            </div>
+            <div class="post-body">Hi John,<br><br>I did an experiment a while back where I exposed a Black and White film to the expanded beam to look at the pattern. Without a spatial filter or internal aperture I saw a very irregular splotchy blob with lots of rows of stripes, and a ring of starburst patterns. <br><br>I have included some other shots below. The white starburst is from the destroyed center of my plano-convex CaF2 lens. The following pictures are also rectangular since the 4mm x 4mm KTP clips the 5mm round beam. The outer starburst is not seen in these particular image.<br><br>It does not look like any sort of mode or combination of modes I have ever seen before. Not even sure how to integrate the final appearance of many modes all superimposed with different intensities. <br><br>Sincerely,<br><br>Bill Jensen<br><br>![Image](http://wdjensen123.com/Holography/900Vbeam.jpg)<br><br>![Image](http://wdjensen123.com/Holography/600Vbeam.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Mon May 22, 2006 5:03 pm</span>
+                <span class="post-number">#110</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>So far with all my experiments, I have been using a 4mm x 4mm x 4mm KTP from Casix.<br><br>Today my new 5mm x 5mm x 5mm KTP came from China, and all I can say is WOW !<br><br><strong>Before at 900V I got 20 mJ of green out. Now at 900 V I get 50 mJ of green out!</strong><br><br>I should have quite a lot of power to compensate for anticipated losses with the spatial filter&#x27;s tungsten 25micron aperture I have coming soon.<br><br>But in order to compensate for any 0.7 to 1 mm internal aperture to force TEM00, I figure I may need to go back to my enhanced Pulse Forming Network.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon May 22, 2006 6:12 pm</span>
+                <span class="post-number">#111</span>
+            </div>
+            <div class="post-body">I don&#x27;t think those pictures represent a bad mode but more like light bouncing around stuff or diffracting through an aperture somewhere.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue May 23, 2006 10:17 am</span>
+                <span class="post-number">#112</span>
+            </div>
+            <div class="post-body">Ed, I was thinking the same thing (I even wrote something up yesterday but it was lost when I tried to post and I did not have time nor feel like retyping it). There are white lines that are circular that seem as if the center it the bad spot on the lens. Then the other lines are parallel to the left edge being thicker at the edge and thinner toward the center. <br><br>I would have to agree that both sets look like diffraction. One set from the bad spot on the lens and the other set from the edge of the crystal.<br><br>I would replace the lens with a lens that is larger then the beam diameter so as not to hit the edge and does not have deformities. Then place a thin (1/2 mil (12.5microns thick)) aperture to restrict any light from hitting the edge of the KTP. It may be the new KTP is large enough such that light will not hit the edge, I am not sure.<br><br>This care must be taken with any optics outside the cavity or diffraction pattern will be evident. Within the cavity those non parallel rays will just be bounced outside the oscillator and mostly what will be seen is a loss of power.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue May 23, 2006 1:49 pm</span>
+                <span class="post-number">#113</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>In order to clean up the beam, I have replaced that bad lens that had a burned / fractured spot, that was causing diffraction rings. The rings / lines from the edges of the KTP are not nearly as bad now that I went to a 5x5x5mm KTP. The spatial filter tungsten aperture may come in today, and I will see if it cleans up the green beam that will be used for making holograms.<br><br>I have been reading &quot;Solid-State Laser Engineering&quot; by W. Koechner and found the following things:<br><br><strong>The presence of a passive q-switch favors single longitudinal mode of TEM00.</strong> (reference p.511) This apparently applies to both dye cells and Cr4+:YAG.<br><br>Page 253-4 states that it was learned early on that the passive (dye) q-switches tend to act as TEM00 mode selectors. It was described by W. R. Sooy in Applied Physical Letters Volume 7, p.36 (1965). (Anyone able to get this article?) There are two things that both help in the generation of the TEM00 mode in the SSY-1:<br><br>1) Longitudinal mode selection in the laser takes place while the pulse is building up from noise. During this time, modes which have a higher gain or lower loss will increase in amplitude more rapidly than the unwanted modes. The higher gain waves (TEM00) bleach out the dye faster and as the aperture in the q-switch opens, it reinforces the TEM00 mode.<br><br>2) The greater the number of round trips that any particular mode takes in the laser cavity, the more it is reinforced. Since the q-switch allows multiple passes while it is opening, you get great reinforcement of the single most powerful mode. It is superior to a Pockels cell q-switch in mode selection for the reason that that cell opens rapidly all at once and does not let the waves have many passes in the cavity.<br><br>There was an example on page 511 of an Nd:YAG laser for space-borne high-resolution Lidar that exhibited this TEM00 mode selection. It was a diode pumped, 13mm long Nd:YAG laser with brewster angles on the rod (slab actually). There was a Cr4+:YAG passive q-switch (with 32% initial transmittance and 72% open bleached transmittance) in the cavity just behind the output coupler mirror. <strong>That laser produced a TEM00 beam</strong>with an output energy of 0.85 mJ over 1.4ns up to 100 Hz.<br><br><em>Because of these findings, I am opting not to add an internal aperture to the SSY-1 laser cavity for now. I need as much energy as I can get.</em><br><br>I have not seen it in print, but I think there is another factor involved in favoring TEM00 mode with a passive q-switch. The central (or a spot slightly skewed towards the flashlamp side in the SSY-1) area of the q-switch begins to bleach out first, acting as a small Fresnel number aperture. Then, that TEM00 energy builds up rapidly from the center outwards. More and more cross sectional area of the rod begins to sympathetically dump its energy into the TEM00 mode. This is possibly similar to having a second laser amplifier rod, which some of our esteemed collegues have suggested.<br><br>Any thoughts?<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue May 23, 2006 2:05 pm</span>
+                <span class="post-number">#114</span>
+            </div>
+            <div class="post-body">&gt; <strong>dave battin:</strong> Bill are the mirrors in the ss1 con focal/ curved ? if you plan on using a amplifier rod,will you need to relocate the Q-switch? an aperture will reduce side modes going thru amplifier???<br><br>that was my feeling back a dosen pages ago............</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue May 23, 2006 2:09 pm</span>
+                <span class="post-number">#115</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>Concerning the 1965 research into TEM00 mode selection by (dye) passive q-switches.<br><br>Find the Journal of Allied Physics Letters Volume 7 page 36 at:<br><br>[http://wdjensen123.com/Holography/ApplP ... hTEM00.pdf](http://wdjensen123.com/Holography/ApplPhysLettv7p36QswitchTEM00.pdf)<br><br>I&#x27;ll let you know what I think about it soon. Any comments would be welcomed, since it is hard to understans due to all the math.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue May 23, 2006 2:48 pm</span>
+                <span class="post-number">#116</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I have read the above pdf article called: The Natural Selection of Modes in a Passive Q-Switched Laser. Here are my conclusions:<br><br>We are comparing 2 techniques for generating ns pulses which can be used for green pulse holography. <br><br>The first method, which is proven inferior, is Active Q-switching examples: acoustooptic modulator, pockels cells, or rotating mechanical mirror q-switch, or our common sense beliefs on laser operations). <br><br>The second method is Passive Q-switching using bleachable dyes (as in the standard SSY-1) or as otherwise shown, the Cr4+:YAG passive q-switch.<br><br>The analysis and math are based on the numbers of transits that occur by the growing wave modes just before the lasing occurs. As you recall, the mode selection of TEM00 has been shown to depend favorable to these number of transits, but also the higher gain associated with the TEM00 mode energy (which is not considered in this paper).<br><br>The number of transists just before lasing is 21 times more selective for TEM00 mode in passive q-switches than with active q-switching. After subsequent lasing occurs, the difference grows non-linearly to over <strong>2100 times more favoring of the TEM00 mode using passive q-switching than with active q-switching.</strong><br><br>This factor is further increased by an unknown amount if we consider the higher Gain inherent with the TEM00 wave over higher order modes.<br><br><strong>Conclusion: Probably don&#x27;t need an internal aperture to force the TEM00 mode in a standard SSY-1 laser, used for holography.</strong> It is possible that it might be running in nearly TEM00 mode already! That may be why we can make holograms with it in the first place.<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue May 23, 2006 3:07 pm</span>
+                <span class="post-number">#117</span>
+            </div>
+            <div class="post-body">I love when you talk &quot;won&#x27;t need&quot;. That keep the price down.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">geso</span>
+                <span class="post-date">Tue May 23, 2006 3:19 pm</span>
+                <span class="post-number">#118</span>
+            </div>
+            <div class="post-body">Nice Bill, keep up the great work!<br><br>If anyone needs KTP for their project, this fellow on ebay has some for a decent price. The last auction for a 5x5x5 KTP, didn&#x27;t sell at $89 US. I already bought 2, otherwise I would have picked up a spare. <br><br>[http://cgi.ebay.com/ws/eBayISAPI.dll?Vi ... %3AIT&amp;rd=1](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=7620398716&amp;rd=1&amp;sspagename=STRK%3AMEWA%3AIT&amp;rd=1)<br><br>There is another auction ending in a couple days.<br><br>George</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Bill Jensen</span>
+                <span class="post-date">Tue May 23, 2006 3:33 pm</span>
+                <span class="post-number">#119</span>
+            </div>
+            <div class="post-body">Dear Holographers,<br><br>I like &quot;won&#x27;t need&quot; as well. I am trying to keep the price as low as possible. <strong>I will be getting more SSY-1 units soon, so let me know if anyone wants to place an order for them by a private message or email to wdjensen123 at hotmail dot com. Price $120 by Paypal.</strong><br><br>My setup is on a wood 2x4 with hot melt glued optical xy mounts for the KTP and spatial filter.<br><br>I bought some round plastic balls that I plan to test as mounts for a KTP alignment system. The balls will have a through hole for the KTP, plus a widened spot on the front and back of the hole to pass the beam as it is rotated off axis for maximum green conversion. The mount will be 3 nylon screws that provide 3 axis positioning: left right and forward / back to place the KTP in the beam. Then the ball will have 2 knobs to allow it to be rotated about the axis of the laser in three more axes. A nylon screw on the top will hold the ball in place once you set it. I am trying to keep the price down as much as possible in the holography laser.<br><br>Here&#x27;s a possible patentable idea. What if we had a Cr4+:YAG passive q-switch crystal that had a variable transmittance so that the center was more clear than the outside. That would favor TEM00 in the center, and later allow the TEM00 to grow throughout the whole of the laser beam. It might be preferentially flux grown, or mechanically made by machining in 2 different Cr4+:YAG materials (more inferior).<br><br>Sincerely,<br><br>Bill Jensen</div>
+        </div>
+
+    <div class="thread-nav"><a href="5187.html" class="prev-thread">← Proposed Holographic Camera to take pictures Outside</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5181.html" class="next-thread">Frequency-doubled hologram ?? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="816.html" class="card">
+                <h3>Hello and Pulsed laser coherence length</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="6477.html" class="card">
+                <h3>Adam&#x27;s Pulsed Laser on the Wiki!</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="6436.html" class="card">
+                <h3>First holo made with YAGna laser</h3>
+                <div class="card-meta">Gallery · 9 posts</div>
+            </a>
+            <a href="6125.html" class="card">
+                <h3>Pulsed Laser Design Files</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5861.html" class="card">
+                <h3>First pulsed laser human image 39th anniversary</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a>
+            <a href="5832.html" class="card">
+                <h3>Home made automatic coating machine</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

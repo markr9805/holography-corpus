@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feasibility of retrofitting DPSS lasers with more powerful pump diodes? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8725.html" class="prev-thread">← LSD (new)</a><a href="Techniques.html">↑ Techniques</a><a href="8714.html" class="next-thread">Isolation Table materials →</a></div>
+    <h1>Feasibility of retrofitting DPSS lasers with more powerful pump diodes?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>4,325</td></tr>
+        <tr><td>Started</td><td>Mon Nov 07, 2016 11:38 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/pluto.html">pluto</a> · <a href="../authors/wells-c.html">Wells_C</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8723" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pluto</span>
+                <span class="post-date">Mon Nov 07, 2016 11:38 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello all,<br><br>Can anyone speak to the feasibility/difficulty of retrofitting DPSS lasers with more powerful pump diodes?<br><br>It has been a while since I made a hologram, for several reasons including the mediocrity of my laser (50mW 532nm) and hassle/difficulty of cleaning glass and coating plates.<br><br>These are problems that money can solve, but we try to keep the wallet happy too <br><br>There are plenty of relatively cheap JDSU uGreen and C315-20 lasers on eBay, and I was wondering if one could replace the pump diode with a much more powerful one. What would prevent one from replacing an 808nm pump diode with one which is twice or thrice as powerful? Assuming you select a high quality 808nm diode, of course.<br><br>Unless the higher power would damage the optics or something, the only impediment I can think of is the controller not being tuned right for that diode. However, the C315 controller can drive many different laser heads of different power outputs, so assume one replaces the pump diode for a hypothetical 75mW C315 laser head with one which is twice as powerful. The C315 controller can drive a 150mW laser head just fine, so what am I missing?<br><br>Any info would be appreciated.<br><br>Thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Wells_C</span>
+                <span class="post-date">Wed Nov 09, 2016 12:33 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I&#x27;m no expert, but I seem to remember a section on the topic in Sam&#x27;s Laser FAQ that addresses this issue. My recollection is that certain parts of the laser, specifically the resonator and doubler crystals, are probably designed with the existing power input limits in mind, and may not be able to withstand large increases without damage, so if you are thinking of trying something like that make sure you are ok creating a fancy new paperweight <br><br>Wells<br><br>Edit:<br><br>I also recall something to the effect that the difference between 315M heads with different power ratings may not be the diode itself but the tested ability of a particular unit to remain stable at different power points; the heads that were stable at 100mw were set to run at that power, and the ones that were only stable at 20mw were set so that their max output was 20mw.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pluto</span>
+                <span class="post-date">Wed Nov 09, 2016 5:59 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Wells_C! I somehow overlooked the actual repair portion of Sam&#x27;s Laser FAQ, but still there isn&#x27;t much data on how much you can get out of these things. However it does seem like these lasers use 1-2 watt pump diodes already so there probably isn&#x27;t much room for improvement.<br><br>For a cheap holography laser I think I might try modifying a SSY1 laser head for pulsed 532nm output, Sam linked to a guy&#x27;s website where he explains how he did exactly that, but elsewhere mentions that it might not be as easy as sticking a frequency doubling crystal in front of the 1064nm beam... Maybe a PL450 diode + ECDL and work towards a fixed and enclosed setup? Dunno.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8725.html" class="prev-thread">← LSD (new)</a><a href="Techniques.html">↑ Techniques</a><a href="8714.html" class="next-thread">Isolation Table materials →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5584.html" class="card">
+                <h3>More Blue Lasers</h3>
+                <div class="card-meta">General Holography (old) · 12 posts</div>
+            </a>
+            <a href="4902.html" class="card">
+                <h3>DPSS lasers on ebay: any reason to stay with HeNe?</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="2894.html" class="card">
+                <h3>Hello! Oh, and green DPSS lasers</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11343.html" class="card">
+                <h3>OBIS LS/LX Can OBIS LS/LX lasers be used to create holograms?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 14 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

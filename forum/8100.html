@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replacing a powerbrick — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8111.html" class="prev-thread">← G307 DCG woes</a><a href="Beginners.html">↑ Beginning Holography</a><a href="8097.html" class="next-thread">energy holograms →</a></div>
+    <h1>Replacing a powerbrick</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>5,195</td></tr>
+        <tr><td>Started</td><td>Wed Dec 02, 2009 1:47 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/the-stranger.html">The_Stranger</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8100" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">The_Stranger</span>
+                <span class="post-date">Wed Dec 02, 2009 1:47 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">By an unfortunate accident, the powerbrick burned out in my powersupply (it couldn&#x27;t take 230v :shifty: ). I have a 1145p laserhead and that requires a 380T-3800 powerbrick, which I managed to acquire.<br><br>I thought it would be a simple task just to replace the broken brick with this new one, but to my horror I found out the wires do not have the same colour.<br><br>The following picture shows the burned out brick:<br><br>![245brc9.jpg](https://holographyforum.org/forum/download/file.php?id=6536)<br><br>The power cord has the green, brown and white wires, there are a number of yellow ones which go to a remotecontrol thingy, white and red ones which go to a light and keylock and they are coming together at a piece of circuitboard at the top. <br><br>From there, two white, a yellow and a green wire go to (or actually come from) the brick. (there should be a fuse on there too, removed before taking the picture.)<br><br>When I replace the brick, I figure I have to solder off those two white, one green and yellow wires and replace them with the wires coming out of the new brick. Problem is, the new brick has different coloured wires.<br><br>In a PDF from JDSU, the colours are explained:<br><br>[http://www.jdsu.com/product-literature/ ... 121205.pdf](http://www.jdsu.com/product-literature/heneps_ds_cl_ae_121205.pdf)<br><br>The new brick has a (yellow)green, brown, blue and white wire, apart from the closed violet one.<br><br>But to be honest, with little knowledge of practical electronics, and the huge costs and effort required to replace a second burned out brick, I ask the community for help.<br><br>As far as I could see, the most right white wire (in the picture) is connected via the board to a yellow wires going to the remote control. The other white one does not have a visible connection to anything. The yellow one goes through that metal piece/wire to the brown thinghy and the green one looks like some sort ground.<br><br>In the jdsu PDF, green is also a ground, blue is an open circuit and brown and white are 115V line/neutral.<br><br>-Which wire has to be replaced with which?<br><br>-On the brick it says it is for both 115V and 230V (the latter one is the current over here in Europe). The jdsu PDF talks about two different ways to wire the brick. Since the original powersupply was meant/wired to be powered by 115V and I have a 230V-115v converter, I think it is better just to wire it for 115V to make things easy.<br><br>-Inside the powersupply, I found a note saying to replace the fuse with a 3A fuse ONLY. I do have some trouble finding a 3A fuse (lots of 3,15A), how important is that 3A, could it also be 3,15A or 2A?<br><br>Anyone with some info?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Dec 02, 2009 5:44 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">it sounds like wiring it for 110 volts and using the converter will be safest/easiest for you. as far as the size fuse just be sure to use a 3amp or smaller fuse, in the worst case it will blow the fuse prematurely, your power pack will be safe..<br><br>ok so based on the chart you will be running the power pack via the brown wire (110linevoltage) and the white goes to the neutral side .i would bypass all the switches and indicator lights and hook up directly with wire nuts (and fuse)at the connections. the HV connector just plugs together. be careful !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">The_Stranger</span>
+                <span class="post-date">Thu Dec 03, 2009 8:09 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>dave battin:</strong> it sounds like wiring it for 110 volts and using the converter will be safest/easiest for you. as far as the size fuse just be sure to use a 3amp or smaller fuse, in the worst case it will blow the fuse prematurely, your power pack will be safe..ok so based on the chart you will be running the power pack via the brown wire (110linevoltage) and the white goes to the neutral side .i would bypass all the switches and indicator lights and hook up directly with wire nuts (and fuse)at the connections. the HV connector just plugs together. be careful !<br><br>As far as I can see it, the easiest way to connect my new brick is to replace the four existing wires with the new coloured wires. That way, everything works as before, including the fuse. I just need the correct order for the wires. <br><br>If nobody knows how the original wires need to be replaced by the new ones, I just might hook it up to the powercord directly, with a fuse in between...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Thu Dec 03, 2009 9:38 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>The_Stranger:</strong> If nobody knows how the original wires need to be replaced by the new ones, I just might hook it up to the powercord directly, with a fuse in between...<br><br>i would suggest this to see it run first, then attach it to the power board with switches lights etc...<br><br>you need to trace where the exsisting lines go the figure the replacement of the new color wires, there is still only three wire brown(line), white(neutral) and the green(ground), to connect ................<br><br>it is possible to even eliminate this board, the line voltage goes to the fuse,then the switch, then after the switch it is connected to powersupply brick (brown wire),and the pilot light. the white wire from the brick is connected to the neutral power line and also the pilot light need to be connected here as well (to the neutral line). i see that resistor on the board is probably for the pilot light, you may find this is wired in series w/pilot light you will need to do the same or purchase a new pilot light wit a built in resistor, worst case here is you may blow out the pilot light bulb if you dont connect a resistor..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">The_Stranger</span>
+                <span class="post-date">Mon Dec 07, 2009 2:48 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I guess I&#x27;ll just do that then, start with a simple hook up to the powercord with a fuse in between and expand when it is working. Did hope someone knew which wire to replace with which one, but I&#x27;ll get there in the end, just hope I don&#x27;t blow another brick to holography heaven...<br><br>-EDIT-<br><br>I found a PDF with some schematics from laserdrive:<br><br>[http://www.laserdrive.com/pdf/henehook.pdf](http://www.laserdrive.com/pdf/henehook.pdf)<br><br>In the PDF there is mention of the same colour wires I have in my old brick, 2x white, yellow and green. Could it be this is the schematic for the unknown brick I have?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">The_Stranger</span>
+                <span class="post-date">Sat Dec 12, 2009 2:31 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Maybe a bit too early yet, but I think we did it. We (my dad and me) studied on the circuitboard and wire layout and the laser ran for 5 minutes without any of the dreaded smoke. No time to test longer for now, but that will happen soon...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Dec 12, 2009 3:57 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>The_Stranger:</strong> Maybe a bit too early yet, but I think we did it. We (my dad and me) studied on the circuitboard and wire layout and the laser ran for 5 minutes without any of the dreaded smoke. No time to test longer for now, but that will happen soon...<br><br>Good news to hear this! It will require a good 20+ mins to warm up. monitor the rear of the laser housing,the ballast resistor <strong>WILL</strong> become hot, i never measured it ,but i would say &quot;it should become hot,but not too hot to handle&quot;.<br><br>good luck with it now lets see some holograms !</div>
+        </div>
+
+    <div class="thread-nav"><a href="8111.html" class="prev-thread">← G307 DCG woes</a><a href="Beginners.html">↑ Beginning Holography</a><a href="8097.html" class="next-thread">energy holograms →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

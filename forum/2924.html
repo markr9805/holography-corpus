@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argon Laser Warmup — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="2929.html" class="prev-thread">← Hologram Recording Materials</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2925.html" class="next-thread">First DCG results (or lack thereof) →</a></div>
+    <h1>Argon Laser Warmup</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>1,933</td></tr>
+        <tr><td>Started</td><td>Sun Nov 28, 2004 9:03 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/eric343.html">eric343</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/ionyou.html">ionyou</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=2924" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Sun Nov 28, 2004 9:03 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I (finally) got around to working with the DCG plates that I got from Dinesh, and I&#x27;ve discovered a problem -- I can&#x27;t run my argon ion laser at full power (~40mW) for very long before I blow a circuit breaker!<br><br>However, I can run it indefinitely on &#x27;idle&#x27; (~5mW).<br><br>Therefore, can I let it warm up on &#x27;idle,&#x27; and then increase it to full power when it comes time to do the exposure? If I just run it on idle for the exposure, then the exposure time gets into the half-hour to full-hour range (!!!).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sun Nov 28, 2004 9:59 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>eric343:</strong> ...Therefore, can I let it warm up on &#x27;idle,&#x27; and then increase it to full power when it comes time to do the exposure? If I just run it on idle for the exposure, then the exposure time gets into the half-hour to full-hour range (!!!).<br><br>The thing needs to be in thermal equilibrium, otherwise you&#x27;ll have<br><br>lots of mode jumps. Typically this takes at least 1/2h or so,<br><br>from cold start. If it is already warm from idling, it may take<br><br>much less time. So try to tune down the power as little as possible,<br><br>so that the temperature difference to full power is as small as<br><br>possible.<br><br>Best thing would be to build an interferometer with large path<br><br>difference, and just find out how long it takes until the fringe<br><br>pattern does not jump any more.<br><br>What laser is it BTW ? 40mW sounds like an air-cooled one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Sun Nov 28, 2004 10:10 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">It&#x27;s a JDS Uniphase 2214 series head with corresponding power supply.<br><br>[http://repairfaq.ece.drexel.edu/sam/laseratr.htm#atrctt](http://repairfaq.ece.drexel.edu/sam/laseratr.htm#atrctt)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ionyou</span>
+                <span class="post-date">Fri Dec 03, 2004 6:24 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">15A breaker?<br><br>if it were me I would substitute it with a 20A breaker and change the wiring to a thicker guage as well as change the outlet to a 20A outlet.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Fri Dec 03, 2004 6:27 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Easier said than done when you&#x27;re a high school student living with parents... and especially when the table is going to be moved to school (where I&#x27;ll teach others how to do this awesome thing we call holography) quite soon.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ionyou</span>
+                <span class="post-date">Fri Dec 03, 2004 6:44 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">oh sorry to hear that well in that case you need a 40mw 532nm dpss I&#x27;ve got one running on 2 AAA batteries right now (unstable as all heck though..kills batteries in just a few minutes and has several lines including in the 808 and 1064 IR region) so probably useless for holography but it was cheaper than most lasers in its class. I just use it for star pointing but it is nice and bright.<br><br> Good luck to you looks like you&#x27;ve got a head start in holography at a young age. I saw my first hologram in HS in my senior year for a physics field trip we went to the Museum of Holography in NYC man those were some awesome holograms, what a shame they are now history.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">eric343</span>
+                <span class="post-date">Fri Dec 03, 2004 2:42 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">No pointers for me <br><br>If I could find a Coherent 315M in some surplus printing equipment... that would be ideal</div>
+        </div>
+
+    <div class="thread-nav"><a href="2929.html" class="prev-thread">← Hologram Recording Materials</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2925.html" class="next-thread">First DCG results (or lack thereof) →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="560.html" class="card">
+                <h3>Is jds 2218-025mls argon laser suitable for holography?</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="478.html" class="card">
+                <h3>Coherent argon laser</h3>
+                <div class="card-meta">Techniques · 21 posts</div>
+            </a>
+            <a href="4730.html" class="card">
+                <h3>argon laser</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="4689.html" class="card">
+                <h3>Argon laser</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="3075.html" class="card">
+                <h3>Argon Ion Laser</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="2862.html" class="card">
+                <h3>Argon Ion Laser</h3>
+                <div class="card-meta">General Holography (old) · 34 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

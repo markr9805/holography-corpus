@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Generated Holograms — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="2974.html" class="prev-thread">← Object falling off to grating.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2971.html" class="next-thread">Multiple exposures →</a></div>
+    <h1>Computer Generated Holograms</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,604</td></tr>
+        <tr><td>Started</td><td>Wed Dec 22, 2004 2:38 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/phyx.html">Phyx</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=2975" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Phyx</span>
+                <span class="post-date">Wed Dec 22, 2004 2:38 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Can anyone here give me a link to some CGH algorithms, i&#x27;ve tried searching but all i come up with are programs to make CGHs, but i want the algorithm so i can make my own program.<br><br>So any help would be appreciated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Dec 22, 2004 5:53 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I don&#x27;t know of an on line source but all of the math can be found the the excellent book:<br><br>Optical Holography by P. Hariharan<br><br>[http://search.barnesandnoble.com/bookse ... XT=Y&amp;itm=9](http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?isbn=0521439655&amp;TXT=Y&amp;itm=9)<br><br>This is all of the math needed but it is not presented in a format that you can just write code to. You will need to understand why the math was derived then use the code. You will also want to have a FFT to use. Algorithms in C has an easy one to implement if you are working in the C environment. Or if you have lots of programming experience writing your own is actually a good exercises and will show you one of the more interesting historical problems in computing. If you have to you can just use a FT however the resulting code will take about 20 times as long to run. <br><br>For high spatial frequencies and complicated objects be prepared to run your code for months to generate a hologram. Most programs I see input simple objects and use very narrow angles between the object and reference beams to keep the computing down to a manageable level.<br><br>There is a different method called binary detour holograms. It is explained in this book as well. They suffer from the zero order washing out the image but the computing level is very small. I have not played with them but the examples in the book listed above are interesting.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Phyx</span>
+                <span class="post-date">Wed Dec 22, 2004 6:24 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">thanx, and by FFT i assume you mean fast Fourier transform.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Dec 22, 2004 6:50 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Phyx:</strong> thanx, and by FFT i assume you mean fast Fourier transform.<br><br>Yeah. Lots of transforms in this project. Millions if I am not mistaken.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Phyx</span>
+                <span class="post-date">Wed Dec 22, 2004 7:26 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">found a link on CGH thought i&#x27;d post it <br><br>[http://www.radiology.arizona.edu/Dallas/CGH.htm](http://www.radiology.arizona.edu/Dallas/CGH.htm)<br><br>[http://www.eptools.com/tn/T0001/INDEX.HTM](http://www.eptools.com/tn/T0001/INDEX.HTM)</div>
+        </div>
+
+    <div class="thread-nav"><a href="2974.html" class="prev-thread">← Object falling off to grating.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2971.html" class="next-thread">Multiple exposures →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="85.html" class="card">
+                <h3>Cameras for Computer Generated Holograms (CGH)</h3>
+                <div class="card-meta">Techniques · 17 posts</div>
+            </a>
+            <a href="5953.html" class="card">
+                <h3>Computer generated holograms with depth</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="4965.html" class="card">
+                <h3>Computer generated Fourier holograms</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="2931.html" class="card">
+                <h3>Computer Generated Holograms</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="746.html" class="card">
+                <h3>Computer generated hologram media question</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="487.html" class="card">
+                <h3>Literature? Digital generated embossed holograms</h3>
+                <div class="card-meta">Techniques · 24 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

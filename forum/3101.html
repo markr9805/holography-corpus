@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeNe&#x27;s — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3105.html" class="prev-thread">← Argon on Ebay</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3102.html" class="next-thread">Newbee wants to start and found optics / mirror / book... →</a></div>
+    <h1>HeNe&#x27;s</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>21</td></tr>
+        <tr><td>Views</td><td>4,559</td></tr>
+        <tr><td>Started</td><td>Sat Feb 05, 2005 12:29 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/tony.html">Tony</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/tommy.html">Tommy</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/guest.html">Guest</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3101" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Sat Feb 05, 2005 12:29 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering. Can I feed the HeNe line through another HeNe with the mirrors removed and get some amplification without detrimental effects to the beam characteristics?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sat Feb 05, 2005 12:34 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">My guess is that one pass through won&#x27;t add a detectable amount. What you&#x27;d need to do, and what I&#x27;ve thought of doing, is taking two hene&#x27;s and coupling them together inside one resonating cavity. So, take one and remove the HR mirror. Remove the OC from the other. Now couple them together and align them all. I wonder if one might even need to have a vacuum in the space between them to reduce absorbtion. But I don&#x27;t see why it wouldn&#x27;t work...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Feb 05, 2005 3:08 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">How would you sustain a plasma between the two tubes? I assume this would be necessry. Also, wouldn&#x27;t you get losses from internal reflections at the front face of the tube of the back laser and the back face of the tube of the front laser? Also, how would you place the beam waist, w_o. Since as I understand it, this w_0 component is a fairly important parameter ? The diverging, Gaussian beam from the first laser entering the second would cause more divergence in the second tube, surely? In this case, would not the plasma-containment down the bore deteriate?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tommy</span>
+                <span class="post-date">Sat Feb 05, 2005 4:02 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Lasers can have more than one separate tube, in the same resonator. The plasma doesn&#x27;t need to be contiguous. Imagine how a pulse laser has on resonator and then multiple amplifiers, or a gas laser with external optics (the resonator extends into the air). I read a description of a multi-tube HeNe laser in the Laser FAQ ([http://www.laserfaq.org/](http://www.laserfaq.org/)), but I don&#x27;t remember where I saw it.<br><br>The tubes involved would need to have Brewster&#x27;s windows (instead of mirrors) to reduce losses and avoid extra reflections. Removing the mirrors from a sealed tube, and keeping it sealed, (much less replacing them with brewster&#x27;s windows) seems like quite a trick.<br><br>Dinesh&#x27;s point about the location of the waist is important as well... the mirrors on a typical HeNe are curved, so the actual resonating region is shaped like an hour glass (if both are curved) or a triangle (they also use one curved and one flat mirror, so its as if the hour glass shape is folded over on itself). You would need to replace the mirrors with ones of a different focal length when you extend the resonator. <br><br>So, IMHO, if you have tubes with Brewster&#x27;s windows it would be fabricating a opticly stable frame, replacing all the optics, and then a &quot;simple matter of alignment&quot;... The laser faq has descriptions of that procedure, to put it into perspective.<br><br>It would be a cool project, but I don&#x27;t think it would result in a very powerful, or very stable, laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Sat Feb 05, 2005 4:56 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Now you&#x27;ve got me thinking. The lasers I have do have external mirrors and brewsters windows at each end of the tube. I should try my original inquiry, then I may try removing the front mirror on one and the rear on the other keeping both lasers within the resonating cavity. Next I may try to keep the seed laser (rear) with both mirrors to act as a resonator, then remove just the rear mirror from the front laser and keep in the front mirror. I remember building oscilator/amplifiers with pulsed lasers but never cw lasers. It&#x27;s worth a try. I would like to get 50 - 60 mw out. One is putting out about 36mw and the other is putting out about 28 mw, so I am told. I do not have a calibrated mirror to measure actual power. But I can measure relative power.<br><br>Dinesh, yes, I will have to look into colimating the beam somehow. I did get a third head in which the laser will not even light. I may be able to take the partial reflective mirror out of that laser and use it as a rear mirror in the second laser which would be the input mirror from the first laser. SO basically a third set up woud be to have the rear laser as is and the front laser with two partial reflector mirrors thus converging the beam after the first laser. Due to the mirros being coated on one side this may prove more undesireable then desirable. But it will be stuff I can play with until the lab defrosts.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Feb 07, 2005 1:02 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I vaguely remember seeing in a Scientific American article using a second un-mirrored gas laser tube as an amplifier for an oscillator tube with mirrors. This is quite a common configuration for solid-state lasers, viz. my article on JK pulsed Ruby lasers in the now-defunct <em>holosphere</em>, .pdf available on request.<br><br>I have seen an argon with two tubes inside of a common resonator at the Liconix factory (now defunct) circa &#x27;90. They had bought the assets of American Laser and were reviving their argon line. To have a higher power model to compete with the S-P 171 and Coherent 200 series they <strong>cascaded</strong> a pair of 5 Watt tubes. Each had their own power supply, but they were inside of a common cavity, utilizing one pair of mirrors and Brewster window terminated tubes. A bellows connected the two tubes to keep the windows clean.<br><br>Nick Phillips spoke of an S-P 471: a pair of 171 argon tubes cascaded in a common cavity. This was the world&#x27;s record for high power Argon laser, maybe 100 Watts or so all-lines. This was when he worked for the Who at Holoco, circa late &#x27;70&#x27;s early &#x27;80&#x27;s. It was a monster that was hard to stabilize with a beam hard to look at.<br><br>Having seen that Scientific American laser article I had always thought it would be a great idea to use something like the S-P 117 single frequency stabilized He-Ne as a seed laser injecting into a 125 50 mW tube. This way the output power would be high and coherence would be extra long.<br><br>But practically, would there be enough gain with a single pass through a glowing He-Ne tube? The atoms are all revved up and raring to go, so a nice beam shining through them should be able to pick up a few photons more. But then again, the typical He-Ne output coupler leaks out only about 3% of the intra-cavity power, which kinda implies low gain.<br><br>It would be interesting to see what happens with the beam of one laser going through the tube of a second with the mirrors off. This would be the simplest way to gain power, instead of coupling two resonators together. The biggest problem would be in making sure the divergence of the first laser doesn&#x27;t let the beam bounce around the walls of the second tube.<br><br>The onus is on you, dear friend to see if this noble experiment will work.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 07, 2005 2:49 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">I&#x27;d say another problem is: what is the mean free path of an excited atom in air? Tommy has said that plasmas aren&#x27;t necessary throughout the tube and, given the fact of external mirrors, this seems to be true. However, how far can an external mirror be before the KE of the atom and/or the metastable state decays? Or, how far can the air path be before the sepration of the He from the Ne prevents the &quot;electron juggling&quot; between them to maintain lasing? I also wonder if this must depend on the type of laser. Inside the cavity, the EM field forms a Bessel function, I believe. But outside, the containment no longer exists. The atoms must &quot;jump the gap&quot; and then re-create a new Bessel function in the next tube. That jump must depend on the KE of the atom and thus the mass thereof.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Feb 07, 2005 3:55 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">An alternate method for using two lasers of the same wavelength for holography would be to phase-lock them. This was described by McGrew in Proceedings of the International Symposium on Display Holography, Volume 1 (1982). The paper was called &quot;An inexpensive fringe stabilizer for long exposure holography&quot; (pages 189-193). The fringe-locker is needed to phase-lock the two lasers, and McGrew describes building one (without providing a schematic or disclosing the actual electronics used, however). The one I built was based on a number of sources, including McGrew&#x27;s paper. I think the schematic is still on Colin&#x27;s website.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 08, 2005 12:52 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Joe, I searched for that paper and could not find it. I would be interested in it, even for purchase if you could give me a link.<br><br>Anyway, As I only have one power supply for the three Siemens LGK 7626 HeNe lasers my tests were limited. ( I found they were 25 mw not 50mw)<br><br>I used a small sealed mirror HeNe and one of the 7626 lasers for testing. As I needed control for feeding the beam from the small HeNe to the 7626 I used a dual mirror set up between the two lasers. This allowed x and y adjustment of the beam prior to going into the laser via the first mirror and the actuall beam stearing through the bore via the second mirror.<br><br>I removed the rear 100% mirror from the second laser (7626) and kept in the partial reflective front mirror. I then fed the small HeNe laser through the open back of the 7626 and alligned down the bore. I measured the output power of the original laser beam exiting the 7626, then I switched on the 7626 and measured the power again and saw no difference in power. This configuration would act as a tri-resonator. One being the original resonator of the small HeNe and the second being between the output mirror of the 7626 and the output mirror of the small HeNe and another resonator between the output of the 7626 and the rear mirror of the small HeNe. I am sure allignment would be very critical for gain in this configuration and it may be that I was not finding oscillations in all three cavities. Probably never finding gain it the second two cavities and only losing any possible gain with some of the beam bouncing off the exit mirror and just jetting lost trying to find either of the two mirrors in the sealed laser.<br><br>The second configuration was with the removal of both the front and rear mirror of the 7626. I again fed the small HeNe through the bore and measured the output power. I then applied power to the 7626 and measured output power again. I found a 10% increase at best with this configuration. I even tried to play with tuning the beam feed and at most only recorded a 10% increase, none the less, an increase. This is a standard oscillator amplifier configuration with the 7626 acting strictly as an amplifier. The beam quality was hard to tune, it acted somewhat like a real touchy spatial filter. And although I could get the beam mode to be very close to tem00, it did contain a couple of partial ringular dark lines that I could not get rid of. I contribute this to the diverging beam of the feed laser and the posibility that it could not travel down the entire lenght of the second cavity without touching a wall somewhere. I should try to get the mirrors and feed laser closer to the second laser such that the diameter of the feed beam is smaller through the cavity of the second.<br><br>I am excited about trying both lasers in the single cavity configuration if I can find another power supply for the other 7626. I was also thinking I may be able to separate the two lasers by two mirrors (which being intra cavity would need to be HeNe mirrors and not silver mirrors) and possibly getting a very weak lens such that the single resonator takes advantage of maximum ratio of pump volume vs mode volume keeping in mind gain vs practicallity of tuning. As the cavity will be more then doubled, tuning may prove difficult. The lens would have to be a specific calculated lens which may be beyond my budget.<br><br>Next I need to set the output beam such that it is fed through an interferomter and measure stability and coherence.<br><br>Anyway there was gain and with more testing may prove to be worth the trouble. I like the idea of mode locking the two laser if I can find some material on the technique.<br><br>EDITED:<br><br>I just thought about polarization. I did not check the polarization of the feed laser, which is those tubular kind and I am surprised I got any gain at all. I may be able to see a more sizable gain if polarization is properly alligned with the brewsters in the 7626. Duuuuhhhh. I was think through the tests using two 7626 wich would be polarized the same due to their brewsters.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 08, 2005 1:41 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Joe, although I cannot find the paper I have thought about it. I am excited about combining two beams from two lasers and see if any fringes apear at all. If so and they move slow, drift or fuzz in and out then I can see how a fringe locker may be able to sync the two. But if their central frequency is off by too much I am afraid I will not get fringes to lock and if I can get them to lock coherence will suffer greatly. Neat stuff though and I am still interested in the paper.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Feb 08, 2005 3:12 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">John, to get that paper I had to buy the entire volume from Lake Forest College. I don&#x27;t send out papers because it takes up too much of my time. Volume 1 was well worth the price, but I can&#x27;t remember what I paid, because it was quite a few years ago. The person who sold it to me was Virgina Crist (at Lake Forest College).<br><br>I will quote two paragraphs, though.<br><br>&quot;Another very interesting and potentially widely useful trick is to phase-lock two lases together so that they are mutually coherent. If two lasers are phase-locked, one may be used for illuminating the object and the other may be used for the reference. Phase-locking is accomplished by mounting a laser&#x27;s high-reflector mirror on the speaker of our system (he is referring to the fringe-locker) so that the mirror motion controls the laser&#x27;s output frequency. The output of the laser and the output of a second laser are combined with a beamsplitter to form an interference pattern which is sampled by the optical fiber ends. (He is referring to the sensors for his fringe-locker, since he used fibers to feed the light back to his phototransistors. In my fringe-locker I simply used photodiodes.) The interference pattern will be continuously changing: the fringes will race past the fiber ends at a rate corresponding to the frequency difference between the two lasers.<br><br>If one of the lasers is carefully adjusted so that frequencies are matched, the interference fringes will momentarily stop moving. The fringe stabilizer will take over, locking the frequencies of the two lasers together so that any slow frequency drifts in one or the other of the two lasers will be compensated for and the two lasers will continue to generate exactly the same frequency of light.&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 08, 2005 3:45 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Thanks Joe, Good info...!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Guest</span>
+                <span class="post-date">Tue Feb 08, 2005 5:35 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe:</strong> If one of the lasers is carefully adjusted so that frequencies are matched...<br><br>What type of adjust is that? What do you adjust?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 08, 2005 5:59 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I assume varying the cavity length by a miniscule amount.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Feb 08, 2005 7:48 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Joe, what do you think, something like this?<br><br>![Image](http://www.sketchys.com/Holograms/011005/ModeLockedLasers3.JPG)<br><br>Set it up, turn both lasers on. Let them warm up and stabilize. Then tweak the back mirror, which unfortunately in my case will have to be the laser with the piezo, the other laser will be a sealed mirror until I get another power supply, until the fringes are close to still and the fringelocker should kick in. I may be able to get them close then use the gain on the fringe locker to finalize the locking. In this set up both beam are fed through a 90/10 bs to minimize beam loss for the locker.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Feb 09, 2005 6:00 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">[quote:4bc7bab581=&quot;LarryD&quot;][quote:4bc7bab581=&quot;Joe&quot;]If one of the lasers is carefully adjusted so that frequencies are matched...[/quote:4bc7bab581]<br><br>What type of adjust is that? What do you adjust?[/quote:4bc7bab581]<br><br>You stabilise the shinola out of one of the lasers and then you match the other one. A sort of bootstrap operation . One laser forms a &quot;reference&quot; source that you use to control the other. Eventually, you hope, the matched laser will allow the other laser to &quot;lock&quot; on and phase match.If the reference laser drifts then you&#x27;re chasing your own tail, hence one laser needs to be pretty stable. We tried this technique about 20 odd years ago and it didn&#x27;t work very well. The coherence length of the two lasers was, if memory serves, less than the coherence of either one alone. It was also extremely difficult to maintain the phase matching. There have been some papers on it which I think I have.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Feb 09, 2005 6:09 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">[quote:b3ae363c2e=&quot;JohnFP&quot;]The second configuration was with the removal of both the front and rear mirror of the 7626. I again fed the small HeNe through the bore and measured the output power. I then applied power to the 7626 and measured output power again. I found a 10% increase at best with this configuration. I even tried to play with tuning the beam feed and at most only recorded a 10% increase, none the less, an increase. This is a standard oscillator amplifier configuration with the 7626 acting strictly as an amplifier.[/quote:b3ae363c2e]<br><br>Do you have actual measurement figures. Could this extra 10% be caused by plasma glow or another source &quot;turned on&quot; by your turmning on the power suppply. Coud it have been caused by scattering or Fresnel reflection?<br><br>If both the front and back mirrors of the back laser were removed, how could it be an oscillator. The oscillation is caused by energy routed between the mirrors, with the mirrors removed, the entire assembly would have been an amplifier. It&#x27;s also possible that the seperation of the two lasers were crucial. Did you vary the laser seperation?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Feb 09, 2005 12:48 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Do you have actual measurement figures. Could this extra 10% be caused by plasma glow or another source &quot;turned on&quot; by your turmning on the power suppply. Coud it have been caused by scattering or Fresnel reflection?If both the front and back mirrors of the back laser were removed, how could it be an oscillator. The oscillation is caused by energy routed between the mirrors, with the mirrors removed, the entire assembly would have been an amplifier. It&#x27;s also possible that the seperation of the two lasers were crucial. Did you vary the laser seperation?<br><br>Very good questions Dinesh.I assume if the plasma glow is strong enough to put out about 1/2 mw 12 inches from the second laser in a diameter of 3mm then yes it could be by plasma glow. I don&#x27;t think my laser is putting ot that much plasma glow as I can see it without the mirrors in and it is dim in a 3mm diameter circle. My detector head has an aperature of about 3 mm. The increase from 5 mw to 5.5 mw was continuous. Would scattering or Fresnel reflections increase power? How? That&#x27;s interesting.<br><br>Did you read the previous paragraph stating the set up? How could I take the mirrors out of a sealed mirror laser, the back laser? I stated the entire set up was an oscillator amplifier set up. The sealed mirror, back seed laser being the oscillator and the 7626 with both mirrors removed being the amplifier. Sorry if this wasn&#x27;t clear. I know the difference between an oscillator and and amplifier. I built YAG oscillator/ampliers for 6 years.<br><br>By tuning the two transfer mirrors that were befor the amplifier and after the oscillator, the beam path would have changed by fractions of a wavelength.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Feb 09, 2005 12:59 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> You stabilise the shinola out of one of the lasers and then you match the other one. A sort of bootstrap operation . One laser forms a &quot;reference&quot; source that you use to control the other. Eventually, you hope, the matched laser will allow the other laser to &quot;lock&quot; on and phase match.If the reference laser drifts then you&#x27;re chasing your own tail, hence one laser needs to be pretty stable. We tried this technique about 20 odd years ago and it didn&#x27;t work very well. The coherence length of the two lasers was, if memory serves, less than the coherence of either one alone. It was also extremely difficult to maintain the phase matching. There have been some papers on it which I think I have.<br><br>Yea, the stability thingy will definitely be an issue. Especially if there is drift beyond the movement of the Piezo crystal. But I am going to try it anyway. It&#x27;s fun to be in the lab even if I can&#x27;t be making holograms for a while.<br><br>Last night I removed the back mirror from the mount and mounted it to the piezo crystal, the crystal to the mount. Then mounted the entire set up back in the laser. I used my sealed mirror laser to allign the back mirror (wish I had an autocollimator). Since the laser had both mirrors out it will be quite a task getting it back to lasing. I remember HeNe&#x27;s being very difficult to tweak in from scratch, more so then an argons.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Feb 09, 2005 4:06 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">John, your diagram looks O.K. to me, but I have never attempted to phase-lock lasers myself. There is a diagram on page 91 of the 7th edition of Holography Marketplace showing the arrangement, and it&#x27;s slightly different from yours.<br><br>After thinking about it, though, if you need a lot of HeNe power, I would opt for a SP-127, and forget about the phase-locking scheme. Sam Goldwasser has a nice one that he says is doing 39mW, which is quite a high figure for this laser. He&#x27;s asking $2,500 for it, although I don&#x27;t know how firm that price is. He may also be willing to trade, since he has a wide interest in lasers. This is assuming you don&#x27;t want to go through the hassle and expense of a SP-125. An etalon for this laser is also very difficult to find. Also assuming you don&#x27;t want the Russian or Japanese equivalents of this laser, which are very rare indeed. I wouldn&#x27;t go for the OEM eqivalents of the SP-127 (the 107 or 907) because, even though they&#x27;re cheaper and more common on the surplus market, they are typically gassed for power, not coherence. These are known as &quot;multiple isotope&quot; lasers and have substantially less coherence length than a single isotope laser, which the SP-127 often is. The high-power Siemens HeNe laser is also typically gassed for power, not coherence, since most customers simply need a bright red light, and coherence is not a factor for them.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Feb 10, 2005 1:09 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Thank you Joe, I learned a lot from that post.</div>
+        </div>
+
+    <div class="thread-nav"><a href="3105.html" class="prev-thread">← Argon on Ebay</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3102.html" class="next-thread">Newbee wants to start and found optics / mirror / book... →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="2592.html" class="card">
+                <h3>Keeping HeNe&#x27;s alive</h3>
+                <div class="card-meta">General Holography (old) · 14 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam ratios — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="255.html" class="prev-thread">← set up of components - beams crossing??</a><a href="Equipment.html">↑ Equipment</a><a href="245.html" class="next-thread">Newbie here: How much does the equip cost? →</a></div>
+    <h1>Beam ratios</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>45</td></tr>
+        <tr><td>Views</td><td>34,940</td></tr>
+        <tr><td>Started</td><td>Fri Jun 17, 2011 1:20 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holomark.html">Holomark</a> · <a href="../authors/gall.html">Gall</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/dannybee.html">dannybee</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/holomaker.html">holomaker</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=253" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Fri Jun 17, 2011 1:20 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">So the basic question is: If you know the ratio between raw reference beam and object beam when making your H1, would your beam ratio for reference beam and objet beam be the same for H2?? For example - holographer without instruments to measure at plate, so you only know that you sent 40% to Reference and 60% to object and you achieved a hologram. If the former reference beam illuminates plate H1 (40%) then the 60% will go to plate H2. (seems like I may want to switch ratios to get a brighter object?)<br><br>Second, what is relationship for exposure time...? - Exposure time same as H1, double, half, triple??</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Gall</span>
+                <span class="post-date">Fri Jun 17, 2011 6:56 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Not exactly. They&#x27;re not related.<br><br>The level of reference beam is &quot;white level&quot; of the hologram. For best results the reference beam should be as bright as the brightest light reflected from the object (and to be recorded - you may want to overexpose some small parts of the image to make other parts better). In case of H2 recording the H1 is just counted as object.<br><br>When recording H1, measure (or guess) object reflectivity to set up correct beam ratio.<br><br>When recording H2, you&#x27;ll need to know the H1&#x27;s reflectivity (diffraction effectivity). If the hologram is &quot;ideal&quot; (100% DE), use 50%/50% ratio. If not, set up the ratio based on hologram&#x27;s DE. It is possible to try to improve the brightness of H2 at this point if H1 is not very bright - just make reference beam a bit weaker.<br><br>If the beam ratio is set correctly, the exposure time depends only on the reference beam brightness. Consider you had 40/60 ratio on yout H1 and use plates of the same sensitivity for H2 but with 30/70 ratio. Since your reference beam is 1.33 times weaker, so the exposure should be 1.33 times longer.<br><br>Of course, I assume that both beams are expanded to the same area with the same losses. If no, the ratio should be corrected according to the losses.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Jun 17, 2011 7:50 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I agree the ratio for the H1 is unrelated to the ratio for the H2. For the H1, the reference light should be about 10x the object light, at the recording plane. For the H2, the H1 is the object. I recommend starting with a reference about 2x the object light, again at the recording plane. You&#x27;ll adjust higher (probably) from there after the first successful shot.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Jun 17, 2011 8:43 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Try making one with what you think is correct. Then try adding more real image light and less reference beam. See what happens. When you have too much image light, you will get uncontrolled burn in. It looks like a photographic negative without too much 3-D action. Then you know you&#x27;ve gone too far. Back off until it looks great!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Jun 18, 2011 12:06 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">There is, actually, a relationship between the H1 and the H2. However, it&#x27;s a little subtle. There are other factors that are important and often overlooked.<br><br>The &quot;classic&quot; standard view, still seen in many books, is that the ref/obj = 4:1 for an H1. This was because in the pre-bleaching days, the response curve for silver halide, ie the darkness level against the exposure (the so-called Hurter–Driffield curve) was &quot;S&quot; shaped. To get linearity - the hologram brightness should reflect the actual object brightness overall - you exposed at roughly the center of the H-D curve where the curve was straight. This was associated with standard amplifier theory with the &quot;signal&quot; was taken to be the object beam, modulated by the &quot;carrier&quot; whcih was taken to be the reference beam. The ideal modulation level was seen as 4:1, hence the conventional wisdom of 4:1. These holograms were called amplitude holograms<br><br>In modern processing schemes the holograms are bleached and so are phase holograms. In such a case, the H-D curve no longer matters after bleaching since the response is non-linear anyway (it does matter during the development process). For a bleached hologram, the &quot;ideal&quot; ratio is 1:1; this gives the best ratio for index modulation by which the efficiency of a phase hologram is measured. <br><br>However, the albedo of a typical object is not constant. So, not only is the albedo important, but also the variation of the albedo. Assuming no variation (or small variation), I&#x27;d agree with Gall<br><br>&gt; <strong>Gall:</strong> the reference beam should be as bright as the brightest light reflected from the object<br><br>That is, 1:1.<br><br>&gt; <strong>BobH:</strong> For the H1, the reference light should be about 10x the object light, at the recording plane<br><br>Bob seems to think 10:1 is a good ratio. Personally, I&#x27;d say this was a bit high for a volume phase hologram, but it&#x27;s a good ratio for a surface relief hologram. Typically, photoresists are recorded in about the 10:1 ratio. <br><br> If there is a large variation of albedo, then the ability to record that variation is a function of the dynamic range of the medium - the extremes of brightness at which the material will give a faithful reconstruction. Silver has a fairly good dynamic range, but dcg is even better. This may be one reason that dcg is perceived to be brighter. <br><br>The H2 has no albedo. The &quot;object light&quot; is the efficiency of the hologram multiplied by the light intensity hitting it. This is not to say that the object light is constant on the H2 plate, it varies according to the albedo and linearity of the H1 recording. Assuming a low albedo, the overall average object light is as above, but if the H1 plate does not have a sufficient dynamic range, or the object is not well lit, then there may be some vignetting. So, a 30% efficient H1 being zapped with 10mW will give out 3.3 mW. Again, for a bleached silver or dcg, the hologram will be a volume phase hologram. In this case, the best ratio is 1:1 for maximum modulation. In the above example, the ref should also be ~3.3 mW. So, the relationship between the H1 and the H2 is that both the albedo itself and the variation thereof are properly (linearly) recorded. If this is so, then the ref intensity is simply the efficiency of the H1 multiplied by the light hitting the H1. If this is not so (for example, if you have vignetting due to lack of dynamic range or a poorly lit object), then you might be able to jack up the H2 by slightly decreasing the H2 ref.so as to give a 1:1 but with a weaker object (as per Gall&#x27;s point).<br><br>Inherent in all this is the polarisation of the beam, the beam divergence and the Gaussian profile of the beam. Theses are the factors that are important but often overlooked. The above analysis assumes a collimated H2 ref, a perfectly inverted H2 object (that is, the light illuminating the H1 is an exact inverse of the original H1 ref) and parallel polarisation. The polarisation of the H1 cannot really be controlled since the object will probably depolarise. Kaveh has written in hs PhD thesis that an object can be made artificially brighter by selectively altering the polarisation in some parts of the object. But, the polarisation of the H2 setup can be controlled since the H1 plate does not depolarise (usually, not always so if your shooting a photoelectric crystal like Lithium Niobate). If any of the assumptions are not valid, some corrections will be necessary.<br><br>I trust that any response or criticism will be refined, civil and to the point with no ad hominem attacks or personal invective.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Jun 18, 2011 10:36 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I don&#x27;t think I&#x27;ve ever used a beam ratio for a pictorial volume phase transmission hologram less than about 5, for any material, and that was only with index-matching the hologram to reduce the noise. I think one would see quite a bit of intermodulation noise at lower beam ratios, and certainly without index-matching. But this difference in recommended ratios is why I say don&#x27;t listen to what anyone says about it, or listen to everyone. Measure your beams by both methods mentioned here, and go with the midpoint of the measurements. Set the beam ratio to the midpoint between all the recommendations. Make hologram. Look, adjust, repeat. If everything else stays the same, you&#x27;ll have your answer in a couple of shots, for that image.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Jun 19, 2011 8:21 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I don&#x27;t think I&#x27;ve ever used a beam ratio for a pictorial volume phase transmission hologram less than about 5, for any material<br><br>I usually use somewhere around 3:1 and 2:1. This way, the brightest part of the object is usually 1:1. If there&#x27;s a very large dynamic range, I&#x27;ve sometimes gone as low as 5:1 for the dimmer parts. The finger wiggling technique usually gives about 3:1 But, as you say, to each his own. Usually, with a little experience you get a feel for these things. <br><br>&gt; <strong>BobH:</strong> that was only with index-matching the hologram to reduce the noise<br><br>Not sure what you mean by index matching. Do you mean that you immerse both object and H1 in a tank of index matching liquid? So, if you&#x27;re making an H1 on an 8x10 plate of an object that&#x27;s about 4in tall and anout 5in wide and about 4in deep - let&#x27;s say a skull - to be placed about 8in away from the H1 plate, you&#x27;d immerse the H1 and the skull in a tank that&#x27;s got to measure 12in long by 10in wide by 10 in deep filled with index matching liquid? How would you get the beams onto the object and plate? I remember that Joanna (POC) suggested we try it for a single-beam Denisyuk to improve the angle of view. We placed the object (a belt buckle, I recall) at the bottom of a tank of about 5in square and about 3 in deep and placed the plate partially immersed, so that the bottom plate was covered by goo but not the top. The idea was that due to refraction at the index liquid-glass interface, the light from the object would diverge to a greater extent than it would in air, so that the angle of view of the object was larger than when it was shot in air. We tried it, but the image quality was pretty bad so we abandoned the method. I&#x27;ve never heard of this being used for an H1 of a real model.<br><br>By the way, on a personal note, I dislike using index matching fluid intensely! The stuff gets everywhere and it&#x27;s like washing your hands in oil! To each his own!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Jun 19, 2011 8:58 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">By &quot;index-matching&quot;, I don&#x27;t mean putting the whole set-up in fluid. I mean using index matching oil to put a cover glass in contact with the emulsion of a silver-halide transmission master. The intermodulation noise caused by too low of a beam ratio is composed of relatively low frequency fringes. Those fringes cause ripples in the emulsion surface. Much of what we see as the intermodulation noise comes from that ripple. If a piece of glass is index-matched to that surface, the effect of those ripples disappears, and the image is waaaaaaaaaay cleaner. That allows lower beam ratio to be used to get the same level of noise around the image, and the image has higher diffraction efficiency as well, boosting the signal-to-noise ratio significantly.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Jun 19, 2011 9:04 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">nice subject<br><br>with me my understanding of the zone system, and appling it to holography has helped me alot. we know that we record conrtast fringes in a wide tonal range even in holography depending on where or what level we put our refrence, as in photography the dynamic range in the negative will not show up in the tonal range of the print, this is true in holography where what we record in the h1 dynamic range , will not all show up in the H2. so we have to be very careful what level our refrence is.<br><br>usally in my settups ther are 3 lights Main, Fill, and hylights. when i judge for balance i turn off hylights, and judge for main and fill, then turn on hylights and shoot hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sun Jun 19, 2011 9:33 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">The zone system is a way to adjust the development of your negative to compensate for contrasty or non contrasty lighting conditions. If the light on your subject is muddy, or too hot, you can use a spot meter to read a few spots on the subject, decide where you want those spots to fall tonally and adjust your development accordingly. That&#x27;s not a complete covering of the subject but its the basics. <br><br>In holography we want the fringes to be as contrasty as possible all the time. Plus, objects in holography are usually way to small to use a spot meter, and even if you did adjust your development, things other than your subjects contrast would be effected way more than what your trying to achieve. <br><br>How exactly are you applying the zone system to holography? If it&#x27;s just about your lighting technique and what lights you have on the subject, that is not the zone system. That is just lighting techniques, which can effect contrast and tones no doubt, but still not the zone system. <br><br>Jeff Weil<br><br>NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Jun 19, 2011 2:50 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Bob, I didn&#x27;t really believe that you&#x27;d put the whole system in a tank, but it was the only picture I got in my head when you mentioned using index matching on an H1. I&#x27;ve never heard of this technique of suppressing low frequency using index matching.<br><br>A couple of question, though. How does it all work? Don&#x27;t you get losses from the front reflection off the glass? <br><br>In the case of the reflections off the front of the index matched cover glass, I can imagine that the low angles cause negligible reflection. But I don&#x27;t see how the index matched cover glass prevents the low frequency gratings. As I see it, the index matching only prevents refraction, but even without refraction, you still have two beams hitting the emulsion and so causing a spatial frequency to form.<br><br>I mean, the low frequency gratings that come from intermod will cause a surface relief grating because the Q value is low- granted. But, would not the surface relief structure form regardless of whether or not there was refraction, presumably suppressed by the index match cover glass, since the interference occurs just below the surface? Refraction at the emulsion-air interface (if emulsion faces the object) causes a twist in the directions of the two beams. With an index match cover glass, there is no refraction and so no twist, but there&#x27;s still two beams hitting the emulsion and these will cause a low frequency grating also, but with a different spatial frequency. <br><br>Assume an air-emulsion interface and assume that the gelatin has an index of 1.5 (not sure what the index of gelatin actually is) and assume you&#x27;re shooting at 633. Then, let&#x27;s say that the intermodulation was caused by two beams at, say 20 degrees and 25 degrees to the plate normal. It&#x27;s easy enough to calculate the appropriate angles for a real object, but let&#x27;s stick with this model. Then, the actual angles inside the plate (without index matching) are <br><br>theta1 = arcsin(sin(20)/n) = arcsin(sin(20)/1.5) ~ 13 degrees<br><br>theta2 = arcsin(sin(25)/n) = arcsin(sin(25)/1.5) ~ 16 degrees<br><br>and the spatial frequency is<br><br>f = .000633/((sin(16) - sin(13)) = 0.012 l/mm<br><br>Now, you place a glass plate index matched to the H1 and there&#x27;s no change in the incident angles at the glass-emulsion interface due to refraction. There is refraction at the air-glass interface from the front surface of the cover glass. However, neglecting this for a moment and assuming that the beams hitting the plate are now actually 25 and 20 the spatial frequency is:<br><br>f&#x27; = 0.000633/(sin(25) - sin(20)) = 0.007 l/mm<br><br>This causes a change by about 42% But there still is a spatial frequency. How does the presence of the index matched cover glass prevent the formation of the low frequency grating?<br><br>Can you be saying that the physical forces at the emulsion-oil interface suppress the formation of the surface relief - what you&#x27;re calling &quot;the ripples&quot; - due to the ratio of density of the oil to the density of the glass?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Jun 19, 2011 5:37 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> The zone system is a way to adjust the development of your negative to compensate for contrasty or non contrasty lighting conditions. If the light on your subject is muddy, or too hot, you can use a spot meter to read a few spots on the subject, decide where you want those spots to fall tonally and adjust your development accordingly. That&#x27;s not a complete covering of the subject but its the basics.In holography we want the fringes to be as contrasty as possible all the time. Plus, objects in holography are usually way to small to use a spot meter, and even if you did adjust your development, things other than your subjects contrast would be effected way more than what your trying to achieve.How exactly are you applying the zone system to holography? If it&#x27;s just about your lighting technique and what lights you have on the subject, that is not the zone system. That is just lighting techniques, which can effect contrast and tones no doubt, but still not the zone system.Jeff WeilNorthBeach Holography Inc.<br><br>Thanks Ed id love to explain<br><br>Yes Ed in a hologram we record the contrast of fringes, but if we look really closely we do record deferent intensity of those fringes (gray tones) and that is dependent on a couple of things.<br><br>1 the brightness of our reference beam.<br><br>2 the amount of light reflecting off the object<br><br>This contrast tones is indirectly related to the tone’s (gray tones) of light coming off of our object.<br><br>The trick is to record or compress this tonal range to get the maximum amount on to the film and also into the H2.<br><br>Now their are ways to control this tonal range, lighting, beam ratio , development there by expanding or compressing the tones in the image.<br><br>Now lets think for a moment what was Ansel Adams trying to do when he came up with the zone system?<br><br>He knew the his film was able to record a range of tones and that by exposer and development he could control this tones (gray tones). But the negative could record more tones (gray tones) that was printable on paper. So by learning the range of the negative and the range of the paper he could use exposer, development on both film and paper to get the maximum tonal range.<br><br>Also in holography we have a limits to the tonal range that can be recorded depending on ,placement (brightness) of the reference, the density of development, and the lighting used. And when we print our H2 the tonal range is narrow just like in photography paper so we have to think of ways to compress our tonal range to get the maximum tonal range in our H2. <br><br>I think its very easy to come up with a bright hologram but most of us stop there, with a understanding of placement of the reference beam (brightness), exposer and development and good lighting we can have a much better range of tones in our Holograms. The Holography Zone system</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Jun 19, 2011 6:01 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Light&#x27;s going to bend essentially the same whether going from air into the emulsion, or air into a piece of cover glass that&#x27;s index-matched to the emulsion. The index-matching oil makes the surface relief structure from the intermodulation fringes disappear, if it&#x27;s the same refractive index as the emulsion (about 1.6). Actually, Decalin works fine at 1.48? Anything&#x27;s better than air! <br><br>I like to use a cover glass that&#x27;s anti-reflection coated on one side only. That prevents any Fresnel reflection off the oil interfaces (that might be present because of slight index mis-matches there) from getting back to the material. The AR coating also saves light (how much does each mW of that laser light cost?), and prevents &quot;equipment glow&quot; caused by the front surface of the recording plane.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Jun 19, 2011 6:10 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Balance of lighting and reference <br><br>The placement of the reference will determine what is bright in our object .<br><br>Lets say I have 3 tones of green color at 1.5 , ½, ¼ of the light coming off my object.<br><br>Lets say the object is a the statue of liberty and the 1.5 is the light from the torch.<br><br>And the light main is ½ and the fill is ¼.<br><br>Now if I set my reference based on the light from the torch I might not get some of the tones coming of the fill light (1/4).<br><br>If I set the reference based on the ¼ (fill) then my ¼ would be bright but the light from my 1.5 torch might cause too much noise at the plate and burn the film.<br><br>So what I would do is balance my reference on my fill &amp; main (1/2 + ¼ =3/4) and let my torch light fall where it may.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sun Jun 19, 2011 7:06 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Could you please post a picture of one of your extended tonal range holograms? I&#x27;m sure everyone would like to see the result. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Jun 19, 2011 7:52 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> Could you please post a picture of one of your extended tonal range holograms? I&#x27;m sure everyone would like to see the result.Jeff Weil<br><br>the first hologram when i tried to apply this idea was HappyFeet altho the H2 was printed by Dinesh &amp; Joy it was the H1 where you see the time spent in coming up with the maximum tones in the image for the making of a good H2, I will do a series of holograms so you can see the diffrence. give me a day to procees and post</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Jun 19, 2011 9:25 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I understand what Danny is saying, and have seen the effects he describes, but I&#x27;ve dealt with it a little differently. I&#x27;d have the main source, a general fill, and often a few other beams to make effects or deal with a weird shadow. Each beam has a beam splitter, at least two steering mirrors, a wave plate, a lens or spatial filter, and often a bigger transfer mirror. That&#x27;s a lot that can wiggle! <br><br>If one of them does, the lighting balance seen through a polarizer in the plate holder will certainly change. In fact, it&#x27;s guaranteed that with all that loss, the exposure time will be long. The changes in the lighting balance due to the relative diffraction efficiencies of each beam path could very easily be unique to each shot. Takes a lot of very stable components to get predictable results.<br><br>Then there&#x27;s also the polarization consideration. Probably a good idea to set the lighting balance while looking at the object through a polarizer in the plate holder, but consider the &quot;specularity&quot; of the brightest spot on your object (for example). A very specular object area will be relatively polarization preserving, and much of the light hitting the plate will contribute to image fringes. A diffuse object area will record dimmer because half the light isn&#x27;t recording the image, but worse, the wrongly polarized light makes those intermodulation fringes too, further changing the resulting lighting balance. Best thing for this issue is to use a polarizer in the plate holder in front of the plate being recorded. Then, what you get will be closer to what you saw. The downside? Eats up that expensive laser light and (sorry Dinesh), it&#x27;s best done with index-matching fluid.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sun Jun 19, 2011 10:39 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Here is happy feet<br><br> this was a one way to control tone by lighting and processing....this was shot on VRP film developed in d-19<br><br>there is 3 lights one main, one fill, and one keylight which is the light behind the glass and on the ice cubes</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 8:27 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Thanks for posting that Danny,<br><br>But I still say this has absolutely nothing to do with the zone system. You can&#x27;t put a fancy name on setting your ratio, using good lighting techniques,and call it an invention. We all do those things. I will give you that most people don&#x27;t use 3 lights. You are using good lighting techniques. <br><br>What your doing is analogous to setting a photographic exposure so the whites are not blown out and the shadows have not dropped out. That has nothing to do with development or zones. What your doing is lighting techniques and exposure. <br><br>There is nothing you can do with only exposure, ratios and lighting that has anything at all to do with the zone system. Period. <br><br>The very corner stone, the main part of the zone system is altering your development to change contrast and tones. Your changing everything but that. Look at Ansel Adams, he didn&#x27;t change ratios. He didn&#x27;t change lighting, he was shooting mountains. All he changed was the development and maybe the exposure a bit. The main thing was the development. <br><br>And the zone system is not about making up for the photo papers short comings, that&#x27;s just icing on the cake. It&#x27;s about having your shot come out as your pre-visualized it. The zone system is about getting that mountain to look exactly like you want no matter what the light on it is that day (within reason). If its a bit cloudy, or a bit too hot because it more clear than you want, you can fix it instead of waiting a month for the light to be correct. He shot plenty of things that could easily fit in the tonal range of the enlarging paper and he would still use the zone system. Fixing the shortcomings of the final print paper was just part of it. Getting the tonal range you want in the neg is what it&#x27;s about. Sometimes you don&#x27;t even want the full tonal range, you might want to compress it too. Certainly that situation has nothing to do with the enlarging paper&#x27;s limitations. <br><br>You&#x27;ll know if you really are in the zone system this way. Light your object very contrasty and then light it less contrasty, if you can make them look the same without changing that lighting, then that&#x27;s the zone system. And still that would only be 1/2 way. The REAL deal with the zone system is pre-visualizing the image and deciding IN ADVANCE where you want tones to fall. <br><br>Your holo looks fine, I&#x27;m not trying to insult you or start of fight, but I don&#x27;t see anything like an extended range of tones. Look at an zone photography image next to an &quot;ordinary&quot; photo. The difference can be very large. I don&#x27;t see that in your holo. <br><br>The zone system is about fine fine control over your process and pre visualizing tones and deciding where you want them to fall. That is not what&#x27;s happening here. You didn&#x27;t even take your subject&#x27;s contrast under the laser lighting into account, so how can this be the zone system in any way what so ever?<br><br>Until the day comes where you can change the contrast of your subject only though development, the zone system is out of bounds and can never be applied to holography. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon Jun 20, 2011 10:04 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> Thanks for posting that Danny,But I still say this has absolutely nothing to do with the zone system. You can&#x27;t put a fancy name on setting your ratio, using good lighting techniques,and call it an invention. We all do those things. I will give you that most people don&#x27;t use 3 lights. You are using good lighting techniques.What your doing is analogous to setting a photographic exposure so the whites are not blown out and the shadows have not dropped out. That has nothing to do with development or zones. What your doing is lighting techniques and exposure.There is nothing you can do with only exposure, ratios and lighting that has anything at all to do with the zone system. Period.The very corner stone, the main part of the zone system is altering your development to change contrast and tones. Your changing everything but that. Look at Ansel Adams, he didn&#x27;t change ratios. He didn&#x27;t change lighting, he was shooting mountains. All he changed was the development and maybe the exposure a bit. The main thing was the development.And the zone system is not about making up for the photo papers short comings, that&#x27;s just icing on the cake. It&#x27;s about having your shot come out as your pre-visualized it. The zone system is about getting that mountain to look exactly like you want no matter what the light on it is that day (within reason). If its a bit cloudy, or a bit too hot because it more clear than you want, you can fix it instead of waiting a month for the light to be correct. He shot plenty of things that could easily fit in the tonal range of the enlarging paper and he would still use the zone system. Fixing the shortcomings of the final print paper was just part of it. Getting the tonal range you want in the neg is what it&#x27;s about. Sometimes you don&#x27;t even want the full tonal range, you might want to compress it too. Certainly that situation has nothing to do with the enlarging paper&#x27;s limitations.You&#x27;ll know if you really are in the zone system this way. Light your object very contrasty and then light it less contrasty, if you can make them look the same without changing that lighting, then that&#x27;s the zone system. And still that would only be 1/2 way. The REAL deal with the zone system is pre-visualizing the image and deciding IN ADVANCE where you want tones to fall.Your holo looks fine, I&#x27;m not trying to insult you or start of fight, but I don&#x27;t see anything like an extended range of tones. Look at an zone photography image next to an &quot;ordinary&quot; photo. The difference can be very large. I don&#x27;t see that in your holo.The zone system is about fine fine control over your process and pre visualizing tones and deciding where you want them to fall. That is not what&#x27;s happening here. You didn&#x27;t even take your subject&#x27;s contrast under the laser lighting into account, so how can this be the zone system in any way what so ever?Until the day comes where you can change the contrast of your subject only though development, the zone system is out of bounds and can never be applied to holography.Jeff Weil<br><br>I disagree , I think you forget photography was my major. <br><br>(The REAL deal with the zone system is pre-visualizing the image and deciding IN ADVANCE where you want tones to fall.) Yes this is true and can be done in holography.<br><br>(There is nothing you can do with only exposure, ratios and lighting that has anything at all to do with the zone system. Period.) I really disagree with this statment<br><br>First let take a look at the way Ansel Adams did his prints, one thing he knew that the negative can hold a vast range of tones and by exposer and development he could shift his exposer so all the tones are recorded, so you have normal exposed areas and over exposed areas. The magic came when he when to print his negative they where always contact prints on a light box he made which was a matrix of light bubs and he would turn on and off the light bubs in his matrix depending on his highs and lows in his negative.<br><br>Now lets think about tones in our holographic layout, even when we record contrast fringes we do record tones from very bright to dim in the interference fringes, now by our reference &amp; exposer we can pick out what we want to be bright, lets say we have a dark gray cat with the right reference balance and exposer I can make that cat bright white.<br><br>Now lets say we have a bright dog and a dark gray cat with a proper balance of reference &amp; exposer &amp; development we can get both dog and cat in the hologram, so in reality by either lighting , reference , or development we can shift the tones. <br><br>Never say never, it just takes a understanding of what really happening here, Just like Ansel Adams did for photography we can do for holography</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Mon Jun 20, 2011 10:48 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Danny, Can you show better example/close up of the effects you are trying to explain (IDroo) ? I&#x27;m trying to see your application here, but i dont really see it ! <br><br>Each and every table set up is unique and needs to be optimised each time if you want the brightest replay. Good old film test strips are what give you the brightest holograms possible if no metering is possible ( i never use a light meter!) .<br><br>I think this thread is way off topic and remember this is the &quot;Beginning Holography&quot; thread and all this Mumbo-Jumbo dosent really help the&quot;NEW&quot; guy trying to figure how to shoot his H2..................</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 11:22 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Well, we will just have to agree to disagree. This is not the zone system. Show me two holo&#x27;s shot with the exact same lighting and on the same materials, have the same brightness, but have radically different contrast levels and I&#x27;ll agree with you right away. And I&#x27;m talking subject contrast, not material contrast, so having noise in a shot doesn&#x27;t count as lower contrast even though it might look close to the same. <br><br>I also have a degree in photography, classes in the zone system too. I started out developing e-6 slide film when I was 13. I have 2 years working for a newspaper as a photo journalist, my degree is in advertising photography and have hundreds of advertising,fashion, product and lifestyle photo shoots that I&#x27;ve worked on. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon Jun 20, 2011 12:31 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> Well, we will just have to agree to disagree. This is not the zone system. Show me two holo&#x27;s shot with the exact same lighting and on the same materials, have the same brightness, but have radically different contrast levels and I&#x27;ll agree with you right away. And I&#x27;m talking subject contrast, not material contrast, so having noise in a shot doesn&#x27;t count as lower contrast even though it might look close to the same.I also have a degree in photography, classes in the zone system too. I started out developing e-6 slide film when I was 13. I have 2 years working for a newspaper as a photo journalist, my degree is in advertising photography and have hundreds of advertising,fashion, product and lifestyle photo shoots that I&#x27;ve worked on.Jeff Weil<br><br>yep done that too, I have degree too in the same fields, sorry you just dont understand...cant win them all...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Mon Jun 20, 2011 2:11 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">Thank you all for the responses and interesting discussions. <br><br>While not understanding all of it I am getting the gist of the information.<br><br>So what I understand is: in creation of the H1 I want the reference beam to be slightly stronger than the object beam - both as measured at the plate (using the brightest portion of object reflection)<br><br>When making the H2 the original reference beam becomes the object illumination beam by illuminating Plate 1. The former object beam is moved and becomes the reference beam for making the H2. (which is a reflection hologram - unlike the H1 which was transmission). By increasing the object illumination beam we increase the brightness of the object and increase exposure time because we are stealing from the new reference beam. Now where I get confused is does the new reference beam need to be stronger than the object illumination when both measured at plate H2? Based on the above I belive this is so.<br><br>Where I seem to be getting confued is the change from creating H1 to H2 appears to be changing from transmission to reflection (because the former reference beam is now &quot;creating&quot; the object). Maybe I am getting confused because I have never done a multiple beam reflection hologram? Heck, I have only shot about 30 plates total - many of which did not turn out because I woefully under developed.<br><br>So, if I need to adjust the relationship between the reference and object at plat H2, it seems that it would be helpful to know the efficiency of the H1. I belive Dinesh may have referred to this as the Difraction efficiency. Do I understand correctly that the efficiency of the H1 will be at best the same as the efficiency of the original object. In other words if I throw 20mw at the object and it results in 5 mw at the plate (H1), then I will have the same relationship assuming a &quot;perfect&quot; H1 was created - i.e. throwing 20 mw at Plate H1 would create an object with a &quot;brightness&quot; of 5 mw. More likely, though the H1 will not be perfect and the resuting object brightness will be something less than 5 mw. So If I created a perfect hologram I would simply switch the strengths of the original object and reference beams, but more likely I would want to increase the 20mw I sent to the object and send some higher amount to the H1 plate to create a bright object. <br><br>I think I understand that illumination of plate H1 at the same angle as the former reference beam will give full illumination of the object? Because all of the fringes are stored in the recording material. Now if we split the object beam and throw 2 different beams at the object totaling 20mw results in 5 mw at the H1 plate, do we get any benefit from the from the single beam illumination of the H1 Plate since we are now throwing 20mw at the full plate instead of 2 10mw beams at different portions of the object? - my guess is yes. So in this case we may actually need to decrease the object beam when creating the H2?<br><br>Well, at least I have learned someting - if nothing more I now know that:<br><br>1. I need at least one variable beam splitter!! - any recommendations?<br><br>2. Polarization filters are preferred for cleaner images, but not essential - any recommendations?<br><br>3. Some measuring device could be useful, but not essential. I will need to continue to judge intensity by eye and finger wiggling unless I can get an inexpensive measuring device. What would I look for?<br><br>4. having no background in holography, photography, mathmatics, physics, chemistry or really anything related to this new hobby means all of you are light years ahead of me and are a great resource. THANK YOU ALL for participating in this forum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 2:33 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>dannybee:</strong> yep done that too, I have degree too in the same fields, sorry you just dont understand...cant win them all...<br><br>Sure you can, just post photos of two holo&#x27;s like I described. I&#x27;ll be convinced immediately.<br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 3:12 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Hello Holomark,<br><br>Your looking for perfect answers to a non perfect question, holography. Really it comes down to this, try a bunch of things and finds what works best for you. Don&#x27;t worry if one of us likes 4:1 and another likes 3:1, try both yourself. And the one that doesn&#x27;t work as well as the other....well, then you know what the wrong ratio looks like too. That &quot;bad&quot; result was not wasted film. Plus, some things just cannot be read easily with a meter so you should start developing an eye for this even if you do use a meter. <br><br>I promise you, if every one of us, in our own labs, did exactly everything the same using the exact same numbers, most of the results would be off. <br><br>Every lab and every holographer does things a little differently. That&#x27;s part of the fun and frustration of it all. Besides, if you just hit the home run right away, what you would learn? Your going to get a lot more out of experimenting in your own place than anything anyone of us can say after you learn the basics. In this case, the basics are the ratio most people use are between 1:1 and 1:4, some go even lower on the object beam. <br><br>So, try 1:1 down to 1:4 and see where you get the best results. <br><br>As far as how bright something is, that&#x27;s harder to do by yourself. There are so many variables that can confuse the results. What is the angle of view for example, an H2 with a greater angle of view can appear to be dimmer by the viewer it but in reality be more efficient. There are lots of things like that, what color is the reflection holograms image? A deep blue playback will always look dim compared to a green or yellow one at the same efficiency. <br><br>What I used to do starting out was I kept a little piece of a good hologram in my wallet. And every time I could I put it next to a better holographers work, under the same light, and compared. When you get together with other holographers, bring holo&#x27;s. When you go to a show, put a piece of one in your pocket.<br><br>And remember, just like louder music sounds better, everything under a bright look looks great. If you want to compare brightness use a dimmer light. It will emphasise the difference in efficiency. <br><br>Lets see some results! Good or bad, post them in the gallery. That should really be the most important and busiest part of the forum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Mon Jun 20, 2011 5:02 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Thanks Jeffrey, <br><br>Part of the reason for my questions is that I am just trying to wrap my head around what I am doing and understanding some of the basic rules. Of course I would love it if someone could just hand me the formula to make the images in my mind - that would be wonderful, but not expected. The variability from lab to lab is somewhat frustrating when starting out. I will keep working at it. Now that I have increased my developer time (I thought it turned black after 20 sec - now I use 1 min in developer as my standard) I started seeing images. <br><br>Of course I am handicapped by my training in completely different studies and even what I think should be simple - determining exposure time for the same object after a change in beam diameter - means more trial and error than someone with a background to calculate a good approximation. For example if I expose a plate with object and reference beam expanded to 4 inches - how much longer would I have to expose plate if I expanded both to 8 inches. Here should I guess that the time would be doubled because we are doubling the diameter, would it be quadrupled because we are quadrupling the area?<br><br>I will continue with the trial and error process, but I would prefer to hit a home run. Then I could really see some of the difference from that home run - thus learning what not to do, or what to do to achieve a different effect. The difficult part of starting with failure or partial success is that I have little idea about what went wrong. It is a lot easier to deal with failure if you know how to succeed than to have a failure and not know what went wrong or how to fix it. (for example I burned a number of plates for longer periods of time to get an initial image - only to later find out from this forum that my development time was just way off).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 5:33 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Holomark,<br><br>Where do you live, maybe another member can come over and make some holos with you. <br><br>And on your 4 inch vs 8 inch question, yep...the exposure would be 4x. It&#x27;s called the inverse square law. Light falls off inversely proportional to the square of the distance it travels. In this case it&#x27;s inverse to the square of the area it&#x27;s lighting up. The law is really written for non spatially coherent light. Like from a light bulb. An un-diverged laser beam will not follow that rule. When you spread it out with a lens it does. There&#x27;s more to it but those are the basics of the rule. <br><br>So, if you have a non coherent point source like a bulb if you double how far it travels and spreads out, its 1/4 as bright in any one spot. If it goes 4x it&#x27;s 1/16th as bright in any one spot. It can also be applied to how far you spread it out. Spread it out 5 times more than another case and its 1/25th as bright. <br><br>Reading is great but shooting is better if your looking to be a good holographer. Now if you want to be a theory person, no need to shoot much. If your more interested in making great, world class holograms shooting will get you there, studying alone won&#x27;t. <br><br>If you shoot a bunch of stuff in your lab soon you&#x27;ll be able to guess the proper exposure within 10-20% just based on how the two beams look on a white card and your reference reading on your meter after you get your ratio set. <br><br>Making a bright holo with a good signal to noise ratio will come pretty easily with some shooting and learning time. To make a really finished professional hologram requires other techniques that are not really theory related. Tricks to reduce reflections, hiding mounts, learning how to make gear and hold objects and film so they don&#x27;t move, etc....Not really theory stuff at all. You&#x27;ll learn how to fix those problems as they come up. <br><br>Some people on this board work very hard to get a technique under their belt but then never go onto making a final finished piece using that method they worked so hard to figure out. Concentrate on making finished pieces, you&#x27;ll have a lot more to show for your work in 20 years. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon Jun 20, 2011 5:58 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">ok I will try this again dave even tho we record contrast fringes we also record intencity of thoes fringes, see the diffrent gray levels on the pic below? the black is where the level of the refrence and the levels of the object where almost 1:1 now look of to the top we see almost a gray and dim gray fringes? this has a relationship to the brightness (tones) reflected off the object being recorded. even tho the gamete curve is sharper curve than in the negative film, we do recored tonal range. and that tonal range will control what is bright and what is dim in our hologram. this makes the exposer development and the refrences beam the controlling point where our brightness will fall. If you have a very dark gray cat and wanted to make it bright then the refrence would have to be close 1:1 or 1:2 so that the cat will apears bright (white). so knowing this we can set where we want our white to fall Just like in the zone system. now depending on exposer and delelopment will determain if whe where able to record all the tonal range of the fringes ther by recording the whole tonal range coming off the object. if you use your refrence balance wisly you can have much more flexablity in your lighting with many more tones that just bright contrasty images. taking time to understanging what your recording and the range of your film and development(for maxum tonal range of thos very dim friges) and very important the placement of the refrence. I had no spell checker on this computer so hop it can be understood, It was a good understanding of the tones recorded and exposer and development to use these as tools to shift his white (gray scale) over a few stops.... and this can be done in holography, and will lead to better images (holograms)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Jun 20, 2011 6:42 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">That&#x27;s the same as setting a photographic exposure so the whites are not blown out and the shadows don&#x27;t fall away. If you have a dark cat and you meter it, the meter will try to make it 18% gray, much brighter than the dark cat, expose at that level and everything will be overexposed, so anything white in the photo will be blown out in the neg, no information in that area.<br><br>If you have a bright white cat, your meter will want to also make that 18% gray, much darker than the cat. If you expose at that number everything will be underexposed and all the dark shadow stuff in your negative will drop out, in the print there will be no information there. <br><br>If you want to record the complete tonal range of your subject, you have to expose the film correctly. This has nothing to do with zone. <br><br>I don&#x27;t want to fight. This was Danny&#x27;s subject before I jumped in so I&#x27;ll bow out to him and let him have the last word on this. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Mon Jun 20, 2011 6:57 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> That&#x27;s the same as setting a photographic exposure so the whites are not blown out and the shadows don&#x27;t fall away. If you have a dark cat and you meter it, the meter will try to make it 18% gray, much brighter than the dark cat, expose at that level and everything will be overexposed, so anything white in the photo will be blown out in the neg, no information in that area.If you have a bright white cat, your meter will want to also make that 18% gray, much darker than the cat. If you expose at that number everything will be underexposed and all the dark shadow stuff in your negative will drop out, in the print there will be no information there.If you want to record the complete tonal range of your subject, you have to expose the film correctly. This has nothing to do with zone.I don&#x27;t want to fight. This was Danny&#x27;s subject before I jumped in so I&#x27;ll bow out to him and let him have the last word on this.Jeff Weil<br><br>we will just have to agree to disagree</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Tue Jun 21, 2011 11:00 am</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">Jeff, <br><br>I live in Northern California, just south of Sacramento.<br><br>It probably would be helpful to meet with someone more experienced. This could be a good excuse to go on a road trip!<br><br>Mark</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Tue Jun 21, 2011 12:54 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Lucky for you your in Ca. Lots of holography there. If your ever here in Miami Beach your welcome to come over. Everyone on the forum is. <br><br>I was driving today and was thinking about your desire to have someone just show you how to do it so you can hit a home run right away. You really don&#x27;t want that if you want to become good at this. <br><br>In embossed holography lots of larger companies hire people that have no idea about how to shoot, the main holographer shows them what to do. Turn this, put this there, read this number x it by this number, set the dial and shoot. <br><br>I&#x27;ve worked with these types of people. I call them operators, not holographers. They are just fine until a small problem comes up and then everything stops until the main holographer that really understands how things work and knows how to fix problems comes over and gets them back up and running. And if the client wants something out of the ordinary, they are totally screwed. <br><br>Grunt it out some more, it&#x27;ll come. Every bad exposure has something to teach you. If you have someone diagnose your lab problems and show you everything you&#x27;ll be screwed if something goes wonky, which it always will. It IS holography after all. <br><br>I even know of one company that has only operators, no real holographers. Every 6 months another holographer from America flies over to the country where the company is located and re-tweaks the table. Talk about expensive!<br><br>Jeff Weil<br><br>NorthBeach Holography Inc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Jun 21, 2011 7:49 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomark:</strong> Jeff,I live in Northern California, just south of Sacramento.It probably would be helpful to meet with someone more experienced. This could be a good excuse to go on a road trip!Mark<br><br>You&#x27;re welcome to come visit me sometime in San Jose.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Wed Jun 22, 2011 2:12 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">Thanks Bob! I would like to take you up on that this summer if you are available. You actually made that offer on the old board, but I haven&#x27;t started to actually use plates until a couple of months ago. I am currently shooting in my home office with a minimal footprint.<br><br>What type of lab do you have?<br><br>Mark</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Wed Jun 22, 2011 8:45 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">I live in Visalia in San Joaquin Valley, Sometimes referred to as the &quot;Gateway to the Sequoias,&quot; all are welcome</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Jun 25, 2011 8:13 pm</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> I&#x27;ve worked with these types of people. I call them operators, not holographers<br><br>I call it &quot;Assembly Line Holography&quot; a la Chaplin&#x27;s &quot;Modern Times&quot;<br><br>&gt; <strong>Jeffrey Weil:</strong> In embossed holography lots of larger companies hire people that have no idea about how to shoot, the main holographer shows them what to do. Turn this, put this there, read this number x it by this number, set the dial and shoot.<br><br>You might be interested in an anecdote. Joy and I met in just such a laser company. I was chosen to &quot;train&quot; Joy when she first showed up. Anyway, there was a particular shoot where the customer wanted some tricky lighting effects. I realsied that if one of the H1&#x27;s were shot as an achromat (open aperture), then the combination of this with the other H1&#x27;s would accomplish the effect the customer wanted. I explained the concept to Joy and told her how to shoot an achromat. But, the head holographer didn&#x27;t know enough about techniques to understand this. I persuadaded him to let me try my way, but he kept sayting that &quot;that&#x27;s not how you make a hologram. You don&#x27;t know how to make a hologram&quot; So, finally, I just got Joy to shoot it anyway. His first reaction: &quot;Where&#x27;s all the colours? What did you do to all the colours?&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kyodai</span>
+                <span class="post-date">Tue Jun 28, 2011 1:22 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">I must admit although i don&#x27;t understand the initial question and according answers and much other stuff in this topic i still read all posts here. It&#x27;s amazing how much experience most of you got and how many ways of american holographers (Hopefully not Operators) have crossed accidentially and on purpose. I really think someone should write a book about that, would be so much more delightful than all the literature i got which is mostly trying to bore me with mathematical formulas i don&#x27;t understand anyways. I really hope i can one day be &quot;Operator&quot;, not necessarily at an assembly line but my own optical table. Reading this thread makes me feel that there is so much more to holograms than just a few complicated equations, i might be romanticizing a bit but from the many interesting stories, lives and passion these few posts are dealing with i get the impression that holographer is more of a hidden sub-culture like the Hippie Phenomena than just cold boring science. I hope the serious ones of you don&#x27;t understand the comparison with Hippies as an insult, it really isn&#x27;t meant like that. To me as an outsider it is amazing how much passion and emotions can be involved in such a rather scientific topic... Just wanted to say thanks to everyone for sharing all this, even though i am better at understanding the anecdotes than the theory in some holographic terms and practices.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Jun 28, 2011 4:00 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">kyodai,<br><br>It is a sub-culture and the holographic community is unique. Our subject is not in the mainstream of any university course in Art or Physics. Most of the time, there is no standard method or standard equipment. Most of us simply use a lot of imagination to make equipment, then tell each other what we&#x27;ve done. The only common thing, in my experience, is that most holographers are about 6 sigma outside of most cultural and social norms. Whether people like this are attracted to holography, or whether holography finally makes us like this is a question I&#x27;ve asked myself many times! Most of the times, when we do get together, we tell anecdotes about ourselves or about someone in the community. Most people don&#x27;t realise how small and close the holography community is; we know each other and we know what each other is doing and what each other&#x27;s talents are. In the holography community, if we have a problem, we usually just talk to one another. It drives the CEO&#x27;s of holography companies nuts! One friend I took to a holography party told me he felt like he was at a meeting of the early workers in electricity<br><br>&gt; <strong>kyodai:</strong> i get the impression that holographer is more of a hidden sub-culture like the Hippie Phenomena<br><br>Smoke that beam, dude!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Tue Jun 28, 2011 5:45 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">There&#x27;s lots of hippy&#x27;s in holography. Self proclaimed too. It&#x27;s not an insult. <br><br>Holography is a counter cultural thing to a large degree and it does attract some eccentric people, I guess I fall into that category myself.<br><br>The book your dreaming of has already been written. It&#x27;s amazing, Holographic Visions by Sean Johnston. If you buy it from a proper source its pretty expensive. I got some copies on ebay for 20 bucks brand new. <br><br>Its a very good history book and it also goes into the counter cultural/hippy part of it all.<br><br>Dinish, I think I know who your talking about with the achromatic thing, it is just sad that someone with a position like that, with such a large, firm knows nothing about practical holography. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Jun 29, 2011 10:38 am</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">Actually, I haven&#x27;t read Sean&#x27;s book, but I saw him when he was gathering material for it at SPIE about 5 years or so ago. He was busy interviewing TJ, Fred Unterseher and all the &quot;stars&quot; of our world. I managed to get his attention for a few minutes and I asked him that, as a professional historian, isn&#x27;t it more interesting getting stories &quot;from the trenches&quot;, as it were, rather than from the stars. He didn&#x27;t bother replying! He just kept fawning on the famous people. He missed some really interesting stories! <br><br>I remember when I was working with Rob Mundy, back in 83 or 84, that Rob told us that the previous day he&#x27;d been trying really, really hard to shoot a rose. He sprayed it with lacqueur, froze it with liquid nitrogen, anything he could think of. Finally, very late at night, he got one. Since it was late, he took a short cut through Hyde Park and got stopped by the cops. So, they asked him &quot;Profession?&quot; (they asked for things like that back then, gawd knows why!). So, Rob says &quot;holographer&quot;. The cops go &quot;huh?&quot;. So he pulls one of the rose holograms from his glove compartment and shows it to them. One of the cops looks at the other and says, &quot;I don&#x27;t think the Metropolitan Police have ever stopped a holographer before&quot;. The other cop says, &quot;No, don&#x27;t think so&quot; and they both get in their cars and drive away, leaving Rob to get back in his car and drive home.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kyodai</span>
+                <span class="post-date">Wed Jun 29, 2011 5:23 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">Hehe, how odd that from reading all these &quot;beginner books&quot; i have never gotten the impression of a sub-culture or community, but after reading more about it in this forum i see the holographers world with different eyes. It is somehow amazing that you read a book - for a non-academic person like me a book is still kinda holy when it&#x27;s written by someone who really saw the inside of a university - and you realize that some of the names mentioned can be found in the talk of the forum here as well. Too bad Seans book does not refer the holographers that didn&#x27;t publish books or were part of newspaper headlines. It is probably forgotten that some of the best holograms come from people barely anyone had ever heard of outside this community. I think the many different individuals sharing their experiences here and thus educating each other probably added more to the scene than some stars that &quot;keep their secrets&quot;. But yeah i also know that some &quot;stars&quot; (Actually i think that like 99% of the people here are stars, at least in my eyes) are also good people, i think the number of &quot;Divas&quot; among holographers isn&#x27;t higher than anywhere else.<br><br>There also seems to be a lil bit of drama here sometimes, but not really much more than in other forums. I guess if you wanna avoid that you have to replace the users with robots. And yeah for some odd reasons many holographers seem to be extraordinary people. I don&#x27;t wanna say &quot;geeks&quot; or &quot;freaks&quot; as it wouldn&#x27;t do justice. From what i read here most people actually did grow up and managed to at least sometimes get out of the garage or basement. =) But yeah i&#x27;d also call myself to these extraordinary people. Maybe even more as I am probably an exception of the exception - a computer and science fan that lacks all education and degrees, i think &quot;Low education people&quot; are rather rare as holographers. I am probably the only one around here who often happens to read equations in holography books that contain characters i can&#x27;t even name. I&#x27;ve already been nearly everything - from soldier or paperboy over chemical laboratory experimentator to System administrator. Imma stay realistic - it&#x27;s unlikely holographer would ever be my &quot;profession&quot;. It&#x27;s not like its been the total boom industry, but if i ever reach a state where i call myself a &quot;Hobby holographer&quot; I&#x27;d already be more than glad.<br><br>I think whats most exciting about holography is that there is so much to learn and to discover. It&#x27;s amazing how mankind knows so much about classic photography and so few about the obviously more interesting technology of holography. Well yeah i blame the late invention of the Laser, but as a kid i always thought that in the future everyone would have holograms instead of pictures or maps or so. Nearly 30 years later it is remarkable how holography has been ignored by the mainstream, arts and sciences so much. SUre tehre are universities and laboratories where people research and maybe even teach about holography but i think everyone would agree if i said that it&#x27;s a bit sad that nearly every school and art community is offering photography classes but barely ever even mention the existance of holography. I think even though Holography is more complex it is so beautiful as it interests people in the physics behind it and motivating to learn more about the science involved.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Wed Jun 29, 2011 7:58 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">The book covers tons of people, not just the famous or published. Read it first, its a great book. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Jun 30, 2011 7:01 am</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">Even I get 15 seconds of infamy!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Jun 30, 2011 10:16 am</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">Jeff, you may be right and I may be being a little unfair. I got a - shall we say - negative impression because the rank and file of the holography world were there, but so was Leith and he almost worshiped at Leith. But Kaveh was also there and I suggested (strongly, actually) that he interview Kaveh, since I think that the early British holographers such as Edwina, Paul Newman (a fellow student when I was learning at Richmond) and Kaveh are under-represented in any history of holography. I don&#x27;t know if he did interview Kaveh, but he did certainly blow off any suggestions I made; presumably since I was small fry while Leith was there! <br><br>At any rate, it is, partly, on line ( [http://3d-holography.ru/historyholography](http://3d-holography.ru/historyholography) ) and there are a number of comments that I am bothered by.<br><br>Here&#x27;s one that you, Jeff, might be interested in:<br><br><em>&quot;Embossed holograms promoted low-cost mass production but had relatively poor image quality; they brought three-dimensional imagery to vastly increased audiences, but simultaneously reduced the sublime characteristics of depth, parallax, and image clarity.&quot;</em><br><br>Then, referring to Kuhn, he says:<br><br><em>&quot;For Kuhn, the elaboration of paradigms is the central activity of new science:His work opened the door to the consideration of social factors in the creation of new knowledge.Nevertheless, such new perspectives had little impact on practicing scientistsIn any case, the case of holography does not follow these models well. As I have suggested, there was no breakthrough moment, but instead a characteristically tentative evolution of ideas.&quot;</em><br><br>I happen to be a (somewhat lapsed) member of The Great Books Society. In this organisation, we study works that have created a fundamental change in The Human Condition in politics, economics, the sciences, art etc. Some of us may choose a particular book and lead a discussion on it. I led a discussion on Kuhn. So, when I see Kuhn described as such, it seems to me that there is perhaps a lack of clarity, if not accuracy.<br><br>The elaboration of paradigms is not, a la Kuhn, the central activity of a new science; according to Kuhn, it&#x27;s the shift in an old science that occurs when an old theory has outlived it&#x27;s original assumptions. These paradigm shifts do not occur because of &quot;social factors&quot; (even though social scientists seem to think of science as a social construct!), they occur because derivations and new experimental results point to a need to reformulate the older theories; there is no &quot;new science&quot;. I would also say that holography is almost a poster child of Kuhnism, rather than &quot;the case of holography does not follow these models well&quot;. Holography almost died in the 50&#x27;s due to the inability to separate the twin images. The paradigm shift of rotating the reference angle saved holography from the dustbin of technical history. It&#x27;s a simple thing, but most profound paradigm shifts are (think, for example, of the Copernican shift - it&#x27;s a fairly simple shift with profound consequences). The (perhaps more subtle) paradigm shift of taking holography from essentially an imaging medium, a la the &quot;microscopic principle of Gabor and the imaging principles of Leith and Upatniks, to a mechanism for generating optical functions also altered the holographic landscape, taking it from an imaging science to an engineering solution.<br><br>Of course, I realise that some of this may be controversial and so, as always, I welcome intellectual or academic debate. I have actually been quite interested in the applications of Kuhnian ideas on the evolution of holography, since holography straddles all three of the main occupation of human society - art, science and technology. As such, I always thought it may be an interesting evolution of the Kuhnian idea itself.</div>
+        </div>
+
+    <div class="thread-nav"><a href="255.html" class="prev-thread">← set up of components - beams crossing??</a><a href="Equipment.html">↑ Equipment</a><a href="245.html" class="next-thread">Newbie here: How much does the equip cost? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="8014.html" class="card">
+                <h3>Beam Ratios</h3>
+                <div class="card-meta">Beginning Holography · 10 posts</div>
+            </a>
+            <a href="6095.html" class="card">
+                <h3>Something that&#x27;s always puzzled me about beam ratios</h3>
+                <div class="card-meta">General Holography (old) · 29 posts</div>
+            </a>
+            <a href="4686.html" class="card">
+                <h3>measuring beam ratios</h3>
+                <div class="card-meta">General Holography (old) · 37 posts</div>
+            </a>
+            <a href="1132.html" class="card">
+                <h3>BEAM RATIOS</h3>
+                <div class="card-meta">General Holography (old) · 30 posts</div>
+            </a>
+            <a href="11388.html" class="card">
+                <h3>Single Beam Transmission</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

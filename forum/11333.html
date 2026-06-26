@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular Bandwidth in DCG — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11340.html" class="prev-thread">← Purple transmitted light in DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11321.html" class="next-thread">Bacteria? →</a></div>
+    <h1>Angular Bandwidth in DCG</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="DCG.html">DCG - Dichromated Gelatin</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>343,436</td></tr>
+        <tr><td>Started</td><td>Sat Sep 09, 2023 2:45 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/holomaker.html">holomaker</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11333" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Sep 09, 2023 2:45 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was reading a paper which suggested that &quot;angular bandwidth&quot; (which I assume is the number of viewing angles a hologram can be seen from, i.e., narrow angular bandwidth = restricted viewing angles) can be related to spectral bandwidth. The paper suggested that narrow spectral bandwidth is associated with narrow angular bandwidth in DCG. Can anyone shed some light on this? Thanks in advance, Din</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Sep 10, 2023 9:29 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Yes, true.<br><br>Consider a set of Bragg planes. If the planes are all parallel from two perfectly collimated and perfectly monochromatic, sources (physically impossible), then all the Bragg planes would be at a specific angle and a specific spacing and reconstruction only happens when the reconstruction angle is highly specific; according to Kogelnik, such a set of planes would only cause diffraction for 2.5 degrees around the perfect reconstruction angle, and the &quot;perfect&quot; angular bandwidth would be +/- 2.5 deg. <br><br>However, if you recorded with a relatively narrow band, ie a low but significant range of wavelengths, and a divergent source such as you would in a display hologram, then the hologram would &quot;see&quot; a range of collimated wavefronts at different angles; any divergent source is the equivalent of a set of collimated beams over a range of angles. Each collimated beam would cause a set of parallel planes at an angle based on the angle of the collimated source, causing a set of planes at slightly different angles and slightly different spacing. If you were to &#x27;reconstruct&#x27; the hologram at this point - see the latent image - the hologram would be visible over a narrow range of angles dependent on the bandwidth and divergence (angular bandwidth) of the source.<br><br>If you now develop the hologram by putting it in water, you&#x27;d get differential swelling - the water would initially penetrate the upper layer of the hologram, which would continue to swell as the water penetrated deeper. This differential swelling would exacerbate the variation of angles and spacing of the planes. hence creating a larger spectral bandwidth (greater variation of plane spacing), but also a greater angular bandwidth (greater variation in angles of the planes). <br><br>Therefore, the greater is the spacing of the planes - spectral bandwidth - the greater the range of angles of the planes. As you view the hologram, the reconstruction source &quot;picks up&quot; a different set of planes at different angles. The precise variation of angular bandwidth as a function of variation of spectral bandwidth can be derived from Kogelnik.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Sep 10, 2023 9:37 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">That&#x27;s fascinating. Thanks for the explanation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Mon Oct 09, 2023 8:01 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Well said Dinesh! , would the fact that things like thickness coating, processing/development, also affect the spectral response? w DCG and the correct processing it’s color response can be vary throughout its depth ..yes ?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Oct 09, 2023 12:24 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Dave, yes, all of the things you mention will affect spectral response.<br><br>Thickness:<br><br>The thicker the emulsion, the more the differential swelling, because, as I said before, the top layers of the emulsion continue swelling as the water penetrates deeper into the emulsion. This means that for a thick emulsion, the planes at the surface are quite a bit further apart than those at the bottom, and so the bandwidth increases. However, if you have too deep of an emulsion, you have to balance the pre-hardening with the swelling. If the plate is not pre-hardened enough, the upper layers simply dissolve and you get nothing. In our case, our general coating was ~ 12 microns. Concerning your question about processing also, we pre-hardened with fix (some use pre-exposure to white light, or heat), and, depending on the freshness of the plate, we altered the fix time. We normally coated on Friday, and shot on Monday. So, if we wanted fairly narrow band holograms, I&#x27;d fix them for about 3 to 4 minutes and a short (~ 2 min.) water wash. If I wanted really narrow band about, ~ 5nm, I&#x27;d dunk them into the 50% or even the 75% alcohol straight from the fix - no water, no 25% alcohol and sometimes no 50%. These methods also determine the colour for a display piece, so we&#x27;d shoot at 488, fix fresh plates for about 3 minutes, and swell for about 3 minutes, then 1 minute each in 25%, 50%, 75% 100% and hot (~70 deg C) 100% alcohol. This gave us a nice sharp gold colour. However, for very thick emulsions (our thickest was ~ 100 u), we&#x27;d first pre-expose to UV light to pre-pre-harden the film, after which the second hardening stage was the fix. Again, for these very thick films, I&#x27;d go straight to the 50%/75% alcohol right after pre-hardening. However, remember, for display, you don&#x27;t want it too narrow band, because the eye integrates the colours, and if there are too few colours, it&#x27;ll appear dim. Remember also, if there&#x27;s water in the film, you have to fix for longer to draw out the water. Don Broadbent and his student Augie Muth both had humidifiers in the coating room to control the water content that seeped into the film during the drying phase. If you don&#x27;t draw out the excess humidity, the image will appear foggy. or you&#x27;ll see cracks.<br><br>&gt; <strong>holomakerwrote:↑Mon Oct 09, 2023 8:01 am:</strong> w DCG and the correct processing it’s color response can be vary throughout its depth ..yes ?<br><br>Well, yes, if you&#x27;re asking what I think you&#x27;re asking. The &#x27;colours&#x27; come from the Bragg plane separation, and, of course, throughout the depth the plane separation will vary, and so the &#x27;colour&#x27; will also vary. However, the eye integrates all the various wavelengths to give you one colour, the eye cannot resolve separate colours; what you get is a sort of average over all the plane separations. Somewhat technically, the eye cannot do Fourier transforms, but the ear can; the ear can resolve different tones in a piece of music (Joy sings Barbershop, and is very good at knowing what tones - and overtones - a song has).<br><br>In terms of making the &#x27;goop&#x27;, one important factor is the relative concentrations. If there is too much gelatin for the dichromate, the gelatin comes out of solution, creating a spider-web looking white cracks (we called them &#x27;whities&#x27;). Also, when mixing, if the temperature is too high, some of the heat energy starts to cross link the dichromate while it&#x27;s swirling in the beaker. This means, when you coat, the pre-cross-linked dichromate will be harder that the surrounding emulsion, giving local narrow band imaging; these appear as green blobs (we called them &#x27;greenies&#x27;). Without my notes and going my memory, I heated the goop to about 45 - 50 deg C, then placed a coffee filter on a second beaker, with, I think, a 5 micron filter and kept the whole thing over the heater. I put a few drops of photoflo to help it filter out and keep it uniform. A 300ml batch would take about 2 hours to filter. Again, without my notes this is from memory.<br><br>&lt;Edit&gt;, In terms of colour response varying throughout the depth, if you mean that the varying &#x27;colour response&#x27; leads to a broader bandwidth, then yes, you get a broader bandwidth. I was confused with your use of &#x27;colour respone&#x27;, which, to me, is the eye response to a certain set of wavelengths.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 12, 2023 5:55 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Mon Oct 09, 2023 12:24 pm:</strong> Remember also, if there&#x27;s water in the film, you have to fix for longer to draw out the water. Don Broadbent and his student Augie Muth both had humidifiers in the coating room to control the water content that seeped into the film during the drying phase. If you don&#x27;t draw out the excess humidity, the image will appear foggy. or you&#x27;ll see cracks.<br><br>Say for example we have film that&#x27;s been stored for 7 days at room temp prior to exposure. Would there be a difference in fog level if the plates were stored at 65% RH as opposed to 45%? Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Oct 12, 2023 8:53 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Thu Oct 12, 2023 5:55 am:</strong> Dinwrote:↑Mon Oct 09, 2023 12:24 pmRemember also, if there&#x27;s water in the film, you have to fix for longer to draw out the water. Don Broadbent and his student Augie Muth both had humidifiers in the coating room to control the water content that seeped into the film during the drying phase. If you don&#x27;t draw out the excess humidity, the image will appear foggy. or you&#x27;ll see cracks.Say for example we have film that&#x27;s been stored for 7 days at room temp prior to exposure. Would there be a difference in fog level if the plates were stored at 65% RH as opposed to 45%? Thanks.<br><br>It depends on how you pre-harden, and how hard the initial film is. All things being equal, there probably will be a small rise in fog. Here, in Southern California, the humidity is pretty low anyway, but when I worked at POC, where we rigorously tested the film, we noticed an increase in bandwidth between summer and winter due to fog since the humidity rises here in summer. However, if the image is bright enough, you may not notice the fog. At 7 days, the film will have hardened due to dark reaction anyway, so it may not make much difference. Augie suggested keeping the humidifier at 50% when he came to our labs in San Diego, something he said he learned from Don.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 12, 2023 11:58 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">As always, thanks for your helpful comments, Din.<br><br>Regarding angular bandwidth, I&#x27;m noticing how much it can be increased by broadband processing. The below hologram was done this morning, with warm water (25C) and warm 100% (58C). Though it has a lot of noise, it&#x27;s fairly bright and has a decent amount of angular bandwidth. I&#x27;ve done some more narrowband holograms which have less angular bandwidth (rather disappointingly so). This hologram was nothing fancy, just regular dichromate/gelatin, coated plate aged 14 days at room temp, 3.5 minutes exposure at 488/532 (no attempt at color balance), warm water at 25C (no fix, etc.), then cool 17C 50%, 91%, and finally 100% at 58C. Even though the hologram appears broadband, there were still some noticeable color effects, part of the white dress looks white, the hair is brown, flesh tone ok, and the blue stripe in the background (barely visible in the photo towards the left) came out faintly blue. Strictly speaking, not a &quot;little green monstrosity.&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Oct 29, 2023 8:29 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">I&#x27;ve attached two pages from a 1979 Applied Optics paper by Chang and Leonard: &quot;Dichromated gelatin for the fabrication of holographic optical elements&quot;.<br><br>With regards to angular bandwidth, I found it interesting that they reported such large variances with regards to dichromate concentration (&quot;angular modulation saturates at the sensitizer concentration of 10%&quot; (Figure 6 on second attachment). This is also combined with the very large increases reported with increased exposure levels.<br><br>📎 [chang1077.pdf](https://holographyforum.org/forum/download/file.php?id=7840)<br><br>📎 [chang2078.pdf](https://holographyforum.org/forum/download/file.php?id=7841)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Oct 30, 2023 12:15 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Joe,<br><br>You need to be careful drawing conclusions on angular bandwidth as it applies to the kind of holograms you make, as opposed to the kind of hologram used in their paper.<br><br>Firstly, they&#x27;re using an old method of making dcg plates by taking a silver halide plate (Kodak 649F), fixing out the silver and replacing it with a dichromate solution. But, silver halide plates are much harder than dcg plates where you make your own gel; tens, perhaps hundreds, of times harder. This means that the dichromate has to be that much more concentrated to penetrated into the (hard) gelatin layer, penetrating mostly the upper layers of the gelatin layer. Because they used an emulsion 15 u thick, as opposed to most dcg emulsions today, which are often about 8 - 10 u. This has a bearing on the Q factor, of which more later.<br><br>They recorded a transmission hologram at a very low spatial frequency, 837 l/mm. Such low frequencies produce holograms that are classified as &quot;thin&quot; or &quot;surface&quot; . That is, the diffractive structure is variations of thickness on the surface - think of a &#x27;bumpy mirror&#x27; - as opposed to any structures within the material, called &quot;thick&quot; or &quot;volume&quot; holograms. These &quot;bumpy mirror&quot; type structures are known as Raman-Nath structures. Thick, or volume, holograms have diffractive structures within the material, not just on the surface, and these structures are modeled as planes within the material - think of window slats partially opened. These structures are therefore known as Bragg structures.<br><br>In a thick - Bragg - structure, the reconstruction happens only through small range of angles - the angular bandwidth is small - and only through a small set of wavelengths. Any deviation from these conditions would result in no diffraction; this is known as &#x27;Bragg selectivity&#x27;, the Bragg planes &#x27;select&#x27; a narrow range of angles and a narrow range of wavelengths, all others are rejected. This is why display holograms made as thick holograms have a narrow range of (Bragg selective) colours and a narrow (Bragg selective) angular bandwidth. In a thin, Raman-Nath type hologram, there is a wide angular bandwidth because there is no Bragg selectivity, all wavelengths diffract.<br><br>The distinction between thick and thin holograms is based on the spatial frequency and the emulsion depth. If the spatial frequency is low and the emulsion depth is high, most of the diffractive structures are surface modulations, giving rise to a Raman-Nath structure. In this paper, they used a hard 15u thick emulsion, into which the dichromate was allowed to penetrate. Because of the hardness of the gelatin, the dichromate only penetrated a thin surface layer and so creating a thin hologram, and so no Bragg selectivity. By increasing the concentration of the dichromate, they created an increase in surface modulation - a &#x27;bumpier mirror&#x27; - with less Bragg selectivity, which resulted in a larger angular bandwidth.<br><br>If interested, the distinction is made precise by the so-called Q parameter, which incorporates recording wavelength, emulsion thickness and spatial frequency<em>. If Q &gt; 10, you get a volume, Bragg selective hologram which is the case for most reflective display holography. If Q &lt; 10, you get Raman-Nath.<br><br></em>Q = (2πλd)/(nΛ²)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Oct 31, 2023 5:50 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thank you for the insights, Din, I appreciate it.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11340.html" class="prev-thread">← Purple transmitted light in DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11321.html" class="next-thread">Bacteria? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11484.html" class="card">
+                <h3>My first DCG in (15 years)</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a>
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="11340.html" class="card">
+                <h3>Purple transmitted light in DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a>
+            <a href="11313.html" class="card">
+                <h3>energy distribution across DCG plate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="11102.html" class="card">
+                <h3>PCR thermal cycler for DCG fixing</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

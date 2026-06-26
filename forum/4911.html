@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fringe Locker — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4917.html" class="prev-thread">← Help with Integraf kit</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4912.html" class="next-thread">Odd darker area on PFG-01 film →</a></div>
+    <h1>Fringe Locker</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,358</td></tr>
+        <tr><td>Started</td><td>Wed Jun 22, 2005 5:58 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/mrpaslow.html">mrpaslow</a> · <a href="../authors/tpark.html">tpark</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4911" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">mrpaslow</span>
+                <span class="post-date">Wed Jun 22, 2005 5:58 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Do you all think it&#x27;s worthwhile to invest in a fringe locker?<br><br>I see one on the web for ~$1800, and I see, here in the forum, an op-amp-based locking circuit that would cost ~$10 <br><br>I think it would be fascinating to be able to do really long exposure times.<br><br>And I&#x27;ve been looking at this, which incorporates a fringe locker...<br><br>[http://www.holoworld.com/dslasers/index.html](http://www.holoworld.com/dslasers/index.html)<br><br>What would you all do?<br><br>Thanks,<br><br>Dan</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">tpark</span>
+                <span class="post-date">Wed Jun 22, 2005 6:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">If you let things warm up and things are thermally stable, longish exposures can be done with a plain ol&#x27; diode setup. I&#x27;ve had good results with exposures of 2 minutes using PFG-03M plates. I set everything up, let it settle over night, put the plate in, let it settle for ten minutes, do the shot, then develop. Typically I have much shorter exposures than that. That was using an LNCQ05PS laser diode. <br><br>The D&amp;S laser setup (which I have as well) doesn&#x27;t incorporate true fringe locking, it does use optical feedback for power regulation but that is all. I did get mine to work, but I had to screw with the power setting to get it to work properly and not get sliced bread holograms. I think that you might have better luck with a cheapo pointer setup, or if you want more oomph, buy a diode and some kind of current regulation.<br><br>You can get current driver boards from Meridith Instruments - as far as I can tell, they provide good service, and the driver boards work OK too. They don&#x27;t have quite the same drive current, but at least they provide a circuit board.<br><br>The Digikey diode holder is inexpensive, I prefer the ones from Optima Optics - they&#x27;re quite good, although a bit more money.<br><br>Diodes, you can get from Thorlabs, and they&#x27;re good for delivery too.<br><br>I use 4 &quot;D&quot; batteries to power the laser - you can get the battery holders from Radio Shack if you&#x27;re in a hurry, but I&#x27;m sure there are other suppliers of such things.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Jun 22, 2005 11:19 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I have a Stabilock II fringe locker, but only use it occasionally. They are definately not a substitute for good technique when siteing a lab, building a table, or mounting components. They are great for compensating for long term thermal drift (for example, when the laser head is pumping heat into the table and the exposure is long), and air-flow induced wandering of the fringes. They&#x27;re also good for cancelling the effects of thermal blooming when higher powers are used, or low frequency vibrations that make it through the isolation system of the legs.<br><br>The huge downside of fringe lockers is difficulty of creating the low frequency fringes needed to sample with the two detectors. Reference beam light is easily tapped for one of the beams, but the second needs to incorporate all of the mirrors of the object beam and ideally the object as well to really work properly. There is also typically a beamsplitter near the recording plane to combine the two beams of the fringe locker system, and this component is often very difficult to place.<br><br>I would not recommend a fringe locker for a pictorial holographer. Waaay too much hassle and lots of money. Spend the dough on removing the source of the drifting fringes instead.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jun 23, 2005 11:24 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> They&#x27;re also good for cancelling the effects of thermal blooming when higher powers are used.<br><br>I am not familiar with &quot;thermal blooming&quot;. What is it?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Jun 24, 2005 3:14 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thermal Blooming describes what happens when the energy density of the laser beam is high enough to change the components in passes through. For example, when a 2mm diameter, 10W beam goes through a polarizing cube beamsplitter that&#x27;s not made for &quot;high power&quot;, you&#x27;ll see (through safety goggles I hope ) the result of &quot;thermal blooming&quot;. <br><br>In a less dramatic situation, with say 400mW, you might see a bit of fringe drift immediately after the shutter is opened, which then stabilizes in the position they drifted to. Within the first second or two. A fringe locker can easily slam the fringes into place in probably tens of milliseconds, making a happier HOE! <br><br>Of course, thermal blooming shouldn&#x27;t be confused with bloomin&#x27; thermals, which I&#x27;d define as the cause of fringe motion as a result of the beam being too close to the edge of the table where warm air is rising.</div>
+        </div>
+
+    <div class="thread-nav"><a href="4917.html" class="prev-thread">← Help with Integraf kit</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4912.html" class="next-thread">Odd darker area on PFG-01 film →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1076.html" class="card">
+                <h3>new fringe locker</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="897.html" class="card">
+                <h3>fringe monitor circuit</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="802.html" class="card">
+                <h3>question about fringe expansion</h3>
+                <div class="card-meta">Optics · 7 posts</div>
+            </a>
+            <a href="335.html" class="card">
+                <h3>Fringe movement</h3>
+                <div class="card-meta">Techniques · 13 posts</div>
+            </a>
+            <a href="8320.html" class="card">
+                <h3>Fringe Lockers and Stability</h3>
+                <div class="card-meta">General Holography (old) · 19 posts</div>
+            </a>
+            <a href="6589.html" class="card">
+                <h3>&quot;Complete Fringe Stabilization Techniques&quot;</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

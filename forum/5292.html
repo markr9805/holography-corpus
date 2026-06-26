@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is a hologram an INVERSE Fourier transformer? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5298.html" class="prev-thread">← Fume Cupboard</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5285.html" class="next-thread">Sealing DCG. →</a></div>
+    <h1>Is a hologram an INVERSE Fourier transformer?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>1,033</td></tr>
+        <tr><td>Started</td><td>Sat Dec 24, 2005 6:02 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/hans.html">Hans</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/arturo.html">arturo</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5292" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Dec 24, 2005 6:02 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Perhaps this post is off topic. But my mind is raging with questions and idea&#x27;s now. Please bear with me. <br><br>Hi everyone, I finally found a wonderfull tutorial that could explain to my high school math mind how Fourier transforms work. An intuitive explanation without any discouraging scary math. WOW!! What an eye opener. My head is running wild with idea&#x27;s now. The tutorial can be found at: [http://www.complextoreal.com/tutorial.htm](http://www.complextoreal.com/tutorial.htm)<br><br>I had searched so many times for an explanation of this in the past to help my curiousity about this subject concerning image compression and voice recognition in neural networks, and now because I cound not understand Saxby&#x27;s explanation about Fourier Transforms in Holography.<br><br>Now that I have read the tutorial and have had a coule of hours to let it sink in I cannot even begin to imagine the amount of incredible implications this formula has. I arrived from Curacao ten hours ago and I should be sleeping. Does holography do the same to you guys?<br><br>Of course many questions have arisen now. Here goes:<br><br>1] If I let two wide collimated beams combine on a plate (from the same side) I create a cosine grating yes?<br><br>2] So the grating is actally a Fourier transform fuction of the two beams, with the angle between the beams representing the spatial spectrum and the transparency of the grating the offset of the transform? (i.e. the angle represents the actual coefficients of the terms in the Fourier Transform)<br><br>3] If I then shine one of the beams on the developed hologram again (the hologram actually being the signal and the beam being part of the spectrum of the Fourier transform), I am basically applying the inverse of that Fourier transform on that beam again and reconstructing the other beam (the rest of the spectrum)?<br><br>4] So this leads me to believe that all light that reaches our eyes can be represented as a spectrum of angles between light beams (by spectrum I don&#x27;t mean a spectrum of wavelengths or the inverse of frequencies, but litterally a spectrum of angles in space).<br><br>5] If that is the case, it should be fairly easy to make a simple ray tracer that calculates a 3D array of angles between a mathematical reference beam and the many beams reflected off off solid object models when they both happen to combine on a imaginary mathematical plane. I.e. a collection of ANGULAR SPECTRUM ARRAY PIXELS.<br><br>6] If we then calculate the coefficients for the Fourier Transforms to these angular spectrum array pixels we should get HOLOGRAPHIC PIXELS!!!<br><br>7] I hope I have not lost you all with my simple and non standard (lack of knowledge) mathematical intuitions at this moment, but here comes the big idea...<br><br>8] I have a feeling that if one would display these pixels one at a time on a transparent LCD display and use lenses to make the image a lot smaller (exactly the right size for say a green transmission hologram) and project them one by one, side by side onto a holographic film, we would have a pixelated transmission hologram of the solid object modeled scene in the computer. Thus we have created a true holographic printer that does a whole lot more than creat simple stereograms.<br><br>CHEMICAL QUESTION:<br><br>On a side note, what started my search for Fourier transforms again today was to understand what the difference would be in a hologram if the recording were linear versus binary. If a hologram was linear, the Fourier Transform equivalent of just two beams would be recorded as a cosine grating yes? But if the hologram records in a binary way, the hologram would become a square grating. Now if I replay the LINEAR hologram with one of the two beams, both beams will be visible on the other side of the hologram because they are the Fourier Transform decomposed back into it&#x27;s angular spectrum. If I however replay the BINARY hologram (square wave), the angular spectrum will be larger: sin(wt) + sin(3wt)/3 + sin(5wt)/5 + .... + sin(nwt)/n; (n=inifinity), with wt=2<em>pi</em>f*t being the original two beams and the rest of the spectrum showing up as unwanted noise. This leads me to ask the following: Suppose we had an imaginary emulsion that did not suffer from Raleigh Scattering and had grains varying in many, albeit very small, sizes. Would the larger grains be partially developed if they received a small enough quantity of light? Or would they always be fully developed as long as they had received an amount of light that is bigger than a certain on/off threshold? I.e. would gradients in a film with varying grain sizes be recorded due to the larger grains being able to be partially lit? Or would gradients be recorded because the larger grains have a bigger chance of being hit by a light wave/photon and show up darker because they are bigger?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Jan 03, 2006 3:21 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">In the Physics for Poets philosophy, reconstructing a hologram is making a Fourier transform of a Fourier transform so you are back to the original. I don&#x27;t know how rigorous this is, but I hope it helps.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">arturo</span>
+                <span class="post-date">Thu Jan 05, 2006 11:57 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">In a first approximation, yes. As a matter of fact there are lots of papers on that (search google for &quot;CGH and Fourier&quot;), and also some software (I cannot find the address now, I am not at home).<br><br>If I am not wrong, MIT&#x27;s Media Lab Holo Video is based on this - but since 3d Fourier is very time consuming they (a) limit the resolution and (b) use precalculated structures to build real-time holograms. I think, it is been a while since I read about it!</div>
+        </div>
+
+    <div class="thread-nav"><a href="5298.html" class="prev-thread">← Fume Cupboard</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5285.html" class="next-thread">Sealing DCG. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11477.html" class="card">
+                <h3>Lighting for Display of a Reflection Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11476.html" class="card">
+                <h3>Make yourself a hologram of yourself!</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11469.html" class="card">
+                <h3>Can an achromat hologram (full aperture transfer method) be made using photoresist instead of DCG?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11461.html" class="card">
+                <h3>Achromat hologram question</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11455.html" class="card">
+                <h3>Litiholo hologram disorted?!</h3>
+                <div class="card-meta">Optics · 2 posts</div>
+            </a>
+            <a href="11451.html" class="card">
+                <h3>In an image plane hologram, why does the front part of the hologram stick out from the plate?</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

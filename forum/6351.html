@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hologram resolution — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6356.html" class="prev-thread">← Temporary lamination using Slavich PFG-01</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6348.html" class="next-thread">Underwater holocamera →</a></div>
+    <h1>hologram resolution</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>24</td></tr>
+        <tr><td>Views</td><td>5,322</td></tr>
+        <tr><td>Started</td><td>Sun Jul 22, 2007 4:00 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/andy.html">Andy</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/favalora.html">favalora</a> · <a href="../authors/droutlier.html">DrOutlier</a> · <a href="../authors/johnfp.html">JohnFP</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6351" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Sun Jul 22, 2007 4:00 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi all!<br><br>I&#x27;ve made a computer program that makes holograms from a given digital 3D model.<br><br>One of the input variables for the program is the frequency of the object beam and reference beam (which are always the same in my case).<br><br>Though the width of the [square] hologram screen (in 3D space) is always 100 units, the number of pixels in the output hologram is a user-defined variable.<br><br>My question is:<br><br>How many pixels across will my hologram have to be in order for it to sufficiently store the interference patterns of the hologram. When I first started this project, I did not take into account the enormous detail level of the interference patterns of a hologram.<br><br>I&#x27;m thinking that the distance between pixels will have to be less than the period of the object/reference beams (which is very small). In my case, since I&#x27;m using virtual coherent light with a frequency of 5^15Hz, the pixels will have to be at or less than 5^-15 units apart. This means that, given the width of the hologram screen and the number of pixels, the distance between pixels can be found using the following formula:<br><br>distance=width/# of pixels<br><br>If d is, in fact, supposed to be less than or equal to the period of the given light, then:<br><br>period&gt;width/# of pixels or frequency&lt;# of pixels/width<br><br>Because I am limited by CPU ability, this means that I am either going to have to use very small hologram widths, or I am going to have to use lower frequencies for my virtual coherent light beams.<br><br>So, I guess my next question is:<br><br>If I use frequencies in my program that are smaller than that of visible light, how can I modify the output hologram so that it will be compatible with a reconstruction beam of a larger frequency?<br><br>Finally, onto what medium should I print the output holograms from my program, and should I try for reflection or transmission holograms? I take it is not as simple as printing out the hologram to a regular sheet of printer paper. (sorry, but I know basically nothing about hologram medium materials)<br><br>Also, I understand that a transmission hologram works via diffraction of the reference beam, but I am unsure how a reference beam interacts with a reflection holograms in order to reveal the 3D image.<br><br>Sorry for the rag-tag presentation of questions; if some of my questions are not clear, please ask me to elaborate.<br><br>Thank you very much!<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 22, 2007 4:23 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hi Andy,<br><br>Welcome aboard!<br><br>First you want to read the Wiki article by Ed. Here is one part you will be especially interested in:<br><br>[http://www.holographyforum.org/HoloWiki ... _Frequency](http://www.holographyforum.org/HoloWiki/index.php/Holography_Transmission_Equations_Part_I#Spatial_Frequency)<br><br>A recording material is a tough one. 600 dpi on a laser printer is not very good for a transmission hologram. There is not going to be a way I can think of the make a reflection hologram.<br><br>You will be interested in this thread I started a few days ago:<br><br>[http://holographyforum.org/phpBB2/viewtopic.php?t=5259](http://holographyforum.org/phpBB2/viewtopic.php?t=5259)<br><br>And this Wiki entry:<br><br>[http://www.holographyforum.org/HoloWiki ... Holography](http://www.holographyforum.org/HoloWiki/index.php/Computer_Holography)<br><br>As well as this web site:<br><br>[http://www.medcosm.com/prog_CGHmaker.htm](http://www.medcosm.com/prog_CGHmaker.htm)<br><br>Can you share any of your algorithms and/or files? What did you write the code in?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Jul 22, 2007 2:21 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; Also, I understand that a transmission hologram works via diffraction of the reference beam, but I am unsure how a reference beam interacts with a reflection holograms in order to reveal the 3D image.<br><br>With all due respect, I&#x27;m wondering how you could have &quot;made a program that makes holograms from a given digital 3D model&quot; without knowing how a reflection hologram works? Have you <em>skimmed</em> any books about holography? Have you ever <em>seen</em> a real hologram?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Sun Jul 22, 2007 9:15 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I&#x27;ve never really seen a hologram in person (not counting the little image on credit cards).<br><br>I know everything about the process of recording a hologram. That&#x27;s how I wrote the program (which is in C++, by the way).<br><br>I&#x27;m not very good with C++, but I know enough of it to entertain myself with projects like this one.<br><br>The program is designed to create a hologram in the same way a hologram is produced physically.<br><br>As far as algorithms, well, what would you like to know?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sun Jul 22, 2007 11:16 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Andy, welcome to the forum. I have never made a CGH, but have seen several very good ones made by alumni of the MIT (former) Spatial Imaging Group. There are several ways to proceed making them on your own. You are correct about laser printers lacking the resolution needed for a good CGH, although some people have reported success there. In general, you want 1000-2000 dots per millimeter in the holographic substrate.<br><br>One trick you can use is to print it out (at whatever resolution you can), and then photograph it. You can shine a laser through the film negative. However, I don&#x27;t know what type of film to recommend with enough resolution to result in any sort of decent reconstruction. (One drawback of having poor resolution is that the reconstruction angle will be very narrow. That is, you won&#x27;t have any &quot;look-around&quot; (motion parallax). You&#x27;ll simply reconstruct what looks like a 2-D image.)<br><br>You can also make a multiplex hologram by depicting the scene from a variety of viewpoints computationally, and then doing a &quot;rainbow&quot; hologram. For some ideas on this, see the papers and theses by Michael Halle [here,](http://www.media.mit.edu/spi/spiPubs.htm) such as &quot;the generalized holographic stereogram.&quot; You can record a multiperspective hologram onto holographic film in a series of steps.<br><br>Maybe I didn&#x27;t answer your question. The accuracy of your computer physics modeling can probably be bounded by the resolution of your real-world holographic substrate.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Mon Jul 23, 2007 3:45 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Actually, I&#x27;ve seen &quot;The Generalized Holographic Stereogram&quot; before. I tried to understand some the concepts in Halle&#x27;s other theses, but I thought that my head would explode before I would get anything out of it.<br><br>I can&#x27;t imagine writing so much on a single topic!<br><br>Anywho...<br><br>Yeah, I&#x27;ve already learned about holographic stereograms. It seems to be the only other way to make a hologram out of digital 3D model. Unfortunately, it seems to require a whole lot of expensive materials and expensive equipment.<br><br>Also, if I could use negatives from a picture to create a transmission hologram, why can&#x27;t I use the actual picture as a reflection hologram? Is there something that I just don&#x27;t get. Also, how do I account for the change in size of the hologram when it is transcribed from one medium to another (e.g.: from a print-out to film negatives). Is the frequency of the reference beam inversely proportional to the size of the [resized] hologram.<br><br>The idea of recording the hologram to a CD-ROM is very fascinating. Perhaps I&#x27;ll try it if I can get my CD drive to work! But seriously, I look into giving it a try.<br><br>Also, are there possible ways to see a hologram directly from a computer via a projector or some type of transparent screen (invented yet?) or something else?<br><br>Thanks for everyone&#x27;s excellent links and resources!<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Jul 23, 2007 4:05 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">A reflection hologram is a bragg diffraction grating. The resolution required is in the z axis! This makes it impossible to &quot;print&quot;.<br><br>Check this out:<br><br>[http://en.wikipedia.org/wiki/Bragg_diffraction](http://en.wikipedia.org/wiki/Bragg_diffraction)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Mon Jul 23, 2007 7:18 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">That explains why I never understood it!<br><br>Thanks.<br><br>As far as making transmission holograms, something tells me that there&#x27;s no way for me to get around it without having to set up a darkroom.<br><br>So, with that in mind, can I just coat a transparency (for an overhead projector) with photo emulsion and develop it using a slide projection of the hologram...<br><br>Wait a second:<br><br>I just realized that I will never be able make a large hologram because of the problem that we&#x27;ve already identified: That I am limited by CPU ability in the first place, and cannot possibly gather enough information to create a hologram large enough to be worth looking at! However, perhaps I could focus on making holograms suitable to be used in a &quot;viewmaster&quot; or some other type of personal slide viewer. That actually seems like a good idea.<br><br>Plus, the reason I&#x27;m doing this digitally is to avoid the expense of doing it physically.<br><br>So, I think I&#x27;m going to have to find a new approach to representing a hologram digitally before I will be able to make a physical hologram from a digital one.<br><br>I&#x27;ll probably just end up buying some supplies and making a hologram the old fashioned way.<br><br>I don&#x27;t know...<br><br>Is there really anywhere to go with this whole idea? Or is it a problem that computers are not ready to tackle?<br><br>For now I&#x27;m going to focus on my viewmaster idea, it seems like the simplest answer right now because it allows me to use photo negatives (as we discussed).<br><br>I appreciate everyone&#x27;s support thus far.<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Jul 23, 2007 2:51 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">If you want to solve the problem for a larger hologram take a look at the hardware accelleration in a video card. MIT is reporting that there are algorythms there that speed up the process greatly. I have run a couple with the software liked in my first post. It is not as slow as I thought but it also does not have an off axis reference. The code for an off axis refference would slow things down considerably. <br><br>If you really just made a phisical model and did a ray tracing of all the light there is a much faster computational method. <br><br>This is a good book to understand the basic math:<br><br>Optical Holography: Principles, Techniques and Applications (Cambridge Studies in Modern Optics) (Paperback) <br><br>But to reduce this math computationally you will need to study Fourier Transforms and especially the FFT. An intrductory book on signal processing theory would be good as well.<br><br>[http://en.wikipedia.org/wiki/Fourier_transform](http://en.wikipedia.org/wiki/Fourier_transform)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Mon Jul 23, 2007 7:38 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I&#x27;ve read about the applications of Fourier transforms, but I&#x27;ve never learned how to use them. In the wikipedia article, Fourier analysis looks like a complicated process. Perhaps I&#x27;ll get a book (like you said) on signal analysis. As of now, I don&#x27;t understand how to represent a hologram using Fourier transforms; That&#x27;s math that I am going to have to learn.<br><br>If I arrange my 3D scenes so that the object beam and the reference beam are at a small angle to each other, the lines of interference on the hologram will be less dense; However, what are the disadvantages to using this method?<br><br>Also, what, exactly, is the difference between on/off axis holography, and what is fresnel holography?<br><br>In the meantime, I&#x27;ll invest on some books relating to the topics that we have discussed.<br><br>The method that I&#x27;m using right now (representing a hologram as a dense matrix of pixels) seems to be too inefficient. A means of representing a hologram as a series of relations (and perhaps developing a resolution-independant image format that uses relations to express graphic data) would be a much more efficient way to represent holographic data.<br><br>Thanks,<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Tue Jul 24, 2007 12:42 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Whoa!<br><br>I just realized that, since I began this thread, I&#x27;ve been mixing up period and wavelength!<br><br>Shoot!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DrOutlier</span>
+                <span class="post-date">Tue Jul 24, 2007 7:17 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Hi Andy,<br><br> 8) Welcome to holographic technology in 2007. <br><br>You&#x27;re suffering from the same problems as everyone else. The E-ink for your displays and the distributive and evolutionary computation to process the program aren&#x27;t yet available. The good news is that this progress is exponential. The technology is coming fast.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DrOutlier</span>
+                <span class="post-date">Tue Jul 24, 2007 7:47 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">8) By the way Andy, does this program have a name? Will it be copyrighted or open source?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Fri Jul 27, 2007 9:11 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I didn&#x27;t think about copyrighting it, though that would be a good idea (I guess).<br><br>On my computer, the program is entitled &quot;DH1-2&quot; (Digital Hologram); However, perhaps it would be more appropriate to make a more specific name (e.g.: Digital Hologram Generator, Model-to-Hologram, etc.).<br><br>I made an image (shown below) as an example to test the accuracy of the program. In the image, there is no object beam, only a reference beam that is 5 units away from the screen (which is 100 units wide).<br><br>One observation that I&#x27;ve made is that the wavelength of the reference beam is equal to the inverse of the input frequency (which is 1Hz in this example), as opposed to being equal to the speed of light divided by the frequency. Instead, the frequency that is entered is more like the number of cycles-per-unit than the number of cycles-per-second. I suppose this is appropriate because the program does not take time or velocity into account. Do you think that this is a problem? Does this affect the output of the program, or will the result be the same regardless?<br><br>I guess, in my program, period is a unit of distance instead of a unit of time.<br><br>![Image](http://i96.photobucket.com/albums/l163/Hixidom/referencebeam1hzsmall.jpg)<br><br>Anywho...<br><br>The result of this example looks accurate to me. What do you think?<br><br>Thanks.<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Fri Jul 27, 2007 9:53 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">I have a few questions:<br><br>If I modify the program to output the a corresponding reference beam as well as the hologram, would it be possible to use the two output images together, using arithmetic operations in an image editting program, to reconstruct a 2D image of the original model? This would be a good way to test the legitimacy of the program.<br><br>Also, if I use a viewmaster to display holograms, I would not be able to look at the actual holographic film from different angles because it would be fixed in the viewmaster. So, is the change in rotation of the entire viewmaster (relative to a reconstruction beam) enough to display a 3D hologram or does the viewpoint orientation (relative to the holographic film) have to be able to change?<br><br>Thanks.<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jul 27, 2007 10:47 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I have a question. How do you get interference lines (fringes) in your image if there is no object beam and only a reference beam? A reference beam alone would have a gausian profile and look pretty homogeneous without any interference lines. Am I missing something?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Fri Jul 27, 2007 11:45 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body"><strong>Amplitude versus intensity</strong><br><br>Hmm. I suspect that he might have plotted electric field amplitude rather than the irradiance, which is proportional to the time average of the <em>square</em> of the electric field amplitude. That is, according to Benton&#x27;s course notes, if<br><br>E(<em>x, y, t</em>) = <em>A</em> sin (2 pi <em>nu t</em>) V/m,<br><br>then its average squared value will be<br><br><em>A</em>^2 / 2,<br><br>and it will deliver an irradiance of<br><br>I(x,y) = (epsilon-naught c) &lt; | E(x,y,t) |^2 &gt;time avg = (epsilon-naught *c / 2) A^2<br><br>= 2.65 x 10^(-3) E^2(rms) W/m^2 <br><br>in MKS.<br><br><strong>Fringe Applet</strong><br><br>I think you (and others here) may find this Media Lab demonstration of fringes very interesting. [(here)](http://courses.media.mit.edu/2002spring/mas450/holodemos/index.html). Oh, wait, they&#x27;re not available at that URL anymore! Perhaps someone can find them by Googling.<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Sat Jul 28, 2007 4:24 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Wow...<br><br>I have no idea what much of that math means, but thank you for bringing to my attention the fact that the virtual reference beam and object beam do not grow weaker over distance. I take it that the inverse square law should apply in this case. Is that true? If so, I&#x27;ll modify my program accordingly.<br><br>JohnFP, thank you for your concern. Unfortunately, I have no idea whether or not you are correct. Since my program does not take into account the effects of time, the light that hits the virtual hologram screen is more like a standing wave than anything else. However, because a hologram made physically does, in fact, have a long exposure time, I have reason to believe that my program does not produce holograms that are &quot;true to real life&quot;.<br><br>So, is this concern (that John and I have) well founded, or is the consideration of time, in my program, inconsequential.<br><br>By the way, favalora, The applets provided at the URL look great! You&#x27;re right, though; I&#x27;ll have to find them elsewhere.<br><br>Thanks.<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sat Jul 28, 2007 10:53 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Andy:</strong> Wow...I have no idea what much of that math means, but thank you for bringing to my attention the fact that the virtual reference beam and object beam do not grow weaker over distance. I take it that the inverse square law should apply in this case. Is that true? If so, I&#x27;ll modify my program accordingly.<br><br>Andy,<br><br>I wasn&#x27;t implying anything about the beams&#x27; &quot;weakness&quot; as a function of distance. Whether or not the inverse square law or some other law holds true depends on what type of source you are simulating.<br><br>All I was doing was providing you with a relationship between the electric field strength at a point in space and its irradiance. Try running your program for some very slightly different values of t.<br><br>Kaveh, can I drag you into this for some advice on how to depict irradiance, and then combining with a second beam to get fringes?<br><br>I also recommend you browse Feynman&#x27;s lectures on physics Vol. I (the big red book) and Hecht&#x27;s <em>Optics</em>.<br><br>Gregg</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Sat Jul 28, 2007 4:21 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">My program uses the following to calculate the intensity of a single pixel on the hologram screen:<br><br>screen[y][x]=sin((2<em>pi</em>hz*dist(bloc,pc[y][x])));<br><br>where:<br><br>- screen represents the z value of a pixel on the screen at the coordinate (x, y, 0).<br><br>- hz is the input frequency<br><br>- dist(bloc, pc[y][x]) returns the distance between the beam origin and the location of the pixel being calculated.<br><br>So, you see, my program will never show a smooth &quot;gausian profile&quot; because it uses &quot;standing waves&quot;. Does this mean that my program will not work properly? If this is the case, I will have to factor time into my program so that it will produce more accurate results.<br><br>By the way, I forgot that have Feynman&#x27;s lectures on physics (Vol. 1 &amp; 2). I forgot that I had them, but they do make good references don&#x27;t they? I guess I&#x27;ll read up on equations for EM waves (supposing it&#x27;s in there). Regardless, the information probably on the internet somewhere.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 28, 2007 8:58 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">So your output is a &quot;zone plate&quot;.<br><br>[http://en.wikipedia.org/wiki/Zone_plate](http://en.wikipedia.org/wiki/Zone_plate)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Sat Jul 28, 2007 11:43 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">I don&#x27;t think so.<br><br>Though I had trouble understanding what a zone plate is, I don&#x27;t think that that is what the output of my program is.<br><br>This image helped me understand the concept of a zone plate:<br><br>[http://xdb.lbl.gov/Section4/Image_Sec4/Sec4421.jpg](http://xdb.lbl.gov/Section4/Image_Sec4/Sec4421.jpg)<br><br>I don&#x27;t understand the math shown in the image, but I understand how the zone plate uses diffraction to focus an image.<br><br>Anywho...<br><br>When I say hologram screen or output screen, I&#x27;m just referring to a virtual square (in the 3D environment) with the vertices (-50,50,0), (-50,-50,0), (50,50,0), and (50,-50,0). Each &quot;pixel&quot; on the screen recieves a beam of light from every point on the model that both recieves light from the object beam, and is &quot;visible&quot; from the vantage point of the pixel in question. When such continuity is confirmed, that&#x27;s when the sine function is used to calculate the value contributed by a given point to a given pixel. I have to specify the location of the object beam and the reference beam. I also have to make sure that they, along with the actual object, are in locations that are appropriate for the construction of a suitable hologram.<br><br>Right, now this the light in the program is only reflected by the points of the input model. This is no good, I&#x27;m sure. Eventually, I&#x27;ll have to make an algorithm that makes use of edges and faces. I can&#x27;t just make the points of my models dense enough to resemble faces because the program runs slow enough as is (and I&#x27;m only using 8 points currently).<br><br>So, there&#x27;s definitely work to be done. As far as zone plates, I don&#x27;t how that relates to my program. Should I be considering the concept in the construction of holograms using my program?<br><br>Thanks.<br><br>Andy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sun Jul 29, 2007 12:27 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Andy,<br><br>Yes, you could use superimposed zone plates (with &quot;focal lengths&quot; and centerpoints of your choosing) as one way to create a simple hologram. However, I believe the drawback will be that you&#x27;ll only be able to depict scenes that are translucent. (I.e., there will be no occlusion.)<br><br>Anyhow, keep experimenting, and keep in mind that irradiance is different than instantaneous electric field strength.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Andy</span>
+                <span class="post-date">Mon Jul 30, 2007 2:47 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">Questions that still stand:<br><br>&gt; So, you see, my program will never show a smooth &quot;gausian profile&quot; because it uses &quot;standing waves&quot;. Does this mean that my program will not work properly? If this is the case, I will have to factor time into my program so that it will produce more accurate results.<br><br>&gt; If I modify the program to output a corresponding reference beam as well as the hologram, would it be possible to use the two output images together, using arithmetic operations in an image editting program, to reconstruct a 2D image of the original model? This would be a good way to test the legitimacy of the program.<br><br>&gt; if I use a viewmaster to display holograms, I would not be able to look at the actual holographic film from different angles because it would be fixed in the viewmaster. So, is the change in rotation of the entire viewmaster (relative to a reconstruction beam) enough to display a 3D hologram or does the viewpoint orientation (relative to the holographic film) have to be able to change?<br><br>&gt; If I arrange my 3D scenes so that the object beam and the reference beam are at a small angle to each other, the lines of interference on the hologram will be less dense; However, what are the disadvantages to using this method?Also, what, exactly, is the difference between on/off axis holography, and what is fresnel holography?<br><br>Thanks.<br><br>Andy</div>
+        </div>
+
+    <div class="thread-nav"><a href="6356.html" class="prev-thread">← Temporary lamination using Slavich PFG-01</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6348.html" class="next-thread">Underwater holocamera →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11477.html" class="card">
+                <h3>Lighting for Display of a Reflection Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11476.html" class="card">
+                <h3>Make yourself a hologram of yourself!</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11469.html" class="card">
+                <h3>Can an achromat hologram (full aperture transfer method) be made using photoresist instead of DCG?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11461.html" class="card">
+                <h3>Achromat hologram question</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11455.html" class="card">
+                <h3>Litiholo hologram disorted?!</h3>
+                <div class="card-meta">Optics · 2 posts</div>
+            </a>
+            <a href="11451.html" class="card">
+                <h3>In an image plane hologram, why does the front part of the hologram stick out from the plate?</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

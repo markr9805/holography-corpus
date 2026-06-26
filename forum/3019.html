@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>computer control — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3023.html" class="prev-thread">← dim Denisyuks</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3018.html" class="next-thread">so what d&#x27;you think now? →</a></div>
+    <h1>computer control</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>12</td></tr>
+        <tr><td>Views</td><td>3,077</td></tr>
+        <tr><td>Started</td><td>Mon Jan 10, 2005 12:35 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/michaelh.html">MichaelH</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/edelbrp.html">edelbrp</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3019" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Mon Jan 10, 2005 12:35 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I know we&#x27;ve talked about it before but couldn&#x27;t find a dedicated thread.<br><br>I&#x27;ve had to ratchet up my computer control efforts (couldn&#x27;t put it off any longer) and have started documenting it here<br><br>[http://www.dragonseye.com/blog/archives ... table.html](http://www.dragonseye.com/blog/archives/7-Computer-control-for-the-table.html)<br><br>I&#x27;ll be controlling the shutters, light sensors, meter, status lights, on/off switches and eventually one or more stepper motors for stereogram control.<br><br>Is anyone else actively working on something similar?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Jan 10, 2005 1:43 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Michael, although I am not actively working with stepper motors and their control, I did set up a similar unit to the one you posted on my computer which controls the settle and exposure times for my shutter. I have also worked extensively in the past with steppers and programing them in addition to controlling laser shuttering and position feedback.<br><br>Do you have some steppers in mind? I started playing with the steppers out of floppy drives (cheap and abundant but not of great quality) but never got a chance to complete the research. I would also imagine the stepper out of a hard drive would be of very good quality.<br><br>BTW, your web page design has morphed nicely!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Mon Jan 10, 2005 2:27 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; Do you have some steppers in mind? I started playing with the steppers out of floppy drives (cheap and abundant but not of great quality) but never got a chance to complete the research. I would also imagine the stepper out of a hard drive would be of very good quality.<br><br>I don&#x27;t have any in mind yet, that&#x27;s a longer term goal. Once I get everything else out of way I&#x27;ll start considering what I need for stepper control.<br><br>&gt; BTW, your web page design has morphed nicely!!!<br><br>Thanks. I wish I could take credit for it but it&#x27;s just a stylesheet that I applied to Serendipity <br><br>I am thinking about using something similar for the rest of the site though.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Jan 10, 2005 5:47 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">A common use for this setup you may wish to consider is to take the reading off a light meter while the exposure is taking place to total the exposure energy. This is more precise than taking a reading before exposure and assuming it stays the same through exposure.<br><br>Just a thought.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Jan 10, 2005 9:10 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>MichaelH:</strong> Is anyone else actively working on something similar?<br><br>Hi Michael, I have running something like that since a while, and<br><br>it was more of an improvement than I thought before. Not having to<br><br>enter the room for shooting at all (which tends to induce air<br><br>currents and temp gradients) plus being able to remotely monitor<br><br>laser power and stability (mode jumps) helped the success rate for<br><br>good holograms a lot.<br><br>[http://argonholo.webhop.net/electronics/USBcontrol.html](http://argonholo.webhop.net/electronics/USBcontrol.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">edelbrp</span>
+                <span class="post-date">Tue Jan 11, 2005 1:25 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> http://argonholo.webhop.net/electronics/USBcontrol.html<br><br>Oooh, that looks cool. :&#x27;) But, no vibration sensor? <br><br>-Phil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Tue Jan 11, 2005 12:25 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>edelbrp:</strong> But, no vibration sensor?<br><br>May not be a stupid idea... eg to monitor an auxiliary interferometer<br><br>to see whether things are stable (for detecting mode jumps, it<br><br>suffices to check for sudden variations in laser power). Not that<br><br>this would directly help making better holograms, but it might be<br><br>useful for determining a posteriori what the reason was why a<br><br>hologram has failed. Fortunately, vibration is for me not an issue<br><br>(at least compared to other factors).<br><br>One may add light sensors to verify that both object and ref beams<br><br>were unobstructed (for me one of the main reasons for spoiling<br><br>holograms: forgetting to lift a beam blocker after having made an<br><br>illumination measurement). Moreover, as Colin has mentioned, the<br><br>light intensity may have changed (eg for me, the spatial filter<br><br>tends to de-adjust, esp after some heavy bump at the table while<br><br>struggling in the dark. So far I always rush in after the shot and<br><br>check the illumination as soon as possible. )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Fri Jan 14, 2005 11:45 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thanks for the responses. I&#x27;ll have to see what I can do to set up some additional light sensors.<br><br>In the meantime I&#x27;ve got the software far enough that I can control my lab at least to the level I had it before and I&#x27;m taking the software open-source.<br><br>The project is hosted on sourceforce and the current working version is available through CVS<br><br>[http://www.dragonseye.com/holocontroller/](http://www.dragonseye.com/holocontroller/)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Wed Jan 19, 2005 2:25 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">If anyone&#x27;s interested in checking out the first fully functional (although as far as the final version goes, proof of concept) version of HoloController, I&#x27;ve just made a source and executable release through sourceforge.<br><br>[http://sourceforge.net/projects/holocontroller/](http://sourceforge.net/projects/holocontroller/)<br><br>I&#x27;m looking for feature ideas as well as people to contribute to the software. Check out the roadmap on the home page for more info on what I&#x27;ve got planned at the moment.<br><br>More info on [http://www.dragonseye.com/blog](http://www.dragonseye.com/blog)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Jan 19, 2005 6:10 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Looks interesting. Though I am a Mac guy, and so can&#x27;t easily run a Win-app. But I glanced through the source - one comment here.<br><br>It seems that your hardware uses the I2C bus - this is relatively common for interfacing to ADC and DAC and other devices like thermometers. So one may very simply connect more circuitry to the bus, for having more than having just two analog channels. I found having more than a few analog channels very handy, it allows to do other things with the hardware than just controlling the holo-setup, like doing certain measurements (eg I was determining control loop responses of TEC circuits).<br><br>The good news is that one can get such IC&#x27;s for free, as samples from various manufacturers&#x27; web sites, and to drive them software-wise is not difficult. I have built various circuits with such and if there is interest, I can offer some help in developing a versatile analog-computer interface. <br><br>Actually the whole thing can be very cheap, as said the analog-digital circuits are free, and I didn&#x27;t even use a pre-fabricated module but just a single extra IC that connects the I2C bus to a computer&#x27;s USB port, this thingy is like $15 and that&#x27;s more or less the whole expense (apart from the printed circuit board that needs to be done).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Wed Jan 19, 2005 8:53 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> Looks interesting. Though I am a Mac guy, and so can&#x27;t easily run a Win-app.<br><br>The next release I put out will be fully cross-platform on window$, mac and linux. I won&#x27;t be able to compile for mac or linux but the code won&#x27;t be tied to windows any longer.<br><br>&gt; <strong>wler:</strong> But I glanced through the source - one comment here.It seems that your hardware uses the I2C bus.<br><br>I am, sort of. I need to do some more reading on the I2C bus as I&#x27;m not really familiar with it. The code I&#x27;ve got is code that was written by others specifically for the Velleman board.<br><br>I&#x27;d like to get other drivers built in as well such as generic parallel ports, raw I2C and whatever else people are using.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jan 19, 2005 11:29 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">What a great project! Thank you for making it open source. This is what a community is for.</div>
+        </div>
+
+    <div class="thread-nav"><a href="3023.html" class="prev-thread">← dim Denisyuks</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3018.html" class="next-thread">so what d&#x27;you think now? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="830.html" class="card">
+                <h3>temperature control question</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="746.html" class="card">
+                <h3>Computer generated hologram media question</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="85.html" class="card">
+                <h3>Cameras for Computer Generated Holograms (CGH)</h3>
+                <div class="card-meta">Techniques · 17 posts</div>
+            </a>
+            <a href="7655.html" class="card">
+                <h3>computer generated hologram</h3>
+                <div class="card-meta">Gallery · 11 posts</div>
+            </a>
+            <a href="7314.html" class="card">
+                <h3>Color Control Continued</h3>
+                <div class="card-meta">General Holography (old) · 16 posts</div>
+            </a>
+            <a href="7297.html" class="card">
+                <h3>Color Control (not)</h3>
+                <div class="card-meta">General Holography (old) · 48 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

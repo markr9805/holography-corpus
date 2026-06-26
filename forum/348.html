@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single-mode red diodes/Thorlabs — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="349.html" class="prev-thread">← Any ideas for wide area object lighting?</a><a href="Techniques.html">↑ Techniques</a><a href="339.html" class="next-thread">note on fringe-locking green/red →</a></div>
+    <h1>single-mode red diodes/Thorlabs</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>16</td></tr>
+        <tr><td>Views</td><td>9,833</td></tr>
+        <tr><td>Started</td><td>Wed Oct 05, 2011 11:45 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/sergio.html">Sergio</a> · <a href="../authors/djm.html">djm</a> · <a href="../authors/142laser.html">142laser</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/wler.html">Wler</a> · <a href="../authors/valery.html">Valery</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=348" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 05, 2011 11:45 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I received the new Thorlabs catalog today, and these are some of the single-mode red laser diodes they listed. Any comments or experience is welcome.<br><br>Opnext HL63133DG, 637nm, 170mW, $380<br><br>Hitachi HL6388MG, 637nm, 250mW, $368<br><br>Mitsubishi ML520G54, 638nm, 110mW, $350</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Wed Oct 05, 2011 5:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I saw HL6344G - 635 nm specs as circular beam (!!) single longitudinal mode (!?) So a similar model at higher power may be found. The price seems moderate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 06, 2011 5:01 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">It&#x27;s too bad that diode is only 10mW. The highest 635nm diode they have is 30mW. For anything that&#x27;s under 50mW, I would still rather use a HeNe.<br><br>After I read further in the catalog, I see that HL63133DG, has the term &quot;TE Mode Oscillation&quot; appled to it, and I don&#x27;t know what that means. And for HL6388MG, while the title says &quot;single mode,&quot; further down it contradicts itself and says &quot;multimode diode.&quot; But the Mitsubishi diode, which is also new, ML520G54, looks rather interesting. This appears to be a single mode laser in a 5.6mm package with 110mW at 638nm ($350). I wonder if this could operate well with just a large passive heatsink and a constant current power supply.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">djm</span>
+                <span class="post-date">Thu Oct 06, 2011 11:34 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Joe,<br><br>I suggest you contact wler. He has made tests on the [Opnext HL6385DG](http://redlum.xohp.pagesperso-orange.fr/laser/modeanalysis.html#HL6385) 642 nm diode, and I think he plan to test the Opnext HL63133DG 637nm diode also.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Thu Oct 06, 2011 12:48 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I believe these may be single Transverse more TEM 00 but not single frequency. About a year ago I had a laser built with the Opnext 150 mW 642 nm laser they had advertised as single longitudinal mode; it was a mistake. The laser was a mess on the SFPI and Opnext admitted it was an error and offered to send me several samplas of diodes to make up for my lost $300 (two diodes). They never sent anything. Now if you add a grating for feedback maybe... <br><br>Ondax does make true SLM diodes. $1,195 each I think for 35 mW or about $2,800 for a turn key laser. I told them we need 100 mW...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Thu Oct 06, 2011 1:00 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I just looked at their website; these are not single frequency, just single transverse mode...not suitable for holography. Thorlabs has no SLM diodes in the visible. Sorry... <br><br>I was fooled once by that stupid Opnext data sheet mistake. They said it was a typo but it was two morons...one who wrote the data sheet and me for believing it. You cannot buy a 150 mW 642 nm SLM red laser diode especially not for $150. Darn. Phil<br><br>PS Save money and check out Ondax.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Oct 07, 2011 4:57 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It seems that practically any diode can make holograms under the right conditions. The problem lies in the unpredictability. That&#x27;s why HeNe&#x27;s are still so attractive. Many diodes have very long coherence lengths when they&#x27;re not mode-hopping, but there&#x27;s no telling when the mode-hopping will occur, usually. Wolfgang apparently made some very good systems, but the electronics and selection of diodes are not trivial matters, and I don&#x27;t know if he plans to make any more.<br><br>The short-wavelength red diodes have promise for color holography, that&#x27;s why I&#x27;m interested in them. Right now, if someone wants to do color holograms, they&#x27;re limited to HeNe which determines the exposure times and/or the size of the hologram. For silver halide holograms, this isn&#x27;t a very big problem, but for everything else it is. Of course, there&#x27;s krypton, but few people have access to those lasers.<br><br>For HeNe light, a typical amount of power available would be 35mW. With that Mitsubishi diode for example, if it runs at reduced power (maybe to help stabilize it) and after subtracting losses from focusing optics, maybe 70 or 80mW would be available? (The nominal power is 110mW.) The question of course is stability, and someone would have to gamble $350 and spend the time to find out.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Fri Oct 07, 2011 10:36 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I agree the HeNe laser is a great choice for most red holographers and that is why I am offering them cheap here ($350 including shipping for 17-20 mW). You can get up to 45 mW from a clean SP 127 or MG 928. Wolfgang is using an external feedback design and it takes many hours to build and test each laser; I don&#x27;t blame him for not wanting to offer them in any quantity. The Ondax lasers should be nice but still onlt 35 mW and over $1K for a bare diode...what if you kill it accidentially in the build? Oops, CRAP! I could not even get a stable display on the interferometer with the 642 nm Opnext diode; using one of those would be a crapshoot. Best, Phil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Mon Oct 10, 2011 5:35 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">All of the 60-100 mW laser diodes I tried lost reliable coherence above 30-40 mW. That was plenty of power for me but still puzzling since the textbooks said coherence should increase with power. I think wler saw something similar...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Wler</span>
+                <span class="post-date">Tue Oct 11, 2011 3:05 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I had just checked the HL63133 this weekend and it&#x27;s very fine for ECDL operation, without any fudging I got more than 100mW SLM out right on the spot, and very very stable! I didn&#x27;t push it to find the max. See [here](http://redlum.xohp.pagesperso-orange.fr/laser/ECDL-test.html#HL63133). It&#x27;s similar to the proven HL6385. Free-running without grating may give you like 50mW but that&#x27;s probably not worth the price.<br><br>And... never use Thorlabs to buy diodes, the actual price is more like 1/2 of their price; or even less Check out Francesco at photonlexicon.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 12, 2011 6:06 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Wler:</strong> I had just checked the HL63133 this weekend and it&#x27;s very fine for ECDL operation, without any fudging I got more than 100mW SLM out right on the spot, and very very stable! I didn&#x27;t push it to find the max. Seehere.<br><br>That&#x27;s exciting news, I will stay tuned!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 12, 2011 10:43 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I did a little searching for that diode, and it was offered way back in January (in a group buy) for $175, also I saw something about it being offered for 130 Euros.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Valery</span>
+                <span class="post-date">Thu Oct 13, 2011 5:14 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">possible someone checked such?<br><br>[http://www.ebay.com/itm/180735651622?ss ... 3641wt_901](http://www.ebay.com/itm/180735651622?ssPageName=STRK:MEWAX:IT&amp;_trksid=p3984#ht_3641wt_901)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Wler</span>
+                <span class="post-date">Thu Oct 13, 2011 7:00 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Yes, this has been checked since long and is one of the most suitable diodes. But current prices are more like $90-$100 rather than what they ask for....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 13, 2011 7:08 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Wler, are there any more ECDL units on the horizon?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Oct 15, 2011 3:29 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> It seems that practically any diode can make holograms under the right conditions. The problem lies in the unpredictability.<br><br>Very true. I have though found some diodes to be quite forgiving about operating conditions. The problem is that all diodes (even from the same batch) are not created equal. I wish this could be sorted out. Next to the iffy availability of good cheap plates and film this is one of the major obstacles to holography as a mass hobby/artistic pursuit since it is so hard to make cheap holography lasers that can be guaranteed to work.</div>
+        </div>
+
+    <div class="thread-nav"><a href="349.html" class="prev-thread">← Any ideas for wide area object lighting?</a><a href="Techniques.html">↑ Techniques</a><a href="339.html" class="next-thread">note on fringe-locking green/red →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11387.html" class="card">
+                <h3>Red Green Expansion Difference</h3>
+                <div class="card-meta">Techniques · 26 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="10786.html" class="card">
+                <h3>What do I use to expand an red Hene for a denisyuk hologram?</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a>
+            <a href="8896.html" class="card">
+                <h3>Red sensitivity of MBDCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="8825.html" class="card">
+                <h3>definition of broadband, narrowband, red shift, blue shift</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="1056.html" class="card">
+                <h3>Can I make a green hologram with a red laser?</h3>
+                <div class="card-meta">Equipment · 9 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

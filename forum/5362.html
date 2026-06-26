@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatial filtering for Color Holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5365.html" class="prev-thread">← Cheap source of Laser Crystals</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5363.html" class="next-thread">optical alignment →</a></div>
+    <h1>Spatial filtering for Color Holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>8</td></tr>
+        <tr><td>Views</td><td>3,073</td></tr>
+        <tr><td>Started</td><td>Sat Feb 04, 2006 5:15 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/kaveh.html">Kaveh</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5362" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Feb 04, 2006 5:15 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Ok, I tried to get into this subject a few times but I will explore it here for those who are lucky enough to have three color lasers.<br><br>The assumption is that you have combined the beams into a single path and you have telescopes on the beams before the beam combiners so you can control their diameters. As we will see you don&#x27;t want all of the beams to be the same diameter!<br><br>&gt; From Edmund:1.0 Beam Spot Diameter (microns) = (1.27 <em> l </em> f) / Dwhere, l = wavelength of laser (microns)f = focal length of objective lens (mm)D = input beam diameter (mm)2.0 Pinhole size is then determined for the table (see note):Pinhole Diameter (microns) = 1.5 <em> Beam Spot Size Diameter (microns)<br><br>So we notice that wavelength makes a difference.<br><br>For this example we will use the wavelengths of:<br><br>650nm<br><br>532nm<br><br>473nm<br><br>Because I like them. :-, <br><br>In order to make white we need the beem spot diameters of all three beams to be equal. If we miss, the balance of white will be uneven radially from the center out.<br><br>dspot=(1.27</em>.650<em>f)/D<br><br>dspot=(1.27</em>.532<em>f)/D<br><br>dspot=(1.27</em>.473<em>f)/D<br><br>We will choose 8mm as the focal length of our objective in the spatial filter.<br><br>dspot=(1.27</em>.650<em>8)/D<br><br>dspot=(1.27</em>.532<em>8)/D<br><br>dspot=(1.27</em>.473*8)/D<br><br>dspot=6.604/D<br><br>dspot=5.405/D<br><br>dspot=4.806/D<br><br>In order to allow more light through we multipuly a correction factor of 1.5 to the calculated values.<br><br>Pinhole=9.906/D<br><br>Pinhole=8.108/D<br><br>Pinhole=7.209/D<br><br>Now we are using only one pinhole and we need three beam diameters to make three equal spot sizes.<br><br>If our red laser is 10mm then we use a 10 micron pinhole.<br><br>For green the beam needs to be 8.1 mm in diameter.<br><br>The blue beam needs to be 7.2 mm.<br><br>Now the last equation we need is a way to change the diameter of our laser beams.<br><br>In order to make a beam larger (or smaller really) we need to understand a very simple equation.<br><br>InputD/OutputD=fl1/fl2 when the lenses are at fl1+fl2 distance apart.<br><br>So if our red laser is 10mm dia. And our Green laser is 5mm then we need a telescope in the path of the green laser in the ratio of 5 to 8. If the lenses we have access to are 50mm and 80mm focal length then we place them 130mm apart and in the path of the green beam before the beam combiner. Now for example if the blue laser is 2.5mm we need to be 2.5 to 7.2 ratio and we could choose 25mm and 75mm focal length lenses placed 100mm apart. Now when we combine the beam we get a true guasian white beam. When we pass them through the spatial filter we have a white guasian spot with no color variation across the beam diameter.<br><br>Note these same equations can be used to circularize a elliptical laser beam using cylindrical lenses.<br><br>For reference:<br><br>[http://www.edmundoptics.com/techsupport ... icleid=272](http://www.edmundoptics.com/techsupport/DisplayArticle.cfm?articleid=272)<br><br>Thank you to Hanz for pointing out this very significant problem in color holography. (The solution is mine especially if I have a math error )</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Feb 04, 2006 9:26 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Does the pinhole not form a new point source of light? Is it the distance of this point source to the plate that matters? If that is the case I should think that the exit beam divergence angles don&#x27;t matter much, other than having the maximum intensity available for each beam by making each so that they cover just the entire plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Feb 04, 2006 11:57 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">based on what I&#x27;m seeing, my smallest projected spot is (and weakest)the 442nm ,which is what i will use as the base size of my hologram ,the red and green beams will be larger than the blue one ,so i should get a nice white balance across the plate, The green laser has a large diameter beam and i will have to aperture it down to fit in the spatial filter .. <br><br>im using the following lasers<br><br>632nm siemans he-ne 35mw <br><br>532nm coherent dpss 100mw<br><br>442nm omnichrome 15mw</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Feb 04, 2006 3:55 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Colin&#x27;s point that &quot;telescopes&quot; are needed in each beam of a three color system is excellent. I&#x27;d suggest that only two are really needed, however, to match (let&#x27;s say) the two smallest beam diameters to the largest one. The goal is to provide the same intensity profile, at a given distance from the pinhole, for each color. <br><br>One cannot assume that all three lasers have gaussian outputs. Combining the outputs from a HeCd, a laser diode, and an ion laser could mean you&#x27;re dealing with three different spatial mode patterns. And three different beam divergences.<br><br>I wouldn&#x27;t be too concearned about the size of the pinhole, though. It&#x27;s only there to accomodate dirty optics upstream. I&#x27;d use the largest I could get away with, to make alignment easier. The three beam diameters going into the microscope objective may be optimized, but more important is optimizing their divergences. The &quot;telescopes&quot; will allow this as well! <br><br>After choosing appropriate optics for the &quot;telescopes&quot;, I&#x27;d use a detector with a slit in front of it, mounted on a translator, to determine the spatial intensity profile across each beam at the recording plane. That&#x27;s what counts. For uniformity in the object illumination, I&#x27;d use a diffuser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Sat Feb 04, 2006 4:15 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">When you are referring to telescope, basically low power optics to alter the beams divergence ,or to take the beam and enlarge the diameter of the beam to match (or at least optimize)the other beams?<br><br>it so happens my blue and red beams seem to match very well, now its the green beam that is the largest (and most power) so by reducing via baffel and apertue , i will eliminate some intensity and maby helping to balance the exposuies</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Sat Feb 04, 2006 4:18 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">An easier way to enlarge the beams would be to let them travel longer paths. The natural divergence would enlarge the beam. To avoid path matching problems this could be done before any beam splitting.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Feb 04, 2006 6:56 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; When you are referring to telescope, basically low power optics to alter the beams divergence ,or to take the beam and enlarge the diameter of the beam to match (or at least optimize)the other beams?<br><br>Whatever works easiest with the optics you have! <br><br>Path Length - Adjusting the path lengths before the spatial filter will make the focused spot size consistant, but not necessarily the spatial profile at the recording plane.<br><br>Low Power Lens - Can adjust the beam divergences, and when used with appropriate path lengths will do the job fine I think.<br><br>Telescope - Really a beam expander (or collimator) in this application, allows control of both diameter and divergence in each beam. This puts more surfaces in the beams (though before the spatial filter), but probably takes the least space on a table.<br><br>Combination Plate - Best choice! Do what you need, with the optics you have, in each beam as necessary <em>to get a uniform spatial intensity profile at the recording plane</em>.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Feb 05, 2006 1:41 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Ah, yes I should have mentioned that my iscussion assumes the divergence to be 0 for each beam but by slightly adjusting the distance between the two lenses in the telescope you can change the divergence of each beam independently.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5365.html" class="prev-thread">← Cheap source of Laser Crystals</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5363.html" class="next-thread">optical alignment →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5601.html" class="card">
+                <h3>Spatial filtering in pulsed holography</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="1074.html" class="card">
+                <h3>color holography at home</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="1070.html" class="card">
+                <h3>trying color holography again</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="805.html" class="card">
+                <h3>Color Holography</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="786.html" class="card">
+                <h3>Questions about two color holography</h3>
+                <div class="card-meta">Equipment · 45 posts</div>
+            </a>
+            <a href="546.html" class="card">
+                <h3>Color Holography Optics setup</h3>
+                <div class="card-meta">Optics · 40 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

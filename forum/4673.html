@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1/2 wave plate holder — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4681.html" class="prev-thread">← very sad day today</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4674.html" class="next-thread">Fresnel lens for collimator →</a></div>
+    <h1>1/2 wave plate holder</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>28</td></tr>
+        <tr><td>Views</td><td>4,535</td></tr>
+        <tr><td>Started</td><td>Thu Mar 31, 2005 9:22 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnflux.html">JohnFlux</a> · <a href="../authors/michaelh.html">MichaelH</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/guest.html">Guest</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4673" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Thu Mar 31, 2005 9:22 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Just reading: [http://www.dragonseye.com/blog/archives ... l#extended](http://www.dragonseye.com/blog/archives/26-12-wave-plate-holder.html#extended)<br><br>I wasn&#x27;t sure whether to reply there or here..<br><br>I find that I need to adjust the quarter wave plate with 1 degree precision. What I&#x27;ve done is mounted them in rotational motors so that I can manually turn them with 100th of a degree accuracy. Then I use a light reader to measure the intensity in order to calibrate them.<br><br>This was quite an expensive solution though, but I built the electronics to control the motor from my PC and I can now do &#x27;scans&#x27; - where I print many pixels on a bit of film each with a different and controlled object and reference beam intensity.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 31, 2005 9:58 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">A reply in either place is fine.<br><br>What is it about your system requires such accuracy?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Thu Mar 31, 2005 6:29 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I wrote a quick program to help me with getting the energies:<br><br>Code: [Select all](#)<br>`$ ./calculate 22 17<br>This program calculates the energy for the reference and object beams<br>Using a 8x neutral density filter<br>Ref. Area =  1.69 cm² ( 1.3 ^2 )<br>Obj. Area =  1.96 cm² ( 1.4 ^2 )<br>Energy on reference is  2.97266243759  µJ.  Density is  175.897185656 µJ/cm² (Ideal is 80µJ/cm²) (Maximum is 23 µJ)<br>Energy on object is  3.17258524163  µJ.  Density is  161.866593961 µJ/cm² (Ideal is 70µJ/cm²) (Maximum given reference angle is 3.48301522825 µJ)<br>Total energy is  6.14524767922  µJ.  Density is  337.763779617 µJ/cm² (Ideal is 80µJ/cm²)<br>`<br><br>So when i run this, I&#x27;m stating the angle of my two waveplates is at 22 and 17 degrees. You can see at this angle the energy of the reference is 2.9µJ.<br><br>Code: [Select all](#)<br>`./calculate 24 17<br>This program calculates the energy for the reference and object beams<br>Using a 8x neutral density filter<br>Ref. Area =  1.69 cm² ( 1.3 ^2 )<br>Obj. Area =  1.96 cm² ( 1.4 ^2 )<br>Energy on reference is  4.12949023069  µJ.  Density is  244.348534361 µJ/cm² (Ideal is 80µJ/cm²) (Maximum is 23 µJ)<br>Energy on object is  2.98932899141  µJ.  Density is  152.516785276 µJ/cm² (Ideal is 70µJ/cm²) (Maximum given reference angle is 3.28182778597 µJ)<br>Total energy is  7.11881922211  µJ.  Density is  396.865319637 µJ/cm² (Ideal is 80µJ/cm²)<br>`<br><br>Here I have changed the main beam wave plate by just 2 degrees, and the reference beam energy has increased by a 1/3.<br><br>If I want to control the energy to within 1/2 µJ I need to control the waveplate accurately.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 31, 2005 6:39 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I think I see what you&#x27;re doing now. You&#x27;re adjusting the waveplate just upstream of your polarizing cube beamsplitter?<br><br>In my case I&#x27;m using a waveplate to rotate the polarization of the downstream reference beam in order to minimize reflections off the master plate and eliminate woodgrain as well as to maximize the amount of light that reaches my film.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 31, 2005 6:45 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Is it that you need to have a finer adjustment of your rotation? If so, do you have room to put in a precision gear box?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 31, 2005 6:54 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I don&#x27;t think so Michael because if he was using a wave plate prior to a beam splitter that fed his reference and object beams then rotating the wave plate would cause an increase in one and a decrease in the other. From his example he is only changing the intesity of one beam the while the second beam remains at a fixed intensity. He is probably using two wave plates one in each beam and rotating them independently.<br><br>John are you taking into account different polarization angle have on the fringe contrast? That is, are you using two polarizers, one in each beam after the wave plates to maintain a constant relative polarization between the two beam and varying their intensity by rotation of of the beam&#x27;s polarization via the wave plate thus allowing less &quot;proper&quot; polarized light through to the plate?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 31, 2005 7:18 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> I don&#x27;t think so Michael because if he was using a wave plate prior to a beam splitter that fed his reference and object beams then rotating the wave plate would cause an increase in one and a decrease in the other. From his example he is only changing the intesity of one beam the while the second beam remains at a fixed intensity. He is probably using two wave plates one in each beam and rotating them independently.<br><br>Where do you see this? In the data above, both beams are changing in intensity.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 31, 2005 7:30 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Michael, <br><br>&gt; I&#x27;m stating the angle of my two waveplates is at 22 and 17 degrees<br><br>Then<br><br>&gt; Here I have changed the main beam wave plate by just 2 degrees, and the reference beam energy has increased by a 1/3.<br> <br><br>In the first the angles are 22 and 17 and in the second they are 24 and 17. I am not exacty sure why they both change intensity unless he is changing the reference with the rotation of the wave plate and the object is changing because the object has changed. I am taking what he stated in the other thread &quot;digital hologaphy&quot; into account where he states, <br><br>&gt; <strong>JohnFlux:</strong> I have a quarterwave plate in front of it, so I can turn that to produce whatever ratio needed. I have another quarter wave plate on one of the beams followed by a polariser. The two together allows me to get whatever energy I want out of the two beams.<br><br>Unless he means he has a 1/4 wave then a polarizing beam splitter. Then after the beam splitter has another 1/4 wave and polarizer for tuning the one beam to the other. <br><br>Maybe I misunderstood.<br><br>John, why not split the beam 50/50 or whatever is close then have a 1/4 wave and polarizer in each of the two beams after the splitter? I sent you a drawing at your profile e-mail.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 31, 2005 7:40 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Actually in reading and rereading the other thread and this one... and his comment, &quot;How do you split the beam without polarising them?&quot; must mean the latter is correct, sorry. He must be using a polarizing cube. <br><br>Mouth shut till he clarifies.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 31, 2005 7:41 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">John, as I understand it his beam goes through the waveplate then a polarizing cube BS which varies the beam intensity of both beams as polarization changes. He&#x27;s then damping down one of the beams to provide finer ratio control.<br><br>&gt; <strong>JohnFP:</strong> John, why not split the beam 50/50 or whatever is close then have a 1/4 wave and polarizer in each of the two beams after the splitter? I sent you a drawing at your profile e-mail.<br><br>You&#x27;d (potentially) be throwing a lot more light away with a fixed ratio BS.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Thu Mar 31, 2005 7:43 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">I don&#x27;t get what is meant ... 1/4 waveplates do not rotate polarization but generate circularly polarized light. For rotation of polarization, one needs a 1/2 waveplate. For using with a polarized splitter cube, two plates are necessary, but no further polarizer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Thu Mar 31, 2005 8:07 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> I don&#x27;t get what is meant ... 1/4 waveplates do not rotate polarization but generate circularly polarized light. For rotation of polarization, one needs a 1/2 waveplate. For using with a polarized splitter cube, two plates are necessary, but no further polarizer.<br><br>For the sake of discussion I&#x27;ve been mentally translating 1/4 to 1/2 as using a 1/4 plate this way would take some magic I&#x27;m not familiar with.<br><br>The last waveplate is needed if one wants to damp down a beam using a polarizer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Mar 31, 2005 10:09 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Sorry, I think I started that misdirection. I used 1/4 incorrecty instead of 1/2 wave plate in my posts. All my posts should read 1/2 wave plates. Thanks wler!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Mar 31, 2005 11:28 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">First of all, yes he must be using a half waveplate. As wler says, a quarter wave plate makes no sense, since he&#x27;s altering the polarisation vector angle, not the polarisation state from planar to ciurcular.<br><br>It also seems there&#x27;s some confusion about how this system works. If you have a polarising waveplate, then such a waveplate takes the angle of polarisarion and splits the beam to two orthogonal polarisation states whose ratio is proportional to the angle of the input. Thus if the input beam was polarised at 45 degrees, then you&#x27;d get two beams at 1:1 with one polarised vertically and one horizontally. Now since orthogonal polarisation states don&#x27;t interfere you need to get both state parallel. You can either use mirrors and planes or you can use another halfwave plate to rotate one or other polarisation state so that both states are now parallel. To vary the beam ratio, you simply rotate the input halfwave plate. The polarisation state of a polarised beam after a halfwave plate is rotated by twice the angle of rotation of the waveplate. Thus in the example above, if you wanted a 70:30 ratio instead of a 1:1, then you&#x27;d rotate the halfwave plate by about 20% (to decrease one beam by (70-50)/(2*50), hopefully the other beam would amplify by a similar amount, &quot;hopefully&quot; being the key word here!)).Since this needs a polarising cube beamsplitter (not cheap!) and two halfwaveplates (also not cheap!), this is an expensive and complex solution. There are non-polarising cube beamsplitters which work by FTIR and are a lot cheaper, but these have a constant ratio. There are also both linear and circular variable beamspliitters that are sometimes called &quot;variable ndf&#x27;s&quot; but these have nothing to do with polarisation. Be careful that the &quot;variable ndf&quot; is not really a variable ndf!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Apr 01, 2005 4:38 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> FTIR<br><br>????????????<br><br>&gt; Be careful that the &quot;variable ndf&quot; is not really a variable ndf!<br><br>???????</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Apr 01, 2005 2:20 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">[quote:cf1069f42c=&quot;Colin Kaminski&quot;][quote:cf1069f42c=&quot;Dinesh&quot;]FTIR[/quote:cf1069f42c]<br><br>????????????[/quote:cf1069f42c]<br><br>Frustrated Total Internal Reflection. It works by the principle of evanescent waves. When the light inside a dense medium hits the surface at just the total internal reflection angle, it &quot;runs&quot; along the inside face of the medium. However, there is a small amount of &quot;leak&quot; of the e-field outside the dense medium. If another dense medium is brought into close contact, this &quot;leaked&quot; e-field produces light inside the second dense medium. You can think of it that the second dense medium &quot;sucks up&quot; the surface light. The light now propogates inside the second dense medium as well. The amount of light &quot;sucked into&quot; the second medium depends on factors like the seperation between media and the indices of the media. For an FTIR beamsplitter, you launch light into the face one medium shaped like a prism and arranging that it hits the opposite (slanted) face at j-u-u-st the total internal reflection angle. You then place another prism shaped medium, with the slanted faces parallel, vewy, vewy near the first. The evanescent waves from the first &quot;leaks&quot; into the second and propagates within, and eventually out of, the second medium. The proportion of the splitting intensity depends on how close the second medium is.<br><br>[quote:cf1069f42c=&quot;Colin Kaminski&quot;][quote:cf1069f42c=&quot;Dinesh&quot;]Be careful that the &quot;variable ndf&quot; is not really a variable ndf![/quote:cf1069f42c]<br><br>???????<br><br>[/quote:cf1069f42c]<br><br>A beamsplitter requires that one beam goes through the optic and one reflects off it. A &quot;true&quot; beamsplitter therefore has a semi-reflective surface such that some light passes through and some reflects. However, an ndf (neutral density filter) only attenuates light. The lost light is not reflected, just absorbed. &quot;Variable ndf&#x27;s&quot; are just materials with a varying amount of darkening so that the attentuation is variable along a face (if linear) or around the circle (if round). However, some so-called &quot;variable ndf&#x27;s&quot; are actually true variable beamsplitters in that the filtering in the &#x27;f&#x27; part is done by reflecting a proportion of the light rather than absorbing it. Some manufacturers don&#x27;t even have &quot;variable beamsplitters&quot; but you&#x27;ll find that their &quot;variable ndf&#x27;s&quot; are really variable beamsplitters.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Fri Apr 01, 2005 6:22 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I have this setup<br><br>Code: [Select all](#)<br>`Laser ----  WP --- BeamSplitter ---- WP  ---- polariser<br>                               \<br>                                \<br>`<br><br>It means that I usually have to change both, but it works fairly well. <br><br>I have to admit I&#x27;ve gotten myself confused whether I&#x27;m using 1/2 or 1/4 wave plates.<br><br>If you send circular polarisation through a linear polariser, is the output linear?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Apr 01, 2005 6:38 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">If you send anything into a linear polarizer, the output is linear.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Fri Apr 01, 2005 7:02 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Then I&#x27;m fairly sure I&#x27;m using 1/4 wave plates.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Fri Apr 01, 2005 7:09 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFlux:</strong> Then I&#x27;m fairly sure I&#x27;m using 1/4 wave plates.<br><br>This assumes that your laser is polarized...<br><br>Run your beam through a polarizing filter and align it so that the beam is unattenuated (full brightness). Now put your waveplate upstream and rotate it until the beam is completely extinguished (you won&#x27;t be able to get it perfect but should come close).<br><br>Can you make the beam disappear? If so, it&#x27;s a 1/2 wave plate.<br><br>If the intensity just wobbles between full brightness and &quot;dimmer&quot;, you&#x27;ve got a 1/4 wave plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Fri Apr 01, 2005 7:14 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Yes of course, I&#x27;m being stupid again.<br><br>I&#x27;m using 1/2 wave plates then. I don&#x27;t understand why I&#x27;ve thought of them as 1/4 wave plates all this time.<br><br>I have the waveplate followed by a polariser. The output is a sin^2 intensity, going from max to almost totally gone.<br><br>If it was a 1/4 waveplate, then one would either get a variation from max to dim, or from dim to gone, but not from max to gone.<br><br>I think.. I&#x27;m getting myself confused.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Apr 01, 2005 9:32 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Part of this confusion arises with the confusion over waveplates and polarisers. It seems pretty common since I&#x27;ve seen this confusion often. <br><br>Let&#x27;s start at the basics. Light is an oscillating electric vector (I&#x27;m ignoring ther magnetic component now). This means you can associate an arrow of sorts with a light beam. This arrow grows and diminishes as the light travels forward, but it&#x27;s always at right angles to the direction of travel of the light. This means that if the light travels from left to right then the electric vector, the polarisation, is either up-and-down or away-and-toward or at any angle between the two. If you imagine the direction of light travel as a rod, then imagine there&#x27;s a dinner plate attached at right angles to the end of the rod. Any line drawn across the dinner plate is a possible polarisation direction. Now you have two possibilities: the dinner plate, with the line drawn across it is toddling along steadily and the line is alweays in the same direction, or the dinner plate is itself revolving. In the former case, with the line constant and fixed, you have plane polarisation, in the latter, with the dinner plate revolving, you have circular polarisation. If the plate is randomly rotating and suddenly altering it&#x27;s direction of rotation at random times, it&#x27;s called unpolarised. Note it isn&#x27;t truly &quot;unpolarised&quot;. &quot;Randomly polarised&quot; is more accurate.<br><br>In the former case, you can draw any line on the dinner plate. You can draw a vertical one, a horizontal one, one at 45 degrees, one at 38.4567 degrees if you wish - any old line. A polariser is a gadget that has a long slit in it (OK, on it). This means that if you orientate the polariser so that the slit is vertical, then any line drawn horizonatlly on the plate won&#x27;t go through. The slit is vertical and the line is horizontal. Note, it doesn&#x27;t alter the drawn line, it merely stops it from going through. Orientate the slit horizontally and now the line goes through. If the line is at some angle, then only part of it goes through - the part that fits &quot;inside&quot; the slit (if you&#x27;re interested, this is known as Malus&#x27;s Law). As Bob says, anything sent through this slit comes out linear because the slit itself is linear. Note also that if the dinner plate is revolving (circular polarisation) then the amount of light that goes through depends on whatever angle the line was at when it met the slit. If the beam is &quot;unpolarised&quot; then whatever direction the line was, that proportion comes through, but there&#x27;s no predictability as there is in a well-behaved rotating plate. The next plate behind it may have a totally unpredictable direction of the line.<br><br>Now imagine a gadget that&#x27;s programmned so that it looks at the line on the dinner plate and redraws it. This is a half wave plate. Why it works is the subject of crystal optics - where stuff goes funny - but effectively, the half wave plate (also called a retarder) redraws the line on the dinner plate according to a built-in axis. Since the axis on the retarder is built in, you can change the direction that this gadget redraws the line by merely rotating the gadget. This changes the axis on the waveplate and so the the waveplate redraws the line on the plate in a different direction. This is actually a half wave plate - half because of the mathematical thing called a phase relationship of 3.14159265358976/2 - Hey, the other kids in the class spent their time tossing around footballs, cricket balls and all manner of other balls. Me, I spent my time memorising pi <br><br>Now suppose you had a gadget that looked at the dinner plate&#x27;s state, ie was it rotating or not. If it was not, this gadget would set it rotating, while if it was, this gadget would stop it roatating. That is, if the beam were circularly polarised, it would coinvert the light to plane polarisation while if th beam were plane polarised, it would change it to circular polarising. This is a quarter wave plate.<br><br>So, an unpolarised beam can be made poarised by passing through a polariser. The direction of the beam is now whatever direction the &quot;slits&quot; in the polariser happened to be. This &quot;slit direction&quot; is known as the pass axis. However, an unpolarised beam poassing through a halfwave plate would simply result in another unpolarised beam but the direction of the polarisation would alter. The gadget would simply look at the present line, figure out a new line based on it&#x27;s own axis and redraw the new line. The new line has a fixed relationship to the old line. As the old line changed (poalrisation is altering) the new line would change accordingly (polarisation is still being changed). A polarised beam going through a half wave plate will have it&#x27;s direction of polarisation altered by a half wave plate and converted to circular polarisation by a quarter wave plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFlux</span>
+                <span class="post-date">Mon Apr 04, 2005 4:20 am</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">I spent the whole weekend reading feynman&#x27;s lectures on physics, from interference, scattering, birefringence, polarisers, optical activity and so on. I think I understand it all, including how 1/4 &amp; 1/2 wave plates work (it&#x27;s merely a birefringent material).<br><br>A couple of questions if you don&#x27;t mind..<br><br>It seems to be that every birefringent material that grid structure (i.e. ignoring cockscrew etc molecules) is a wave plate for a particular wave length of light, and every wave plate is a birefringent material.<br><br>Correct?<br><br>Also:<br><br>It seems logical to me that you could treat circular polarization as just 2 completely separate waves that just happen to have the same center. After all light isn&#x27;t &#x27;waving&#x27; anything - there&#x27;s nothing physical to say there&#x27;s 1 or 2 waves.<br><br>I&#x27;m worried that this break down because it seems to require the centers being exactly the same (although I don&#x27;t see any reason they have to be.. perhaps we just treat that case as being two separate overlapping waves that if treated the same would like like an egg.)<br><br>Also a circular polarized wave has angular momentum. can this still be accounted for if treated as two separate waves? My gut feeling is yes, but I do not see how mathematically.<br><br>Another question.. instead of half wave plates, couldn&#x27;t we replace them with a material with optical activity with corkscrew shaped molecules. This way it would rotate the beam a certain angle independently of the wavelength (as far as I understand it). This has obvious advantages over half wave plates that produce circular polarisation if the wavelength is a bit wrong. Am I correct?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Apr 04, 2005 4:37 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">&gt; Another question.. instead of half wave plates, couldn&#x27;t we replace them with a material with optical activity with corkscrew shaped molecules. This way it would rotate the beam a certain angle independently of the wavelength (as far as I understand it).<br><br>I used a quartz polarization rotator for years, to rotate the polarization of my He-Ne beam by 90 degrees. Quartz is optically active if cut right, but the rotation is dependant on wavelength and length. In 1982 it was cheaper to buy new than a halfwave plate for the application. Turning the laser head on its side didn&#x27;t seem like a good idea (SP-907) because of the location of the cooling holes in it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Mon Apr 04, 2005 8:20 am</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFlux:</strong> Another question.. instead of half wave plates, couldn&#x27;t we replace them with a material with optical activity with corkscrew shaped molecules. This way it would rotate the beam a certain angle independently of the wavelength (as far as I understand it).<br><br>You can also use mica insulating washers (found at any well supplied electonics parts store) to rotate the polarization. The only drawback is that their optical quality is iffy. You can&#x27;t beat the price though, cents each.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Apr 04, 2005 3:08 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">You can also stack layers of saran wrap as it is bifringent as well. Getting the correct number of layers for your frequency take some patience.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Apr 04, 2005 10:03 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">[quote:1275978eea=&quot;JohnFlux&quot;]<br><br>A couple of questions if you don&#x27;t mind..<br><br>It seems to be that every birefringent material that grid structure (i.e. ignoring cockscrew etc molecules) is a wave plate for a particular wave length of light, and every wave plate is a birefringent material.<br><br>Correct?[/quote:1275978eea]<br><br>Not completely. Birefringent materials have specific axes, called the optic axes, depending on the anisotropy of the crystal structure. Not all crystal structures are optically anisotropic, the structure itself must be anisotropic. Thus, only only hexagonal, tetragonal and trigonal crystal structures are birefringent. Salt, a symmetric, cubic crystal, has no birefringence. Of the ones that are, some are uniaxial and some are biaxial. The uniaxial ones have only one optic axis and the biaxial ones have two. These optic axes give rise to differences in refractive index and also splits the polarisation of the wwaves. Thus a uniaxial, birefringent material has two indices of refraction, the so-called ordinary and extraordinary, also known as o and e. Thus any wave travelling at any direction except along the optic axis, splits into two waves - the e-wave and the o-wave - with polarisations at right angles to each other. The directions of the e-wave and the o-wave are in general different however, the e-wave tends to revolve around the o-wave. Thus if you look at some text through a piece of calcite, you&#x27;ll see the text split. As you revolve the crystal, one image will revoilve while the other stays still. <br><br>If the wave travels perpendicular to the optic axis, then the o- and e-waves travel in the same direction with orthogonal polarisations, however there is a variation in the wave velocity. Thus the phases of the two waves are seperated in space. On leaving the crystal, at the other face, the two phases combine together to give a resultant phase. <br><br>I&#x27;m a litle wary of dealing with the physics of optical phenomena here, since this forum is more interesting in the &quot;nuts and bolts&quot; aspect of holography. If you&#x27;re interested in birefringence and polartisation you can always email me.<br><br>[quote:1275978eea=&quot;JohnFlux&quot;]<br><br>Also:<br><br>It seems logical to me that you could treat circular polarization as just 2 completely separate waves that just happen to have the same center. After all light isn&#x27;t &#x27;waving&#x27; anything - there&#x27;s nothing physical to say there&#x27;s 1 or 2 waves.[/quote:1275978eea]<br><br>Yes, mathematically.<br><br>[quote:1275978eea=&quot;JohnFlux&quot;] I&#x27;m worried that this break down because it seems to require the centers being exactly the same (although I don&#x27;t see any reason they have to be.. perhaps we just treat that case as being two separate overlapping waves that if treated the same would like like an egg.)[/quote:1275978eea]<br><br>Light will find it&#x27;s own &quot;centre&quot;. Remeber you&#x27;re talking of something that&#x27;s only half a micron or so! Light does not travel along a nice, neat line. That&#x27;s too simplistic. Light is a field with electric and magnetic fields all over the place. The particular line for any given beam will always be &quot;in line&quot; with another beam. Remeber that the optic axis is a direction, not a line.<br><br>[quote:1275978eea=&quot;JohnFlux&quot;]<br><br>Also a circular polarized wave has angular momentum. can this still be accounted for if treated as two separate waves? My gut feeling is yes, but I do not see how mathematically.<br><br>[/quote:1275978eea]<br><br>The brealkdown of a circularly polarised wave into two (not necessarily) orthogonal waves is more of a mathematical trick. You &quot;resolve&quot; the two directions of the e-field into two components. Terms like &quot;angular momentum&quot; have to be considered with a certain amount of care when dealing with electromagnetic fields, since these too are mathematical concepts in a sense. Again, I&#x27;m a litle wary of dealing with the physics of optical phenomena here and you can always email me.<br><br>[quote:1275978eea=&quot;JohnFlux&quot;]Another question.. instead of half wave plates, couldn&#x27;t we replace them with a material with optical activity with corkscrew shaped molecules. This way it would rotate the beam a certain angle independently of the wavelength (as far as I understand it). This has obvious advantages over half wave plates that produce circular polarisation if the wavelength is a bit wrong. Am I correct?[/quote:1275978eea]<br><br>Yes, true. However, you&#x27;d have to find a material with enough of a difference between the e- and o-waves to be able to cut up a material to create a phase difference of pi/2.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Guest</span>
+                <span class="post-date">Tue Apr 05, 2005 12:46 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> You can also stack layers of saran wrap as it is bifringent as well. Getting the correct number of layers for your frequency take some patience.<br><br>Have you ever passed a beam through something like this? UGLY. How do you keep down the multiple reflections from each layer?</div>
+        </div>
+
+    <div class="thread-nav"><a href="4681.html" class="prev-thread">← very sad day today</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4674.html" class="next-thread">Fresnel lens for collimator →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="7757.html" class="card">
+                <h3>LSD = 1/2 wave plate</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="7752.html" class="card">
+                <h3>Cubed Beam Splitter and 1/2 Wave Plate</h3>
+                <div class="card-meta">General Holography (old) · 14 posts</div>
+            </a>
+            <a href="9951.html" class="card">
+                <h3>Zero order quartz wave plate options?</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="371.html" class="card">
+                <h3>proper use of half wave plate</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="128.html" class="card">
+                <h3>Building a new plate holder</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="7650.html" class="card">
+                <h3>What kind of wave plate for variable attenuation?</h3>
+                <div class="card-meta">Beginning Holography · 12 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

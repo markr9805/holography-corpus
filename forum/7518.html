@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolving neighboring distant points: Fresnel zone plates — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7526.html" class="prev-thread">← Chemical Disposal</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7508.html" class="next-thread">hologram depth →</a></div>
+    <h1>Resolving neighboring distant points: Fresnel zone plates</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>29</td></tr>
+        <tr><td>Views</td><td>10,539</td></tr>
+        <tr><td>Started</td><td>Mon Sep 08, 2008 6:49 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/favalora.html">favalora</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/martin.html">Martin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7518" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Mon Sep 08, 2008 6:49 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello - <br><br>There is a question in a different thread regarding how the parameters of one&#x27;s laser impacts your hologram&#x27;s ability to reconstruct &quot;deep&quot; images. I am curious what other factors influence this. Certainly this has been answered before in elementary textbooks (though I searched three, including not-so-elementary ones, and can&#x27;t find the answer.)<br><br>For instance, what does a theoretically perfect Gabor-type (i.e. directly on-axis) hologram look like of a scene with a single point? It&#x27;s a Fresnel zone plate, I suppose a sinusoidal one. What does the hologram of two points look like assuming the points are on the same normal vector to the hologram? I&#x27;m not sure, but one interesting thing to consider is simply treating them as point sources.<br><br>Here is the result of playing around with Mathematica. Did I make some awful error here? I&#x27;m assuming the interference fringes add linearly (so I just divided by the number of sources). I suppose what this is showing is that there is useful information - low-frequency beat modulation of an underlying high spatial frequency - distant from the center of the fringe pattern.<br><br>This suggests that your film quality is important - you need a setup that can capture the intended contrast between beams, and also handle the frequency needed to reconstruct well along depth.<br><br>Oh, and, this confirms the well-known notion that points close to the hologram will be recorded best. (That is, the information is relatively &quot;broad&quot;, with predominantly low-spatial frequency information.)<br><br>Ok - so - where did I completely mess this up? (Colin I hope I can delete this thread in the future so Google doesn&#x27;t capture my gaffes forever...)<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Sep 08, 2008 8:06 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Gregg Favalora wrote:<br>&gt; Here is the result of playing around with Mathematica.<br><br>There is a plug-in for Mathematica called Optica, written by a fellow holographer, Don Barnhart. I am not sure of exactly how to get the program, which would undoubtedly prove useful for this problem and most other optical engineering concerns..<br><br>The answer might be found in the Benton book Holographic Imaging. I got it for &lt; $100 on Amazon. It is almost all equations, being mainly a mathematical development of holography. I haven&#x27;t encountered any set up tips or secret processing formuale yet, but I just waded through the section on zone plates, which is pertinent to the above discussion. This is a book to be read slowly and deliberately. If you are math-phobic, you can leave this one off your Xmas list!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Mon Sep 08, 2008 10:33 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hi Ed - <br><br>I agree; I like Benton &amp; Bove&#x27;s book a lot. Although I don&#x27;t have the hardcover, I had an uncharacteristic moment of foresight &amp; downloaded all of the chapters while it was still a Media Lab course.<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Sep 09, 2008 12:55 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Yeah, why buy the cow when you can get the milk for free! The book does flow a lot smoother than the downloads. I don&#x27;t know if the class notes are still on-line, but if anyone wants to PM me care of this forum I will send them the pdf&#x27;s.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Sep 09, 2008 5:11 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Gregg,<br><br>Thank you for starting this thread. I am very interested in the answer to this question as well. I believe there is a fall off of resolution do to depth but I have not seen any equations to describe it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Thu Sep 11, 2008 10:20 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Colin, <br><br>I see that many of the forum members have commented that it is difficult to buy holographic film. Does it turn out that there are very few types of film to buy in the first place, implying that my point has limited practical relevance?<br><br>g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Sep 11, 2008 10:49 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">DCG has unlimited resolution, well not really unlimited but surely much better then silver halides. <br><br>It would be good to take some low res film, high res film and some DCG and test. Maybe even throw in some High resolution aireal film for super low res if doing in line transmission.<br><br>Example: Slavich VRP-M (low res), Slavich PFG-03C (high res) and DCG <br><br>Expose all with the same wavelenth (green) and set up using a ruler or yardstick as the object (thanks again Jeffrey).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Sep 11, 2008 5:09 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>favalora:</strong> Colin,I see that many of the forum members have commented that it is difficult to buy holographic film. Does it turn out that there are very few types of film to buy in the first place, implying that my point has limited practical relevance?g<br><br>There are few films available but we are making more and more at home. I think this is one of the best topics we can talk about. I have read all of the books on holography and the resolution away from the film plane is not discussed to my knowledge. I have studied the effects of aberrations away from the film plane. So for a theoretical discussion we need to talk about a transmission hologram replayed with the same laser and with no shrinkage. Shrinkage and replay bandwidth will cause aberrations that will cloud this discussion.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Sep 11, 2008 10:40 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">I&#x27;ve finally gotten a chance to chime in again. I think that if what you want to know is what is the smallest thing that can be resolved at a certain distance, the same calculations apply to finding the resolution of a hologram as do finding the diffraction limited resolution of a lens! It&#x27;s all about the angle between the extreme rays from the edge of the optic, or the f/number, which is like the formula for finding fringe spacing. d = lambda/sin theta, theta being the angle formed by the top of the hologram to the object point to the bottom of the hologram. This angle could vary depending if you used the big side, the short side, or the diagonal of a rectangular hologram. But as the object point gets further from the holo, the angle will become more acute, causing larger fringes or speckle, meaning less resolution.<br><br>This is just off the top of my head, as I am proctoring a test right now, without access to my library, but I think it should suffice.<br><br>And no, I am not going to say where is Dinesh when we need him!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Sep 12, 2008 9:40 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> I have read all of the books on holography and the resolution away from the film plane is not discussed to my knowledge.<br><br>I have definitely noticed this effect also, and it certainly occurs in DCG, and if an explanation exists in the literature, I missed it. (Just to clarify the actual observed effect, I think (?) it differs from the blurring caused by an extended replay source, rather it&#x27;s like a graininess or noisiness when objects get futher away from the emulsion plane.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Fri Sep 12, 2008 8:10 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">you are talking about the MTF of any particular optical system (in this case its a hologram), the way to test the MTF(modulation transfer function), is by taking an object (like a 1951 TARGET,see below) and send the image thru a collimator, so its plane waves are entering the hologram parallel(as if from infinity), when the target is refocused by the hologram or lens, whatever your testing), that target image is resolved ,preferably under a microscope to visually see how low you can see these line pairs (radically and tangentially), this is the LPPM (line pairs per millimeter), or diffraction limit of the optical system. in the old days i had to test these monster lens systems, in order to sell them to the DOD (department of defense). the system needed to resolve 220 line pairs per millimeter (which is like reading a license plate of a car from five miles distance)!in some of the older holography books they used the 1951 target to check resolution.<br><br>![Image](http://upload.wikimedia.org/wikipedia/en/thumb/d/d6/1951usaf_test_target.jpg/200px-)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Sep 13, 2008 10:07 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Thanks Ed and Dave. The question of resolution versus distance from film is an interesting one. Like Colin, I think this is very much worthy of discussion.<br><br>It really is a noticeable effect in the DCG holograms I&#x27;ve seen and made. For objects touching the emulsion, or in very close proximity to it (say a few millimeters) the resolution is incredibly high. Anyone who has worked with DCG can verify this. However, this high resolution falls off quite quickly as the distance from the film increases. The objects start to look a bit grainy. For a Denisyuk hologram, at about two to three inches back from the film, the graininess is quite noticeable.<br><br>Personally, I would approach the problem from a design standpoint rather than a technical standpoint. That is, I wouldn&#x27;t include (in the same hologram) an object that nearly touches the emulsion, and other (significant) objects which are way in the back. For example, say you have two small human figures in your hologram. One is right up against the film, and looks incredibly clear. The other is three inches back and quite grainy. If there is an obvious visual connection between the two figures, this would be pretty much unacceptable in my opinion.<br><br>So to work around the problem, I would first include objects that are neither too close to the film plane, nor too far away. I would probably cluster the most significant objects in the zone that is between 1 and 2 inches back. Objects further away would be fine, but it would be better if they are of the &quot;background&quot; type.<br><br>These are good reasons to &quot;think small&quot; and make judicious use of forced perspective.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Sat Sep 13, 2008 6:35 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Hi - <br><br>It&#x27;s good to see all this discussion.<br><br>Just to be &quot;Mister Obvious&quot; for a second, it looks like we&#x27;re talking about two different observations (which are probably manifestations of a similar physical cause). (1) how the resolution in the plane PARALLEL to the hologram degrades with distance, and (the reason I began this thread) (2) how the resolution along the NORMAL to the hologram degrades with distance.<br><br>Yes, as someone noted above, I suspect that the size of the hologram is an important factor in creating a &quot;well-focused&quot; point -- just as it is important for any lens. I.e., the smaller the lens (or aperture, or whatever), the more noticable its diffracive effects are.<br><br>And some aspect of that lame math simulation in my first post seems to support that. There&#x27;s important information for reconstructing two distinct points (along <em>z[]/i]) far away from the center of the superimposed zone plates.If I didn&#x27;t have a wicked-bad cold right now I might be able to think about this a little more clearly.g</em></div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Sun Sep 14, 2008 6:57 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I bet the recording material and the layer thickness may equally play an important role here.<br><br>Regarding image resolution, Bjelkhagen/Vukičević (Investigation of silver halide emulsions for holography, SPIE 2043) compared several recording materials (PFG-03, IAE, 8E75, DCG and Omnidex). PFG-03 and Omnidex performed best according to that paper. DCG was said to be about as good (or bad) as 8E75. I wonder how much this is due to the particular processing scheme involved. <br><br>&gt; In spite of the common opinion that silver halide materials are inferior to the other grainless recording materials it was established that the performance of the silver materials, in particular, the ultra-high resolution emulsions fo the Russian type is very promising. Such materials have better image resolution than dichromated gelatin materials and are compatible with the photopolymer material in this aspect. (p.29)<br><br>Incidentally, the authors mention that using several wavelengths (color holograms) does increase image resolution.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Sep 14, 2008 3:58 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">Joe, with reflection holograms the only to increase depth that I have found is to make the replay bandwidth as narrow as posible. If using a laser to replay your DCG holograms do you still notice noise away from the film plane?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Sep 14, 2008 5:30 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I&#x27;m not sure about this, Colin, but I think the blurriness (i.e. lack of depth) in a broadband hologram is something different compared to the &quot;graininess away from the film plane.&quot; Narrowband holograms are known to provide better depth (less blurriness), but if I had to wager, I would say that the graininess issue would still be present. I haven&#x27;t checked these effects under laser light. Maybe someone with more experience with broadband versus narrowband can comment on this.<br><br>It seems to me that the best way to increase &quot;depth&quot; is through the use of forced perspective. Books on perspective would make excellent bedtime reading for holographers. But while there is a lot of information on perspective as applied to painting (on a two-dimensional surface) there are none to my knowledge on &quot;forced perspective&quot; applied to three-dimensional objects. However, forced perspective has been used for centuries in stage scenery, and this is sometimes discussed in the literature.<br><br>The first treatise to come down to us on perspective is by Alberti. This used to be available (maybe it still is?) as a cheap Peguin paperback, and is called &quot;On Painting.&quot; This was written around 1435. Many other books followed, up to the present day. But the most straightforward discussion of perspective for the modern reader, as far as I know, is &quot;Perspective, A Guide for Artists, Architects and Designers&quot; by Gwen White (first published in 1968) and now available as an inexpensive paperback.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Mon Sep 15, 2008 10:55 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> The first treatise to come down to us on perspective is by Alberti. This used to be available (maybe it still is?) as a cheap Peguin paperback, and is called &quot;On Painting.&quot; This was written around 1435. Many other books followed, up to the present day. But the most straightforward discussion of perspective for the modern reader, as far as I know, is &quot;Perspective, A Guide for Artists, Architects and Designers&quot; by Gwen White (first published in 1968) and now available as an inexpensive paperback.<br><br>Here&#x27;s an interesting pdf file, discussing Erwin Panofsky&#x27;s <em>Perspective</em> ([http://www.sumscorp.com/articles/pdf/19 ... 0Later.pdf](http://www.sumscorp.com/articles/pdf/1980%20Panofskys%20Perspective%20A%20Half%20Century%20Later.pdf))</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Sep 15, 2008 1:06 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Thanks for the link, Martin. Maybe if more holographers would get interested in perspective, they would also be more interested in making their own sculpture. Above all else, this is what holography needs right now.<br><br>A great deal can be learned from the literature on perspective in painting. But it will need to be applied to three dimensional objects (this is commonly known as &quot;forced perspective&quot; and is seen very rarely, such as on a stage set). But while it&#x27;s comparatively simple to put some background objects into perspective as a backdrop on a stage, it&#x27;s much more difficult to put a whole scene into forced perspective.<br><br>But to simplify things, I visualize a forehortened three-dimensional space as box in the shape of a four-sided pyramid. The viewer looks at the inside of the box towards the inverted point of the pyramid. This is the vanishing point. (By the way, the viewer&#x27;s eye must be &quot;locked&quot; into a particular position, and a particular distance from, the &quot;base&quot; of the pyramid, which is also the &quot;picture plane&quot; where the holographic emulsion would be located).<br><br>This box can be imagined to be a &quot;room&quot; or other area which, in real life, has 90 degree angles between the floor, walls, and ceiling. But to &quot;force&quot; the perspective we need to change this situation, hence the box begins to assume a pyramid shape. If the sides slope inward at only 2 degrees, then you would have a very slight amount of forced perspective, and a very long pyramid.<br><br>Now is where it starts to get complicated. Imagine that in the &quot;real world&quot; box (with 90 degree angles) that the interior is divided up into a number of small &quot;cubes&quot; that are true cubes. So if we had a box that was 10 X 10 X 10, we would have 1,000 cubes. If we insert our sculpture into this hypothetical space, there would be no perpsective or foreshortneing whatsoever.<br><br>But since the objective is to have a shallower sculpture, and have the scene appear much deeper than it actually is, we need to force the perspective and change our box into a pyramid. I mentioned above that a 2 degree angle (for the floor, walls, and ceiling, all going to the &quot;vanishing point&quot; of the pyramid) would have only a slight effect. But if we increase this to 5 degrees, the effect will be more substantial. By the time we get to 10 degrees, we receive a huge benefit, and the actual depth of a foreshortened object in the scene may only be 1/2 of its unforeshortened depth. As a result, we can compress very large scenes into very small spaces. The price we pay is that, as we move our eye outside of that single &quot;locked position&quot; that I mentioned above, the forced perspective becomes noticeable. The degree to which it becomes noticeable depends on the degree of foreshortening used, and the available viewing angles.<br><br>The reason why I said that it gets complicated above is because each of those 1,000 cubes in the &quot;normal&quot; box gets modified in a different way when the box becomes a pyramid (i.e., when the perspective gets forced). They will be much &quot;flatter&quot; than normal cubes (going back into space) and their four &quot;sides&quot; will be angled in innumerable ways. This is where the books on perspective need to be consulted, and where a lot of thought and experimentation will be required. But if you know the shape of those &quot;foreshortened cubes&quot; then you can fit your sculpture into them without any problems.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Sep 15, 2008 3:35 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Martin said: <br>&gt; I wonder how much this is due to the particular processing scheme involved.<br><br>I shot that holo, and it was narrow band blue. The target was in contact with the emulsion. I would think that this would be the way for the ultimate in resolution, but one never knows what happens when things get out of your lab. Especially compared to DuPont materials which were noisy/grainy in their own wierd way. The funny thing about this whole test was when Hans gave his presentation to his granting agency, he was claiming higher resolutions for the materials based on the contact copies of the USAF target by an order of magnitude or so, like you could see cells in the hologram! He misread teh res target! Ooops!<br><br>Also I don&#x27;t get how multiple wavelengths could increase resolution! The longer lambda would be the limiting factor.<br><br>To clear up confusion, or at least what I think of as the crux of the problem, is how small of an object point can you see in a hologram? Practical testing would be done with a USAF (or NBS) target as Joe notes above. If many targets are placed at various positions in depth in the hologram, how far down in the chart would one be able to see at each location? Higher spatial frequencies (more line pairs per millimeter) would be seen in the closer targets, and the deeper targets would have larger bars lost to speckle.<br><br>Which is the point of the formula I had given above, the basic interference fringe spacing. And it&#x27;s all about the angle between the extreme rays that define the point. As Gregg points out a couple posts above, resolution at lower f/numbers gets worse. (Depth of field does increase in photography as the f/# gets bigger, iris getting smaller, but the smallest things one can see get bigger! Lenses that are used for some sub-micron lithography for computer chip masks run at f/#&#x27;s less than unity to get incredible resolution, but obviously there is very little tolerance in the image plane for mis-placement.)<br><br>Objects near the hologram plane will have lower f/#&#x27;s. F/# in lenses is defined as focal length divided by diameter of exit pupil; in holo it would be object distance divided by the height (or width or diagonal) of the holo plate, which is the hologram&#x27;s exit pupil. An object 10 cm away from a 10 cm tall holo plate would be at an f/1 position. There would be a big angle between the extreme rays for that object point, like 53 degrees, and at 633 nm that would give about .8 microns of resolution capability!<br><br>For an object one meter away from the plate, the calculated fringe spacing would be over 6 microns before the object points would be lost in speckle.<br><br>To prove to any doubting Thomases out there that resolution gets worse as exit pupils get smaller, just look at anything lit up with laser light. Make a sphincter with your thumb and forefinger and &quot;stop down&quot; your eye and watch the speckle get larger as the diaphragm gets smaller.<br><br>This stuff is theoretical, but it does show what resolution is possible with a hologram. The resolving power of the holographic recording material is kind of a moot point, its requisite resolution having to be capable of recording the holographic fringe pattern. The monkey wrench it can throw into the mix is its noise factor, reducing contrast, leaving the legibility of the target up in the air. And of course distortions of the layer during processing would also muck things up. This might be why the test of recording materials cited above would vary, as it might have been more of a signal to noise issue rather than true holographic resolution. <br><br>This would apply to any style of holo, reflection or transmission, and of course the ultimate resolution implies single wavelength replay, with shorter wavelengths capable of higher resolution.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Sep 15, 2008 5:27 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Also I don&#x27;t get how multiple wavelengths could increase resolution! The longer lambda would be the limiting factor.<br><br>Maybe they were thinking as opposed to a red recording. I guess if you throw blue and green in, the overall resolution would be better. But as opposed to a blue recording I suppose it would be worse.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Sep 15, 2008 6:16 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Joe, I have used forced perspective in theater sets and there it is common. Can you take your above post and make an article for the wiki on what forced perspective is and how to make it happen? When I have done it I have just stood in the audience and laid out the lines to look like what I want. However there is a purely mathematical approach that would make it much more consistent.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Tue Sep 16, 2008 5:54 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Also I don&#x27;t get how multiple wavelengths could increase resolution! The longer lambda would be the limiting factor.<br><br>If I am not misled, this might be due to the speckle issue: in a &quot;full color“ Denisyuk recording scheme you&#x27;ll have at least three different recordings (three different wavelengths) of the same object. This superimposition of multiple gratings will lower speckle contrast and hence improve image resolution.<br><br>Of course this relates to white light reconstruction.<br><br>By the way, a guy involved with the (full color) holographic recordings of archaeological artifacts, sent me his dissertation. According to this, on their holograms they were able to distinguish image details as low as 3um or so.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Sep 17, 2008 5:29 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">It might be nice if they were to share this dissertation with the forum, as it is rare to hear of anyone working with a color set up.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 17, 2008 6:34 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">Martin provided the following link, which gives a general description. He didn&#x27;t know if the project is still active, however.<br><br>[http://campus.uni-muenster.de/cebop/pro ... jek7_e.htm](http://campus.uni-muenster.de/cebop/projekt7/projek7_e.htm) <br><br>I really think this is a good idea. I mentioned to Martin that it&#x27;s a shame that these kinds of ideas don&#x27;t seem to catch on, as far as museums go, in this country. I guess the situation is a lot different in Russia. I think a museum of any size should either have its own holography lab, or a good holographer on retainer. Ed, what is your experience with &quot;museums and holography&quot;?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Sep 17, 2008 9:03 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I really think this is a good idea. I mentioned to Martin that it&#x27;s a shame that these kinds of ideas don&#x27;t seem to catch on, as far as museums go, in this country.<br><br>are you aware there is a seminar going on about this very subject? lets hope its a sucessful one!<br><br>![Image](http://www.holoworld.com/images/HMM72.jpg)<br><br>THEME: <br><br>TO PROMOTE THE USE AND UNDERSTANDING OF HOLOGRAPHY IN MUSEUMS<br><br>•	Display Holography is a tool that has been used by various museums around the world since the medium was first developed in the 1960s recent developments in full colour techniques make it far more viable and attractive.<br><br>. <br><br>•	Holography has proved a popular subject for museum exhibits in the past but has recently been neglected by curators, who tend to have little experience of the medium<br><br>•	Holography, as a useful tool in conservation work, is not widely understood. <br><br>The goal of the conference is to address some of these issues by inviting speakers with experience of working in the various areas and by inviting museum professionals to attend.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Sep 18, 2008 9:58 am</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Thanks, Dave, I didn&#x27;t know about it. That&#x27;s a good sign, hopefully it will have a positive effect.<br><br>I think the main problem (as has been suggested elsewhere) is the &quot;prior reputation&quot; of holography. That is to say the &quot;holography of the 1980&#x27;s.&quot; The monochrome aspect of traditional holos would be a real downer for museum applications.<br><br>Really, a great deal of progress has been made in terms of color holography, to the point where I don&#x27;t think it&#x27;s such a big deal anymore. Yes, three lasers are required. But the price of these would be almost inconsequential to an institution of any size. Really, all that&#x27;s needed is a Melles blue which is about 5K, a 315 which is about 1.5K, and good 127 which can be found for about 1K. So the total laser cost is only about $7,500. Really this figure is just a drop in the bucket. Then color holos can be cranked out on PFG-03C without any problems.<br><br>The only tough part would be for the museums to find qualified holographers, but there are quite a few right here on this forum!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Sep 18, 2008 4:44 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Joe, The other thing we are lacking is research into the long term stability of the holograms. You have done as much study as anyone. I don&#x27;t think PFG-03 has a chance to last 200 years.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Sep 18, 2008 7:24 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> The other thing we are lacking is research into the long term stability of the holograms.....I don&#x27;t think PFG-03 has a chance to last 200 years.<br><br>I would tend to agree, Colin. Maybe if it were kept in dark place, it would last a long time, and if it does print out somewhat, maybe it wouldn&#x27;t be too bad. But in any event, I don&#x27;t think silver halide materials would inspire any confidence from a conservator&#x27;s standpoint. I only suggested it because it would be capable of getting some quick results. Sometimes those quick results are needed.<br><br>But in the long run, I would favor panchromatic DCG. If a &quot;progressive&quot; museum could just invest a modest amount of time and money in DCG development (and employ a competent holographer like myself ) I think the results would be spectacular.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Fri Sep 19, 2008 7:00 am</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Joe, The other thing we are lacking is research into the long term stability of the holograms. You have done as much study as anyone. I don&#x27;t think PFG-03 has a chance to last 200 years.<br><br>Well, thinking of the case of the Baghdad historical treasures (see: [http://www.tomdispatch.com/post/4710/ch ... vilization](http://www.tomdispatch.com/post/4710/chalmers_johnson_on_robbing_the_cradle_of_civilization) and [http://www.tomdispatch.com/post/174968](http://www.tomdispatch.com/post/174968) - and not to forget what happened to the civilian population - we might have to cope with more urgent tasks when it comes to survival.<br><br>Having said that, I also wished there had been more studies on long-term stability of holograms. I wonder which of the three recording materials, AgX, DCG, photopolymer, has the best chances to last a few hundreds of years.</div>
+        </div>
+
+    <div class="thread-nav"><a href="7526.html" class="prev-thread">← Chemical Disposal</a><a href="Beginners.html">↑ Beginning Holography</a><a href="7508.html" class="next-thread">hologram depth →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11487.html" class="card">
+                <h3>Harman Technology Holo FX plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 2 posts</div>
+            </a>
+            <a href="11225.html" class="card">
+                <h3>Using a 660nm laser to expose legacy AgX Agfa, Ilford, HRT (BB) plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 12 posts</div>
+            </a>
+            <a href="11073.html" class="card">
+                <h3>Nick Brandreth’s Lippmann Plates</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="10915.html" class="card">
+                <h3>Removing Emulsion from PFG-01 Plates</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="8895.html" class="card">
+                <h3>Old plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 2 posts</div>
+            </a>
+            <a href="8796.html" class="card">
+                <h3>Homemade Plates</h3>
+                <div class="card-meta">Equipment · 20 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

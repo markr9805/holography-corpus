@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decent cheap timed shutter? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="10514.html" class="prev-thread">← student looking for laser</a><a href="Equipment.html">↑ Equipment</a><a href="10382.html" class="next-thread">TRANSMISSION MASTER TO REFLECTION COPY - QUESTION →</a></div>
+    <h1>Decent cheap timed shutter?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>27,912</td></tr>
+        <tr><td>Started</td><td>Thu Jul 04, 2019 2:11 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/nnnn.html">Nnnn</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/vasimv.html">vasimv</a> · <a href="../authors/pluto.html">pluto</a> · <a href="../authors/grayham.html">Grayham</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=10501" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Nnnn</span>
+                <span class="post-date">Thu Jul 04, 2019 2:11 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Exactly as the topic says, does anyone happen to know of a decent electronic timed shutter?<br><br>It seems like the answer is to build it myself, but I know embarrassingly little about electronics.<br><br>From what I understand, I can use a &#x27;solenoid shutter&#x27; for a digital camera:<br><br>[https://ebay.to/2KW76Wb](https://ebay.to/2KW76Wb)<br><br>And attach to it a &#x27;relay timer.&#x27;<br><br>[https://ebay.to/2NxCPPD](https://ebay.to/2NxCPPD)<br><br>I&#x27;m not sure if these two items in particular work witch each other, but it seems like they should.<br><br>Is there a better/recommended solution staying within the realm of under $10-40?<br><br>I remember seeing things like using a modified power meter for a shutter in Practical Holography, but that would still require hand operation, which I&#x27;m trying to get around.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Jul 04, 2019 5:05 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Check this out: [http://edweslystudio.com/Pedagogy/TS/TimeTS.html](http://edweslystudio.com/Pedagogy/TS/TimeTS.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Nnnn</span>
+                <span class="post-date">Thu Jul 04, 2019 5:26 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Ed Wesly to the rescue again! I&#x27;ve heard of the old camera method but never really understood how it worked before I saw this, so thanks!<br><br>Reading this, it sounds like a voltage meter + darkroom timer would be a good setup for longer exposures, too. <br><br>Thanks again for all the help.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">vasimv</span>
+                <span class="post-date">Thu Jul 04, 2019 11:20 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I&#x27;m planning to build one with a sail servo (i&#x27;m using laser diodes without collimating lenses, so beam is quite big) and arduino or ESP8266 microcontroller (so it could be activated remotely). Actually, any servo will go if you want to block just collimated beam, so shutter would be very small. Firmware for the arduino would be very simple, it is basically in any servo library examples, just need to add some code to control it from button.<br><br>Biggest problem - vibrations from the servo and shutter&#x27;s movement itself. I&#x27;m goiing to mount these on wall, not on table.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Jul 04, 2019 5:51 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I keep my shutters on the table, on heavy metal bases, with a mouse pad (remember those?) underneath them.[http://edweslystudio.com/LabTour/Lasers ... ble19.html](http://edweslystudio.com/LabTour/LasersOnTable/LasersOnTable19.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">pluto</span>
+                <span class="post-date">Fri Jul 05, 2019 6:18 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>vasimvwrote:↑Thu Jul 04, 2019 11:20 am:</strong> I&#x27;m planning to build one with a sail servo (i&#x27;m using laser diodes without collimating lenses, so beam is quite big) and arduino or ESP8266 microcontroller (so it could be activated remotely). Actually, any servo will go if you want to block just collimated beam, so shutter would be very small. Firmware for the arduino would be very simple, it is basically in any servo library examples, just need to add some code to control it from button.Biggest problem - vibrations from the servo and shutter&#x27;s movement itself. I&#x27;m goiing to mount these on wall, not on table.<br><br>This is the cheapest option. All you need is a $5 nodeMCU board + $1 SG90 servo and you&#x27;re all set. For higher powers I use a graphite thimble type thing as a beam dump (cheap on eBay). I wrote some code to spawn a webserver and host a simple webpage that controls the shutter open/close. If anybody wants the code, PM me. Nothing fancy, but might be useful to non-programmers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Grayham</span>
+                <span class="post-date">Mon Jul 08, 2019 3:31 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hi,<br><br>You can get really cheap delay timers of Ebay these days. They cost about £5-10.<br><br>The timers have an input triggered countdown timer and a relay timer with many different programs.<br><br>For example I set my timer to count down 4 mins to let things settle and then to fire the relay for 9 seconds for plate exposure. The relay fires my shutter.<br><br>This is similar to mine and much cleaner than an arduino set up.<br><br>[https://www.ebay.co.uk/itm/12V-LED-Disp ... SwyjNdIwvv](https://www.ebay.co.uk/itm/12V-LED-Display-Automation-Digital-Delay-Timer-Control-Switch-Relay-Module-O8Q3/192981006265?epid=915485366&amp;hash=item2cee9077b9:g:XoIAAOSwyjNdIwvv)<br><br>You will also find dedicated shutters on ebay as well. Something like this<br><br>[https://www.ebay.co.uk/itm/NM-Laser-Hig ... SwepZXRfks](https://www.ebay.co.uk/itm/NM-Laser-High-Speed-Miniature-Laser-Shutter-1006249A-Rev-A-1006249/282847556365?hash=item41db07330d:g:ysYAAOSwepZXRfks)<br><br>Do a search on delay timer or laser shutter.<br><br>Grayham</div>
+        </div>
+
+    <div class="thread-nav"><a href="10514.html" class="prev-thread">← student looking for laser</a><a href="Equipment.html">↑ Equipment</a><a href="10382.html" class="next-thread">TRANSMISSION MASTER TO REFLECTION COPY - QUESTION →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8524.html" class="card">
+                <h3>cheap recording spectrometers?</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="8475.html" class="card">
+                <h3>cheap photopolymer holography?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="186.html" class="card">
+                <h3>Panchromatic silver halide on the cheap w/dyes?</h3>
+                <div class="card-meta">Techniques · 32 posts</div>
+            </a>
+            <a href="8247.html" class="card">
+                <h3>Recommend cheap laser pointers for holography?</h3>
+                <div class="card-meta">Beginning Holography · 3 posts</div>
+            </a>
+            <a href="7772.html" class="card">
+                <h3>CGH, are there any cheap options?</h3>
+                <div class="card-meta">Beginning Holography · 5 posts</div>
+            </a>
+            <a href="7609.html" class="card">
+                <h3>After 3 years, I&#x27;m back! Anyone doing cheap pulsed holos?</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

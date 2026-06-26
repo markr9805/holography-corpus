@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question about fringe expansion — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="813.html" class="prev-thread">← question about beamsplitter cube &amp; waveplates</a><a href="Optics.html">↑ Optics</a><a href="732.html" class="next-thread">How did I do this? →</a></div>
+    <h1>question about fringe expansion</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>13,118</td></tr>
+        <tr><td>Started</td><td>Fri Jan 17, 2014 2:05 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=802" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 17, 2014 2:05 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">If anyone can offer some advice or suggestions about the following question, it would be appreciated.<br><br>I have a secondary interferometer running on my table to monitor fringe drift. It would be helpful to magnify these fringes to a size of ~10mm for a single bright fringe. Some lens configurations were tried, but I&#x27;m having difficulty. I would like to keep the screen for the fringes on the table, so I only have about 12 inches of space to magnify them, going from the beamsplitter to the screen.<br><br>I assume very small convex lenses with a lot of curvature would be good for the purpose. I wonder if a single lens or a series of lenses would be better.<br><br>The basic problem is to get ~10mm fringes in 12 inches of space.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Jan 17, 2014 5:10 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> If anyone can offer some advice or suggestions about the following question, it would be appreciated.I have a secondary interferometer running on my table to monitor fringe drift. It would be helpful to magnify these fringes to a size of ~10mm for a single bright fringe. Some lens configurations were tried, but I&#x27;m having difficulty. I would like to keep the screen for the fringes on the table, so I only have about 12 inches of space to magnify them, going from the beamsplitter to the screen.I assume very small convex lenses with a lot of curvature would be good for the purpose. I wonder if a single lens or a series of lenses would be better.The basic problem is to get ~10mm fringes in 12 inches of space.<br><br>You have several solutions. I&#x27;m assuming that you have two input raw (ie unexpanded) beams mixing into one output raw beam with an interference pattern superimposed. You now want to expand the output raw beam so as to create a disc of about 20mm (one 10mm bright fringe and one 10mm dark fringe).<br><br>One solution is to pass them through a negative lens. The negative lens diverges the output, so a fast negative lens, say f#1 or 2, should take a raw beam with diameter of about 1mm to a disc about 20mm. Another solution is a ball lens, eg [http://www.edmundoptics.com/technical-r ... ll-lenses/](http://www.edmundoptics.com/technical-resources-center/optics/understanding-ball-lenses/). Another solution is cocktail shaker with no pattern on it. These make very good, fairly fast cylindrical lenses. Since you only need magnification along one axis, a fast cylindrical lens may do it. You can of course always use two cocktail shakers at right angles to each other.<br><br>If we assume that the input beam is approximately 1mm and you want to expand that to 20mm over a distance of 300mm (~12in), then the focal length of the lens of a positive lens is given by<br><br>1/(2f) = 10/(300-f)<br><br>Given the above figures, this comes to f = 14mm or about half an inch. If ytou use a negative lens, you have more leeway.<br><br>As for the question of a single lens as opposed to a series of lenses, a single lens may be better. The reason is that a series of lenses is basically put together to reduce aberrations. In this case, since you&#x27;re using a laser, aberrations is not really an issue. More to the point, assembling the series of lenses may create aberrations unless the lens series is carefully aligned. Since this is for metrology, aberrations would throw your results.<br><br>Remember also, the spatial frequency depends on the interbeam angle, so the smaller the interbeam angle, the lower the spatial frequency and the broader the frnge system.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 17, 2014 5:39 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thank you Dinesh. As always, your help is appreciated. I made a mistake saying &quot;convex&quot; lens instead of &quot;concave&quot; but by suggesting the negative lens, you corrected it. My negative lenses don&#x27;t provide a lot of expansion, that&#x27;s probably the main problem.<br><br>I have a very tiny ball lens, maybe around 1.5mm diameter, but always had trouble using it, due to the small size. But since you mentioned it, I now remember that I have some Pyrex balls which are bigger, 5/32 and 1/4 inch in diameter. These are definitely worth a try, thanks for the reminder.<br><br>By the way, in case anyone is interested, they have a surprising amount of Pyrex items at McMaster-Carr, and they are quite cheap. These are a good alternative to the much more expensive items from optics suppliers. I&#x27;ve recently bought balls (optical quality), plates up to 3/4 inch thick made using the Borofloat process, tubes, and rods.<br><br>Thanks also for the focal length formula, and the suggestion of the swizzle stick as a cylindrical lens. Also, as you mentioned, I&#x27;m finding that multiple lenses seem to mess up my fringes, much cleaner fringes were obtained with one or two lenses. That&#x27;s a good point about the importance of the interbeam angle, it&#x27;s something which needs to be kept in mind.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jan 18, 2014 12:52 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Just an update. The Pyrex ball works, although previously I said these (from McMaster-Carr) were of optical quality, but after testing, I wouldn&#x27;t go that far. But as I recall, even the ball lens from Edmund (maybe ~1.5mm in size) seemed noisy when used in a laser beam. This 4mm (5/32&quot;) Pyrex ball produces a lot of noise, and I don&#x27;t know the reason for it. But the beam expansion is good, especially when a second negative lens is used. In the attached photo, only the Pyrex ball is used. When making fringes for an interferometer, the interbeam angle is important, as Dinesh said. To get big fringes, the two beams should strike the beam combiner (beamsplitter or piece of glass) at exactly the same point, thereafter, the combined beams should be exactly co-linear until it meets the beam-expanding optic. It&#x27;s a back and forth process, get the beams striking the same point on the beamsplitter, which will throw off the co-linear quality of the combined beams, then tilt the beamsplitter to get them co-linear, which will throw off the beams striking the same point. Go back and forth until it gets there</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Jan 18, 2014 1:09 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">To get the alignment right ditch the lenses, ball and otherwise. Place a mirror where your screen usually is and bounce those two beams across the room as far as you can. Looking at those far away beams adjust your mounts so both are co-linear. That extra distance will increase the resolution of what you can see of the alignment. <br><br>Place your lenses back in and finely tweak one of the mounts so the fringes are at their largest.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jan 18, 2014 1:16 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks Jeffrey, I will give it a try and report back</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jan 18, 2014 1:49 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">A million thanks Jeffrey. What a dummy I am!<br><br>I never even thought about aligning those beams properly without the lenses in place. How dumb can you get. I didn&#x27;t even need to use a mirror, just a white card about 6 inches after the beamsplitter.<br><br>It took about 2 minutes to get the following result with a single negative lens.</div>
+        </div>
+
+    <div class="thread-nav"><a href="813.html" class="prev-thread">← question about beamsplitter cube &amp; waveplates</a><a href="Optics.html">↑ Optics</a><a href="732.html" class="next-thread">How did I do this? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="8590.html" class="card">
+                <h3>Question about dichromate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="8511.html" class="card">
+                <h3>Newb(?) question about perceived depth</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8482.html" class="card">
+                <h3>question about color changes</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

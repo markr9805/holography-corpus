@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLM-50 DPSS Blue Laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6435.html" class="prev-thread">← Holography Show</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6433.html" class="next-thread">Mode Hopping (sliced bread) →</a></div>
+    <h1>BLM-50 DPSS Blue Laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>22</td></tr>
+        <tr><td>Views</td><td>16,116</td></tr>
+        <tr><td>Started</td><td>Wed Sep 05, 2007 2:27 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/frothychimp.html">frothychimp</a> · <a href="../authors/jandb26.html">jandb26</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6434" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 05, 2007 2:27 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have had the great fortune of coming across a DPSS laser to play with. It has made holograms before but it seems it does mode hope. I set up a rail interferometer and separated the two legs by 5” (10” coherence length). I get really nice contrasty fringes but I do see a blur of the fringes followed by a definite fringe jump sometimes. I assume this is the laser getting two lasing lines to compete and if the one not previously dominate wins the fringes jump. Sometimes I get the blurriness without the actual hop. Bad still. <br><br>So I need to query the talent on the forum for some information.<br><br>First, the laser is 473 rated at 50mW but I measure it putting out 74mW. It is a nice Tem00 mode beam profile. It has nice coherence as I mentioned above. The specs on the module claim it is TEC cooled (specs at bottom). Now what does that mean? <br><br>Does it have the thermoelectric module placed at the Diode? <br><br>Does it have a non sophisticated TEC controller in the power supply that just doesn’t have a fine enough resolution?<br><br>I read that the heat has to be taken away from the hot end of the thermoelectric module. So, if I simply place a nice heat sink on the hot side of the Thermo module, will that help in stabilizing the laser? Of course I have to find out how the where that hot side is in relation to the head. The 315 has it on the bottom. So that is probably where it is.<br><br>Do, I need to get a better TEC controller for the unit?<br><br>Is it simply that I have to dial down the power somehow to get it more stable and if so, is there a pot in the power supply that can do it? It is rated at 50mW and I am getting ~75mW out.<br><br>Sorry, lots of question and I am not in a big hurry as it seems after about 40 minutes, the laser stabilizes enough that I can time my exposures in between hops. It seems there is a pretty nice block of time in between the hops that the laser acts very stable. I will simply have to steal a little light with a piece of glass after the laser, and send it down the interferometer. <br><br>Then to get fancy, I could set up the fringe locker such that the shutter only opens when the fringes are in the exact location. That is, if they move or fuzz out the shutter closes then reopens when the fringes return to their exact location. I would have to separate the two diode detectors quite a bit in the modified locker to accommodate a hop to another near by set of fringes. But I believe as a last resort it may work<br><br>So, does anyone have any advice for this laser, The BLM-50?<br><br>Thanks in advance,<br><br>John<br><br>Specifications:	BLM-10	BLM-30	BLM-50	BLM-75	BLM-100<br><br>Output Power	10mW	30mW	50mW	75mW	100mW<br><br>Wavelength:	473nm<br><br>Beam Diameter (1/e2):	~2mm @ output mirror<br><br>Beam Divergence:	&lt;1.5mrad<br><br>Beam Quality (M2):	&lt;1.2<br><br>Cooling Means:	Thermo Electric Cooling (TEC)<br><br>Dimensions (Head):	116 x 73 x 46mm<br><br>Dimensions (PSU):	130 x 120 x 65mm<br><br>Expected Lifetime:	&gt;10,000hrs<br><br>Frequency:	1-10kHz (Optional up to 50kHz)<br><br>Linewidth:	&lt;0.1nm<br><br>Operating Current:	&lt;1A<br><br>Operating Temperature:	10-35oC<br><br>Operating Voltage:	90-240VAC, 50~60Hz<br><br>Output Mode:	CW, Analog or Modulation (TTL)<br><br>Pointing Drift:	&lt;0.05mrad per hour<br><br>Stability:	+/-2% @ 4hrs<br><br>Transverse mode:	TEMoo<br><br>Warm-up time:	&lt;10mins<br><br>Weight (Laser Head):	0.645Kg<br><br>Weight (Power Supply):	1Kg<br><br>Warranty:	1 Year</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 05, 2007 2:29 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Whoops, here is the laser.<br><br>[http://www.extremelasers.com/BLM.htm](http://www.extremelasers.com/BLM.htm)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 05, 2007 3:32 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">John, even though interferometers are useful, I am always skeptical until actual holograms are made.<br><br>The intermittent exposure control idea is interesting, though. I think I mentioned before that this idea has been published, and I finally found this among my papers a while back. I&#x27;m a bit pressed for time at the moment, but as soon as I get the chance, I will email it to you.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 05, 2007 4:55 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Wow Joe. Do you know how amazing it is to have a thought and then see it completely done on paper...lol. That&#x27;s exactly what I have in mind. What gave me the idea was the years of working with a fringe locker to lock the expanded fringes in place. <br><br>I will implement this idea immediately manually. With that I mean, I will be using a SBR with the plate lying right on the object. Then steal some light and set up the interferometer. Open the shutter only at the most stable of times and make sure no hop happens in between shots. <br><br>Again, even with a nice electronic apparatus, an actual hop would not be compensatable unless the # of fringes was somehow counted between a certain distance and if that number of fringes changed (the laser actually hopped) the shutter would not be opened back up until the original line was relasing and the number of fringes went back to the original number (sheesh, hope that made sense).<br><br>I will keep all apprised of my findings and hope other will comment if they have any experience with these lasers also. What really excites me is the mention that these lasers are TEC controlled. <br><br>Thank you for your time,<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Sep 05, 2007 5:46 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">A hop can not be compensated for because the distance between the fringes changes not the placement. The only reasonable fix for mode hopping is temperature control.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 05, 2007 6:28 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I don&#x27;t see any reason why an intermittent exposure control (either manual or automatic) can&#x27;t be tried for a laser that is mode-hopping. In other words, blocking the beam when the fringes start wavering or washing out. Hasn&#x27;t this already been done successfully by a forum member? I seem to recall that it has, but I can&#x27;t remember if it was described in a personal message, or posted on the forum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Sep 05, 2007 7:01 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">The big problem would be when the laser settles down to a new frequency after the mode hops. I have made exposures that use a microscope slide as an etelon in an unused leg to detect mode hops and just placed the card in the beam when the laser gets noisy. This only works on really long exposures and it is not 100%. This idea was given to me be an old forum member, Jonathan Head.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 05, 2007 7:26 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> The big problem would be when the laser settles down to a new frequency after the mode hops.<br><br>I agree that would be a problem, but there&#x27;s a chance (?) a blue DPSS laser (with a different cavity structure, of course, in comparison to a diode laser) might be different in this respect.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Sep 05, 2007 8:23 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; I set up a rail interferometer and separated the two legs by 5” (10” coherence length). I get really nice contrasty fringes<br><br>This doesn&#x27;t necessarily mean you have long coherence length. You might have very short coherence length repeating so often that you have a hard time getting right in a minimum. Joe&#x27;s right, make a hologram with it to test coherence length!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Sep 06, 2007 2:52 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I set up a rail interferometer and separated the two legs by 5” (10” coherence length). I get really nice contrasty fringesThis doesn&#x27;t necessarily mean you have long coherence length. You might have very short coherence length repeating so often that you have a hard time getting right in a minimum. Joe&#x27;s right, make a hologram with it to test coherence length!<br><br>This is what I found with a greeen laser pointer I played with.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Sep 06, 2007 1:25 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin:</strong> A hop can not be compensated for because the distance between the fringes changes not the placement. The only reasonable fix for mode hopping is temperature control.<br><br>Colin, I agree with this statement and I think I mentioned it previously. It is very plain to see when the laser mode hops. But as I mentioned sometimes the fringes go ever so slightly blurry, then return to nice and contrasty. And sometimes, after the laser has warmed up, it takes minutes for the blurriness to happen. Thus not sure if I have to do multiple exposures or just time the shutter during the stable parts, but it would be a technique that would open some doors.<br><br>BobH, I understand now. What causes a repeating coherence like that and what can be done externally to corect it?<br><br>I hope to try some exposures this weekend ....on film....<br><br>I will keep you all posted.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Sep 06, 2007 2:11 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; BobH, I understand now. What causes a repeating coherence like that and what can be done externally to corect it?<br><br>This is the classic behavior of a laser running in two lines. The two lines have a beat frequency that is the periodic coherence.<br><br>[http://en.wikipedia.org/wiki/Beat_frequency](http://en.wikipedia.org/wiki/Beat_frequency)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Sep 08, 2007 5:35 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">John, are you able to adjust the power of your DPSS laser? I am curious about it&#x27;s behaviour at very low powers because green DPSS are usually very stable at minum power levels.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Sep 10, 2007 10:33 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Hans, I was thinking of trying the same thing. The laser is supposed to be a 50mW and it is putting out 75mW. There is no external way to decrease power. I wrote the supplier of these lasers and asked for information but they have not gotten back to me yet. <br><br>I did manage to get the new &quot;table (if you can call it that)&quot; set back up and I do have a rail inteferometer in which I can view the fringes real time when doing the exposure. So I guess now it is time to make plates and see what I can get. <br><br>I mounted the laser to a heat sink and after playing with setting up the new table, an hour or more had passed. At that time, there is virtually no mode hopping at all but I cannot tell of the coherence length/dual line thingy yet.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">frothychimp</span>
+                <span class="post-date">Mon Sep 17, 2007 2:59 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">The stats given above for the laser list it as having CW, Analog or TTL modulation. If this is true get yourself a nice clean 0-5volt adjustable power supply. Hook it up to the BNC connector on the back of your driver and viola you can adjust the beam output from 0 to max (75mw) with an input between 0 to 5 volts. Your power supply needs to be very stable and cannot drift, within reason if you want to maintain an exact output power.<br><br>Can I ask what you paid for the DPSS system? I&#x27;m asking because the power stability in the specs is +/-2% which doesn&#x27;t tell me what the baseline stability is. These systems are manufactured in &lt;5% and &lt;10% power stability.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Sep 17, 2007 4:03 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Actually it was very gratiously lent to me. So what I have posted is all I know. <br><br>I will post info about hologaphic stability in the near future.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 19, 2007 1:09 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I made 6 holograms last night. All were 2&quot; x 2&quot;. 3 were made with Great Lakes and 3 with Knox. The film was sent to me by a fellow hologapher. So I was testing the film, the new laser I am using and a completely 3rd world hologaphy set up. <br><br>I basically, set my lab up with minimal components and tried to stay within guide lines that someone with a limited budget and novice, could do quite easily, I will take some photos and post then here. I do not use any vibration isolation table at all.<br><br>The film results shocked me. The film was over 24 hours old and the Great Lakes, which is labeled 250 bloom came out milky white not matter what I did. I used 4 alcohol baths starting with 35%, I used all temperatures at 69F. I then did the same for the Knox and the plates were clear. Knox, was told to me to from the manufacturer that it is about 225 bloom. This is very puzzling. There must be something in the way the Great Lakes is made that keeps it softer, or somehow the bloom was mislabeled for that sample. Those were the first two shots. The next two, and then the last two again were first Great Lakes and then Knox but I raised the temperature of the processing baths for each of the pairs unitil I was shooting Fixer - 70F, Water - 78F, 35% - 90F, 70% - 90F, 91% - 95F and 100% - 120F. The Great Lakes continued to get more milky wereas the Knox remained clear, even at the elevated temperatures.<br><br>Now for the laser, even after 3 hours I still saw mode hopping and drift in the real time interferometer. In one hologram I saw about a 1/4 wave drift and is evident on the hologram by a single fringe on the object that covers about 1/4 of the object. I also saw some shuttering of the light off to the parallel side of fringes but this would stop. And finally I saw a competition of wavelegths as the fringes would lose contrast for a while and then come back real contrasty. I was able to get a 82 second exposure, just to test a long exposure and did not see any drift, wiggle or dimming of fringes. The hologram came out very bright without any signs of a short coherence length. Out of the 6 holograms there were only two in which I timed the shuttering incorrectly and saw fringe instability in one way or another during the exposure.<br><br>These tests are not conclusive yet, but I do believe with a real time interferometer, and a knowledge from studying the fringes and timing the shutter, this laser can be used to make nice holograms.<br><br>I will be making some 4x5 or 5x7 plates in which I will be testing the laser futher. I will keep you all posted on my next set of results with this laser. <br><br>John<br><br>PS: I never saw it as this way before, but in making a hologram, the whole hologram need to be made in a single fringe. While watching the fringes on the interferometer and see it move 1/4 fringe then seeing that exact 1/4 fringe on the hologram, made me see holographic recording in a new way. That is, the entire hologram must be made within a single fringe. Not sure how to explain it, but that is how I see it now....<br><br>Peace!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Sep 19, 2007 5:36 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Well done, John! I hope to hear more about your work.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Sep 20, 2007 10:26 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Boy, what a dumbo I am. It just so happens the object I used was a little building for, what I thought was a non mode hope, non competing line expose but the building, the part that I shot, has contour lines on its wall. I guess to represent some type of siding. Anyway after looking much closer there are lots of sliced bread lines, but just hidden because of the lines already on the building. This also is evident on another hologram I made of part of a porcelain lamp. Only the specular reflection of a Demi Tas coffee cup saucer which is very shallow did not have sliced bread fringes.<br><br>This is very depressing. I guess sometimes you want something to work so bad you’re subconsciously subjective instead of being completely objective.<br><br>I will still do more testing but unfortunately; it seems the steps I have taken so far do not eliminate the sliced bead phenomena in this laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Sep 20, 2007 11:56 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Anyway after looking much closer there are lots of sliced bread lines....I guess sometimes you want something to work so bad you’re subconsciously subjective instead of being completely objective.<br><br>I know that feeling well, John. Sometimes those contour lines are not apparent at first, but on closer inspection, they become visible. I went through this routine with diode lasers.<br><br>But I think a mode-hopping blue laser can still be very helpful when it comes to DCG. Since DCG requires a considerable amount of experimantation, it can be used as a &quot;temporary&quot; blue laser, if someone doesn&#x27;t mind seeing the contour bands. The easiest way to make good DCG holograms is with a blue laser, because the film doesn&#x27;t need any special or unusual preparations. Then it&#x27;s easier to concentrate on &quot;basic&quot; DCG holography. One can always upgrade to an argon laser or Melles solid-state blue laser at a later date.<br><br>On the other hand, we&#x27;ve seen some spectacular MBDCG holograms in photos posted on this forum, which were made with a HeNe.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jandb26</span>
+                <span class="post-date">Tue May 11, 2010 11:47 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">I just got a BLM-100 blue laser. Does anyone know of somewhere to get a manual. I am interested in any information on this laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Fri May 14, 2010 12:57 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">here is the Patent information that may be helpful ..........................<br><br>[http://www.abcpatents.com/4809291.pdf](http://www.abcpatents.com/4809291.pdf)</div>
+        </div>
+
+    <div class="thread-nav"><a href="6435.html" class="prev-thread">← Holography Show</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6433.html" class="next-thread">Mode Hopping (sliced bread) →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="4743.html" class="card">
+                <h3>cooling fan on Melles Griot blue DPSS laser</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a>
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="471.html" class="card">
+                <h3>Coherent Compass 315M-100 DPSS 532nm Laser Holography Single</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="192.html" class="card">
+                <h3>Need a blue laser solution</h3>
+                <div class="card-meta">Equipment · 28 posts</div>
+            </a>
+            <a href="8208.html" class="card">
+                <h3>DPSS laser  with &quot; NEAR TEM00 &quot;</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="7540.html" class="card">
+                <h3>Oxxius blue DPSS lasers?</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

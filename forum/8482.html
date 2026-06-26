@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question about color changes — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8486.html" class="prev-thread">← short paper on DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="8476.html" class="next-thread">paper on red-shifting of DCG →</a></div>
+    <h1>question about color changes</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="DCG.html">DCG - Dichromated Gelatin</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>4,758</td></tr>
+        <tr><td>Started</td><td>Thu Oct 15, 2015 8:33 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8482" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 15, 2015 8:33 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;ve noticed that on some narrowband MBDCG holograms, the reconstructed color can change a lot with angle of illumination/viewing (for example from red to green). On others, the color can stay fairly constant. I&#x27;m assuming the fringe structure is getting distorted at some point during processing, and that a relatively undistorted fringe structure would play back a single color over a fairly wide range of viewing angles. The long final baking (say at 60C) causes some slow shrinkage, and I was wondering if the fringes are also getting distorted (which seems likely), and if this is the predominant reason for shifting colors during reconstruction. My layers are around 25 microns thick.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Oct 15, 2015 12:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It depends on whether you&#x27;re shooting H1/H2 or single beam Denisyuks. Even so, there may be many reasons for this colour change<br><br>Generally, the colour of a reflection hologram is based on the plane separation, angle of recon wrt the reference angle and recon wavelength. There&#x27;s a formula in Kogelnik connecting plane separation with colour of reconstruction with angle of recon light. But, without any further information, I&#x27;m assuming you&#x27;re shooting a Denisyuk and, as you vary the angle, the angle of the recon beam is changing. As this changes, the recon beam &quot;see&quot; a different plane separation and so, since you&#x27;re reconstructing with white light, the new plane separation alters the recon colour. Effectively, as you change angle, the planes &quot;pick out&quot; a different component of the white light.<br><br>If the colour stays consistent, it&#x27;s either an H1/H2 setup, or it&#x27;s a fairly broad band hologram.<br><br>&gt; <strong>Joe Farina:</strong> I was wondering if the fringes are also getting distorted (which seems likely),<br><br>It&#x27;s possible, but if the planes are getting distorted, then the output wave (the image) will be aberrated. In this case, depending on the amount of distortion, the image will show noise.<br><br>&gt; <strong>Joe Farina:</strong> I&#x27;m assuming the fringe structure is getting distorted at some point during processing,<br><br>The processing alters the plane separation, but it doesn&#x27;t necessarily distort the planes. Remember, in a reflection display hologram, all the planes are fairly twisted to begin with, ie they&#x27;re already distorted. The nice, neat little parallel lines you see in papers and books is an idealisation. Real planes are never parallel lines all at the same angle. This is why writers who state the infamous tanh squared formula, or any formula, as the &quot;efficiency of the hologram&quot; don&#x27;t really understand the Bragg structure. The tanh squared function is an idealisation for a <em>non-slanted</em> set of planes, which cannot model a display hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Oct 15, 2015 5:02 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thank you Dinesh, that helps. These are simple Denisyuk holograms. Some of them keep the same color over a wide angle, but some don&#x27;t.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8486.html" class="prev-thread">← short paper on DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="8476.html" class="next-thread">paper on red-shifting of DCG →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="815.html" class="card">
+                <h3>question about split-beam color</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="8590.html" class="card">
+                <h3>Question about dichromate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="8511.html" class="card">
+                <h3>Newb(?) question about perceived depth</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

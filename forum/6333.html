@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavelength stability requirements — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6334.html" class="prev-thread">← Questions Re: C315m Laser</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6330.html" class="next-thread">New holography business →</a></div>
+    <h1>Wavelength stability requirements</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>16</td></tr>
+        <tr><td>Views</td><td>4,644</td></tr>
+        <tr><td>Started</td><td>Fri Jul 06, 2007 11:37 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/cristiano-perrucci.html">Cristiano_Perrucci</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/dcgman.html">dcgman</a> · <a href="../authors/glajciorz.html">glajciorz</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/wler.html">wler</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6333" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Fri Jul 06, 2007 11:37 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">A few months ago I started experimentation with a laser cannibalized from a DVD burner. <br><br>I shot several holos but all shown rings due to mode-hops. I tried to stabilize the temperature with a generous heat-sink without any improvement. <br><br>This week I&#x27;ve finished to build a closed-loop TEC control (based on MAX1968 integrated circuit and a NTC) that allows laser temperature stability within 0.01C. <br><br>The question is: <br><br>What is the minimum wavelength stability for holographic purpose? <br><br>Attached you find the laser diode behaviour (constant current, Pout=80mW) without TEC and with TEC in closed-loop configuration. <br><br>Measurements are done with a Anritsu MS710C Opt. Spectr. Analizer. coupling the free-space optical signal to a single mode 9um fiber. <br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/ld660nmMM.gif)<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/ld660nmSM.gif)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Jul 06, 2007 2:22 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Coherence Length, Bandwidth and Wavelength Stability are all synonyms and can be converted with simple equations. I know I posted them to the wiki. I can&#x27;t remember if they are here:<br><br>[http://www.holographyforum.org/HoloWiki ... nce_Length](http://www.holographyforum.org/HoloWiki/index.php/Equipment#Longitudinal_Modes_and_Coherence_Length)<br><br>But it is a good start.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Fri Jul 06, 2007 5:15 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">from your second chart, I see that the full width of the curve at half power (i.e. 6dB below the max) is approximately 0.3nm. This is your figure for delta lambda<br><br>coherence length=(lambda squared) divided by (delta lambda)<br><br>So the coherence length of the cooled laser diode is 1.4mm</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Fri Jul 06, 2007 8:03 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>dcgman:</strong> from your second chart, I see that the full width of the curve at half power (i.e. 6dB below the max) is approximately 0.3nm. This is your figure for delta lambdacoherence length=(lambda squared) divided by (delta lambda)So the coherence length of the cooled laser diode is 1.4mm<br><br>Having had a second look at the graph, it seems as if the delta lambda is nearer 0.1nm, making the coherence length 4.2mm</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">glajciorz</span>
+                <span class="post-date">Fri Jul 06, 2007 9:19 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hi. <br><br>Alchemist, do you have measurements for lower output powers (40mW or less) ?<br><br>What kind of controller do you use - PID ?<br><br>What kind of power supply do you use for your diode ?<br><br>Did you make any holograms using cooled diode ?<br><br>greetings<br><br>Adam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Sat Jul 07, 2007 6:52 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>glajciorz:</strong> Hi.Alchemist, do you have measurements for lower output powers (40mW or less) ?<br><br>No, I don&#x27;t. I&#x27;ve just started experimentation with stabilized temperature.<br><br>&gt; What kind of controller do you use - PID ?<br><br>Yes. The basic design is the one suggested by MaximDallas in their website. I used op-amps of Analog Device (AD8574) because of their low-noise and easy availability.<br><br>&gt; What kind of power supply do you use for your diode ?<br><br>A simple constant current generator with a single transistor and a stable reference voltage on the Base.<br><br>&gt; Did you make any holograms using cooled diode ?greetingsAdam<br><br>I&#x27;m finding a couple of free hours, I&#x27;m going to do this today.<br><br>Cheers,<br><br>Cristiano</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Sat Jul 07, 2007 11:04 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">I&#x27;ve just finished to make a test holo with cooled LD.<br><br>It worded fine with a 20mm depth object (Denysiuk). No signs of mode-hops or instability .<br><br>Here the working conditions:<br><br>- 250 x 250 mm MBDCG plate<br><br>- 7 mins exposure time (the plate was evenly exposed)<br><br>- 5 minutes laser module warm-up<br><br>Here a few pictures of the laser and control breadboards<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/ldfrontview.jpg)<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/ldtopview.jpg)<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/ldrearview.jpg)<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/breadcontrol.jpg)<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/laseron.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Jul 07, 2007 4:10 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Nice work! Keep us updated with results. <br><br>Here is MaximDallas&#x27;s website:<br><br>[http://www.maxim-ic.com/](http://www.maxim-ic.com/)<br><br>Do you have a schematic you can post?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sun Jul 08, 2007 10:39 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Wow, that looks nice and compact. Did you mount the bottom of the laser unit to a large heat sink? You need a thermal mass that is several times larger than the mass on the laser side of the peltier.<br><br>Also, I noticed that you don&#x27;t use shielded/grounded cables for feedback of temperature and feed-forward of laser diode current. It&#x27;s important to use shielded cables in both cases to make sure there is no cross-talk from the highly noisy high current that goes through the peltier and the temperature feedback.<br><br>I noticed that you use only two terminals of the laser diode. So no power sensing feedback. That is very good. But just to make sure, you do supply the diode constant current, yes?<br><br>If you have good temperature stability and shielded cables, you should be able to get coherence length of several meters with powers up to about 40mW.<br><br>Ah, I just noticed you use a constant current source with a single transistor. Please bear in mind that they are quite sensitive to changes in ambient temperature. Did you measure the current through the diode for a longer period of time?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Sun Jul 08, 2007 1:54 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Nice work! Keep us updated with results.Here is MaximDallas&#x27;s website:http://www.maxim-ic.com/Do you have a schematic you can post?<br><br>Sorry for the hand drawn schematic, I worked for many years with a CAD software, so when I&#x27; playing with my toys I prefere the old method... each time I&#x27;m approaching to Eagle PCB, Orcad PCB and so on, I&#x27;m feeling like suffering from an allergy! <br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/bboard.gif)<br><br>&gt; <strong>Hans:</strong> Wow, that looks nice and compact. Did you mount the bottom of the laser unit to a large heat sink? You need a thermal mass that is several times larger than the mass on the laser side of the peltier.<br><br>As far as the temperature difference between the two faces of the TEC is small, I don&#x27;t need a big heat sink to dissipate heat. For the preliminary experiments, LD temp is close to room temperature, so the peltier drinks only a few tens of milliamps. Note that the element I&#x27;m using is very small, on the other hand the butterfly case I used is much bigger than the active element. See the picture of the laser housing before dissection:<br><br>![Image](http://digilander.libero.it/crispers/bboardlaser/butterfly.jpg)<br><br>&gt; Also, I noticed that you don&#x27;t use shielded/grounded cables for feedback of temperature and feed-forward of laser diode current. It&#x27;s important to use shielded cables in both cases to make sure there is no cross-talk from the highly noisy high current that goes through the peltier and the temperature feedback.<br><br>As stated the current flowing in the TEC is very small, also, the TEC control works at 500KHz while the loop bandwidth has a low cut-off frequency. The final version will be connectorized with adequate wiring connections.<br><br>&gt; I noticed that you use only two terminals of the laser diode. So no power sensing feedback. That is very good. But just to make sure, you do supply the diode constant current, yes?<br><br>I know this is a big lacuna. Unfortunally the laser diode lacks of the embedded monitor photodiode! Anyway the LD is driven by a constant current circuit.<br><br>&gt; If you have good temperature stability and shielded cables, you should be able to get coherence length of several meters with powers up to about 40mWAh, I just noticed you use a constant current source with a single transistor. Please bear in mind that they are quite sensitive to changes in ambient temperature. Did you measure the current through the diode for a longer period of time?<br><br>The reference voltage of the pump current is very stable. With quite stable room temperature, the current drift due to the junction temperature changes is very small (&lt;0.1mA over 30 minutes)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Jul 08, 2007 7:06 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">The best thing you can do is ignore the photo diode. <br><br>Thank you for the schematic!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Mon Jul 09, 2007 12:39 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Well, I have schematics incl PCB layout for the MAX 1968 on my web site.<br><br>And as far was the lindewidth is concerned, whats the resolution of the spectrum analyzer? If in single mode, the line with is very very small, much smaller than what an OSA can display. One needs a scanning interferometer so check it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Jul 09, 2007 2:32 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Hi Wler, I have not been to your site in some time. Thank you for all the work on my red laser design. It is starting to make senc\se to me why I had so many problems. I would have thought the TEC was more than adaquate for that small block of alluminum but I never calculated anything. I really like the way you thermally isolated the mounting bolts the set up I designed was from my experience on getting max heat removal and not fine temperature control.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Wed Jul 11, 2007 11:20 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Cristiano, where did you buy the MAX1968 and the low noise AD8574. I cannot find a internet shop that carries these parts and is willing to supply them in small quantities. I want to build a few of these TEC controllers for a future project.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Wed Jul 11, 2007 12:03 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Hans:</strong> Cristiano, where did you buy the MAX1968 and the low noise AD8574. I cannot find a internet shop that carries these parts and is willing to supply them in small quantities. I want to build a few of these TEC controllers for a future project.<br><br>You can buy MAX1968 directly from Maxim website<br><br>AD8574 is available online from RS Components ([http://www.rswww.com](http://www.rswww.com))</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Thu Jul 12, 2007 11:37 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">You can get the MAX1968 and all the other ICs (low noise opamps, ADCs) as free samples from Maxim, AD, Linear, etc. Beware however those are SMD devices with very small lead spacing (.65 or .5mm), so this requires experise and patience in soldering.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6334.html" class="prev-thread">← Questions Re: C315m Laser</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6330.html" class="next-thread">New holography business →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="912.html" class="card">
+                <h3>Beam Ratio and stability</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="489.html" class="card">
+                <h3>Stability of HeNe Lasers</h3>
+                <div class="card-meta">Techniques · 25 posts</div>
+            </a>
+            <a href="285.html" class="card">
+                <h3>Question about several different wavelength exposures</h3>
+                <div class="card-meta">Equipment · 4 posts</div>
+            </a>
+            <a href="88.html" class="card">
+                <h3>DCG Wavelength Sensitivity</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 6 posts</div>
+            </a>
+            <a href="8423.html" class="card">
+                <h3>The Importance of Temperature Stability</h3>
+                <div class="card-meta">General Holography (old) · 12 posts</div>
+            </a>
+            <a href="8413.html" class="card">
+                <h3>Stability Problems - Cured!</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

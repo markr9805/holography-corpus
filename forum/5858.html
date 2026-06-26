@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laser linewidth for reconstruction — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5857.html" class="prev-thread">← Latest DCG Tests (gelatin blooms)</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5851.html" class="next-thread">Beamsplitter →</a></div>
+    <h1>laser linewidth for reconstruction</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>2,116</td></tr>
+        <tr><td>Started</td><td>Fri Oct 27, 2006 5:02 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/ron-olson.html">ron olson</a> · <a href="../authors/dcgman.html">dcgman</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5858" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ron olson</span>
+                <span class="post-date">Fri Oct 27, 2006 5:02 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Does anyone have a quick and dirty formula for determining the maximum laser linewidth for displaying (not recording) a transmission H1 with a scene depth of X? I am designing a display system for back-lighting transmssion images with 1-2 meters of scene depth and I am unsure as to how to spec delta lambda. <br><br>LED&#x27;s with ~20nm bandwidth produce an interesting reconstruction (albeit a bit too abstract) and it got me to wondering if perhaps a laser isn&#x27;t somewhat overkill.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Thu Nov 02, 2006 5:08 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Since no-one else has had a go at this, I’ll kick off discussions:<br><br>According to this site, [http://www.astr.ua.edu/keel/techniques/eye.html](http://www.astr.ua.edu/keel/techniques/eye.html)<br><br>the eye’s resolution is 3 arcseconds, which is roughly 1 milliradian (mrad).<br><br>The equation representing the fringe spacing (X) recorded in a hologram is <br><br>X=m/Sin(t)........1<br><br>m: recording wavelength, t:angle between the reference and object beam.<br><br>When recording a transmission hologram of a diffuse object, t varies over a large range. In order to keep things simple, assume that the average or median angle is 45o. Also, assume the recording wavelength is 532nm. Plugging these values into the above equation yields X=752nm.<br><br>Rewrite eq 1:<br><br>m=XSin(t).........2<br><br>differentiate wrt t<br><br>dm/dt=XCos(t)..........3<br><br>dm=dt XCos(t).......4<br><br>We know X=752nm, q=45o, and dt (eye resolution) is 1 mrad. Substituting these into eq. 4 gives<br><br>dm= 0.5nm<br><br>So your playback laser has to be no broader than 0.5nm<br><br>This figure will apply to an ideal thin transmission hologram.<br><br>Notice that the depth of the scene doesn’t seem to come into this analysis- which means it probably needs correction!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Nov 02, 2006 5:23 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Try this section:<br><br>[http://www.holographyforum.org/HoloWiki ... 281.2FR.29](http://www.holographyforum.org/HoloWiki/index.php/Holography_Transmission_Equations_Part_I#Horizontal_Focus_.281.2FR.29)<br><br>If we take lamda ill and make a range then we can calculate the &quot;fuzziness&quot; at any distance. I don&#x27;t know what the allowable fuzziness is...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Dec 18, 2006 8:03 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Ron, did you ever try an LED to illuminate the large transmission hologram? If so, how did it turn out?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ron olson</span>
+                <span class="post-date">Mon Dec 18, 2006 8:17 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I have tried (and encourage the use of) LED&#x27;s for lighting abstract transmissions. They are very effective and can be stacked linearly (on a track) to produce red, green and blue images staggered in space. Their bandwidth (~15-20nm) however is a bit wide to maintain &quot;high-definition&quot; playback. Regarding LED&#x27;s: I have received word from our supplier (OptiLED) that they will be delivering a 3W product (the current standard is 2W) before the end of January.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Dec 19, 2006 12:27 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks Ron. So how does one dispay a large format tranmision hologram (not abstrack but of a subject)? Laser only? Or have you found any filters that can be used with the LED allowing a narrower line width?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue Dec 19, 2006 12:37 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">sally webers large image plane transmission holograms were lit using colored LEDs ,,,,,not filtered leds<br><br>[http://www.innovationsinoptics.com/](http://www.innovationsinoptics.com/)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Dec 19, 2006 1:03 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Do you have any links or pics of the tranmission with the LED illumination? I would love to see exactly the end effect. Is the link below the LED she used?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue Dec 19, 2006 1:29 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> Do you have any links or pics of the tranmission with the LED illumination? I would love to see exactly the end effect. Is the link below the LED she used?<br><br>![Image](http://www.holocenter.org/images/sally_fossil.jpg)</div>
+        </div>
+
+    <div class="thread-nav"><a href="5857.html" class="prev-thread">← Latest DCG Tests (gelatin blooms)</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5851.html" class="next-thread">Beamsplitter →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11470.html" class="card">
+                <h3>measuring laser intensity</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11408.html" class="card">
+                <h3>Holographic plasma lens for laser fusion ignition (LIF)</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11225.html" class="card">
+                <h3>Using a 660nm laser to expose legacy AgX Agfa, Ilford, HRT (BB) plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 12 posts</div>
+            </a>
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

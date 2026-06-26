@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurry holograms — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="327.html" class="prev-thread">← Breaking Holograms</a><a href="Equipment.html">↑ Equipment</a><a href="307.html" class="next-thread">Laser diodes and magnets →</a></div>
+    <h1>Blurry holograms</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>10,421</td></tr>
+        <tr><td>Started</td><td>Mon Sep 05, 2011 8:41 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/rzeheb.html">rzeheb</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/holorefugee.html">holorefugee</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=308" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Mon Sep 05, 2011 8:41 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">For the last couple of years, I have been focused almost exclusively on making image plane holograms. I have certainly had my share of issues and problems to overcome, but gradually these holograms have gotten better and better. My usual set-up is a JDS microgreen at 50 mW, VRP-M plates (4&quot; by 5&quot;), 1:5 diluted Kodak D19 developer, and ferric EDTA bleach. While I suffered many growing pains including optimization of reference beam to object beam ratios, minimization of intermodulation noise, exposure and development time optimization, etc., my holograms were always extremely sharp, high definition images (they might have been dim at times, but they were very sharp) with every little detail amazingly visible (including an occassional errant thread of spider silk). So recently, as a change of pace, I started making split beam reflection holograms. All of a sudden I am getting what I can only describe as a &quot;soft focus&quot; or slightly blurry images. I didn&#x27;t know you could even get blurry holograms. It&#x27;s driving me crazy. So, I am looking for advice from this forum on what could be causing this. In my set-up I further split my object beam so that the subject is illuminated from both the left front and right front sides. Could I be making two holographic images of my subject very close together? If so, why is it suddenly a problem with this configuration since my standard setup was always to split the object beam in this way and it was never a problem before? Are there other factors that could contribute to blurriness in a hologram that I should watch out for? Any help, ideas suggestions are MOST welcome. Thanks, Ron</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Sep 05, 2011 9:10 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">What happens to your reference beam after it goes through the plateholder? Could it be that it&#x27;s making something glow and therefore recording a ghost image? I&#x27;d look for glints off hardware also. If it&#x27;s not stray light on the table somewhere or the beam ratio, it&#x27;s chemical.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Sep 05, 2011 9:22 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>rzeheb:</strong> For the last couple of years, I have been focused almost exclusively on making image plane holograms.<br><br>&gt; <strong>rzeheb:</strong> So recently, as a change of pace, I started making split beam reflection holograms.<br><br>So, the flat holograms were holograms of flat objects? In a single beam Denisyuk geometry? Now you&#x27;re using an H1/H2 set and your images have some volume to them?<br><br>It sounds like just that any image blurs as you go away from the image plane (The &quot;plate&quot;), depending on the size of the reconstruction source.<br><br>When the image has a significant volume, consider the image to be made up of a very large number of single point sources. When you make the hologram, there is a 1:1 relationship between the position of the point on the object and of the image (assuming no aberrations). Thus, every object point is precisely positioned at a point in space. When you reconstruct the hologram with a laser, every image point will be reconstructed at exactly the same position. The reason it does this, is that the laser is considered a true point source, the laser light is emitted from an aperture of zero dimension (This is not actually true, but you&#x27;re hologram would have to bloody deep to show blurring in a laser).<br><br>Now, when you reconstruct with a non-coherent source - led, halogen, etc - the light source has a dimension whether it&#x27;s the size of the filament or the size of the led. So, every point on the source will reproduce it&#x27;s own set of image points. The image points will cluster around each other, so the image point becomes a small circle, rather than a single point. The size of this &quot;circle&quot; will depend on the distance away from the image plane (the &quot;plate&quot;). At the plate itself, there will be no separation of image points, every image point is reconstructed as a point no matter what the source size. As you move away from the plate, the size of the &quot;image circle&quot; gets larger and larger, causing more and more blurring, depending on the size of the reconstructing source. The larger the reconstruction source, the closer to the plate are these circles noticed and the more blurry the image. The flat holograms show no blurring because the image points are all on the image plane so the &quot;image circles&quot; have zero radius.<br><br>So, try to reconstruct the image in various sources of different sizes - a halogen,the sun, an led, a fluorescent bulb, etc - and note how blurred the image is. The deeper the image, the smaller must be the source size of the reconstruction source.<br><br>Another source of blurring is &quot;noise&quot;. This is created when the plate &quot;sees&quot; any light that is not just object light and reference light. Any spurious reflections from posts, metallic objects on the table, edges of mis\rrors etc. Every one of these spurious reflections causes a grating on the plate and these multiple gratings will cause tiny deviations surrounding the image points.<br><br>&gt; <strong>rzeheb:</strong> I further split my object beam so that the subject is illuminated from both the left front and right front sides. Could I be making two holographic images of my subject very close together?<br><br>No, not if you use the same reference beam for both lightings.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Sep 05, 2011 9:28 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">There is a paper called &quot;Image blurring in display holograms and in holographic optical elements&quot; by Ward, Newell &amp; Solymar, which is in SPIE 600 (1985) pages 57-65.<br><br>At the main library of the University of Michigan, they have almost every SPIE book on holography just sitting on the shelf. As I was going through those volumes one day (an exciting but exhausting experience), I saw that paper and made a copy of it. I&#x27;ve never had the misfortune to make a blurry hologram, but if the day ever dawns, I figured this paper might help. It&#x27;s very, very technical, and so far I haven&#x27;t had the need to read or try to understand it. But I made a pdf copy just now, so if you want a copy, just send me a PM with your email address.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon Sep 05, 2011 9:45 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">It sounds like Dinesh is right about your blurriness. If you want to do reflections and get around this problem do some image plane images. That&#x27;ll get things closer to the surface. <br><br>You&#x27;ll still need a good replay source but it&#x27;ll be much better. If you have an object that has 4 inches of z depth you&#x27;ll be, at best, 4 inches away from the surface with the back of the object. Image plane that and the back is now 2 inches from the surface. This is of course only true if you put the image plane right in the middle of the object. You don&#x27;t have to do it that way but I needed an example. <br><br>BTW, image plane reflection holograms are usually considered the Cadillac of display holography. If your all about display holograms you might want to head in that direction even forgetting about the blur problem. <br><br>Yes, you need a big master to make them look great, it&#x27;s harder, you need more optics, it&#x27;s not nearly as efficient with the laser light. etc......But if you can beat those problems it&#x27;s worth it. <br><br>Jeff Weil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Mon Sep 05, 2011 1:40 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks for all the thoughtful suggestions. Based on what you posted, and after further consideration on my part, I believe the cause(s) of my blurry holograms, starting with the most likely (in my opinion) are:<br><br>&gt; <strong>BobH:</strong> If it&#x27;s not stray light on the table somewhere or the beam ratio, it&#x27;s chemical.<br><br>1. Beam ratio<br><br> I did not realize until Bob posted his reply that poor beam ratio could result in blurry holograms. I have a reasonable feel for beam ratios when I am shooting transmission masters and when I make my reflection copies from those masters. However, I have very little experience shooting direct reflection from an object and upon reflection (pun intended) I have much, much more light going to the object beams than I ever have had in any of my previous configurations. I did this in order to achieve closer to a 1:1 ratio at the plate but I could very well be WAY to far towards the object light. If I can get to the lab tonight I&#x27;ll test that hypothesis.<br><br>&gt; <strong>Dinesh:</strong> So, the flat holograms were holograms of flat objects? In a single beam Denisyuk geometry? Now you&#x27;re using an H1/H2 set and your images have some volume to them?It sounds like just that any image blurs as you go away from the image plane (The &quot;plate&quot;), depending on the size of the reconstruction source.<br><br>2. Image depth and distance from plane<br><br>Dinesh and Jeffrey, thank your for your in-depth discussion. No, my previous holos were not Denisyuk of flat objects, in fact for the last two years or so I&#x27;ve been making H1 to H2 image plane holograms of fairly deep objects (up to about 5 inches) which are typically positioned in the reflection copy with the plane cutting the object roughly in half. While those H2 copies were clearly sharpest at the image plane and got somewhat more distorted as you moved away (either forwards or backwards), they were still much sharper than what I am getting now when I attempt to shoot direct reflection holograms. However, it&#x27;s true that my direct reflection images look best under sunlight (compared with, say, an LED). So I think this is a factor. Maybe made more severe by bad light ratios?<br><br>3. Stray light creating ghost images or excess gratings.<br><br>My table is pretty small and in order to have all the optics crowded in such a small place I have to fold the beams around quite a bit. I try to be careful, but it&#x27;s certainly possible that I missed something and that I may be causing problems for my self as a result. I&#x27;ll take another, very close look.<br><br>Joe, that paper sounds like it could be very useful. I will PM you shortly and I thank you in advance for taking the time to scan it into a PDF.<br><br>Thanks again to all for your suggestions!<br><br>Ron</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Tue Sep 06, 2011 7:46 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">O.K., I ran a couple of tests last night. The results were interesting. First of all, the holograms looked pretty good under laser light, not bad under sunlight, not very good under halogen spotlighting or single LED illumination. This is consistent with Dinesh and Jeffrey&#x27;s observations about image depth and distance from the plate. BTW, in case anyone was about to ask, I did use collimated light in my reference beam. However, with respect to some of the other factors that were suggested, I shot a second hologram with the following adjustments: (1) I did find, and block, some stray light that was hitting my plate directly. It wasn&#x27;t very much and I doubt if it had a significant effect but it certainly didn&#x27;t do anything good either, (2) I shifted the light significantly towards the reference beam and away from the object beams, I think this helped quite a bit and my second hologram was better than the one I had been complaining about, but still not really great. At the end of the day I think the REAL problem was with my choice of subject matter. I was shooting a nice piece of bleached white coral. I thought it would make a good subject. There were arms of coral going out in every direction and, further more, each arm was itself covered with small projections and depressions that made it spatially very interesting. However, when hit with laser light it diffused and dispersed the light so strongly that it almost seemed to be lit from the inside. As a result, a lot of the surface detail (those small projections and pits) seemed to wash out (even when just looking at the object directly rather than at the resulting hologram. I think I was disappointed in my hologram because of my choice of subject matter. Maybe with a lot of fine tuning and tweaking of my illumination I can make it look the way I want, but in the end I don&#x27;t think the problem was as much with my set-up as I had originally thought.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Sun Sep 11, 2011 7:50 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Don&#x27;t forget that the reference beam of a reflection hologram needs to match its display light. If you have a pint source for a display light then you need a spatial filter for the reference beam. Collimation is important in H1 work because you need to flip the plate and it keeps you from needing a converging reference for reconstruction.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Sun Sep 11, 2011 8:23 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Colin, I never thought of that!<br><br>That&#x27;s certainly consistent with the fact that the image looks good when reconstructed using the original reference beam or using the sun (both of which are essentially collimated). I should remove the collimating mirror from my setup and see if I get better results using a halogen spot for reconstruction! THANKS!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Sun Sep 11, 2011 11:44 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">If you can match the beam spread you will get better results. Hold a white card 1 ft from the halogen and measure the diameter. Do the same with your spatial filter and get them (by changing objectives) as close as you can. You will see the difference.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Mon Sep 12, 2011 5:39 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Will do! Can&#x27;t wait to try it. Thanks again for your great suggestion.<br><br>Ron</div>
+        </div>
+
+    <div class="thread-nav"><a href="327.html" class="prev-thread">← Breaking Holograms</a><a href="Equipment.html">↑ Equipment</a><a href="307.html" class="next-thread">Laser diodes and magnets →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11463.html" class="card">
+                <h3>Are embossed holograms embossed directly on metalized films?</h3>
+                <div class="card-meta">Techniques · 6 posts</div>
+            </a>
+            <a href="11453.html" class="card">
+                <h3>Multiplex Holograms</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="11449.html" class="card">
+                <h3>Is there a name for holograms where the image sticks out from the plate?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11443.html" class="card">
+                <h3>How are 3D dot matrix holograms made?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11420.html" class="card">
+                <h3>Problems with Holograms and Bayfol HX200</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11398.html" class="card">
+                <h3>Mounting HX200 for Cylidrical Holograms</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

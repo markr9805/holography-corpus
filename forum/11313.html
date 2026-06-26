@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>energy distribution across DCG plate — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11321.html" class="prev-thread">← Bacteria?</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11302.html" class="next-thread">question about PFG-04 →</a></div>
+    <h1>energy distribution across DCG plate</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="DCG.html">DCG - Dichromated Gelatin</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>58,114</td></tr>
+        <tr><td>Started</td><td>Fri Jul 21, 2023 5:02 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11313" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 21, 2023 5:02 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering if other DCG holographers have a rule of thumb for measuring energy distribution across the plate, to get reasonably uniform results in the hologram. It seems that an even energy distribution in DCG is more important than in silver, since the hardening issues are so critical.<br><br>Today&#x27;s hologram was unevenly illuminated with a Gaussian spread beam, with the hot spot in the middle. In the resulting hologram, the center was clear, narrowband, and dim, and the outer areas were noisy, broadband, and bright. The transition was abrupt.<br><br>The illumination during exposure was very uneven, 1.25mW at the center of the image, and 0.33mW at the corner.<br><br>Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Jul 22, 2023 8:54 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It is important to have roughly even illumination of the reference beam, but technically it&#x27;s not possible (unless you have a beam flattening device). However, within a rough estimate, we can assume an even beam if the edges of the beam are greater than 1/e of the centre ( e = Euler&#x27;s number). So, as a rule of thumb, I divide the visible beam area into thirds, and I illuminate the entire plate with the centre third.The 1/e rule means that the beam at edges of the plate must not go below 37% of the centre. In your case, your fall-off was 0.33/1.25 ~ 26%.<br><br>An even more important reason to have an even beam is beam ratio. The beam ratio is proportional to the modulation, and modulation is the most important parameter for efficiency. However, the modulation is a non-linear function of the beam ratio<em>, so a small loss in beam ratio creates a larger loss in efficiency. If your reference beam falls off at the edges, but the object beam does not, you&#x27;ll get uneven efficiency. In DCG holography, modulation is also a factor in bandwidth. If you over-modulate, you&#x27;ll get a narrow band hologram, if you under-modulate, you&#x27;ll get a weak hologram. So, it&#x27;s a bit of a balancing act.<br><br></em>If interested, modulation = √R/(1 + R), where R = beam ratio.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jul 22, 2023 10:15 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Sat Jul 22, 2023 8:54 am:</strong> An even more important reason to have an even beam is beam ratio. The beam ratio is proportional to the modulation, and modulation is the most important parameter for efficiency. However, the modulation is a non-linear function of the beam ratio*, so a small loss in beam ratio creates a larger loss in efficiency. If your reference beam falls off at the edges, but the object beam does not, you&#x27;ll get uneven efficiency.<br><br>Thank you, Din, for the important insights and the rule of thumb.<br><br>Today&#x27;s hologram had a more even reference beam, 0.35mW at the center and 0.28mW at the corner. The results were better, but I was surprised to see another (less pronounced) &quot;center effect.&quot; I made the mistake of not including the object beam in the above numbers. The object was a white figure in the center, close to the film. I&#x27;m beginning to realize how important it is to carefully measure what the film actually &quot;sees,&quot; instead of just shooting and hoping for the best.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11321.html" class="prev-thread">← Bacteria?</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11302.html" class="next-thread">question about PFG-04 →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="7613.html" class="card">
+                <h3>DCG and Plate Drying</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="4793.html" class="card">
+                <h3>DCG plate #1</h3>
+                <div class="card-meta">Gallery · 11 posts</div>
+            </a>
+            <a href="11484.html" class="card">
+                <h3>My first DCG in (15 years)</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a>
+            <a href="11421.html" class="card">
+                <h3>Glass plate recommendations</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

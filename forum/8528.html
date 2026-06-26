@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposure time — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8571.html" class="prev-thread">← Color basics to advanced</a><a href="Techniques.html">↑ Techniques</a><a href="8526.html" class="next-thread">Hologram foundation grant →</a></div>
+    <h1>Exposure time</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>29</td></tr>
+        <tr><td>Views</td><td>18,491</td></tr>
+        <tr><td>Started</td><td>Fri Feb 19, 2016 1:49 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holom.html">HoloM</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/holomaker.html">holomaker</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/lobaz.html">lobaz</a> · <a href="../authors/brian.html">Brian</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8528" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Fri Feb 19, 2016 1:49 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi, <br><br>I use vrp-m, data sheet says 70uJ/cm ^2 for the maximum diffraction efficiency at density 2.<br><br>For measuring I use a OPT202 from burr brown, with the internal 1Mohm resistor. Data sheet says about 0,27v/uW at 532nm.<br><br>It is related to an area of 2,29mm x 2,29 mm.<br><br>My voltmeter measures 10mV<br><br>So I calculate:<br><br>t=70uJ<em>0,27V</em>2,29mm<em>2,29mm/(10mV</em>cm^2*uW)=100s<br><br>Can anyone confirm this?<br><br>What about the angle of the photodiode? Do I measure parallel to the film or perpendicular to the beam direction?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Feb 19, 2016 2:41 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I think you may be out by a factor of 10.<br><br>0.27V = 1uW =&gt; 1V = 1/0.27 uW = 100/27 uW = &gt; 1 mV = (100/27)/1000 uW= 1/270 uW = 0.0037 uW. You aperture is 2.29mm x 2.29mm = 0.229 x 0.229 cm^2 = 0.05 cm^2. Therefore, power at plate is 0.0037/0.05 uW/cm^2 = 0.074 uW/cm^2. To get ~70 uJ/cm^2, you&#x27;d need 1000 seconds of exposure.<br><br>&gt; <strong>HoloM:</strong> What about the angle of the photodiode? Do I measure parallel to the film or perpendicular to the beam direction?<br><br>Perpendicular to the beam. It&#x27;s the flux hitting the photodiode at normal incidence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Fri Feb 19, 2016 2:54 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Am I really? Your calculation doesn&#x27;t take my measurement of 10 mV at the voltmeter into account, I think. You take 1mv as reference?! That&#x27;s the missing factor of 10?<br><br>For measuring beam ratio for white light reflection copy, I measure perpendicular to the reference beam, and parallel to the film for object beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Feb 19, 2016 4:32 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>HoloM:</strong> Am I really? Your calculation doesn&#x27;t take my measurement of 10 mV at the voltmeter into account, I think. You take 1mv as reference?! That&#x27;s the missing factor of 10?<br><br>Oops! Sorry, you&#x27;re right. I used 1 mV, not 10 mV.<br><br>&gt; <strong>HoloM:</strong> For measuring beam ratio for white light reflection copy, I measure perpendicular to the reference beam, and parallel to the film for object beam?<br><br>Yes, perpendicular to the reference beam. Also, perpendicular to the object beam, whatever that means. Assuming that the reference beam is collimated, you&#x27;re hitting the diode with a flat wavefront. This means that all the energy of the beam is being dumped into the diode. If the &quot;direction&quot; of the beam energy (the wave vector) hitting the diode is at an angle, then the wavevector that carries the energy has a component perpendicular to the diode and one parallel to the diode. It&#x27;s the perpendicular component that&#x27;s being measured. However, in the case of the object beam, this is a diverging source, which makes it difficult to determine the perpendicular component of the energy carried by the wave.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">HoloM</span>
+                <span class="post-date">Sun Feb 21, 2016 7:08 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hm. Ok so I exposed 100 sec, and it was far too less, to get a reasonable density with three minutes development.<br><br>With 360 secs, I got a better density, but still not d=2 in three minutes. <br><br>So,what&#x27;s wrong with my calculation? It seems that 1000s would heave been the better choice!?<br><br>Have I misunderstood any of the data sheets?<br><br>i used fresh cwc2.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Sun Feb 21, 2016 11:48 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Every set up is unique and so many variables, I always bracket my exposures and ratios when doing transmission masters. I suggest you do a quick bracket to test your density out , no need to settle as u are only concerned with density to start .... Small test pieces will go far at making your holograms bright! Here&#x27;s a snap shot from (homemade components) of a simple mask I adhere to my film with a couple clips... Once you get satisfactory results take your readings , and this will be a good starting point for your next hologram.....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Feb 22, 2016 9:40 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Here&#x27;s another way of making test strips: [http://edweslystudio.com/Pedagogy/TS/Te ... meset.html](http://edweslystudio.com/Pedagogy/TS/TestStripFrameset.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Feb 22, 2016 10:08 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Specification of an exposure energy from a film maker must also specify the developer they used. If you don&#x27;t do the same processing, their numbers are meaningless. I always used Development in D-19 mixed at full strength for one minute to calibrate materials for myself, mixing it a liter at a time from formula, not the bag. I never evaluated density after development, thinking it cumbersome, impractical and inconsistent.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Feb 22, 2016 1:59 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">There&#x27;s a great deal more to exposure than a simple number, or even a simple number and a processing scheme. Holography is still largely a process involving intuition and understanding. It&#x27;s not like electronics, where you put together a bunch of components, throw a switch and an led lights up or something. Neither is it like software, where you write some code and, if written properly, you run it and an led lights up or something. Holography requires time and patience. You&#x27;ve got to actually shoot a whole bunch of holograms and get a &quot;feel&#x27; for the process. <br><br>Any book/paper/internet whatever-you-call-them that says &quot;expose to 100 uJ and develop to OD 2.0&quot; should be seen as a guide, not an algorithm.<br><br>Holography tends to attract (or, at least, tended to attract) people who think in novel and unconventional ways (I hate phrases like &quot;think out of the box&quot;! People who &quot;think out of the box&quot; simply think inside a larger box.). I think one reason may be that, while holography is a process, it&#x27;s a process that requires intuition; it&#x27;s not algorithmic.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Feb 22, 2016 3:31 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Why perpendicular to the object or the reference beam, Din?<br><br>Imagine e.g. a geometry of the Mach-Zehnder interferometer: the beam is split 50/50 to object/reference (at an angle 90 degrees), reflected by two mirrors, spread by the same optics, and instead of the final beam splitter, there is a plate. If the plate is facing one beam, the other illuminates it at an angle 90 degrees, i.e. in fact does not illuminate it at all. Rotate the plate, and the power from the first arm gets smaller, while power from the second arm gets higher.<br><br>If I measure the power with the probe perpendicular to the beams, I would get 1:1 ratio regardless of the plate orientation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Feb 22, 2016 3:43 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">What laser and the recording setup do you use, HoloM? 0.74 uW/cm2 sounds quite low. <br><br>Anyway, I do not work with VRP-M regularly, it is just a coincidence I worked with them and CWC2+dichromate bleach a few weeks ago. I am not sure if I remember results of the exposure test (bracketing) correctly, but I think your 100 s is not completely off. If I recall well, I would use 200 s for a transmission hologram, 4:1 ref/obj ratio.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Feb 23, 2016 1:59 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobaz:</strong> Why perpendicular to the object or the reference beam, Din?Imagine e.g. a geometry of the Mach-Zehnder interferometer: the beam is split 50/50 to object/reference (at an angle 90 degrees), reflected by two mirrors, spread by the same optics, and instead of the final beam splitter, there is a plate. If the plate is facing one beam, the other illuminates it at an angle 90 degrees, i.e. in fact does not illuminate it at all. Rotate the plate, and the power from the first arm gets smaller, while power from the second arm gets higher.If I measure the power with the probe perpendicular to the beams, I would get 1:1 ratio regardless of the plate orientation.<br><br>Petr, maybe I was being misunderstood. I meant that the plane of the detector should be perpendicular to the k vector and parallel to the wavefront.<br><br>Suppose in your Mach Zender, you were to embed the detector onto the plate, so that the plane of the detector is in the plane of the plate. Perhaps glue the detector to the back of the plate. Now, the k vector of either beam is perpendicular to the plane of the detector (and, of course, the plate) when the plate is facing either arm. When you initially face one arm, call it arm(1) of the Mach Zender, you&#x27;re detector will read the maximum amount of light (not necessarily half the incoming light, that depends on polarisation, dirt on the mirror etc) from arm(1) and zero light from arm(2). As you rotate the plate towards the other arm, the detector reads R = I(1)<em>cos(theta) + I(2)</em>sin(theta), where I(1) and I(2) are the intensities of the two arms and theta is the angle between the plate/detector normal and arm(1). Of course, if the split is really 50:50, then the reading at any arbitrary angle is R = 0.5<em>I</em>[cos(theta) + sin(theta)], where I is the total light into the Mach Zender.. So, as you rotate the plate/detector, the light from arm(1), decreases, and the light from arm(2) increases. If, for simplicity, we assume equal intensities, then at theta = pi/4, the reading will be R = I/{sq rt(2)} = 0.707*I</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Feb 24, 2016 10:44 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">I always measured my beams with the detector perpendicular to the beam being measured, because it&#x27;s the amplitude of the beam I&#x27;m interested in (I think that&#x27;s what Dinesh is describing). Beam ratio determines fringe visibility, and that exists in space before a recording plate is put in the same space as the fringes. Fresnel reflections modify that a little, but not significantly and I disregarded them.<br><br>Using the numbers given by measurement as described to calculate exposure time is a different issue. The intensity of the reference beam (for example) will be less at each spot on the recording plane because of the angle of its incidence, but the total power hitting the plate will be &quot;in the ballpark&quot; and close enough that exposure time will be proper on the second attempt (if all else is kept constant).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Wed Feb 24, 2016 11:10 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I too use my meter when needed perpendicular as if to find the highest spot or output area, which also means I may spend a lot of time hunting too!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Sat Feb 27, 2016 11:22 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> I never evaluated density after development, thinking it cumbersome, impractical and inconsistent.<br><br> I was thinking more along the lines of an unfamiliar film, new material always has its challenges for example, is my Safelite correct? , if so, how long can I let it be exposed to the Safelite before fogging , how long does it take for my film to reach the proper density in development , and also estimated time of exposure ,this could all be done on a 1&quot;square piece of film...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sun Mar 06, 2016 11:56 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Thank you for trying to explain me that, but I still do not fully understand it. Imagine following situation: the object beam (cyan) is 3x3 cm and total power is 9 mW (for simplicity, let us assume its shape is square and that the light power is uniform over its area), i.e. it has 1 mW/cm2. The plate of size 1x1 cm (black line) then gets 1 mW. The reference beam is also 3x3 cm, but it is 4x stronger than the object beam, i.e. total 36 mW, or 4 mW/cm2. However, as the angle of incidence is 60 degrees, the apparent area of the plate is just 0.5 cm2. Thus the plate gets just 2 mW. The total incoming power is then 3 mW. If the sensitivity of the material is 9 mJ/cm2, I should set the exposure time to 3 s.<br><br>![beams.png](https://holographyforum.org/forum/download/file.php?id=6807)<br><br>Is this reasoning correct? Or is it better to assume that beams are coherent, and make following calculation?<br><br>In case of coherent light, the amplitude of the object beam is proportional to 1 unit, and the amplitude of the reference beam to sqrt(4) = 2 units. Thus, the amplitude of the brightest part of the sum should be 1+2=3 units, i.e. power of the brightest part should be 3^2 = 9 mW/cm2. Thus I should set exposure time to 1 s.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Mar 07, 2016 12:23 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">My thought would be your first case, but to be honest, I always split the difference. I&#x27;d measure the beams as you describe, giving 1mW/cm^2 for the object beam and 4mW/cm^2 for the reference. 1+4=5mW total power and 9mJ/cm^2 gives 1.8s exposure time. Even if making multiple exposure pixels on the hologram (when the exposure is critical), a couple of test plates (probably needed to troubleshoot something else, like uniformity or stray light problems) will allow the exposure to be optimized. The inconsistency between power meters, their use in different labs, with or without fresnel reflection compensation .... all that stuff makes comparisons a bit useless really.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Mar 07, 2016 2:12 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">It&#x27;s actually a tricky point.<br><br>Consider the fact that the actinic reaction is energy dependent. It takes a certain amount of energy to transform the state of the emulsion to whatever physical change records the hologram (eg Ag -&gt; Ag+ for silver and change of density for dcg). However, energy is a <em>scalar</em> quantity, not a <em>vector</em> quantity. If the beams are collimated, there is no variation of energy across the wavefront as a function of distance, the inverse square law is not valid for a collimated beam. Thus along the wavefront, at all points on the wavefront, the wavefront transports the same energy - 9mW and 36 mW in your case. Now, if the plate were 1cm x 1cm, then the normally incident beam would dump 1 mW on the plate, or 1mJ/sec. But, the inclined beam also dumps 4 mW on the plate, only, the bottom of the plate &quot;sees&quot; the 4 mW at a later time - there is a phase lag. It&#x27;s this phase lag that causes the holographic data to be recorded, but the total energy on the plate at all points is 5 mW or 5mJ/sec. If the sensitivity were 9 mJ, then the exposure would be 9/5 seconds. <br><br>Consider the following situation. I have two rods that are 3cm long. On these rods, at appropriate intervals, I place candles. Let&#x27;s say I place a candle every 0.2 cm. The candles on one of these rods burns 4 times more strongly than the other, say I&#x27;ve coated the wick with Pot Nitrate or something. At some point I have a tray of alcohol. I now move one rod perpendicular to the tray and one rod at an angle to the tray, say at 60 deg. I assume (or measure) that the &quot;weak&quot; candles transfer 9mW of energy and the &quot;strong&quot; candles transfer 36 mW of energy. Both these rods &quot;meet&quot; at the tray of alcohol. Now I ask, how long will it take for the alcohol to evaporate? If the latent heat of vapourisation of alcohol is L_alc and the specific heat of alcohol is c_alc, and I assume that the boiling point of alcohol is 80 C and that the alcohol is at room temp (~20 C), it takes an amount of energy given by mL_alc + mc_alc*(80-20) J of energy.However, the transfer of energy by the rods to the tray is not directionally dependent since energy is a scalar quantity. The lower part of the tray receives the energy from the angled rod - the heat from the candle at the end of the inclined rod - at a later time, but it still receives the same heat from the candle, ie, there is a &quot;phase delay&quot; for the energy from the candle on the angled rod.<br><br>Thus, the k vector determines the direction of the energy transfer, a vector quantity, but the quantity of energy transferred is a scalar.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Mar 07, 2016 2:19 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> My thought would be your first case, but to be honest, I always split the difference. I&#x27;d measure the beams as you describe, giving 1mW/cm^2 for the object beam and 4mW/cm^2 for the reference. 1+4=5mW total power and 9mJ/cm^2 gives 1.8s exposure time. Even if making multiple exposure pixels on the hologram (when the exposure is critical), a couple of test plates (probably needed to troubleshoot something else, like uniformity or stray light problems) will allow the exposure to be optimized. The inconsistency between power meters, their use in different labs, with or without fresnel reflection compensation .... all that stuff makes comparisons a bit useless really.<br><br>In a practical situation, you&#x27;re quite right. The number from the meter - and the sensitivity of the plate - are merely numbers and should be treated as a guide rather than an absolute. In a display hologram, the object light is usually so variable that it&#x27;s impossible to say &quot;4:1&quot; or some such ratio. I remember it bothered me when I first started as to which part of the object beam were you supposed to take as your 4:1 standard. I remember Dave Traynor from Richmond saying that you take an average. But, unless the object beam were perfectly uniform and fell off uniformly, the average had to be a weighted average. It was Peter Miller who finally told me to forget all that 4:1 stuff and simply wiggle your fingers over the plate. This works as a guide to &quot;tune in&quot; the actual final exposure.<br><br>Of course, over and above exposure, there&#x27;s also the variability of development which has to be taken into consideration. There&#x27;s more of a black art to development than there is to shooting.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Mar 08, 2016 10:52 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">There are soooo many variables that affect the final image in a hologram, and the only way I found to keep them all under control is to keep as many as possible constant. That&#x27;s why I always mix chemicals the same way, develop in a given bath for a determined time and don&#x27;t evaluate the density during development, and measure with constant technique. Then, exposure time can be adjusted to &quot;walk it in&quot;, and beam ratio too in a controlled way.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Mar 08, 2016 3:50 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">I think I may be able to go one up!<br><br>I have the same trays for the developer and the bleach and separate trays for the different types of developers and bleaches. So, If I&#x27;m using CWC2 and PBU, I have two specific trays. If I&#x27;m using CWC2 and Van Ranesse, I use the &quot;Van Ranesse&quot; tray for the bleach.<br><br>One of the problems with holography is that you have to be exact and precise, yet be flexible and imaginative at the same time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Mar 08, 2016 6:15 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Sorry, guys, you are really trying hard to explain it, but I still do not get it.<br><br>The collimated beam of the area 30x30 mm2 can be thought as a pack of 6x6 &quot;small beams&quot; of area 5x5 mm2.<br><br>![beams2.png](https://holographyforum.org/forum/download/file.php?id=6811)<br><br>As the object beam (cyan) carries power 9 mW, one &quot;small beam&quot; carries 9/36 = 1/4 mW.<br><br>The plate of size 10x10 cm2 is covered by exactly four small beams, i.e. it gets power 1 mW.<br><br>The reference beam (magenta) carries 36 mW, i.e. one &quot;small beam&quot; carries 36/36 = 1 mW.<br><br>As the plate is covered by exactly two small beams, it gets power 2 mW.<br><br>Thus, 3 mW in sum.<br><br>Please note that no vector quantities are involved here. Every &quot;small beam&quot; carries a scalar value of power, and I just sum them.<br><br>Why should I assume that the magenta &quot;small beam&quot; carries more power? Both Bob and Din write that the energy from the reference should be 4 mW, i.e. each of my &quot;small beams&quot; should carry 2 mW.<br><br>(I understand that the actual recording process is very complex and the correct exposure time depends on many factors. I consider this as a theoretical exercise.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Mar 09, 2016 5:04 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Let me think on this a little.<br><br>But, I already see one problem. You state that the perpendicular beam carries 9mW of power and you state that the sensitivity is 9 mJ/cm^2. However, if the beam carries 9mw/<em>cm^2</em>, and the area of the beam is 3cm x 3cm, then the beam power is (9mw/cm^2)<em>(9 cm^2) = 81 mW. For the ref. you have 36mW, but again, if that&#x27;s supposed to be 36 mW/cm^2, then the beam carries (36mW/cm^2)</em>(9cm^2) = 324 mW. However, if the power on the beam is 9mW for object and 36 mW for ref, each over an area of 9 cm^2, then the beam power is 9 mW/9 cm^2 = 1mW/cm^2 (object) and 36mW/9cm^2 = 4mW/cm^2 (reference). Since the sensitivity of the plate is given per sq cm, then I think it needs to be clear whether the incoming beam powers are absolute or relative to beam area. <br><br>In the former case (beam powers of 9 mW/cm^2 and 36 mW/cm^2), your &quot;small squares&quot; would have an area of 0.5cm x 0.5 cm = 0.25 cm^2, and so would have powers of 9 x 0.25 = 2.25 mW/small square and 36 x 0.25 = 9mW/small square.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Mar 10, 2016 2:43 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">A quick question that occurs to me. What does &quot;sensitivity of the plate&quot; mean? Is it the energy required for the minimum possible change to record a latent image, or the maximum energy required. So, for example, in silver halide, the mechanism of recording is the ionisation of silver into a silver ion - the ionisation energy. Is the &quot;sensitivity of the plate&quot; the ionisation energy to ionise one mole of silver, or the ionisation energy to ionise just one silver atom. Generally, of course, every grain already has a speck on it. So, to distinguish exposed grains from unexposed ones, the exposure must create new specks. Every speck on the grain is the result of one silver atom being ionised. So, is the sensitivity of the plate, the energy required to create some number n of new grains on every speck, below which it becomes impossible to distinguish between exposed and unexposed grains? Or, just one speck/grain? I&#x27;m, of course, not including reciprocity effects here.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Fri Mar 11, 2016 6:06 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">I mean the second option:<br><br>&gt; <strong>Din:</strong> However, if the power on the beam is 9mW for object and 36 mW for ref, each over an area of 9 cm^2, then the beam power is 9 mW/9 cm^2 = 1mW/cm^2 (object) and 36mW/9cm^2 = 4mW/cm^2 (reference). Since the sensitivity of the plate is given per sq cm, then I think it needs to be clear whether the incoming beam powers are absolute or relative to beam area.<br><br>Then, the &quot;small object beam&quot; of area 5x5 mm^2 carries power 0.25 mW, the &quot;small reference beam&quot; carries 1 mW.<br><br>As for sensitivity of the plate: I assume the same meaning as in the plate specifications, see e.g. Slavich plates specs at [http://materials.geola.lt/index.php/hol ... -sensitive](http://materials.geola.lt/index.php/holomaterials/red-sensitive). For example, the specs for PFG-01 material state that exposure 100 uJ/cm2 leads to density approx. 1.5 and diffraction efficiency approx. 50%. I am not exactly sure what does it mean in terms of latent image formation, etc. Let us just assume that for PFG-01, a good rule of thumb says &quot;expose to 100 uJ/cm2&quot;.<br><br>My question is thus: if the &quot;sensitivity for the best result&quot; of my hypothetical material is 9 mJ/cm^2, what exposure time shall I use? My guess would be 3 s, as the plate has area 1 cm^2 and it is illuminated by four small object beams (= 4x0.25 = 1 mW) and two small reference beams (=2x1=2 mW), in total 3 mW.<br><br>However, both Bob and Din guess just 1.8 s. I am confused.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Mar 13, 2016 4:24 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Ok, let&#x27;s look at it like this. Assume both beams are contra propagating, that is, the beams are traveling in opposite directions. Let the plate be between the beams. This is the classic Denisyuk geometry with zero angles between the beams. Let one beam, beam(A), have power P(A) in units of W/cm^2, and the other beam (B) have power P(B), in the same units. Then, the number of photons/second for a beam with power P, is given by <br><br>N = (P<em>lambda)/(h</em>c).<br><br> So, for beam A, the number of photons/sec is<br><br> N(A) = {P(A)<em>lambda}/(h</em>c) <br><br>and, similarly, the number of photons/sec in B is <br><br>N(B) = {P(B)<em>lambda}/(h</em>c). <br><br>Now, These photons exist within a cylinder of height c. Now, after one second, the number of photons hitting the emulsion is N(A) + N(B). Let the minimum number of photons necessary to cause the appropriate actinic reaction be a. Then, we have <br><br>a = {N(A)+N(B)}<em>T(exp)<br><br>where T(exp) is the exposure time, that is, the time necessary for the minimum number of photons to interact with the emulsion to cause the actinic reaction. As an aside, what happens if we continue to pour more and more photons into the emulsion? This would depend on the density of actinic sites within the emulsion, which we don&#x27;t know. However, in the case of contra-propagating beams, we now have an expression for the exposure time in terms of the energy needed for a given actinic reaction.<br><br>Let the beams still be contra-propagating, but twist the plate. Now the beams impinge on the plate at the same angle, relative to plate normal, but of opposite sign. So, for example, if we twisted the plate by 30 deg, then the beams would impinge at +/- 30 deg. Would the exposure time change? Only by the time needed for the lower photons to reach the plate, that is, the delay = (d/2)</em>sin(theta), where d is the plate dimension and theta is the twist angle. This is insignificant, so effectively there is no change in the exposure time. What change then does such a twist cause? Well, the number of actinic reaction, or rather some actinic function of the spatial coordinates would change. Generally, the rate of ractions within the emulsion would be given by <br><br>a(x,y) = A<em>cos{K(x)</em>x + K(y)*y}, <br><br>where K(x) and K(y) are the spatial frequencies of the Bragg planes. <br><br>By twisting the plate relative to the two beams, you&#x27;ve changed K(x) and K(y) only. However, the number of photons is still the same, and it&#x27;s the number of photons that hit the plate/sec that causes actinic reactions and determines exposure.<br><br>I&#x27;d put some numbers in, but, you know, theorists hate numbers</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sun May 08, 2016 5:54 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">It took me a couple of weeks to think about the subject. As Dinesh noted, it is really a tricky point!<br><br>As everyone here agrees that light power should be measured with the detector perpendicular to the beam, I tried to figure out how to explain it. After all, when the detector is not perpendicular to the beam, the light meter shows smaller numbers. Why is the photosensitive plate behavior different?<br><br>Dinesh tried to explain it using photons. I appreciate that, but as I do not understand photons, I try to avoid them whenever possible. So, here is my model what happens.<br><br>Let&#x27;s have a plate covered with photosensitive emulsion. The emulsion is composed of e.g. gelatin and a very small amount of photosensitive grains. Let&#x27;s assume that number of grains is very small, so that they do not occlude each other. In the picture, the cyan beam illuminates the plate. There are just four grains in the emulsion. The white lines behind the grains denote geometrical shadow, i.e. that some light is absorbed by the grains.<br><br>![grains1.png](https://holographyforum.org/forum/download/file.php?id=6820)<br><br>Suppose that the plate of area A = 1 cm2 is illuminated at normal incidence, light power is 1 mW/cm2, which means that the plate gets energy 1 mJ/s. As the number of grains is small, most of light just comes through the plate. Just a small fraction of light is caught by the grains. If the exposure time T is long enough, all of them get exposed.<br><br>Now, rotate the plate by 60 degrees, which means that the plate receives just half of the energy:<br><br>![grains2.png](https://holographyforum.org/forum/download/file.php?id=6821)<br><br>However, the grains still occupy the same area as seen by the light source. Although the energy that passes through the plate is just 0.5 mJ/s now, is is used more efficiently by the grains as they seem to be more dense as seen by the light source. Hence, exactly the same exposure time T is needed to expose them.<br><br>What do you think? Is that model reasonable?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon May 09, 2016 2:21 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobaz:</strong> What do you think? Is that model reasonable?<br><br>Yes, I think so.<br><br>&gt; <strong>lobaz:</strong> After all, when the detector is not perpendicular to the beam, the light meter shows smaller numbers. Why is the photosensitive plate behavior different?<br><br>Well, one reason may be that the ccd is flat. So, any light hitting a specific ccd site, will record normal to the surface of the ccd. In the case of grains, these are round, so any light from any direction is perpendicular to the grain.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Brian</span>
+                <span class="post-date">Mon May 09, 2016 7:33 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> lobaz wrote:After all, when the detector is not perpendicular to the beam, the light meter shows smaller numbers. Why is the photosensitive plate behavior different?Well, one reason may be that the ccd is flat. So, any light hitting a specific ccd site, will record normal to the surface of the ccd. In the case of grains, these are round, so any light from any direction is perpendicular to the grain.<br><br>And probably the electron-hole production in a ccd has a preference for the incident light&#x27;s electric field oriented parallel to the surface. Whereas even if the state change of the grains has a preferred electric field orientation, the grains themselves would be randomly oriented in the medium.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8571.html" class="prev-thread">← Color basics to advanced</a><a href="Techniques.html">↑ Techniques</a><a href="8526.html" class="next-thread">Hologram foundation grant →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="9946.html" class="card">
+                <h3>Time between exposure and development?</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8928.html" class="card">
+                <h3>Is brightness a function of exposure time ?</h3>
+                <div class="card-meta">Equipment · 11 posts</div>
+            </a>
+            <a href="8350.html" class="card">
+                <h3>TJ-1 and exposure time</h3>
+                <div class="card-meta">Beginning Holography · 18 posts</div>
+            </a>
+            <a href="7187.html" class="card">
+                <h3>DCG and exposure time</h3>
+                <div class="card-meta">General Holography (old) · 16 posts</div>
+            </a>
+            <a href="5783.html" class="card">
+                <h3>Exposure time MBDCG</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="3201.html" class="card">
+                <h3>Laser power vs Film Requirement vs Exposure time w/sample.</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

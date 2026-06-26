@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beam ratios for Denisyuk DCG — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11432.html" class="prev-thread">← Can the obis core series lasers be used as a light source fo</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11343.html" class="next-thread">OBIS LS/LX Can OBIS LS/LX lasers be used to create holograms →</a></div>
+    <h1>beam ratios for Denisyuk DCG</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="DCG.html">DCG - Dichromated Gelatin</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>122,491</td></tr>
+        <tr><td>Started</td><td>Fri Nov 15, 2024 2:25 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11389" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Nov 15, 2024 2:25 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was reading an old post by a forum member who said his rule of thumb exposure ratio for Denisyuk DCG was 4:1 (ref./obj.). He said that lower ratios (i.e., more object light) result in excess noise (for display holograms). Actually, this does make sense to me, since intermodulation noise can be pretty high for an extended object in DCG. At least it seems so to me. (DCG is also very forgiving in terms of high ratios.) Do any other DCG&#x27;ers out there think this rule of thumb makes sense? Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 16, 2024 10:15 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I&#x27;ve never used 4:1, I&#x27;ve always tried to get to 1:1 or close to it. The maths shows you get the highest modulation with 1:1. However, intermod is an issue, for an extended object, relative to the plate dimensions. To get around that, I sometimes would modulate the object lighting, ie light the edges less than the centre. As you say, DCG has a very high dynamic range. For what it&#x27;s worth, Kaveh&#x27;s PhD thesis recommends using polarisation to offset intermod noise, by changing the polarisation of the light on the edges of the object, though he doesn&#x27;t say how to do this.<br><br>The 4:1 figure often quoted is a bit of an historical accident. On the H-D plot of the old Agfa (the plot of density (darkness) vs exposure), the slope of the plot is known as the &#x27;gamma&#x27; of the film - in terms of silver halide, the larger the gamma, the more fine grained is the film. The actual curve has a curved part, then a straight line part, then a curved part. The early workers in holography, using Kodak but the principal is the same, determined the exposure by using the centre of the straight line part of the H-D curve. Then, taking a page from amplifier theory, they determined that they would get &quot;linear response&quot; - minimum noise - if the range of the object light was +/- the centre of the HD keeping to the straight line part of the gamma, ie you&#x27;d take the range of exposures from the left and the right of the centre of the straight line part. In the diagram (below) taken from Hans Bjelkhagen&#x27;s book<em> on silver halide, this range, the linear range, is from what he calls the &#x27;toe&#x27; to what he calls the &#x27;knee&#x27;. In Agfa 10E75 and 8E75, as well as Kodak as far as I know - never used Kodak - the range from toe to knee gave you a 4:1 object light range, so all the early papers tended towards this 4:1 figure. If you exposed beyond this range, you&#x27;d get &#x27;non-linearities&#x27; - noise. However, note that the H-D curve does not apply if you bleach the plate, ie convert the amplitude hologram to a phase hologram because then there is no relation between the darkness of the (developed) plate and the exposure. So, if you intend to make a phase hologram, this 4:1 doesn&#x27;t apply.<br><br></em> &quot;Silver-Halide Recording Materials for Holography and Their Processing&quot;, H I Bjelkhagen,2nd edition<br><br>![HD Curve.jpg](https://holographyforum.org/forum/download/file.php?id=7875)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 16, 2024 1:52 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Sat Nov 16, 2024 10:15 am:</strong> I&#x27;ve never used 4:1, I&#x27;ve always tried to get to 1:1 or close to it. The maths shows you get the highest modulation with 1:1.<br><br>Thanks. I&#x27;ve also tried for 1:1, but thought there might be something unusual about DCG due to the wide dynamic range when combined with something like a 4:1 ratio. I guess it would simply lower modulation and intermodulation noise together, which doesn&#x27;t seem to be worthwhile. As I do more DCG, the differences between DCG and silver (and even polymer) become more apparent. Especially the wide dynamic range. Thanks for the feedback provided some time ago regarding the importance of baffling to reduce noise in DCG. I recently bought a 1W laser (which is more power than I&#x27;m used to) and after it goes through the spatial filter, it seems like the whole lab is brightly lit up. I&#x27;m building a black foamboard box around the plateholder/object with faux black suede on the inside. (I found this to be almost as good as black velvet, and the edges of the stuff, when cut with scissors, don&#x27;t shred into tiny black &quot;hairs&quot; which go everywhere.) Hopefully this will work to reduce stray light reaching the plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 16, 2024 4:03 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">We used black construction paper and poster board from art supply stores; small magnets at the base to keep the baffles from falling. Some baffles were accordion-folded. Another option is cinefoil - black anodised aluminium for wrapping around posts. <br><br>![lab0882lab.jpg](https://holographyforum.org/forum/download/file.php?id=7880)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Nov 16, 2024 4:06 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Nice, thanks for sharing. I&#x27;m impressed at how much care you took with baffling. A lesson for me</div>
+        </div>
+
+    <div class="thread-nav"><a href="11432.html" class="prev-thread">← Can the obis core series lasers be used as a light source fo</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="11343.html" class="next-thread">OBIS LS/LX Can OBIS LS/LX lasers be used to create holograms →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="8924.html" class="card">
+                <h3>Single Beam Splitting for enhanced Denisyuk reflections</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="8721.html" class="card">
+                <h3>DCG split beam holography.</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="253.html" class="card">
+                <h3>Beam ratios</h3>
+                <div class="card-meta">Equipment · 45 posts</div>
+            </a>
+            <a href="8286.html" class="card">
+                <h3>Fuji film for Denisyuk single beam</h3>
+                <div class="card-meta">Gallery · 4 posts</div>
+            </a>
+            <a href="8014.html" class="card">
+                <h3>Beam Ratios</h3>
+                <div class="card-meta">Beginning Holography · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

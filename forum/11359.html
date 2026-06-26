@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noise due to a large (extended) object — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11366.html" class="prev-thread">← Current diode state of the art?</a><a href="Techniques.html">↑ Techniques</a><a href="11354.html" class="next-thread">Please Contribute to this list of active holography →</a></div>
+    <h1>noise due to a large (extended) object</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>1,224,916</td></tr>
+        <tr><td>Started</td><td>Sun Apr 28, 2024 4:42 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11359" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Apr 28, 2024 4:42 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Since the forum has been slow lately, I would like to pose the following question (which I&#x27;ve been wondering about).<br><br>Say we make two holograms that measure 10cm X 10cm. These would be single-beam Denisyuk DCG reflection holograms (with a wide dynamic range associated with DCG, if that makes a difference). These two test holograms are recorded with identical parameters, except that the object of the first one is a flat white disc with a diameter of 1cm, and the second one is the same kind of disc, except that it&#x27;s 9cm in diameter. Both objects are (say) 2cm behind the film plane.<br><br>In the past, the term &quot;intermodulation noise&quot; has been applied to holograms. I&#x27;ve assumed that this refers to areas of an extended object which interfere with each other at the film plane, which is of course different than the desired interference between object and reference beams. I don&#x27;t know if this is the correct definition of the term.<br><br>With speckle, I assume that a rough surface of an object causes small &quot;spots&quot; of destructive interference along the surface of an object, making the object look grainy. This effect would be due to the laser light only (having nothing to do with the hologram) and the hologram merely records a grainy-looking object.<br><br>With intermodulation noise, I&#x27;m guessing (?) that the hologram is an essential part of the noise-producing effect, since there is chaotic interference between different sections (wavefronts) of the reflective object, as they reflect back to the emulsion. In a Denisyuk hologram, it would seem that &quot;miniature transmission holograms&quot; would be recorded all over the emulsion. Maybe this is incorrect, I don&#x27;t know.<br><br>With regards to the above test holograms, would the large white disc cause more &quot;intermodulation noise&quot; (because its size is larger, and more likely to cause this assumed chaotic interference)? If so, what might the noisier hologram look like when reconstructed? (Maybe the choice of white discs is not a good one to use as an example.)<br><br>Thanks in advance.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Apr 29, 2024 2:45 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Sun Apr 28, 2024 4:42 pm:</strong> With speckle, I assume that a rough surface of an object causes small &quot;spots&quot; of destructive interference along the surface of an object, making the object look grainy. This effect would be due to the laser light only (having nothing to do with the hologram) and the hologram merely records a grainy-looking object.<br><br>The hologram does not &quot;record&quot; a grainy-looking hologram. Subjective speckle is an illusion of the eye, objective speckle is the speckle pattern on the object that the reflected laser light reflects onto; if a laser beam is reflected off some object and falls onto a wall, then, depending on the roughness of the wall, speckle forms on the wall. In any case, a hologram records the wavefront from an object, and speckle seen on the object is not encoded on the wavefront. You can see this if you record an H1, say about 6&quot; from the plate, then reconstruct the conjugate image. The conjugate image will not have speckle superimposed on it. Any objective speckle on the plate itself will depend on the rms of the plate, but usually, the rms is better than λ/2.<br><br>&gt; <strong>Joe Farinawrote:↑Sun Apr 28, 2024 4:42 pm:</strong> With regards to the above test holograms, would the large white disc cause more &quot;intermodulation noise&quot; (because its size is larger, and more likely to cause this assumed chaotic interference)? If so, what might the noisier hologram look like when reconstructed? (Maybe the choice of white discs is not a good one to use as an example.)<br><br>Whether the large white disc will cause more &quot;intermodulation noise&quot; depends on the size of the object and it&#x27;s distance from the plate. I tried to draw a diagram explaining intermodulation noise, but apparently I&#x27;ve reached an attachment quota (&quot;Error, Sorry, the board attachment quota has been reached&quot;), I didn&#x27;t know there was a quota! I can&#x27;t put up the relevant equations, since there&#x27;s a fairly intense science-denying group here that think all of science and mathematics is &#x27;gobledygook&#x27;. So, I&#x27;ll try and explain it verbally, albeit clumsily.<br><br>Take two points on your large white disc, separated by some distance, say A and B; A and B can be anywhere on the disc, they don&#x27;t have to be along a horizontal diameter. Take a ray from each of these to the same point of the plate, say X, ie the ray A-X and B-X. Now, any two rays impinging on the plate will record as a series of sinusoidal lines (ideally) on the plate - a grating. The frequency of those lines will depend on the angle between A-X and B-X. Any light hitting the plate around X will cause diffraction - white light causes a divergent spectrum, and laser light causes a divergent beam diverging from X. The divergence, or the spectral profile, from X will depend on the spatial frequency - the frequency of the lines. Now, if the angle between A-X and B-X is small ( a &#x27;small object&#x27;) , the the spatial frequency is also low, and so the diffracted field - the divergent light from X - is not very divergent; it may well fall within the reconstructed image, and will not be noticed except for the most discerning eye (and there are precious few of those!). However, if the angle between A-X and B-X is large, the spatial frequency will be high and so the diffracted field will be large. If the diffracted field is large enough, it may &quot;spill over&quot; the reconstructed image field. This will have the effect of seeing diffracted light around the reconstructed image field. <br><br>Given that there are an infinity of points A and B on the object, <em>Every</em> couple of points will create a diffraction grating. However, most of the couple of points - most of the A-B couples - are close together, and so will cause low frequency gratings whose diffracted divergence will fall within the image field. It&#x27;s the more distant A-B pairs, creating high frequency gratings, that will diffract into areas outside the image field. Again, given any annulus on your large disc, there are an infinite number of A-B pairs, all of which cause high frequency gratings. The multitude of high frequency gratings at different angles will cause a uniform diffraction field &quot;spilling over&quot; the image field uniformly (assuming that there are no variations of reflectivity on the disc). The result will be a glow surround the image of the disc.<br><br>Again, I can&#x27;t do it mathematically, but I hope you can see that the angle between A_X and B-X doesn&#x27;t only depend on the size of the disc, but also the distance of the disc from the plate. The further away the disc is, the smaller is the A-X B-X angle, even if A and B are on the extreme edge of the disc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Apr 30, 2024 6:56 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks for the very helpful clarifications.<br><br>&gt; <strong>Dinwrote:↑Mon Apr 29, 2024 2:45 pm:</strong> The hologram does not &quot;record&quot; a grainy-looking hologram. Subjective speckle is an illusion of the eye, objective speckle is the speckle pattern on the object that the reflected laser light reflects onto; if a laser beam is reflected off some object and falls onto a wall, then, depending on the roughness of the wall, speckle forms on the wall. In any case, a hologram records the wavefront from an object, and speckle seen on the object is not encoded on the wavefront. You can see this if you record an H1, say about 6&quot; from the plate, then reconstruct the conjugate image. The conjugate image will not have speckle superimposed on it. Any objective speckle on the plate itself will depend on the rms of the plate, but usually, the rms is better than λ/2.<br><br>I didn&#x27;t know that! Thanks.<br><br>I&#x27;m still confused about the difference between &quot;objective&quot; and &quot;subjective&quot; speckle. I&#x27;m not sure where these two terms originated from, but it may have been from the 1970 paper by Dennis Gabor &quot;Laser Speckle and Its Elimination.&quot; Martin kindly tracked this paper down for me, and I tried to post it in the pdf collection on this forum, but got the same kind of error message you did about the forum quota being reached. (I left a message for John in the administration section.) <br><br>Here are some interesting quotes from the paper:<br><br>I liked the first sentence: &quot;Laser speckle noise is a direct consequence of the high coherence of laser light and has been long recognized as the Enemy Number One of holography.&quot;<br><br>Later on: &quot;I wish to distinguish between two types of laser speckle, &quot;objective&quot; and &quot;subjective.&quot; &quot;Objective&quot; laser speckle arises from uneven illumination of the object; it is really <em>there</em>, and a photographic emulsion spread over the surface of the object would show it up. Even a perfect optical system cannot do better than to reproduce it exactly. On the other hand, &quot;subjective&quot; speckle arises in the case of an evenly illuminated rough object, by the imperfection of the optical reproduction, whether this is produced directly or via a hologram.&quot;<br><br>This paper is <em>highly</em> technical and impossible for me to follow.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Apr 30, 2024 12:57 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Tue Apr 30, 2024 6:56 am:</strong> I&#x27;m still confused about the difference between &quot;objective&quot; and &quot;subjective&quot; speckle. I&#x27;m not sure where these two terms originated from, but it may have been from the 1970 paper by Dennis Gabor &quot;Laser Speckle and Its Elimination.&quot;<br><br>I suspect it&#x27;s older than 1970, since speckle is mainly due to the coherence of light, and so probably has been noticed since the invention of the laser ca 1960.<br><br>At any rate, speckle is firstly due to the roughness of a surface at wavelength scales. If the roughness is about, or greater than, λ/2, then there will be interference between adjacent, and nearby, areas. Since by it&#x27;s nature, an rms variation is statistical, speckle is a statistical effect; it can be shown that the statistical variation can be modeled by the so-called &quot;drunkards walk&quot;<em> However, the size of the speckle is determined by the resolution of the imaging system. Let&#x27;s say you illuminate a diffusion screen with laser light over some area. You have both subjective and objective speckle.<br><br>In subjective speckle, looking directly at the laser-illuminated diffusion screen, your eye is the imaging system. The various random dots are imaged onto your retina by the lens behind the pupil. It can be shown that the size (s) - diameter - of the speckle dot is given by s = 2.4fλ/d, where f is the focal length of the lens (basically, the distance between the pupil and the retina), λ is the wavelength of the laser and d is the pupil diameter. Two things stand out:<br><br>1. The size, s, is based on the diameter of the pupil, hence a large pupil (large d) will give a smaller diameter speckle. So, the surrounding illumination determines the pupil size, and hence the speckle size.<br><br>2. Different wavelengths will give different sized speckles. As Joy remarked when we talked about it this morning - &quot;Red speckles are bigger than green speckles&quot;.<br><br>Another point is that if you&#x27;re wearing glasses, then the glasses becoming part of the imaging system.<br><br>In objective speckle, the light reflecting from the diffusion screen can be directed onto a screen such as a white card, or even a photographic film. Now the white card, or photographic film, becomes the imaging system, and therefore speckle appears there. It&#x27;s objective in that the speckle size is not determined by any subjective parameters such as the eye and the brain; it&#x27;s &quot;really there&quot;, and can be photographed. Professor Dainty of Imperial College, London (the PhD advisor for Kaveh, Stephen Hart and Brian May<strong> - yes, he has a PhD in astronomy) has derived the formula s = λz/L for the spot size of objective speckles</strong></em>. L is the width of the illuminated area of the card, and z is the distance between the diffusion screen and the white card. The importance for holography is that the &#x27;white card&#x27; is the holographic plate, which becomes the imaging system. As can bee seen from Prof Dainty&#x27;s formula, the further away the object is, the smaller the speckle size; of course, the further away the object, the greater is the effect on ratio.<br><br><em>&quot;Drunkards Walk&quot; - Consider a drunk staggering around a lamp post. Given that he can take a single step in any direction, followed by another single step, followed by...etc, then, after n steps, how far away is the drunk from the lamp post? Statistically, he will be a distance n², on average. In speckle optics, every time the phase due to the variation in surface roughness increases by 2π, you have to subtract the phase difference by 2π; the &#x27;drunkards walk&#x27; analogy is: how far away from 2π will the surface roughness be, on average, at random.<br><br><strong>Stephen Hart was doing his PhD at the same time as Brian May and has a funny story concerning him and Brian May<br><br></strong></em> Dainty, C., ed. (1984). Laser Speckle and Related Phenomena (2nd ed.). Springer-Verlag. ISBN 978-0-387-13169-6.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 01, 2024 7:50 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thank you for the clear and superbly written explanation!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu May 02, 2024 5:43 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Now do the experiment and see what happens!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 07, 2024 8:40 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">The 1970 paper on speckle by Dennis Gabor has been posted in the pdf collection.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed May 08, 2024 8:37 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I&#x27;d already got the paper. Did you want me to try a simplified explanation without Gabor&#x27;s &quot;gobbledygook&quot; ?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 08, 2024 5:10 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Wed May 08, 2024 8:37 am:</strong> Did you want me to try a simplified explanation without Gabor&#x27;s &quot;gobbledygook&quot; ?<br><br>To make Gabor&#x27;s paper comprehensible to me, it might take a superhuman effort. I think you once said on this forum that conversations must, at some point (probably sooner than later!), get technical/scientific (with language and/or formulas not understood by the vast majority), or the point simply can&#x27;t be made. I can easily understand and believe that.<br><br>Your above explanation of subjective vs. objective speckle was excellent, and much more comprehensible to me than Gabor&#x27;s description. On a practical level, I think this should suffice. Of course, I&#x27;m interested in practical techniques which might reduce speckle. I didn&#x27;t even realize that subjective speckle is related exclusively to the &quot;mechanism&quot; of the human eye (pupil, lens, retina). I see why Gabor said that not much can be done about it.<br><br>I guess my focus should be on objective speckle. (Moving the object further back wouldn&#x27;t be an option in my case.) I did try a test where the entire object/plateholder/table was slowly moving back and forth by about 200 microns, with the laser and spatial filter off the table. I was trying for a smaller movement of 10 microns, but my system wasn&#x27;t easily capable of that without careful adjustment. I used a low-rpm motor with a bearing which rubbed against one of the table legs. For distance verification, I used a calibration slide placed on the table, with a microscope (off table) focused on it. I did successive tests with and without table movement. Both holograms had the same level of speckle. Thanks to your previous comments, I realize that the speckle may have been subjective.<br><br>I&#x27;m still working on possible ways to reduce objective speckle. I&#x27;m planning to separate an object beam (assisted Denisyuk) and filter this object beam through two diffusers (both homemade, with &quot;small&quot; amounts of diffusion to avoid wasting light). The diffusers will be close to each other, almost touching, and one of them will be very gently moved during the length of the exposure. In the past, I&#x27;ve tried this method on the object (without making a hologram) and the observed speckle was much reduced. I have yet to find out whether or not this will actually reduce the objective speckle in the final hologram.<br><br>Regarding Gabor&#x27;s paper, if you happen to see something which might be useful on a practical level, I would of course be grateful for a &quot;layman&#x27;s translation&quot; (of that part), if such a thing is possible!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu May 09, 2024 9:41 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Wed May 08, 2024 5:10 pm:</strong> Dinwrote:↑Wed May 08, 2024 8:37 amDid you want me to try a simplified explanation without Gabor&#x27;s &quot;gobbledygook&quot; ?I think you once said on this forum that conversations must, at some point (probably sooner than later!), get technical/scientific (with language and/or formulas not understood by the vast majority), or the point simply can&#x27;t be made. I can easily understand and believe that.<br><br>What I&#x27;ve been saying is that it&#x27;s not necessary to understand the holographic process at the technical/scientific level simply to record a display hologram. Yet, there are some display holographers who, for reasons of ego/narcissism perhaps, imply that they do understand the optics of holography to this level; usually, they have no idea whereof they speak. Also, they get particularly vicious when their ignorance is challenged; pretending to understand Fourier Transforms by googling the phrase simply highlights their ignorance. You don&#x27;t need theory! You don&#x27;t need to understand the DE of a hologram! Simply shoot the d<strong>n thing, if it&#x27;s bright enough to your satisfaction, that&#x27;s enough! I myself have gone through seven years of undergraduate and graduate education in physics and mathematics, and this is what you need to understand the optical physics of holography. You don&#x27;t need it to simply shoot a Denisyuk!<br>&gt; </strong>Joe Farinawrote:↑Wed May 08, 2024 5:10 pm:<strong> I&#x27;m still working on possible ways to reduce objective speckle. I&#x27;m planning to separate an object beam (assisted Denisyuk) and filter this object beam through two diffusers (both homemade, with &quot;small&quot; amounts of diffusion to avoid wasting light). The diffusers will be close to each other, almost touching, and one of them will be very gently moved during the length of the exposure. In the past, I&#x27;ve tried this method on the object (without making a hologram) and the observed speckle was much reduced. I have yet to find out whether or not this will actually reduce the objective speckle in the final hologram.<br><br>According to the paper by Gabor, if you illuminate the diffusion screens with multiple beams, you may get rid of speckle, but, at the cost of increased complexity in the geometry.<br>&gt; </strong>Joe Farinawrote:↑Wed May 08, 2024 5:10 pm:<strong> Regarding Gabor&#x27;s paper, if you happen to see something which might be useful on a practical level, I would of course be grateful for a &quot;layman&#x27;s translation&quot; (of that part), if such a thing is possible!<br><br>Gabor&#x27;s paper talks of illuminating a transparency, not a physical model. It would be necessary to translate the Gabor paper into the characteristics of a model to translate it to today&#x27;s holography.<br><br>&gt; </strong>Joe Farinawrote:↑Wed May 08, 2024 5:10 pm:** To make Gabor&#x27;s paper comprehensible to me, it might take a superhuman effort.<br><br>Well, the days of my ducking into telephone booths have long gone, mainly because telephone booths themselves have long gone! But, if yourself, or anyone else, wants something technical translated into everyday language, I&#x27;d be more than happy to try</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri May 10, 2024 7:51 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Thu May 09, 2024 9:41 pm:</strong> According to the paper by Gabor, if you illuminate the diffusion screens with multiple beams, you may get rid of speckle, but, at the cost of increased complexity in the geometry.<br><br>That&#x27;s an interesting suggestion, thanks. I want to try a transmission diffraction grating to break up the object beam into different orders, placed right in front of a diffuser (hopefully to produce a series of dots on the diffuser).<br><br>&gt; <strong>Dinwrote:↑Thu May 09, 2024 9:41 pm:</strong> Well, the days of my ducking into telephone booths have long gone, mainly because telephone booths themselves have long gone! But, if yourself, or anyone else, wants something technical translated into everyday language, I&#x27;d be more than happy to try<br><br>Thanks!</div>
+        </div>
+
+    <div class="thread-nav"><a href="11366.html" class="prev-thread">← Current diode state of the art?</a><a href="Techniques.html">↑ Techniques</a><a href="11354.html" class="next-thread">Please Contribute to this list of active holography →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11373.html" class="card">
+                <h3>Sapphire instability due to AC noise</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11336.html" class="card">
+                <h3>Moving the object to reduce speckle?</h3>
+                <div class="card-meta">Techniques · 10 posts</div>
+            </a>
+            <a href="731.html" class="card">
+                <h3>Two issues - losing an object beam and spots on plate</h3>
+                <div class="card-meta">Equipment · 18 posts</div>
+            </a>
+            <a href="714.html" class="card">
+                <h3>Speckle noise reduction</h3>
+                <div class="card-meta">Techniques · 69 posts</div>
+            </a>
+            <a href="597.html" class="card">
+                <h3>Object Size</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+
+/* Forum styles */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+}
+.forum-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+}
+.forum-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.forum-table tr:hover {
+    background: var(--bg-secondary);
+}
+.forum-table a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.forum-table a:hover {
+    text-decoration: underline;
+}
+.forum-post {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85em;
+}
+.post-author {
+    font-weight: 600;
+    color: var(--accent);
+}
+.post-date {
+    color: var(--text-secondary);
+}
+.post-number {
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+.post-body {
+    padding: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+/* Theme tags */
+.theme-tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 2px 3px 2px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+.theme-tag:hover {
+    filter: brightness(1.2);
+    text-decoration: none;
+}
+.theme-cgh { background: #1a4b8c33; color: #58a6ff; border: 1px solid #58a6ff44; }
+.theme-dcg { background: #8b5cf633; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-denisyuk { background: #f59e0b33; color: #fbbf24; border: 1px solid #fbbf2444; }
+.theme-transmission { background: #10b98133; color: #34d399; border: 1px solid #34d39944; }
+.theme-rainbow { background: #ec489933; color: #f472b6; border: 1px solid #f472b644; }
+.theme-laser { background: #ef444433; color: #f87171; border: 1px solid #f8717144; }
+.theme-emulsion { background: #8b5cf633; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-exhibition { background: #06b6d433; color: #22d3ee; border: 1px solid #22d3ee44; }
+.theme-artist { background: #f9731633; color: #fb923c; border: 1px solid #fb923c44; }
+.theme-education { background: #84cc1633; color: #a3e635; border: 1px solid #a3e63544; }
+.theme-history { background: #a78bfa33; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-industry { background: #14b8a633; color: #2dd4bf; border: 1px solid #2dd4bf44; }
+.theme-metasurface { background: #6366f133; color: #818cf8; border: 1px solid #818cf844; }
+.theme-display { background: #0ea5e933; color: #38bdf8; border: 1px solid #38bdf844; }
+.theme-portrait { background: #e879f933; color: #d8b4fe; border: 1px solid #d8b4fe44; }
+.theme-abstract { background: #f43f5e33; color: #fb7185; border: 1px solid #fb718544; }
+.theme-medical { background: #22c55e33; color: #4ade80; border: 1px solid #4ade8044; }
+.theme-security { background: #eab30833; color: #facc15; border: 1px solid #facc1544; }
+.theme-sound { background: #7c3aed33; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-general { background: #64748b33; color: #94a3b8; border: 1px solid #94a3b844; }
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.theme-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: border-color 0.2s;
+}
+.theme-card:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+.theme-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.theme-card .theme-count {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.theme-card .theme-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+}
+
+.theme-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0;
+}
+.theme-filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.15s;
+}
+.theme-filter-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+.theme-filter-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">🔬 <span>Holography</span> Corpus</a></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../creators/index.html">Creators</a>
+<a href="../themes/index.html">Themes</a>
+<a href="../forum/index.html">Forum</a>
+<a href="index.html">Search</a>
+<a href="../ask/index.html">Ask</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<h1>Search the Corpus</h1>
+<p>Search across video transcripts, creator metadata, and forum discussions.</p>
+
+<div class="search-box">
+<input type="text" id="search-input" placeholder="Search transcripts, creators, forum topics..." autofocus>
+<button onclick="doSearch()">Search</button>
+</div>
+
+<div class="search-filters" id="search-filters" style="display:none; margin: 1rem 0;">
+<button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
+<button class="filter-btn" data-filter="video" onclick="setFilter('video')">📹 Videos</button>
+<button class="filter-btn" data-filter="forum-thread" onclick="setFilter('forum-thread')">💬 Forum</button>
+</div>
+
+<div class="date-filter" id="date-filter" style="display:none; margin: 0.5rem 0 1rem 0;">
+<p style="margin-bottom:0.3rem;color:var(--text-muted);font-size:0.85em;">Time window:</p>
+<button class="filter-btn active" data-range="all" onclick="setDateRange('all')">All time</button>
+<button class="filter-btn" data-range="1" onclick="setDateRange('1')">🟢 Last year</button>
+<button class="filter-btn" data-range="2" onclick="setDateRange('2')">🟡 Last 2 years</button>
+<button class="filter-btn" data-range="5" onclick="setDateRange('5')">🟠 Last 5 years</button>
+<button class="filter-btn" data-range="10" onclick="setDateRange('10')">🔴 Last 10 years</button>
+</div>
+
+<div id="theme-filters" style="display:none; margin: 0.5rem 0 1rem 0;">
+<p style="margin-bottom:0.3rem;color:var(--text-muted);font-size:0.85em;">Filter by theme:</p>
+<div class="theme-filter-bar" id="theme-filter-bar"></div>
+</div>
+
+<div id="search-results" class="search-results"></div>
+</main>
+<footer>
+<div class="container">
+<p>Holography Corpus · Client-side search powered by Lunr.js</p>
+</div>
+</footer>
+
+<style>
+.search-filters { margin: 1rem 0; }
+.filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 0.9em;
+}
+.filter-btn:hover { background: var(--accent); color: #000; }
+.filter-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+.result-type {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-right: 6px;
+    font-weight: 600;
+}
+.result-type.video { background: #2563eb22; color: #60a5fa; }
+.result-type.forum-thread { background: #10b98122; color: #34d399; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+<script>
+let searchIndex;
+let documents = [];
+let currentFilter = 'all';
+let currentTheme = null;
+let currentDateRange = 'all';  // 'all', '1', '2', '5', '10' (years)
+
+const THEME_ICONS = {
+  'CGH / Digital': '💻',
+  'Exhibition / Gallery': '🏛️',
+  'Laser / Optics': '🔴',
+  'Artist / Creative': '🎨',
+  'Education / Tutorial': '📚',
+  'Rainbow / Benton': '🌈',
+  'DCG / Silver Halide': '🧪',
+  'General Holography': '🔬',
+  'Industry / Commercial': '🏭',
+  'Emulsion / Materials': '🎞️',
+  'Denisyuk / Reflection': '🪞',
+  'Portrait / Figure': '👤',
+  'Medical / Scientific': '🩺',
+  'Sound / Acoustics': '🔊',
+  'Transmission Holography': '💡',
+  'Metasurface / DOE': '🔮',
+  'Display Technology': '📺',
+  'Security / Anti-counterfeit': '🔐',
+  'Abstract / Geometric': '✨',
+  'History / Pioneers': '📜',
+};
+
+fetch('../analysis/search-index.json')
+  .then(r => r.json())
+  .then(data => {
+    documents = data.entries;
+    searchIndex = lunr(function() {
+      this.ref('id');
+      this.field('title', { boost: 10 });
+      this.field('creator_name', { boost: 5 });
+      this.field('excerpt');
+      this.field('forum', { boost: 3 });
+      this.field('authors', { boost: 3 });
+
+      data.entries.forEach(doc => {
+        this.add(doc);
+      });
+    });
+
+    // Build theme filter bar
+    const themeCounts = {};
+    documents.forEach(d => {
+      if (d.primary_theme && d.type === 'video') {
+        themeCounts[d.primary_theme] = (themeCounts[d.primary_theme] || 0) + 1;
+      }
+    });
+    const themeBar = document.getElementById('theme-filter-bar');
+    Object.entries(themeCounts).sort((a,b) => b[1]-a[1]).forEach(([theme, count]) => {
+      const btn = document.createElement('button');
+      btn.className = 'theme-filter-btn';
+      btn.textContent = (THEME_ICONS[theme] || '') + ' ' + theme + ' (' + count + ')';
+      btn.dataset.theme = theme;
+      btn.onclick = () => setThemeFilter(theme);
+      themeBar.appendChild(btn);
+    });
+
+    // Check for URL query param
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+      document.getElementById('search-input').value = q;
+      doSearch();
+    }
+  });
+
+function setFilter(filter) {
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+    doSearch();
+}
+
+function setThemeFilter(theme) {
+    if (currentTheme === theme) {
+        currentTheme = null;
+        document.querySelectorAll('.theme-filter-btn').forEach(b => b.classList.remove('active'));
+    } else {
+        currentTheme = theme;
+        document.querySelectorAll('.theme-filter-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.theme === theme);
+        });
+    }
+    doSearch();
+}
+
+function setDateRange(range) {
+    currentDateRange = range;
+    document.querySelectorAll('#date-filter .filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.range === range);
+    });
+    doSearch();
+}
+
+function matchesDateRange(doc) {
+    if (currentDateRange === 'all') return true;
+    const dateStr = doc.date || doc.date_start || '';
+    if (!dateStr) return false;  // no date = can't filter
+    const docDate = new Date(dateStr.substring(0, 10));
+    if (isNaN(docDate.getTime())) return false;
+    const now = new Date();
+    const yearsAgo = new Date(now.getFullYear() - parseInt(currentDateRange), now.getMonth(), now.getDate());
+    return docDate >= yearsAgo;
+}
+
+function doSearch() {
+  const query = document.getElementById('search-input').value.trim();
+  const resultsDiv = document.getElementById('search-results');
+  const filtersDiv = document.getElementById('search-filters');
+
+  if (!query) {
+    resultsDiv.innerHTML = '<p>Enter a search term.</p>';
+    filtersDiv.style.display = 'none';
+    return;
+  }
+
+  if (!searchIndex) {
+    resultsDiv.innerHTML = '<p>Search index is loading...</p>';
+    return;
+  }
+
+  // Show filters
+  filtersDiv.style.display = 'block';
+  document.getElementById('theme-filters').style.display = 'block';
+  document.getElementById('date-filter').style.display = 'block';
+
+  try {
+    let results = searchIndex.search(query);
+    // Filter by type
+    if (currentFilter !== 'all') {
+        results = results.filter(r => {
+            const doc = documents.find(d => d.id === r.ref);
+            return doc && doc.type === currentFilter;
+        });
+    }
+
+    // Filter by theme
+    if (currentTheme) {
+        results = results.filter(r => {
+            const doc = documents.find(d => d.id === r.ref);
+            return doc && (doc.primary_theme === currentTheme || (doc.themes && doc.themes.includes(currentTheme)));
+        });
+    }
+
+    // Filter by date range
+    if (currentDateRange !== 'all') {
+        results = results.filter(r => {
+            const doc = documents.find(d => d.id === r.ref);
+            return doc && matchesDateRange(doc);
+        });
+    }
+
+    if (results.length === 0) {
+      resultsDiv.innerHTML = '<p>No results found for "' + query + '"</p>';
+      return;
+    }
+
+    // Count by type
+    const videoCount = results.filter(r => {
+        const doc = documents.find(d => d.id === r.ref);
+        return doc && doc.type === 'video';
+    }).length;
+    const forumCount = results.length - videoCount;
+
+    let summary = 'Found ' + results.length + ' results';
+    if (currentFilter === 'all') {
+        summary += ' (' + videoCount + ' videos, ' + forumCount + ' forum topics)';
+    }
+    resultsDiv.innerHTML = '<p>' + summary + ':</p>';
+
+    results.forEach(result => {
+      const doc = documents.find(d => d.id === result.ref);
+      if (!doc) return;
+
+      const typeLabel = doc.type === 'video' ? '📹 Video' : '💬 Forum';
+      const typeClass = doc.type || 'video';
+
+      let link, meta, excerpt;
+      if (doc.type === 'forum-thread') {
+          link = '../forum/' + doc.topic_id + '.html';
+          meta = doc.forum_full + ' · ' + (doc.date_start || '').substring(0,10) + ' · ' + doc.post_count + ' posts';
+          excerpt = (doc.excerpt || '').substring(0, 200);
+      } else {
+          link = '../videos/' + doc.slug + '.html';
+          meta = (doc.creator_name || '') + ' · ' + (doc.date || '') + ' · ' + (doc.duration || '');
+          const desc = doc.description || '';
+      const themeInfo = doc.themes && doc.themes.length > 0 ? ' · ' + doc.themes.join(', ') : '';
+      const meta = (doc.creator_name || 'Unknown') + ' · ' + (doc.date || '') + ' · ' + (doc.duration || '') + ' · ' + (doc.platform || '') + themeInfo;
+      excerpt = (doc.excerpt || '').substring(0, 200);
+      }
+
+      const div = document.createElement('div');
+      div.className = 'search-result';
+      div.innerHTML = '<h3><span class="result-type ' + typeClass + '">' + typeLabel + '</span><a href="' + link + '">' + (doc.title || 'Untitled') + '</a></h3>' +
+        '<p>' + meta + '</p>' +
+        (desc ? '<p style="color:var(--text-secondary);font-size:0.9em;">' + desc + '</p>' : '') +
+        '<p>' + excerpt + '</p>';
+      resultsDiv.appendChild(div);
+    });
+  } catch(e) {
+    resultsDiv.innerHTML = '<p>Search error: ' + e.message + '</p>';
+  }
+}
+
+document.getElementById('search-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') doSearch();
+});
+</script>
+</body>
+</html>

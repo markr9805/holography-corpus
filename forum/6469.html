@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Please - Exposure Calculations — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6475.html" class="prev-thread">← Hand drawn holography software</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6463.html" class="next-thread">Beam Expansion →</a></div>
+    <h1>Help Please - Exposure Calculations</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Beginners.html">Beginning Holography</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>4,456</td></tr>
+        <tr><td>Started</td><td>Tue Oct 02, 2007 1:21 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jem.html">Jem</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6469" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Tue Oct 02, 2007 1:21 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi all<br><br>HELP Please !!<br><br>Up to now I have pretty much guessed my exposure times when using my small HeNe laser. However, I now have a nice 100Mw 532nm C315m and the HeNe has gone into semi retirement.<br><br>Anyway, the other day I came across the exposure requirements of the BB520 plates i&#x27;m currently using. The exposure required is 150uJ to 300uJ. I wanted to &#x27;experiment&#x27; with using an 8&quot; collimating mirror in my simple single beam setup, so I figured a more scientific approach was necessary .<br><br>Would someone please be kind enough to check my calculation, as maths never was my strong point <br><br>I&#x27;m using a C315m Laser outputting 100Mw<br><br>The beam is expanded to the diameter of the mirror at its focal length in order to collimate the beam. Therefore i&#x27;m expanding the beam to cover an area of 50.272”^2 or 323.69cm^2<br><br>Next, i&#x27;m using 5&quot; x 4&quot; plates with an area of 20”^2 or 129.03cm^2<br><br>From the above (and for ease of calculation) it looks as though only approximately one third (ish) of the light is actually hitting the plate (using the cm measurements above). <br><br>So, my 100mw laser has the beam expanded to an area of 323.69cm^2 and only approximately 1/3 of the beam is being used.<br><br>100mw = 100,000uJ/second (I think)<br><br>I am only using approximately one third of this beam therefore 33333uJ/second<br><br>The plate requires (minimum) 150uJ^cm, therefore 150uJ (exposure required) x 129.03cm^2 (area of plate) = 19,354uJ <br><br>The energy reaching the plate is 33333uJ/second<br><br>Therefore 19,354 / 33333 = 0.58 of a second exposure required.<br><br>Now, bear in mind that I have never bothered to do this calculation before AND that maths really isn&#x27;t my strong point, is the above correct? It seems an incredibly short exposure time .<br><br>If it isn&#x27;t correct could you please point out where i&#x27;ve gone wrong.<br><br>Thanks<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Oct 02, 2007 2:17 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The math looks correct.<br><br>I think this is a good starting point as due to the gaussian profile of the beam your more likely getting half the enengy not 1/3 at the plate which should make your exposure shorter, but you need to subtract about 10% of the total energy going into an optic to get what comes out, which will make your exposure longer. So again, I think this is a good starting point.<br><br>If your shutter will not respond to that short a time, increase the diameter of the beam with a higher power objective keeping the same fl from the collimator and recalculate so that you get a longer exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Tue Oct 02, 2007 8:17 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks John for confirming the answer. I guess I just couldn&#x27;t believe that the exposure time was so short . Anyway i&#x27;m pleased that I didn&#x27;t embarass myself with my poor maths .<br><br>This means that the three holograms i&#x27;ve made with the C315m up to this point have all been massively overexposed . It would of course also explain the reason why they were not too good. I guess after using the 7Mw HeNe, I was used to exposing for quite some time in order to get a good exposure.<br><br>This revelation has great implications for me, as stability is now less of an issue <br><br>Thanks again.<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Fri Oct 05, 2007 8:16 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Not sure whether or not this will work, but i&#x27;m going to try and attach a file.<br><br>This is a small program i&#x27;ve written in VB.Net for calculating exposure times. I don&#x27;t do much programming at all these days and i&#x27;m not sure any more what I need to package with the program in order to make it work on any PC. I suspect that the Microsoft.Net Compact Framework will have to be present on the users PC.<br><br>If you are lucky enough that the program starts it is self explanatory. Just enter the required details. Be warned though, there is NO error checking, so it&#x27;s possible to enter anything in the textboxes and screw up the program. If anyone finds it really useful i&#x27;ll spend a bit more time on it and add error checking along with other suggestions.<br><br>If by any chance there is a problem and I can&#x27;t upload the file (or you can&#x27;t download it), please PM me with your email address and i&#x27;ll send you a zipped copy. I&#x27;ll also look into what other files I need to add to the package to ensure it works on any PC.<br><br>This file is zipped as the forum won&#x27;t allow .exe attachments.<br><br>📎 [Exposure Calculator.zip](https://holographyforum.org/forum/download/file.php?id=5949)<br><br>Cheers<br><br>Jem<br><br>Edit: WooHoo... It looks like the attachment worked... I LIKE this new forum</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Oct 05, 2007 10:39 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Jem, this is a fantastic program but I have to ask some of the math brains on the forum. <br><br>How critical or negligible is the beam diameter to plate size when taking into account the gaussian profile of the beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Fri Oct 05, 2007 11:02 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Hi John<br><br>It obviously works then <br><br>Obviously there&#x27;s loads of room for improvement. I really only knocked it together quickly for myself, but once it was done I decided it may be of use to others as well.<br><br>I&#x27;m not sure about the effect of the gaussian profile on the beam spread. However, if it&#x27;s a logarithmic scale I guess there would be some way of programming this in. Also I was thinking of adding another textbox for number of optics in the beampath and then adjusting the answer by a certain percentage for each optic.<br><br>Any suggestions would be welcome.<br><br>Cheers<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Fri Oct 05, 2007 12:19 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hmm...<br><br>Is this what we&#x27;re looking for? If so I just need someone to explain the maths to me so I can put it in the program <br><br>The lowest order, or &quot;fundamental&quot; transverse mode, TEM00 has a gaussian intensity profile, shown in the figure below, which has the form<br><br>![Formula.gif](https://holographyforum.org/forum/download/file.php?id=5951)<br><br>![Gaussian Beam Profile.gif](https://holographyforum.org/forum/download/file.php?id=5950)<br><br>Gaussian beam intensity profile<br><br>Cheers<br><br>Jem<br><br>The information was found on the following link...<br><br>[http://www.mellesgriot.com/products/optics/gb_2.htm](http://www.mellesgriot.com/products/optics/gb_2.htm)<br><br>Copyright acknowledged</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Sat Oct 06, 2007 7:22 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">O.K., So, there have been quite a few downloads of the first (very poor) program. That means a few people must have a marginal interest in what it does. <br><br>I have started to work on making it more robust by adding some error checking, and making it slightly more visually appealing. If anyone has any suggestions as to what features could be added please let me know, as it&#x27;s easier to do them at this stage rather than later when the program is finished.<br><br>Also, for those of you for whom the program would not work on your PC&#x27;s the next version will include a full installation package.<br><br>As previously mentioned, I only really did this for myself as a quick and dirty way of calculating exposure times. Please remember, I am not a programmer. It&#x27;s a long time since I programmed in VB and the latest re-incarnation &#x27;VB.Net&#x27; is a different beast altogether, so i&#x27;m having to feel my way along bit by bit please be patient and it will get here eventually <br><br>Cheers<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Oct 06, 2007 3:15 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Any chance of making a Java Script version for the forum?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jem</span>
+                <span class="post-date">Sat Oct 06, 2007 8:06 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I wish I could Colin!<br><br>Sadly, I &#x27;m pretty much left behind with regard to programming now. It&#x27;s one of those areas that if you don&#x27;t keep up you end up on the scrapheap <br><br>The code itself isn&#x27;t really much, but I wouldn&#x27;t know where to start in JavaScript, sorry.<br><br>I&#x27;m sure there must be someone here on the forum that could rise to the challenge.<br><br>Cheers<br><br>Jem</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Oct 06, 2007 8:53 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">I am afraid my Macro-11 experience won&#x27;t help us either.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6475.html" class="prev-thread">← Hand drawn holography software</a><a href="Beginners.html">↑ Beginning Holography</a><a href="6463.html" class="next-thread">Beam Expansion →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="468.html" class="card">
+                <h3>Please help diagnose image issues</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="7976.html" class="card">
+                <h3>A little Math Help Please</h3>
+                <div class="card-meta">Beginning Holography · 10 posts</div>
+            </a>
+            <a href="6457.html" class="card">
+                <h3>*sob*  *snuffle*  Please help me get a spatial filter going</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="6451.html" class="card">
+                <h3>Please please help me find my processing error!</h3>
+                <div class="card-meta">General Holography (old) · 9 posts</div>
+            </a>
+            <a href="6292.html" class="card">
+                <h3>Advice Please - C315m &amp; Fiber Optics</h3>
+                <div class="card-meta">General Holography (old) · 30 posts</div>
+            </a>
+            <a href="5286.html" class="card">
+                <h3>Exposure Calculations in uJ/cm^2?</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

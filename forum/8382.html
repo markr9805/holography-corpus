@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lens ducts — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8387.html" class="prev-thread">← No AmDi you say?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8384.html" class="next-thread">From our Russian Comrades →</a></div>
+    <h1>lens ducts</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>6,101</td></tr>
+        <tr><td>Started</td><td>Mon Aug 09, 2010 7:28 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/thieu.html">Thieu</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8382" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Aug 09, 2010 7:28 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was talking with Dave today, and he described the highly irregular output of the 445nm diode. In particular, there being bright spots, dark spots, etc. (I guess these are various modes?)<br><br>Anyway, I realized that if that mess were focused to a point, the emerging beam would just be a replica of the same mess, even if it goes though a spatial filter. (In this connection, I think a good nickname for this diode might be The Beast.)<br><br>I remembered in high-power DPSS lasers, lens ducts are sometimes used to focus light from the pump diode (or diode array). These kind of look like flat traingles of glass, with one edge rounded instead of flat. All surfaces are polished, and they work through total internal reflection.<br><br>I haven&#x27;t done any research yet, but there is a brief discussion of lens ducts at:<br><br>[http://www.optoiq.com/index/photonics-t ... ptics.html](http://www.optoiq.com/index/photonics-technologies-applications/vloc-laser-optics.html) <br><br>The key phrase that I noted in the above link was that the lens duct &quot;homogenizes&quot; the output from a diode or diode array. (I don&#x27;t know if they will affect the coherence of the beam, though.) I think commercial lens ducts can be quite expensive, but I do know how to grind and polish glass.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Aug 09, 2010 7:31 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Ooops, my link doesn&#x27;t work. Something similar is probably on the VLOC website.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Mon Aug 09, 2010 10:05 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Since the beams of all diode lasers originate from the die and are collimated by lenses, they have an interesting property. When you send them through a spatial filter, you have a system with two lenses, comparable to a telescope and you are actually imaging the die onto the pinhole. So if the die is a strip and you have a round pinhole a lot will fall outside the pinhole. The beam will be clean after the pinhole (the &quot;mess&quot; will fall outside it), but be very much lower in intensity. You&#x27;d be inclined to think that you would be able to circumvent this by choosing the lenses in such a way that the image of the strip would be smaller than the strip itself making it pass the pinhole. You can do this, but only by losing the light in another place. You&#x27;ll see this when you make a drawing of the kind of setup that would take and pay attention to which part of the cone emitted from a source will be captured by the lens.<br><br>For this diode, at low currents, the beam profile right at the stripe appears to be gaussian and coherent over the strip, this means that you <em>can</em> image it to a smaller point than the strip itself. This is a unique property of spatially coherent light. However, the focal point will lie a short distance apart from the real image of the stripe. So the beam is astigmatic, the focii in both directions are not at the same distance. You can either place your pinhole in the focus in one direction and lose it in the other or vice versa. The trick is to correct this with a cylindrical lens. If you choose the right parameters, it will resolve the astigmatism and the focii will lie in the same plane. Place a pinhole there and you&#x27;ll have magnificent beam. No need for other optics.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Tue Aug 10, 2010 8:35 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I had played with fitting the beam trough a spatial filter.. no matter what you do, if you like to have a decent even illumination of the holographic plate, there is no way other than throwing away a lot of the beam. However, my proposal would be to make use of the asymmetric beam profile and rescue some of the light, by splitting off a portion of the beam beforehand to serve as object/secondary beam. This could be done by a mirror with sharp edge (&quot;knife-edging&quot;).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue Aug 10, 2010 10:57 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">yes this is the toughest part of these diodes (getting them thru a spatial filter), if i send my beam thru square, as you said Wolfgang, a huge loss of light! After an hour of fiddiling /swapping pinholes and objectives a was able to ge a pretty clean stripe to go thru w/minimum light loss! then its a matter of adjusting the clean stripe via a CYL Lens after the SF???, or as wolfgang said to use portions of this stripe to your needs..............</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Aug 10, 2010 1:09 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I wonder if an elliptical &quot;pinhole&quot; might be a solution? Maybe one can be double drilled by a pulsed laser to get that shape, and mounted in a rotating holder to orient it to match that of the beam being filtered. Or how about using a pinhole chosen to be large enough to pass the major axis of the beam waist. There might be some residual noise in the minor axis direction, but that could be minimized by using few and clean optics upstream.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Aug 10, 2010 2:26 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Bob, This just might fit into the class of optics that need to be fixed with a hologram? What is needed is a two lens system that corrects for the elipse and astigmatism. If the beam were allowed to diverge perhaps the power could be kept low enoough that DCG could be used as the lens(es). Then once the beam is corrected the beam could be converged through a pinhole. Or, perhaps the beam could be first shaped with a anamorphic prism pair then corrected for astigmatism? What are your thoughts?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Tue Aug 10, 2010 2:30 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">yes correct Thieu about the use of the cyl lens, As BobH has suggested a 25 x50 um pinhole would proably do the trick to make it more efficent.Even though a lot of light loss is incurred using the SF and CYL lens,the beam is quite beautiful..........................</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Aug 10, 2010 4:01 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">From what I&#x27;ve read and seen on the forum, it looks like splitting part of the beam would be a practical solution for most people. For typical objects, the object beam needs a lot more power, compared to the reference beam, to get a proper 1:1 ratio. It would be easy to bevel one edge of a mirror down, using a wet grinder. From what I&#x27;ve seen from Dave, getting the remainder through a spatial filter looks like it can be done. I would like to see more split-beam DCG holograms anyway. Probably the most exciting aspect of holography as an art medium is the control possible with object lighting. With single-beam holograms, there is very little control of the object light, and objects look flattened when illuminated from the front.<br><br>However, the beam profile still poses a problem for color holography setups. But these people are in a very small minority.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8387.html" class="prev-thread">← No AmDi you say?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8384.html" class="next-thread">From our Russian Comrades →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11408.html" class="card">
+                <h3>Holographic plasma lens for laser fusion ignition (LIF)</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="10920.html" class="card">
+                <h3>Do you think Light Field Lab&#x27;s upcoming holographic display is a fly-eye lens array or a new type of technology?</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="79.html" class="card">
+                <h3>Use a Hologram of a lens as a lens?</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="8433.html" class="card">
+                <h3>One step transmission holography with lens</h3>
+                <div class="card-meta">General Holography (old) · 7 posts</div>
+            </a>
+            <a href="7142.html" class="card">
+                <h3>lens mounting for use w/spatial filter?</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="7123.html" class="card">
+                <h3>What Coating on a -FL Lens</h3>
+                <div class="card-meta">Beginning Holography · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

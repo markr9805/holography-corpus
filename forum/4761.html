@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Metering — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4759.html" class="prev-thread">← On Axis Hologram</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4753.html" class="next-thread">JDS Uniphase Single Frequency 532nm pin connfiguration →</a></div>
+    <h1>Simple Metering</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>2,033</td></tr>
+        <tr><td>Started</td><td>Sat Apr 16, 2005 11:26 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/tony.html">Tony</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4761" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sat Apr 16, 2005 11:26 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">For a fairly cheap and very simple Hene light meter, use the Radio Shack Solar Cell, #276-124, and a DVM. Total area of this cell is 8 cm2.<br><br>For low light levels, place a 215 ohm resistor in parallel with the solar cell and measure the voltage. At low levels (below ~100mV), the response of this is .5mV/uW/cm2.<br><br>For undiverged Hene beams, just measure current output directly. The conversion is .47 ma/mW.<br><br>The above quoted numbers are compared to an OPT101P. Sensitivity at wavelengths other than 633nm may be different. Above number typical and do not account for statistical variations of the population distribution of available Solar cells. Your mileage may vary, offer void in some states, yada yada...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Apr 16, 2005 2:28 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I have never had good results with measuring voltage. It does not seem to be linear. Is this cell different than most?<br><br>When I was using a solar cell and ohm meter I took my adjustable beam splitter and measured both output beams in order to prove to myself that it was linear.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sat Apr 16, 2005 2:48 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">This thread may be transplanted to the main section by the forum gods as needed...<br><br>...On linearity of photo detectors...<br><br>The solar cell, like a photodiode, has a PN junction. Photons knock electrons across the junction. The more photons, the more electrons, so we start off with something that&#x27;s linear. We measure the number of electrons by measuring current.<br><br>Most DVMs don&#x27;t have sensitivity/resolution below about .01 mA. But we wish to measure light levels below that. So my solution is to raise the electrical gain of the system by allowing the solar cell to develop a more measurable voltage as it produces a current across the 215 ohm resistor. Now instead of trying to measure .1 mA of current, we can measure 21.5 mV of voltage. As long as the voltage across the solar cell is relatively low, everything stays ~reasonably~ linear. This falls apart when the voltage across the cell starts to get appreciable, at which point it starts to affect the current output, and the cell becomes nonlinear. This is why I presented two methods of measurement, one for low levels and one for higher levels of illumination.<br><br>Oh, and one other thing I left out of the original post is that you can use the photodiode portion of the OPT101 alone without the high gain op amp. This can be used to measure laser output directly (at least around 10-20 mw).</div>
+        </div>
+
+    <div class="thread-nav"><a href="4759.html" class="prev-thread">← On Axis Hologram</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4753.html" class="next-thread">JDS Uniphase Single Frequency 532nm pin connfiguration →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11033.html" class="card">
+                <h3>Holographic Optical Element (HOE) of simple reflection mirror</h3>
+                <div class="card-meta">Equipment · 14 posts</div>
+            </a>
+            <a href="8470.html" class="card">
+                <h3>DIY simple interferometer question</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="7644.html" class="card">
+                <h3>Ferric ammonium citrate - a simple synthesis</h3>
+                <div class="card-meta">General Holography (old) · 11 posts</div>
+            </a>
+            <a href="6573.html" class="card">
+                <h3>Simple DCG</h3>
+                <div class="card-meta">General Holography (old) · 18 posts</div>
+            </a>
+            <a href="6420.html" class="card">
+                <h3>Simple Exposure Timer</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="6303.html" class="card">
+                <h3>Simple Spectrometer</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change laser polarization — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="865.html" class="prev-thread">← Beamsplitter reflections</a><a href="Optics.html">↑ Optics</a><a href="832.html" class="next-thread">15 Weeks in 2 Hours! →</a></div>
+    <h1>change laser polarization</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>17</td></tr>
+        <tr><td>Views</td><td>260,654</td></tr>
+        <tr><td>Started</td><td>Thu May 22, 2014 1:29 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/marwaj.html">marwaj</a> · <a href="../authors/a-k.html">a_k</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/joe-farina.html">Joe Farina</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=863" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">marwaj</span>
+                <span class="post-date">Thu May 22, 2014 1:29 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi All,<br><br>I want to use laser Omicron dual diode bluephoton 405nm - 70mW for holography purposes . It has high quality SLM beam but light is cross-polarized..<br><br>How to change this polarization to linear? Is there any easy method?<br><br>//Marcin</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Thu May 22, 2014 6:05 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hello Marcin,<br><br>The laser you mention contains two laser diodes with different wavelengths, one horizontally polarised, the other vertically polarised, combined in one beam. I think that you&#x27;ll need to use a polarisation filter to select one of the two sources.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri May 23, 2014 6:24 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Or use a polarizing beamsplitting cube. One output will be polarized orthogonally to the other, but you can rotate them into the same plane with a half-wave plate if you need to do so.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2626&amp;mode=view)<br> From Melles Griot Optics Guide <br><br>[](https://holographyforum.org/forum/download/file.php?id=2625&amp;mode=view)<br> From Melles Griot Optics Guide</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri May 23, 2014 12:29 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>a_k:</strong> Hello Marcin,The laser you mention contains two laser diodes with different wavelengths, one horizontally polarised, the other vertically polarised, combined in one beam. I think that you&#x27;ll need to use a polarisation filter to select one of the two sources.<br><br>But if both polarisations exist in the same beam and are independantly linear, would you not get elliptical polarisation (or circular, if the amplitude of both beams are the same)? How can both beams be the same frequency and still have two superimposed independant linear polarisation states?<br><br>At any rate, even if the polarisation states are independant, if they are each linear, then why bother to separate them? Assuming this is a display hologram, if the object de-polarises, then the polarisation state of the laser is irrelevant. If the object does not de-polarise, then each polarisation state will interfere with the corresponding state in the input beam and will not interfere with the other state in the input beam. That is, the &quot;horizontal&quot; and &quot;vertical&quot; polarisations will hit the object and reflect back as &quot;horizontal&quot; and &quot;vertical&quot; states. The &quot;horizontal&quot; state will only interfere with the &quot;horizontal&quot; state in the input beam and will not interfere with the &quot;vertical &quot; state and vice versa.<br><br>(Edit: I just read AK&#x27;s post more carefully. The laser contains two <em>different</em> wavelengths? If so, the combining the beams will result in a moire effect. Again, there&#x27;s no need to separate out the polarisation states, because each output state will only interfere with the corresponding input state.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Fri May 23, 2014 1:14 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">You are correct, if your intention is two record two holograms simultaneously. But if the intention isn&#x27;t to record a pair, you would need to select one of the frequencies and discard the other one. Isn&#x27;t that so?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri May 23, 2014 2:52 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>a_k:</strong> You are correct, if your intention is two record two holograms simultaneously. But if the intention isn&#x27;t to record a pair, you would need to select one of the frequencies and discard the other one. Isn&#x27;t that so?<br>Yes, that&#x27;s so. It really depends on what he&#x27;s trying to do. If the intention is to make a single beam Denisyuk (for example) using both beams, then it can be done, but if he uses both beams simultaneously, he&#x27;ll get a moire. Both polarisation states will create fringes, but the two sets of spatial frequencies due to the slightly different wavelengths will also create a beat (spatial) frequency. To avoid the moire, he&#x27;d need to discard one of the beams. In this case, his best bet is to use a breamsplitting crystal, as Ed Wesley suggests. At 405 nm, a polariser would not stop the either state completely, since most polarising sheets pass blue to some extent, whatever the polarisation.<br><br> If the intention is to shoot two separate holograms, then again, you need to separate out the two cross polarisation states but then send them through two different paths to two different objects, instead of discarding one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">marwaj</span>
+                <span class="post-date">Fri May 23, 2014 3:07 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hi all, <br><br>thanks for Your answers.<br><br>This laser has two controllers and if I want I can turn on only one diode , then I get half of power 35mW , I&#x27;m curious if then the light will be still cross-polarized.. <br><br>I must check this using linear polarizer filter and power probe.<br><br>It will be great, if all power (70mW) could be used for shot one hologram.<br><br>Dinesh<br><br>You suggest that I can try to shot hologram without make separation of polarization?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri May 23, 2014 3:10 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I&#x27;m not familiar with how that laser works, but it does sound like an oddball.<br><br>I believe that two lasers of the same wavelength can be combined by having the two beams with crossed linear polarizations incident on some kind of beam combiner, but I don&#x27;t remember how it&#x27;s actually done. Maybe someone here knows, or maybe I&#x27;m wrong.<br><br>If two laser beams of very similar (but slightly different) frequencies are combined, I would assume it would produce some kind of moire pattern on the object (other terms are sliced-bread or contour-fringe). This is what happens when laser diodes mode-hop or put out more than one wavelength. But the wavelengths need to be almost identical. Maybe this would be around 0.01nm difference, but this a rough generalization, because I have no idea of the exact difference needed for this kind of effect. On the other hand, if the wavelengths are well-separated (maybe more than 1nm, but again, I don&#x27;t know exactly) then there will be no problem in the image. This is the same as color holography, when beams are combined.<br><br>As for crossed polarization, I don&#x27;t see why it would be a problem for basic holograms. It would be somewhat similar to random polarization. Many holographers (like myself) got started with randomly-polarized HeNe&#x27;s, and these can make very nice holograms. But more can be done with a polarized laser, such as reducing light bouncing around inside the glass holographic plate by using Brewster&#x27;s angle for the reference beam. But it sounds like the above laser might have closely-spaced frequencies, so it might produce a moire, or an image looking like a zebra (the width of the contour fringes will depend of the wavelength differential). You can always try it &quot;as is&quot; and see what happens.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri May 23, 2014 6:31 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>marwaj:</strong> This laser has two controllers and if I want I can turn on only one diode , then I get half of power 35mW , I&#x27;m curious if then the light will be still cross-polarized..<br><br>With only one beam, assumed coherent (or semi-coherent), you cannot have two independent polarisation perpendicular states. The polarisation must be either linear or random, ie unpolarised. If you have two beams from two sources inline with each other, I suppose it&#x27;s possible (but odd) that the two beams are linearly polarised perpendicular to each other. If the two wavelengths are the same, then this will result in elliptical polarisation. If the two wavelengths are slightly different, but ve-e-e-ry slightly different, then you&#x27;ll again have elliptical polarisation, but the ellipse will rotate, since the frequencies of the two E vectors are slightly different; it depends on the degree of coherence and the phase difference between the two E vectors. If they&#x27;re in-phase, the ellipse is described by E(1)cos(w(1)t) + E(2)cos(w(2)t) with w(1) - w(2) &gt;~ 0. If the frequencies of the lasers, or their wavelengths are very different, then the ellipse will orientate in random directions very fast and you&#x27;ll again get &quot;random&quot; polarisation. <br><br>&gt; <strong>marwaj:</strong> You suggest that I can try to shot hologram without make separation of polarization?<br><br>Well, I&#x27;m not sure what you&#x27;re trying to do. Let&#x27;s say you&#x27;re trying to make a single beam Denisyuk. Let&#x27;s also say that the object is shiny (eg coins) and the object does not de-polarise. In this situation, let&#x27;s call one polarisation state A, and the other one perpendicular to A, we&#x27;ll call B. So, A and B are directions perpendicular to each other - they may be &quot;up and down&quot; and &quot;left and right&quot;, for example. In this case, both A and B will hit the object. A reflects A back, interferes with A but does not interfere with B, since B is perpendicular to A. Now you have &quot;A fringes&quot;. At the same time, B reflects back and interferes with B, but does not interfere with A, for the same reason. Now you have &quot;B fringes&quot;. What you&#x27;ll record is a set of A fringes and B fringes. But, if the wavelengths are slightly different, the A fringes will have a very small fringe width different with the B fringes, ie there will be a small difference in spatial frequency. This small difference in spatial frequency will create a beat frequency, which shows itself up as a set of whirly lines across the image which will look like moire fringes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri May 23, 2014 6:43 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">We need a link to the spec sheet of this laser, please.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Fri May 23, 2014 6:47 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Correction: The two lasers are described as having equal wavelength, not sure how equal they really are:<br><br>[http://www.omicron-laser.de/english/las ... diode.html](http://www.omicron-laser.de/english/lasers/diode-lasers/high-power-multiline/dual-diode.html)<br><br>&gt; The diode lasers of the Bluephoton® / Greenphoton® / Redphoton® DualDiode Series are temperature-stabilized lasing diode modules, with two laser diodes of equal wavelength, whose laser beams are united over special co-linear optics. Through this, it is possible to quasi-duplicate the powers of single mode laser diodes available on the market. The only difference to laser diode modules with only one laser diode is that the DualDiode laser diode modules indicate a crossed polarization. All other beam parameters are identical, which means double power with equal quality.<br><br>Just found some more details about these lasers, they seem to have a bragg grating integrated in the active region of the LD and also contain wavelength selective elements in the external cavity, resulting in a very narrow linewidth light source with a coherence length of 250m. I have asked Omicron-Laserage for more details.<br><br>[http://www.omicron-laser.de/files/pm_14 ... nglish.pdf](http://www.omicron-laser.de/files/pm_14_-_dfb_and_ws_dioden_lasers_-_english.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat May 24, 2014 6:06 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>a_k:</strong> http://www.omicron-laser.de/english/las ... diode.html<br><br>I like the art-deco 1930&#x27;s look of this laser: a streamlined blue anodized-looking case, and a brass-colored collimating assembly in front. Its odd appearance seems to match its odd performance.<br><br>If the long coherence length can be believed, this would be very interesting for testing with DCG. As Ed Wesly suggested, if the laser has two linear polarization states in one beam, a polarizing beamsplitter cube should separate the beams nicely.<br><br>If it has enough coherence <em>over the time needed for the exposure</em>(sometimes this point can be vague), then 35mW (one separated beam) should be plenty of power for smaller DCG holograms, since DCG is very sensitive at that wavelength.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Sat May 24, 2014 8:07 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">35mW at 405nm is plenty in any case. You&#x27;ll get sensitivities around 2mJ/cm2 DCG (2g gelatin / 0.085g Amdi / 16.5ml H20).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">marwaj</span>
+                <span class="post-date">Sat May 24, 2014 12:22 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I will test this laser in next week.I&#x27;m interesting to make only a single beam Denisyuk holograms on DCG and DC-PVA.<br><br>It looks that I will be able to do 2 holograms simultaneously when I will use polarized beamspliter cube and 2 half-wave plates to rotate s-polarized beam to p-polarized beam.<br><br>in atachment photo of this odd laser..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat May 24, 2014 12:26 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>a_k:</strong> 35mW at 405nm is plenty in any case. You&#x27;ll get sensitivities around 2mJ/cm2 DCG (2g gelatin / 0.085g Amdi / 16.5ml H20).<br><br>Yes, I agree.<br><br>For inspiration, here is a DCG hologram made by a_k (Ahmet) using a 405nm laser diode (from a thread in the archived forum, I think the topic was &quot;405nm DCG&quot;:<br><br>[http://holoforum.org/oldforum/download/ ... 924ada0c99](http://holoforum.org/oldforum/download/file.php?id=283) <br><br>Good luck Marcin.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun May 25, 2014 10:19 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">This is the thread for &quot;405nm DCG&quot;:<br><br>[http://holoforum.org/oldforum/viewtopic ... 0b1534d83a](http://holoforum.org/oldforum/viewtopic.php?f=2&amp;t=6493)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Sun May 25, 2014 11:45 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Might not be a bad idea to make an interferometer to see which of these beams can interfere with each other. Even though both emitters are SLM, there is no guarantee that they are both exactly the same wavelength.<br><br>It&#x27;s starting to sound like they use a polarizing beamsplitting cube to combine the beams.</div>
+        </div>
+
+    <div class="thread-nav"><a href="865.html" class="prev-thread">← Beamsplitter reflections</a><a href="Optics.html">↑ Optics</a><a href="832.html" class="next-thread">15 Weeks in 2 Hours! →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11470.html" class="card">
+                <h3>measuring laser intensity</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11408.html" class="card">
+                <h3>Holographic plasma lens for laser fusion ignition (LIF)</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11225.html" class="card">
+                <h3>Using a 660nm laser to expose legacy AgX Agfa, Ilford, HRT (BB) plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 12 posts</div>
+            </a>
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

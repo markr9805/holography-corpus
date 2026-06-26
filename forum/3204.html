@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limitations of beam splitters — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="3203.html" class="prev-thread">← Methyl Blue vs Methylene Blue</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3189.html" class="next-thread">Make use of the forum search facility →</a></div>
+    <h1>Limitations of beam splitters</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>2,755</td></tr>
+        <tr><td>Started</td><td>Wed Mar 09, 2005 5:14 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/wler.html">wler</a> · <a href="../authors/konrad.html">Konrad</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/edelbrp.html">edelbrp</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=3204" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Mar 09, 2005 5:14 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Let me also add something I learned recently and the hard way. One<br><br>thing I was concerned with was properties of beam splitters and<br><br>alike. Particularly troublesome are metallic coated ones, such as<br><br>those wonderful neutral density wheels. I had been wondering since<br><br>a while why my settings were not stable and pretty jumpy when turning<br><br>the wheel.<br><br>Turns out that metallic coated splitters/neutral density filters<br><br>have a ridiculously low damage threshold. To the effect that when<br><br>acting with 100mW at small beam diameter, you instantly burn little<br><br>holes into the coating, making the surface very uneven over time.<br><br>I did some research into metallic neutral density filters (for<br><br>building a power meter), and found that the damage threshold is<br><br>typically like 50mW-500mW/cm^2. So with a 100mW laser at beam<br><br>diameter of 1mm^2, you have 10W/cm^2 which can be 20-200 times over the limit.<br><br>So the message is that, if you have a powerful laser like a 315M,<br><br>don&#x27;t use metallic beam splitters but splitter cubes, or dielectric<br><br>splitters. To have the beam ratio variable, the best thing is to<br><br>use a polarizing cube and waveplates. But that&#x27;s another story.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Konrad</span>
+                <span class="post-date">Thu Mar 10, 2005 10:57 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Are you sure that neutral density wheels has that low damage threshold? 50mW-500mW/cm^2 is 0,5mW-5mW/mm^2 so it sounds little impossible (it means that even low power laser can damage mirror coating).<br><br>I have Newport variable beamsplitter and Newport says that damage threshold is 75W/cm^2 (or 750mW/mm^2) for this filter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Mar 11, 2005 5:36 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Well, if they write this, then this will be right and you lucky. I<br><br>had written some inquiries to MG and Thorlabs, and they gave me<br><br>those numbers (for metallic splitters and neutral density filters).<br><br>It&#x27;s of course possible that there exist higher limits for special<br><br>coatings. At any rate, it so happens that with my argon laser I do<br><br>burn little holes (maybe not quite holes, lets call them damage<br><br>zones) into my variable density wheel, at around 100mW.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Mar 11, 2005 6:26 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I use a Newport metallic beamsplitter and I must say I see no damage at 200mW/cm^2 at 488, or 100mw?cm^2 at 514. My beam is about the same - 0.5mm radius.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Mar 11, 2005 1:48 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> I use a Newport metallic beamsplitter and I must say I see no damage at 200mW/cm^2 at 488, or 100mw?cm^2 at 514. My beam is about the same - 0.5mm radius.<br><br>You mean 100mW at 514 at 0.5mm beam radius ? That&#x27;s what I typically<br><br>use, and with damage. Perhaps my variable density wheel is no good...<br><br>I actually can see in the reflected beam something moving, like<br><br>from a melting motion.<br><br>I suspect that the lower values apply to dedicated low power<br><br>reflective metallic neutral density filters. Thorlabs specifically quotes<br><br>[750mW/cm^2](http://www.thorlabs.com/NewGroupPage.cfm?Guide=34&amp;Category_ID=134&amp;ObjectGroup_ID=119&amp;Visual_ID=579) for its metallic coatings, which is more like the upper<br><br>bound. But I checked that Newport indeed quotes 75W/cm^2 for its<br><br>wheels, which is 100 times of that... leaving me puzzled ! Perhaps<br><br>there exist quite different kinds of coatings. Obviously, the<br><br>thickness of the coating should matter a lot, certainly it makes a<br><br>difference if a certain amount of the energy is absorbed within<br><br>1um thickness or 20um, say.<br><br>Edit: Link added.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Mar 11, 2005 2:47 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I think you have a point about thickness. There&#x27;s also the heat dissipation in the material. It should be possible to do a rough calculation. If the beam radius is r and the thickness of the coating is d, then the mass of the metal being heated is:<br><br>m = pi<em>(r^2)</em>d<em>(rho)<br><br>rho = density of metal.. If the beam power is W (per unit area), then energy /sec delivered to the volume, w_d:<br><br>w_d = pi</em>r^2<em>d</em>(rho)<em>W</em>pi<em>r^2 = (pi^2)</em>(r^4)<em>W</em>d<em>(rho)<br><br>If the energy needed for spluttering (let&#x27;s call it the bp of the metal) is E, then time it takes to splutter t,<br><br>t = E</em>w_d = m<em>s</em>(delta theta) + m*L<br><br>where delta (theta) is, of course the temp differece between room temp and bp and L is the latent heat of evaporation. Knowing these figures, it should be possible to calculate the thickness of the metal in the different coatings, or at least, give an upper figure. Of course, I don&#x27;t take dispersion into account. Strictly speaking you&#x27;d need a &quot;loss factor&quot; for heat dispersion into the surrounding material, which would be a function of the thermal conductivity of the metal.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">edelbrp</span>
+                <span class="post-date">Fri Mar 11, 2005 8:27 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hey, I thought this was a &#x27;one-liner&#x27; area? ;&#x27;)<br><br>-Phil</div>
+        </div>
+
+    <div class="thread-nav"><a href="3203.html" class="prev-thread">← Methyl Blue vs Methylene Blue</a><a href="General-Old.html">↑ General Holography (old)</a><a href="3189.html" class="next-thread">Make use of the forum search facility →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11388.html" class="card">
+                <h3>Single Beam Transmission</h3>
+                <div class="card-meta">Equipment · 10 posts</div>
+            </a>
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="11353.html" class="card">
+                <h3>beam ratios: silver vs. polymer vs. DCG</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="11279.html" class="card">
+                <h3>Beam Splitter Problems</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="9998.html" class="card">
+                <h3>Two of the same laser instead of beam splitter?</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8924.html" class="card">
+                <h3>Single Beam Splitting for enhanced Denisyuk reflections</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

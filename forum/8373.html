@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some experiments with the blue LD&#x27;s — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="8377.html" class="prev-thread">← I want to make a Full Color Hologram</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8364.html" class="next-thread">KTP SHG →</a></div>
+    <h1>Some experiments with the blue LD&#x27;s</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>59</td></tr>
+        <tr><td>Views</td><td>519,243</td></tr>
+        <tr><td>Started</td><td>Wed Jul 28, 2010 12:08 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/thieu.html">Thieu</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/dave-battin.html">dave battin</a> · <a href="../authors/a-k.html">a_k</a> · <a href="../authors/wler.html">wler</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/martin.html">Martin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=8373" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Jul 28, 2010 12:08 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello everyone,<br><br>Last week I did some experiments with external feedback on the blue 445nm diodes. I found that the diodes are so sensitive to external feedback that it&#x27;s possible to lower the threshold current and change the longitudinal mode structure even by just putting a microscope slide (no coverslip) in the <em>uncollimated</em> beam, right in front of the diode. In one of my tests, the diode operated almost exclusively SLM from threshold to around 300 mA this way.<br><br>Even though operating the diode like this is by no means comparable to a real ECDL with a TEC and high stability current source, it might be interesting for those of us who just want to give it a try without expecting excellent results. Given the expected short exposure times at this wavelength, the stability of a simple good current source fed diode that has reached thermal equillibrium may well be enough to produce holograms better than those obtained with green pointers for about the same cost.<br><br>For those interested, more details about the measurements and videos of the mode structure development during current ramps are on my blog ( [http://piepklein.blogspot.com/](http://piepklein.blogspot.com/) ).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jul 28, 2010 1:35 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">What is the resolution of the grating you use to spread the lines? I am wondering how sensitive this simple feedback system would be to thermal length changes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Wed Jul 28, 2010 5:06 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Excellent work! <br><br>For those that might be interested, Nichia&#x27;s site has data sheets on this and other interesting diodes such as lower power single transverse mode blues (NOT SLM), some UV laser diodes and an an announcement that they will be shipping samples of their new 50 mW green diode in August.<br><br>[http://www.nichia.co.jp/en/about_nichia/index.html](http://www.nichia.co.jp/en/about_nichia/index.html)<br><br>Here&#x27;s a company selling 1W blue diodes pulled from new Casio projectors for USD $63.50:<br><br>[http://www.stagelightingeffects.com/ind ... par=163849](http://www.stagelightingeffects.com/index.php?spot=gobo&amp;par=163849) (6th item down)<br><br>(I have not dealt with them, buyer beware etc. but they look legit.)<br><br>Interesting times!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Jul 28, 2010 9:32 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> What is the resolution of the grating you use to spread the lines? I am wondering how sensitive this simple feedback system would be to thermal length changes.<br><br>Hi Colin,<br><br>This is the monochromator I use to view the mode spectra:<br><br>![monochromator](https://holographyforum.org/forum/download/file.php?id=6669)<br><br>The light enters from a slit at the lower right-hand corner and after being collimated by a concave mirror it reflects at two gratings that are coupled mechanically in the original system. After being focused again it falls onto the webcam. I measured the angles of the gratings at different settings which gave about 600 lpm (15000 lpi) for the gratings. I&#x27;m not 100% sure, but the deflections at each grating probably add up, giving effectively 1200 lpi for the combination. I calculated the wavelength resolution for the complete system to be about 0.013 nm/pixel in the final image on the webcam. Since the gratings are pretty large, the ultimate resolution in the diffraction limit is probably quite a bit higher, but it&#x27;s hard to reach that mainly because of astigmatism introduced by the off axis use of the mirrors. <br><br>But the spectrograph is not involved in the feedback setup. The feedback setup is just this:<br><br>![microscope slide feedback](https://holographyforum.org/forum/download/file.php?id=6668)<br><br>Nothing more than the slide resting on the part of the heatsink that sticks out in front of the diode. The distance between the slide and the front window of the diode is a couple of mm&#x27;s.<br><br>The sensitivity to thermal length changes will be in the order of a fractions of a wavelength. In practice, it may work to just glue the slide directly to the diode. This will keep the system compact and it will settle down into thermal equillibrium together with the diode itself. Thermal expansion coefficients are in the order of 10 microns per meter per kelvin, so a small mm sized system will be stable to the nm if the temperature is kept stable to a fraction of a degree. For a system that has settled down in a quiet room this will be no problem at all, especially because it will only have to be stable for the duration of the exposure. <br><br>The above is theory though. Because I don&#x27;t have a TEC controller, I can&#x27;t measure the spectra at different temperatures. Maybe wler could make a scan?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Jul 28, 2010 10:46 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Maybe it&#x27;s good to elaborate a bit more on the thermal sensitivity, to avoid some misunderstanding.<br><br>Expansion coefficients of common materials are in the order of 10 microns per meter per kelvin. So if you have a path length difference of a meter in your setup, and the setup heats up by 0.025 degrees you will have a 250 nm phase shift along this path. If this happens halfway during the exposure, the labda/2 phase shift will cause the fringes of the first part to be overwritten by exactly the opposite pattern during the second half, so you&#x27;ll get no hologram.<br><br>If you have a diode laser with a cavity of 1 mm, this will expand to (1 mm + 0.25 nm) with the same 0.025 degrees temperature change. This 0.25 nm will seem very small and of no concern compared to the wavelength, but beware that it results in the same situation as above. The wavelength of this diode laser will be such that the relative phase will be 0 after each pass of a cavity length. So after a meter of travel, the original diode will be at exactly phase 0, but the expanded one will have it&#x27;s phase 0 point at 1 meter + 250 nm. It will lag behind half a wavelength at the 1 meter point. So even if the cavity length difference is only 0.25 nm and the corresponding wavelength shift is only a fraction of a pm (!) , you will still get a complete loss of fringes after 1 meter path difference.<br><br>So the same rule applies to the setup in general and the laser in particular.<br><br>Formulated as a rule of thumb:<br><br>Temperature stability required during exposure (in degrees C) = 1 / maximum path length difference in setup (in cm)<br><br>So for simple holograms of say 10 cm depth, and low demands on quality, 0.1 of a degree should be enough. This is consistent with the fact that there is no TEC in for instance the diode laser that&#x27;s part of the Integraf and many other diode laser holography kits.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Jul 28, 2010 12:46 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> So for simple holograms of say 10 cm depth, and low demands on quality, 0.1 of a degree should be enough. This is consistent with the fact that there is no TEC in for instance the diode laser that&#x27;s part of the Integraf and many other diode laser holography kits.<br><br>This is correct Thieu, with low demands on the diode itself, (mw instead of watts), this diode easily accepts positive feedback thru it&#x27;s output window, then its just a matter of allowing it to come to a thermal equilibrium at the same time. By adjusting the current while the laser is in an interferometer set-up,i can achieve the longest coherent length possible, i then allow it to run a while to thermally adjust then check the coherent length and make an even smaller adjustment to the current again, and i repeat this cycle until im happy with the lasers fringe structure......<br><br>i made two one beam holograms last night (w/8inches of coherent length),and only passive cooling.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Wed Jul 28, 2010 6:20 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Hello Thieu<br><br>Thanks for sharing your results and congratulations for the success. Depending mainly on the amount of feedback there are different regimes possible each with distinct impacts on the bahaviour of the LD. This paper contains a description of the feedback levels required and the effects to be expected for each of them: [http://www.photodigm.com/pdf/Photodigm_ ... edback.pdf](http://www.photodigm.com/pdf/Photodigm_Optical_Feedback.pdf) <br><br>The glass plate provides a weak feedback (Regime 1) and depending on the distance of the glass plate / phase of the feedback the linewidth might get better or worse.<br><br>Did you check if the transverse mode structure did show changes when the cover plate was at an optimum position? It would be interesting to learn if there was an improvement as well.<br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Jul 28, 2010 7:47 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thank you Ahmet, that&#x27;s a very interesting article. From the descriptions given in the article about the behaviour of the laser I&#x27;d say that I&#x27;m in regime 2 at the moment though. A quick simplified (non gaussian optics) calculation of the amount of expected feedback also supports this. The beam grows to a size of about 50 mm <em> 1000 mm after travelling 1m in air. So if it emanated from a 100 um </em> 1 um facet, it will be 150*1000 um wide after travelling 1 mm. Together with the 4% reflection on a glass interface, this gives about a 45 dB reduction. Tomorrow I&#x27;ll see and try if I can explore the other regions as well by varying the distance to the slide.<br><br>With the slide there is little effect on the higher order transverse modes other than that the threshold current at which they come into play decreases. I can get them to flash on and off with the current set just below the threshold. <br><br>With the other setup though, with the glass plate in the focal point of the focussed beam, the effects on the transverse modes were huge! All kinds of modes flashed by, even some that aren&#x27;t visible at all when the laser is operated without external feedback. I&#x27;ll see if I can make a video of that as well, it was very interesting to watch. <br><br>I also saw by the way that indeed the transverse and longitudinal modes are coupled, their relative intensities in the spectrum change when I put the entrance slit at different locations in the far field pattern. Some modes completely disappear exactly in the center of the beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Jul 28, 2010 11:27 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> [ Maybe wler could make a scan?<br><br>Oh sure, that&#x27;s very interesting news indeed ! So far I was playing around with grating feedback and got single mode operation beyond 200-250mW, but often somewhat unstable and as of yet I coulnd&#x27;t get a system that would work realiably without concurrent mode monitoring (BTW for the blue diodes just checking noise in the laser output seems sufficient to identify SLM or non-SLM operation, in contrast to other diodes). <br><br>I did notice that the 15% or so feedback of the grating I used seemed a bit on the high side, and what you say confirms this, namely just a few percent may be better. Indeed also for the red diodes I found feedback between 5 and 10% generally sufficient. So I will try a glass plate in a couple of days, actually a small wedge may be better in order not to have the competition between two surfaces (laserwolfer sells on ebay such wedge plates and now I am glad I got one, though it wasn&#x27;t suitable for my original purpose). <br><br>For the last few weeks I was tied up with redesigning my LD-TEC combo driver to be optimized for the blue diodes, now it can handle 500mA and the prototype is very stable, to a few mK over an extended period of time. I still need to have the PCBs manufactured, assemble them and do the final testing to be sure. And this time it won&#x27;t need special ICs.<br><br>Best,<br><br>Wolfgang</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Thu Jul 29, 2010 12:32 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thank you for the detailed answer.<br><br>I&#x27;m not sure about being in Regime 2. For the Nichia diodes the emitting point is 1.9mm from the base. From the photos i would say your mounting plate is about 4-5mm thick and the distance from the emitting point to the glass plate would be 2-3mm. Let&#x27;s say it&#x27;s 2, this would be a total travel of 4mm for the feedback. The divergence of the beam, assumed to be 12 and 40 degrees, the size of the reflected spot at the plane of the emitting point would be about 5mm^2. I think the plate would need to be much closer to the front facet for exploration of the other regimes and maybe the can would need to be opened to get close enough. <br><br>I asked about the transverse modes because there is some hope that a common feedback would synchronise them and force SLM operation to higher levels than just above threshold and the fact that despite lowered threshold you were observing single mode behaviour up to 300mA would support this assumption. The video you mentioned would be highly appreciated.<br><br>With the plate at the focal point of the beam the possible feedback is much higher and could almost be enough for strong feedback and depending on how much the plate is tilted i think all the regimes could be scanned through.<br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jul 29, 2010 3:19 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; I calculated the wavelength resolution for the complete system to be about 0.013 nm/pixel in the final image on the webcam.<br><br>That is what i was wondering. I wanted to know the mode spacing. Great work!<br><br>wler, if you make a turn key blue laser sign me up for one! I only need 100mw or so.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Thu Jul 29, 2010 1:28 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Colin, I&#x27;m afraid my calculation was a bit off, it was based on estimates for a couple of parameters. Today I did a real calibration based on the absorption lines in a small part of the solar spectrum. The width of the frame corresponds to 3.63 nm and since there are 352 pixels in that direction, the correct resolution is 0.0103 nm/pixel. The experimental error in that value is about 2% I&#x27;d say.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Thu Jul 29, 2010 1:59 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Did you hapen to measure any red shift in the eruption yesterday? The photos have been amazing! I wish I had my H-Alpha scope at work yesterday.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jul 29, 2010 5:15 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I was surprised how many sellers are now offering these diodes on eBay, at least 5. Prices seem to be dropping, the least expensive is $54.99 (free shipping). To see these, type in &quot;445nm&quot; in the search field on eBay.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Thu Jul 29, 2010 6:18 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I was surprised how many sellers are now offering these diodes on eBay, at least 5. Prices seem to be dropping, the least expensive is $54.99 (free shipping). To see these, type in &quot;445nm&quot; in the search field on eBay.<br><br>The reasons are pretty straightforward. In the +/- $700 beamer the 24 diodes are in a heatsink block that can be removed in less than 30 seconds if you&#x27;ve done it once. You don&#x27;t even have to open the beamer itself. The diodes are connected to each other by a ribbon pcb, takes 30 seconds to remove. Diodes are not glued or bolted down, just stuck in the heatsink with heatsink compound. If you don&#x27;t mind the hassle of packing, dealing with things going wrong in the mail etc. and don&#x27;t mind the chance of your diodes ending up in a 14 year old&#x27;s 1W handheld &#x27;pointer&#x27;... it&#x27;s actually a pretty good business.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 30, 2010 10:58 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> Joe Farina wrote:I was surprised how many sellers are now offering these diodes on eBay, at least 5. Prices seem to be dropping, the least expensive is $54.99 (free shipping). To see these, type in &quot;445nm&quot; in the search field on eBay.The reasons are pretty straightforward. In the +/- $700 beamer the 24 diodes are in a heatsink block that can be removed in less than 30 seconds if you&#x27;ve done it once. You don&#x27;t even have to open the beamer itself. The diodes are connected to each other by a ribbon pcb, takes 30 seconds to remove. Diodes are not glued or bolted down, just stuck in the heatsink with heatsink compound. If you don&#x27;t mind the hassle of packing, dealing with things going wrong in the mail etc. and don&#x27;t mind the chance of your diodes ending up in a 14 year old&#x27;s 1W handheld &#x27;pointer&#x27;... it&#x27;s actually a pretty good business.<br><br>I see. So, if someone gets $60 per diode, 24 times 60 is $1,440. Subtracting the cost of $700 yields $740 profit, or about $31 per diode. Not too bad for going through the hassle of selling and mailing. Maybe those projectors have some other parts too.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Fri Jul 30, 2010 11:08 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">Thats correct Joe! It was better when they were selling for $75-$100 each! I did two projectors and quickly made my money back and still have an extra projector. there are various lenses, front surface mirrors, dicloric beamsplitters,and a red LED Phat light in each of these projectors.......... aside from the DLP module and PCboard!<br><br>by the way i did a test last night to see how deep a transmission hologram i could make(w/one beam), and i got an image at 20 inchs deep!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 30, 2010 11:24 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Wow, 20 inches is really impressive Dave. I&#x27;ve just bought a diode to get my feet wet, maybe I can work on some of the less demanding problems like collimation Thanks a lot for the planned tests with DCG.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jul 30, 2010 11:59 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Wow, 20 inches is really impressive Dave. I&#x27;ve just bought a diode to get my feet wet, maybe I can work on some of the less demanding problems like collimation Thanks a lot for the planned tests with DCG.<br><br>Actually not so much single mode operation but beam quality is more the practical problem with those diodes, especially if one desires an even illumination. It is almost impossible to get the beam through a spatial filter without great losses, for example. A way to ameliorate this would perhaps be to split the beam at a dark band with a knife-edge mirror and so use the otherwise wasted part as object beam for example. <br><br>So in order to make good use of the diode, some things need to be specifically tailored for it. The very least is a pair of anamorphic prisms or suitable cylinder lenses to get the beam in a better shape to begin with.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 30, 2010 12:34 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> Joe Farina wrote:Wow, 20 inches is really impressive Dave. I&#x27;ve just bought a diode to get my feet wet, maybe I can work on some of the less demanding problems like collimation Thanks a lot for the planned tests with DCG.Actually not so much single mode operation but beam quality is more the practical problem with those diodes, especially if one desires an even illumination. It is almost impossible to get the beam through a spatial filter without great losses, for example. A way to ameliorate this would perhaps be to split the beam at a dark band with a knife-edge mirror and so use the otherwise wasted part as object beam for example.So in order to make good use of the diode, some things need to be specifically tailored for it. The very least is a pair of anamorphic prisms or suitable cylinder lenses to get the beam in a better shape to begin with.<br><br>Yes, it will need to be worked on. What I should have said was less demanding on &quot;me,&quot; and not in general <br><br>Hopefully some others will do tests on these diodes, and post the results here, so we can all benefit. New approaches and experiences from a variety of people might be crucial for success.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Fri Jul 30, 2010 1:06 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">yes it seems the hard part will be to get a good beam profile, my uncoated asphere assemblies do a pretty god job of focusing a spot, this is the area to attempt a spatial filtering. I suspect these diodes can be easily tricked into producing an infinite coherent lenght laser, as i can easily &quot;wink&quot; this laser diode (on and off) when doing an interfrometer test (via retro reflections)...............................and that is a favorable sign ![:pray:](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f.svg) <br><br>this a wall shot at 24 feet from the laser.<br><br>when all is said and done ill only be using the center portion of the beam profile anyway, what is that like 20%..... im still happy</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Fri Jul 30, 2010 1:13 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">@Ahmet: The video you asked for is up at my blog: [http://piepklein.blogspot.com/2010/07/s ... tem00.html](http://piepklein.blogspot.com/2010/07/suppressing-tem00.html) <br><br>This is with the higher amount of feedback though.<br><br>About the uncapping, I&#x27;ve been practicing it in the watchmakers lathe on some old printer diodes because I wanted to experiment with installing some kind of FAC on the blue ones. I use a very small slitsaw so the diode itself doesn&#x27;t have to spin fast. It works pretty well:<br><br>![uncapped diode](https://holographyforum.org/forum/download/file.php?id=6671)<br><br>I&#x27;m not sure how much dust and other environmental influences will be a problem. There will be at least some dust because of the sawing and my house isn&#x27;t exactly a class 1 cleanroom It may be managable by recapping them or something after installing the FAC. I have no idea if gently clearing the die from dust with a high purity solvent is an option. Any comments are welcome.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 30, 2010 4:51 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Sorry I don&#x27;t know what FAC is. Regarding uncapping, my first reaction would be to avoid it when possible. About 10 years ago I uncapped some red diodes using the throlabs can-opener, and the diodes &quot;seemed&quot; rather unstable. At the time, I attributed this to reduced thermal stability because they were exposed to the open air, but this was just a guess. I would also be concerned about contaminating the face of the chip, or possibly damaging the diode if using a non-optimal method of removing the cap. I would suggest re-capping the diode (maybe with some other kind of cap or covering) after making your modifications. Then it wouldn&#x27;t be exposed to the ambient air.<br><br>By the way, superb job with the microscope slide feedback. After re-reading your posts and blog, I&#x27;m starting to get the picture. I was wondering, were you able to measure output power at ~300mA?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Fri Jul 30, 2010 6:50 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">FAC = fast axis collimator<br><br>The beam coming out of a bare laser diode is nearly always non-symmetric. It&#x27;s spreading much quicker in one direction than in the other. The direction in which it&#x27;s spreading the fastest is (unsurprisingly) called the fast axis. It&#x27;s beneficial to collimate the beam along this axis as soon as possible, because the fact that it&#x27;s spreading so quickly means that optics to do so further along the path of the beam will have to be much bigger. So often the FAC is a tiny cylindrical lens very close to the output facet of the diode. <br><br>Unfortunately I don&#x27;t have an optical power meter, so I can&#x27;t tell the optical power. But the slope efficiency of these diodes is 1-2 mW / mA, so with a threshold of 220 mA, they&#x27;ll give out 80-160 mW at 300 mA.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jul 30, 2010 7:17 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Thanks for the explanation.<br><br>&gt; <strong>Thieu:</strong> the slope efficiency of these diodes is 1-2 mW / mA, so with a threshold of 220 mA, they&#x27;ll give out 80-160 mW at 300 mA.<br><br>Wow, that&#x27;s a lot of power. It just remains to be seen how long it remains stable over time/exposure. The good thing about extra power is that exposure times can be kept down.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Fri Jul 30, 2010 8:04 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Just found out that the ferric system at least responds to this wavelength as well. I was able to visibly bleach a small part of a ferric chloride sensitized plate in a couple of seconds with the laser very close to the plate. Don&#x27;t know if that means a lot though, cause almost anything seems to bleach fast at this wavelength and intensity. But the fact that it does respond is hopeful I guess..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Fri Jul 30, 2010 8:42 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Thanks a lot for the video, Thieu. So it seems the feedback has a visible impact on the transverse modes. The interesting question (for me) is if there is a correlation between the SLM operation regions with feedback and the transverse modes. That would mean comparing the spectrograph results and a sychronous projection of the beam (like in the last video).<br><br>About dust and exposed die: I&#x27;ve been using several open can LDs in an Aixiz housing from which the collimator was frequently removed and in a semi-open setup for about a year and did not have dust landing on the front facet so far.<br><br>Martin and me have been testing ferric compounds quite extensively and there is a very high sensibility to 405nm (about 1mJ/cm2). For 445nm there should be considerable sensitivity as well.<br><br>Ahmet</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Fri Jul 30, 2010 9:12 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Re the new video: I believe, based on the literature on supermodes, that the &quot;mode pattern&quot; is due to coherent superposition of supemodes and so can be interpreted as interference pattern. The less modes are present, the better the contrast becomes; in a sense the diode acts as its own spectrum analyzer. I was pondering to make use of this for detecting single mode behavior: just read out a CCD array and maximize the AC component of the signal (highest fringe contrast). But it seems that simple noise detection suffices for the same purpose.<br><br>On related matters: especially an ECDL has its own built-in spectrum analyzer, ie the grating. When studying the beam profile after a few meters, one can see with the naked eye if extra modes are present, as they give some extra stripes, and one can clearly see when the modes lock or unlock against the grating.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Fri Jul 30, 2010 10:32 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">@Ahmet<br><br>I&#x27;m not sure if I already wrote that somewhere, but there is a correlation between what I see on the spectrograph and on a y-axis scan of the beam. I see some longitudinal modes on the spectrograph disappear when I place the entrance slit at the center of the y-axis in the beam. It would be nice to change the setup so that the beam would just fill up the slit in the vertical direction so that you&#x27;d get a two dimensional map with a spectrum for every spot in the vertical direction of the beam. With my current MacGyver&#x27;ish tape&amp;glue setup that wouldn&#x27;t be practical nor safe, but I may be able to set it up at work where I got access to a lot more optics and space. <br><br>Because space is so limited where I live now, peaceful coexistence of holographic plates and dinner plates is the only option in the kitchen at the moment so dichromate is a bad idea. That&#x27;s why I&#x27;m particularly interested in FEG again. The last thing I remember is you were using ferric ammonium oxalate and developed with H2O2, is that where you both settled on or did you explore other salts/processing after that?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sat Jul 31, 2010 5:27 am</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> It would be nice to change the setup so that the beam would just fill up the slit in the vertical direction so that you&#x27;d get a two dimensional map with a spectrum for every spot in the vertical direction of the beam.<br><br>Such a correlation between location and spectrum has been described in the very interesting article: [&quot;Supermodes in Broad Ridge (Al,In)GaN Laser Diodes&quot;](http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F3%2F5175612%2F05175665.pdf%3Farnumber%3D5175665) which seems to apply well to the blue diodes. (I can&#x27;t post it due to copyright, but can send a copy for private purposes). There are 2d plots which show how the spectrum changes along the beam profile. <br><br>This applies to multimode operation, for true single mode operation the spectrum stays the same due to locking of the supermodes. An issue is of course whether it is really true SLM operation in a given situation, or whether other modes hide at different locations of the beam; ie, how one can identify true SLM operation if one samples the beam at a small region only (which is what most spectrum analyzers do to some extent).<br><br>I didnt find this problem serious, as SLM operation seems pretty robust once it is there, but some more time needs to be spent on this. In ECDL there is the phenomenon, though, that at higher powers the spectrum tends to have smaller side peaks, let&#x27;s say at 10% level or less, and the composition of those side peaks seems to vary over the beam. The bad thing is that the spacing of those can be very narrow due to the external resonator, and it is difficult to resolve with a grating spectrometer; this calls for an scanning FP interferometer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Sat Jul 31, 2010 6:41 am</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> Because space is so limited where I live now, peaceful coexistence of holographic plates and dinner plates is the only option in the kitchen at the moment so dichromate is a bad idea. That&#x27;s why I&#x27;m particularly interested in FEG again. The last thing I remember is you were using ferric ammonium oxalate and developed with H2O2, is that where you both settled on or did you explore other salts/processing after that?<br><br>Hi Thieu - good to hear you might tackle FEG soon.<br><br>It remains to be seen if the ferric salts show similar levels of light sensitivity as the dichromates at 445nm (in some cases speed at 405nm was considerably higher for FEG than DCG).<br><br>The specific salts I did try successfully, were ferric ammonium citrate (FAC), ferric ammonium oxalate (FAO) and ferric oxalate. FAO proved to produce the best results. I&#x27;m not sure if FAO could be considered a &quot;kitchen chemical&quot; (though definitely better than the dichromates).<br><br>To this date at least two issues remain ambiguous<br><br>1) the choice of gelatin. We never systematically tested what kind of gelatin performed best etc. As of now a simple (swine) food gelatin, produced by Gelita, has become kind of a standard.<br><br>2) layer thickness may be another important thing to consider. Thin layers seem to do nicely, whereas thicker layers become prone to uneven development.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Sat Jul 31, 2010 6:44 am</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">@wler: Ah, OK, now I think I see what you meant in your previous post. So if the laser is lasing in a single longitudinal mode it must also be showing the spatial pattern corresponding to a TEM00 beam? Then it would indeed be very easy to determine singlemodedness (withing the limits you mentioned). I&#x27;ll see if I can set the spectrometer up to verify this. But it may take a while, I put some 30 plates in bleach yesterday and will be mold coating them probably this weekend. We all know what happens after that, it may take weeks before I reappear again in the world of the living...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Sat Jul 31, 2010 7:21 am</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> @wler: So if the laser is lasing in a single longitudinal mode it must also be showing the spatial pattern corresponding to a TEM00 beam? ...<br> <br><br>Not TEM00 but a simpler structured pattern. According to the article, the various supermodes get phase locked with fixed relative phases and this translates into the fixed, characteristically banded far-field interference pattern. The pattern washes out or disappears with the modes cease to be coherent, or if several such modes with different frequencies appear. <br><br>Here a brief excerpt from the abstract:<br><br>&gt; We present experimental evidence that the single filaments tend to be phase-locked with defined phase offset and build up a so called supermode. Depending on driving current a coherent or incoherent superposition of different supermodes can be observed, which has a significant impact on the corresponding lateral far-field pattern.<br><br>&gt; <strong>Thieu:</strong> ...it may take weeks before I reappear again in the world of the living...<br><br>Lol... happened to me after the blue diodes came out...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Sat Jul 31, 2010 8:26 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">@Martin, FAC seems to be in stock at the place where I order my chemicals from, both the brown and the green variety. They may be able to order FAO, but after comparing the MSDS for both I&#x27;ll stick with FAC... I&#x27;ll make some plates with both gelatines I have (dr oetker and an unknown type). As for film thickness, how thin would thin be? The last time I made plates I used mold coating with 10 g/100ml gelatin and a single scotch tape spacer. With a reflectometer I measured them to be about 5-15 um thick. Would that be ok you think?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Sun Aug 01, 2010 3:37 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> @Martin, FAC seems to be in stock at the place where I order my chemicals from, both the brown and the green variety. They may be able to order FAO, but after comparing the MSDS for both I&#x27;ll stick with FAC... I&#x27;ll make some plates with both gelatines I have (dr oetker and an unknown type). As for film thickness, how thin would thin be? The last time I made plates I used mold coating with 10 g/100ml gelatin and a single scotch tape spacer. With a reflectometer I measured them to be about 5-15 um thick. Would that be ok you think?<br><br>I guess that&#x27;s fine for initial tests. The brightest holograms with large bandwidths may be rather 5um or even below (though this statement is entirely speculative on my part - we were unable to measure layer thickness consistently).<br><br>As for FAC I never tried the brown stuff, since green FAC was said to provide better speed. However, brown FAC might be worth a try anyway, assuming that it&#x27;s likely to absorb longer wavelengths.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Tue Aug 03, 2010 6:55 pm</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">I ran a first test with a (slightly wedged) glass plate approx 1.2cm from the collimated diode, and can confirm wide spread single mode operation beyond 350mA, or 150mW. This is quite similar to an ECDL, both setup have here and there some, however mostly weak, side modes whose effect or suppression must be investigated furhter. It seems that multi-mode operation can be quite reliably detected by noise in the output. Stay tuned</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Aug 04, 2010 7:24 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">That&#x27;s great news! More power is always welcome. <br><br>In the meantime I&#x27;ve checked the near field pattern at various currents, it indeed looks filamented like in the article. There is however one big difference. In the article the pattern is highly asymmetric, while in the diode I tested it&#x27;s very symmetric. It was very hard to make a video of it, because of the huge contrast and intensity differences. But this is what I saw:<br><br>- at low currents &lt;300 mA, the pattern is symmetrical and looks gaussian. It spreads out over the two central quarters of the stripe. Like this: __/<strong>\__<br><br>- at higher currents two extra spots appear on both sides: <em>_/</strong>\_</em> This nicely explains the pattern in the far field. It&#x27;s again another gaussian with a double slit pattern (i.e. a sine) superimposed. And this is exactly what you see.<br><br>- at even higher currents more spots appear, but I couldn&#x27;t discern the fine structure. <br><br>What&#x27;s also interesting is that I measured the stripe width to be only about 10 um instead of 100um.<br><br>I made the first holograms yesterday and after settling down after about an hour the laser was stable for the rest of the evening. During the warm-up I did have to adjust the current a mA or two once in a while to stay in the stable region. The spectrograph is a great tool for checking if everything is alright.<br><br>The holograms though were bad as usual There must be something I&#x27;m doing wrong cause the holograms come out either dim or milky, depending on my processing temperature. But that&#x27;s more a DCG problem, I started another thread about it to hopefully get some help.<br><br>Also working on the fast axis correction. If I can get that to work, it will mean a big improvement in the effective power on the plates because the beam is so elongated now.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Aug 04, 2010 7:37 am</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> What&#x27;s also interesting is that I measured the stripe width to be only about 10 um instead of 100um.<br><br>Indeed very interesting and good to know. Some rough estimates based on the opening angles pointed in this direction, but there were so many contradicting statements/claims about this on the web that a clear picture didn&#x27;t yet emerge. Thanks for clarification.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Aug 04, 2010 11:11 am</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> During the warm-up I did have to adjust the current a mA or two once in a while to stay in the stable region.<br><br>i too had this same problem, which i have solved (temporarily),by simply leaving it on all the time! :doh:<br><br>These diodes should have a life of 20,000 hours! That’s like letting it run for 3 years straight!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Wed Sep 08, 2010 10:12 am</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">Last weekend I put together a temperature stabilized 445nm laser diode.<br><br>I tried a very a simple setup to check out if the beam is single mode and it seems to work out:<br><br>I used two glass plates of different thickness to reflect the expanded beam separately and watched the interference lines.<br><br>![Image](http://users.otenet.gr/~stylos/holography-files/Nichia-refl-fring.jpg)<br><br>If both glass plates reflect solid interference fringes, there is a good chance that the laser is single (longitudinal) mode.<br><br>[http://holographyforum.org/phpBB2/viewt ... 042#p57925](http://holographyforum.org/phpBB2/viewtopic.php?f=2&amp;t=7320#p57925)<br><br>Thieu wrote:<br><br>&gt;&gt;The problem with interferometric methods is that they can give false readings if the path length difference is close to a multiple of the diode cavity&#x27;s optical length.&lt;&lt;<br><br>For the above setup, If the path length difference of the reflections of one plate is a multiple of the cavity&#x27;s optical length, it is most unlikely (but not impossible) that this is also valid for the second glass plate at the same time.<br><br>My test results:<br><br>The fringes disappear or are of low contrast at most mA levels either. The beam is not single mode there, or the coherence length is two short.<br><br>There are regions where both sets of fringes are of high contrast though.<br><br>For my laser diode I found out two potentially single mode regions:<br><br>225 mA, T=15ºC (12mW) and<br><br>325 mA T= 15ºC, (85 mW).<br><br>(The measured output power is indicative only, my laser power meter is calibrated for 633nm.)<br><br>![Image](http://users.otenet.gr/~stylos/holography-files/Nichia445nm-1.jpg)<br><br>The question was if the laser is indeed single longitudinal mode in those regions and what is the coherence length.<br><br>So, I made a denisyuk at 225mA. The hologram came out without any breadslices,<br><br>I increased the current to 335mA and made a second denisyuk. It also came out slice free.<br><br>Then I put an object 10 cm and another object 20cm behind the film, (path difference = 20 and 40cm correspondingly) and a made a third hologram at 335mA.<br><br>There is a faint - but not sliced image of the first object, no image at all of the far object.<br><br>That means that the coherence length was slightly above 20cm but less than 40cm.<br><br>![Image](http://users.otenet.gr/~stylos/holography-files/Nichia445nm-2.jpg)<br><br>This is a photo of the second hologram at 325mA.<br><br>Silver halide film.<br><br>Note that the beam is not spatial filtered, parts of the hologram are milky due to overexposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Sep 08, 2010 1:11 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">Great work Paulos! Its nice to see the casio diodes are beginning to take a hold of holography now!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Wed Sep 08, 2010 1:27 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">What a great technique for monitoring for single mode operation! ![:clap:](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f.svg) ![:clap:](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f.svg) ![:clap:](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f.svg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Sep 08, 2010 4:21 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">That&#x27;s a very clever solution Paulos, thanks a lot for sharing. Looks like wler&#x27;s sleepless nights are over.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Sep 08, 2010 8:47 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">Paulos, that is simply a fantastic way of checking. I got my diode mounted the opposite way in the heat sink and let it run for about 2 hours. Then set up the two pieces of glass and wow, I could dial it right in to get max power with both sets of fringes still showing. Can&#x27;t wait to try a hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Wed Sep 08, 2010 9:26 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">What kind of drivers are you guys using for the diode?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Thu Sep 09, 2010 6:13 am</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">At the moment I use a very simple current source based on a cheap lm317. It&#x27;s a three pin device that only needs one extra resistor to set the current. Instead of using a pot to set the current I use a switchable bank of metal foil resistors. Their temperature stability is better than that of a pot. It&#x27;s very basic but it works.<br><br>The circuit is far from optimal though. Its efficiency and stability have a lot to be desired. It&#x27;s only because the stability of the diode+heatsink is just as bad that you can get away with it. If the diode and heatsink need an hour to stabilize then the circuit has plenty of time to do so as well. Waving your hand around the circuit will probably cause mode hops, just like with the diode+heatsink.<br><br>If you&#x27;re going to build something new and are willing to spend a bit more money, another type of current source is a much better alternative. Ahmet and I are working on an ECDL and Ahmet has designed a good current source. Wler has another new design as well. Of course I can&#x27;t speak for them, but they may be willing to share/sell their designs/boards/kits.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Wed Sep 22, 2010 6:05 am</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">The coherence length, hence the line width seems to strongly depend on the current level.<br><br>I set up an interferometer with a path length difference of 80cm.<br><br>Although the beam is single mode at both 225 and 335mA, the fringes at the lower current level (225mA) were of very high contrast,<br><br>whereas there aren&#x27;t almost any fringes at 335mA.<br><br>I use a PID1500 temperature controller from &quot;Wavelength Electronics&quot; and a self made current controller based on a LM317.<br><br>As Thieu said, this is not optimal but it works. I am using a combination of switches and a pot, for coarse and fine current adjustment.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Wed Sep 22, 2010 6:46 am</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">&gt; <strong>Paulos:</strong> Although the beam is single mode at both 225 and 335mA, the fringes at the lower current level (225mA) were of very high contrast,whereas there aren&#x27;t almost any fringes at 335mA.<br><br>Which means that there is no single mode operation there, otherwise there would be good contrast!<br><br>It seems that there is a magic barrier at about 230-260mA above which several supermodes lase, and this is true also for all sorts of ECDLs. This cannot be easily seen by sampling the spectrum at a single spot., rather different spatial, transverse mode components of the beam can correspond to different, mutually incoherent modes. I made a brief summary of my findings [here](http://redlum.xohp.pagesperso-orange.fr/laser/ECDL-test.html#casiosummary).<br><br>As for my driver board, I am about completing the final stability measurements of the first production sample and all looks fine so far.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Sep 22, 2010 5:19 pm</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">Great vids on your site wler, unfortunately it looks like the diode behaves as expected from earlier results. I made quite good progress on collimating the beam and removing the circularity and astigmatism using cylindrical lenses. Do you think it&#x27;s worth the effort to test an ecdl setup with this improved beam?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Wed Sep 22, 2010 5:35 pm</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> Which means that there is no single mode operation there, otherwise there would be good contrast!<br><br>But the path length difference of the interferometer was 80cm,<br><br>and the hologram at 335mA came out with limited depth (coherence length less than 40 cm) but <strong>not banded</strong>.<br><br>I would rather say that the laser can run single mode at some higher currents, but the linewidth (FWHM) becomes broader.<br><br>It is not surprisingly for such a short cavity.<br><br>&gt; As for my driver board, I am about completing the final stability measurements of the first production sample and all looks fine so far.<br> <br><br>Wler, if you have some drivers for sale, I am interested in having one or two.<br><br>I am more than satisfied with your laser light meter,<br><br>[http://argonholo.webhop.net/electronics/lightmeter.html](http://argonholo.webhop.net/electronics/lightmeter.html)<br><br>it is perfect for holography, absolutely reliable, with a very high sensitivity.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Thieu</span>
+                <span class="post-date">Wed Sep 22, 2010 7:06 pm</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">Paulos, what kind of feedback do you use? Your reasoning with the interferometer and hologram results makes perfect sense. However it&#x27;s quite different from what both wler and I see in the mode spectrum directly with a spectrograph at higher currents, for instance here:<br><br>[http://piepklein.blogspot.com/2010/07/out-of-blue.html](http://piepklein.blogspot.com/2010/07/out-of-blue.html) <br><br>While looking at the movie myself I noticed something though. Check out the modes at around the 6 second mark, this is at reasonably high current:<br><br>![modes.JPG](https://holographyforum.org/forum/download/file.php?id=6672)<br><br>You see that the spectrum is not single mode. There&#x27;s one intense mode at the left and a couple modes at the right. The notable thing is that the mode spacing is not equal for the modes at the right! The effect is even more dramatic later in the video, the mode structure becomes a fuzzy mess. The fuzzy mess is not bad though, because it won&#x27;t add up to banding in the hologram (there is no periodicity in their sum), but to a general background. No problem at all for dcg. Maybe the fuzziness is also slightly there in the mode at the left, causing the decrease in coherence length you report, without any banding.<br><br>The impression I&#x27;m getting more and more is that the filamentary nature of the current in these diodes causes local refractive index changes inside the cavity. It not longer behaves as an ideal fabry perot cavity with a well behaved, equally spaced mode structure, but as a complex structure with complex mode patterns and frequencies. In a situation as the above, this might be an advantage.<br><br>Just an impression though...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Thu Sep 23, 2010 7:06 am</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> Paulos, what kind of feedback do you use?<br><br>Instead of a glass plate, I put a 30%R beam splitter just at the front of the laser diode.<br><br>![Image](http://users.otenet.gr/~stylos/holography-files/Nichia445nm-3.jpg)<br><br>Reflecting back a portion of the <strong>diverging</strong>beam may be advantageous.<br><br>Due to the divergence and the very small size of the emitting surface, only light coming from an extremely small area (may be 1/100 000) of the emitter returns to the cavity, participating to the feedback mechanism.<br><br>It is probably why the laser is forced to be single longitudinal mode relatively easily, and the spatial / transverse profile is also improved.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">wler</span>
+                <span class="post-date">Thu Sep 23, 2010 12:42 pm</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">&gt; <strong>Thieu:</strong> You see that the spectrum is not single mode. There&#x27;s one intense mode at the left and a couple modes at the right. The notable thing is that the mode spacing is not equal for the modes at the right! The effect is even more dramatic later in the video, the mode structure becomes a fuzzy mess. The fuzzy mess is not bad though, because it won&#x27;t add up to banding in the hologram (there is no periodicity in their sum), but to a general background. No problem at all for dcg. Maybe the fuzziness is also slightly there in the mode at the left, causing the decrease in coherence length you report, without any banding.)<br><br>That an irregular fuzzy &quot;mess&quot; does not lead to banding is absolutely true. It will lead to a reduction of coherence length and a loss of contrast beyond that, but how much is a difficult question, as the answer depends on the details of the spectrum. The irregular chaotic mess typically spreads over a relatively wide range, therefore the useable coherence length would be very short if the spectrum would consist only of that. But if there is a strong peak and the fuzzy chaotic mess is strongly suppressed, the contrast would be just reduced a bit. Unfortunately all possible situations occur when scanning through the current beyond approx 250mA.<br><br>This is a general topic I always wondered about ... but hard to quantify without a detailed analysis: what are the actual limits on spectral purity for practical day-to-day holography? What percentage of a side mode would create a disturbing banding..0.1%... 1% .. 10% of the main peak ? And what amount of &quot;side mess&quot; can be tolerated for creating an unnoticeable reduction of contrast? It would be very interesting and important to have some guidelines... also for myself developing lasers, it would be important to know what to aim for, ie, what kind of spectra are good enough. Maybe I am putting more effort then necessary.<br><br>Obviously the easiest way would be to systematically investigate by experiment and shoot lots of test holograms. Unfortunately I don&#x27;t have the space to do this concurrently with spectrum measurements.<br><br>&gt; <strong>Thieu:</strong> Do you think it&#x27;s worth the effort to test an ecdl setup with this improved beam?<br><br>Obviously yes. I got some paper where the authors propose to use a tilted cylindrical lens to improve the wavefront hitting the grating. One other possiblity would be to use a thin slit in order to cut down on transverse modes. A problem I encountered when playing with the cavity is that it tends to become mechanically unstable and long, while shorter ones seem preferable.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Sep 23, 2010 5:46 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">&gt; <strong>wler:</strong> This is a general topic I always wondered about ... but hard to quantify without a detailed analysis: what are the actual limits on spectral purity for practical day-to-day holography? What percentage of a side mode would create a disturbing banding..0.1%... 1% .. 10% of the main peak ? And what amount of &quot;side mess&quot; can be tolerated for creating an unnoticeable reduction of contrast?<br><br>As for actual coherence length, I guess it would depend on the kind of holograms to be made. The 445nm wavelength happens to be very good for DCG, and most people seem to be content with fairly shallow and broadband images, so the coherence could be much less. Typically with silver, more depth is expected, but 445nm isn&#x27;t especially good for commercial silver emulsions, considering that they are usually optimized for 633nm red, and a lot of fairly cheap power is available at 532nm. It would be good for full-color silver holograms if the coherence is long enough. But very few people are into that. It seems to me that the 445nm diode could really shine with respect to homemade DCG holograms.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Mon Sep 27, 2010 3:49 pm</span>
+                <span class="post-number">#55</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> As for actual coherence length, I guess it would depend on the kind of holograms to be made. The 445nm wavelength happens to be very good for DCG, and most people seem to be content with fairly shallow and broadband images, so the coherence could be much less. Typically with silver, more depth is expected, but 445nm isn&#x27;t especially good for commercial silver emulsions, considering that they are usually optimized for 633nm red, and a lot of fairly cheap power is available at 532nm. It would be good for full-color silver holograms if the coherence is long enough. But very few people are into that. It seems to me that the 445nm diode could really shine with respect to homemade DCG holograms.<br><br>I don&#x27;t know if spectral sensitivity of homemade silver emulsions is comparable to commercial products, but I have to say that pinacyanol red-sensitized emulsions work fine with the Nichia blue laser. In fact silver emulsions are intrinsically blue sensitive at short wavelenghts above 500nm, so in my opinion the same result I got with my experiments might be achived using plain emulsion without the add of any sensitizing dye.<br><br>A drawback when using blue laser with silver emulsion is the deep-blue/UV shift due to gelatin shrinkage.<br><br>To take a decent picture I had to breath the emulsion, note the fantastic nichia-blue tint where the emulsion wasn&#x27;t wet!<br><br>Exposure energy : 1mJ/cm^2<br><br>Development : ascorbic acid-metol developer<br><br>Bleach : Fe-EDTA<br><br>![Image](http://digilander.libero.it/crispers/SHG-445-1.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Mon Sep 27, 2010 7:43 pm</span>
+                <span class="post-number">#56</span>
+            </div>
+            <div class="post-body">&gt; <strong>Cristiano_Perrucci:</strong> A drawback when using blue laser with silver emulsion is the deep-blue/UV shift due to gelatin shrinkage.<br><br>Do you mean there is a general shrinkage when a blue wavelength is used with silver emulsions? Or, do you mean the general shrinkage due to some development processings?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Sep 28, 2010 4:33 am</span>
+                <span class="post-number">#57</span>
+            </div>
+            <div class="post-body">Another drawback is the strong scattering from silver crystals.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Cristiano_Perrucci</span>
+                <span class="post-date">Tue Sep 28, 2010 6:23 am</span>
+                <span class="post-number">#58</span>
+            </div>
+            <div class="post-body">&gt; <strong>DJ Mathson:</strong> Cristiano_Perrucci wrote:A drawback when using blue laser with silver emulsion is the deep-blue/UV shift due to gelatin shrinkage.Do you mean there is a general shrinkage when a blue wavelength is used with silver emulsions? Or, do you mean the general shrinkage due to some development processings?<br><br>Yes. I mean the general shrinkage due to chemical process.<br><br>&gt; <strong>Colin Kaminski:</strong> Another drawback is the strong scattering from silver crystals.<br><br>With my homemade emulsion the scattering seems not to be an issue, the light haze you see in the picture is due to overbleaching and not focused light coming from a white led during hologram reconstruction. Also the emulsion used for the blue laser experiment was carefully optimized for red HeNe. Anyway If I decide to go on with blue laser experiments, I&#x27;m decreasing silver grainsize in order to get more clearness at lower wavelenghts.<br><br>The actual problem I see is a simple, efficient and cost effective beam shaping for this laser.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Sep 28, 2010 9:54 am</span>
+                <span class="post-number">#59</span>
+            </div>
+            <div class="post-body">&gt; <strong>Cristiano_Perrucci:</strong> In fact silver emulsions are intrinsically blue sensitive at short wavelenghts above 500nm, so in my opinion the same result I got with my experiments might be achived using plain emulsion without the add of any sensitizing dye.<br><br>Yes, I would think so.</div>
+        </div>
+
+    <div class="thread-nav"><a href="8377.html" class="prev-thread">← I want to make a Full Color Hologram</a><a href="General-Old.html">↑ General Holography (old)</a><a href="8364.html" class="next-thread">KTP SHG →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11273.html" class="card">
+                <h3>A blue pigment for Sapphire 488</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="8825.html" class="card">
+                <h3>definition of broadband, narrowband, red shift, blue shift</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="8773.html" class="card">
+                <h3>Reading some really old books- great information</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 6 posts</div>
+            </a>
+            <a href="8531.html" class="card">
+                <h3>Storing DCG emulsion (also some misc questions)</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="8508.html" class="card">
+                <h3>why there are some Black stripes on the hologram</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

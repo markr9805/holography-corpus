@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coherent argon laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="483.html" class="prev-thread">← Where to find this Mask hologram</a><a href="Techniques.html">↑ Techniques</a><a href="476.html" class="next-thread">temperature and humidity logger test →</a></div>
+    <h1>Coherent argon laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>21</td></tr>
+        <tr><td>Views</td><td>8,740</td></tr>
+        <tr><td>Started</td><td>Sat Feb 18, 2012 6:15 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/feng.html">Feng</a> · <a href="../authors/rzeheb.html">rzeheb</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/dcgman.html">dcgman</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/a-k.html">a_k</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=478" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Feng</span>
+                <span class="post-date">Sat Feb 18, 2012 6:15 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have a holographic system with Coherent Sabre argon laser (3638 line) using two beams (one direct and one bounced from a mirror) interference to generate gratings of ~200nm pitch.<br><br>Recently I start to see some intensity modulations on top of the grating (parallel to the grating) with much bigger pitch ~3/16&quot;. I suspect that the laser is running at multimode, but can not prove it since the display on the controller indicates it is running on TEM00 mode.<br><br>Does anyone have any experience with this laser and any suggestions?<br><br>Thanks</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">rzeheb</span>
+                <span class="post-date">Sat Feb 18, 2012 9:10 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Hi Feng and welcome to the forum. I cannot help you with your question, though it&#x27;s very likely that others on this forum will be able to. My reason for posting is just to suggest that you might also want to post your question on the Photonlexicon site. They are typically not so much into holography, but may be more likely to have experience with argon lasers. Just a thought. Ron.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Feb 18, 2012 10:26 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Feng:</strong> I have a holographic system with Coherent Sabre argon laser (3638 line) using two beams (one direct and one bounced from a mirror) interference to generate gratings of ~200nm pitch.Recently I start to see some intensity modulations on top of the grating (parallel to the grating) with much bigger pitch ~3/16&quot;.<br><br>There seems to be something a little odd with your numbers. I assume that the 3638 line means you&#x27;re recording with 363.8nm, since you&#x27;re using an argon laser. If the grating pitch is 200nm, then<br><br>sin(theta) = lambda/d = 363.8/200 &gt; 1 ???<br><br>On the other hand, if the beams are counter-propagating, then:<br><br>d = lambda/(2n) =&gt; n = lambda/(2d) = 363.8/400 = 0.909 &lt; 1 ???<br><br>If it is running in multimode, then the new gratings are coming in at the same angles as the original gratings and so:<br><br>lambda/d = m<em>lambda/d&#x27;<br><br>where d&#x27; is the new pitch. In this case the multimode multiplier, m, is (and we&#x27;re expecting an integer): <br><br>m = d&#x27;/d = (3/16)in/200nm = 4.76</em>(10)^(6)/200 = 23,800<br><br>So, multimode seems a little unlikely.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Sat Feb 18, 2012 11:48 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Don&#x27;t be worried by the previous poster&#x27;s maths: I do not believe you are doing anything wrong<br><br>you have two beams incident on a recording plate: one beam makes an angle of +theta with respect to the normal to the recording plate, and the second makes an angle of -theta wrt the normal.<br><br>the proper equation to use for this set-up is d=lambda/(2*sin(theta)). Going thru the maths, that yields theta=65.4 degrees for a period of 200nm at the wavelength you are using. Does this correctly desribe your set-up?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sat Feb 18, 2012 1:01 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I use a Sabre laser to make hologram gratings almost every day. The lines you&#x27;re seeing don&#x27;t indicate multimode operation. If the path lengths are not equalized, you&#x27;d just get no recording if that was the case. The coherence length of that laser is about 20mm without an etalon. By the way, TEMoo indicated does not mean the laser is running in single frequency mode. The only way to verify that is with a scanning Fabry-Perot interferometer, aka spectrum analyzer. <br><br>I suspect that some of your light might be hitting the edge of the recording material, causing light to enter the edge and &quot;waveguide&quot; down it causing the lines of parasitic grating exposure. Mask off the edges and see if that fixes it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Feng</span>
+                <span class="post-date">Sat Feb 18, 2012 3:50 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thank you for all responses. It is greatly appreciated!<br><br>Yes, dcgman, your description is very close to my set-up.<br><br>I solved my problem this morning. The stage holding the recording plate is not well tuned and it dithering within the expose time, though not by very big, but big enough to cause me trouble. I re-tuned it and everything is fine now.<br><br>I like this forum very much!!!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Feb 18, 2012 4:33 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>dcgman:</strong> the proper equation to use for this set-up is d=lambda/(2*sin(theta))<br><br>It depends on whether it&#x27;s a reflection geometry or a transmission geometry. If it&#x27;s a reflection geometry then the formula is true only if the index of the recording material is unity. Inside a material, the wavelength shortens by the refractive index so that <br><br>lambda_material = lambda_air/n<br><br>In this situation, the denominator needs to be modulated by the index since the spatial frequency is caused by the nodes in the standing wave pattern. You also need to be careful which theta you&#x27;re using. The traditional approach is to measure the angle with respect to the plate normal. However, if the formula you quote is meant to be that pertaining to a reflection geometry (that is, counterpropagating beams), then if theta is measured with respect to the plate normal, then theta is zero and d becomes infinite; in this situation, theta needs to be measured from the plate parallel.<br><br>However the quoted formula can also be the formula for two beams in a transmission geometry (since, by Euler&#x27;s formula, sin(-theta) = -sin(theta) ) where the beams are symmetrically arranged on either side of the plate normal. However:<br><br>&gt; <strong>Feng:</strong> ...using two beams (one direct and one bounced from a mirror)<br><br>would seem to indicate a reflection geometry. If such is the case, then the former applies, so theta is to be measured to the plate parallel and the index needs to be taken into account.<br><br>So, if the geometry is a transmission with the two beams symmetrically arranged on either side of the plate normal, then the angle on either side of the plate normal would be 65 odd degrees. My impression of the description led me to believe that it was a reflection geometry with two counterpropagating beams, hence the statement of my assumption:<br><br>&gt; <strong>Dinesh:</strong> On the other hand, if the beams are counter-propagating, then...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Sat Feb 18, 2012 5:34 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&quot;Inside a material, the wavelength shortens by the refractive index so that <br><br>lambda_material = lambda_air/n&quot;<br><br> YES!! -and inside the material the laws of refraction dictate that the sine of the angle of incidence gets divided by its refractive index. So the &#x27;n&#x27;s cancel in the equation describing Feng&#x27;s set-up, giving the same &#x27;d&#x27;. The geometry of the set-up in this particular case does not require one to take &#x27;n&#x27; into consideration- the period of the fringe field set-up by the two interfering beams is the same in air and in the substrate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Feb 18, 2012 6:56 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>dcgman:</strong> YES!! -and inside the material the laws of refraction dictate that the sine of the angle of incidence gets divided by its refractive index. So the &#x27;n&#x27;s cancel in the equation describing Feng&#x27;s set-up, giving the same &#x27;d&#x27;. The geometry of the set-up in this particular case does not require one to take &#x27;n&#x27; into consideration- the period of the fringe field set-up by the two interfering beams is the same in air and in the substrate.<br><br>True, if the geometry were a transmission geometry. Then the n in the denominator due to the wavelength shortening would cancel the n due to the refraction<br><br>d = lambda/2<em>sin(theta) (1)<br><br>But, inside the material, the refracted beam makes an angle theta&#x27; given by,as you point out, sin(theta&#x27;) = sin(theta)/n, and lambda&#x27;= lambda/n. So now:<br><br>d&#x27; = lambda&#x27;/2</em>sin(theta&#x27;) = (lambda/n)/(2<em>sin(theta)/n) = n</em>(lambda/2<em>n</em>sin(theta)) =d <br><br>And the n&#x27;s do cancel out.<br><br>But, if the geometry were a reflection geometry with both beams hitting the plate head-on from opposite sides - a counterpropagating beam geometry - then there is no refraction, since the angle of incidence is normal. However, the wavelength is still shortened from lambda to lambda/n. The angles now need to be taken from the plate parallel (otherwise theta = 0) and<br><br>d = lambda/(n<em>2</em>sin(pi/2)) = lambda/(2*n) (2)<br><br>&gt; <strong>Feng:</strong> using two beams (one direct and one bounced from a mirror)<br><br>But, where was the mirror?<br><br>If the mirror was directly &quot;behind&quot; the plate, ie the recording plate was between the light source and the mirror (assuming a collimated light source) and parallel to the mirror, or to put it perhaps more succinctly, the incoming k vector was directly opposed to the reflected beam, then there is no refraction because the beams are hitting the plate at normal incidence. Then the Bragg planes form along the nodes of the standing wave and these are at the (shortened) wavelength peaks. Well, actually the peaks of the square of the wavelength. In this case, equation 2 holds and the index needs to be taken into account..<br><br>If the light hit a beamsplitter and then a mirror with the beamsplitter and the mirror on the same side of the plate, that is, the beam hits the beamsplitter, then part of the beam passes through to the plate and part is reflected to a mirror which is tilted so as to direct the reflected beam onto the plate, you have a transmission geometry. In this geometry there is no need to take the index into account and equation 1 holds.<br><br>I assumed a reflection geometry from the description, in which case the numbers were odd. If the geometry were transmission, then your calculation is correct.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Mon Feb 20, 2012 5:13 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">[quote=&quot;Dinesh&quot; If the geometry were transmission, then your calculation is correct.[/quote]<br><br>But that is exactly what Feng said, four whole posts ago.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 20, 2012 7:55 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>dcgman:</strong> Dinesh wrote:If the geometry were transmission, then your calculation is correct.But that is exactly what Feng said, four whole posts ago.<br><br>The initial description was vague and I was basing the calculation on the initial description. The initial description was:<br><br>&gt; <strong>Feng:</strong> I have a holographic system with Coherent Sabre argon laser (3638 line) using two beams (one direct and one bounced from a mirror) interference to generate gratings of ~200nm pitch.<br><br>Note: One &quot;direct&quot; light beam and one &quot;bounce&quot; from a mirror. No mention of a beamsplitter. I find it difficult to determine a transmission geometry with just one mirror; one mirror seems to indicate that this was a reflection geometry. I therefore made the remark:<br> <br>&gt; <strong>Dinesh:</strong> On the other hand, if the beams are counter-propagating, then:<br> Notice the phrase: <em>&quot;..if the beams are counterpropagating.&quot;</em> This was always my assumption at the very beginning, since it&#x27;s important to state any assumption for a calculation.<br><br>You then said:<br><br>&gt; <strong>dcgman:</strong> Don&#x27;t be worried by the previous poster&#x27;s maths: I do not believe you are doing anything wrong<br> I did not claim that Feng was<em>&quot;doing anything wrong&quot;</em>. Since I was not describing any specific value-based action made by Feng, I don&#x27;t see how any interpretation of his actions based on a calculation ( itself based on an assumption &quot;<em>..if the beams are counterpropagating.</em>&quot;) could be an action function with two variables (&quot;right&quot; and &quot;wrong&quot;). There was no claim on my part that he was doing anything at all - right or wrong. I&#x27;m not sure I follow the analysis whereby a mathematical analysis is a claim of some sort of action - a &quot;wrong&quot; action, to be precise.<br><br>At this point you made the remark:<br><br>&gt; <strong>dcgman:</strong> &quot;Inside a material, the wavelength shortens by the refractive index so thatlambda_material = lambda_air/n&quot;YES!! -and inside the material the laws of refraction dictate that the sine of the angle of incidence gets divided by its refractive index.<br> The refractive index only plays a part in the calculation of the fringe density <em>if the beam actually refracts</em>. However, I made the assumption (<em>&quot;..if the beams are counterpropagating.&quot;</em>), in which case the beam does not refract, since the angle of incidence is zero (Note for the sake of accuracy, that a Feynmann analysis using QED, would make it possible for a zero incidence beam to refract, since Fermat&#x27;s Principle is classical - I just don&#x27;t want someone searching the internet and finding somewhere that a zero angle of incidence beam does refract!).<br><br>So, based on the description:<br><br>&gt; <strong>Feng:</strong> I have a holographic system with Coherent Sabre argon laser (3638 line) using two beams (one direct and one bounced from a mirror) interference to generate gratings of ~200nm pitch.<br> and the assumption (<em>&quot;..if the beams are counterpropagating.&quot;</em>), there is no refraction, and hence the density of planes is given by the equation:<br><br>d = lambda/(2<em>n)<br><br>If Feng then went on to say that the geometry was indeed a transmission geometry, then clearly the assumption (remember, it was:</em>&quot;..if the beams are counterpropagating.&quot;*) was also inaccurate. However, any calculation is based on the postulates by which that calculation is made; the calculation rests or falls on the basis of the postulates. This is the basis of the theory of measurement in the quantum regime. <br><br>I hope that this makes it clear. There are several books in which the density of Bragg planes are given for two counterpropagating beams launched into a material. If the derivation of a mathematical calculation based on postulates and the succeeding epistemological value of such calculations interests you, I strongly suggest studying the Bohr-Einstein discussions. The two of them discussed quoite vigorously the postulates of the Copenhagen Interpretation and the resulting mathematics of the Copenahgen Interpretation and the underlying epistemology.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue Feb 21, 2012 11:04 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&quot;Note: One &quot;direct&quot; light beam and one &quot;bounce&quot; from a mirror. No mention of a beamsplitter. I find it difficult to determine a transmission geometry with just one mirror; one mirror seems to indicate that this was a reflection geometry. &quot;<br><br>You&#x27;re forgetting the most basic transmission recording geometry Dinesh old buddy! A mirror and object placed into a diverging beam, with light reflected off both hitting the plate. Leith &amp; Upatnieks, 1963. Replace the object with the plateholder, and you have the most basic transmission HOE geometry with just a mirror and the plateholder in the diverging beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Tue Feb 21, 2012 3:04 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">![One mirror transmission set-up using division of wavefront.](https://holographyforum.org/forum/download/file.php?id=2069)<br><br><em>Note: One &quot;direct&quot; light beam and one &quot;bounce&quot; from a mirror. No mention of a beamsplitter. I find it difficult to determine a transmission geometry with just one mirror; one mirror seems to indicate that this was a reflection geometry.</em><br><br>The attached figure shows a transmission geometry with just one mirror.<br><br>In my post I say &quot;I do not believe you are doing anything wrong&quot;. Note the &quot;I&quot;: this was not an accusation that <em>you</em> believed he was wrong, I was simply trying to re-assure him that he was not necessarily on the wrong track.<br><br>This guy just wanted an answer to his problem - I tried to keep it succint and to the point, without being condescending; an attitude you displayed with great pomp in the last few sentences of your last post.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Feb 21, 2012 3:58 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> You&#x27;re forgetting the most basic transmission recording geometry Dinesh old buddy! A mirror and object placed into a diverging beam, with light reflected off both hitting the plate. Leith &amp; Upatnieks, 1963. Replace the object with the plateholder, and you have the most basic transmission HOE geometry with just a mirror and the plateholder in the diverging beam.<br><br>True. I had not thought of this geometry. This is why I kept repeating my assumption. If my assumptions were not true, it would have sufficed to simply say something to the effect: &quot;Have you considered this?&quot;. However dcgman does seem to have it &quot;in&quot; for me from past posts. I&#x27;ve never met him or her, I&#x27;ve never commented on anything he or she talked about and yet this burning hatred of someone he or she&#x27;s never met! It&#x27;s bizarre. It doesn&#x27;t take a genius to wonder how and why someone would hate with no purpose. Is it my ethnic background? Is it because I&#x27;m a theorist? Does he or she simply hate theorists? Does he or she hate Hariharan, for instance? Or is Hariharan not the object of his or her hate because he&#x27;s a recognised &quot;expert&quot;. (If this is so, it may interest him or her that Hariharan sent me the first copy of his new journal &quot;Journal of Holography and Speckle&quot; for review!) Does he or she think I&#x27;m somehow transcending &quot;my place&quot; - somehow blaspheming - everytime I write up an equation? Who knows. There are people here who throw a royal fit everytime I say 2+2=4, but blithely worship and genuflect on &quot;Benton math&quot; or Kogelnik with bended knee. I doubt they have actually studied Kogelnik, because there are a number of errors in it and also some pretty dodgy assumptions. But, irrational hatred is not something I&#x27;m going to pass over lightly. Anyone else would have doen exactly what you did - point to something I&#x27;d forgotten. Ordinary civilised debate consists of point and counterpoint, and if I did forget something, I&#x27;ve always accepted the oversight. Blind, vicious, irrational hatred of a total stranger is neither civilised nor is it debate.<br><br>By the way, Bob, I thought that geometry was first shown in Fred&#x27;s book. I didn&#x27;t realise that L and U came up with it earlier. I just looked up the paper and, sure enough, it&#x27;s fig 6 in their paper. But, the &quot;object&quot; beam is head on and, in this geometry, the sin of the angle would be greater than one. The beams would have to come from above and below the axis at equal, but opposite angles. But, it is true that this can be done woith one mirror. I usually only use single mirror geometries to make head-on reflections so this is all that occured to me. <em>Mea Culpa!</em><br><br>&gt; <strong>dcgman:</strong> Don&#x27;t be worried by the previous poster&#x27;s maths: I do not believe you are doing anything wrong<br><br>Don&#x27;t be worried? ????? I don&#x27;t know what &quot;condy-whatever you said&quot; means. But, it seems to me that the second sentence pretty much implies that I gave him a cause for &quot;worry&quot; because he did &quot;something &quot;wrong&quot;, which you then imply is unecessary because my &quot;maths&quot; was wrong. In fact, as I&#x27;ve repeated several times, the math was based on an assumption. If the assumption was wrong, it took only a comment stating that my assumption was wrong! Also, I notice you don&#x27;t specify where theta is. There&#x27;s no theta in your diagram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dcgman</span>
+                <span class="post-date">Tue Feb 21, 2012 4:29 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">I have never met you either Dinesh, and I certainly don&#x27;t harbour a &#x27;burning hatred&#x27; for you. Am I not allowed to disagree with some of your comments? I apologies if I&#x27;ve hurt your feelings- please believe me when I say it was entirely unintentional when I posted my first reply.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Feb 21, 2012 6:22 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Well, you know statements like these :<br><br>&quot;However, a word of advice: think carefully about displaying your commercial work on this forum, as it seems to anger certain other forum regulars who think that they should be getting all the commercial work&quot;<br><br>Don&#x27;t help. I don&#x27;t know which &quot;forum regulars&quot; you meant by the first quote, but as far as I know I&#x27;m the only one making commercial holograms. If you did mean me (and I&#x27;m not saying you do, but, since I believe I&#x27;m the only one...), then certainly I&#x27;d like to be getting all the commercial work! Who, in any business would not! I suspect if you asked a plumber if he/she would like to get all the commercial work, he/she would certainly agree! However, it doesn&#x27;t anger me when I don&#x27;t. I do react when I give valuable techniques to someone I believe is a hobbyist then turns professional. On the other hand, I&#x27;m not the only one in that boat. I was talking to a holographer from New York who expressed the same felings about someone he gave advice to, believing him to be a hobbyist who then turned pro. Let me be clear: I can&#x27;t stop any hobbyist from turning pro, but neither am I going to quite deliberately create my own compentition!<br><br>&quot;It&#x27;s just not worth trying to discuss a point with you, Dinesh. OK- so you are the only one on this forum who understands holography, and everyone else should supplicate before you- there, happy?&quot;<br><br>As for the second statement, I don&#x27;t know where that came from! I believe it came from the point that I did not know what &quot;conformal&quot; meant. Well, I don&#x27;t, or at least, didn&#x27;t! No, everyone shouldn&#x27;t supplicate before me. On the other hand, I&#x27;ve been at this game for 30 years in every aspect of the subject from pure display (at the old Richmond Holographics) to R &amp; D for government entities and NGO&#x27;s such as NASA at NTS and POC, to security at ABNH. I&#x27;ve also written several essays that I&#x27;ve posted on various forums with no regard to authorship (which annoys Joy who feels I should at least write: by Dinesh Padiyar!). These papers cover colour vision, scattering, phase relationships in holography, birefringence, the mechanism of silver halide and factors affecting development etc etc. I have no idea where these essays are, Colin may have put soem of them up somewhere. Joy has told me that I need to dig into the old computer and collect all these essays under one roof, so to speak, so I have them all if anyone&#x27;s interested. So, I feel I do know a little about the topic. But no, I&#x27;m not familiar with every term used by the various proponents. If anyone feels I&#x27;m wrong about something, I readily invite them to debate my error; if I&#x27;m wrong I&#x27;ll readily admit it.<br><br>Maybe it&#x27;s just the zeitgeist. Everyone seems to be excessively aggressive these days. maybe it&#x27;s the internet that creates this universal need to be aggressive because refined conversation is a thing of the past and legitimacy in any argument is determined by whoever carries the biggest cudgel!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Feb 23, 2012 11:18 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; Don&#x27;t help. I don&#x27;t know which &quot;forum regulars&quot; you meant by the first quote, but as far as I know I&#x27;m the only one making commercial holograms.<br><br>What about Jeff Weil? What do you think he is, chopped liver?<br><br>And BobH?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Feb 23, 2012 11:26 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Al Gont and Dave Battin? Whatever happened to Michael Harrison?!? I make R&amp;D holograms mostly, but do the occasional commercial HOE job at home too.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Feb 23, 2012 1:09 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">And probably even dcgman!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Feb 23, 2012 4:09 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> What about Jeff Weil? What do you think he is, chopped liver?And BobH?<br> The comment quoted was in regard to John P showing off a dcg hologram. Jeff Weil does not do dcg. I&#x27;m not exactly sure who Jeff&#x27;s clients are, but if he has a fixed set of client or clients, then he does not make &quot;commercial&quot; holograms per se. That is, he does not seek commercial clients in the open market. However, I&#x27;ve heard from other sources that Jeff is well-positioned in that he does have allmost <em>all</em> the commercial work in regard to resist mastering. Resist mastering is not my main avenue of income, we have done resist mastering, but we don&#x27;t do it on any regular basis a la Jeff. Would Jeff want the entire market for resist glass mastering? Hey Jeff, how about it? Would you like to have every embosser the world over come to you for masters?<br><br>Bob also does not seek clients on the open market. As Bob mentioned, he has a job at a corporation making HOEs as part of an R&amp;D team. I assume that the commercial work he&#x27;s done has been requested by clients, so he doesn&#x27;t actively seek commercial work.<br><br>&gt; <strong>Dinesh:</strong> &quot;However, a word of advice: think carefully about displaying your commercial work on this forum, as it seems to anger certain other forum regulars who think that they should be getting all the commercial work&quot;<br><br>&gt; <strong>Ed Wesly:</strong> And probably even dcgman!<br> You think dcgman was referring to himself as &quot;certain <em>other</em> forum regulars ?<br><br>&gt; <strong>BobH:</strong> Al Gont and Dave Battin?<br>&quot;I don&#x27;t know Al Gont. I don&#x27;t know whether Dave Battin &quot;seeks&quot; commercial work. Assuming he gets commercial works (ie looks for commercial customers)I also don&#x27;t know whether dcgman thinks that Dave Battin &quot;thinks he should be getting <em>all</em> the commercial work&quot;. However, if Dave&#x27;s primary (&quot;day&quot;) job is dcg holography, then I would certainly assume that Dave would want <em>all</em> the commercial work. Anyone who&#x27;s primary income depended on selling holograms to corporations or individuals would certainly try and expand his/her client base. I&#x27;m pretty sure if you asked ABNH whether they would like <em>all</em> the embossed clients, they&#x27;d look at you strangely and think it an odd question. ABN would capture the entire market in a heartbeat if they could! However, if Dave does this as a &quot;paying hobby&quot;, then I would assume his primary job is adequate and thus he would not seek <em>all</em> the commercil work.<br><br>Michael Harrison? I don&#x27;t know. The last I heard, this was a paid hobby while his main source of income was software writing. I would assume that software would probably pay more than dcg holography, so I suspect it&#x27;s still a paid hobby. But, as I say, I don&#x27;t know, not having had any contact with him for several years.<br><br>As far as I know, myself and Holorad are the only commercial holographer seeking commercial clients. We sometimes do joint projects, in fact, we just finished a joint project last year for the star field at the Natural History Museum in New York at the special exhibit for Kepler Data. I somehow very much doubt dcgman was referring to Steve, though. But, once more, Steve would love to have <em>all</em> the commercial work. Someone mentioned I was the only one left still doing classical table holography, which is not true since Holorad also make classical holograms. Everyone in the industry today making &quot;commecial&quot; holograms, such as Pacific, are using dot matrix. Chris Rich at Wavefront has a table, but again doesn&#x27;t use it. He had a classical table job that he would gladly have passed on to me. Both Chris and someone at Pacific told me that classical table setups are time-consuming, awkward and messy compared to dot matrix! I believe Ian mentioned that he thought it was remarkable that we were still around after 10 years of doing this as our &quot;day&quot; job!<br><br>The point I was trying to make is that dcgman&#x27;s words are in the spirit of disapproval that I (or whoever he meant) should be noble and not downplay the efforts of other holographers, in particular John P, who showed off their holograms. He cautioned John P not to show commercial stuff because, presumably, I (or whoever) would get madly jealous and do...what? Belittle John&#x27;s work perhaps? As a matter of fact, John P does do good work. The holograms are bright, clean and well presented. Am I jealous that John does such fine work? Not in the least! I even take a little pride in that John learned a litle from me! Am I supposed to be jealous that other holographers have a slice of the market? I think it&#x27;s very naive to think that anyone in any commercial field would deliberately forsake the opportunity to capture the entire market out of a spirit of extreme benevolence! Reality dictates that we all have competition; after all this is a democratic, capitalist society! It&#x27;s only the young and the naive who can afford this kind of nobility! We have bills to pay and mortgages hanging around our necks! When I see a bank balance of a 1 followed by 6 or 7 zeroes, I will learn to be humble. In the meantime, I&#x27;m too modest to tell you how modest I am!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">a_k</span>
+                <span class="post-date">Fri Feb 24, 2012 9:06 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">This thread is going way off topic. Once again, please don&#x27;t misuse the forum for your personal disputes in the public. Since no one seems to discuss Feng&#x27;s Coherent argon anymore, thread closed.</div>
+        </div>
+
+    <div class="thread-nav"><a href="483.html" class="prev-thread">← Where to find this Mask hologram</a><a href="Techniques.html">↑ Techniques</a><a href="476.html" class="next-thread">temperature and humidity logger test →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="560.html" class="card">
+                <h3>Is jds 2218-025mls argon laser suitable for holography?</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="471.html" class="card">
+                <h3>Coherent Compass 315M-100 DPSS 532nm Laser Holography Single</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="7596.html" class="card">
+                <h3>testing the Coherent 405mn radius laser</h3>
+                <div class="card-meta">General Holography (old) · 14 posts</div>
+            </a>
+            <a href="6540.html" class="card">
+                <h3>Review: Coherent D3 430nm Laser</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a>
+            <a href="4770.html" class="card">
+                <h3>Free!! Custom Laser Danger Signs from Coherent</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="4730.html" class="card">
+                <h3>argon laser</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gausian profile question? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5570.html" class="prev-thread">← Sweet... I love this section.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5565.html" class="next-thread">About Jeff Blyth reversal bleach and ultimate plates →</a></div>
+    <h1>Gausian profile question?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>7</td></tr>
+        <tr><td>Views</td><td>1,604</td></tr>
+        <tr><td>Started</td><td>Wed May 24, 2006 9:43 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/tony.html">Tony</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5564" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed May 24, 2006 9:43 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have been searching for a gaussian intensity distribution equation (this is funny that Bill is kind of working on the same thing) and I have not been able to find one. <br><br>The reason for this is I would like to know a relationship to the diameter of the expaned beam compared to the delta intesity measured between the center of a 5x7 plate and at the edges of that plate.<br><br>In other words. If I expand my beam to a 8 inch diameter what is the differnce between the intensity for a cm^2 at the center and the intensity for a cm^2 3 1/2 inches out? Then if I expand my beam to a 16 inch diameter what is the differnce between the intensity for a cm^2 at the center and the intensity for a cm^2 3 1/2 inches out?<br><br>I guess I am ultimately trying to get a knowledge on how much more even the intensity is if I expand my beam from 8&quot; or 16&quot;?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Wed May 24, 2006 10:54 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The equation for gaussian distribution is:<br><br>Amplitude = exp(-1* [x/k] ^2)<br><br>(sorry, no equation editor here).<br><br>k is a constant, which is the radius of the circle where the amplitude is 1/e times the peak. <br><br>As for your example, there&#x27;s some data missing. What is your beam diameter before expansion? Assume it&#x27;s 1mm. What does that mean? Assume it means k is 1mm. After expansion to a diameter of 8 inches, the beam amplitude at the edges will be 1/e times the center amplitude . The exact definition of beam diameter should be buried in the specs for your laser. For example, the beam diameter and divergence for a high power Melles-Griot HeNe are specified at 1/e^2.<br><br>So you first have to account for the 1/r^2 reduction in intensity due to expansion to find the amplitude at the center. You&#x27;ll need to integrate the above equation over the beam area if you wish to relate it to a total output power number.<br><br>You can use the equation above to get the relative amplitude profile across the expanded beam.<br><br>Hope this helps.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jun 09, 2006 10:13 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Tony, thank you for your reply but I am still ignorant in trying to use the forumla for what I seek.<br><br>Here is what I was wondering and I probably should have asked it instead of the equation. I might be able to understand the equation if an example solution was done but that might be more work then for someone then simply answering my question.<br><br>The whole purpose of this was to try and understand or at least find out how beneficial it is to expand the laser beam for holography. In other words how much more uniform is the intensity of the expanded beam on a 4x5 plate when it is expanded at 6 inches in diamter compared to 12 inches in diamter. <br><br>It looks like in some graphs I found on the internet that a lasers gausian profile has a slope close to 1 except at the top and bottom. But the at the very top and very bottom of the gausian profile the slope begins to move towards a larger number (absolute value) thus indicating a less differential ratio of two intensity spots, both within those &gt;1 slope areas.<br><br>The whole point of this, and maybe there is a very simple answer is, what is the best diameter to expand the beam to be the most uniform intensity coverage that is reasonable. <br><br>Can it be said simply that some number like 20% larger then the plate is best because after that there is not much advantage of a more even intensity distribution until the beam is expaned to 1000% the size of the plate.<br><br>Or can it be said that if the beam is expanded to just the corners of the plate that that is the best as larger only wastes light with no better intensity distribution.<br><br>Or can it be said that the more you expand the beam the more evenly illuminated the plate becomes.<br><br>Sorry I am so redundant redundant on trying to explain this but I feel it will be very advantageous to have some rule of thumb to follow for best and most even coverage of the plate.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Fri Jun 09, 2006 11:59 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; Can it be said simply that some number like 20% larger then the plate is best because after that there is not much advantage of a more even intensity distribution until the beam is expaned to 1000% the size of the plate.Or can it be said that if the beam is expanded to just the corners of the plate that that is the best as larger only wastes light with no better intensity distribution.Or can it be said that the more you expand the beam the more evenly illuminated the plate becomes.<br><br>All of the above is true!<br><br>Unless you expand the beam infinitely, there will always be some variation across it. And if you expand it infinitely, you get an infinitely long exposure!<br><br>The real answer is as follows:<br><br>Your goal is to get the maximum use out of the limited dynamic range of the medium you&#x27;re using (DCG or silver, etc). Dynamic range is the range of the highest to the lowest light intensites that fall within the quasi-linear region, and therefore index modulation, attainable. You need the reference + the brightest object reflection to be at the top of the quasi-linear region. You also want to make sure that the object:reference ratio never exceeds 1:1 at any point. (Using 1:2 or 1:4 as guidelines accounts somewhat for the diffeerence between peak and spatially averaged readings). <br><br>Therefore, in the center of the hologram, you have a limit set by the top of the dynamic range of the medium. At the edges, where the reference beam is lower due to the gaussian profile, this limits the peak object light you can accept.<br><br>This means that you are basicly losing an amount of dynamic range that is proportional to the difference between the reference beam in the center and at the edges. So there&#x27;s no definitive answer; it is a subjective kind of thing.<br><br>A large variation (reference beam expanded less) will result in some vignetting due to the loss of dynamic range at the edges. A small variation will be more uniform, but will add technical difficulties if the exposures get too long. If you have adequate sensitivity and/or stability, then you want to expand the beam as much as you can get away with.<br><br>It&#x27;s interesting that the eye and human perception are actually quite forgiving to the vignetting effects - it seems to be much less noticeable than one would think from making absolute measurements.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Fri Jun 09, 2006 12:59 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thank you Tony. <br><br>Here is an observaton that must be weighed also. I have noticed that my spatial filter is not 100% effective, that is there are a few dark specs in the cleaned beam. This is not much of a problem when the beam is expaned to about 8 inches as the specs are not even visible on the white card in the plate holder. But when I expand the beam to about 20 inches or more then the specs become spots that are visible on the white card and they present more of a problem. In my single beam H1/H2 combination set up, it is important that I can use any and all parts of the beam as that is how I change reference to ojbect ratios.<br><br>I guess it might be time to get a new objective and some new pinholes.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Fri Jun 09, 2006 1:48 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">see this old thread for excellent objectives and inexpensive pinholes:<br><br>[http://holographyforum.org/phpBB2/viewt ... highlight=](http://holographyforum.org/phpBB2/viewtopic.php?t=4145&amp;highlight=)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Fri Jun 09, 2006 2:57 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">i always thought the gaussian shaped beam might work well in doing one beam holography , with the beam expanded enough to evenly cover the plate , and now with the side spillover of the beam, use this light to aid as additonal lighting to your object...............<br><br>![Image](http://www.geocities.com/greenpagoda/diode2.jpg)</div>
+        </div>
+
+    <div class="thread-nav"><a href="5570.html" class="prev-thread">← Sweet... I love this section.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5565.html" class="next-thread">About Jeff Blyth reversal bleach and ultimate plates →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6648.html" class="card">
+                <h3>photochromic for changing beam profile</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a>
+            <a href="5756.html" class="card">
+                <h3>Need advice on beam profile</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

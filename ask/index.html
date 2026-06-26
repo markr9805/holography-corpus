@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ask the Corpus — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --purple: #d2a8ff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); }
+.container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+
+nav.top-nav {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    position: sticky; top: 0; z-index: 100;
+}
+nav.top-nav .container { display: flex; align-items: center; justify-content: space-between; }
+.nav-brand { font-weight: 700; color: var(--text-primary); font-size: 1.1em; }
+.nav-links { display: flex; gap: 20px; }
+.nav-links a { color: var(--text-muted); font-size: 0.9em; }
+.nav-links a:hover { color: var(--accent); }
+
+main { padding: 32px 0; }
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 8px; }
+h2 { color: var(--text-primary); font-size: 1.3em; margin: 24px 0 12px; }
+.subtitle { color: var(--text-muted); margin-bottom: 24px; }
+
+.ask-box {
+    background: var(--bg-secondary);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.ask-box:focus-within { border-color: var(--accent); }
+
+.ask-input-row { display: flex; gap: 12px; }
+.ask-input {
+    flex: 1;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: var(--text-primary);
+    font-size: 1em;
+    font-family: inherit;
+}
+.ask-input:focus { outline: none; border-color: var(--accent); }
+.ask-input::placeholder { color: var(--text-muted); }
+
+.btn-group { display: flex; flex-direction: column; gap: 8px; }
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.btn-search { background: var(--accent); color: #fff; }
+.btn-search:hover { background: #4090e0; }
+.btn-ai { background: var(--purple); color: #fff; }
+.btn-ai:hover { background: #b090e0; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+.suggestion-btn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.suggestion-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.config-section {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.config-section summary {
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+.config-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+.config-row label {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    min-width: 60px;
+}
+.config-row select, .config-row input {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: var(--text-primary);
+    font-size: 0.9em;
+}
+.config-row select:focus, .config-row input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.ai-answer {
+    background: linear-gradient(135deg, #1a1030 0%, #161b22 100%);
+    border: 1px solid var(--purple);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: none;
+}
+.ai-answer.visible { display: block; }
+.ai-answer h3 { color: var(--purple); margin-bottom: 12px; font-size: 1.1em; }
+.ai-answer .answer-text { color: var(--text-primary); line-height: 1.7; }
+.ai-answer .answer-text p { margin-bottom: 12px; }
+.ai-answer .answer-text code {
+    background: var(--bg-tertiary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+.ai-answer .sources { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+.ai-answer .sources h4 { color: var(--text-muted); font-size: 0.85em; margin-bottom: 8px; }
+
+.passage-area { margin-top: 16px; }
+.passage-card {
+    background: var(--bg-tertiary);
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border-radius: 0 8px 8px 0;
+}
+.passage-header {
+    font-size: 0.85em;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+.passage-text {
+    color: var(--text-secondary);
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--text-muted);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-box {
+    background: #f8514922;
+    border: 1px solid var(--danger);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--danger);
+}
+
+@media (max-width: 600px) {
+    .ask-input-row { flex-direction: column; }
+    .btn-group { flex-direction: row; }
+}
+</style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../forum/index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="index.html" style="color:var(--purple)">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <h1>🤖 Ask the Corpus</h1>
+    <p class="subtitle">Ask questions about holography — answers are synthesized from video transcripts and forum discussions.</p>
+
+    <div class="ask-box">
+        <div class="ask-input-row">
+            <input type="text" id="ask-input" class="ask-input" placeholder="Ask anything about holography..." autofocus>
+            <div class="btn-group">
+                <button class="btn btn-search" id="btn-search" onclick="doSearch()">🔍 Search</button>
+                <button class="btn btn-ai" id="btn-ai" onclick="doAsk()">✨ Ask AI</button>
+            </div>
+        </div>
+        <div class="suggestions">
+            <button class="suggestion-btn" onclick="askSuggestion(this)">How does dichromated gelatin (DCG) work?</button>
+            <button class="suggestion-btn" onclick="askSuggestion(this)">What lasers are used for holography?</button>
+            <button class="suggestion-btn" onclick="askSuggestion(this)">How do you make a reflection hologram?</button>
+            <button class="suggestion-btn" onclick="askSuggestion(this)">What is the difference between transmission and reflection holograms?</button>
+            <button class="suggestion-btn" onclick="askSuggestion(this)">What causes laser speckle?</button>
+        </div>
+    </div>
+
+    <details class="config-section">
+        <summary>⚙️ AI Model</summary>
+        <div class="config-row">
+            <label>Model:</label>
+            <select id="ai-model">
+                <option value="google/gemini-2.5-flash">Gemini 2.5 Flash (fast, cheap)</option>
+                <option value="anthropic/claude-sonnet-4">Claude Sonnet 4 (thorough)</option>
+                <option value="openai/gpt-4o-mini">GPT-4o Mini (fast)</option>
+            </select>
+        </div>
+    </details>
+
+    <div class="ai-answer" id="ai-answer">
+        <h3>✨ AI Answer</h3>
+        <div class="answer-text" id="ai-answer-text"></div>
+    </div>
+
+    <div id="results-area" style="display:none">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <h2 id="results-title" style="margin:0">📚 Relevant Sources</h2>
+            <span id="results-count" style="color:var(--text-muted);font-size:0.9em"></span>
+        </div>
+        <div id="results"></div>
+    </div>
+</main>
+<footer style="padding:24px 0;border-top:1px solid var(--border);margin-top:48px">
+    <div class="container"><p style="color:var(--text-muted);font-size:0.85em">Holography Corpus · AI-powered search across video transcripts and forum discussions · Powered by OpenRouter</p></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+<script>
+let searchIndex = null;
+let documents = [];
+let forumIndex = null;
+let forumDocs = [];
+
+async function init() {
+    const vResp = await fetch('../analysis/search-index.json');
+    const vData = await vResp.json();
+    documents = vData.entries || [];
+
+    searchIndex = lunr(function() {
+        this.ref('id');
+        this.field('title', { boost: 10 });
+        this.field('creator_name', { boost: 5 });
+        this.field('excerpt');
+        this.field('forum', { boost: 3 });
+        this.field('authors', { boost: 3 });
+        documents.forEach(doc => this.add(doc));
+    });
+
+    try {
+        const fResp = await fetch('../analysis/forum-search-index.json');
+        const fData = await fResp.json();
+        forumDocs = fData.entries || [];
+        forumIndex = lunr(function() {
+            this.ref('id');
+            this.field('title', { boost: 10 });
+            this.field('forum', { boost: 3 });
+            this.field('authors', { boost: 5 });
+            this.field('excerpt');
+            forumDocs.forEach(doc => this.add(doc));
+        });
+    } catch(e) {
+        console.log('Forum index not available, skipping');
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+        document.getElementById('ask-input').value = q;
+        doSearch();
+    }
+}
+
+function askSuggestion(btn) {
+    document.getElementById('ask-input').value = btn.textContent;
+    doSearch();
+}
+
+async function retrievePassages(query, numPassages) {
+    const passages = [];
+
+    try {
+        const vResults = searchIndex.search(query);
+        for (const r of vResults.slice(0, numPassages)) {
+            const doc = documents.find(d => d.id === r.ref);
+            if (!doc) continue;
+            let fullText = doc.excerpt || '';
+            if (doc.slug) {
+                try {
+                    const tResp = await fetch('../transcripts/' + doc.slug + '.json');
+                    if (tResp.ok) {
+                        const tData = await tResp.json();
+                        for (const key of Object.keys(tData)) {
+                            if (tData[key].text) {
+                                fullText = tData[key].text.substring(0, 3000);
+                                break;
+                            }
+                        }
+                    }
+                } catch(e) {}
+            }
+            passages.push({
+                type: 'video',
+                title: doc.title || 'Untitled Video',
+                creator: doc.creator_name || '',
+                date: doc.date || '',
+                url: '../videos/' + doc.slug + '.html',
+                excerpt: fullText.substring(0, 1500),
+                score: r.score
+            });
+        }
+    } catch(e) { console.error('Video search error:', e); }
+
+    if (forumIndex) {
+        try {
+            const fResults = forumIndex.search(query);
+            for (const r of fResults.slice(0, numPassages)) {
+                const doc = forumDocs.find(d => d.id === r.ref);
+                if (!doc) continue;
+                passages.push({
+                    type: 'forum',
+                    title: doc.title || 'Untitled Topic',
+                    forum: doc.forum_full || doc.forum || '',
+                    authors: doc.authors || [],
+                    date: (doc.date_start || '').substring(0, 10),
+                    url: '../forum/' + doc.topic_id + '.html',
+                    excerpt: (doc.excerpt || '').substring(0, 1500),
+                    score: r.score
+                });
+            }
+        } catch(e) { console.error('Forum search error:', e); }
+    }
+
+    passages.sort((a, b) => b.score - a.score);
+    const seen = new Set();
+    return passages.filter(p => {
+        if (seen.has(p.title)) return false;
+        seen.add(p.title);
+        return true;
+    }).slice(0, numPassages);
+}
+
+function doSearch() {
+    const query = document.getElementById('ask-input').value.trim();
+    if (!query) return;
+    retrievePassages(query, 12).then(passages => {
+        renderResults(passages, query);
+    });
+}
+
+function renderResults(passages, query) {
+    const area = document.getElementById('results-area');
+    const container = document.getElementById('results');
+    area.style.display = 'block';
+    document.getElementById('results-title').textContent = '📚 Relevant Sources';
+    document.getElementById('results-count').textContent = passages.length + ' results';
+
+    container.innerHTML = passages.map(p => {
+        const icon = p.type === 'video' ? '📹' : '💬';
+        const meta = p.type === 'video'
+            ? p.creator + ' · ' + p.date
+            : p.forum + ' · ' + p.authors.join(', ') + ' · ' + p.date;
+        return '<div class="passage-card">' +
+            '<div class="passage-header">' + icon + ' <a href="' + p.url + '">' + escHtml(p.title) + '</a> · ' + escHtml(meta) + '</div>' +
+            '<div class="passage-text">' + escHtml(p.excerpt.substring(0, 400)) + (p.excerpt.length > 400 ? '…' : '') + '</div>' +
+        '</div>';
+    }).join('');
+}
+
+async function doAsk() {
+    const query = document.getElementById('ask-input').value.trim();
+    if (!query) return;
+
+    const btnAi = document.getElementById('btn-ai');
+    const btnSearch = document.getElementById('btn-search');
+    const answerDiv = document.getElementById('ai-answer');
+    const answerText = document.getElementById('ai-answer-text');
+    const model = document.getElementById('ai-model').value;
+    const workerUrl = 'https://ask-holography-corpus.markr9805.workers.dev';
+
+    btnAi.disabled = true;
+    btnSearch.disabled = true;
+
+    // First do search to get context
+    const passages = await retrievePassages(query, 8);
+    renderResults(passages, query);
+
+    if (passages.length === 0) {
+        answerDiv.classList.add('visible');
+        answerText.innerHTML = '<div class="error-box">No relevant passages found. Try different keywords.</div>';
+        btnAi.disabled = false;
+        btnSearch.disabled = false;
+        return;
+    }
+
+    // Show loading
+    answerDiv.classList.add('visible');
+    answerText.innerHTML = '<div style="color:var(--purple);font-style:italic"><span class="spinner"></span>Synthesizing answer with ' + escHtml(model.split('/').pop()) + '...</div>';
+
+    // Build context
+    const context = passages.map((p, i) => {
+        const meta = p.type === 'video'
+            ? '[Video: "' + p.title + '" by ' + p.creator + ', ' + p.date + ']'
+            : '[Forum: "' + p.title + '" in ' + p.forum + ', by ' + p.authors.join(', ') + ', ' + p.date + ']';
+        return 'Source ' + (i+1) + ': ' + meta + '\n' + p.excerpt;
+    }).join('\n\n');
+
+    const systemPrompt = 'You are a holography expert assistant. Answer the user\'s question based ONLY on the provided sources from the Holography Corpus — a collection of video transcripts and forum discussions about display holography, holographic techniques, and holographic art. Cite your sources using [Source N] notation. If the sources don\'t contain enough information, say so and suggest what might help. Be specific and technical where the sources support it. Cover topics like: DCG processing, reflection holograms, transmission holograms, laser types and setups, recording materials (silver halide, DCG, photopolymer), display techniques, holographic art, and the holography community.';
+
+    const userPrompt = 'Question: ' + query + '\n\nSources:\n' + context + '\n\nAnswer with citations:';
+
+    try {
+        const resp = await fetch(workerUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                model: model,
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userPrompt }
+                ]
+            })
+        });
+
+        if (!resp.ok) {
+            const err = await resp.json().catch(() => ({}));
+            throw new Error(err.error || 'API error: ' + resp.status);
+        }
+
+        const data = await resp.json();
+        const answer = data.choices && data.choices[0] && data.choices[0].message ? data.choices[0].message.content : '';
+
+        if (answer) {
+            let formattedAnswer = escHtml(answer);
+            formattedAnswer = formattedAnswer.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            // Source citations to links
+            passages.forEach((p, i) => {
+                const re = new RegExp('\\[Source ' + (i+1) + '\\]', 'g');
+                formattedAnswer = formattedAnswer.replace(re, '<a href="' + p.url + '" title="' + escHtml(p.title) + '" style="color:var(--purple);text-decoration:none;font-weight:bold;">[Source ' + (i+1) + ']</a>');
+            });
+            formattedAnswer = formattedAnswer.replace(/\n\n/g, '</p><p>');
+            formattedAnswer = formattedAnswer.replace(/\n/g, '<br>');
+            formattedAnswer = '<p>' + formattedAnswer + '</p>';
+
+            const sourcesHtml = passages.slice(0, 6).map((p, i) =>
+                '<div style="margin:4px 0"><span style="color:var(--purple);font-weight:bold;">[' + (i+1) + ']</span> <a href="' + p.url + '" style="color:var(--accent);text-decoration:none;">' + escHtml(p.title) + '</a> <span style="color:var(--text-muted);">' + escHtml(p.type === 'video' ? p.creator + ' · ' + p.date : p.forum + ' · ' + p.date) + '</span></div>'
+            ).join('');
+
+            answerText.innerHTML = '<div class="answer-text">' + formattedAnswer + '</div>' +
+                '<div class="sources"><h4>Sources from the corpus:</h4>' + sourcesHtml + '</div>';
+        } else {
+            answerText.innerHTML = '<div class="error-box">LLM returned an empty response. Try a different model.</div>';
+        }
+    } catch(e) {
+        answerText.innerHTML = '<div class="error-box">Error: ' + escHtml(e.message) + '</div>';
+    }
+
+    btnAi.disabled = false;
+    btnSearch.disabled = false;
+}
+
+function escHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+document.getElementById('ask-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') doSearch();
+});
+
+init();
+</script>
+</body>
+</html>

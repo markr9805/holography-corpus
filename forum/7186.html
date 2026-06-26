@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pockel Cells as q switches — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7185.html" class="prev-thread">← Maximum Brightness (and cleaner) SBR Holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7187.html" class="next-thread">DCG and exposure time →</a></div>
+    <h1>Pockel Cells as q switches</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,557</td></tr>
+        <tr><td>Started</td><td>Tue Mar 04, 2008 5:05 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/ron-michael.html">Ron Michael</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7186" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Tue Mar 04, 2008 5:05 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">This topic is about using Pockel cells as q switches. There is plenty of information on how to align the c axis of the cell with the laser resonator and to have the fast/slow axis at 45 degree angle to the polarizaton for quarter wave and full wave switching.<br><br>But, some may not realize some of the issues with these setups. And of course no discussion would be complete without reminding everyone that these cells involve lethal energy if you come in contact with them. So be forwarned. <br><br>With regard to ruby lasers, you will need this procedure:<br><br>Align the c-axis of the ruby rod. In a mopa, all the c-axis must be properly aligned in the same direction for best amplifications.<br><br>However, for the q switching this is just as important as well. Basic procedure is to setup a polarizer (camera type is fine) oriented with a reference. Aim a light downward toward a mirror using the brewster angle of 56 degrees from normal. This reflection will be S polarized or horizontal. Align the camera polarizer for the darkest transmission. This will orient this polarizer vertical. Now rotate the axis of the ruby rod until you get the deepest red (purple like red). To fine tune this place another crossed polarizer in front of the rod. The configuration is polarizer, ruby rod, polarizer. Now rotate the rod until the darkest viewing is achived when looking thru the polarizers and rod. Now the c-axis is parallel or vertical. This means that the laser will output a S polarized or horizontal output. If you want vertical then use another cross polarizer with that first polarizer and replace the first with the new oriented second polarizer. For q switching you will need the laser&#x27;s polarizer crossed for half wave and parallel for quarter wave configurations with the laser&#x27;s emitted polarization.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Mar 05, 2008 1:37 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">![pctest.jpg](https://holographyforum.org/forum/download/file.php?id=6075)<br><br>Here is an example of a quick test setup to verify the operation and voltage of a pockel cell. Since this setup uses crossed polarizers you can also use them as mentioned previously to find the c-axis of ruby rods if needed. A low power HENE is used to analyze the operation with a white card just off to the right of the picture. A hipot tester that has a 100 mega-ohm HV resistor on the output provides a safer voltage during the voltage test. At a max of 6kv, the output max would be 60 microamps. The specific pockel cell, Inrad kd*p FC-43, has a capacitance of less than 10pfd and even counting the cables, their isn&#x27;t enough to be a major shock hazard, but I still wouldn&#x27;t test it. This model showed that the half-wave voltage was 3.6kv for 633nm. So for 694nm the voltage would need to be 4kv, and for 1064nm, the voltage would need to be 6kv. <br><br>Note: Inside the Hipot tester is a red high voltage 100 to 1 voltage divider probe to a digital voltmeter that was used to verify the panel meter&#x27;s values.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Mar 05, 2008 4:30 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; Aim a light downward toward a mirror<br> Correction, I meant to say glass window. The first polarizer should be rotated to transmit the minimum reflected S polarized light from the glass surface at the brewster angle.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Wed Mar 05, 2008 1:49 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hey Ron thanks for the alignment tips. I have the benefit the laser was already set up. Ill be checking and aligning soon. The manual explains the procedure just as you have stated. thanks!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Wed Mar 12, 2008 9:08 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I&#x27;ve had a passion for the passive saturable absorber q switches because they are great mode selectors due to their slow opening. However for Ruby, liquid dye cells are a pain to maintain, so I will use a pockels cell. I&#x27;m getting ready to test this design I just finished. Its key features are a relatively safe powersupply and a slow 1 microsec rise time to open the half wave q switch to allow better mode selection of 200 transits of a 65cm resonator if the laser gain is correctly adjusted for the 1 microsec open. Hopefully with other mode selectors like resonant reflectors, the laser should have few longitudinal modes. ( 1 want only 1 if possible). We&#x27;ll see how the circuit and laser performs. Here is the circuit and spice simulation. The drive outputs 4kv pulse even though the simulation shows 400v. The top red line is the 1usec pulse from the 555 timer.<br><br>![spice sim of pc driver](https://holographyforum.org/forum/download/file.php?id=6077)<br><br>![pockels driver](https://holographyforum.org/forum/download/file.php?id=6076)</div>
+        </div>
+
+    <div class="thread-nav"><a href="7185.html" class="prev-thread">← Maximum Brightness (and cleaner) SBR Holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7187.html" class="next-thread">DCG and exposure time →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11042.html" class="card">
+                <h3>Probability of print out as a function of grain radius</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 1 posts</div>
+            </a>
+            <a href="9922.html" class="card">
+                <h3>Flat bed scanner as dip coater?</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 1 posts</div>
+            </a>
+            <a href="864.html" class="card">
+                <h3>Glycerin as index matching fluid</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="79.html" class="card">
+                <h3>Use a Hologram of a lens as a lens?</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

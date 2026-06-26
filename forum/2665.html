@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenses and Beamsplitters — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="2668.html" class="prev-thread">← Fuzzy Holograms?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2666.html" class="next-thread">Polarization of Glass →</a></div>
+    <h1>Lenses and Beamsplitters</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>6</td></tr>
+        <tr><td>Views</td><td>2,397</td></tr>
+        <tr><td>Started</td><td>Thu Aug 12, 2004 9:54 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/peterstrapp.html">PeterStrapp</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/markcavin.html">MarkCavin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=2665" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PeterStrapp</span>
+                <span class="post-date">Thu Aug 12, 2004 9:54 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;m putting togeather a holography setup and have bought most of the components I need. I just have a few optics to buy and need to build some optic mounts.<br><br>I have limited space and I&#x27;m building a table around 4 foot by 2.5 foot. What I would like to know is whether the lens below would be suitable for expanding the beams on a table of this size. The largest object I envisage using will be around 15cm and the focal length of the bi-concave lens is -6mm.<br><br>[6mm Lens (-6mm fl)](http://www.thorlabs.com/ProductDetail.cfm?DID=6&amp;ObjectGroup_ID=256&amp;Product_ID=11463)<br><br>Also, what beam splitters does everyone use? And how does everyone alter the beam ratios in their multibeam setups? I am having a very hard time finding variable beamsplitters, I doubt I could afford one if I could find one anyway. Thorlabs sells 50:50 and 30:70 splitters, these seem to be my only option at the moment.<br><br>[50:50 Plate Beamsplitter](http://www.thorlabs.com/ProductDetail.cfm?DID=6&amp;ObjectGroup_ID=914&amp;Product_ID=33204)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Aug 12, 2004 11:35 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">[quote:615dd0594e]What I would like to know is whether the lens below would be suitable for expanding the beams on a table of this size.[/quote:615dd0594e]<br><br>Difficult to say unless you knew what you wanted to do with the lens. Assuming you want to illuminate an object 15 cm wide. Then, if we assume that the aperture of the lens is 6mm (fast lens!) in diamter and the lens has a focal length of -6. This would mean that a collimated beam of diameter equal to the lens aperture would diverge from a point 6mm behind the lens into a half angle of 26 odd degrees ((inv tan)(3/6)). Thus to cover an object of diameter 15 cm, you&#x27;d need to place the lens about 7cm away. If the beam is not the same as the lens aperture, then the angle of divergence of the beam, theta, depends on the beam diameter, b (in mm):<br><br>theta = (inv tan)(b/12)<br><br>and to cover an object of diameter 15cm, the distance to the object from the lens, d(in cm) is:<br><br>d=7.5/tan(theta) - 0.6<br><br>The .6 is to take into account the fact that the point of divergence of the beam is 6 mm behind the lens.<br><br>Putting in some numbers, if your beam diameter is 1mm, then <br><br>theta = 4.7 degrees<br><br>d = 89.4 cm <br><br>This is about 35 inches, or almost the full length of your table.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri Aug 13, 2004 12:40 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Variable beamsplitters don&#x27;t really need to be that expensive. Here is a photo of mine:<br><br>![Image](http://www.designerinlight.com/holo/beamsplitter.jpg)<br><br>It was made from these parts:<br><br>NT41-960<br><br>[http://www.edmundoptics.com/onlinecatal ... 0&amp;search=1](http://www.edmundoptics.com/onlinecatalog/displayproduct.cfm?productID=1750&amp;search=1)<br><br>NT53-272<br><br>[http://www.edmundoptics.com/onlinecatal ... 0&amp;search=1](http://www.edmundoptics.com/onlinecatalog/displayproduct.cfm?productID=1290&amp;search=1)<br><br>I glued a piece of galss to the back to make it easier to card off the secondary reflection and made up a mount.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">PeterStrapp</span>
+                <span class="post-date">Fri Aug 13, 2004 1:52 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thanks for the math Dinesh I haven’t been able to get a data sheet off the manufacturer of the laser (Coherent) so I’m not sure of the beam diameter, I would guess 3mm. I could do with finding out though as 1mm can make a big difference.<br><br>1mm	-	89.4cm<br><br>2mm	-	44.4cm<br><br>3mm	-	29.4cm<br><br>4mm	-	21.9cm<br><br>5mm	-	17.4cm<br><br>(Bi-concave lens -6mm fl illuminating 15cm wide object)<br><br>This bi-concave lens has the shortest focal length on the Thorlabs website. What lenses does everyone use to diverge the beams? I’ve read that -8mm fl is equivalent to a 20x microscope objective. Is the only real choice to use a powerful microscope objective? (Around 60x)<br><br>Colin, that variable plate beam splitter is just what I was looking for. Thanks.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Aug 13, 2004 1:08 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">3mm seems reasonable for the diameter. The easiest way to tell is to expose some film, develop it and measure the black spot. You don&#x27;t need to use holographic film or a holographic setup, since you&#x27;re simply exposing the raw beam. Remeber that the beam is gaussian so the developed spot won&#x27;t abruptly end but will fall off. You need to determine where the beams &quot;ends&quot;.<br><br>To increase the illumination you might try putting two of them together. The combined focal length will be 3mm so for the same beam diameter you&#x27;d get a greater divergence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MarkCavin</span>
+                <span class="post-date">Fri Aug 13, 2004 3:00 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Has anyone made a holographic variable beam splitter as discussed in the Saxby book? Does this method perform as well as is needed for good split beam holography?</div>
+        </div>
+
+    <div class="thread-nav"><a href="2668.html" class="prev-thread">← Fuzzy Holograms?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2666.html" class="next-thread">Polarization of Glass →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8509.html" class="card">
+                <h3>knife-edge beamsplitters</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="1064.html" class="card">
+                <h3>Reference Beam with two Bi-Concave Lenses</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="1011.html" class="card">
+                <h3>GRIN lenses</h3>
+                <div class="card-meta">Optics · 5 posts</div>
+            </a>
+            <a href="7130.html" class="card">
+                <h3>Cleaning Lenses</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="6370.html" class="card">
+                <h3>fresnel lenses</h3>
+                <div class="card-meta">Beginning Holography · 2 posts</div>
+            </a>
+            <a href="6123.html" class="card">
+                <h3>new beamsplitters</h3>
+                <div class="card-meta">General Holography (old) · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

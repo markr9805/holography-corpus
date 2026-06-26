@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatial Filter — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11398.html" class="prev-thread">← Mounting HX200 for Cylidrical Holograms</a><a href="Techniques.html">↑ Techniques</a><a href="11392.html" class="next-thread">Two-layer gelatin emulsions? →</a></div>
+    <h1>Spatial Filter</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>19</td></tr>
+        <tr><td>Views</td><td>371,780</td></tr>
+        <tr><td>Started</td><td>Sat Nov 30, 2024 6:56 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/alan-sailer.html">Alan Sailer</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/jrburns47.html">jrburns47</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11394" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sat Nov 30, 2024 6:56 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I finally found the old Spectra Physics 332 spatial filter I thought I maybe probably had. It is cute. <br><br>But it only has the expansion lens L2 6.1mm f/l. No pinhole. Before I go down the rabbit hole of seeing If I can <br><br>get some sort of pinhole into the darn thing I thought I&#x27;d ask a few questions.<br><br>Any hidden treasure trove of lens/pinholes for this thing out there on the intertubes? BMI has one pinhole, 6.8um but want you <br><br>to buy a 332 with it. I don&#x27;t even need one 332....<br><br>Any clever hacks to get a pinhole into the thing?<br><br>It&#x27;s not a big deal. I am just curious about messing with a spatial filter and to see what effect it has on hologram quality.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Nov 30, 2024 8:31 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The effect is that it creates a uniform beam. Generally, a laser beam scatters off dust particles in the air. These dust particles get &quot;carried through&quot; the lens and cause the beam profile to be covered with whorls, rings etc. When you focus the beam through a lens, you get a series of circles, known as &quot;airy rings&quot; at the focal point. The dust etc is encoded in the outer rings. So, if you get a filter with a hole in it - the pinhole - just small enough to allow light at the centre of the series of rings to get through, the resulting expanded beam will be uniform with no whorls, circles etc. You&#x27;ll find more information here: [https://www.edmundoptics.com/knowledge- ... hW45Dzsmbs](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/understanding-spatial-filters/?srsltid=AfmBOopluZnYy9zq8SHg1-IQyTO3H3pzLZ1h2SbURMxiJThW45Dzsmbs)<br><br>But, in order to only allow the centre of the ring system to transmit, the pinhole must be of the right diameter, and this diameter depends on the focal length of the lens and the beam diameter . There is an equation on the Edmunds Optics site to calculate the diameter:<br><br>D = λf/w (λ is recording wavelength, f is focal length and w is beam diameter<br><br>Technically, the focal point of a lens is the Fourier Transform of the input beam, and you&#x27;re removing the higher orders (you mentioned you had a friend in optics and he may be able to explain this). <br><br>Lightglass Optics is a second hand distributor with cheaper optics ( [https://www.lightglassoptics.com/](https://www.lightglassoptics.com/) )<br><br>As for making your own there was a discussion on making your own a while back ( [https://holowiki.org/forum/viewtopic.ph ... b9b#p39302](https://holowiki.org/forum/viewtopic.php?p=39302&amp;hilit=making+pinholes#p39302) ). I&#x27;m afraid I have no idea how successful these home-made pinholes were. The problem may be mounting the pinhole on your spatial filter.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Dec 01, 2024 9:56 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">No math is needed here, and no description of how a spatial filter works was requested. I&#x27;d recommend you look at Ed Wesly&#x27;s pages or contact him for replacement pinholes for that spatial filter. He has many of them and quite a few spare parts. You can also ask the question of the Facebook holography pages as a few of the members there also have those spatial filters and might be able to help you find what you need.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Sun Dec 01, 2024 6:07 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Bob,<br><br>Thanks. I&#x27;ll see if I can get a hold of Ed. I may also have to overcome my aversion to social media and check out the holography group.<br><br>Din,<br><br>I was on a hike today with my optics friend and we talked a bit about spacial filters. He verified that a lens will do a fourier transform <br><br>on the beam and at the focal point high frequency information (dust and crap) will be separated from low frequency information <br><br>(the Gaussian beam). You can use the proper pinhole to filter out the high frequency stuff.<br><br>It makes hand waving sense. If I pursue it further it would be to find out what physical property of the light creates this spatial separation.<br><br>Sorry if I seem lazy about understanding all this stuff. As I get older I increasingly can&#x27;t be bothered to try and understand all the technical details of things. It just does not feel as important any more....<br><br>I&#x27;m also loosing brain cells.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Dec 01, 2024 8:33 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Alan Sailerwrote:↑Sun Dec 01, 2024 6:07 pm:</strong> Din,It makes hand waving sense. If I pursue it further it would be to find out what physical property of the light creates this spatial separation.Sorry if I seem lazy about understanding all this stuff. As I get older I increasingly can&#x27;t be bothered to try and understand all the technical details of things. It just does not feel as important any more....I&#x27;m also loosing brain cells.Cheers.<br><br>The physical property of light is something called &#x27;diffraction&#x27;. When light goes through large opening, say a circular cutout, about 2 inches in diameter in an opaque card,the light inside the cutout goes through, but the light not in the cutout gets blacked. On a wall, you&#x27;ll see a disc of light 2 inches in diameter. Notice that as the hole gets smaller, the edges are not as sharp, and the smaller the hole, the more fuzzy the edges get. This is diffraction because the light is diffracting off the edge of the card. This effect of the light spreading out beyond the confines of the cutout is known as diffraction. The pattern on the wall can be mathematically modelled by a Fourier transform (FT), which is a mathematical technique to predict/explain the pattern on the wall. Mathematically, the FT is a series of frequencies, and the higher frequencies get spread out further. If you&#x27;re familiar with music, higher frequencies translate to higher harmonics. You can see a ripple tank demo here: [https://www.youtube.com/watch?v=egRFqSKFmWQ](https://www.youtube.com/watch?v=egRFqSKFmWQ).<br><br>This video shows a one-dimensional slit. If the &quot;slit&quot; were two-dimensional, like a cutout disc on an opaque card, the pattern becomes a set of circles. The FT is a set of rings, with the rings getting closer and closer together outwards from the centre. The closer a ring is to the next ring, the higher the frequency corresponding to the ring, so the frequencies increase as you go outwards. Any variation of the smoothness of the cutout, any anomalies such as dust particles in a beam, is represented by circles further out from the centre - the higher frequencies. If you can block off these &#x27;outer rings&#x27;, then you&#x27;ve suppressed the Fourier components of these anomalies, and the resulting light is smooth again.<br><br>By the way, it&#x27;s spaTial frequency, not spaCial frequency.<br><br>Yep, I&#x27;m losing brain cells too. As you age, memory is the second thing to go.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Wed Dec 04, 2024 12:44 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">So after messing around with the Spectra Physics 332 I could not get an &quot;answer&quot; that made sense. <br><br>The expanded image on a white card always looked like a TEM30 pattern which didn&#x27;t make sense.<br><br>I decided to spend a day building a more rigid spatial filter. Using three linear micrometer stages.<br><br>After I got it together I was able to get a decent filtered beam, no more little whirls and target <br><br>patterns. However the set-up is too sensitive to touch to be usable. I now understand why all the <br><br>spatial filters I see look like they are milled out of a solid block of aluminum.<br><br>So I gave up and ordered a used spatial filter A Jodon LPSF-100 unit. I figure I have spent enough <br><br>time and trouble doing this and want to actually make a hologram with it to see what happens.<br><br>My next fear is that the 40X Olympus objective I have will not thread into the filter.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Dec 04, 2024 1:07 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Alan Sailerwrote:↑Wed Dec 04, 2024 12:44 pm:</strong> My next fear is that the 40X Olympus objective I have will not thread into the filter.Cheers.<br><br>It should, because most objectives have standard threads. I&#x27;ve been using that kind of spatial filter assembly for 40 years now, along with objectives from a vast array of sources, and have never had any problem with the thread. However, I have had a problem with length. One manufacturer&#x27;s objective was a little longer than usual and jutted beyond the pinhole assembly. It was impossible to pinhole.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Thu Dec 05, 2024 10:05 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Din,<br><br>We shall see. I have several objectives and half are RMS and the others are M25.<br><br>I was thinking about practical issues with a spatial filter and one came up.<br><br>With my old set-up just using an objective as a beam expander I used an x-y stage <br><br>as a mount. This allowed me to steer the beam and illuminate my photo plate evenly.<br><br>The spatial filter will not allow this. The first solution I can think of is a front surface<br><br> mirror mounted on a kinematic mount. However, it seems like dust and crap on the <br><br>mirror will set me back to ground zero. Or does dust and crap only cause problems in transmission?<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Dec 05, 2024 10:47 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Steering a beam through a spatial filter will work if you simply readjust the pinhole to accommodate. Using as large a pinhole as you can makes this easier. <br><br>Dust particles affect a small diameter beam more than one that&#x27;s spread out to a few inches. Particles on the microscope objective lens itself are the worst offenders. It&#x27;s really important to keep your objectives very clean! Particles on a steering mirror will be less obvious on the hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Dec 05, 2024 1:25 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Alan Sailerwrote:↑Thu Dec 05, 2024 10:05 am:</strong> Din,We shall see. I have several objectives and half are RMS and the others are M25.I was thinking about practical issues with a spatial filter and one came up.With my old set-up just using an objective as a beam expander I used an x-y stageas a mount. This allowed me to steer the beam and illuminate my photo plate evenly.The spatial filter will not allow this. The first solution I can think of is a front surfacemirror mounted on a kinematic mount. However, it seems like dust and crap on themirror will set me back to ground zero. Or does dust and crap only cause problems in transmission?Cheers.<br><br>Yes, dust in a transmitted beam causes problems, dust on a mirror does not cause as many problems. The reason is that dust in a transmitted beam is similar to putting a transparency into the beam with small areas of differential (or no) transmission - spots or &#x27;dust&#x27; on the transparency. The beam profile on the other side of the transparency will have the FT of the dust encoded into it. Technically, the beam profile of a beam going through a transparency is the Fourier transform of the transparency. As mentioned earlier, the FT of dust is a set of rings, which is why you spatially filter the beam to filter out the rings. Dust on a mirror will scatter light, as any non-uniformity on the mirror will do. However, the light field will not encode this dust as an FT because the mirror is reflecting, not transmitting; the scattering profile quickly dies out. So, provided the mirror is far enough away, and the mirror is not too dusty, the scattering will fade away. Of course, you can always clean the mirror . The best way is to put a drop of acetone on the edge of the mirror, fold a sheet of lens paper/lens tissue over the drop and draw it across the mirror face.<br><br>I&#x27;m assuming you&#x27;re steering the reference beam in a Denisyuk geometry with your x-y stage. This needs to be done carefully. The reason is that if you twist the beam coming out of the expander, the beam wavefront is skewed. You have to reconstruct the hologram with as close to the original reference as possible. If the reference is skewed by an unknown amount, you have to reconstruct also with a skewed wavefront, which is probably impossible, since you have no idea how much the wavefront was skewed. However, in a display hologram it may not matter too much, so long as the beam was not too skewed; small distortions in the reconstructed image will probably not be noticed. The best way to align the beam is to use the raw (unexpanded) beam first, and ensure it hits the centre of the film holder at the appropriate reference angle - this also makes it easier to measure the beam angle. To ensure the raw beam is hitting the centre of the plate holder, put a sheet of glass instead of your film. You can do this with a mirror on a kinematic mount. Then you put the expander/objective into the raw beam to expand. The best way to ensure that the objective is properly placed is to look at the reflected light from the back of objective. If properly placed, the reflected light from the back of the objective will return along the incoming path. For what it&#x27;s worth, I used to place a small sheet of glass behind the objective at an angle, which will &quot;draw away&quot; the reflected beam. If the sheet of glass has two points of light on it, the objective is twisted.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Thu Dec 05, 2024 7:22 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks all. I tried a mirror and as predicted the reflected beam still looks clean. <br><br>Steering with a kinematic mount is pretty slow, I&#x27;ll look into alternative ways.<br><br>It was really fast and nice to steer using the x-y on the 40X objective. Very intuitive.<br><br>As far as using steering using the spatial filter I will have to see. At this point it <br><br>takes quite some time to center the pinhole. Maybe with the Jodon mount it <br><br>will be faster.<br><br>I am really hoping to see a noticeable difference with the spatial filter. All this <br><br>fuss and cost is a bit annoying since I am just fooling around. The holograms I <br><br>expect to make will just be demos of concept, not state of the art...<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri Dec 06, 2024 9:40 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Leave the pinhole out of the spatial filter until you&#x27;re done with the set-up. Putting it in last saves you the trouble of keeping it aligned while changing things.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Fri Dec 06, 2024 9:57 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Makes sense. The pinhole is by far the most sensitive mechanical adjustment I&#x27;ve ever made.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Tue Dec 10, 2024 10:09 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I got the Jodon filter today. It is missing the magnetic pinhole mount. Do I need to <br><br>return it or is there an after market replacement/hack.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Tue Dec 10, 2024 6:50 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">[https://www.ebay.com/itm/126140362301?m ... edia=EMAIL](https://www.ebay.com/itm/126140362301?mkcid=16&amp;mkevt=1&amp;mkrid=711-127632-2357-0&amp;ssspo=qLnU_HRYS9u&amp;sssrc=4429486&amp;ssuid=fth8YZwHSUS&amp;var=&amp;widget_ver=artemis&amp;media=EMAIL)<br><br>[https://www.ebay.com/itm/126140362313?m ... edia=EMAIL](https://www.ebay.com/itm/126140362313?mkcid=16&amp;mkevt=1&amp;mkrid=711-127632-2357-0&amp;ssspo=qLnU_HRYS9u&amp;sssrc=4429486&amp;ssuid=fth8YZwHSUS&amp;var=&amp;widget_ver=artemis&amp;media=EMAIL)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Tue Dec 10, 2024 8:46 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Thanks.<br><br>I&#x27;ll make an offer.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Wed Dec 25, 2024 6:17 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">So after a lot of kerfuffle I finally got a Jodon 10um pinhole to go with the spatial filter I bought. It&#x27;s a clever design,<br><br>basically a magnet with two orthogonal flats holding the pinhole. The magnet has a teflon coated side that slides on <br><br>another teflon coated washer on the filter. The magnet attracts the shafts of two micrometer heads so that either <br><br>turning the micrometers in and out makes the pinhole follow the micrometers.<br><br>Getting the filter to work took about three minutes thanks to teh practice I got from my homebrew filter. It&#x27;s a lot <br><br>more stable and much to my surprise I can still move the laser and move the cleaned up beam to a limited extent.<br><br>The final beam has a very clean look. The first reflection hologram I tried looked much nicer than I expected. I&#x27;m <br><br>guessing the diffraction artifacts from the unfiltered beam make the resulting hologram more noisy and thus less <br><br>crisp looking.<br><br>Anyhow, thanks for all the advice. After this exercise I can see why spatial filters are a needed part of fine holography.<br><br>Cheers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu Dec 26, 2024 5:49 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">To get the input beam going straight into that spatial filter, I always held a little piece of glass against the input face of the lens holder and retro-reflect the Fresnel reflections off it. I usually have an iris diaphram mounted upstream (my reference for beam height on the table) to make that easier.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Alan Sailer</span>
+                <span class="post-date">Thu Dec 26, 2024 6:53 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">Nice tip.<br><br>Cheers.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11398.html" class="prev-thread">← Mounting HX200 for Cylidrical Holograms</a><a href="Techniques.html">↑ Techniques</a><a href="11392.html" class="next-thread">Two-layer gelatin emulsions? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="1063.html" class="card">
+                <h3>Spatial Filter</h3>
+                <div class="card-meta">Techniques · 10 posts</div>
+            </a>
+            <a href="769.html" class="card">
+                <h3>Making a Pinhole for a Spatial Filter</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="717.html" class="card">
+                <h3>Intro and spatial filter power question</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="302.html" class="card">
+                <h3>Cleaning my spatial filter pinhole</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="125.html" class="card">
+                <h3>Newport 910 Spatial Filter</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="8197.html" class="card">
+                <h3>Weird Spatial Filter Effect...</h3>
+                <div class="card-meta">General Holography (old) · 12 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

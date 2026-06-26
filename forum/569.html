@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yet another Compass dongle — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="574.html" class="prev-thread">← a map of holographer locations</a><a href="Techniques.html">↑ Techniques</a><a href="555.html" class="next-thread">Wood →</a></div>
+    <h1>Yet another Compass dongle</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>3,548</td></tr>
+        <tr><td>Started</td><td>Sun Jun 24, 2012 5:30 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/jsfisher.html">jsfisher</a> · <a href="../authors/holomaker.html">holomaker</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=569" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Sun Jun 24, 2012 5:30 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Just because I could, I&#x27;ve started experimenting with a different design for autostart adapter for Coherent C315M and kin analog controllers. My goal is to end up with a unit with more features than the more elaborate designs out there, but with minimal parts count and a total cost considerably lower than the street price for Coherent&#x27;s relatively simple adapter.<br><br>The key components are (1) a 2x16 character LCD display panel and (2) an Atmel AVR 8-bit micro-controller. The AVR uC has a surprising number of functions, including a set of A/D converters, so I can use it for proper sequencing to start the laser, continual sensing of the laser state signals, and the ability to convert the power level signal from the Coherent controller to milliWatts and display it on the LCD panel.<br><br>I have some preliminary software running on a crude prototype. It hasn&#x27;t been connected to a real Coherent controller, yet, but it does drive the display and respond to the digital status signals. A/D conversion is my next hurdle. The display would normally look something like this:<br><br>Code: [Select all](#)<br>`    +------------------+<br>    | Ready      141mW |<br>    | 00:14:37   241 D |<br>    +------------------+`<br>The &quot;Ready&quot; indicates the laser is powered-up and stable. The 141mW is the estimated power level (based on calibration data the operator previously provided using the two push buttons). The 00:14:37 is the hours:minutes:seconds since the laser signaled it was ready. The 241 is the relative setting (0-255) from the power-set potentiometer. Finally, D is which laser was specified, A through E. (I plan for it to remember calibration data for at least five different lasers.)<br><br>Pressing the &lt;Enter&gt; push button would to the expected thing--signal the controller to change power settings. Pressing &lt;Menu&gt; would put the device into a mode where you can select options and enter calibration data using the two push buttons.<br><br>Here&#x27;s the schematic.<br><br>Code: [Select all](#)<br>`                       Vcc   Vcc   Vcc                                      22pf<br>                        o     o     o                              PB6 &lt;--+--|(--+<br>  Vcc       Gnd         |     |     |      Vcc       Gnd                  |      |<br>   o        ---     +---+-----+-----+---+   o        ---          16MHz [===]    |<br>   |   10k   |      |  Vcc  AVcc  Aref  |   |  10k    |                   |      |<br>   +--VVVVV--+      |                   |   +--VVVVV--+            PB7 &lt;--+--|(--+<br>     R1 A           |     ATmega328P    |     R2 A                          22pf |<br>        | DB15-4 &lt;--| PB0               |        |                              ---<br>        | DB15-5 &lt;--| PB1               |        |       Gnd                    Gnd<br>        | DB15-6 &lt;--| PB2               |        |       ---    +----------------+<br>        | DB15-7 &lt;--| PB3               | Vcc    |        |     |   HD44780 LCM  |<br>        | DB15-12 &lt;-| PB4               |  o     |        +-----| Vss     +----+ |<br>        | DB15-15 &lt;-| PB5               |  |     | Vcc o--------| Vdd     |    | |<br>        |   XTAL &lt;--| PB6               | ===    +--------------| Vo      |    | |<br>        |   XTAL &lt;--| PB7               |  |0.1uf   +-----------| RS      |    | |<br>        +--DB15-13  |                   | ---       |  +--------| R/W     |    | |<br>        |           |                   | Gnd       |  |  +-----| Enable  |    | |<br>        +-----------| PC0/ADC0      PD0 |-----------+  |  |  NC-| D0      |    | |<br>          DB15-14 &lt;-| PC1/ADC1      PD1 |--------------+  |  NC-| D1      |    | |<br>          DB15-2 &lt;--| PC2           PD2 |-----------------+  NC-| D2      |    | |<br>          DB15-3 &lt;--| PC3           PD3 |--&gt; DB15-8          NC-| D3      |    | |<br>        +-----------| PC4           PD4 |-----------------------| D4      |    | |<br>        |   +-------| PC5           PD5 |-----------------------| D5      |    | |<br>        |   |    NC-| PC6/RST       PD6 |-----------------------| D6      |    | |<br>    SW1 o   o SW2   |               PD7 |-----------------------| D7      |    | |<br>      -|  -|        |                   |         +--VVVVV------| BL+     |    | |<br>        o   o       |                   |         |    56   +---| BL-     +----+ |<br>        |   |       |    Gnd       Gnd  |         o         |   +----------------|<br>        +-+-+       +-------------------+        Vcc       ---<br>          |               |         |                      Gnd<br>         ---             ---        ---    <br>         Gnd             Gnd        Gnd    <br><br>  DB15-1 ---o Vcc<br>  DB15-9 ----------+<br>  DB15-11 --o Vcc  |<br>                  ---<br>                  Gnd<br><br>R1  -- Laser power adjustment.<br>R2  -- Display contrast<br>SW1 -- Menu.  Cycles through menu options and suboptions.<br>SW2 -- Enter.    Selects current menu option.<br><br>The XTAL circuit could be replaced by a simple 16 MHz resonator.  The only<br>consequence would be the accuracy of the real time clock.  Similarly, the<br>ATmega328P could use its internal 8 MHz oscillator.  A few timing values would<br>need adjustment, but otherwise it would work and provide a real time clock<br>display at whatever accuracy the internal oscillator provided.<br><br>BL (backlight) is optional.  Some LCD display modules use LED light panels for<br>illumination that exceed the 200 mA power budget.  Such modules would require<br>separate power for the backlight.  Other LCD modules are better behaved<br>(~100 mA required) that can be driven from the Coherent controller through an<br>8.2 ohm resistor.  Still other models use a single LED or two (~20 mA needed)<br>and can be driven safely through a 56 ohm resistor.<br><br>AVcc can be improved by including a low pass filter.  0.1uf bypass capacitor to<br>ground and a 10uh inductor to Vcc.<br>`</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Sun Jun 24, 2012 6:51 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">It&#x27;s currently an ugly sucker. Note in particular the air-mounted potentiometer, a classic is artistic prototyping.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Sun Jun 24, 2012 8:10 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">yes use sam&#x27;s layout. i found my 315 would get confused at all the different power settings so i made mine with only a high setting and a low setting (w/potentometer)<br><br>![Image](http://i.ebayimg.com/t/Coherent-Compass-215m-315m-laser-power-adjust-dongle-/00/$%28KGrHqZ,!iwE2Kd1dhqtBNn9C8m+4Q~~_12.JPG)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Sun Jun 24, 2012 8:24 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomaker:</strong> yes use sam&#x27;s layout. i found my 315 would get confused at all the different power settings so i made mine with only a high setting and a low setting (w/potentometer)<br><br>Hey, I have one of those!! As for Sam, I have to admit that his [C315M Laser Control Panel 2](http://www.repairfaq.org/sam/315p2sch.pdf) was in part my inspiration. So many parts when that $5.00 AVR chip could do most everything.</div>
+        </div>
+
+    <div class="thread-nav"><a href="574.html" class="prev-thread">← a map of holographer locations</a><a href="Techniques.html">↑ Techniques</a><a href="555.html" class="next-thread">Wood →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5147.html" class="card">
+                <h3>yet another multiplex hologram</h3>
+                <div class="card-meta">Gallery · 17 posts</div>
+            </a>
+            <a href="3177.html" class="card">
+                <h3>Yet another computer controlled holographic display</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="665.html" class="card">
+                <h3>Heatsink for Coherent Compass</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="471.html" class="card">
+                <h3>Coherent Compass 315M-100 DPSS 532nm Laser Holography Single</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="391.html" class="card">
+                <h3>Coherent Compass 315m on a battery ?</h3>
+                <div class="card-meta">Techniques · 28 posts</div>
+            </a>
+            <a href="8308.html" class="card">
+                <h3>Another newbie here :)</h3>
+                <div class="card-meta">Beginning Holography · 8 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

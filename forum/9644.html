@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="9651.html" class="prev-thread">← Sharp diodes</a><a href="Techniques.html">↑ Techniques</a><a href="9629.html" class="next-thread">D.I.Y. holographic photopolymer →</a></div>
+    <h1>Digital Holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>16</td></tr>
+        <tr><td>Views</td><td>18,581</td></tr>
+        <tr><td>Started</td><td>Mon Jul 09, 2018 10:10 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/din.html">Din</a> · <a href="../authors/lobaz.html">lobaz</a> · <a href="../authors/jrburns47.html">jrburns47</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=9644" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jul 09, 2018 10:10 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have been having a conversation with Petr Lobaz on digital holography at Facebook. Petr thought it&#x27;d be easier for archival purposes to bring the conversation here, for archival purposes (better here than Facebook), and to educate on digital holography.<br><br>Petr, perhaps you can re-state what you stated on Facebook as to what kind of computation is necessary for digital holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Jul 09, 2018 5:01 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; Petr, perhaps you can re-state what you stated on Facebook as to what kind of computation is necessary for digital holography.<br><br>It seems that &quot;classical&quot; holographers (at least Dinesh and BobH) have some initial troubles when switching their mind from analogue to purely digital. <br><br>First of all, let us define some terms.<br><br>1. &quot;Classical hologram&quot; is a hologram prepared using laser beams, photosensitive material such as silver halide, chemical processing and so on.<br><br>2. &quot;Digital holography&quot; tries to employ digital computers somewhere in the process. For example, instead of using silver halide material, the interference pattern can be recorded using raw CCD sensor (such as the one found inside a digital camera). It is then possible to, e.g., analyse the captured hologram computationally.<br><br>3. &quot;Computer generated holography&quot; is a branch of digital holography. The aim is to avoid physical hologram formation at all - the interference pattern is calculated somehow. For example, it is possible to simulate light waves and their interference. Such a calculated hologram is in fact an image - the same image you would see if you look at a classical hologram under a microscope. In you have a fine enough printer, you can &quot;print&quot; such a calculated interference pattern and use it as a classical hologram - you can illuminate it with a laser beam and observe diffracted light.<br><br>4. &quot;Computer generated display holography&quot; is a branch of computer generated holography. In this case, the aim of the calculated hologram is to make an image, for example of a 3-D scene. It is worth mentioning that most computer generated holograms are not display holograms - they serve as general optical elements modifying light. Computer generated holograms can be used as diffusers, aberration correctors, beam splitters, homogenizers, and so on.<br><br>5. There are other kinds of combining computers and holography. For example, Zebra Imaging or Geola make thousands of images using computer graphics and use them to make a single holographic stereogram. It should be noted that the &quot;digital part&quot; of the process is pure computer graphics. All the &quot;holographic&quot; stuff - wave interference, Bragg selectivity and so on - takes part in the machine that actually makes the stereogram. That machine actually composes a holographic stereogram from thousands of tiny classical holograms, each hologram encodes one image produced by computer graphics.<br><br>This discussion is about points 3 and 4. It is NOT about Geola/Zebra stereograms.<br><br>OK.<br><br>In computer generated holography, we usually need to do three steps:<br><br>1. Calculate a digital hologram, i.e. a strange image full of fine lines, dots, etc. Human eye cannot see anything in that image.<br><br>2. Print the digital hologram in the appropriate size.<br><br>3. Take the printed hologram and illuminate it with proper light, e.g. with a laser beam.<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jul 10, 2018 3:36 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">The easiest way to fulfill step 1 - to calculate a synthetic hologram - is to simulate wave interference. That is:<br><br>1a) We have to simulate light leaving an object, i.e. the object wave.<br><br>1b) We have to simulate a reference wave. Note that in computer generated holography, we do not have problems that are typical in classical holography. We can make a perfect collimated wave, arbitrary converging wave, there are no problems with angles, shadows, etc. <br><br>1c) Finally, we calculate interference pattern of the object and the reference wave.<br><br>Note that this procedure is NOT the only one that leads to a nice synthetic hologram. But as readers of this forum are used to work in classical holography, it is the best to begin with something that sounds familiar.<br><br>When simulating monochromatic coherent light (i.e. laser light), we usually use scalar model of light. This means that light at a point can be fully described by two numbers: amplitude <em>A</em> and phase <em>phi</em>. For convenience, they are usually written as a single complex number <em>U</em>:<br><br><em>U = A cos(phi) +iA sin(phi)</em><br><br>where <strong>i</strong> is the imaginary unit, <strong>i</strong><strong><em>i</strong> = -1. This can be rewritten using Euler&#x27;s identity to:<br><br></em>U = A exp(2 piiphi)<em><br><br>As an example, let us place the &quot;holographic plate&quot; to the plane z = 0 and make a hologram of a simple &quot;object&quot; composed of three self-luminous points. The points will be located in z &lt; 0.<br><br>First, we must calculate the object wave at each point [x, y, 0] of the holographic plate. A point light source emits light to each direction. If the point is located at [ax, ay, az], then light at [x, y, 0] can be described by a complex number U:<br><br></em>U = exp(i2 pi / lambda r) / r<em><br><br>where<br><br></em>r = sqrt( [ax - x]^2 + [ay - y]^2 + z^2 )<em><br><br>and </em>lambda* is the laser light wavelength, for example 532 nm. If we have three points A, B, C located at [ax, ay, az], [bx, by, bz], [cx, cy, cz], we just have to calculate this number U for each of them and sum them. After many calculations, we get the numerical simulation of an object wave.<br><br>![Object wave - real part](https://holographyforum.org/forum/download/file.php?id=7036)<br><br>![Object wave - imaginary part](https://holographyforum.org/forum/download/file.php?id=7037)<br><br>![Object wave - complex number visualization](https://holographyforum.org/forum/download/file.php?id=7038)<br><br>In the last image, a single pixel represents a complex number. Bright color means high amplitude (intensity), black or dark means low amplitude (intensity). Color hue then represents phase of light.<br><br>Note that neither real, imaginary nor complex visualization has some equivalent in reality. In reality, we can observe just light intensity. These games with complex numbers, phases and so on are just a mathematical trick to get work done. These pictures are NOT what you would see when three point light sources illuminate a holographic plate!<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jul 10, 2018 3:46 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Calculation of the collimated (plane) reference wave is quite easy. A plane wave at a point [x, y, 0] can be expressed by a complex number R:<br><br><em>R = exp(i2 pi [nx x + ny y]/lambda)</em><br><br>where direction of the collimated wave is given by a unit vector [nx, ny, sqrt(1 - nx^2 - ny^2)].<br><br>We simply calculate the reference wave at each point [x, y, 0] of the holographic plate. If the wave was coming from the top of the plate, we get these complex numbers:<br><br>![Reference wave - complex number visualization](https://holographyforum.org/forum/download/file.php?id=7039)<br><br>Now we have two light fields: the object wave U and the reference wave R. To calculate their interference, we just calculate <br><br><em>H = [abs(U + R)]^2</em><br><br>at each point of the holographic plate. Numbers H are real and represent intensity of light illuminating the holographic plate. Thus, H is something observable and, indeed, it is the synthetic hologram we are trying to make. Here it is:<br><br>![Synthetic hologram](https://holographyforum.org/forum/download/file.php?id=7040)<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jul 10, 2018 4:02 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Now we have a matrix of numbers in the computer memory - the computer generated hologram. What to do with that?<br><br>The usual task that follows is to fabricate it. The hologram above was calculated for pixel pitch 10 um, and has 301 x 301 pixels. Its size should be therefore about 3x3 mm. Common &quot;printers&quot; are just binary - a pixel can be transparent, or opaque. For this hologram, we must use a printer that offers pixels 10 um, i.e. 100 px/mm, i.e. 2540 dpi. Before printing, we must make the hologram binary:<br><br>![Binarized hologram](https://holographyforum.org/forum/download/file.php?id=7041)<br><br>Once we print this image in appropriate size 3x3 mm, we can illuminate it with a laser beam. Recall that the object wave was composed of three point light sources. That is, if we want to reconstruct a real image, three points should appear on the screen. Here they are (note this is just numerical simulation what happens, not a real photograph of the experiment):<br><br>![Reconstruction of the real image](https://holographyforum.org/forum/download/file.php?id=7042)<br><br>We can actually see three points on a diagonal - the central one is sharp, the others are blurry. This indicates that our point light sources were not located in a plane parallel to the hologram - one was farther, one was closer than the central one. This is indeed true, locations were (in milimeters):<br><br>[-0.5, -0.5, -550] - bottom left<br><br>[0, 0, -500] - central<br><br>[0.5, 0.5, -400] - top right<br><br>Moreover, near the top edge of the reconstructed image is slightly brighter than black. This is in fact part of the undiffracted laser beam that illuminates the hologram from the bottom.<br><br>Finally, there are fringes around points. This is the consequence of light coherence and the geometry that was used in hologram calculation.<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jul 10, 2018 4:23 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The example I gave was a very basic one. The calculated hologram was very small (3x3 mm) and pixel size very big (10 um). Big pixel size means low angles of diffraction, in this case about 1.5 degree. It follows that such a hologram can be hardly used as a nice display hologram.<br><br>For computer generated display holography, we need hologram size at least several square centimeters, and small pixel pitch to allow large angle of observation. Pixel pitch 1 um allows angle 1 degrees (for green light 532 nm), pixel pitch 0.5 um allows angle 32 degrees.<br><br>Thus, to calculate a hologram 50x50 mm with pixel pitch 0.5 um, we should calculate an image with 100 000 × 100 000 pixels, i.e. 10 gigapixels, and use a printer that can make such a tiny pixels. The most usual &quot;printer&quot; is laser lithography. The principle is simple: a laser beam is focused by a microscope objective to a spot of size one pixel, for example diameter 0.5 um. The spot is recorded on a photoresist plate, i.e. a glass plate covered with a thin laer of chromium and a photoresist layer. The laser illuminates pixel by pixel the whole plate (it takes a long time to print a 10 gigapixel hologram!). After exposure, the photoresist is developed, which means that (for example) the unexposed parts are washed away, exposed parts stay on the chromium layer. Chromium layer is then etched - due to partial coverage of photoresist, some parts of the plate become transparent, the others are still opaque. After that, we have a binary amplitude hologram. See for example Kan-Dai Digital Holo-Studio for more details:<br><br>[http://holography.ordist.kansai-u.ac.jp ... studio/en/](http://holography.ordist.kansai-u.ac.jp/digitalholostudio/en/)<br><br>There are other technologies for digital hologram fabrication:<br><br>- Instead of printing &quot;dot by dot&quot;, a part of a synthetic hologram is displayed on a microdisplay and optically reduced to a photoresist plate. Thus, thousands or millions pixels are exposed at once. <br><br>- It is possible to develop the photoresist and metallize it. Then we have a reflective surface relief that behaves like a phase hologram. It is also possible not to binarize the hologram before exposing, i.e. it is possible to fabricate &quot;continuous&quot; profile.<br><br>- Instead of using laser light, it is possible to use electron beam to expose the photoresist. Electron beam can go down to pixel size 50 nm or even smaller. It is then possible to make hologram features with high precision.<br><br>- It is also possible to use ion beam that etches the material directly. It has some pros and cons over other technologies, indeed.<br><br>That&#x27;s all for the introduction. If you want to know more, check my tutorial notes on computer generated display holography:<br><br>[http://holo.zcu.cz/cgdh_basics.html](http://holo.zcu.cz/cgdh_basics.html)<br><br>This page also hosts CGDH Tools: a set of scripts working in Matlab / Octave / Scilab (free alternatives to Matlab) that show many basic procedures in computer generated display holography. Enjoy!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Tue Jul 10, 2018 7:17 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Wonderfully clear and simply explained. Thank you.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Tue Jul 10, 2018 7:44 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Thank you, Jody.<br><br>And now the hard questions, Dinesh!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Jul 10, 2018 2:40 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">I think I caught you in a typo :<br><br>&gt; <strong>lobaz:</strong> A point light source emits light to each direction. If the point is located at [ax, ay, az], then light at [x, y, 0] can be described by a complex number U:U = (1/r)exp(i 2 pi / lambda r) / rwherer = sqrt( [ax - x]^2 + [ay - y]^2 + z^2 )<br><br>Surely<br><br>U = (1/r)exp(i(2π/λ)r) = exp(ikr)<br><br>Not<br><br>U = (1/r)exp(i(2π/(λr)) = (1/r)exp(i(k/r))<br><br>I understand the total disturbance on the hologram is the sum of individual disturbances caused by individual points. Basically, it&#x27;s a sum of sinusoidal components for each point. Isn&#x27;t this just a Fourier sum? If you had a large number of points, or, in the limit, a continuous surface, then is the disturbance the Fourier transform of the surface function (or the transmittance function)? As you mentioned, if you have a purely sinusoidal grating with frequency f(x), you&#x27;ll get three points of light reconstructed. Since the three points of light may be thought of as three delta functions δ(f), δ(f - f(x)) and δ(f+f(x)), the reconstruction is the inverse FT of the sinusoidal pattern on the hologram. So, can you work backwards? If you want a specific output function, can you take the inverse function, and &#x27;plot&#x27; this on the hologram?<br><br>I was wondering why you need/plotted both the real and the complex part of the object wave. I assume that it&#x27;s to calculate H = [abs(U + R)]^2. But, if the phase of any given object point is φ(o), and the phase of the ref is φ(r), then:<br><br>U = (1/r)exp(iφ(r)) = cos(φ(r)) + i sin(φ(r))<br><br>R = exp(iφ(o)) = cos(φ(o)) + i sin(φ(o))<br><br>Assuming, as you did, that amplitude is 1. So:<br><br>H = [abs(U + R)]^2 = (U+R)(U+R)<em> = [cos(φ(r)) + i sin(φ(r))][cos(φ(o)) - i sin(φ(o))<br><br>The real part of this is:<br><br>cos(φ(r)cos(φ(o) - sin(φ(r))sin(φ(o)) = cos[φ(r) + φ(o)]<br><br>and the complex part is:<br><br>sin(φ(r))cos(φ(r)) - cos(φ(r))sin(φ(o)) = 0<br><br>So, it seems that all you need is the phase difference, and you can use the classic:<br><br>I = (U+R)(U+R)</em> = (1/r²)U² + R² + 2 cos[φ(r) + φ(o)] = (1/r²)I(O) + I(R) + 2 [cos((φ(o)) - (φ(r))]<br><br>So, why plot the complex part of the object wave?<br><br>Also, the above indicates that there is an overall increase in amplitude of U² + R² (what I call the &#x27;dc level&#x27;). But, if you simply poke holes in the resist at positions given by the phase difference, what simulates the dc level? I assume that the holes from the objective lens should not be developed/etched all the way to the glass, thus giving you an overall phase delay, which corresponds to the dc level.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Jul 11, 2018 3:54 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">First: yes, there was a typo <br><br>The correct version is:<br><br>&gt; A point light source emits light to each direction. If the point is located at [ax, ay, az], then light at [x, y, 0] can be described by a complex number U:U = (1/r) exp [i(2 π / λ) r] = (1/r) exp (ik r)wherer = sqrt( [ax - x]^2 + [ay - y]^2 + z^2 )k = 2π / λ<br><br>Indeed, the point light source discussed has unit amplitude and zero initial phase. A general point light source with amplitude A and initial phase φ0 should be expressed by<br><br>&gt; U = A exp(iφ0) exp (ik r) / r<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Jul 11, 2018 4:40 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> I understand the total disturbance on the hologram is the sum of individual disturbances caused by individual points. Basically, it&#x27;s a sum of sinusoidal components for each point. Isn&#x27;t this just a Fourier sum?<br><br>Not exactly. Let&#x27;s switch to continuous domain for simplicity.<br><br>The Fourier transform G(fx, fy) of a function g(x, y) is given by<br><br> G(fx, fy) = \int \int_{-∞}^{∞} g(x, y) exp(-<strong>i</strong> 2π [x fx + y fy]) dx dy<br><br>and the inverse Fourier transform is given by<br><br> g(x, y) = \int \int_{-∞}^{∞} G(fx, fy) exp(<strong>i</strong> 2π [x fx + y fy]) dfx dfy<br><br>This sum can be interpreted as a sum of plane waves in the plane xy. Each plane wave has complex amplitude given by G(fx, fy) and direction given by a unit vector <br><br> [λ fx, λ fy, sqrt(1 - {λ fx}^2 - {λ fy}^2)] <br><br>Let us also assume that G(fx, fy) = 0 for fx^2 + fy^2 &gt; 1 / λ^2. That is, if the square root in the z component of the direction vector gets imaginary, G(fx, fy) is zero anyway (i.e. no evanescent waves).<br><br>On the other hand, if we have point light sources located at z = 0, light in z = z0 can be expressed by<br><br>U(x, y, z0) = \int \int_{-∞}^{∞} U(ξ, η, 0) exp(<strong>i</strong> k r) / r dξ dη<br><br>where<br><br>r = sqrt[ (x - ξ)^2 + (y - η)^2 + z0^2]<br><br>The difference is clear:<br><br>- The inverse Fourier transform represents a sum of &quot;sinusoidal&quot; patterns. Each pattern is a &quot;sinusoid&quot; looks like corrugated metal sheet, each component has certain frequency, amplitude, phase and angle of rotation.<br><br>![&amp;quot;Linear&amp;quot; sinusoidal pattern present in the Fourier transform.](https://holographyforum.org/forum/download/file.php?id=7044)<br><br>- Summation of point light sources is a sum of radially symmetric &quot;sinusoidal&quot; profiles, each profile looks like a wave on a water surface whan you throw a pebble inside. Each profile is shifted in xy, has certain amplitude and phase.<br><br>![&amp;quot;Radial&amp;quot; sinusoidal pattern present in a sum of spherical waves.](https://holographyforum.org/forum/download/file.php?id=7045)<br><br>Indeed, if z0 is large, then circles of the radial pattern become flatter locally (in some small area covered by holographic plate) and they start to behave like &quot;corrugated sheets&quot;. If z0 is infinitely large, then spherical waves become plane waves and the Fourier transform can be used.<br><br>(To be continued...)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Jul 11, 2018 5:05 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> As you mentioned, if you have a purely sinusoidal grating with frequency f(x), you&#x27;ll get three points of light reconstructed.<br><br>Just in the far field. If we have a sinusoidal grating of size 10x10 mm, frequency f = 5 cycles/mm, and illuminate it by a collimated wave λ = 500 nm at normal incidence, we get three diffraction orders. If we put a screen to z = 5 meters away from the grating, we should observe three squares damaged by diffraction, not three points:<br><br>![Intensity on the screen](https://holographyforum.org/forum/download/file.php?id=7046)<br><br>Indeed, the distance between centers of the middle and a side square should be<br><br>dist = tan(asin(lambda f)) <em> z ≈ 500e-9 </em> 5e3 * 5 = 0.0125 m = 12.5 mm</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Jul 11, 2018 5:22 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Din:</strong> So, it seems that all you need is the phase difference, and you can use the classic:I = (U+R)(U+R)<em> = (1/r²)U² + R² + 2 cos[φ(r) + φ(o)] = (1/r²)I(O) + I(R) + 2 [cos((φ(o)) - (φ(r))]So, why plot the complex part of the object wave?Also, the above indicates that there is an overall increase in amplitude of U² + R² (what I call the &#x27;dc level&#x27;). But, if you simply poke holes in the resist at positions given by the phase difference, what simulates the dc level? I assume that the holes from the objective lens should not be developed/etched all the way to the glass, thus giving you an overall phase delay, which corresponds to the dc level.<br><br>You are right. If you assume amplitudes of the object and the reference wave equal, you can work with just phase difference. Moreover, you do not need to bother with complex numbers at all, you just calculate the phase difference, take its cosine and you are done. If you have several point light sources, you can calculate cosine of the phase difference between the first point and the reference wave, add it to the cosine the phase difference between the second point and the reference wave, add it to...<br><br>In the end, you get a function that has both negative and positive parts. To convert it to amplitude pattern, you must add the dc term, and possibly binarize it. You have correctly mentioned that in classical holography, the dc term is given by |U|² + |R|². Unfortunately, this classical dc term has some internal structure if U is not simple, i.e. the classical dc term causes some noise. In digital domain, you can just transform your function to range [0, 1], i.e. to multiply it with a constant and add another constant. In this case, dc term is perfectly flat, which reduces noise. This approach - calculating cosine of the phase difference - is usually called &#x27;bipolar intensity&#x27;.<br><br>On the other hand, if you need more freedom, such as variable object beam/reference beam ratio, or you need to manipulate with optical field, you should return to complex numbers.<br><br>Note: Let us denote the object wave that includes everything including 1/r term by O. Thus, your equation becomes<br><br>&gt; I = (O+R)(O+R)</em> = O² + R² + 2 cos[φ(r) + φ(o)] = I(O) + I(R) + 2 [cos((φ(o)) - (φ(r))]</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Jul 11, 2018 8:53 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">OK, got it. Thanks, Petr.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Jul 14, 2018 8:40 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobaz:</strong> Summation of point light sources is a sum of radially symmetric &quot;sinusoidal&quot; profiles, each profile looks like a wave on a water surface whan you throw a pebble inside. Each profile is shifted in xy, has certain amplitude and phase.<br><br>Can you use the Bessel /Hankel functions in a computer for the radially symmetric profiles?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sat Jul 14, 2018 2:12 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">I am not aware of its use in computer generated (display) holography.<br><br>I know just one-dimensional Hankel (Fourier-Bessel) transform that is nice for radially symmetric functions. However, a general optical field is not radially symmetrical, only the impulse response of a point light source is.<br><br>I think the Hankel transform could be used for some special purpose CGH, such as for abberation correction, but I am not an expert in this area.<br><br>What is actually often used:<br><br>- The sum of radially symmetric impulse responses that are shifted in xy plane (i.e. optical field of a 2-D image) can be written in a form of convolution. Convolution can be expressed and calculated using Fourier transforms.<br>- The other way is to employ the Fresnel approximation of the impulse response. The convolution then reduces to the Fresnel transform, i.e. the Fourier transform of a function multiplied by a complex chirp function.<br>- Sometimes, the fractional Fourier transform or the linear canonical transform is employed in computer generated holography.<br>- Recently, Shimobaba (&quot;Fast generation of computer-generated holograms using wavelet shrinkage&quot;, Opt. Express 25/1) showed a nice trick how to employ the wavelet transform. I am also aware that the wavelet transform is sometimes used in theoretical reasoning (Liebling, Onural and others).</div>
+        </div>
+
+    <div class="thread-nav"><a href="9651.html" class="prev-thread">← Sharp diodes</a><a href="Techniques.html">↑ Techniques</a><a href="9629.html" class="next-thread">D.I.Y. holographic photopolymer →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11363.html" class="card">
+                <h3>Digital Holography Market Report 2024-2032</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a>
+            <a href="11285.html" class="card">
+                <h3>digital holography make depth hologram</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="323.html" class="card">
+                <h3>Digital Holography</h3>
+                <div class="card-meta">Techniques · 25 posts</div>
+            </a>
+            <a href="100.html" class="card">
+                <h3>digital holography</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="7922.html" class="card">
+                <h3>Digital holography</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a>
+            <a href="5530.html" class="card">
+                <h3>Interesting article on Digital Holography</h3>
+                <div class="card-meta">General Holography (old) · 8 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

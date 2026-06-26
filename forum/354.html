@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaserCheck Power Meter — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="357.html" class="prev-thread">← 633 safelight</a><a href="Techniques.html">↑ Techniques</a><a href="349.html" class="next-thread">Any ideas for wide area object lighting? →</a></div>
+    <h1>LaserCheck Power Meter</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>6,101</td></tr>
+        <tr><td>Started</td><td>Wed Oct 12, 2011 11:44 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/johnfp.html">Johnfp</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/142laser.html">142laser</a> · <a href="../authors/tom-b.html">Tom B.</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=354" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Oct 12, 2011 11:44 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">[http://www.pro-lite.co.uk/File/lasercheck.php](http://www.pro-lite.co.uk/File/lasercheck.php)<br><br>Does anyone know the surface area of the pick up head for the LaserCheck? (Got to get it to cm^2 for film recomendation specs)<br><br>OR<br><br>does the meter account for cm^2 and I just use the number shown on the digital display?<br><br>I need that to get an approximate time of my first exposure. Can&#x27;t be wasting plates and of course I will be doing test strips. Just need a ball park.<br><br>Thanks in advance.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 12, 2011 12:22 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">John, mine isn&#x27;t in front of me right now, but the sensor is around 5mm in diameter. But all you need to do is place it into a beam (either diverged or undiverged) and it will display the power in milliwatts, or if under 1 milliwatt, it will display in microwatts. You set the wavelength for whatever you&#x27;re measuring, say 633, and then place the sensor into the beam, and hold the button down for a couple seconds to get a reading in milliwatts or microwatts. Mine is essential equipment. How much are they asking? A used one on eBay might be cheaper, if available.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Wed Oct 12, 2011 1:12 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Joe, thanks for the reply. I have one already. <br><br>I was just curious if I use the uW displayed on the screen straight up or have to use it per the surface area of the apeture?<br><br>If I have to use the surface area, which makes sense to me, then:<br><br>In other words. If the power is displaying .8uW and that is for an 8mm diameter hole, then <br><br> (PI <em>r^2)3.14 </em> .4cm * .4cm = .5 cm^2 (surface area of hole)<br><br>then<br><br>.8uW is for a .5cm^2 area<br><br>so<br><br>I need 4 of those for a cm^2<br><br>thus<br><br>3.8uW for a cm^2 per second for joules or 3.8uJ/cm^2<br><br>and<br><br>the plate needs 80uJ/cm^2<br><br>so<br><br>80/3.8 = 21 seconds.<br><br>Does that sound right? <br><br>Now here are some more plots<br><br>.8uW shown on meter means 21 seconds.<br><br>.4uW shown on meter means 50 seconds<br><br>1.6uW shown on meter means 12.5 seconds<br><br>Is there an easy way to read meter and convert to seconds? <br><br>That is, can I just take meter reading in uW and mulitply it times 4 and then divide that into needed energy for plate and i get my time in seconds?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Oct 13, 2011 9:23 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I hope you won&#x27;t take offense if the Math/Science department of Harrington College of Design critiques your math.<br><br>&quot;In other words. If the power is displaying .8uW and that is for an 8mm diameter hole, then <br><br>(PI <em>r^2)3.14 </em> .4cm <em> .4cm = .5 cm^2 (surface area of hole)&quot;<br><br></em>This is OK.<em><br><br>&quot;then<br><br>.8uW is for a .5cm^2 area<br><br>so<br><br>I need 4 of those for a cm^2&quot; </em>Why 4? You have a half a square centimeter detector, so you need to multiply by 2, not 4.<em><br><br>&quot;thus<br><br>3.8uW for a cm^2 per second for joules or 3.8uJ/cm^2&quot; </em>where did 3.8 come from? Even with the erroneous 4 above, multiply 4 times .8 = 3.2 only.<em><br><br>&quot;and<br><br>the plate needs 80uJ/cm^2<br><br>so<br><br>80/3.8 = 21 seconds.&quot; </em>You are definitely doing the math correctly here, however that 3.8 number should really be 1.6 (.8 X 2) which would then be 50 seconds.So you are on the right track! It would be nice if that device were a full cm detector, but it kind of looks like it was designed more for undiverged beams.<em><br><br>&quot;That is, can I just take meter reading in uW and mulitply it times 4 and then divide that into needed energy for plate and i get my time in seconds?&quot;<br><br></em>Change that 4 to 2 and you are absolutely on the right track! I used to have to do that with a Coherent 212 I used to use at LFC.*</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Thu Oct 13, 2011 9:47 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hahahaahhahah! This is why I like power meters with 1 cm by 1 cm detectors! You have mW/cm squared directly with no horrible yucky math like the area of a circle. Of course you must then use the sensitivity of the media to calculate exposure time; make sure the units cancel and you have seconds in the numerator... I have two nive Anantest meters with backlights for sale; see the for sale page; they of course have 1 cm sware detectors...best, Phil</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Thu Oct 13, 2011 11:29 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">No Ed, I wanted someone to check my math but if you dont mind please explain my wrongful thinking.<br><br>.5cm^2 = .5 x .5 = .25<br><br>1cm^2 = 1 x 1 = 1<br><br>Isn&#x27;t .5cm^2 ...1/4 of 1cm^2?<br><br>Or</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Oct 13, 2011 4:11 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It was good to have attached the image so I could see where your confusion is coming from.<br><br>Certainly you can see that if you have a square 1 linear centimeter on a side, then it’s area is 1 square centimeter. But a square that is a half a centimeter, .5 cm, on a side, does give a surface area of .5 cm X .5 cm = .25 cm^2. Notice the linear dimensions are in plain cm’s, and the area is in cm^2. And it is obvious from your drawing that there are 4 quarter centimeter boxes in the whole square centimeter. <br><br>But the sensor is not a square but a circle, but before we get to that part, let’s look at how long each side would be for a square whose surface area is .5 cm^2. In other words, since side times side equals area, what number times itself yields .5?<br><br>Off the top of your head, you can see that since .7 X .7 = .49 the sides of a square that has a surface area of one-half square centimeter is around that number. The actual number is a little bit more that .7 to make up the difference to get from .49 to .5.<br><br>The real dimension of a side of a square that is precisely .5 cm^2 in area is the square root of two over two. Kind of hard to post this in symbols, but write down radical two over plain 2 and you have the number as precise as it can be.<br><br>But how can it be? Write down another radical two over two next to the first one with a times sign between them. Then do the math; in the numerator you have the square root of two times the square root of two, which equals 2. (That’s the definition of the square root of two: the number that times itself equals two.)<br><br>In the denominator we have 2 X 2 with no radical, which = 4. So the fraction at this point is 2/4, reducing to ½ which = .5. If you do this on your calculator, you will see that if you take the square root of two, then divide by 2, you will get .7 and some change. If you take that number and multiply it by itself, you will get exactly .5.<br><br>If you add another square to your drawing, with its sides being .7 etc. as close as you can, you will see a square larger than the .25 cm^2. The rest of the stuff, the L-shaped leftover which can be converted into two rectangles, does have the surface area of the other half of a full square centimeter or .5 cm^2. (This exercise is left to the reader.)<br><br>Another tact to take to illustrate this conundrum is to convert the square centimeter to square millimeters. Since there are 10 mm in 1 cm, the one centimeter square has 10 X 10 or 100 mm^2. So .5 cm = 5 mm, so that a square 5 mm on a side contains 25 square millimeters, which is 25/100 or ¼ of a square cm.<br><br>Converting the square centimeter to a circle which has the same area is bit more daunting. Here goes: 1 cm^2 = pi times radius squared. Divide 1 by pi. This equals the radius squared. Take the square root of this number, and this is the radius of a circle whose area is a square centimeter, which turns out to be .56…, or 5.6 mm. Your 8 mm detector has a radius of 4, smaller than the 5.6 mentioned above. How much smaller? Dividing 4 into 5.6 yields 1.4, which coincidentally turns out to be the beginning digits of the square root of two.<br><br>So does this begin to make everything as clear as mud? Your 8 mm diameter does have a surface area of about a half a square centimeter. An approximately 11.2 millimeter diameter detector does have a surface area of one full centimeter squared. So your fudge factor is indeed 2 to bring your detector up to the per square centimeter standard of the industry.<br><br>The square root of two rears its head in the photographic f/stop series. Each numbered stop differs from one on either side of it by a factor of the square root of two, but usually rounded off to just one decimal place. This is because the f/stops relate the size of the exit pupil of the lens to its focal length, but each major click stop opening is either twice or half the area, to let in twice or half the amount of light, so the radii of the circles of the pupils change not by 2, which would make the area either four times as big or ¼ as small but by the square root of 2, since that number will end up being multiplied by itself. Viz. 1 X 1.4 = 1.4, 1.4 X 1.4 =2, 2 X 1.4 = 2.8, 2.8 X 1.4 = 4, 4 X 1.4 = 5.6, 5.6 X 1.4 = 8, and so on. Something I teach every semester, so I was familiar with this area problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Johnfp</span>
+                <span class="post-date">Thu Oct 13, 2011 6:11 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Dude, I&#x27;m going to make the MIT thingy just to shake your hand. You totally explain things...so not only I appreciate the correction but actually get it. <br><br>Ok, when do I get a bill?<br><br>Thank you!!!<br><br>Peace!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sat Oct 15, 2011 3:55 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Coherent lists the (circular) aperture size as 8 mm. The rest is just arithmetic, which is beyond me at the moment...<br><br>[http://www.coherent.com/products/?250/LaserCheck](http://www.coherent.com/products/?250/LaserCheck)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Oct 17, 2011 12:18 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I need to do things like that to justify my existence on the planet. And hopefully I will make it to the MIT thingy!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Mon Oct 17, 2011 8:49 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Right Ed. I still like the 1 cm by 1 cm squares...duh...1 times 1 equals 1... No brain strain at all...</div>
+        </div>
+
+    <div class="thread-nav"><a href="357.html" class="prev-thread">← 633 safelight</a><a href="Techniques.html">↑ Techniques</a><a href="349.html" class="next-thread">Any ideas for wide area object lighting? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6034.html" class="card">
+                <h3>Power Meter design?</h3>
+                <div class="card-meta">General Holography (old) · 16 posts</div>
+            </a>
+            <a href="5425.html" class="card">
+                <h3>Meter Head Correction for Measuring Actual Power Density</h3>
+                <div class="card-meta">General Holography (old) · 41 posts</div>
+            </a>
+            <a href="11417.html" class="card">
+                <h3>Newport light meter 1916-C</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="717.html" class="card">
+                <h3>Intro and spatial filter power question</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="44.html" class="card">
+                <h3>Output Power of C315m</h3>
+                <div class="card-meta">Techniques · 8 posts</div>
+            </a>
+            <a href="8335.html" class="card">
+                <h3>High power laser diodes with C mount package</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

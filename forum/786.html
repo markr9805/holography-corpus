@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions about two color holography — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="811.html" class="prev-thread">← DIY Breadboard, is it worth the trouble?</a><a href="Equipment.html">↑ Equipment</a><a href="777.html" class="next-thread">Second hand Coherent 315M/100 →</a></div>
+    <h1>Questions about two color holography</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>45</td></tr>
+        <tr><td>Views</td><td>66,818</td></tr>
+        <tr><td>Started</td><td>Fri Dec 20, 2013 12:28 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holomark.html">Holomark</a> · <a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/142laser.html">142laser</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/martin.html">Martin</a> · <a href="../authors/dannybee.html">dannybee</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=786" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Fri Dec 20, 2013 12:28 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I have a new laser arriving - a Melles Griot LHP 927 from Phil and Sam. This will be going in my lab with my C315. So now I have a myriad of questions about using the two lasers together to make two color holograms. Not really sure in what ways using two different wavelengths is different from using a single laser. For example for exposure do I add the exposure from each diverged beam or does each wavelength need the &quot;appropriate&quot; exposure. For Example if plate specification is 400 Uw and I have 100uW at 532 and 70 uW at 632 (at the plate) do I count this as a total of 170 for a 2.35 sec exposure or do I want 400uW at each wavelength so I would then need 4 sec of 532 and 5.7 sec at 632. Or is the sensitivity different at different wavelengths requiring additional computations? And does it matter if exposure with the two wavelengths is simultaneous or in series?<br><br>Any other tips for someone about to add a second laser to the lab?<br><br>Thanks in advance<br><br>Holomark</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Dec 20, 2013 1:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">With panchromatic silver halide, I would expect the manufacturer to list the exposure requirements for at least 3 common wavelengths. Are there any panchromatic emulsions out there? I suppose PFG-03C is still available. Use those figures as a starting point for your exposures.<br><br>The most difficult hurdle I experienced with two-color holograms was getting both beams through a spatial filter, for a fairly uniform yellow spread beam (532 and 633 combined). Your red light will be most precious, so only waste 532 light. The method I used for beam combination was a dichroic mirror (reflects red and transmits green). The beams intersect at 90 degrees, the green light goes straight through from behind, the red strikes the front surface of the mirror (where the green beam is going through). The dichroic is at 45 degrees to either beam. Thus, the output is two co-linear beams. (I posted some pictures of my layout in the General section, the green beam goes straight through to a hole in the wall to the other room, while the red beam is reflected by the dichroic at 45 degrees to become co-linear and go through the same hole in the wall.) Two tricks to help the alignment are 1) make sure the intersecting beams strike exactly the same point on the dichroic mirror, and 2) make sure the beams are still co-linear at a long distance away, in my case the wall of the lab is about 15 feet away from the dichroic.<br><br>The difficult part is getting the green beam to approximate the red beam in terms of diameter and divergence. The beams should not have identical diameter to get through the spatial filter nicely, as I recall the red beam needs to be trifle larger (hopefully I don&#x27;t have this reversed). The divergence of both beams also needs to be similar. The green divergence from a C-315M will be larger than a HeNe, so the green beam should be &quot;tamed&quot; to match the superior beam quality of the HeNe. I did this with three lenses in a zoom telescope arrangement on the 315, following the helpful advice of Ed Wesly.<br><br>Then, the combined beam needs to go through a spatial filter. After this, two-color holography should be a piece of cake, assuming you have the right recording material and know how to use it. You can get yellows, browns, greens, reds, just about everything except a clean white or anything with blue.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Sun Jan 05, 2014 9:35 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Joe! Sam and I have the laser part under control but I am a novice at holography. I agree with your advice. Choose the spatial filter for the beam spread you want for the HeNe and condition the beam of the 315M to have the correct beam diameter to get good throughout and matched divergence to the HeNe; there is more green power to waste than red. The LHP 927 he has is outputting over 45 mW. I use the same method to combine beams for demonstrations when needed; having a long room helps with making them colinear .</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jan 05, 2014 10:36 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; <strong>142laser:</strong> The LHP 927 he has is outputting over 45 mW.<br><br>That&#x27;s an awesome amount of HeNe light to have available. I don&#x27;t have nearly that much power (about 33mW). My SP-127 is getting older. Even when new, I wonder if the 127 ever got up to 45. I&#x27;m not familiar with the LHP 927.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Sun Jan 05, 2014 8:36 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Yes the SP 127 can also output 45-47 mW and I think 50 mW is possible, new hot tube, clean windows and optics, perfect alignment...<br><br> The Melles Griot LHP 927 and LHP 928 are internal mirror polarized lasers with cylindrical hard sealed tubes. The 927 is a heavy wall cylindrical case, the 928 is a thinner wall cylinder in a rectangular case. All of these lasers are hard sealed and last a long time.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Jan 06, 2014 8:53 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thank you, Phil. The day may come when my 127 needs replacement.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Tue Jan 07, 2014 8:18 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Finally got a chance to turn on the new laser (Thank you Phil!). Saw 41.57mw readout on my handheld Lasercheck power meter. I will check again tonight as I may have input the wrong wavelength when I was playing last night. Interestingly, after I measured my 315M, then measured the HeNe without changing the wavelength I got a reading of 81+mw. Is there a reason the HeNe would measure so high at the &quot;wrong&quot; wavelength (523)? BTW the 315M was putting out 111mw.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jan 08, 2014 9:43 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">That&#x27;s just normal behavior for the LaserCheck, don&#x27;t worry about it. HeNe&#x27;s need a long time to warm up to reach maximum power, if the alignment is correct. With a SP-127, it probably takes around 2 hours, maybe longer. From what Phil said, I assume your mirrors are sealed to the tube (is that the same thing as &quot;internal&quot; mirrors?). I assume such lasers would be much less likely to go out of alignment during shipping. External mirror HeNe&#x27;s such as the 127 are rather notorious for going out of alignment.<br><br>There have been times when I&#x27;ve wondered about the accuracy of my LaserCheck.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Jan 08, 2014 2:51 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> ... just about everything except a clean white or anything with blue.<br><br>Like this?<br><br>Full colour H1 (laser transmission). You can just barely see two &#x27;false&#x27; images of green and blue due to cross talk. This was shot on Colourholographics pan emulsion, now sadly no longer available<br><br>![color teapot.jpg](https://holographyforum.org/forum/download/file.php?id=2451)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jan 08, 2014 3:03 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Looks very nice Dinesh, especially the white. I didn&#x27;t even know that full color transmissions were possible or practical, due to the crosstalk problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Jan 08, 2014 6:41 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thanks, Joe. Actually, the cross talk problem was a bit difficult, and I&#x27;m not sure we&#x27;ve completely solved it. We&#x27;ve found that if you bring in the three beams with a separation of at least 25 degrees all in one plane, then the cross talk images are far enough apart that a 4x5 H2 does not show the cross talk. I&#x27;ve heard techniques where the three beams are non-planar, even to the extent that the three beams are at right angles to each other. There&#x27;s a drawing of a transmission full colour geometry by Rudy Berkhout with three beams all at right angles. I thought that this was going to be very difficult to set up, so I asked him about it. He told me that he&#x27;d never actually set up such a system, the geometry he drew was hypothetical. Hiroshi visited us a couple of years ago and saw our transmission colour H1&#x27;s. He mentioned that there were researchers in Japan trying to do it with three beams all at right angles, so he said he was gratified to learn that you didn&#x27;t have to do it - 25 degree planar separation was enough. Of course, it is possible to limit cross talk with a thicker emulsion, which dcg would allow you to coat. But, I&#x27;ve been trying for several years now to find a native red sensitive additive to make dcg red sensitive. I thought I had it when I tried adding Potassium Permanganate to the dichromate, but all that did was to shift the sensitivity to about 590 or so - a sort of orange. A bit whimsical perhaps, but it occurred to me that blood turns from blue to red when exposed to air, so was it possible to use the haem molecule? But, I still haven&#x27;t bled for holography!<br><br>The problem really arises when you try to do an image planed colour reflection H2 from a colour H1. Your point as to beam divergences is the problem, unless the beam divergences of the H2 ref are exactly the same, the three images get displaced in the z direction and magnified by different amounts.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Thu Jan 09, 2014 10:40 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> But, I&#x27;ve been trying for several years now to find a native red sensitive additive to make dcg red sensitive. I thought I had it when I tried adding Potassium Permanganate to the dichromate, but all that did was to shift the sensitivity to about 590 or so - a sort of orange.<br><br>I&#x27;ve been there too.<br><br>In connection to green sensitive DCG solutions, I even tried mixtures of dichromate/thiocyanate, which turn deeply red. I had to learn that light absorption doesn&#x27;t necessarily translate into light sensitivity.<br><br>Incidentally, the addition of a tiny amount of ammonium thiocyanate to &quot;regular&quot; DCG seems to have a slight speed enhancing effect. <br><br>&gt; A bit whimsical perhaps, but it occurred to me that blood turns from blue to red when exposed to air, so was it possible to use the haem molecule? But, I still haven&#x27;t bled for holography!<br><br>That might be something to try in a FEG system...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Jan 09, 2014 1:37 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Martin:</strong> I had to learn that light absorption doesn&#x27;t necessarily translate into light sensitivity.<br><br>I think that what you need is something with a high and low oxidation states such that an actinic reaction converts the higher state to the lower state. Then, the lower state must be able to charge couple with the local matrix. Just absorption may not lead to an actinic/conversion molecular reaction, but simply a re-arrangement of the outer shells a la the transition elements, creating anomalous dispersion.<br><br>The interesting thing about blood is that it clots. If this clotting can be enhanced optically, then it may be possible to use that same mechanism to create layers of different indices. This research ( [http://www.bioopticsworld.com/articles/ ... r-off.html](http://www.bioopticsworld.com/articles/2013/07/ir-light-activated-gold-nanoparticles-turn-blood-clotting-on-or-off.html) ) by MIT looks hopeful.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Jan 15, 2014 3:12 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Martin wrote:I had to learn that light absorption doesn&#x27;t necessarily translate into light sensitivity.Just absorption may not lead to an actinic/conversion molecular reaction, but simply a re-arrangement of the outer shells a la the transition elements, creating anomalous dispersion.<br><br>I was just thinking of this while shaving this morning. If absorption alone by the chosen compound (the thiocyanate) simply re-arranges the orbitals, is it possible to dope the substance with something that has intermediate energy levels. Thus, the chosen compound absorbs light causing a re-arrangement of the orbitals, then the dopant may absorb some of the electrons as they&#x27;re re-arranging themselves which in turn may cause an actinic reaction in the dopant. The dopant would act as a sort of catalyst. The idea of the He in a HeNe laser acting as a sort of dopant to cause a meta-stable state brought this to mind.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Thu Jan 16, 2014 4:10 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> If absorption alone by the chosen compound (the thiocyanate) simply re-arranges the orbitals, is it possible to dope the substance with something that has intermediate energy levels.<br><br>Yes, that would be the kind of mechanism I&#x27;d also hoped to find one day.<br><br>&gt; Thus, the chosen compound absorbs light causing a re-arrangement of the orbitals, then the dopant may absorb some of the electrons as they&#x27;re re-arranging themselves which in turn may cause an actinic reaction in the dopant. The dopant would act as a sort of catalyst. The idea of the He in a HeNe laser acting as a sort of dopant to cause a meta-stable state brought this to mind.<br><br>Right, there are areas where that seems to work. E.g. doped silica nanoparticles come to my mind. I&#x27;m not sure if something like that is doable based on dichromates or ferric components.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Thu Jan 16, 2014 11:22 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">ther are 2 ways I have tried that can solve some of the cross talk and color saturation and beam mixing<br><br>1 first one I tried is a fiber lens this seams to solve the beam mixing because they don&#x27;t have to be totally alined and then mask out after the fiber lens.<br><br>2 Is a lcd matrices in front of the plate, you can get this from a old lcd monitor as solves (cross talk and color saturation)<br><br>making film panchromatic sensitive is very easy to do by adding dye, now depending on grain size is weather you will have to ad orange or yellow dye post process to reduce the scattering of the blue light or this can be done by using the right bleach that will stain the final hologram to reduce blue scatter</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Jan 16, 2014 5:05 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">&gt; <strong>dannybee:</strong> ther are 2 ways I have tried that can solve some of the cross talk and color saturation and beam mixing1 first one I tried is a fiber lens this seams to solve the beam mixing because they don&#x27;t have to be totally alined and then mask out after the fiber lens.2 Is a lcd matrices in front of the plate, you can get this from a old lcd monitor as solves (cross talk and color saturation)making film panchromatic sensitive is very easy to do by adding dye, now depending on grain size is weather you will have to ad orange or yellow dye post process to reduce the scattering of the blue light or this can be done by using the right bleach that will stain the final hologram to reduce blue scatter<br><br>Is this for an H1 or an H2? For an H1 in colour, fibers would not have any advantage, since the beam sources have to be well separated angularly anyway. For an H2, fibers may solve the beam combining problem, since you don&#x27;t need dichroic mirrors, but there are other practical problems. If the fibers are large (~10 micron), then they are not polarisation maintaining. Even though the two states have the same phase velocity, small birefringence in the material causes the polarisation to mix at points where the fibers bend. So, in the end, the polarisation state that comes out of the fiber isn&#x27;t the one that went in, and the variation of polarisation is pretty random, depending on how it twists and turns. So, even of you put in all three lasers into the separate fibers at the same polarisation, they&#x27;d be different when they exit the fiber. If you use polarisation maintaining fibers, then they have small NAs. This means it&#x27;s very difficult to launch light into them and the output is dim. Also, another problem may be that, for H2&#x27;s (and assuming you use non-polarisation maintaining fibers to conserve light), the source of the three wavelengths are about a micron apart, or two lambda apart. This will cause, at best, fuzzy edges on the image, or, at worst, image separation. <br><br>The fiber technique may work if you&#x27;re making a single- (well, triple-) beam Denisyuk of a diffuse object, since then each polarisation state can be different polarisation state and the object will depolarise anyway. But, as per the comment about source separation, you&#x27;d have to reconstruct the hologram with three different sources placed very close together - about the diameter of the fiber. Of course, you can alway reconstruct using the same fibers but using leds instead of lasers. Also, of course, if the fibers were a very long way from the object/plate, then the object/plate will see a single source of rgb, but you&#x27;ll get p*ss poor light on the plate!<br><br>So, Danny, have you got an example of a hologram using this fiber technique?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 16, 2014 5:43 pm</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> So, Danny, have you got an example of a hologram using this fiber technique?<br><br>I was wondering also.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Thu Jan 16, 2014 5:54 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> dannybee wrote:ther are 2 ways I have tried that can solve some of the cross talk and color saturation and beam mixing1 first one I tried is a fiber lens this seams to solve the beam mixing because they don&#x27;t have to be totally alined and then mask out after the fiber lens.2 Is a lcd matrices in front of the plate, you can get this from a old lcd monitor as solves (cross talk and color saturation)making film panchromatic sensitive is very easy to do by adding dye, now depending on grain size is weather you will have to ad orange or yellow dye post process to reduce the scattering of the blue light or this can be done by using the right bleach that will stain the final hologram to reduce blue scatterIs this for an H1 or an H2? For an H1 in colour, fibers would not have any advantage, since the beam sources have to be well separated angularly anyway. For an H2, fibers may solve the beam combining problem, since you don&#x27;t need dichroic mirrors, but there are other practical problems. If the fibers are large (~10 micron), then they are not polarisation maintaining. Even though the two states have the same phase velocity, small birefringence in the material causes the polarisation to mix at points where the fibers bend. So, in the end, the polarisation state that comes out of the fiber isn&#x27;t the one that went in, and the variation of polarisation is pretty random, depending on how it twists and turns. So, even of you put in all three lasers into the separate fibers at the same polarisation, they&#x27;d be different when they exit the fiber. If you use polarisation maintaining fibers, then they have small NAs. This means it&#x27;s very difficult to launch light into them and the output is dim. Also, another problem may be that, for H2&#x27;s (and assuming you use non-polarisation maintaining fibers to conserve light), the source of the three wavelengths are about a micron apart, or two lambda apart. This will cause, at best, fuzzy edges on the image, or, at worst, image separation.The fiber technique may work if you&#x27;re making a single- (well, triple-) beam Denisyuk of a diffuse object, since then each polarisation state can be different polarisation state and the object will depolarise anyway. But, as per the comment about source separation, you&#x27;d have to reconstruct the hologram with three different sources placed very close together - about the diameter of the fiber. Of course, you can alway reconstruct using the same fibers but using leds instead of lasers. Also, of course, if the fibers were a very long way from the object/plate, then the object/plate will see a single source of rgb, but you&#x27;ll get p*ss poor light on the plate!So, Danny, have you got an example of a hologram using this fiber technique?<br><br>yes have to find image .... and yes this will only work with Denisyuk</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Thu Jan 16, 2014 8:18 pm</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">[https://www.facebook.com/photo.php?fbid ... =3&amp;theater](https://www.facebook.com/photo.php?fbid=1670729171683&amp;set=a.1573451059791.188272.1340984950&amp;type=3&amp;theater) picture of beams going into fiber lens<br><br>[https://www.facebook.com/photo.php?fbid ... =3&amp;theater](https://www.facebook.com/photo.php?fbid=1685819348928&amp;set=a.1573451059791.188272.1340984950&amp;type=3&amp;theater) Holo made with fiber lens</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 17, 2014 11:38 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">I get the message &quot;This content is unavailable&quot; from Facebook, even after I log on, when I follow these links.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Jan 17, 2014 1:11 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Joy logged onto FaceBook and managed to get them. I have copies which I can send to anyone interested. Since this is Danny&#x27;s way of showing the pics, I&#x27;d rather that he make the decision of whether or not to actually post them here on the forum. Danny, I assume you&#x27;re OK about me sending them via email to anyone who requests them?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Jan 17, 2014 2:00 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">here</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Jan 17, 2014 2:07 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">you can see from the photo of fiber lens it take tweaking the aperture size verse spectral size... in realty you cant see it that much because your eye and mind blends it..<br><br>also you can see that the beam do not have to be perfectly alined also the fiber lens is flat on one side that needs to be facing the lasers</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Jan 17, 2014 2:12 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">this photo show where the tweaking needed to reduce as much spectral dots as possible... this makes a very nice simple single beam refection</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Jan 17, 2014 2:37 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Thank you Danny. The colors look excellent, congratulations. It&#x27;s always a pleasure to see someone &quot;go forward&quot; in holography.<br><br>Earlier, you mentioned crosstalk, but I thought crosstalk was only a problem with color transmission holograms. Aren&#x27;t these Denisyuk? The fibers seem to work, but the &quot;spectral dots&quot; are troublesome. Is there a reason why you aren&#x27;t using 2 dichroic mirrors to combine the 3 beams? It would solve the problem.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Fri Jan 17, 2014 11:54 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">with the 3 lasers having different beam sizes one is a melles 457nm and a green dpss 532 and a diode 635 ,, it was a pain to get them all to lineup so found the fiber was much easier . and the right placement you don&#x27;t see the the dots.. your eye mixes them like a monitor does.. this is the only setup that I was able to get fuji film to work</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Jan 18, 2014 9:13 am</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">Thanks Danny, I understand now. The Melles laser would indeed be difficult for standard setup, with an elliptical, divergent beam. Just getting the green DPSS to approximate the HeNe was troublesome enough.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Jan 18, 2014 12:36 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">Danny, you&#x27;ve shown this picture a few times over the last year or two. Did you try this technique only once and then stop before you got bright results?<br><br>Why didn&#x27;t you continue until it was tweaked out and looked good?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat Jan 18, 2014 6:54 pm</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">because we are learning Jeff we all havent reach god hood like you Jeff... if you dont like it don&#x27;t reply.. yes it been about a year or so from my bout with Vertigo.. got a better developer now .... wheres your full color holo Jeff? are you policing the board now? its a very nice simple setup for color Denisyuk.. many thought here that this would never work but it did</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Jan 18, 2014 7:24 pm</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">It was a simple question, Danny. I want to know if it can be taken further.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat Jan 18, 2014 7:30 pm</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> It was a simple question, Danny.<br><br>and do you really care I don&#x27;t think so ....sorry Joe and dinesh it just make me so angry at is arrogance</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Sat Jan 18, 2014 7:31 pm</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> It was a simple question, Danny. I want to know if it can be taken further.<br><br>yes I think so ....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Sun Jan 19, 2014 4:56 pm</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Thanks Danny, I understand now. The Melles laser would indeed be difficult for standard setup, with an elliptical, divergent beam. Just getting the green DPSS to approximate the HeNe was troublesome enough<br><br>I am now headed down the road of trying to get my green DPSS (315M) to match my (new) HeNe. After playing with this for only a very short time it appears that it is not too difficult to setup for single beam Denisyuk (I may even try to get some images this weekend!) (I do, however, wonder how they will turn out when the divergence rate of the two combined beams are not the same - will I get clear images with either one color or both)<br><br>However, longer beam path lengths involved with Transmission Holograms and split beam setups appear to be problematic because of the different beam diameters and divergence rates. For this I presume I need some optics befor the dicroic filter (to combine beams) to change the beam from the DPSS to match the HeNe. (I presume I want to expand beam to equal or exceed diameter of HeNe Beam then collimate (or match divergence of HeNe)) Any tips, tricks, or suggestions on how to accomplish this would be much appreciated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Jan 19, 2014 5:41 pm</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">For your first color holograms, I would concentrate on simple, single-beam reflection (Denisyuk) holograms. You will have your hands full for a long time, as you struggle with the recording material. Also, I would focus on what is happening before and after the spatial filter. Make sure, by some means of your choice, that the entrance beams going into the objective are the correct size. Now check the output of the spatial filter. Be sure the center of the spread beam is adequately uniform to cover the area being recorded on the plate. It should be a clean mixture of green and red, in other words YELLOW. In my case, I have a little overspill of red in the spread beam. I don&#x27;t know if this is due to mismatch of divergence, or is due to something else. I don&#x27;t let this worry me, as long as the central portion is a clean yellow. I doubt that slight variations in divergence will have any effect on the hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Thu Jan 23, 2014 12:24 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">A spatial filter is on my list of optics and other things needed. I can see that I need to find a way to tame (match with HeNe) my green diameter and divergence. I managed to get the beams relatively mixed. So I finally got to test my new toy last night/this morning. I started with a relatively simple object - a can of Coke. Didn&#x27;t finish playing with beam shaping. I ended up with a very extreme angle on my reference and ended up with this:<br><br>![first coke](https://holographyforum.org/forum/download/file.php?id=2456)<br><br>![first coke - left](https://holographyforum.org/forum/download/file.php?id=2455)<br><br>The color looks fairly good, but the depth is fairly limited. Lots of work to do, but too little time in the lab. With a little luck I will have some more interesting holos.<br><br>Mark<br><br>;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 23, 2014 7:57 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">Congratulations, you&#x27;ve made excellent progress! The red and white both look &quot;real.&quot; I&#x27;m amazed that the colors came out so well, so soon. I had to do a lot more struggling before I got a decent result. I&#x27;m sure everybody is asking the question: What recording material are you using?<br><br>It&#x27;s surprising that the white looks so white. I&#x27;ve noticed this also on some of the two-colors I&#x27;ve done. I would have thought it would look more &quot;yellow&quot; because the original spread beam looks yellow on a white subject. Maybe it has something to do with color desaturation in the reconstruction, but I don&#x27;t know. The Coke can definitely looks red and white.<br><br>As much as I like Coke, it is far from being the best subject for tests. If you can&#x27;t find a colorful, small, and stable subject, then I would suggest painting one yourself. I would put in as many colors as possible: browns, yellows, whites, reds, orange, greens, etc. I would leave out the blues, since that would probably just confuse matters.<br><br>Hope to see more!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Jan 23, 2014 10:15 am</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> It&#x27;s surprising that the white looks so white. I&#x27;ve noticed this also on some of the two-colors I&#x27;ve done. I would have thought it would look more &quot;yellow&quot; because the original spread beam looks yellow on a white subject. Maybe it has something to do with color desaturation in the reconstruction, but I don&#x27;t know. The Coke can definitely looks red and white.<br><br>It&#x27;s not so much colour de-saturation as it&#x27;s colour expectations. You expect to see white because you know what a coke can looks like. It&#x27;s also to do with the gamut of his reconstruction beam.If he&#x27;s reconstructing with a halogen lamp, due to the higher operating temperature, the colour temperature is shifted towards the blue with respect to a non-halogen lamp. This blue preponderance will give the appearance of white on reconstruction. This, helped by your expectation of white and the dark background, enhances the &quot;whiteness&quot;. You can tell the difference (sometimes) by illuminating a white object on the hologram, for example, by showing a business card against the hologram.<br><br>That&#x27;s not to say this isn&#x27;t a pretty good first attempt at colour!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 23, 2014 10:42 am</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> It&#x27;s not so much colour de-saturation as it&#x27;s colour expectations. You expect to see white because you know what a coke can looks like. It&#x27;s also to do with the gamut of his reconstruction beam.If he&#x27;s reconstructing with a halogen lamp, due to the higher operating temperature, the colour temperature is shifted towards the blue with respect to a non-halogen lamp. This blue preponderance will give the appearance of white on reconstruction. This, helped by your expectation of white and the dark background, enhances the &quot;whiteness&quot;. You can tell the difference (sometimes) by illuminating a white object on the hologram, for example, by showing a business card against the hologram.<br><br>Thanks Dinesh, that helps. I thought color expectations were probably involved, but hadn&#x27;t considered the influence of the blue component in the reconstruction source. One thing seems certain: making color holograms is a lot easier than explaining or troubleshooting them!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dannybee</span>
+                <span class="post-date">Thu Jan 23, 2014 11:32 am</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">can you share technical info like, what film type, what lasers, how you mix colors, your processing....its very nice work</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Jan 23, 2014 2:31 pm</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> One thing seems certain: making color holograms is a lot easier than explaining or troubleshooting them!<br><br>Well, it&#x27;s really the availability of multi-wavelength lasers. When I started, all I could get in England about 1982 was a Rofin HeNe about 0.7mW. Heck, I remember Goldfinger say, &quot;This is a laser Mr. Bond. It can project a spot on the moon. At closer distances, it can cut through solid metal&quot; (&quot;Do you expect me to talk?&quot; &quot;No, Mr Bond. I expect you to die!&quot; Be-e-eautiful! I still rank &#x27;Goldfinger&#x27; up there with &#x27;Citizen Kane&#x27;, &#x27;The Third Man&#x27; and &#x27;The Godfather&#x27;. But I digress) Anyway, when I got to college, around 1972, and we were covering Laser Theory, the professor brought out a tiny little thing that could barely show up as a dim red dot on a wall about 6 feet away. I thought to myself, &quot;That can project a spot on the moon???&quot; Today, lasers in the 450 - 690 range are easily available and I have a uv led for about 20 bucks! So, while colour holography should be and is far more than simply zapping something with three wavelengths, you can get quite a decent result if you do simply that - throw three wavelengths at something. I think that colour holography has a greater mystique attached to it than it&#x27;s due.<br><br>Mark, I&#x27;d like to know what material you&#x27;re using also.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Thu Jan 23, 2014 2:58 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">The current setup uses 2 lasers - 315M putting out 100mW at 532 and HeNe putting out 45+mW at 623. To combine beams I am using a dicroic filter with green straight through and red reflecting. The combined beam passes through a shutter, then two lenses to expand beam and 1 mirror to change beam direction toward plate and object. 1 kicker mirror was used on the left side of object.<br><br>The recording material is Ultimate 08 and Ultimate Developer and Bleach were used.<br><br>The reconstruction was achieved with the use of a LED in the form of a Redline flashlight. The hologram was not painted or otherwise worked on after development and just thrown into a frame for handling. the flashlight was placed with the business end on the frame aimed parallel to the face of the plate. (I missed the angle I was trying to get and ended up with the reference beam almost directly above the plate.<br><br>I will not going to be satisfied with single beam holograms for very long, but I can already see some of the issues related to more complex setups. I got a bit lucky with my first attempts to combine the beams, but was not so lucky last night when I tried to change the angle of the object beam to plate. I ended up with uneven distribution, spotting, and shadow from optics. I think I need to buy some Hummous on the way home because there are a lot of PITA (pain in...) tasks involved in color holography.<br><br>First, I think I need to figure out how to tame the 315M beam, then I can work on combining beams, then spreading beams, and even illuminationof subject/plate, then split beam configurations. At the same time I am trying to change the beam spread at the plate to work with LEDs at close range (wih or without a lense). In my mind this is best don with split beam configuration as the wide dispersion of a single beam lacks depth because the lighting of objects decreases with distance.<br><br>Thank you for both the compliments and information. I am certainly open to other tips, tricks, suggestions or donation of optics or equipment (I probably wouldn&#x27;t turn down a donation of cash either).<br><br>Back to my day job.<br><br>Mark</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 23, 2014 3:37 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> So, while colour holography should be and is far more than simply zapping something with three wavelengths, you can get quite a decent result if you do simply that - throw three wavelengths at something. I think that colour holography has a greater mystique attached to it than it&#x27;s due.<br><br>I agree. There seems to be a lot of resistance to even green and red, which is not that expensive. The rudiments can be learned with just those two lasers, and blue can be added later.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Jan 23, 2014 4:03 pm</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">&gt; <strong>holomark:</strong> First, I think I need to figure out how to tame the 315M beam<br><br>Mark, get your whip and chair ready, here&#x27;s how to do it:<br><br>Use three lenses in a zoom telescope arrangement. See the thread called &quot;co-linear beams, matching diameter and divergence.&quot; This was from the old forum in January of 2007. For reference, I used the book called &quot;A History of the Photographic Lens&quot; which describes zoom lenses in detail.<br><br>I assume my C-315M (100mW) has similar beam diameter and divergence, compared to yours.<br><br>My SP-127 beam diameter is 2.5mm at 8 feet, and 3mm at 12.5 feet. My beamsplitter on the isolation table in the other room is about 5 feet (estimated, not measured) from the dichroic mirror which combines the beams on the laser table. The 315M exit window is about 2 feet (again estimated) from the dichroic, and the 127 exit window is about 6 inches from the dichroic.<br><br>In the photo below, the 315 is on the left, the beam attenuator is next, then Lens 1, Lens 2, Lens 3, and finally a half wave plate. The focal lengths are as follows: Lens 1, 27mm; Lens 2, -57mm, Lens 3, 53mm. You will notice that Lenses 2 and 3 are rather close together, and I had to make an extension to the clumsy Thorlabs mount for Lens 3 to get it close enough to Lens 2. The focal lengths of the lenses and the distances were determined by a lot of trial and error. I bought a large selection of different lenses from Surplus Shed. All of the optical components are mounted on a Thorlabs rail, rail carriers, post holders, and posts. The lens mounts are homemade. The rail and mounts make things a lot easier.<br><br>Your mileage may vary, based on differences in equipment, optics, and distances in your lab. I strongly suggest trial and error, rather than attempting to think it out.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Fri Jan 24, 2014 1:37 pm</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">The color on this one came out a little richer than than expected (object has almost pastel paint). The blotchiness is a litte more evident and green is a little too heavy.<br><br>![Cher](https://holographyforum.org/forum/download/file.php?id=2459)<br><br>I really like hr rosy cheeks. The skin tone is painted peachy, and not exactly uniform.<br><br>I now think I need a second shutter to assist in controlling exposure at each wavelength. I suppose I could thow a variable beam splitter on green to control intensity (reduce) of green beam to get the correct mix, but I just hate throwing that light away.<br><br>Now, I am on my way to take the employees to blow some glass! - fun &quot;holiday event&quot;.</div>
+        </div>
+
+    <div class="thread-nav"><a href="811.html" class="prev-thread">← DIY Breadboard, is it worth the trouble?</a><a href="Equipment.html">↑ Equipment</a><a href="777.html" class="next-thread">Second hand Coherent 315M/100 →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5704.html" class="card">
+                <h3>Color Holography Questions</h3>
+                <div class="card-meta">General Holography (old) · 33 posts</div>
+            </a>
+            <a href="10927.html" class="card">
+                <h3>Questions about Osram PB530 laser</h3>
+                <div class="card-meta">Techniques · 16 posts</div>
+            </a>
+            <a href="9662.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="9661.html" class="card">
+                <h3>questions about pepper ghost effects</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="8482.html" class="card">
+                <h3>question about color changes</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="1074.html" class="card">
+                <h3>color holography at home</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

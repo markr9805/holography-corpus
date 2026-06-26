@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>150 mW, 642 nm diode for holography? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7547.html" class="prev-thread">← Lab controllers</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7540.html" class="next-thread">Oxxius blue DPSS lasers? →</a></div>
+    <h1>150 mW, 642 nm diode for holography?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>1,334</td></tr>
+        <tr><td>Started</td><td>Fri Oct 03, 2008 10:49 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/dj-mathson.html">DJ Mathson</a> · <a href="../authors/sergio.html">Sergio</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7545" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Fri Oct 03, 2008 10:49 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Do you think this 150 mW, 642 nm diode is suitable for holography if it is TE controlled and have a good current source, or do you see something in the specification that goes against this? It has single longitudinal mode.<br><br>Opnext HL6385DG - 642nm 150mw 5.6mm diode<br><br>[http://www.photonic-products.com/news/o ... diode.html](http://www.photonic-products.com/news/opnext-hl6385dg-laser-diode.html)<br><br>Specification<br><br>[http://www.photonic-products.com/produc ... 6385dg.pdf](http://www.photonic-products.com/products/laserdiodes_visible/opnext/hl6385dg.pdf)<br><br>They are having a group buy right now at Photonlexicon, where you can buy the diode for £117.50.<br><br>[http://www.photonlexicon.com/forums/sho ... php?t=5455](http://www.photonlexicon.com/forums/showthread.php?t=5455)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sat Oct 04, 2008 1:02 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Most diodes are single axial mode due short cavity but the mode hop problem is a crucial one dependent on current, isn&#x27;t guaranteed a such free MH diode, I think a 671nm Neodimium crystal DPSS 200mW laser pointer is more useful that this laser due the small cavity and narrow laser fluorescence compared to green laserpointers.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Sat Oct 04, 2008 5:17 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Sergio, sorry, but I do not quite follow you. What is a free MH diode?<br><br>I know that laser diodes, and especially high power diodes, are prone to mode hop and have noise issues. However, you can find stable mode hop free regions, with the help of a sensitive TEC and a precise current, for several of the high power diodes, like the 658 nm Sony SLD1239JL diode. Hans, a_k and others have made long exposures with this kind of setup.<br><br>I want to find a diode suitable for holography that has a shorter wavelength than the 660 nm diodes, to use instead of a He-Ne laser. The high power 635 nm diodes I believe are transversal multimode, longitudinal multi mode, and possibly have a high radiation angle, so they are not an option.<br><br>I am not sure I know how to read the specification for the Opnext diode to be certain that at least there isn´t something that definitely speaks against holographic applications. Beyond that, certainly tests are needed to make sure it can work. But it is unnecessary to buy a diode to test if it already is clear from the information in the specification that the diode is unsuitable. That is why I am asking.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Sergio</span>
+                <span class="post-date">Sat Oct 04, 2008 7:56 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Mathson, by free MH I mean free mode-hopping <br><br>I know and use some single mode diodes, including the Sony SLD1239JL, but as the power increases the mode-hop regions begin to scarce and there isn&#x27;t absolute guarantee that an unpredicted WL change will occur into the holographic exposure meantime...<br><br>Perhaps a TEC control with precise current etc may be useful in multimode axial modes because it will simple &quot;ooze&quot;, then you can use an extended cavity to extract a single one with a grating.<br><br>The DPSS red laser also available at 657 nm (Crystal laser) in single mode or not is another option for stability, just my suggestions in first place instead a diode laser.</div>
+        </div>
+
+    <div class="thread-nav"><a href="7547.html" class="prev-thread">← Lab controllers</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7540.html" class="next-thread">Oxxius blue DPSS lasers? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="5552.html" class="card">
+                <h3>what&#x27;s important for a diode laser holography?</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11366.html" class="card">
+                <h3>Current diode state of the art?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11099.html" class="card">
+                <h3>Altered Light @ currents 826, Santa Fe NM</h3>
+                <div class="card-meta">Events, announcements, and news · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

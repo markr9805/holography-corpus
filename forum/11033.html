@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holographic Optical Element (HOE) of simple reflection mirror — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11053.html" class="prev-thread">← Fog hologram transmition</a><a href="Equipment.html">↑ Equipment</a><a href="11024.html" class="next-thread">Horizontal stripes - along same depth, like ISO lines... →</a></div>
+    <h1>Holographic Optical Element (HOE) of simple reflection mirror</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>14</td></tr>
+        <tr><td>Views</td><td>55,740</td></tr>
+        <tr><td>Started</td><td>Sat Nov 07, 2020 3:51 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/moonlight.html">moonlight</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/jrburns47.html">jrburns47</a> · <a href="../authors/holomaker.html">holomaker</a> · <a href="../authors/lobaz.html">lobaz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11033" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">moonlight</span>
+                <span class="post-date">Sat Nov 07, 2020 3:51 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi,<br><br>I&#x27;m trying to get a holographic setup to simulate a reflection HOE for an actual reflection mirror (not an image of a mirror) an actual flat mirror specs.<br><br>I&#x27;m using 532nm (green) laser as test &amp; Incident beam should be 60degree from normal of HOE and the reflected beam is 0degree to normal as shown in target diagram <br><br>![Target](https://holographyforum.org/forum/download/file.php?id=7619)<br><br>My questions are:<br><br>-Which of the attached setup (Setup1 <br><br>![Setup1](https://holographyforum.org/forum/download/file.php?id=7617)<br><br> or Setup2 <br><br>![Setup2](https://holographyforum.org/forum/download/file.php?id=7618)<br><br>) would be correct to get the HOE for the mirror<br><br>-If none of my setup works to simulate the mirror what would be the correct setup, if possible please show a diagram of the setup<br><br>-Is there a specific formula that relates the Incident beam with the reflected beam using HOE grating, in other words if the incident beam angle is 60degree from normal how to reflect Reflection beam at 0degree from normal using 632nm wavelength.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Nov 08, 2020 9:13 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">System #2 if you don&#x27;t have a stable table. System #1 if you do, and want best results. Both will work fine. Others may say system #2 gives best results.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Nov 09, 2020 9:59 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Setup #1. You have more control of the beam width because you can put two beam expanders at any point after the beamsplitter. In setup #2, you don&#x27;t have this flexibility, whatever beam expansion you use, you have no choice over the beam width for your object beam, this is decided by the expander in the reference beam. Setup #2 will probably result in vignetting, among other aberrations. You&#x27;ll also get noise. I&#x27;m assuming you have enough coherence for #1.<br><br>&gt; <strong>moonlightwrote:↑Sat Nov 07, 2020 3:51 pm:</strong> Is there a specific formula that relates the Incident beam with the reflected beam using HOE grating, in other words if the incident beam angle is 60degree from normal how to reflect Reflection beam at 0degree from normal using 632nm wavelength.<br><br>Not sure what your question is. Are you asking if there is a formula for the Bragg slant, and the Bragg vector? Yes, there is. At the centre, the Bragg spacing is Λ = λ/cos(60), and the direction of the K vector, K = 30 deg to plate normal, ie K = Λ(cos(30)i + sin(30)j). See diagram below. At the edges, it depends on the beam expansion. Bear in mind, this is not including variation of your reflection angle and loss of efficiency due to material expansion. To determine that, you need the Bragg dephasing parameter β.<br><br>![Bragg062.jpg](https://holographyforum.org/forum/download/file.php?id=7620)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">moonlight</span>
+                <span class="post-date">Mon Nov 09, 2020 6:32 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Hi Din,<br><br>So from my understanding Setup1 give more control on the beam width because you mentioned we can add beam expander at any point, does this means we have more control on the reference beam ratio to the object beam ratio which have to be 3:1 or 4:1 for holography ?<br><br>-Yes I was asking about the Bragg Slant &amp; Victor Bragg, thanks for sharing the formula that&#x27;s almost the same as the diffraction grating design formula, so I do understand 2 things:<br><br>1) Bragg vector angel K=30degree to normal to reflect Incident light from 60degree to 0 degree to normal<br><br>2) Bragg spacing formula Λ = λ/cos(60)<br><br>knowing that so film manufacturer facilities would be designing Bragg spacing to reflect specific wavelength ex:532nm...etc but how to get films with Bragg vector angel K=30degree to work in my application, do I need to customise that film to get the exact Bragg angel? who can customise it?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Nov 10, 2020 9:21 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>moonlightwrote:↑Mon Nov 09, 2020 6:32 pm:</strong> Hi Din,So from my understanding Setup1 give more control on the beam width because you mentioned we can add beam expander at any point, does this means we have more control on the reference beam ratio to the object beam ratio which have to be 3:1 or 4:1 for holography ?<br><br>You need two beam expanders. A beam expander takes in the laser beam and expands it to cover the medium. In your setup #1, you have two independent beams coming from the beamsplitter, so you can put a beam expander in each arm. In your setup #2, the reference and object beam are the same beam deflected by the mirror. You have no independent control of the reference and object beams. <br><br>&gt; <strong>moonlightwrote:↑Mon Nov 09, 2020 6:32 pm:</strong> -Yes I was asking about the Bragg Slant &amp; Victor Bragg, thanks for sharing the formula that&#x27;s almost the same as the diffraction grating design formula, so I do understand 2 things:1) Bragg vector angel K=30degree to normal to reflect Incident light from 60degree to 0 degree to normal2) Bragg spacing formula Λ = λ/cos(60)knowing that so film manufacturer facilities would be designing Bragg spacing to reflect specific wavelength ex:532nm...etc but how to get films with Bragg vector angel K=30degree to work in my application, do I need to customise that film to get the exact Bragg angel? who can customise it?<br><br>The Bragg vector and spacing are determined from the recording geometry. I was using your geometry of 0 degrees and 60 degrees. other geometries will give different vectors and spacing. The film is irrelevant so far as the Bragg conditions are concerned, so long as the film can record the spatial frequencies. But, the film determines the possible efficiencies.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">moonlight</span>
+                <span class="post-date">Tue Nov 10, 2020 3:06 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I used setup2 with 532nm coherent laser and I removed the lens from the laser module to get the beam expanded and I got some pretty good results as shown below <br><br>![Setup2.JPG](https://holographyforum.org/forum/download/file.php?id=7621)<br><br> I&#x27;m using a regular white flash light for image construction and the image looks good with high detailed resolution<br><br>However when I replaced the object with a flat mirror same as we discussed before to record HOE for flat mirror specs, I run into 2 issues:<br><br>1) I used a regular off shelf mirror (not optical grade) and the reflection shows some strips on the film as shown in the image below, I tested the same mirror directly with the laser on white wall and it looks like the mirror is not able to reflect all incident light from the laser diode and I can still see the strips reflected on the wall, using the laser directly on the wall doesn&#x27;t give the strips at all, do I need to use a special type of reflecting mirror with the laser to remove those strips? If so what would be the best mirror type for the application? <br><br>![Light_strips1.PNG](https://holographyforum.org/forum/download/file.php?id=7622)<br><br>2) I tested the output holography with strips using an image directly from my cell phone and the image looks blurry, but when I move the phone very close to the film, the image got adjusted better but still blurry, it looks like it&#x27;s acting like a lens or mirror with a focal lens so when I move the image away from the film it&#x27;s very blurry and gradually when I move it towards the film (using same reference beam angel) image quality improve but still blurry not acting like a clear flat mirror reflection, any idea or hints to fix the blurry issue?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jrburns47</span>
+                <span class="post-date">Tue Nov 10, 2020 5:52 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It makes a difference if a cell phone camera is horizontal or vertical to a hologram image sometimes, at least for an iPhone XS Max.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Wed Nov 11, 2020 7:48 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Don’t shoot so close to hologram, adjust light intensity <br><br>Move light source further away or use a dimmer to adjust <br><br>amount of light. Record and then enlarge...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Nov 11, 2020 12:30 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">The strips you see are most likely from interference between reflection on the first surface of the mirror (glass) and on the second surface (silver or Al). You need a first surface mirror, i.e., the there in no cover glass on the silver surface.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Wed Nov 11, 2020 12:33 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Dinesh, did you take into account index of refraction of the emulsion in your back-of-the-envelope calculation? I guess the Bragg planes would not be at the angle 30 deg.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Nov 11, 2020 1:36 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Petr, strictly speaking, you&#x27;re right. The Bragg orientation would not be 30 degrees. The K vector would depend on the two input waves within the material, and they would be 0 degrees and sin(60)/n. However, when the reconstruction wave is applied at 60 degrees, the input wave also refracts, to an angle of sin(60)/n, hits the Bragg planes correctly according to the Bragg condition. On diffraction, the output wave then refracts again the other way, or, in this case does not because it&#x27;s normal, as is the other wave being simulated by the R wave,on creation of the Bragg planes. So, in effect, you can model the Bragg planes as if there were no refraction. In fact, Kogelnik starts by explicitly stating that refraction will not be taken into account, for this reason of two refractions. The S wave, for a given R wave, behaves as if there were no refraction because the planes were formed by two waves that simulate the S and R waves, refracting in and out.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Nov 11, 2020 1:38 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>moonlightwrote:↑Tue Nov 10, 2020 3:06 pm:</strong> it looks like it&#x27;s acting like a lens or mirror with a focal lens so when I move the image away from the film it&#x27;s very blurry and gradually when I move it towards the film (using same reference beam angel) image quality improve but still blurry not acting like a clear flat mirror reflection, any idea or hints to fix the blurry issue?<br><br>The reason it looks like a focusing mirror is because it is a focusing mirror. You&#x27;re geometry will create hyperboloid surfaces, which are, in effect, focusing mirrors.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">moonlight</span>
+                <span class="post-date">Thu Nov 12, 2020 2:34 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Din, if it’s a mirror with a focal length what’s the focal length formula then? Do I have to put my picture within focal length to avoid blurry image? How to increase the focal length of that mirror?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Nov 12, 2020 2:05 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Here you can see the formation of hyperbolae from two point sources, from &quot;Optical Information Processing and Holography&quot; by Cathey. The diagram shows a transmission geometry, but it&#x27;s easy to rotate the photographic emulsion by π/2, either clockwise or anticlockwise, and see that the hyperbolae are constant, relative to space, but rotated, relative to the emulsion. The focal length is given by the simple lens formula 1/|u| + 1/|v| = 1/|f|<br><br>![hyperbolae.jpg](https://holographyforum.org/forum/download/file.php?id=7624)</div>
+        </div>
+
+    <div class="thread-nav"><a href="11053.html" class="prev-thread">← Fog hologram transmition</a><a href="Equipment.html">↑ Equipment</a><a href="11024.html" class="next-thread">Horizontal stripes - along same depth, like ISO lines... →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="6581.html" class="card">
+                <h3>Making Holographic Optical Elements (HOE)</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="11477.html" class="card">
+                <h3>Lighting for Display of a Reflection Hologram</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11473.html" class="card">
+                <h3>Holographic sensor based on Jeff Blyth&#x27;s Diffusion method</h3>
+                <div class="card-meta">Techniques · 4 posts</div>
+            </a>
+            <a href="11430.html" class="card">
+                <h3>How do the holographic foils on pokemon cards work?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11414.html" class="card">
+                <h3>Swave&#x27;s new AR holographic system</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11407.html" class="card">
+                <h3>Increase in depth cues in holographic AR using AI</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

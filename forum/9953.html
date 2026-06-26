@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blue laser diode — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="9955.html" class="prev-thread">← a quickie optic mount</a><a href="Techniques.html">↑ Techniques</a><a href="9950.html" class="next-thread">Spectrometer →</a></div>
+    <h1>blue laser diode</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>12</td></tr>
+        <tr><td>Views</td><td>23,528</td></tr>
+        <tr><td>Started</td><td>Fri Nov 30, 2018 2:04 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/soda.html">soda</a> · <a href="../authors/holomaker.html">holomaker</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=9953" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Nov 30, 2018 2:04 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I was wondering if there is currently a &quot;front runner&quot; for a blue laser diode for holography (a bare diode which can be tamed)? I&#x27;ve been doing some tests (no hologram yet) of the Osram PL-450 which can be found on eBay for $10. I&#x27;ve seen spec sheets for this diode which list &quot;holography&quot; as an application, while other spec sheets for the same diode do not. At this point, I believe the Osram PL-450 to be a typical blue diode in laser projectors. Power and beam quality are good, and I&#x27;m getting good fringes on the back-reflections from a microscope slide. But of course, these factors don&#x27;t really matter, the only thing which counts is a non-banded hologram. For testing, this does become a costly and time consuming method. Especially if it works some times, and other times not. To increase the difficulty, I&#x27;m looking at long exposures (not silver halide). The small Liti plates are blue-sensitive, so at $4 each and no processing, these look like the best option for me at present. Not sure if I should pursue a spectrometer as a &quot;hologram gauge.&quot; I see that soda uses a FPSI for testing, and John W. also mentioned it. Maybe that would be better, I don&#x27;t know. Here&#x27;s a 2011 post by Wler about the PL-450 (the topic on this forum is &quot;need a blue laser solution&quot;):<br><br>by Wler » Sun Nov 06, 2011 11:59 am <br><br>&quot;So after very carefully tinkering with the setup, I found that the Osram PL450 (which is sold on ebay as the Opnext HL45023TG) can deliver more than 40mW quite stable single longitudinal mode, with good beam specs (the collimatior needs to be adjusted to like 1/100 turn accuracy for best stability...). Some long term tests are still needed, but so far it looks that this diode beats the Casio/Nichia 1W in general suitability!&quot;</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Fri Nov 30, 2018 5:31 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I have this experience with laser diodes: Hard to use in holography without beam diagnostic. FPSI is the best, cheap to build, resolution in MHz. Grating based spectrograph is much more complicated. Checking fringes from glass reflection is not enough, one needs at least two glases, one thin and second extra thick. If both produces fringes, there is high probability of SLM. Noise detector is handy and simple, but alone insuficient - good to finding of instability origin, especially backreflections.<br><br>Highly stable, extra low noise diode current driver and TEC controller in mK range are esential. W&#x27;s laser blog is exhaustive write up about this problematic.<br><br>I also suppose that the pico projector contains PL-450. W found this in free running mode useless, but around 10mW can do. W extract 40mW in ECDL from it, which sound good.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Dec 01, 2018 7:58 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks, soda, that helps a lot. Using both thick and thin glass for checking fringes is interesting. It seems that the front and back reflections from the glass slide or plate interfere on the wall or screen, to serve as a coherence length check, for that particular thickness of glass. So a 2mm thick piece of glass might have a (rough) coherence length of 2mm, and so on. (When I was testing holomaker&#x27;s red diode from the pico, I was getting sharp and stable fringes with both a microscope slide, and a 19mm thick glass plate.) On the other hand, the glass plates might only provide some kind of &quot;snapshot&quot; of coherence for that particular thickness (beam path variation for the two beams). I guess multiple thicknesses would be better.<br><br>I agree about the necessity of constant monitoring of the diode, with a variety of methods. The FPSI is definitely interesting now, thanks for letting me know. I&#x27;m looking at Sam&#x27;s design (linked by John W. - thanks, John) and I&#x27;m guessing the wavelength restrictions Sam noted (around 600 to 650nm, apparently designed for HeNe 633nm in the center) might have something to do with the mirrors used. I need to so some more reading on Sam&#x27;s site regarding FPSI&#x27;s.<br><br>It&#x27;s discouraging that the PL-450 seems to be showing limitations around 10mW in free-running mode. It was my hope to try passive heat-sinking (with soldered thermal contact between the diode and a large block of copper) along with monitoring of the diode using glass plates, also possibly with a photodiode in the fringe pattern to monitor audible noise, and also with a better version of my spectrometer. I didn&#x27;t know if Wler&#x27;s 40mW figure for the PL-450 referred to free-running or ECDL (or if TE control was used). Holomaker seems to have indicated a power limitation for the blue diode (from the pico&#x27;s) of around 12mW free-running. Designs for an ECDL based on the PL-450 would be very interesting. For slower recording materials like polymer or DCG, the blue component of RGB holography needs to get raised substantially above 10mW to be really useful, in my opinion.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Sat Dec 01, 2018 9:45 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thin glass plate 2mm is simmilar lenght as laser diode chip. Multiple modes are usually equally spaced and probability of both glases thickness are integer multiply of mode separation are low. In past, when I used nichia/casio diode and DCG, there was lot of situations, when one glass plate produce nicely contrast fringes and second one not.<br><br>Forged passive heatsink and long expositions, unless your enviroment is rock stable... In fact, massive heatsing allows some times get good hologram, but only sometimes - yield of my DCG&#x27;s was 1/10 really good, 1/3 something visible and rest nothing. When looks onto passive heatsinked diode spectrum by FPSI, the peak continously move - coherence lenght is good only for short period, even if no mode hop occured. The coherence lenght of SLM running laser diode is determined by current and temperature stability.<br><br>I have acquired lot of HeCd mirrors (centered 442nm), I plan to try new, extra simple design of FPSI. Usually FPSI&#x27;s FSR is not enough to observe whole structure of a laser diode modes and there should be situations, when multimode can be overlaps and seems to be SLM, but this can be resolved by applying offset DC voltage to change mirror separation little bit.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat Dec 01, 2018 10:49 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">When the outside weather is colder, the temp of my lab is stable to about half a degree C. This is due to the small size of the lab (former one-car garage), its insulation, the electric heaters, and a precision thermostat. So, I wanted to see what happens with the PL-450 if soldered to a large mass of copper (25mm X 25mm X 300mm), with the long end of the copper bar immersed in a gallon of water. Also, using a good constant-current driver. I realize it may or may not work.<br><br>Many years ago (was it 99?) when there was a stir on Holoworld with Frank D.&#x27;s 35mW red diode, I did some testing with diodes and TE control. My conclusion was that I wanted nothing to do with diodes. There have been some changes and improvements over the last two decades, so I&#x27;m giving them another try. Especially after seeing the interesting things holomaker is doing, with quite long exposures. One thing which occurred to me was using a HeNe and a red diode, combined. I&#x27;m guessing there would be enough separation in wavelengths (from 633 to say 640) to not cause problems. (Of course, this would assume the red diode is stable.) It might be a way to double our red power, since lots of mW&#x27;s in the red are not easy to find. Blue is a pain also, but it&#x27;s available at a price. Green seems almost immaterial at this point.<br><br>By the way, I also verified the 640nm for holomaker&#x27;s red diode with the spectrometer. Thanks for sharing your experience with laser diode behavior and monitoring, this is helpful to me. I would be interested in knowing how the work goes on the new simplified FPSI.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Wed Dec 12, 2018 3:20 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">I found really interesting article about PL450:<br><br>[https://arxiv.org/pdf/1611.07363.pdf](https://arxiv.org/pdf/1611.07363.pdf)<br><br>There are all needed parameters of the diode and external cavity. In brief summary: Internal mode separation 0.05nm, FWHM 1.82nm, wavelength shift with temperature of 0.06 nm/K. They found that optimal feedback in ECDL configuration is 10 - 20% - thin planparallel uncoated glass perhaps fits nicelly these requirements as feedback and wavelenght selective element.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Wed Dec 12, 2018 10:34 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Super article! Thanks Soda, I recently had a 450 diode <br><br>In an ECLD and after hours and hours of tinkering the most I could get was 10mw ![😬](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62c.svg) ( using 2400 Grating or uncoated prism) , free running I was getting 12mW SLM!! But based on this paper they only got 10mw as well ! ![😆](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f606.svg)![🔫](https://holographyforum.org//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52b.svg)<br><br> I had some success (good only) by using only a glass prism in the ECLD( prism will insure on one back reflection), but possibly due to the reflection being to strong, causing best fringes to be tuned aff axis slightly..? Possibly a AR coated surface might give a better reaction?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Wed Dec 12, 2018 11:06 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Anyone interested in testing PL-450B I can list them in for sale section? And way better then $10 each !</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Wed Dec 12, 2018 11:36 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Authors of the article stated that the beam output was 10mW at selected wavelenght (Te line), but they get 17mW in their super stable cavity design, if not tuned to this special line, and 22mW in simplyfied one-filter cavity. Wolfgang get !40mW! in Litrow configuration after carefull adjustments. <br><br>[http://redlum.xohp.pagesperso-orange.fr ... html#PL450](http://redlum.xohp.pagesperso-orange.fr/laser/ECDL-test.html#PL450)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Dec 12, 2018 6:29 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Thanks for the paper. With regards to the ECDL work done by Wler, it is most interesting. Concerning the needs of color holography, I still think blue is the main problem. For good color rendition (from what I&#x27;ve read, at least) the wavelength should be pretty close to 450nm. If diodes are excluded, the only lasers left would be 442 helium-cadmium (expensive, and seems rather obsolete) and 457 Melles-Griot BLS/BLD or Argon (both very expensive). Sapphire is nice, but rather too long at 488. As far as the PL-450 goes, the wavelength is very good (no doubt by design, for RGB projectors, etc., where color rendition has exactly the same requirements as color holography). The combination of 450, 532, and 640 is probably quite adequate for any RGB system. 12mW from a free-running PL-450 is tantalizing, but maybe an ECDL will be a real solution. Wler&#x27;s 40mW should be enough for many RGB holography needs, if it can be repeated, and ideally, standardized. I have to confess it is difficult to navigate his site for clues and pieces of the puzzle. Just as an example of emulsion sensitivity, Liti specifies 20mJ at 635, 30mJ at 532, and 50mJ at 450. So obviously most power is needed at 450 (for a simultaneous RGB exposure). Does anyone have sensitivity figures for other emulsions?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">soda</span>
+                <span class="post-date">Thu Dec 13, 2018 3:52 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">You are right, the blue part is most complicated. If eye sensitivity is taken in to account, 532nm frequency doubled Nd:YAG/YVO (or 530 OPSL) is perfect. I found, that 633nm HeNe is somewhat better than 640nm diode, color rendition is indistinguishable by my eye, but eye is little bit more sensitive to 633nm and my emulsion too, I need to increase by 1/4 dye amount. My SilverX emulsion sensitized by ascorbate / pinacyanol and isocyanine have sensitivity roughly 2, 3, 1.5mJ/cm2 for RGB respectively, Ultimate is more than 10x sensitive (and 100x more expensive).<br><br>Blue is another story: In theory 445 - 450nm is optimum. Also LED for reconstruction light peaking at this wavelenght, what surprise if the chip is from the same material as LD ) PL450 is single TE mode, which favours it over Nichia 1W 445nm diode. 20mW will be reliable, enough for AgX, W&#x27;s 40 is unbeliveable. Diodes are generally sensitive to enviroment changes and backreflections, other types of lasers are typically more stable. From difraction efficiency and eye sensitivity point of view longer wavelenght is prefered, especially for silver halide materials, 473nm DPSSL (Nd:YAG doubled line) will be best choice, but my 10mW BWtec resist to any attemps to SLM operation - reason when I dealing with diodes. 488nm argon/OPSL will be good solution, if deep blue is omitted. HeCd, dye LASER, etc. are nowadays unreliable and exotic light sources.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Dec 19, 2018 9:32 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">For your silver emulsion, 1.5mJ sensitivity in the blue is excellent. I&#x27;m not sure about my color DCG material, but it probably needs more than 30mJ in the blue. I&#x27;ve often wondered about the necessity of keeping close to 450nm for the blue component of RGB holography. The literature seems to say that it&#x27;s optimum. Yet, you and Y. Gentet like 473nm DPSS for your silver materials. So I guess the practical difference between 457 and 473 might not be significant, and there may be advantages to 473 from a holographic standpoint. The longer wavelength of 473 would have less scattering compared to 457. I noticed that scattering with the Melles-Griot 457 was quite substantial, and that wavelength seemed to pick up a lot of noise from small particles (dust, etc.). Years ago, I saw a side-by-side comparison of two holograms at Lake Forest of two RGB holograms, both identical, except that one was done with 442, the other with 488. I honestly couldn&#x27;t tell the difference (although the guy next to me said he could tell a subtle difference). I guess if the object/scene contains blue that is short, less that 473 for example, and that blue component is important, it might be noticeable. But in nature and many natural pigments, I think blue has less real significance compared to red and green. On the other hand, blue should definitely help to &quot;whiten&quot; white. The laser cost of usable 473nm light might be high, possibly comparable to Melles BLD/BLS, I haven&#x27;t seen many such lasers available over the years, and have never used one. I&#x27;m considering a Sapphire at 488nm, mainly to brighten whites. Prices on eBay are looking pretty good lately.</div>
+        </div>
+
+    <div class="thread-nav"><a href="9955.html" class="prev-thread">← a quickie optic mount</a><a href="Techniques.html">↑ Techniques</a><a href="9950.html" class="next-thread">Spectrometer →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="8743.html" class="card">
+                <h3>Integraf Diode Vs Generic Laser diode</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="192.html" class="card">
+                <h3>Need a blue laser solution</h3>
+                <div class="card-meta">Equipment · 28 posts</div>
+            </a>
+            <a href="8411.html" class="card">
+                <h3>Laser Diode Question</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="8333.html" class="card">
+                <h3>Coaxial package diode laser with SM Fiber/PM Fiber</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8334.html" class="card">
+                <h3>Pigtailed diode laser with SM Fiber / PM Fiber</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="8336.html" class="card">
+                <h3>High power Fiber Coupled diode laser with HHL Package</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative humidity during exposure — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="870.html" class="prev-thread">← moisture/vacuum/UV to shrink DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="864.html" class="next-thread">Glycerin as index matching fluid →</a></div>
+    <h1>relative humidity during exposure</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="DCG.html">DCG - Dichromated Gelatin</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>5,667</td></tr>
+        <tr><td>Started</td><td>Tue May 27, 2014 8:21 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dinesh.html">Dinesh</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=868" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 27, 2014 8:21 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Since DCG films are more swollen in humid air, the reconstruction wavelength after processing can have the tendency to shrink or blue-shift. This may offset the natural swelling of DCG after processing, or it may worsen the tendency of TMG-DCG to shrink. <br><br>I was wondering if anyone knows how much swelling occurs with DCG (or plain gelatin) film, in ordinary room humidity environments. Say for example in the range of 40% to 60%. Also, let&#x27;s assume (just for argument) that a DCG film is swollen by 4% (of it&#x27;s original &quot;normal&quot; thickness) by a change in RH from 45 to 50%. In other words, the DCG holograms are usually made at 45%, but now there&#x27;s a change in RH to 50%, and we &quot;know&quot; that the film is 4% thicker. I wonder if the wavelength shift could simply be predicted as 4%. (All other factors being identical of course.) That is to say, a 4% downward shift from the &quot;normal&quot; reconstruction wavelength, say 532 narrowband, to 511nm.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue May 27, 2014 12:16 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Since DCG films are more swollen in humid air, the reconstruction wavelength after processing can have the tendency to shrink or blue-shift.<br><br>Wouldn&#x27;t it depend on the processing?<br><br>Let&#x27;s say that the emulsion has a coated depth of t (this is assuming that the depth just after coating is not significantly affected by atmospheric conditions during coating). Then, presumably after some time, atmospheric conditions alter t to a new value t&#x27;<br><br>t&#x27; = t(1 + delta(t)) <br><br>(In your example delta(t) = 0.04).<br><br>Now, let&#x27;s say there are N steps in your processing scheme, and each step alters the depth of the emulsion to some fraction of the increase before development. Since you start the processing scheme with a coating depth of t&#x27;, and each stage of the development changes the depth by alpha(N)<em>delta(t), which may be positive or negative depending on whether the processing stage expands or contracts the film depth, the emulsion depth after processing is,<br><br>t&#x27;&#x27; = t&#x27;(1 + delta(t)(alpha(1) + alpha(2) +...+alpha(N)))<br><br>Now, the final depth would depend on the sum of the ratios of the alpha&#x27;s to the original swelling, [alpha(1) + alpha(2) +...+alpha(N)/delta(t)]. So, for example, If this ratio were to equal -1, then there would be no change in emulsion depth before and after processing. To shrink by an equivalent amount to the original swelling, this ratio would have to be equal to -2. Since the value of all these alpha&#x27;s is determined by the processing scheme, different schemes would result in different values of the ratio.<br><br>&gt; <strong>Joe Farina:</strong> I was wondering if anyone knows how much swelling occurs with DCG (or plain gelatin) film, in ordinary room humidity environments. Say for example in the range of 40% to 60%. Also, let&#x27;s assume (just for argument) that a DCG film is swollen by 4% (of it&#x27;s original &quot;normal&quot; thickness) by a change in RH from 45 to 50%. In other words, the DCG holograms are usually made at 45%, but now there&#x27;s a change in RH to 50%, and we &quot;know&quot; that the film is 4% thicker. I wonder if the wavelength shift could simply be predicted as 4%. (All other factors being identical of course.) That is to say, a 4% downward shift from the &quot;normal&quot; reconstruction wavelength, say 532 narrowband, to 511nm.<br><br>Well, as a first approximation, I think the way to model this is to assume that the mass remains constant. That is, ignore the loss of mass into the developer solutions. This is valid so long as the loss of mass is less than 10% of the original mass, which seems reasonable. You are assuming uniform linear change, but that being so, if the mass of the gelatin is m, it&#x27;s density as a function of r, where r is the RH, is rho(r), the emulsion thickness as a function of r is t(r) and the surface area is A, then<br><br>m = A</em>t(r)<em>rho(r) = A</em>t(r&#x27;)<em>rho(r&#x27;) = A</em>t(r&#x27;&#x27;)<em>rho(r&#x27;&#x27;) and so on. Thus, t(r)</em>rho(r) is a constant. So, what you need to know is the function relating the density of the gelatin as a function of humidity. That is, you need rho(r) for a given r. I&#x27;m pretty sure this is published somewhere.<br><br>&gt; <strong>Joe Farina:</strong> I wonder if the wavelength shift could simply be predicted as 4%.<br><br>The actual wavelength shift due to a change in t would depend on the orientation of the planes. Let&#x27;s say that the hologram had a spatial frequency of nu with the planes orientated at theta, with an emulsion depth of t. Then, a shift from t to t&#x27;, would result in a change of orientation of the planes to a new value theta&#x27; given by<br><br>t/cos(theta) = t&#x27;/cos(theta&#x27;).<br><br>And, the reconstruction wavelength would change from lambda to lambda&#x27;, given by<br><br>lambda/cos(theta) = lambda&#x27;/cos(theta&#x27;)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 27, 2014 3:08 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Dinesh for the careful analysis.<br><br>I realize the &quot;sum&quot; of processing effects will determine the final result. The reason I brought up the subject was due to a comment by Rallison, which is attached below. Since he put some emphasis on 55 to 60% RH being &quot;too high&quot;, I was wondering how much of a wavelength shift might be involved.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue May 27, 2014 5:51 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I think that you have to take a lot of these writings with a pinch of salt, because it was never very precise.<br><br>For example, in the first para of the page you&#x27;ve shown, it says, &quot;The choices of processing are multiple bathes (sic) of water in increasing concentrations of alcohol and <em>increasing temperature</em> or some other water miscible solvent and water &quot; (my italics) Does this mean, you need to increase each individual water/alcohol mixture? By how much? So, if you have, say, 4 alcohol/water baths, does the first start at some temp T, then the next at some higher temp T&#x27;, and then the third at some even higher temp T&#x27;&#x27; ? Can you replace the alcohol with, say, acetone, another &#x27;water miscible solvent? Will it even work in processing dcg? He states the mix as 7% Knox gelatin, 2% ammonium dichromate and then tap water. But, 7% of what? 2% of what? Volume, weight? If I start with 100 mls of water, do I add 7 mls or 7 gms of gelatin? He also says that you have to heat and pour. But there&#x27;s no mention of what temprerature to heat it at. Again, if you simply poured the mix onto the plate, then the emulsion thickness would depend very much in the room temperature, the colder the room (or the lower the RH), the faster the gel point where it solidifies. If the mass were very thick, then absorption would be non-linear, since there are now two competing processes: the gel is drying and hardening, but is absorbing water while it does so. As it hardens, it absorbs water, but as it absorbs water, it resists hardening. <br><br>He states that film older than a couple of hours is too old for broadband reconstruction, yet the film we made for PCGG4 was made on Wednesday and shot on Saturday. Still, it was too soft and came out at the wrong colour. &quot;Wrong&quot; being more subjective, because the image was more red-shifted than I had anticipated. Tony and Mark seemed to like the resultant colour, but I was profusely apologising because the film was too soft as it was made only three days earlier!<br><br>At the end of the day, this level of precision requires more precision all across the board. Exact figures give exact results only if the exact same external conditions are also matched and all materials are standardised. These figures of an RH 55% etc are based on his materials on his glass with his water in his lab. Unless you have the exact same conditions as his lab, you need to alter appropriately to take your conditions into account.<br><br> In our case, on the Wednesday we coated for PCGG4, there were wildfires raging all around us, and the coating room temperatures were 90+ F with a humidity of 12%. I log the times, room temperature, room humidity and temp of the goop at every stage of the coating process and I had never logged these conditions. So, when the film began to curl away from the edges, it wasn&#x27;t totally unexpected because of the high temperatures and very low humidity. I explained to everyone here that if this had been a real job, I&#x27;d have scrapped all the coatings and did them all again. The conditions were too extreme for standardisation.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 28, 2014 6:48 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> I think that you have to take a lot of these writings with a pinch of salt<br><br>I do make an effort, thanks</div>
+        </div>
+
+    <div class="thread-nav"><a href="870.html" class="prev-thread">← moisture/vacuum/UV to shrink DCG</a><a href="DCG.html">↑ DCG - Dichromated Gelatin</a><a href="864.html" class="next-thread">Glycerin as index matching fluid →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11410.html" class="card">
+                <h3>I wonder why these stripes appear. Is it due to temperature fluctuations during the exposure process?</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="232.html" class="card">
+                <h3>Absolute Humidity vs Relative Humidity</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 4 posts</div>
+            </a>
+            <a href="5260.html" class="card">
+                <h3>Hand held plateholder during exposure</h3>
+                <div class="card-meta">General Holography (old) · 10 posts</div>
+            </a>
+            <a href="11379.html" class="card">
+                <h3>Exposure</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11287.html" class="card">
+                <h3>&quot;dry&quot; methods of increasing sensitivity without more exposure</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 1 posts</div>
+            </a>
+            <a href="10884.html" class="card">
+                <h3>GEOLA News_Online Exposure Calculator</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

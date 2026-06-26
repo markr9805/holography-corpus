@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diode laser with a tec — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="7609.html" class="prev-thread">← After 3 years, I&#x27;m back! Anyone doing cheap pulsed holos?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7604.html" class="next-thread">Bayer and Ultimate joint agreement for color materials →</a></div>
+    <h1>diode laser with a tec</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>1,479</td></tr>
+        <tr><td>Started</td><td>Sat Nov 15, 2008 12:03 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/d-paul.html">d paul</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/hans.html">Hans</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=7606" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">d paul</span>
+                <span class="post-date">Sat Nov 15, 2008 12:03 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hi guys<br><br>It&#x27;s been a while ,but I&#x27;m back with a new project(and some questions). I have finally started to put together a diode laser with TEC control. I am using a HTC-3000 controller set for proportional control and a 38watt peltier element stuck to a 1 3/8 x 2 x1/4 in brass plate to which is brazed a smaller rectangle of brass. This is drilled out to allow an axiz module to be slid in(I isolated the module electrically by wrapping it with a layer of clear tape). the diode is a Sony sld1239jl-54, and I will use the 317T circuit that was in the HoloWiki to power it. The diode and the thermistor lines are shielded and seperate from the peltier power lines<br><br> Now what bothered me was :<br><br> 1) should I have made a tighter fit for the axiz module in the heat sink?<br><br>I was concerned about the negative case shorting out somewhere in the laser mount or the TE element<br><br> 2) Can I use a thin layer of regular epoxy to bond the laser mount, TE element,and the heat sink, or is thermal compound a must<br><br> 3) I remember some one saying that the thermistor should be mounted as close to the TE element as possible, as if it is too far away you get a too big a phase diference; could someone explain what this is and why it&#x27;s bad<br><br> Thanks in advance for the help; I would have taken pictures but junior bent the digital camera</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sat Nov 15, 2008 3:25 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I found it was best to isolate the electrical with the TEC module. So, I press fit the housing to the block with thermal compound. Then bolted the TEC together with nylon bolts. This served to isolate the heat and electrical.<br><br>If you use epoxy then use a thermal epoxy. Even a thin layer of thermal compound is no substitute for making something one piece. Use as little thermal compound as posible. In large TEC assemblies I have built lapping machines to lap large parts together. It made a big difference in efficiency.<br><br>There is a useful concept called hysterisis:<br><br>[http://en.wikipedia.org/wiki/Hysterisis](http://en.wikipedia.org/wiki/Hysterisis)<br><br>The closer the TEC and the thermistor is; the less of a problem hysterisis is and the easier it will be to set the parameters of your PID. Make sure to read wler&#x27;s page. He got further than I did:<br><br>[http://pagesperso-orange.fr/redlum.xohp ... asers.html](http://pagesperso-orange.fr/redlum.xohp/laser/diodelasers.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Nov 15, 2008 9:34 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; 2) Can I use a thin layer of regular epoxy to bond the laser mount, TE element,and the heat sink, or is thermal compound a must<br><br>It&#x27;s better to use a thermal conducting epoxy such as Arctic Silver.<br><br>&gt; 3) I remember some one saying that the thermistor should be mounted as close to the TE element as possible, as if it is too far away you get a too big a phase diference; could someone explain what this is and why it&#x27;s bad<br><br>Yes, it&#x27;s good to have a fast response from the thermistor. Especially in the case of the HTC-3000 controller since that is a PI controller. I think that when using a PID controller you can get away with more distance from the TEC.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Sat Nov 15, 2008 11:48 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Another advantage of using a heat conducting epoxy is the ability to get good thermal contact between the often irregular shaped thermistor and the TEC/diode housing. Just drill a hole into whatever it is you need to stabilize in temperature (as close to the TEC as possible). Insert the thermistor into that hole and fill it up with the epoxy.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">d paul</span>
+                <span class="post-date">Sat Nov 15, 2008 5:50 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Hi<br><br>Okay ,Artic silver it is then; will post when I get all parts put together<br><br>rob</div>
+        </div>
+
+    <div class="thread-nav"><a href="7609.html" class="prev-thread">← After 3 years, I&#x27;m back! Anyone doing cheap pulsed holos?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="7604.html" class="next-thread">Bayer and Ultimate joint agreement for color materials →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="9953.html" class="card">
+                <h3>blue laser diode</h3>
+                <div class="card-meta">Techniques · 12 posts</div>
+            </a>
+            <a href="8743.html" class="card">
+                <h3>Integraf Diode Vs Generic Laser diode</h3>
+                <div class="card-meta">Equipment · 7 posts</div>
+            </a>
+            <a href="8411.html" class="card">
+                <h3>Laser Diode Question</h3>
+                <div class="card-meta">General Holography (old) · 20 posts</div>
+            </a>
+            <a href="8333.html" class="card">
+                <h3>Coaxial package diode laser with SM Fiber/PM Fiber</h3>
+                <div class="card-meta">Beginning Holography · 1 posts</div>
+            </a>
+            <a href="8334.html" class="card">
+                <h3>Pigtailed diode laser with SM Fiber / PM Fiber</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="8336.html" class="card">
+                <h3>High power Fiber Coupled diode laser with HHL Package</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

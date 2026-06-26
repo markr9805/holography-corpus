@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any 3D light field reconstructable by plane waves - how? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6609.html" class="prev-thread">← Math Check</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6612.html" class="next-thread">To good to be true? →</a></div>
+    <h1>Any 3D light field reconstructable by plane waves - how?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>14</td></tr>
+        <tr><td>Views</td><td>2,689</td></tr>
+        <tr><td>Started</td><td>Tue Dec 25, 2007 4:32 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/favalora.html">favalora</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/dj-mathson.html">DJ Mathson</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/grahams.html">GrahamS</a> · <a href="../authors/martin.html">Martin</a> · <a href="../authors/dave-battin.html">dave battin</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6611" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Tue Dec 25, 2007 4:32 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello - <br><br>I have a very basic question that I&#x27;ve been unable to find answered to any degree of completeness in a number of places I&#x27;ve looked.<br><br>I&#x27;ve heard (@ a course in URochester) and read (in Born &amp; Wolf, maybe?) that any 3-D light field can be reconstructed by a collection of plane waves. I suppose I believe this statement, since it can be considered the limiting case of holographic stereograms. However, is there a classic journal article or book chapter that explores this notion? Reading up on multidimensional Fourier transforms isn&#x27;t doing it for me, since it&#x27;s usually in terms of image processing.<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Dec 26, 2007 4:20 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">This is an interesting question. I take it for granted that it is true but I have never seen it derived. So, I started searching the internet. I have seen the derivation showing that all sound can be built from sine and cosine waves. Now I have gotten in trouble for taking the leap of faith that it would be true of an image. I found this abstract:<br><br>[http://csdl2.computer.org/persagen/DLAb ... A.2006.172](http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/proceedings/&amp;toc=comp/proceedings/cimca/2006/2731/00/2731toc.xml&amp;DOI=10.1109/CIMCA.2006.172)<br><br>Which should shed some light on the subject but I am not willing to spend $19 to read it. <br><br>Now somewhere here I have a book describing a Fourier Transform of an image using a piezo electric crystal. The image is sent optically through the crystal and the crystal is strained by an electric signal that is a frequency sweep. I only vaguely remember the exact optics required as I was only interested in sound at the time and I just read it enough to say &quot;neat!&quot; and move on. If you think it would be helpful I can get you a reference.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Wed Dec 26, 2007 3:00 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hi Colin - <br><br>Yup, I am familiar with 1-D and 2-D Fourier transforms and the &quot;covertability&quot; between image space and frequency space. Perhaps I&#x27;m just having trouble seeing that the Leith / Upatnieks paper on analyzing holography in terms of communication theory (i.e. frequency space) might answer my question: [&quot;Reconstructed wavefronts and communication theory.&quot;](http://josaa.osa.org/viewmedia.cfm?id=75894&amp;seq=0) E.g., figure 3.<br><br>I should study this more before asking an ill-considered question. I had envisioned finding some examples of using &quot;patterned&quot; plane waves, launched at a collection of angles, that open interfering reconstruct a desired light field. I remember seeing an example of this in a summer course at the Univ. of Rochester -- they used MATLAB to simulate several wave fronts that merged and formed the equivalent of a point source.<br><br>By the way, you might enjoy this excellent &quot;ripple tank simulator&quot; of 2-D and 3-D waves, which has many presets. It&#x27;s [here](http://www.falstad.com/ripple/).<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">DJ Mathson</span>
+                <span class="post-date">Wed Dec 26, 2007 4:32 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I am not sure this has anything to do with your question, but look at figure 10 in this paper where they use 625 small mirrors to construct an image space. I´ve seen it in person and it is very neat.<br><br>[http://www.ultimate-holography.com/new/ ... 6-p215.pdf](http://www.ultimate-holography.com/new/scientific%20articles/isdh06-p215.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Fri Dec 28, 2007 8:36 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I have no expertise here but wonder how the original claim was expressed and how &quot;3d light field&quot; was defined. I can easily see how any 2D slice of a 3D light field could be composed as the intersection of a bunch of spherical wavefronts, each corresponding to a point in 3D space, but how you would get there from plane waves is beyond me...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Fri Dec 28, 2007 12:26 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Yeah, I&#x27;m confused by the notion, as well. Specifically, I&#x27;m hung up on whether or not each of the constituent plane waves is actually &quot;patterned,&quot; as if hundreds of 2-D &quot;bitmaps&quot; are hurtling through space at each other. This makes sense to me as the inverse of a many-view holographic stereogram (or a parallax panoramagram). However, if each plane wave is &quot;raw,&quot; unpatterned, I&#x27;m finding it hard to grasp intuitively.<br><br>Perhaps it is a different physical interpretation of the 3-D Fourier transform, in which <em>frequency</em> corresponds to the trajectory (the normal) to a given plane wave (rather than spatial frequency, e.g. lines/mm). This would not be entirely crazy; see, for example, the Leith / Upatnieks paper I cited above, or really any paper on holographic video, or the Radon transformation (click [&quot;reconstruction&quot;](http://www.owlnet.rice.edu/~elec631/Projects99/mit/index.htm)).<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Thu Jan 10, 2008 4:16 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">flavora, that ripple tank simulator is really cool!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Thu Jan 10, 2008 4:35 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">I&#x27;m glad you like it! I feel like I am learning a lot by observing the various pre-set wave environments... lenses, diffraction, phase-arrays, etc.<br><br>-g</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">GrahamS</span>
+                <span class="post-date">Sat Jan 26, 2008 5:37 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">The term 3D field will always confuse, it is better to think of a 2D field incident on a plane with a 2D amplitude and phase variation, that&#x27;s the total field. If the field came from a converging sherical wave the phase variation would also be spherical for example.<br><br>Here is one way to prove that the field can be represented as plane waves (each is of constant amplitude) to yourself:<br><br>Put a point source at the focal plane of a lens on the axis, at the other focal plane (back focal plane) you will have the fourier transform. A point source is like a delta function and has equal components in all frequencies (remember these are spatial frequencies not temporal ones) and so the intensity of the light in the back focal plane will be constant, this is a plane wave and you have created a collimated beam. <br><br>(aside: in the fourier plane the centre represents DC or no frequency, the edges the highest frequency the lens can image, high frequency means a fine structure in the object) <br><br>If the point source is moved off the optical axis then the intensity of the light in the fourier plane will still be constant however there will now be a linear phase gradient across the plane. This is exactly the same as saying the collimated beam now moves at an angle to the axis of the lens. If phase scares you think of water waves, the crests are all at constant phase. <br><br>So any point in one plane can become a plane wave in the other plane with an constant intensity and a phase gradient. So what happens if you take a planewave and stick it into a lens, well you inverse fourier transform it or focus it. So we take our point source, stick a lens in front of it to convert it to a plane wave, then add another lens and convert it back to a point. This is really just a 1:1 imaging system, a real object is a collection of point sources.<br><br>So to answer your question more specifically, as we know that all (well enough of) the light from the object ends up in the fourier plane then we know that the light in the fourier plane contains all the required information. We should then consider this fourier plane as being made up of point sources and we already know that each one of these will form a plane wave when it has passed through the second lens so the image we end up with is made up of a set of plane waves and should look just like the object.<br><br>Its a round about proof but I hope it explains further fourier optics and also gives a better understanding of &quot;angular spectrum&quot; which is exactly what the set of plane waves is.<br><br>Graham</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Sun Jan 27, 2008 10:32 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>GrahamS:</strong> The term 3D field will always confuse, it is better to think of a 2D field incident on a plane with a 2D amplitude and phase variation, that&#x27;s the total field. If the field came from a converging sherical wave the phase variation would also be spherical for example.Here is one way to prove that the field can be represented as plane waves (each is of constant amplitude) to yourself:Put a point source at the focal plane of a lens on the axis, at the other focal plane (back focal plane) you will have the fourier transform. A point source is like a delta function and has equal components in all frequencies (remember these are spatial frequencies not temporal ones) and so the intensity of the light in the back focal plane will be constant, this is a plane wave and you have created a collimated beam.(aside: in the fourier plane the centre represents DC or no frequency, the edges the highest frequency the lens can image, high frequency means a fine structure in the object)If the point source is moved off the optical axis then the intensity of the light in the fourier plane will still be constant however there will now be a linear phase gradient across the plane. This is exactly the same as saying the collimated beam now moves at an angle to the axis of the lens. If phase scares you think of water waves, the crests are all at constant phase.So any point in one plane can become a plane wave in the other plane with an constant intensity and a phase gradient. So what happens if you take a planewave and stick it into a lens, well you inverse fourier transform it or focus it. So we take our point source, stick a lens in front of it to convert it to a plane wave, then add another lens and convert it back to a point. This is really just a 1:1 imaging system, a real object is a collection of point sources.So to answer your question more specifically, as we know that all (well enough of) the light from the object ends up in the fourier plane then we know that the light in the fourier plane contains all the required information. We should then consider this fourier plane as being made up of point sources and we already know that each one of these will form a plane wave when it has passed through the second lens so the image we end up with is made up of a set of plane waves and should look just like the object.Its a round about proof but I hope it explains further fourier optics and also gives a better understanding of &quot;angular spectrum&quot; which is exactly what the set of plane waves is.Graham<br><br>Welcome to the forum – particularly if you&#x27;re Graham Saxby!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">GrahamS</span>
+                <span class="post-date">Sun Jan 27, 2008 11:11 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">My name is Graham Stabler and I&#x27;m regreting my user name now <br><br>Graham</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">dave battin</span>
+                <span class="post-date">Mon Jan 28, 2008 12:52 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>GrahamS:</strong> My name is Graham Stabler and I&#x27;m regreting my user name nowGraham<br><br>i really dosent matter which graham you are ,welcome to the forum! but if the plane wave was incident on a sphere it would be 3D. yes?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Mon Jan 28, 2008 8:05 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>GrahamS:</strong> My name is Graham Stabler and I&#x27;m regreting my user name nowGraham<br><br>Oops, my apologies!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">favalora</span>
+                <span class="post-date">Fri Feb 01, 2008 3:35 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">Hah, I was wondering which GrahamS the author was, as well. Perhaps you are equally illustrious!<br><br>I appreciate your thoughtful response to my question. Sorry for the &quot;radio silence,&quot; I have been on the road.<br><br>I don&#x27;t have a comment in response yet, though; I am still thinking about this.<br><br>-g</div>
+        </div>
+
+    <div class="thread-nav"><a href="6609.html" class="prev-thread">← Math Check</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6612.html" class="next-thread">To good to be true? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10920.html" class="card">
+                <h3>Do you think Light Field Lab&#x27;s upcoming holographic display is a fly-eye lens array or a new type of technology?</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="8184.html" class="card">
+                <h3>A rose by any other name</h3>
+                <div class="card-meta">Gallery · 4 posts</div>
+            </a>
+            <a href="5752.html" class="card">
+                <h3>Food for thought: Light Field Rendering / Holography</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="4949.html" class="card">
+                <h3>Making a Sculpture for a Hologram - Any advice?</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a>
+            <a href="3084.html" class="card">
+                <h3>Holographic Data Storage - Spatial Light Modulator</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="2990.html" class="card">
+                <h3>Green laser-pointers - any good for holography?</h3>
+                <div class="card-meta">General Holography (old) · 4 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

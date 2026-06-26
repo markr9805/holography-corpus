@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonator Design — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="5575.html" class="prev-thread">← List of links to parts etc.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5570.html" class="next-thread">Sweet... I love this section. →</a></div>
+    <h1>Resonator Design</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>16</td></tr>
+        <tr><td>Views</td><td>7,112</td></tr>
+        <tr><td>Started</td><td>Fri May 26, 2006 3:19 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/ron-michael.html">Ron Michael</a> · <a href="../authors/hans.html">Hans</a> · <a href="../authors/johnfp.html">JohnFP</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=5577" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 3:19 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Wow, Ron, You work fast. How are you electrically isolating everything in the resonator?<br><br>![Image](http://www.rotorwave.com/hyosc7.jpg)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 3:32 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">cavity is pvc insulated from resonator and resonator is rubber gromment/nylon bolt isolated from chassis. eventually Pvc covers will be place over the anode/cathode terminals and covers placed over Hv components of the powersupply.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 3:42 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I just read throught the latest update. Nice work! Instead of replacing the YAG rod for the resonator have you considered my idea of placing a telescope in the cavity? Since the aperture has to be small for the difraction losses a 4 to 1 telescope would improve the energy extraction from the rod.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 3:57 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">no, the 4 inch yag rod is fine, I&#x27;m manipulating the saturable absorber q switch parameters in the oscillator. If you use the telescope idea, remember the rod initially goes negative lensing during q switch time on low rep rate. So you need to tune for that. The pumping spectral tests show I should get enough energy in the limited diffraction volume of a conventional design, plus I&#x27;m trying to avoid the larger radius depolarization issues by keeping the beam small in the center.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 4:29 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ron Michael:</strong> plus I&#x27;m trying to avoid the larger radius depolarization issues by keeping the beam small in the center.<br><br>I&#x27;ll look into that. Thank you.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 4:31 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">How do you calculate the cavity efficiency? Would silver plating the cavity help? Who would provide a plating service?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 5:00 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">yes, protected silver doesn&#x27;t have the small dip at 800nm like aluminum.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 5:17 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Reading about it, you would need to polish the alluminum, nickle plate, polish the nickel plate, plate with silver, overcoat. It sounds expensive. Do you know of a company who can provide this service?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 5:25 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">No particular company comes to mind. I just polished the aluminum and up the joules. Since these lamps were running up to 10% explosion limit, it wasn&#x27;t a real problem to increase power except the need to redesign power supplies, switch out caps.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Fri May 26, 2006 6:01 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">What wire is suitable for connecting to the flash lamps?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 6:26 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Get 18 guage 15kv wire. Check C and H electronic supply out in CA, I can get it if you can&#x27;t. On big pulse ruby I use 12guage 15kv wire but that wouldn&#x27;t be necessary for yag power levels. check the web for suppliers,<br><br>found this: [http://www.dearborn-cdt.com/catalog/HW-39-A-VP14.html](http://www.dearborn-cdt.com/catalog/HW-39-A-VP14.html)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Fri May 26, 2006 6:57 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">I can get the 40kv 18 guage wire if you need it. by the foot.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Hans</span>
+                <span class="post-date">Mon Jul 17, 2006 12:29 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">How about gold plating? Would it be possible to cover the cavity with thin gold foil used for gold plating wooden ornaments? Or does that type of gold have a melting temperature that is too low?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ron Michael</span>
+                <span class="post-date">Mon Jul 17, 2006 12:50 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">I have had aluminum foil melt before. My guess is it would melt. You need a thicker plating for the gold to last.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Wed Jul 19, 2006 10:48 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">The water cooled pulsed YAG&#x27;s that I have seen have a gold plated housing interiour. I assume this is electroplated.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Wed Jul 19, 2006 2:17 pm</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Yes, Gold electroplating is common in YAG design. It helps get some of the pump energy that is lost in aluminum and Silver. It needs to be polished and it works better if it is vapor deposition and not electroplated.</div>
+        </div>
+
+    <div class="thread-nav"><a href="5575.html" class="prev-thread">← List of links to parts etc.</a><a href="General-Old.html">↑ General Holography (old)</a><a href="5570.html" class="next-thread">Sweet... I love this section. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="866.html" class="card">
+                <h3>Table Design improvements needed</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="401.html" class="card">
+                <h3>New Table Design (just a thought)</h3>
+                <div class="card-meta">Techniques · 10 posts</div>
+            </a>
+            <a href="7991.html" class="card">
+                <h3>Table design</h3>
+                <div class="card-meta">General Holography (old) · 15 posts</div>
+            </a>
+            <a href="6125.html" class="card">
+                <h3>Pulsed Laser Design Files</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="5503.html" class="card">
+                <h3>Plateholder Design</h3>
+                <div class="card-meta">General Holography (old) · 2 posts</div>
+            </a>
+            <a href="3173.html" class="card">
+                <h3>New Table Design</h3>
+                <div class="card-meta">General Holography (old) · 65 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

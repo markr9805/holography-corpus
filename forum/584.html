@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how short must the exposure be to ... — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="646.html" class="prev-thread">← Mirror resurfacing</a><a href="Equipment.html">↑ Equipment</a><a href="585.html" class="next-thread">multiple exposures on a single plate →</a></div>
+    <h1>how short must the exposure be to ...</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Equipment.html">Equipment</a></td></tr>
+        <tr><td>Posts</td><td>13</td></tr>
+        <tr><td>Views</td><td>13,783</td></tr>
+        <tr><td>Started</td><td>Fri Jul 20, 2012 9:38 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/holomark.html">Holomark</a> · <a href="../authors/tommy.html">Tommy</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/holorefugee.html">holorefugee</a> · <a href="../authors/arturo.html">Arturo</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=584" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Fri Jul 20, 2012 9:38 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">How short must the exposure time be to capture an image of a live person (or parts thereof)? I presume the way to prevent movement from ruining a hologram of a person is to have a very short exposure time, so I wonder - how short is short enough? 500 ms, 200 ms, 100 ms, 50 ms? Next, does it matter the body part - is a foot or hand steadier than the face - what about eyes??</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tommy</span>
+                <span class="post-date">Sun Jul 22, 2012 9:38 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">According to my reading, the nominal pulsed laser exposure time is 20 to 40 nanoseconds. And a rule of thumb for motion is you can move 1/10 of the wavelength of the laser before the image is too dim. So lets call it 50nm for a nice round number. 50nm in 30 ns is 1.666 nm/ns or 3.7 miles/hour. With a 10 microsecond exposure, you get 0.005 nm/ns or 0.011 miles/hour.<br><br>So then how fast does someone who is just sitting there move? I&#x27;m going to guess that the motion of one&#x27;s skin due to one&#x27;s pulse is the least avoidable motion...<br><br>So I asked the google, and found [http://asseca.co.uk/publications/Hologr ... rology.pdf](http://asseca.co.uk/publications/Holographic%2520Metrology.pdf) . It describes an experiment to locate bone loss in people&#x27;s skulls by observing the motion of their skin due to their heart beat using double-pulse holograms spaced 350 microseconds apart. It shows one person&#x27;s injury moving 5 wavelengths (694nm) in that 350 microseconds. The rest of the hologram has 1 or 2 wavelengths of motion. So lets call that 2 wavelengths (694nm, it was ruby) in 350 microseconds, thats 0.004 nm/ns.<br><br>If we take that 0.004 nm/ns and divide the 50 nm of motion we can afford by it, we get 12.5 microseconds. If we take the 5 wavelengths number instead, we get 0.010 nm/ns, or 5 microseconds.<br><br>If you&#x27;re doing microsecond exposures, you&#x27;re probably using a pulsed laser. I don&#x27;t know what pulsed diode lasers are capable of, but if its a flashlamp-pumped one it will have to be q-switched, the florescence time of YAG is 125 microseconds (and ruby is 3000 microseconds). And if you have a q-switched laser, might as well just do nanosecond exposures, and get it over with...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Jul 22, 2012 2:49 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Actually, if the skull is moving at a rate of 5 wavelengths of ruby in 350 microseconds (us), then the velocity of the skull,<br><br>v_s = s/t = (5<em>694)/350 nm/us = 9.9 nm/us.(or about a half inch/second, which sounds awfully fast for a skull under the influence of a heartbeat!)<br><br>Another way of looking at it is the rate of change of the phase. I think that 1/10th of a wavelength is too restrictive</em>. But assuming that a criterion of 1/10th of a wave is used, then there&#x27;s a phase shift, phi = 2pi/10 = pi/5. The phase difference of a wave moving a distance x is given by phi = kx (k = 2pi/lambda), assuming air, if the medium of propagation is not air but a medium with index n, then phi = knx. So, a phase shift of pi/5 is the minimum phase shift allowable for motion over a distance of x during the time of exposure, tau. So, the minimum allowable velocity of the recording geometry is then:<br><br>delta(phi) = kx/tau = kv_o = pi/5.<br><br>v_o = minimum allowable velocity of object<br><br>To make it even more general, you can replace the specific 1/10th of a wave to 1/m of a wave and the &quot;exposure&quot; by the pulse width p. Then the phase difference is 2pi/m and,<br><br>delta(phi) = kx/p = kv_o = 2pi/m<br><br>* I&#x27;d have gone for 1/2 a wavelength for transmission and 1/4 for reflection. However, this also can be calculated. Assuming linear recording (which in itself is not usually true!), then with no motion, the fringe is sinusoidal. If motion &quot;smears&quot; the wave by 1/m lambda, then the peak of the sinusoid has been flattened. It&#x27;s now relatively easy to determine the Fourier components of the smeared sinusoid if you know exactly how it&#x27;s smeared. The loss of efficiency can then be derived from either Kogelnik or (the older) MTF theory; in Kogelnik, the &quot;unwanted&quot; sinusoidal components (the ones that would not have occurred if the sinusoid had not smeared) can be plugged into the dephasing parameter whereas in the MTF theory, the loss of MTF is a measure of the loss of efficiency. Noise can also be calculated in this manner since the &quot;unwanted&quot; components will diffract slightly away from the primary component.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Jul 24, 2012 9:25 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I started writing this missive on Saturday, so others have filled in some of the blanks. But I will describe some holograms that I have made or seen made that use CW lasers to make holograms of flesh!<br><br>The holographic process cannot tolerate movement of the fringes greater than a half of a fringe, as that is where the bright ones will fill in the dim areas. Your other thread on multiple exposures has a table of spatial frequencies which is irrelevant to that discussion but pertinent to this one, as it gives you the distance between fringes that can be tolerated during exposure.<br><br>The information that is missing to answer your question is “how far does the surface of the skin move during respiration and circulation?” Knowing that will help you calculate how short of an exposure is necessary so that the reflected object light does not move out of tolerance. But Tommy filled in this blank, thank you!<br><br>Typically a Q-Switched Ruby or Nd:YAG Laser is used with a pulse (exposure) duration of 20 nanoseconds. This is more than short enough. <br><br>But I have seen skin holographed with Argon laser light chopped by a spinning disc, and that exposure was approximately 150 microseconds, see the picture I photographed and the article I wrote when I was Technical Editor of the defunct magazine holosphere, the Advocate for Holographic Science, Technology and Art. <br><br>[](https://holographyforum.org/forum/download/file.php?id=2208&amp;mode=view)<br> Photo of Canine Colon endoscope <br><br>[](https://holographyforum.org/forum/download/file.php?id=2207&amp;mode=view)<br> holosphere article on Canine Holo-Endoscopy <br><br>Another hologram of skin that I have seen recorded was with an undiverged He-Ne beam mechanically scanned of the hand holding the plate! Instantaneous exposure was short enough, but the geometry of the set up made viewing difficult. I will send anyone who requests it a pdf of the paper that I was involved with that describes the technique if you PM me c/o this forum. (<strong>Scanning hologrraphy and its applications,</strong> Z. Qu, Q. Feng, E. Wesly, T. jeong, Proceedings of the Fourth Internaional Symposium on Display Holography, 1991.)<br><br>Here is a photo of two of my co-authors demonstrating the principle. Here they are using a stripe of laser light to make a scanned hologram of an object. In the paper there is a photograph of Dr. Qu’s (the gentleman on the right in the picture) hand, which was exposed by an undiverged 50 mW He-Ne scanned over his hand, resting on a table!<br><br>[](https://holographyforum.org/forum/download/file.php?id=2206&amp;mode=view)<br> holosphere article on Canine Holo-Endoscopy <br><br>The trick to this experiment is the high peak power of the undiverged beam moving fast enough to make an exposure in the range of microseconds. They actually made holograms doing what is pictured, except with the lights our!<br><br>The most outrageous non-pulsed hologram of a person that I have ever heard about was a 4” by 5” 10E75 plate of some mystic swami who had such good control of his body that he could stop his heart! Allegedly made by John Hoffmann at the Fine Arts Research and Holographic Center sometime in the early ‘80’s, I have heard of this plate from a couple of sources, who may have been hoaxed. But they both described a dim and noisy image of a man sitting on a floor in a laser transmission hologram.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Jul 24, 2012 11:05 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> The information that is missing to answer your question is “how far does the surface of the skin move during respiration and circulation?” Knowing that will help you calculate how short of an exposure is necessary so that the reflected object light does not move out of tolerance.<br><br>It&#x27;s actually not that difficult to calculate. The diastolic and systolic pressures determine the forces on the skin, systolic pushing out and the systolic pushing in. The period is given by the heart rate. This would be given by the P to T waves, or roughly the QRS period. These can be determined by a cardiogram. So, knowing the individuals blood pressures and their heart rate, it&#x27;s relatively easy to calculate the transition frequency. The amplitude of the oscillation is a little trickier, but necessary since the amplitude of the oscillation determines the intensity of the interference pattern. If the amplitude causes a phase change of less than pi/5 (unlikely) then there will be no serious degradation of the hologram. The amplitude can be roughly determined by modelling the layers of skin as layers of jelly or rubber, with the stiffness dependent on age and plasticity. Looking up the tensile strength of rubber will probably not be too far off. <br><br>What would be interesting is: can you take a hologram of a live crab with a continuous laser? Is the exoskeleton too stiff to oscillate significantly?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Jul 24, 2012 3:12 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> systolic pushing out and the systolic pushing in<br><br>Ooops! I meant diastolic pushing in.<br><br>But, at the end of the day, you really don&#x27;t need a precise calculation. If you simply want to zap a person with a pulse laser, almost any of them will do. Back at Applied when I was working there in 1982, we used a ruby with a pulse width of 50 ns (if memory serves). I&#x27;m pretty sure an off-the-shelf one is much shorter now. So, unless you&#x27;re thinking of making a custom laser, you don&#x27;t need any detailed calculation. <br><br>There are times when zen trumps theory!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Fri Sep 07, 2012 4:31 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">I have dusted off and posted the paper on scanned Holography and Its Application on my web site, along with images done in this manner.<br><br>[http://nlutie.com/ewesly/PreambleQuScan.html](http://nlutie.com/ewesly/PreambleQuScan.html)<br><br>It&#x27;s hard to believe that we did this over 20 years ago!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Fri Sep 07, 2012 5:02 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">Dinesh, your missing two important variables. How much that skin is going to move under that pulling and pushing pressure. It&#x27;s resistance to motion, how stiff it is. That will change with age as the skin loses elasticity. <br><br>And outside of breathing and blood pressure different people have a different amount of skill for standing still. Think of the living statues in big cities. Many peoples motion will greatly exceed blood or breathing. <br><br>I doubt a real number that works across different subjects could be worked out, one that would actually predict the outcome. <br><br>Best to just give it a go and see what happens. <br><br>Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Sep 08, 2012 8:28 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Jeffrey Weil:</strong> Dinesh, your missing two important variables. How much that skin is going to move under that pulling and pushing pressure. It&#x27;s resistance to motion, how stiff it is.<br>Didn&#x27;t miss it, Jeff:<br><br>&gt; <strong>Dinesh:</strong> The amplitude of the oscillation is a little trickier, but necessary since the amplitude of the oscillation determines the intensity of the interference pattern. If the amplitude causes a phase change of less than pi/5 (unlikely) then there will be no serious degradation of the hologram. The amplitude can be roughly determined by modelling the layers of skin as layers of jelly or rubber, with the stiffness dependent on age and plasticity. Looking up the tensile strength of rubber will probably not be too far off.<br><br>You can model skin as a thin rubber sheet and, knowing the resistance of rubber, ie the tensile strength of rubber, you may be able to determine the amplitude. As I mentioned, it is dependent on age and other factors. But, we may still get a rough figure of deterioration by associating the loss of plasticity in the skin with the loss of plasticity in the tintanic membrane. So, as a (very!) rough calculation, you model the young skin as a sheet of rubber, then you measure hearing loss as a function of age. The highest frequency that can be heard will be a measure of the stiffness of the tintanic membrane and you can then associate this loss of hearing with the loss of plasticity in the skin. <br><br>&gt; <strong>Jeffrey Weil:</strong> And outside of breathing and blood pressure different people have a different amount of skill for standing still. Think of the living statues in big cities. Many peoples motion will greatly exceed blood or breathing.<br><br>True, and I believe this was a problem for 19th century photographers. The subjects in those photographs had to be very still for the several seconds? minutes? of the exposure. However, in the case of holography, a physical motion of the subject is many thousands of wavelengths and so beyond the scope of the problem (or perhaps, beyond the relevancy of the problem). We may create a parallel, contrasting the physical motion of the subject in a 19th century photograph to a hologram. The important parameter is not the motion of the subject per se, but the motion of the subject relative to the lens in the camera.. So, we may ask: &quot;By how much should the lens translate or rotate before aberrations become noticeable?&quot; It&#x27;s possible to calculate this in detail if you know the diameter and focal length of the lens (I hope you were paying attention to my talk on lens aberrations at MIT!). But, taking a back-of-an-envelope approach, a typical camera lens would have been, what? 5in? 6in . Typically, a subject would have been roughly 5 feet away? Also, typically, the f-stop on a 19th century camera would have been fairly large, I&#x27;m guessing (I&#x27;m sure you photographers already know this exactly!). Well, there would have been large spherical aberrations, so depth of field would probably have been restricted to about 1/5th to 1/10th of the subject to camera distance, approximately 5 to 10 inches. A 5 - 10 degree rotation would begin to cause coma, and, this would have been caused by a physical motion of about 5 to 10 inches. These figures can probably be scaled so that a correlation may be made between the motion of a lens and the motion of fringes causing the hologram. It would be an interesting correlation, but that would be project number 56 or 57 down the timeline!<br><br>&gt; <strong>Jeffrey Weil:</strong> Best to just give it a go and see what happens.<br><br>Exactly! Sometimes, you simply have to forget the theory!<br><br>&gt; <strong>Dinesh:</strong> But, at the end of the day, you really don&#x27;t need a precise calculation. If you simply want to zap a person with a pulse laser, almost any of them will do.<br><br>What&#x27;s a &quot;living statue&quot;? Besides your status as you wait for the car ahead of you to move in a traffic jam</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Sat Sep 08, 2012 8:46 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">Hey Dinesh,<br><br>A &quot;living statue&quot; is one of those people that dress up as a statue and then stand very very still in a crowed public place as a performance. They usually paint themselves up in white or gold and some of them are pretty good at it. Even with a pretty long observation, a few minutes, you can&#x27;t see any movement, they are statues.....until they suddenly become alive and scare your little kid or grandparent!<br><br>Jeff W</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holorefugee</span>
+                <span class="post-date">Sat Sep 08, 2012 8:42 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">That brings up my favorite Dinesh quote of all time:</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Sep 09, 2012 8:23 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Well, when you&#x27;re examining or trying to analyse a physical situation, the most important thing is to get a physical intuition of the various phenomena playing out from a physical point of view; a &quot;sense&quot; of the thing, as it were. I think in pictures, so I &quot;see&quot; the phenomenon playing out almost like a movie. Once you get that physical insight, the mathematics fleshes the details and acts like a scaffolding to show the progression or evolution of events. But, as I said, the most important thing is to get this physical insight. If the physical insight is sufficient to model the phenomena up to the level of interest, then you don&#x27;t need the mathematics. In this case, the mathematics simply gets in the way. Effectively, you have too much detail and the actual physics (or engineering) gets obfuscated. Also, the physics must drive the mathematics, not the other way around (all too common!). What we&#x27;re doing is trying to understand a physical process, and mathematics is but one tool. The laws of nature is the framework and the mathematics is the mortar. If a basic framework is enough, you don&#x27;t need any mortar. If all you need is a tent for a weekend camping trip, you don&#x27;t need to order a lot of cement and mortar to build a brick wall in case of hurricanes! There&#x27;s nothing &quot;smart&quot; about showing off tons of mortar to your fellow campers to show how much foresight you apparently have to take account of every possible turn of events. <br><br>In this case, the laser light hits the skin, the laser light bounces off the skin, the laser light from various different parts of the skin hits a specific part of the plate, the various light beams from the various parts of the skin form a greyscale &quot;blotch&quot; on the film. Look at a point near to the blotch, there should be another blotch. This other blotch is a little darker, or maybe a little lighter. So, OK, keep both those blotches still awhile, I&#x27;m trying to take a photo of them. Say &quot;Cheese&quot;, blothces. Now dammit, the blotches moved! Why? Well, because the subject moved. This subject is antsy, it can&#x27;t keep still. Giving it a lollipop ain&#x27;t gonna help! So, what are my limitations? What&#x27;s causing it to move? Well, it&#x27;s living skin. How can I model living skin to get a better idea? One way is to think of it as the membrane on a drum head. But, underneath this membrane is a reservoir of liquid attached to a piston. The piston is constantly being drawn backwards and forwards. As the liquid surges and falls back under the membrane, the membrane oscillates. Does this matter? Will a piece of mathematics allow me to predict the rate at which it rises and falls. But, maybe it&#x27;s not necessary. If I can find a faster camera, or maybe light it better I can overcome my problem. Well, I can find a faster camera, a pulse laser! So, do I need to analyse further? No!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Arturo</span>
+                <span class="post-date">Thu Feb 21, 2013 5:18 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> I have dusted off and posted the paper on scanned Holography and Its Application on my web site, along with images done in this manner.http://nlutie.com/ewesly/PreambleQuScan.htmlIt&#x27;s hard to believe that we did this over 20 years ago!<br><br>This is nice, Ed... Whatever happened with this? Any google search for &quot;scanned holography&quot; yields results on 3d microscopy reconstruction... Were there any follow-up papers to this?</div>
+        </div>
+
+    <div class="thread-nav"><a href="646.html" class="prev-thread">← Mirror resurfacing</a><a href="Equipment.html">↑ Equipment</a><a href="585.html" class="next-thread">multiple exposures on a single plate →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11493.html" class="card">
+                <h3>Could anyone explain how dynamic holography is achieved?</h3>
+                <div class="card-meta">Techniques · 5 posts</div>
+            </a>
+            <a href="11469.html" class="card">
+                <h3>Can an achromat hologram (full aperture transfer method) be made using photoresist instead of DCG?</h3>
+                <div class="card-meta">Equipment · 3 posts</div>
+            </a>
+            <a href="11443.html" class="card">
+                <h3>How are 3D dot matrix holograms made?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a>
+            <a href="11432.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 9 posts</div>
+            </a>
+            <a href="11433.html" class="card">
+                <h3>Can the obis core series lasers be used as a light source for holography?</h3>
+                <div class="card-meta">Equipment · 1 posts</div>
+            </a>
+            <a href="11430.html" class="card">
+                <h3>How do the holographic foils on pokemon cards work?</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

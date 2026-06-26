@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typo in Kogelnik? — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="4979.html" class="prev-thread">← Single line</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4976.html" class="next-thread">Simple H1H2 Transfer Question →</a></div>
+    <h1>Typo in Kogelnik?</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>4</td></tr>
+        <tr><td>Views</td><td>838</td></tr>
+        <tr><td>Started</td><td>Tue Aug 09, 2005 10:16 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/neil.html">Neil</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=4975" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue Aug 09, 2005 10:16 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;m going through Kogelnik line by line for my paper in Wales next year, and I&#x27;ve noticed what seems to be a typo. Equation 17 defines a de-phasing parameter, which I&#x27;ll call zeta. Kogelnik then expands the zeta function, to get the effect of small variations in the reconstruction angle and wavelength, by doing a Taylor expansion on zeta, from which he gets equation 18. However, he also calls equation 18 zeta. Shouldn&#x27;t this be d(zeta), the rate of change of the dephasing parameter as a function of small changes in recon angle and wavelength? I&#x27;ve just done the Taylor expansion and the only way I can make sense of it is to say that equation 18 is not zeta, but:<br><br>zeta(lambda_0 + d(lambda), theta_0 + d(theta)) - zeta(lambda_0, theta_0) = d(zeta)<br><br>Can anyone confirm, or explain where I&#x27;ve gone wrong?<br><br>Also, this seems to have a bearing on the discussion following equation 30. In this he justifies the ignoring of the second derivative. However, he does this by comparing the gamma exponent with zeta, not d(zeta), thus getting a limit on delta theta. Shouldn&#x27;t this be both a function of delta(theta) anddelta(lambda), in fact, shouldn&#x27;t it be a ratio? <br><br>By the way, I&#x27;m pretty sure that the condition stated: &quot; R&#x27;&#x27; &lt; (zeta)<em>R&#x27; &quot; is a typo. I think it should read &quot; R&#x27;&#x27;&lt;(rho_x)</em>R&#x27; &quot;<br><br>I was wondering if anyone out there has spotted these and reconciled them.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Neil</span>
+                <span class="post-date">Sat Aug 13, 2005 4:30 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Despite it being about 18(!) years since I last read this paper I&#x27;ve had a quick look at your points and hope that the following comments, while not definitive, are helpful:<br><br>Re. equation 18 - you are right in what you say, Dinesh. Kogelnik is playing a bit &quot;fast and loose&quot; with the notation here. Remember that he is expanding the de-phasing parameter (your &#x27;zeta&#x27;) about lambda_0 and theta_0 - the Bragg condition. Hence, by definition, the de-phasing parameter is zero at this point. Therefore if you move a small way from this condition (d(zeta)), the new zeta = old zeta +d(zeta). Since &#x27;old zeta&#x27; is defined to be zero he can legitimately let zeta become d(zeta), but I admit it is not very rigorous. I think overall that the notation in this paper doesn&#x27;t conform to what would be expected nowadays but, generally speaking, makes for clarity.<br><br>Re: The reasoning about equation 30. I found this a bit harder to follow. I think what you are saying is again strictly correct but I think Kogelnik is saying something like &#x27;look, the fact that just delta(theta) has to be so big for the conditions to be violated shows that you have to go a long way from the Bragg condition for my reasoning to fall over&#x27;. He could have done the corresponding calculation for delta(lambda), although, as you point out, this is straightforward, too. He probably didn&#x27;t do the expression for both delta(lambda) and delta(theta) as the play-off between one and the other would obfurscate the simple argument.<br><br>Re: Your comment &#x27;I&#x27;m pretty sure that the condition stated: &quot; R&#x27;&#x27; &lt; (zeta)<em>R&#x27; &quot; is a typo. I think it should read &quot; R&#x27;&#x27;&lt;(rho_x)</em>R&#x27; &quot;&#x27; - you are quite right to spot the typo here, but I think you mean &quot; R&#x27;&#x27;&lt;(rho_z)*R&#x27; &quot;.<br><br>Good luck with your paper.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Aug 13, 2005 1:18 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks for your comments. Of course over the 35 odd years since the paper was published it&#x27;s results have been confirmed many times, so it makes sense that it was more a question of style than any factual errors. <br><br>[quote:1b42ec07a7=&quot;Neil&quot;]Re: Your comment &#x27;I&#x27;m pretty sure that the condition stated: &quot; R&#x27;&#x27; &lt; (zeta)<em>R&#x27; &quot; is a typo. I think it should read &quot; R&#x27;&#x27;&lt;(rho_x)</em>R&#x27; &quot;&#x27; - you are quite right to spot the typo here, but I think you mean &quot; R&#x27;&#x27;&lt;(rho_z)*R&#x27; &quot;. [/quote:1b42ec07a7]<br><br>oops!. Well, if Kogelnik can do it, I guess I may be forgiven!<br><br>[quote:1b42ec07a7=&quot;Neil&quot;]Good luck with your paper.[/quote:1b42ec07a7]<br><br>Thank you.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Oct 14, 2005 2:04 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">This post was deleted on request by Dinesh on Wednesday October 19 2005, please see this thread for details:<br><br>[http://www.holographyforum.org/phpBB2/v ... php?t=4042](http://www.holographyforum.org/phpBB2/viewtopic.php?t=4042)</div>
+        </div>
+
+    <div class="thread-nav"><a href="4979.html" class="prev-thread">← Single line</a><a href="General-Old.html">↑ General Holography (old)</a><a href="4976.html" class="next-thread">Simple H1H2 Transfer Question →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question about speckle reduction — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11268.html" class="prev-thread">← this may sound crazy</a><a href="Techniques.html">↑ Techniques</a><a href="11258.html" class="next-thread">Digital Hologram →</a></div>
+    <h1>Question about speckle reduction</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>3</td></tr>
+        <tr><td>Views</td><td>25,883</td></tr>
+        <tr><td>Started</td><td>Sun Oct 16, 2022 1:32 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/din.html">Din</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11261" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Oct 16, 2022 1:32 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Today I noticed something, and was wondering if anyone can explain it.<br><br>I put a spatially filtered laser beam (spread with 40X objective) on a white screen. Speckle is very strong. A diffusion screen was placed before the white screen, and while my hand was holding the diffusion screen (and it was in motion) the speckle was basically eliminated. When the screen was resting on the table (no motion for the screen) the speckle returned, almost completely, with little or no reduction. Ok so far.<br><br>But, with the above in place on the table, I took a piece of ordinary clear glass (or clear acrylic) and placed it in front of the stationary diffusion screen, and moved it rapidly back and forth (or up and down) with my hand, and it eliminated the speckle. So, the presence of a rapidly moving piece of clear glass or acrylic in front of the (stationary) diffusion screen will eliminate speckle. (To clarify, the spread beam goes through the moving clear glass, through the stationary diffusion screen, then to the white screen.) <br><br>This can be easily verified by anyone who has a spread laser beam showing speckle on a surface, with a stationary diffusion screen, and a rapidly moving (by hand in the air) piece of glass or acrylic. Do inhomogeneities in the glass or acrylic cause this?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Oct 17, 2022 9:10 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farinawrote:↑Sun Oct 16, 2022 1:32 pm:</strong> Do inhomogeneities in the glass or acrylic cause this?<br><br>Basically, yes. Speckle is caused by phase differences due to index and thickness differences of components along the optical path, and the rms (root mean square) height of the surface. Because of the extreme coherence of laser light, if the rms is roughly ~ λ/2, and the separation of surface variation is of the order of the iris, interference effects will occur, which is seen as speckle, due to the fact that the speckle pattern is smaller than the iris. If a moving screen, whether a diffusion screen or apparently plain glass is moved in the path, variations of thickness will cause variations of phase, causing the speckle to move - translate - rapidly. Phase difference is given by δφ = (2πn/λ)(δx), where δx is the path difference, and n is the index. So, if either the &#x27;plain&#x27; glass had an rms of over λ/2, or if the &#x27;plain&#x27; glass were rotated slightly, ie tipping the plate, as it passed in front of the beam, variations in path length, and/or variations in index - inhomogenities - will cause rapid phase differences causing the whole speckle to vary too fast for the eye to follow.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Oct 17, 2022 10:16 am</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks Din, that helps a lot. From what you wrote, I get the impression that the thickness variation (during a holographic exposure) of any optical component in the beam path is the key factor for speckle reduction (i.e., speckle averaging in the final holographic image).<br><br>I tried jiggling a single piece of clear glass in the spread beam (with no subsequent stationary diffusion screen) to see if it had any effect. I also tried a piece of clear glass and a piece of clear acrylic in series (jiggling both). Based on visual observation only, I didn&#x27;t see a speckle reduction on the white screen. Perhaps if the speckle pattern was averaged (for say a 3-minute holographic exposure) it would be less apparent in the final holographic image.<br><br>For these tests to reduce speckle in a hologram, I have in mind an assisted Denisyuk (Saxby &quot;bypass&quot;) layout. Half of the spread beam will serve as the reference beam, and the other half for object illumination. The speckle reduction methods can be done off-table, since the only thing on the isolation table is the object/plateholder assembly.<br><br>Thanks again.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11268.html" class="prev-thread">← this may sound crazy</a><a href="Techniques.html">↑ Techniques</a><a href="11258.html" class="next-thread">Digital Hologram →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="8590.html" class="card">
+                <h3>Question about dichromate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="8511.html" class="card">
+                <h3>Newb(?) question about perceived depth</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="8482.html" class="card">
+                <h3>question about color changes</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 3 posts</div>
+            </a>
+            <a href="916.html" class="card">
+                <h3>question about gelatin hardness/swelling</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

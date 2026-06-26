@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speckle noise reduction — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="713.html" class="prev-thread">← Can this be fixed?</a><a href="Techniques.html">↑ Techniques</a><a href="710.html" class="next-thread">Holography &amp; Holographers map →</a></div>
+    <h1>Speckle noise reduction</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Techniques.html">Techniques</a></td></tr>
+        <tr><td>Posts</td><td>69</td></tr>
+        <tr><td>Views</td><td>278,175</td></tr>
+        <tr><td>Started</td><td>Wed May 01, 2013 10:06 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/kaveh1000.html">kaveh1000</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/john-klayer.html">John Klayer</a> · <a href="../authors/zipsister.html">zipsister</a> · <a href="../authors/ron-olson.html">ron olson</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=714" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 01, 2013 10:06 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">As my DCG holograms improve, the various defects and noise sources have become easier to isolate -- but not necessarily easier to solve <br><br>Dinesh brought up the subject of a new technique to reduce or eliminate speckle in digital holography, and I was wondering if speckle can be reduced in traditional &quot;analog&quot; DCG. In practically all of the reflection holograms I&#x27;ve ever seen or done, there is some very fine (hardly noticeable unless one looks at the film very closely) graininess, which looks like very tiny black holes.<br><br>I assume this is speckle. I am starting to read up on the subject, and trying to reduce it (if possible) is a new subject to me.<br><br>The 3 following approaches come to mind:<br><br>1) Modify the object to make it less apparent. For example, I&#x27;ve seen that speckle is especially noticeable in larger areas of solid, uninterrupted, light colors (for example white) on the object. On the other hand, metallic objects may not show speckle (maybe it&#x27;s still there, but not noticeable for some reason).<br><br>2) Modify the method of holographic recording (?)<br><br>3) Modify or change the reconstructing light (?)<br><br>If anyone has thoughts on this (or can suggest any papers), I would appreciate it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 01, 2013 10:35 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I tried to take some photos of test-strip DCG holograms done last weekend, to show the speckle. It&#x27;s difficult to photograph, but it seems to be noticeable in the marble with the white swirl in the middle. Different types of objects (different colors/surfaces) seem to have a big influence on how apparent the speckle is.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed May 01, 2013 12:18 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">I&#x27;ve actually been thinking about this for a while now. I think that speckle does reduce the &quot;pictorial smoothness&quot; of an image. It&#x27;s hard to state this in a clear way, but the goal of holography has always been to create a three dimensional image that appears to be &quot;really there&quot;. Yet, a holographic image is clearly not &quot;really there&quot;, because of mismatches in hue and tonal value and speckle. <br><br>At any rate, let&#x27;s start by examining the cause of speckle. It occurs because any surface that appears to be smooth actually has variations in smoothness at a scale that&#x27;s too small for the eye to detect; perhaps a &quot;smooth&quot; surface may have an rms roughness of a few microns. Imagine that you&#x27;re a bacterium crawling across a surface that seems smooth to the human eye, then you&#x27;ll see a terrain with hills, cliffs etc. When light scatters off such a surface, there are &quot;random&quot; phase variations caused by the random roughness and the orientation of the roughness. These random phase variations cause random &quot;interference dots&quot; which record on the medium. <br><br>So, how to overcome this? Well, three ways occurred to me. One way is, of course, to polish the shinola out of the surface. In other words, use maybe cerium oxide (like the amateur astronomers who make their own mirrors use), or something similar. This may be done if the surface is relatively flat to begin with, but it&#x27;s not practical for a surface with lots of contours. Another way is to pinhole the object. If a large lens is placed in front of the object, ie between object and plate, and a small pinhole were placed at the focal point of the lens, then the &quot;noise&quot; (speckle) may be filtered out. The diverging beam after the pinhole should be clean. The disadvantage is the the object will then be &quot;backwards&quot; and, depending on the lens used, will be magnified (or minified). The advantage is, of course, that this is a one-step setup - you can place the H2 right inside the image field. Still another method - much more speculative - is to create a hologram whose phase profile is the exact opposite of the random phase profile of the speckle; a sort of &quot;Holographic Schmidt Camera&quot; for speckle correction. This latter solution is probably a PhD project for someone!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 01, 2013 2:19 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Thank you Dinesh, that is very helpful. The &quot;microscopic roughness&quot; causing speckle has been confirmed in my tests, but I didn&#x27;t realize it until you described this effect. I have a particular kind of paint which produces a beautiful, matte, velvety surface, yet it also produces a lot of speckle in a hologram. I believe the nice flat, velvet-like effect in this paint (Pelikan Plaka from Germany) comes from the microscopic roughness of the surface.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">kaveh1000</span>
+                <span class="post-date">Thu May 02, 2013 12:32 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">From what I recall this is a fundamental problem that has no solution. The speckle will be there whatever you do, as it is caused by the random interference of laser light, and a consequence of the high degree of coherence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu May 02, 2013 1:13 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Thanks Kaveh. It does seem like a fundamental problem. But now that I&#x27;m taking a close look at a variety of surfaces in holograms that I&#x27;ve done, I&#x27;m seeing a lot of variation in the perceived speckle. For example, on a shiny, silver object, I cannot detect any speckle. On a pure flat white surface, the speckle is very noticeable. The darker a surface gets, the less noticeable it is (probably because speckle is like &quot;poking tiny black holes&quot; in the surface of an object -- as seen through the film -- and the darker the object, the less apparent the black holes).<br><br>Maybe other forum members could check this on their holograms, comparing the apparent speckle on different kinds of objects, e.g., shiny metallic, dull metallic, paints of different colors, glossy colors, matte colors, etc.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu May 02, 2013 2:17 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Speckle is in the eye of the beholder.<br><br>Or the camera. It is well-known that when photographing laser-lit holograms there is a trade off between aperture openings (f/stops) for adequate depth of field without too much speckle. The smaller the opening, the better the depth of field, but the speckle gets bigger.<br><br>It is hard to say from your photos is whether the dots are coherent speckle or coating issues. It is difficult to generate speckle with white light but I have seen it off the dashboard of my old VW GTI, with the sun at grazing incidence, off its textured dashboard surface. There was a great Scientific American Amateur Scientist article on the phenomena.<br><br>To check if the artifacts in your hologram are truly speckle, you could use your eyes or a single lens reflex camera, film or digital, as you don’t necessarily need to take pictures, just to observe what happens to the “speckle” as you view through the lens as it is stopped down. Hopefully your SLR has a depth of field preview button.<br><br>You could also stop down your eyes by making a sphincter with your thumb and forefinger to act as an iris in front of your eye. Practice looking at a laser lit object to see the effect, then apply it to the hologram. If the pattern enlarges, then it’s speckle.<br><br>Another test for speckle is observing which way it moves when the observer moves. Without correcting my myopia, (glasses off) speckle moves contrary to my direction. With the cheaters on, it moves slowly with me. Moving the SLR with the lens in and out of focus will also show the same effects. <br><br>So take a look at the holograms with a different eye and see what you shall see! And you laser lit surfaces!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu May 02, 2013 2:24 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">It&#x27;s not completely random. It appears random because of the random nature of the surface roughness. Thus, reflection from a pool of liquid not subject to no vibration does not show speckle. Similarly, a pool of mercury will show no speckle. The reason that Joe does not see any speckle on a metallic surface is also because metallic surfaces tend to be smoother, since any manufactured metallic surface was cooled from the liquid state, at least today. I suspect a horses shoe may not be so speckle-free, since it&#x27;s hammered. The pure white surface was probably painted, so would have considerable surface roughness, but at a low scale of about 2 to 3 lambda. Most good mirrors are polished to an rms of roughly lambda/5 to lambda/10, which is too low to cause speckle; the rms roughness should be at least lambda. <br><br>The problem can be solved with equipment available today. At the hobbyist level, just polishing the surface can reduce speckle quite a bit, assuming a relative flat surface. Shadowgram techniques may also mitigate speckle, since there&#x27;s no reflection from any surface. At a more advanced level, it is possible to scan a surface with an AFM, map the surface profile down to the sub-nanometre scale, and so create a phase mask. There also exist new digital techniques, such as the one I mentioned on the &quot;off topic&quot; page by the Japanese team. New optical computing techniques may also be used, such as, for instance, superimposing an optical neural network on the surface.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu May 02, 2013 2:42 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">Thank you Ed, I will be giving that some thought. Maybe it will help to describe how I currently &quot;see&quot; speckle. If I take almost any clean reflection hologram (good in every respect) and focus on it as closely as possible, and ask myself &quot;why doesn&#x27;t this look exactly like a real object?&quot;, the first objection that usually comes to mind is a very fine, almost (but not quite) imperceptible graininess. Depending on the hologram (and now I&#x27;m thinking it has to do with the surface of the object more than anything else) this graininess may be totally absent (I have never in my life seen this over the entire image of any reflection hologram, but I have seen it in certain sections of holograms), or it is present in varying levels, and sometimes it gets obtrusive.<br><br>Just to throw something speculative out there, I wonder, if the input beam is modulated during exposure, would it have any effect on the speckle distribution? By modulation, I was thinking of slightly changing or wiggling the angle of the beam going into the spatial filter (in a Denisyuk setup). If the speckle pattern could be changed many times during the recording, maybe it would tend to cancel out?<br><br>Thanks for you comments, Dinesh, I will be mulling over them.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu May 02, 2013 3:45 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">I have done speckle averaging when photographing holograms in two ways. By replaying a laser transmission hologram with a beam diverged or more properly scattered by a piece of ground glass. Of course if you do this, you will see a very coarse speckle pattern, but if the ground glass is moving, like spinning on an electric motor shaft, the speckle will average out.<br><br>Another trick was utilized in photographing some bubble chamber holograms when I worked at Fermilab. The particle tracks were pretty small, and could get obscured by speckle. I had a 500 millimeter focal length Reflex-Nikkor lens on my trusty Nikon F, and used a rotating off-center iris on it.<br><br>This might be a bit hard to comprehend unless you know what these lenses look like. The Reflex-Nikkors are catadioptric designs, combinations of lenses and mirrors. Attached is a slice of one of my classroom handouts, although the diagram is courtesy of the Nikon F-Nikkormat Handbook of Photography.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2372&amp;mode=view)<br><br>I cut an off-center hole in a circle of cardboard, similar to the second illustration, and jigged it so that the off center circle swept through the doughnut shaped clear aperture of the front of the lens during the photographic exposure. This averaged out the speckle by having a variety of apertures to look through.<br><br>Back to your original question, about moving something during exposure to cancel out speckle, you would probably average out the holographic interference fringes also, like the photographic case in the first paragraph, yielding a low or no-contrast holographic pattern.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu May 02, 2013 4:09 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">ok, thanks Ed.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri May 03, 2013 7:41 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">At Simian Company, the speckle was decreased by moving a diffuser in the object beam to a random place between each of three exposures (RG&amp;B). Using a diffuser in each object beam will reduce the speckle you record. Larger the diffuser, lower the speckle contrast. More object beams, less speckle. Multiple exposures, less speckle. Look at your holograms in a totally dark room with minimum light to see it, less speckle (pupil dilation).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat May 04, 2013 4:48 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">Thanks a lot, Bob. All of those suggestions make perfect sense, and I have printed a hard copy for my records.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat May 04, 2013 9:29 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">After what Bob said, and after further thought, it seems that measures can be taken to reduce speckle in a split-beam reflection format, but probably little can be done in Denisyuk mode.<br><br>Today I was looking at my objects under spatial filter illumination, and all the speckle was clearly visible, just like in the finished hologram. It looks like the hologram simply records what it sees, I didn&#x27;t quite appreciate this before.<br><br>So I assume that in a standard split-beam reflection setup, a shutter could be placed before the laser(s) and the exposure could be broken up into a number of shorter exposures. Then when the shutter is closed, a diffusion screen could be displaced slightly in front of the object beam(s) to change the speckle distribution, then the shutter could be opened again, and the process repeated. Of course, the shutter and diffusion screen movement cannot introduce the slightest disturbance, but I think this can be done with careful design.<br><br>Thanks again Bob.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Sun May 05, 2013 2:51 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">I remember back in the paleoholgraphy 1970&#x27;s some mention of attaching a reference beam mirror to a loudspeaker movement and playing music to cancel speckle. I never tried it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun May 05, 2013 6:13 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Thanks, at least there was a mention of it.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">zipsister</span>
+                <span class="post-date">Sun May 05, 2013 6:23 pm</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">While making Hololujah each metre square hologram frame was exposed using the raw 532nm beam being transmitted through two diffusers (two stationary sheets of frosted glass); two were needed to completely eliminate all speckle. No spatial filter, just the raw beam for less power loss and reduced exposure time.<br><br>Dave</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon May 06, 2013 4:12 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">Thanks, I will try tests with diffusers. But it sounds like you have more laser power than me</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">ron olson</span>
+                <span class="post-date">Wed May 08, 2013 1:13 pm</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">I was tempted to try this out and went so far as to offer a swap to Edmund Optics for a large format H1. The product marketing manager declined but I haven&#x27;t given up on it yet. I saw some of this R&amp;D coming down the pike a couple ears back. I believe it involves ~50 microns of motion at a few hundred Hertz. If anyone gains access to one of these, I&#x27;d love hearing of a first-hand trial with a deep-image H1.<br><br>[http://www.edmundoptics.com/lasers/lase ... ucers/3409](http://www.edmundoptics.com/lasers/laser-optics/laser-windows/laser-speckle-reducers/3409)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu May 09, 2013 5:17 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">Thanks for posting the link. It&#x27;s very interesting that there are strategies for dealing with speckle.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Fri May 10, 2013 9:29 am</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">&gt; <strong>ron olson:</strong> I was tempted to try this out and went so far as to offer a swap to Edmund Optics for a large format H1. The product marketing manager declined but I haven&#x27;t given up on it yet. I saw some of this R&amp;D coming down the pike a couple ears back. I believe it involves ~50 microns of motion at a few hundred Hertz. If anyone gains access to one of these, I&#x27;d love hearing of a first-hand trial with a deep-image H1.http://www.edmundoptics.com/lasers/lase ... ucers/3409<br><br>I&#x27;ve used one. They work great.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Mon May 13, 2013 8:20 am</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Bob,<br><br>Did you use it as the reference beam?<br><br>I found a lot more about it on the Optotune web page. They don&#x27;t mention using it for holography.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon May 13, 2013 1:49 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">&gt; <strong>John Klayer:</strong> Bob,Did you use it as the reference beam?<br><br>I was wondering about that also.<br><br>In reference to split beam holography, I would like to ask another question about &quot;speckle management.&quot; If we place a diffuser in the object beam, and if the position of the diffuser is displaced very slightly during the exposure, without introducing any movement to the table (i.e., by carefully suspending the diffuser from the ceiling using nylon threads, etc.), would this work to reduce speckle? Bob had mentioned that the diffuser displacement could be done between a series of exposures, so it seems this would have the same effect.<br><br>If an object beam passes through a diffuser, and the diffuser moves during the exposure, will that introduce any kind of path length change? Of course, the diffuser would have to be suspended in air (etc.) as mentioned above. If this does not introduce a path length change, then the diffuser could be displaced many times during the exposure, for example by gently pulling a thread attached to the diffuser (or by using a piece of nitinol wire as part of the diffuser suspension system, and gradually increasing the voltage to the wire so that it moves the diffuser slightly during the exposure).<br><br>I have checked the laser speckle distribution as a diffuser is moved, it takes very little movement to change the distribution.<br><br>John, on a completely different subject, have you ever made a backlit transmission cave-hologram? In other words, by placing the laser at a distant location (maybe 20 or 30 feet away), and exposing a very deep hologram showing the side(s) of a cave or a series of stalagmites, etc.? The reference beam would hit the plate directly, while the object beam would be the backlit stalagmites, etc. I wonder if a cave is that stable. Maybe you&#x27;ve been doing this all along (or maybe it won&#x27;t work) but I always wanted to ask.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Tue May 14, 2013 8:37 am</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">Only in a reconstruction beam to view the hologram. It vibrates, so is no good for recording beams (unless pulsed!).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue May 14, 2013 11:02 am</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">Don&#x27;t forget that the holographic pattern is a form of speckle, or vice versa, or generically, an interference pattern.<br><br>Holography &quot;freezes&quot; light waves by recording a stationary interference pattern. If a component moves, the pattern moves, and what was dark might be overwhelmed with bright, and vice versa. No contrast, no hologram.<br><br>Moving things during replay will reduce speckle, but not during recording. I have seen beams bounced off of spinning ball bearings, so that the random scratches on the surface of it average out to no speckle.<br><br>Multiple recordings of moved diffusers, etc., would reduce speckle by superimposing many patterns, but don&#x27;t forget, the #1 killer of holograms is movement!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 14, 2013 12:13 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Let me clarify what I&#x27;m trying to say. I would prefer to do the actual testing, but I&#x27;m re-doing my layout at the present time.<br><br>Of course, a general rule in holography is that &quot;movement&quot; cannot be tolerated. Path lengths definitely cannot be changed. But I&#x27;m talking about a very specific case that does not involve movement in the usual sense. I don&#x27;t know if this kind of movement will result in a path length difference, that&#x27;s what I want to test when I&#x27;m able.<br><br>First of all, think of a single beam reflection hologram. The illuminating laser does not have to be isolated, it can in fact &quot;move&quot; slightly during the exposure.<br><br>Now, consider a split-beam reflection hologram. I plan to insert a simple piece of glass (a microscope slide cover with some etching, etc. to make it a diffuser) in the object beam, and this will be strung from the ceiling, with no table contact. Part of the suspension system will include a length of nitinol wire (aka &quot;muscle wire). When a voltage/current is applied to the wire, it will shrink slightly. So when I apply a small voltage/current, the diffuser will move slightly. It takes very little movement to change the speckle distribution, by the way. Probably 0.1 millimeter would change it.<br><br>There is no doubt whatsoever that the diffuser movement will cause no disturbance to the table or other components, with careful design. So &quot;movement&quot; in that sense is not the question. The question is: Will the path length of the object beam be increased/decreased by the small vertical displacement of the diffuser? Another way of looking at it might be to forget that the glass has a frosted or etched surface, and just think of it as a plain piece of glass. Will very slight angular displacements (as it moves up or down vertically) cause a path length change for any reason? I really don&#x27;t know the answer to that question.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">John Klayer</span>
+                <span class="post-date">Tue May 14, 2013 1:34 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">Now I guess I&#x27;ll start experimenting with vibrating diffusers for transmission hologram viewing. <br><br>As for Joe&#x27;s off topic question:<br><br>John, on a completely different subject, have you ever made a backlit transmission cave-hologram? In other words, by placing the laser at a distant location (maybe 20 or 30 feet away), and exposing a very deep hologram showing the side(s) of a cave or a series of stalagmites, etc.? The reference beam would hit the plate directly, while the object beam would be the backlit stalagmites, etc. I wonder if a cave is that stable. Maybe you&#x27;ve been doing this all along (or maybe it won&#x27;t work) but I always wanted to ask.<br><br>I have thought of doing something like that and maybe calling it Light At The End Of The Tunnel.<br><br>John</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 14, 2013 1:41 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>John Klayer:</strong> I have thought of doing something like that and maybe calling it Light At The End Of The Tunnel.<br><br>Very good title!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Tue May 14, 2013 6:32 pm</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> It vibrates, so is no good for recording beams (unless pulsed!).<br><br>Even pulsed, I&#x27;m not sure this is true. The vibration frequency would have to be of the same order as the inverse pulse width. In other words, if the pulse width was 20ns and the diffuser moves at a rate of a centimetre a second, it&#x27;ll move 0.4 microns over the period of the exposure, while the speckle dimension is of the order of a micron or so. <br><br>&gt; <strong>Joe Farina:</strong> There is no doubt whatsoever that the diffuser movement will cause no disturbance to the table or other components, with careful design. So &quot;movement&quot; in that sense is not the question.<br><br>Not completely true. It&#x27;ll move the adjacent air. If the beam path is traversing the air surrounding the diffuser, then, as the air moves, there&#x27;ll be a variation of index. This will cause a phase change and so shift the fringes. In addition there are doppler effects due to the air movement. These effects may be small enough to ignore, however, the effects may be of the same order as the speckle itself. <br><br>&gt; <strong>Joe Farina:</strong> Will the path length of the object beam be increased/decreased by the small vertical displacement of the diffuser?<br><br>&gt; <strong>Joe Farina:</strong> Another way of looking at it might be to forget that the glass has a frosted or etched surface, and just think of it as a plain piece of glass.<br><br>A plain piece of glass is actually quite different from a diffuser. Consider first a plain piece of glass. An object beam for display holography is a divergent field, ie the rays diverge radially outwards. . Consider a typical ray impinging on the glass at some angle, theta. Assuming the glass was absolutely of uniform thickness and both sides were parallel (surface variation of zero rms and zero degrees between the faces of the glass), then the ray will emerge displaced but parallel to the incoming ray, ie theta(in)=theta(out). If there are variations in thickness or non-parallel surfaces, then the ray will emerge at a different angle to the entrance angle. Now sin(theta(out)) = sin(theta(in))/n. Now, as the glass is raised, unless the glass were perfectly flat and perfectly uniform, variations of thickness along the face would cause the ray exiting the system to wobble at a frequency of (and an amplitude given by) the variation in thickness and the disparity from parallelism. You can get a macro model of this if you consider an extreme case of using a prism instead of a plain piece of glass, or two prisms attached by their bases, and move that vertically as you pass the beam through them. You can see that the beam will wobble as a function of the prism angle. In fact, the ray deviation is given by D = (n-1)A, where D is the angle of deviation and A the apex prism angle. Thus, if you modelled the non-uniformity of the glass thickness as a set of prisms with different apex angles, the deviation angle of the ray would vary.<br><br>Now a diffuser is a rough surface modelled by amorphous spheroids. Thus, instead of prisms, consider (at a much larger scale) that you glue several glass marbles onto a glass plate and move that vertically. You can see that the beam would wobble with a frequency dependant on the diameter of the spheroids (marbles) and their population density. This effect would be added to the nonuniformity of the glass.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 15, 2013 5:50 am</span>
+                <span class="post-number">#30</span>
+            </div>
+            <div class="post-body">Thanks Dinesh. Yes, I agree that some air will get displaced when the diffuser moves up and down. But it could be suspended quite firmly in space by using 4 nylon threads, and it would probably only need to move about 0.2 millimeter, so I doubt it would be a practical problem.<br><br>That the up/down movement of plain glass will change the direction of an incoming ray due to surface irregularities, and that a diffusing surface would exaggerate these changes in direction, are both very good points, thanks for clarifying them. But I have to wonder how this might be manifest in the final holographic image, and I want to do some testing.<br><br>Bob had mentioned earlier that at Simian they moved diffusers between sequential RGB exposures to reduce speckle, so this makes me wonder. They were probably allowing the diffuser (on the table) to have plenty of settling time between exposures. My proposed method with the nylon threads might be too unstable, and it would always be wobbling around somewhat. If that&#x27;s the case, then I could build a separate (solid) support structure off the table, to support an &quot;arm&quot; extending to the diffuser, and even isolate it from vibrations like the table. Then the diffuser could be moved by the 0.2mm using some electronic means, and when it&#x27;s not being moved, it won&#x27;t be wobbling all over the place, like when using the threads. In this case, moving the diffuser during the exposure might be compared to what Simian was doing between exposures?<br><br>Too much speculation, I know.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed May 15, 2013 8:08 am</span>
+                <span class="post-number">#31</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Too much speculation, I know.<br><br>Well, yes...and no. You can think a problem through in the greatest depth, throw the most abstruse and complex mathematics at the problem and you might get a good handle on the problem. Or, you can simply try it out and See What Happens. My method (for what it&#x27;s worth) is to think through these theoretical ideas/problems/issues. Then you&#x27;ve got to ask yourself, &quot;Are these serious impediments to a solution?&quot; At the end of the day, I usually end up saying, &quot;Heck, there&#x27;s only one way to find out. Let&#x27;s try it and see.&quot; Theory prepares you for possible problems/explanations of what you observe afterwards, but a certain amount of care is necessary that the theory does not dissuade you from trying it. You can get lost in the maze of theory.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Wed May 15, 2013 8:52 am</span>
+                <span class="post-number">#32</span>
+            </div>
+            <div class="post-body">You could consider a diffuser to be like an array of lenses. A random array, but an array none the less. If you moved a single lens, like a spatial filter, in one of your beam paths you would get movement and no holo. I think if you moved a diffuser during an exposure the same thing would happen. Unless it&#x27;s a single beam setup.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Wed May 15, 2013 10:01 am</span>
+                <span class="post-number">#33</span>
+            </div>
+            <div class="post-body">Could you use a blocking card with a large hole in it ,in the reference beam (collimated then expanded)and move the card (rotate it) causing only partial speckle to form in one area, and then another to form in an overlapping type of way ? Yes more light would be lost but could be adjusted to work ? <br><br>I very much like this statment Dinesh, it will be a classic of yours for sure !<br><br>&gt; <strong>Dinesh:</strong> You can get lost in the maze of theory.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed May 15, 2013 10:40 am</span>
+                <span class="post-number">#34</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> You can think a problem through in the greatest depth, throw the most abstruse and complex mathematics at the problem and you might get a good handle on the problem. Or, you can simply try it out and See What Happens. My method (for what it&#x27;s worth) is to think through these theoretical ideas/problems/issues. Then you&#x27;ve got to ask yourself, &quot;Are these serious impediments to a solution?&quot; At the end of the day, I usually end up saying, &quot;Heck, there&#x27;s only one way to find out. Let&#x27;s try it and see.&quot; Theory prepares you for possible problems/explanations of what you observe afterwards, but a certain amount of care is necessary that the theory does not dissuade you from trying it. You can get lost in the maze of theory.<br><br>I have to agree. My engineer friend seems to think that I have a big mouth, he often chastises me with &quot;just do it,&quot; &quot;prove you have a problem and fix the problem,&quot; &quot;don&#x27;t think it to death&quot; and on one occasion he got really pissed off and said &quot;VENUS HERE WE COME.&quot;<br><br>Dave, that&#x27;s an interesting idea.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Thu May 16, 2013 8:16 am</span>
+                <span class="post-number">#35</span>
+            </div>
+            <div class="post-body">A moving aperture with a diffuser is another way to go, and published in the &#x27;60s. At Simian, the diffuser was moved but held stable for the exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu May 16, 2013 9:50 am</span>
+                <span class="post-number">#36</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> A moving aperture with a diffuser is another way to go, and published in the &#x27;60s. At Simian, the diffuser was moved but held stable for the exposure.<br><br>Thanks a lot. Could you please point me in the direction of the paper, if possible?<br><br>The advantage I see to a moving aperture w/diffuser during exposure is that the speckle pattern can be re-arranged many times.<br><br>Thanks again Dave.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sat May 18, 2013 9:58 am</span>
+                <span class="post-number">#37</span>
+            </div>
+            <div class="post-body">I haven&#x27;t read this yet, but it looks interesting:<br><br>[http://www.jpier.org/PIERB/pierb34/01.11070601.pdf](http://www.jpier.org/PIERB/pierb34/01.11070601.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon May 20, 2013 6:16 pm</span>
+                <span class="post-number">#38</span>
+            </div>
+            <div class="post-body">I&#x27;ve been thinking about Dave&#x27;s idea of using an aperture which changes size during exposure, and I would like to clarify how I imagine it works.<br><br>Say we have a 5mm circular aperture in front of a diffusion screen for the object beam (for a split-beam reflection hologram with the reference beam and one object beam). The object beam comes from the beamsplitter, then goes to any re-directing mirrors, then goes to a beam-expanding lens (say a negative lens), then to the aperture. Say the spot of light on the back of the aperture is 10mm, but light is only getting through the 5mm hole. Then the light goes to the diffuser, and then to the object. There will be a certain speckle pattern on the object.<br><br>Now, say the aperture “magically” changes to 7mm. The original speckle pattern from the 5mm hole will still be there, exactly as before. However, since an additional 2mm “ring” has been added to the diameter of the aperture, new areas of the diffuser will now be exposed to light, and those “new” areas will generate another speckle pattern, which will cover the object completely. In other words, the 2mm “ring” will cause an “overlapping” speckle pattern (as Dave said). If the aperture slowly “grows” from say 2mm to 10mm during the course of the exposure, maybe substantial “blurring” of the speckle will occur?<br><br>The aperture could be isolated from the rest of the table (say for example by using a rigid &quot;arm&quot; support which extends over the table), and designed so that no vibrations are transferred to the floor.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Mon May 20, 2013 7:51 pm</span>
+                <span class="post-number">#39</span>
+            </div>
+            <div class="post-body">The speckle pattern from the 5mm aperture is a part of the 7mm&#x27;s pattern. It&#x27;s more course but it&#x27;s still part of it.<br><br>I think the only difference between an exposure being 100% from the 7mm aperture and one where it&#x27;s only part is that some of the courser parts of it&#x27;s speckle pattern have been exaggerated by the 5mm exposure.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">holomaker</span>
+                <span class="post-date">Mon May 20, 2013 8:17 pm</span>
+                <span class="post-number">#40</span>
+            </div>
+            <div class="post-body">my thought was not too change the size of the aperture, but to move it to a new area within the collimated light area, creating a new speckle zone ...after the collimated light area the beam is then focused again and becomes diverged and hits the film plate ..</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 21, 2013 6:24 am</span>
+                <span class="post-number">#41</span>
+            </div>
+            <div class="post-body">Thanks Jeffrey and Dave for your comments.<br><br>I&#x27;m running some ideas around, regarding speckle reduction, and the comments on this thread have been very helpful.<br><br>Maybe it will help if I phrase something differently. Let&#x27;s forget about apertures for the moment, and say we have the following scenario. A split-beam reflection hologram with two object beams. Each object beam will of course produce a different speckle pattern. It seems to follow that overall speckle will be slightly reduced in this hologram, because some of the &quot;dark&quot; speckle resulting from the first object beam will get &quot;filled in&quot; by the &quot;bright&quot; speckle of the second object beam. Bob had also mentioned earlier that multiple object beams will reduce speckle.<br><br>Now, let&#x27;s use this same example, except that instead of allowing both object beams to strike the object, we block off one of them, for half of the exposure time. Then, we reverse it, and block off the other object beam, for the remaining half of the exposure. So the net result should be very similar to the above, since the only difference was that, in this case we used sequential exposures, instead of simultaneous.<br><br>At this point, let&#x27;s reconsider a moving aperture in a single object beam. Any change to the size or shape of the beam passing through the aperture (and then through the diffuser) will cause a different speckle pattern on the object. Of course, if the moving aperture does not illuminate a completely new spot on the diffuser, then some portions of the speckle pattern will remain the same on the object. But the object will also be overlaid with another speckle pattern from the &quot;new&quot; areas of the diffuser which have now been illuminated.<br><br>So, I don&#x27;t see any major difference between the &quot;sequential&quot; exposure with two object beams, and a moving aperture with one object beam. The only difference I see is that, with two completely different speckle patterns (two object beams), a more effective speckle reduction would seem likely. However, in that case, there would only be a single variation to the speckle pattern (from the second object beam). With a moving aperture, even though there will be many overlapping speckle patterns, many new patterns could be created during the exposure, which might compensate for the overlapping portions.<br><br>The aperture would not necessarily need to increase/decrease in size (although some change in size would be acceptable, I think) but could simply move to a new spot in the expanded beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue May 21, 2013 1:09 pm</span>
+                <span class="post-number">#42</span>
+            </div>
+            <div class="post-body">Here are some simple, non-holographic tests to try out your idea.<br><br>#1: Put the sliding contraption in a leg of your favorite interferometer (Michelson, Mach-Zehnder, Fabry-Perot, etc.) and see if there are fringe shifts when your sliding device is used.<br><br>#2: Photograph the speckle pattern with a camera and compare the two views after moving the diffuser and observe the difference.<br><br>#3: Photograph the speckle patterns with the experiment described with the iris.<br><br>I hate to be pessimistic, but if speckle is moving during exposure, the interference pattern is moving during exposure, and no hologram!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue May 21, 2013 1:30 pm</span>
+                <span class="post-number">#43</span>
+            </div>
+            <div class="post-body">Thank you Ed, all three of those are very good ideas, and don&#x27;t require the shooting of a hologram.<br><br>Even if the speckle can&#x27;t be moved during exposure, I think it would be well worthwhile to move it between multiple exposures. This would be one benefit of sequential RGB exposures like they did in Lake Forest (I always wondered why HB used cumbersome sequential exposures rather than simultaneous, but the moving diffuser makes sequential more interesting now). The table couldn&#x27;t be disturbed in the slightest way of course. I could also try getting a fringe-locker online.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Feb 03, 2014 9:54 am</span>
+                <span class="post-number">#44</span>
+            </div>
+            <div class="post-body">Yesterday I was reading Bjelkhagen&#x27;s new book, and there was some mention of the reduction of speckle noise in multi-color holographic recordings. The abstract to one of the references is given below.<br><br>I am again wondering about a related question, which met with skepticism on this thread, that a diffuser moved in the object beam (in a split-beam reflection hologram) might have the same averaging effect. Assuming of course the diffuser did not touch the table. Although I would prefer to simply try it, my layout is still under construction. <br><br>Some have said that this would mess up the hologram, but I have doubts. Say we have a ground-glass diffuser that moves enough to produce a moving speckle pattern on the object. This is not the same thing as &quot;path length&quot; change in the usual sense, affecting one set of fringes. The way I see it, it would be more like a multiple-exposed hologram. In a hologram with multiple exposures, I don&#x27;t know of any adverse effects if the layout is completely stable. Say for example we made a hologram with an arbitrary number of exposures, say for example 10, with a few seconds of interruption between them (a shutter is closed). As long as there is no movement of any kind between exposures, shouldn&#x27;t the result be about the same as a continuous exposure? The way I see it, this is comparable to a moving diffuser which does not touch the table.<br><br><em>*</em><br><br>Speckle phase averaging in high-resolution color holography<br><br>Jacques Harthong, John Sadi, Marc Torzynski, and Dalibor Vukicevic »View Author Affiliations <br><br>JOSA A, Vol. 14, Issue 2, pp. 405-410 (1997)<br><br>Abstract<br><br>Interest in wavelength multiplexing in holography derives naturally from the need for realistic color rendition as well as from resolution requirements. Imaging in coherent illumination is compromised by speckle. Speckle is prejudicial to quality, sharpness, contrast—in a word, to the fidelity of reproduction or holographic reconstruction. In incoherent light these patterns are canceled by spatial phase averaging. Incoherent light can indeed be regarded as a superposition of a very large number of coherent components whose phase factors are distributed at random. It is demonstrated that the averaging effect, ultimately caused by the law of large numbers, is achieved by the superposition of only three components, thus allowing simultaneously a true color rendition and an improvement in spatial resolution. The spatial statistical behavior of the amplitude of the sum of three intrinsically coherent waves, when they are incoherently superposed in an imaging system, is investigated. A random variable representing the amplitude of this sum is introduced. Then the cumulative probability function and the probability density function of the resulting amplitude are calculated. The white-light (infinite-wave illumination) case and the purely coherent (one-wave) case are analyzed. The results are interpreted with a heuristic vector model.<br><br>© 1997 Optical Society of America</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Feb 03, 2014 10:35 am</span>
+                <span class="post-number">#45</span>
+            </div>
+            <div class="post-body">If you can make it to my Annual Open House in honor of Hans passing through town on his way home to Wales from Photonics West on Sunday, February 9th, anytime after 1:00PM, you can ask him those questions yourself! Or anyone else in the Chicago area who wishes to join in the fun!<br><br>Other out of town holographic luminaries who frequent this forum who will be here include Jeff Weil, John Klayer, and Rob Taylor, Konrad from Poland, plus the usual contingent of locals.<br><br>Dalibor was one of Hans&#x27;s collaborators on quite a few experiments, so Hans might have even seen these holograms. And we might even be shooting some RGB holograms chez moi, on new Polygrama Pan and Ultimate U04!<br><br>Hope to see any and all of you here!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 03, 2014 1:51 pm</span>
+                <span class="post-number">#46</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> The way I see it, it would be more like a multiple-exposed hologram. In a hologram with multiple exposures, I don&#x27;t know of any adverse effects if the layout is completely stable. Say for example we made a hologram with an arbitrary number of exposures, say for example 10, with a few seconds of interruption between them (a shutter is closed). As long as there is no movement of any kind between exposures, shouldn&#x27;t the result be about the same as a continuous exposure? The way I see it, this is comparable to a moving diffuser which does not touch the table.<br><br>Maybe, but you&#x27;d be lucky and you may have to choose your diffusion screen carefully. With modern lasers you may not have a problem.<br><br>Consider that speckle is a function of the surface on which the light is falling, and not in any interruption in the path of the light. Thus, the phase relationship between all the lght that hits a particular point on the surface would give rise interference effects if the rms were in the order of lambda. Typically, a reasonable rms of a few microns would give rise to such effects, since a micron is roughly 2 lambda. However, if the phase relationships were &quot;scrambled&quot; by a diffuser - effectively a stochastic effect - then, provided the change of the phase wrt to the path was fast enough (d(phi)/dt &gt; response time of eye, which is roughly a few microseconds ), the speckle would not be noticed. However, the hologram is recording a phase relationship. So, the very alteration of the phase relationship to suppress the speckle is also contributing to the variation in phase stability at the recording position. Having said this, if the variation in phase were small enough, you may get away with a decent recording anyway, since, in a display hologram, you do not have a single frequency and so you are recording &quot;overtones&quot; above and below the fundamental. The overtones may be smaller than the &#x27;overtones&#x27; caused by the random phase variation of a diffuser. This could be analogous to the small variations along the response of an amplifier in the linear region, in addition to the actual bandwidth of the signal being amplified. <br><br>By the way, turning a shutter on and off will probably cause phase variations, albeit small ones. This usually gives rise to a very low frequency overlap which shows up as an optical beat frequency. Consider two harmonic oscillators, signal generators if you will, tuned to the same frequency. Keep one on all the time, but turn the other one on and off. I suspect the small but random variations in the state of the two generators will cause a beat frequency.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 03, 2014 2:22 pm</span>
+                <span class="post-number">#47</span>
+            </div>
+            <div class="post-body">By the way, Joe, if you&#x27;re interested, a new journal was created and I was asked to evaluate it with what I think was a pre-publication issue. I never responded to the request, since speckle is not a particular interest of mine. So, I have no idea if the journal is still being published. However, if you&#x27;re interested, I can send you a copy of the journal, or an article in it. I&#x27;m showing the front cover and the contents page.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2374&amp;mode=view)<br><br>[](https://holographyforum.org/forum/download/file.php?id=2373&amp;mode=view)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Feb 03, 2014 3:51 pm</span>
+                <span class="post-number">#48</span>
+            </div>
+            <div class="post-body">Thanks Dinesh, I will keep those points in mind. This is just one of those things which needs a simple test, and I&#x27;m a bit frustrated at the moment because the layout is getting a substantial re-build. At least I have the framework around the table established (not touching it) and this will have attachment points for a &quot;floating&quot; diffusion screen.<br><br>That&#x27;s an interesting journal, thanks for posting it. So far, I&#x27;ve tried to do a little research concerning speckle, but the subject has so many facets, and none of these seem relevant to what I&#x27;m doing. At the moment, I&#x27;m only interested in speckle reduction for split-beam reflection display holograms. It seems to me that this area hasn&#x27;t been explored adequately, at least judging from the published literature. The only times I&#x27;ve really seen it discussed were in Bjelkhagen&#x27;s two books, and the references he gave (which I haven&#x27;t seen for the most part), plus some comments provided by Bob in connection with Simian. <br><br>Published accounts of color holography seem exclusively concerned with single-beam, pure Denisyuk holograms (Gentet, Bjelkhagen, etc.) and of course, if split-beam geometries are excluded, then there would be no real incentive to explore speckle-reduction techniques. I don&#x27;t think anything can be done about pure single-beam reflection color holograms, except maybe to hit them with as many wavelengths as possible.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 03, 2014 4:16 pm</span>
+                <span class="post-number">#49</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Published accounts of color holography seem exclusively concerned with single-beam, pure Denisyuk holograms (Gentet, Bjelkhagen, etc.) and of course, if split-beam geometries are excluded, then there would be no real incentive to explore speckle-reduction techniques. I don&#x27;t think anything can be done about pure single-beam reflection color holograms,<br><br>It&#x27;s true that there are no examples of split beam, white light reflection colour holograms (there ought to be an acronym for all that! WLIPRCH?). The teapot I showed earlier was an H1 in full colour, and we did do an image planed reflection H2 copy. To the best of my knowledge, it&#x27;s the first and only example of an image planed reflection colour. The number of optics on the table for the split beam geometry in three colours is itself pretty daunting, to say nothing about carefully controlling aberrations, since you&#x27;re effectively superimposing three non-coherent images by reconstruction by three coherent sources from the H1 and then one incoherent white source for the H2. Due to various factors like z coord mismatch, the smallest aberrations show up as a colour mixing fiasco! But, I gotta say that speckle doesn&#x27;t really show up on reconstruction, since the reconstruction is by incoherent light. Now, if you&#x27;re also reconstructing the H2 with three coherent sources, then it&#x27;s an issue.<br><br>By the way, when I say that the teapot is the first image plane full colour H2, I&#x27;m talking traditional holography. I understand the people who use printers for digital holography (Zebra, Geola and Rabbitholes) do make image planed full colour. Personally, I&#x27;m the Last of the Luddites, so I like using traditional methods wherever possible!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Mon Feb 03, 2014 4:48 pm</span>
+                <span class="post-number">#50</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> To the best of my knowledge, it&#x27;s the first and only example of an image planed reflection colour.<br><br>As far as I know also.<br><br>If someone has already gone to the trouble of 2 or 3 color Denisyuk, then it shouldn&#x27;t be that much effort to split the beam somewhere, and use the split beam for side lighting. I&#x27;m working on this.<br><br>By the way, I wonder if it&#x27;s possible to use a color reflection (not transmission) master, then make color copies. Maybe it would avoid crosstalk problems in the master? (But then again, my knowledge of copy configurations is extremely limited.)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Mon Feb 03, 2014 7:50 pm</span>
+                <span class="post-number">#51</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> By the way, I wonder if it&#x27;s possible to use a color reflection (not transmission) master, then make color copies. Maybe it would avoid crosstalk problems in the master? (But then again, my knowledge of copy configurations is extremely limited.)<br><br>Well, you&#x27;re right, it would avoid cross talk. But, colour holograms are designed to be reconstructed with white light. Hey, Phil, got a white laser?!<br><br>Yes, you can reconstruct with three (or two) lasers, but there must be almost zero swelling. White light reconstruction allows a little &quot;slop room&quot;, so that if your &quot;633 fringes&quot; have swollen to 650 ( a 2.6% swell), then your eye will see little difference since the cones overlap quite a bit. There&#x27;ll be a slight shift of the image vis a vis the other colours, but at 2.6% shift, the eye/brain easily compensates. It&#x27;s actually quite amazing how distorted an image has to become before the brain gives up, even random images become meaningful (which is why people see Jesus on a tortilla, but that&#x27;s another story!). But, if you reconstruct the shifted red fringes with a laser, then the laser bandwidth is outside the 17nm &quot;window&quot; and it&#x27;d be dim at best. Of course, the same holds for all your other colours. In a single beam Denisyuk, there is always an angle at which the image comes out bright, since the replay colour shifts with angle. However, the three colours will shift by different amounts, so this technique may not work for colour.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Tue Feb 04, 2014 8:49 am</span>
+                <span class="post-number">#52</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> But, if you reconstruct the shifted red fringes with a laser, then the laser bandwidth is outside the 17nm &quot;window&quot; and it&#x27;d be dim at best. Of course, the same holds for all your other colours.<br><br>I forgot about that, yes, the master would (of course) need to be reconstructed with laser light onto the copy, and the efficiency would depend on lack of shrinkage or expansion in the master.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Tue Feb 04, 2014 9:55 am</span>
+                <span class="post-number">#53</span>
+            </div>
+            <div class="post-body">It is too bad there seem to be no reliable inexpensive RGB lasers with good color balance and narrow linewidth for both making and reconstructing holograms. We do have HeNe for red, doubled YAG for green and 480 nm or 488 nm from Coherent OPSL for blue available...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Tue Feb 04, 2014 9:59 pm</span>
+                <span class="post-number">#54</span>
+            </div>
+            <div class="post-body">I was wondering if &quot;shaking&quot; the plate holder for viewing (at a frequency higher than 60 Hz) would average out the speckle like it does for viewing a laser spot on a screen; shaking the viewer&#x27;s head might not be so good. A new product...Vibra-View plate shaker! OK guys and girls, keep it clean here... <br><br>Who has tried this? It works for images on a screen.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Wed Feb 05, 2014 6:39 am</span>
+                <span class="post-number">#55</span>
+            </div>
+            <div class="post-body">Maybe use one or more PZT&#x27;s on the display frame (plate holder) with a small driver box? Who can try this...Ed? <br><br>This may not work at all as you may still get speckle or the holographic image will blur; interesting physics questions. I just set up Physics Demonstrations for a living so stupid s<em>*</em> comes to mind on a regular basis...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Feb 05, 2014 10:06 am</span>
+                <span class="post-number">#56</span>
+            </div>
+            <div class="post-body">&gt; <strong>142laser:</strong> I was wondering if &quot;shaking&quot; the plate holder for viewing (at a frequency higher than 60 Hz) would average out the speckle like it does for viewing a laser spot on a screen; shaking the viewer&#x27;s head might not be so good.A new product...Vibra-View plate shaker! OK guys and girls, keep it clean here...Who has tried this?It works for images on a screen.<br><br>Well, firstly, it&#x27;s interesting you say this. There seems to be an opinion that reconstructing a hologram with incoherent (&quot;white&quot;) light will result in speckle. Not so. The reason that incoherent light will not create speckle is that the phase changes are so rapid, that the the speckle &quot;blurs out&quot;. Light from an incandescent source has a coherence time of about 10^(-8), so in essence, when you look at something with white light, be it a hologram or a white rabbit, you&#x27;re eyes are shaking at a frequency of 10^8 Hz, or about 100,000,000 times a second. There are several SF movies and TV episodes where &quot;time slows down&quot; ( a Star Trek episode comes to mind - &quot;Wink of an Eye&quot;). But, as Kirk wanders around the Enterprise in his accelerated state, the walls seem to be &quot;unaccelerated&quot;. If time did slow down, as per the episode, Kirk would have seen slowly forming coloured interference fringes on the walls, slowly shifting.I thought that this would have enhanced the effect, but clearly the writers of the episode were unaware of coherence theory!<br><br>Would this work on a laser illuminated hologram? Yes, it probably would, though I&#x27;d suspect that 60Hz may be a bit fast. The eye retains an image for roughly 1/15 seconds, and the saccadian response is roughly 20ms, or at a frequency of 50Hz. But, the image would probably blur. However, if you passed the image through an FT filter and transformed the image, then inverse transformed it, then it may not blur. This is because the Fourier Transform of a shifted function merely shifts the phase, not the amplitude.<br><br>So, Phil, there&#x27;s your physics demonstration. Illuminate a hologram with a laser, oscillate it at 50Hz or so and show the speckle disappears. Then do a &quot;double pass&quot; FT and show that the blurring also disappears!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">142laser</span>
+                <span class="post-date">Thu Feb 06, 2014 6:44 am</span>
+                <span class="post-number">#57</span>
+            </div>
+            <div class="post-body">Someone needs to try this who has a table set up with laser, spatial filter and plate holder. If the amplitude is small there may be almost no blurring. Oh, Ed.....Ed... Maybe he has done this before. <br><br>What about modulating the laser at say 100 Hz with an AOM? Or would you simply get &quot;pulsed speckle&quot;?<br><br>I use white round and square thin metal plates for resonance demonstrations by placing them vertical and illuminating with a spatially filtered HeNe. When mechanically driven (center mounting post) at a resonance (by a special speaker like apparatus and a matched driver) you can see the nodal lines as they have clear sharp laser speckle but the antinodes have the speckle time averaged out. It is cool. The issue is it is also LOUD at resonance...that is Physics. Laser speckle interferometry.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Feb 06, 2014 9:12 am</span>
+                <span class="post-number">#58</span>
+            </div>
+            <div class="post-body">&gt; <strong>142laser:</strong> What about modulating the laser at say 100 Hz with an AOM? Or would you simply get &quot;pulsed speckle&quot;?<br><br>No, speckle is a function of the surface being illuminated, not of the source or the path, unless the path has a phase altering component.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Feb 06, 2014 12:41 pm</span>
+                <span class="post-number">#59</span>
+            </div>
+            <div class="post-body">Sorry, don&#x27;t have any PZT shakers and drivers in house, so I can&#x27;t try shaking the hologram to eliminate speckle at the moment. It sounds like you have the primo Pasco shaker device, maybe send that to me? Just kidding, I will try to send you a laser reconstructed hologram for you to try, but probably not until next week as I am cleaning house in preparation for the onslaught of out of town holographers converging here soon.<br><br>One speckle reducing and spatial filter eliminating set up that I have seen work is one of TJ&#x27;s, a laser beam incident on a metal ball on a spinning motor shaft, looks pretty speckle-free, the big trick is in making sure the ball is centered on the shaft, otherwise the image wobbles. He said he suggested that to Paula Dawson, maybe she used that trick on some of her meter square pieces.<br><br>When I worked at FermiLab, we reduced the speckle when photographing bubble chamber holograms by using a 500 mm Reflex Nikkor lens with an extension bellows, as we had to find small stuff fairly far away in the fiducial volume. I rigged up a revolving disc with an off-center hole in front of the lens so the aperture rotated during exposure, averaging out speckle.<br><br>[](https://holographyforum.org/forum/download/file.php?id=2376&amp;mode=view)<br><br>For those not familiar with the lens, the reflex style camera lenses bounce light back and forth inside of them to make a very compact design; however the convex mirror glued on the inside of the front corrector plate gives a donut-shaped entrance pupil, and donut-shaped out f focus highlights!<br><br>[](https://holographyforum.org/forum/download/file.php?id=2375&amp;mode=view)<br><br>Don&#x27;t have any final images to show, sorry, but that was over 30 years ago! And they weren&#x27;t very interesting anyhow!<br><br>BTW, there is speckle in white light reconstruction of holograms, viz. a rainbow hologram with its slits too small. That is the classic trade off when engineering those kinds of set ups, color saturation versus speckle.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Thu Feb 06, 2014 2:04 pm</span>
+                <span class="post-number">#60</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> BTW, there is speckle in white light reconstruction of holograms, viz. a rainbow hologram with its slits too small. That is the classic trade off when engineering those kinds of set ups, color saturation versus speckle.<br><br>That may well be diffraction as opposed to speckle. Speckle is a function of spatial coherence. The phase relationships in white light are too random to show an effect due to a coherence. Speckle is largely a reflective effect; speckle in transmissive media are caused by non-uniform index variations of the order of lambda. However, (Raman Nath) diffraction is a transmissive effect where the spatial frequency is given by the grating equation:<br><br>lambda*nu = sin(theta),<br><br>differentiating,<br><br>d(nu)/d(theta) = cos(theta)/lambda.<br><br>Thus, if theta is small, there may be a large variation of nu against theta, which may resemble speckle.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Martin</span>
+                <span class="post-date">Fri Feb 07, 2014 7:23 am</span>
+                <span class="post-number">#61</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinesh:</strong> Speckle is largely a reflective effect; speckle in transmissive media are caused by non-uniform index variations of the order of lambda<br><br>This is from an abstract of a paper by D. Gabor, Laser speckle and its elimination (IBM Journal of Research and Development, Volume 14, Issue 5, September 1970, Pages 509-514), [http://dl.acm.org/citation.cfm?id=16629 ... ayout=flat](http://dl.acm.org/citation.cfm?id=1662997&amp;preflayout=flat):<br><br>&gt; ABSTRACT&quot;Objective&quot; speckle arises from the uneven illumination of an object with a multiplicity of waves that interfere at its surface. &quot;Subjective&quot; speckle arises at rough objects even if they are illuminated evenly by a single wave. The noise in the image is caused by the interference of the point-figures, which have random phases. Subjective speckle cannot be reduced by except by extending the aperture. On the other hand the &quot;objective&quot; speckle in a plane, for instance in the plane of a transparency, can be reduced, and in the limit made invisible, by a special type of wide-angle illumination. This consists of a one-parameter family of plane waves, which can be produced by diffraction at a special grating, or two crossed gratings, close to the object plane. This makes it possible to produce multiple holograms, with the same insensitivity to dust or scratches as diffused holograms, but without any visible speckle in the reconstruction.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Fri Feb 07, 2014 11:28 am</span>
+                <span class="post-number">#62</span>
+            </div>
+            <div class="post-body">Right. &quot;The noise in the image is caused by the interference of the point-figures, which have random phases.&quot; and the random phases can be caused by either surface roughness or random variations of index, in the transmissive case. If a multiple of frequencies were to hit (or transmit through) such a structure, the phase relations of each component of the multiple frequencies would average out and reduce the speckle, dependent on the number of frequencies and also, presumably, the cross correlation of their coherence. Presumable by &quot;...and in the limit made invisible&quot;, he means that the limit is white light in which all frequencies are present and there is no cross correlation of coherence between the various frequencies. In this case, the random variations of phase would be altering too fast to be seen or recorded.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Sun Feb 09, 2014 9:26 am</span>
+                <span class="post-number">#63</span>
+            </div>
+            <div class="post-body">I was reviewing some comments by Bob, and he had mentioned that &quot;more object beams, less speckle.&quot; Also, I remember that Dave used an interesting technique for object beams: he passed the beam through a diffraction grating, in front of the diffuser. The various orders diffracted by the grating would form multiple points (in a line) which would strike the diffusion screen. By tilting the grating, the separation between the points could be changed arbitrarily. So each point (diffracted order) would generate its own speckle pattern, which would overlap the others. I want to try this as soon as possible, maybe I was barking up the wrong tree.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">walschuler</span>
+                <span class="post-date">Wed May 28, 2014 2:40 am</span>
+                <span class="post-number">#64</span>
+            </div>
+            <div class="post-body">Dinesh said (» Wed Feb 05, 2014 7:06 am)<br><br>There seems to be an opinion that reconstructing a hologram with incoherent (&quot;white&quot;) light will result in speckle. Not so. The reason that incoherent light will not create speckle is that the phase changes are so rapid, that the the speckle &quot;blurs out&quot;.]<br><br>I normally shoot single beam Denisyuks, often shooting 2 colors and sometimes 3, using TEA pre-exposure color baths. In such exposures speckle is a minor issue, because 1) the plate is in a different location for each shot, as I do not try to exactly re-register it or the objects, so the speckle shifts location for each exposure; 2) the emulsion swelling creates different spot sizes for the different colors; and 3) the viewing is in white light and Dinesh&#x27;s (and others&#x27;) remarks above apply. White lights incoherence rules out stable speckle.<br><br>I usually use the speckle pattern visible when a spread laser beam strikes a surface to show students what it is and remark that it is a hall mark of coherent light.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Jul 16, 2014 6:40 am</span>
+                <span class="post-number">#65</span>
+            </div>
+            <div class="post-body">I saw this interesting technique for reducing speckle:<br><br>[http://arxiv.org/ftp/arxiv/papers/1212/1212.5176.pdf](http://arxiv.org/ftp/arxiv/papers/1212/1212.5176.pdf) <br><br>Basically, the laser beam goes through a colloidal solution of titanium dioxide, and the Brownian motion of the particles has the effect of cancelling (or averaging) the speckle pattern. Don&#x27;t know if this can be used in holography, but should be easy enough to test (TiO2 = the pigment titanium white).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jsfisher</span>
+                <span class="post-date">Fri Jul 18, 2014 9:17 am</span>
+                <span class="post-number">#66</span>
+            </div>
+            <div class="post-body">Seems like the brownian motion would destroy coherence.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">walschuler</span>
+                <span class="post-date">Sun Aug 17, 2014 2:27 am</span>
+                <span class="post-number">#67</span>
+            </div>
+            <div class="post-body">In addition to what Ed and others and I said (see my post above), I would add that you can see that if you move a laser beam across a surface the speckle pattern moves, and if the beam is stable and you move your head your eyes sweep the pattern. Also, the pattern will tend to be less visible if you shoot multicolor images, <em>either</em> with various color lasers or various pseudocolors. In either case the speckle of different colors will be of different scales proportional to wavelength, and tend to blur out.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Aug 17, 2014 1:50 pm</span>
+                <span class="post-number">#68</span>
+            </div>
+            <div class="post-body">&gt; <strong>walschuler:</strong> I would add that you can see that if you move a laser beam across a surface the speckle pattern moves, and if the beam is stable and you move your head your eyes sweep the pattern<br><br>It&#x27;ll be a slightly different pattern, since the phase of the beam is different in each case.<br><br>&gt; <strong>jsfisher:</strong> Seems like the brownian motion would destroy coherence.<br><br>I don&#x27;t think it&#x27;d &quot;destroy coherence&quot;, since the coherence of the beam is determined by the beam source. This is actually an interesting question that I have been mulling over every now and again. I think it will cause a phase shift due to Doppler effects. The Doppler shift causes, in turn, a frequency shift, which in turn affects the phase. In terms of the frequency, the wave vector is 2<em>pi</em>f<em>n/c. But, due to Doppler, the new wave vector is (2</em>pi<em>f</em>n)/(v<em>c), where v is the velocity of the Brownian particles. The size of the particles that cause Brownian motion is of the order of a few microns, let&#x27;s say 10</em>lambda. It is possible using the Einstein/Smoluchowski equations, to determine the velocity of the Brownian motion. So, you now have the momentum of the Brownian particles. I&#x27;m assuming that the medium in which the Doppler particles are embedded does not change its index due to Brownian motion. Thus, it is possible to determine whether the phase shift is sufficient to deviate the fringe structure by lambda/4. If so, then, since Brownian motion is random, then the fringe structure will be altering too fast to take a recording. It&#x27;s not coherence that&#x27;s lost, it&#x27;s the phase relationship between the two beams. Included in this, although slightly different, is of course, the effect on phase of a turbulent medium. In the case of a turbulent medium, the &quot;Brownian particles&quot; are a fluid and so vary continuously.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Oct 19, 2022 7:58 am</span>
+                <span class="post-number">#69</span>
+            </div>
+            <div class="post-body">Thanks to all the forum members who contributed to this post. I&#x27;ve learned quite a bit.<br><br>Having run some tests to reduce speckle in my holograms, I&#x27;ve found that a moving piece of clear acrylic (or glass) placed after the spread beam, and before the diffusion screen, will reduce speckle to a large extent. This applies to the object beam only, of course, in a split beam, assisted Denisyuk, or bypass arrangement. In my case, this is a lot easier than moving the diffusion screen itself. (The movement method should be isolated from the table.)<br><br>To test this, I set a clear piece of acrylic on my cell phone, which is on vibrate only. (The intensity was on high.) I vibrated it by calling from another phone, and the speckle essentially disappeared.<br><br>I bought some vibration motors on Amazon, and will try attaching one to the acrylic:<br><br>[https://www.amazon.com/Vibration-Button ... =8-14&amp;th=1](https://www.amazon.com/Vibration-Button-Type-Vibrating-Household-Appliances/dp/B0993G5CQN/ref=sr_1_14?keywords=haptic%2Bmotor&amp;qid=1665870014&amp;qu=eyJxc2MiOiI0LjE1IiwicXNhIjoiMy45NSIsInFzcCI6IjMuMjgifQ%3D%3D&amp;sr=8-14&amp;th=1)</div>
+        </div>
+
+    <div class="thread-nav"><a href="713.html" class="prev-thread">← Can this be fixed?</a><a href="Techniques.html">↑ Techniques</a><a href="710.html" class="next-thread">Holography &amp; Holographers map →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11373.html" class="card">
+                <h3>Sapphire instability due to AC noise</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11359.html" class="card">
+                <h3>noise due to a large (extended) object</h3>
+                <div class="card-meta">Techniques · 11 posts</div>
+            </a>
+            <a href="7541.html" class="card">
+                <h3>Noise</h3>
+                <div class="card-meta">General Holography (old) · 1 posts</div>
+            </a>
+            <a href="2844.html" class="card">
+                <h3>Journal of holography and speckle</h3>
+                <div class="card-meta">General Holography (old) · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

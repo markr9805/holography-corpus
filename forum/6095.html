@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something that&#x27;s always puzzled me about beam ratios — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="6094.html" class="prev-thread">← Laser Diodes: What are the best options to date?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6089.html" class="next-thread">Holography probably not like riding a bike. →</a></div>
+    <h1>Something that&#x27;s always puzzled me about beam ratios</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>29</td></tr>
+        <tr><td>Views</td><td>6,672</td></tr>
+        <tr><td>Started</td><td>Sun Mar 04, 2007 6:31 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/geezertron.html">Geezertron</a> · <a href="../authors/tony.html">Tony</a> · <a href="../authors/bobh.html">BobH</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/michaelh.html">MichaelH</a> · <a href="../authors/johnfp.html">JohnFP</a> · <a href="../authors/jeff-blyth.html">jeff-blyth</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=6095" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Sun Mar 04, 2007 6:31 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">When you run light through an interferometer, you generally use a 50/50 beamsplitter right? If you use a 90/10 splitter, then only 10% of the light can interfere with itself by taking both paths, with the remaining light simply trying to wash out the interference pattern at the screen.<br><br>So why do we use variable splitters for object/reference beams in holography? Do the rules change if one of the mirrors in our interferometer is replaced with a diffusing object? I understand about obj/ref beam ratios at the plate, but by using a variable BS to alter the beam ratios, are we not also knowingly rendering large amounts of light utterly useless for recording the desired fringes?<br><br>I&#x27;ve always used a 50/50 splitter and varied beam ratios by altering beam expansions/lens distances with good results. It just seemed to me that if I used plate glass to shave off a bit of light for the reference beam in a transmission holo, then most of the object beam would only serve to darken the plate without producing useful fringes (though evidently that still may be better than suffering bad beam-ratios at the plate).<br><br>Does it not stand to reason that the most efficient interference between object and reference beams will occur if those beams are split at a 50/50 ratio (each photon has an equal chance of taking either path), and that beam ratios at the plate are a separate recording issue? By changing the beam-ratios at the plate by altering the beam-ratios at the splitter, I&#x27;d feel as though I were robbing Peter to pay Paul, so to speak.<br><br>Or have I got it all wrong?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tony</span>
+                <span class="post-date">Sun Mar 04, 2007 7:06 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">The end goal of adjusting exposures and light ratios is to maximize brightness of the resultant hologram. To do this, we need to make the fringes have the highest contrast possible, and adjust the exposure so they use as much of the film&#x27;s dynamic range as possible.<br><br>To get the greatest contrast, the light from object and reference would need to be equal and have aligned polarization. Most objects are not mirrors (unless we&#x27;re making an HOE), so they do not reflect all the object light to the film; and they cause the light to become more randomly polarized. <br><br>We use a variable beam splitter to adjust the ratios of light hitting the object and film so that after reflection from the object, we can have the desired ratio.<br><br>I&#x27;m not sure where the guideline ratio of 4:1 for transmision holograms comes from, but I imagine that it is decreased from 1:1 to some extent to account for the fact that light measurements are averaged over areas, and that allows for some peak intensities, such as specular glints, to remain within the dynamic range of the film.<br><br>Adjusting spread lengths might in some cases fly in the face of another holographic constraint, that of keeping the path lengths of reference and object beam matched, within the coherence length of the laser. Of course, if your laser has a long CL (i.e. 315M) tehn that matters a lot less.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Mar 04, 2007 7:21 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">The rules change when using a diffuser in the object beam because interference also happens between different points on the object (intermodulation noise). The reference beam is made stronger so that the fringes made by it and <em>all</em> the points on the object overcomes the fringes that cause intermodulation noise.<br><br>It doens&#x27;t matter how or where you split the beams, or what the losses in the individual beams are. The only ratio that counts is that at the recording plane (unless there&#x27;s thermal effects in one beam because of all the light going in that direction). Although most efficient interference occurs with a beam ratio of one (as in the interferometer), most efficient <em>recording</em> of that interference may be at a higher ratio (ref/obj) to avoid overmodulation of the recording material. Overmodulation results in higher order gratings being recorded which deplete the modulation capability available for the primary grating, making it dimmer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Sun Mar 04, 2007 7:28 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">&gt; I&#x27;m not sure where the guideline ratio of 4:1 for transmision holograms comes from, but I imagine that it is decreased from 1:1 to some extent ...<br><br>Beam ratios are customarily specified as <strong>increasing</strong> from 1:1, reference / object. In the case of HOEs where the designations are somewhat arbitrary, I think it&#x27;s customary to refer to the beam farthest from the normal to be the &quot;reference&quot; beam.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Mon Mar 05, 2007 1:36 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I do understand intermodulation noise (each point on the object can be considered a separate path in that respect), and adjusting beam ratios at the plate. I have to disagree that this is all that matters though. I can see how changing the ratio at the splitter can improve the recorded image by correcting beam ratios at the plate, but my logic tells me that you do sacrifice fringe-forming photons to do so. In terms of the object beam interfering with the reference beam, the most photons will contribute to the pattern if they all have a 50/50 chance of taking the object or reference path.<br><br>I could be wrong of course, but everything I&#x27;ve read about quantum physics (and actually understood) leads me to believe that changing the odds of a photon taking the object or reference path to anything other than 50/50 must prevent some of the light from interfering at the plate (or at least interfering with the desired wavefront). I&#x27;d bet dollars to donuts that if you have a situation where you want the object beam brighter relative to the reference beam, and you do it both ways, one by changing the ratio at the splitter with a variable BS, and the other by leaving the splitter at 50/50 and swapping out the objective/pinhole in the ref beam for a more powerful one (wasting alot of the light by producing a larger-than-needed spot at the plate to dim the ref beam), after adjusting exposure time accordingly so both test plates have the same developed density, the 50/50 holo will be either brighter or cleaner because more of the photons absorbed at the plate will have contributed to the interference pattern. Either way I believe you waste photons, but at least the ones wasted outside the area of the plate, by expanding the ref beam to dim it, don&#x27;t get absorbed by the plate as non-fringe-forming light (or intermodulation noise), as I believe the wasted light in a non 50/50 set up does. I&#x27;m sure there are times when the convenience outweighs all else, especially when good results can be obtained anyways, but I&#x27;d always see changing the intitial 50/50 ratio as an absolute last resort.<br><br>If I ever get a variable BS really cheap (and some plates to burn), I might try an experiment to see if I can prove it somehow. It is nice to know you can get usable fringes no matter how you do it, but something about using variable beamsplitters to establish reference/object beams just bugs me, and I figured it might make an interesting discussion</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Mon Mar 05, 2007 1:42 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">&gt; <strong>BobH:</strong> (unless there&#x27;s thermal effects in one beam because of all the light going in that direction)<br><br>Really! How much power does it take to change the index of refraction of one of the beams?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Mon Mar 05, 2007 12:33 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">It seems that everyone has been having decent luck with whatever beam balance ratio that they haven&#x27;t seen the effects of intermodulation noise. If the ratio is low enough, so that the light from every object point interfering with itself is as strong or stronger than the wanted interference system, there is a big halo around the object. Then it&#x27;s time to add more reference beam. 4:1 is a good place to start, but not perfect for all objects.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">MichaelH</span>
+                <span class="post-date">Mon Mar 05, 2007 2:15 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> It seems that everyone has been having decent luck with whatever beam balance ratio that they haven&#x27;t seen the effects of intermodulation noise. If the ratio is low enough, so that the light from every object point interfering with itself is as strong or stronger than the wanted interference system, there is a big halo around the object. Then it&#x27;s time to add more reference beam. 4:1 is a good place to start, but not perfect for all objects.<br><br>These days when using PFG-01 I typically use 2:1 for my transmissions and fairly close to 1:1 for my reflection copies.<br><br>A few years ago I made a two-channel transmission that was at about 1:3 (accidentally) and while it&#x27;s an interesting transmission hologram with halos around the subject, it&#x27;s totally useless for making white-light copies (which was the goal).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Mar 05, 2007 3:12 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; When you run light through an interferometer, you generally use a 50/50 beamsplitter right? If you use a 90/10 splitter, then only 10% of the light can interfere with itself by taking both paths, with the remaining light simply trying to wash out the interference pattern at the screen.So why do we use variable splitters for object/reference beams in holography? Do the rules change if one of the mirrors in our interferometer is replaced with a diffusing object? I understand about obj/ref beam ratios at the plate, but by using a variable BS to alter the beam ratios, are we not also knowingly rendering large amounts of light utterly useless for recording the desired fringes?<br><br>Well, when using a diffusing object you have to view the light coming off each object point as a wave, not a particle. Even though a wave is needed to study light interference we often think of light as a particle traveling in a straight line and a one particle to one particle interference. With the diffusing object each &quot;particle&quot; that hits a single diffusing object point, must now be viewed as a wave, which then interferes with every reference beam light &quot;particle&quot; in the reference beam. In fact that single diffused object wave interferes with every point within the referece wave because in now looking at the reference beam as a wave, the object wave can interfere not only at every reference &quot;point&quot;, but every infinitessimally small point in between those &quot;particle points. There is no spots or points, if you will, on the plate that have not interfered with the diffused object wave.<br><br>Thats&#x27; the way I understand it anyway.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Mar 05, 2007 3:29 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">OH WOW, now this really has me daydreaming. I have alway been one to love the unknown. I always loved doing something different until I understood it and then it usually bored me. But light has never been able to bore me. I guess that&#x27;s why I love holography so much. Anyway...<br><br>I have a few questions. <br><br>With a piece of glass what determines which packet of light or photon or wave is reflected and which is transmitted?<br><br>Are there any that are partially reflected and partially transmitted?<br><br>With a coated beam splitter, what are the answers to these same questions?<br><br>For the probability of interference, do the interfering waves need to be from the same original waves? Or, does the probablity of interference occure when the two interfering waves are separate original waves?<br><br>What does light look like just prior to hitting a mirror or diffuse object?<br><br>What does light look like just after hitting a mirror?<br><br>What does light look like just after hitting a diffuse object?<br><br>I want to visualize it darn it....</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">BobH</span>
+                <span class="post-date">Mon Mar 05, 2007 3:54 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">&gt; I have to disagree that this is all that matters though.<br><br>Pretend you&#x27;re a point in the center of the recording plane. You see two beams of equal intensity comming from two directions. How would you know the method used to either seperate the beams <em>or</em> to set their intensities? <br><br>If the beams are of equal intensity, you&#x27;ll have maximum fringe visibility (determined by the polarization, angles, coherence and stability). If one of the beams is more intense than the other, the fringe visibility will be decreased. This means there will be light in the dark fringes. Again, how does a point on the recording plane &quot;know&quot;, or &quot;care&quot; how the beam intensities were set? <br><br>&gt; Either way I believe you waste photons, but at least the ones wasted outside the area of the plate, by expanding the ref beam to dim it, don&#x27;t get absorbed by the plate as non-fringe-forming light<br><br>That&#x27;s true, but if the resulting beam ratio at the recording plane is greater than one, you&#x27;ll still have light in the dark fringes because the fringe visibility will still be decreased. So what&#x27;s the advantage of not using a variable beamsplitter (other than cost)?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Mon Mar 05, 2007 8:05 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">Great questions. Great points. <br><br>Food for thought:<br><br>Photons do not interfere with eachother -They interfere with themselves. One of the most important features of interference is that even if only one photon (or electron for that matter) at a time is passed through an interferometer, the absorptions at the detector will add up to an interference pattern. And yes, I agree it is more intuitive to think of the beams as wavefronts, but you have to recognize that the &quot;wave&quot; (an abstraction representing the probabilities of a single photon being absorbed at any particular point in it possible path)is one wave when it interferes at the plate. That is, the object and reference beams are a single wavefront that is overlapping onto itself (trillions of em actually, all conveniently in step in the case of a laser). The fact that you use a beamsplitter to split the wave rather than just using a flat mirror to reflect part of an expanding beam onto itself (the simplest interferometer) doesn&#x27;t change this.<br><br>So every single &quot;particle&quot; that is absorbed, and contributes to an interference fringe, was actually a single wave that was split in two (or more), that effectively took both the reference and the object paths, and interfered with itself at the plate. What blows my mind the most about all of this is that the object part of the wave can interfere with the reference part of the wave even though each part likely arrived at the plate at very different times.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Mon Mar 05, 2007 8:18 pm</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> It seems that everyone has been having decent luck with whatever beam balance ratio that they haven&#x27;t seen the effects of intermodulation noise. If the ratio is low enough, so that the light from every object point interfering with itself is as strong or stronger than the wanted interference system, there is a big halo around the object. Then it&#x27;s time to add more reference beam. 4:1 is a good place to start, but not perfect for all objects.<br><br>Yes, I&#x27;ll just add that a nice bit of &quot;Holographers Speak&quot; I heard nearly 30 years ago while working on a table with Steve McGrew (showing me how to make rainbow H&#x27;s.) when adjusting a variable beam splitter<br><br>he said &quot;If you give an object too much light it starts to talk to itself!&quot;<br><br>and then at about that time I remember Nick Phillips telling me that he and his team while making a laser viewable transmission hologram <br><br>of a diamond studded royal crown had to use [to prevent overmodulation]a transmission : object beam ratio of 22:1 !<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Mon Mar 05, 2007 8:54 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; That is, the object and reference beams are a single wavefront that is overlapping onto itself<br><br>Geezertron, thank you for you posts!<br><br>In other words, a cross section of the laser beam displays a single wavefront across the entire section, not lots of wavefronts side by side and next to each other? So if you divide the beam by putting a mirror in half the beam you are still dividing that single wavefont and it is interfering with itself?<br><br>This is more intersting then I thought if I am understanding it correctly.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Mon Mar 05, 2007 9:43 pm</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">&gt; <strong>JohnFP:</strong> That is, the object and reference beams are a single wavefront that is overlapping onto itselfGeezertron, thank you for you posts!In other words, a cross section of the laser beam displays a single wavefront across the entire section, not lots of wavefronts side by side and next to each other? So if you divide the beam by putting a mirror in half the beam you are still dividing that single wavefont and it is interfering with itself?This is more intersting then I thought if I am understanding it correctly.<br><br>Well, I may be stating it oddly or oversimplifying, but essentially yes. Until a photon is absorbed, we&#x27;re told to think of it as a wave of probabilities. And that wave, when we make it overlap onto itself, is what interferes, what assigns zones of probabilities that determine where that one photon is likely/unlikely to be absorbed (dark/light zones). Each photon has its own probablity wave that interferes with itself, and countless numbers of these particle/wave absorptions all add up to form the 3d fringes within the emulsion.<br><br>The fact that Jeff has refered to recordings at beam ratios of 22:1 has me wondering what I&#x27;m missing. I was thinking that in an interferometer with a ratio of 9:1, only 10% of the light can interfere at the screen but suddenly I&#x27;m wondering why I think that. Is it that 100% of the light interferes, just more weakly? Each photon still goes both ways, but the wave on the weak side of the beamsplitter has a lower amplitude? But then, how that changes anything I&#x27;m not sure either. I&#x27;m going to have to chew on this for a while.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Kaveh</span>
+                <span class="post-date">Tue Mar 06, 2007 12:00 am</span>
+                <span class="post-number">#16</span>
+            </div>
+            <div class="post-body">Geezertron, I think there is a fundamental flaw in the way you are interpreting the quantum mechanics of light, but I can&#x27;t put my finger on where the error is. Splitting 90/10 at the beamsplitter, or splitting 50/50 and changing the ration downstream have exactly the same effect. <br><br>I don&#x27;t think that looking at the quantum mechanical nature of light helps in holography, at least not in making holograms. Perhaps because I never quite understood it, that&#x27;s what I tell myself.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Tue Mar 06, 2007 1:37 am</span>
+                <span class="post-number">#17</span>
+            </div>
+            <div class="post-body">I&#x27;m not sure it is the same thing though. Changing the beam ratio at the plate by, say, moving the object farther away (dims the object beam according to the inverse square law) or focusing the reference beam more tightly, in other words, changing the number of photons hitting the plate from either path, is not really the same as giving each individual photon an equal or unequal chance of taking either path at the start or the optical system (and individual photons are what produce the fringes).<br><br>No matter how you interpret it, there&#x27;s no denying the established fact that the photon (or wave) interferes with itself and not other photons. Therefore changing the ratio by adjusting the number of photons hitting the plate and changing the ratio by altering the path probablility values of an individual photon may not be the same thing at all. It&#x27;s not a case of sending so many photons this way and the rest that way. All photons producing the pattern at the plate must have gone both ways to have interfered with themselves.<br><br>It just seems to me that whatever photons do get absorbed at the plate will be in the best state to interfere if they have an equal chance of taking either path.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Tue Mar 06, 2007 3:33 am</span>
+                <span class="post-number">#18</span>
+            </div>
+            <div class="post-body">&gt; <strong>Geezertron:</strong> .................................The fact that Jeff has refered to recordings at beam ratios of 22:1 has me wondering what I&#x27;m missing. I was thinking that in an interferometer with a ratio of 9:1, only 10% of the light can interfere at the screen but suddenly I&#x27;m wondering why I think that. Is it that 100% of the light interferes, just more weakly? Each photon still goes both ways, but the wave on the weak side of the beamsplitter has a lower amplitude? But then, how that changes anything I&#x27;m not sure either. I&#x27;m going to have to chew on this for a while.<br><br>I suppose on a normal hologram making day , 22:1 seems completely wrong but we must allow for exceptional objects like cut diamonds and even common or garden polished spoons with their concave bowls able to concentrate object beam light back to the plate so that it exceeds the reference beam intensity at certain points causing in effect the reference and object beams to swap over and create halo effects as already said.<br><br>So I think you and all of us can agree that exceptional objects may need unusual beam ratios just to avoid distortion effects. <br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Tue Mar 06, 2007 4:34 am</span>
+                <span class="post-number">#19</span>
+            </div>
+            <div class="post-body">&gt; <strong>jeff-blyth:</strong> So I think you and all of us can agree that exceptional objects may need unusual beam ratios just to avoid distortion effects.Jeff<br><br>Good point!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Tue Mar 06, 2007 10:39 am</span>
+                <span class="post-number">#20</span>
+            </div>
+            <div class="post-body">BTW Jeff (<em>the</em> Jeff Blyth?!) I was going to say something a few posts ago but figured you&#x27;d probably be sick of it by now, but what the heck; I recall reading your name in holography texts when I was first learning about it so many years ago. That such an esteemed member of the holography community comes here makes this a special place indeed! It&#x27;s an honor to meet you! <br><br>Rob (a hobbyist struggling to understand it all).</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Tue Mar 06, 2007 12:11 pm</span>
+                <span class="post-number">#21</span>
+            </div>
+            <div class="post-body">Really high beam ratios are not that unfeasible. When I worked at FermiLab with Hans Bjelkhagen, he wrote an internal paper about the Beam Balance Ratio and concluded that even reference to object ratios of a million to one would be able to be recorded! The bubble chamber holograms we were making had ref:obj ratios in the hundreds! <br><br>When I first was introduced to making transfers into photo-resist, the conventional wisdom was a 40:1 ratio! (I think this was a Ken Harris innovation.) I would make exposure series on a single plate until I found the best one. Later on I tried tinkering with lower ratios, and guess what, if you find the reight exposure, they all look the same!<br><br>And why not? Even the early papers of Leith and Upatnieks extolled the virtues of holographic recording over photographic in that a wider dynamic range, like thousands to one, were capable in holography over the maybe 100 to 1 of photography.<br><br>In a hologram of an object that has tones, the interference patterns of the dimmer parts are not as strong as those of the bright ones. Yet we never notice parts of objects missing because they were not bright enough.<br><br>Like Kaveh, I feel that there is some fatal flaw in Geezertron&#x27;s logic. I get the willies whenever I hear someone invoke quantum mechanics, a phobia I picked up when I worked at FermiLab. (Some of the High Energy Physicists could always spout equations, names of obscure particles like muons, bosons, etc, which make cool-sounding alien or band names, but they did not have a lick of common sense!)<br><br>Like how could a photon interfere with itself if the path length difference is meters? I like BobH&#x27;s viewpoint, that of the holoplate, which doesn&#x27;t care how that interference pattern got there, it&#x27;s just seeing the brights and the dims.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Mar 06, 2007 12:49 pm</span>
+                <span class="post-number">#22</span>
+            </div>
+            <div class="post-body">Ok, I have a question regarding this whole probability thingy especially when told the wave can only interfere with itself. So here is my thought problem.<br><br>If light is in fact a wave occupying the whole cross section of the laser beam then inside the laser beam this is what must be happening. A single photon hits an atom that is excited. Now this photon is a wave and let’s say it is traveling down the length of the bore for simplicity. Now it is not traveling as a particle or a train but an expanding wave and again we will only look at a single direction down the bore. It hits an atom that is excited and stimulates that atom to release another &quot;photon&quot; wave and then they are both traveling down the bore together, I guess in an overlapping fashion. Now the law of probability experiments I have seen tell us that which atom the photon hits is random and if averaged over time we will see a more or less even distribution over all atoms. <br><br>Now here is the part I seem to be missing. Let’s apply this concept to the sun. The sun is emitting photons due to many atoms dropping from some excited state. Let&#x27;s look at a single photon. It travels from the sun and gets to the earth (lets say this one make is through the atmosphere). Of course we have to look at this photon as not a particle (as described above) but and expanding wave. This photon hit an object and is absorbed. Obviously if this photon is absorbed in Maryland it cannot be absorbed by an object in New York. This law of probability says that all the photon will be evenly distributed where they are absorbed from Maryland to New York and everywhere in between. Now the messy part. This photon travels in a wave and has a length (I think someone actually measured the length in an experiment and is called a packet). And the wave is traveling at some speed. It is very puzzling why the law of probability still holds true for a group of photons considering in NY there are short buildings and tall buildings. Why don&#x27;t all the photons decide to hit the top of the Empire State Building because they would hit them first as compared to the sidewalk below (which is further away from the atom on the sun)? Then if they did hit the top of the Empire State Building and were absorbed, there would be no light ever hitting the sidewalk even if it was in the direct path of the photon wave.<br><br>You see, light experiments only work for what you want to study. In this model, you cannot think of light as a wave, it has to be particle with a single straight line path.<br><br>So why is it that interference cannot happen with two photons? Why must they be a wave that interferes with itself?<br><br>Has a single photon ever been seen or studied to be able to be split? Does that probability experiment use a single photon interfering with itself or a number of photons interfering with each other? I always believed the latter but I have been wrong on many occasions.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Mar 06, 2007 12:59 pm</span>
+                <span class="post-number">#23</span>
+            </div>
+            <div class="post-body">Well, here is the prob exp.<br><br>It follows that, in the quantum mechanical version of the two-slit interference experiment, we must think of each photon as essentially passing through both slits simultaneously. <br><br>[http://farside.ph.utexas.edu/teaching/q ... ode21.html](http://farside.ph.utexas.edu/teaching/qmech/lectures/node21.html)<br><br>I guess I am not on subject talking about the Maryland - NY thought problem as there is no interference, but it still bothers me. And I also now need to think of interference completely different. (until that theory is proven wrong......lol)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Tue Mar 06, 2007 7:16 pm</span>
+                <span class="post-number">#24</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> Like Kaveh, I feel that there is some fatal flaw in Geezertron&#x27;s logic. I get the willies whenever I hear someone invoke quantum mechanics, a phobia I picked up when I worked at FermiLab. (Some of the High Energy Physicists could always spout equations, names of obscure particles like muons, bosons, etc, which make cool-sounding alien or band names, but they did not have a lick of common sense!)Like how could a photon interfere with itself if the path length difference is meters? I like BobH&#x27;s viewpoint, that of the holoplate, which doesn&#x27;t care how that interference pattern got there, it&#x27;s just seeing the brights and the dims.<br><br>I&#x27;m perfectly willing to entertain the notion that there&#x27;s a flaw in my logic, buy an explanation of some kind would be nice....not understanding something does not make it false <br><br>That the photon interferes with itself despite differences in path-lengths, as I mentioned, blows my mind, but it is true, and has been proven experimentaly (you prove it every time you record a holo). If that weren&#x27;t true, it would be impossible to record a pattern while passing one photon at a time through the system (which has been done with both photons and even electrons I believe). It&#x27;s one of those &quot;spooky&quot; features of light.<br><br>Of course, the hologram plate doesn&#x27;t care how the light got there, it just records dark and bright zones as you stated. But I&#x27;m not a hologram plate, and I&#x27;d prefer to keep trying to figure out what&#x27;s really going on. By refusing to bring quantum mechanics into holography, you&#x27;re refusing to understand how holography works, because despite all the complicating factors (such as diffuse objects/intermodulation etc...), the principle behind holography is identical to the principle behing the double-slit/Michelson or any other type of interferometer, and you can&#x27;t understand either without learning a bit about quantum physics.<br><br>That&#x27;s not to say you need to understand any of this in order to make holograms...I&#x27;m just weird that way I guess. <br><br>And John, the wave does indeed stretch from Maryland to NY (and to some extent, maybe even into the next galaxy), and their probably is lots of interference going on (but since the outdoors is not laser-lit you just don&#x27;t notice all the various-wavelength randomly polarized photons interfering). The probability wave merely tells us where the photon is likely or unlikely to be absorbed. How the photon finally chooses its target from all the potential targets that the probability wave allows...your guess is as good as mine.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">JohnFP</span>
+                <span class="post-date">Tue Mar 06, 2007 7:36 pm</span>
+                <span class="post-number">#25</span>
+            </div>
+            <div class="post-body">&gt; When you run light through an interferometer, you generally use a 50/50 beamsplitter right? If you use a 90/10 splitter, then only 10% of the light can interfere with itself by taking both paths, with the remaining light simply trying to wash out the interference pattern at the screen.<br><br>Well, now I am going out on a limb here (as I usually do in these types of discussions but).<br><br>But what about if the entire wave is split intensity wise so to speak, with the beam splitter. That is, take a wave sample with 100 waves and pass it through a 50/50 beam splitter. All 100 waves goes through and all 100 waves reflect but with an intensity 1/2 of the original (less energy in each of the waves). Now take a 90/10 (refl:trans) beamsplitter with the same 100 waves. I suggest all 100 waves still get reflected and transmitted but more of each wave is reflected then transmitted (intensity). Then both beams have full potential to create interfernce fringes. Now take that 90% beam and expand it or reflect it off an object so that the intensty matches the 10% and you get a very nice set of contrasty fringes not wasting the 80% thought to be not in the 10% reference beam. Stilll the entire 90% beam can interfere with the 10% beam.<br><br>Does that make any sense?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Tue Mar 06, 2007 7:52 pm</span>
+                <span class="post-number">#26</span>
+            </div>
+            <div class="post-body">Yeah, I pretty much speculated about the exact same thing in one of the posts above (when Jeff refered to a 22:1 ratio in a particular recording). Each photon still goes both ways, but the waves on the weak side of the splitter have a lower amplitude. I&#x27;m just not sure that makes any difference though, that it still wouldn&#x27;t be better with a 50:50 ratio splitting the obj/ref beam (giving a single photon a 50/50 chance at the splitter) and adjustment of the ratio (by controlling the number of photons striking the plate from each path) being made at the plate by other means.<br><br>I believe once you start thinking in terms of one photon/wave at a time forming the fringes (which is what happens), the subtle difference I&#x27;m theorizing about may become more evident.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Geezertron</span>
+                <span class="post-date">Tue Mar 06, 2007 8:27 pm</span>
+                <span class="post-number">#27</span>
+            </div>
+            <div class="post-body">BTW Ed, I certainly wasn&#x27;t trying to sound like a smart-alec or anything...Much (if not all) of the physics of light is just theory, and even professionals in the field often disagree with eachother when debating the issues. I just realized how funny it might look for someone like myself to try to talk physics with someone who&#x27;s actually worked at FermiLab. Any input you might have will always be welcome.<br><br>Can you detail what happens to the fringes at such high ratios though? Are they just as pronounced as the fringes in a 1:1 setup? Are they less well-defined? Does much of the light serve to fog the plate though not enough to outweigh the benefit of making the desired fringes stand out from the noise fringes?<br><br>I&#x27;d love to hear a pro holographer&#x27;s take on what happens to the fringes at such high beam ratios.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">jeff-blyth</span>
+                <span class="post-date">Tue Mar 06, 2007 9:53 pm</span>
+                <span class="post-number">#28</span>
+            </div>
+            <div class="post-body">&gt; <strong>Geezertron:</strong> BTW Jeff (theJeff Blyth?!) I was going to say something a few posts ago but figured you&#x27;d probably be sick of it by now, but what the heck; I recall reading your name in holography texts when I was first learning about it so many years ago. That such an esteemed member of the holography community comes here makes this a special place indeed! It&#x27;s an honor to meet you!Rob (a hobbyist struggling to understand it all).<br><br>As an old Ozzi friend might put it:-<br><br>Cor Blimey Rob! You make me blush so much that if you shot me portrait now with a 694 pulsed ruby it &#x27;ud be a total white out!<br><br>This site a a tremendous mine of information and insight from lots of folks with lots of varied experiences and background knowledge, I am just one of that crowd, I hope you stay in with your contributions.<br><br>Jeff</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Wed Mar 07, 2007 1:37 am</span>
+                <span class="post-number">#29</span>
+            </div>
+            <div class="post-body">Thanks for the above, I was afraid we had another Dinesh on our hands.<br><br>Just because I worked at FermiLab doesn&#x27;t imply that I am a Brainiac for High Energy Physics. I was just there being a hired photon shoveler (sort of the caretaker for the 25 Joule JK/Lumonics Ruby laser), nothing more.<br><br>I think what is the basic flaw in this conundrum is the that a beam splitter works different than the double slit experiment.</div>
+        </div>
+
+    <div class="thread-nav"><a href="6094.html" class="prev-thread">← Laser Diodes: What are the best options to date?</a><a href="General-Old.html">↑ General Holography (old)</a><a href="6089.html" class="next-thread">Holography probably not like riding a bike. →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11389.html" class="card">
+                <h3>beam ratios for Denisyuk DCG</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 5 posts</div>
+            </a>
+            <a href="253.html" class="card">
+                <h3>Beam ratios</h3>
+                <div class="card-meta">Equipment · 45 posts</div>
+            </a>
+            <a href="8014.html" class="card">
+                <h3>Beam Ratios</h3>
+                <div class="card-meta">Beginning Holography · 10 posts</div>
+            </a>
+            <a href="7137.html" class="card">
+                <h3>Beam me up</h3>
+                <div class="card-meta">Gallery · 6 posts</div>
+            </a>
+            <a href="4686.html" class="card">
+                <h3>measuring beam ratios</h3>
+                <div class="card-meta">General Holography (old) · 37 posts</div>
+            </a>
+            <a href="1132.html" class="card">
+                <h3>BEAM RATIOS</h3>
+                <div class="card-meta">General Holography (old) · 30 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

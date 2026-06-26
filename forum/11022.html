@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the principle — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11027.html" class="prev-thread">← Question About Cylindrical Holograms.</a><a href="Optics.html">↑ Optics</a><a href="10913.html" class="next-thread">Newport 935 series variable attenuators? →</a></div>
+    <h1>Understanding the principle</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>15</td></tr>
+        <tr><td>Views</td><td>258,170</td></tr>
+        <tr><td>Started</td><td>Fri Oct 16, 2020 5:56 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/ytre.html">Ytre</a> · <a href="../authors/din.html">Din</a> · <a href="../authors/lobaz.html">lobaz</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11022" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Fri Oct 16, 2020 5:56 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Do I think correctly when I assume that the property of the hologram is associated with the difference in the intervals between the interference maximums registrated on the film?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Oct 16, 2020 8:53 am</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ytrewrote:↑Fri Oct 16, 2020 5:56 am:</strong> Do I think correctly when I assume that the property of the hologram is associated with the difference in the intervals between the interference maximums registrated on the film?<br><br>Correct. The difference between the intervals is a measure of the spatial frequency of the recording. This is also a function of interbeam beam angle. Consider having a point source, at some angle, and a planar beam at some other angle, both hitting the film. The interaction of the planar beam and the point source creates a set of lines, whose interval between maxima is a function of the angle between the beams and the wavelength. If you have another point source, each point source creates it&#x27;s own set of lines. For an actual object, the object may be considered as a continuous set of point sources, each creating it&#x27;s own set of lines. The resolution of the film is a measure of how the film can record the lines. If the lines are too fine, some film may not be able to record them.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Fri Oct 16, 2020 1:08 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">If the red line was a film, the maximums would lie on it as I showed in picture? Is it correct? Just trying to understand how angle affects the distance.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Fri Oct 16, 2020 2:39 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Yes. But keep in mind that analysis of interference from a drawing of a few wavefronts (here, circles) is quite limited.<br><br>A better idea is to analyse the pattern in this way:<br><br>We have two point sources (pinholes in the second screen). Light starting at these sources interferes. What happens at a particular point P? It depends on distances between P from both point sources; let us denote the distances r1 and r2. <br><br>When r1 = r2, the waves add constructively. When r1 = r2 + wavelength/2, the waves destroy each other. When r1 = r2 + wavelength, the waves add constructively again; and so on. Thus, if you draw lines for which r1 - r2 = 0, r1 - r2 = wavelength, r1 - r2 = 2<em>wavelength, and so on, you get points in space where the waves add constructively. Such lines are hyperbolas with foci at point light sources.<br><br>If you can use Octave or Matlab, a small script does it for you:<br><br>Code: [Select all](#)<br>`% Area we watch will be 10 x 10 units<br>x = linspace(0, 10, 500);<br>y = linspace(-5, 5, 500)&#x27;;<br><br>% The point light sources will be located at [0, 2] and [0, -2]<br>r1 = sqrt(x.^2 + (y-2).^2);<br>r2 = sqrt(x.^2 + (y+2).^2);<br><br>% Calculate difference between r1 and r2 at all points.<br>% Use modulo function as differences 0, wavelength, 2</em>wavelength, etc. behave the same way<br>wavelength = 0.5;<br>imagesc(x, y, mod(r1 - r2, wavelength)); <br>axis(&#x27;image&#x27;);<br><br>% Colormap will be white for difference 0 and wavelength,<br>% black for difference wavelength / 2<br>c = abs(linspace(-1, 1, 100))&#x27;;<br>colormap([c, c, c]);<br>colorbar();<br>`<br><br>![interference.png](https://holographyforum.org/forum/download/file.php?id=7605)<br><br>Please note that the image does NOT show the actual interference pattern as we did not count with quadratic attenuation of light intensity. It just shows points where lights are in and out of phase.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Fri Oct 16, 2020 3:03 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Unfortunatelly I dont have mathlab. My mathlab exists only in my head. I purposely simplified process by using two-dimentional model so far as I showed in pic. I dont understand what did you mean by hyperbola? Is it projection on film? Could you explain it in detail? I couldnt understand this on howstuffworks article. Not good explanation for newbie</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Fri Oct 16, 2020 3:10 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">It seems I have imagined it correctly. Its because of spherical fronts in space they intersect each other. Ok. I have it now understood at last.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sat Oct 17, 2020 6:03 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ytrewrote:↑Fri Oct 16, 2020 3:03 pm:</strong> I dont understand what did you mean by hyperbola? Is it projection on film? Could you explain it in detail?<br><br>[https://en.wikipedia.org/wiki/Hyperbola](https://en.wikipedia.org/wiki/Hyperbola)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sat Oct 17, 2020 9:00 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">If you have two point sources, as in your diagram, then you will get a sinusoidal variation of light bands and dark bands. The defining equations is:<br><br>m<em>λ = d</em>sin(θ)<br><br>where m is called the &#x27;order&#x27; of the pattern (the pattern repeats - dark, light, dark, light etc) ), d is the distance between two slits, λ is the wavelength and θ is the angle between any point on the screen and a normal (straight line) from half way between the slits. So, let us say that you set up your two slits (if you&#x27;re using a laser, you don&#x27;t need the first slit) separated by 0.02 mm and you measure the third bright point on your screen to be at an angle of 5.45 degrees from the centre of the slit system, what is the wavelength?<br><br> λ = d<em>sin(θ)/m = {(0.02)</em>sin(5.45)}/3 = 0.000633<br><br>The intensity variation is sinusoidal, and is given by<br><br>I(t) = 4<em>I</em> cos²(θ/2)<br><br>where I(t) is the total intensity at the screen, and I is the intensity at each slit. So, if you imagine a cos² curve, the fringe system follows the curve.<br><br>This is for a two slit system, as you&#x27;ve drawn. However, in holography, we usually have a planar (flat) wave and a diverging wave from a point source. In this case, the fringe system is hyperbolic, the lines of equal intensity are shaped like hyperbolas. Depending on where you place the film, the film will intersect the hyperbolas and form the fringe system. Below is a diagram from &quot;Optical Holography&quot; by Collier, Lin and Burckhardt<br><br>![fringes.jpg](https://holographyforum.org/forum/download/file.php?id=7607)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Sun Oct 18, 2020 5:42 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">It is not entirely clear from this figure, but I understood principal of how hyperboles are formed. If both waves were spherical, then the hyperbola would lie in the plane perpendicular to the film, and in the case of one plane wave it is in the plane of film. I got it. Is it possible to demonstrate a hologram in real time without using film? After all, the effect will be exactly the same as with the film, i.e. in the plane of space, the same patterns will form and the maximums will be the place of formation of spherical waves. Or not?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Sun Oct 18, 2020 9:13 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">The fringe system is actually 3 dimensional, they&#x27;re hyperboloids, not hyperbolae. If the system is just 2-dimensional - across one plane - then only one line across the film would expose.<br><br>&gt; <strong>Ytrewrote:↑Sun Oct 18, 2020 5:42 am:</strong> Is it possible to demonstrate a hologram in real time without using film?<br><br>It&#x27;s not possible to demonstrate an actual object, because the spatial frequency is high, ie the spacing between fringe lines is small, in the order of microns. If you look at the above equation, λ = d*sin(θ), you&#x27;ll see that even with a 10 degree beam separation, the lines are spaced at 7 microns, too close to see with the unaided eye (in comparison, a human hair is about 25 microns wide). It&#x27;s always possible to observe interference lines with any interferometer. In fact, most holographers test the stability of their system using a Michelson interferometer. In a Michelson interferometer, the two beams are inline, ie the interbeam angle is close to zero. So you can see the lines on a wall. If you want to see the effect of changing the angle between the two beams, you can tilt one of the mirrors in the interferometer.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Sun Oct 18, 2020 10:06 am</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">I agree that fringe system is 3D, but I meant the intersection of two fronts. I see it as hyperbola.<br><br>I didn’t understand why it is impossible to demonstrate a hologram in real time? Due to air fluctuations or it is principally impossible? You didnt explain.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Oct 19, 2020 8:43 am</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">It depends on what you mean by &quot;real time&quot;. If you set up a real object, illuminate it with a laser, and let the laser light hit a white card, then you put a reference beam on the white card, you will not see interference lines on the white card because they&#x27;re too small. Usually, the number of interference lines are denoted by the spatial frequency, and, typically, spatial frequencies are in the order of 1000 lines/mm. <br><br>You can see a &quot;real time&quot; hologram if you make a hologram in the traditional way, replace the hologram, with the object still in place, reconstruct the hologram and slightly disturb the object. Now, the wavefront from the original hologram and the wavefront from the reconstructed hologram are slightly out of phase, and you get a beat frequency.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ytre</span>
+                <span class="post-date">Mon Oct 19, 2020 9:18 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">I dont need to see interference lines. I wanna know of possibility making holographic display as shown on &quot;avatar&quot;. I think we could make holographic &quot;object&quot; in space if behaviors of the film and empty space in a place were film is supposed to be are simillar. Is is it so or not?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Mon Oct 19, 2020 4:20 pm</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">If you mean the display with the terrain from the film Avatar ([https://james-camerons-avatar.fandom.co ... ons_Center](https://james-camerons-avatar.fandom.com/wiki/Operations_Center)), this is hardly possible with classical holography. If fact, illusions floating in the air above an table are still possible just in sci-fi. I am not aware of any pysical principle that could potentially make it.<br><br>Simple explanation: when you see a ball, light ray from a ball must hit your eye. When you want an illusion of a ball, the light ray still must originate somewhere. As a light ray cannot turn on its own, it follows that the light source (&quot;a display&quot;) must be in line with your eye and the ball illusion. Thus, it is possible to make an illusion floating in front of some display, say a conventional hologram. But if you want to watch such an illusion &quot;from side&quot;, it disappears as a light ray starting on the dispay surface have no way to reach both the illusion AND your eye.<br><br>Moreover: if you find a way how to bend a ray at a given point in the air (such as projection into fog), you have no way to block other light from passing that point. This means that the illusion is transparent, it cannot cover neither other parts of the illusion nor any real object.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Oct 20, 2020 8:58 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">There is a way of fooling the eye. If you have a horizontal disc containing a hologram, and illuminate it from below so that the image appears above the disc, it fools the eye to think that the object sits in free space. Of course, as Petr says, your vision is limited to the area of the disc, but most people seeing the illusion aren&#x27;t aware of this. It isn&#x27;t real time, you have to pre-record the hologram. But, so many people started to call it the &quot;Leia&quot; illusion, that we just ended up calling this our :Leia display.<br><br>[https://www.youtube.com/watch?v=zgcKKgQPjuw](https://www.youtube.com/watch?v=zgcKKgQPjuw)<br><br>[https://www.youtube.com/watch?v=1Nq4ri2t-HI](https://www.youtube.com/watch?v=1Nq4ri2t-HI)</div>
+        </div>
+
+    <div class="thread-nav"><a href="11027.html" class="prev-thread">← Question About Cylindrical Holograms.</a><a href="Optics.html">↑ Optics</a><a href="10913.html" class="next-thread">Newport 935 series variable attenuators? →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="10364.html" class="card">
+                <h3>Understanding transmission holograms and HOEs/gratings</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a>
+            <a href="839.html" class="card">
+                <h3>A New Microscopic Principle</h3>
+                <div class="card-meta">Techniques · 9 posts</div>
+            </a>
+            <a href="7515.html" class="card">
+                <h3>principle of work of Holo Screen?</h3>
+                <div class="card-meta">General Holography (old) · 3 posts</div>
+            </a>
+            <a href="5568.html" class="card">
+                <h3>Understanding Modes in a pulsed Laser</h3>
+                <div class="card-meta">General Holography (old) · 15 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

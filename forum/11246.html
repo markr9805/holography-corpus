@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A heuristic approach — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11259.html" class="prev-thread">← online ray optics simulator</a><a href="Optics.html">↑ Optics</a><a href="11146.html" class="next-thread">Dammit! →</a></div>
+    <h1>A heuristic approach</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>5</td></tr>
+        <tr><td>Views</td><td>55,728</td></tr>
+        <tr><td>Started</td><td>Tue Jun 28, 2022 12:33 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/din.html">Din</a> · <a href="../authors/serg-assump.html">Serg Assump</a> · <a href="../authors/manul.html">Manul</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11246" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Jun 28, 2022 12:33 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I just got this. I think it provides a good heuristic approach to holography, albeit not as analytic as the coupled wave approach.<br><br>![layered media.jpg](https://holographyforum.org/forum/download/file.php?id=7746)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Serg Assump</span>
+                <span class="post-date">Wed Jul 13, 2022 7:37 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Interesting.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Manul</span>
+                <span class="post-date">Sun Nov 23, 2025 3:47 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>Dinwrote:↑Tue Jun 28, 2022 12:33 pm:</strong> I just got this. I think it provides a good heuristic approach to holography, albeit not as analytic as the coupled wave approach.layered media.jpg<br><br>I&#x27;m interested, can you please tell me more?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Nov 24, 2025 4:39 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">Not sure what detail you&#x27;re looking for. Let me describe the book, if that helps.<br><br>The book starts with Maxwell&#x27;s equations along with the constitutive relations to describe light transmitting through a medium. It then goes through theories of polarization using the Jones vector model and theories of partial polarization and coherence (spatial and temporal). Chapter 2 deals with the Drude model of light transmission by analysis of dipole moments, the Clausius-Mossotti equation connecting dipole moments to the index and complex refractive indices and the complex refractive index of metals. Finally (chap 2), it derives the Kramers-Kronig relations connecting the real and complex parts of the refractive index. Chapter 3 basically derives and analyses the Fresnel formulae and the Goos-Hanchen shift.<br><br>Chapter 4 deals with the transmission and reflection of a single layer (below) and chap 5 gives a matrix formulation for the transmitted and reflected field.Chapters 6 and 7 deal with multi-layered media, using the matrix methods developed earlier. Wave propagationn in periodic media is then analysed in terms of Block waves and band structures, similar to he Kronig Penney model; this shows that there are certain forbidden &quot;bands&quot;, ie that certain wavelengths will not transmit.<br><br>Chapter 8 deals with the WKB model, where the index varies along the direction of transmission, ie along the k vector. At any rate, this is a sort of parallel GRIN, in that GRIN implies index variation perpendicular to the k vector. The book then deals with various functional variations of index, eg hyperbolic and exponential variations of n. The interesting thing here is that it also deals with an exponential variation of the index and produces a theory very similar to Kogelnik&#x27;s Coupled Wave formulation. When I worked at Physical Optics Corp (POC), we tried to analyse holograms using the WKB model. This is why I thought that the book was a heuristic approach to holography, not as analytical as Kogelnik, but giving you a sort of intuition into Kogelnik.<br><br>Chapter 9 - 11 deals with anisotropic layers and chap 10 deals with modes in waveguides and mode-coupling. Finally, chapter 12, the last chapter, deals with quantum wells.<br><br>One thing I must point out is that there are theories of holography that are based on wave transmission and reflection in multi-layered optical media. The problem I see is that such theories do not go into absorption inside the multi-layered media, and so there cannot be any expression for efficiency - there is complete conservation of energy - efficiency in any system refers to the loss of energy (the rise of entropy) in the system. Another point, made in this book, is that the reflection and transmissions are polarisation dependent - hence the Jones vector model and the Fresnel equations. There is no mention of any porisation effects in the Kogelnik Coupled Wave theory; also, the energy loss - the efficiency - is given as a scalar.<br><br>So, again, while optical waves in layered media may be a heuristic approach to holographic theories, the Kogelnik model is far more analytic.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Nov 24, 2025 5:01 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Here is the contents page.<br><br>![contents.jpg](https://holographyforum.org/forum/download/file.php?id=8006)</div>
+        </div>
+
+    <div class="thread-nav"><a href="11259.html" class="prev-thread">← online ray optics simulator</a><a href="Optics.html">↑ Optics</a><a href="11146.html" class="next-thread">Dammit! →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

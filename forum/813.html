@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question about beamsplitter cube &amp; waveplates — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="832.html" class="prev-thread">← 15 Weeks in 2 Hours!</a><a href="Optics.html">↑ Optics</a><a href="802.html" class="next-thread">question about fringe expansion →</a></div>
+    <h1>question about beamsplitter cube &amp; waveplates</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>11</td></tr>
+        <tr><td>Views</td><td>24,638</td></tr>
+        <tr><td>Started</td><td>Wed Feb 05, 2014 11:45 am</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/joe-farina.html">Joe Farina</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/ed-wesly.html">Ed Wesly</a> · <a href="../authors/holomark.html">Holomark</a> · <a href="../authors/jeffrey-weil.html">Jeffrey Weil</a> · <a href="../authors/paulos.html">Paulos</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=813" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Feb 05, 2014 11:45 am</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">I&#x27;m having some difficulty with a broadband beamplitter arrangement, and was wondering if anyone can offer some guidance on the subject. I&#x27;m trying to set up a variable beamsplitter for a combined 532/633 beam which maintains the same ratio of green/red in the split beam and transmitted beam. My original plan was to use a broadband cube, and two broadband half-wave plates. One plate is in front of the cube to change the polarization of the 532/633 input to provide a variable split beam (object beam), and the second after the cube in the transmitted beam change the polarization for use at Brewster&#x27;s Angle (reference beam).<br><br>The beamsplitter is of known pedigree, a New Focus (now Newport) 5811 polarizing beamsplitter cube (broadband):<br><br>[http://search.newport.com/?x2=sku&amp;q2=5811](http://search.newport.com/?x2=sku&amp;q2=5811)<br><br>However, the achromatic half-wave plates are of unknown pedigree, but were provided by a very knowledgable forum member. They seem to be a type of polymer sandwiched between two very thin pieces of glass.<br><br>The problem I&#x27;m seeing is that, when changing the input polarization to the cube (using one of these waveplates) the ratios of 532 to 633 in the split (and transmitted) beam are not the same as the input beam. The ratios seem to vary as the first waveplate is rotated. (The polarizations of 532 and 633 are in the same plane, in the input beam to the first waveplate.)<br><br>I&#x27;m wondering about the following question. If all the components (waveplates and cube) are of the very best quality, could I expect the ratios of green/red to remain very stable, when used as a variable beamsplitter?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Wed Feb 05, 2014 1:42 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">When you change the polarisation of the input beam via the broadband halfwave plate, the condition for altering the polarisation angle is dependent on the thickness of the halfwave plate. However, for broadband applications, the thickness is larger than need be. This is known as a &quot;multi-order&quot; halfwave plate (as opposed to a zero order halfwave plate). The polarisation changes as a result of making the thickness create a phase change of an exact multiple of pi and taking advantage of the birefringence. The exact relationship is:<br><br>delta phi = (2pi/lambda)<em>delta(n)</em>d<br><br>and so if you arrange the thickness of the crystal (d) so that delta phi = pi/2 (hence &quot;halfwave plate&quot;), then you have a twisting of the plane of polarisation. Notice however, that the delta phi is lambda dependent. Thus, if you calculate d for a specific lambda, it wouldn&#x27;t alter any other wavelength. This is known as a zero order halfwave plate. However, in practice, this value of d is extremely small - on the order of 20 microns or so - making it impractical. So, what&#x27;s done is to stack up lots of d&#x27;s and create a multiple order halfwaveplate. However, this has the effect of de-sensitising the wavelength selectivity thus making it &quot;broadband&quot;. The polarisation is still lambda dependent, but the lambda dependence is &#x27;mushy&#x27;. Thus, the halfwave plate will alter the amount of twist of the polarisation of different wavelengths by different amounts (albeit, very close) for different wavelengths. This will have the effect of altering the ratio at the output of the cube. So, once it&#x27;s fixed on the wavelength/polarisation relationship, it&#x27;ll probably remain pretty stable. However, stacking the waveplates to create a multiorder waveplate makes it pretty sensitive to temperature fluctuations, and you&#x27;re hitting it with a laser that might warm it up. I&#x27;d suggest that you make (or buy) a low frequency grating, pass the altered polarised beams , ie the beams after passing through the waveplate, into the grating, which will split them, and then place a detector at each beam. Monitoring the detector will give you an idea of the stability.<br><br>If you&#x27;re interested, I wrote something about this at the behest of the head of R&amp;D at Applied Holographics (Hamish Shearer, some forum members might recognise the name) lo these many years ago: [http://www.triple-take.com/publications ... 201984.pdf](http://www.triple-take.com/publications/Polarization%201984.pdf)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Wed Feb 05, 2014 3:29 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Thanks for the analysis, Dinesh, I appreciate it. That&#x27;s an interesting point about the temperature dependence. The active portion of these waveplates appears to be a thin polymer. Previously, the system appeared to work better, but yesterday there were some wild variations. I may want to invest in a different waveplate, for the input into the cube, though they are quite expensive. The use of a grating and detector to monitor the different wavelengths looks like a good idea, and thanks also for the paper.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Ed Wesly</span>
+                <span class="post-date">Thu Feb 06, 2014 12:50 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I have a similar issue with mica waveplates, they don&#x27;t rotate the two different lambdas exactly the same amount. Just get another one, and let each laser have its own ratio controlling half-wave plate.<br><br>I measured the minimum and maximum outputs from the beamsplitter of all of my wave plates at a variety of wavelengths, and they vary all over the place. Assess what you have and find the best application for each one. You can also cheat by tilting the wave plates to get better extinction if need be.<br><br>If you can come by this weekend you can see all this demonstrated! And anyone else is welcome!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Thu Feb 06, 2014 2:03 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Thanks Ed, that helps quite a bit. I do want to stop by, but can&#x27;t make it this time.<br><br>I fitted a half wave plate to the HeNe, and the losses are acceptable. So now the polarizations of both lasers can be changed.<br><br>Unfortunately, this won&#x27;t solve the reference beam problem when using a cube. If a combined beam goes to a cube, the polarizations can be adjusted (along with the green power) to get the proper split beam ratio and color balance, however the transmitted beam from the cube (reference beam) will have different polarizations between red and green.<br><br>It&#x27;s beginning to seem unlikely that a cube can be used effectively for a RG or RGB beam to provide splitting while keeping the color balance. It&#x27;s possible that a superb quality half wave plate could solve the problem, but I wonder. I&#x27;m looking at other beamsplitting options rather than a cube.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Holomark</span>
+                <span class="post-date">Thu Feb 06, 2014 3:01 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Is there no way to change the polarization of one of the beams before combining so that the polarization matches after the cube? In other words starting with the polarization slightly rotated so that after the optics the polarization matches.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Jeffrey Weil</span>
+                <span class="post-date">Fri Feb 07, 2014 10:38 am</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> Unfortunately, this won&#x27;t solve the reference beam problem when using a cube. If a combined beam goes to a cube, the polarizations can be adjusted (along with the green power) to get the proper split beam ratio and color balance, however the transmitted beam from the cube (reference beam) will have different polarizations between red and green.<br><br>Hello Joe, You&#x27;ve made a mistake there. No matter what freq you put into that broadband cube, no matter what the polarization is before going into the cube, no matter what the color balance is, anything you put into that cube will have P going through the cube and S bouncing off the stack in the middle of the cube. The polarizations of all the beams will match after going through or bouncing off of the cube. <br><br>I think the reason you can&#x27;t use one waveplate for this is the amount of retardation will change with the frequency. So one beam might be rotated by 50 degrees but another will be rotated only by 40 degrees with the same turn of the plate. I&#x27;m making those numbers up but you know what I mean. <br><br>I think you could probably use separate plates like others have suggested. They can even be broadband ones, you just need independent control over each one.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Feb 07, 2014 10:55 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">You are right Jeffrey, I made a mistake, thanks for spotting it.<br><br>&gt; <strong>Jeffrey Weil:</strong> I think the reason you can&#x27;t use one waveplate for this is the amount of retardation will change with the frequency. So one beam might be rotated by 50 degrees but another will be rotated only by 40 degrees with the same turn of the plate. I&#x27;m making those numbers up but you know what I mean.<br><br>Yes, this seems to be the problem. I&#x27;m working on some alternate approaches.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Feb 07, 2014 11:07 am</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Ed Wesly:</strong> I have a similar issue with mica waveplates, they don&#x27;t rotate the two different lambdas exactly the same amount. Just get another one, and let each laser have its own ratio controlling half-wave plate.I measured the minimum and maximum outputs from the beamsplitter of all of my wave plates at a variety of wavelengths, and they vary all over the place. Assess what you have and find the best application for each one. You can also cheat by tilting the wave plates to get better extinction if need be.<br><br>Thanks again Ed, I see what you&#x27;re saying now, my mistake. You suggested having half-wave plates on each laser, then getting a better broadband half-wave plate to use in front of the cube.<br><br>I&#x27;m beginning to understand why I haven&#x27;t seen any split-beam color holograms. Having a beamsplitter to smoothly vary the ratio, while maintaining very good color balance, doesn&#x27;t appear to be the easiest thing in the world.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Paulos</span>
+                <span class="post-date">Fri Feb 07, 2014 11:29 am</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">&gt; <strong>Joe Farina:</strong> I&#x27;m having some difficulty with a broadband beamplitter..........<br><br>Joe,<br><br>your cube&#x27;s characteristics seems to be OK ( [http://search.newport.com/?x2=sku&amp;q2=5811](http://search.newport.com/?x2=sku&amp;q2=5811) ).<br><br>In my opinion, the problem is caused by the wave plate.<br><br>I may have a mounted Double Fresnel Rhomb Assembly (achromatic) available, if you are interested contact me.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Joe Farina</span>
+                <span class="post-date">Fri Feb 07, 2014 12:00 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">Thank you Paulos, PM sent.</div>
+        </div>
+
+    <div class="thread-nav"><a href="832.html" class="prev-thread">← 15 Weeks in 2 Hours!</a><a href="Optics.html">↑ Optics</a><a href="802.html" class="next-thread">question about fringe expansion →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11302.html" class="card">
+                <h3>question about PFG-04</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 12 posts</div>
+            </a>
+            <a href="11261.html" class="card">
+                <h3>Question about speckle reduction</h3>
+                <div class="card-meta">Techniques · 3 posts</div>
+            </a>
+            <a href="11027.html" class="card">
+                <h3>Question About Cylindrical Holograms.</h3>
+                <div class="card-meta">Optics · 3 posts</div>
+            </a>
+            <a href="10738.html" class="card">
+                <h3>Polarizing cube beamsplitter setup?</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="8590.html" class="card">
+                <h3>Question about dichromate</h3>
+                <div class="card-meta">DCG - Dichromated Gelatin · 8 posts</div>
+            </a>
+            <a href="8511.html" class="card">
+                <h3>Newb(?) question about perceived depth</h3>
+                <div class="card-meta">Equipment · 5 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

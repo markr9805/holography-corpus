@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focusing problem with laser — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="2724.html" class="prev-thread">← Animation holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2727.html" class="next-thread">Colour desaturation with stacked holograms →</a></div>
+    <h1>Focusing problem with laser</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="General-Old.html">General Holography (old)</a></td></tr>
+        <tr><td>Posts</td><td>9</td></tr>
+        <tr><td>Views</td><td>2,904</td></tr>
+        <tr><td>Started</td><td>Sat Sep 18, 2004 1:38 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/pascal.html">Pascal</a> · <a href="../authors/dinesh.html">Dinesh</a> · <a href="../authors/tom-b.html">Tom B.</a> · <a href="../authors/colin-kaminski.html">Colin Kaminski</a> · <a href="../authors/tpark.html">tpark</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=2726" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Pascal</span>
+                <span class="post-date">Sat Sep 18, 2004 1:38 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Hello,<br><br>I have a Mitsubishi Laser (from De Freitas) and have acquired the appropriate housing. However, I am not able to focus the beam in a spot. I have adjusted the position of the lens by turning it in the housing. I can change the spreading of the beam but I can&#x27;t reduce it to a nice little spot. ( At a distance of 1 m, I&#x27;ll become a spot of ca. 10 cm.<br><br>Is somebody familiar with this problem? What can I do?<br><br>Pascal</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sat Sep 18, 2004 2:18 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">Form your figures, I suspect it&#x27;s a negative lens. I&#x27;d thought it might be a positive lens with an extremely short focal length, but the 6 degree beam spread seems to make that possibility unlikely. If it is a negative lens, it won&#x27;t focus light to a real point, but expands the beam. There&#x27;s a virtual focus behind the lens. To focus it, you need another , positive lens. <br><br>To find the appropriate lens to focus at a particular point, use the lens formula:<br><br>1/u + 1/v = 1/f<br><br>u = distance of laser from lens<br><br>v=distance of focused point from lens<br><br>f = focal length of lens<br><br>and the fact that the beam spread seems to be about 6 degrees, which will give you the necessary diameter(d) for the required lens as:<br><br>d = (2<em>v)</em>tan(3)<br><br>So if you want to focus the beam at 80 cm and you choose to put the lens at 20 cm, then u=20, v=60 and, using the lens formula, you need a lens of focal length<br><br> f= 1/( 1/20 + 1/60) = 15cm. <br><br>The diameter of the lens will be<br><br>d = 2<em>60</em>tan(3) = 6cm</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Pascal</span>
+                <span class="post-date">Sat Sep 18, 2004 8:31 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">Hello,<br><br>I am quiet certain that it is a positive lens.<br><br>I have been able to reach a nice spot by holding the lens in front of the diode, but if I try to assemble it properly I&#x27;ve failed.<br><br>Pascal</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sun Sep 19, 2004 2:44 am</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">I&#x27;m just guessing, but maybe if the lens is plano convex the orientation (flat side facing diode versus the reverse) matters for focusing. Try flipping it over and see if it works better. I don&#x27;t know what the proper orientation should be... - most likely flat side facing diode.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Pascal</span>
+                <span class="post-date">Sun Sep 19, 2004 6:12 am</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">I&#x27;ve tried changing the side of the lens and it isn&#x27;t working.<br><br>I&#x27;ve bought a standard component (housing with lens) recommended by De Freitas and it simply doesn&#x27;t work properly. (The diode fits nicely in the housing, so it looks good) So I am wondering, what could I have done wrong???</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Tom B.</span>
+                <span class="post-date">Sun Sep 19, 2004 8:10 am</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">Is the problem that you can&#x27;t get the lens close enough to the diode to collimate it? It should work, and if not I suggest you look closely at how the barrel is threaded and the diode mounting arrangement and try to figure out what is preventing you from getting the lens close enough.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Dinesh</span>
+                <span class="post-date">Sun Sep 19, 2004 2:15 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">Maybe the diode is too close. If the point of divergence of the laser is inside the focal length of the lens, ie the &quot;object distance&quot; is less than the focal length of the lens, then the positive lens would act as a diverging lens, since the &quot;image point&quot; is now virtual.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Colin Kaminski</span>
+                <span class="post-date">Sun Sep 19, 2004 6:40 pm</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">&gt; <strong>Tom B.:</strong> Is the problem that you can&#x27;t get the lens close enough to the diode to collimate it? It should work, and if not I suggest you look closely at how the barrel is threaded and the diode mounting arrangement and try to figure out what is preventing you from getting the lens close enough.<br><br>I have had this problem with this housing. The diode is not seated all of the way. Gently seat the diode all the way to the stop.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">tpark</span>
+                <span class="post-date">Mon Sep 20, 2004 9:47 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Colin Kaminski:</strong> Tom B. wrote:Is the problem that you can&#x27;t get the lens close enough to the diode to collimate it? It should work, and if not I suggest you look closely at how the barrel is threaded and the diode mounting arrangement and try to figure out what is preventing you from getting the lens close enough.I have had this problem with this housing. The diode is not seated all of the way. Gently seat the diode all the way to the stop.<br><br>I&#x27;ve encountered the same thing. Also, once the diode is in there, it seems like it&#x27;s there for good.<br><br>I&#x27;ve use the somewhat more expensive Optima Precision housings, and had good luck with those.</div>
+        </div>
+
+    <div class="thread-nav"><a href="2724.html" class="prev-thread">← Animation holograms</a><a href="General-Old.html">↑ General Holography (old)</a><a href="2727.html" class="next-thread">Colour desaturation with stacked holograms →</a></div>
+
+    <h2>Related Topics</h2><div class="card-grid">
+            <a href="11470.html" class="card">
+                <h3>measuring laser intensity</h3>
+                <div class="card-meta">Techniques · 7 posts</div>
+            </a>
+            <a href="11466.html" class="card">
+                <h3>Great YouTube video by Applied Science on making complex diffraction gratings on metal with a laser engraver</h3>
+                <div class="card-meta">Techniques · 2 posts</div>
+            </a>
+            <a href="11408.html" class="card">
+                <h3>Holographic plasma lens for laser fusion ignition (LIF)</h3>
+                <div class="card-meta">Techniques · 1 posts</div>
+            </a>
+            <a href="11334.html" class="card">
+                <h3>No image with red laser pointer, complete n00b.</h3>
+                <div class="card-meta">Equipment · 2 posts</div>
+            </a>
+            <a href="11225.html" class="card">
+                <h3>Using a 660nm laser to expose legacy AgX Agfa, Ilford, HRT (BB) plates</h3>
+                <div class="card-meta">AgX - Silver Halide Emulsions · 12 posts</div>
+            </a>
+            <a href="11185.html" class="card">
+                <h3>RGB white laser for holography?</h3>
+                <div class="card-meta">Equipment · 6 posts</div>
+            </a></div>
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

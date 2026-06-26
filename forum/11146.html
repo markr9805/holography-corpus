@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dammit! — Holography Forum</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+    .thread-nav { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; gap: 0.5rem; flex-wrap: wrap; }
+    .thread-nav a { padding: 0.5rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--text-primary); font-size: 0.9em; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .thread-nav a:hover { background: var(--accent); color: #000; }
+    .author-list { margin: 0.5rem 0; }
+    .author-list a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<nav class="top-nav">
+    <div class="container">
+        <a href="../index.html" class="nav-brand">🔬 Holography Corpus</a>
+        <div class="nav-links">
+            <a href="../creators/index.html">Creators</a>
+            <a href="../themes/index.html">Themes</a>
+            <a href="index.html">Forum</a>
+            <a href="../search/index.html">Search</a>
+            <a href="../ask/index.html">Ask</a>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="thread-nav"><a href="11246.html" class="prev-thread">← A heuristic approach</a><a href="Optics.html">↑ Optics</a><a href="11027.html" class="next-thread">Question About Cylindrical Holograms. →</a></div>
+    <h1>Dammit!</h1>
+    <div class="meta-table"><table>
+        <tr><td>Forum</td><td><a href="Optics.html">Optics</a></td></tr>
+        <tr><td>Posts</td><td>15</td></tr>
+        <tr><td>Views</td><td>158,996</td></tr>
+        <tr><td>Started</td><td>Fri Jun 18, 2021 2:35 pm</td></tr>
+        <tr><td>Authors</td><td class="author-list"><a href="../authors/din.html">Din</a> · <a href="../authors/lobaz.html">lobaz</a> · <a href="../authors/manul.html">Manul</a></td></tr>
+        <tr><td>Original</td><td><a href="https://holographyforum.org/forum/viewtopic.php?t=11146" target="_blank">View on holographyforum.org ↗</a></td></tr>
+    </table></div>
+
+    <h2>Discussion</h2>
+    
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Fri Jun 18, 2021 2:35 pm</span>
+                <span class="post-number">#1</span>
+            </div>
+            <div class="post-body">Dammit! Thought of this about 10 years ago. Yes, I know the joke: <br><br>How many holographers does it take to change a light bulb? 10, one to change the bulb and 9 to say, &quot;I thought of that 10 years ago!&quot;<br><br>About 1987, Tomasz Jannsen (owner POC) and I were talking about using the WKB approximation to model volume holograms, since I believed Kogelnik wasn&#x27;t designed for the new photopolymers coming out then. Anyway, some 25 years later, ~2012, I was working on holographic diffractive waveguides for the research division of a hi-tech company that shall remain nameless; the method by which some VR/AR/MR goggles, which seemed to be an up-and-coming technology in 2012, work by diffractive waveguides. One of the problems was not being able to quantify and characterise these waveguides in photopolymers. Recalling that long-ago discussion on WKB methods with Tomasz, I wondered if it was possible to use digital holography along with a WKB approximation. Not having the tools for digital holography, I sketched out some notes and let the whole idea go. Now, here it is in JOSA B - Optical Physics!<br><br>![waveguides.jpg](https://holographyforum.org/forum/download/file.php?id=7666)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">lobaz</span>
+                <span class="post-date">Sun Jun 20, 2021 12:51 pm</span>
+                <span class="post-number">#2</span>
+            </div>
+            <div class="post-body">I guess most researchers are on the same boat <br><br>Anyway, after reading the article, do you think that WKB approximation is a useful tool here? Not every published method is useful in the end...</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 21, 2021 12:48 pm</span>
+                <span class="post-number">#3</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobazwrote:↑Sun Jun 20, 2021 12:51 pm:</strong> I guess most researchers are on the same boat<br><br>They&#x27;re trying to characterise the refractive index profile (RIP) of the new waveguides made from polymers, which have a kind of RIP not seen before (below). <br><br>As you can see, the RIP is rapidly changing near the origin, and then varies slowly away from the origin. Such problems are ideal for applying the WKB approximation. They&#x27;re splitting the profile into sections and analysing each section using a series approximation.<br><br>![profile 1.jpg](https://holographyforum.org/forum/download/file.php?id=7667)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 21, 2021 12:57 pm</span>
+                <span class="post-number">#4</span>
+            </div>
+            <div class="post-body">The actual profile didn&#x27;t show up (despite it showing up on the preview!). here it is:<br><br>![profile 2.jpg](https://holographyforum.org/forum/download/file.php?id=7672)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 21, 2021 1:01 pm</span>
+                <span class="post-number">#5</span>
+            </div>
+            <div class="post-body">Having got the profile, they then solve Maxwell inserting the appropriate RIP, and then getting the transmission modes in the waveguide. You can see the modes below. The experimental setup uses a Mach Zender with the sample waveguide placed in one arm.<br><br>The attachment <strong>profile 3.jpg</strong> is no longer available<br>The attachment <strong>profile 3.jpg</strong> is no longer available</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 21, 2021 1:02 pm</span>
+                <span class="post-number">#6</span>
+            </div>
+            <div class="post-body">The experimental setup did not show up 9again, the preview showed it!<br><br>![profile 4.jpg](https://holographyforum.org/forum/download/file.php?id=7675)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Mon Jun 21, 2021 1:04 pm</span>
+                <span class="post-number">#7</span>
+            </div>
+            <div class="post-body">&gt; <strong>lobazwrote:↑Sun Jun 20, 2021 12:51 pm:</strong> I guess most researchers are on the same boat<br><br>Yep!</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Manul</span>
+                <span class="post-date">Tue Nov 25, 2025 11:37 am</span>
+                <span class="post-number">#8</span>
+            </div>
+            <div class="post-body">This is very interesting information; I haven&#x27;t encountered it before. Am I correct in assuming that Kogelnik&#x27;s theory doesn&#x27;t work well for photopolymers, or that there are difficulties measuring hologram parameters using coupled-wave theory? And is it worth using the theory WKB to determine the properties of holograms on photopolymers, as it&#x27;s more heuristic and possibly more fundamental?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Tue Nov 25, 2025 2:48 pm</span>
+                <span class="post-number">#9</span>
+            </div>
+            <div class="post-body">&gt; <strong>Manulwrote:↑Tue Nov 25, 2025 11:37 am:</strong> ... is it worth using the theory WKB to determine the properties of holograms on photopolymers, as it&#x27;s more heuristic and possibly more fundamental?<br><br>I believe so. <br><br>While Kogelnik is an approximation and more accurate theories called Rigorous Coupled Wave Theories (RCWT) exist, these more rigorous theories still assume a sinusoidal modulation. However, it&#x27;s impossible to get an exact sinusoidal modulation, because the actinic reaction centres are not continuous. However, if the material is almost continuous, it can be reasonably recorded with a sinusoidal modulation and RCWT models this quite accurately. Thus, dichromated gelatin materials (DCG) can be recorded with a sinusoidal modulation and very high efficiencies are attainable; I&#x27;ve recorded DCG holograms with an OD of 4 (99.9% efficient). I can put up a paper on RCWT if there&#x27;s any interest. However, such theoretical studies are not very useful for display holography, as you don&#x27;t need theory to record a display hologram.<br><br>However, with polymers, the mechanism of the modulation is charge transfer, which, by the nature of charge transfer, makes it very difficult - if not impossible - to get a sinusoidal modulation. I have put up a paper on the mechanism of polymer recording which assumes a sinusoidal modulation, but the paper actually shows a square wave modulation ( [viewtopic.php?t=11460](https://holographyforum.org/forum/viewtopic.php?t=11460) ).<br><br>Therefore I think that a WKB approach is particularly useful in polymer material. I think it&#x27;ll give a more nuanced view.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Manul</span>
+                <span class="post-date">Tue Nov 25, 2025 3:04 pm</span>
+                <span class="post-number">#10</span>
+            </div>
+            <div class="post-body">This is extremely interesting; I&#x27;d like to hear your thoughts on this, if possible. As I understand it, this is related to the structural properties of DCG and photopolymers. Are we talking about thick polymer layers over 30 µm, or does the poor performance of classical theory also apply to Bayfol?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Manul</span>
+                <span class="post-date">Tue Nov 25, 2025 3:24 pm</span>
+                <span class="post-number">#11</span>
+            </div>
+            <div class="post-body">did I understand you correctly, silver halides are a suspension in gelatin, there is a void between the grains, when recording a hologram, the sine wave is fragmentary and is associated with this discreteness. In photopolymers and bichrominated gelatin, the sine wave is continuous, hence the higher brightness of the holograms? But why then<br><br>But why then does the theory poorly describe photopolymers rather than silver halides?</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Wed Nov 26, 2025 1:29 pm</span>
+                <span class="post-number">#12</span>
+            </div>
+            <div class="post-body">&gt; <strong>Manulwrote:↑Tue Nov 25, 2025 3:04 pm:</strong> This is extremely interesting; I&#x27;d like to hear your thoughts on this, if possible. As I understand it, this is related to the structural properties of DCG and photopolymers. Are we talking about thick polymer layers over 30 µm, or does the poor performance of classical theory also apply to Bayfol?<br><br>I would not say that there is a poor performance of classical theories. I think there&#x27;s an inadequate performance because the assumptions of the theory are idealised, and not really met in the real world to a greater or lesser amount. Specifically, the theories all seem to assume a sinusoidal modulation, but, as I said earlier, it&#x27;s very difficult, if not impossible, to actually get a sinusoidal modulation. A Taylor expansion of sin(θ), gives you:<br><br>sin(θ) ~ θ - θ³/6<br><br>So, the response is linear for small angles, but goes cubic at higher angles. This gives Fourier components that throw energy into unwanted orders. For almost continuous media, such as dcg, the response is mostly sinusoidal, but there is a slight non-sinusoidal modulation. If you measure the spectral response of a dcg hologram, you should get a Dirac delta if the modulation were truly sinusoidal; what you do get is a sharp(ish) peak with side orders (see below for a typical spectral response). The side orders represent the Fourier components due to the non-sinusoidal (actual) modulation. But, the actinic mechanism of dcg is cross-linking (polymerisation) of gelatin molecules which increases the hardness of the emulsion and so increases the index. This means that the increase in index - the modulation - follows the sin curve pretty closely.<br><br>For photopolymers, the actinic response is due to charge migration which probably gives a non-sinusoidal modulation because the electron density cannot fall away smoothly following a sin curve since there is a Coulomb repulsion between electrons. <br><br>I haven&#x27;t really thought about thick polymer layers, but, my initial thoughts are that there is probably more of a non-sinusoidal response as the polymer gets thicker. I have the specs for Bayfol HX-102 and Bayfol HX-200, which both state a polymer thickness of ~ 16 u; by contrast, silver halide film is ~ 8u. However, I&#x27;ve not seen any spectral plots for polymers. My wife Joy may be working with thicker polymers and I can ask her this evening since she&#x27;s working now. Display holographers don&#x27;t have to worry about these non-sinusoidal effects, since any such modulation will simply end up as noise around the image.<br><br>&gt; <strong>Manulwrote:↑Tue Nov 25, 2025 3:24 pm:</strong> did I understand you correctly, silver halides are a suspension in gelatin, there is a void between the grains, when recording a hologram, the sine wave is fragmentary and is associated with this discreteness. In photopolymers and bichrominated gelatin, the sine wave is continuous, hence the higher brightness of the holograms? But why thenBut why then does the theory poorly describe photopolymers rather than silver halides?<br><br>Yes, silver halide emulsions are suspensions of grains in gelatin. These grains contain what are called &#x27;specks&#x27; of silver halide in them The old Agfa plates used to have a grain size of 40nm (if memory serves). Slavich PFG-03C has an &#x27;ultra-fine grain size&quot; of 10nm. However, there is no information on the grain distribution within the emulsion. If you knew the amount of silver bromide that went into the emulsion, and you knew the emulsion thickness it&#x27;s possible to calculate the grain distribution. The grain distribution will tell you about the separation of the grains.<br><br>I wrote a piece on silver halide emulsions, and I quote from that piece a section about grains and specks:<br><br><em>&quot;All the grains in the emulsion consist largely of Silver Bromide with a few atoms of free,elemental Silver, called sensitivity specks. These Silver specks contain about1/10,000,000 of the mass of the whole grain. When a particular grain is exposed to light,some of the Silver specks on it are ionised by the release an electron. These Silver ionscause neighbouring Silver from nearby Silver Bromide molecules on the grain to alsoreduce to elemental Silver and hence the speck grows to form a larger latent image-speck.When the speck has grown to a particular size, it provides a point at which the developercan attack the grain. Grains which have not been exposed to light will still have specks,but with no ionisation of the specks, they will not grow sufficiently to form development&quot;</em><br><br>![images.png](https://holographyforum.org/forum/download/file.php?id=8008)</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Manul</span>
+                <span class="post-date">Thu Nov 27, 2025 3:36 am</span>
+                <span class="post-number">#13</span>
+            </div>
+            <div class="post-body">The grain distribution and grain size of Slavich vary from batch to batch. Grain size ranges from 0 to 20 nm, with a Gaussian distribution, peak at 10 nm, and monodispersity up to 40%. Could you please explain how this distribution is calculated? And how it can be taken into account when calculating hologram quality during recording? This is very interesting.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Nov 27, 2025 9:53 am</span>
+                <span class="post-number">#14</span>
+            </div>
+            <div class="post-body">&gt; <strong>Manulwrote:↑Thu Nov 27, 2025 3:36 am:</strong> The grain distribution and grain size of Slavich vary from batch to batch. Grain size ranges from 0 to 20 nm, with a Gaussian distribution, peak at 10 nm, and monodispersity up to 40%. Could you please explain how this distribution is calculated? And how it can be taken into account when calculating hologram quality during recording? This is very interesting.<br><br>The usual method of making silver halide plates is to add AgNO3 to some bromide (eg AgBr) and diffuse it into the gelatin. This forms grains. If you know the grain size, then you can calculate the grain volume. If you know the gelatin coating volume, assuming uniform distribution, you can calculate the number of grains in the volume of the coating, and so calculate the distribution.</div>
+        </div>
+        <div class="forum-post">
+            <div class="post-header">
+                <span class="post-author">Din</span>
+                <span class="post-date">Thu Nov 27, 2025 9:55 am</span>
+                <span class="post-number">#15</span>
+            </div>
+            <div class="post-body">You may want to get hold of Hans&#x27; book ( [https://www.amazon.com/Silver-Halide-Re ... 3540586199](https://www.amazon.com/Silver-Halide-Recording-Materials-Holography-Processing/dp/3540586199) ). It contains a lot of good information about silver halide.</div>
+        </div>
+
+    <div class="thread-nav"><a href="11246.html" class="prev-thread">← A heuristic approach</a><a href="Optics.html">↑ Optics</a><a href="11027.html" class="next-thread">Question About Cylindrical Holograms. →</a></div>
+
+    
+
+</main>
+<footer><div class="container"><p>Holography Corpus · Forum Archive</p></div></footer>
+</body>
+</html>

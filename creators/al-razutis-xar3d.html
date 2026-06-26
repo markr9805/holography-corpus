@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Razutis — XAR3D — Holography Corpus</title>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-tertiary: #21262d;
+    --border: #30363d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --success: #3fb950;
+    --warning: #d29922;
+    --danger: #f85149;
+    --tier1: #58a6ff;
+    --tier2: #3fb950;
+    --tier3: #d29922;
+    --tier4: #8b949e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 24px; }
+
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { padding: 32px 0; }
+
+h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 16px; }
+h2 { color: var(--text-primary); font-size: 1.5em; margin: 32px 0 16px; }
+h3 { color: var(--text-primary); font-size: 1.2em; margin: 24px 0 12px; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value { font-size: 2em; color: var(--accent); font-weight: 700; }
+.stat-label { color: var(--text-muted); font-size: 0.85em; margin-top: 4px; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1em;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.card-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+.off-topic-note {
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.off-topic-note a {
+    color: #00d4ff;
+}
+.relevance-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.filter-btn:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+.filter-btn.active {
+    background: #00d4ff;
+    color: #000;
+    border-color: #00d4ff;
+}
+
+.card-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.tier-1 { background: rgba(88,166,255,0.2); color: var(--tier1); }
+.tier-2 { background: rgba(63,185,80,0.2); color: var(--tier2); }
+.tier-3 { background: rgba(210,153,34,0.2); color: var(--tier3); }
+.tier-4 { background: rgba(139,148,158,0.2); color: var(--tier4); }
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-active { background: var(--success); }
+.status-semi-active { background: var(--warning); }
+.status-inactive { background: var(--danger); }
+.status-unknown { background: var(--text-muted); }
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transcript-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--border);
+}
+.transcript-tab {
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
+}
+.transcript-tab:hover {
+    color: var(--text);
+}
+.transcript-tab.active {
+    background: var(--bg-primary);
+    color: var(--accent);
+    border-color: var(--accent);
+    border-bottom: 2px solid var(--bg-primary);
+    margin-bottom: -2px;
+}
+.transcript-viewer {
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: var(--bg-primary);
+    padding: 1rem;
+    position: relative;
+}
+.transcript-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.transcript-panel {
+    display: none;
+}
+.transcript-panel.active {
+    display: block;
+}
+.transcript-line {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+.transcript-line:hover {
+    background: var(--bg-secondary);
+}
+.timestamp {
+    color: var(--accent);
+    font-family: monospace;
+    font-size: 0.85rem;
+    min-width: 4em;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.timestamp:hover {
+    text-decoration: underline;
+}
+.transcript-text {
+    flex: 1;
+    line-height: 1.5;
+}
+.transcript-plain {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    max-width: 80ch;
+}
+.expand-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+.expand-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+.transcript-viewer.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1000;
+    border-radius: 0;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+.transcript-viewer.fullscreen .expand-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.meta-table {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.meta-table table { width: 100%; border-collapse: collapse; }
+.meta-table td { padding: 6px 0; }
+.meta-table td:first-child { color: var(--text-muted); width: 140px; }
+
+.search-box {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+}
+
+.search-box input:focus { border-color: var(--accent); }
+
+.search-box button {
+    padding: 12px 24px;
+    background: var(--accent-dim);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-box button:hover { background: var(--accent); }
+
+.search-results { margin: 16px 0; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.search-result h3 { margin: 0 0 4px 0; font-size: 1em; }
+.search-result p { margin: 4px 0; font-size: 0.85em; color: var(--text-muted); }
+.search-result .highlight { background: rgba(88,166,255,0.3); padding: 1px 3px; border-radius: 2px; }
+
+.creator-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.creator-info { flex: 1; }
+
+.creator-description {
+    color: var(--text-secondary);
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.platform-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-left: 8px;
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .creator-header { flex-direction: column; }
+    h1 { font-size: 1.5em; }
+}
+
+/* Forum styles */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+}
+.forum-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+}
+.forum-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.forum-table tr:hover {
+    background: var(--bg-secondary);
+}
+.forum-table a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.forum-table a:hover {
+    text-decoration: underline;
+}
+.forum-post {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85em;
+}
+.post-author {
+    font-weight: 600;
+    color: var(--accent);
+}
+.post-date {
+    color: var(--text-secondary);
+}
+.post-number {
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+.post-body {
+    padding: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+/* Theme tags */
+.theme-tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 2px 3px 2px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+.theme-tag:hover {
+    filter: brightness(1.2);
+    text-decoration: none;
+}
+.theme-cgh { background: #1a4b8c33; color: #58a6ff; border: 1px solid #58a6ff44; }
+.theme-dcg { background: #8b5cf633; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-denisyuk { background: #f59e0b33; color: #fbbf24; border: 1px solid #fbbf2444; }
+.theme-transmission { background: #10b98133; color: #34d399; border: 1px solid #34d39944; }
+.theme-rainbow { background: #ec489933; color: #f472b6; border: 1px solid #f472b644; }
+.theme-laser { background: #ef444433; color: #f87171; border: 1px solid #f8717144; }
+.theme-emulsion { background: #8b5cf633; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-exhibition { background: #06b6d433; color: #22d3ee; border: 1px solid #22d3ee44; }
+.theme-artist { background: #f9731633; color: #fb923c; border: 1px solid #fb923c44; }
+.theme-education { background: #84cc1633; color: #a3e635; border: 1px solid #a3e63544; }
+.theme-history { background: #a78bfa33; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-industry { background: #14b8a633; color: #2dd4bf; border: 1px solid #2dd4bf44; }
+.theme-metasurface { background: #6366f133; color: #818cf8; border: 1px solid #818cf844; }
+.theme-display { background: #0ea5e933; color: #38bdf8; border: 1px solid #38bdf844; }
+.theme-portrait { background: #e879f933; color: #d8b4fe; border: 1px solid #d8b4fe44; }
+.theme-abstract { background: #f43f5e33; color: #fb7185; border: 1px solid #fb718544; }
+.theme-medical { background: #22c55e33; color: #4ade80; border: 1px solid #4ade8044; }
+.theme-security { background: #eab30833; color: #facc15; border: 1px solid #facc1544; }
+.theme-sound { background: #7c3aed33; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-general { background: #64748b33; color: #94a3b8; border: 1px solid #94a3b844; }
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.theme-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: border-color 0.2s;
+}
+.theme-card:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+.theme-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.theme-card .theme-count {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.theme-card .theme-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+}
+
+.theme-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0;
+}
+.theme-filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.15s;
+}
+.theme-filter-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+.theme-filter-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">🔬 <span>Holography</span> Corpus</a></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="index.html">Creators</a>
+<a href="../themes/index.html">Themes</a>
+<a href="../forum/index.html">Forum</a>
+<a href="../search/index.html">Search</a>
+<a href="../ask/index.html">Ask</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<div class="creator-header">
+<div class="creator-info">
+<h1><span class="status-dot status-semi-active"></span>Al Razutis — XAR3D <span class="tier-badge tier-2">Tier 2</span></h1>
+<p class="creator-description">Stereoscopic 3D video, holography and holographic art documentation. Playlists include &#x27;Holographics 3D&#x27;, &#x27;West-Coast Artists - Holographic Art - 2D&#x27;. Features holography of Fred Unterseher, Sharon McCormack, John Kaufman, and others.</p>
+<div class="stats-grid">
+<div class="stat-card"><div class="stat-value">91</div><div class="stat-label">Videos</div></div>
+<div class="stat-card"><div class="stat-value">4h 26m</div><div class="stat-label">Total Duration</div></div>
+<div class="stat-card"><div class="stat-value">Youtube</div><div class="stat-label">Platform</div></div>
+<div class="stat-card"><div class="stat-value">🔴 Inactive December 31, 2023</div><div class="stat-label">Last Activity</div></div>
+</div>
+<p>
+<a href="https://www.youtube.com/@XAR3D" target="_blank">🔗 Channel</a>
+ · <a href="https://www.alchemists.com" target="_blank">🌐 Website</a>
+</p>
+</div>
+</div>
+
+        <div class="off-topic-note">
+            <p>📌 This creator has 3 additional videos outside the scope of this corpus (film, animation, personal content, etc.).
+             <a href="https://www.youtube.com/@XAR3D" target="_blank">View full channel on YouTube →</a></p>
+        </div>
+<div class="relevance-filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="holography">🔬 Holography (47)</button><button class="filter-btn" data-filter="holography-adjacent">🔗 Adjacent (44)</button></div>
+<h2>Videos</h2>
+<div class="card-grid" id="video-grid">
+
+        <a href="../videos/michael-jackson-moonwalk-by-xar3d-al-razutis-2023.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Michael Jackson Moonwalk by XAR3D Al Razutis 2023</h3>
+            <div class="card-meta">December 31, 2023 · 4m 16s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Yep. Okay. And you&#x27;re recording? I&#x27;m recording. Richard, are you recording? No. It&#x27;s too dark, Al. It&#x27;s too dark for my camera. Well, I&#x27;m just recording what&#x27;s on the, what&#x27;s on the showcase there.…</div>
+        </a>
+
+        <a href="../videos/michael-jordan-holograms-by-sharon-mccormack-720p-video-by-xar3d-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Michael Jordan - Holograms by Sharon McCormack 720p - video by XAR3D Al Razutis</h3>
+            <div class="card-meta">December 30, 2023 · 2m 3s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">But her biggest and most ambitious job today was this Sports Illustrated cover celebrating the magazine&#x27;s Sportsman of the Year, Michael Jordan. Michael Jordan made me look good and that job came…</div>
+        </a>
+
+        <a href="../videos/michael-jordan-sports-illustrated-1991-orig-35mm-film-by-sharon-mccormack-720p.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Michael Jordan Sports Illustrated 1991 orig.  35mm film by Sharon McCormack  720p</h3>
+            <div class="card-meta">December 30, 2023 · 2m 24s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">That&#x27;s a good flick, but that&#x27;s easy to play. That&#x27;s easy to play. You can do that. Accomplish anything. You&#x27;re recording? Yes. Are we all recording? Yeah. Okay. So this is Michael Jordan&#x27;s Sports…</div>
+        </a>
+
+        <a href="../videos/michael-jordan-360-deg-motion-picture-hologram-by-sharon-mccormack-original.html" class="card" data-relevance="holography">
+            <h3>🔴 Michael Jordan 360 deg. motion-picture  hologram by Sharon McCormack original 35mm film  720p</h3>
+            <div class="card-meta">December 30, 2023 · 3m 18s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">So we can just turn this light off. Yeah, just a sec here. I&#x27;m already recording, so... Oh, you are? Okay. And on the thing back there, just press it. There we go. There we go. What body control,…</div>
+        </a>
+
+        <a href="../videos/diamonds-and-pearls-by-prince-cover-hologram-art-by-sharon-mccormack-1080p.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Diamonds and Pearls&#x27; by Prince   cover hologram art by Sharon McCormack 1080P by Al Razutis XAR3D</h3>
+            <div class="card-meta">December 28, 2023 · 1m 32s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Another one of Sharon&#x27;s hottest holograms is this 3D CD cover she did for rock superstar Prince. Yeah, Prince was a great, great person to work with. He showed me a lot of respect for what I was…</div>
+        </a>
+
+        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Simone Forti, Lloyd Cross,  &quot;Striding Crawling Sitting + Big Jump on Back&quot;, ca. 1976, video by XAR3D</h3>
+            <div class="card-meta">April 24, 2023 · 0m 21s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/simone-forti-lloyd-cross-striding-crawling-sitting-big-jump-on-back-ca-1976.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Simone Forti, Lloyd Cross,  Striding Crawling Sitting + &quot;Big Jump on Back&quot;, ca. 1976, video by XAR3D</h3>
+            <div class="card-meta">April 24, 2023 · 0m 21s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/simone-forti-lloyd-cross-big-jump-on-back-c-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
+            <h3>🔴 Simone Forti, Lloyd Cross,  Big Jump on Back, c. 1976, holographic film, 120 deg.</h3>
+            <div class="card-meta">April 23, 2023 · 0m 38s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you Thank you.</div>
+        </a>
+
+        <a href="../videos/simone-forti-lloyd-cross-harmonics-ca-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
+            <h3>🔴 Simone Forti, Lloyd Cross,  Harmonics, ca. 1976, holographic film, 120 deg.</h3>
+            <div class="card-meta">April 23, 2023 · 0m 40s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you Thank you.</div>
+        </a>
+
+        <a href="../videos/simone-forti-lloyd-cross-huddle-ca-1976-holographic-film-120-deg.html" class="card" data-relevance="holography">
+            <h3>🔴 Simone Forti, Lloyd Cross,  Huddle, ca. 1976, holographic film, 120 deg.</h3>
+            <div class="card-meta">April 23, 2023 · 0m 54s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you you</div>
+        </a>
+
+        <a href="../videos/pearls-before-swine-al-razutis-richard-martin-2023.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 PEARLS BEFORE SWINE - Al Razutis &amp; Richard Martin 2023</h3>
+            <div class="card-meta">March 29, 2023 · 1m 42s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Here&#x27;s prints, lady prints, and diamonds and pearls. These are the first holographic movies. I know this one, Blowing the Kiss. Blowing the Kiss, and that&#x27;s the original one that they made in 1971.…</div>
+        </a>
+
+        <a href="../videos/5-visual-essay-a-hologram-of-field-by-xar3d-al-razutis-2021.html" class="card" data-relevance="holography">
+            <h3>🔴 #5 Visual Essay  -- &#x27;A hologram of field&#x27; - by XAR3D (Al Razutis) 2021</h3>
+            <div class="card-meta">December 28, 2021 · 8m 33s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">The best theories we have tell us that the fundamental building blocks of nature are not particles, but something much more nebulous and abstract. The fundamental building blocks of nature are…</div>
+        </a>
+
+        <a href="../videos/2-temple-of-impossible-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 #2 &quot;Temple of impossible&quot; (Visual Essay 2021) by XAR3D</h3>
+            <div class="card-meta">November 24, 2021 · 6m 59s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you you you you you you you you you
+
+you you you you</div>
+        </a>
+
+        <a href="../videos/1-let-brother-al-tell-it-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 #1 Let Brother Al Tell it  (Visual Essay 2021) by XAR3D</h3>
+            <div class="card-meta">November 23, 2021 · 2m 8s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">. We&#x27;ll try it with both cameras right? Okay that&#x27;s a what does that look like? A naked woman on the floor? Yeah. She&#x27;s on the ceiling now? Yeah no but I mean you just flipped the video from…</div>
+        </a>
+
+        <a href="../videos/4-another-world-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 #4  &#x27;Another World&quot;   (Visual Essay 2021) by XAR3D</h3>
+            <div class="card-meta">November 21, 2021 · 6m 41s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you. Thank you. Thank you. Thank you. Okay. Oh, my God. And you can come in on it. Does that work for you at your angles? Oh, yeah. If you come inside the cracks... Isn&#x27;t that nice? So, yeah,…</div>
+        </a>
+
+        <a href="../videos/3-the-wall-of-juris-upatnieks-visual-essay-2021-by-xar3d.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 #3 &#x27;&quot;The Wall of Juris Upatnieks&quot; (Visual Essay 2021)  --  by XAR3D</h3>
+            <div class="card-meta">November 17, 2021 · 9m 20s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">The very first recording of an off-axis hologram was made in March 1961 and at that time we didn&#x27;t have a laser, so we used mercury arc lamps and semi-coherent light sources. And Emmet was writing…</div>
+        </a>
+
+        <a href="../videos/sharon-mccormack-holography-c-1991.html" class="card" data-relevance="holography">
+            <h3>🔴 Sharon McCormack &#x27;Holography&#x27; c  1991</h3>
+            <div class="card-meta">July 30, 2021 · 5m 51s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Welcome back to Frontrunners everybody. Now our next story deals with desire, determination, and dedication. But in this case, those 3 D&#x27;s added up to these 3 D&#x27;s. Take a look. Although you can&#x27;t…</div>
+        </a>
+
+        <a href="../videos/sharon-mccormack-holography-c-1983.html" class="card" data-relevance="holography">
+            <h3>🔴 Sharon McCormack Holography  c. 1983</h3>
+            <div class="card-meta">July 30, 2021 · 6m 54s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Each of these different images on here was shot separately on a rotating platform. The reason for the rotation is that every frame is giving a slightly different angle of view on this image, which is…</div>
+        </a>
+
+        <a href="../videos/fred-unterseher-visual-zombies-video-by-xar3d-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Fred Unterseher - &quot;Visual Zombies&quot; - video by XAR3D (Razutis)</h3>
+            <div class="card-meta">July 13, 2021 · 1m 39s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">I think we&#x27;re going around as a bunch of visual zombies. What I mean by that is that I think we&#x27;re primarily almost totally unconscious of the process of seeing and experiencing. See, it comes right…</div>
+        </a>
+
+        <a href="../videos/fred-unterseher-a-lecture-on-light-and-holography-by-xar3d-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Fred Unterseher --  &#x27;a lecture on light and holography&#x27; by XAR3D (Razutis)</h3>
+            <div class="card-meta">July 13, 2021 · 3m 7s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Okay, so I suppose you think you see an image in front of you here. Well, in a sense, what you&#x27;re looking at is an image form video-wise. But at a more basic level, you don&#x27;t see any objects at all.…</div>
+        </a>
+
+        <a href="../videos/ether-vane-conjugate-images-by-al-razutis-anaglyph-video.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 &#x27;Ether Vane&#x27; - Conjugate Images by Al Razutis -- Anaglyph video</h3>
+            <div class="card-meta">April 24, 2021 · 0m 41s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">and in the other configuration, that is its flip side, it appears to project out. This projection is called a real image. It is typically pseudoscopic, and it is the backside of the holographic image…</div>
+        </a>
+
+        <a href="../videos/the-virtual-body-excerpts-by-xar3d-2021.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 The Virtual Body  - excerpts by XAR3D 2021</h3>
+            <div class="card-meta">January 09, 2021 · 1m 56s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">In 1972 and 1973, I started a process of work in holography towards an exhibition called Visual Alchemy. This was also named after my studio. Part of the process involved experimenting with holograms…</div>
+        </a>
+
+        <a href="../videos/the-embrace-by-sharon-mccormack-1980-multiplex-hologram-video-by-xar3d-2021.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;The Embrace&#x27; by Sharon McCormack, 1980 - multiplex hologram - video by XAR3D 2021</h3>
+            <div class="card-meta">January 08, 2021 · 2m 50s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is a 360 degree multiplex hologram titled The Embrace by Sharon McCormick. It&#x27;s a walk-around motion picture multiplex hologram, which is also known as integral or holographic stereogram. And…</div>
+        </a>
+
+        <a href="../videos/the-fortune-teller-multiplex-hologram-video-by-xar3d-2020.html" class="card" data-relevance="holography">
+            <h3>🔴 The Fortune Teller  - multiplex hologram - video by XAR3D 2020</h3>
+            <div class="card-meta">January 02, 2021 · 1m 0s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">These are 180 degree holograms, two of them, The Fortune Teller by Sharon McCormick, 1979. Multiplex holograms, also called integrals. The Fortune Teller. She was shooting, acting, and also being the…</div>
+        </a>
+
+        <a href="../videos/lloyd-cross-kiss-2-multiplex-holograms-by-video-by-xar3d-2020.html" class="card" data-relevance="holography">
+            <h3>🔴 Lloyd Cross &amp; Kiss 2 - multiplex holograms by - video by  XAR3D 2020</h3>
+            <div class="card-meta">January 02, 2021 · 1m 55s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is Lloyd Cross, the inventor of multiplex holography and printers, showing his original KISS II multiplex hologram. This is the KISS II hologram. 120 degrees, multiplex hologram by Lloyd Cross,…</div>
+        </a>
+
+        <a href="../videos/portraits-of-sharon-by-lloyd-cross-multiplex-holograms-video-by-xar3d-2020.html" class="card" data-relevance="holography">
+            <h3>🔴 Portraits of Sharon by Lloyd Cross - multiplex holograms - video by XAR3D 2020</h3>
+            <div class="card-meta">December 28, 2020 · 1m 38s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is a 360-degree multiplex holographic stereogram, also called Integral, by Lloyd Cross, made in 1979, titled Portrait of Sharon, referring to a portrait of Sharon McCormick, who would become his…</div>
+        </a>
+
+        <a href="../videos/first-cylindric-chromo-hologram-portrait-of-alice-coopers-brain-by-salvador.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;First Cylindric Chromo-Hologram Portrait of Alice Cooper&#x27;s Brain&#x27; by Salvador Dali video by XAR3D</h3>
+            <div class="card-meta">December 24, 2020 · 0m 25s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">These are multiple holograms, sections done by Lloyd Cross for Salvador Dali and Sullivan Lissick of Alice Cooper in 1973.</div>
+        </a>
+
+        <a href="../videos/striding-crawling-by-simon-forti-1977-multiplex-hologram-by-lloyd-cross.html" class="card" data-relevance="holography">
+            <h3>🔴 Striding Crawling by Simon Forti 1977  multiplex hologram by Lloyd Cross - video by XAR3D</h3>
+            <div class="card-meta">December 24, 2020 · 1m 17s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is a 360 degree hologram by Lloyd Cross in 1977 approximately and it was made for Simone Forti. And this hologram as per the note on the hologram itself contains some glitches. It&#x27;s a 360 degree…</div>
+        </a>
+
+        <a href="../videos/dali-painting-gala-multiplex-hologram-hd-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Dali Painting Gala&#x27; multiplex hologram - HD video by Al Razutis</h3>
+            <div class="card-meta">December 23, 2020 · 1m 51s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is a 360 degree multiplex hologram created by Lloyd Cross as part of the collection of Sharon McCormick. Its title is Dolly Painting Gala. It was created in 1976 by Lloyd Cross for Salvador Dali…</div>
+        </a>
+
+        <a href="../videos/rob-taylor-interviewed-by-al-razutis-2013-anaglyph-3d.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Rob Taylor interviewed by Al Razutis 2013 - anaglyph 3D</h3>
+            <div class="card-meta">December 15, 2020 · 15m 41s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">It was love at first sight because I had gone to school for fine arts photography. And one of the challenges of photography, that&#x27;s back when it was film days, you know, but one of the challenges was…</div>
+        </a>
+
+        <a href="../videos/place-of-the-first-time-vr-world-reading-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Place of the First Time - VR world, reading by Al Razutis</h3>
+            <div class="card-meta">July 19, 2020 · 1m 52s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Place of the first time. In whatever library you wish to, imagine coming upon an item in the section named Antiquities. Imagine there a book that reads and from within about a time machine. Not…</div>
+        </a>
+
+        <a href="../videos/waveforms-and-synapses-excerpts-from-1970s-videos-by-al-razutis-4-min.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 &#x27;Waveforms and Synapses&#x27; - excerpts from 1970&#x27;s videos by Al Razutis - 4 min.</h3>
+            <div class="card-meta">February 08, 2020 · 3m 59s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">...phrenomenon related to our own neural systems. Sensing this, I pursued biofeedback experiments with the intent to use my brainwaves, heartbeat, and respiration readings as voltage control for…</div>
+        </a>
+
+        <a href="../videos/vortex-by-al-razutis-1972-two-excerpts-4-min.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Vortex - by Al Razutis 1972 - two excerpts - 4 min.</h3>
+            <div class="card-meta">February 08, 2020 · 3m 59s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/galiano-suite-2-rhythms-al-razutis-2d3d-2019-14-min.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Galiano Suite 2  -  Rhythms -  Al Razutis   2D/3D  2019 14 min.</h3>
+            <div class="card-meta">November 04, 2019 · 13m 51s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you you you you you you you you you
+
+you you you you you you you you you you you
+
+you you you you you you you you</div>
+        </a>
+
+        <a href="../videos/ensalada-deja-vu-para-aqui-19-min-anaglyph-3d-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Ensalada Deja Vu - &#x27;para aqui&#x27;  19 min.- anaglyph 3D  by Al Razutis 2019</h3>
+            <div class="card-meta">November 01, 2019 · 19m 35s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Oh Oh Oh
+
+I can see you. Oh good. What? Cheers. Cheers. . . . . . . I don&#x27;t know how to get going. I just don&#x27;t know how to get going. That was good. No, the... Can you talk to him? Okay. I want to…</div>
+        </a>
+
+        <a href="../videos/the-playa-at-night-a-voyeurs-delight-3d-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 The Playa at Night a voyeur&#x27;s delight 3D Al Razutis</h3>
+            <div class="card-meta">October 31, 2019 · 2m 51s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you. Thank you. Thank you. Thank you. Thank you.</div>
+        </a>
+
+        <a href="../videos/galiano-shorebreak-5-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Galiano Shorebreak - 5 min. anaglyph 3D video by Al Razutis 2019</h3>
+            <div class="card-meta">October 31, 2019 · 4m 41s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you you you you you you you you</div>
+        </a>
+
+        <a href="../videos/chain-of-events-bm-2015-by-al-razutis-5min-720p.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Chain of Events BM  2015 by Al Razutis 5min 720p</h3>
+            <div class="card-meta">October 31, 2019 · 5m 3s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Oh! And he gets like, handlebar. Yeah! Whoa! And uh... Fuck. That&#x27;s a big spot. Ah, you missed it. Oh! That&#x27;s how you start. Yeah. Oh my god. Yeah. That&#x27;s quite a kick. That kick was quite a kick.…</div>
+        </a>
+
+        <a href="../videos/ensalada-deja-vu-para-llevar-6-min-anaglyph-3d-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Ensalada Deja Vu -  &#x27;para llevar&#x27; 6 min.  - anaglyph 3D  by Al Razutis 2019</h3>
+            <div class="card-meta">October 31, 2019 · 6m 7s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">The Black Lives Matter movement is a movement that is not only about the black community, but also about the community as a whole. The movement is about the black community, and it is about the black…</div>
+        </a>
+
+        <a href="../videos/galiano-shorebreak-11-min-anaglyph-3d-video-by-al-razutis-2019.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Galiano Shorebreak - 11 min. anaglyph 3D video by Al Razutis 2019</h3>
+            <div class="card-meta">October 31, 2019 · 11m 7s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you you you you you you you you you
+
+you you you you you you you you you you you
+
+you you you</div>
+        </a>
+
+        <a href="../videos/the-playa-in-white-in-sand-wind-and-light-al-razutis-burning-man-2015-3-min.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 The Playa in White (in sand wind and light)   Al Razutis  Burning Man 2015  3 min</h3>
+            <div class="card-meta">October 30, 2019 · 3m 6s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you for watching. Thank you for watching. Thank you for watching. Thank you for watching. Thank you for watching. Thank you for watching. Thank you for watching.</div>
+        </a>
+
+        <a href="../videos/galiano-suite-no-1-al-razutis-2019-4-min-normal-viewing-sound.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Galiano Suite - No. 1 - Al Razutis 2019 - 4 min. - normal viewing - sound</h3>
+            <div class="card-meta">October 30, 2019 · 4m 9s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.</div>
+        </a>
+
+        <a href="../videos/night-scenes-burning-man-2015-by-al-razutis-5-min-720p.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Night Scenes Burning Man 2015  by Al Razutis  5 min 720P</h3>
+            <div class="card-meta">October 30, 2019 · 5m 7s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">!
+
+Thank you. Thank you. Thank you. Thank you.</div>
+        </a>
+
+        <a href="../videos/quasimodos-poem-al-razutis-vrml-1996-90-sec-with-sound-standard-viewing.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Quasimodo&#x27;s Poem - Al Razutis -  VRML 1996 - 90 sec. with sound, standard viewing</h3>
+            <div class="card-meta">September 30, 2019 · 1m 30s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Within his angle of the westward sight, Hugo has been a witness to it all, and he limps over to his wooden chair and scratches a deep X on the heavy wood table. The westward window shimmers, sifting…</div>
+        </a>
+
+        <a href="../videos/anait-dancing-with-light-waves-360-multiplex-holograms-by-anait-stephens.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Anait - Dancing with Light Waves&#x27; - 360 multiplex holograms by Anait Stephens</h3>
+            <div class="card-meta">August 07, 2019 · 1m 34s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is the first of my Holodion series. I call it Space Graffiti Whipped Cream. It was a new place to create a performance. Here I am flying as Daughter of Icarus, which followed Space Graffiti in…</div>
+        </a>
+
+        <a href="../videos/earth-360-degree-multiplex-hologram-by-sharon-mccormack-anaglyph-3d-video-by.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Earth&#x27;  - 360 degree multiplex hologram by Sharon McCormack   - Anaglyph 3D video by Al Razutis</h3>
+            <div class="card-meta">August 30, 2018 · 1m 12s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you okay this is a 360 degree hologram multiplex hologram okay this is a 360 degree hologram multiplex hologram also called holographic stereogram the also called holographic stereogram the globe in…</div>
+        </a>
+
+        <a href="../videos/earth-and-michael-jordan-multiplex-holograms-by-sharon-mccormack-video-by-al.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Earth&#x27; and &#x27;Michael Jordan&#x27; - multiplex holograms by Sharon McCormack   - video by Al Razutis</h3>
+            <div class="card-meta">August 30, 2018 · 1m 25s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you you you yes this globe is a 360 degree multiplex hologram you can see here this has a light baffle and the cars here</div>
+        </a>
+
+        <a href="../videos/studio-visitor-multiplex-holograms-3d-1-min-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Studio Visitor   Multiplex holograms   3D 1 min  Al Razutis</h3>
+            <div class="card-meta">August 27, 2018 · 0m 57s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Warrior Princess and what is she saying? Is she going how? Or umgawa? I&#x27;m not quite sure. And then we have the, it&#x27;s almost a classic of the, of this particular, the crystal ball. And this is…</div>
+        </a>
+
+        <a href="../videos/apsaras-masters-1-min-2d-film-by-al-razutis-silent.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 &#x27;Apsaras Masters&#x27; - 1 min. 2D film by Al Razutis - silent</h3>
+            <div class="card-meta">August 25, 2018 · 1m 17s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you</div>
+        </a>
+
+        <a href="../videos/fortune-teller-and-the-rose-multiplex-holograms-by-sharon-mccormack-by-al.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Fortune Teller&#x27; and  &#x27;The Rose&#x27;  -  multiplex holograms by Sharon McCormack -  by Al Razutis</h3>
+            <div class="card-meta">August 23, 2018 · 1m 59s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you you you you</div>
+        </a>
+
+        <a href="../videos/fortune-teller-180-degree-hologram-by-sharon-mccormack-1979-2d-video-by-al.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Fortune Teller&#x27; - 180 degree hologram by Sharon McCormack 1979  - 2D video by Al Razutis</h3>
+            <div class="card-meta">August 22, 2018 · 0m 12s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/time-man-360-degree-hologram-by-sharon-mccormack-1982-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Time Man&#x27; - 360 degree hologram by Sharon McCormack 1982  - 2D video by Al Razutis</h3>
+            <div class="card-meta">August 22, 2018 · 0m 23s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/michael-jordan-by-sharon-mccormack-360-degree-hologram-2d-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;Michael Jordan&#x27; by Sharon McCormack - 360 degree hologram - 2D by Al Razutis</h3>
+            <div class="card-meta">August 22, 2018 · 0m 25s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/tribal-holograms-by-sharon-mccormack-anaglyph-3d-video-1-min.html" class="card" data-relevance="holography">
+            <h3>🔴 Tribal Holograms by Sharon McCormack - Anaglyph 3D video - 1 min.</h3>
+            <div class="card-meta">August 22, 2018 · 0m 56s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">you you</div>
+        </a>
+
+        <a href="../videos/apsaras-china-projected-720p-anaglyph-3d-2-min.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 APSARAS CHINA PROJECTED 720P ANAGLYPH 3D - 2 MIN.</h3>
+            <div class="card-meta">August 13, 2018 · 1m 55s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">This demonstration is basically comprised of several video clips showing you the nature of the projection apparatus. Images that are projected are video images combined with holographic images that…</div>
+        </a>
+
+        <a href="../videos/apsara-series-anaglyph-3d-video-3-min-silent.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Apsara Series - Anaglyph 3D video - 3 min. silent</h3>
+            <div class="card-meta">August 07, 2018 · 2m 53s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">you you you you you you</div>
+        </a>
+
+        <a href="../videos/virtual-space-virtual-imaging-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Virtual Space (Virtual Imaging) - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 22, 2012 · 5m 20s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Hi, my name is Al Rizoutis and I&#x27;m here in a garden in virtual space, in virtual image wonderland. And I&#x27;m reading a book, Through the Looking Glass, and what Alice found there appropriately. Because…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-melissa-crenshaw-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Melissa Crenshaw  - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 13, 2012 · 2m 11s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-anait-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Anait - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 12, 2012 · 3m 3s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">I was just so I was just so I was just so I was just so I was just so</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-roberta-booth-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Roberta Booth - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 11, 2012 · 1m 13s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Well, I&#x27;ve always been interested in light. You begin to notice the light, the quality of light, the color of light, how it falls on subjects. You&#x27;re always aware, whether you have a camera or not,…</div>
+        </a>
+
+        <a href="../videos/gary-cullen-stereo-photography-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Gary Cullen - Stereo Photography - 3D Video by Al Razutis</h3>
+            <div class="card-meta">February 10, 2012 · 2m 13s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">My interest in stereo photography started when I was about 15 years old in high school. I&#x27;d already been interested in photography and started taking three-dimensional pictures with a single camera…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-mary-harman-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Mary Harman - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 02, 2012 · 1m 25s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This series partially arose from my work as a critical care nurse. Working nights in the neurosurgical ICU, one becomes very aware of the sounds in the room. The constant noise of the machines, the…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-jim-feroe-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Jim Feroe - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 01, 2012 · 1m 24s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">In this case, it&#x27;s a concrete table and it weighs approximately 6,000 pounds. So obviously I couldn&#x27;t make it outside and then move it in. So I had to form up and have the concrete pumped in from the…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Fred Unterseher - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 01, 2012 · 2m 0s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/pulsed-ruby-laser-holography-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Pulsed ruby laser holography by Fred Unterseher - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 01, 2012 · 2m 41s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Here we are, Zone Holographic Studios, North Hollywood. This is a pulsed camera or a pulsed holographic setup. We&#x27;ve got a pulsed laser here and we&#x27;ve got a bunch of collimated mirrors. These are…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-john-kaufman-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by John Kaufman - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 01, 2012 · 2m 48s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Come on in.</div>
+        </a>
+
+        <a href="../videos/pulsed-holographic-art-by-fred-unterseher-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Pulsed holographic art by Fred Unterseher - 2D video by Al Razutis</h3>
+            <div class="card-meta">February 01, 2012 · 4m 9s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This allows you to really begin to think in terms of a different mind sense. In a sense, you have a fluid motion-time-volume sense to work in. Well, the work that I&#x27;m doing, I&#x27;m working with planes…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-steve-weinstock-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Steve Weinstock - 2D video by Al Razutis</h3>
+            <div class="card-meta">January 30, 2012 · 2m 29s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Alchemy is creating something of value out of base materials. One and one makes a million. If you put things together, in this case, silver halide holographic film and laser light and a couple of…</div>
+        </a>
+
+        <a href="../videos/holographic-art-by-dan-schweitzer-2d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Holographic art by Dan Schweitzer - 2D video by Al Razutis</h3>
+            <div class="card-meta">January 30, 2012 · 4m 40s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">This is Gloria. She&#x27;s good. She&#x27;s good. What she&#x27;s holding right here is connected to Mr. Schweitzer. She&#x27;s got a grip on me, too. All right, Schweitzer, let&#x27;s rock on this. Yeah, my work does tend…</div>
+        </a>
+
+        <a href="../videos/the-holography-of-chuck-paxton-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Chuck Paxton - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 25, 2012 · 2m 36s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Chuck Paxton. I&#x27;ve been doing holography now for about 10 years. Basically taught myself in the garage with the use of just a $50 kit from a laser supply house. And got more information on it.…</div>
+        </a>
+
+        <a href="../videos/the-holography-of-al-razutis-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Al Razutis - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 20, 2012 · 3m 18s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">In 1972 and 1973, I started a process of work in holography towards an exhibition called Visual Alchemy. This was also named after my studio. Part of the process involved experimenting with holograms…</div>
+        </a>
+
+        <a href="../videos/shadows-of-love-lomas-biely-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Shadows of Love (Lomas &amp; Biely) - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 17, 2012 · 0m 47s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">© BF-WATCH TV 2021</div>
+        </a>
+
+        <a href="../videos/the-holography-of-fred-unterseher-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Fred Unterseher - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 16, 2012 · 3m 21s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">The hologram is like a lens. It takes the light, we capture the light that&#x27;s reflected from the object, and record the way it was reflected off of the object, and then reconstruct the way that…</div>
+        </a>
+
+        <a href="../videos/the-holography-of-gary-cullen-holocrafts-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Gary Cullen - Holocrafts - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 14, 2012 · 1m 37s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/the-holography-of-melissa-crenshaw-and-sidney-dinsmore-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Melissa Crenshaw and Sidney Dinsmore - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 14, 2012 · 2m 44s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/the-holography-of-sharon-mccormack-3d-video-3-min-extract-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 The Holography of Sharon McCormack - 3D video (3 min. extract) by Al Razutis</h3>
+            <div class="card-meta">January 08, 2012 · 2m 43s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Hi, glad to have you with us. My name is Sharon McCormick and I&#x27;m here to share my artwork with you. I&#x27;ve always loved theater and dressing up and playing and making sets and I&#x27;m also a very…</div>
+        </a>
+
+        <a href="../videos/basic-transmission-hologram-set-up-by-chuck-paxton-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3>🔴 Basic Transmission Hologram Set Up by Chuck Paxton - 3D video by Al Razutis</h3>
+            <div class="card-meta">January 05, 2012 · 1m 29s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">Hi, I&#x27;m Chuck Paxton and you&#x27;re at Paxton Holographics. Today we&#x27;re going to show how to do a transmission hologram. Starting with our laser, which is a frequency double-gag, producing 532 nanometer…</div>
+        </a>
+
+        <a href="../videos/aqua-blue-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Aqua blue - 3D wallpaper (Razutis)</h3>
+            <div class="card-meta">January 02, 2012 · 0m 13s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/aqua-yellow-red-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Aqua yellow-red - 3D wallpaper (Razutis)</h3>
+            <div class="card-meta">January 02, 2012 · 0m 14s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/aqua-fuchsia-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Aqua fuchsia - 3D wallpaper (Razutis)</h3>
+            <div class="card-meta">January 02, 2012 · 0m 21s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/nagual-pt-2-treading-lightly-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Nagual (pt. 2)  &#x27;Treading Lightly&#x27; - 3D Video by Al Razutis</h3>
+            <div class="card-meta">January 02, 2012 · 0m 45s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/aqua-green-3d-wallpaper-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Aqua green - 3D wallpaper (Razutis)</h3>
+            <div class="card-meta">January 02, 2012 · 0m 50s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/the-embrace-hologram-by-sharon-mccormack-3d-video-anaglyph.html" class="card" data-relevance="holography">
+            <h3>🔴 The Embrace hologram by Sharon McCormack - 3D video anaglyph</h3>
+            <div class="card-meta">December 31, 2011 · 0m 13s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">I&#x27;ve always loved sensuality in photography, and so I created Embrace in 1980, 360 degrees, and sensuality in 3D.</div>
+        </a>
+
+        <a href="../videos/the-embrace-multiplex-hologram-by-sharon-mccormack-with-narration-in.html" class="card" data-relevance="holography">
+            <h3>🔴 &#x27;The Embrace&#x27; multiplex hologram by Sharon McCormack with narration  - in anaglyph 3D by Al Razutis</h3>
+            <div class="card-meta">December 31, 2011 · 0m 13s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt">I&#x27;ve always loved sensuality in photography, and so I created Embrace in 1980, 360 degrees, and sensuality in 3D.</div>
+        </a>
+
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Virtual Flesh 3D video by Al Razutis</h3>
+            <div class="card-meta">December 30, 2011 · 0m 39s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Virtual Flesh  3D video by Al Razutis</h3>
+            <div class="card-meta">December 30, 2011 · 0m 40s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/france-1997-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 France  1997 3D video by Al Razutis</h3>
+            <div class="card-meta">December 30, 2011 · 0m 43s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thanks for watching.</div>
+        </a>
+
+        <a href="../videos/france-1997-3d-video-by-al-razutis-i-saw-your-videos-at-the-louvre-1-min-17-sec.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 France  1997 3D video by Al Razutis - &quot;I saw your videos at the Louvre&quot; - 1 min. 17 sec.</h3>
+            <div class="card-meta">December 30, 2011 · 1m 17s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt">Thank you.</div>
+        </a>
+
+        <a href="../videos/virtual-flesh-3d-video-by-al-razutis.html" class="card" data-relevance="holography-adjacent">
+            <h3>🔴 Virtual Flesh 3D video by Al Razutis</h3>
+            <div class="card-meta">December 30, 2011 · 1m 19s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/holography-by-becky-deem-3d-video-by-al-razutis.html" class="card" data-relevance="holography">
+            <h3> Holography by Becky Deem - 3D Video by Al Razutis</h3>
+            <div class="card-meta">Unknown · 1m 29s · Youtube 🔬 Holography</div>
+            <div class="card-excerpt"></div>
+        </a>
+
+        <a href="../videos/virtual-flesh-anaglyph-3d-video-by-al-razutis-3-min-excerpt-from-1996-film.html" class="card" data-relevance="holography-adjacent">
+            <h3> Virtual Flesh - anaglyph 3D video by Al Razutis - 3 min. excerpt from 1996 film</h3>
+            <div class="card-meta">Unknown · 2m 41s · Youtube 🔗 Adjacent</div>
+            <div class="card-excerpt"></div>
+        </a>
+</div>
+</main>
+<footer>
+<div class="container">
+<p>Al Razutis — XAR3D · 91 videos</p>
+</div>
+</footer>
+<script>
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    document.querySelectorAll("#video-grid .card").forEach(card => {
+      card.style.display = (filter === "all" || card.dataset.relevance === filter) ? "" : "none";
+    });
+  });
+});
+</script>
+</body>
+</html>
