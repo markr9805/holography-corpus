@@ -495,6 +495,104 @@ footer {
     line-height: 1.6;
     white-space: pre-wrap;
 }
+
+/* Theme tags */
+.theme-tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 2px 3px 2px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+.theme-tag:hover {
+    filter: brightness(1.2);
+    text-decoration: none;
+}
+.theme-cgh { background: #1a4b8c33; color: #58a6ff; border: 1px solid #58a6ff44; }
+.theme-dcg { background: #8b5cf633; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-denisyuk { background: #f59e0b33; color: #fbbf24; border: 1px solid #fbbf2444; }
+.theme-transmission { background: #10b98133; color: #34d399; border: 1px solid #34d39944; }
+.theme-rainbow { background: #ec489933; color: #f472b6; border: 1px solid #f472b644; }
+.theme-laser { background: #ef444433; color: #f87171; border: 1px solid #f8717144; }
+.theme-emulsion { background: #8b5cf633; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-exhibition { background: #06b6d433; color: #22d3ee; border: 1px solid #22d3ee44; }
+.theme-artist { background: #f9731633; color: #fb923c; border: 1px solid #fb923c44; }
+.theme-education { background: #84cc1633; color: #a3e635; border: 1px solid #a3e63544; }
+.theme-history { background: #a78bfa33; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-industry { background: #14b8a633; color: #2dd4bf; border: 1px solid #2dd4bf44; }
+.theme-metasurface { background: #6366f133; color: #818cf8; border: 1px solid #818cf844; }
+.theme-display { background: #0ea5e933; color: #38bdf8; border: 1px solid #38bdf844; }
+.theme-portrait { background: #e879f933; color: #d8b4fe; border: 1px solid #d8b4fe44; }
+.theme-abstract { background: #f43f5e33; color: #fb7185; border: 1px solid #fb718544; }
+.theme-medical { background: #22c55e33; color: #4ade80; border: 1px solid #4ade8044; }
+.theme-security { background: #eab30833; color: #facc15; border: 1px solid #facc1544; }
+.theme-sound { background: #7c3aed33; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-general { background: #64748b33; color: #94a3b8; border: 1px solid #94a3b844; }
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.theme-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: border-color 0.2s;
+}
+.theme-card:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+.theme-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.theme-card .theme-count {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.theme-card .theme-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+}
+
+.theme-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0;
+}
+.theme-filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.15s;
+}
+.theme-filter-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+.theme-filter-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
 </style>
 </head>
 <body>
@@ -523,6 +621,11 @@ footer {
 <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
 <button class="filter-btn" data-filter="video" onclick="setFilter('video')">📹 Videos</button>
 <button class="filter-btn" data-filter="forum-thread" onclick="setFilter('forum-thread')">💬 Forum</button>
+</div>
+
+<div id="theme-filters" style="display:none; margin: 0.5rem 0 1rem 0;">
+<p style="margin-bottom:0.3rem;color:var(--text-muted);font-size:0.85em;">Filter by theme:</p>
+<div class="theme-filter-bar" id="theme-filter-bar"></div>
 </div>
 
 <div id="search-results" class="search-results"></div>
@@ -564,6 +667,30 @@ footer {
 let searchIndex;
 let documents = [];
 let currentFilter = 'all';
+let currentTheme = null;
+
+const THEME_ICONS = {
+  'CGH / Digital': '💻',
+  'Exhibition / Gallery': '🏛️',
+  'Laser / Optics': '🔴',
+  'Artist / Creative': '🎨',
+  'Education / Tutorial': '📚',
+  'Rainbow / Benton': '🌈',
+  'DCG / Silver Halide': '🧪',
+  'General Holography': '🔬',
+  'Industry / Commercial': '🏭',
+  'Emulsion / Materials': '🎞️',
+  'Denisyuk / Reflection': '🪞',
+  'Portrait / Figure': '👤',
+  'Medical / Scientific': '🩺',
+  'Sound / Acoustics': '🔊',
+  'Transmission Holography': '💡',
+  'Metasurface / DOE': '🔮',
+  'Display Technology': '📺',
+  'Security / Anti-counterfeit': '🔐',
+  'Abstract / Geometric': '✨',
+  'History / Pioneers': '📜',
+};
 
 fetch('../analysis/search-index.json')
   .then(r => r.json())
@@ -582,6 +709,23 @@ fetch('../analysis/search-index.json')
       });
     });
 
+    // Build theme filter bar
+    const themeCounts = {};
+    documents.forEach(d => {
+      if (d.primary_theme && d.type === 'video') {
+        themeCounts[d.primary_theme] = (themeCounts[d.primary_theme] || 0) + 1;
+      }
+    });
+    const themeBar = document.getElementById('theme-filter-bar');
+    Object.entries(themeCounts).sort((a,b) => b[1]-a[1]).forEach(([theme, count]) => {
+      const btn = document.createElement('button');
+      btn.className = 'theme-filter-btn';
+      btn.textContent = (THEME_ICONS[theme] || '') + ' ' + theme + ' (' + count + ')';
+      btn.dataset.theme = theme;
+      btn.onclick = () => setThemeFilter(theme);
+      themeBar.appendChild(btn);
+    });
+
     // Check for URL query param
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q');
@@ -596,6 +740,19 @@ function setFilter(filter) {
     document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.filter === filter);
     });
+    doSearch();
+}
+
+function setThemeFilter(theme) {
+    if (currentTheme === theme) {
+        currentTheme = null;
+        document.querySelectorAll('.theme-filter-btn').forEach(b => b.classList.remove('active'));
+    } else {
+        currentTheme = theme;
+        document.querySelectorAll('.theme-filter-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.theme === theme);
+        });
+    }
     doSearch();
 }
 
@@ -617,6 +774,7 @@ function doSearch() {
 
   // Show filters
   filtersDiv.style.display = 'block';
+  document.getElementById('theme-filters').style.display = 'block';
 
   try {
     let results = searchIndex.search(query);
@@ -625,6 +783,14 @@ function doSearch() {
         results = results.filter(r => {
             const doc = documents.find(d => d.id === r.ref);
             return doc && doc.type === currentFilter;
+        });
+    }
+
+    // Filter by theme
+    if (currentTheme) {
+        results = results.filter(r => {
+            const doc = documents.find(d => d.id === r.ref);
+            return doc && (doc.primary_theme === currentTheme || (doc.themes && doc.themes.includes(currentTheme)));
         });
     }
 

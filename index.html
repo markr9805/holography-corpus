@@ -495,6 +495,104 @@ footer {
     line-height: 1.6;
     white-space: pre-wrap;
 }
+
+/* Theme tags */
+.theme-tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 2px 3px 2px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+.theme-tag:hover {
+    filter: brightness(1.2);
+    text-decoration: none;
+}
+.theme-cgh { background: #1a4b8c33; color: #58a6ff; border: 1px solid #58a6ff44; }
+.theme-dcg { background: #8b5cf633; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-denisyuk { background: #f59e0b33; color: #fbbf24; border: 1px solid #fbbf2444; }
+.theme-transmission { background: #10b98133; color: #34d399; border: 1px solid #34d39944; }
+.theme-rainbow { background: #ec489933; color: #f472b6; border: 1px solid #f472b644; }
+.theme-laser { background: #ef444433; color: #f87171; border: 1px solid #f8717144; }
+.theme-emulsion { background: #8b5cf633; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-exhibition { background: #06b6d433; color: #22d3ee; border: 1px solid #22d3ee44; }
+.theme-artist { background: #f9731633; color: #fb923c; border: 1px solid #fb923c44; }
+.theme-education { background: #84cc1633; color: #a3e635; border: 1px solid #a3e63544; }
+.theme-history { background: #a78bfa33; color: #c4b5fd; border: 1px solid #c4b5fd44; }
+.theme-industry { background: #14b8a633; color: #2dd4bf; border: 1px solid #2dd4bf44; }
+.theme-metasurface { background: #6366f133; color: #818cf8; border: 1px solid #818cf844; }
+.theme-display { background: #0ea5e933; color: #38bdf8; border: 1px solid #38bdf844; }
+.theme-portrait { background: #e879f933; color: #d8b4fe; border: 1px solid #d8b4fe44; }
+.theme-abstract { background: #f43f5e33; color: #fb7185; border: 1px solid #fb718544; }
+.theme-medical { background: #22c55e33; color: #4ade80; border: 1px solid #4ade8044; }
+.theme-security { background: #eab30833; color: #facc15; border: 1px solid #facc1544; }
+.theme-sound { background: #7c3aed33; color: #a78bfa; border: 1px solid #a78bfa44; }
+.theme-general { background: #64748b33; color: #94a3b8; border: 1px solid #94a3b844; }
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.theme-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: border-color 0.2s;
+}
+.theme-card:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+.theme-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.theme-card .theme-count {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.theme-card .theme-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+}
+
+.theme-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0;
+}
+.theme-filter-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.15s;
+}
+.theme-filter-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+.theme-filter-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
 </style>
 </head>
 <body>
@@ -504,6 +602,7 @@ footer {
 <nav>
 <a href="index.html">Home</a>
 <a href="creators/index.html">Creators</a>
+<a href="themes/index.html">Themes</a>
 <a href="forum/index.html">Forum</a>
 <a href="search/index.html">Search</a>
 <a href="ask/index.html">Ask</a>
@@ -606,52 +705,107 @@ footer {
         <a href="videos/spotlight-all-things-gratings-with-dave-ventola-omega-optical.html" class="card">
             <h3>Spotlight: All Things Gratings — With Dave Ventola, Omega Optical</h3>
             <div class="card-meta">All Things Photonics · April 21, 2026 · 35m 4s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a> <a href="themes/industry-commercial.html" class="theme-tag theme-industry">🏭 Industry / Commercial</a> <a href="themes/dcg-silver-halide.html" class="theme-tag theme-dcg">🧪 DCG / Silver Halide</a></div>
         </a>
 
         <a href="videos/the-physics-of-un-hackable-face-recognition-rob-devlin-on-metalenz.html" class="card">
             <h3>The Physics of Un-Hackable Face Recognition — Rob Devlin on Metalenz</h3>
             <div class="card-meta">632nm · April 21, 2026 · 1h 13m · Podcast</div>
+            <div class="card-excerpt"><a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a> <a href="themes/metasurface-doe.html" class="theme-tag theme-metasurface">🔮 Metasurface / DOE</a> <a href="themes/display-technology.html" class="theme-tag theme-display">📺 Display Technology</a></div>
         </a>
 
         <a href="videos/snells-law-metasurfaces-and-metalenses-federico-capasso.html" class="card">
             <h3>Snell&#x27;s Law, Metasurfaces, and Metalenses — Federico Capasso</h3>
             <div class="card-meta">632nm · January 20, 2026 · 2h 13m · Podcast</div>
+            <div class="card-excerpt"><a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a> <a href="themes/metasurface-doe.html" class="theme-tag theme-metasurface">🔮 Metasurface / DOE</a> <a href="themes/display-technology.html" class="theme-tag theme-display">📺 Display Technology</a></div>
         </a>
 
         <a href="videos/national-security-and-laser-communication-with-dalius-petrulionis.html" class="card">
             <h3>National Security and Laser Communication — With Dalius Petrulionis</h3>
             <div class="card-meta">All Things Photonics · January 06, 2026 · 18m 48s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/medical-scientific.html" class="theme-tag theme-medical">🩺 Medical / Scientific</a> <a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a> <a href="themes/industry-commercial.html" class="theme-tag theme-industry">🏭 Industry / Commercial</a></div>
         </a>
 
         <a href="videos/previewing-photonics-west-2026-with-bob-hainsey-spie.html" class="card">
             <h3>Previewing Photonics West 2026 — With Bob Hainsey, SPIE</h3>
             <div class="card-meta">All Things Photonics · January 05, 2026 · 21m 23s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/cgh-digital.html" class="theme-tag theme-cgh">💻 CGH / Digital</a> <a href="themes/exhibition-gallery.html" class="theme-tag theme-exhibition">🏛️ Exhibition / Gallery</a></div>
         </a>
 
         <a href="videos/bringing-arvr-to-the-front-lines-with-rob-schultz.html" class="card">
             <h3>Bringing AR/VR to the Front Lines — With Rob Schultz</h3>
             <div class="card-meta">All Things Photonics · October 28, 2025 · 23m 51s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/emulsion-materials.html" class="theme-tag theme-emulsion">🎞️ Emulsion / Materials</a> <a href="themes/exhibition-gallery.html" class="theme-tag theme-exhibition">🏛️ Exhibition / Gallery</a> <a href="themes/artist-creative.html" class="theme-tag theme-artist">🎨 Artist / Creative</a></div>
         </a>
 
         <a href="videos/holographic-displays-from-the-war-room-to-the-living-room-with-wally-haas.html" class="card">
             <h3>Holographic Displays: From the War Room to the Living Room — With Wally Haas</h3>
             <div class="card-meta">All Things Photonics · July 08, 2025 · 27m 10s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/medical-scientific.html" class="theme-tag theme-medical">🩺 Medical / Scientific</a> <a href="themes/industry-commercial.html" class="theme-tag theme-industry">🏭 Industry / Commercial</a> <a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a></div>
         </a>
 
         <a href="videos/brightening-the-future-of-display-technologies-with-reza-chaji.html" class="card">
             <h3>Brightening the Future of Display Technologies — With Reza Chaji</h3>
             <div class="card-meta">All Things Photonics · June 24, 2025 · 28m 2s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/exhibition-gallery.html" class="theme-tag theme-exhibition">🏛️ Exhibition / Gallery</a> <a href="themes/display-technology.html" class="theme-tag theme-display">📺 Display Technology</a></div>
         </a>
 
         <a href="videos/from-failed-project-to-40-million-eye-scans-david-huang-on-the-birth-of-oct.html" class="card">
             <h3>From Failed Project to 40 Million Eye Scans: David Huang on the Birth of OCT</h3>
             <div class="card-meta">632nm · January 06, 2025 · 1h 29m · Podcast</div>
+            <div class="card-excerpt"><a href="themes/medical-scientific.html" class="theme-tag theme-medical">🩺 Medical / Scientific</a> <a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a> <a href="themes/industry-commercial.html" class="theme-tag theme-industry">🏭 Industry / Commercial</a></div>
         </a>
 
         <a href="videos/embracing-the-future-of-holography-with-mike-noonen-swave-photonics.html" class="card">
             <h3>Embracing the Future of Holography — With Mike Noonen, Swave Photonics</h3>
             <div class="card-meta">Following the Photonics · December 04, 2024 · 17m 25s · Podcast</div>
+            <div class="card-excerpt"><a href="themes/education-tutorial.html" class="theme-tag theme-education">📚 Education / Tutorial</a> <a href="themes/industry-commercial.html" class="theme-tag theme-industry">🏭 Industry / Commercial</a> <a href="themes/laser-optics.html" class="theme-tag theme-laser">🔴 Laser / Optics</a></div>
         </a>
+</div>
+<h2>Browse by Theme</h2>
+<div class="theme-grid">
+
+        <a href="themes/cgh-digital.html" class="theme-card">
+            <h3><span class="theme-tag theme-cgh">💻 CGH / Digital</span> <span class="theme-count">(84)</span></h3>
+            <div class="theme-desc">Computer-generated holography, SLMs, algorithms, phase-only holograms, computational methods</div>
+        </a>
+
+        <a href="themes/exhibition-gallery.html" class="theme-card">
+            <h3><span class="theme-tag theme-exhibition">🏛️ Exhibition / Gallery</span> <span class="theme-count">(66)</span></h3>
+            <div class="theme-desc">Museum shows, gallery exhibitions, installations, art displays, holography exhibitions</div>
+        </a>
+
+        <a href="themes/general.html" class="theme-card">
+            <h3><span class="theme-tag theme-general">🔬 General Holography</span> <span class="theme-count">(39)</span></h3>
+            <div class="theme-desc">General holography topics that don&#x27;t fit a specific subcategory</div>
+        </a>
+
+        <a href="themes/laser-optics.html" class="theme-card">
+            <h3><span class="theme-tag theme-laser">🔴 Laser / Optics</span> <span class="theme-count">(36)</span></h3>
+            <div class="theme-desc">Lasers, coherence, interference, diffraction, beam optics, spatial filters, collimation</div>
+        </a>
+
+        <a href="themes/artist-creative.html" class="theme-card">
+            <h3><span class="theme-tag theme-artist">🎨 Artist / Creative</span> <span class="theme-count">(34)</span></h3>
+            <div class="theme-desc">Holographic art, creative expression, aesthetic approaches, visual imagination</div>
+        </a>
+
+        <a href="themes/education-tutorial.html" class="theme-card">
+            <h3><span class="theme-tag theme-education">📚 Education / Tutorial</span> <span class="theme-count">(27)</span></h3>
+            <div class="theme-desc">How-to guides, beginner tutorials, workshops, classes, teaching holography</div>
+        </a>
+
+        <a href="themes/rainbow-benton.html" class="theme-card">
+            <h3><span class="theme-tag theme-rainbow">🌈 Rainbow / Benton</span> <span class="theme-count">(21)</span></h3>
+            <div class="theme-desc">Rainbow holograms, Benton stripe holograms, stereograms, color holography, pseudocolour</div>
+        </a>
+
+        <a href="themes/dcg-silver-halide.html" class="theme-card">
+            <h3><span class="theme-tag theme-dcg">🧪 DCG / Silver Halide</span> <span class="theme-count">(14)</span></h3>
+            <div class="theme-desc">Dichromated gelatin, silver halide emulsions, processing, bleaching, development</div>
+        </a>
+</div>
+<p><a href="themes/index.html">View all 17 themes →</a></p>
 <h2>💬 Recent Forum Discussions</h2>
 <div class="card-grid">
 
