@@ -32,7 +32,33 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); }
 .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
 
-
+header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.logo span { color: var(--accent); }
+nav { display: flex; gap: 24px; }
+nav a {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover { color: var(--accent); text-decoration: none; }
 
 main { padding: 32px 0; }
 h1 { color: var(--text-primary); font-size: 2em; margin-bottom: 8px; }
